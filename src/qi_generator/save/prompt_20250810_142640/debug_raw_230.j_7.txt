@@ -1,0 +1,152 @@
+\[
+{
+"statement": "Identifier les signes respiratoires de gravité imposant une décision thérapeutique immédiate.",
+"propositions": \[
+{
+"correct": true,
+"proposition": "Polypnée > 30/min",
+"justification": "La polypnée supérieure à 30/min fait partie des signes respiratoires de gravité."
+},
+{
+"correct": true,
+"proposition": "Bradypnée < 10/min ou pauses respiratoires",
+"justification": "La bradypnée inférieure à 10/min, ainsi que les pauses respiratoires, sont des signes respiratoires de gravité."
+},
+{
+"correct": true,
+"proposition": "Cyanose",
+"justification": "La cyanose est listée parmi les signes respiratoires de gravité."
+},
+{
+"correct": true,
+"proposition": "Tirage respiratoire",
+"justification": "Le tirage respiratoire est un signe respiratoire de gravité."
+},
+{
+"correct": false,
+"proposition": "Hypotension artérielle",
+"justification": "L’hypotension relève des signes hémodynamiques, pas des signes respiratoires."
+}
+]
+},
+{
+"statement": "Reconnaître les signes hémodynamiques de gravité imposant une décision thérapeutique immédiate.",
+"propositions": \[
+{
+"correct": true,
+"proposition": "Hypotension artérielle",
+"justification": "L’hypotension est un signe hémodynamique de gravité."
+},
+{
+"correct": true,
+"proposition": "Marbrures",
+"justification": "Les marbrures sont citées comme signes de choc, donc hémodynamiques."
+},
+{
+"correct": true,
+"proposition": "Extrémités froides",
+"justification": "Les extrémités froides font partie des signes de choc hémodynamique."
+},
+{
+"correct": true,
+"proposition": "Oligurie",
+"justification": "L’oligurie est un signe de choc sur le versant hémodynamique."
+},
+{
+"correct": false,
+"proposition": "Tirage respiratoire",
+"justification": "Le tirage est un signe respiratoire, pas hémodynamique."
+}
+]
+},
+{
+"statement": "Classer les manifestations suivantes selon le domaine neurologique (gravité immédiate) ou non.",
+"propositions": \[
+{
+"correct": true,
+"proposition": "Troubles de conscience",
+"justification": "Les troubles de conscience font partie des signes neurologiques de gravité."
+},
+{
+"correct": true,
+"proposition": "Confusion",
+"justification": "La confusion est un signe neurologique de gravité."
+},
+{
+"correct": true,
+"proposition": "Agitation",
+"justification": "L’agitation figure parmi les signes neurologiques de gravité."
+},
+{
+"correct": false,
+"proposition": "Cyanose",
+"justification": "La cyanose est un signe respiratoire, pas neurologique."
+},
+{
+"correct": false,
+"proposition": "Marbrures",
+"justification": "Les marbrures sont des signes hémodynamiques de choc, pas neurologiques."
+}
+]
+},
+{
+"statement": "Différencier les signes selon leur catégorie (respiratoire, hémodynamique, neurologique).",
+"propositions": \[
+{
+"correct": true,
+"proposition": "Tirage respiratoire : signe respiratoire",
+"justification": "Le tirage est explicitement un signe respiratoire de gravité."
+},
+{
+"correct": false,
+"proposition": "Cyanose : signe hémodynamique",
+"justification": "La cyanose appartient aux signes respiratoires, non hémodynamiques."
+},
+{
+"correct": true,
+"proposition": "Oligurie : signe hémodynamique (choc)",
+"justification": "L’oligurie est un signe de choc du versant hémodynamique."
+},
+{
+"correct": false,
+"proposition": "Confusion : signe respiratoire",
+"justification": "La confusion est un signe neurologique de gravité, pas respiratoire."
+},
+{
+"correct": true,
+"proposition": "Troubles de conscience : signe neurologique",
+"justification": "Les troubles de conscience relèvent des signes neurologiques de gravité."
+}
+]
+},
+{
+"statement": "Reconnaître les seuils chiffrés faisant évoquer une gravité immédiate sur le plan respiratoire.",
+"propositions": \[
+{
+"correct": true,
+"proposition": "Fréquence respiratoire à 34/min",
+"justification": "Une polypnée > 30/min est un signe de gravité ; 34/min dépasse ce seuil."
+},
+{
+"correct": true,
+"proposition": "Fréquence respiratoire à 9/min",
+"justification": "Une bradypnée < 10/min est un signe de gravité ; 9/min respecte ce critère."
+},
+{
+"correct": true,
+"proposition": "SpO2 à 88 %",
+"justification": "Une désaturation < 90 % est un signe de gravité ; 88 % est en dessous du seuil."
+},
+{
+"correct": false,
+"proposition": "SpO2 à 92 %",
+"justification": "Le seuil de gravité respiratoire est une désaturation < 90 % ; 92 % ne l’atteint pas."
+},
+{
+"correct": false,
+"proposition": "Fréquence respiratoire à 26/min",
+"justification": "La polypnée de gravité est > 30/min ; 26/min est inférieure à ce seuil."
+}
+]
+}
+]

@@ -1,0 +1,156 @@
+{
+  "topic": "Douleur thoracique",
+  "slug": "DT",
+  "content": [
+    {
+      "statement": "Identifier, parmi les items suivants, ceux qui constituent des détresses vitales à rechercher d'emblée devant une douleur thoracique.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Détresse respiratoire aiguë",
+          "justification": "Fait partie des détresses vitales à rechercher devant une douleur thoracique : détresse respiratoire aiguë."
+        },
+        {
+          "correct": true,
+          "proposition": "Détresse hémodynamique : signes de choc",
+          "justification": "Fait partie des détresses vitales à rechercher : détresse hémodynamique (signes de choc)."
+        },
+        {
+          "correct": true,
+          "proposition": "Détresse neurologique : coma et troubles de conscience",
+          "justification": "Fait partie des détresses vitales à rechercher : détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": false,
+          "proposition": "Détresse rénale aiguë",
+          "justification": "Non mentionnée parmi les détresses vitales à rechercher dans ce contexte."
+        },
+        {
+          "correct": false,
+          "proposition": "Détresse hépatique aiguë",
+          "justification": "Non mentionnée parmi les détresses vitales à rechercher dans ce contexte."
+        }
+      ]
+    },
+    {
+      "statement": "Différencier les catégories : pour chaque affirmation, dire si l'association est correcte.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Le coma relève d'une détresse neurologique.",
+          "justification": "Le coma appartient à la détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": true,
+          "proposition": "Les troubles de conscience relèvent d'une détresse neurologique.",
+          "justification": "Les troubles de conscience appartiennent à la détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": true,
+          "proposition": "Les signes de choc relèvent d'une détresse hémodynamique.",
+          "justification": "Les signes de choc définissent la détresse hémodynamique."
+        },
+        {
+          "correct": false,
+          "proposition": "Le coma relève d'une détresse respiratoire aiguë.",
+          "justification": "Le coma est rattaché à la détresse neurologique, pas à la détresse respiratoire."
+        },
+        {
+          "correct": false,
+          "proposition": "Les signes de choc relèvent d'une détresse respiratoire aiguë.",
+          "justification": "Les signes de choc sont rattachés à la détresse hémodynamique, pas à la détresse respiratoire."
+        }
+      ]
+    },
+    {
+      "statement": "Définir la détresse hémodynamique dans l'évaluation initiale d'une douleur thoracique.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Correspond à des signes de choc.",
+          "justification": "La détresse hémodynamique est définie par des signes de choc."
+        },
+        {
+          "correct": false,
+          "proposition": "Correspond à un coma.",
+          "justification": "Le coma relève de la détresse neurologique."
+        },
+        {
+          "correct": false,
+          "proposition": "Correspond à des troubles de conscience.",
+          "justification": "Les troubles de conscience relèvent de la détresse neurologique."
+        },
+        {
+          "correct": true,
+          "proposition": "Fait partie des détresses vitales à rechercher devant une douleur thoracique.",
+          "justification": "La détresse hémodynamique est listée parmi les détresses vitales à rechercher."
+        },
+        {
+          "correct": false,
+          "proposition": "Est synonyme de détresse respiratoire aiguë.",
+          "justification": "Ce sont deux catégories distinctes citées séparément."
+        }
+      ]
+    },
+    {
+      "statement": "Classer les éléments relevant de la détresse neurologique dans ce contexte de douleur thoracique.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Coma",
+          "justification": "Fait partie de la détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": true,
+          "proposition": "Troubles de conscience",
+          "justification": "Fait partie de la détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": false,
+          "proposition": "Signes de choc",
+          "justification": "Relèvent de la détresse hémodynamique, pas neurologique."
+        },
+        {
+          "correct": false,
+          "proposition": "Détresse respiratoire aiguë",
+          "justification": "Relève d'une catégorie distincte de la détresse neurologique."
+        },
+        {
+          "correct": false,
+          "proposition": "Détresse hémodynamique",
+          "justification": "Catégorie différente de la détresse neurologique."
+        }
+      ]
+    },
+    {
+      "statement": "Reconnaître les priorités initiales devant une douleur thoracique : sélectionner les évaluations à réaliser systématiquement.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Rechercher une détresse respiratoire aiguë.",
+          "justification": "Cité comme priorité : détresse respiratoire aiguë."
+        },
+        {
+          "correct": true,
+          "proposition": "Rechercher des signes de choc (détresse hémodynamique).",
+          "justification": "Cité comme priorité : détresse hémodynamique (signes de choc)."
+        },
+        {
+          "correct": true,
+          "proposition": "Rechercher un coma ou des troubles de conscience (détresse neurologique).",
+          "justification": "Cité comme priorité : détresse neurologique (coma et troubles de conscience)."
+        },
+        {
+          "correct": false,
+          "proposition": "Rechercher en priorité une détresse hépatique aiguë.",
+          "justification": "Non citée parmi les détresses vitales à rechercher dans ce contexte."
+        },
+        {
+          "correct": false,
+          "proposition": "Rechercher en priorité une détresse rénale aiguë.",
+          "justification": "Non citée parmi les détresses vitales à rechercher dans ce contexte."
+        }
+      ]
+    }
+  ]
+}

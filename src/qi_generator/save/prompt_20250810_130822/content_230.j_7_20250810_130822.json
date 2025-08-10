@@ -1,0 +1,156 @@
+{"content": '{
+                        "topic":" Douleur thoracique",
+                        "slug":" DT",
+                    }
+[
+    {
+        "statement": "Concernant le syndrome coronarien aigu avec sus-décalage du segment ST (SCA ST+), quelles sont les caractéristiques électrocardiographiques à rechercher ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Sus-décalage de ST ≥ 2 mm dans les dérivations précordiales et ≥ 1 mm en inférieur ou latéral haut",
+                "justification": "Un sus-décalage significatif du segment ST dans au moins deux dérivations contiguës d'un même territoire coronaire définit le SCA ST+."
+            },
+            {
+                "correct": true,
+                "proposition": "Sous-décalage du segment ST en miroir dans les dérivations opposées",
+                "justification": "Le sous-décalage en miroir est fréquemment observé en regard du territoire opposé à la zone d'infarctus."
+            },
+            {
+                "correct": true,
+                "proposition": "Nouveau bloc de branche gauche dans un contexte évocateur",
+                "justification": "Un bloc de branche gauche récent associé à un tableau aigu évocateur est considéré comme équivalent à un SCA ST+."
+            },
+            {
+                "correct": false,
+                "proposition": "Sus-décalage diffus du segment ST non systématisé",
+                "justification": "Un sus-décalage diffus non systématisé évoque plutôt une péricardite qu'un SCA ST+."
+            },
+            {
+                "correct": false,
+                "proposition": "ECG strictement normal",
+                "justification": "Un ECG strictement normal est incompatible avec un SCA ST+ évolutif."
+            }
+        ]
+    },
+    {
+        "statement": "Quelles anomalies électrocardiographiques peuvent être observées dans un syndrome coronarien aigu sans sus-décalage du segment ST (SCA ST-) ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Sous-décalage du segment ST horizontal ou descendant",
+                "justification": "Un sous-décalage horizontal ou descendant est un signe d'ischémie sous-épicardique dans le SCA ST-."
+            },
+            {
+                "correct": true,
+                "proposition": "Négativation des ondes T",
+                "justification": "La négativation des ondes T traduit une ischémie myocardique et peut être observée dans le SCA ST-."
+            },
+            {
+                "correct": true,
+                "proposition": "ECG normal en phase post-critique",
+                "justification": "Un ECG normal n'exclut pas un SCA ST- notamment après la phase douloureuse."
+            },
+            {
+                "correct": false,
+                "proposition": "Sus-décalage concave diffus du segment ST",
+                "justification": "Ce profil est caractéristique d'une péricardite plutôt que d'un SCA ST-."
+            },
+            {
+                "correct": false,
+                "proposition": "Bloc de branche droit complet isolé",
+                "justification": "Un bloc de branche droit isolé est plus évocateur d'une embolie pulmonaire que d'un SCA ST-."
+            }
+        ]
+    },
+    {
+        "statement": "Quelles anomalies électrocardiographiques peuvent orienter vers une embolie pulmonaire ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Tachycardie sinusale > 100/min",
+                "justification": "La tachycardie sinusale est l'anomalie ECG la plus fréquente dans l'embolie pulmonaire."
+            },
+            {
+                "correct": true,
+                "proposition": "Aspect S1Q3",
+                "justification": "L'aspect S1Q3 (onde S en DI et onde Q en DIII) est un signe classique d'embolie pulmonaire."
+            },
+            {
+                "correct": true,
+                "proposition": "Bloc de branche droit",
+                "justification": "Un bloc de branche droit peut apparaître lors d'une surcharge aiguë du ventricule droit."
+            },
+            {
+                "correct": true,
+                "proposition": "Négativation des ondes T en V1 à V3",
+                "justification": "Ces anomalies traduisent la souffrance du ventricule droit dans l'embolie pulmonaire."
+            },
+            {
+                "correct": false,
+                "proposition": "Sous-décalage diffus du PQ",
+                "justification": "Un sous-décalage du PQ est typique d'une péricardite, pas d'une embolie pulmonaire."
+            }
+        ]
+    },
+    {
+        "statement": "Quelles sont les anomalies électrocardiographiques typiques de la péricardite avec tamponnade ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Sus-décalage diffus concave vers le haut du segment ST sans miroir",
+                "justification": "Ce sus-décalage non systématisé à un territoire coronaire est caractéristique de la péricardite."
+            },
+            {
+                "correct": true,
+                "proposition": "Sous-décalage du PQ",
+                "justification": "Le sous-décalage du PQ est un signe fréquent dans la péricardite aiguë."
+            },
+            {
+                "correct": true,
+                "proposition": "Microvoltage des QRS",
+                "justification": "Un microvoltage peut être observé dans la péricardite avec tamponnade."
+            },
+            {
+                "correct": true,
+                "proposition": "Alternance électrique des QRS",
+                "justification": "L'alternance électrique est évocatrice d'un épanchement péricardique important."
+            },
+            {
+                "correct": false,
+                "proposition": "Sus-décalage localisé en territoire antéro-septo-apical",
+                "justification": "Un sus-décalage localisé évoque plutôt un infarctus qu'une péricardite."
+            }
+        ]
+    },
+    {
+        "statement": "Quelles particularités électrocardiographiques peuvent être observées lors d\'une dissection aortique ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "ECG normal",
+                "justification": "L'ECG est souvent normal dans la dissection aortique, sauf en cas d'atteinte coronaire."
+            },
+            {
+                "correct": true,
+                "proposition": "Sus-décalage du segment ST si extension à une artère coronaire",
+                "justification": "Une extension de la dissection à une coronaire peut provoquer un infarctus avec ST+."
+            },
+            {
+                "correct": false,
+                "proposition": "Sous-décalage du PQ",
+                "justification": "Le sous-décalage du PQ n'est pas un signe attendu dans la dissection aortique."
+            },
+            {
+                "correct": false,
+                "proposition": "Bloc de branche droit",
+                "justification": "Le bloc de branche droit est plus évocateur d'une embolie pulmonaire que d'une dissection aortique."
+            },
+            {
+                "correct": false,
+                "proposition": "Sus-décalage diffus concave vers le haut",
+                "justification": "Ce profil est caractéristique de la péricardite et non de la dissection aortique."
+            }
+        ]
+    }
+]

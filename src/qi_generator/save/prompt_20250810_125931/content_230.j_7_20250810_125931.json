@@ -1,0 +1,156 @@
+{"content": '{
+                        "topic":" Douleur thoracique",
+                        "slug":" DT",
+                    }
+[
+    {
+        "statement": "Quels sont les signes respiratoires imposant une décision thérapeutique immédiate ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Polypnée >30/min",
+                "justification": "Une polypnée supérieure à 30 cycles par minute traduit une détresse respiratoire nécessitant une prise en charge urgente."
+            },
+            {
+                "correct": true,
+                "proposition": "Bradypnée <10/min ou pauses respiratoires",
+                "justification": "Une bradypnée marquée ou des pauses respiratoires indiquent une atteinte grave de la ventilation imposant une intervention rapide."
+            },
+            {
+                "correct": false,
+                "proposition": "Fréquence respiratoire de 18/min",
+                "justification": "Une fréquence respiratoire de 18 cycles par minute reste dans la norme et ne constitue pas un signe de gravité."
+            },
+            {
+                "correct": true,
+                "proposition": "Désaturation <90%",
+                "justification": "Une désaturation inférieure à 90% est un critère de gravité respiratoire imposant une intervention urgente."
+            },
+            {
+                "correct": true,
+                "proposition": "Tirage respiratoire",
+                "justification": "Le tirage traduit un effort respiratoire important et est un signe de détresse nécessitant une prise en charge immédiate."
+            }
+        ]
+    },
+    {
+        "statement": "Quels signes hémodynamiques doivent alerter sur la nécessité d\'une intervention immédiate ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Hypotension artérielle",
+                "justification": "L'hypotension artérielle est un signe majeur de défaillance circulatoire nécessitant un traitement urgent."
+            },
+            {
+                "correct": true,
+                "proposition": "Marbrures",
+                "justification": "Les marbrures traduisent une hypoperfusion périphérique, signe de choc nécessitant une intervention rapide."
+            },
+            {
+                "correct": true,
+                "proposition": "Oligurie",
+                "justification": "Une diminution marquée de la diurèse témoigne d'une hypoperfusion rénale, signe de gravité hémodynamique."
+            },
+            {
+                "correct": false,
+                "proposition": "Tachycardie sinusale modérée isolée",
+                "justification": "Une tachycardie modérée isolée n'est pas, à elle seule, un signe imposant une décision thérapeutique immédiate."
+            },
+            {
+                "correct": true,
+                "proposition": "Extrémités froides",
+                "justification": "Les extrémités froides sont un signe clinique de vasoconstriction périphérique associée à un état de choc."
+            }
+        ]
+    },
+    {
+        "statement": "Parmi les signes neurologiques suivants, lesquels imposent une décision thérapeutique immédiate ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Troubles de conscience",
+                "justification": "Les troubles de conscience indiquent une atteinte neurologique sévère ou une hypoxie cérébrale nécessitant une prise en charge urgente."
+            },
+            {
+                "correct": true,
+                "proposition": "Confusion",
+                "justification": "La confusion est un signe d\'atteinte neurologique aiguë pouvant traduire une hypoperfusion cérébrale grave."
+            },
+            {
+                "correct": true,
+                "proposition": "Agitation",
+                "justification": "L'agitation peut refléter une hypoxie ou une souffrance cérébrale nécessitant une intervention rapide."
+            },
+            {
+                "correct": false,
+                "proposition": "Somnolence post-prandiale",
+                "justification": "Une somnolence après un repas n\'est pas un signe de gravité nécessitant une décision thérapeutique immédiate."
+            },
+            {
+                "correct": false,
+                "proposition": "Maux de tête modérés",
+                "justification": "Des céphalées modérées isolées ne constituent pas un critère imposant une intervention urgente."
+            }
+        ]
+    },
+    {
+        "statement": "Associez chaque type de signe de gravité à son domaine clinique correct.",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Cyanose – signe respiratoire",
+                "justification": "La cyanose traduit une hypoxémie sévère et relève des signes respiratoires de gravité."
+            },
+            {
+                "correct": true,
+                "proposition": "Oligurie – signe hémodynamique",
+                "justification": "L\'oligurie indique une hypoperfusion rénale et appartient aux signes hémodynamiques."
+            },
+            {
+                "correct": true,
+                "proposition": "Agitation – signe neurologique",
+                "justification": "L'agitation est un signe d'atteinte neurologique aiguë."
+            },
+            {
+                "correct": false,
+                "proposition": "Marbrures – signe respiratoire",
+                "justification": "Les marbrures relèvent d\'une hypoperfusion périphérique et sont des signes hémodynamiques, pas respiratoires."
+            },
+            {
+                "correct": false,
+                "proposition": "Tirage respiratoire – signe neurologique",
+                "justification": "Le tirage respiratoire est un signe de gravité respiratoire et non neurologique."
+            }
+        ]
+    },
+    {
+        "statement": "Dans un contexte d'urgence, quels critères parmi les suivants relèvent d'un état de choc nécessitant un traitement immédiat ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Hypotension artérielle",
+                "justification": "L'hypotension est un signe cardinal d'état de choc nécessitant une intervention urgente."
+            },
+            {
+                "correct": true,
+                "proposition": "Marbrures",
+                "justification": "Les marbrures sont un signe de perfusion tissulaire altérée en contexte de choc."
+            },
+            {
+                "correct": true,
+                "proposition": "Extrémités froides",
+                "justification": "Des extrémités froides indiquent une vasoconstriction périphérique liée à un état de choc."
+            },
+            {
+                "correct": false,
+                "proposition": "Fièvre modérée",
+                "justification": "Une fièvre modérée n'est pas, isolément, un signe imposant une décision thérapeutique immédiate."
+            },
+            {
+                "correct": true,
+                "proposition": "Oligurie",
+                "justification": "L'oligurie témoigne d'une diminution du débit sanguin rénal, signe de gravité circulatoire."
+            }
+        ]
+    }
+]

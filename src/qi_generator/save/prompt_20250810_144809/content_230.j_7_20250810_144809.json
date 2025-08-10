@@ -1,0 +1,156 @@
+{
+  "topic": "Douleur thoracique",
+  "slug": "DT",
+  "content": [
+    {
+      "statement": "Identifier les signes respiratoires de gravité imposant une décision thérapeutique immédiate.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Polypnée > 30/min",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Bradypnée < 10/min ou pauses respiratoires",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Tirage respiratoire",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Sueurs",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": false,
+          "proposition": "Polypnée > 20/min",
+          "justification": "Le seuil retenu pour la polypnée est > 30/min."
+        }
+      ]
+    },
+    {
+      "statement": "Classer correctement chaque signe selon sa catégorie (respiratoire, hémodynamique, neurologique).",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Marbrures — hémodynamique",
+          "justification": "Les marbrures sont citées parmi les signes de choc (hémodynamiques)."
+        },
+        {
+          "correct": false,
+          "proposition": "Oligurie — neurologique",
+          "justification": "L'oligurie est un signe de choc (hémodynamique), pas neurologique."
+        },
+        {
+          "correct": true,
+          "proposition": "Tirage respiratoire — respiratoire",
+          "justification": "Le tirage est un signe respiratoire de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Confusion — neurologique",
+          "justification": "La confusion est un signe neurologique de gravité."
+        },
+        {
+          "correct": false,
+          "proposition": "Hypotension artérielle — respiratoire",
+          "justification": "L'hypotension relève des signes hémodynamiques."
+        }
+      ]
+    },
+    {
+      "statement": "Reconnaître les manifestations traduisant un état de choc imposant un traitement immédiat.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Hypotension artérielle",
+          "justification": "Relève des signes hémodynamiques de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Marbrures",
+          "justification": "Relève des signes de choc (hémodynamiques)."
+        },
+        {
+          "correct": true,
+          "proposition": "Extrémités froides",
+          "justification": "Relève des signes de choc (hémodynamiques)."
+        },
+        {
+          "correct": true,
+          "proposition": "Oligurie",
+          "justification": "Relève des signes de choc (hémodynamiques)."
+        },
+        {
+          "correct": false,
+          "proposition": "Cyanose",
+          "justification": "La cyanose est répertoriée parmi les signes respiratoires de gravité."
+        }
+      ]
+    },
+    {
+      "statement": "Identifier les signes neurologiques de gravité nécessitant une décision thérapeutique immédiate.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Troubles de conscience",
+          "justification": "Relève des signes neurologiques de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Confusion",
+          "justification": "Relève des signes neurologiques de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Agitation",
+          "justification": "Relève des signes neurologiques de gravité."
+        },
+        {
+          "correct": false,
+          "proposition": "Désaturation < 90%",
+          "justification": "Relève des signes respiratoires de gravité, pas neurologiques."
+        },
+        {
+          "correct": false,
+          "proposition": "Sueurs",
+          "justification": "Répertorié parmi les signes respiratoires de gravité."
+        }
+      ]
+    },
+    {
+      "statement": "Parmi les propositions suivantes, sélectionner celles qui correspondent à des signes respiratoires de gravité liés à l'oxygénation/ventilation.",
+      "propositions": [
+        {
+          "correct": true,
+          "proposition": "Désaturation < 90%",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Cyanose",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": true,
+          "proposition": "Tirage respiratoire",
+          "justification": "Fait partie des signes respiratoires de gravité."
+        },
+        {
+          "correct": false,
+          "proposition": "Hypotension artérielle",
+          "justification": "Relève des signes hémodynamiques, pas respiratoires."
+        },
+        {
+          "correct": false,
+          "proposition": "Extrémités froides",
+          "justification": "Relève des signes de choc (hémodynamiques), pas respiratoires."
+        }
+      ]
+    }
+  ]
+}
