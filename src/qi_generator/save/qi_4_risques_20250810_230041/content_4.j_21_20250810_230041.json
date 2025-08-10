@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754859833297_01",
+      "current_version_epoch_ms": 1754859833297,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques et exemples des bactéries multi-/hautement résistantes (BMR/BHR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les Enterobacterales productrices de BLSE sont des BMR fréquentes.",
+            "justification": "Les BLSE sont citées parmi les BMR les plus fréquentes."
+          },
+          {
+            "correct": true,
+            "proposition": "Staphylococcus aureus résistant à la méticilline (SARM) relève des BMR.",
+            "justification": "Le SARM est mentionné comme BMR fréquente."
+          },
+          {
+            "correct": true,
+            "proposition": "Les Enterobacterales productrices de carbapénémase (EPC) sont des BHR.",
+            "justification": "Les EPC font partie des bactéries hautement résistantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Enterococcus faecium résistant à la vancomycine (ERV) est une BMR.",
+            "justification": "L'ERV est classé parmi les BHR et non parmi les BMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Les BHR sont définies par l'accumulation de résistances acquises menant à une impasse thérapeutique.",
+            "justification": "Cette définition correspond aux BMR, pas aux BHR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754859833297_02",
+      "current_version_epoch_ms": 1754859833297,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Classer les réservoirs principaux des bactéries citées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le SARM a pour réservoir le microbiote cutané.",
+            "justification": "Le microbiote cutané est indiqué pour le SARM."
+          },
+          {
+            "correct": true,
+            "proposition": "Les BLSE colonisent le microbiote digestif.",
+            "justification": "Le microbiote digestif est cité pour les BLSE."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ERV est associé au microbiote digestif.",
+            "justification": "Le microbiote digestif est mentionné pour l'ERV."
+          },
+          {
+            "correct": false,
+            "proposition": "Les EPC ont pour réservoir principal le microbiote cutané.",
+            "justification": "Les EPC sont rattachées au microbiote digestif, pas cutané."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les BMR/BHR ont pour réservoir exclusif le microbiote respiratoire.",
+            "justification": "Seuls les microbiotes cutané et digestif sont explicitement mentionnés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754859833297_03",
+      "current_version_epoch_ms": 1754859833297,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les mécanismes de transmission par contact des BMR/BHR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La transmission est le plus souvent manuportée.",
+            "justification": "La voie de contact est dite le plus souvent manuportée."
+          },
+          {
+            "correct": true,
+            "proposition": "La transmission par contact direct correspond au manuportage.",
+            "justification": "La transmission directe est précisée comme manuportage."
+          },
+          {
+            "correct": true,
+            "proposition": "La transmission par contact peut être indirecte via un objet, un matériel souillé ou l'environnement.",
+            "justification": "La possibilité d'une transmission indirecte par fomites ou environnement est explicitée."
+          },
+          {
+            "correct": false,
+            "proposition": "La transmission par contact ne survient qu'en présence de gouttelettes > 5 m.",
+            "justification": "Les gouttelettes > 5 m relèvent de la voie aéroportée, pas de la voie de contact."
+          },
+          {
+            "correct": false,
+            "proposition": "La transmission par contact requiert impérativement une toux.",
+            "justification": "La toux est citée pour les infections respiratoires transmises par gouttelettes, pas pour la voie de contact."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754859833297_04",
+      "current_version_epoch_ms": 1754859833297,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Différencier gouttelettes et voie aérienne dans la transmission aéroportée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une infection respiratoire à BMR avec toux se transmet par gouttelettes > 5 m.",
+            "justification": "Les gouttelettes > 5 m sont associées à l'infection respiratoire à BMR avec toux."
+          },
+          {
+            "correct": true,
+            "proposition": "La tuberculose relève de la voie aérienne < 5 m.",
+            "justification": "La voie aérienne < 5 m est donnée en exemple avec la tuberculose."
+          },
+          {
+            "correct": false,
+            "proposition": "Les gouttelettes > 5 m correspondent à la voie aérienne.",
+            "justification": "Elles sont distinguées de la voie aérienne < 5 m."
+          },
+          {
+            "correct": true,
+            "proposition": "La voie aérienne est caractérisée par des particules < 5 m.",
+            "justification": "Le seuil < 5 m est indiqué pour la voie aérienne."
+          },
+          {
+            "correct": true,
+            "proposition": "La distinction entre gouttelettes et voie aérienne s'appuie sur un seuil de 5 m.",
+            "justification": "Le seuil de 5 m est explicitement mentionné pour différencier les deux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754859833297_05",
+      "current_version_epoch_ms": 1754859833297,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier le périmètre clinique et la définition associés aux BMR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les BMR peuvent être responsables d'infections communautaires.",
+            "justification": "Les infections communautaires sont mentionnées parmi les contextes possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Les BMR peuvent être responsables d'infections nosocomiales.",
+            "justification": "Les infections nosocomiales sont également citées."
+          },
+          {
+            "correct": true,
+            "proposition": "Les BMR accumulent des résistances acquises à plusieurs familles d'antibiotiques menant à une impasse thérapeutique.",
+            "justification": "Il s'agit de la définition fournie pour les BMR."
+          },
+          {
+            "correct": true,
+            "proposition": "Les EPC et l'ERV sont des exemples de BHR.",
+            "justification": "Ces bactéries sont listées parmi les BHR."
+          },
+          {
+            "correct": false,
+            "proposition": "Les BLSE sont classées parmi les BHR.",
+            "justification": "Les BLSE sont citées comme BMR fréquentes, pas comme BHR."
+          }
+        ]
+      }
+    }
+  ]
+}

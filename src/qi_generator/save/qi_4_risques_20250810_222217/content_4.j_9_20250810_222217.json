@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754857529695_01",
+      "current_version_epoch_ms": 1754857529695,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier la place de la friction hydro-alcoolique (SHA) par rapport au lavage des mains dans la prévention des infections associées aux soins (IAS).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La SHA est la technique de référence de l'hygiène des mains.",
+            "justification": "La friction hydroalcoolique est présentée comme la mesure de base et la technique de référence."
+          },
+          {
+            "correct": true,
+            "proposition": "Hors contre-indication, la SHA doit remplacer le lavage des mains.",
+            "justification": "Il est précisé qu'elle doit remplacer en toutes circonstances le lavage, sauf exceptions."
+          },
+          {
+            "correct": false,
+            "proposition": "Le lavage des mains est plus facile et souvent plus efficace que la SHA.",
+            "justification": "Le lavage est décrit comme moins facile à réaliser et souvent moins efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "En routine, le lavage des mains est préférable à la SHA.",
+            "justification": "En dehors des exceptions, la SHA est privilégiée et remplace le lavage."
+          },
+          {
+            "correct": false,
+            "proposition": "La SHA ne doit jamais être utilisée après un lavage des mains.",
+            "justification": "Dans certaines situations, le lavage est suivi d'une friction SHA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857529695_02",
+      "current_version_epoch_ms": 1754857529695,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les situations d'exception où le lavage des mains est nécessaire en plus de la SHA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de gale, l'hygiène des mains associe un lavage au savon doux suivi d'une friction SHA.",
+            "justification": "La gale fait partie des exceptions nécessitant lavage puis SHA."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'infection à Clostridium difficile, il faut un lavage au savon doux puis une friction SHA.",
+            "justification": "Les infections à Clostridium difficile nécessitent cette séquence."
+          },
+          {
+            "correct": false,
+            "proposition": "Les micro-organismes impliqués dans ces situations sont sensibles aux SHA.",
+            "justification": "Ils sont décrits comme résistants aux SHA."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'exception, la SHA seule suffit.",
+            "justification": "Il est requis d'associer lavage puis SHA."
+          },
+          {
+            "correct": true,
+            "proposition": "En dehors de la gale et de Clostridium difficile, la SHA remplace le lavage des mains.",
+            "justification": "Hors exceptions, la SHA doit remplacer le lavage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857529695_03",
+      "current_version_epoch_ms": 1754857529695,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Apprécier l'impact du port de gants sur l'hygiène des mains.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le port de gants dispense d'une hygiène des mains régulière.",
+            "justification": "Il est explicitement indiqué que le port de gants ne dispense pas de l'hygiène des mains."
+          },
+          {
+            "correct": true,
+            "proposition": "Le port de gants n'exonère pas d'une hygiène des mains régulière.",
+            "justification": "La nécessité d'une hygiène des mains est maintenue malgré le port de gants."
+          },
+          {
+            "correct": true,
+            "proposition": "Une hygiène des mains est requise avant et après chaque soin, même si des gants sont portés.",
+            "justification": "La friction SHA est requise avant et après chaque soin et le port de gants ne dispense pas de cette exigence."
+          },
+          {
+            "correct": false,
+            "proposition": "En présence de gants, la friction SHA n'est jamais indiquée.",
+            "justification": "La SHA reste indiquée car les gants ne suppriment pas l'hygiène des mains."
+          },
+          {
+            "correct": false,
+            "proposition": "Le port de gants constitue une contre-indication à la SHA.",
+            "justification": "Aucune contre-indication de ce type n'est rapportée, et il est rappelé de maintenir l'hygiène des mains."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857529695_04",
+      "current_version_epoch_ms": 1754857529695,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Définir les conditions personnelles requises pour réaliser correctement l'hygiène des mains.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Avant-bras dégagés avec manches courtes.",
+            "justification": "Il est demandé d'avoir les avant-bras dégagés (manches courtes)."
+          },
+          {
+            "correct": true,
+            "proposition": "Ongles courts sans vernis, sans faux ongles ni résine.",
+            "justification": "Ces exigences sont explicitement listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Bijoux autorisés aux mains et poignets s'ils sont désinfectés.",
+            "justification": "Aucun bijou n'est autorisé, même l'alliance."
+          },
+          {
+            "correct": false,
+            "proposition": "Alliance autorisée si couverte par des gants.",
+            "justification": "L'absence de bijoux est requise, y compris l'alliance."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de bijoux aux mains et aux poignets, même l'alliance.",
+            "justification": "L'interdiction des bijoux est précisée, alliance comprise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857529695_05",
+      "current_version_epoch_ms": 1754857529695,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Préciser les modalités pratiques de la friction hydro-alcoolique (SHA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle se réalise selon un protocole en 7 temps.",
+            "justification": "La friction SHA est à effectuer en 7 temps."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée minimale est de 20 à 30 secondes.",
+            "justification": "Une durée de 20 à 30 secondes est requise."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est à réaliser uniquement après les soins.",
+            "justification": "Elle est à réaliser avant et après chaque soin."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est à réaliser avant et après chaque soin.",
+            "justification": "Cette temporalité est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Un lavage au savon doux doit systématiquement précéder la SHA.",
+            "justification": "Le lavage préalable n'est requis que dans les exceptions décrites."
+          }
+        ]
+      }
+    }
+  ]
+}

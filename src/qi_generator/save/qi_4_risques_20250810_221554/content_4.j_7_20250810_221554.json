@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754857146089_01",
+      "current_version_epoch_ms": 1754857146089,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques essentielles de la désinfection.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle réduit le nombre de micro-organismes sur les surfaces inertes ou la peau saine.",
+            "justification": "La désinfection est définie comme une réduction des micro-organismes sur des surfaces inertes ou la peau saine."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle agit de façon irréversible sur la structure ou le métabolisme des micro-organismes.",
+            "justification": "L'action d'un désinfectant est décrite comme irréversible sur la structure ou le métabolisme des micro-organismes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet d'éliminer tous les micro-organismes présents et futurs.",
+            "justification": "Le résultat est limité aux micro-organismes présents au moment de l'opération, sans effet sur ceux introduits ensuite."
+          },
+          {
+            "correct": true,
+            "proposition": "Son résultat est limité aux micro-organismes présents au moment de l'opération.",
+            "justification": "Il est précisé que l'effet ne concerne que les micro-organismes présents au moment de la désinfection."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne concerne que les surfaces inertes.",
+            "justification": "Le champ inclut aussi la peau saine, pas uniquement les surfaces inertes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857146089_02",
+      "current_version_epoch_ms": 1754857146089,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Classer les étapes habituelles d'un procédé de désinfection d'une surface.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nettoyage précède la désinfection.",
+            "justification": "Il est indiqué qu'une phase de nettoyage est suivie d'une phase de désinfection."
+          },
+          {
+            "correct": false,
+            "proposition": "La désinfection précède le nettoyage.",
+            "justification": "L'ordre mentionné est d'abord nettoyage, puis désinfection."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nettoyage vise à enlever les matières organiques ou inorganiques présentes.",
+            "justification": "La phase de nettoyage consiste à enlever graisses, sang, autres produits biologiques ou inorganiques."
+          },
+          {
+            "correct": false,
+            "proposition": "On utilise un désinfectant pendant la phase de nettoyage.",
+            "justification": "Le désinfectant est employé lors de la phase de désinfection, pas pendant le nettoyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour les dispositifs médicaux, un prétraitement précède nettoyage et désinfection.",
+            "justification": "Les deux phases sont précédées d'une phase de prétraitement pour les dispositifs médicaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857146089_03",
+      "current_version_epoch_ms": 1754857146089,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les spécificités du prétraitement (décontamination) des dispositifs médicaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prétraitement est parfois appelé décontamination.",
+            "justification": "Il est précisé que la phase de prétraitement est parfois appelée décontamination."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prétraitement intervient après la désinfection.",
+            "justification": "Il intervient avant le nettoyage et la désinfection."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prétraitement vise à diminuer le risque infectieux pour les personnels chargés de l'entretien.",
+            "justification": "L'objectif explicite est la diminution du risque infectieux pour ces personnels."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prétraitement remplace la phase de nettoyage.",
+            "justification": "Il précède le nettoyage mais ne s'y substitue pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prétraitement n'est pas nécessaire pour les dispositifs médicaux.",
+            "justification": "Il est mentionné comme une étape préalable pour ces dispositifs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857146089_04",
+      "current_version_epoch_ms": 1754857146089,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les références normatives associées à la désinfection dans cette description.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La norme NF EN 14885:2006 est citée.",
+            "justification": "Cette référence est explicitement mentionnée à propos de la désinfection."
+          },
+          {
+            "correct": true,
+            "proposition": "La norme AFNOR NF T 72-101 est citée.",
+            "justification": "Cette référence est explicitement mentionnée concernant le résultat de l'opération."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune norme n'est citée.",
+            "justification": "Deux normes sont citées : NF EN 14885:2006 et AFNOR NF T 72-101."
+          },
+          {
+            "correct": true,
+            "proposition": "Les références normatives portent sur la désinfection.",
+            "justification": "Elles sont rapportées au cadre de la désinfection et à ses résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Les normes citées concernent exclusivement le nettoyage.",
+            "justification": "Elles sont associées à la désinfection, pas exclusivement au nettoyage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857146089_05",
+      "current_version_epoch_ms": 1754857146089,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Différencier objectifs et limites des phases impliquées dans la désinfection.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'action du désinfectant est irréversible sur la structure ou le métabolisme des micro-organismes.",
+            "justification": "C'est la modalité d'action décrite pour la désinfection."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nettoyage a pour objectif de diminuer le risque infectieux pour les personnels d'entretien.",
+            "justification": "Cet objectif est attribué au prétraitement des dispositifs médicaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour les dispositifs médicaux, la désinfection intervient après prétraitement et nettoyage.",
+            "justification": "La séquence décrite est prétraitement, puis nettoyage, puis désinfection."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nettoyage retire des matières comme graisses et sang.",
+            "justification": "Il est indiqué qu'il enlève graisses, sang et autres produits biologiques ou inorganiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'effet de la désinfection s'étend aux micro-organismes introduits après l'opération.",
+            "justification": "Le résultat est limité aux micro-organismes présents au moment de l'opération."
+          }
+        ]
+      }
+    }
+  ]
+}

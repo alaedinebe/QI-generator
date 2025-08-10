@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "raisonnement",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754853937330_01",
+      "current_version_epoch_ms": 1754853937330,
+      "topic": {
+        "subject": "sp",
+        "item": "raisonnement"
+      },
+      "data": {
+        "statement": "Définir les composantes à intégrer pour une décision médicale en médecine fondée sur les preuves (EBM).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'expérience clinique du médecin",
+            "justification": "La décision médicale intègre explicitement l'expérience clinique du praticien."
+          },
+          {
+            "correct": true,
+            "proposition": "Les données les plus récentes issues de l'épidémiologie clinique",
+            "justification": "L'EBM repose sur l'utilisation consciencieuse des meilleures données scientifiques actuelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Les préférences du patient",
+            "justification": "Les préférences du patient font partie des trois éléments constitutifs de la décision."
+          },
+          {
+            "correct": false,
+            "proposition": "La routine locale sans analyse des preuves",
+            "justification": "La routine locale n'est pas listée parmi les trois composantes et l'EBM exige une évaluation des meilleures données disponibles."
+          },
+          {
+            "correct": false,
+            "proposition": "L'avis des experts uniquement",
+            "justification": "La décision en EBM n'est pas fondée sur l'avis d'experts seul mais sur l'articulation expérience–données probantes–préférences."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754853937330_02",
+      "current_version_epoch_ms": 1754853937330,
+      "topic": {
+        "subject": "sp",
+        "item": "raisonnement"
+      },
+      "data": {
+        "statement": "Identifier les éléments nécessaires à la formulation d'une question clinique selon l'approche PICOT.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Population / Patients / Problème clinique",
+            "justification": "La définition précise du groupe de patients est un élément requis."
+          },
+          {
+            "correct": true,
+            "proposition": "Intervention (élément soumis à évaluation)",
+            "justification": "La spécification de l'intervention est indispensable (diagnostique, préventive, thérapeutique, réadaptation)."
+          },
+          {
+            "correct": true,
+            "proposition": "Comparateur (situation de référence)",
+            "justification": "La principale alternative ou le contrôle doit être précisé lorsqu'il existe."
+          },
+          {
+            "correct": true,
+            "proposition": "Outcome (critère de jugement pertinent)",
+            "justification": "Il faut définir un ou plusieurs critères de jugement pour l'efficacité et la sécurité."
+          },
+          {
+            "correct": true,
+            "proposition": "Time (horizon temporel d'évaluation)",
+            "justification": "La spécification du moment d'évaluation du critère de jugement est attendue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754853937330_03",
+      "current_version_epoch_ms": 1754853937330,
+      "topic": {
+        "subject": "sp",
+        "item": "raisonnement"
+      },
+      "data": {
+        "statement": "Associer le type de question clinique au plan d'étude privilégié selon le schéma proposé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement ↔ Essai contrôlé randomisé",
+            "justification": "Pour une question de traitement, l'essai contrôlé randomisé est le plan de référence indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "Diagnostic ↔ Étude transversale",
+            "justification": "Les questions diagnostiques relèvent d'études transversales pour évaluer la validité d'un test."
+          },
+          {
+            "correct": true,
+            "proposition": "Étiologie ↔ Cas-témoins",
+            "justification": "Les questions d'étiologie peuvent être étudiées par des dessins cas-témoins (et aussi cohorte)."
+          },
+          {
+            "correct": false,
+            "proposition": "Étiologie ↔ Essai contrôlé randomisé",
+            "justification": "Le schéma présenté associe l'étiologie aux cas-témoins et/ou à la cohorte, pas à l'essai contrôlé randomisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Pronostic ↔ Cohorte",
+            "justification": "Les questions pronostiques relèvent d'études de cohorte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754853937330_04",
+      "current_version_epoch_ms": 1754853937330,
+      "topic": {
+        "subject": "sp",
+        "item": "raisonnement"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques des revues systématiques, des méta-analyses et de l'évaluation critique des études.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une revue systématique identifie, évalue et synthétise toutes les études pertinentes pour répondre à une question précise.",
+            "justification": "Elle vise une analyse exhaustive et structurée des études publiées ou non sur un sujet donné, pour une question précise."
+          },
+          {
+            "correct": true,
+            "proposition": "Une méta-analyse combine statistiquement les résultats de plusieurs études lorsque c'est possible.",
+            "justification": "La méta-analyse correspond à la combinaison quantitative d'effets lorsque les résultats peuvent être agrégés."
+          },
+          {
+            "correct": false,
+            "proposition": "La revue systématique ne nécessite pas de question précise.",
+            "justification": "Au contraire, son objectif est de répondre à une question précise dans le domaine de la santé."
+          },
+          {
+            "correct": true,
+            "proposition": "L'évaluation critique apprécie validité (niveau de preuve), impact (importance de l'effet) et utilité pratique (grade de recommandation).",
+            "justification": "Ces trois dimensions sont explicitement mentionnées pour l'analyse critique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une méta-analyse peut être réalisée même si les résultats ne sont pas combinables quantitativement.",
+            "justification": "La méta-analyse suppose la possibilité de combiner quantitativement les résultats ; sinon, elle n'est pas réalisable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754853937330_05",
+      "current_version_epoch_ms": 1754853937330,
+      "topic": {
+        "subject": "sp",
+        "item": "raisonnement"
+      },
+      "data": {
+        "statement": "Classer des affirmations concernant les recommandations pour la pratique clinique et la conduite à tenir personnalisée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les recommandations sont des propositions développées selon une méthode explicite pour aider praticiens et patients.",
+            "justification": "Elles ont pour but d'orienter vers les soins les plus appropriés dans des circonstances cliniques données."
+          },
+          {
+            "correct": true,
+            "proposition": "Contrairement aux revues systématiques, elles intègrent l'avis d'experts et l'organisation des soins.",
+            "justification": "Elles tiennent compte des données, de l'avis d'experts lorsque nécessaire, et du contexte organisationnel et culturel."
+          },
+          {
+            "correct": true,
+            "proposition": "En France, elles sont proposées par la Haute Autorité de santé et les sociétés savantes.",
+            "justification": "Ces organismes sont cités comme producteurs nationaux de recommandations."
+          },
+          {
+            "correct": true,
+            "proposition": "La conduite à tenir personnalisée intègre la balance bénéfice/risque et les préférences du patient.",
+            "justification": "La décision finale prend en compte extrapolation au patient, pertinence en contexte, bénéfices/risques et préférences."
+          },
+          {
+            "correct": false,
+            "proposition": "La révélation des préférences du patient ne doit pas recourir à des méthodes formalisées.",
+            "justification": "Elle peut être informelle ou s'appuyer sur des outils d'aide à la décision et des méthodes formalisées (échelle visuelle analogique, arbitrage temporel, pari standard)."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754858298440_01",
+      "current_version_epoch_ms": 1754858298440,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Définir correctement les « précautions complémentaires » et leurs finalités.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles sont mises en œuvre en complément des précautions standard chez un patient infecté ou colonisé par certains microorganismes.",
+            "justification": "Elles s'ajoutent aux précautions standard lorsque le patient est porteur (infection ou colonisation) d'un pathogène à risque de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles se substituent aux précautions standard et les remplacent.",
+            "justification": "Elles ne remplacent pas les précautions standard ; elles viennent en complément."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles visent à instituer une barrière physique autour du patient pour limiter la transmission par contact, gouttelettes ou air.",
+            "justification": "Leur objectif est d'établir une barrière physique adaptée au mode de transmission (contact, gouttelettes, air)."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles remplacent l'ancien terme « isolement ».",
+            "justification": "La terminologie a évolué : « précautions complémentaires » remplace le terme « isolement »."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne concernent que les infections respiratoires et pas les autres situations.",
+            "justification": "Elles s'appliquent à divers modes de transmission, pas uniquement aux infections respiratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754858298440_02",
+      "current_version_epoch_ms": 1754858298440,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les principes transversaux applicables à toutes les précautions complémentaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mise en place et la levée nécessitent une prescription médicale tracée dans le dossier.",
+            "justification": "La prescription médicale et sa traçabilité dans le dossier du patient sont requises."
+          },
+          {
+            "correct": true,
+            "proposition": "Le patient, son entourage et les professionnels doivent être informés.",
+            "justification": "L'information de toutes les parties prenantes fait partie des principes communs."
+          },
+          {
+            "correct": true,
+            "proposition": "Les déchets d'activité de soins suivent le même circuit que pour les autres patients.",
+            "justification": "Aucun circuit d'élimination spécifique n'est requis pour les déchets."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de multiples cas dans une unité, le regroupement des patients (cohorting) peut être pertinent.",
+            "justification": "Le regroupement des malades est proposé lorsque plusieurs cas surviennent dans une même unité."
+          },
+          {
+            "correct": false,
+            "proposition": "La décision peut être prise par l'infirmier(ère) sans prescription ni traçabilité.",
+            "justification": "Une prescription médicale avec traçabilité est obligatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754858298440_03",
+      "current_version_epoch_ms": 1754858298440,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Concernant les précautions « Contact », reconnaître les mesures appropriées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hygiène des mains par friction SHA avant et après tout contact avec le patient ou son environnement, et avant de sortir de la chambre.",
+            "justification": "La friction SHA est exigée à ces temps clés."
+          },
+          {
+            "correct": true,
+            "proposition": "Port d'un tablier imperméable à usage unique en cas de soins avec contact direct avec le patient.",
+            "justification": "Un surtablier est indiqué lors de contacts directs."
+          },
+          {
+            "correct": true,
+            "proposition": "Matériel réservé au patient ou désinfecté après utilisation.",
+            "justification": "Le matériel doit être dédié ou désinfecté pour éviter la transmission manuportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les visiteurs doivent porter systématiquement une tenue particulière (blouse, gants).",
+            "justification": "Aucune tenue particulière n'est demandée aux visiteurs ; ils doivent respecter l'hygiène des mains."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour la gale et l'infection à Clostridium difficile, la friction SHA doit être précédée d'un lavage des mains.",
+            "justification": "Une étape de lavage des mains est requise avant la friction SHA dans ces situations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754858298440_04",
+      "current_version_epoch_ms": 1754858298440,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Classer les pathogènes par mode de transmission et le type de précautions à privilégier.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BMR et BHRe : transmission « Contact ».",
+            "justification": "Les bactéries multirésistantes et hautement résistantes relèvent d'une transmission croisée manuportée."
+          },
+          {
+            "correct": true,
+            "proposition": "SARS-CoV-2 : transmission « Gouttelettes » et « Contact ».",
+            "justification": "Il est cité parmi les agents à gouttelettes et contact."
+          },
+          {
+            "correct": true,
+            "proposition": "Coqueluche : transmission « Gouttelettes ».",
+            "justification": "La coqueluche figure parmi les indications de précautions « Gouttelettes »."
+          },
+          {
+            "correct": false,
+            "proposition": "Tuberculose : transmission « Gouttelettes ».",
+            "justification": "La tuberculose relève des précautions « Air »."
+          },
+          {
+            "correct": true,
+            "proposition": "Varicelle : transmission « Air ».",
+            "justification": "La varicelle est citée parmi les agents nécessitant des précautions « Air »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754858298440_05",
+      "current_version_epoch_ms": 1754858298440,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les exigences spécifiques aux précautions « Air ». ",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Appareil de protection respiratoire (habituellement FFP2) pour soignants et visiteurs, mis en place avant l'entrée dans la chambre.",
+            "justification": "Le port d'un FFP2 est requis avant d'entrer."
+          },
+          {
+            "correct": true,
+            "proposition": "Chambre individuelle obligatoire avec porte fermée.",
+            "justification": "L'isolement en chambre individuelle est impératif avec porte fermée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le patient doit rester dans sa chambre.",
+            "justification": "Le confinement en chambre est exigé."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de sortie pour raison médicale, le patient porte un masque chirurgical.",
+            "justification": "Un masque chirurgical est demandé au patient lors d'une sortie médicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un masque chirurgical standard pour les soignants suffit.",
+            "justification": "Un FFP2, et non un simple masque chirurgical, est requis pour les soignants en précautions « Air »."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754856187019_01",
+      "current_version_epoch_ms": 1754856187019,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant les événements indésirables associés aux soins (EIAS).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un EIAS est un évènement ayant entraîné ou pouvant entraîner un préjudice pour un patient.",
+            "justification": "Défini comme un évènement qui a entraîné ou aurait pu entraîner un préjudice pour un patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Un EIAS survient lors d'un acte de prévention, d'investigation ou de traitement.",
+            "justification": "La survenue est précisée lors d'un acte de prévention, d'une investigation ou d'un traitement (décret 2010-1408)."
+          },
+          {
+            "correct": false,
+            "proposition": "Un EIAS résulte le plus souvent d'un seul facteur défaillant.",
+            "justification": "Il est presque toujours lié à la conjonction de plusieurs facteurs (modèle du fromage suisse)."
+          },
+          {
+            "correct": true,
+            "proposition": "En hospitalisation, environ 10 % des patients sont concernés.",
+            "justification": "Fréquence rapportée : 10 % des patients en cours d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "En médecine générale, on observe en moyenne un patient concerné par un EIAS tous les deux jours.",
+            "justification": "Fréquence rapportée : un patient tous les deux jours dans un cabinet de médecine générale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754856187019_02",
+      "current_version_epoch_ms": 1754856187019,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "À propos des événements porteurs de risque (EPR), cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un EPR aurait pu porter préjudice mais a été évité grâce à un ou plusieurs verrous de sécurité.",
+            "justification": "Par définition, le préjudice potentiel est évité grâce au fonctionnement des verrous de sécurité."
+          },
+          {
+            "correct": true,
+            "proposition": "Un EPR est quasi identique à un EIAS mineur.",
+            "justification": "Les EPR sont précisés comme quasi identiques aux EIAS mineurs."
+          },
+          {
+            "correct": true,
+            "proposition": "L'oubli d'une compresse récupérée lors du comptage systématique illustre un EPR.",
+            "justification": "Exemple donné : oubli d'une compresse évité par le compte systématique des compresses."
+          },
+          {
+            "correct": false,
+            "proposition": "Un EPR correspond uniquement à des situations ayant effectivement causé un dommage au patient.",
+            "justification": "Le dommage n'a pas eu lieu : l'évènement a été évité par les verrous de sécurité."
+          },
+          {
+            "correct": true,
+            "proposition": "L'analyse des EPR permet de comprendre les modes de survenue et les facteurs de détection.",
+            "justification": "L'analyse méthodique des « presqu'accidents » vise les modes de survenue et les facteurs ayant permis la détection et l'évitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754856187019_03",
+      "current_version_epoch_ms": 1754856187019,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Concernant l'échelle de gravité des EIAS, associez les niveaux aux bonnes descriptions.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Niveau 1 : désagrément ou insatisfaction simples, sans interruption de la prise en charge.",
+            "justification": "Niveau 1 : EIAS mineur, sans interruption de la prise en charge initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Niveau 2 : impact sans réelle mise en jeu de la sécurité, sans interruption de la prise en charge.",
+            "justification": "Niveau 2 : dit « intermédiaire », sans interruption de la prise en charge initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Niveau 3 : nécessite une prise en charge spécifique et oblige à interrompre la prise en charge initiale.",
+            "justification": "Niveau 3 (majeur) : prise en charge spécifique mais sans interrompre la prise en charge initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Niveau 4 : nécessite une prise en charge spécifique, avec interruption de la prise en charge initiale, conséquences réversibles même si graves.",
+            "justification": "Niveau 4 (critique) : interruption imposée mais conséquences réversibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Niveau 5 : nécessite une prise en charge spécifique, avec interruption de la prise en charge initiale, conséquences souvent irréversibles.",
+            "justification": "Niveau 5 (catastrophique) : conséquences souvent irréversibles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754856187019_04",
+      "current_version_epoch_ms": 1754856187019,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître un évènement indésirable grave (EIG) et quelques repères épidémiologiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le décès fait partie des conséquences définissant un EIG.",
+            "justification": "Listé parmi les conséquences d'un EIG (décret n°2016-1606)."
+          },
+          {
+            "correct": true,
+            "proposition": "La mise en jeu du pronostic vital fait partie des conséquences définissant un EIG.",
+            "justification": "Listée parmi les conséquences d'un EIG."
+          },
+          {
+            "correct": true,
+            "proposition": "Une anomalie ou malformation congénitale fait partie des conséquences définissant un EIG.",
+            "justification": "Listée parmi les conséquences d'un EIG."
+          },
+          {
+            "correct": true,
+            "proposition": "En recherche impliquant la personne humaine, l'hospitalisation ou sa prolongation entre dans la définition d'un EIG.",
+            "justification": "Ajouté spécifiquement pour les recherches impliquant la personne humaine."
+          },
+          {
+            "correct": false,
+            "proposition": "En chirurgie, on compte environ 9,2 EIG pour 100 jours d'hospitalisation.",
+            "justification": "La valeur rapportée est 9,2 EIG pour 1000 jours d'hospitalisation en chirurgie, pas pour 100."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754856187019_05",
+      "current_version_epoch_ms": 1754856187019,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Différencier la notion d'évitabilité et l'aléa thérapeutique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ 40 à 50 % des EIAS seraient évitables car liés à des erreurs et/ou des failles des dispositifs de sécurité.",
+            "justification": "Proportion donnée des EIAS considérés évitables."
+          },
+          {
+            "correct": true,
+            "proposition": "Un choc anaphylactique à l'amoxicilline est inévitable si aucun antécédent allergique n'est identifié et si l'indication est adaptée.",
+            "justification": "Exemple fourni d'évènement inévitable dans ces conditions."
+          },
+          {
+            "correct": false,
+            "proposition": "L'aléa thérapeutique suppose l'existence d'une faute établie.",
+            "justification": "Il est indépendant de toute faute établie et lié à un risque non totalement maîtrisable."
+          },
+          {
+            "correct": true,
+            "proposition": "L'indemnisation de l'aléa thérapeutique est possible en France depuis la loi n°2002-303 du 4 mars 2002.",
+            "justification": "Indiqué comme rendu possible par cette loi."
+          },
+          {
+            "correct": false,
+            "proposition": "L'indemnisation de l'aléa thérapeutique repose sur la responsabilité individuelle du soignant et ne nécessite pas d'expertise.",
+            "justification": "Elle repose sur la solidarité nationale (Assurance Maladie) et nécessite une expertise (CCI ou tribunal)."
+          }
+        ]
+      }
+    }
+  ]
+}

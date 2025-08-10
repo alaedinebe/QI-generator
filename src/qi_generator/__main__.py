@@ -8,6 +8,7 @@ import re
 import traceback  
 from pynput.keyboard import Key, Controller
 from pynput.mouse import Controller as MouseController
+from pynput.mouse import Button
 
 def clean_quotes(s: str) -> str:
     return s.translate({
@@ -28,6 +29,7 @@ def write_debug(name: str, content: str):
         pass
 
 def main():
+
     keyboard = Controller()
     mouse = MouseController()
     i = 0  # à incrémenter selon les besoins
@@ -83,7 +85,7 @@ def main():
 
                         base_dir = os.path.dirname(os.path.abspath(__file__))
                         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                        save_dir = os.path.join(base_dir, "save", f"prompt_{timestamp}")
+                        save_dir = os.path.join(base_dir, "save", f"qi_{numero_item}_{slug}_{timestamp}")
                         os.makedirs(save_dir, exist_ok=True)
 
                         medical_contexts = data[j]["content"]  # accès au champ 'content' de élément
@@ -211,8 +213,8 @@ def main():
                         keyboard.press(Key.enter)
                         keyboard.release(Key.enter)
 
-                        # Étape 3 : Attendre 2 minutes 30 secondes 
-                        time.sleep(150)
+                        # Étape 3 : Attendre 3 minutes 
+                        time.sleep(180)
                         
                         # Étape 3.5 : Positionner la souris au milieu de l'écran et scroller
                         # Obtenir la taille de l'écran (approximative pour Windows)
@@ -221,22 +223,27 @@ def main():
                         
                         # Positionner la souris au centre de l'écran
                         mouse.position = (screen_width // 2, screen_height // 2)
-                        time.sleep(0.2)
+                        time.sleep(0.5)
                         
                         # Scroller vers le bas 10 fois
                         for scroll_count in range(10):
                             mouse.scroll(0, -300)  # Scroll vers le bas (valeur négative)
                             time.sleep(0.2)
 
-                        # Étape 4 : Shift + Tab navigation, then Space
-                        for i in range(7):
-                            with keyboard.pressed(Key.shift):
-                                keyboard.press(Key.tab)
-                                keyboard.release(Key.tab)
-                            time.sleep(0.2)
-                        keyboard.press(Key.space)
-                        keyboard.release(Key.space)
-                        time.sleep(0.2)
+                        mouse.position = (886, 879)
+                        time.sleep(0.5)
+                        mouse.click(Button.left)
+                        time.sleep(0.5)  
+
+                        # # Étape 4 : Shift + Tab navigation, then Space. TROP INCONSISTENT
+                            # for i in range(7):
+                            #     with keyboard.pressed(Key.shift):
+                            #         keyboard.press(Key.tab)
+                            #         keyboard.release(Key.tab)
+                            #     time.sleep(0.2)
+                            # keyboard.press(Key.space)
+                            # keyboard.release(Key.space)
+                            # time.sleep(0.2)
 
                         raw = pyperclip.paste()
                         txt = clean_quotes(raw).strip()
@@ -266,8 +273,21 @@ def main():
                                 content_obj = json.loads(txt2)
                             except json.JSONDecodeError:
                                 write_debug(f"debug_clean_after_replace_{file_name[:-3]}_{i}.txt", txt)
-                                # Dernier recours : garder le texte lisible
-                                content_obj = txt
+                                # Dernier recours : faire un coontrole A controle C controle V
+                                mouse.position = (900, 500)
+                                time.sleep(0.5)
+                                mouse.click(Button.left)
+                                time.sleep(0.5) 
+
+                                with keyboard.pressed(Key.ctrl):
+                                    keyboard.press('a')
+                                    keyboard.release('a')
+
+                                with keyboard.pressed(Key.ctrl):
+                                    keyboard.press('c')
+                                    keyboard.release('c')
+
+                                content_obj = pyperclip.paste()
 
                         # 4) Construire la charge utile propre (1 question par objet de content_obj)
                         now_ms = int(time.time() * 1000)
@@ -307,8 +327,6 @@ def main():
 
                         print(f"Contenu sauvegardé dans : {file_path}")
 
-
-                        print(f"Contenu sauvegardé dans : {file_path}")
                         i += 1  # Incrémenter l'index pour le prochain fichier
                     
                     else:

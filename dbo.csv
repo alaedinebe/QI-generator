@@ -1,13 +1,9 @@
 numero_item,slug,subject
-1,medmalade,psy - mint - mir
-2,valeurspro,mint
-3,raisonnement,sp - mint - mir
-4,risques,mir - infectio - sp
-5,erreurs,sp - mir
+5,erreurs,sp - sp
 6,securisation,sp
 7,droits,mdl
 8,discriminations,sp
-9,ethique,geria - mpr - mir - gyn - mdl
+9,ethique,geria - mpr - sp - gyn - mdl
 13,certificats,mdl - ophtalmo 
 10,corps,sp
 11,violence,mdl - gyn
@@ -95,15 +91,15 @@ numero_item,slug,subject
 94,rachialgie,rhumato - ortho - mpr - soinspal
 95,radiculalgie,neuro - neurochir - rhumato - ortho - soinspal
 96,neuroPperiph,neuro
-97,PRNA,neuro - mir
-98,myasthenie,neuro - mir
+97,PRNA,neuro - sp
+98,myasthenie,neuro - sp
 99,migraine,neuro
 100,cephalee,neuro - neurochir - ORL - ped - soinspal
 101,PF,ORL - neuro
 102,diplopie,neuro - ophtalmo
 103,vertige,orl - neuro
 104,SEP,neuro - ophtalmo
-105,epilepsie,neuro - mir
+105,epilepsie,neuro - sp
 106,parkinson,neuro - mpr
 107,mvtsaN,neuro
 108,confusiongeria,geria - soinspal
@@ -141,7 +137,7 @@ numero_item,slug,subject
 140,soinspal2,soinspal
 141,soinspal3,soinspal
 142,soinspalped,soinspal - ped
-143,soinspalrea,soinspal - mir
+143,soinspalrea,soinspal - sp
 144,deuil,psy - soinspal
 145,suiviMIT,infectio
 146,vaccin,infectio - ped - sp
@@ -149,14 +145,14 @@ numero_item,slug,subject
 148,infnasosin,infectio - ORL - ped
 149,angine,infectio  - ORL - ped
 150,otite,infectio - ORL - ped 
-151,meningite,infectio - neuro - mir - ped
-152,EI,cardio - infectio - mint - mir
+151,meningite,infectio - neuro - sp - ped
+152,EI,cardio - infectio - mint - sp
 153,suivivalv,cardio - infectio
-154,IBP,infectio - pneumo - mir - ped
-155,infdermato,dermato - infectio - cmf - mir - ped
+154,IBP,infectio - pneumo - sp - ped
+155,infdermato,dermato - infectio - cmf - sp - ped
 156,IOA,infectio - rhumato - ortho
-157,bacteriemie,infectio - mir - ped
-158,chocseptique,mir
+157,bacteriemie,infectio - sp - ped
+158,chocseptique,sp
 159,BK,infectio - pneumo
 160,tetanos,infectio 
 161,IU,infectio - nephro - uro - ped
@@ -165,17 +161,17 @@ numero_item,slug,subject
 164,exanthemeped,ped
 165,oreillons,infectio 
 166,grippe,infectio 
-167,VH,HGE - infectio - mir
+167,VH,HGE - infectio - sp
 168,herpes,dermato - infectio - neuro - cmf
 169,VIH,infectio - dermato - neuro
-170,palu,infectio - mir
+170,palu,infectio - sp
 171,ectoparasitose,dermato - infectio
 172,parasitedig,HGE - infectio
 173,zoonose,infectio
 174,infmigrant,infectio
 175,voyagetrop,infectio - ped
 176,diarrheeinf,infectio
-177,antiinf,infectio - mir - ped - sp - therapeutique
+177,antiinf,infectio - sp - ped - sp - therapeutique
 178,nvxrisques,infectio
 179,risquesenvironnemt,sp
 180,risquesRx,mdt
@@ -186,10 +182,10 @@ numero_item,slug,subject
 185,reactioninfl,mint - rhumato - immuno
 186,allergie,immuno - pneumo - ped
 187,allergiecut,dermato - mdt
-188,asthme,pneumo - mir - ped - mdt
+188,asthme,pneumo - sp - ped - mdt
 189,immunoD,mint - immuno - ped
 190,fievrechr,mint - infectio - immuno
-191,fievreimmunoD,infectio - mint- mir - immuno
+191,fievreimmunoD,infectio - mint- sp - immuno
 192,MAI,mint - rhumato- pneumo - immuno
 193,vascularite,mint - rhumato - pneumo
 194,LED,rhumato - dermato - nephro - mint - immuno
@@ -203,8 +199,8 @@ numero_item,slug,subject
 202,bioT,hemato - rhumato - immuno
 203,dyspnee,pneumo - cardio - ORL
 204,toux,pneumo - ped
-205,hemoptysie,pneumo - mir
-206,pleuresie,pneumo - mir
+205,hemoptysie,pneumo - sp
+206,pleuresie,pneumo - sp
 207,opacitetho,pneumo - ped
 208,IRespiC,pneumo
 209,BPCO,pneumo
@@ -212,7 +208,7 @@ numero_item,slug,subject
 211,sarcoidose,pneumo - dermato - endoc - rhumato - immuno
 212,NFS,hemato - immuno
 213,anemie,hemato - mint - ped
-214,thromboP,hemato - mint - mir - immuno
+214,thromboP,hemato - mint - sp - immuno
 215,purpura,dermato - infectio - hemato - mint - ped
 216,hemorragie,hemato
 217,Sdmononuc,hemato - infectio - mint - immuno
@@ -224,7 +220,7 @@ numero_item,slug,subject
 223,dyslip,cardio - vascu - endoc - nutro
 224,HTA,cardio - ophtalmo - vascu - endoc - nephro - mint - ped - sp - ophtalmo
 225,AOMI,vascu
-226,MTEV,cardio - hemato - pneumo - vascu - mir
+226,MTEV,cardio - hemato - pneumo - vascu - sp
 227,IVeinC,vascu - cardio
 228,ulcere,vascu - dermato
 229,voiesIV,vascu
@@ -238,14 +234,14 @@ numero_item,slug,subject
 237,palpitations,cardio
 238,souffleped,ped - cardio
 239,acroSd,vascu - dermato - mint
-240,hypoGly,endoc - mir - ped
+240,hypoGly,endoc - sp - ped
 241,noduleTh,endoc
 242,hyperTh,endoc - ophtalmo
 243,hypoTh,endoc
 244,adenomehypoP,endoc - neurochir
-245,ISurR,endoc - mir - ped
+245,ISurR,endoc - sp - ped
 246,gynecomastie,endoc
-247,diabete,endoc - ophtalmo - nutri - nephro - mir - ped - gyn
+247,diabete,endoc - ophtalmo - nutri - nephro - sp - ped - gyn
 248,preventionnutri,nutri - vascu
 249,MTMV,nutri - mpr
 250,denutrition,nutri - HGE - ped
@@ -265,8 +261,8 @@ numero_item,slug,subject
 264,IRC,nephro
 265,lithiaseU,uro - nephro
 266,PKRAD,nephro
-267,tbiono,nephro - endoc - mir (x3)
-268,hyperCa,nephro - endoc - rhumato - mir 
+267,tbiono,nephro - endoc - sp (x3)
+268,hyperCa,nephro - endoc - rhumato - sp 
 269,dlrabdo,HGE - ped
 270,dlrlombaire,rhumato
 271,RGO,HGE - ped
@@ -292,7 +288,7 @@ numero_item,slug,subject
 291,Kcphysiopath,onco - mdt
 292,DgKc,onco 
 293,anapathKc,onco 
-294,TTTKc,onco - mir
+294,TTTKc,onco - sp
 295,PeCKc,onco - soinspal
 296,agranulocytose,hemato
 297,Kcped,onco - ped - sp
@@ -323,42 +319,42 @@ numero_item,slug,subject
 322,TTTperso,therapeutique - geria 
 323,LCA,sp - therapeutique
 324,ETP,therapeutique
-325,iatrogenie,therapeutique - geria - mir - dermato - sp
+325,iatrogenie,therapeutique - geria - sp - dermato - sp
 326,recomedic,therapeutique
 327,medintegrative,sp
 328,TTTnonmedic,therapeutique - mpr
-329,transfusion,hemato - geria - mir - therapeutique
+329,transfusion,hemato - geria - sp - therapeutique
 330,AI,rhumato - dermato - therapeutique
-331,ACR,mir - cardio - ped
-332,choc,mir - cardio
+331,ACR,sp - cardio - ped
+332,choc,sp - cardio
 333,situationspe,urg - sp
-334,polytrauma,ortho - cardio - vascu - uro - neurochir - MIR (x4) 
-335,traumacrane,neuro - neurochir - ORL - mir - ped
-336,coma,neuro - mir
-337,intox,mir - cardio - ped
+334,polytrauma,ortho - cardio - vascu - uro - neurochir - sp (x4) 
+335,traumacrane,neuro - neurochir - ORL - sp - ped
+336,coma,neuro - sp
+337,intox,sp - cardio - ped
 338,anaphylaxie,pneumo
 339,SCA,cardio - mpr
-340,AVC,neuro - neurochir - vascu - mir - mpr
-341,HSA,neuro - neurochir - mir
+340,AVC,neuro - neurochir - vascu - sp - mpr
+341,HSA,neuro - neurochir - sp
 342,malaise,neuro - cardio
 343,tbconscience,urg - ped
-344,PECKc,mir - gyn
+344,PECKc,sp - gyn
 345,MSN,ped
 346,convulsionsped,ped
 347,RAU,uro - geria
-348,IRenA,nephro - uro - mir
+348,IRenA,nephro - uro - sp
 349,infdentaire,cmf
 350,jamberouge,dermato
-351,agitation,psy - mir
-352,AP,psy - mir
+351,agitation,psy - sp
+352,AP,psy - sp
 353,TS,psy - ped
 354,Sdocclusif,HGE
-355,hemorragiedig,HGE - mir
+355,hemorragiedig,HGE - sp
 356,appendicite,HGE
 357,peritonite,HGE - infectio
-358,pancreatiteaigue,HGE - mir
+358,pancreatiteaigue,HGE - sp
 359,DRA-CE,pneumo - ORL
-360,PNO,pneumo - mir
+360,PNO,pneumo - sp
 361,lesionart,ortho - rhumato
 362,prothese,ortho
 363,Fr,ortho 
@@ -366,3 +362,7 @@ numero_item,slug,subject
 365,platre,ortho
 366,AES,infectio
 367,environnemtsante,sp
+1,medmalade,psy - mint - sp
+2,valeurspro,mint
+3,raisonnement,sp - mint - sp
+4,risques,sp - infectio - sp

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754857337968_01",
+      "current_version_epoch_ms": 1754857337968,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions suivantes, les indications limitées où un antiseptique alcoolique peut être appliqué sur la surface d'un dispositif médical lors d'une manipulation aseptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Désinfection des sites de prélèvement des sondes vésicales",
+            "justification": "L'usage d'un antiseptique alcoolique est recommandé pour la manipulation aseptique de ces dispositifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Désinfection des sites d'injection des cathéters",
+            "justification": "Fait partie des indications limitées où l'antiseptique alcoolique est recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Désinfection des dispositifs d'accès vasculaire à valve",
+            "justification": "Mentionné comme situation où l'antiseptique alcoolique peut être utilisé pour la manipulation aseptique."
+          },
+          {
+            "correct": true,
+            "proposition": "Désinfection des bouchons de perfusions",
+            "justification": "Listé parmi les dispositifs pouvant recevoir un antiseptique alcoolique en manipulation aseptique."
+          },
+          {
+            "correct": false,
+            "proposition": "Désinfection du matériel de soins de manière générale",
+            "justification": "Il ne faut pas utiliser d'antiseptique pour la désinfection du matériel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857337968_02",
+      "current_version_epoch_ms": 1754857337968,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les règles générales d'utilisation des antiseptiques sur les dispositifs médicaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il ne faut pas utiliser d'antiseptique pour la désinfection du matériel",
+            "justification": "La désinfection du matériel ne doit pas être réalisée avec un antiseptique."
+          },
+          {
+            "correct": true,
+            "proposition": "Un antiseptique alcoolique peut être utilisé pour certaines manipulations aseptiques de dispositifs",
+            "justification": "Recommandé pour des indications limitées (ex. sites d'injection, bouchons de perfusions…)."
+          },
+          {
+            "correct": true,
+            "proposition": "L'application d'un antiseptique sur un dispositif peut exposer à un risque de dégradation ; il faut suivre les recommandations du fabricant",
+            "justification": "La compatibilité du dispositif médical doit être respectée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'utilisation d'un antiseptique remplace la stérilisation pour tout matériel en contact avec un site corporel stérile",
+            "justification": "Pour ce contact, il faut du matériel à usage unique ou stérilisé, ou à défaut une désinfection de haut niveau ; l'antiseptique ne remplace pas ces exigences."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les surfaces de dispositifs médicaux sont compatibles par défaut avec les antiseptiques alcooliques",
+            "justification": "Un risque de dégradation existe ; la compatibilité dépend des recommandations du fabricant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857337968_03",
+      "current_version_epoch_ms": 1754857337968,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Classer les gestes selon le niveau de risque infectieux en fonction du type de contact.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contact avec la peau saine : risque infectieux bas",
+            "justification": "Les trois niveaux sont définis selon le type de contact ; la peau saine correspond au bas."
+          },
+          {
+            "correct": true,
+            "proposition": "Contact avec la peau lésée superficiellement ou les muqueuses : risque intermédiaire",
+            "justification": "Ce type de contact relève du niveau intermédiaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Contact avec un site corporel stérile : risque haut",
+            "justification": "Le contact avec un site stérile définit le haut niveau de risque infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Le niveau de risque infectieux ne dépend pas du type d'acte réalisé",
+            "justification": "Les niveaux sont précisément identifiés selon le type d'acte et le contact associé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe que deux niveaux de risque (bas et haut)",
+            "justification": "Trois niveaux sont identifiés : bas, intermédiaire et haut."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857337968_04",
+      "current_version_epoch_ms": 1754857337968,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Définir les exigences de traitement du matériel pour les gestes à haut risque infectieux (contact avec un site corporel stérile).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utiliser du matériel à usage unique ou stérilisé",
+            "justification": "Exigence indiquée pour les gestes à haut risque infectieux."
+          },
+          {
+            "correct": true,
+            "proposition": "À défaut d'usage unique ou de stérilisation, réaliser une désinfection de haut niveau",
+            "justification": "Option prévue en cas d'impossibilité d'usage unique ou de stérilisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Une désinfection de niveau intermédiaire suffit",
+            "justification": "Pour le haut risque, seule la stérilisation ou la désinfection de haut niveau est acceptable."
+          },
+          {
+            "correct": false,
+            "proposition": "L'application d'un antiseptique sur le matériel suffit",
+            "justification": "Un antiseptique n'est pas destiné à la désinfection du matériel, encore moins pour le haut risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Tout matériel stérilisable utilisé en contact avec un site corporel stérile doit être stérilisé (et non désinfecté)",
+            "justification": "Obligation précisée pour le matériel stérilisable en contact avec un site stérile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857337968_05",
+      "current_version_epoch_ms": 1754857337968,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Différencier antisepsie et désinfection du matériel dans les soins impliquant des dispositifs médicaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les antiseptiques ne doivent pas être utilisés pour la désinfection du matériel",
+            "justification": "Règle générale rappelée explicitement."
+          },
+          {
+            "correct": true,
+            "proposition": "L'antiseptique alcoolique est réservé à des indications limitées de manipulation aseptique de dispositifs",
+            "justification": "Utilisation possible pour certains sites et dispositifs précis."
+          },
+          {
+            "correct": true,
+            "proposition": "L'usage d'un antiseptique sur la surface d'un dispositif peut altérer celui-ci ; se référer aux recommandations du fabricant",
+            "justification": "La compatibilité du dispositif conditionne l'emploi de l'antiseptique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour un geste à haut risque infectieux, un simple antiseptique sur le matériel est suffisant",
+            "justification": "Pour le haut risque, il faut usage unique ou stérilisation, ou à défaut une désinfection de haut niveau."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antiseptique peut être appliqué indifféremment sur tout dispositif médical sans précaution particulière",
+            "justification": "Un risque de dégradation existe ; il faut respecter les recommandations du fabricant."
+          }
+        ]
+      }
+    }
+  ]
+}

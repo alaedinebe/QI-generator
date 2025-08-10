@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risques",
+    "subject": "mir"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754857914412_01",
+      "current_version_epoch_ms": 1754857914412,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier, parmi les situations suivantes, celles qui imposent un signalement externe d'une IAS (OIC-004-42-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Micro-organisme en cause présentant une espèce ou une résistance rare.",
+            "justification": "Les IAS ayant un caractère rare ou particulier du fait du micro-organisme (espèce ou résistance rare) doivent être signalées."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection localisée sur un site habituellement peu ou jamais infecté.",
+            "justification": "La localisation sur un site rarement infecté fait partie des critères imposant le signalement."
+          },
+          {
+            "correct": false,
+            "proposition": "IAS courante, sans gravité ni particularité, prise en charge habituelle.",
+            "justification": "Le signalement externe concerne certaines IAS présentant rareté/particularité, gravité, lien dispositif/procédure, décès ou cas groupés ; une IAS banale isolée n'est pas visée."
+          },
+          {
+            "correct": true,
+            "proposition": "Lien avec un dispositif médical ou une procédure exposant à un risque d'épidémie (ex. lave-endoscope défectueux).",
+            "justification": "Un lien avec un dispositif ou une procédure à risque d'épidémie est un critère explicite de signalement."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute IAS doit systématiquement faire l'objet d'un signalement externe.",
+            "justification": "Le signalement est requis pour certaines IAS répondant à des critères précis, pas pour toutes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857914412_02",
+      "current_version_epoch_ms": 1754857914412,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Reconnaître les destinataires et la chaîne de transmission d'un signalement réglementaire d'IAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'établissement signale à l'ARS après validation par le praticien en hygiène.",
+            "justification": "Le signalement réglementaire est effectué par l'établissement à l'autorité sanitaire après validation par le praticien en hygiène."
+          },
+          {
+            "correct": true,
+            "proposition": "L'établissement signale également au CPIAS de sa région.",
+            "justification": "Le CPIAS régional fait partie des destinataires du signalement réalisé par l'établissement."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ARS transmet ensuite le signalement à Santé publique France.",
+            "justification": "Après réception, l'ARS adresse le signalement à Santé publique France pour analyse nationale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le signalement est adressé en premier lieu au ministère central.",
+            "justification": "La chaîne mentionne l'ARS et le CPIAS comme destinataires initiaux, pas un envoi direct au ministère."
+          },
+          {
+            "correct": false,
+            "proposition": "Les soignants signalent directement à Santé publique France, sans validation.",
+            "justification": "Le circuit passe par l'établissement avec validation par le praticien en hygiène, puis transmission à l'ARS et au CPIAS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857914412_03",
+      "current_version_epoch_ms": 1754857914412,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Définir le rôle du praticien en hygiène dans le signalement d'une IAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Valider le signalement avant l'envoi par l'établissement.",
+            "justification": "Le signalement réglementaire est réalisé après validation par le praticien en hygiène."
+          },
+          {
+            "correct": false,
+            "proposition": "Recevoir le signalement externe transmis par l'ARS.",
+            "justification": "La transmission par l'ARS concerne Santé publique France ; le praticien en hygiène intervient pour la validation préalable au sein de l'établissement."
+          },
+          {
+            "correct": false,
+            "proposition": "Valider le signalement au nom du CPIAS régional.",
+            "justification": "La validation est réalisée par le praticien en hygiène de l'établissement ; le CPIAS est destinataire, pas validateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Se substituer à l'établissement pour signaler directement aux autorités.",
+            "justification": "Le signalement est effectué par l'établissement, après validation par le praticien en hygiène, et non à sa place."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de validation par le praticien en hygiène n'empêche pas le signalement.",
+            "justification": "La validation par le praticien en hygiène conditionne le signalement réglementaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857914412_04",
+      "current_version_epoch_ms": 1754857914412,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Identifier les obligations vis-à-vis des patients lors d'un signalement d'IAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Informer réglementairement le ou les patients concernés.",
+            "justification": "Les patients concernés doivent être informés du signalement."
+          },
+          {
+            "correct": true,
+            "proposition": "Tracer le signalement dans le dossier du ou des patients.",
+            "justification": "Le signalement doit être tracé dans le dossier patient."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir d'informer en cas de cas groupés.",
+            "justification": "L'obligation d'information des patients s'applique ; aucune exemption pour les cas groupés n'est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Informer uniquement les proches en cas de décès.",
+            "justification": "L'obligation porte sur l'information des patients concernés et la traçabilité ; il n'est pas indiqué de remplacer cela par l'information des proches."
+          },
+          {
+            "correct": false,
+            "proposition": "L'information des patients devient facultative si l'ARS est destinataire.",
+            "justification": "L'information des patients et la traçabilité sont des obligations distinctes de l'envoi à l'ARS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754857914412_05",
+      "current_version_epoch_ms": 1754857914412,
+      "topic": {
+        "subject": "mir",
+        "item": "risques"
+      },
+      "data": {
+        "statement": "Préciser les conditions organisationnelles préalables au signalement externe d'une IAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Disposer d'un système interne de détection des IAS dans l'établissement.",
+            "justification": "Le signalement externe suppose en amont un système de détection interne des IAS."
+          },
+          {
+            "correct": false,
+            "proposition": "Avoir un lave-endoscope neuf et certifié comme condition préalable.",
+            "justification": "Le matériel n'est pas cité comme condition ; seul un système de détection interne est explicitement requis en amont."
+          },
+          {
+            "correct": false,
+            "proposition": "Obtenir une validation préalable de l'ARS avant de pouvoir signaler.",
+            "justification": "La validation préalable est du praticien en hygiène ; l'ARS est destinataire du signalement."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre en place un comité d'éthique spécifique au signalement.",
+            "justification": "Aucune exigence d'un comité d'éthique n'est précisée ; la condition préalable mentionnée est la détection interne."
+          },
+          {
+            "correct": false,
+            "proposition": "Être accrédité par une certification dédiée au signalement des IAS.",
+            "justification": "Aucune certification dédiée n'est requise ; la seule condition en amont mentionnée est l'existence d'un système de détection interne."
+          }
+        ]
+      }
+    }
+  ]
+}
