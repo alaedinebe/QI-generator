@@ -1,0 +1,25 @@
+[project]
+name = "qi-generator"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alaedine"}
+]
+license = {text = "The same as Apple"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datetime (>=5.5,<6.0)",
+    "pyperclip (>=1.9.0,<2.0.0)",
+    "pynput (>=1.8.1,<2.0.0)"
+]
+
+packages = [{ include = "qi_generator", from = "src" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+qi-gen = "qi_generator.__main__:main"
