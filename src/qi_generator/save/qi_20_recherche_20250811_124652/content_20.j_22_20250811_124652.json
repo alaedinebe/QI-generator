@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754909404287_01",
+      "current_version_epoch_ms": 1754909404287,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier la bonne description d'une variable qualitative.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présenter l'effectif de chaque modalité.",
+            "justification": "Pour une variable qualitative, on décrit chaque modalité par son effectif."
+          },
+          {
+            "correct": true,
+            "proposition": "Donner la proportion (ou pourcentage) de chaque modalité.",
+            "justification": "Pour une variable qualitative, la proportion (ou pourcentage) par modalité fait partie de la description attendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculer la moyenne des modalités.",
+            "justification": "La moyenne est un paramètre de position utilisé pour des variables quantitatives, pas pour décrire des modalités qualitatives."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculer la variance entre modalités.",
+            "justification": "La variance est un paramètre de dispersion des variables quantitatives."
+          },
+          {
+            "correct": false,
+            "proposition": "Donner la distance interquartile.",
+            "justification": "La distance interquartile (Q3 − Q1) s'applique aux variables quantitatives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909404287_02",
+      "current_version_epoch_ms": 1754909404287,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Série quantitative : 1 ; 2 ; 2 ; 4 ; 11. Identifier les paramètres de position corrects.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La moyenne vaut 4.",
+            "justification": "La moyenne est la somme des valeurs divisée par leur nombre : (1+2+2+4+11)/5 = 20/5 = 4."
+          },
+          {
+            "correct": true,
+            "proposition": "Le mode vaut 2.",
+            "justification": "Le mode est la valeur la plus fréquemment retrouvée ; ici 2 apparaît le plus souvent."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne vaut 3.",
+            "justification": "Une moyenne de 3 impliquerait une somme totale de 15 pour 5 valeurs, ce qui n'est pas le cas (la somme est 20)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mode vaut 11.",
+            "justification": "Le mode est la valeur la plus fréquente ; 11 n'apparaît qu'une fois."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne vaut 20.",
+            "justification": "Confusion entre somme des valeurs (20) et moyenne (20/5 = 4)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909404287_03",
+      "current_version_epoch_ms": 1754909404287,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître la définition correcte de chaque paramètre de dispersion.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La variance est la moyenne des carrés des écarts à la moyenne.",
+            "justification": "La variance mesure la dispersion autour de la moyenne en prenant la moyenne des écarts au carré."
+          },
+          {
+            "correct": true,
+            "proposition": "L'écart-type est la racine carrée de la variance.",
+            "justification": "L'écart-type est défini comme la racine carrée de la variance."
+          },
+          {
+            "correct": true,
+            "proposition": "La distance interquartile est Q3 − Q1.",
+            "justification": "La distance interquartile est la différence entre le troisième et le premier quartile."
+          },
+          {
+            "correct": false,
+            "proposition": "L'étendue est la somme de la valeur maximale et de la valeur minimale.",
+            "justification": "L'étendue est la différence entre la valeur maximale et la valeur minimale."
+          },
+          {
+            "correct": false,
+            "proposition": "La variance mesure la position centrale des valeurs.",
+            "justification": "La variance mesure la dispersion, pas la position centrale ; la position relève des paramètres de position."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909404287_04",
+      "current_version_epoch_ms": 1754909404287,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Pour la série quantitative 2 ; 2 ; 2 ; 2, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La variance est nulle.",
+            "justification": "Tous les écarts à la moyenne (2) sont nuls ; la moyenne des carrés des écarts est donc 0."
+          },
+          {
+            "correct": true,
+            "proposition": "L'écart-type est nul.",
+            "justification": "L'écart-type est la racine carrée de la variance ; racine de 0 = 0."
+          },
+          {
+            "correct": true,
+            "proposition": "L'étendue est nulle.",
+            "justification": "Max = 2, Min = 2 ; étendue = 2 − 2 = 0."
+          },
+          {
+            "correct": true,
+            "proposition": "La distance interquartile est nulle.",
+            "justification": "Q1 = Q3 = 2 lorsque toutes les valeurs sont identiques ; Q3 − Q1 = 0."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne est égale à 3.",
+            "justification": "La moyenne est la somme des valeurs divisée par leur nombre : (2+2+2+2)/4 = 8/4 = 2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909404287_05",
+      "current_version_epoch_ms": 1754909404287,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos des quantiles, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La médiane divise les valeurs en deux parties de même effectif.",
+            "justification": "La médiane est l'exemple de quantile qui sépare l'ensemble en deux parties de même taille."
+          },
+          {
+            "correct": true,
+            "proposition": "Les quartiles divisent les valeurs en quatre parties de même effectif.",
+            "justification": "Les quartiles sont des quantiles qui partitionnent en quatre parties de même effectif."
+          },
+          {
+            "correct": true,
+            "proposition": "Les percentiles divisent les valeurs en cent parties de même effectif.",
+            "justification": "Les percentiles sont des quantiles définis en 100 parties de même effectif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mode est un quantile.",
+            "justification": "Le mode est la valeur la plus fréquente ; un quantile est défini par un découpage de l'ensemble ordonné."
+          },
+          {
+            "correct": false,
+            "proposition": "Les quartiles sont des paramètres de dispersion.",
+            "justification": "Les quantiles (dont les quartiles) figurent parmi les paramètres de position ; la dispersion relève de la variance, de l'écart-type, de l'étendue et de la distance interquartile."
+          }
+        ]
+      }
+    }
+  ]
+}

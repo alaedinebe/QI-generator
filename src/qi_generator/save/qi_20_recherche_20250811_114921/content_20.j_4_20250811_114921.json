@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754905953199_01",
+      "current_version_epoch_ms": 1754905953199,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les définitions correctes concernant « population cible », « population source » et « échantillon ».",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La population cible est celle sur laquelle on s'interroge et à laquelle on souhaite extrapoler les résultats.",
+            "justification": "La population cible correspond au groupe que l'on veut mieux connaître et auquel on extrapole les résultats de l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "La population source est celle au sein de laquelle l'étude se déroule concrètement et où l'on identifie les individus à inclure.",
+            "justification": "La population source est le cadre opérationnel de l'étude, d'où sont tirés les individus inclus."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échantillon est un sous-ensemble de la population cible.",
+            "justification": "L'échantillon est défini comme un sous-ensemble de la population source, pas directement de la population cible."
+          },
+          {
+            "correct": true,
+            "proposition": "La population source doit être choisie comme la plus représentative possible de la population cible.",
+            "justification": "Il est précisé que la population source doit être la plus représentative possible de la population cible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échantillon peut être constitué sans se soucier de sa représentativité.",
+            "justification": "L'échantillon doit être constitué pour être le plus représentatif possible de la population dont il est issu, avec une modalité d'échantillonnage adaptée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754905953199_02",
+      "current_version_epoch_ms": 1754905953199,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier les caractéristiques de la population source par rapport à la population cible.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle correspond au cadre concret où l'étude se déroule et où l'on identifie les individus à inclure.",
+            "justification": "La population source est définie par le déroulement concret de l'étude et la sélection des individus."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle désigne le groupe de personnes auquel on souhaite extrapoler les résultats.",
+            "justification": "Cette définition correspond à la population cible, pas à la population source."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit être choisie comme la plus représentative possible de la population cible.",
+            "justification": "La population source est sélectionnée pour maximiser sa représentativité de la population cible."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est nécessairement identique à la population cible.",
+            "justification": "Aucune identité nécessaire n'est posée ; la population source doit être représentative de la cible, pas identique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne sert pas à sélectionner les participants de l'étude.",
+            "justification": "La population source est précisément celle au sein de laquelle on identifie les individus à inclure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754905953199_03",
+      "current_version_epoch_ms": 1754905953199,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les éléments qui conditionnent la validité externe (transposabilité, extrapolation) d'une étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La qualité du choix des populations cible et source conditionne la validité externe.",
+            "justification": "Il est indiqué que la qualité du choix des populations cible/source conditionne la validité externe."
+          },
+          {
+            "correct": true,
+            "proposition": "Le mode de constitution de l'échantillon conditionne la validité externe.",
+            "justification": "La validité externe dépend aussi du mode de constitution de l'échantillon."
+          },
+          {
+            "correct": false,
+            "proposition": "La représentativité de l'échantillon est indifférente pour la validité externe.",
+            "justification": "L'échantillon doit être le plus représentatif possible ; la validité externe est conditionnée par cette qualité."
+          },
+          {
+            "correct": true,
+            "proposition": "Une population source peu représentative de la cible peut altérer la transposabilité des résultats.",
+            "justification": "Puisque la validité externe est conditionnée par la qualité du choix des populations et leur représentativité, une faible représentativité altère la transposabilité."
+          },
+          {
+            "correct": false,
+            "proposition": "La validité externe ne concerne pas l'extrapolation des résultats.",
+            "justification": "La validité externe est explicitement associée à la transposabilité/extrapolation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754905953199_04",
+      "current_version_epoch_ms": 1754905953199,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les relations d'inclusion et de représentativité entre population source et échantillon.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'échantillon est un sous-ensemble de la population source.",
+            "justification": "L'échantillon est défini comme un sous-ensemble d'une population source."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échantillon doit être constitué pour être le plus représentatif possible de la population dont il est issu.",
+            "justification": "La constitution de l'échantillon vise la meilleure représentativité possible de la population source."
+          },
+          {
+            "correct": false,
+            "proposition": "La population source est un sous-ensemble obligatoire de l'échantillon.",
+            "justification": "La relation est inverse : l'échantillon est inclus dans la population source."
+          },
+          {
+            "correct": true,
+            "proposition": "La population source est choisie pour être la plus représentative possible de la population cible.",
+            "justification": "La sélection de la population source vise la représentativité de la population cible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échantillon est toujours identique à la population source.",
+            "justification": "Par définition, l'échantillon n'est qu'un sous-ensemble de la population source."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754905953199_05",
+      "current_version_epoch_ms": 1754905953199,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir le rôle de la population cible dans la finalité d'une étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle correspond au groupe sur lequel on souhaite obtenir des informations pour mieux adapter la prise en charge en vraie vie.",
+            "justification": "La population cible est celle que l'on veut mieux connaître pour adapter la prise en charge en situation réelle."
+          },
+          {
+            "correct": true,
+            "proposition": "C'est la population à laquelle on souhaite extrapoler les résultats.",
+            "justification": "La population cible est celle à laquelle les résultats de l'étude sont extrapolés."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond aux personnes effectivement incluses dans l'étude.",
+            "justification": "Les personnes effectivement incluses relèvent de la population source et, plus précisément, de l'échantillon."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est définie uniquement après la constitution de l'échantillon.",
+            "justification": "La définition repose sur la finalité (connaissance et extrapolation) et non sur un ordre temporel lié à la constitution de l'échantillon."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas concernée par la validité externe.",
+            "justification": "La validité externe correspond à la transposabilité/extrapolation des résultats, ce qui implique directement la population cible."
+          }
+        ]
+      }
+    }
+  ]
+}

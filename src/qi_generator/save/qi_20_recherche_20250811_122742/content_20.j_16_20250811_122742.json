@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754908254263_01",
+      "current_version_epoch_ms": 1754908254263,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques attendues de l'objectif principal d'une recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il doit être unique.",
+            "justification": "L'objectif principal est explicitement requis comme unique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il doit être clair et précis.",
+            "justification": "Les qualités attendues incluent la clarté et la précision."
+          },
+          {
+            "correct": true,
+            "proposition": "Il doit être consensuel et raisonnable.",
+            "justification": "L'objectif principal doit recueillir un consensus et rester raisonnable."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut être multiple pour couvrir toutes les hypothèses.",
+            "justification": "Le caractère multiple est contraire à l'exigence d'unicité de l'objectif principal."
+          },
+          {
+            "correct": false,
+            "proposition": "Il devient optionnel si des objectifs secondaires existent.",
+            "justification": "Même en présence d'objectifs secondaires, un objectif principal est requis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908254263_02",
+      "current_version_epoch_ms": 1754908254263,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier les liens entre hypothèse de recherche et planification statistique (puissance, effectif).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La définition de l'hypothèse est en lien direct avec l'estimation de la puissance.",
+            "justification": "Il est précisé qu'elle est directement liée à l'estimation de la puissance de l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "La définition de l'hypothèse est en lien direct avec le calcul du nombre de sujets nécessaires.",
+            "justification": "Elle conditionne le calcul de l'effectif requis."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hypothèse doit décrire la taille d'effet attendue.",
+            "justification": "Il est indiqué que l'hypothèse décrit ce qui est attendu en termes de taille d'effet."
+          },
+          {
+            "correct": false,
+            "proposition": "La définition de l'hypothèse est indépendante de la puissance.",
+            "justification": "C'est l'inverse : un lien direct avec la puissance est explicitement mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "La taille d'effet n'a pas à être spécifiée dans l'hypothèse.",
+            "justification": "La taille d'effet attendue doit au contraire être décrite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908254263_03",
+      "current_version_epoch_ms": 1754908254263,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître la relation entre hypothèse a priori et objectifs d'une recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'objectif d'une recherche découle d'une hypothèse formulée a priori.",
+            "justification": "L'objectif est présenté comme découlant directement d'une hypothèse a priori."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hypothèse se déduit des résultats après l'étude.",
+            "justification": "L'hypothèse est définie avant l'étude et non d'après ses résultats."
+          },
+          {
+            "correct": true,
+            "proposition": "L'étude vise à vérifier l'hypothèse.",
+            "justification": "Il est indiqué que l'hypothèse est vérifiée au travers d'une étude."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne peut jamais y avoir d'objectifs secondaires.",
+            "justification": "Des objectifs secondaires sont possibles, avec hiérarchisation."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de pluralité d'objectifs, une hiérarchisation est nécessaire.",
+            "justification": "La coexistence d'un objectif principal et d'objectifs secondaires est requise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908254263_04",
+      "current_version_epoch_ms": 1754908254263,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les affirmations selon qu'elles relèvent de la définition de l'hypothèse de recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle décrit la taille d'effet attendue.",
+            "justification": "La taille d'effet attendue fait partie du contenu de l'hypothèse."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est directement liée à l'estimation de la puissance.",
+            "justification": "Un lien direct avec la puissance est précisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle informe le calcul du nombre de sujets nécessaires.",
+            "justification": "Le calcul de l'effectif dépend de la définition de l'hypothèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle impose que l'objectif soit unique, clair et précis.",
+            "justification": "Ces qualités décrivent l'objectif principal, pas le contenu de l'hypothèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle hiérarchise les objectifs en principal et secondaires.",
+            "justification": "La hiérarchisation concerne l'organisation des objectifs, non la définition de l'hypothèse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908254263_05",
+      "current_version_epoch_ms": 1754908254263,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir les implications pratiques d'une hypothèse bien formulée pour la conduite de l'étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle conditionne l'estimation de la puissance statistique.",
+            "justification": "La relation directe avec la puissance est explicitée."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle conditionne le calcul de l'effectif nécessaire.",
+            "justification": "Le nombre de sujets requis dépend de la définition de l'hypothèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle peut être omise si l'objectif est consensuel.",
+            "justification": "L'hypothèse a priori est le point de départ, elle ne peut être omise."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est sans rapport avec la taille d'effet attendue.",
+            "justification": "Au contraire, elle doit décrire la taille d'effet attendue."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est formulée a priori et guide la vérification par l'étude.",
+            "justification": "L'hypothèse est posée avant l'étude et celle-ci sert à la vérifier."
+          }
+        ]
+      }
+    }
+  ]
+}

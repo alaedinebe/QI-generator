@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754906720899_01",
+      "current_version_epoch_ms": 1754906720899,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les définitions exactes du risque relatif (RR) et de l'odds ratio (OR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RR est le rapport de la probabilité d'être malade chez les exposés sur celle des non exposés.",
+            "justification": "Le RR est défini comme le rapport des probabilités de maladie entre exposés et non exposés."
+          },
+          {
+            "correct": true,
+            "proposition": "L'OR est le rapport des cotes d'être ou non malade selon l'existence ou l'absence d'exposition.",
+            "justification": "L'OR est défini comme un rapport de cotes en fonction de l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RR est le rapport des cotes d'être malade chez exposés vs non exposés.",
+            "justification": "Cette définition correspond à l'OR, pas au RR qui compare des probabilités."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OR est toujours identique au RR, quelle que soit la situation.",
+            "justification": "L'OR ne peut être interprété comme un RR que lorsque le critère étudié est rare."
+          },
+          {
+            "correct": true,
+            "proposition": "RR et OR quantifient l'intensité du lien entre exposition et phénomène de santé.",
+            "justification": "RR et OR sont des mesures d'association qui évaluent l'intensité du lien exposition–santé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906720899_02",
+      "current_version_epoch_ms": 1754906720899,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les schémas d'étude permettant d'estimer un risque relatif (RR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Essai contrôlé randomisé.",
+            "justification": "Un RR peut être estimé à partir d'un essai contrôlé randomisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude de cohorte exposé/non exposé.",
+            "justification": "Un RR peut être estimé à partir d'une étude de cohorte exposé/non exposé."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude cas-témoins.",
+            "justification": "Un RR ne peut pas être estimé à partir d'une étude cas-témoins."
+          },
+          {
+            "correct": false,
+            "proposition": "Quel que soit le schéma d'étude.",
+            "justification": "Le RR n'est pas estimable avec tous les schémas d'étude, notamment pas en cas-témoins."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude exposé/non exposé.",
+            "justification": "Le RR est estimable dans une approche exposé/non exposé, ce qui correspond à une cohorte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906720899_03",
+      "current_version_epoch_ms": 1754906720899,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître quand un odds ratio (OR) peut être interprété comme un risque relatif (RR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le critère de jugement est rare dans la population cible.",
+            "justification": "Dans cette situation, l'OR peut être interprété comme un RR."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le critère de jugement est fréquent dans la population cible.",
+            "justification": "L'interprétation de l'OR comme RR n'est pas valable lorsque l'événement est fréquent."
+          },
+          {
+            "correct": false,
+            "proposition": "Jamais.",
+            "justification": "Une interprétation comme RR est possible si l'événement est rare."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours.",
+            "justification": "Cette interprétation n'est pas systématique et dépend de la rareté de l'événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement dans les études de cohorte.",
+            "justification": "La condition d'interprétation dépend de la rareté du critère, pas du schéma d'étude."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906720899_04",
+      "current_version_epoch_ms": 1754906720899,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier ce que comparent le RR et l'OR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RR compare des probabilités de maladie entre exposés et non exposés.",
+            "justification": "Le RR est défini comme un rapport de probabilités de maladie selon l'exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "L'OR compare des cotes de maladie selon l'exposition.",
+            "justification": "L'OR est défini comme un rapport de cotes en fonction de l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RR compare des cotes d'exposition selon la maladie.",
+            "justification": "Le RR ne compare pas des cotes et porte sur la probabilité de maladie selon l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OR compare des probabilités d'exposition chez malades et non malades.",
+            "justification": "L'OR porte sur des cotes de maladie selon l'exposition, pas sur des probabilités d'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OR ne se définit pas par un rapport, mais par une différence.",
+            "justification": "L'OR est explicitement un rapport de cotes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906720899_05",
+      "current_version_epoch_ms": 1754906720899,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les exigences de présentation des estimations de RR et d'OR issues d'un échantillon.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute estimation de RR à partir d'un échantillon doit être accompagnée d'un intervalle de confiance.",
+            "justification": "Les estimations doivent s'accompagner de leur intervalle de confiance."
+          },
+          {
+            "correct": true,
+            "proposition": "Toute estimation d'OR à partir d'un échantillon doit être accompagnée d'un intervalle de confiance.",
+            "justification": "Les estimations doivent s'accompagner de leur intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "L'intervalle de confiance n'est pas nécessaire pour l'OR.",
+            "justification": "Un intervalle de confiance est requis pour les estimations, dont l'OR."
+          },
+          {
+            "correct": false,
+            "proposition": "Seules les études cas-témoins nécessitent un intervalle de confiance.",
+            "justification": "L'exigence d'intervalle de confiance concerne les estimations, quel que soit le schéma."
+          },
+          {
+            "correct": false,
+            "proposition": "Les intervalles de confiance ne concernent pas les mesures d'association.",
+            "justification": "Les RR et OR estimés doivent être présentés avec un intervalle de confiance."
+          }
+        ]
+      }
+    }
+  ]
+}

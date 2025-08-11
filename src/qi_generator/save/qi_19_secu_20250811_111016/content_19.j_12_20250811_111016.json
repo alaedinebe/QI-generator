@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "secu",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754903608199_01",
+      "current_version_epoch_ms": 1754903608199,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Différencier prestations en espèces et prestations en nature dans l'assurance maladie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les indemnités journalières (IJ) illustrent une prestation en espèces.",
+            "justification": "Une prestation en espèces constitue un revenu de remplacement, servi notamment sous forme d'IJ en cas d'arrêt de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le remboursement des frais de santé est une prestation en espèces.",
+            "justification": "Le remboursement total ou partiel des frais de santé correspond à une prestation en nature, pas à une prestation en espèces."
+          },
+          {
+            "correct": true,
+            "proposition": "La prestation en nature correspond au remboursement total ou partiel des frais de santé engagés.",
+            "justification": "La prestation en nature prend en charge tout ou partie des dépenses de santé liées à maladie, maternité ou accident du travail."
+          },
+          {
+            "correct": true,
+            "proposition": "Les prestations en espèces constituent un revenu de remplacement en cas d'arrêt de travail chez les salariés.",
+            "justification": "Elles sont servies sous forme d'IJ et remplacent le revenu des personnes salariées en arrêt de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Les prestations en nature s'appliquent uniquement à l'assuré social, jamais aux ayants droit.",
+            "justification": "Les prestations en nature concernent l'assuré social et ses ayants droit."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754903608199_02",
+      "current_version_epoch_ms": 1754903608199,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier les règles principales applicables au risque maladie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les indemnités journalières sont versées à compter du 4e jour de l'arrêt de travail.",
+            "justification": "Pour le risque maladie, le service des IJ débute à partir du 4e jour."
+          },
+          {
+            "correct": false,
+            "proposition": "Le ticket modérateur est fixe, identique pour toutes les prestations.",
+            "justification": "Le ticket modérateur est variable selon les prestations."
+          },
+          {
+            "correct": true,
+            "proposition": "Le ticket modérateur est majoré hors parcours de soins coordonné.",
+            "justification": "Une majoration s'applique lorsque les soins sont réalisés en dehors du parcours de soins (médecin traitant)."
+          },
+          {
+            "correct": true,
+            "proposition": "Les affections de longue durée (ALD) bénéficient d'une exonération du ticket modérateur.",
+            "justification": "Une exonération du ticket modérateur est prévue pour les ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "La participation forfaitaire de 1 € par consultation n'a pas de plafond annuel.",
+            "justification": "La participation forfaitaire de 1 € est plafonnée à 50 € par an."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754903608199_03",
+      "current_version_epoch_ms": 1754903608199,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités de prise en charge liées au risque maternité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Des indemnités journalières sont versées pendant la durée légale du congé : 6 semaines avant et 10 semaines après l'accouchement.",
+            "justification": "Le congé maternité indemnisé couvre 6 semaines prénatales et 10 semaines postnatales."
+          },
+          {
+            "correct": true,
+            "proposition": "Les examens prénataux sont pris en charge à 100 %.",
+            "justification": "La prise en charge à 100 % des examens prénataux est prévue."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir du 6e mois et jusqu'au 12e jour après l'accouchement, tout est pris en charge à 100 %, y compris le forfait journalier hospitalier.",
+            "justification": "La prise en charge à 100 % s'applique aux prestations listées, mais le forfait journalier hospitalier n'est pas inclus."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant le 6e mois, toutes les dépenses de santé de la grossesse sont prises en charge à 100 %.",
+            "justification": "Avant le 6e mois, la prise en charge à 100 % est mentionnée pour les examens prénataux, pas pour toutes les dépenses."
+          },
+          {
+            "correct": true,
+            "proposition": "Les séances de préparation à la naissance sont prises en charge à 100 % à partir du 6e mois.",
+            "justification": "Elles font partie des prestations prises en charge à 100 % à partir du 6e mois et jusqu'au 12e jour post-partum."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754903608199_04",
+      "current_version_epoch_ms": 1754903608199,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Classer les critères et prestations relatifs au risque invalidité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'âge doit être inférieur à 62,5 ans.",
+            "justification": "Une condition d'âge < 62,5 ans est requise selon le calendrier d'augmentation de l'âge de la retraite."
+          },
+          {
+            "correct": false,
+            "proposition": "Une réduction d'au moins un tiers de la capacité de travail suffit.",
+            "justification": "Il faut une réduction d'au moins deux tiers de la capacité de travail ou de revenu."
+          },
+          {
+            "correct": true,
+            "proposition": "La pension d'invalidité est calculée selon le revenu, la capacité résiduelle de travail et le besoin éventuel d'une tierce personne.",
+            "justification": "Ces paramètres entrent dans le calcul de la pension d'invalidité."
+          },
+          {
+            "correct": true,
+            "proposition": "Les prestations en nature liées à l'invalidité bénéficient d'une exonération du ticket modérateur.",
+            "justification": "Une exonération du ticket modérateur est prévue en invalidité."
+          },
+          {
+            "correct": false,
+            "proposition": "En invalidité, les ayants droit reçoivent un capital décès.",
+            "justification": "Le capital décès relève du risque décès lorsque le décès survient en activité, pas du risque invalidité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754903608199_05",
+      "current_version_epoch_ms": 1754903608199,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier ce qui caractérise le risque décès dans l'assurance maladie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Versement d'un capital aux ayants droit si la personne décède alors qu'elle est en activité.",
+            "justification": "Le risque décès prévoit un capital décès versé aux ayants droit sous conditions lorsque le décès survient en activité."
+          },
+          {
+            "correct": false,
+            "proposition": "Exonération systématique du ticket modérateur.",
+            "justification": "L'exonération du ticket modérateur est mentionnée pour l'invalidité et les ALD, pas comme caractéristique du risque décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Indemnités journalières à compter du 4e jour de l'arrêt de travail.",
+            "justification": "Ce dispositif correspond au risque maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise en charge à 100 % des examens prénataux.",
+            "justification": "Cette prise en charge relève du risque maternité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pension calculée en fonction du revenu et du besoin d'une tierce personne.",
+            "justification": "Il s'agit d'une caractéristique du risque invalidité, pas du risque décès."
+          }
+        ]
+      }
+    }
+  ]
+}

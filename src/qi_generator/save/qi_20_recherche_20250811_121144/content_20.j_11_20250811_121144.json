@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754907295911_01",
+      "current_version_epoch_ms": 1754907295911,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier erreur aléatoire et erreur systématique (biais) dans l'estimation d'un paramètre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'erreur aléatoire est due à la fluctuation d'échantillonnage.",
+            "justification": "Elle résulte des fluctuations d'échantillonnage et diminue la précision des estimations."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmenter la taille d'échantillon améliore la précision en réduisant l'erreur aléatoire.",
+            "justification": "Plus la taille d'échantillon augmente, plus les estimations sont précises."
+          },
+          {
+            "correct": false,
+            "proposition": "Un biais majeur n'affecte que la précision sans menacer la validité des résultats.",
+            "justification": "La présence de biais majeurs invalide les résultats d'une étude."
+          },
+          {
+            "correct": true,
+            "proposition": "L'erreur systématique est indépendante de la taille d'échantillon.",
+            "justification": "Le biais n'est pas dû au hasard et est indépendant de la taille d'échantillon."
+          },
+          {
+            "correct": false,
+            "proposition": "L'erreur aléatoire est indépendante de la taille d'échantillon.",
+            "justification": "Au contraire, la précision liée à l'erreur aléatoire dépend de la taille d'échantillon."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907295911_02",
+      "current_version_epoch_ms": 1754907295911,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les types de biais et leurs caractéristiques principales.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le biais de sélection menace la représentativité et donc la validité externe.",
+            "justification": "Il conduit à analyser une population différente de la population ciblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le biais de classement est lié à la mesure de l'exposition et/ou du critère de jugement.",
+            "justification": "Un exemple est une balance défectueuse qui sous-estime systématiquement le poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Le biais de mémorisation est un biais de confusion.",
+            "justification": "Le biais de mémorisation est un biais d'information (biais de classement) lié aux données auto-rapportées."
+          },
+          {
+            "correct": true,
+            "proposition": "Le biais de confusion survient lorsqu'un facteur tiers est associé à la fois à l'exposition et au phénomène étudié.",
+            "justification": "La relation observée peut être faussée par la non-prise en compte d'un tel facteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les biais de sélection et d'information ne concernent que les objectifs analytiques.",
+            "justification": "Ils concernent les objectifs descriptifs et analytiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907295911_03",
+      "current_version_epoch_ms": 1754907295911,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier ce qui peut être corrigé à l'analyse et ce qui doit être géré en amont.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le biais de confusion peut être corrigé à l'analyse par stratification ou ajustement.",
+            "justification": "Il peut être corrigé dans l'analyse par des méthodes d'ajustement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le biais de sélection peut être corrigé au moment de l'analyse.",
+            "justification": "Il doit être identifié et contrôlé lors de la préparation du protocole et ne peut être corrigé à l'analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Le biais d'information peut être corrigé au moment de l'analyse.",
+            "justification": "Comme le biais de sélection, il doit être contrôlé en amont et ne peut être corrigé à l'analyse."
+          },
+          {
+            "correct": true,
+            "proposition": "Les biais de sélection et d'information doivent être anticipés et contrôlés au protocole.",
+            "justification": "Ils doivent être identifiés et contrôlés au moment de la préparation du protocole."
+          },
+          {
+            "correct": false,
+            "proposition": "Le biais de confusion ne concerne pas les objectifs analytiques.",
+            "justification": "Il concerne uniquement les objectifs analytiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907295911_04",
+      "current_version_epoch_ms": 1754907295911,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître l'origine des biais et leurs effets sur les mesures.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les biais de sélection et d'information peuvent surestimer ou sous-estimer des mesures de fréquence et d'association.",
+            "justification": "Ils peuvent entraîner une surestimation ou une sous-estimation de ces mesures."
+          },
+          {
+            "correct": true,
+            "proposition": "Les biais de sélection et d'information résultent d'erreurs commises par les investigateurs.",
+            "justification": "Ils résultent d'erreurs comme un mauvais choix de témoins, des erreurs de diagnostic ou des perdus de vue."
+          },
+          {
+            "correct": false,
+            "proposition": "Le biais de confusion provient d'erreurs commises par les investigateurs.",
+            "justification": "Il ne provient pas d'erreurs des investigateurs mais reflète la nature des choses."
+          },
+          {
+            "correct": true,
+            "proposition": "Le biais de confusion peut entraîner une surestimation ou une sous-estimation des mesures d'association.",
+            "justification": "Il peut fausser la relation observée entre exposition et phénomène étudié."
+          },
+          {
+            "correct": false,
+            "proposition": "Les biais de sélection et d'information ne menacent pas la validité externe.",
+            "justification": "Le biais de sélection menace la représentativité et la validité externe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907295911_05",
+      "current_version_epoch_ms": 1754907295911,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les stratégies pertinentes pour anticiper et gérer la confusion.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Restriction des critères d'inclusion.",
+            "justification": "C'est une stratégie d'anticipation lors de la planification de l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "Appariement.",
+            "justification": "Peut être utilisé lors de la planification pour contrôler la confusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Randomisation si possible.",
+            "justification": "Elle fait partie des mesures anticipatoires possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Recueil des facteurs de confusion potentiels.",
+            "justification": "Le recueil permet ensuite des corrections par stratification ou ajustement."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la taille d'échantillon.",
+            "justification": "Cette mesure concerne l'erreur aléatoire (précision) et non la confusion."
+          }
+        ]
+      }
+    }
+  ]
+}

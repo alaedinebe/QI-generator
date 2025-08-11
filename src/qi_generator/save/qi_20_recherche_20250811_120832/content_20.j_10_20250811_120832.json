@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754907104241_01",
+      "current_version_epoch_ms": 1754907104241,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier l'objectif du calcul du nombre de sujets selon le type d'étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le calcul doit toujours être réalisé a priori.",
+            "justification": "Le nombre de sujets nécessaires est explicitement requis avant l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "En étude descriptive, il s'agit du nombre minimal permettant d'assurer une précision souhaitée du paramètre estimé.",
+            "justification": "En descriptif, le but est d'atteindre une précision définie pour la prévalence, l'incidence, etc."
+          },
+          {
+            "correct": false,
+            "proposition": "Le calcul dépend uniquement de la taille d'effet.",
+            "justification": "La taille d'effet concerne les études analytiques/expérimentales et n'est pas le seul déterminant mentionné."
+          },
+          {
+            "correct": true,
+            "proposition": "En étude analytique/expérimentale, il vise à garantir une puissance suffisante.",
+            "justification": "L'objectif annoncé est d'assurer une puissance adéquate pour le test."
+          },
+          {
+            "correct": true,
+            "proposition": "En analytique/expérimentale, il dépend de paramètres statistiques (alpha, bêta) et cliniques (taille d'effet, variabilité du critère).",
+            "justification": "Les déterminants cités sont le risque de 1ère espèce, le risque de 2ème espèce, la taille d'effet et la variabilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907104241_02",
+      "current_version_epoch_ms": 1754907104241,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier les déterminants du nombre de sujets en étude descriptive.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le calcul dépend du niveau de confiance via alpha de l'intervalle de confiance (généralement 5%).",
+            "justification": "Alpha de l'IC est mentionné comme paramètre du calcul en descriptif."
+          },
+          {
+            "correct": true,
+            "proposition": "Le calcul dépend de la précision souhaitée.",
+            "justification": "La précision (demi-largeur d'IC) ciblée conditionne le nombre minimal requis."
+          },
+          {
+            "correct": true,
+            "proposition": "Le calcul dépend de la valeur espérée du paramètre estimé.",
+            "justification": "La valeur attendue de la prévalence, incidence, etc., entre dans les paramètres du calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Le calcul dépend du risque de 2ème espèce (bêta).",
+            "justification": "Bêta est rapporté pour les études analytiques/expérimentales, pas pour le descriptif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le calcul dépend de la variabilité du critère de jugement.",
+            "justification": "La variabilité du critère est citée pour les études analytiques/expérimentales, pas pour les descriptives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907104241_03",
+      "current_version_epoch_ms": 1754907104241,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les paramètres pertinents pour le calcul d'effectif en étude analytique ou expérimentale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le risque de 1ère espèce (alpha) est pris en compte.",
+            "justification": "Alpha fait partie des paramètres statistiques mentionnés."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque de 2ème espèce (bêta) est pris en compte.",
+            "justification": "Bêta est explicitement indiqué parmi les paramètres du calcul."
+          },
+          {
+            "correct": true,
+            "proposition": "La taille d'effet est un paramètre clinique déterminant.",
+            "justification": "La taille d'effet est citée parmi les déterminants cliniques."
+          },
+          {
+            "correct": true,
+            "proposition": "La variabilité du critère de jugement influence le calcul.",
+            "justification": "La variabilité du critère est mentionnée comme facteur à considérer."
+          },
+          {
+            "correct": false,
+            "proposition": "La précision de l'intervalle de confiance du paramètre estimé est le déterminant central.",
+            "justification": "La précision de l'IC caractérise le descriptif ; l'analytique vise la puissance et dépend d'alpha, bêta, taille d'effet et variabilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907104241_04",
+      "current_version_epoch_ms": 1754907104241,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir la notion de « précision » utilisée dans le calcul d'effectif des études descriptives.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La précision correspond à la demi-largeur de l'intervalle de confiance.",
+            "justification": "La précision est définie comme la demi-largeur de l'IC."
+          },
+          {
+            "correct": true,
+            "proposition": "En descriptif, la précision souhaitée guide le calcul du nombre minimal de sujets.",
+            "justification": "Le nombre requis est choisi pour assurer une précision visée sur le paramètre estimé."
+          },
+          {
+            "correct": false,
+            "proposition": "La précision ne dépend pas du niveau alpha.",
+            "justification": "La précision dépend du niveau de confiance via alpha."
+          },
+          {
+            "correct": true,
+            "proposition": "Le calcul visant une précision donnée tient compte de la valeur espérée du paramètre estimé.",
+            "justification": "La valeur espérée du paramètre entre dans les éléments nécessaires au calcul."
+          },
+          {
+            "correct": true,
+            "proposition": "Le niveau alpha utilisé pour l'IC est habituellement fixé à 5% en pratique décrite.",
+            "justification": "Alpha de l'IC est indiqué comme généralement égal à 5%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907104241_05",
+      "current_version_epoch_ms": 1754907104241,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant le déroulé et les exigences du calcul d'effectif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le calcul du nombre de sujets est à effectuer avant la réalisation de l'étude.",
+            "justification": "Il est précisé que ce calcul doit toujours être réalisé a priori."
+          },
+          {
+            "correct": true,
+            "proposition": "En analytique/expérimentale, il s'agit du nombre minimal à inclure dans l'échantillon et à analyser.",
+            "justification": "Le texte précise inclusion dans l'échantillon et analyse des sujets."
+          },
+          {
+            "correct": false,
+            "proposition": "L'objectif en analytique/expérimentale est de minimiser alpha quel que soit l'impact sur la puissance.",
+            "justification": "L'objectif mentionné est de garantir une puissance suffisante, pas de réduire alpha indépendamment."
+          },
+          {
+            "correct": true,
+            "proposition": "Les paramètres cliniques considérés incluent la taille d'effet et la variabilité du critère de jugement.",
+            "justification": "Ces deux éléments sont listés comme déterminants."
+          },
+          {
+            "correct": false,
+            "proposition": "En descriptif, le nombre de sujets ne dépend pas de la valeur espérée du paramètre estimé.",
+            "justification": "Cette valeur est explicitement indiquée comme entrant dans le calcul en descriptif."
+          }
+        ]
+      }
+    }
+  ]
+}

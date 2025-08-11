@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754907870923_01",
+      "current_version_epoch_ms": 1754907870923,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les propriétés intrinsèques d'un test parmi les propositions suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La sensibilité",
+            "justification": "Par définition, la sensibilité est une propriété intrinsèque : probabilité d'avoir un test positif si l'on est malade et indépendante de la prévalence."
+          },
+          {
+            "correct": true,
+            "proposition": "La spécificité",
+            "justification": "Par définition, la spécificité est une propriété intrinsèque : probabilité d'avoir un test négatif si l'on est non-malade et indépendante de la prévalence."
+          },
+          {
+            "correct": false,
+            "proposition": "La valeur prédictive positive (VPP)",
+            "justification": "Les valeurs prédictives (VPP) sont des propriétés extrinsèques qui dépendent de la prévalence dans la population étudiée."
+          },
+          {
+            "correct": false,
+            "proposition": "La valeur prédictive négative (VPN)",
+            "justification": "Les valeurs prédictives (VPN) sont des propriétés extrinsèques qui dépendent de la prévalence dans la population étudiée."
+          },
+          {
+            "correct": true,
+            "proposition": "Les rapports de vraisemblance (RVP/RVN)",
+            "justification": "Les rapports de vraisemblance sont un mode d'expression des performances intrinsèques du test, calculés à partir de la sensibilité et de la spécificité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907870923_02",
+      "current_version_epoch_ms": 1754907870923,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les définitions correctes des indicateurs de performance d'un test diagnostique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La sensibilité est la probabilité d'avoir un test positif si l'on est malade.",
+            "justification": "Définition de la sensibilité : probabilité d'un résultat positif chez un individu malade."
+          },
+          {
+            "correct": true,
+            "proposition": "La spécificité est la probabilité d'avoir un test négatif si l'on est non-malade.",
+            "justification": "Définition de la spécificité : probabilité d'un résultat négatif chez un individu non-malade."
+          },
+          {
+            "correct": false,
+            "proposition": "La VPP est la probabilité d'être non-malade si le test est positif.",
+            "justification": "La VPP est la probabilité d'être malade si le test est positif, pas l'inverse."
+          },
+          {
+            "correct": true,
+            "proposition": "La VPN est la probabilité d'être non-malade si le test est négatif.",
+            "justification": "Définition de la VPN : probabilité d'être non-malade lorsque le test revient négatif."
+          },
+          {
+            "correct": true,
+            "proposition": "Le RVP est le rapport de la probabilité d'un test positif chez un malade sur celle d'un test positif chez un sain.",
+            "justification": "Définition du rapport de vraisemblance positif : comparaison des probabilités de positivité entre malades et non-malades."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907870923_03",
+      "current_version_epoch_ms": 1754907870923,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier correctement probabilité pré-test et probabilité post-test.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La probabilité pré-test est formée a priori à partir de l'impression clinique, de la prévalence ou de modèles prédictifs.",
+            "justification": "La probabilité pré-test est établie avant le test, de manière explicite ou implicite, à partir de ces éléments."
+          },
+          {
+            "correct": true,
+            "proposition": "La probabilité post-test est une probabilité révisée en fonction des résultats du test.",
+            "justification": "Elle est calculée a posteriori, après obtention du résultat du test."
+          },
+          {
+            "correct": false,
+            "proposition": "La probabilité pré-test est toujours identique à la prévalence de la maladie.",
+            "justification": "Elle peut provenir de la prévalence, mais aussi de l'impression clinique ou de modèles ; elle n'est donc pas nécessairement égale à la prévalence."
+          },
+          {
+            "correct": false,
+            "proposition": "La probabilité post-test ne dépend pas des rapports de vraisemblance.",
+            "justification": "Le nomogramme de Fagan utilise précisément les rapports de vraisemblance pour relier probabilité pré-test et post-test."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nomogramme de Fagan permet d'obtenir graphiquement la probabilité post-test à partir de la probabilité pré-test et du résultat du test.",
+            "justification": "Il indique graphiquement la probabilité post-test en utilisant les rapports de vraisemblance correspondant au résultat."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907870923_04",
+      "current_version_epoch_ms": 1754907870923,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant le nomogramme de Fagan.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il indique graphiquement la probabilité post-test à partir de la probabilité pré-test.",
+            "justification": "Le nomogramme fournit la probabilité post-test en reliant la pré-test et le résultat du test."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'appuie sur des rapports de vraisemblance calculés à partir de la sensibilité et de la spécificité.",
+            "justification": "Les rapports de vraisemblance sont un mode d'expression des performances intrinsèques, dérivés de la sensibilité et de la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Il sert à estimer directement la prévalence d'une maladie dans une population.",
+            "justification": "Son objectif est d'estimer la probabilité post-test pour un individu, pas la prévalence populationnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet d'obtenir la sensibilité d'un test à partir de la probabilité pré-test.",
+            "justification": "La sensibilité est une propriété intrinsèque du test et n'est pas calculée via le nomogramme."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'inscrit dans l'évaluation de l'apport décisionnel en liant résultat du test et probabilité post-test.",
+            "justification": "Il relie pré-test, résultat et rapports de vraisemblance pour obtenir la post-test, contribuant à l'aide à la décision."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907870923_05",
+      "current_version_epoch_ms": 1754907870923,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer correctement les énoncés relatifs aux valeurs prédictives (VPP/VPN).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La VPP dépend de la prévalence dans la population étudiée.",
+            "justification": "Les valeurs prédictives sont des propriétés extrinsèques qui dépendent de la prévalence."
+          },
+          {
+            "correct": true,
+            "proposition": "La VPN dépend de la prévalence dans la population étudiée.",
+            "justification": "Les valeurs prédictives sont des propriétés extrinsèques influencées par la prévalence."
+          },
+          {
+            "correct": true,
+            "proposition": "La VPP correspond à la probabilité d'être malade si le test est positif.",
+            "justification": "Définition de la VPP : probabilité d'être malade conditionnellement à un test positif."
+          },
+          {
+            "correct": true,
+            "proposition": "La VPN correspond à la probabilité d'être non-malade si le test est négatif.",
+            "justification": "Définition de la VPN : probabilité d'être non-malade conditionnellement à un test négatif."
+          },
+          {
+            "correct": false,
+            "proposition": "La VPP et la VPN ne dépendent pas de la prévalence.",
+            "justification": "Elles sont extrinsèques au test et varient avec la prévalence de la maladie."
+          }
+        ]
+      }
+    }
+  ]
+}

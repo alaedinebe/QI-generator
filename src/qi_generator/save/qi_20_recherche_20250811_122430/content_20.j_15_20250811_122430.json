@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754908062591_01",
+      "current_version_epoch_ms": 1754908062591,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux qui peuvent contribuer à justifier l'utilité et la pertinence d'une étude clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence du problème de santé étudié",
+            "justification": "Relève des arguments épidémiologiques explicitement cités (fréquence)."
+          },
+          {
+            "correct": true,
+            "proposition": "Gravité du problème de santé",
+            "justification": "Relève des arguments épidémiologiques explicitement cités (gravité)."
+          },
+          {
+            "correct": true,
+            "proposition": "Facteurs de risque associés",
+            "justification": "Relève des arguments épidémiologiques explicitement cités (facteurs de risque)."
+          },
+          {
+            "correct": true,
+            "proposition": "Coûts liés au problème de santé",
+            "justification": "Relève des arguments épidémiologiques explicitement cités (coûts)."
+          },
+          {
+            "correct": false,
+            "proposition": "Taille de l'échantillon envisagée avant la revue de la littérature",
+            "justification": "N'appartient pas aux arguments listés ; la justification repose d'abord sur l'analyse de la littérature (épidémiologie et état des connaissances)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908062591_02",
+      "current_version_epoch_ms": 1754908062591,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître des éléments pertinents de l'état actuel des connaissances pour définir une problématique de recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Existence d'une hypothèse physiopathologique plausible",
+            "justification": "Fait partie des arguments de l'état des connaissances explicitement cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Faible niveau de preuve des études antérieures",
+            "justification": "Fait partie des arguments de l'état des connaissances explicitement cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Résultats contradictoires dans la littérature disponible",
+            "justification": "Fait partie des arguments de l'état des connaissances explicitement cités."
+          },
+          {
+            "correct": false,
+            "proposition": "Résultats homogènes et concordants prouvant déjà l'efficacité",
+            "justification": "N'est pas mentionné comme argument pour justifier la pertinence de mener une nouvelle étude."
+          },
+          {
+            "correct": false,
+            "proposition": "Expérience personnelle du clinicien sans analyse de la littérature",
+            "justification": "La justification repose sur l'analyse de la littérature, pas sur une expérience personnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908062591_03",
+      "current_version_epoch_ms": 1754908062591,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Localiser où sont notamment décrits les éléments de justification et de problématique de recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans le rationnel d'un protocole d'étude clinique",
+            "justification": "Mentionné comme un des lieux où ces éléments sont décrits."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'introduction d'un article scientifique",
+            "justification": "Mentionné comme un des lieux où ces éléments sont décrits."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans la section Méthodes d'un article scientifique",
+            "justification": "Cette section n'est pas indiquée comme lieu de description de ces éléments."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclusivement dans le résumé (abstract)",
+            "justification": "Le résumé n'est pas cité comme lieu où ils sont notamment décrits."
+          },
+          {
+            "correct": false,
+            "proposition": "Principalement dans la discussion de l'article",
+            "justification": "La discussion n'est pas citée ; les emplacements mentionnés sont le rationnel du protocole et l'introduction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908062591_04",
+      "current_version_epoch_ms": 1754908062591,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Relier la justification/problématique de recherche à l'hypothèse émise a priori.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ces éléments permettent de justifier l'hypothèse émise a priori par le chercheur",
+            "justification": "Énoncé explicitement : ils justifient l'hypothèse émise a priori."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils précisent ce que le chercheur souhaite vérifier via l'étude",
+            "justification": "Énoncé explicitement : l'hypothèse que le chercheur souhaite vérifier via l'étude découle de ces éléments."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils valident l'hypothèse sans nécessiter de conduite d'étude",
+            "justification": "Leur rôle est de justifier et orienter la vérification, non de valider d'emblée."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils se substituent à l'hypothèse de recherche",
+            "justification": "Ils servent à la justifier, pas à la remplacer."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont indépendants de toute analyse de la littérature",
+            "justification": "La justification repose précisément sur l'analyse de la littérature."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908062591_05",
+      "current_version_epoch_ms": 1754908062591,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les propositions relevant d'arguments épidémiologiques utiles à la définition d'une problématique de recherche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence du problème étudié",
+            "justification": "Cité explicitement parmi les arguments épidémiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Gravité du problème de santé",
+            "justification": "Cité explicitement parmi les arguments épidémiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Facteurs de risque du problème étudié",
+            "justification": "Cité explicitement parmi les arguments épidémiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Coûts associés au problème de santé",
+            "justification": "Cité explicitement parmi les arguments épidémiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothèse physiopathologique plausible",
+            "justification": "Relève de l'état actuel des connaissances, pas des arguments épidémiologiques."
+          }
+        ]
+      }
+    }
+  ]
+}

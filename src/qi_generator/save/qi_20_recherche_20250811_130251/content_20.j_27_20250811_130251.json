@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754910363656_01",
+      "current_version_epoch_ms": 1754910363656,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier une étude cas-témoins nichée d'une étude cas-cohorte : identifier les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans une étude cas-témoins nichée, les témoins n'ont pas développé l'événement après une durée de suivi équivalente à celle des cas.",
+            "justification": "La définition précise que les témoins sont choisis parmi les sujets de la cohorte n'ayant pas eu l'événement après un suivi équivalent."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans une étude cas-cohorte, la sous-cohorte est tirée au sort et représentative de la cohorte entière.",
+            "justification": "La sous-cohorte est sélectionnée aléatoirement à partir de la cohorte déjà constituée, ce qui la rend représentative."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans une étude cas-cohorte, seuls les cas issus de la sous-cohorte sont inclus.",
+            "justification": "Tous les cas incidents de la cohorte sont inclus, qu'ils appartiennent ou non à la sous-cohorte."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans une étude cas-témoins nichée, cas et témoins peuvent être recontactés pour des expositions spécifiques non recueillies initialement, sans recontacter toute la cohorte.",
+            "justification": "Le recueil rétrospectif ciblé est explicitement prévu pour ce schéma."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans une étude cas-cohorte, la comparaison se fait entre tous les cas incidents et tous les non-cas de la cohorte entière.",
+            "justification": "La comparaison se fait entre tous les cas incidents et les non-cas de la seule sous-cohorte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910363656_02",
+      "current_version_epoch_ms": 1754910363656,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer le scénario suivant : on étudie l'association entre une anomalie génétique et un cancer ; l'anomalie n'est mesurée que chez tous les cas de cancer de la cohorte et chez les non-cas de la sous-cohorte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Étude cas-cohorte.",
+            "justification": "La mesure de l'exposition chez tous les cas de la cohorte et chez les non-cas de la sous-cohorte correspond à l'exemple décrit."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude cas-témoins nichée.",
+            "justification": "Ce schéma sélectionne témoins et cas au sein de la cohorte avec suivi équivalent, sans sous-cohorte représentative ni mesure limitée aux non-cas de celle-ci."
+          },
+          {
+            "correct": false,
+            "proposition": "Enquêtes transversales répétées avant/après.",
+            "justification": "Il ne s'agit pas d'une comparaison de prévalence avant/après, mais d'une analyse au sein d'une cohorte."
+          },
+          {
+            "correct": false,
+            "proposition": "Cohorte où tous les sujets reçoivent une intervention expérimentale.",
+            "justification": "Aucune intervention n'est administrée ; il s'agit d'un schéma d'échantillonnage dans une cohorte."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude sur données groupées.",
+            "justification": "Le scénario porte sur des sujets d'une cohorte et non sur des fréquences agrégées au niveau de groupes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910363656_03",
+      "current_version_epoch_ms": 1754910363656,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les schémas relevant d'une étude quasi-expérimentale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Enquêtes transversales répétées avant/après une intervention, sans groupe contrôle.",
+            "justification": "C'est un exemple explicite d'étude quasi-expérimentale sans groupe contrôle."
+          },
+          {
+            "correct": true,
+            "proposition": "Cohorte où tous les sujets reçoivent une intervention et où l'on compare l'incidence avant/après.",
+            "justification": "Il s'agit d'une évaluation d'intervention hors randomisation, décrite comme quasi-expérimentale."
+          },
+          {
+            "correct": false,
+            "proposition": "Essai randomisé avec tirage au sort du groupe contrôle.",
+            "justification": "Le tirage au sort définit l'essai randomisé, qui n'est pas un quasi-expérimental."
+          },
+          {
+            "correct": true,
+            "proposition": "Comparaison ici-ailleurs entre régions dont certaines reçoivent une intervention choisie mais non tirée au sort.",
+            "justification": "Présence d'un groupe contrôle non randomisé : cas typique de quasi-expérimental."
+          },
+          {
+            "correct": true,
+            "proposition": "Enquête de cohorte où une partie des sujets, non tirés au sort, reçoit une intervention.",
+            "justification": "Groupe contrôle non déterminé par tirage au sort : relève du quasi-expérimental."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910363656_04",
+      "current_version_epoch_ms": 1754910363656,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques d'une étude sur données groupées (agrégées).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le statut individuel n'est pas connu ; la fréquence est estimée au niveau d'un groupe (région, pays…).",
+            "justification": "La définition précise l'absence d'information individuelle et l'estimation au niveau d'un groupe."
+          },
+          {
+            "correct": true,
+            "proposition": "On peut utiliser un registre exhaustif pour le numérateur et le recensement pour le dénominateur afin d'estimer une incidence.",
+            "justification": "L'exemple mentionne registres (cas) et recensement (population) pour calculer la fréquence."
+          },
+          {
+            "correct": true,
+            "proposition": "La comparaison de fréquences est possible entre plusieurs populations ou dans le temps.",
+            "justification": "Les fréquences agrégées peuvent être comparées entre régions et/ou périodes."
+          },
+          {
+            "correct": true,
+            "proposition": "On peut étudier la corrélation des évolutions de l'incidence avec celles de facteurs d'exposition mesurés dans des groupes.",
+            "justification": "Le texte indique la possibilité de comparer les évolutions conjointes de ces fréquences dans le temps ou l'espace."
+          },
+          {
+            "correct": false,
+            "proposition": "On recueille prospectivement l'exposition individuelle de tous les sujets de la population source.",
+            "justification": "Le recueil n'est pas individuel ; l'analyse se fait à un niveau agrégé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910363656_05",
+      "current_version_epoch_ms": 1754910363656,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les schémas utiles lorsque l'on doit collecter des données d'exposition supplémentaires sans recontacter toute la cohorte initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Étude cas-témoins nichée.",
+            "justification": "Cas et témoins sélectionnés dans la cohorte peuvent être recontactés spécifiquement, évitant de recontacter tous les sujets."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude cas-cohorte.",
+            "justification": "Le recueil supplémentaire est réalisé chez tous les cas de la cohorte et chez les non-cas de la sous-cohorte, évitant un recueil exhaustif."
+          },
+          {
+            "correct": false,
+            "proposition": "Essai randomisé.",
+            "justification": "Ce schéma n'est pas présenté comme une modalité visant à éviter un recueil sur l'ensemble de la cohorte déjà constituée."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude sur données groupées (agrégées).",
+            "justification": "Ce type d'étude n'utilise pas de recueil d'expositions individuelles supplémentaires au sein d'une cohorte."
+          },
+          {
+            "correct": false,
+            "proposition": "Comparaison ici-ailleurs quasi-expérimentale.",
+            "justification": "Ce schéma vise l'évaluation d'une intervention entre régions non randomisées, sans objectif spécifique de limiter le recueil au sein d'une cohorte."
+          }
+        ]
+      }
+    }
+  ]
+}

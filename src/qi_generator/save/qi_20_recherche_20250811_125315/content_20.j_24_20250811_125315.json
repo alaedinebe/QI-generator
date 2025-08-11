@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754909787628_01",
+      "current_version_epoch_ms": 1754909787628,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos des données de survie et de la censure, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Quand l'événement n'est pas observé, la durée de survie est le temps pendant lequel le sujet a été observé.",
+            "justification": "Quand l'événement n'est pas observé au cours du suivi, il y a censure et la durée de survie est égale au temps pendant lequel on a pu observer le sujet."
+          },
+          {
+            "correct": true,
+            "proposition": "Un individu perdu de vue avant la fin de l'étude est considéré comme une censure.",
+            "justification": "Un sujet perdu de vue (par exemple déménagement) est également considéré comme une censure."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de censure, la durée de survie est égale au délai jusqu'à la survenue de l'événement.",
+            "justification": "En cas de censure, l'événement n'a pas été observé ; la durée de survie correspond à la période observée, pas au délai jusqu'à l'événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données de survie ne reflètent que le temps jusqu'à l'événement, pas la survenue de celui-ci.",
+            "justification": "Elles reflètent à la fois la survenue (ou non) de l'événement et le temps de suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "La censure signifie que l'événement est survenu après la fin de l'étude.",
+            "justification": "La censure indique que l'événement n'a pas été observé pendant la période de suivi ; sa survenue ultérieure n'est pas connue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909787628_02",
+      "current_version_epoch_ms": 1754909787628,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant la courbe de survie de Kaplan-Meier, sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une courbe de survie démarre à 1 au temps 0.",
+            "justification": "Au temps 0, aucun sujet n'a encore connu l'événement ; la probabilité de survie est donc de 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Les marches d'escalier correspondent aux censures.",
+            "justification": "La courbe diminue par paliers au fur et à mesure de la survenue de l'événement."
+          },
+          {
+            "correct": true,
+            "proposition": "Les traits verticaux sur la courbe matérialisent les censures.",
+            "justification": "Les traits verticaux représentent la dernière visite des individus censurés."
+          },
+          {
+            "correct": true,
+            "proposition": "La médiane de survie est le temps au bout duquel 50 % des individus ont connu l'événement.",
+            "justification": "La médiane de survie est définie comme le temps où 50 % des individus ont eu l'événement."
+          },
+          {
+            "correct": true,
+            "proposition": "Si moins de 50 % des individus ont connu l'événement, la médiane de survie peut être inconnue.",
+            "justification": "La médiane peut être inconnue si moins de 50 % ont eu l'événement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909787628_03",
+      "current_version_epoch_ms": 1754909787628,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos des méthodes d'analyse de survie (Kaplan-Meier, log-rank, Cox), cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La méthode de Kaplan-Meier estime la probabilité de ne pas connaître l'événement avant un temps t.",
+            "justification": "Elle permet d'estimer la survie à chaque temps t (probabilité de ne pas connaître l'événement avant t)."
+          },
+          {
+            "correct": true,
+            "proposition": "Le test du log-rank compare en univarié les courbes de survie de deux ou plusieurs échantillons.",
+            "justification": "Le log-rank permet de comparer (en univarié) des courbes de survie entre échantillons."
+          },
+          {
+            "correct": false,
+            "proposition": "Le test du log-rank est un modèle de régression multivariable.",
+            "justification": "Le log-rank est un test de comparaison ; le modèle de régression multivariable mentionné est le modèle de Cox."
+          },
+          {
+            "correct": true,
+            "proposition": "Le hazard ratio s'interprète comme un risque relatif.",
+            "justification": "Le hazard ratio s'interprète comme un risque relatif de survenue de l'événement."
+          },
+          {
+            "correct": true,
+            "proposition": "Le modèle de Cox permet d'estimer le hazard ratio dans une analyse ajustée.",
+            "justification": "Le hazard ratio peut être estimé dans une analyse multivariable par un modèle de Cox."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909787628_04",
+      "current_version_epoch_ms": 1754909787628,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Pour un sujet censuré, indiquer les affirmations correctes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pendant toute la période de suivi observée, l'événement n'est pas survenu pour ce sujet.",
+            "justification": "La censure informe que durant la période observée, l'événement n'est pas survenu."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de survie correspond au délai jusqu'au décès.",
+            "justification": "En cas de censure, l'événement n'a pas été observé ; la durée correspond au temps observé, pas au décès."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée de survie correspond au délai entre l'inclusion et la dernière visite de suivi.",
+            "justification": "Pour un sujet perdu de vue/censuré, la durée est le délai jusqu'à la dernière visite."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de censures nécessite des méthodologies adaptées pour l'analyse.",
+            "justification": "Des méthodologies adaptées sont nécessaires pour tenir compte de cette nature incomplète."
+          },
+          {
+            "correct": false,
+            "proposition": "La censure invalide toute estimation de survie.",
+            "justification": "L'analyse de survie dispose de méthodes (ex. Kaplan-Meier) tenant compte des censures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909787628_05",
+      "current_version_epoch_ms": 1754909787628,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant le hazard ratio, choisir les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il estime le rapport des risques instantanés de survenue de l'événement au cours du temps.",
+            "justification": "Le hazard ratio est une estimation du rapport des risques instantanés."
+          },
+          {
+            "correct": true,
+            "proposition": "Il doit être présenté avec un intervalle de confiance.",
+            "justification": "Sa valeur se présente toujours accompagnée de son intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une probabilité comprise entre 0 et 1.",
+            "justification": "Il s'interprète comme un risque relatif, pas comme une probabilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être estimé dans une analyse multivariable par un modèle de Cox.",
+            "justification": "Le modèle de Cox est cité comme méthode d'estimation en analyse ajustée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne peut pas être ajusté sur des covariables.",
+            "justification": "Il peut être estimé dans une analyse multivariable (ajustée) via le modèle de Cox."
+          }
+        ]
+      }
+    }
+  ]
+}

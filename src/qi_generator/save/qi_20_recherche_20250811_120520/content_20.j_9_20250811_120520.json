@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754906912569_01",
+      "current_version_epoch_ms": 1754906912569,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir correctement la puissance d'une étude et reconnaître des formulations équivalentes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est la capacité à rejeter l'hypothèse nulle quand celle-ci est fausse.",
+            "justification": "La puissance correspond à la capacité du test à détecter un effet réel en rejetant H0 lorsqu'elle est fausse."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est la probabilité de commettre une erreur de type I (alpha).",
+            "justification": "Le risque alpha est distinct de la puissance et ne mesure pas la capacité à détecter un effet réel."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans un essai de supériorité, c'est la capacité à montrer une différence si elle existe.",
+            "justification": "La puissance traduit la capacité à mettre en évidence une différence réelle dans un essai randomisé de supériorité."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est la capacité à confirmer une association quand elle n'existe pas.",
+            "justification": "La puissance concerne la détection d'une association réelle, pas l'affirmation d'une association inexistante."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans un essai de non-infériorité ou d'équivalence, c'est la capacité à montrer une absence de différence.",
+            "justification": "La puissance peut concerner la démonstration d'absence de différence dans ces schémas d'essais."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906912569_02",
+      "current_version_epoch_ms": 1754906912569,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier l'effet de différents paramètres sur la puissance d'un test statistique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmenter la taille d'échantillon analysée augmente la puissance.",
+            "justification": "Une taille N plus grande accroît la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la variance des observations augmente la puissance.",
+            "justification": "Une variabilité plus élevée diminue la puissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmenter la différence à détecter (d) augmente la puissance.",
+            "justification": "Un effet plus grand est plus facile à mettre en évidence, ce qui augmente la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer le risque alpha augmente la puissance.",
+            "justification": "Une baisse d'alpha réduit la puissance ; à l'inverse, l'augmenter accroît la puissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser un test unilatéral augmente la puissance par rapport à un test bilatéral.",
+            "justification": "À autres paramètres constants, un test unilatéral est plus puissant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906912569_03",
+      "current_version_epoch_ms": 1754906912569,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les paramètres réellement contrôlables en pratique pour agir sur la puissance lors de la planification d'une étude biomédicale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La taille de l'échantillon (via le calcul du nombre de sujets nécessaires) est contrôlable.",
+            "justification": "La détermination de N fait partie des choix opérationnels possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "La variance des observations est directement contrôlable.",
+            "justification": "La variabilité observée n'est pas un levier pratique directement maîtrisable."
+          },
+          {
+            "correct": false,
+            "proposition": "La vraie différence à détecter (d) est contrôlable.",
+            "justification": "L'ampleur réelle de l'effet ne peut pas être imposée par le chercheur."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque alpha peut être fixé.",
+            "justification": "Le seuil alpha est un paramètre que l'on choisit avant l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "Le choix entre test unilatéral et bilatéral est contrôlable.",
+            "justification": "La construction du test (uni vs bilatéral) relève de la planification."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906912569_04",
+      "current_version_epoch_ms": 1754906912569,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier les objectifs d'analyse selon le type d'étude en lien avec la notion de puissance.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cohorte ou cas-témoins, il s'agit d'identifier une association si elle existe.",
+            "justification": "La puissance y reflète la capacité à mettre en évidence une association réelle."
+          },
+          {
+            "correct": true,
+            "proposition": "En essai randomisé de supériorité, il s'agit de montrer une différence si elle existe.",
+            "justification": "La puissance quantifie la capacité à détecter une différence réelle de supériorité."
+          },
+          {
+            "correct": true,
+            "proposition": "En essai d'équivalence, elle concerne la démonstration d'une absence de différence.",
+            "justification": "La puissance peut viser la mise en évidence d'une équivalence."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans toute étude, la puissance est la capacité à rejeter H0 quand elle est vraie.",
+            "justification": "Rejeter H0 quand elle est vraie correspond à l'erreur de type I, pas à la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "En non-infériorité, la puissance correspond à la probabilité de détecter une différence supérieure.",
+            "justification": "En non-infériorité, l'objectif est de montrer l'absence de différence au-delà d'une marge, pas une supériorité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906912569_05",
+      "current_version_epoch_ms": 1754906912569,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les ajustements de plan d'étude qui augmentent la puissance dans un essai de supériorité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmenter la taille de l'échantillon prévu.",
+            "justification": "Une hausse de N entraîne une augmentation de la puissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Passer d'un test bilatéral à un test unilatéral lorsque justifié.",
+            "justification": "Un test unilatéral est plus puissant à autres paramètres constants."
+          },
+          {
+            "correct": true,
+            "proposition": "Fixer un risque alpha plus élevé (dans le respect des justifications méthodologiques).",
+            "justification": "Une hausse d'alpha augmente la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la différence minimale cliniquement pertinente à détecter.",
+            "justification": "Diminuer d réduit la puissance ; c'est l'augmentation de d qui l'accroît."
+          },
+          {
+            "correct": false,
+            "proposition": "Accepter une plus grande variabilité des mesures.",
+            "justification": "Une variance plus élevée diminue la puissance."
+          }
+        ]
+      }
+    }
+  ]
+}

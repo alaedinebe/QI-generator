@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754908637604_01",
+      "current_version_epoch_ms": 1754908637604,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier, parmi les modalités suivantes, celles indiquées comme applicables lorsqu'une base de sondage est disponible.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recrutement exhaustif des individus listés dans la base de sondage",
+            "justification": "Présenté comme une option lorsque la base de sondage (liste exhaustive) est disponible : tous les individus listés sont recrutés."
+          },
+          {
+            "correct": true,
+            "proposition": "Sondage aléatoire simple",
+            "justification": "Cité dans les modalités avec base de sondage disponible sous la rubrique « tirage au sort »."
+          },
+          {
+            "correct": true,
+            "proposition": "Sondage stratifié",
+            "justification": "Indiqué dans les modalités avec base de sondage : division en sous-populations selon une variable catégorielle puis tirage au sort dans chaque strate."
+          },
+          {
+            "correct": true,
+            "proposition": "Sondage en grappes",
+            "justification": "Classé dans les modalités avec base de sondage : tirage d'unités collectives et inclusion de tous leurs membres."
+          },
+          {
+            "correct": false,
+            "proposition": "Recrutement consécutif",
+            "justification": "Décrit dans les modalités « sans base de sondage disponible », pas parmi celles « avec base de sondage »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908637604_02",
+      "current_version_epoch_ms": 1754908637604,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques du sondage stratifié.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Division de la population source en sous-populations selon une variable catégorielle puis tirage au sort dans chaque sous-population",
+            "justification": "Définition donnée : la population est divisée en strates et les individus sont tirés au sort à l'intérieur de chaque sous-population."
+          },
+          {
+            "correct": true,
+            "proposition": "Assure la représentation de chaque modalité de la variable de stratification (ex. 5 tranches d'âge)",
+            "justification": "L'intérêt cité est l'assurance que les 5 modalités d'âge seront représentées dans l'échantillon."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode non aléatoire où la probabilité d'inclusion est inconnue",
+            "justification": "Cette caractéristique correspond à la méthode des quotas, pas au sondage stratifié."
+          },
+          {
+            "correct": false,
+            "proposition": "Sélection d'unités collectives puis inclusion de tous leurs membres",
+            "justification": "Cela décrit le sondage en grappes, pas le sondage stratifié."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisable spécifiquement en l'absence de base de sondage",
+            "justification": "Le sondage stratifié est listé parmi les modalités lorsque la base de sondage est disponible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908637604_03",
+      "current_version_epoch_ms": 1754908637604,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant la méthode des quotas.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vise à donner à l'échantillon une structure similaire à celle de la population source selon certaines caractéristiques (âge, sexe, département, etc.)",
+            "justification": "Définie comme une méthode assurant une structure similaire à la population source selon des caractéristiques choisies."
+          },
+          {
+            "correct": true,
+            "proposition": "Méthode non aléatoire très utilisée par les instituts de sondage",
+            "justification": "Explicitement qualifiée de non aléatoire et très utilisée par les instituts de sondages."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet d'estimer correctement la variance et la précision des estimations",
+            "justification": "Il est indiqué que la probabilité d'appartenir à l'échantillon est inconnue, ce qui empêche d'estimer correctement la variance et donc la précision."
+          },
+          {
+            "correct": true,
+            "proposition": "La probabilité d'inclusion est inconnue, ce qui empêche d'estimer correctement la variance",
+            "justification": "Formulé tel quel : probabilité inconnue ⇒ impossibilité d'estimer correctement la variance et donc la précision."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessite une base de sondage exhaustive",
+            "justification": "Présentée parmi les modalités « sans base de sondage disponible », pas parmi celles requérant une base."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908637604_04",
+      "current_version_epoch_ms": 1754908637604,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier le recrutement consécutif des autres modalités sans base de sondage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inclusion au fur et à mesure de la présentation des individus dans les centres, pendant toute la période d'inclusion",
+            "justification": "Défini comme une inclusion au fil des présentations pendant toute la période d'inclusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Assure une bonne représentativité si les refus de participer ou la non-réponse sont faibles",
+            "justification": "Précisé comme assurant une bonne représentativité dans ces conditions."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessite une base de sondage exhaustive",
+            "justification": "Classé explicitement dans les modalités « sans base de sondage disponible »."
+          },
+          {
+            "correct": false,
+            "proposition": "Équivaut à un tirage systématique (1 sur 2, 1 sur 3, etc.)",
+            "justification": "Le tirage systématique est donné comme une autre option lorsque l'exhaustivité n'est pas possible, distincte du recrutement consécutif."
+          },
+          {
+            "correct": true,
+            "proposition": "Fait partie des options envisageables en l'absence de base de sondage",
+            "justification": "Listé parmi les modalités « sans base de sondage disponible »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908637604_05",
+      "current_version_epoch_ms": 1754908637604,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir les caractéristiques du sondage en grappes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tirage au sort d'unités collectives plutôt que d'individus",
+            "justification": "Précisé que ce ne sont pas les individus mais des unités collectives qui sont tirées au sort."
+          },
+          {
+            "correct": true,
+            "proposition": "Inclusion de tous les individus appartenant aux unités collectives tirées au sort",
+            "justification": "Indiqué que tous les individus de l'unité collective tirée au sort sont inclus."
+          },
+          {
+            "correct": false,
+            "proposition": "Garantit que chaque modalité d'âge sera représentée",
+            "justification": "Cet avantage est attribué au sondage stratifié, pas au sondage en grappes."
+          },
+          {
+            "correct": true,
+            "proposition": "Exemples d'unités collectives : services hospitaliers, départements, établissements scolaires",
+            "justification": "Exemples cités pour illustrer les grappes."
+          },
+          {
+            "correct": false,
+            "proposition": "Est rangé parmi les modalités utilisables sans base de sondage",
+            "justification": "Présenté dans les modalités lorsque la base de sondage est disponible."
+          }
+        ]
+      }
+    }
+  ]
+}

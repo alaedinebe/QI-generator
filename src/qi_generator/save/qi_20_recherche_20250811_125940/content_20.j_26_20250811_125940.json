@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754910171987_01",
+      "current_version_epoch_ms": 1754910171987,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer la nature juridique des données de santé évoquées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Données à caractère personnel considérées comme sensibles",
+            "justification": "Les données de santé sont explicitement définies comme des données personnelles sensibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Données publiques",
+            "justification": "Elles ne sont pas présentées comme des données publiques mais comme des données personnelles à protéger."
+          },
+          {
+            "correct": false,
+            "proposition": "Données non personnelles",
+            "justification": "Elles sont qualifiées de données à caractère personnel, donc non anonymes par définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Informations dépourvues de protection particulière",
+            "justification": "Elles font l'objet d'une protection particulière par des textes juridiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Données nécessitant une protection pour garantir la vie privée",
+            "justification": "La protection vise à garantir le respect de la vie privée des personnes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910171987_02",
+      "current_version_epoch_ms": 1754910171987,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les textes cités qui assurent une protection particulière des données de santé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Règlement général sur la protection des données (RGPD)",
+            "justification": "Le RGPD est indiqué comme un texte qui protège spécifiquement ces données."
+          },
+          {
+            "correct": true,
+            "proposition": "Loi Informatique et Libertés",
+            "justification": "Cette loi est mentionnée parmi les textes encadrant la protection."
+          },
+          {
+            "correct": true,
+            "proposition": "Code de la santé publique",
+            "justification": "Il figure parmi les textes assurant la protection particulière."
+          },
+          {
+            "correct": false,
+            "proposition": "Code du commerce",
+            "justification": "Ce code n'est pas listé parmi les textes assurant la protection particulière des données de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Code pénal",
+            "justification": "Il n'est pas cité dans l'énumération des textes encadrant spécifiquement ces données."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910171987_03",
+      "current_version_epoch_ms": 1754910171987,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les objectifs et contraintes associés à l'usage de l'informatique de santé dans le cadre décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aider la recherche clinique",
+            "justification": "La mise en œuvre vise explicitement à aider la recherche clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Soutenir en particulier les essais cliniques OIC-020-15-B",
+            "justification": "Les essais cliniques OIC-020-15-B sont mentionnés comme cible particulière."
+          },
+          {
+            "correct": true,
+            "proposition": "Respecter la vie privée des personnes via une protection juridique adaptée",
+            "justification": "La protection particulière a pour finalité de garantir le respect de la vie privée."
+          },
+          {
+            "correct": false,
+            "proposition": "Se substituer aux textes juridiques en vigueur",
+            "justification": "Il est question d'appliquer les bonnes pratiques dans le cadre des textes, pas de les remplacer."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer que les données de santé ne sont pas sensibles",
+            "justification": "Elles sont qualifiées de sensibles et requièrent une protection particulière."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910171987_04",
+      "current_version_epoch_ms": 1754910171987,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Vous préparez un essai clinique OIC-020-15-B utilisant l'informatique de santé. Quelles exigences s'imposent concernant les données traitées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Respect du RGPD",
+            "justification": "Le RGPD fait partie des textes qui protègent ces données."
+          },
+          {
+            "correct": true,
+            "proposition": "Respect de la Loi Informatique et Libertés",
+            "justification": "Cette loi est citée comme assurant une protection particulière."
+          },
+          {
+            "correct": true,
+            "proposition": "Respect du Code de la santé publique",
+            "justification": "Il est mentionné parmi les textes encadrant la protection."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune protection spécifique n'est requise",
+            "justification": "Une protection particulière est requise car les données sont sensibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Libre réutilisation sans cadre juridique",
+            "justification": "La finalité est précisément de garantir la vie privée via un cadre juridique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910171987_05",
+      "current_version_epoch_ms": 1754910171987,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Situer le périmètre d'application visé par la mise en œuvre des bonnes pratiques d'usage de l'informatique de santé évoquée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherche clinique",
+            "justification": "La recherche clinique est expressément visée."
+          },
+          {
+            "correct": true,
+            "proposition": "Essais cliniques OIC-020-15-B",
+            "justification": "Les essais cliniques OIC-020-15-B sont explicitement ciblés."
+          },
+          {
+            "correct": false,
+            "proposition": "Soins courants hors recherche (objectif principal)",
+            "justification": "L'objectif déclaré concerne la recherche clinique, en particulier les essais."
+          },
+          {
+            "correct": false,
+            "proposition": "Publicité médicale",
+            "justification": "Aucun élément ne relie ces pratiques à une finalité de publicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Enseignement universitaire exclusivement",
+            "justification": "La finalité annoncée est l'aide à la recherche clinique et aux essais."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "secu",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754902647286_01",
+      "current_version_epoch_ms": 1754902647286,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier les situations ouvrant droit à l'exonération du ticket modérateur au titre d'une ALD. Sélectionner la/les proposition(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les soins directement liés à une affection figurant sur la liste des 30 ALD sont pris en charge à 100 %.",
+            "justification": "Les frais en rapport avec les soins directement liés à l'ALD listée sont pris en charge à 100 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Une maladie non présente sur la liste peut ouvrir droit à l'exonération si elle est grave ou invalidante, avec traitement prolongé > 6 mois et thérapeutique particulièrement coûteuse (31e).",
+            "justification": "La forme grave/invalidante d'une maladie hors liste avec traitement prolongé et thérapeutique coûteuse relève de la 31e."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute maladie chronique évoluant depuis plus de 3 mois ouvre droit d'emblée à une ALD hors liste.",
+            "justification": "La durée requise est supérieure à 6 mois et s'y ajoutent gravité/invalidité et coût thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une polypathologie responsable d'un état invalidant nécessitant des soins continus > 6 mois peut bénéficier d'une exonération (32e).",
+            "justification": "La polypathologie invalidante avec soins continus > 6 mois relève de la 32e."
+          },
+          {
+            "correct": false,
+            "proposition": "Les frais sans lien direct avec l'ALD sont également pris en charge à 100 %.",
+            "justification": "Seuls les soins directement liés à l'ALD et conformes au protocole sont exonérés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902647286_02",
+      "current_version_epoch_ms": 1754902647286,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "À propos de l'élaboration du protocole de soins ALD, classer les affirmations comme vraies ou fausses.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le médecin traitant accompagne la demande et établit le protocole en concertation avec les spécialistes impliqués.",
+            "justification": "Le protocole est élaboré par le médecin traitant en concertation avec les spécialistes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le protocole de soins doit être conforme aux recommandations de la HAS.",
+            "justification": "La conformité aux recommandations de la HAS est explicitement requise."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin-conseil de l'assurance maladie n'intervient pas dans la procédure.",
+            "justification": "Le protocole reçoit l'avis du médecin-conseil de l'assurance maladie."
+          },
+          {
+            "correct": true,
+            "proposition": "Un exemplaire du protocole est remis au patient, qui le signe et peut refuser que le diagnostic y figure.",
+            "justification": "Le patient signe et reste libre d'accepter ou refuser l'inscription du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Le protocole de soins est rédigé exclusivement par les spécialistes, sans participation du médecin traitant.",
+            "justification": "Le médecin traitant est à l'initiative et l'élabore avec les spécialistes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902647286_03",
+      "current_version_epoch_ms": 1754902647286,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Concernant l'ordonnance bizone pour un patient en ALD, reconnaître les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chaque médecin qui dispense des soins à ce patient doit porter ses prescriptions sur une ordonnance bizone pour distinguer ce qui relève de l'ALD.",
+            "justification": "L'utilisation d'une ordonnance bizone est obligatoire afin de distinguer ALD et autres soins."
+          },
+          {
+            "correct": true,
+            "proposition": "La partie dédiée à l'ALD regroupe les prescriptions exonérées du ticket modérateur.",
+            "justification": "Les prescriptions en rapport avec l'ALD ouvrent droit à l'exonération."
+          },
+          {
+            "correct": false,
+            "proposition": "Les prescriptions sans lien avec l'ALD doivent être inscrites dans la zone ALD pour bénéficier de l'exonération.",
+            "justification": "Seules les prescriptions en rapport direct avec l'ALD sont exonérées."
+          },
+          {
+            "correct": true,
+            "proposition": "L'absence d'ordonnance bizone ne permet pas de séparer les soins en rapport avec l'ALD des autres soins.",
+            "justification": "L'ordonnance bizone a précisément pour objet de distinguer ces deux catégories."
+          },
+          {
+            "correct": false,
+            "proposition": "Seul le médecin traitant est tenu d'utiliser l'ordonnance bizone.",
+            "justification": "Chaque médecin dispensant des soins au patient doit l'utiliser."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902647286_04",
+      "current_version_epoch_ms": 1754902647286,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Droits et obligations du patient bénéficiaire d'une ALD : identifier les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le patient a un accès direct aux spécialistes mentionnés dans le protocole de soins.",
+            "justification": "L'accès direct aux spécialistes listés est prévu."
+          },
+          {
+            "correct": true,
+            "proposition": "Le patient doit présenter son volet personnel du protocole de soins à tous les professionnels consultés, sauf en cas d'urgence.",
+            "justification": "La présentation du volet personnel est une obligation hors situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient peut ne pas se conformer au projet thérapeutique sans conséquence sur le bénéfice de l'exonération.",
+            "justification": "Le patient doit se conformer au projet thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le patient doit se présenter aux contrôles et visites médicales organisés par l'assurance maladie.",
+            "justification": "Cette obligation est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient n'a pas à signer le protocole de soins.",
+            "justification": "Un exemplaire est remis au patient qui en prend connaissance et le signe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902647286_05",
+      "current_version_epoch_ms": 1754902647286,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Prise en charge financière des soins en lien avec une ALD : sélectionner la/les proposition(s) correcte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les frais en rapport avec les soins directement liés à l'ALD sont pris en charge à 100 % par l'assurance maladie.",
+            "justification": "La prise en charge à 100 % s'applique aux soins directement liés à l'ALD."
+          },
+          {
+            "correct": true,
+            "proposition": "Les soins non conformes au protocole de soins ALD ne relèvent pas de l'exonération.",
+            "justification": "L'exonération s'applique aux soins conformes au protocole ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "L'exonération s'applique à tous les soins du patient, quel qu'en soit le motif.",
+            "justification": "Elle est limitée aux soins en lien direct avec l'ALD et conformes au protocole."
+          },
+          {
+            "correct": false,
+            "proposition": "L'exonération n'est possible que pour les affections présentes sur la liste des 30 ALD.",
+            "justification": "Des dispositifs existent hors liste (31e) et pour polypathologie invalidante (32e)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ALD hors liste (31e) ne requiert qu'une durée de traitement > 6 mois, sans autre critère.",
+            "justification": "Elle nécessite aussi une forme grave/invalidante et une thérapeutique particulièrement coûteuse."
+          }
+        ]
+      }
+    }
+  ]
+}

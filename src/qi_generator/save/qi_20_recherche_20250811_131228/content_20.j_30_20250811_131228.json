@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754910939685_01",
+      "current_version_epoch_ms": 1754910939685,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier la/les affirmation(s) correcte(s) à propos de l'interaction et de la confusion en épidémiologie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'interaction correspond à une modification d'effet : l'association entre une exposition et un phénomène de santé varie selon le niveau d'un autre facteur.",
+            "justification": "L'interaction est définie comme une variation de l'association en fonction d'un autre facteur (facteur d'interaction)."
+          },
+          {
+            "correct": false,
+            "proposition": "Un facteur d'interaction est un synonyme de facteur de confusion.",
+            "justification": "Le facteur d'interaction ne doit pas être confondu avec un facteur de confusion ; ce sont deux notions distinctes."
+          },
+          {
+            "correct": true,
+            "proposition": "Un facteur de confusion peut produire ou amplifier une association inexistante, ou la masquer/réduire alors qu'elle existe.",
+            "justification": "La confusion peut créer une association apparente ou en atténuer une réelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour prendre en compte une interaction, on peut introduire un terme d'interaction dans un modèle multivarié.",
+            "justification": "L'introduction d'un terme d'interaction est explicitement proposée pour tenir compte d'une interaction."
+          },
+          {
+            "correct": false,
+            "proposition": "En présence d'interaction, l'association estimée est identique dans toutes les strates du facteur d'interaction.",
+            "justification": "En cas d'interaction, l'association diffère entre les niveaux du facteur ; elle n'est pas identique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910939685_02",
+      "current_version_epoch_ms": 1754910939685,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant l'exemple « tabac → cancer du poumon » avec stratification sur le sexe (RR ensemble = 2,67 ; hommes = 2,07 ; femmes = 2,05), choisir la/les proposition(s) correcte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le sexe est un facteur de confusion dans cet exemple.",
+            "justification": "Il est indiqué que le sexe est ici un facteur de confusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Il existe une modification d'effet selon le sexe.",
+            "justification": "Les RR par sexe (≈2,07 vs 2,05) sont approximativement les mêmes, ce qui n'évoque pas une interaction."
+          },
+          {
+            "correct": true,
+            "proposition": "La stratification sur le sexe fait diminuer l'estimation globale de l'association.",
+            "justification": "Le RR passe de 2,67 (ensemble) à ≈2,07 et 2,05 dans les strates, montrant une diminution."
+          },
+          {
+            "correct": true,
+            "proposition": "Des RR similaires dans les strates suggèrent l'absence d'interaction avec le sexe.",
+            "justification": "Des estimations approximativement identiques dans chaque strate sont rapportées dans l'exemple de confusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RR global est inchangé après stratification par sexe.",
+            "justification": "Le RR global (2,67) diffère des RR stratifés (≈2,07 et 2,05)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910939685_03",
+      "current_version_epoch_ms": 1754910939685,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos de l'exemple avec l'inhalation de fumée (RR ensemble = 1,89 ; inhalation = 2,43 ; pas d'inhalation = 1,2), sélectionner la/les affirmation(s) correcte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'inhalation de la fumée est un facteur d'interaction.",
+            "justification": "Les RR diffèrent nettement entre les niveaux d'inhalation (2,43 vs 1,2), ce qui caractérise une interaction."
+          },
+          {
+            "correct": true,
+            "proposition": "La forte différence de RR entre les strates traduit une modification d'effet.",
+            "justification": "Par définition, l'interaction correspond à une variation de l'association selon le niveau du facteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RR global (1,89) suffit pour conclure à l'absence d'interaction.",
+            "justification": "Le RR global ne renseigne pas sur la variation entre strates ; ici, les strates montrent des RR très différents."
+          },
+          {
+            "correct": true,
+            "proposition": "Une analyse stratifiée par inhalation permet de tenir compte de cette situation.",
+            "justification": "L'analyse stratifiée est proposée pour prendre en compte une interaction."
+          },
+          {
+            "correct": false,
+            "proposition": "Un facteur d'interaction masque toujours l'association étudiée.",
+            "justification": "Masquer/produire une association est décrit pour la confusion, pas comme définition de l'interaction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910939685_04",
+      "current_version_epoch_ms": 1754910939685,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Choisir la/les proposition(s) correcte(s) sur le test d'interaction et les moyens de prise en compte d'une interaction.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le test d'interaction évalue s'il existe une différence significative de l'association entre les niveaux du facteur d'interaction.",
+            "justification": "Il est précisé que le test détermine si l'effet est modifié de manière statistiquement significative."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hypothèse nulle du test d'interaction est l'absence d'interaction.",
+            "justification": "L'hypothèse nulle est explicitement l'absence d'interaction."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hypothèse alternative du test d'interaction est l'existence d'une interaction.",
+            "justification": "L'hypothèse alternative est explicitement l'existence d'une interaction."
+          },
+          {
+            "correct": true,
+            "proposition": "Introduire un terme d'interaction dans un modèle multivarié est une méthode pour prendre en compte l'interaction.",
+            "justification": "L'introduction d'un terme d'interaction en modèle multivarié est proposée comme méthode."
+          },
+          {
+            "correct": false,
+            "proposition": "L'analyse stratifiée n'a aucun rôle dans l'étude des interactions.",
+            "justification": "L'analyse stratifiée est proposée comme moyen de prise en compte d'une interaction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910939685_05",
+      "current_version_epoch_ms": 1754910939685,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer correctement ces énoncés en lien avec « confusion » et « interaction » (plusieurs réponses possibles).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un facteur de confusion peut produire ou amplifier une association inexistante.",
+            "justification": "La confusion peut créer ou amplifier une association apparente."
+          },
+          {
+            "correct": true,
+            "proposition": "Un facteur de confusion peut masquer ou réduire une association existante.",
+            "justification": "La confusion peut masquer ou réduire une association réelle."
+          },
+          {
+            "correct": true,
+            "proposition": "En présence d'un facteur d'interaction, l'association varie selon les niveaux de ce facteur.",
+            "justification": "C'est la définition de la modification d'effet (interaction)."
+          },
+          {
+            "correct": false,
+            "proposition": "Des RR similaires dans toutes les strates signent une interaction.",
+            "justification": "Des RR approximativement identiques dans les strates vont à l'encontre d'une interaction."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour tenir compte d'une interaction, on peut réaliser une analyse stratifiée.",
+            "justification": "L'analyse stratifiée est indiquée comme moyen de prise en compte d'une interaction."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "secu",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754902262145_01",
+      "current_version_epoch_ms": 1754902262145,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Définir le ticket modérateur et identifier ses déterminants.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est la part des frais de soins qui reste à la charge de l'assuré après remboursement par l'Assurance Maladie.",
+            "justification": "Le ticket modérateur correspond à la part laissée à l'assuré après le remboursement par l'assurance maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Son taux est fixe à 30 % pour tous les actes remboursables.",
+            "justification": "Le pourcentage varie selon la nature du risque, l'acte/le traitement et le respect du parcours de soins."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être pris en charge par une complémentaire (mutuelle, assurance).",
+            "justification": "Il peut être pris en charge totalement ou partiellement par une assurance privée ou une mutuelle complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne s'applique qu'aux médicaments prescrits.",
+            "justification": "Il s'applique à tous les frais de santé remboursables : consultations, analyses, radiologie, médicaments, etc."
+          },
+          {
+            "correct": true,
+            "proposition": "Son pourcentage dépend notamment du respect du parcours de soins coordonnés.",
+            "justification": "Le respect ou non du parcours de soins fait partie des éléments qui font varier le pourcentage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902262145_02",
+      "current_version_epoch_ms": 1754902262145,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques de la participation forfaitaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est de 1 € par consultation, analyse biologique ou acte de radiologie.",
+            "justification": "Une participation forfaitaire de 1 € est demandée pour chaque consultation, analyse biologique ou acte de radiologie."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est plafonnée à 50 € par an.",
+            "justification": "La participation forfaitaire ne peut pas dépasser un plafond annuel de 50 €."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle peut être prise en charge par un organisme complémentaire.",
+            "justification": "Elle ne peut pas être prise en charge par un organisme complémentaire d'assurance maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle s'applique aux patients de moins de 18 ans.",
+            "justification": "Les moins de 18 ans en sont dispensés."
+          },
+          {
+            "correct": true,
+            "proposition": "Les femmes enceintes à partir du 6ᵉ mois en sont dispensées.",
+            "justification": "Les femmes enceintes à partir du 6ᵉ mois sont dispensées de la participation forfaitaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902262145_03",
+      "current_version_epoch_ms": 1754902262145,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Classer les éléments entrant dans la franchise médicale et ses modalités.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0,50 € par boîte de médicaments remboursables.",
+            "justification": "La franchise s'applique aux médicaments à hauteur de 0,50 € par boîte."
+          },
+          {
+            "correct": true,
+            "proposition": "0,50 € par acte paramédical, avec un plafond quotidien de 2 €.",
+            "justification": "La franchise est de 0,50 € par acte paramédical et ne peut pas dépasser 2 € par jour."
+          },
+          {
+            "correct": true,
+            "proposition": "2 € par transport sanitaire, avec un plafond quotidien de 4 €.",
+            "justification": "La franchise est de 2 € par transport sanitaire et ne peut pas dépasser 4 € par jour."
+          },
+          {
+            "correct": true,
+            "proposition": "Plafond annuel total de 50 €.",
+            "justification": "La franchise est plafonnée à 50 € par an au total."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est prise en charge par la complémentaire santé.",
+            "justification": "Elle ne peut pas être prise en charge par un organisme complémentaire d'assurance maladie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902262145_04",
+      "current_version_epoch_ms": 1754902262145,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier les situations donnant droit au tiers payant et son principe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il dispense de l'avance des frais pris en charge par l'Assurance Maladie.",
+            "justification": "L'assureur règle directement le professionnel pour la part prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Il supprime tout paiement, y compris le ticket modérateur.",
+            "justification": "L'assuré ne paie que le ticket modérateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut s'étendre à la part complémentaire si l'assuré présente son attestation.",
+            "justification": "Avec une couverture complémentaire et l'attestation associée, le tiers payant peut s'appliquer pour cette part."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'applique en cas d'accident du travail ou de maladie professionnelle.",
+            "justification": "Le dispositif s'applique dans le cadre AT/MP."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne concerne pas les bénéficiaires de la complémentaire santé solidaire ni de l'AME.",
+            "justification": "Il s'applique aux bénéficiaires de la complémentaire santé solidaire et de l'AME."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754902262145_05",
+      "current_version_epoch_ms": 1754902262145,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Calculer le reste à charge pour une consultation de médecine générale à 25 € en secteur 1.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Remboursement Assurance Maladie : 17,50 € (70 %).",
+            "justification": "70 % de 25 € correspondent à 17,50 €."
+          },
+          {
+            "correct": true,
+            "proposition": "Ticket modérateur : 7,50 € (30 %).",
+            "justification": "La part non remboursée est de 30 % de 25 €, soit 7,50 €."
+          },
+          {
+            "correct": true,
+            "proposition": "Participation forfaitaire à ajouter : 1 €.",
+            "justification": "La participation forfaitaire de 1 € s'applique à chaque consultation."
+          },
+          {
+            "correct": false,
+            "proposition": "Reste à charge total : 7,50 €.",
+            "justification": "Il faut ajouter la participation forfaitaire de 1 € au ticket modérateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Reste à charge total : 8,50 €.",
+            "justification": "7,50 € (ticket modérateur) + 1 € (participation forfaitaire) = 8,50 €."
+          }
+        ]
+      }
+    }
+  ]
+}

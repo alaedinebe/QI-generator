@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754906336542_01",
+      "current_version_epoch_ms": 1754906336542,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques du risque en épidémiologie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Probabilité qu'un évènement survienne dans une population pendant une période donnée.",
+            "justification": "Le risque est défini comme la probabilité de survenue d'un évènement durant une période."
+          },
+          {
+            "correct": true,
+            "proposition": "S'exprime sous forme d'un pourcentage sans unité.",
+            "justification": "Le risque s'exprime explicitement en pourcentage et n'a pas d'unité."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure le nombre de cas existants à un instant donné.",
+            "justification": "Cette description correspond à la prévalence, pas au risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilise la somme des personnes-temps au dénominateur.",
+            "justification": "L'usage des personnes-temps définit le taux d'incidence, pas le risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Additionne les temps de suivi jusqu'à la fin de la période, la survenue de l'évènement, le décès ou la perte de vue.",
+            "justification": "L'addition des temps de suivi décrit la construction des personnes-temps pour le taux d'incidence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906336542_02",
+      "current_version_epoch_ms": 1754906336542,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments qui définissent la prévalence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proportion du nombre de cas d'une maladie dans une population.",
+            "justification": "La prévalence est une proportion rapportant le nombre de cas à la population."
+          },
+          {
+            "correct": true,
+            "proposition": "Prend en compte les cas quelle que soit leur ancienneté.",
+            "justification": "La prévalence inclut les cas existants, sans considération de leur durée d'évolution."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut être définie à un instant donné ou sur une période (par exemple au cours d'une année).",
+            "justification": "La prévalence peut être mesurée ponctuellement ou sur une période définie."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond au nombre de nouveaux cas uniquement.",
+            "justification": "Les nouveaux cas seulement définissent l'incidence, pas la prévalence."
+          },
+          {
+            "correct": false,
+            "proposition": "A pour dénominateur la somme des personnes-temps.",
+            "justification": "Le dénominateur en personnes-temps caractérise le taux d'incidence, pas la prévalence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906336542_03",
+      "current_version_epoch_ms": 1754906336542,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir correctement le taux d'incidence et la construction des personnes-temps.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Numérateur : nombre de nouveaux cas pendant une période donnée.",
+            "justification": "Le taux d'incidence compte les nouveaux cas sur la période d'observation."
+          },
+          {
+            "correct": true,
+            "proposition": "Dénominateur : somme des personnes-temps de suivi des individus à risque.",
+            "justification": "Le taux d'incidence est rapporté à la somme des temps de suivi de chaque individu à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Le suivi est comptabilisé jusqu'à la survenue de la maladie.",
+            "justification": "Le temps cesse d'être compté pour un individu à la survenue de l'évènement (maladie)."
+          },
+          {
+            "correct": true,
+            "proposition": "Le suivi est comptabilisé jusqu'à la fin de la période d'observation, le décès ou la perte de vue.",
+            "justification": "La comptabilisation des personnes-temps s'arrête aussi à la fin de période, au décès ou en cas de perdu de vue."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dénominateur est la population présente au début de l'étude.",
+            "justification": "Le dénominateur n'est pas un effectif initial mais la somme des personnes-temps accumulées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906336542_04",
+      "current_version_epoch_ms": 1754906336542,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Préciser les exigences de présentation des estimations issues d'un échantillon.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les estimations de risque, de prévalence ou de taux d'incidence tirées d'un échantillon doivent être accompagnées d'un intervalle de confiance.",
+            "justification": "Il est demandé d'associer aux estimations issues d'un échantillon un intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "L'intervalle de confiance est facultatif lorsque l'échantillon est de grande taille.",
+            "justification": "L'obligation d'accompagner d'un intervalle de confiance est énoncée sans exception liée à la taille."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette exigence concerne les trois paramètres cités.",
+            "justification": "Elle s'applique aux estimations de risque, de prévalence et de taux d'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette exigence ne s'applique pas au taux d'incidence.",
+            "justification": "Le taux d'incidence est explicitement inclus parmi les paramètres concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est requise même si l'étude ne repose pas sur un échantillon.",
+            "justification": "La formulation limite l'exigence aux estimations obtenues à partir d'un échantillon."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906336542_05",
+      "current_version_epoch_ms": 1754906336542,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Associer correctement des formulations à la mesure épidémiologique correspondante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "« Proportion de personnes malades dans une population à une date donnée » correspond à la prévalence.",
+            "justification": "La prévalence est la proportion de cas dans la population à un instant."
+          },
+          {
+            "correct": true,
+            "proposition": "« Nombre de nouveaux cas sur la somme des personnes-temps » correspond au taux d'incidence.",
+            "justification": "Le taux d'incidence est défini par les nouveaux cas rapportés aux personnes-temps."
+          },
+          {
+            "correct": true,
+            "proposition": "« Probabilité qu'un individu présente l'évènement sur une période » correspond au risque.",
+            "justification": "Le risque est une probabilité de survenue sur une période donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "« Proportion de nouveaux cas parmi les personnes-temps observées » correspond à la prévalence.",
+            "justification": "Cette formulation fait intervenir les personnes-temps, ce qui renvoie au taux d'incidence, pas à la prévalence."
+          },
+          {
+            "correct": true,
+            "proposition": "« Mesure exprimée en pourcentage sans unité » décrit le risque.",
+            "justification": "Le risque s'exprime en pourcentage et n'a pas d'unité."
+          }
+        ]
+      }
+    }
+  ]
+}

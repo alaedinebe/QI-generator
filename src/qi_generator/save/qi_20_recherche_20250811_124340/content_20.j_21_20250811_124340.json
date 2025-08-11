@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754909212616_01",
+      "current_version_epoch_ms": 1754909212616,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant les probabilités et les phénomènes aléatoires, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles modélisent des phénomènes dont les issues possibles sont connues mais dont la réalisation est incertaine.",
+            "justification": "Les probabilités modélisent des phénomènes aléatoires à issues connues, sans pouvoir prédire la valeur observée car sa réalisation est incertaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles permettent de prédire avec certitude la valeur qui sera observée.",
+            "justification": "Par définition, la valeur ne peut pas être prédite avec certitude puisque la réalisation est incertaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles s'appliquent à des situations où les issues sont inconnues.",
+            "justification": "Elles s'appliquent à des phénomènes dont les issues possibles sont connues."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles s'appuient sur la description d'issues possibles.",
+            "justification": "La modélisation probabiliste suppose que l'ensemble des issues possibles est identifié."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne concernent que les variables continues.",
+            "justification": "Les probabilités s'appliquent à des variables aléatoires qui peuvent être discrètes ou continues."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909212616_02",
+      "current_version_epoch_ms": 1754909212616,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les énoncés suivants relatifs aux variables aléatoires discrètes et continues.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le sexe est une variable aléatoire discrète.",
+            "justification": "Exemple explicite de variable discrète."
+          },
+          {
+            "correct": true,
+            "proposition": "La glycémie est une variable aléatoire continue.",
+            "justification": "Exemple explicite de variable continue."
+          },
+          {
+            "correct": true,
+            "proposition": "Une variable continue est décrite par des probabilités associées à des intervalles de valeurs.",
+            "justification": "Pour une variable continue, la loi de probabilité porte sur des intervalles de valeurs."
+          },
+          {
+            "correct": true,
+            "proposition": "Une variable discrète est décrite par des probabilités associées à chaque valeur possible.",
+            "justification": "Pour une variable discrète, la loi de probabilité associe une probabilité à chaque valeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Une variable continue est décrite par une probabilité attribuée à chaque valeur isolée.",
+            "justification": "Pour les variables continues, la loi s'exprime sur des intervalles et non sur des valeurs isolées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909212616_03",
+      "current_version_epoch_ms": 1754909212616,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos de la définition d'une variable aléatoire, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est une fonction qui associe un nombre à chaque issue possible.",
+            "justification": "Définition directe de la variable aléatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une liste d'issues sans valeur numérique associée.",
+            "justification": "La variable aléatoire associe des nombres aux issues ; ce n'est pas une simple liste."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne peut pas être utilisée si les issues d'un phénomène sont connues.",
+            "justification": "Elle est précisément définie à partir des issues possibles connues."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut être discrète ou continue.",
+            "justification": "Les deux types sont explicitement distingués."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est déterministe : la même valeur est connue à l'avance.",
+            "justification": "La réalisation de la valeur est incertaine dans un phénomène aléatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909212616_04",
+      "current_version_epoch_ms": 1754909212616,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant la loi de probabilité, cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour une variable discrète, la loi associe une probabilité à chaque valeur.",
+            "justification": "C'est la manière de décrire une loi pour une variable discrète."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour une variable continue, la loi associe une probabilité à tout intervalle de valeurs.",
+            "justification": "Pour une variable continue, on considère des intervalles de valeurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une variable continue, la loi donne toujours la probabilité d'une valeur exacte.",
+            "justification": "La description porte sur des intervalles de valeurs, pas sur une valeur isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "La loi de probabilité ne s'applique qu'aux variables discrètes.",
+            "justification": "Elle s'applique aux variables discrètes et continues."
+          },
+          {
+            "correct": false,
+            "proposition": "La loi de probabilité se limite à énumérer les issues sans associer de probabilités.",
+            "justification": "Elle décrit explicitement des probabilités associées aux valeurs ou aux intervalles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909212616_05",
+      "current_version_epoch_ms": 1754909212616,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos de l'estimation d'une loi de probabilité à partir de données observées, quelles propositions sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Observer les issues sur un nombre d'individus important permet de déterminer des fréquences.",
+            "justification": "Des séries suffisamment grandes permettent de déterminer des fréquences."
+          },
+          {
+            "correct": true,
+            "proposition": "Ces fréquences peuvent ensuite servir à estimer la loi de probabilité.",
+            "justification": "Les fréquences observées sont utilisées pour estimer la loi qui dirige la variable."
+          },
+          {
+            "correct": false,
+            "proposition": "Un très petit échantillon suffit pour estimer de manière fiable la loi de probabilité.",
+            "justification": "La démarche s'appuie sur des séries suffisamment grandes."
+          },
+          {
+            "correct": true,
+            "proposition": "Connaître les issues possibles est un préalable à cette démarche.",
+            "justification": "Les phénomènes modélisés ont des issues possibles connues."
+          },
+          {
+            "correct": false,
+            "proposition": "Après estimation de la loi, la valeur observée devient prédictible avec certitude.",
+            "justification": "Même avec une loi estimée, la réalisation individuelle reste incertaine."
+          }
+        ]
+      }
+    }
+  ]
+}

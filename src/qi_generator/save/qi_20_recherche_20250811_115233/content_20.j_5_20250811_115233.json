@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754906144870_01",
+      "current_version_epoch_ms": 1754906144870,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques essentielles d'une étude de cohorte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une étude longitudinale avec recueil de données postérieures à l'inclusion.",
+            "justification": "Une cohorte se définit par un suivi des sujets après l'inclusion pour collecter la survenue de l'événement ou l'évolution du critère de jugement."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut répondre à un objectif descriptif en estimant la fréquence de survenue (incidence).",
+            "justification": "Les objectifs descriptifs incluent l'estimation de la fréquence de survenue de la maladie et sa comparaison entre périodes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne peut répondre qu'à des objectifs descriptifs, pas analytiques.",
+            "justification": "Une cohorte peut aussi être analytique en comparant exposés et non exposés avec des tests et des mesures d'association."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le critère de jugement est binaire, les sujets atteints sont inclus d'emblée.",
+            "justification": "Pour un critère binaire, les sujets sont non atteints à l'inclusion et l'on relève les nouveaux cas au cours du temps."
+          },
+          {
+            "correct": true,
+            "proposition": "Il existe une forme particulière dite « exposés/non exposés » avec sélection séparée des deux groupes.",
+            "justification": "La cohorte de type « exposés/non exposés » sélectionne distinctement des sujets exposés et non exposés au départ."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906144870_02",
+      "current_version_epoch_ms": 1754906144870,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les spécificités d'une étude cas-témoins.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle répond exclusivement à des objectifs analytiques.",
+            "justification": "Le but est d'étudier l'association entre exposition et phénomène en comparant cas et témoins."
+          },
+          {
+            "correct": true,
+            "proposition": "La mesure d'association généralement estimable est l'odds ratio.",
+            "justification": "Dans ce design, l'odds ratio est la mesure d'association que l'on peut en général estimer."
+          },
+          {
+            "correct": true,
+            "proposition": "Le recueil des expositions est toujours rétrospectif.",
+            "justification": "L'information d'exposition est recueillie pour une période antérieure au début de l'enquête."
+          },
+          {
+            "correct": false,
+            "proposition": "Inclure plus de cinq témoins par cas apporte un gain de puissance important justifiant la complexité.",
+            "justification": "Au-delà de cinq témoins par cas, le gain de puissance devient en général minime par rapport à la complexité logistique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les témoins doivent provenir d'une population différente de celle des cas.",
+            "justification": "Idéalement, les témoins proviennent de la même population que les cas (ils auraient pu devenir cas)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906144870_03",
+      "current_version_epoch_ms": 1754906144870,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les usages et limites d'une enquête transversale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet d'estimer des prévalences au moment de l'étude dans une population cible.",
+            "justification": "C'est l'étude permettant d'estimer des prévalences d'un phénomène binaire à l'instant de l'enquête."
+          },
+          {
+            "correct": true,
+            "proposition": "La sélection doit être indépendante du statut de santé et du niveau d'exposition.",
+            "justification": "Le recrutement vise la meilleure représentativité, sans tenir compte de l'état de santé ni des expositions."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle recueille des événements survenant après l'inclusion.",
+            "justification": "Aucune donnée postérieure à l'inclusion n'est recueillie dans une enquête transversale."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut parfois fournir des mesures d'association, mais leur interprétation est limitée.",
+            "justification": "Des analyses (risque relatif, odds ratio) sont possibles, avec limites liées à la chronologie et au biais de survie sélective."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle recrute préférentiellement selon le statut de santé pour enrichir l'échantillon.",
+            "justification": "La sélection ne doit pas tenir compte du statut des sujets vis-à-vis de l'état de santé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906144870_04",
+      "current_version_epoch_ms": 1754906144870,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier cohorte prospective, rétrospective et mixte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une cohorte est dite prospective si le début des inclusions est postérieur à la finalisation du protocole.",
+            "justification": "La définition précise associe la temporalité des inclusions à la date de finalisation du protocole."
+          },
+          {
+            "correct": true,
+            "proposition": "Une cohorte rétrospective reconstitue a posteriori l'échantillon et le suivi à partir de fichiers de sujets identifiables.",
+            "justification": "Elle nécessite un fichier permettant d'identifier les sujets et de reconstituer leur statut et leur suivi passés."
+          },
+          {
+            "correct": true,
+            "proposition": "Une cohorte mixte associe un volet rétrospectif puis un suivi prospectif après finalisation du protocole.",
+            "justification": "Elle combine inclusion et/ou suivi en partie rétrospectifs puis poursuivis de manière prospective."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cohorte rétrospective exige que tous les sujets soient encore joignables.",
+            "justification": "Le statut à l'inclusion peut être déterminé même pour des sujets non joignables au moment de la conception."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cohorte prospective ne permet pas de suivre l'évolution d'un critère de jugement quantitatif.",
+            "justification": "Dans une cohorte, on suit l'évolution d'un critère quantitatif dont le niveau est connu à l'inclusion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754906144870_05",
+      "current_version_epoch_ms": 1754906144870,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Choisir le design d'étude le plus adapté à différents objectifs.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Estimer un taux d'incidence au cours du temps dans une population relève d'une cohorte.",
+            "justification": "La cohorte sert à mesurer la survenue de nouveaux cas au fil du temps."
+          },
+          {
+            "correct": true,
+            "proposition": "Étudier une maladie rare en comparant la prévalence de l'exposition chez malades et non malades relève d'un cas-témoins.",
+            "justification": "Le cas-témoins permet de sur-représenter les cas d'un phénomène rare et de comparer l'exposition entre cas et témoins."
+          },
+          {
+            "correct": true,
+            "proposition": "Estimer la prévalence d'un phénomène binaire à un instant T dans la population cible relève d'une enquête transversale.",
+            "justification": "L'enquête transversale est l'étude adaptée à l'estimation des prévalences au moment de l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "Comparer l'incidence entre groupes exposés et non exposés avec des mesures d'association relève d'une cohorte.",
+            "justification": "Les objectifs analytiques de la cohorte incluent la comparaison entre exposés et non exposés."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans une cohorte, l'odds ratio est la seule mesure d'association possible.",
+            "justification": "En cohorte, différentes mesures d'association sont envisageables (p. ex. rapport de taux d'incidence, différence de moyennes), l'odds ratio n'est pas la seule."
+          }
+        ]
+      }
+    }
+  ]
+}

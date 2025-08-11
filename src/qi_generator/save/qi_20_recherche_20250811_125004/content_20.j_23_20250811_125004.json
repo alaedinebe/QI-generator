@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754909595957_01",
+      "current_version_epoch_ms": 1754909595957,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les définitions et liens entre H0, H1, risques d'erreur et puissance d'un test.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le risque alpha est la probabilité de rejeter H0 alors qu'elle est vraie.",
+            "justification": "Alpha correspond à P(rejet de H0 | H0 vraie) et est souvent fixé à 5 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque beta est la probabilité de ne pas rejeter H0 alors que H1 est vraie.",
+            "justification": "Beta est défini comme P(ne pas rejeter H0 | H1 vraie)."
+          },
+          {
+            "correct": false,
+            "proposition": "La puissance d'un test est égale à 1 − alpha.",
+            "justification": "La puissance est 1 − beta, c'est la probabilité de rejeter H0 si H1 est vraie."
+          },
+          {
+            "correct": false,
+            "proposition": "H0 est l'hypothèse que l'on cherche à accepter.",
+            "justification": "H0 est celle qu'on cherche à rejeter tout en limitant la probabilité de la rejeter à tort (alpha)."
+          },
+          {
+            "correct": true,
+            "proposition": "H1 est complémentaire de H0 et correspond souvent à l'existence d'une différence.",
+            "justification": "H1 est l'hypothèse alternative que l'on cherche à accepter lorsque H0 est rejetée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909595957_02",
+      "current_version_epoch_ms": 1754909595957,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les facteurs qui influencent la puissance d'un test statistique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmenter la taille d'échantillon N augmente la puissance.",
+            "justification": "Quand N augmente, la puissance augmente."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la variabilité des observations augmente la puissance.",
+            "justification": "Si la variance augmente, la puissance diminue."
+          },
+          {
+            "correct": true,
+            "proposition": "Un test unilatéral est plus puissant qu'un test bilatéral (à alpha fixé).",
+            "justification": "À risque alpha identique, le test unilatéral augmente la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer alpha augmente la puissance.",
+            "justification": "Si alpha augmente, la puissance augmente ; donc la diminuer réduit la puissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Chercher à détecter une différence plus grande (d) augmente la puissance.",
+            "justification": "Si la différence à détecter d augmente, la puissance augmente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909595957_03",
+      "current_version_epoch_ms": 1754909595957,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier les conclusions possibles d'un test statistique et les étapes nécessaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si l'observation est conforme à ce qu'on attend sous H0, on ne rejette pas H0, sans prouver qu'elle est vraie.",
+            "justification": "Le non-rejet n'implique pas H0 vraie car le risque beta n'est jamais nul."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'observation est non conforme à H0, on rejette H0 et on conclut en faveur de H1.",
+            "justification": "Le rejet de H0 autorise la conclusion en faveur de l'hypothèse alternative."
+          },
+          {
+            "correct": false,
+            "proposition": "Si H0 est une égalité, le non-rejet de H0 signifie qu'il existe une différence significative.",
+            "justification": "En cas de non-rejet avec H0 d'égalité, on conclut à l'absence de différence significative."
+          },
+          {
+            "correct": true,
+            "proposition": "Fixer le risque d'erreur de première espèce fait partie des étapes d'un test.",
+            "justification": "Les étapes incluent la fixation d'alpha avant l'analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Définir H0 et H1 est facultatif dans la conduite d'un test statistique.",
+            "justification": "La première étape consiste à définir H0 et H1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909595957_04",
+      "current_version_epoch_ms": 1754909595957,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les formulations d'hypothèses en unilatéral ou bilatéral et leurs conséquences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une hypothèse alternative bilatérale recherche une différence quel que soit le sens.",
+            "justification": "Elle teste A > B ou B > A."
+          },
+          {
+            "correct": true,
+            "proposition": "Une hypothèse alternative unilatérale autorise une conclusion dans un seul sens (par exemple A > B).",
+            "justification": "Elle spécifie une direction unique de l'effet."
+          },
+          {
+            "correct": false,
+            "proposition": "Une différence non significative en bilatéral ne peut jamais devenir significative en unilatéral.",
+            "justification": "Une différence non significative en bilatéral peut être significative en unilatéral."
+          },
+          {
+            "correct": false,
+            "proposition": "Le choix unilatéral ou bilatéral n'a pas d'impact sur la puissance.",
+            "justification": "Le test unilatéral augmente la puissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'hypothèse visée est « A > B », il faut réaliser un test bilatéral.",
+            "justification": "Une hypothèse directionnelle relève d'un test unilatéral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754909595957_05",
+      "current_version_epoch_ms": 1754909595957,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Choisir le test adapté (populations indépendantes) selon les types de variables et les conditions d'application.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Y binaire et X binaire : test du Chi-2 d'indépendance (A) ou test exact de Fisher (B).",
+            "justification": "Le tableau des tests pour populations indépendantes associe ce couple à Chi-2 (paramétrique) ou Fisher (non paramétrique)."
+          },
+          {
+            "correct": true,
+            "proposition": "Y quantitative et X binaire : test de Student (A) si conditions remplies, sinon test de Mann-Whitney (B).",
+            "justification": "Pour comparer une variable quantitative entre deux groupes indépendants, Student est paramétrique et Mann-Whitney non paramétrique."
+          },
+          {
+            "correct": true,
+            "proposition": "Y quantitative et X qualitative à plus de deux classes : ANOVA (A) ou Kruskal-Wallis (B).",
+            "justification": "Le tableau indique ANOVA en paramétrique et Kruskal-Wallis en non paramétrique pour ce cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Y censurée et X binaire : test de Logrank (B).",
+            "justification": "Le tableau associe les données censurées à un test de Logrank (non paramétrique)."
+          },
+          {
+            "correct": false,
+            "proposition": "Si n < 30 et la distribution n'est pas normale, il faut maintenir un test paramétrique.",
+            "justification": "Quand les conditions paramétriques ne sont pas remplies (taille < 30, non-normalité), il faut utiliser un test non paramétrique."
+          }
+        ]
+      }
+    }
+  ]
+}

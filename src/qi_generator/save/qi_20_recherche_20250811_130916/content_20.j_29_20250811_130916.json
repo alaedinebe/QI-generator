@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754910748014_01",
+      "current_version_epoch_ms": 1754910748014,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques d'un biais non différentiel (sélection ou classement).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le risque de biais est identique dans tous les groupes étudiés.",
+            "justification": "Par définition, un biais non différentiel survient avec une probabilité identique dans chacun des groupes."
+          },
+          {
+            "correct": true,
+            "proposition": "Il tend à orienter le résultat vers l'hypothèse nulle et entraîne une perte de puissance.",
+            "justification": "Un biais non différentiel oriente les résultats en faveur de l'absence de différence et diminue la puissance statistique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il résulte d'une manière différente de sélectionner les patients entre les groupes.",
+            "justification": "Une sélection différente selon les groupes définit un biais différentiel, pas un biais non différentiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est généralement prévenu par l'aveugle dans les essais cliniques.",
+            "justification": "L'aveugle prévient surtout les biais de classement différentiels, pas les biais non différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de biais de classement non différentiel, la valeur du RR/OR se rapproche de 1.",
+            "justification": "Une erreur de classement non différentielle sous-estime l'association en rapprochant RR/OR de 1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910748014_02",
+      "current_version_epoch_ms": 1754910748014,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos des biais de sélection, classer les situations suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Population d'étude non représentative de la population d'intérêt : biais non différentiel avec problème de validité externe.",
+            "justification": "Un échantillon non représentatif correspond à un biais de sélection non différentiel, compromettant la validité externe."
+          },
+          {
+            "correct": true,
+            "proposition": "Plus de perdus de vue dans le groupe exposé en lien avec l'exposition : biais de sélection différentiel.",
+            "justification": "Des perdus de vue liés au groupe d'exposition créent un risque de sélection qui diffère selon les groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "La randomisation suffit à éviter les perdus de vue différenciés au cours du suivi.",
+            "justification": "La randomisation prévient les biais différentiels initiaux mais n'empêche pas des perdus de vue différenciés pendant le suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour minimiser ces biais, la sélection et le suivi doivent être indépendants du groupe d'exposition et du risque d'événement.",
+            "justification": "Réduire la dépendance à l'exposition et au risque d'événement lors de la sélection et du suivi diminue les biais de sélection différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Un biais de sélection différentiel oriente nécessairement le résultat vers l'hypothèse alternative.",
+            "justification": "Un biais différentiel peut orienter soit vers l'absence de différence, soit vers la présence d'une différence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910748014_03",
+      "current_version_epoch_ms": 1754910748014,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant les biais de classement de l'exposition ou du critère de jugement, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Non différentiel : probabilité d'erreur identique chez exposés et non exposés.",
+            "justification": "Une erreur survenant avec la même probabilité dans tous les groupes définit le non différentiel."
+          },
+          {
+            "correct": true,
+            "proposition": "Non différentiel : sous-estimation de l'association, RR/OR rapprochés de 1.",
+            "justification": "Le biais de classement non différentiel tend à rapprocher l'estimation de l'absence d'effet."
+          },
+          {
+            "correct": true,
+            "proposition": "Différentiel : risque majeur dans les études observationnelles.",
+            "justification": "En l'absence d'aveugle, les études observationnelles sont particulièrement exposées aux classements différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les essais cliniques, l'aveugle prévient les biais de classement différentiels.",
+            "justification": "L'aveugle homogénéise le recueil et empêche que la mesure diffère selon le groupe."
+          },
+          {
+            "correct": false,
+            "proposition": "Différentiel : oriente toujours les résultats vers l'absence de différence.",
+            "justification": "Un biais différentiel peut orienter soit vers l'hypothèse nulle, soit vers l'hypothèse alternative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910748014_04",
+      "current_version_epoch_ms": 1754910748014,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Dans une étude cas-témoin, les cas se rappellent davantage une exposition passée que les témoins. À propos de cette situation, reconnaître les propositions justes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un exemple classique de biais de mémorisation sur l'exposition.",
+            "justification": "Les cas font plus d'efforts pour rechercher ou rapporter l'exposition que les témoins."
+          },
+          {
+            "correct": true,
+            "proposition": "C'est un biais de classement différentiel.",
+            "justification": "La manière de recueillir l'exposition diffère entre cas et témoins."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce biais est surtout attendu dans les essais cliniques.",
+            "justification": "Il est particulièrement décrit en études cas-témoin, donc observationnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être limité par des procédures de recueil standardisées, objectives et identiques pour tous.",
+            "justification": "Des procédures homogènes et objectives réduisent les différences de classement entre groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce biais rapproche la valeur du RR/OR de 1.",
+            "justification": "En tant que biais différentiel, il peut orienter les résultats dans un sens ou dans l'autre, pas nécessairement vers 1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754910748014_05",
+      "current_version_epoch_ms": 1754910748014,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les mesures de prévention adaptées à chaque type de biais.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Randomisation : prévient les biais de sélection différentiels initiaux.",
+            "justification": "La répartition aléatoire empêche qu'une sélection différente entre groupes existe au départ."
+          },
+          {
+            "correct": true,
+            "proposition": "Aveugle : prévient les biais de classement différentiels dans les essais cliniques.",
+            "justification": "L'aveugle évite que la mesure diffère selon le groupe d'exposition ou de jugement."
+          },
+          {
+            "correct": true,
+            "proposition": "Standardisation et objectivation du recueil : limite les biais de classement en assurant des procédures similaires pour tous.",
+            "justification": "Des procédures standardisées et identiques pour tous réduisent les différences de recueil entre groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas se soucier de la représentativité de l'échantillon diminue le biais de sélection non différentiel.",
+            "justification": "Une population non représentative est précisément une source de biais de sélection non différentiel et nuit à la validité externe."
+          },
+          {
+            "correct": true,
+            "proposition": "Assurer un suivi équivalent et indépendant du groupe d'exposition réduit le biais de sélection différentiel lié aux perdus de vue.",
+            "justification": "Limiter les perdus de vue différenciés revient à rendre le suivi indépendant du groupe et du risque d'événement."
+          }
+        ]
+      }
+    }
+  ]
+}

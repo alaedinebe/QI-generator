@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "secu",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754901878050_01",
+      "current_version_epoch_ms": 1754901878050,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Classer les assurés suivants selon le régime de Sécurité sociale compétent.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un salarié du commerce relève du régime général.",
+            "justification": "Le régime général couvre la plupart des salariés."
+          },
+          {
+            "correct": true,
+            "proposition": "Un travailleur indépendant en 2019 relève du régime général.",
+            "justification": "Depuis le 1er janvier 2018, la protection sociale des indépendants (ex-RSI) est confiée au régime général."
+          },
+          {
+            "correct": false,
+            "proposition": "Un étudiant résidant en France relève d'un régime spécial.",
+            "justification": "Les étudiants et simples résidents sont couverts par le régime général."
+          },
+          {
+            "correct": true,
+            "proposition": "Un exploitant agricole relève de la Mutualité sociale agricole (MSA).",
+            "justification": "La MSA couvre les exploitants et les salariés agricoles."
+          },
+          {
+            "correct": true,
+            "proposition": "Un fonctionnaire de l'État relève d'un régime spécial.",
+            "justification": "Les fonctionnaires font partie des régimes spéciaux maintenus par la loi."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754901878050_02",
+      "current_version_epoch_ms": 1754901878050,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques organisationnelles du régime agricole (MSA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La MSA couvre environ 5 % de la population française.",
+            "justification": "La MSA couvre 5 % de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "La MSA gère uniquement l'assurance maladie.",
+            "justification": "La MSA constitue un guichet unique pour maladie, AT/MP, retraite et famille."
+          },
+          {
+            "correct": true,
+            "proposition": "La MSA fonctionne comme un « guichet unique » pour plusieurs branches de prestations.",
+            "justification": "Elle gère à la fois maladie, AT/MP, retraite et famille."
+          },
+          {
+            "correct": false,
+            "proposition": "Le recouvrement des cotisations à la MSA est assuré par le régime général.",
+            "justification": "La MSA gère elle-même le recouvrement de ses cotisations."
+          },
+          {
+            "correct": true,
+            "proposition": "La MSA concerne les exploitants et les salariés agricoles.",
+            "justification": "Elle couvre ces catégories professionnelles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754901878050_03",
+      "current_version_epoch_ms": 1754901878050,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Reconnaître les grandes familles de régimes spéciaux et leurs exemples.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le régime de la fonction publique (fonctionnaires civils et militaires) constitue une grande famille.",
+            "justification": "Il s'agit d'une des trois grandes familles des régimes spéciaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Les entreprises et établissements publics (ex. SNCF, RATP) constituent une grande famille.",
+            "justification": "Ils forment la deuxième grande famille des régimes spéciaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Les professions libérales rattachées à l'ex-RSI constituent une grande famille de régimes spéciaux.",
+            "justification": "La protection sociale des indépendants a été rattachée au régime général, pas aux régimes spéciaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Des régimes de plus faible importance structurés sur une base professionnelle ou d'entreprise (clercs de notaire, mines, cultes, Opéra de Paris) constituent la troisième famille.",
+            "justification": "Ils composent la troisième grande famille des régimes spéciaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Le régime agricole (MSA) fait partie des régimes spéciaux.",
+            "justification": "La MSA constitue un régime distinct qui n'appartient pas aux régimes spéciaux listés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754901878050_04",
+      "current_version_epoch_ms": 1754901878050,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Caractériser l'évolution des régimes spéciaux depuis 1945.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre de régimes spéciaux est passé de plus d'une centaine en 1945 à 27 en 2021.",
+            "justification": "Une réduction importante de leur nombre est observée, avec 27 en 2021."
+          },
+          {
+            "correct": true,
+            "proposition": "Un rapprochement du régime général est observé, tant dans le fonctionnement que dans le versement des prestations.",
+            "justification": "Les prestations, notamment en retraite et assurance maladie, s'alignent de plus en plus sur le régime général."
+          },
+          {
+            "correct": false,
+            "proposition": "Les régimes spéciaux couvrent aujourd'hui 88 % de la population.",
+            "justification": "88 % correspond au régime général, pas aux régimes spéciaux."
+          },
+          {
+            "correct": true,
+            "proposition": "La dégradation du ratio cotisants/bénéficiaires pose la question de leur pérennité.",
+            "justification": "Le déséquilibre met en cause la viabilité à terme de certains régimes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le déclin de secteurs comme les mines a réduit le nombre d'actifs et donc les ressources de ces régimes.",
+            "justification": "Les transformations économiques ont diminué les actifs dans certains secteurs historiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754901878050_05",
+      "current_version_epoch_ms": 1754901878050,
+      "topic": {
+        "subject": "sp",
+        "item": "secu"
+      },
+      "data": {
+        "statement": "Identifier les bases juridiques et le périmètre d'affiliation aux régimes spéciaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les régimes spéciaux ont été maintenus par le décret du 8 juin 1946.",
+            "justification": "Le maintien a été décidé par ce décret."
+          },
+          {
+            "correct": true,
+            "proposition": "Leur cadre figure aux articles L711-1 et R711-1 du Code de la sécurité sociale.",
+            "justification": "Ces articles listent les organisations soumises à un régime spécial."
+          },
+          {
+            "correct": true,
+            "proposition": "La Banque de France relève d'une organisation spéciale de sécurité sociale.",
+            "justification": "Elle est explicitement mentionnée parmi les entités concernées."
+          },
+          {
+            "correct": false,
+            "proposition": "Les activités se rapportant aux hydrocarbures liquides ou gazeux sont incluses sans exception.",
+            "justification": "Elles sont exclues du périmètre visé pour les entreprises minières et assimilées."
+          },
+          {
+            "correct": true,
+            "proposition": "Les chemins de fer d'intérêt général secondaire, d'intérêt local et les tramways relèvent d'une organisation spéciale.",
+            "justification": "Ils font partie de la liste des entités soumises à un régime spécial."
+          }
+        ]
+      }
+    }
+  ]
+}

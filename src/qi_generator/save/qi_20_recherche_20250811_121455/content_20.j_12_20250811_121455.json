@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754907487583_01",
+      "current_version_epoch_ms": 1754907487583,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant la valeur de p et la conclusion d'un test statistique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un test est dit significatif si la valeur de p est inférieure au seuil alpha fixé a priori.",
+            "justification": "Un résultat est significatif si p < alpha, le seuil étant déterminé a priori (en général 0,05)."
+          },
+          {
+            "correct": true,
+            "proposition": "La valeur de p est calculée a posteriori à partir des données observées.",
+            "justification": "La valeur de p est calculée a posteriori et correspond à une probabilité basée sur les données observées."
+          },
+          {
+            "correct": false,
+            "proposition": "La valeur de p représente la probabilité que l'hypothèse nulle soit vraie.",
+            "justification": "La valeur de p est la probabilité d'observer une différence au moins aussi importante si, en réalité, cette différence n'existe pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Si p est plus grand qu'alpha, on ne peut rien conclure.",
+            "justification": "Lorsque p > alpha, la probabilité d'observer une telle différence est jugée trop grande par rapport au risque admis ; aucune conclusion n'est tirée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil alpha est déterminé a posteriori, en fonction des résultats.",
+            "justification": "Le risque alpha est fixé a priori avant d'examiner les données."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907487583_02",
+      "current_version_epoch_ms": 1754907487583,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître la définition correcte du risque alpha (risque de première espèce).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alpha est le risque, fixé a priori, de conclure à tort à une différence.",
+            "justification": "Dans un test cherchant à démontrer une différence, le risque alpha est défini ainsi et est déterminé avant l'analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Alpha est une valeur calculée a posteriori à partir des données observées.",
+            "justification": "C'est la valeur de p qui est calculée a posteriori ; alpha est choisi à l'avance."
+          },
+          {
+            "correct": true,
+            "proposition": "Alpha est en général fixé à 0,05.",
+            "justification": "Il est d'usage de choisir alpha à 0,05, bien que ce soit un choix a priori."
+          },
+          {
+            "correct": false,
+            "proposition": "Alpha correspond à la probabilité d'observer une différence au moins aussi importante si la différence n'existe pas.",
+            "justification": "Cette probabilité correspond à la définition de la valeur de p, pas d'alpha."
+          },
+          {
+            "correct": true,
+            "proposition": "La conclusion du test est basée sur la comparaison de la valeur de p au risque alpha.",
+            "justification": "La décision découle de la comparaison p vs alpha, ce dernier étant admis a priori."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907487583_03",
+      "current_version_epoch_ms": 1754907487583,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Définir correctement l'intervalle de confiance à 95 % (IC95 %).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est un intervalle de valeurs possibles de la vraie valeur du paramètre dans la population.",
+            "justification": "L'IC est défini comme un intervalle de valeurs plausibles pour la vraie valeur du paramètre."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'on tire 100 échantillons d'une même population, l'estimation du paramètre se situera dans l'IC pour 95 d'entre eux.",
+            "justification": "L'interprétation fréquentiste donnée précise cette propriété pour un IC à 95 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Le niveau de confiance associé au fait que le paramètre vrai appartienne à l'intervalle est de 95 %. ",
+            "justification": "Il est indiqué que le niveau de confiance est de 95 % pour l'appartenance du paramètre vrai à l'intervalle."
+          },
+          {
+            "correct": false,
+            "proposition": "Un IC95 % signifie que le paramètre vrai a 95 % de chances d'être exactement au centre de l'intervalle.",
+            "justification": "L'IC fournit un intervalle de valeurs plausibles ; il n'est pas question d'une probabilité d'être au centre."
+          },
+          {
+            "correct": true,
+            "proposition": "On présente généralement l'intervalle de confiance à 95 % d'un paramètre.",
+            "justification": "Il est précisé qu'on présente en général l'IC à 95 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907487583_04",
+      "current_version_epoch_ms": 1754907487583,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les estimations qui doivent être accompagnées d'un intervalle de confiance selon les exemples donnés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Différence de moyenne",
+            "justification": "La différence de moyenne est citée comme exemple d'estimation devant être accompagnée d'un IC."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque relatif (RR)",
+            "justification": "Le RR fait partie des exemples explicitement mentionnés."
+          },
+          {
+            "correct": true,
+            "proposition": "Odds ratio (OR)",
+            "justification": "L'OR est listé parmi les estimations devant être accompagnées d'un IC."
+          },
+          {
+            "correct": true,
+            "proposition": "Hazard ratio (HR)",
+            "justification": "Le HR est également donné comme exemple à accompagner d'un IC."
+          },
+          {
+            "correct": false,
+            "proposition": "Valeur de p",
+            "justification": "Les exemples fournis concernent des estimations de paramètres (différence, RR, OR, HR) ; la valeur de p n'est pas citée parmi ces estimations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754907487583_05",
+      "current_version_epoch_ms": 1754907487583,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Relier erreur aléatoire, fluctuations d'échantillonnage et outils d'inférence (p et IC).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le jugement de signification statistique concerne l'erreur aléatoire liée aux fluctuations d'échantillonnage.",
+            "justification": "Il est indiqué que ce jugement concerne l'erreur due au hasard et aux fluctuations d'échantillonnage."
+          },
+          {
+            "correct": false,
+            "proposition": "Un résultat non significatif (p > alpha) prouve qu'il n'existe aucune différence.",
+            "justification": "Lorsque p > alpha, il est précisé qu'on ne peut rien conclure."
+          },
+          {
+            "correct": true,
+            "proposition": "La valeur de p correspond au degré de signification.",
+            "justification": "La valeur de p est explicitement appelée « degré de signification »."
+          },
+          {
+            "correct": true,
+            "proposition": "La conclusion d'un test repose sur la comparaison de p au risque alpha admis a priori.",
+            "justification": "La décision s'appuie sur la comparaison p vs alpha, alpha étant fixé a priori."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IC95 % n'est pas lié à l'estimation d'un paramètre.",
+            "justification": "Au contraire, il est défini comme un intervalle de valeurs possibles pour la vraie valeur du paramètre estimé."
+          }
+        ]
+      }
+    }
+  ]
+}

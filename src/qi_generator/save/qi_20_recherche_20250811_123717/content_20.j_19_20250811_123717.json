@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754908829276_01",
+      "current_version_epoch_ms": 1754908829276,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier la/les source(s) adaptée(s) pour une surveillance continue des syndromes grippaux en soins de premiers recours en France métropolitaine.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réseau Sentinelles (médecins volontaires en médecine générale et pédiatrie)",
+            "justification": "Assure la surveillance continue de 10 indicateurs de santé, dont les syndromes grippaux, en soins de premiers recours en France métropolitaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Registre des cancers généraux en Gironde",
+            "justification": "Un registre de morbidité recense de manière exhaustive les nouveaux cas d'une pathologie donnée (ex. cancers) sur un territoire, sans assurer la surveillance continue des syndromes grippaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclaration obligatoire aux ARS",
+            "justification": "La déclaration obligatoire concerne une trentaine de maladies, principalement infectieuses, déclarées aux ARS ; ce dispositif n'est pas la surveillance continue des syndromes grippaux en soins de premiers recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Statistiques vitales (certificats de décès, CépiDC)",
+            "justification": "Les statistiques vitales portent sur le recueil exhaustif et permanent des décès et l'analyse des causes de décès, pas sur la surveillance des syndromes grippaux en soins de premiers recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Système National des Données de Santé (SNDS)",
+            "justification": "Le SNDS regroupe des bases médico-administratives (SNIIRAM, PMSI, CépiDC, CNSA) mais n'est pas un réseau de surveillance continue des syndromes grippaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908829276_02",
+      "current_version_epoch_ms": 1754908829276,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître la source correspondant à la description suivante : « recense en permanence et de manière exhaustive les nouveaux cas d'une pathologie donnée sur un territoire donné ». Identifier la/les bonne(s) réponse(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Registres de morbidité",
+            "justification": "Un registre de morbidité recense en permanence et de manière exhaustive les nouveaux cas d'une pathologie au sein d'un territoire donné."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclaration obligatoire",
+            "justification": "La déclaration obligatoire est un dispositif national de notification de maladies aux ARS ; la définition fournie correspond aux registres de morbidité."
+          },
+          {
+            "correct": false,
+            "proposition": "Réseau Sentinelles",
+            "justification": "Le Réseau Sentinelles surveille en continu des indicateurs de santé via des médecins volontaires, sans recensement exhaustif des nouveaux cas d'une pathologie sur un territoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Statistiques vitales",
+            "justification": "Les statistiques vitales portent sur les décès (certificat de décès) et l'analyse des causes par le CépiDC, pas sur l'exhaustivité des nouveaux cas d'une pathologie donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Entrepôts de données hospitaliers (EDS)",
+            "justification": "Les EDS intègrent des données administratives et médicales hospitalières ; ils ne sont pas définis comme un recensement exhaustif des nouveaux cas sur un territoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908829276_03",
+      "current_version_epoch_ms": 1754908829276,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les éléments qui composent explicitement le Système National des Données de Santé (SNDS).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Base SNIIRAM (consommation de soins, médicaments, ALD)",
+            "justification": "La base SNIIRAM fait partie du SNDS et contient la consommation de soins, de médicaments et les ALD."
+          },
+          {
+            "correct": true,
+            "proposition": "Base PMSI (diagnostics, motifs d'hospitalisation, actes réalisés)",
+            "justification": "La base PMSI, intégrant diagnostics, motifs d'hospitalisation et actes, est incluse dans le SNDS."
+          },
+          {
+            "correct": true,
+            "proposition": "CépiDC (causes médicales de décès)",
+            "justification": "Les causes médicales de décès du CépiDC sont intégrées au SNDS."
+          },
+          {
+            "correct": true,
+            "proposition": "CNSA (données relatives au handicap)",
+            "justification": "Les données de la CNSA relatives au handicap font partie du SNDS."
+          },
+          {
+            "correct": false,
+            "proposition": "Réseau Sentinelles",
+            "justification": "Le Réseau Sentinelles est un système de surveillance en soins de premiers recours ; il n'est pas une composante du SNDS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908829276_04",
+      "current_version_epoch_ms": 1754908829276,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les modalités de recueil possibles dans une étude ad hoc réalisée à partir d'un échantillon d'individus.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Interroger les individus",
+            "justification": "Les individus de l'échantillon peuvent être interrogés dans le cadre d'une étude ad hoc."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser un examen clinique",
+            "justification": "Les participants peuvent passer un examen clinique dans une étude ad hoc."
+          },
+          {
+            "correct": true,
+            "proposition": "Faire passer des tests para-cliniques",
+            "justification": "Des tests para-cliniques peuvent être réalisés sur les individus inclus."
+          },
+          {
+            "correct": true,
+            "proposition": "Consulter les dossiers médicaux",
+            "justification": "Les dossiers médicaux des participants peuvent être consultés."
+          },
+          {
+            "correct": true,
+            "proposition": "Interroger les proches des individus inclus",
+            "justification": "Les proches peuvent être interrogés dans le cadre du recueil d'une étude ad hoc."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754908829276_05",
+      "current_version_epoch_ms": 1754908829276,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les affirmations exactes concernant les statistiques vitales sur les décès au niveau national.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le recueil est exhaustif et permanent au niveau national",
+            "justification": "L'information relative au décès des individus est recueillie de manière exhaustive et permanente."
+          },
+          {
+            "correct": true,
+            "proposition": "Le recueil s'appuie sur le certificat de décès",
+            "justification": "Les statistiques vitales utilisent le certificat de décès comme source de recueil."
+          },
+          {
+            "correct": true,
+            "proposition": "Les causes médicales de décès sont analysées par le CépiDC avec production de statistiques annuelles",
+            "justification": "Le CépiDC analyse les causes de décès et produit des statistiques annuelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont collectées par un réseau de médecins généralistes volontaires",
+            "justification": "La collecte via des médecins volontaires caractérise le Réseau Sentinelles, pas les statistiques vitales."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont centralisées par les Agences Régionales de Santé (ARS)",
+            "justification": "La centralisation par les ARS concerne la déclaration obligatoire ; les statistiques vitales sont liées au certificat de décès et au CépiDC."
+          }
+        ]
+      }
+    }
+  ]
+}
