@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "erreurs",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754863187656_01",
+      "current_version_epoch_ms": 1754863187656,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Identifier les liens juridiques et la juridiction compétente dans l'hôpital public.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le patient est juridiquement lié à l'établissement public de santé, non au médecin hospitalier.",
+            "justification": "Il n'existe pas de relation juridique entre le médecin hospitalier et le patient ; le lien juridique est avec l'établissement public."
+          },
+          {
+            "correct": true,
+            "proposition": "Les actes des médecins hospitaliers engagent la responsabilité de l'établissement public de santé.",
+            "justification": "Pour les actes réalisés par les médecins hospitaliers, c'est l'établissement public qui voit sa responsabilité engagée."
+          },
+          {
+            "correct": true,
+            "proposition": "Les litiges relèvent de l'ordre administratif (tribunal administratif, cour administrative d'appel, Conseil d'État).",
+            "justification": "La responsabilité de l'établissement public de santé est portée devant les juridictions administratives listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin hospitalier est lié par un contrat de soin directement avec le patient.",
+            "justification": "Aucun lien juridique direct n'existe entre le médecin hospitalier et le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La compétence principale appartient au tribunal judiciaire.",
+            "justification": "La compétence mentionnée est celle de l'ordre administratif, non judiciaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754863187656_02",
+      "current_version_epoch_ms": 1754863187656,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Différencier faute de service et faute personnelle/détachable chez un agent du service public hospitalier.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une faute commise pendant le service, avec les moyens du service, sans intérêt personnel, est une faute de service.",
+            "justification": "La faute de service est définie par l'exercice des fonctions avec les moyens du service et sans intérêt personnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Une insuffisance de surveillance des patients ou des locaux relève de l'organisation et du fonctionnement du service.",
+            "justification": "Cette situation est donnée comme exemple de faute dans l'organisation et le fonctionnement du service public."
+          },
+          {
+            "correct": false,
+            "proposition": "Une mauvaise coordination entre médecins constitue une faute personnelle.",
+            "justification": "La mauvaise coordination entre médecins est citée comme défaut d'organisation et de fonctionnement du service."
+          },
+          {
+            "correct": true,
+            "proposition": "Des soins dispensés dans un cadre privé sans lien avec le service constituent une faute personnelle.",
+            "justification": "Une faute commise en dehors du service, sans lien avec celui-ci, engage la responsabilité personnelle de l'auteur."
+          },
+          {
+            "correct": true,
+            "proposition": "Un acte accompli dans le service avec intention de nuire est une faute personnelle détachable.",
+            "justification": "L'intention de nuire détache la faute du service et engage la responsabilité personnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754863187656_03",
+      "current_version_epoch_ms": 1754863187656,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Classer les situations relevant d'un défaut d'organisation et de fonctionnement du service.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le mauvais entretien des locaux ou du matériel relève d'un défaut d'organisation/fonctionnement.",
+            "justification": "Le mauvais entretien des locaux et du matériel est explicitement cité comme tel."
+          },
+          {
+            "correct": true,
+            "proposition": "La mauvaise coordination entre médecins relève d'un défaut d'organisation/fonctionnement.",
+            "justification": "La mauvaise coordination entre médecins est donnée comme exemple de cette catégorie."
+          },
+          {
+            "correct": true,
+            "proposition": "L'insuffisance de surveillance des patients ou des locaux relève d'un défaut d'organisation/fonctionnement.",
+            "justification": "Cette insuffisance est mentionnée comme faute dans l'organisation et le fonctionnement du service."
+          },
+          {
+            "correct": false,
+            "proposition": "Un acte commis pendant le service, sans intérêt personnel, relève d'un défaut d'organisation/fonctionnement.",
+            "justification": "Un tel acte correspond à une faute de service, non spécifiquement à l'organisation/fonctionnement."
+          },
+          {
+            "correct": false,
+            "proposition": "Des soins privés en dehors du service relèvent d'un défaut d'organisation/fonctionnement.",
+            "justification": "Des soins privés sans lien avec le service constituent une faute personnelle, non un défaut d'organisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754863187656_04",
+      "current_version_epoch_ms": 1754863187656,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Relier le type de faute à l'entité dont la responsabilité est engagée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La faute de service engage la responsabilité de l'établissement public de santé.",
+            "justification": "Pour les actes des agents dans l'exercice du service, c'est l'établissement public qui est responsable."
+          },
+          {
+            "correct": true,
+            "proposition": "La faute dans l'organisation et le fonctionnement du service engage la responsabilité de l'établissement public de santé.",
+            "justification": "Cette typologie vise des dysfonctionnements du service public engageant l'établissement."
+          },
+          {
+            "correct": true,
+            "proposition": "La faute personnelle ou détachable engage la responsabilité civile personnelle de l'agent.",
+            "justification": "La faute personnelle est distinguée et fait peser la responsabilité sur son auteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour les actes des médecins hospitaliers, la responsabilité est en principe personnelle de l'agent.",
+            "justification": "En principe, les actes des médecins hospitaliers engagent l'établissement public."
+          },
+          {
+            "correct": false,
+            "proposition": "Une faute commise dans le service avec intention de nuire engage l'établissement public.",
+            "justification": "L'intention de nuire détache la faute du service et fait peser la responsabilité sur l'auteur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754863187656_05",
+      "current_version_epoch_ms": 1754863187656,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Reconnaître les critères d'une faute personnelle détachable du service.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut être commise en dehors du service et sans lien avec celui-ci.",
+            "justification": "Une faute commise hors service, sans lien avec le service, est personnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut être commise dans le service mais se détacher par l'intention de nuire.",
+            "justification": "L'intention de nuire est un critère de détachabilité au sein du service."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut se détacher du service en raison de son exceptionnelle gravité.",
+            "justification": "L'exceptionnelle gravité d'un acte commis dans le service peut le détacher du service."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond à un acte accompli pendant le service avec les moyens du service, sans intérêt personnel.",
+            "justification": "Cette définition correspond à la faute de service, non à la faute personnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est caractérisée par une insuffisance de surveillance des locaux.",
+            "justification": "L'insuffisance de surveillance relève d'un défaut d'organisation/fonctionnement du service, pas d'une faute personnelle."
+          }
+        ]
+      }
+    }
+  ]
+}

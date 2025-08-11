@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "erreurs",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754864339046_01",
+      "current_version_epoch_ms": 1754864339046,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Définir l'infection nosocomiale : identifier les critères constitutifs.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection contractée au cours d'un séjour dans un établissement de santé.",
+            "justification": "Elle est définie comme contractée lors d'un séjour en hôpital, clinique ou autre établissement de santé."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection absente au moment de l'admission.",
+            "justification": "Elle doit être absente à l'entrée dans l'établissement."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection se définissant exclusivement par un délai supérieur à 48 heures après l'admission, quel que soit le contexte.",
+            "justification": "Le seuil de 48 h est mentionné pour la situation où l'état infectieux à l'admission est inconnu, pas comme critère exclusif universel."
+          },
+          {
+            "correct": true,
+            "proposition": "Également appelée infection associée aux soins.",
+            "justification": "La terminologie inclut l'appellation « infection associée aux soins »."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection présente à l'admission mais aggravée pendant l'hospitalisation.",
+            "justification": "La présence d'une infection à l'entrée exclut la qualification de nosocomiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864339046_02",
+      "current_version_epoch_ms": 1754864339046,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Classer comme nosocomiale (vrai) les situations suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Admission en clinique, état infectieux à l'admission inconnu ; l'infection apparaît à 60 heures d'hospitalisation.",
+            "justification": "Quand l'état initial est inconnu, une apparition après 48 h est généralement considérée nosocomiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Admission à l'hôpital, état infectieux à l'admission inconnu ; l'infection apparaît à 24 heures.",
+            "justification": "Avant 48 h dans ce contexte, on considère en général une infection en incubation à l'entrée."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection documentée comme absente à l'admission puis survenue pendant le séjour hospitalier.",
+            "justification": "Absente à l'entrée et contractée au cours du séjour correspond à la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection présente à l'admission en hôpital.",
+            "justification": "La définition exige l'absence à l'admission."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection déjà présente au moment de l'admission puis confirmée après quelques examens.",
+            "justification": "La présence initiale exclut le caractère nosocomial."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864339046_03",
+      "current_version_epoch_ms": 1754864339046,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Reconnaître l'équivalence terminologique et le cadre d'acquisition d'une infection nosocomiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le terme « infection nosocomiale » est synonyme d'« infection associée aux soins ». ",
+            "justification": "Les deux appellations sont données pour la même entité."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle concerne les séjours dans des établissements de santé comme l'hôpital ou la clinique.",
+            "justification": "Le cadre est explicitement un séjour en établissement de santé (hôpital, clinique…)."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'état infectieux à l'admission est inconnu, le délai de 48 heures aide à la classer.",
+            "justification": "Au-delà de 48 h d'hospitalisation, elle est généralement considérée nosocomiale dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle inclut les infections présentes au moment de l'admission.",
+            "justification": "La définition impose l'absence d'infection à l'entrée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle exclut les établissements de type clinique.",
+            "justification": "Les cliniques sont citées parmi les établissements concernés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864339046_04",
+      "current_version_epoch_ms": 1754864339046,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Appliquer la règle des 48 heures lorsque l'état infectieux à l'admission est inconnu.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Apparition après 48 heures d'hospitalisation : généralement classée nosocomiale.",
+            "justification": "Le seuil de 48 h permet de la considérer nosocomiale quand l'état initial est inconnu."
+          },
+          {
+            "correct": true,
+            "proposition": "Apparition avant 48 heures d'hospitalisation : en général considérée en incubation à l'entrée.",
+            "justification": "Avant 48 h dans ce contexte, l'infection est réputée en incubation lors de l'admission."
+          },
+          {
+            "correct": true,
+            "proposition": "Le seuil de 48 heures est spécifiquement relié à l'incertitude sur l'état initial.",
+            "justification": "La mention du délai est conditionnée par l'état infectieux inconnu à l'admission."
+          },
+          {
+            "correct": false,
+            "proposition": "La règle des 48 heures s'applique de la même manière quand l'absence d'infection à l'admission est certaine.",
+            "justification": "Le texte lie cette règle à la situation d'état initial inconnu, pas à l'absence certaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil temporel retenu est de 24 heures.",
+            "justification": "Le délai mentionné est de 48 heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864339046_05",
+      "current_version_epoch_ms": 1754864339046,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Identifier, pour chaque proposition, si elle correspond à la définition d'une infection nosocomiale (vrai).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection absente à l'admission et contractée pendant un séjour en hôpital.",
+            "justification": "Absence initiale et acquisition au cours du séjour en établissement de santé."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection absente à l'admission et contractée pendant un séjour en clinique.",
+            "justification": "Les cliniques font partie des établissements de santé concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection présente à l'admission, quel que soit le lieu de prise en charge.",
+            "justification": "La présence initiale d'emblée contredit la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "État infectieux à l'admission inconnu ; l'infection apparaît après 48 heures d'hospitalisation.",
+            "justification": "Dans ce cas, elle est généralement considérée nosocomiale."
+          },
+          {
+            "correct": false,
+            "proposition": "État infectieux à l'admission inconnu ; l'infection apparaît avant 48 heures d'hospitalisation.",
+            "justification": "Avant 48 h dans ce contexte, l'infection est en général considérée en incubation à l'entrée."
+          }
+        ]
+      }
+    }
+  ]
+}

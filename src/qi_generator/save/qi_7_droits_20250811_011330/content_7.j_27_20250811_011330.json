@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "droits",
+    "subject": "mdl"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754867802712_01",
+      "current_version_epoch_ms": 1754867802712,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Selon l'article R. 1112-2 du Code de la Santé Publique, identifier les éléments qui relèvent des informations formalisées recueillies lors des consultations/accueil/admission et au cours du séjour (catégorie 1°).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Résultats d'examen",
+            "justification": "Relève des informations formalisées recueillies lors des consultations ou du séjour (catégorie 1°)."
+          },
+          {
+            "correct": true,
+            "proposition": "Compte rendu opératoire",
+            "justification": "Fait partie des pièces formalisées produites au cours du séjour (catégorie 1°)."
+          },
+          {
+            "correct": false,
+            "proposition": "Lettre de liaison de fin de séjour",
+            "justification": "Document établi à la fin du séjour : il relève des informations formalisées de fin de séjour (catégorie 2°)."
+          },
+          {
+            "correct": false,
+            "proposition": "Confidences de l'entourage sur des conduites addictives",
+            "justification": "Informations recueillies auprès de tiers n'intervenant pas dans la prise en charge : catégorie 3°, non communicables."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothèses de travail personnelles du médecin",
+            "justification": "Notes personnelles non formalisées, indépendantes du dossier médical et non communicables (article R. 4127-45)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867802712_02",
+      "current_version_epoch_ms": 1754867802712,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Dans le cadre de l'accès du patient à son dossier, reconnaître les informations non communicables.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Informations recueillies auprès de tiers n'intervenant pas dans la prise en charge",
+            "justification": "Ces informations constituent une catégorie spécifique (3°) non communicable au patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Notes personnelles du professionnel de santé",
+            "justification": "Éléments non formalisés (hypothèses, impressions, documents préparatoires) non communicables (article R. 4127-45)."
+          },
+          {
+            "correct": false,
+            "proposition": "Compte rendu de consultation",
+            "justification": "Pièce formalisée du dossier ; elle n'appartient pas aux catégories non communicables."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescriptions de sortie",
+            "justification": "Document de fin de séjour (catégorie 2°) et non une information non communicable."
+          },
+          {
+            "correct": false,
+            "proposition": "Motifs d'hospitalisation",
+            "justification": "Élément formalisé du séjour (catégorie 1°) ; il n'entre pas dans les informations non communicables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867802712_03",
+      "current_version_epoch_ms": 1754867802712,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Au regard de l'article R. 1112-3 du Code de la Santé Publique, différencier les obligations de tenue des pièces du dossier médical.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chaque pièce du dossier est datée et comporte l'identité du patient et du professionnel",
+            "justification": "Exigence explicite : datation et identification (nom, prénom, date de naissance du patient) et du professionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Les prescriptions médicales sont horodatées et signées avec le nom du médecin lisible",
+            "justification": "Obligation de signature et d'horodatage avec mention lisible du signataire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dossier comporte l'identification du patient et, le cas échéant, de la personne de confiance et de la personne à prévenir",
+            "justification": "Exigence d'identification des personnes clés mentionnée par l'article R. 1112-3."
+          },
+          {
+            "correct": false,
+            "proposition": "L'identité du patient peut être limitée à un numéro interne sans nom, prénom ni date de naissance",
+            "justification": "Contraire aux exigences : il est précisé nom, prénom et date de naissance du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La date n'est requise que pour les prescriptions, pas pour les autres pièces du dossier",
+            "justification": "Incorrect : chaque pièce du dossier doit être datée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867802712_04",
+      "current_version_epoch_ms": 1754867802712,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Classer les affirmations ci-dessous concernant la conservation du dossier médical en établissement (article R. 1112-7) et ses modalités.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Conservation 20 ans à compter du dernier séjour ou de la dernière consultation externe",
+            "justification": "Durée minimale explicitement définie pour les établissements."
+          },
+          {
+            "correct": true,
+            "proposition": "Conservation au moins jusqu'à l'âge de 28 ans",
+            "justification": "Règle spécifique qui revient à ne pas tenir compte des 8 premières années de vie dans le calcul du délai."
+          },
+          {
+            "correct": true,
+            "proposition": "Conservation 10 ans après le décès si celui-ci survient dans les 10 ans suivant le dernier séjour ou consultation externe",
+            "justification": "Disposition particulière liée au décès dans les 10 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Les délais sont suspendus par l'introduction d'un recours mettant en cause la responsabilité médicale",
+            "justification": "La procédure contentieuse suspend les délais de conservation."
+          },
+          {
+            "correct": false,
+            "proposition": "Les délais sont identiques pour tous les patients sans règle liée à l'âge",
+            "justification": "Inexact : une règle spécifique s'applique au moins jusqu'à l'âge de 28 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867802712_05",
+      "current_version_epoch_ms": 1754867802712,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "À propos des obligations de création, gestion, accès et transfert du dossier médical, reconnaître les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les établissements publics/privés et les médecins libéraux doivent créer, gérer, conserver le dossier et en donner l'accès au patient sur demande",
+            "justification": "Obligation de constituer, gérer, conserver et donner accès au dossier au patient."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de cessation d'activité, le médecin reste responsable de la conservation du dossier",
+            "justification": "La responsabilité de garde perdure lors de la cessation d'activité."
+          },
+          {
+            "correct": true,
+            "proposition": "Un patient peut demander la transmission de son dossier à son nouveau médecin",
+            "justification": "La transmission à un nouveau médecin peut être demandée par le patient."
+          },
+          {
+            "correct": true,
+            "proposition": "La garde et la confidentialité du dossier relèvent de l'établissement ou du médecin",
+            "justification": "Responsabilité explicite de l'établissement ou du médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "En cabinet libéral, un texte impose les mêmes délais de conservation que ceux des établissements",
+            "justification": "Aucun texte ne fixe le délai en libéral ; une recommandation du Conseil National de l'Ordre des Médecins est mentionnée."
+          }
+        ]
+      }
+    }
+  ]
+}

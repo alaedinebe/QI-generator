@@ -34,6 +34,27 @@ def main():
     mouse = MouseController()
     i = 0  # à incrémenter selon les besoins
 
+    # --- Afficher la position de la souris au lancement ---
+    try:
+        x0, y0 = mouse.position
+        print(f"Position souris au lancement : ({x0}, {y0})")
+    except Exception as e:
+        print(f"Impossible de récupérer la position de la souris : {e}")
+
+    # --- Récupérer la vraie taille de l'écran principal (sans libs externes) ---
+    try:
+        import tkinter as tk
+        _root = tk.Tk()
+        _root.withdraw()  # pas de fenêtre visible
+        screen_width = _root.winfo_screenwidth()
+        screen_height = _root.winfo_screenheight()
+        _root.destroy()
+    except Exception:
+        # Fallback si tkinter indisponible
+        screen_width = 1920
+        screen_height = 1080
+    print(f"Taille écran détectée : {screen_width} x {screen_height}")
+
     # Définir le chemin vers le dossier 'lisa'
     lisa_folder = os.path.join(os.getcwd(), 'lisa')
 
@@ -217,11 +238,6 @@ def main():
                         time.sleep(180)
                         
                         # Étape 3.5 : Positionner la souris au milieu de l'écran et scroller
-                        # Obtenir la taille de l'écran (approximative pour Windows)
-                        screen_width = 1920  # Largeur d'écran standard
-                        screen_height = 1080  # Hauteur d'écran standard
-                        
-                        # Positionner la souris au centre de l'écran
                         mouse.position = (screen_width // 2, screen_height // 2)
                         time.sleep(0.5)
                         
@@ -230,7 +246,9 @@ def main():
                             mouse.scroll(0, -300)  # Scroll vers le bas (valeur négative)
                             time.sleep(0.2)
 
-                        mouse.position = (886, 879)
+                        # appuyer sur le bouton de copie. sur petit ecran = 568, 522. sur grand écran externe = 886,879
+                        # mouse.position = (886, 879)
+                        mouse.position = (568, 522)
                         time.sleep(0.5)
                         mouse.click(Button.left)
                         time.sleep(0.5)  
@@ -274,7 +292,7 @@ def main():
                             except json.JSONDecodeError:
                                 write_debug(f"debug_clean_after_replace_{file_name[:-3]}_{i}.txt", txt)
                                 # Dernier recours : faire un coontrole A controle C controle V
-                                mouse.position = (900, 500)
+                                mouse.position = (screen_width // 2, screen_height // 2)
                                 time.sleep(0.5)
                                 mouse.click(Button.left)
                                 time.sleep(0.5) 

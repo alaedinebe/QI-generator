@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "droits",
+    "subject": "mdl"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754867610807_01",
+      "current_version_epoch_ms": 1754867610807,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Quels professionnels peuvent partager des informations médicales sans le consentement du patient dans le cadre du secret médical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les professionnels appartenant à la même équipe de soins",
+            "justification": "Les professionnels faisant partie de la même équipe de soins peuvent échanger des informations médicales sans consentement, celles-ci étant réputées confiées à l'ensemble de l'équipe."
+          },
+          {
+            "correct": false,
+            "proposition": "Les professionnels de structures de soins différentes",
+            "justification": "Le partage entre professionnels de structures différentes nécessite le consentement préalable du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Les étudiants en santé intégrés à l'équipe de soins",
+            "justification": "Les étudiants participant à la prise en charge font partie de l'équipe de soins et peuvent accéder aux informations sans consentement spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Tout professionnel de santé travaillant dans la même ville",
+            "justification": "La proximité géographique n'autorise pas le partage d'informations, seule l'appartenance à la même équipe le permet."
+          },
+          {
+            "correct": false,
+            "proposition": "Les psychologues exerçant hors de l'équipe de soins",
+            "justification": "Les psychologues n'appartenant pas à l'équipe de soins doivent obtenir le consentement du patient pour accéder aux données."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867610807_02",
+      "current_version_epoch_ms": 1754867610807,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Dans quelle situation le consentement du patient est-il nécessaire pour le partage de données médicales ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Entre deux professionnels ne faisant pas partie de la même équipe de soins",
+            "justification": "La loi impose le consentement préalable du patient pour un échange entre professionnels de structures ou d'équipes différentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre médecins du même service hospitalier",
+            "justification": "Les médecins du même service font partie de la même équipe et peuvent partager sans consentement."
+          },
+          {
+            "correct": true,
+            "proposition": "Entre un médecin traitant et un spécialiste externe sans lien d'équipe",
+            "justification": "Sans appartenance à la même équipe de soins, un consentement doit être obtenu."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre un infirmier et un médecin du même hôpital",
+            "justification": "L'appartenance à la même structure et équipe permet le partage sans consentement."
+          },
+          {
+            "correct": true,
+            "proposition": "Entre un centre hospitalier et un établissement médico-social distinct",
+            "justification": "Ces structures différentes nécessitent l'accord préalable du patient pour partager les informations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867610807_03",
+      "current_version_epoch_ms": 1754867610807,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Comment peut être recueilli le consentement du patient pour partager ses données de santé entre structures différentes ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Uniquement par écrit et signé",
+            "justification": "La loi ne limite pas le mode de recueil du consentement à un écrit signé."
+          },
+          {
+            "correct": true,
+            "proposition": "Par tout moyen",
+            "justification": "La loi précise que le consentement peut être recueilli par tout moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement par enregistrement audio",
+            "justification": "L'enregistrement audio est possible mais n'est pas la seule modalité autorisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement lors d'une consultation présentielle",
+            "justification": "La loi ne restreint pas le recueil du consentement à un contexte présentiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement par voie électronique",
+            "justification": "La voie électronique est possible mais n'est pas exclusive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867610807_04",
+      "current_version_epoch_ms": 1754867610807,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Quelles sont les finalités autorisant le partage de données de santé au sein d'une équipe de soins ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coordination des soins",
+            "justification": "La coordination des soins fait partie des finalités autorisant le partage d'informations."
+          },
+          {
+            "correct": true,
+            "proposition": "Continuité des soins",
+            "justification": "Le partage est autorisé pour assurer la continuité des soins."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivi médico-social",
+            "justification": "Le suivi médico-social du patient fait partie des finalités légitimes de partage."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche médicale sans consentement",
+            "justification": "La recherche médicale nécessite des règles spécifiques et le plus souvent le consentement du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation interne des pratiques professionnelles hors prise en charge",
+            "justification": "L'évaluation interne n'entre pas dans les finalités autorisant le partage sans consentement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754867610807_05",
+      "current_version_epoch_ms": 1754867610807,
+      "topic": {
+        "subject": "mdl",
+        "item": "droits"
+      },
+      "data": {
+        "statement": "Quels intervenants peuvent compléter un dossier médical dans le cadre du secret médical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les professionnels de santé",
+            "justification": "Les professionnels de santé participant à la prise en charge peuvent compléter le dossier."
+          },
+          {
+            "correct": true,
+            "proposition": "Les étudiants en santé",
+            "justification": "Les étudiants intégrés à la prise en charge peuvent compléter le dossier."
+          },
+          {
+            "correct": true,
+            "proposition": "Les assistantes sociales",
+            "justification": "Les assistantes sociales impliquées dans la prise en charge peuvent compléter le dossier."
+          },
+          {
+            "correct": true,
+            "proposition": "Les psychologues",
+            "justification": "Les psychologues participant à la prise en charge peuvent compléter le dossier."
+          },
+          {
+            "correct": false,
+            "proposition": "Les proches aidants du patient",
+            "justification": "Les proches aidants ne sont pas autorisés à compléter le dossier médical."
+          }
+        ]
+      }
+    }
+  ]
+}

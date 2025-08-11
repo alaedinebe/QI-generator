@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "erreurs",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754864147349_01",
+      "current_version_epoch_ms": 1754864147349,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques d'un accident médical.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il survient au cours d'un acte de soin, de prévention ou de diagnostic.",
+            "justification": "L'événement indésirable est défini comme survenant pendant un acte de soin, de prévention ou de diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Il entraîne un dommage anormal au regard de l'évolution prévisible de l'état de santé.",
+            "justification": "Le dommage doit être anormal par rapport à l'évolution attendue de l'état de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il suppose nécessairement une faute professionnelle.",
+            "justification": "Il peut être causé par une erreur, mais aussi découler de soins conformes aux bonnes pratiques (aléa thérapeutique)."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut survenir dans tout lieu de soins, y compris cabinet libéral, laboratoire ou pharmacie.",
+            "justification": "La survenue est possible en établissement de santé public ou privé, cabinet libéral, laboratoire, pharmacie, etc."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond à tout effet attendu de l'évolution de la maladie.",
+            "justification": "La définition exige un dommage anormal et non un effet attendu selon l'évolution prévisible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864147349_02",
+      "current_version_epoch_ms": 1754864147349,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Reconnaître une affection iatrogène.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle correspond à des effets néfastes provoqués par un traitement ou un acte médical.",
+            "justification": "L'iatrogénie est l'ensemble des effets néfastes dus à un traitement ou un acte médical."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle se manifeste par de nouveaux symptômes distincts de ceux que le traitement devait soigner.",
+            "justification": "Les effets iatrogènes déclenchent des symptômes nouveaux, différents de la pathologie initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle atteste d'une erreur du professionnel de santé.",
+            "justification": "Elle peut survenir en dehors de toute erreur ou faute du professionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut survenir même si l'indication et la posologie étaient correctes.",
+            "justification": "La définition précise qu'elle est possible malgré une indication et une posologie appropriées."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle nécessite un mauvais usage du médicament par le patient.",
+            "justification": "Elle peut intervenir avec ou sans mauvais usage, qu'il vienne du professionnel ou du malade."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864147349_03",
+      "current_version_epoch_ms": 1754864147349,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Différencier accident médical, aléa thérapeutique et iatrogénie à partir d'énoncés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un dommage anormal survenu lors d'un examen radiologique peut relever d'un accident médical.",
+            "justification": "Survenue pendant un acte de diagnostic avec dommage anormal correspond à la définition d'accident médical."
+          },
+          {
+            "correct": true,
+            "proposition": "Un dommage anormal malgré des soins conformes aux bonnes pratiques illustre un aléa thérapeutique.",
+            "justification": "L'aléa thérapeutique est un accident médical découlant de soins conformes aux bonnes pratiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Des symptômes nouveaux apparaissant après la prise d'un médicament correctement prescrit relèvent d'une affection iatrogène.",
+            "justification": "Iatrogénie : effets néfastes provoquant des symptômes nouveaux, possible malgré indication et posologie correctes."
+          },
+          {
+            "correct": false,
+            "proposition": "Un effet attendu de l'évolution de la maladie correspond à un accident médical.",
+            "justification": "L'accident médical exige un dommage anormal par rapport à l'évolution prévisible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'iatrogénie ne peut pas être liée à un acte médical autre que la prescription médicamenteuse.",
+            "justification": "Elle peut être provoquée par un traitement ou un acte médical."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864147349_04",
+      "current_version_epoch_ms": 1754864147349,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Classer les lieux où un accident médical peut survenir.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cabinet d'un professionnel de santé exerçant en libéral.",
+            "justification": "La définition inclut explicitement le cabinet libéral."
+          },
+          {
+            "correct": true,
+            "proposition": "Établissement de santé public ou privé.",
+            "justification": "Les établissements publics et privés sont concernés."
+          },
+          {
+            "correct": true,
+            "proposition": "Laboratoire d'analyses médicales ou de radiologie.",
+            "justification": "Les laboratoires d'analyses et de radiologie sont cités comme lieux possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Pharmacie.",
+            "justification": "La pharmacie fait partie des lieux de soins concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement à l'hôpital public.",
+            "justification": "La survenue n'est pas limitée à l'hôpital public et peut concerner divers lieux de soins."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754864147349_05",
+      "current_version_epoch_ms": 1754864147349,
+      "topic": {
+        "subject": "sp",
+        "item": "erreurs"
+      },
+      "data": {
+        "statement": "Comparer accident médical et affection iatrogène.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les deux peuvent survenir en l'absence de faute du professionnel.",
+            "justification": "Accident médical possible par aléa thérapeutique ; iatrogénie possible sans faute."
+          },
+          {
+            "correct": true,
+            "proposition": "Les deux surviennent dans le contexte d'un soin, d'un traitement ou d'un acte médical.",
+            "justification": "Accident médical : acte de soin, prévention ou diagnostic ; iatrogénie : traitement ou acte médical."
+          },
+          {
+            "correct": true,
+            "proposition": "L'accident médical requiert la notion de dommage anormal par rapport à l'évolution prévisible.",
+            "justification": "Le caractère anormal du dommage est constitutif de l'accident médical."
+          },
+          {
+            "correct": false,
+            "proposition": "L'iatrogénie correspond aux mêmes symptômes que la maladie initiale.",
+            "justification": "Elle se manifeste par de nouveaux symptômes, distincts de ceux traités."
+          },
+          {
+            "correct": false,
+            "proposition": "L'iatrogénie implique nécessairement un mauvais usage du médicament.",
+            "justification": "Elle peut survenir avec ou sans mauvais usage, qu'il soit du professionnel ou du patient."
+          }
+        ]
+      }
+    }
+  ]
+}
