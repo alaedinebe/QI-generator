@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "strabismeped",
+    "subject": "ophtalmo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755005526578_01",
+      "current_version_epoch_ms": 1755005526578,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "strabismeped"
+      },
+      "data": {
+        "statement": "Identifier les principales causes d'amblyopie organique chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cataracte",
+            "justification": "La cataracte est une cause organique d'amblyopie car elle empêche la formation d'une image nette sur la rétine durant la période critique."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie rétinienne",
+            "justification": "Une pathologie rétinienne affecte directement la transmission visuelle, pouvant provoquer une amblyopie organique."
+          },
+          {
+            "correct": true,
+            "proposition": "Pathologie cornéenne",
+            "justification": "Une atteinte de la cornée peut altérer la transparence et induire une amblyopie organique."
+          },
+          {
+            "correct": true,
+            "proposition": "Glaucome congénital",
+            "justification": "Un glaucome congénital entraîne une altération visuelle précoce pouvant causer une amblyopie organique."
+          },
+          {
+            "correct": false,
+            "proposition": "Strabisme",
+            "justification": "Le strabisme est une cause fonctionnelle, et non organique, d'amblyopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755005526578_02",
+      "current_version_epoch_ms": 1755005526578,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "strabismeped"
+      },
+      "data": {
+        "statement": "Reconnaître les causes d'amblyopie fonctionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Strabisme",
+            "justification": "Le strabisme provoque une inhibition de l'œil dévié afin d'éviter la diplopie, entraînant une amblyopie fonctionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Anisométropie",
+            "justification": "Une différence importante de réfraction entre les deux yeux induit une mauvaise stimulation visuelle, source d'amblyopie fonctionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Occlusion intempestive d'un œil",
+            "justification": "Une obstruction visuelle par pansement, mèche de cheveux ou autre peut entraîner une amblyopie fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Cataracte",
+            "justification": "La cataracte est une cause organique d'amblyopie, pas fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Glaucome congénital",
+            "justification": "Le glaucome congénital est une cause organique d'amblyopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755005526578_03",
+      "current_version_epoch_ms": 1755005526578,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "strabismeped"
+      },
+      "data": {
+        "statement": "Classer les affections suivantes selon qu'elles peuvent provoquer une amblyopie organique, fonctionnelle ou mixte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glaucome congénital — organique",
+            "justification": "Le glaucome congénital est une pathologie organique pouvant entraîner une amblyopie."
+          },
+          {
+            "correct": true,
+            "proposition": "Strabisme — fonctionnelle",
+            "justification": "Le strabisme est une cause fonctionnelle par inhibition corticale de l'œil dévié."
+          },
+          {
+            "correct": true,
+            "proposition": "Anisométropie — fonctionnelle",
+            "justification": "Une anisométropie non corrigée provoque une amblyopie fonctionnelle par absence de stimulation nette."
+          },
+          {
+            "correct": true,
+            "proposition": "Cataracte et strabisme — mixte",
+            "justification": "La présence simultanée d'une cataracte et d'un strabisme associe une cause organique et une cause fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie rétinienne — fonctionnelle",
+            "justification": "La maladie rétinienne est une cause organique, pas fonctionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755005526578_04",
+      "current_version_epoch_ms": 1755005526578,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "strabismeped"
+      },
+      "data": {
+        "statement": "Différencier les caractéristiques des amblyopies organiques et fonctionnelles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les amblyopies organiques sont dues à une lésion ou opacité d'une structure de l'œil.",
+            "justification": "Les amblyopies organiques résultent d'une altération anatomique de l'œil perturbant la vision."
+          },
+          {
+            "correct": true,
+            "proposition": "Les amblyopies fonctionnelles sont liées à un trouble de l'alignement ou de la réfraction.",
+            "justification": "Un strabisme ou une anisométropie entraîne une mauvaise utilisation d'un œil, source d'amblyopie fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Les amblyopies organiques apparaissent uniquement après 10 ans.",
+            "justification": "Elles apparaissent durant la période critique, avant 6 ans, pas après 10 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les amblyopies fonctionnelles nécessitent toujours une chirurgie.",
+            "justification": "Elles peuvent être corrigées par traitement optique ou orthoptique, sans chirurgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les amblyopies organiques ne sont jamais liées à une pathologie rétinienne.",
+            "justification": "Au contraire, les maladies rétiniennes sont une cause fréquente d'amblyopie organique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755005526578_05",
+      "current_version_epoch_ms": 1755005526578,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "strabismeped"
+      },
+      "data": {
+        "statement": "Identifier les situations pouvant mener à une amblyopie mixte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cataracte associée à un strabisme",
+            "justification": "Cette association combine une cause organique (cataracte) et une cause fonctionnelle (strabisme)."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie rétinienne avec anisométropie",
+            "justification": "La maladie rétinienne est une cause organique, et l'anisométropie une cause fonctionnelle, formant une amblyopie mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Cataracte isolée",
+            "justification": "Une cataracte seule est une cause organique, pas mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Anisométropie isolée",
+            "justification": "Une anisométropie seule est une cause fonctionnelle, pas mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Strabisme isolé",
+            "justification": "Un strabisme seul est une cause fonctionnelle, pas mixte."
+          }
+        ]
+      }
+    }
+  ]
+}

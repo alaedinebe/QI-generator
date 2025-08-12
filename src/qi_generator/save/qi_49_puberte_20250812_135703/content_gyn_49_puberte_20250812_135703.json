@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "puberte",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755000019737_01",
+      "current_version_epoch_ms": 1755000019737,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Identifier l'examen d'imagerie recommandé devant une suspicion de puberté pathologique périphérique chez une fille.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie pelvienne",
+            "justification": "L'échographie pelvienne permet d'explorer les organes pelviens et de rechercher une cause ovarienne ou surrénalienne à la puberté pathologique périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale est indiquée dans la puberté précoce centrale, non pour une puberté pathologique périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie du poignet",
+            "justification": "La radiographie du poignet évalue l'âge osseux mais ne permet pas de rechercher une cause pelvienne à une puberté périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal n'est pas l'examen de première intention pour explorer une puberté pathologique périphérique chez la fille."
+          },
+          {
+            "correct": false,
+            "proposition": "Mammographie",
+            "justification": "La mammographie n'a pas d'indication dans l'évaluation initiale d'une puberté pathologique périphérique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755000019737_02",
+      "current_version_epoch_ms": 1755000019737,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Devant une puberté précoce centrale, quel examen d'imagerie est indiqué pour rechercher une cause organique hypothalamo-hypophysaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale permet d'explorer la région hypothalamo-hypophysaire et de rechercher une tumeur responsable de la puberté précoce centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie pelvienne",
+            "justification": "L'échographie pelvienne est indiquée pour la puberté pathologique périphérique, non pour la puberté précoce centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral",
+            "justification": "Le scanner cérébral est moins performant que l'IRM pour explorer la région hypothalamo-hypophysaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie du crâne",
+            "justification": "La radiographie du crâne n'apporte pas d'informations pertinentes pour explorer une puberté précoce centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM médullaire",
+            "justification": "L'IRM médullaire n'explore pas la région hypothalamo-hypophysaire et n'est pas indiquée ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755000019737_03",
+      "current_version_epoch_ms": 1755000019737,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Classer les examens d'imagerie suivants selon leur indication principale : puberté pathologique périphérique ou puberté précoce centrale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie pelvienne : puberté pathologique périphérique",
+            "justification": "L'échographie pelvienne est adaptée pour rechercher une cause pelvienne d'une puberté pathologique périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale : puberté précoce centrale",
+            "justification": "L'IRM cérébrale explore la région hypothalamo-hypophysaire dans la puberté précoce centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie pelvienne : puberté précoce centrale",
+            "justification": "L'échographie pelvienne n'est pas l'examen recommandé pour une puberté précoce centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale : puberté pathologique périphérique",
+            "justification": "L'IRM cérébrale n'est pas indiquée pour une puberté pathologique périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal : puberté précoce centrale",
+            "justification": "Le scanner abdominal ne permet pas d'explorer la région hypothalamo-hypophysaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755000019737_04",
+      "current_version_epoch_ms": 1755000019737,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Reconnaître l'objectif principal de l'IRM cérébrale dans le cadre d'une puberté précoce centrale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une tumeur touchant la région hypothalamo-hypophysaire",
+            "justification": "L'IRM cérébrale vise à identifier une cause organique, notamment tumorale, dans la région hypothalamo-hypophysaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer l'âge osseux",
+            "justification": "L'âge osseux est évalué par radiographie du poignet, non par IRM cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser la structure des ovaires",
+            "justification": "L'analyse des ovaires se fait par échographie pelvienne, non par IRM cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter des anomalies cardiaques",
+            "justification": "L'IRM cérébrale n'a pas d'indication dans la recherche d'anomalies cardiaques."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer la thyroïde",
+            "justification": "L'exploration de la thyroïde ne fait pas partie des objectifs de l'IRM cérébrale dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755000019737_05",
+      "current_version_epoch_ms": 1755000019737,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, lesquelles justifient la réalisation d'une échographie pelvienne chez la fille ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Puberté pathologique périphérique",
+            "justification": "Une échographie pelvienne permet de rechercher une cause ovarienne ou pelvienne à une puberté pathologique périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Puberté précoce centrale",
+            "justification": "Dans la puberté précoce centrale, l'examen recommandé est l'IRM cérébrale, non l'échographie pelvienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion de tumeur hypothalamo-hypophysaire",
+            "justification": "La recherche d'une tumeur hypothalamo-hypophysaire se fait par IRM cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Exploration d'un retard pubertaire",
+            "justification": "Le retard pubertaire n'indique pas systématiquement une échographie pelvienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse du volume cérébral",
+            "justification": "L'analyse du volume cérébral ne relève pas de l'échographie pelvienne."
+          }
+        ]
+      }
+    }
+  ]
+}

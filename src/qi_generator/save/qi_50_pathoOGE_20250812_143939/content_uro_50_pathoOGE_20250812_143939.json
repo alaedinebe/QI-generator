@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathoOGE",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755002576467_01",
+      "current_version_epoch_ms": 1755002576467,
+      "topic": {
+        "subject": "uro",
+        "item": "pathoOGE"
+      },
+      "data": {
+        "statement": "Quels examens complémentaires sont recommandés pour identifier l'agent infectieux lors d'une orchi-épididymite chez l'homme jeune ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECBU avec antibiogramme",
+            "justification": "L'ECBU avec antibiogramme est indiqué pour rechercher une infection urinaire et déterminer la sensibilité aux antibiotiques, même s'il peut être stérile."
+          },
+          {
+            "correct": true,
+            "proposition": "PCR Chlamydia trachomatis et gonocoque sur le 1er jet urinaire",
+            "justification": "Chez l'homme jeune, la recherche par PCR de C. trachomatis et de N. gonorrhoeae sur le premier jet urinaire est recommandée pour identifier une IST."
+          },
+          {
+            "correct": true,
+            "proposition": "Prélèvement d'un éventuel écoulement urétral",
+            "justification": "Un prélèvement d'un écoulement urétral permet la recherche directe de C. trachomatis et de N. gonorrhoeae."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique de la testostérone",
+            "justification": "Le dosage de la testostérone n'est pas utile dans le diagnostic étiologique d'une orchi-épididymite."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM pelvienne",
+            "justification": "L'IRM pelvienne n'est pas un examen recommandé dans le bilan étiologique initial d'une orchi-épididymite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755002576467_02",
+      "current_version_epoch_ms": 1755002576467,
+      "topic": {
+        "subject": "uro",
+        "item": "pathoOGE"
+      },
+      "data": {
+        "statement": "Dans quel contexte réalise-t-on des hémocultures lors d'une orchi-épididymite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion d'infection à bacilles Gram négatif",
+            "justification": "Les hémocultures peuvent être réalisées dans les infections à bacilles Gram négatif, bien qu'elles soient rarement positives."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez un patient présentant des signes de sepsis",
+            "justification": "La réalisation d'hémocultures est justifiée si le tableau clinique évoque un sepsis pour orienter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez tous les patients avec orchi-épididymite",
+            "justification": "Les hémocultures ne sont pas systématiquement indiquées car elles sont rarement positives."
+          },
+          {
+            "correct": false,
+            "proposition": "En première intention avant tout autre examen",
+            "justification": "Les hémocultures ne sont pas un examen de première intention, le diagnostic étant avant tout clinique et bactériologique local."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement chez l'homme jeune",
+            "justification": "Les hémocultures ne sont pas indiquées en fonction de l'âge mais selon le contexte clinique et la suspicion d'infection systémique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755002576467_03",
+      "current_version_epoch_ms": 1755002576467,
+      "topic": {
+        "subject": "uro",
+        "item": "pathoOGE"
+      },
+      "data": {
+        "statement": "Quel examen d'imagerie peut être utile en cas de doute diagnostique avec une torsion du cordon spermatique ancienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie scrotale",
+            "justification": "L'échographie scrotale peut être utilisée en cas de doute avec une torsion du cordon spermatique datant de plus de 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdomino-pelvien",
+            "justification": "Le scanner abdomino-pelvien n'est pas indiqué dans le diagnostic différentiel entre orchi-épididymite et torsion du cordon spermatique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM scrotale",
+            "justification": "L'IRM scrotale n'est pas l'examen recommandé en première intention dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pelvienne",
+            "justification": "La radiographie pelvienne n'a pas d'intérêt pour différencier une torsion du cordon spermatique d'une orchi-épididymite."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie du scrotum",
+            "justification": "La tomodensitométrie n'est pas utilisée dans ce diagnostic différentiel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755002576467_04",
+      "current_version_epoch_ms": 1755002576467,
+      "topic": {
+        "subject": "uro",
+        "item": "pathoOGE"
+      },
+      "data": {
+        "statement": "Quel examen bactériologique peut être stérile dans l'orchi-épididymite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECBU avec antibiogramme",
+            "justification": "L'ECBU peut être stérile, notamment lorsque l'origine est une infection sexuellement transmissible."
+          },
+          {
+            "correct": false,
+            "proposition": "PCR Chlamydia trachomatis",
+            "justification": "La PCR Chlamydia trachomatis est spécifique et sensible pour détecter l'agent, elle n'est pas stérile si l'agent est présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement urétral pour gonocoque",
+            "justification": "Un prélèvement urétral peut être négatif mais le terme 'stérile' est surtout utilisé pour l'ECBU."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures peuvent être négatives mais le terme 'stérile' se rapporte classiquement aux examens d'urines."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie syphilitique",
+            "justification": "La sérologie syphilitique ne fait pas partie des examens recommandés pour l'orchi-épididymite et n'est pas concernée par le risque de stérilité de l'examen."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755002576467_05",
+      "current_version_epoch_ms": 1755002576467,
+      "topic": {
+        "subject": "uro",
+        "item": "pathoOGE"
+      },
+      "data": {
+        "statement": "Quelles sont les complications possibles de l'orchi-épididymite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Abcès et fonte purulente du testicule",
+            "justification": "L'évolution peut se compliquer par la formation d'un abcès et la destruction purulente du testicule."
+          },
+          {
+            "correct": true,
+            "proposition": "Fasciite nécrosante",
+            "justification": "Une fasciite nécrosante est une complication grave et rare de l'orchi-épididymite."
+          },
+          {
+            "correct": true,
+            "proposition": "Atrophie testiculaire",
+            "justification": "L'atrophie testiculaire est une complication évolutive possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécrose avasculaire de l'épididyme",
+            "justification": "La nécrose avasculaire de l'épididyme n'est pas décrite comme une complication typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cancer testiculaire",
+            "justification": "Le cancer testiculaire n'est pas une complication directe de l'orchi-épididymite."
+          }
+        ]
+      }
+    }
+  ]
+}

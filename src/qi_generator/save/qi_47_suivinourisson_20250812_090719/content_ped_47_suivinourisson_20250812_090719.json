@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suivinourisson",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754982636319_01",
+      "current_version_epoch_ms": 1754982636319,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Chez un enfant présentant des antécédents familiaux de pathologies oculaires, quelle est la conduite à tenir concernant le dépistage ophtalmologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un examen ophtalmologique entre 3 et 12 mois même sans signe d'appel",
+            "justification": "Les antécédents personnels ou familiaux de pathologies oculaires constituent un facteur de risque justifiant un examen précoce, même en l'absence de signe clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter le dépistage à l'âge scolaire si aucun signe d'appel n'apparaît",
+            "justification": "Un dépistage tardif pourrait retarder la prise en charge d'une pathologie évolutive, ce qui est contraire aux recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas adresser à l'ophtalmologiste si l'acuité visuelle semble normale",
+            "justification": "L'absence de signe clinique ne permet pas d'exclure une pathologie chez un enfant à risque, un examen précoce reste nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un test de dépistage uniquement à 2 ans",
+            "justification": "Le dépistage ophtalmologique recommandé chez un enfant à risque doit être réalisé bien avant l'âge de 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Adresser uniquement si un strabisme est observé",
+            "justification": "Le strabisme n'est qu'un des signes d'appel, les antécédents familiaux sont à eux seuls une indication d'examen."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754982636319_02",
+      "current_version_epoch_ms": 1754982636319,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, lesquelles justifient une consultation ophtalmologique en urgence chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Leucocorie",
+            "justification": "La leucocorie est un signe d'appel grave pouvant évoquer une pathologie oculaire sévère nécessitant une prise en charge urgente."
+          },
+          {
+            "correct": true,
+            "proposition": "Cornée trouble",
+            "justification": "Une cornée trouble peut indiquer un glaucome ou une autre pathologie oculaire grave et impose une consultation rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Strabisme d'apparition brutale",
+            "justification": "Un strabisme d'apparition récente est un signe d'alerte nécessitant une évaluation ophtalmologique rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Nystagmus d'apparition récente",
+            "justification": "Le nystagmus nouvellement apparu doit être exploré rapidement pour identifier une cause potentiellement grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Impossibilité de mesurer l'acuité visuelle à l'âge verbal",
+            "justification": "Ceci est une indication d'adressage mais pas une urgence vitale, la consultation peut être programmée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754982636319_03",
+      "current_version_epoch_ms": 1754982636319,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Lors d'un dépistage ophtalmologique, quels sont les motifs d'adressage à un ophtalmologiste en dehors d'une urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalie ou doute à l'inspection",
+            "justification": "Toute anomalie détectée à l'examen visuel de l'œil est une indication de consultation spécialisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Anomalie ou doute à un test de dépistage",
+            "justification": "Un résultat douteux ou pathologique lors d'un test de dépistage impose une évaluation par un ophtalmologiste."
+          },
+          {
+            "correct": true,
+            "proposition": "Impossibilité de mesurer l'acuité visuelle à l'âge verbal",
+            "justification": "L'incapacité à mesurer l'acuité à un âge où cela devrait être possible justifie un adressage spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'antécédents familiaux",
+            "justification": "L'absence d'antécédents n'exclut pas d'autres indications d'adressage, mais en soi ne constitue pas un motif."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une myopie légère sans évolution",
+            "justification": "Une myopie stable ne constitue pas à elle seule un motif d'adressage en dehors du suivi habituel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754982636319_04",
+      "current_version_epoch_ms": 1754982636319,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Quel est le délai recommandé pour réaliser un examen ophtalmologique chez un nourrisson avec facteurs de risque familiaux, même en l'absence de signe d'appel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Entre 3 et 12 mois",
+            "justification": "Les recommandations prévoient un examen ophtalmologique précoce entre 3 et 12 mois en cas de facteurs de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "À la naissance",
+            "justification": "Un examen ophtalmologique systématique à la naissance n'est pas indiqué en dehors d'une suspicion clinique immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 2 ans",
+            "justification": "Attendre après 2 ans pourrait retarder le diagnostic et la prise en charge d'une pathologie évolutive."
+          },
+          {
+            "correct": false,
+            "proposition": "À l'âge scolaire",
+            "justification": "Le dépistage ophtalmologique recommandé pour un enfant à risque doit être réalisé bien avant l'entrée à l'école."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas d'anomalie à l'inspection",
+            "justification": "Chez un enfant à risque, l'examen est recommandé même sans anomalie détectée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754982636319_05",
+      "current_version_epoch_ms": 1754982636319,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Concernant les signes d'appel justifiant une consultation ophtalmologique chez l'enfant, quelles affirmations sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un strabisme d'apparition brutale est un signe d'appel urgent",
+            "justification": "Un strabisme d'apparition récente est un signe de pathologie nécessitant une consultation rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Un nystagmus d'apparition récente justifie un adressage urgent",
+            "justification": "L'apparition d'un nystagmus est un signe potentiellement grave devant être exploré rapidement."
+          },
+          {
+            "correct": false,
+            "proposition": "Une acuité visuelle légèrement réduite chez un enfant d'âge verbal peut être surveillée sans consultation",
+            "justification": "Une baisse d'acuité doit être évaluée, même modérée, surtout si elle persiste."
+          },
+          {
+            "correct": false,
+            "proposition": "Un antécédent familial sans signe d'appel n'impose pas d'examen ophtalmologique",
+            "justification": "Les antécédents familiaux constituent un facteur de risque justifiant un examen précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cornée trouble nécessite un suivi simple",
+            "justification": "Une cornée trouble est un signe d'urgence nécessitant une consultation immédiate."
+          }
+        ]
+      }
+    }
+  ]
+}

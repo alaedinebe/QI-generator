@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "puberte",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754996086267_01",
+      "current_version_epoch_ms": 1754996086267,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Lors de l'interprétation d'une courbe de croissance, quelle est la méthode correcte pour calculer la vitesse de croissance annuelle chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Soustraire la taille mesurée l'année précédente de la taille actuelle, puis exprimer le résultat en cm/an",
+            "justification": "La vitesse de croissance annuelle correspond à la différence entre deux mesures de taille espacées d'un an, exprimée en cm/an."
+          },
+          {
+            "correct": false,
+            "proposition": "Diviser la taille actuelle par la taille initiale et multiplier par 100",
+            "justification": "Cette méthode donne un pourcentage d'augmentation et non une vitesse en cm/an."
+          },
+          {
+            "correct": false,
+            "proposition": "Multiplier la taille actuelle par l'âge en années",
+            "justification": "Cela ne mesure pas la variation de taille mais produit une valeur sans signification clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Additionner les tailles des deux dernières années",
+            "justification": "Additionner les tailles ne permet pas de calculer une vitesse de croissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser uniquement la variation du poids pour estimer la vitesse de croissance",
+            "justification": "Le poids ne reflète pas directement la vitesse de croissance en taille."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754996086267_02",
+      "current_version_epoch_ms": 1754996086267,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Lors de l'interprétation d'une courbe de croissance, quelle est la formule correcte pour calculer l'IMC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Poids (kg) / [taille (m)]²",
+            "justification": "L'IMC se calcule en divisant le poids en kilogrammes par la taille en mètres au carré."
+          },
+          {
+            "correct": false,
+            "proposition": "Poids (kg) / taille (cm)",
+            "justification": "Diviser par la taille en centimètres ne permet pas d'obtenir l'IMC, car l'unité n'est pas correcte."
+          },
+          {
+            "correct": false,
+            "proposition": "Taille (m) / poids (kg)",
+            "justification": "Cette opération inverse la formule de l'IMC et ne reflète pas un indice de corpulence."
+          },
+          {
+            "correct": false,
+            "proposition": "Poids (g) / [taille (m)]²",
+            "justification": "Utiliser le poids en grammes fausse le résultat en changeant l'unité."
+          },
+          {
+            "correct": false,
+            "proposition": "Poids (kg) × taille (m)",
+            "justification": "Multiplier le poids par la taille ne fournit pas un indice de corpulence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754996086267_03",
+      "current_version_epoch_ms": 1754996086267,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Lors de la lecture d'une courbe de croissance, quel est l'intérêt de calculer la vitesse de croissance annuelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier précocement un ralentissement de croissance",
+            "justification": "La vitesse de croissance permet de repérer rapidement une diminution anormale du rythme de croissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivre l'efficacité d'une prise en charge médicale",
+            "justification": "Un suivi régulier de la vitesse de croissance permet d'évaluer l'impact d'un traitement ou d'une intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer la mesure de l'IMC",
+            "justification": "La vitesse de croissance ne se substitue pas à l'IMC, qui évalue la corpulence."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer la taille adulte définitive",
+            "justification": "La vitesse de croissance ne permet pas de prédire avec certitude la taille adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer directement la masse musculaire",
+            "justification": "La vitesse de croissance ne fournit aucune information sur la masse musculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754996086267_04",
+      "current_version_epoch_ms": 1754996086267,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Lorsqu'on mesure l'IMC chez un enfant, quelle est la bonne interprétation de sa valeur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Comparer la valeur à des courbes de référence adaptées à l'âge et au sexe",
+            "justification": "Chez l'enfant, l'IMC doit être interprété par rapport aux courbes spécifiques en fonction de l'âge et du sexe."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser les seuils adultes pour classer l'enfant",
+            "justification": "Les seuils adultes ne sont pas adaptés aux variations physiologiques de l'enfance."
+          },
+          {
+            "correct": false,
+            "proposition": "Se baser uniquement sur la valeur brute de l'IMC",
+            "justification": "La valeur brute ne permet pas d'interprétation correcte sans référence aux courbes."
+          },
+          {
+            "correct": false,
+            "proposition": "Comparer uniquement avec les données de l'année précédente",
+            "justification": "Il faut se référer aux courbes standardisées et non seulement à l'évolution personnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas tenir compte de l'âge dans l'interprétation",
+            "justification": "L'âge influence fortement l'interprétation de l'IMC chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754996086267_05",
+      "current_version_epoch_ms": 1754996086267,
+      "topic": {
+        "subject": "gyn",
+        "item": "puberte"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de l'interprétation conjointe de la courbe de croissance et de l'IMC chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détecter précocement des anomalies de croissance ou de corpulence",
+            "justification": "Associer ces deux paramètres permet de repérer tôt des problèmes de croissance ou de poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Prédire la date de la puberté",
+            "justification": "Ces mesures ne permettent pas de déterminer la date précise de la puberté."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivre l'évolution pondérale et staturale dans le temps",
+            "justification": "Le suivi longitudinal permet d'évaluer l'évolution globale de l'état nutritionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer le poids idéal adulte",
+            "justification": "Ces données ne permettent pas de prédire un poids adulte précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la masse osseuse",
+            "justification": "La courbe de croissance et l'IMC ne fournissent pas d'information sur la densité minérale osseuse."
+          }
+        ]
+      }
+    }
+  ]
+}

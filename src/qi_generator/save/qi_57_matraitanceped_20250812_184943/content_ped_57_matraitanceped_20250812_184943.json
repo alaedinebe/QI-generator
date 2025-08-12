@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "matraitanceped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755017579942_01",
+      "current_version_epoch_ms": 1755017579942,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques radiographiques évocatrices d'un traumatisme non accidentel chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de lésions osseuses multiples",
+            "justification": "Les traumatismes non accidentels se manifestent fréquemment par plusieurs lésions osseuses visibles sur l'imagerie."
+          },
+          {
+            "correct": true,
+            "proposition": "Fractures d'âges différents",
+            "justification": "Des fractures survenues à des moments distincts sont évocatrices de traumatismes répétés, donc suspectes de maltraitance."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture isolée de l'avant-bras chez un enfant de plus de 10 ans",
+            "justification": "Une fracture isolée dans un contexte compatible avec le mécanisme rapporté n'est pas typiquement évocatrice d'un traumatisme non accidentel."
+          },
+          {
+            "correct": true,
+            "proposition": "Discordance entre le mécanisme rapporté et les lésions radiologiques",
+            "justification": "Une incohérence entre l'histoire donnée et les images radiologiques doit alerter sur la possibilité d'un traumatisme non accidentel."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture diaphysaire simple unique après chute connue",
+            "justification": "Une fracture unique cohérente avec le mécanisme déclaré ne suggère pas d'emblée un traumatisme non accidentel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755017579942_02",
+      "current_version_epoch_ms": 1755017579942,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Classer les types de mécanismes lésionnels retrouvés dans les traumatismes non accidentels à la radiographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Choc direct",
+            "justification": "Les chocs directs peuvent provoquer des fractures spécifiques visibles sur la radiographie dans le contexte de maltraitance."
+          },
+          {
+            "correct": true,
+            "proposition": "Traction ou torsion",
+            "justification": "Les mécanismes de traction ou torsion peuvent induire des lésions typiques, comme les arrachements métaphysaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Compression lente et progressive",
+            "justification": "La compression lente n'est pas un mécanisme habituellement décrit dans les lésions radiographiques de maltraitance."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrachements métaphysaires",
+            "justification": "Ces lésions sont liées à des forces de traction ou torsion et sont évocatrices de traumatismes non accidentels."
+          },
+          {
+            "correct": true,
+            "proposition": "Décollements périostés",
+            "justification": "Ils peuvent être provoqués par des forces anormales sur l'os, comme dans la maltraitance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755017579942_03",
+      "current_version_epoch_ms": 1755017579942,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Reconnaître les signes radiographiques devant alerter sur un possible traumatisme non accidentel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Multiplicité des fractures",
+            "justification": "Plusieurs fractures simultanées sont inhabituelles chez l'enfant et doivent faire évoquer un traumatisme non accidentel."
+          },
+          {
+            "correct": true,
+            "proposition": "Différence d'âge des fractures",
+            "justification": "Des fractures datant de périodes différentes sont très évocatrices de violences répétées."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture en motte de beurre isolée chez un nourrisson qui commence à marcher",
+            "justification": "Ce type de fracture peut être compatible avec une chute accidentelle dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Discordance entre récit et constat radiologique",
+            "justification": "Une histoire incompatible avec les images doit inciter à rechercher un traumatisme non accidentel."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture pathologique sur os tumoral",
+            "justification": "Cette fracture est due à une fragilisation pathologique et non à un traumatisme volontaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755017579942_04",
+      "current_version_epoch_ms": 1755017579942,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Différencier les aspects radiographiques selon le mécanisme de traumatisme non accidentel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Choc direct : fracture transversale",
+            "justification": "Les chocs directs provoquent souvent des fractures nettes et localisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Traction : arrachement métaphysaire",
+            "justification": "Les tractions anormales entraînent des lésions au niveau des zones de croissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Torsion : décollement périosté",
+            "justification": "Une torsion importante peut provoquer une lésion du périoste visible à la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Compression : tassement vertébral",
+            "justification": "Le tassement vertébral n'est pas décrit comme une lésion typique du traumatisme non accidentel dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperextension : entorse ligamentaire sans fracture",
+            "justification": "Une entorse isolée n'est pas un signe radiographique d'un traumatisme non accidentel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755017579942_05",
+      "current_version_epoch_ms": 1755017579942,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Identifier les éléments contextuels et radiographiques devant faire suspecter un traumatisme non accidentel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fractures multiples",
+            "justification": "La présence de plusieurs fractures dans des localisations différentes doit alerter."
+          },
+          {
+            "correct": true,
+            "proposition": "Âges différents des lésions",
+            "justification": "Des fractures survenues à des moments différents sont très évocatrices de violence répétée."
+          },
+          {
+            "correct": true,
+            "proposition": "Discordance mécanisme-lésions",
+            "justification": "Un récit incohérent par rapport aux images est un signe d'alerte important."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture unique après un accident de sport documenté",
+            "justification": "Une fracture isolée avec mécanisme compatible ne suggère pas de maltraitance."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrachements métaphysaires",
+            "justification": "Ils sont caractéristiques d'un mécanisme de traction ou torsion, suspect en cas de maltraitance."
+          }
+        ]
+      }
+    }
+  ]
+}

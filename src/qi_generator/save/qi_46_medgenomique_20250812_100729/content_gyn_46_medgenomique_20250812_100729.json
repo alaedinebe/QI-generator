@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "medgenomique",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754986246526_01",
+      "current_version_epoch_ms": 1754986246526,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Concernant les avantages du séquençage haut débit, quelles affirmations sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet l'analyse simultanée de nombreux gènes voire du génome entier",
+            "justification": "Le séquençage haut débit autorise l'analyse en un même temps d'un grand nombre de gènes, y compris dans une approche pangénomique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il augmente le rendement diagnostique",
+            "justification": "L'analyse de multiples gènes en parallèle accroît la probabilité d'identifier un variant pertinent, ce qui augmente le rendement diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est systématiquement remboursé par la sécurité sociale",
+            "justification": "L'analyse n'est pas remboursée par la sécurité sociale, ce qui constitue un inconvénient du séquençage haut débit."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne nécessite pas de compétences spécifiques en bio-informatique",
+            "justification": "Une équipe de bio-informatique est nécessaire pour traiter les données issues du séquençage haut débit."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne génère jamais de données additionnelles",
+            "justification": "Le séquençage haut débit peut identifier des données génétiques additionnelles non liées à la question clinique initiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986246526_02",
+      "current_version_epoch_ms": 1754986246526,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quels sont les principaux types de variants génétiques identifiables lors d'une analyse pangénomique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SNV et Delins",
+            "justification": "Les variants nucléotidiques comprennent les SNV (Single Nucleotide Variant) et les Delins (délétions ou insertions de 1 à 49 nucléotides)."
+          },
+          {
+            "correct": true,
+            "proposition": "CNV",
+            "justification": "Les variants de structure déséquilibrés d'une taille ≥ 50 nucléotides correspondent à des CNV (Copy Number Variant) incluant délétions et duplications."
+          },
+          {
+            "correct": true,
+            "proposition": "BSV",
+            "justification": "Les variants de structure équilibrés incluent inversions, insertions et translocations, regroupés sous le terme BSV (Balanced Structural Variant)."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutations mitochondriales",
+            "justification": "Les mutations mitochondriales ne sont pas listées dans les trois grands types de variants identifiés dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Modifications épigénétiques",
+            "justification": "Les modifications épigénétiques ne sont pas considérées comme des variants génétiques identifiés par l'analyse pangénomique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986246526_03",
+      "current_version_epoch_ms": 1754986246526,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Comment sont classés les variants génétiques par le biologiste médical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Classe 1 : variant bénin",
+            "justification": "La classe 1 correspond à un variant bénin, sans conséquence pathogène."
+          },
+          {
+            "correct": true,
+            "proposition": "Classe 3 : variant de signification incertaine",
+            "justification": "La classe 3 désigne un variant dont la signification clinique n'est pas encore déterminée."
+          },
+          {
+            "correct": true,
+            "proposition": "Classe 5 : variant pathogène",
+            "justification": "La classe 5 correspond à un variant pathogène, impliqué dans la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Classe 0 : variant indéterminé",
+            "justification": "Aucune classe 0 n'existe dans cette classification."
+          },
+          {
+            "correct": false,
+            "proposition": "Classe 6 : variant hautement pathogène",
+            "justification": "La classification des variants ne comporte pas de classe 6."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986246526_04",
+      "current_version_epoch_ms": 1754986246526,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quelles affirmations sont correctes concernant la gestion des résultats d'un séquençage pangénomique par le prescripteur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de variant de classe 4 ou 5, un diagnostic peut être annoncé au patient",
+            "justification": "Les variants de classe 4 et 5 sont considérés comme probablement pathogènes ou pathogènes, justifiant l'annonce d'un diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prescripteur doit informer le patient des données additionnelles identifiées",
+            "justification": "Si une donnée additionnelle est identifiée, le prescripteur doit en informer le patient conformément aux obligations légales."
+          },
+          {
+            "correct": false,
+            "proposition": "Les résultats peuvent être communiqués à la famille sans l'accord du patient",
+            "justification": "Le partage des résultats avec la famille nécessite l'accord préalable du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les variants de classe 3 sont rendus au patient",
+            "justification": "Les biologistes rendent les variants de classe 4 et 5, et discutent les classes 3 d'intérêt en réunion spécialisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Un résultat non conclusif marque la fin de l'analyse",
+            "justification": "Un résultat non conclusif ne marque pas nécessairement la fin de l'analyse et peut conduire à des investigations complémentaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986246526_05",
+      "current_version_epoch_ms": 1754986246526,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quelles affirmations concernant les limites du séquençage haut débit sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il nécessite une équipe de bio-informatique pour traiter les données",
+            "justification": "L'interprétation des données issues du séquençage haut débit requiert des compétences spécialisées en bio-informatique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut identifier des variants dont l'impact clinique est inconnu",
+            "justification": "Un inconvénient majeur est l'identification de variants de signification incertaine dans l'état actuel des connaissances."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne détecte pas de nouvelles maladies génétiques",
+            "justification": "Le séquençage haut débit contribue à l'identification de 4 à 5 nouvelles maladies génétiques par semaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est toujours remboursé par la sécurité sociale",
+            "justification": "Le séquençage haut débit n'est pas remboursé par la sécurité sociale."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne nécessite pas de formation spécifique des biologistes",
+            "justification": "Une formation spécialisée est indispensable pour maîtriser l'interprétation des analyses pangénomiques."
+          }
+        ]
+      }
+    }
+  ]
+}

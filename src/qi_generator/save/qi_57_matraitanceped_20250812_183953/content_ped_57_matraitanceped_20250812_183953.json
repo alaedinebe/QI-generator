@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "matraitanceped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755016989922_01",
+      "current_version_epoch_ms": 1755016989922,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Chez un enfant de moins de 2 ans avec suspicion de maltraitance, quels examens radiologiques sont recommandés en première intention ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TDM cérébral en urgence",
+            "justification": "Le TDM cérébral est facilement accessible en urgence et permet un diagnostic rapide, bien qu'il ne remplace pas l'IRM."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale est indiquée en complément du TDM pour une analyse plus fine des lésions."
+          },
+          {
+            "correct": true,
+            "proposition": "Radiographie du squelette complet",
+            "justification": "La radiographie du squelette complet est systématiquement réalisée pour rechercher des fractures."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal systématique",
+            "justification": "Le scanner abdominal n'est pas mentionné comme examen systématique en première intention dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie transfontanellaire",
+            "justification": "L'échographie transfontanellaire n'est pas citée comme examen systématique dans le bilan initial de suspicion de maltraitance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755016989922_02",
+      "current_version_epoch_ms": 1755016989922,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une suspicion de maltraitance chez un nourrisson, quelle est la place de l'échographie abdominale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiquée si suspicion d'impact abdominal à l'examen clinique",
+            "justification": "L'échographie abdominale est indiquée si l'examen clinique suggère un impact abdominal."
+          },
+          {
+            "correct": true,
+            "proposition": "Indiquée si anomalies biologiques des transaminases",
+            "justification": "Une élévation des transaminases oriente vers une atteinte abdominale, justifiant une échographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Indiquée si élévation de la lipase",
+            "justification": "Une élévation de la lipase suggère une atteinte pancréatique, justifiant l'échographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique pour tout enfant de moins de 2 ans suspect de maltraitance",
+            "justification": "Elle n'est pas systématique mais dépend des signes cliniques ou biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplace le TDM cérébral",
+            "justification": "L'échographie abdominale ne remplace pas le TDM cérébral qui est destiné à l'évaluation neurologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755016989922_03",
+      "current_version_epoch_ms": 1755016989922,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir concernant la radiographie du squelette complet dans la suspicion de maltraitance chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation systématique du squelette complet",
+            "justification": "Elle permet de rechercher des fractures passées ou récentes."
+          },
+          {
+            "correct": true,
+            "proposition": "Contrôle possible 15 jours plus tard si doute",
+            "justification": "Un contrôle après 15 jours permet de visualiser une éventuelle ossification de fractures occultes."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de signes cliniques osseux",
+            "justification": "Elle est indiquée même en absence de signes cliniques osseux."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation uniquement des membres supérieurs et inférieurs",
+            "justification": "Le bilan radiographique doit couvrir le squelette complet et non uniquement certaines zones."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacée par une IRM osseuse",
+            "justification": "L'IRM osseuse n'est pas indiquée en première intention pour ce bilan."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755016989922_04",
+      "current_version_epoch_ms": 1755016989922,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Quels examens non radiologiques sont indiqués devant une suspicion de maltraitance chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen ophtalmologique dans les 24 heures",
+            "justification": "Il recherche des hémorragies rétiniennes et doit être fait rapidement, idéalement sous 24 h."
+          },
+          {
+            "correct": true,
+            "proposition": "NFS",
+            "justification": "Elle permet de dépister des anomalies hématologiques pouvant expliquer ou accompagner les lésions."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan de coagulation complet",
+            "justification": "Il est réalisé pour rechercher un trouble de l'hémostase pouvant expliquer les ecchymoses ou hémorragies."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG n'est pas indiqué spécifiquement dans le cadre du bilan initial de maltraitance."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire systématique",
+            "justification": "La ponction lombaire n'est pas mentionnée comme examen systématique dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755016989922_05",
+      "current_version_epoch_ms": 1755016989922,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Concernant l'IRM cérébrale dans la suspicion de maltraitance chez un enfant de moins de 2 ans, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle complète le TDM cérébral",
+            "justification": "L'IRM cérébrale est réalisée en complément du TDM pour une meilleure caractérisation des lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle remplace le TDM cérébral en urgence",
+            "justification": "Le TDM reste privilégié en urgence car plus accessible rapidement."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet une analyse plus fine des lésions cérébrales",
+            "justification": "L'IRM offre une meilleure résolution pour certaines lésions parenchymateuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être systématiquement réalisée avant tout TDM",
+            "justification": "En urgence, le TDM est souvent réalisé en premier pour un diagnostic rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inutile si le TDM est normal",
+            "justification": "Même avec un TDM normal, l'IRM peut détecter des lésions non visibles en TDM."
+          }
+        ]
+      }
+    }
+  ]
+}

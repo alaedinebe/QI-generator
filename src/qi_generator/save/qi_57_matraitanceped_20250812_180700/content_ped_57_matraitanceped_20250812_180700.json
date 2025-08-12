@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "matraitanceped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755015017161_01",
+      "current_version_epoch_ms": 1755015017161,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Identifier les situations pour lesquelles un signalement judiciaire est indiqué chez un mineur.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Situation d'une particulière gravité",
+            "justification": "Un signalement judiciaire est adapté en cas de situation d'une particulière gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Urgence de protection ou de mise en œuvre d'une enquête pénale",
+            "justification": "Le signalement judiciaire est indiqué en cas d'urgence nécessitant une protection rapide ou l'ouverture d'une enquête pénale."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de collaboration possible des parents avec les services de protection de l'enfance",
+            "justification": "L'absence de collaboration parentale justifie un signalement judiciaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion de maltraitance sans risque immédiat",
+            "justification": "Une suspicion sans danger immédiat relève d'une information préoccupante, pas d'un signalement judiciaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Demande des parents d'ouvrir une enquête",
+            "justification": "Le signalement judiciaire ne repose pas sur la demande parentale mais sur l'évaluation d'une situation de danger grave ou urgente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755015017161_02",
+      "current_version_epoch_ms": 1755015017161,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Différencier les caractéristiques d'une information préoccupante par rapport à un signalement judiciaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est adressée à la cellule départementale de recueil et de traitement des informations préoccupantes",
+            "justification": "L'information préoccupante est transmise à la CRIP du conseil départemental compétent."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle concerne une situation de danger ou à risque de danger",
+            "justification": "L'information préoccupante s'applique à un danger avéré ou à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle entraîne automatiquement l'ouverture de poursuites pénales",
+            "justification": "L'information préoccupante ne déclenche pas automatiquement de poursuites pénales."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est réservée aux situations d'extrême gravité",
+            "justification": "Les situations d'extrême gravité relèvent du signalement judiciaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit être circonstanciée et factuelle",
+            "justification": "Une information préoccupante doit rapporter les faits de manière circonstanciée et factuelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755015017161_03",
+      "current_version_epoch_ms": 1755015017161,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments obligatoires dans la rédaction d'un signalement ou d'une information préoccupante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identité et coordonnées du mineur et du rédacteur",
+            "justification": "Ces éléments d'identification sont obligatoires dans tout écrit de ce type."
+          },
+          {
+            "correct": true,
+            "proposition": "Propos rapportés entre guillemets ou au conditionnel",
+            "justification": "Les propos doivent être restitués fidèlement, entre guillemets ou au conditionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Constats médicaux précis, datés et rapportés au présent",
+            "justification": "Les données cliniques et paracliniques doivent être précises, datées et rédigées au présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Mentionner l'identité de l'agresseur présumé",
+            "justification": "Aucun tiers ne doit être désigné dans ces écrits."
+          },
+          {
+            "correct": false,
+            "proposition": "Inclure une analyse personnelle des causes",
+            "justification": "Aucune imputabilité ne doit apparaître dans ces documents."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755015017161_04",
+      "current_version_epoch_ms": 1755015017161,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant la transmission des informations préoccupantes et signalements judiciaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles ne sont pas transmissibles aux parents",
+            "justification": "Ces documents ne sont pas communiqués aux parents."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles constituent des pièces formalisées du dossier médical",
+            "justification": "Ces écrits ne font pas partie des pièces formalisées du dossier médical."
+          },
+          {
+            "correct": true,
+            "proposition": "Les parents sont informés sauf si cela est contraire à l'intérêt supérieur de l'enfant",
+            "justification": "Les parents doivent être informés, sauf si cela met en danger l'intérêt de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles doivent toujours être transmises au juge des enfants",
+            "justification": "La transmission au juge des enfants ne concerne pas systématiquement toutes les situations."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles doivent être validées par la CRIP avant envoi",
+            "justification": "Il n'est pas nécessaire qu'elles soient validées par la CRIP avant envoi."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755015017161_05",
+      "current_version_epoch_ms": 1755015017161,
+      "topic": {
+        "subject": "ped",
+        "item": "matraitanceped"
+      },
+      "data": {
+        "statement": "Définir le rôle principal de la cellule départementale de recueil et de traitement des informations préoccupantes (CRIP).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recueillir les informations préoccupantes",
+            "justification": "La CRIP est chargée de centraliser les informations préoccupantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer les situations rapportées",
+            "justification": "La CRIP évalue la gravité et la nature des situations transmises."
+          },
+          {
+            "correct": true,
+            "proposition": "Décider des orientations appropriées",
+            "justification": "La CRIP détermine l'orientation administrative ou judiciaire adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mener directement les enquêtes pénales",
+            "justification": "La CRIP n'a pas de rôle d'investigation pénale."
+          },
+          {
+            "correct": false,
+            "proposition": "Représenter le parquet dans les affaires de protection de l'enfance",
+            "justification": "La CRIP ne représente pas le parquet ; elle est une instance départementale."
+          }
+        ]
+      }
+    }
+  ]
+}

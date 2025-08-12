@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "medgenomique",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754981849631_01",
+      "current_version_epoch_ms": 1754981849631,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Concernant le séquençage haut débit, quelles affirmations sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet l'analyse simultanée de plusieurs gènes ou de la totalité du génome.",
+            "justification": "Le séquençage haut débit peut analyser un gène, un panel de gènes, l'exome ou le génome entier."
+          },
+          {
+            "correct": true,
+            "proposition": "Il augmente le rendement diagnostique.",
+            "justification": "L'analyse de nombreux gènes en une seule fois permet d'identifier plus de diagnostics."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est systématiquement remboursé par la sécurité sociale.",
+            "justification": "Le séquençage haut débit n'est pas remboursé par la sécurité sociale."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne nécessite pas de compétences particulières pour interpréter les résultats.",
+            "justification": "Il requiert une équipe de bio-informatique et des biologistes formés pour traiter et interpréter les données."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut révéler des données génétiques additionnelles.",
+            "justification": "L'analyse pangénomique identifie souvent des variants additionnels non liés à l'indication initiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981849631_02",
+      "current_version_epoch_ms": 1754981849631,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quels sont les types de variants génétiques identifiables lors d'une analyse pangénomique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les variants nucléotidiques (SNV et Delins).",
+            "justification": "Les SNV et Delins concernent des modifications de 1 à 49 nucléotides."
+          },
+          {
+            "correct": true,
+            "proposition": "Les variants de structure déséquilibrés (CNV).",
+            "justification": "Les CNV correspondent à des délétions ou duplications ≥ 50 nucléotides."
+          },
+          {
+            "correct": true,
+            "proposition": "Les variants de structure équilibrés (BSV).",
+            "justification": "Les BSV regroupent les inversions, insertions et translocations."
+          },
+          {
+            "correct": false,
+            "proposition": "Les variants mitochondriaux uniquement.",
+            "justification": "Les variants mitochondriaux ne sont pas listés parmi les trois types principaux décrits."
+          },
+          {
+            "correct": false,
+            "proposition": "Les variants épigénétiques.",
+            "justification": "Les modifications épigénétiques ne sont pas détectées par ce type d'analyse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981849631_03",
+      "current_version_epoch_ms": 1754981849631,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Concernant la classification des variants, quelles affirmations sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un variant de classe 1 est bénin.",
+            "justification": "La classe 1 correspond à un variant sans conséquence pathologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Un variant de classe 5 est pathogène.",
+            "justification": "La classe 5 désigne un variant dont la pathogénicité est confirmée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les variants de classe 3 sont toujours rapportés au patient.",
+            "justification": "Les variants de classe 3 ne sont discutés que s'ils présentent un intérêt particulier."
+          },
+          {
+            "correct": true,
+            "proposition": "Les variants de classe 4 sont probablement pathogènes.",
+            "justification": "La classe 4 correspond à une forte probabilité de pathogénicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Les variants de classe 2 sont probablement pathogènes.",
+            "justification": "La classe 2 correspond à un variant probablement bénin."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981849631_04",
+      "current_version_epoch_ms": 1754981849631,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Lorsqu'un variant de classe 4 ou 5 est identifié, quelles actions doivent être entreprises par le prescripteur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Annoncer le diagnostic au patient et/ou à sa famille.",
+            "justification": "Un variant pathogène ou probablement pathogène nécessite une annonce diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Aborder la question d'une éventuelle situation de handicap.",
+            "justification": "Les conséquences médicales et sociales doivent être expliquées."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer les membres de la famille devant consulter un généticien.",
+            "justification": "Le prescripteur doit indiquer les personnes concernées dans la famille."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmettre directement le résultat aux membres de la famille sans accord du patient.",
+            "justification": "La loi impose l'accord du patient avant toute transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un diagnostic prénatal ou pré-implantatoire si la maladie est d'une particulière gravité et incurable.",
+            "justification": "Cette option est légale dans le cadre des maladies graves incurables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981849631_05",
+      "current_version_epoch_ms": 1754981849631,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quelles sont les particularités de la gestion d'un résultat non conclusif d'analyse pangénomique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une re-analyse régulière des données est recommandée.",
+            "justification": "Les données doivent être réévaluées à la lumière des nouvelles connaissances."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune analyse complémentaire n'est nécessaire.",
+            "justification": "Des analyses complémentaires comme la ségrégation familiale ou des tests fonctionnels peuvent être requises."
+          },
+          {
+            "correct": true,
+            "proposition": "Les nouvelles connaissances peuvent conduire à reclasser un variant.",
+            "justification": "Plusieurs centaines de maladies génétiques sont identifiées chaque année."
+          },
+          {
+            "correct": false,
+            "proposition": "Les variants de classe 3 sont systématiquement exclus de toute discussion.",
+            "justification": "Les variants de classe 3 peuvent être discutés s'ils présentent un intérêt."
+          },
+          {
+            "correct": true,
+            "proposition": "Le résultat non conclusif ne marque pas la fin de l'analyse.",
+            "justification": "Le suivi et la réinterprétation font partie intégrante de la prise en charge."
+          }
+        ]
+      }
+    }
+  ]
+}

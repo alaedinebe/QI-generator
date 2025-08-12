@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suivinourisson",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754987033229_01",
+      "current_version_epoch_ms": 1754987033229,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Chez un enfant sans signe d'appel mais présentant un antécédent familial de pathologie ophtalmologique, quelle est la conduite à tenir concernant l'adressage à l'ophtalmologiste ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un examen ophtalmologique entre 3 et 12 mois",
+            "justification": "Un antécédent personnel ou familial de pathologie ophtalmologique constitue un facteur de risque nécessitant un examen entre 3 et 12 mois, même sans signe d'appel."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre l'apparition de signes d'appel avant d'adresser",
+            "justification": "Les antécédents familiaux justifient un examen précoce même sans signe d'appel, il ne faut pas attendre leur apparition."
+          },
+          {
+            "correct": false,
+            "proposition": "Adresser uniquement si l'enfant ne coopère pas aux tests visuels",
+            "justification": "L'absence de coopération n'est pas le seul critère, un antécédent familial est suffisant pour adresser."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un examen uniquement à l'entrée en maternelle",
+            "justification": "Le dépistage doit être fait bien avant l'entrée à l'école, dès 3 à 12 mois en cas d'antécédents."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un suivi uniquement par le pédiatre",
+            "justification": "Un avis ophtalmologique est nécessaire en cas de facteur de risque, pas uniquement un suivi pédiatrique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754987033229_02",
+      "current_version_epoch_ms": 1754987033229,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Quels éléments imposent un adressage urgent à un ophtalmologiste chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Leucocorie",
+            "justification": "Une leucocorie est un signe d'appel urgent pouvant évoquer une pathologie grave comme un rétinoblastome."
+          },
+          {
+            "correct": true,
+            "proposition": "Cornée trouble",
+            "justification": "Une cornée trouble peut évoquer un glaucome congénital, nécessitant une prise en charge urgente."
+          },
+          {
+            "correct": true,
+            "proposition": "Strabisme d'apparition brutale",
+            "justification": "Un strabisme d'apparition brutale chez l'enfant impose un adressage urgent pour rechercher une cause grave."
+          },
+          {
+            "correct": true,
+            "proposition": "Nystagmus d'apparition récente",
+            "justification": "Un nystagmus récent est un signe d'appel nécessitant un examen ophtalmologique rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédent familial de myopie",
+            "justification": "Un antécédent familial de myopie impose un dépistage précoce mais pas un adressage urgent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754987033229_03",
+      "current_version_epoch_ms": 1754987033229,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Lors d'un dépistage visuel chez un enfant, quels critères justifient un adressage non urgent à un ophtalmologiste ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalie ou doute à l'inspection",
+            "justification": "Toute anomalie ou doute visuel constaté à l'inspection justifie un adressage."
+          },
+          {
+            "correct": true,
+            "proposition": "Anomalie ou doute à un test de dépistage",
+            "justification": "Un doute lors d'un test de dépistage visuel doit motiver un adressage."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes d'appel non urgents",
+            "justification": "Les signes d'appel non urgents justifient un adressage programmé."
+          },
+          {
+            "correct": false,
+            "proposition": "Acuité visuelle normale",
+            "justification": "Une acuité visuelle normale ne justifie pas un adressage en l'absence d'autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signes d'appel et pas d'antécédent familial",
+            "justification": "En l'absence de signe ou de facteur de risque, un adressage n'est pas systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754987033229_04",
+      "current_version_epoch_ms": 1754987033229,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Chez un enfant en âge verbal, quel élément justifie un adressage à un ophtalmologiste même sans signe d'appel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Impossibilité de mesurer l'acuité visuelle",
+            "justification": "Chez un enfant en âge verbal, l'impossibilité de mesurer l'acuité visuelle doit conduire à un adressage."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de coopération aux jeux",
+            "justification": "L'absence de coopération aux jeux n'est pas un critère spécifique d'adressage ophtalmologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Refus de l'examen ORL",
+            "justification": "Un refus d'examen ORL ne concerne pas directement l'ophtalmologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun antécédent médical",
+            "justification": "L'absence d'antécédent n'est pas en soi un critère d'adressage."
+          },
+          {
+            "correct": false,
+            "proposition": "Bonne acuité visuelle à un œil",
+            "justification": "Une bonne vision d'un œil n'exclut pas un trouble de l'autre, mais ce n'est pas un critère isolé suffisant ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754987033229_05",
+      "current_version_epoch_ms": 1754987033229,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Quelle est la définition d'un facteur de risque nécessitant un examen ophtalmologique entre 3 et 12 mois chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédent personnel ou familial de pathologie ophtalmologique",
+            "justification": "Un antécédent personnel ou familial est considéré comme un facteur de risque justifiant un examen entre 3 et 12 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Acuité visuelle mesurée à 10/10",
+            "justification": "Une acuité visuelle normale n'est pas un facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signe d'appel",
+            "justification": "L'absence de signe d'appel ne définit pas un facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un strabisme congénital",
+            "justification": "Un strabisme congénital est un signe d'appel nécessitant un adressage rapide, pas un facteur de risque à dépister entre 3 et 12 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Vision normale lors du dépistage en maternelle",
+            "justification": "Une vision normale à l'école n'est pas un facteur de risque nécessitant un dépistage précoce."
+          }
+        ]
+      }
+    }
+  ]
+}

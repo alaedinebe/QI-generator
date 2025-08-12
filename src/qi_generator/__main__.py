@@ -223,7 +223,7 @@ def main():
                         keyboard.release(Key.enter) 
 
                         # Petite pause pour laisser l'app s'ouvrir
-                        time.sleep(10)
+                        time.sleep(20)
 
                         # Étape 2 : Coller le texte
                         pyperclip.copy(prompt)

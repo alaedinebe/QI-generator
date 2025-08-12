@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suivinourisson",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754990573339_01",
+      "current_version_epoch_ms": 1754990573339,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Identifier les âges correspondant aux trois certificats médicaux obligatoires dans le suivi des nourrissons et enfants.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "8ème jour, 9 mois, 24-25 mois",
+            "justification": "Le certificat n°1 est réalisé au cours des 8 premiers jours, le certificat n°2 à 9 mois et le certificat n°3 à 24-25 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mois, 12 mois, 3 ans",
+            "justification": "Ces âges correspondent à des examens obligatoires mais ne sont pas ceux des certificats médicaux."
+          },
+          {
+            "correct": false,
+            "proposition": "8ème jour, 6 mois, 3 ans",
+            "justification": "Le certificat n°2 n'est pas réalisé à 6 mois et le certificat n°3 pas à 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "14 jours, 9 mois, 4 ans",
+            "justification": "Le certificat n°1 n'est pas à 14 jours et le certificat n°3 n'est pas à 4 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "8ème jour, 12 mois, 24-25 mois",
+            "justification": "Le certificat n°2 n'est pas à 12 mois mais à 9 mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754990573339_02",
+      "current_version_epoch_ms": 1754990573339,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Parmi les âges suivants, lesquels font partie des examens obligatoires entre la naissance et 6 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2 mois",
+            "justification": "Un examen obligatoire est prévu à 2 mois dans le suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "4 ans",
+            "justification": "Un examen obligatoire est prévu à 4 ans dans le suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "7 ans",
+            "justification": "Aucun examen obligatoire n'est prévu à 7 ans selon le calendrier indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "5 ans",
+            "justification": "Un examen obligatoire est prévu à 5 ans dans le suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "10 ans",
+            "justification": "Aucun examen obligatoire n'est prévu à 10 ans dans ce calendrier."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754990573339_03",
+      "current_version_epoch_ms": 1754990573339,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Reconnaître le professionnel de santé habilité à assurer le suivi médical obligatoire d'un enfant jusqu'à 6 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médecin généraliste formé à la santé de l'enfant",
+            "justification": "Un médecin généraliste formé à la santé de l'enfant est habilité à assurer ce suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "Pédiatre",
+            "justification": "Le pédiatre est formé spécifiquement à la santé de l'enfant et peut réaliser le suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "Médecin en service de protection maternelle et infantile",
+            "justification": "Les médecins de PMI peuvent assurer ce suivi jusqu'à 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Infirmier scolaire",
+            "justification": "L'infirmier scolaire ne réalise pas les examens médicaux obligatoires du suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Sage-femme libérale",
+            "justification": "La sage-femme intervient principalement en période périnatale et ne réalise pas le suivi médical complet jusqu'à 6 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754990573339_04",
+      "current_version_epoch_ms": 1754990573339,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Classer ces âges en fonction de la période du suivi médical obligatoire : nourrisson, petite enfance ou enfance (jusqu'à 16 ans).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "8ème jour : nourrisson",
+            "justification": "L'examen au 8ème jour se situe en période néonatale, donc nourrisson."
+          },
+          {
+            "correct": true,
+            "proposition": "3 ans : petite enfance",
+            "justification": "L'examen à 3 ans intervient pendant la petite enfance."
+          },
+          {
+            "correct": false,
+            "proposition": "9 mois : enfance",
+            "justification": "À 9 mois, l'enfant est encore nourrisson, non classé en enfance."
+          },
+          {
+            "correct": true,
+            "proposition": "11-13 ans : enfance",
+            "justification": "L'examen entre 11 et 13 ans fait partie du suivi en période d'enfance/adolescence."
+          },
+          {
+            "correct": false,
+            "proposition": "5 ans : nourrisson",
+            "justification": "À 5 ans, l'enfant est en petite enfance, pas nourrisson."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754990573339_05",
+      "current_version_epoch_ms": 1754990573339,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Identifier les examens obligatoires qui interviennent après l'âge de 10 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "11-13 ans",
+            "justification": "Un examen obligatoire est prévu entre 11 et 13 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "15-16 ans",
+            "justification": "Un examen obligatoire est prévu entre 15 et 16 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "9 ans",
+            "justification": "L'examen à 8-9 ans est avant 10 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "6 ans",
+            "justification": "L'examen à 6 ans est avant 10 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "3 ans",
+            "justification": "L'examen à 3 ans est bien avant 10 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

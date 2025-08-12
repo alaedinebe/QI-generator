@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suivinourisson",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754986443209_01",
+      "current_version_epoch_ms": 1754986443209,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Identifier la tranche d'âge correspondant à un nouveau-né.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0 à 1 mois",
+            "justification": "Un nouveau-né est défini comme un enfant âgé de 0 à 1 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 23 mois",
+            "justification": "Cette tranche d'âge correspond à la définition du nourrisson."
+          },
+          {
+            "correct": false,
+            "proposition": "2 ans à la puberté",
+            "justification": "Cette tranche d'âge correspond à la définition de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus que la puberté",
+            "justification": "Cette tranche d'âge correspond à la définition de l'adolescent."
+          },
+          {
+            "correct": false,
+            "proposition": "0 à 6 mois",
+            "justification": "Cette définition ne correspond pas aux catégories établies et est trop large pour définir le nouveau-né."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986443209_02",
+      "current_version_epoch_ms": 1754986443209,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Reconnaître la tranche d'âge correspondant au nourrisson.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "0 à 1 mois",
+            "justification": "Cette tranche correspond à la définition du nouveau-né."
+          },
+          {
+            "correct": true,
+            "proposition": "1 à 23 mois",
+            "justification": "Le nourrisson est défini comme un enfant âgé de 1 à 23 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "2 ans à la puberté",
+            "justification": "Cette tranche correspond à la définition de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus que la puberté",
+            "justification": "Cette tranche correspond à la définition de l'adolescent."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 12 mois",
+            "justification": "Cette définition est partielle et ne couvre pas la totalité de la tranche d'âge du nourrisson."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986443209_03",
+      "current_version_epoch_ms": 1754986443209,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Classer correctement la tranche d'âge correspondant à l'enfant.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "0 à 1 mois",
+            "justification": "Cette tranche correspond à la définition du nouveau-né."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 23 mois",
+            "justification": "Cette tranche correspond à la définition du nourrisson."
+          },
+          {
+            "correct": true,
+            "proposition": "2 ans à la puberté",
+            "justification": "L'enfant est défini comme ayant entre 2 ans et l'âge de la puberté."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus que la puberté",
+            "justification": "Cette tranche correspond à la définition de l'adolescent."
+          },
+          {
+            "correct": false,
+            "proposition": "2 à 10 ans",
+            "justification": "Cette proposition ne couvre pas toute la période jusqu'à la puberté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986443209_04",
+      "current_version_epoch_ms": 1754986443209,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Déterminer la tranche d'âge correspondant à l'adolescent.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "0 à 1 mois",
+            "justification": "Cette tranche correspond au nouveau-né."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 23 mois",
+            "justification": "Cette tranche correspond au nourrisson."
+          },
+          {
+            "correct": false,
+            "proposition": "2 ans à la puberté",
+            "justification": "Cette tranche correspond à l'enfant."
+          },
+          {
+            "correct": true,
+            "proposition": "Après la puberté",
+            "justification": "L'adolescent est défini comme étant dans la période suivant la puberté."
+          },
+          {
+            "correct": false,
+            "proposition": "12 à 18 ans",
+            "justification": "Cette définition en années n'est pas celle retenue, qui repose sur l'apparition de la puberté plutôt qu'un âge fixe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754986443209_05",
+      "current_version_epoch_ms": 1754986443209,
+      "topic": {
+        "subject": "ped",
+        "item": "suivinourisson"
+      },
+      "data": {
+        "statement": "Associer chaque tranche d'âge avec la bonne appellation pédiatrique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0 à 1 mois : nouveau-né",
+            "justification": "Un nouveau-né est défini comme un enfant de 0 à 1 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "1 à 23 mois : nourrisson",
+            "justification": "Le nourrisson est défini comme un enfant de 1 à 23 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "2 ans à la puberté : enfant",
+            "justification": "Un enfant est défini comme ayant entre 2 ans et l'âge de la puberté."
+          },
+          {
+            "correct": true,
+            "proposition": "Après la puberté : adolescent",
+            "justification": "L'adolescent est défini comme étant après la puberté."
+          },
+          {
+            "correct": false,
+            "proposition": "0 à 6 mois : nourrisson",
+            "justification": "Cette définition est incomplète car le nourrisson comprend une période allant de 1 à 23 mois."
+          }
+        ]
+      }
+    }
+  ]
+}

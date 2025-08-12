@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmictionped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755004346540_01",
+      "current_version_epoch_ms": 1755004346540,
+      "topic": {
+        "subject": "ped",
+        "item": "tbmictionped"
+      },
+      "data": {
+        "statement": "Quel est l'examen paraclinique initial recommandé pour exclure une infection urinaire basse dans un contexte de trouble mictionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bandelette urinaire",
+            "justification": "La bandelette urinaire est l'examen initial permettant d'exclure une infection urinaire basse et de suspecter une hyperconcentration urinaire."
+          },
+          {
+            "correct": true,
+            "proposition": "ECBU si besoin",
+            "justification": "Un ECBU est réalisé en complément de la bandelette urinaire si celle-ci est positive ou douteuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Débimétrie urinaire",
+            "justification": "La débimétrie urinaire n'est pas indiquée en première intention, mais seulement si le caractère primitif du trouble n'est pas établi."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie de l'appareil urinaire",
+            "justification": "L'échographie n'est pas systématique lors de la première consultation, sauf en cas de suspicion d'étiologie organique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan urodynamique",
+            "justification": "Le bilan urodynamique n'est pas indiqué d'emblée, mais peut être proposé ultérieurement pour rechercher une cause organique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755004346540_02",
+      "current_version_epoch_ms": 1755004346540,
+      "topic": {
+        "subject": "ped",
+        "item": "tbmictionped"
+      },
+      "data": {
+        "statement": "Dans quel cas propose-t-on une débimétrie urinaire, une échographie avec mesure du résidu post-mictionnel ou un bilan urodynamique chez un patient avec troubles mictionnels ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le caractère primitif du trouble n'est pas établi",
+            "justification": "Ces examens sont proposés lorsque l'origine fonctionnelle n'est pas clairement confirmée après l'interrogatoire et l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "En systématique lors de la première consultation",
+            "justification": "Ces examens ne sont pas réalisés systématiquement à la première consultation, sauf situation particulière."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion d'uropathie malformative",
+            "justification": "Ces examens permettent de rechercher une cause organique telle qu'une uropathie malformative."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion de neurovessie congénitale",
+            "justification": "Ils permettent de confirmer ou d'infirmer une atteinte neurologique de la vessie."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement chez l'adulte",
+            "justification": "Ces examens peuvent être indiqués chez l'enfant ou l'adulte selon le contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755004346540_03",
+      "current_version_epoch_ms": 1755004346540,
+      "topic": {
+        "subject": "ped",
+        "item": "tbmictionped"
+      },
+      "data": {
+        "statement": "Quels signes cliniques peuvent orienter vers une uropathie malformative à type de valves de l'urètre postérieures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Globe vésical à la naissance",
+            "justification": "La présence d'un globe vésical néonatal peut révéler un obstacle urétral."
+          },
+          {
+            "correct": true,
+            "proposition": "Jet urinaire absent ou goutte à goutte",
+            "justification": "L'obstruction urétrale par des valves postérieures peut entraîner un jet faible ou absent."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysurie",
+            "justification": "La dysurie est un signe fonctionnel d'obstacle à l'écoulement de l'urine."
+          },
+          {
+            "correct": false,
+            "proposition": "Incontinence urinaire permanente avec mictions conservées",
+            "justification": "Ce tableau est plutôt évocateur d'un abouchement ectopique de l'uretère."
+          },
+          {
+            "correct": false,
+            "proposition": "Fuites fécales",
+            "justification": "Les fuites fécales orientent davantage vers une cause neurologique comme une neurovessie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755004346540_04",
+      "current_version_epoch_ms": 1755004346540,
+      "topic": {
+        "subject": "ped",
+        "item": "tbmictionped"
+      },
+      "data": {
+        "statement": "Quelle présentation clinique évoque un abouchement ectopique de l'uretère du pyélon supérieur d'un système double ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incontinence urinaire permanente",
+            "justification": "L'abouchement ectopique entraîne une perte urinaire constante en dehors des mictions."
+          },
+          {
+            "correct": true,
+            "proposition": "Mictions conservées",
+            "justification": "Malgré l'incontinence permanente, le patient conserve des mictions normales."
+          },
+          {
+            "correct": false,
+            "proposition": "Globe vésical",
+            "justification": "Le globe vésical est associé à un obstacle comme les valves de l'urètre postérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Jet urinaire absent",
+            "justification": "Un jet absent oriente vers un obstacle urétral et non un abouchement ectopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Fuites fécales associées",
+            "justification": "Les fuites fécales orientent vers une atteinte neurologique, pas un abouchement ectopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755004346540_05",
+      "current_version_epoch_ms": 1755004346540,
+      "topic": {
+        "subject": "ped",
+        "item": "tbmictionped"
+      },
+      "data": {
+        "statement": "Quels éléments doivent faire rechercher systématiquement une cause neurologique devant un trouble mictionnel chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Constipation sévère",
+            "justification": "Une constipation sévère peut être associée à une neurovessie et doit alerter."
+          },
+          {
+            "correct": true,
+            "proposition": "Fuites fécales",
+            "justification": "Les fuites fécales peuvent témoigner d'une atteinte neurologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysraphisme spinal à la naissance",
+            "justification": "Un dysraphisme spinal est un signe d'appel pour une vessie neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Jet urinaire normal",
+            "justification": "Un jet normal n'évoque pas spécifiquement une cause neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mictions conservées",
+            "justification": "Le fait d'avoir des mictions conservées n'exclut pas une atteinte neurologique mais n'est pas un signe spécifique incitant à la recherche."
+          }
+        ]
+      }
+    }
+  ]
+}

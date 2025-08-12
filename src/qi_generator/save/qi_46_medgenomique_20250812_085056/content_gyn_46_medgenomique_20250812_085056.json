@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "medgenomique",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754981652960_01",
+      "current_version_epoch_ms": 1754981652960,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions nécessaires à la prescription d'un test génétique en génétique constitutionnelle en France ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le médecin doit être en capacité d'expliquer le résultat et ses conséquences au patient et à sa famille",
+            "justification": "Tout médecin peut prescrire un test génétique à condition de pouvoir expliquer le résultat et ses implications au patient et à ses proches."
+          },
+          {
+            "correct": true,
+            "proposition": "Un consentement écrit et exprès doit être recueilli avant la réalisation de l'examen",
+            "justification": "La loi impose un consentement écrit préalable après information claire et loyale sur la nature et la finalité de l'examen."
+          },
+          {
+            "correct": true,
+            "proposition": "Le consentement doit mentionner la finalité de l'examen et peut être révoqué à tout moment",
+            "justification": "Le consentement précise la finalité et reste révocable sans forme et à tout moment."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les généticiens peuvent prescrire un test génétique constitutionnel",
+            "justification": "Tout médecin formé et apte à expliquer les résultats peut prescrire un test génétique constitutionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune information préalable au patient n'est requise si le test est médicalement justifié",
+            "justification": "Une information claire et loyale est toujours obligatoire avant la réalisation d'un test génétique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981652960_02",
+      "current_version_epoch_ms": 1754981652960,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Concernant l'information à la parentèle lors de la prescription d'un test génétique constitutionnel, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est obligatoire depuis 2013",
+            "justification": "Depuis 2013, l'information à la parentèle est une obligation légale lors de la prescription d'un test génétique constitutionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle concerne les risques encourus par la famille en cas d'anomalie génétique grave détectée",
+            "justification": "Le médecin doit informer le patient des risques que son silence ferait courir à sa famille si une anomalie grave est identifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est laissée à l'appréciation du médecin en fonction de la pathologie",
+            "justification": "L'information à la parentèle est une obligation et non une simple option laissée au jugement du médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne s'applique qu'aux maladies rares",
+            "justification": "Cette obligation s'applique à toute affection grave pouvant justifier des mesures de prévention ou de soins, et pas seulement aux maladies rares."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas nécessaire si le patient est mineur",
+            "justification": "La loi ne prévoit pas d'exception liée à l'âge, l'obligation s'applique également pour un patient mineur via ses représentants légaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981652960_03",
+      "current_version_epoch_ms": 1754981652960,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Quelles sont les principales indications de l'Analyse Chromosomique sur puce à ADN (ACPA ou CGH-array) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome malformatif",
+            "justification": "L'ACPA est prescrite en première intention dans les syndromes malformatifs pour rechercher un déséquilibre génomique."
+          },
+          {
+            "correct": true,
+            "proposition": "Déficience intellectuelle sans diagnostic clinique établi",
+            "justification": "La déficience intellectuelle est une indication majeure de l'ACPA lorsqu'aucun diagnostic clinique n'est déjà établi."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion de remaniement chromosomique équilibré",
+            "justification": "L'ACPA ne détecte pas les remaniements chromosomiques équilibrés et n'est pas indiquée dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de la fertilité en première intention",
+            "justification": "Les troubles de la fertilité ne constituent pas une indication en première intention pour l'ACPA."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostic confirmé de trisomie 21",
+            "justification": "En cas de trisomie 21 déjà diagnostiquée cliniquement, un caryotype est indiqué, pas une ACPA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981652960_04",
+      "current_version_epoch_ms": 1754981652960,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Dans quelles situations le séquençage de l'exome ou du génome n'est-il pas indiqué ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En première intention chez un patient avec suspicion de déséquilibre génomique détectable par ACPA",
+            "justification": "L'ACPA est l'examen de première intention pour rechercher un déséquilibre génomique, et non le séquençage pangénomique."
+          },
+          {
+            "correct": true,
+            "proposition": "En dehors des centres de référence ou de compétences en maladies rares",
+            "justification": "Ces examens complexes doivent être prescrits par des spécialistes formés en génétique dans des centres spécialisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient avec une suspicion de prédisposition génétique à un cancer",
+            "justification": "Dans ce cas, des panels de gènes ciblés peuvent être prescrits après consultation d'oncogénétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient avec déficit intellectuel inexpliqué après ACPA",
+            "justification": "Le séquençage peut être indiqué après une ACPA non contributive dans la déficience intellectuelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient adressé par un spécialiste d'organe formé à la génétique",
+            "justification": "Dans ce cas, la prescription peut être justifiée si elle est motivée et réalisée dans un cadre approprié."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754981652960_05",
+      "current_version_epoch_ms": 1754981652960,
+      "topic": {
+        "subject": "gyn",
+        "item": "medgenomique"
+      },
+      "data": {
+        "statement": "Que doit faire un médecin si un patient apporte un résultat de test génétique réalisé en libre accès via Internet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ne pas utiliser ce résultat pour la prise en charge médicale",
+            "justification": "Les tests génétiques en libre accès n'ont aucune valeur médicale en France et ne peuvent pas être utilisés pour la prise en charge."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer le patient que ces tests ne sont pas autorisés sans ordonnance médicale ou judiciaire",
+            "justification": "En France, la loi de bioéthique interdit les tests génétiques sans ordonnance médicale ou judiciaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Envoyer l'échantillon à un laboratoire agréé pour validation",
+            "justification": "Un nouveau prélèvement et une prescription médicale sont nécessaires, le simple envoi d'un échantillon issu d'un test en ligne n'est pas valable."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer le résultat comme fiable si le laboratoire étranger est certifié",
+            "justification": "Même certifié à l'étranger, un laboratoire non agréé en France ne peut fournir un résultat médicalement exploitable."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmettre le résultat directement au laboratoire d'analyses médicales",
+            "justification": "Sans prescription conforme, le laboratoire ne peut utiliser un test génétique issu du libre accès."
+          }
+        ]
+      }
+    }
+  ]
+}
