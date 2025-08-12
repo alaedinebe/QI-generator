@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IVG",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754961876488_01",
+      "current_version_epoch_ms": 1754961876488,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Quelle tranche d'âge présente le taux le plus élevé de recours à l'IVG en France ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Moins de 18 ans",
+            "justification": "Les mineures ne présentent pas le taux le plus élevé et leur nombre d'IVG n'augmente pas depuis 2005."
+          },
+          {
+            "correct": false,
+            "proposition": "18-19 ans",
+            "justification": "Cette tranche d'âge ne correspond pas au pic de recours à l'IVG, qui se situe plus tard."
+          },
+          {
+            "correct": true,
+            "proposition": "20-29 ans",
+            "justification": "Les femmes âgées de 20-29 ans présentent le taux le plus élevé avec 27,9 IVG pour 1000 femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "30-39 ans",
+            "justification": "Cette tranche d'âge a un taux inférieur à celui observé chez les 20-29 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "40 ans et plus",
+            "justification": "Le taux de recours à l'IVG est plus faible dans cette tranche d'âge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961876488_02",
+      "current_version_epoch_ms": 1754961876488,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Quel est le taux de recours à l'IVG pour 1000 femmes dans la tranche d'âge ayant le plus souvent recours à l'IVG en France ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "15,2 IVG pour 1000 femmes",
+            "justification": "Cette valeur est inférieure au taux observé dans la tranche la plus concernée."
+          },
+          {
+            "correct": true,
+            "proposition": "27,9 IVG pour 1000 femmes",
+            "justification": "C'est le taux exact observé chez les femmes de 20-29 ans, tranche la plus touchée."
+          },
+          {
+            "correct": false,
+            "proposition": "35,0 IVG pour 1000 femmes",
+            "justification": "Cette valeur surestime le taux réel de la tranche la plus concernée."
+          },
+          {
+            "correct": false,
+            "proposition": "20,0 IVG pour 1000 femmes",
+            "justification": "Cette valeur est inférieure au taux réel observé chez les 20-29 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "40,0 IVG pour 1000 femmes",
+            "justification": "Cette valeur est largement supérieure au taux constaté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961876488_03",
+      "current_version_epoch_ms": 1754961876488,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Depuis quelle année le nombre d'IVG chez les personnes mineures n'augmente pas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Depuis 2005",
+            "justification": "Depuis 2005, le nombre d'IVG chez les mineures n'a pas augmenté."
+          },
+          {
+            "correct": false,
+            "proposition": "Depuis 2010",
+            "justification": "Ce n'est pas en 2010 mais dès 2005 que la stabilisation est observée."
+          },
+          {
+            "correct": false,
+            "proposition": "Depuis 2015",
+            "justification": "La stabilisation date de 2005, bien avant 2015."
+          },
+          {
+            "correct": false,
+            "proposition": "Depuis 2020",
+            "justification": "Le phénomène est bien antérieur à 2020."
+          },
+          {
+            "correct": false,
+            "proposition": "Depuis 1995",
+            "justification": "La stabilisation constatée chez les mineures ne date pas de 1995 mais de 2005."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961876488_04",
+      "current_version_epoch_ms": 1754961876488,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, lesquelles sont exactes concernant l'IVG en France ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les femmes âgées de 20-29 ans ont le taux de recours le plus élevé",
+            "justification": "Cette tranche présente 27,9 IVG pour 1000 femmes, soit le taux le plus élevé."
+          },
+          {
+            "correct": true,
+            "proposition": "Le taux chez les mineures est stable depuis 2005",
+            "justification": "Aucune augmentation n'est observée depuis 2005 chez les mineures."
+          },
+          {
+            "correct": false,
+            "proposition": "Les femmes de 30-39 ans ont le taux le plus élevé",
+            "justification": "Leur taux est inférieur à celui des 20-29 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mineures présentent une hausse constante depuis 2005",
+            "justification": "Leur nombre d'IVG est stable depuis 2005."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de 27,9 IVG pour 1000 femmes concerne les 18-19 ans",
+            "justification": "Ce taux concerne les femmes de 20-29 ans, pas les 18-19 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961876488_05",
+      "current_version_epoch_ms": 1754961876488,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Quelle affirmation décrit correctement l'évolution du recours à l'IVG chez les mineures depuis 2005 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre d'IVG chez les mineures est resté stable",
+            "justification": "Depuis 2005, aucune augmentation n'est observée chez les mineures."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre d'IVG chez les mineures a augmenté progressivement",
+            "justification": "Aucune hausse n'a été constatée depuis 2005."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre d'IVG chez les mineures a diminué fortement",
+            "justification": "Il est stable, sans diminution marquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre d'IVG chez les mineures fluctue chaque année de manière importante",
+            "justification": "Les données montrent une stabilité depuis 2005."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre d'IVG chez les mineures atteint un pic historique depuis 2005",
+            "justification": "Aucun pic n'est observé depuis cette date."
+          }
+        ]
+      }
+    }
+  ]
+}

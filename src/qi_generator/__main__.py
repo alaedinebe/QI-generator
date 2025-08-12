@@ -32,7 +32,6 @@ def main():
 
     keyboard = Controller()
     mouse = MouseController()
-    i = 0  # à incrémenter selon les besoins
 
     # --- Afficher la position de la souris au lancement ---
     try:
@@ -54,6 +53,16 @@ def main():
         screen_width = 1920
         screen_height = 1080
     print(f"Taille écran détectée : {screen_width} x {screen_height}")
+
+    # Étape 0 : Alt + Tab (Windows equivalent of Cmd + Tab)
+    keyboard.press(Key.alt)
+    time.sleep(0.5)
+    keyboard.press(Key.tab)
+    time.sleep(0.5)
+    keyboard.release(Key.tab)
+    time.sleep(0.5)
+    keyboard.release(Key.alt)
+    time.sleep(0.5)
 
     # Définir le chemin vers le dossier 'lisa'
     lisa_folder = os.path.join(os.getcwd(), 'lisa')
@@ -85,15 +94,6 @@ def main():
             subject = row[2].split('-')[0].strip()
 
             print(f"\nTraitement de l'item fichier : {numero_item} : {slug}\n")
-
-            # Étape 0 : Alt + Tab (Windows equivalent of Cmd + Tab)
-            keyboard.press(Key.alt)
-            time.sleep(0.5)
-            keyboard.press(Key.tab)
-            time.sleep(0.1)
-            keyboard.release(Key.tab)
-            time.sleep(0.5)
-            keyboard.release(Key.alt)
 
             # Charger les fichiers et extraire la propriété 'content' de chacun
             medical_contexts = []
@@ -223,7 +223,7 @@ def main():
                         keyboard.release(Key.enter) 
 
                         # Petite pause pour laisser l'app s'ouvrir
-                        time.sleep(5)
+                        time.sleep(10)
 
                         # Étape 2 : Coller le texte
                         pyperclip.copy(prompt)
@@ -253,16 +253,6 @@ def main():
                         mouse.click(Button.left)
                         time.sleep(0.5)  
 
-                        # # Étape 4 : Shift + Tab navigation, then Space. TROP INCONSISTENT
-                            # for i in range(7):
-                            #     with keyboard.pressed(Key.shift):
-                            #         keyboard.press(Key.tab)
-                            #         keyboard.release(Key.tab)
-                            #     time.sleep(0.2)
-                            # keyboard.press(Key.space)
-                            # keyboard.release(Key.space)
-                            # time.sleep(0.2)
-
                         raw = pyperclip.paste()
                         txt = clean_quotes(raw).strip()
 
@@ -290,7 +280,7 @@ def main():
                             try:
                                 content_obj = json.loads(txt2)
                             except json.JSONDecodeError:
-                                write_debug(f"debug_clean_after_replace_{file_name[:-3]}_{i}.txt", txt)
+                                write_debug(f"debug_clean_after_replace_{file_name[:-3]}.txt", txt)
                                 # Dernier recours : faire un coontrole A controle C controle V
                                 mouse.position = (screen_width // 2, screen_height // 2)
                                 time.sleep(0.5)
@@ -300,10 +290,12 @@ def main():
                                 with keyboard.pressed(Key.ctrl):
                                     keyboard.press('a')
                                     keyboard.release('a')
+                                time.sleep(0.5) 
 
                                 with keyboard.pressed(Key.ctrl):
                                     keyboard.press('c')
                                     keyboard.release('c')
+                                time.sleep(0.5) 
 
                                 content_obj = pyperclip.paste()
 
@@ -339,15 +331,12 @@ def main():
                         }
 
                         # 5) Sauvegarder joliment
-                        file_path = os.path.join(save_dir, f"content_{file_name[:-3]}_{i}_{timestamp}.json")
+                        file_path = os.path.join(save_dir, f"content_{subject}_{numero_item}_{slug}_{timestamp}.json")
                         with open(file_path, "w", encoding="utf-8") as f:
                             json.dump(payload, f, ensure_ascii=False, indent=2)
 
                         print(f"Contenu sauvegardé dans : {file_path}")
 
-                        i += 1  # Incrémenter l'index pour le prochain fichier
-                    
                     else:
-                        print(f"Aucun contenu trouvé dans le fichier {file_name} à l'index {i}.")
-                        i=0
+                        print(f"Aucun contenu trouvé dans le fichier {file_name}.")
                         continue

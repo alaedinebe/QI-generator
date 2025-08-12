@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IUgrossesse",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754944308003_01",
+      "current_version_epoch_ms": 1754944308003,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Identifier les éléments définissant une colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bactériurie asymptomatique retrouvée à l'ECBU",
+            "justification": "Elle est définie par une bactériurie asymptomatique à l'examen cyto-bactériologique des urines."
+          },
+          {
+            "correct": true,
+            "proposition": "Seuil de bactériurie ≥ 10^5 UFC/mL",
+            "justification": "Le seuil diagnostique retenu est une bactériurie ≥ 10^5 UFC/mL."
+          },
+          {
+            "correct": true,
+            "proposition": "Critère valable quelle que soit la bactérie en cause",
+            "justification": "Le diagnostic est posé quel que soit le germe."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessite deux ECBU positifs pour confirmer",
+            "justification": "Un seul ECBU positif est accepté pour poser le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Repose sur la présence de symptômes urinaires",
+            "justification": "Par définition, la bactériurie est asymptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944308003_02",
+      "current_version_epoch_ms": 1754944308003,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant le dépistage chez la femme enceinte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dépistage mensuel par bandelette urinaire chez toutes les femmes enceintes",
+            "justification": "La bandelette urinaire est réalisée mensuellement chez toutes les femmes enceintes."
+          },
+          {
+            "correct": true,
+            "proposition": "La bandelette recherche des leucocytes et/ou des nitrites",
+            "justification": "La BU est faite à la recherche de leucocytes et/ou nitrites."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de BU positive, un ECBU doit être réalisé",
+            "justification": "Une BU positive impose la réalisation d'un ECBU."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dépistage n'est nécessaire qu'au premier trimestre",
+            "justification": "Le dépistage est mensuel, il ne se limite pas au premier trimestre."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dépistage initial repose sur un ECBU systématique sans BU",
+            "justification": "Le dépistage se fait par BU, l'ECBU vient en seconde intention si la BU est positive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944308003_03",
+      "current_version_epoch_ms": 1754944308003,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Différencier l'impact des leucocytes sur le diagnostic de colonisation urinaire gravidique et de cystite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le taux de leucocytes n'influence pas le diagnostic de colonisation urinaire",
+            "justification": "Le diagnostic de colonisation n'est pas influencé par le taux de leucocytes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le taux de leucocytes intervient dans l'évaluation de la cystite aiguë",
+            "justification": "À l'inverse de la colonisation, le taux de leucocytes intervient pour la cystite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de leucocytes à la BU suffit à poser le diagnostic de colonisation",
+            "justification": "La colonisation est définie par une bactériurie à l'ECBU, indépendamment des leucocytes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de colonisation repose sur l'ECBU",
+            "justification": "La définition mentionne explicitement l'ECBU pour établir la bactériurie asymptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de leucocytes exclut une colonisation",
+            "justification": "Les leucocytes n'ayant pas d'influence, leur absence n'exclut pas la colonisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944308003_04",
+      "current_version_epoch_ms": 1754944308003,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Reconnaître les données épidémiologiques et évolutives de la colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle complique 2 à 10 % des grossesses",
+            "justification": "La fréquence rapportée est de 2 à 10 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut évoluer vers une cystite aiguë",
+            "justification": "Une évolution vers une cystite aiguë est possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut évoluer vers une pyélonéphrite aiguë",
+            "justification": "Une évolution vers une pyélonéphrite aiguë est également possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'entraîne jamais de complication clinique",
+            "justification": "Des complications comme la cystite ou la pyélonéphrite peuvent survenir."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est définie par une bactériurie symptomatique",
+            "justification": "La définition repose sur une bactériurie asymptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944308003_05",
+      "current_version_epoch_ms": 1754944308003,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Sélectionner les modalités diagnostiques exactes de la colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un seul ECBU positif suffit pour poser le diagnostic",
+            "justification": "Un seul ECBU positif est accepté."
+          },
+          {
+            "correct": true,
+            "proposition": "Seuil de bactériurie retenu : ≥ 10^5 UFC/mL",
+            "justification": "Le seuil diagnostique est ≥ 10^5 UFC/mL."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de symptômes urinaires attendue",
+            "justification": "La colonisation correspond à une bactériurie asymptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'interprétation dépend du taux de leucocytes",
+            "justification": "Le taux de leucocytes n'influence pas le diagnostic de colonisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil varie selon la bactérie isolée",
+            "justification": "Le critère est valable quelle que soit la bactérie."
+          }
+        ]
+      }
+    }
+  ]
+}

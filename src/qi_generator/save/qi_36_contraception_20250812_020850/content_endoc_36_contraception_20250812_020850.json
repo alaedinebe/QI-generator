@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "contraception",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754957527539_01",
+      "current_version_epoch_ms": 1754957527539,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant déjà présenté un accident vasculaire veineux, quelle(s) méthode(s) contraceptive(s) est/sont adaptée(s) ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Contraceptif hormonal combiné",
+            "justification": "Les contraceptifs combinés augmentent le risque thrombo-embolique et sont contre-indiqués chez les femmes ayant déjà présenté un accident vasculaire veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Contraceptif progestatif seul",
+            "justification": "Les contraceptifs progestatifs seuls ne majorent pas significativement le risque thrombo-embolique et peuvent être utilisés."
+          },
+          {
+            "correct": true,
+            "proposition": "Dispositif intra-utérin au cuivre",
+            "justification": "Le DIU au cuivre est une méthode non hormonale qui n'augmente pas le risque thrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Préservatif masculin",
+            "justification": "Le préservatif est une méthode barrière non hormonale, adaptée aux femmes à risque thrombotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode Ogino",
+            "justification": "Les méthodes naturelles comme Ogino sont peu fiables et ne sont pas recommandées chez les femmes normalement fertiles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957527539_02",
+      "current_version_epoch_ms": 1754957527539,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle(s) méthode(s) contraceptive(s) privilégier chez une femme ayant présenté un infarctus du myocarde ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Pilule estroprogestative",
+            "justification": "La pilule combinée augmente le risque cardiovasculaire et est contre-indiquée chez une femme ayant eu un accident artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Dispositif intra-utérin hormonal au lévonorgestrel",
+            "justification": "Le DIU hormonal libérant uniquement un progestatif est utilisable car il n'augmente pas le risque artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Préservatif féminin",
+            "justification": "Les méthodes barrières sont adaptées car elles n'ont pas d'impact sur le risque artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Ligature tubaire",
+            "justification": "La ligature tubaire est une méthode définitive non hormonale adaptée aux femmes avec antécédent d'accident artériel."
+          },
+          {
+            "correct": false,
+            "proposition": "Anneau vaginal combiné",
+            "justification": "L'anneau vaginal combiné contient un estrogène et un progestatif, ce qui augmente le risque artériel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957527539_03",
+      "current_version_epoch_ms": 1754957527539,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme porteuse d'une thrombophilie biologique sans antécédent d'événement thrombotique, quelles propositions sont correctes ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Prescrire une pilule combinée",
+            "justification": "La pilule combinée est contre-indiquée car elle augmente le risque thrombo-embolique chez les femmes porteuses d'une thrombophilie."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un DIU au cuivre",
+            "justification": "Le DIU au cuivre n'a aucun impact sur le risque thrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un implant progestatif",
+            "justification": "Les implants progestatifs seuls peuvent être utilisés chez ces patientes car ils n'augmentent pas significativement le risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un préservatif masculin",
+            "justification": "Les méthodes barrières sont sans impact sur le risque thrombotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer une méthode naturelle seule",
+            "justification": "Les méthodes naturelles sont insuffisamment efficaces et non recommandées chez les femmes normalement fertiles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957527539_04",
+      "current_version_epoch_ms": 1754957527539,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Parmi les méthodes contraceptives non définitives, lesquelles ne comportent pas d'hormones ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "DIU au cuivre",
+            "justification": "Le DIU au cuivre est une méthode non hormonale."
+          },
+          {
+            "correct": true,
+            "proposition": "Préservatif féminin",
+            "justification": "Les préservatifs sont des méthodes barrières sans hormones."
+          },
+          {
+            "correct": false,
+            "proposition": "Implant progestatif",
+            "justification": "L'implant progestatif libère une hormone et est donc hormonal."
+          },
+          {
+            "correct": false,
+            "proposition": "Pilule microprogestative",
+            "justification": "La pilule microprogestative contient un progestatif, c'est donc une méthode hormonale."
+          },
+          {
+            "correct": true,
+            "proposition": "Diaphragme",
+            "justification": "Le diaphragme est une méthode barrière non hormonale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957527539_05",
+      "current_version_epoch_ms": 1754957527539,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle(s) affirmation(s) est/sont correcte(s) concernant les méthodes de contraception définitives ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La ligature tubaire est une méthode féminine définitive",
+            "justification": "La ligature tubaire empêche définitivement la fécondation en sectionnant ou bloquant les trompes."
+          },
+          {
+            "correct": true,
+            "proposition": "La vasectomie est une méthode masculine définitive",
+            "justification": "La vasectomie empêche définitivement le passage des spermatozoïdes dans le sperme."
+          },
+          {
+            "correct": false,
+            "proposition": "L'implant progestatif est une méthode définitive",
+            "justification": "L'implant est une méthode hormonale réversible et non définitive."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DIU au cuivre est une méthode définitive",
+            "justification": "Le DIU est une méthode réversible, même s'il peut être utilisé longtemps."
+          },
+          {
+            "correct": false,
+            "proposition": "La pilule combinée est une méthode définitive",
+            "justification": "La pilule combinée est une méthode hormonale réversible."
+          }
+        ]
+      }
+    }
+  ]
+}

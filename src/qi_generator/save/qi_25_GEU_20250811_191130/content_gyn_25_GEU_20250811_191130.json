@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "GEU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754932487602_01",
+      "current_version_epoch_ms": 1754932487602,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Avant la prise en charge chirurgicale d'une grossesse extra-utérine, identifier les informations essentielles à délivrer à la patiente.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Expliquer le déroulement de la chirurgie (modalités opératoires).",
+            "justification": "Il est attendu d'exposer les modalités opératoires et d'expliquer le traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer du risque d'échec du traitement conservateur après salpingotomie pouvant nécessiter une réintervention.",
+            "justification": "Le risque d'échec de la salpingotomie et la possibilité de réintervention doivent être précisés."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser la possibilité de conversion en laparotomie en cas de saignement incontrôlable ou de complication per-opératoire.",
+            "justification": "La conversion en laparotomie est explicitement envisagée en cas de saignement incontrôlable/complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Évoquer le recours possible à une transfusion per- ou post-opératoire.",
+            "justification": "La transfusion per ou post opératoire fait partie des risques mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Rassurer sur l'absence de tout risque général lié à la coelioscopie.",
+            "justification": "Au contraire, des risques généraux de la coelioscopie sont à expliquer, notamment des plaies d'organes et vasculaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932487602_02",
+      "current_version_epoch_ms": 1754932487602,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Concernant salpingotomie et salpingectomie, différencier indications et conséquences à communiquer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La salpingectomie est indiquée si l'état tubaire est trop altéré ou si la salpingotomie n'est pas réalisable.",
+            "justification": "La possibilité de salpingectomie est prévue dans ces situations."
+          },
+          {
+            "correct": true,
+            "proposition": "Après salpingotomie, il existe un risque d'échec pouvant imposer une réintervention.",
+            "justification": "Le risque d'échec du traitement conservateur et la réintervention possible doivent être annoncés."
+          },
+          {
+            "correct": true,
+            "proposition": "Si la trompe controlatérale est normale, la fertilité ultérieure est probablement identique.",
+            "justification": "La fertilité est indiquée comme probablement identique en cas de trompe controlatérale normale."
+          },
+          {
+            "correct": true,
+            "proposition": "Si la trompe enlevée était unique, un recours ultérieur à la fécondation in vitro peut être nécessaire.",
+            "justification": "La nécessité de FIV ultérieure est à signaler si la trompe retirée était unique."
+          },
+          {
+            "correct": false,
+            "proposition": "La salpingectomie n'est jamais envisagée dans la prise en charge chirurgicale.",
+            "justification": "Elle est explicitement envisagée si l'état tubaire est trop altéré ou si la salpingotomie est impossible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932487602_03",
+      "current_version_epoch_ms": 1754932487602,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, reconnaître ceux qui relèvent des risques généraux de la coelioscopie à expliquer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plaie d'organes.",
+            "justification": "Les plaies d'organes font partie des risques généraux de la coelioscopie."
+          },
+          {
+            "correct": true,
+            "proposition": "Plaie vasculaire.",
+            "justification": "Les plaies vasculaires font partie des risques généraux de la coelioscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Conversion en laparotomie.",
+            "justification": "La conversion est présentée comme une éventualité liée à un saignement incontrôlable/complication, distincte des risques généraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Transfusion per- ou post-opératoire.",
+            "justification": "La transfusion est un risque per/post-opératoire à évoquer, non classé comme risque général de coelioscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'échec du traitement conservateur après salpingotomie.",
+            "justification": "Il s'agit d'un risque spécifique au choix thérapeutique (salpingotomie), pas d'un risque général de coelioscopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932487602_04",
+      "current_version_epoch_ms": 1754932487602,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Identifier les informations relatives à la fertilité qui doivent être communiquées avant l'intervention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fertilité est probablement identique si la trompe controlatérale est normale.",
+            "justification": "Cette précision sur la fertilité doit être donnée à la patiente."
+          },
+          {
+            "correct": true,
+            "proposition": "Si la trompe retirée était unique, un recours à la FIV peut être nécessaire.",
+            "justification": "La nécessité de FIV ultérieure est à anticiper si la trompe enlevée était unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une salpingectomie entraîne nécessairement une infertilité, même si l'autre trompe est normale.",
+            "justification": "Il est précisé que la fertilité est probablement identique si la trompe controlatérale est normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune information sur la fertilité n'est à discuter.",
+            "justification": "Des informations précises sur la fertilité future doivent être délivrées."
+          },
+          {
+            "correct": false,
+            "proposition": "La salpingotomie garantit l'absence de réintervention.",
+            "justification": "Un risque d'échec après salpingotomie avec réintervention possible est mentionné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932487602_05",
+      "current_version_epoch_ms": 1754932487602,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Reconnaître les situations à mentionner pouvant conduire à une conversion en laparotomie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Saignement incontrôlable pendant l'intervention.",
+            "justification": "Le saignement incontrôlable est une situation justifiant la conversion."
+          },
+          {
+            "correct": true,
+            "proposition": "Complication per-opératoire.",
+            "justification": "La survenue d'une complication per-opératoire est un motif de conversion."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférence de l'opérateur en l'absence de saignement ou de complication.",
+            "justification": "Les motifs explicitement indiqués sont le saignement incontrôlable et les complications per-opératoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Échec secondaire du traitement conservateur après salpingotomie.",
+            "justification": "Il s'agit d'un risque de réintervention ultérieure, pas d'un motif per-opératoire de conversion."
+          },
+          {
+            "correct": false,
+            "proposition": "Plaies d'organes et vasculaires comme seules indications systématiques.",
+            "justification": "Les plaies d'organes/vasculaires sont des risques généraux de la coelioscopie ; la conversion est spécifiquement envisagée en cas de saignement incontrôlable ou de complication per-opératoire."
+          }
+        ]
+      }
+    }
+  ]
+}

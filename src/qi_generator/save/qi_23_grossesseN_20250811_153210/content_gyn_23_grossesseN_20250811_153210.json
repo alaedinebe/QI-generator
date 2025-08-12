@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grossesseN",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754919327655_01",
+      "current_version_epoch_ms": 1754919327655,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Identifier les situations où il faut évoquer une grossesse chez une femme en âge de procréer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Retard de règle",
+            "justification": "Fait partie des situations pour lesquelles il faut évoquer une grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de contraception",
+            "justification": "Mentionnée comme circonstance devant faire évoquer une grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Nausées matinales",
+            "justification": "Listée parmi les signes sympathiques de grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Pollakiurie",
+            "justification": "Fait partie des signes sympathiques de grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de β-hCG positif > 5 UI/L",
+            "justification": "Relève du critère de confirmation, pas seulement d'évocation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919327655_02",
+      "current_version_epoch_ms": 1754919327655,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Reconnaître les signes sympathiques de grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tension mammaire",
+            "justification": "Inclus parmi les signes sympathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Nausées matinales",
+            "justification": "Inclus parmi les signes sympathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Vomissements",
+            "justification": "Inclus parmi les signes sympathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Asthénie",
+            "justification": "Inclus parmi les signes sympathiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du volume de l'utérus",
+            "justification": "Décrite à l'examen clinique, pas comme signe sympathique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919327655_03",
+      "current_version_epoch_ms": 1754919327655,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Définir le critère biologique qui confirme le diagnostic de grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage urinaire de hCG positif",
+            "justification": "Un dosage positif urinaire confirme le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Dosage sanguin de hCG supérieur à 5 UI/L",
+            "justification": "Le seuil indiqué pour la confirmation est > 5 UI/L en sanguin."
+          },
+          {
+            "correct": true,
+            "proposition": "Dosage de β-hCG supérieur à 5 UI/L",
+            "justification": "La β-hCG > 5 UI/L est confirmatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de hCG inférieur ou égal à 5 UI/L",
+            "justification": "Un résultat ≤ 5 UI/L n'est pas confirmatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Un dosage positif, urinaire ou sanguin",
+            "justification": "La confirmation repose sur un dosage positif quel que soit le type (urinaire ou sanguin)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919327655_04",
+      "current_version_epoch_ms": 1754919327655,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants selon qu'ils confirment le diagnostic de grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "β-hCG positive",
+            "justification": "Un dosage positif confirme la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "hCG urinaire positive",
+            "justification": "Un test urinaire positif confirme la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Retard de règle",
+            "justification": "Élément d'évocation, non confirmatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de contraception",
+            "justification": "Élément d'évocation, non confirmatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du volume des seins à l'examen",
+            "justification": "Observation clinique possible, mais non confirmatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919327655_05",
+      "current_version_epoch_ms": 1754919327655,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Différencier les éléments relevant de l'examen clinique des symptômes initiaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation du volume des seins",
+            "justification": "Peut être constatée à l'examen clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation du volume de l'utérus selon le terme",
+            "justification": "Peut être constatée à l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Nausées matinales",
+            "justification": "Relèvent des signes sympathiques (symptomatologie), pas de l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Vertiges",
+            "justification": "Relèvent des signes sympathiques, pas de l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Pollakiurie",
+            "justification": "Relève des signes sympathiques, pas de l'examen."
+          }
+        ]
+      }
+    }
+  ]
+}

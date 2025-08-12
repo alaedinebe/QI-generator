@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754915098307_01",
+      "current_version_epoch_ms": 1754915098307,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant la population cible dans une étude, lesquelles des affirmations suivantes sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle correspond à celle sur laquelle on souhaite extrapoler les résultats de l'étude.",
+            "justification": "La population cible est celle à laquelle on souhaite extrapoler les résultats pour mieux connaître et adapter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est toujours identique à la population source.",
+            "justification": "La population cible n'est pas forcément identique à la population source ; cette dernière est un ensemble concret à partir duquel on recrute."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit refléter la réalité clinique pour être pertinente.",
+            "justification": "La population cible doit être représentative des patients réels afin d'adapter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est un sous-ensemble de l'échantillon.",
+            "justification": "C'est l'échantillon qui est un sous-ensemble de la population source, pas de la population cible."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est choisie uniquement pour des raisons logistiques.",
+            "justification": "Le choix de la population cible répond à un objectif scientifique d'extrapolation, pas seulement logistique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915098307_02",
+      "current_version_epoch_ms": 1754915098307,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Quelle(s) affirmation(s) caractérise(nt) la population source dans une étude ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est définie comme la population au sein de laquelle l'étude se déroule concrètement.",
+            "justification": "La population source est celle à partir de laquelle on identifie les individus à inclure."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond toujours à un échantillon représentatif de la population cible.",
+            "justification": "La population source n'est pas un échantillon ; elle précède l'étape d'échantillonnage."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit être la plus représentative possible de la population cible.",
+            "justification": "Pour garantir la validité externe, la population source doit représenter la population cible."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est définie après le choix de l'échantillon.",
+            "justification": "La population source est définie avant l'échantillon, qui en est un sous-ensemble."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'a pas d'impact sur la validité externe de l'étude.",
+            "justification": "La représentativité de la population source conditionne directement la validité externe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915098307_03",
+      "current_version_epoch_ms": 1754915098307,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "À propos de l'échantillon dans une étude, quelles sont les affirmations exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un sous-ensemble de la population source.",
+            "justification": "L'échantillon est prélevé à partir de la population source."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est choisi directement à partir de la population cible.",
+            "justification": "L'échantillon est issu de la population source, non directement de la population cible."
+          },
+          {
+            "correct": true,
+            "proposition": "Il doit être représentatif de la population dont il est issu.",
+            "justification": "La représentativité de l'échantillon garantit la transposabilité des résultats."
+          },
+          {
+            "correct": true,
+            "proposition": "Sa constitution doit suivre une modalité d'échantillonnage adaptée.",
+            "justification": "Le mode d'échantillonnage doit être adapté pour éviter les biais et assurer la validité externe."
+          },
+          {
+            "correct": false,
+            "proposition": "Il détermine uniquement la validité interne de l'étude.",
+            "justification": "La constitution de l'échantillon a un impact majeur sur la validité externe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915098307_04",
+      "current_version_epoch_ms": 1754915098307,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Concernant la validité externe d'une étude, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle dépend de la qualité du choix des populations cibles et sources.",
+            "justification": "Une sélection appropriée des populations assure une meilleure transposabilité des résultats."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est influencée par la constitution de l'échantillon.",
+            "justification": "Un échantillon représentatif favorise la validité externe."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est synonyme de validité interne.",
+            "justification": "La validité externe concerne l'extrapolation, tandis que la validité interne concerne la qualité méthodologique interne."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas affectée par le mode d'échantillonnage.",
+            "justification": "Le mode d'échantillonnage influence directement la représentativité et donc la validité externe."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est assurée dès lors que l'échantillon est de grande taille.",
+            "justification": "La taille seule ne garantit pas la représentativité ; le mode de sélection est crucial."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915098307_05",
+      "current_version_epoch_ms": 1754915098307,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Quelles sont les différences correctes entre population cible, population source et échantillon ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La population cible est celle à laquelle on souhaite extrapoler les résultats.",
+            "justification": "Elle définit le groupe final visé par l'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "La population source est celle dans laquelle on identifie les participants potentiels.",
+            "justification": "Elle correspond au cadre concret de recrutement."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échantillon est un sous-ensemble de la population source.",
+            "justification": "Il est constitué à partir de la population source selon un mode d'échantillonnage adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "La population source est un sous-ensemble de l'échantillon.",
+            "justification": "C'est l'échantillon qui est un sous-ensemble de la population source, et non l'inverse."
+          },
+          {
+            "correct": false,
+            "proposition": "La population cible est toujours accessible directement pour inclusion.",
+            "justification": "La population cible peut être théorique ou plus large que le groupe réellement accessible."
+          }
+        ]
+      }
+    }
+  ]
+}

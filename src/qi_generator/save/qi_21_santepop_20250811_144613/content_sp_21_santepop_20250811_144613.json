@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "santepop",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754916570270_01",
+      "current_version_epoch_ms": 1754916570270,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Identifier les propriétés attendues d'un indicateur de santé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La validité fait partie des propriétés requises.",
+            "justification": "La validité est explicitement citée comme l'aptitude à mesurer correctement l'état de santé prévu."
+          },
+          {
+            "correct": true,
+            "proposition": "La sensibilité au changement est une propriété essentielle.",
+            "justification": "La sensibilité au changement est mentionnée comme l'aptitude à rendre compte des variations de l'état de santé."
+          },
+          {
+            "correct": true,
+            "proposition": "La fiabilité (ou reproductibilité) est une propriété attendue.",
+            "justification": "La fiabilité est définie comme l'aptitude à produire des résultats identiques dans des situations identiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Un indicateur doit résumer à lui seul la situation sanitaire globale.",
+            "justification": "Il est précisé qu'un seul indicateur ne saurait résumer une situation sanitaire dans sa globalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Un indicateur de santé est par nature une mesure qualitative.",
+            "justification": "Un indicateur est défini comme une variable quantitative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916570270_02",
+      "current_version_epoch_ms": 1754916570270,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Reconnaître les objectifs de l'usage des indicateurs de santé en santé publique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Décrire, quantifier et surveiller l'état de santé de la population.",
+            "justification": "C'est l'un des usages attendus explicitement mentionnés."
+          },
+          {
+            "correct": true,
+            "proposition": "Comparer l'état de santé dans le temps ou dans l'espace.",
+            "justification": "La comparaison temporelle et spatiale est indiquée parmi les finalités."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer les effets des politiques et actions de santé publique.",
+            "justification": "L'évaluation des effets des actions menées fait partie des objectifs assignés."
+          },
+          {
+            "correct": true,
+            "proposition": "Adapter l'organisation sanitaire et sociale d'une zone définie.",
+            "justification": "L'adaptation de l'organisation pour répondre aux besoins de la population est un objectif déclaré."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer le besoin d'utiliser plusieurs indicateurs simultanément.",
+            "justification": "Il est indiqué qu'il faut disposer de plusieurs indicateurs et les interpréter conjointement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916570270_03",
+      "current_version_epoch_ms": 1754916570270,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Classer les indicateurs suivants comme socio-démographiques ou épidémiologiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'espérance de vie est un indicateur socio-démographique.",
+            "justification": "Elle est listée parmi les indicateurs décrivant l'évolution de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "La mortalité est un indicateur socio-démographique.",
+            "justification": "La mortalité appartient aux indicateurs épidémiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La morbidité est un indicateur épidémiologique.",
+            "justification": "La morbidité est citée dans la catégorie des indicateurs épidémiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Les structures d'âge sont des indicateurs socio-démographiques.",
+            "justification": "Elles figurent parmi les indicateurs décrivant l'évolution de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "La fécondité relève des indicateurs épidémiologiques.",
+            "justification": "Les indicateurs de fécondité sont rangés dans les socio-démographiques, pas dans les épidémiologiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916570270_04",
+      "current_version_epoch_ms": 1754916570270,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Définir correctement l'espérance de vie à la naissance (âge 0).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est la durée de vie moyenne d'une génération fictive soumise aux conditions de mortalité de l'année de naissance.",
+            "justification": "C'est la définition précise donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle intègre d'emblée une approche qualitative de l'état de santé.",
+            "justification": "L'espérance de vie décrite est un indicateur quantitatif ; l'approche qualitative relève des espérances de santé."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle se calcule séparément pour les hommes et pour les femmes.",
+            "justification": "Le calcul séparé par sexe est explicitement indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "Les écarts observés entre sexes traduisent une différence de longévité.",
+            "justification": "Il est mentionné que ces écarts reflètent une différence de longévité entre les deux sexes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle mesure le retentissement fonctionnel des pathologies chroniques.",
+            "justification": "Ce type d'impact n'est pas capté par les indicateurs de mortalité et relève d'autres mesures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916570270_05",
+      "current_version_epoch_ms": 1754916570270,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Différencier espérance de vie et espérances de santé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les espérances de santé intègrent une approche qualitative de l'état de santé.",
+            "justification": "Elles constituent une déclinaison qualitative de l'espérance de vie."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles correspondent au nombre d'années à vivre dans un état de santé déterminé.",
+            "justification": "Elles sont définies comme le nombre d'années à vivre dans un état de santé donné."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe qu'un seul indicateur standard d'espérance de santé.",
+            "justification": "Il existe autant d'indicateurs d'espérance de santé que de mesures de la santé (maladie, incapacité, santé perçue, etc.)."
+          },
+          {
+            "correct": true,
+            "proposition": "Calculées régulièrement, elles estiment si les années de vie gagnées sont en bonne ou en mauvaise santé.",
+            "justification": "Elles permettent d'apprécier l'évolution de l'état de santé à mesure que l'espérance de vie augmente."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne peuvent pas être calculées selon le sexe ou à différents âges.",
+            "justification": "Elles peuvent être calculées en fonction du sexe et à différents âges de la vie."
+          }
+        ]
+      }
+    }
+  ]
+}

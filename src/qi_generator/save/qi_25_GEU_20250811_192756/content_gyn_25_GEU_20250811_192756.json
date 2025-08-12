@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "GEU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754933472973_01",
+      "current_version_epoch_ms": 1754933472973,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Identifier les examens qui constituent le bilan de gravité du bilan biologique pré opératoire d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS et plaquettaire",
+            "justification": "Fait partie du bilan de gravité : NFS et plaquettaire."
+          },
+          {
+            "correct": true,
+            "proposition": "TP/TCA",
+            "justification": "Fait partie du bilan de gravité : TP/TCA."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrinogène plasmatique",
+            "justification": "Fait partie du bilan de gravité : fibrinogène plasmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe rhésus (2 déterminations)",
+            "justification": "Relève du bilan pré transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "RAI",
+            "justification": "Relève du bilan pré transfusionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933472973_02",
+      "current_version_epoch_ms": 1754933472973,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Classer les éléments qui relèvent du bilan pré transfusionnel dans le cadre d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Groupe rhésus (2 déterminations)",
+            "justification": "Bilan pré transfusionnel : groupe rhésus en 2 déterminations."
+          },
+          {
+            "correct": true,
+            "proposition": "RAI",
+            "justification": "Bilan pré transfusionnel : RAI."
+          },
+          {
+            "correct": false,
+            "proposition": "TP/TCA",
+            "justification": "Appartient au bilan de gravité, pas au pré transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrinogène plasmatique",
+            "justification": "Appartient au bilan de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS et plaquettaire",
+            "justification": "Appartient au bilan de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933472973_03",
+      "current_version_epoch_ms": 1754933472973,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments d'interprétation indiquant la gravité lors du bilan biologique pré opératoire d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Baisse de l'hémoglobine",
+            "justification": "Mentionnée dans l'interprétation de l'hémogramme."
+          },
+          {
+            "correct": true,
+            "proposition": "Diminution du taux de thrombine",
+            "justification": "Mentionnée comme anomalie à rechercher."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine normale",
+            "justification": "L'interprétation met l'accent sur la baisse de l'hémoglobine."
+          },
+          {
+            "correct": false,
+            "proposition": "RAI négative",
+            "justification": "La RAI appartient au bilan pré transfusionnel, sans valeur pour l'évaluation de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe rhésus déterminé une seule fois",
+            "justification": "Le groupe rhésus requiert 2 déterminations et relève du pré transfusionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933472973_04",
+      "current_version_epoch_ms": 1754933472973,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Concernant le groupe rhésus dans ce contexte, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Doit être réalisé en 2 déterminations",
+            "justification": "Le groupe rhésus est demandé en 2 déterminations."
+          },
+          {
+            "correct": false,
+            "proposition": "Fait partie du bilan de gravité",
+            "justification": "Le groupe rhésus relève du bilan pré transfusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Est associé à la RAI dans le même volet du bilan",
+            "justification": "Groupe rhésus et RAI composent le bilan pré transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Sa réalisation permet l'interprétation de l'hémogramme",
+            "justification": "L'interprétation citée porte sur la baisse de l'hémoglobine et la diminution du taux de thrombine."
+          },
+          {
+            "correct": false,
+            "proposition": "Peut être remplacé par le TP/TCA",
+            "justification": "TP/TCA appartient au bilan de gravité et ne remplace pas le groupe rhésus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933472973_05",
+      "current_version_epoch_ms": 1754933472973,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Sélectionner les examens à prescrire dans le bilan biologique pré opératoire d'une GEU tel que décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS et plaquettaire",
+            "justification": "Inclus dans le bilan de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "TP/TCA",
+            "justification": "Inclus dans le bilan de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrinogène plasmatique",
+            "justification": "Inclus dans le bilan de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Groupe rhésus (2 déterminations)",
+            "justification": "Inclus dans le bilan pré transfusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "RAI",
+            "justification": "Inclus dans le bilan pré transfusionnel."
+          }
+        ]
+      }
+    }
+  ]
+}

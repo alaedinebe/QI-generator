@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grossesseN",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754920116330_01",
+      "current_version_epoch_ms": 1754920116330,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Identifier les éléments qui composent le calcul du risque combiné de trisomie 21.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mesure de la clarté nucale réalisée entre 11 SA et 13 SA + 6 jours",
+            "justification": "La clarté nucale entre 11 et 13 SA + 6 jours fait partie du calcul du risque combiné."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dosage sanguin de la β-hCG libre",
+            "justification": "Le dosage de la β-hCG libre est explicitement inclus dans le calcul."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dosage sanguin de la PAPP-A",
+            "justification": "La PAPP-A est citée comme marqueur sérique utilisé dans le calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dosage de l'alpha-foetoprotéine (AFP)",
+            "justification": "L'AFP n'est pas citée parmi les composants du calcul, qui mentionne seulement β-hCG libre et PAPP-A."
+          },
+          {
+            "correct": true,
+            "proposition": "L'âge maternel",
+            "justification": "L'âge maternel est listé parmi les éléments pris en compte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754920116330_02",
+      "current_version_epoch_ms": 1754920116330,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Préciser la fenêtre temporelle de la mesure de la clarté nucale utilisée pour le calcul du risque combiné de T21.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Entre 11 SA et 13 SA + 6 jours",
+            "justification": "La mesure de la clarté nucale est indiquée entre 11 et 13 SA + 6 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant 10 SA",
+            "justification": "Cette période n'est pas incluse dans la fenêtre indiquée (11 à 13 SA + 6 jours)."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 14 SA révolues",
+            "justification": "Au-delà de 13 SA + 6 jours, la fenêtre indiquée n'est plus respectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement à 13 SA + 6 jours",
+            "justification": "La fenêtre est un intervalle et non un point unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 11 et 12 SA uniquement",
+            "justification": "La fenêtre s'étend jusqu'à 13 SA + 6 jours, et pas seulement jusqu'à 12 SA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754920116330_03",
+      "current_version_epoch_ms": 1754920116330,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités d'information et de consentement lors de la première consultation concernant le dépistage de la T21.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La patiente reçoit une information sur la trisomie 21 et son dépistage possible lors de la première consultation",
+            "justification": "Il est indiqué que l'information sur la T21 et son dépistage doit être donnée à la première consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Un consentement est signé si la patiente souhaite faire le test après information sur les suites possibles selon le seuil de risque",
+            "justification": "La signature du consentement est conditionnée à la volonté de réaliser le test après information sur les suites possibles selon le seuil de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Un consentement écrit est obligatoire pour toutes les patientes, qu'elles souhaitent ou non le dépistage",
+            "justification": "La signature est prévue si la patiente souhaite faire le test, pas de manière systématique pour toutes."
+          },
+          {
+            "correct": false,
+            "proposition": "L'information peut être reportée après la période de mesure de la clarté nucale",
+            "justification": "Il est précisé que l'information est délivrée lors de la première consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dépistage prénatal de la T21 par calcul du risque combiné est encadré par l'arrêté du 23 juin 2009",
+            "justification": "La référence à l'arrêté du 23 juin 2009 est explicitement associée au dépistage par calcul du risque combiné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754920116330_04",
+      "current_version_epoch_ms": 1754920116330,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Classer les marqueurs sériques pertinents pour le calcul du risque combiné de T21.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "β-hCG libre",
+            "justification": "La β-hCG libre fait partie des dosages sanguins utilisés."
+          },
+          {
+            "correct": true,
+            "proposition": "PAPP-A",
+            "justification": "La PAPP-A est explicitement mentionnée comme composant du calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Estriol non conjugué",
+            "justification": "Cet analyte n'est pas cité parmi les éléments du calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibine A",
+            "justification": "Cet analyte n'est pas mentionné dans la composition du calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Alpha-foetoprotéine (AFP)",
+            "justification": "L'AFP n'est pas listée parmi les dosages utilisés; seuls β-hCG libre et PAPP-A sont indiqués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754920116330_05",
+      "current_version_epoch_ms": 1754920116330,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Interpréter la place du « seuil de risque » dans l'information préalable au consentement pour le dépistage de la T21.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les suites possibles du dépistage sont expliquées selon le seuil de risque",
+            "justification": "Il est précisé que l'information porte sur les suites possibles selon le seuil de risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Le consentement intervient après information sur ces suites",
+            "justification": "La signature du consentement est prévue après information sur les suites possibles selon le seuil de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil de risque n'a pas d'impact sur l'information délivrée",
+            "justification": "Il est indiqué que l'information inclut les suites possibles selon ce seuil."
+          },
+          {
+            "correct": false,
+            "proposition": "Le test peut être réalisé sans consentement si le risque est élevé",
+            "justification": "La réalisation du test suppose un consentement si la patiente le souhaite, après information."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil de risque n'est jamais évoqué avant le prélèvement sanguin",
+            "justification": "Le seuil de risque fait partie de l'information préalable au consentement."
+          }
+        ]
+      }
+    }
+  ]
+}

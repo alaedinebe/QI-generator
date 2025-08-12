@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "santepop",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754917356943_01",
+      "current_version_epoch_ms": 1754917356943,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "À propos de la standardisation (OIC-021-03-B), quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle vise à rendre comparables des populations en neutralisant les effets de structure (âge, sexe).",
+            "justification": "Les différences de structure en âge et de répartition par sexe conditionnent la survenue des problèmes de santé et interdisent la comparaison ; la standardisation permet d'obtenir la comparabilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne s'applique qu'aux études analytiques.",
+            "justification": "La problématique est explicitement posée pour les enquêtes descriptives ; limiter la standardisation aux études analytiques est inexact."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle comporte deux méthodes : directe et indirecte.",
+            "justification": "La comparabilité des observations s'obtient par une standardisation qui peut être directe ou indirecte."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle corrige uniquement les différences d'âge, pas celles de sexe.",
+            "justification": "Sont mentionnées la structure en âge et la répartition par sexe comme facteurs à l'origine de non-comparabilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet des comparaisons dans le temps et l'espace lorsque la comparabilité est assurée.",
+            "justification": "Les comparaisons entre populations différentes (dans le temps ou l'espace) ne sont possibles que si les populations sont comparables, ce que vise la standardisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917356943_02",
+      "current_version_epoch_ms": 1754917356943,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Concernant la standardisation directe, sélectionnez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle applique les taux spécifiques par âge de la population étudiée aux effectifs par âge d'une population de référence.",
+            "justification": "La méthode directe consiste à appliquer aux effectifs par classe d'âge de la population de référence les taux par âge de la population étudiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée pour comparer une petite population à une grande population de référence.",
+            "justification": "C'est la méthode indirecte qui est décrite comme adaptée à la comparaison d'une petite population à une grande population de référence."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle aboutit à un taux global appelé taux standardisé de mortalité (TSM).",
+            "justification": "On obtient un taux global, le TSM, après application des taux par âge de la population étudiée à la population de référence."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle compare le nombre de décès observés au nombre de décès attendus.",
+            "justification": "La comparaison observés/attendus est la base de la standardisation indirecte, pas de la directe."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle nécessite de disposer des taux de mortalité spécifiques par âge de la population étudiée.",
+            "justification": "La définition repose sur l'utilisation des taux spécifiques par âge de la population étudiée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917356943_03",
+      "current_version_epoch_ms": 1754917356943,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "À propos de la standardisation indirecte et du SMR/SIR, cochez les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle calcule des décès attendus en appliquant les taux par âge de la grande population de référence à la petite population étudiée.",
+            "justification": "La méthode indirecte consiste à appliquer les taux de la grande population de référence à la petite population pour obtenir les décès attendus."
+          },
+          {
+            "correct": true,
+            "proposition": "Le SMR (ou SIR) est le ratio nombre de cas observés / nombre de cas attendus.",
+            "justification": "Le ratio observés/attendus définit le SMR (ou SIR)."
+          },
+          {
+            "correct": false,
+            "proposition": "Un SMR égal à 1 traduit une surmortalité de 100 %.",
+            "justification": "Un SMR de 1 signifie une mortalité identique à la référence ; la surmortalité correspond à un SMR supérieur à 1."
+          },
+          {
+            "correct": true,
+            "proposition": "Un SMR inférieur à 1 indique une mortalité plus faible que la référence.",
+            "justification": "Il est précisé qu'un SMR < 1 traduit une mortalité plus faible dans la population étudiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Par convention, on multiplie le SMR par 10 pour l'exprimer en pourcentage.",
+            "justification": "La convention mentionnée est une multiplication par 100 pour obtenir un pourcentage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917356943_04",
+      "current_version_epoch_ms": 1754917356943,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Dans une petite population, 30 décès sont observés alors que 20 décès sont attendus après application des taux de la grande population de référence. Quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le SMR est égal à 1,5.",
+            "justification": "SMR = observés/attendus = 30/20 = 1,5."
+          },
+          {
+            "correct": true,
+            "proposition": "Exprimé en pourcentage, le SMR vaut 150 %.",
+            "justification": "Par convention, on multiplie par 100 : 1,5 × 100 = 150 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce résultat indique une surmortalité de 50 % par rapport à la référence.",
+            "justification": "Un SMR de 150 % correspond à une surmortalité de 50 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La mortalité est identique à la référence.",
+            "justification": "Une mortalité identique correspond à SMR = 1, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "La méthode employée est une standardisation directe.",
+            "justification": "La comparaison observés/attendus caractérise la standardisation indirecte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917356943_05",
+      "current_version_epoch_ms": 1754917356943,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Comparabilité des populations en épidémiologie descriptive : identifiez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Des différences de structure en âge peuvent interdire des comparaisons directes.",
+            "justification": "La structure en âge conditionne la survenue des problèmes de santé et rend les comparaisons non pertinentes sans ajustement."
+          },
+          {
+            "correct": true,
+            "proposition": "La répartition par sexe influence la survenue des problèmes de santé.",
+            "justification": "La répartition par sexe est citée avec l'âge comme facteur nécessitant une standardisation."
+          },
+          {
+            "correct": true,
+            "proposition": "La standardisation (directe ou indirecte) permet d'obtenir la comparabilité nécessaire aux comparaisons.",
+            "justification": "Il est indiqué que la comparabilité des observations s'obtient par la standardisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Comparer des populations de structures différentes sans standardiser est d'emblée inapproprié.",
+            "justification": "Il est précisé que ces différences interdisent d'emblée toute comparaison."
+          },
+          {
+            "correct": false,
+            "proposition": "La standardisation indirecte compare des TSM obtenus dans chaque population.",
+            "justification": "La méthode indirecte produit un ratio observés/attendus (SMR/SIR), pas un TSM."
+          }
+        ]
+      }
+    }
+  ]
+}

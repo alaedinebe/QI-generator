@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "santepop",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754917750289_01",
+      "current_version_epoch_ms": 1754917750289,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques qui définissent correctement l'espérance de vie sans incapacité (EVSI).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nombre d'années sans incapacité restant à vivre en moyenne à un groupe, dans les conditions de mortalité d'une période donnée.",
+            "justification": "L'EVSI est définie comme le nombre d'années sans incapacité qu'il resterait à vivre en moyenne, dans les conditions de mortalité d'une période donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure la durée de vie totale, toutes années confondues.",
+            "justification": "L'EVSI ne mesure pas la durée de vie totale ; elle porte uniquement sur les années sans incapacité."
+          },
+          {
+            "correct": true,
+            "proposition": "Équivaut à l'espérance de vie retranchée des années de vie en incapacité.",
+            "justification": "L'EVSI correspond à l'espérance de vie à laquelle on soustrait les années de vie en incapacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Est synonyme d'espérance de vie à 65 ans.",
+            "justification": "L'EVSI n'est pas une espérance de vie à un âge donné ; c'est une durée de vie sans incapacité."
+          },
+          {
+            "correct": true,
+            "proposition": "Est aussi appelée « espérance de vie en bonne santé » ou « espérance de santé ».",
+            "justification": "L'EVSI est également nommée « espérance de vie en bonne santé » ou « espérance de santé »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917750289_02",
+      "current_version_epoch_ms": 1754917750289,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Reconnaître les appellations équivalentes de l'EVSI.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Espérance de vie en bonne santé.",
+            "justification": "Cette appellation est donnée comme synonyme de l'EVSI."
+          },
+          {
+            "correct": true,
+            "proposition": "Espérance de santé.",
+            "justification": "Cette appellation est également indiquée comme synonyme."
+          },
+          {
+            "correct": true,
+            "proposition": "EVSI (espérance de vie sans incapacité).",
+            "justification": "Il s'agit de l'acronyme et de la dénomination principale."
+          },
+          {
+            "correct": false,
+            "proposition": "Espérance de vie à la naissance (toutes années confondues).",
+            "justification": "L'EV à la naissance inclut toutes les années, alors que l'EVSI porte sur les années sans incapacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Espérance de vie sans maladie chronique.",
+            "justification": "Cette appellation n'est pas donnée comme synonyme ; l'EVSI porte sur l'absence d'incapacité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917750289_03",
+      "current_version_epoch_ms": 1754917750289,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Concernant la France en 2019, identifier les affirmations exactes à propos de l'EVSI à la naissance.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez les femmes, l'EVSI à la naissance est de 64,6 ans.",
+            "justification": "La valeur indiquée pour les femmes est 64,6 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez les hommes, l'EVSI à la naissance est de 63,7 ans.",
+            "justification": "La valeur indiquée pour les hommes est 63,7 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les hommes, l'EVSI à la naissance est supérieure à celle des femmes.",
+            "justification": "Les valeurs montrent 63,7 ans chez les hommes et 64,6 ans chez les femmes ; elle n'est donc pas supérieure chez les hommes."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les deux sexes, l'EVSI à la naissance est d'au moins 70 ans.",
+            "justification": "Les valeurs rapportées (64,6 et 63,7 ans) sont toutes inférieures à 70 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Les valeurs citées se rapportent à la naissance.",
+            "justification": "Il est précisé que ces EVSI sont « à la naissance »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917750289_04",
+      "current_version_epoch_ms": 1754917750289,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Classer les propositions suivantes selon qu'elles décrivent correctement le principe de l'EVSI.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Correspond à l'espérance de vie retranchée des années de vie en incapacité.",
+            "justification": "C'est la définition donnée de l'EVSI."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne dépend pas des conditions de mortalité d'une période donnée.",
+            "justification": "Il est précisé que l'EVSI s'exprime dans les conditions de mortalité d'une période donnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Représente le nombre d'années sans incapacité restant à vivre en moyenne à un groupe.",
+            "justification": "Cette formulation reprend la définition de l'EVSI."
+          },
+          {
+            "correct": false,
+            "proposition": "S'obtient en additionnant l'espérance de vie et les années de vie en incapacité.",
+            "justification": "Le principe est soustractif (EV − années en incapacité), pas additif."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure l'espérance de vie totale.",
+            "justification": "Elle mesure les années sans incapacité, pas la totalité des années de vie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754917750289_05",
+      "current_version_epoch_ms": 1754917750289,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "À partir des valeurs françaises de 2019, déterminer les affirmations justes concernant l'écart d'EVSI entre femmes et hommes à la naissance.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'EVSI à la naissance est plus élevée chez les femmes que chez les hommes.",
+            "justification": "64,6 ans chez les femmes contre 63,7 ans chez les hommes."
+          },
+          {
+            "correct": true,
+            "proposition": "L'écart entre femmes et hommes est d'environ 0,9 an.",
+            "justification": "64,6 − 63,7 = 0,9 an."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux valeurs sont identiques.",
+            "justification": "Les valeurs diffèrent (64,6 vs 63,7 ans)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'EVSI à la naissance est plus élevée chez les hommes.",
+            "justification": "La valeur masculine (63,7 ans) est inférieure à la valeur féminine (64,6 ans)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'écart dépasse 2 ans.",
+            "justification": "La différence calculée est de 0,9 an, inférieure à 2 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "contraception",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754959108959_01",
+      "current_version_epoch_ms": 1754959108959,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant des antécédents de thrombose veineuse, quelles propositions concernant la prescription de contraception sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les contraceptifs oraux combinés sont contre-indiqués",
+            "justification": "Les antécédents de thrombose veineuse constituent une contre-indication aux contraceptifs oraux combinés en raison du risque thrombo-embolique accru."
+          },
+          {
+            "correct": false,
+            "proposition": "Les contraceptifs oraux combinés peuvent être prescrits après 1 an sans récidive",
+            "justification": "Même après une longue période sans récidive, le risque thrombo-embolique reste élevé et les contraceptifs oraux combinés restent contre-indiqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Une contraception progestative seule peut être envisagée",
+            "justification": "Les contraceptifs progestatifs seuls sont généralement considérés comme une option plus sûre pour les femmes à risque thrombo-embolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dispositifs intra-utérins au cuivre sont contre-indiqués",
+            "justification": "Les dispositifs intra-utérins au cuivre n'augmentent pas le risque thrombo-embolique et ne sont pas contre-indiqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Un dispositif intra-utérin au cuivre est une option contraceptive adaptée",
+            "justification": "Les DIU au cuivre n'ont pas d'impact sur le risque vasculaire et constituent une option appropriée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754959108959_02",
+      "current_version_epoch_ms": 1754959108959,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Parmi les médicaments suivants, lesquels peuvent diminuer l'efficacité contraceptive des contraceptifs oraux combinés en tant qu'inducteurs enzymatiques puissants ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Carbamazépine",
+            "justification": "La carbamazépine est un antiépileptique fortement inducteur enzymatique, diminuant l'efficacité des contraceptifs oraux combinés."
+          },
+          {
+            "correct": true,
+            "proposition": "Rifampicine",
+            "justification": "La rifampicine est un antibiotique puissant inducteur enzymatique, réduisant l'efficacité des contraceptifs oraux combinés."
+          },
+          {
+            "correct": false,
+            "proposition": "Lamotrigine",
+            "justification": "La lamotrigine ne diminue pas l'efficacité contraceptive, mais c'est l'efficacité pharmacologique de la lamotrigine qui peut être réduite par les contraceptifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Efavirenz",
+            "justification": "L'efavirenz, un antirétroviral, est un puissant inducteur enzymatique réduisant l'efficacité des contraceptifs oraux combinés."
+          },
+          {
+            "correct": false,
+            "proposition": "Méprobamate",
+            "justification": "Le méprobamate est un inducteur faible, et non puissant, de l'enzyme hépatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754959108959_03",
+      "current_version_epoch_ms": 1754959108959,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant eu un infarctus du myocarde, quelles sont les options contraceptives appropriées ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Contraceptifs oraux combinés",
+            "justification": "Les contraceptifs oraux combinés sont contre-indiqués en cas d'antécédent d'accident artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Dispositif intra-utérin au cuivre",
+            "justification": "Le DIU au cuivre n'augmente pas le risque cardiovasculaire et peut être utilisé en toute sécurité."
+          },
+          {
+            "correct": true,
+            "proposition": "Contraception progestative seule",
+            "justification": "Les progestatifs seuls peuvent être utilisés chez les patientes ayant un antécédent d'accident artériel."
+          },
+          {
+            "correct": false,
+            "proposition": "Anneau vaginal combiné",
+            "justification": "L'anneau vaginal combiné contient œstrogène et est contre-indiqué chez les femmes à risque artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Préservatifs",
+            "justification": "Les méthodes barrières ne présentent pas de risque cardiovasculaire et peuvent être proposées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754959108959_04",
+      "current_version_epoch_ms": 1754959108959,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Parmi les substances suivantes, lesquelles sont considérées comme des inducteurs enzymatiques faibles diminuant l'efficacité des contraceptifs oraux combinés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Griséofulvine",
+            "justification": "La griséofulvine est un antifongique inducteur enzymatique faible pouvant diminuer l'efficacité des contraceptifs oraux combinés."
+          },
+          {
+            "correct": false,
+            "proposition": "Bosentan",
+            "justification": "Le bosentan est un vasodilatateur et un puissant inducteur, non un inducteur faible."
+          },
+          {
+            "correct": true,
+            "proposition": "Modafinil",
+            "justification": "Le modafinil est un psychostimulant inducteur enzymatique faible pouvant réduire l'efficacité contraceptive."
+          },
+          {
+            "correct": true,
+            "proposition": "Méprobamate",
+            "justification": "Le méprobamate est un sédatif inducteur faible pouvant diminuer l'efficacité des contraceptifs oraux combinés."
+          },
+          {
+            "correct": true,
+            "proposition": "Aprépitant",
+            "justification": "L'aprépitant est un antiémétique inducteur faible réduisant l'efficacité contraceptive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754959108959_05",
+      "current_version_epoch_ms": 1754959108959,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quel est l'impact des contraceptifs oraux combinés sur la lamotrigine ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Ils augmentent les concentrations plasmatiques de lamotrigine",
+            "justification": "Les contraceptifs oraux combinés diminuent, et non augmentent, les concentrations plasmatiques de lamotrigine."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils diminuent l'effet pharmacologique de la lamotrigine",
+            "justification": "Les contraceptifs oraux combinés peuvent réduire l'effet pharmacologique de la lamotrigine, augmentant le risque de recrudescence des crises d'épilepsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils n'ont aucun impact sur la lamotrigine",
+            "justification": "Les contraceptifs oraux combinés ont un impact sur la lamotrigine en réduisant son efficacité."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils peuvent entraîner un risque de recrudescence des crises d'épilepsie",
+            "justification": "La diminution de l'efficacité de la lamotrigine par les contraceptifs oraux combinés peut provoquer une recrudescence des crises."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils augmentent la demi-vie de la lamotrigine",
+            "justification": "Les contraceptifs oraux combinés diminuent l'efficacité de la lamotrigine, sans augmenter sa demi-vie."
+          }
+        ]
+      }
+    }
+  ]
+}

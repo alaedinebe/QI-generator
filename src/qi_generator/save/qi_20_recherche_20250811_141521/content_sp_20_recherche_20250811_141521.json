@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754914712944_01",
+      "current_version_epoch_ms": 1754914712944,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer des recherches selon la loi Jardé : identifier les caractéristiques des RIPH 1, 2 et 3.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La RIPH de catégorie 1 comporte une intervention non justifiée par la prise en charge habituelle et non dénuée de risque.",
+            "justification": "Elle correspond notamment aux études d'efficacité et d'innocuité des médicaments ou dispositifs médicaux."
+          },
+          {
+            "correct": false,
+            "proposition": "La RIPH de catégorie 2 inclut les recherches sur le médicament si celui-ci est utilisé de manière habituelle.",
+            "justification": "Les recherches sur le médicament et les dispositifs médicaux relèvent de la catégorie 1, même s'ils sont utilisés de manière habituelle."
+          },
+          {
+            "correct": true,
+            "proposition": "La RIPH de catégorie 3 n'ajoute aucune procédure supplémentaire de diagnostic, traitement ou surveillance.",
+            "justification": "Tous les actes sont pratiqués et les produits utilisés conformément à la pratique courante, sans procédure supplémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La RIPH de catégorie 2 correspond aux études d'efficacité des dispositifs médicaux.",
+            "justification": "Les études d'efficacité/innocuité des dispositifs médicaux sont citées comme exemples de catégorie 1."
+          },
+          {
+            "correct": true,
+            "proposition": "La RIPH de catégorie 3 implique des produits utilisés conformément à la pratique courante, sans risque ni contrainte supplémentaire.",
+            "justification": "Elle est définie sans aucun risque ni contrainte additionnels et dans le cadre habituel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754914712944_02",
+      "current_version_epoch_ms": 1754914712944,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier « expérimentale » et « interventionnelle » selon le cadre réglementaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toutes les études expérimentales sont interventionnelles.",
+            "justification": "Il est précisé que toutes les études expérimentales relèvent des études interventionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les études interventionnelles sont expérimentales.",
+            "justification": "Il existe des études interventionnelles qui ne sont pas expérimentales."
+          },
+          {
+            "correct": true,
+            "proposition": "Une étude observationnelle peut être qualifiée d'interventionnelle si des méthodes de recueil spécifiques sont utilisées uniquement pour l'étude.",
+            "justification": "L'usage de méthodes de recueil dédiées à l'étude peut conduire à la qualifier d'interventionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Modifier le calendrier de suivi médical pour les besoins de l'étude peut conduire à qualifier l'étude d'interventionnelle.",
+            "justification": "La modification du calendrier de suivi pour l'étude est citée comme motif de qualification interventionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Une étude peut être interventionnelle sans être expérimentale lorsqu'il n'y a pas de modification de la nature ou des niveaux du facteur d'exposition.",
+            "justification": "L'absence de modification du facteur d'exposition explique qu'elle ne soit pas expérimentale malgré son caractère interventionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754914712944_03",
+      "current_version_epoch_ms": 1754914712944,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les rôles du promoteur, de l'investigateur et du CPP dans une RIPH.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le promoteur prend l'initiative, assure la gestion, vérifie le financement et est le responsable légal de la recherche.",
+            "justification": "Ces attributions sont explicitement listées pour le promoteur."
+          },
+          {
+            "correct": true,
+            "proposition": "Toute RIPH doit bénéficier d'une promotion.",
+            "justification": "Il est indiqué que toute recherche impliquant la personne humaine bénéficie d'une promotion."
+          },
+          {
+            "correct": false,
+            "proposition": "L'investigateur est une personne morale qui dirige et surveille la recherche sur un lieu.",
+            "justification": "L'investigateur est défini comme une personne physique."
+          },
+          {
+            "correct": true,
+            "proposition": "Toute RIPH doit obtenir une autorisation d'un Comité de Protection des Personnes avant de débuter.",
+            "justification": "L'obtention d'une autorisation par un CPP est requise avant le démarrage."
+          },
+          {
+            "correct": false,
+            "proposition": "Les autorisations CNIL et ANSM exigées sont identiques quelle que soit la catégorie de RIPH.",
+            "justification": "La nature et la complexité des autorisations auprès d'autres organismes dépendent de la catégorie de RIPH."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754914712944_04",
+      "current_version_epoch_ms": 1754914712944,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les exigences d'information et de consentement selon la catégorie de RIPH.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'information préalable des individus doit être adaptée, complète, loyale et compréhensible.",
+            "justification": "Ces qualités d'information sont exigées avant toute inclusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Le consentement éclairé est obligatoire pour les RIPH de catégories 1 et 2 avant inclusion.",
+            "justification": "Il est spécifié que le consentement éclairé est requis pour ces catégories."
+          },
+          {
+            "correct": true,
+            "proposition": "La non-opposition est la modalité requise pour les RIPH de catégorie 3 avant inclusion.",
+            "justification": "Il est indiqué que la non-opposition s'applique aux RIPH de catégorie 3."
+          },
+          {
+            "correct": false,
+            "proposition": "L'information n'est pas obligatoire pour les RIPH à risques et contraintes minimes.",
+            "justification": "L'information est obligatoire avant toute inclusion, quelle que soit la catégorie."
+          },
+          {
+            "correct": false,
+            "proposition": "La non-opposition peut remplacer le consentement éclairé pour les RIPH de catégorie 2.",
+            "justification": "La non-opposition est réservée à la catégorie 3 ; les catégories 1 et 2 requièrent un consentement éclairé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754914712944_05",
+      "current_version_epoch_ms": 1754914712944,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer des situations en « RIPH » vs « non-RIPH » et reconnaître les implications réglementaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les recherches non-RIPH n'entrent pas dans le champ de la loi Jardé.",
+            "justification": "Elles n'appartiennent à aucun type de RIPH et ne relèvent pas de cette loi."
+          },
+          {
+            "correct": true,
+            "proposition": "Les recherches non-RIPH ne nécessitent pas d'autorisation par un CPP.",
+            "justification": "Elles ne sont pas soumises à l'obtention d'une autorisation par un CPP."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'elles exploitent des données personnelles, des démarches auprès de la CNIL sont requises.",
+            "justification": "L'exploitation de données individuelles à caractère personnel relève de la CNIL."
+          },
+          {
+            "correct": true,
+            "proposition": "Les recherches rétrospectives à partir de données de soin peuvent relever de ce cadre.",
+            "justification": "Elles sont citées parmi les exemples de recherches non-RIPH."
+          },
+          {
+            "correct": false,
+            "proposition": "Les expérimentations en sciences humaines et sociales en santé relèvent nécessairement des RIPH.",
+            "justification": "Elles sont mentionnées comme exemples de recherches non-RIPH."
+          }
+        ]
+      }
+    }
+  ]
+}

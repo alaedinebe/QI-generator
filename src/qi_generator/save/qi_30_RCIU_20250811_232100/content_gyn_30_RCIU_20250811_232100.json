@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "RCIU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754947456775_01",
+      "current_version_epoch_ms": 1754947456775,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Définir précisément la prématurité telle qu'attendue en obstétrique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Naissance survenue avant 37 SA ; et, à partir de 22 SA, d'un enfant de poids ≥ 500 g.",
+            "justification": "La définition combine un seuil d'âge gestationnel (< 37 SA) et un critère de poids applicable à partir de 22 SA (≥ 500 g)."
+          },
+          {
+            "correct": false,
+            "proposition": "Naissance survenue avant 36 SA, quel que soit le poids.",
+            "justification": "Le seuil défini est avant 37 SA, et non avant 36 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Naissance à 38 SA si le poids de naissance est < 2 500 g.",
+            "justification": "Un terme ≥ 37 SA ne correspond pas à une naissance prématurée, indépendamment du poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Naissance avant 22 SA quel que soit le poids.",
+            "justification": "Le critère de poids (≥ 500 g) s'applique à partir de 22 SA ; avant ce terme, la définition rapportée n'est pas retenue ici."
+          },
+          {
+            "correct": true,
+            "proposition": "Naissance entre 22 SA et avant 37 SA avec un poids ≥ 500 g.",
+            "justification": "Cette formulation opérationnalise la définition en combinant l'intervalle d’âge gestationnel et le seuil de poids à partir de 22 SA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947456775_02",
+      "current_version_epoch_ms": 1754947456775,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Différencier les situations relevant d'une prématurité induite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prééclampsie avec hypertension gravidique et protéinurie.",
+            "justification": "Les pathologies maternelles fœto-maternelles (dont la prééclampsie) conduisent à décider d'une naissance induite."
+          },
+          {
+            "correct": false,
+            "proposition": "Mise en travail spontanée à membranes intactes.",
+            "justification": "La mise en travail spontanée caractérise la prématurité spontanée, non induite."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématome rétroplacentaire.",
+            "justification": "Il fait partie des causes pouvant conduire à décider la naissance par intervention médicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Conisation cervicale antérieure.",
+            "justification": "La conisation est un facteur de risque de prématurité (environnement utérin), pas une indication directe à une naissance induite."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance respiratoire maternelle sévère.",
+            "justification": "Une pathologie maternelle grave pouvant nécessiter la naissance (déclenchement ou césarienne) relève de la prématurité induite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947456775_03",
+      "current_version_epoch_ms": 1754947456775,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants : identifier ceux qui relèvent des facteurs de risque de prématurité liés à l'environnement utérin.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection amnio-choriale (notamment en cas de rupture prématurée des membranes précoce).",
+            "justification": "Elle est explicitement incluse parmi les facteurs de risque liés à l'environnement utérin."
+          },
+          {
+            "correct": true,
+            "proposition": "Malformations utérines.",
+            "justification": "Les anomalies de l'utérus sont listées au titre de l'environnement utérin."
+          },
+          {
+            "correct": false,
+            "proposition": "Grossesses multiples.",
+            "justification": "Les grossesses multiples sont classées parmi les facteurs intrinsèques à la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Conisation.",
+            "justification": "La conisation figure parmi les facteurs liés à l'environnement utérin."
+          },
+          {
+            "correct": false,
+            "proposition": "Célibat et bas niveau socio-économique.",
+            "justification": "Ces éléments relèvent des facteurs de risque socio-démographiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947456775_04",
+      "current_version_epoch_ms": 1754947456775,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Reconnaître la situation qui augmente fortement le risque d'infection amnio-choriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rupture prématurée des membranes précoce.",
+            "justification": "Le risque d'infection amnio-choriale est très augmenté en cas de rupture prématurée des membranes précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Travail spontané à membranes intactes.",
+            "justification": "La présence de membranes intactes ne correspond pas à la situation d’augmentation majeure rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Prééclampsie.",
+            "justification": "La prééclampsie peut conduire à une naissance induite mais n'est pas citée comme facteur majeur d'infection amnio-choriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Placenta praevia.",
+            "justification": "C'est un facteur intrinsèque à la grossesse, sans mention d'augmentation marquée du risque infectieux amnio-chorial."
+          },
+          {
+            "correct": false,
+            "proposition": "Hydramnios.",
+            "justification": "Facteur intrinsèque à la grossesse, non identifié ici comme augmentant fortement le risque d'infection amnio-choriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947456775_05",
+      "current_version_epoch_ms": 1754947456775,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Apprécier la répartition des naissances prématurées en France entre prématurité spontanée et prématurité induite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ pour moitié liées à une prématurité spontanée et pour moitié à une prématurité induite.",
+            "justification": "La répartition rapportée est équilibrée entre les deux formes."
+          },
+          {
+            "correct": false,
+            "proposition": "Près de 80 % sont induites.",
+            "justification": "Une proportion aussi dominante n'est pas rapportée ; la répartition est à parts égales."
+          },
+          {
+            "correct": false,
+            "proposition": "Près de 70 % sont spontanées.",
+            "justification": "La proportion présentée est d'environ la moitié, pas 70 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La totalité des prématurités sont spontanées.",
+            "justification": "La prématurité induite représente environ la moitié des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "La totalité des prématurités sont induites.",
+            "justification": "La prématurité spontanée représente environ la moitié des cas."
+          }
+        ]
+      }
+    }
+  ]
+}

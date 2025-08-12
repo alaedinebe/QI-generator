@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "Mgenetiques",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754980063272_01",
+      "current_version_epoch_ms": 1754980063272,
+      "topic": {
+        "subject": "ped",
+        "item": "Mgenetiques"
+      },
+      "data": {
+        "statement": "Chez un patient atteint de mucoviscidose, quelle est l'indication principale d'une radiographie pulmonaire dans le cadre du suivi respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins une fois par an",
+            "justification": "La radiographie pulmonaire est indiquée de façon annuelle dans le suivi respiratoire du patient atteint de mucoviscidose."
+          },
+          {
+            "correct": true,
+            "proposition": "Devant l'apparition d'un nouveau symptôme respiratoire",
+            "justification": "Une radiographie pulmonaire doit être réalisée en cas de survenue d'un nouveau symptôme respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les trois mois, quelle que soit la situation clinique",
+            "justification": "Il n'est pas indiqué de réaliser systématiquement une radiographie pulmonaire tous les trois mois, mais plutôt annuellement ou en cas de nouveau symptôme."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de suspicion d'infection pulmonaire",
+            "justification": "L'indication ne se limite pas aux suspicions d'infection, elle inclut le suivi annuel et tout nouveau symptôme respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement à l'aggravation d'une exacerbation connue",
+            "justification": "La radiographie est aussi indiquée en suivi annuel et devant tout nouveau symptôme, pas seulement lors d'une aggravation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754980063272_02",
+      "current_version_epoch_ms": 1754980063272,
+      "topic": {
+        "subject": "ped",
+        "item": "Mgenetiques"
+      },
+      "data": {
+        "statement": "Dans le suivi respiratoire d'un patient atteint de mucoviscidose, quand envisager la réalisation d'un scanner thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En fonction de l'état de santé du patient",
+            "justification": "La décision de réaliser un scanner thoracique dépend de l'état de santé global du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'aggravation clinique",
+            "justification": "Un scanner thoracique est indiqué devant une aggravation de l'état respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "En situation d'urgence",
+            "justification": "En cas d'urgence, un scanner thoracique peut être réalisé pour préciser le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "De façon mensuelle dans le suivi de routine",
+            "justification": "Il n'y a pas d'indication à réaliser un scanner thoracique mensuellement en dehors de contextes cliniques spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement après un angio-scan",
+            "justification": "Le scanner thoracique peut être réalisé sans qu'un angio-scan ait été effectué au préalable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754980063272_03",
+      "current_version_epoch_ms": 1754980063272,
+      "topic": {
+        "subject": "ped",
+        "item": "Mgenetiques"
+      },
+      "data": {
+        "statement": "Quels examens peuvent compléter un scanner thoracique chez un patient atteint de mucoviscidose en cas d'aggravation ou d'urgence respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM pulmonaire",
+            "justification": "En cas d'aggravation ou d'urgence, un scanner thoracique peut être complété par une IRM pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Angio-scan",
+            "justification": "L'angio-scan est également un examen complémentaire possible en cas d'aggravation ou d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie abdominale",
+            "justification": "La radiographie abdominale n'est pas indiquée dans l'évaluation respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie bronchique systématique",
+            "justification": "La fibroscopie bronchique n'est pas indiquée de façon systématique en cas d'aggravation respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Échodoppler hépatique",
+            "justification": "L'échodoppler hépatique concerne la surveillance digestive, non respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754980063272_04",
+      "current_version_epoch_ms": 1754980063272,
+      "topic": {
+        "subject": "ped",
+        "item": "Mgenetiques"
+      },
+      "data": {
+        "statement": "Dans le suivi digestif d'un patient atteint de mucoviscidose, quelle est l'indication principale de l'échodoppler hépatique et digestif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation annuelle",
+            "justification": "L'échodoppler hépatique et digestif est recommandé une fois par an dans le suivi digestif."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation tous les trois mois",
+            "justification": "Il n'est pas nécessaire de réaliser un échodoppler tous les trois mois en dehors d'une urgence ou d'une aggravation."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement en cas de douleurs abdominales",
+            "justification": "L'indication est annuelle même en l'absence de symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'aggravation clinique",
+            "justification": "Une aggravation clinique justifie la réalisation d'un échodoppler."
+          },
+          {
+            "correct": true,
+            "proposition": "En situation d'urgence",
+            "justification": "En cas d'urgence digestive, un échodoppler peut être réalisé pour évaluer la situation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754980063272_05",
+      "current_version_epoch_ms": 1754980063272,
+      "topic": {
+        "subject": "ped",
+        "item": "Mgenetiques"
+      },
+      "data": {
+        "statement": "Quels examens peuvent compléter un échodoppler hépatique et digestif en cas d'urgence ou d'aggravation chez un patient atteint de mucoviscidose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM abdominale",
+            "justification": "Une IRM abdominale peut compléter l'échodoppler en cas d'urgence ou d'aggravation."
+          },
+          {
+            "correct": true,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal est également indiqué comme examen complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "La radiographie pulmonaire concerne la surveillance respiratoire, non digestive."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie œsogastroduodénale systématique",
+            "justification": "La fibroscopie n'est pas indiquée de façon systématique dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral",
+            "justification": "Le scanner cérébral n'a pas d'indication dans l'évaluation digestive d'un patient atteint de mucoviscidose."
+          }
+        ]
+      }
+    }
+  ]
+}

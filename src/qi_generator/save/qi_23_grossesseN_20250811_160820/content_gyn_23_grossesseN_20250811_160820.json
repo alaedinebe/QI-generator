@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grossesseN",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754921497024_01",
+      "current_version_epoch_ms": 1754921497024,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Identifier les périodes bénéficiant d'une prise en charge à 100 % au titre de l'assurance maternité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Du 1er jour du 6e mois de grossesse jusqu'à 12 jours après l'accouchement",
+            "justification": "Période explicitement indiquée comme prise en charge à 100 % pour tous les frais médicaux remboursables et les frais pharmaceutiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Du 1er au 5e mois de grossesse",
+            "justification": "Pendant cette période, les frais médicaux et pharmaceutiques sont remboursés aux tarifs habituels de la Sécurité sociale."
+          },
+          {
+            "correct": true,
+            "proposition": "La consultation post-natale réalisée entre 6 et 8 semaines",
+            "justification": "Cette consultation est explicitement mentionnée comme prise en charge à 100 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute la grossesse, du 1er mois à l'accouchement",
+            "justification": "La prise en charge à 100 % ne débute qu'au 1er jour du 6e mois, pas dès le 1er mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement le jour de l'accouchement et les 48 heures suivantes",
+            "justification": "La période de 100 % s'étend jusqu'au 12e jour après l'accouchement, pas seulement 48 heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754921497024_02",
+      "current_version_epoch_ms": 1754921497024,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Différencier les modalités de remboursement entre le 1er et le 5e mois de grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les frais médicaux et pharmaceutiques sont remboursés aux tarifs habituels de la Sécurité sociale",
+            "justification": "Formulation textuelle exacte pour la période du 1er au 5e mois."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise en charge est de 100 % pour tous les frais remboursables",
+            "justification": "Le 100 % ne s'applique qu'à partir du 1er jour du 6e mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les frais liés à la grossesse sont remboursés aux tarifs habituels",
+            "justification": "Il est indiqué « frais médicaux et pharmaceutiques » sans restriction au lien avec la grossesse pour cette période."
+          },
+          {
+            "correct": false,
+            "proposition": "Les frais pharmaceutiques ne sont pas remboursés",
+            "justification": "Ils sont inclus dans les remboursements aux tarifs habituels du 1er au 5e mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune prise en charge n'est prévue",
+            "justification": "Une prise en charge existe : aux tarifs habituels sur cette période."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754921497024_03",
+      "current_version_epoch_ms": 1754921497024,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Reconnaître l'étendue de la prise en charge à 100 % à partir du 6e mois.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les frais médicaux remboursables, qu'ils soient en rapport ou non avec la grossesse",
+            "justification": "Il est précisé que la prise en charge à 100 % concerne tous les frais médicaux remboursables, en lien ou non."
+          },
+          {
+            "correct": false,
+            "proposition": "Les frais pharmaceutiques sont exclus",
+            "justification": "Les frais pharmaceutiques sont explicitement inclus dans la prise en charge à 100 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Seules les consultations prénatales sont concernées",
+            "justification": "La portée est plus large : tous les frais médicaux remboursables et les frais pharmaceutiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Les soins non liés à la grossesse sont également couverts",
+            "justification": "La mention « en rapport ou non avec la grossesse » inclut ces soins dans le 100 %."
+          },
+          {
+            "correct": true,
+            "proposition": "La consultation post-natale à 6–8 semaines est à 100 %",
+            "justification": "Cette consultation est explicitement indiquée comme prise en charge à 100 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754921497024_04",
+      "current_version_epoch_ms": 1754921497024,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Définir les principes relatifs au congé maternité et aux indemnités journalières.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La durée du congé maternité est aménagée selon la situation familiale",
+            "justification": "Il est indiqué que la durée est ajustée en fonction de la situation familiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Une salariée peut bénéficier d'indemnités journalières pendant son congé maternité sous réserve de conditions",
+            "justification": "C'est explicitement indiqué, sous réserve de remplir les conditions requises."
+          },
+          {
+            "correct": false,
+            "proposition": "Une allocataire de Pôle emploi ne peut pas bénéficier d'indemnités journalières",
+            "justification": "Il est précisé qu'une allocataire de Pôle emploi peut en bénéficier si les conditions sont remplies."
+          },
+          {
+            "correct": false,
+            "proposition": "Les indemnités journalières sont versées sans condition",
+            "justification": "Le versement est soumis au respect de conditions requises."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée du congé maternité est identique pour toutes les femmes",
+            "justification": "La durée varie selon la situation familiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754921497024_05",
+      "current_version_epoch_ms": 1754921497024,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Classer des situations selon la modalité de prise en charge en fonction de la période.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consultation médicale au 3e mois de grossesse : remboursement aux tarifs habituels",
+            "justification": "Du 1er au 5e mois, les frais médicaux sont remboursés aux tarifs habituels."
+          },
+          {
+            "correct": false,
+            "proposition": "Achat de médicaments au 2e mois : prise en charge à 100 %",
+            "justification": "Avant le 6e mois, les frais pharmaceutiques relèvent des tarifs habituels, pas du 100 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Soins médicaux non liés à la grossesse au 7e mois : prise en charge à 100 %",
+            "justification": "À partir du 6e mois, tous les frais médicaux remboursables, en rapport ou non avec la grossesse, sont à 100 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Soins médicaux à J+10 après l'accouchement : prise en charge à 100 %",
+            "justification": "La prise en charge à 100 % s'étend jusqu'au 12e jour post-accouchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Consultation post-natale à 7 semaines : non prise en charge à 100 %",
+            "justification": "La consultation post-natale entre 6 et 8 semaines est explicitement à 100 %."
+          }
+        ]
+      }
+    }
+  ]
+}

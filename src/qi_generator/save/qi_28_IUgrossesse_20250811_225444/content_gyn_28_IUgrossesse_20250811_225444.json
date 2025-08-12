@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IUgrossesse",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754945881372_01",
+      "current_version_epoch_ms": 1754945881372,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Concernant la prise en charge initiale d'une pyélonéphrite aiguë gravidique sans signe de gravité, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une hospitalisation initiale est indiquée.",
+            "justification": "La prise en charge sans critères de gravité comporte une hospitalisation initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Le traitement probabiliste doit être initié en urgence dès la BU ou l'ECBU.",
+            "justification": "Le traitement anti-infectieux probabiliste est à instaurer en urgence dès la BU/ECBU."
+          },
+          {
+            "correct": true,
+            "proposition": "La 1re intention repose sur une C3G IV (céfotaxime ou ceftriaxone).",
+            "justification": "Les C3G IV (céfotaxime, ceftriaxone) sont recommandées en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'allergie aux C3G, l'aztréonam est une alternative réservée au milieu hospitalier.",
+            "justification": "L'aztréonam est mentionné comme option en cas d'allergie aux C3G, uniquement en hospitalier."
+          },
+          {
+            "correct": false,
+            "proposition": "La ciprofloxacine est à privilégier chez les patientes ayant reçu des quinolones dans les 6 derniers mois.",
+            "justification": "La ciprofloxacine est à éviter en cas de traitement par quinolones dans les 6 derniers mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945881372_02",
+      "current_version_epoch_ms": 1754945881372,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "En présence de signes de gravité (sepsis sévère, insuffisance rénale obstructive), reconnaître les éléments de prise en charge recommandés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une hospitalisation systématique est nécessaire.",
+            "justification": "La conduite à tenir en cas de gravité comporte une hospitalisation systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une bi-antibiothérapie probabiliste doit être instaurée d'emblée.",
+            "justification": "La stratégie recommande une bi-antibiothérapie en urgence dès la BU/ECBU."
+          },
+          {
+            "correct": true,
+            "proposition": "Un aminoside est ajouté pour une durée brève (maximum 48 h) afin de limiter la toxicité fœtale rénale et auditive.",
+            "justification": "Il est précisé d'ajouter un aminoside pour un maximum de 48 heures pour le rein et l'oreille fœtales."
+          },
+          {
+            "correct": true,
+            "proposition": "Un drainage chirurgical en urgence s'impose s'il existe un obstacle, sous antibiothérapie.",
+            "justification": "Un drainage chirurgical en urgence est recommandé en cas d'obstacle, sous couverture antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une monothérapie par C3G IV suffit d'emblée.",
+            "justification": "La conduite à tenir en cas de gravité recommande une bi-antibiothérapie et non une monothérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945881372_03",
+      "current_version_epoch_ms": 1754945881372,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Classer les situations définissant un risque d'EBLSE justifiant un traitement d'emblée par imipénème + amikacine.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédent d'ECBU positif à EBLSE dans les 6 derniers mois.",
+            "justification": "Un antécédent d'ECBU positif à EBLSE < 6 mois fait partie des critères justifiant imipénème + amikacine."
+          },
+          {
+            "correct": true,
+            "proposition": "Choc septique associé à une hospitalisation dans les 3 derniers mois.",
+            "justification": "Le choc septique avec au moins un facteur de risque d'EBLSE (dont hospitalisation < 3 mois) définit le risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Choc septique associé à un traitement récent par C3G.",
+            "justification": "Le choc septique avec ≥ 1 facteur de risque d'EBLSE (dont C3G < 3 mois) définit le risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie isolée aux C3G sans autre facteur.",
+            "justification": "En cas d'allergie aux C3G, l'alternative proposée est aztréonam + amikacine, pas imipénème + amikacine."
+          },
+          {
+            "correct": false,
+            "proposition": "Voyage récent en zone d'endémie EBLSE sans choc septique.",
+            "justification": "Le voyage en zone d'endémie est un facteur de risque, mais l'indication d'imipénème + amikacine est précisée en cas de choc septique associé à ≥ 1 facteur, ou d'ECBU EBLSE < 6 mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945881372_04",
+      "current_version_epoch_ms": 1754945881372,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Après réception de l'antibiogramme, identifier les éléments du traitement de relais et du suivi.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Relais per os de 1re intention par amoxicilline si la souche est sensible.",
+            "justification": "L'amoxicilline est recommandée en première intention si la souche est sensible (meilleure tolérance)."
+          },
+          {
+            "correct": true,
+            "proposition": "Relais per os possibles en 2e intention : amoxicilline–acide clavulanique, céfixime ou sulfaméthoxazole–triméthoprime (à éviter les 2 premiers mois).",
+            "justification": "Ces alternatives équivalentes sont listées, avec la précaution d'éviter le cotrimoxazole les 2 premiers mois."
+          },
+          {
+            "correct": true,
+            "proposition": "Durée totale de traitement de 10 à 14 jours.",
+            "justification": "La durée totale recommandée est de 10 à 14 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "ECBU de contrôle 8 à 10 jours après l'arrêt du traitement, puis mensuel jusqu'à l'accouchement.",
+            "justification": "Le schéma de surveillance prévoit un ECBU de contrôle à 8–10 jours post-traitement puis mensuel."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de bonne évolution clinique, aucune surveillance microbiologique n'est nécessaire.",
+            "justification": "Un contrôle microbiologique est explicitement recommandé malgré l'évolution clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945881372_05",
+      "current_version_epoch_ms": 1754945881372,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Parmi les mesures associées lors de l'hospitalisation et les alternatives thérapeutiques, sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'allergie aux C3G, l'aztréonam peut être utilisé, uniquement en milieu hospitalier.",
+            "justification": "L'aztréonam est indiqué en cas d'allergie aux C3G et précisé comme réservé à l'hospitalier."
+          },
+          {
+            "correct": true,
+            "proposition": "La ciprofloxacine peut être envisagée en cas d'allergie aux C3G, mais elle est à éviter en cas d'exposition aux quinolones dans les 6 derniers mois.",
+            "justification": "La ciprofloxacine est listée comme option avec la réserve d'éviter une prise récente de quinolones (< 6 mois)."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveillance obstétricale avec possibilité de tocolyse en cas de menace d'accouchement prématuré.",
+            "justification": "Les mesures associées incluent la surveillance obstétricale +/- traitement tocolytique si MAP."
+          },
+          {
+            "correct": true,
+            "proposition": "Paracétamol 1 g toutes les 6 heures à visée antalgique et antipyrétique.",
+            "justification": "Le paracétamol 1 g toutes les 6 heures est recommandé pour douleur et fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Les règles hygiénodiététiques ne sont pas indiquées pendant la grossesse.",
+            "justification": "Des règles hygiénodiététiques sont recommandées dans ce contexte."
+          }
+        ]
+      }
+    }
+  ]
+}

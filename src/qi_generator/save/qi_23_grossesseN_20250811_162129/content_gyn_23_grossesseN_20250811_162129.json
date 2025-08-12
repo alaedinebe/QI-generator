@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grossesseN",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754922285716_01",
+      "current_version_epoch_ms": 1754922285716,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants comme faisant partie des « petits maux de la grossesse » à connaître.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vomissements",
+            "justification": "Fait partie des items explicitement listés parmi les petits maux de la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Constipation",
+            "justification": "Fait partie des items explicitement listés parmi les petits maux de la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémorroïdes",
+            "justification": "Fait partie des items explicitement listés parmi les petits maux de la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Reflux gastro-oesophagien",
+            "justification": "Fait partie des items explicitement listés parmi les petits maux de la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Crampes",
+            "justification": "Fait partie des items explicitement listés parmi les petits maux de la grossesse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754922285716_02",
+      "current_version_epoch_ms": 1754922285716,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Identifier la conduite à tenir lorsque le dépistage de T21 est positif avec un risque > 1/50.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un caryotype fœtal par biopsie de trophoblaste",
+            "justification": "Indiqué lorsque le risque est > 1/50."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser un caryotype fœtal par amniocentèse",
+            "justification": "Indiqué lorsque le risque est > 1/50."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer un dépistage prénatal non invasif (DPNI) en première intention",
+            "justification": "Le DPNI est proposé pour un risque entre 1/51 et 1/1000, pas pour > 1/50."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêter le dépistage sans examen complémentaire",
+            "justification": "Un examen diagnostique (caryotype fœtal) est recommandé pour > 1/50."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveiller et recontrôler ultérieurement sans geste invasif",
+            "justification": "La recommandation est la réalisation d'un caryotype fœtal pour > 1/50."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754922285716_03",
+      "current_version_epoch_ms": 1754922285716,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Reconnaître la conduite à tenir lorsque le risque de T21 est compris entre 1/51 et 1/1000.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposer un dépistage prénatal non invasif (test ADNlcT21)",
+            "justification": "Recommandé pour un risque entre 1/51 et 1/1000."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer que l'amniocentèse est possible mais non remboursée par la Sécurité sociale",
+            "justification": "La réalisation d'une amniocentèse est possible à la demande mais non remboursée."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser d'emblée un caryotype fœtal par biopsie de trophoblaste",
+            "justification": "Cette option est indiquée pour un risque > 1/50, pas dans cette plage de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêter le dépistage sans autre examen",
+            "justification": "Il est recommandé de réaliser un DPNI dans cette plage de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser systématiquement une amniocentèse remboursée",
+            "justification": "L'amniocentèse n'est pas remboursée dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754922285716_04",
+      "current_version_epoch_ms": 1754922285716,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Définir la conduite à tenir lorsque le risque de T21 est < 1/1000.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pas d'examen complémentaire recommandé",
+            "justification": "Indiqué pour un risque < 1/1000."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt du dépistage",
+            "justification": "Indiqué pour un risque < 1/1000."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer un DPNI (test ADNlcT21)",
+            "justification": "Le DPNI est recommandé pour un risque entre 1/51 et 1/1000, pas en dessous de 1/1000."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un caryotype fœtal par amniocentèse",
+            "justification": "Non recommandé pour un risque < 1/1000."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une biopsie de trophoblaste",
+            "justification": "Non recommandé pour un risque < 1/1000."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754922285716_05",
+      "current_version_epoch_ms": 1754922285716,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Reconnaître ce qui correspond au dépistage prénatal non invasif (DPNI) proposé pour un risque de T21 entre 1/51 et 1/1000.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse de l'ADN libre fœtal circulant dans le sang maternel (test ADNlcT21)",
+            "justification": "Correspond à la définition du DPNI proposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Caryotype fœtal par amniocentèse",
+            "justification": "Il s'agit d'un examen invasif diagnostique, pas d'un dépistage non invasif."
+          },
+          {
+            "correct": false,
+            "proposition": "Biopsie de trophoblaste",
+            "justification": "Il s'agit d'un geste invasif pour caryotype, pas d'un dépistage non invasif."
+          },
+          {
+            "correct": false,
+            "proposition": "Caryotype fœtal (peu importe la voie de prélèvement)",
+            "justification": "Le caryotype est un examen diagnostique, non un dépistage non invasif."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt du dépistage",
+            "justification": "L'arrêt du dépistage est indiqué pour un risque < 1/1000, ce n'est pas un test de dépistage."
+          }
+        ]
+      }
+    }
+  ]
+}

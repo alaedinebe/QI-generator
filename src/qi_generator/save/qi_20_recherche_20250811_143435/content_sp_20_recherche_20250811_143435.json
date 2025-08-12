@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754915867015_01",
+      "current_version_epoch_ms": 1754915867015,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant la définition et l'interprétation du RR et de l'OR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RR est le rapport de la probabilité d'être malade chez les exposés sur celle d'être malade chez les non exposés.",
+            "justification": "Le RR est défini comme le rapport des probabilités maladie exposés / non exposés."
+          },
+          {
+            "correct": true,
+            "proposition": "L'OR est le rapport des cotes d'être ou non malade selon l'existence ou l'absence d'exposition.",
+            "justification": "L'OR est défini comme un rapport de cotes lié à l'exposition et à la maladie."
+          },
+          {
+            "correct": true,
+            "proposition": "RR et OR mesurent l'intensité du lien entre une exposition et un phénomène de santé.",
+            "justification": "Les deux indicateurs quantifient la force de l'association exposition–événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Un RR peut être estimé quel que soit le schéma d'étude.",
+            "justification": "Le RR s'estime à partir d'un essai contrôlé randomisé ou d'une cohorte exposé/non exposé, mais pas dans tous les schémas."
+          },
+          {
+            "correct": true,
+            "proposition": "Un OR peut être interprété comme un RR lorsque le critère de jugement est rare dans la population cible.",
+            "justification": "L'OR peut être interprété comme un risque relatif sous la condition de rareté de l'événement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915867015_02",
+      "current_version_epoch_ms": 1754915867015,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Classer les schémas d'étude permettant d'estimer un risque relatif (RR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Essai contrôlé randomisé.",
+            "justification": "Le RR peut être estimé à partir d'un essai contrôlé randomisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude de cohorte exposé/non exposé.",
+            "justification": "Le RR peut être estimé dans une cohorte comparant exposés et non exposés."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude cas-témoins.",
+            "justification": "Le RR ne peut pas être estimé à partir d'une étude cas-témoins."
+          },
+          {
+            "correct": false,
+            "proposition": "N'importe quel schéma d'étude.",
+            "justification": "La possibilité d'estimer le RR n'est pas universelle à tous les schémas."
+          },
+          {
+            "correct": false,
+            "proposition": "Étude cas-témoins si l'événement est rare.",
+            "justification": "Même en cas de rareté, la règle donnée est que le RR ne s'estime pas en cas-témoins."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915867015_03",
+      "current_version_epoch_ms": 1754915867015,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître les schémas d'étude dans lesquels l'odds ratio (OR) peut être estimé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Essai contrôlé randomisé.",
+            "justification": "L'OR peut être estimé quel que soit le schéma d'étude."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude de cohorte exposé/non exposé.",
+            "justification": "L'OR est estimable dans tous les schémas, y compris les cohortes."
+          },
+          {
+            "correct": true,
+            "proposition": "Étude cas-témoins.",
+            "justification": "L'OR est explicitement estimable dans les études cas-témoins."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OR ne peut pas être estimé dans les études cas-témoins.",
+            "justification": "C'est l'inverse : l'OR est estimable dans les études cas-témoins."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OR ne doit pas être accompagné d'un intervalle de confiance.",
+            "justification": "Toute estimation issue d'un échantillon doit s'accompagner de son intervalle de confiance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915867015_04",
+      "current_version_epoch_ms": 1754915867015,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Déterminer dans quelle situation un OR peut être interprété comme un RR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le critère de jugement est rare dans la population cible.",
+            "justification": "L'OR peut être interprété comme un risque relatif dans la situation de rareté de l'événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'exposition est fréquente.",
+            "justification": "La condition précisée est la rareté de l'événement, pas la fréquence de l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans toute étude cas-témoins, quelle que soit la fréquence de l'événement.",
+            "justification": "L'interprétation comme RR est conditionnée à la rareté de l'événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement dans les essais contrôlés randomisés.",
+            "justification": "La condition donnée porte sur la rareté de l'événement, non sur le type d'étude."
+          },
+          {
+            "correct": false,
+            "proposition": "Jamais.",
+            "justification": "Il est indiqué qu'une interprétation comme RR est possible si l'événement est rare."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754915867015_05",
+      "current_version_epoch_ms": 1754915867015,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier l'exigence de présentation des estimations d'association (RR ou OR) obtenues à partir d'un échantillon.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles doivent s'accompagner d'un intervalle de confiance.",
+            "justification": "Toute estimation issue d'un échantillon doit être fournie avec son intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne nécessitent aucun paramètre additionnel.",
+            "justification": "Il est requis d'accompagner les estimations d'un intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles doivent obligatoirement être accompagnées d'une RAR.",
+            "justification": "La présentation conjointe avec la RAR n'est pas indiquée comme obligatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles doivent obligatoirement être accompagnées d'une RRR.",
+            "justification": "La RRR n'est pas mentionnée comme exigence de présentation systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles doivent obligatoirement être accompagnées du NST.",
+            "justification": "Le NST n'est pas requis comme accompagnement obligatoire des estimations RR/OR."
+          }
+        ]
+      }
+    }
+  ]
+}

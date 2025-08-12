@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "contraception",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754957922901_01",
+      "current_version_epoch_ms": 1754957922901,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant présenté un accident vasculaire veineux, quelles méthodes contraceptives progestatives sont appropriées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lévonorgestrel par voie orale quotidienne",
+            "justification": "Le lévonorgestrel par voie orale ne contient pas d'œstrogènes et peut être prescrit chez les femmes à risque vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Désogestrel par voie orale quotidienne",
+            "justification": "Le désogestrel est un progestatif pur, adapté aux femmes ayant un antécédent d'accident vasculaire veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Implant sous-cutané d'étonogestrel",
+            "justification": "L'étonogestrel délivré en continu est un progestatif pur, utilisable chez les patientes à risque vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Système intra-utérin au lévonorgestrel",
+            "justification": "Le système intra-utérin libérant du lévonorgestrel est une contraception progestative adaptée aux patientes à risque vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Association estroprogestative orale",
+            "justification": "Les associations estroprogestatives sont contre-indiquées chez les patientes ayant un antécédent d'accident vasculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957922901_02",
+      "current_version_epoch_ms": 1754957922901,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelles voies d'administration existent pour les contraceptions progestatives ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voie orale",
+            "justification": "La voie orale permet l'administration quotidienne de progestatifs tels que le lévonorgestrel, le désogestrel ou la drospirénone."
+          },
+          {
+            "correct": true,
+            "proposition": "Voie sous-cutanée",
+            "justification": "La voie sous-cutanée est utilisée pour l'implant d'étonogestrel délivré en continu sur 3 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Voie intra-utérine",
+            "justification": "Le système intra-utérin libère du lévonorgestrel pendant 3 à 5 ans selon le modèle."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie transdermique",
+            "justification": "La voie transdermique n'est pas utilisée pour les contraceptions progestatives décrites ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie intramusculaire",
+            "justification": "La voie intramusculaire n'est pas mentionnée dans les voies d'administration disponibles pour les progestatifs décrits."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957922901_03",
+      "current_version_epoch_ms": 1754957922901,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Concernant la drospirénone en contraception progestative, quelles affirmations sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle s'administre par voie orale",
+            "justification": "La drospirénone est proposée par voie orale en contraception progestative."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle se prend pendant 24 jours suivis de 4 jours placebo",
+            "justification": "Le schéma thérapeutique de la drospirénone est 24 jours de prise et 4 jours placebo."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est administrée par voie intra-utérine",
+            "justification": "La drospirénone n'est pas délivrée par voie intra-utérine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est délivrée en continu pendant 3 ans",
+            "justification": "La délivrance en continu pendant 3 ans correspond à l'étonogestrel, pas à la drospirénone."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle nécessite une prise hebdomadaire",
+            "justification": "La drospirénone se prend quotidiennement selon le schéma 24/4 et non de manière hebdomadaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957922901_04",
+      "current_version_epoch_ms": 1754957922901,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quel dispositif contraceptif progestatif utilise le lévonorgestrel et quelle est sa durée d'action selon le modèle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Système intra-utérin, 5 ans pour le dosage le plus élevé",
+            "justification": "Le système intra-utérin au lévonorgestrel a une durée de 5 ans pour le dosage standard."
+          },
+          {
+            "correct": true,
+            "proposition": "Système intra-utérin, 3 ans pour la plus petite taille",
+            "justification": "Le dispositif le plus petit libérant du lévonorgestrel a une durée d'action de 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Implant sous-cutané, 3 ans",
+            "justification": "L'implant sous-cutané de 3 ans contient de l'étonogestrel et non du lévonorgestrel."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie orale quotidienne pendant 1 an",
+            "justification": "La voie orale quotidienne au lévonorgestrel n'est pas limitée à 1 an, elle nécessite une prise continue."
+          },
+          {
+            "correct": false,
+            "proposition": "Injection trimestrielle",
+            "justification": "L'injection trimestrielle n'est pas mentionnée pour le lévonorgestrel dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754957922901_05",
+      "current_version_epoch_ms": 1754957922901,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme avec antécédent d'accident artériel, quelles contraceptions progestatives peuvent être prescrites ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lévonorgestrel oral",
+            "justification": "Le lévonorgestrel oral ne contient pas d'œstrogènes et est utilisable chez une patiente ayant un antécédent d'accident artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Désogestrel oral",
+            "justification": "Le désogestrel oral est un progestatif pur, adapté aux patientes avec risque artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Implant d'étonogestrel",
+            "justification": "L'implant d'étonogestrel délivré en continu est sûr en cas d'antécédent artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Système intra-utérin au lévonorgestrel",
+            "justification": "Le système intra-utérin libérant du lévonorgestrel est adapté aux patientes avec antécédent artériel."
+          },
+          {
+            "correct": false,
+            "proposition": "Association estroprogestative",
+            "justification": "Les associations estroprogestatives sont contre-indiquées en cas d'antécédent d'accident artériel."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IUgrossesse",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754945291359_01",
+      "current_version_epoch_ms": 1754945291359,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Identifier l'antibiotique recommandé en première, deuxième et troisième intention dans la cystite aiguë gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fosfomycine trométamol est le traitement de première intention.",
+            "justification": "Elle est listée en tête dans l'ordre de choix pour la cystite aiguë gravidique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le pivmécillinam est recommandé en deuxième intention.",
+            "justification": "Il apparaît en second dans l'ordre de choix proposé."
+          },
+          {
+            "correct": true,
+            "proposition": "La nitrofurantoïne est recommandée en troisième intention.",
+            "justification": "Elle est indiquée comme option de troisième intention."
+          },
+          {
+            "correct": false,
+            "proposition": "La fosfomycine trométamol doit être administrée pendant 7 jours.",
+            "justification": "La fosfomycine trométamol se prend en prise unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement doit être différé jusqu'aux résultats de l'antibiogramme.",
+            "justification": "Le traitement est probabiliste et commence immédiatement, puis est adapté secondairement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945291359_02",
+      "current_version_epoch_ms": 1754945291359,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Définir les principes de la prise en charge initiale d'une cystite aiguë gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un traitement probabiliste doit être débuté immédiatement dès la BU.",
+            "justification": "Le traitement est à commencer sans délai afin de diminuer le risque de complications."
+          },
+          {
+            "correct": true,
+            "proposition": "L'antibiothérapie est secondairement adaptée aux résultats de l'antibiogramme, en général vers 48 heures.",
+            "justification": "Une adaptation est prévue après obtention de l'antibiogramme, typiquement à 48 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "Des mesures hygiénodiététiques complètent la prise en charge.",
+            "justification": "Elles font partie des principes de la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut attendre systématiquement l'antibiogramme avant toute prescription d'anti-infectieux.",
+            "justification": "La prescription est probabiliste d'emblée, l'ajustement vient dans un second temps."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antibiogramme est inutile pour la suite du traitement.",
+            "justification": "Les résultats guident l'adaptation secondaire de l'antibiothérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945291359_03",
+      "current_version_epoch_ms": 1754945291359,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Reconnaître les durées de traitement recommandées selon la molécule.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fosfomycine trométamol se donne en prise unique.",
+            "justification": "La durée indiquée pour la fosfomycine trométamol est une prise unique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le pivmécillinam est administré pendant 7 jours.",
+            "justification": "La durée recommandée pour le pivmécillinam est de 7 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "La nitrofurantoïne est administrée pendant 7 jours.",
+            "justification": "La durée recommandée pour la nitrofurantoïne est de 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "La fosfomycine trométamol se donne sur 3 jours.",
+            "justification": "Elle se donne en une seule prise."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée supérieure à 10 jours est recommandée avec la nitrofurantoïne.",
+            "justification": "Une durée >10 jours expose à des risques pulmonaires et hépatiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945291359_04",
+      "current_version_epoch_ms": 1754945291359,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Différencier les contre-indications et effets indésirables associés à la nitrofurantoïne.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est contre-indiquée en cas de traitements itératifs.",
+            "justification": "Les traitements itératifs constituent une contre-indication rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est contre-indiquée si le DFG est < 40 mL/min.",
+            "justification": "Une insuffisance rénale avec DFG < 40 mL/min est une contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Un risque pulmonaire et hépatique apparaît si la durée dépasse 10 jours.",
+            "justification": "Des risques pulmonaires et hépatiques sont rapportés au-delà de 10 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle peut être prescrite sans aucune limite de durée.",
+            "justification": "Au-delà de 10 jours, des risques spécifiques sont mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune contre-indication n'est décrite pour cette molécule.",
+            "justification": "Des contre-indications sont explicitement indiquées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754945291359_05",
+      "current_version_epoch_ms": 1754945291359,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Classer les étapes clés de la conduite à tenir face à une cystite aiguë gravidique avec BU positive.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prescrire immédiatement un anti-infectieux en probabiliste.",
+            "justification": "Le traitement probabiliste est à débuter sans délai dès la BU."
+          },
+          {
+            "correct": true,
+            "proposition": "Prévoir une adaptation de l'antibiothérapie selon l'antibiogramme à environ 48 heures.",
+            "justification": "L'adaptation secondaire est planifiée sur les résultats de l'antibiogramme."
+          },
+          {
+            "correct": true,
+            "proposition": "Inclure des mesures hygiénodiététiques.",
+            "justification": "Elles font partie de la prise en charge recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter la fosfomycine trométamol en première intention.",
+            "justification": "La fosfomycine trométamol est l'option de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Choisir d'emblée la nitrofurantoïne comme première intention.",
+            "justification": "La nitrofurantoïne est proposée en troisième intention."
+          }
+        ]
+      }
+    }
+  ]
+}

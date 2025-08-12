@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "GEU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754931895571_01",
+      "current_version_epoch_ms": 1754931895571,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux qui, pris isolément, imposent une prise en charge chirurgicale en urgence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Instabilité hémodynamique",
+            "justification": "Un seul critère de gravité suffit à définir l'urgence chirurgicale, et l'instabilité hémodynamique en fait partie."
+          },
+          {
+            "correct": true,
+            "proposition": "État de choc hémorragique",
+            "justification": "L'état de choc hémorragique est explicitement listé parmi les critères de gravité justifiant l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte de connaissance ou malaise",
+            "justification": "La perte de connaissance et le malaise figurent parmi les critères de gravité qui, isolés, définissent l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Défense ou contracture abdominale",
+            "justification": "La présence d'une défense ou d'une contracture abdominale est un critère de gravité suffisant pour l'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale isolée sans défense",
+            "justification": "La douleur isolée sans signe de défense/contracture n'est pas listée parmi les critères de gravité définissant l'urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754931895571_02",
+      "current_version_epoch_ms": 1754931895571,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Parmi ces signes périphériques et vitaux, reconnaître ceux qui traduisent une instabilité hémodynamique ou un critère de gravité imposant l'urgence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalie de couleur des extrémités",
+            "justification": "Ce signe figure explicitement parmi les marqueurs de gravité associés à l'instabilité hémodynamique."
+          },
+          {
+            "correct": true,
+            "proposition": "Découverte d'une hypotension artérielle",
+            "justification": "L'hypotension artérielle est citée parmi les signes de gravité nécessitant l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie",
+            "justification": "La tachycardie fait partie des éléments listés évocateurs d'une situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie",
+            "justification": "La bradycardie n'est pas mentionnée parmi les critères de gravité retenus."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "L'hypertension artérielle n'est pas citée parmi les critères de gravité définissant l'urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754931895571_03",
+      "current_version_epoch_ms": 1754931895571,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Concernant l'échographie dans ce contexte, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mise en évidence d'un hémopéritoine à l'échographie signe l'urgence.",
+            "justification": "La présence d'un hémopéritoine à l'échographie est un élément qui signe l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "La demande d'échographie doit être raisonnée et s'inscrire dans le choix d'un examen diagnostique adapté.",
+            "justification": "Il est précisé que la demande/prescription doit être raisonnée avec choix d'un examen diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "La découverte d'une anomalie pelvienne à l'imagerie participe au raisonnement diagnostique.",
+            "justification": "La découverte d'une anomalie pelvienne à l'examen d'imagerie médicale est mentionnée comme élément contributif."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'hémopéritoine exclut toute urgence.",
+            "justification": "Il est indiqué que la présence d'un hémopéritoine signe l'urgence, sans affirmer que son absence exclut l'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Un autre examen d'imagerie est requis avant toute décision d'urgence.",
+            "justification": "Aucun examen supplémentaire n'est requis pour définir l'urgence lorsque l'hémopéritoine est objectivé à l'échographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754931895571_04",
+      "current_version_epoch_ms": 1754931895571,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "À propos de la définition du caractère urgent, indiquer les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'un seul critère de gravité suffit pour définir l'urgence chirurgicale.",
+            "justification": "Il est précisé qu'un seul critère de gravité définit l'urgence chirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "La réunion d'au moins deux critères est nécessaire pour parler d'urgence.",
+            "justification": "Il n'est pas nécessaire d'additionner les critères : un seul suffit."
+          },
+          {
+            "correct": true,
+            "proposition": "L'instabilité hémodynamique fait partie des critères de gravité.",
+            "justification": "L'instabilité hémodynamique est listée parmi les critères de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Les critères de gravité excluent la défense ou la contracture abdominale.",
+            "justification": "La défense/contracture abdominale est au contraire explicitement incluse parmi les critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Le malaise ou la perte de connaissance ne font pas partie des critères de gravité.",
+            "justification": "Le malaise et la perte de connaissance sont cités parmi les critères de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754931895571_05",
+      "current_version_epoch_ms": 1754931895571,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "À l'accueil, quelles situations doivent être immédiatement considérées comme relevant d'une urgence chirurgicale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Malaise isolé",
+            "justification": "Le malaise figure parmi les critères de gravité ; un seul critère suffit pour définir l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte de connaissance",
+            "justification": "La perte de connaissance est un critère de gravité justifiant l'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Anomalie de couleur des extrémités",
+            "justification": "Ce signe clinique est listé parmi les éléments de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pouls normal et tension artérielle stable",
+            "justification": "Cette situation ne correspond pas aux critères de gravité énumérés."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie",
+            "justification": "La tachycardie fait partie des signes de gravité, suffisants à eux seuls pour imposer l'urgence."
+          }
+        ]
+      }
+    }
+  ]
+}

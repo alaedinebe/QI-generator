@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "santepop",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754916766941_01",
+      "current_version_epoch_ms": 1754916766941,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, identifier les définitions/formules exactes d'indicateurs de mortalité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Taux brut de mortalité = (effectif des décès pendant l'année / population moyenne de l'année) × 1 000.",
+            "justification": "Le taux brut de mortalité rapporte l'ensemble des décès annuels à la population moyenne annuelle, multiplié par 1 000."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux brut de mortalité pour une cause = (décès dus à une cause pendant l'année / population moyenne de l'année) × 1 000.",
+            "justification": "Le taux cause-spécifique rapporte les décès imputables à une cause à la population moyenne annuelle, × 1 000."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux spécifique de mortalité par âge = (décès pendant l'année dans un groupe d'âge / population moyenne de ce groupe d'âge) × 1 000.",
+            "justification": "Un taux spécifique utilise un dénominateur restreint au groupe considéré (ici l'âge)."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de létalité = (décès dus à une cause pendant l'année / population moyenne de l'année) × 1 000.",
+            "justification": "La létalité utilise en dénominateur le nombre de sujets atteints de la même cause, et non la population moyenne."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de mortalité périnatale = (décès dans les 7 premiers jours / total des naissances vivantes) × 1 000.",
+            "justification": "La périnatalité se rapporte à l'ensemble des naissances à partir de 22 SA (nés vivants et nés sans vie), pas uniquement aux naissances vivantes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916766941_02",
+      "current_version_epoch_ms": 1754916766941,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "À propos des valeurs d'indicateurs en France, reconnaître les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En 2020, le taux brut de mortalité était de 9,9 pour 1 000.",
+            "justification": "Valeur rapportée pour 2020 : 9,9/1 000."
+          },
+          {
+            "correct": false,
+            "proposition": "En 2018, la mortalité par cancers solides était de 123,8 pour 100 000 chez les femmes.",
+            "justification": "Les valeurs indiquées sont 123,8/100 000 chez les hommes et 72,2/100 000 chez les femmes."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2019, le taux spécifique de mortalité pour le groupe d'âge ≥ 90 ans était de 183 pour 1 000 par an.",
+            "justification": "Valeur rapportée : 183/1 000/an pour les ≥ 90 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "En 2019, le taux spécifique de mortalité était de 9,0/1 000 chez les hommes et 9,4/1 000 chez les femmes.",
+            "justification": "Les valeurs sont inversées : hommes 9,4/1 000 ; femmes 9,0/1 000."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2020, la mortalité prématurée était de 2,40/1 000 chez les hommes et 1,24/1 000 chez les femmes.",
+            "justification": "Valeurs rapportées pour 2020 : H 2,40/1 000 ; F 1,24/1 000."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916766941_03",
+      "current_version_epoch_ms": 1754916766941,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Classer les exemples suivants selon la mortalité évitable par modification des habitudes de vie (comportements à risque et contexte de vie). Cocher les items qui relèvent de cette catégorie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Accidents de la voie publique.",
+            "justification": "Relève des comportements à risque et du contexte de vie."
+          },
+          {
+            "correct": false,
+            "proposition": "Cancer du sein.",
+            "justification": "Rattaché à la meilleure réponse du système de soins (actions curatives et préventives)."
+          },
+          {
+            "correct": true,
+            "proposition": "Sida.",
+            "justification": "Classé dans la mortalité évitable par modification des habitudes de vie."
+          },
+          {
+            "correct": false,
+            "proposition": "Cardiopathies ischémiques.",
+            "justification": "Relèvent de la meilleure réponse du système de soins."
+          },
+          {
+            "correct": true,
+            "proposition": "Cancers bronchopulmonaires et des voies aérodigestives supérieures.",
+            "justification": "Liés aux comportements à risque (tabac, alcool), donc dans la catégorie « habitudes de vie »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916766941_04",
+      "current_version_epoch_ms": 1754916766941,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Reconnaître la définition correcte de chaque indicateur de mortalité infantile.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Taux de mortalité infantile = (décès avant 1 an / nombre total de naissances vivantes) × 1 000.",
+            "justification": "Correspond à la définition donnée pour la mortalité infantile."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux de mortalité néonatale = (décès pendant les 28 premiers jours / naissances vivantes) × 1 000.",
+            "justification": "La période néonatale couvre les 28 premiers jours ; dénominateur : naissances vivantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux de mortalité postnéonatale = (décès du 28e au 365e jour / naissances vivantes) × 1 000.",
+            "justification": "La période postnéonatale s'étend du 28e au 365e jour ; dénominateur : naissances vivantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux de mortinatalité = (morts fœtales après 22 SA ou poids > 500 g jusqu'à la naissance / naissances vivantes) × 1 000.",
+            "justification": "Le numérateur est constitué des morts fœtales définies ; le dénominateur est le total des naissances vivantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de mortalité périnatale = (nés sans vie ou décédés dans les 7 premiers jours / seules naissances vivantes) × 1 000.",
+            "justification": "Le dénominateur correct est l'ensemble des naissances à partir de 22 SA (nés vivants et nés sans vie), pas uniquement les naissances vivantes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916766941_05",
+      "current_version_epoch_ms": 1754916766941,
+      "topic": {
+        "subject": "sp",
+        "item": "santepop"
+      },
+      "data": {
+        "statement": "Concernant les valeurs des indicateurs de mortalité infantile en France (année 2019 lorsque précisée), cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le taux de mortalité infantile était de 3,79 pour 1 000.",
+            "justification": "Valeur rapportée : 3,79/1 000 en 2019."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de mortalité néonatale était de 1,05 pour 1 000.",
+            "justification": "1,05/1 000 correspond à la mortalité postnéonatale ; la néonatale est de 2,74/1 000."
+          },
+          {
+            "correct": true,
+            "proposition": "Le taux de mortalité postnéonatale était de 1,05 pour 1 000.",
+            "justification": "Valeur rapportée : 1,05/1 000 en 2019."
+          },
+          {
+            "correct": true,
+            "proposition": "Le taux de mortalité périnatale était de 10,2 pour 1 000.",
+            "justification": "Valeur rapportée : 10,2/1 000 en 2019."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de mortinatalité était de 5,2 pour 1 000.",
+            "justification": "La valeur rapportée est de 8,5/1 000 (IMG compris)."
+          }
+        ]
+      }
+    }
+  ]
+}

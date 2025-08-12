@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grossesseN",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754919524328_01",
+      "current_version_epoch_ms": 1754919524328,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Concernant la datation par longueur cranio-caudale (LCC), identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mesure servant à calculer la date de début de grossesse se fait entre 11 SA et 13 SA + 6 jours.",
+            "justification": "La date de début de grossesse est calculée à partir d'une LCC réalisée entre 11 et 13 SA + 6 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "La LCC ne permet pas de calculer la date de début de grossesse.",
+            "justification": "La date de début de grossesse est explicitement calculée à l'aide de la LCC."
+          },
+          {
+            "correct": false,
+            "proposition": "Une LCC mesurée à 14 SA + 0 jour est dans la fenêtre recommandée pour la datation.",
+            "justification": "La fenêtre indiquée s'arrête à 13 SA + 6 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "La LCC est utilisée spécifiquement pour estimer directement l'âge gestationnel en SA en ajoutant 14 jours.",
+            "justification": "La LCC sert à fixer la date de début de grossesse ; l'âge gestationnel en SA s'obtient ensuite en ajoutant 14 jours à cette date."
+          },
+          {
+            "correct": false,
+            "proposition": "La LCC peut être utilisée pour fixer la date de début de grossesse même à 10 SA.",
+            "justification": "La mesure de référence pour ce calcul doit être faite entre 11 et 13 SA + 6 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919524328_02",
+      "current_version_epoch_ms": 1754919524328,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "En cas de FIV avec transfert d'embryon frais, reconnaître la règle de datation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La date de début de grossesse est la date de ponction ovocytaire.",
+            "justification": "Dans ce contexte, la date de début de grossesse est définie par la date de ponction."
+          },
+          {
+            "correct": false,
+            "proposition": "La date de transfert d'embryon est utilisée pour déterminer la date de début de grossesse.",
+            "justification": "C'est la date de ponction, et non celle du transfert, qui définit la date de début de grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "La date de ponction correspond au jour de fécondation.",
+            "justification": "Il est précisé que la ponction correspond au jour de fécondation."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour exprimer l'âge gestationnel en SA, on ajoute 14 jours à la date de début de grossesse.",
+            "justification": "L'âge gestationnel en semaines d'aménorrhée se calcule en ajoutant 14 jours à la date de début de grossesse ; ici, cette date est la ponction."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans ce contexte, l'âge gestationnel en SA s'obtient en soustrayant 14 jours à la date de ponction.",
+            "justification": "Le calcul indiqué est une addition de 14 jours, pas une soustraction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919524328_03",
+      "current_version_epoch_ms": 1754919524328,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Âge gestationnel en semaines d'aménorrhée (SA) : définir la règle de calcul.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il se calcule en ajoutant 14 jours à la date de début de grossesse.",
+            "justification": "Il est indiqué d'ajouter 14 jours à la date de début de grossesse pour obtenir l'âge gestationnel en SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se calcule en ajoutant 9 mois à la date de début de grossesse.",
+            "justification": "L'ajout de 9 mois sert au calcul du terme, pas de l'âge gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se calcule en soustrayant 14 jours à la date de début de grossesse.",
+            "justification": "Le mode de calcul est une addition de 14 jours, non une soustraction."
+          },
+          {
+            "correct": true,
+            "proposition": "À terme, l'âge gestationnel correspond à 41 SA + 0 jour.",
+            "justification": "Le terme correspond à 41 SA + 0 jour."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge gestationnel ne dépend pas de la date de début de grossesse.",
+            "justification": "Le calcul part précisément de la date de début de grossesse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919524328_04",
+      "current_version_epoch_ms": 1754919524328,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Calcul du terme de la grossesse : classer les affirmations vraies.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le terme s'obtient en ajoutant 9 mois à la date de début de grossesse.",
+            "justification": "Le calcul du terme repose sur la date de début de grossesse à laquelle on ajoute 9 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "Le terme équivaut à 41 SA + 0 jour.",
+            "justification": "Il est précisé que cela correspond à 41 SA + 0 jour."
+          },
+          {
+            "correct": false,
+            "proposition": "Le terme s'obtient en ajoutant 14 jours à la date de début de grossesse.",
+            "justification": "L'ajout de 14 jours concerne l'âge gestationnel en SA, pas le terme."
+          },
+          {
+            "correct": true,
+            "proposition": "Le calcul du terme repose d'abord sur la détermination de la date de début de grossesse.",
+            "justification": "La date de début de grossesse est la base sur laquelle on ajoute 9 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Le terme standard correspond à 40 SA + 0 jour.",
+            "justification": "L'équivalence donnée est 41 SA + 0 jour."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754919524328_05",
+      "current_version_epoch_ms": 1754919524328,
+      "topic": {
+        "subject": "gyn",
+        "item": "grossesseN"
+      },
+      "data": {
+        "statement": "Fenêtres temporelles et équivalences : reconnaître les bornes et usages.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La LCC utilisée pour dater doit être réalisée entre 11 SA et 13 SA + 6 jours inclus.",
+            "justification": "La fenêtre indiquée pour la LCC est 11 à 13 SA + 6 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Une LCC réalisée à 13 SA + 6 jours reste utilisable pour la datation.",
+            "justification": "La borne supérieure mentionnée est 13 SA + 6 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Une LCC réalisée avant 11 SA est suffisante pour fixer la date de début de grossesse selon cette règle.",
+            "justification": "La fenêtre de référence débute à 11 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Le calcul du terme utilise la même addition de 14 jours que pour l'âge gestationnel.",
+            "justification": "Le terme est obtenu en ajoutant 9 mois, alors que 14 jours s'appliquent à l'âge gestationnel en SA."
+          },
+          {
+            "correct": true,
+            "proposition": "Déterminer la date de début de grossesse est une étape préalable commune au calcul de l'âge gestationnel et du terme.",
+            "justification": "L'âge gestationnel se déduit en ajoutant 14 jours à cette date et le terme en ajoutant 9 mois."
+          }
+        ]
+      }
+    }
+  ]
+}

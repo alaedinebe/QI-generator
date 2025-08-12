@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "GEU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754932684277_01",
+      "current_version_epoch_ms": 1754932684277,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Identifier les conditions requises pour proposer un traitement médical par méthotrexate d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patiente asymptomatique et ne relevant d'aucune indication chirurgicale formelle.",
+            "justification": "Le traitement médical est envisagé chez les patientes asymptomatiques ne relevant pas d'une indication chirurgicale formelle."
+          },
+          {
+            "correct": true,
+            "proposition": "GEU visible en échographie.",
+            "justification": "La visibilité échographique de la GEU est requise avant de proposer le méthotrexate."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un hémopéritoine important.",
+            "justification": "Un hémopéritoine important oriente vers une prise en charge chirurgicale, ce n'est pas une condition d'éligibilité au traitement médical."
+          },
+          {
+            "correct": false,
+            "proposition": "Rupture tubaire.",
+            "justification": "La rupture tubaire contre-indique le traitement médical et justifie une chirurgie en urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de contre-indication au méthotrexate.",
+            "justification": "Le méthotrexate n'est proposé qu'en l'absence de contre-indication."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932684277_02",
+      "current_version_epoch_ms": 1754932684277,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, déterminer ceux qui constituent des contre-indications au méthotrexate liées à la patiente.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Difficultés de compréhension.",
+            "justification": "Les difficultés de compréhension sont listées parmi les contre-indications liées à la patiente."
+          },
+          {
+            "correct": true,
+            "proposition": "Allaitement.",
+            "justification": "L'allaitement fait partie des contre-indications liées à la patiente."
+          },
+          {
+            "correct": false,
+            "proposition": "Masse latéro-utérine > 4 cm.",
+            "justification": "Cette contre-indication est liée à la GEU, pas à la patiente."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent de GEU homolatérale traitée médicalement ou chirurgicalement.",
+            "justification": "Cet antécédent augmente le risque d'échec et est cité parmi les contre-indications liées à la patiente."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance hépatique.",
+            "justification": "Il s'agit d'une contre-indication biologique, non d'un facteur lié à la patiente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932684277_03",
+      "current_version_epoch_ms": 1754932684277,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Reconnaître les contre-indications liées à la GEU et biologiques au traitement par méthotrexate.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Masse latéro-utérine > 4 cm en échographie.",
+            "justification": "Une masse > 4 cm est une contre-indication liée à la GEU."
+          },
+          {
+            "correct": true,
+            "proposition": "BHCG > 10 000 UI/L.",
+            "justification": "Un taux de β-hCG supérieur à 10 000 UI/L est une contre-indication biologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Leucopénie < 2 000/mm3.",
+            "justification": "Une leucopénie < 2 000/mm3 est listée parmi les contre-indications biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "GEU visible en échographie.",
+            "justification": "La visibilité échographique est un critère d'éligibilité au traitement médical, pas une contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de la coagulation ou prise d'un traitement anticoagulant (contre-indiquant l'injection IM).",
+            "justification": "Les troubles de la coagulation ou la prise d'anticoagulants constituent des contre-indications biologiques au méthotrexate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932684277_04",
+      "current_version_epoch_ms": 1754932684277,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Informer correctement la patiente candidate à un traitement médical par méthotrexate : quels messages sont indispensables ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue possible d'effets secondaires rénaux, hépatiques, cutanés et respiratoires.",
+            "justification": "Les effets secondaires potentiels concernent notamment ces atteintes et doivent être expliqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessité de reconsulter en urgence en cas de douleur abdominale importante ou de malaise.",
+            "justification": "La patiente doit être informée de l'indication à reconsulter en urgence devant ces symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque d'échec d'environ 25 %, avec possible seconde injection ou recours à la chirurgie.",
+            "justification": "Un échec d'environ 25 % est attendu, pouvant conduire à une deuxième injection ou à une prise en charge chirurgicale."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque de rupture tubaire justifiant une chirurgie en urgence.",
+            "justification": "La possibilité de rupture tubaire et la nécessité d'une chirurgie urgente doivent être expliquées."
+          },
+          {
+            "correct": false,
+            "proposition": "Obligation de respecter un délai avant toute nouvelle conception.",
+            "justification": "Aucun délai n'est requis avant une nouvelle conception ; la demi-vie plasmatique est de 3–4 heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754932684277_05",
+      "current_version_epoch_ms": 1754932684277,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Préciser la surveillance et les critères d'efficacité après traitement par méthotrexate d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surveillance obligatoire jusqu'à négativation du taux de β-hCG.",
+            "justification": "La surveillance se poursuit jusqu'à la négativation du β-hCG."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation de la tolérance du traitement par méthotrexate.",
+            "justification": "La tolérance du traitement fait partie de la surveillance."
+          },
+          {
+            "correct": true,
+            "proposition": "Critère d'efficacité : β-hCG à J7 strictement inférieur à J0.",
+            "justification": "Une décroissance à J7 strictement inférieure à J0 constitue un critère d'efficacité."
+          },
+          {
+            "correct": true,
+            "proposition": "Critère d'efficacité alternatif : β-hCG à J7 strictement inférieur à 85 % du taux à J4 si disponible.",
+            "justification": "Lorsque le dosage à J4 est disponible, une valeur à J7 < 85 % de J4 est un critère d'efficacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de surveillance si la patiente reste asymptomatique.",
+            "justification": "La surveillance est requise indépendamment des symptômes, jusqu'à la négativation du β-hCG."
+          }
+        ]
+      }
+    }
+  ]
+}

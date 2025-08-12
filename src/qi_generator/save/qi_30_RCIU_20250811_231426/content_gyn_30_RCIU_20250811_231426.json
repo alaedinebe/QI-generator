@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "RCIU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754947063431_01",
+      "current_version_epoch_ms": 1754947063431,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux qui définissent cliniquement une détresse respiratoire aiguë du nouveau-né à terme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Polypnée avec fréquence respiratoire > 60/min",
+            "justification": "La polypnée définie par FR > 60/min fait partie des critères diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pauses respiratoires",
+            "justification": "Les pauses respiratoires sont des signes de gravité, pas des critères diagnostiques initiaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Battement des ailes du nez",
+            "justification": "Il s'agit d'un signe de lutte respiratoire inclus dans la définition clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Cyanose et/ou saturation en oxygène basse",
+            "justification": "La cyanose ou une SpO₂ basse font partie des manifestations retenues."
+          },
+          {
+            "correct": true,
+            "proposition": "Geignement expiratoire",
+            "justification": "Le geignement expiratoire est un signe de lutte respiratoire inclus dans les critères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947063431_02",
+      "current_version_epoch_ms": 1754947063431,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Reconnaître les signes de gravité d'une détresse respiratoire néonatale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intensité de la détresse respiratoire évaluée par le score de Silverman",
+            "justification": "L'intensité de la détresse, appréciée par le score de Silverman, est un signe de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Pauses respiratoires",
+            "justification": "Les pauses respiratoires sont explicitement listées parmi les signes de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles hémodynamiques associés",
+            "justification": "La présence de troubles hémodynamiques est un critère de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Tirage intercostal isolé",
+            "justification": "Le tirage intercostal est un signe de lutte respiratoire retenu pour le diagnostic, pas un critère de gravité en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique anormale",
+            "justification": "La radiographie thoracique oriente l'étiologie mais n'est pas un signe de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947063431_03",
+      "current_version_epoch_ms": 1754947063431,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Différencier les éléments qui orientent le diagnostic étiologique d'une détresse respiratoire néonatale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diabète pendant la grossesse",
+            "justification": "Le diabète maternel fait partie des éléments de contexte orientant l'étiologie."
+          },
+          {
+            "correct": true,
+            "proposition": "Terme de naissance (prématurité vs terme)",
+            "justification": "Le terme oriente l'étiologie, notamment certaines causes plus fréquentes chez le prématuré."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractère du liquide amniotique (clair ou méconial)",
+            "justification": "Le caractère clair ou méconial du liquide amniotique fait partie des éléments contextuels utiles."
+          },
+          {
+            "correct": true,
+            "proposition": "Délai d'apparition des symptômes et leur évolution",
+            "justification": "Le moment d'apparition et l'évolution des signes participent à l'orientation étiologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Découverte d'anomalies à l'auscultation cardiaque ou pulmonaire et radiographie thoracique",
+            "justification": "Les anomalies à l'auscultation et l'imagerie thoracique contribuent à l'orientation diagnostique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947063431_04",
+      "current_version_epoch_ms": 1754947063431,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Reconnaître les principales étiologies d'une détresse respiratoire du nouveau-né.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection néonatale bactérienne précoce",
+            "justification": "Elle figure parmi les principales causes à envisager."
+          },
+          {
+            "correct": true,
+            "proposition": "Retard de résorption du liquide pulmonaire",
+            "justification": "Ce mécanisme est cité comme étiologie fréquente."
+          },
+          {
+            "correct": true,
+            "proposition": "Inhalation de liquide méconial",
+            "justification": "L'inhalation méconiale est une cause classique de détresse respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumothorax",
+            "justification": "Le pneumothorax est listé parmi les principales étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie des membranes hyalines (chez le prématuré)",
+            "justification": "Cette maladie est une étiologie majeure, notamment chez le prématuré."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754947063431_05",
+      "current_version_epoch_ms": 1754947063431,
+      "topic": {
+        "subject": "gyn",
+        "item": "RCIU"
+      },
+      "data": {
+        "statement": "Différencier une cause cardiaque cyanogène d'une cause respiratoire devant une cyanose néonatale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cyanose sans signes de lutte respiratoire",
+            "justification": "Une cyanose sans signes de lutte doit faire évoquer une cardiopathie cyanogène."
+          },
+          {
+            "correct": true,
+            "proposition": "Cyanose ne répondant pas à l'oxygénothérapie",
+            "justification": "L'absence de réponse à l'oxygène est évocatrice d'une cause cardiaque cyanogène."
+          },
+          {
+            "correct": true,
+            "proposition": "Cyanose répondant seulement partiellement à l'oxygénothérapie",
+            "justification": "Une réponse partielle à l'oxygène doit également faire suspecter une étiologie cardiaque cyanogène."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose avec signes de lutte respiratoire marqués",
+            "justification": "Des signes de lutte orientent plutôt vers une cause respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose s'améliorant nettement sous oxygénothérapie",
+            "justification": "Une amélioration nette sous oxygène est en faveur d'une cause respiratoire plutôt que cardiaque cyanogène."
+          }
+        ]
+      }
+    }
+  ]
+}

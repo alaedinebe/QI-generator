@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "contraception",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754961085754_01",
+      "current_version_epoch_ms": 1754961085754,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle est la stratégie contraceptive recommandée chez une femme ayant eu une thrombose veineuse profonde confirmée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Utilisation d'une contraception estroprogestative par voie orale",
+            "justification": "Les contraceptions estroprogestatives sont contre-indiquées quelle que soit la voie d'administration après un accident vasculaire veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Utilisation d'une contraception progestative seule par voie orale",
+            "justification": "Les contraceptions progestatives seules, hors voie intra-musculaire, sont autorisées après un accident vasculaire veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Utilisation d'un dispositif intra-utérin au cuivre",
+            "justification": "Le DIU au cuivre est autorisé et ne présente pas de risque vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Utilisation d'un DIU délivrant de faibles doses de lévonorgestrel",
+            "justification": "Le DIU au lévonorgestrel à faible dose est autorisé après un accident vasculaire veineux."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'une contraception progestative par voie intra-musculaire",
+            "justification": "La contraception progestative par voie intra-musculaire n'est pas autorisée dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961085754_02",
+      "current_version_epoch_ms": 1754961085754,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle contraception est à privilégier en première intention après un infarctus du myocarde ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dispositif intra-utérin au cuivre",
+            "justification": "Après un accident artériel, il est préférable d'utiliser une contraception non hormonale comme un DIU au cuivre."
+          },
+          {
+            "correct": false,
+            "proposition": "Contraception estroprogestative orale",
+            "justification": "Les estroprogestatifs sont contre-indiqués après un accident artériel."
+          },
+          {
+            "correct": true,
+            "proposition": "Préservatifs",
+            "justification": "Les contraceptions barrières sont possibles et sans risque vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "DIU au lévonorgestrel à faible dose",
+            "justification": "Les DIU hormonaux à faible dose sont possibles après un accident artériel, mais non hormonaux sont à privilégier."
+          },
+          {
+            "correct": false,
+            "proposition": "Implant progestatif par voie intra-musculaire",
+            "justification": "La voie intra-musculaire progestative n'est pas recommandée après un accident artériel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961085754_03",
+      "current_version_epoch_ms": 1754961085754,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme de 38 ans, tabagique à 20 cigarettes/jour, sans autre facteur de risque vasculaire, quelle est la position vis-à-vis des contraceptifs estroprogestatifs ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utilisation possible",
+            "justification": "Le tabagisme > 15 cigarettes/jour est compatible avec l'utilisation d'un estroprogestatif s'il n'existe pas d'autre facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Contre-indication absolue",
+            "justification": "Il n'y a pas de contre-indication absolue dans ce cas isolé."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation uniquement de contraceptions non hormonales",
+            "justification": "Les contraceptions estroprogestatives peuvent être utilisées si aucun autre facteur de risque n'est présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Indication d'un implant progestatif uniquement",
+            "justification": "L'implant progestatif n'est pas la seule option possible dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'une contraception progestative seule obligatoire",
+            "justification": "Une contraception progestative seule n'est pas obligatoire si le tabagisme est le seul facteur de risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961085754_04",
+      "current_version_epoch_ms": 1754961085754,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quel facteur de risque artériel constitue une contre-indication aux contraceptifs estroprogestatifs ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Migraine avec aura",
+            "justification": "La migraine avec aura est une contre-indication aux estroprogestatifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle",
+            "justification": "L'hypertension artérielle est une contre-indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyslipidémie contrôlée",
+            "justification": "Une dyslipidémie contrôlée n'est pas une contre-indication si aucun autre facteur de risque n'est présent."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète insulino-dépendant avec complications vasculaires",
+            "justification": "Le diabète de type 1 avec complications vasculaires est une contre-indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Migraine simple",
+            "justification": "La migraine simple n'est pas une contre-indication si aucun autre facteur de risque n'est présent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754961085754_05",
+      "current_version_epoch_ms": 1754961085754,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir chez une femme avec antécédent familial au 1er degré d'AVC avant 65 ans ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Prescrire une contraception estroprogestative",
+            "justification": "Les antécédents familiaux d'AVC au 1er degré avant 65 ans constituent une contre-indication aux estroprogestatifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un DIU au cuivre",
+            "justification": "Les contraceptions non hormonales comme le DIU au cuivre sont autorisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer une contraception progestative seule orale",
+            "justification": "Les contraceptions progestatives seules sont possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer un estroprogestatif transdermique",
+            "justification": "Les estroprogestatifs sont contre-indiqués, quelle que soit la voie."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser des méthodes barrières",
+            "justification": "Les méthodes barrières sont possibles mais moins efficaces."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "amenorrhee",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754973342069_01",
+      "current_version_epoch_ms": 1754973342069,
+      "topic": {
+        "subject": "endoc",
+        "item": "amenorrhee"
+      },
+      "data": {
+        "statement": "Quelle est la première étape recommandée devant une hyperprolactinémie découverte à un dosage biologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vérifier le dosage de prolactine dans un autre laboratoire",
+            "justification": "Un second dosage dans un autre laboratoire permet d'éliminer une big-big prolactinémie liée à la technique et de confirmer une véritable hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser directement une IRM hypophysaire",
+            "justification": "L'IRM hypophysaire est réalisée après avoir confirmé la réalité biologique de l'hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un traitement dopaminergique d'emblée",
+            "justification": "Un traitement ne doit pas être instauré avant d'avoir confirmé l'hyperprolactinémie et identifié sa cause."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un test au TRH",
+            "justification": "Le test au TRH n'est pas l'examen de première intention dans la démarche diagnostique d'une hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer systématiquement la TSH avant toute confirmation",
+            "justification": "La TSH est utile pour rechercher une hypothyroïdie, mais elle se fait après confirmation biologique de l'hyperprolactinémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754973342069_02",
+      "current_version_epoch_ms": 1754973342069,
+      "topic": {
+        "subject": "endoc",
+        "item": "amenorrhee"
+      },
+      "data": {
+        "statement": "Parmi les causes suivantes, lesquelles peuvent être responsables d'une hyperprolactinémie physiologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse en cours",
+            "justification": "La grossesse est une cause physiologique d'hyperprolactinémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Allaitement",
+            "justification": "L'allaitement est une situation physiologique d'élévation de la prolactine."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothyroïdie périphérique",
+            "justification": "L'hypothyroïdie périphérique est une cause pathologique d'hyperprolactinémie, non physiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Macroadénome hypophysaire",
+            "justification": "Le macroadénome est une cause tumorale, non physiologique, d'hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale",
+            "justification": "L'insuffisance rénale est une cause pathologique d'hyperprolactinémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754973342069_03",
+      "current_version_epoch_ms": 1754973342069,
+      "topic": {
+        "subject": "endoc",
+        "item": "amenorrhee"
+      },
+      "data": {
+        "statement": "Quels médicaments peuvent induire une hyperprolactinémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Neuroleptiques",
+            "justification": "Les neuroleptiques augmentent la prolactine par inhibition de la dopamine."
+          },
+          {
+            "correct": true,
+            "proposition": "Antidépresseurs tricycliques",
+            "justification": "Les antidépresseurs tricycliques peuvent élever la prolactine."
+          },
+          {
+            "correct": true,
+            "proposition": "Anti-émétiques",
+            "justification": "Les anti-émétiques peuvent induire une hyperprolactinémie par blocage dopaminergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bêtabloquants",
+            "justification": "Les bêtabloquants ne figurent pas parmi les causes médicamenteuses courantes d'hyperprolactinémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Morphiniques",
+            "justification": "Les morphiniques peuvent augmenter la prolactine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754973342069_04",
+      "current_version_epoch_ms": 1754973342069,
+      "topic": {
+        "subject": "endoc",
+        "item": "amenorrhee"
+      },
+      "data": {
+        "statement": "Devant une hyperprolactinémie d'origine hypophysaire, comment interpréter la valeur de prolactine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Microadénome : prolactine < 200 ng/ml",
+            "justification": "Un microadénome à prolactine s'accompagne en général d'une prolactinémie inférieure à 200 ng/ml."
+          },
+          {
+            "correct": true,
+            "proposition": "Macroadénome à prolactine : prolactine > 200 ng/ml",
+            "justification": "Un macroadénome sécrétant donne souvent une prolactinémie supérieure à 200 ng/ml."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperprolactinémie de déconnexion : prolactine < 200 ng/ml",
+            "justification": "Une compression de la tige hypophysaire entraîne une hyperprolactinémie modérée inférieure à 200 ng/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "Macroadénome non à prolactine : prolactine > 500 ng/ml",
+            "justification": "Un macroadénome non sécrétant n'entraîne pas de prolactinémie aussi élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Microadénome : prolactine > 300 ng/ml",
+            "justification": "Un microadénome donne rarement une prolactinémie aussi élevée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754973342069_05",
+      "current_version_epoch_ms": 1754973342069,
+      "topic": {
+        "subject": "endoc",
+        "item": "amenorrhee"
+      },
+      "data": {
+        "statement": "Quelles affections générales peuvent être responsables d'une hyperprolactinémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypothyroïdie périphérique",
+            "justification": "L'hypothyroïdie périphérique est une cause endocrine d'hyperprolactinémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale",
+            "justification": "L'insuffisance rénale chronique peut s'accompagner d'une hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète de type 2",
+            "justification": "Le diabète de type 2 n'est pas une cause reconnue d'hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthyroïdie",
+            "justification": "L'hyperthyroïdie n'est pas une cause habituelle d'hyperprolactinémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Cirrhose hépatique",
+            "justification": "La cirrhose n'est pas citée parmi les causes principales d'hyperprolactinémie."
+          }
+        ]
+      }
+    }
+  ]
+}

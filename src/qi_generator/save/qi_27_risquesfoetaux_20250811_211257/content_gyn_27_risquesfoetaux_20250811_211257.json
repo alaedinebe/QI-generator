@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risquesfoetaux",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754939774502_01",
+      "current_version_epoch_ms": 1754939774502,
+      "topic": {
+        "subject": "gyn",
+        "item": "risquesfoetaux"
+      },
+      "data": {
+        "statement": "Découverte d'une grossesse après un examen de radiodiagnostic : identifier les conduites à tenir selon la situation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si l'utérus était en dehors du faisceau (ex. cliché de thorax), il faut rassurer la patiente.",
+            "justification": "Lorsque l'utérus est hors du faisceau, l'exposition est négligeable et un message de rassurance est recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'utérus était dans le faisceau pour un examen « standard », on peut rassurer la patiente car la dose à l'utérus dépasse exceptionnellement 100 mGy.",
+            "justification": "Pour les examens usuels, le dépassement de 100 mGy est exceptionnel, seuil sous lequel les risques sont très faibles (hors risque mutagène, modéré)."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'utérus était dans le faisceau et que l'examen était « inhabituel » (très nombreux clichés/longue scopie), il faut solliciter un service compétent (IRSN) pour un calcul de dose-gonades.",
+            "justification": "Dans les situations inhabituelles, un avis spécialisé est requis pour estimer la dose reçue."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'utérus était dans le faisceau lors d'un examen « standard », il faut contre-indiquer tout examen ultérieur quel qu'il soit.",
+            "justification": "Il n'est pas indiqué d'interdire systématiquement les examens ultérieurs ; pour un examen standard, la conduite est à la rassurance."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'utérus était en dehors du faisceau, il faut demander systématiquement un calcul de dose-gonades par l'IRSN.",
+            "justification": "Lorsque l'utérus est hors faisceau, la rassurance suffit ; un calcul de dose n'est pas requis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754939774502_02",
+      "current_version_epoch_ms": 1754939774502,
+      "topic": {
+        "subject": "gyn",
+        "item": "risquesfoetaux"
+      },
+      "data": {
+        "statement": "Examen de radiodiagnostic chez une femme enceinte : reconnaître les mesures de réduction du risque et la balance bénéfices/risques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Privilégier, si possible, un examen sans radiation ionisante (échographie ou IRM) lorsque l'utérus est dans le faisceau.",
+            "justification": "La préférence va aux modalités non irradiantes quand l'utérus serait exposé."
+          },
+          {
+            "correct": true,
+            "proposition": "Interroger toute femme en âge de procréer sur un éventuel risque de grossesse avant l'examen.",
+            "justification": "La vérification d'un risque de grossesse fait partie des précautions préalables."
+          },
+          {
+            "correct": true,
+            "proposition": "Si un examen irradiant est nécessaire, il peut généralement être réalisé avec des mesures de protection/réduction d'irradiation discutées au cas par cas avec un service spécialisé.",
+            "justification": "La réalisation est possible en adaptant la procédure après évaluation individualisée."
+          },
+          {
+            "correct": false,
+            "proposition": "La grossesse est une contre-indication absolue à tout examen radiographique ou scopique.",
+            "justification": "La grossesse ne constitue pas en soi une contre-indication absolue ; la balance bénéfices/risques peut être favorable."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'utérus est en dehors du faisceau, l'examen prévu peut être réalisé en plaçant un tablier de plomb sur l'abdomen.",
+            "justification": "Hors faisceau, l'examen est réalisable en respectant la protection par tablier de plomb."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754939774502_03",
+      "current_version_epoch_ms": 1754939774502,
+      "topic": {
+        "subject": "gyn",
+        "item": "risquesfoetaux"
+      },
+      "data": {
+        "statement": "Seuils et nature du risque : classer les affirmations concernant la dose utérine et les risques associés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En deçà de 100 mGy délivrés à l'utérus, les risques sont très faibles, à l'exception d'un risque mutagène qualifié de modéré.",
+            "justification": "Le seuil de 100 mGy est cité comme limite en dessous de laquelle les risques sont très faibles, hors risque mutagène modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un examen « standard » avec utérus dans le faisceau, la dose dépasse le plus souvent 100 mGy.",
+            "justification": "Le dépassement de 100 mGy est présenté comme exceptionnel pour un examen standard."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque mutagène est explicitement décrit comme modéré.",
+            "justification": "La qualification de « modéré » est apportée pour le risque mutagène."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour tout examen « standard » avec utérus dans le faisceau, un avis IRSN est systématique.",
+            "justification": "L'avis IRSN est réservé aux examens « inhabituels » avec exposition potentiellement élevée."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'examen « inhabituel » (très nombreux clichés/longue scopie), un calcul de dose-gonades par un service compétent est indiqué.",
+            "justification": "La procédure prévoit de solliciter un service compétent (IRSN) dans ces situations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754939774502_04",
+      "current_version_epoch_ms": 1754939774502,
+      "topic": {
+        "subject": "gyn",
+        "item": "risquesfoetaux"
+      },
+      "data": {
+        "statement": "Présence occasionnelle d'une femme enceinte à proximité d'un patient pendant un examen radiologique : reconnaître la bonne conduite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'irradiation est négligeable car l'utérus n'est pas dans le faisceau.",
+            "justification": "L'exposition est jugée négligeable lorsque l'utérus est hors faisceau."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut impérativement éloigner toute femme enceinte des salles d'examen, même pour une présence brève.",
+            "justification": "La présence occasionnelle est possible ; l'éloignement impératif n'est pas requis."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut se tenir occasionnellement à côté du patient en portant un tablier de plomb par précaution.",
+            "justification": "Le port d'un tablier de plomb est mentionné comme mesure de précaution acceptable."
+          },
+          {
+            "correct": false,
+            "proposition": "Une telle exposition nécessite un calcul systématique de dose par l'IRSN.",
+            "justification": "Aucun calcul systématique n'est demandé pour cette situation jugée négligeable."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'exposition involontaire dans ces conditions, il faut rassurer la femme enceinte.",
+            "justification": "La conduite recommandée est la rassurance face à cette exposition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754939774502_05",
+      "current_version_epoch_ms": 1754939774502,
+      "topic": {
+        "subject": "gyn",
+        "item": "risquesfoetaux"
+      },
+      "data": {
+        "statement": "Précautions lors d'un examen radiographique chez une femme en âge de procréer : identifier les mesures appropriées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Demander systématiquement s'il existe un risque de grossesse avant la réalisation de l'examen.",
+            "justification": "L'interrogation préalable fait partie des précautions à prendre."
+          },
+          {
+            "correct": true,
+            "proposition": "Placer un tablier de plomb sur l'abdomen pendant l'examen, par principe.",
+            "justification": "La protection abdominale par tablier de plomb est recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Limiter le nombre de clichés et/ou la durée de scopie au strict nécessaire.",
+            "justification": "La réduction au minimum nécessaire fait partie des mesures de précaution."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de grossesse en cours, essayer de substituer l'examen irradiant par une échographie et/ou une IRM.",
+            "justification": "Les modalités non irradiantes sont à privilégier lorsque possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'utérus est en dehors du faisceau, l'examen prévu reste contre-indiqué malgré le tablier de plomb.",
+            "justification": "Hors faisceau, l'examen peut être réalisé en maintenant la protection."
+          }
+        ]
+      }
+    }
+  ]
+}

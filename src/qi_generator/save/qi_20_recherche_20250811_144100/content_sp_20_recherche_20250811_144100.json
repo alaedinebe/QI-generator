@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "recherche",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754916252358_01",
+      "current_version_epoch_ms": 1754916252358,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant le calcul du nombre de sujets dans une étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il doit toujours être calculé a priori.",
+            "justification": "Le calcul est indiqué comme devant être réalisé avant l'étude (« toujours calculé a priori »)."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut être calculé a posteriori si la collecte est terminée.",
+            "justification": "La réalisation a posteriori n'est pas conforme à l'exigence d'un calcul a priori."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne concerne que les études analytiques et expérimentales.",
+            "justification": "Le calcul s'applique aussi aux études descriptives."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour une étude descriptive, il correspond au nombre minimal pour atteindre une précision souhaitée de l'estimation.",
+            "justification": "Pour le descriptif, l'objectif est d'assurer une précision (demi-largeur d'IC) prédéfinie."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour une étude analytique, il correspond au nombre minimal pour garantir une puissance suffisante.",
+            "justification": "Pour l'analytique/expérimental, le but est d'assurer une puissance suffisante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916252358_02",
+      "current_version_epoch_ms": 1754916252358,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Pour une étude descriptive, reconnaître les facteurs qui déterminent le nombre de sujets nécessaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le niveau de confiance alpha de l'intervalle de confiance.",
+            "justification": "Le nombre dépend du niveau de confiance alpha de l'IC."
+          },
+          {
+            "correct": false,
+            "proposition": "Le risque de 2ème espèce bêta.",
+            "justification": "Bêta intervient dans les études analytiques/expérimentales, pas dans le descriptif."
+          },
+          {
+            "correct": true,
+            "proposition": "La précision souhaitée (demi-largeur de l'intervalle de confiance).",
+            "justification": "La précision, définie comme demi-largeur de l'IC, conditionne l'effectif descriptif."
+          },
+          {
+            "correct": true,
+            "proposition": "La valeur espérée du paramètre estimé (prévalence, incidence…).",
+            "justification": "La valeur attendue du paramètre estimé est un déterminant explicite."
+          },
+          {
+            "correct": false,
+            "proposition": "La variabilité du critère de jugement.",
+            "justification": "La variabilité du critère est mentionnée pour les études analytiques/expérimentales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916252358_03",
+      "current_version_epoch_ms": 1754916252358,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Pour une étude analytique ou expérimentale, classer les éléments influençant le calcul d'effectif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque de 1ère espèce (alpha).",
+            "justification": "Alpha est cité comme paramètre statistique déterminant."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque de 2ème espèce (bêta).",
+            "justification": "Bêta est cité comme paramètre statistique déterminant."
+          },
+          {
+            "correct": true,
+            "proposition": "Taille d'effet attendue.",
+            "justification": "La taille d'effet fait partie des paramètres cliniques pris en compte."
+          },
+          {
+            "correct": true,
+            "proposition": "Variabilité du critère de jugement.",
+            "justification": "La variabilité du critère de jugement est un paramètre clinique déterminant."
+          },
+          {
+            "correct": false,
+            "proposition": "Seule la précision souhaitée de l'intervalle de confiance.",
+            "justification": "La précision de l'IC caractérise le descriptif, pas l'analytique/expérimental."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916252358_04",
+      "current_version_epoch_ms": 1754916252358,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Différencier l'objectif et les déterminants du calcul d'effectif selon le type d'étude.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Descriptif : viser une précision prédéfinie de l'estimation.",
+            "justification": "L'objectif en descriptif est d'assurer une précision donnée (demi-largeur d'IC)."
+          },
+          {
+            "correct": true,
+            "proposition": "Analytique : viser une puissance suffisante de l'étude.",
+            "justification": "L'objectif en analytique/expérimental est d'assurer une puissance suffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "Analytique : ne dépend que d'alpha, pas de bêta.",
+            "justification": "Les paramètres statistiques incluent alpha et bêta."
+          },
+          {
+            "correct": false,
+            "proposition": "Descriptif : ne dépend pas de la valeur espérée du paramètre.",
+            "justification": "La valeur espérée du paramètre estimé est un déterminant en descriptif."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux types d'études reposent sur les mêmes déterminants.",
+            "justification": "Les déterminants diffèrent : précision/valeur attendue pour le descriptif vs alpha, bêta, taille d'effet, variabilité pour l'analytique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754916252358_05",
+      "current_version_epoch_ms": 1754916252358,
+      "topic": {
+        "subject": "sp",
+        "item": "recherche"
+      },
+      "data": {
+        "statement": "Reconnaître la nature des paramètres impliqués dans le calcul d'effectif des études analytiques/expérimentales.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alpha et bêta sont des paramètres statistiques.",
+            "justification": "Ils sont explicitement cités comme « paramètres statistiques »."
+          },
+          {
+            "correct": true,
+            "proposition": "La taille d'effet et la variabilité du critère de jugement sont des paramètres cliniques.",
+            "justification": "Ils sont explicitement classés parmi les « paramètres cliniques »."
+          },
+          {
+            "correct": false,
+            "proposition": "Alpha est un paramètre clinique.",
+            "justification": "Alpha est indiqué comme paramètre statistique."
+          },
+          {
+            "correct": false,
+            "proposition": "La variabilité du critère de jugement est un paramètre statistique.",
+            "justification": "Elle est citée comme paramètre clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bêta n'intervient pas dans le calcul d'effectif.",
+            "justification": "Le risque de 2ème espèce (bêta) fait partie des paramètres pris en compte."
+          }
+        ]
+      }
+    }
+  ]
+}

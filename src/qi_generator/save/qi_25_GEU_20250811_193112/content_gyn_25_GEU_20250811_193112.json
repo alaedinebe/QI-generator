@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "GEU",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754933669645_01",
+      "current_version_epoch_ms": 1754933669645,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Identifier les indications d'un traitement chirurgical lors d'une grossesse extra-utérine (GEU).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Instabilité hémodynamique",
+            "justification": "Constitue une indication explicite d'un traitement chirurgical."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs abdominales importantes",
+            "justification": "Fait partie des situations justifiant la prise en charge chirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Bêta-hCG plasmatique à 8 000 UI/L",
+            "justification": "Le seuil indiqué pour orienter vers la chirurgie est > 10 000 UI/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématosalpinx > 4 cm à l'échographie",
+            "justification": "La présence d'un hématosalpinx de cette taille est une indication opératoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance hépatique ou rénale",
+            "justification": "Contre-indique le méthotrexate et oriente vers un traitement chirurgical."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933669645_02",
+      "current_version_epoch_ms": 1754933669645,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Classer les voies d'abord et situations d'exception pour le traitement chirurgical d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La cœlioscopie sous anesthésie générale est la voie d'abord de référence",
+            "justification": "La cœlioscopie sous AG est explicitement citée comme voie de référence."
+          },
+          {
+            "correct": true,
+            "proposition": "La laparotomie est réalisée d'emblée en cas d'instabilité hémodynamique",
+            "justification": "En situation d'instabilité, la laparotomie est l'abord indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "La laparotomie est réalisée systématiquement, quelle que soit la stabilité",
+            "justification": "La laparotomie n'est pas systématique ; elle est réservée à l'instabilité hémodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "La cœlioscopie se réalise sous anesthésie locale",
+            "justification": "La cœlioscopie est précisée comme réalisée sous anesthésie générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Une bêta-hCG > 10 000 UI/L contre-indique la cœlioscopie en l'absence d'instabilité",
+            "justification": "Un taux > 10 000 UI/L est une indication de chirurgie sans contre-indiquer la cœlioscopie, qui reste la voie de référence hors instabilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933669645_03",
+      "current_version_epoch_ms": 1754933669645,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Reconnaître les objectifs du temps d'exploration peropératoire lors du traitement chirurgical d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Confirmer le diagnostic et préciser la localisation",
+            "justification": "Cet objectif est explicitement mentionné pour l'exploration."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher des facteurs favorisants tels qu'adhérences ou séquelles d'IGH",
+            "justification": "La recherche d'adhérences/séquelles d'infections génitales hautes fait partie des objectifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer l'état tubaire controlatéral",
+            "justification": "L'évaluation de la trompe controlatérale est un objectif de l'exploration."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser d'emblée une salpingectomie systématique",
+            "justification": "Le traitement constitue le deuxième objectif et n'est pas systématique ; il peut être conservateur ou non conservateur selon la situation."
+          },
+          {
+            "correct": false,
+            "proposition": "L'exploration n'a pas d'objectif diagnostique",
+            "justification": "Au contraire, l'exploration vise notamment la confirmation diagnostique et la localisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933669645_04",
+      "current_version_epoch_ms": 1754933669645,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Différencier les principes du traitement conservateur et non conservateur et leur surveillance biologique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La salpingotomie consiste à aspirer le contenu tubaire après incision de la trompe",
+            "justification": "La définition opératoire de la salpingotomie inclut l'aspiration après incision."
+          },
+          {
+            "correct": true,
+            "proposition": "Après salpingotomie, une surveillance de la décroissance des bêta-hCG jusqu'à négativation est nécessaire",
+            "justification": "Une surveillance biologique est requise après traitement conservateur."
+          },
+          {
+            "correct": true,
+            "proposition": "La salpingectomie est indiquée en cas de saignement important ou de trompe trop altérée",
+            "justification": "Ces situations orientent vers un traitement non conservateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Après salpingectomie, il n'y a pas d'indication à surveiller la décroissance des bêta-hCG",
+            "justification": "Il est précisé qu'aucune surveillance de la décroissance des bêta-hCG n'est indiquée après salpingectomie."
+          },
+          {
+            "correct": false,
+            "proposition": "La salpingectomie impose un suivi ambulatoire par bêta-hCG jusqu'à négativation",
+            "justification": "Contrairement à la salpingotomie, aucune surveillance de décroissance des bêta-hCG n'est indiquée après salpingectomie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754933669645_05",
+      "current_version_epoch_ms": 1754933669645,
+      "topic": {
+        "subject": "gyn",
+        "item": "GEU"
+      },
+      "data": {
+        "statement": "Définir les éléments du conditionnement préopératoire en vue d'un traitement chirurgical d'une GEU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mise en place de voies veineuses périphériques",
+            "justification": "Fait partie du conditionnement préopératoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Analgésie avec évaluation et prise en charge de la douleur aiguë",
+            "justification": "L'analgésie et la prise en charge de la douleur aiguë sont explicitement attendues."
+          },
+          {
+            "correct": true,
+            "proposition": "Remplissage vasculaire en cas d'hémopéritoine, avec éventuelle transfusion de culots globulaires",
+            "justification": "Le remplissage et la transfusion éventuelle sont prévus en cas d'hémopéritoine."
+          },
+          {
+            "correct": true,
+            "proposition": "Consultation préanesthésique et explication du traitement à la patiente",
+            "justification": "Ces étapes font partie des mesures préopératoires listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration systématique de méthotrexate avant l'intervention",
+            "justification": "Le protocole de conditionnement décrit n'inclut pas de méthotrexate et la chirurgie est indiquée notamment quand le méthotrexate est contre-indiqué (insuffisance hépatique ou rénale)."
+          }
+        ]
+      }
+    }
+  ]
+}

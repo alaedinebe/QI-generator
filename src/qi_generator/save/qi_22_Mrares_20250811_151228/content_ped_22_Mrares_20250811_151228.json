@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "Mrares",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754918145635_01",
+      "current_version_epoch_ms": 1754918145635,
+      "topic": {
+        "subject": "ped",
+        "item": "Mrares"
+      },
+      "data": {
+        "statement": "Concernant l'errance diagnostique, identifier les énoncés exacts.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est la période allant de l'apparition des premiers symptômes à la date d'un diagnostic précis.",
+            "justification": "Elle est définie comme l'intervalle entre les premiers symptômes et l'obtention d'un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle résulte de l'échec à définir la cause précise de la maladie après toutes les investigations disponibles.",
+            "justification": "Cet énoncé décrit l'impasse diagnostique, pas l'errance."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle intègre la demande/prescription raisonnée et le choix d'un examen diagnostique.",
+            "justification": "La définition précise qu'elle inclut la démarche de prescription raisonnée et le choix d'un examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle concerne prioritairement les formes atypiques de maladies connues.",
+            "justification": "Les formes atypiques de maladies connues relèvent de l'impasse diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle se limite au délai entre la prescription d'un examen et l'obtention de ses résultats.",
+            "justification": "Elle couvre toute la période des premiers symptômes jusqu'au diagnostic précis, pas seulement un sous-délai."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754918145635_02",
+      "current_version_epoch_ms": 1754918145635,
+      "topic": {
+        "subject": "ped",
+        "item": "Mrares"
+      },
+      "data": {
+        "statement": "Reconnaître les situations correspondant à une impasse diagnostique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après mise en œuvre de l'ensemble des investigations disponibles en l'état de l'art, la cause précise de la maladie n'est pas définie.",
+            "justification": "L'impasse est caractérisée par l'échec à définir la cause malgré des investigations complètes."
+          },
+          {
+            "correct": false,
+            "proposition": "Période entre l'apparition des premiers symptômes et la date d'un diagnostic précis.",
+            "justification": "Cette description correspond à l'errance diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie dont la cause génétique n'a pas encore été reconnue.",
+            "justification": "L'impasse peut concerner une maladie dont la cause génétique ou autre n'est pas encore reconnue."
+          },
+          {
+            "correct": true,
+            "proposition": "Forme atypique d'une maladie connue, sans cause précise identifiée malgré les examens réalisés selon l'état de l'art.",
+            "justification": "Les formes atypiques de maladies connues font partie des situations d'impasse."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant toute investigation, en attente du premier avis médical.",
+            "justification": "L'impasse suppose que les investigations disponibles ont déjà été mises en œuvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754918145635_03",
+      "current_version_epoch_ms": 1754918145635,
+      "topic": {
+        "subject": "ped",
+        "item": "Mrares"
+      },
+      "data": {
+        "statement": "Identifier ce qui relève de l'errance diagnostique (et non de l'impasse).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intervalle entre la première symptomatologie et l'obtention d'un diagnostic précis.",
+            "justification": "Cela correspond à la définition de l'errance diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échec à définir la cause précise de la maladie après les investigations disponibles.",
+            "justification": "Cette situation définit l'impasse diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Processus comprenant une prescription raisonnée et le choix d'un examen diagnostique pour aboutir au diagnostic.",
+            "justification": "Ces éléments font partie de la définition de l'errance diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Situation d'une maladie dont la cause n'est pas encore reconnue.",
+            "justification": "Cette mention renvoie à l'impasse diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Se termine à la date à laquelle un diagnostic précis est posé.",
+            "justification": "La fin de l'errance correspond à l'obtention d'un diagnostic précis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754918145635_04",
+      "current_version_epoch_ms": 1754918145635,
+      "topic": {
+        "subject": "ped",
+        "item": "Mrares"
+      },
+      "data": {
+        "statement": "Définir l'impasse diagnostique : sélectionner les énoncés exacts.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échec à définir la cause précise de la maladie après avoir mis en œuvre l'ensemble des investigations disponibles en l'état de l'art.",
+            "justification": "C'est la définition même de l'impasse diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Délai s'écoulant avant la pose d'un diagnostic précis.",
+            "justification": "Cet énoncé décrit l'errance diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut concerner des malades atteints d'une forme atypique d'une maladie connue.",
+            "justification": "Les formes atypiques d'une maladie connue font partie des situations d'impasse."
+          },
+          {
+            "correct": false,
+            "proposition": "Concerne uniquement les maladies dont la cause infectieuse est inconnue.",
+            "justification": "Elle peut concerner une cause génétique ou autre, sans restriction à l'infectieux."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut concerner une maladie dont la cause génétique ou autre n'a pas encore été reconnue.",
+            "justification": "L'impasse inclut ces maladies dont la cause n'est pas encore identifiée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754918145635_05",
+      "current_version_epoch_ms": 1754918145635,
+      "topic": {
+        "subject": "ped",
+        "item": "Mrares"
+      },
+      "data": {
+        "statement": "Différencier l'errance diagnostique de l'impasse diagnostique : cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'errance diagnostique s'achève à la date du diagnostic précis.",
+            "justification": "La période d'errance prend fin lorsque le diagnostic précis est posé."
+          },
+          {
+            "correct": true,
+            "proposition": "L'impasse diagnostique survient malgré des investigations conduites selon l'état de l'art.",
+            "justification": "Elle est définie par l'échec à définir la cause après l'ensemble des investigations disponibles."
+          },
+          {
+            "correct": false,
+            "proposition": "L'errance diagnostique et l'impasse diagnostique sont synonymes.",
+            "justification": "L'errance est une période temporelle, l'impasse est un échec étiologique malgré les investigations."
+          },
+          {
+            "correct": false,
+            "proposition": "L'impasse diagnostique se résout nécessairement par un diagnostic précis immédiat.",
+            "justification": "Par définition, la cause précise n'est pas définie malgré les investigations."
+          },
+          {
+            "correct": true,
+            "proposition": "L'errance diagnostique débute à l'apparition des premiers symptômes.",
+            "justification": "Le début est fixé à l'apparition de la symptomatologie initiale."
+          }
+        ]
+      }
+    }
+  ]
+}

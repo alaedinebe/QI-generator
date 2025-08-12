@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IVG",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754962271848_01",
+      "current_version_epoch_ms": 1754962271848,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Identifier les structures autorisées à réaliser une IVG chirurgicale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Établissements de santé",
+            "justification": "Les IVG peuvent être réalisées dans des établissements de santé, y compris les IVG chirurgicales."
+          },
+          {
+            "correct": true,
+            "proposition": "Centres de planification familiale",
+            "justification": "Les centres de planification familiale sont habilités à réaliser des IVG, y compris chirurgicales."
+          },
+          {
+            "correct": false,
+            "proposition": "Cabinet libéral de gynécologie au-delà de 9 SA",
+            "justification": "En ville, en libéral, seules les IVG médicamenteuses sont autorisées et uniquement jusqu'à 9 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Cabinet d'un médecin généraliste pour IVG chirurgicale",
+            "justification": "Les médecins généralistes peuvent assurer la première consultation, mais ne réalisent pas d'IVG chirurgicale en libéral."
+          },
+          {
+            "correct": false,
+            "proposition": "Cabinet d'une sage-femme pour IVG chirurgicale",
+            "justification": "Les sages-femmes peuvent réaliser des IVG médicamenteuses, mais pas d'IVG chirurgicales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754962271848_02",
+      "current_version_epoch_ms": 1754962271848,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Classer les structures autorisées à réaliser une IVG médicamenteuse en ville.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cabinet d'un médecin généraliste",
+            "justification": "En ville, les médecins généralistes peuvent réaliser des IVG médicamenteuses jusqu'à 9 SA."
+          },
+          {
+            "correct": true,
+            "proposition": "Cabinet d'un gynécologue",
+            "justification": "En ville, les gynécologues peuvent réaliser des IVG médicamenteuses jusqu'à 9 SA."
+          },
+          {
+            "correct": true,
+            "proposition": "Cabinet d'une sage-femme",
+            "justification": "En ville, les sages-femmes peuvent réaliser des IVG médicamenteuses jusqu'à 9 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Centre de planification familiale au-delà de 9 SA",
+            "justification": "La limite de 9 SA pour l'IVG médicamenteuse s'applique quel que soit le lieu."
+          },
+          {
+            "correct": false,
+            "proposition": "Pharmacie de ville",
+            "justification": "Les pharmacies peuvent délivrer les médicaments, mais ne réalisent pas elles-mêmes l'IVG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754962271848_03",
+      "current_version_epoch_ms": 1754962271848,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Reconnaître les professionnels pouvant assurer la première consultation pour une IVG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Gynécologue",
+            "justification": "Le gynécologue peut assurer la première consultation pour une IVG."
+          },
+          {
+            "correct": true,
+            "proposition": "Médecin généraliste",
+            "justification": "Le médecin généraliste est habilité à réaliser la première consultation pour une IVG."
+          },
+          {
+            "correct": true,
+            "proposition": "Sage-femme",
+            "justification": "La sage-femme peut assurer la première consultation pour une IVG."
+          },
+          {
+            "correct": false,
+            "proposition": "Infirmier diplômé d'État",
+            "justification": "L'infirmier n'est pas habilité à assurer la première consultation pour une IVG."
+          },
+          {
+            "correct": false,
+            "proposition": "Pharmacien",
+            "justification": "Le pharmacien ne réalise pas de consultation médicale pour une IVG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754962271848_04",
+      "current_version_epoch_ms": 1754962271848,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Différencier les lieux où une IVG médicamenteuse est autorisée de ceux où elle ne l'est pas.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cabinet libéral de médecin généraliste",
+            "justification": "Une IVG médicamenteuse peut être réalisée en cabinet libéral par un médecin généraliste jusqu'à 9 SA."
+          },
+          {
+            "correct": true,
+            "proposition": "Cabinet libéral de sage-femme",
+            "justification": "Une IVG médicamenteuse peut être réalisée par une sage-femme en libéral jusqu'à 9 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Établissement scolaire avec infirmière scolaire",
+            "justification": "Les établissements scolaires ne sont pas habilités à réaliser des IVG."
+          },
+          {
+            "correct": false,
+            "proposition": "Cabinet d'un kinésithérapeute",
+            "justification": "Les kinésithérapeutes ne sont pas habilités à réaliser des IVG."
+          },
+          {
+            "correct": false,
+            "proposition": "Service d'urgence sans plateau technique gynécologique",
+            "justification": "Un service d'urgence sans plateau technique gynécologique ne peut pas réaliser d'IVG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754962271848_05",
+      "current_version_epoch_ms": 1754962271848,
+      "topic": {
+        "subject": "gyn",
+        "item": "IVG"
+      },
+      "data": {
+        "statement": "Identifier la condition réglementaire spécifique pour la réalisation d'une IVG médicamenteuse en ville.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation uniquement jusqu'à 9 SA",
+            "justification": "La loi autorise l'IVG médicamenteuse en ville uniquement jusqu'à 9 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation possible jusqu'à 12 SA",
+            "justification": "En ville, la limite pour l'IVG médicamenteuse est de 9 SA et non 12 SA."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation possible sans limite d'âge gestationnel",
+            "justification": "Il existe une limite réglementaire stricte de 9 SA pour l'IVG médicamenteuse en ville."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation autorisée uniquement par un gynécologue",
+            "justification": "Les médecins généralistes et sages-femmes peuvent également réaliser une IVG médicamenteuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation autorisée par les pharmaciens",
+            "justification": "Les pharmaciens ne réalisent pas l'IVG, mais peuvent délivrer les médicaments sur prescription."
+          }
+        ]
+      }
+    }
+  ]
+}

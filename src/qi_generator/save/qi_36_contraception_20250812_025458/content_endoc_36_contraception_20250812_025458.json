@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "contraception",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754960295038_01",
+      "current_version_epoch_ms": 1754960295038,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant eu un accident vasculaire veineux, quelle(s) mesure(s) est/sont adaptée(s) pour la prescription d'une contraception ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éviter les contraceptions hormonales combinées",
+            "justification": "Les contraceptions hormonales combinées augmentent le risque thrombo-embolique et sont contre-indiquées après un accident vasculaire veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un dispositif intra-utérin (DIU)",
+            "justification": "Le DIU n'a pas d'effet sur le risque thrombo-embolique et peut être proposé en alternative."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une contraception oestro-progestative dès le 1er jour des règles",
+            "justification": "Les oestro-progestatifs sont contre-indiqués en cas d'antécédent de thrombose veineuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager une contraception progestative seule",
+            "justification": "Les progestatifs seuls présentent un risque thrombo-embolique moindre et peuvent être envisagés."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser uniquement la méthode du retrait",
+            "justification": "La méthode du retrait est peu efficace et n'est pas adaptée comme unique moyen contraceptif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754960295038_02",
+      "current_version_epoch_ms": 1754960295038,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir pour initier une contraception hormonale hors période menstruelle selon la méthode 'quick start' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Protéger les rapports pendant au moins 7 jours",
+            "justification": "En cas d'initiation en dehors des règles, l'efficacité contraceptive n'est pas immédiate et nécessite une protection complémentaire pendant 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune précaution supplémentaire n'est nécessaire",
+            "justification": "Une protection supplémentaire est nécessaire car l'efficacité contraceptive n'est pas immédiate."
+          },
+          {
+            "correct": true,
+            "proposition": "Commencer immédiatement la prise de contraceptif",
+            "justification": "La méthode quick start consiste à débuter la contraception immédiatement, quelle que soit la phase du cycle."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter la prise au prochain cycle menstruel",
+            "justification": "Le report au prochain cycle n'est pas nécessaire si la méthode quick start est utilisée avec précautions."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer uniquement après un test de grossesse négatif",
+            "justification": "Un test de grossesse n'est pas systématiquement requis avant d'initier selon la méthode quick start."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754960295038_03",
+      "current_version_epoch_ms": 1754960295038,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle(s) recommandation(s) est/sont correcte(s) pour la pose d'un DIU ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Idéalement poser pendant les règles",
+            "justification": "La pose pendant les règles facilite l'insertion et réduit le risque de grossesse préexistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours poser en dehors de toute période menstruelle",
+            "justification": "La pose pendant les règles est recommandée et non en dehors systématiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager le DIU chez les femmes contre-indiquées aux oestro-progestatifs",
+            "justification": "Le DIU n'expose pas au risque thrombo-embolique lié aux oestro-progestatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DIU est contre-indiqué en cas de risque vasculaire",
+            "justification": "Le DIU ne présente pas de risque vasculaire particulier et reste indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DIU hormonal augmente le risque d'accident vasculaire",
+            "justification": "Le DIU hormonal n'augmente pas significativement le risque vasculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754960295038_04",
+      "current_version_epoch_ms": 1754960295038,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Quelle(s) précaution(s) doit/doivent être prise(s) pour une contraception d'urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer le plus rapidement possible après le rapport à risque",
+            "justification": "L'efficacité de la contraception d'urgence est optimale lorsqu'elle est prise rapidement après le rapport."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre le début des règles suivantes avant la prise",
+            "justification": "Attendre réduit l'efficacité de la contraception d'urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager un DIU au cuivre comme option",
+            "justification": "Le DIU au cuivre est une méthode très efficace de contraception d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser uniquement une contraception hormonale combinée",
+            "justification": "Les méthodes hormonales combinées ne sont pas la seule option et peuvent être contre-indiquées."
+          },
+          {
+            "correct": false,
+            "proposition": "L'efficacité est identique quelle que soit la date de prise",
+            "justification": "L'efficacité diminue avec le temps, d'où la nécessité d'une prise rapide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754960295038_05",
+      "current_version_epoch_ms": 1754960295038,
+      "topic": {
+        "subject": "endoc",
+        "item": "contraception"
+      },
+      "data": {
+        "statement": "Chez une femme ayant des facteurs de risque vasculaire (tabac, HTA), quelle(s) option(s) contraceptive(s) est/sont recommandée(s) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Privilégier les méthodes sans œstrogène",
+            "justification": "Les contraceptions sans œstrogène limitent le risque d'événements vasculaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un DIU",
+            "justification": "Le DIU est sûr chez les femmes à risque vasculaire car il n'influence pas la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une contraception oestro-progestative à faible dose",
+            "justification": "Même à faible dose, les œstrogènes augmentent le risque vasculaire et doivent être évités."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser exclusivement la méthode symptothermique",
+            "justification": "La méthode symptothermique est peu fiable comme contraception unique."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager une contraception progestative seule",
+            "justification": "Les progestatifs seuls sont préférables chez les femmes à risque vasculaire."
+          }
+        ]
+      }
+    }
+  ]
+}

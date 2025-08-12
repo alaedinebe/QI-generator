@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IUgrossesse",
+    "subject": "gyn"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1754944701344_01",
+      "current_version_epoch_ms": 1754944701344,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Identifier les antibiotiques de 5e intention recommandés pour une colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nitrofurantoïne",
+            "justification": "Classée 5e intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Cotrimoxazole",
+            "justification": "Classé 5e intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "Classée 1re intention, pas 5e."
+          },
+          {
+            "correct": false,
+            "proposition": "Pivmécillinam",
+            "justification": "Classé 2e intention, pas 5e."
+          },
+          {
+            "correct": true,
+            "proposition": "Céfixime",
+            "justification": "Classé 5e intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944701344_02",
+      "current_version_epoch_ms": 1754944701344,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Reconnaître les schémas posologiques validés pour la colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline 1 g × 3/j pendant 7 jours",
+            "justification": "Posologie et durée recommandées."
+          },
+          {
+            "correct": true,
+            "proposition": "Pivmécillinam 400 mg × 2/j pendant 7 jours",
+            "justification": "Posologie et durée recommandées."
+          },
+          {
+            "correct": true,
+            "proposition": "Fosfomycine trométamol 3 g en prise unique",
+            "justification": "Schéma recommandé : prise unique."
+          },
+          {
+            "correct": true,
+            "proposition": "Triméthoprime 300 mg/j pendant 7 jours",
+            "justification": "Posologie et durée recommandées."
+          },
+          {
+            "correct": false,
+            "proposition": "Nitrofurantoïne 100 mg × 2/j pendant 5 jours",
+            "justification": "Schéma incorrect : recommandé à 100 mg × 3/j pendant 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944701344_03",
+      "current_version_epoch_ms": 1754944701344,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Concernant la nitrofurantoïne en colonisation urinaire gravidique, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contre-indiquée si insuffisance rénale avec DFG < 40 mL/min",
+            "justification": "Contre-indication précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Contre-indiquée en cas de traitements itératifs",
+            "justification": "Contre-indication précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque pulmonaires et hépatiques si durée > 10 jours",
+            "justification": "Risque identifié au-delà de 10 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "À éviter pendant les deux premiers mois de la grossesse",
+            "justification": "Cette précaution concerne le triméthoprime, pas la nitrofurantoïne."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation recommandée en prise unique",
+            "justification": "La prise unique concerne la fosfomycine trométamol."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944701344_04",
+      "current_version_epoch_ms": 1754944701344,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Identifier l'antibiotique à éviter pendant les deux premiers mois de la grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Triméthoprime",
+            "justification": "À éviter pendant les deux premiers mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "Aucune restriction de ce type indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pivmécillinam",
+            "justification": "Aucune restriction de ce type indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Fosfomycine trométamol",
+            "justification": "Aucune restriction de ce type indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Cotrimoxazole",
+            "justification": "Aucune restriction spécifique aux deux premiers mois indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1754944701344_05",
+      "current_version_epoch_ms": 1754944701344,
+      "topic": {
+        "subject": "gyn",
+        "item": "IUgrossesse"
+      },
+      "data": {
+        "statement": "Reconnaître les principes généraux guidant la hiérarchisation des antibiotiques en colonisation urinaire gravidique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'efficacité des traitements est similaire",
+            "justification": "Indiqué comme principe général."
+          },
+          {
+            "correct": true,
+            "proposition": "La priorité tient compte surtout de la tolérance (notamment digestive) et du risque de résistance secondaire",
+            "justification": "Critères explicitement mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coût est le premier critère de hiérarchisation",
+            "justification": "Ce critère n'est pas cité parmi ceux guidant la hiérarchisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seul antibiotique est considéré efficace",
+            "justification": "Au contraire, l'efficacité est décrite comme similaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de traitement est systématiquement de 14 jours",
+            "justification": "Durées indiquées : 7 jours ou prise unique selon la molécule."
+          }
+        ]
+      }
+    }
+  ]
+}
