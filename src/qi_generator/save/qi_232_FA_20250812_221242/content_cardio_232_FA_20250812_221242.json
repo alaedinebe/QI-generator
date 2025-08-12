@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "FA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755029768980_01",
+      "current_version_epoch_ms": 1755029768980,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Parmi les causes de QRS larges observées pendant une fibrillation atriale, identifier les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un bloc de branche organique peut expliquer des QRS larges pendant la FA.",
+            "justification": "Les QRS larges en FA peuvent s'observer en cas de bloc de branche organique."
+          },
+          {
+            "correct": true,
+            "proposition": "Un bloc de branche fonctionnel (aberration de conduction) apparaissant uniquement à des fréquences ventriculaires élevées peut s'accompagner de QRS larges.",
+            "justification": "Le bloc de branche fonctionnel est défini comme une aberration survenant pour des fréquences ventriculaires élevées et s'associe à des QRS larges en FA."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA « grosse maille » est une cause de QRS larges.",
+            "justification": "La FA « grosse maille » est une présentation particulière distincte, sans être décrite comme cause d'élargissement des QRS."
+          },
+          {
+            "correct": false,
+            "proposition": "Le flutter atrial est une cause typique de QRS larges en FA.",
+            "justification": "Le flutter atrial est mentionné comme piège diagnostique par confusion avec la FA « grosse maille », pas comme cause de QRS larges pendant une FA."
+          },
+          {
+            "correct": false,
+            "proposition": "Un BAV de degré 3 explique les QRS larges de la FA.",
+            "justification": "La FA avec BAV 3 est décrite comme une présentation particulière, sans lien établi avec l'élargissement des QRS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029768980_02",
+      "current_version_epoch_ms": 1755029768980,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Concernant le bloc de branche fonctionnel (aberration de conduction) au cours d'une FA, choisir les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il apparaît uniquement pour des fréquences ventriculaires élevées.",
+            "justification": "Le bloc de branche fonctionnel est défini par une aberration de conduction survenant pour des fréquences ventriculaires élevées."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond à un bloc de branche organique permanent.",
+            "justification": "Un bloc organique permanent n'est pas un bloc fonctionnel ; ce dernier est transitoire et lié à la fréquence."
+          },
+          {
+            "correct": false,
+            "proposition": "Il survient préférentiellement à basse fréquence ventriculaire.",
+            "justification": "L'aberration fonctionnelle est décrite pour des fréquences ventriculaires élevées, pas basses."
+          },
+          {
+            "correct": false,
+            "proposition": "Il impose l'existence d'un BAV de degré 3.",
+            "justification": "Le bloc fonctionnel décrit est une aberration intraventriculaire liée à la fréquence et n'implique pas un BAV 3."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut se traduire par des QRS larges pendant la FA.",
+            "justification": "Les QRS larges en FA peuvent être observés en cas de bloc de branche fonctionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029768980_03",
+      "current_version_epoch_ms": 1755029768980,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "À propos de la « FA grosse maille » et du flutter atrial, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La FA « grosse maille » peut être confondue avec un flutter atrial.",
+            "justification": "Il est précisé qu'elle est à ne pas confondre avec le flutter atrial, soulignant le risque de confusion."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA « grosse maille » est synonyme de flutter atrial.",
+            "justification": "La mention de ne pas confondre indique qu'il s'agit de deux entités distinctes."
+          },
+          {
+            "correct": true,
+            "proposition": "La FA « grosse maille » fait partie des présentations ECG particulières décrites.",
+            "justification": "Elle est explicitement listée parmi les présentations particulières de la FA."
+          },
+          {
+            "correct": false,
+            "proposition": "Le flutter atrial est une présentation ECG particulière de la FA.",
+            "justification": "Le flutter atrial est évoqué comme diagnostic différent à ne pas confondre, et non comme une présentation de la FA."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA « grosse maille » ne relève pas d'une fibrillation atriale.",
+            "justification": "Par définition, il s'agit d'une présentation particulière de la fibrillation atriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029768980_04",
+      "current_version_epoch_ms": 1755029768980,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "À propos de la fibrillation atriale associée à un BAV de degré 3, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La FA peut s'associer à un BAV 3.",
+            "justification": "La FA avec BAV 3 est explicitement mentionnée comme présentation particulière."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans ce contexte, des caractéristiques ECG spécifiques existent.",
+            "justification": "Il est indiqué que des caractéristiques ECG sont présentées pour cette situation, attestant de spécificités."
+          },
+          {
+            "correct": false,
+            "proposition": "FA et BAV 3 sont incompatibles entre eux.",
+            "justification": "L'énumération d'une FA avec BAV 3 contredit l'idée d'incompatibilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette association fait partie des présentations ECG particulières répertoriées.",
+            "justification": "Elle figure dans la liste des présentations particulières de la FA."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette situation est sans intérêt diagnostique.",
+            "justification": "Le fait qu'elle soit décrite avec des caractéristiques ECG spécifiques souligne son intérêt diagnostique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029768980_05",
+      "current_version_epoch_ms": 1755029768980,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Parmi les présentations ECG particulières de la fibrillation atriale, identifier celles qui sont répertoriées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "FA avec QRS larges sur bloc de branche organique.",
+            "justification": "Les QRS larges en FA peuvent s'observer en cas de bloc de branche organique."
+          },
+          {
+            "correct": true,
+            "proposition": "FA avec QRS larges sur bloc de branche fonctionnel (aberration) lors de fréquences ventriculaires élevées.",
+            "justification": "Le bloc de branche fonctionnel est une aberration liée aux fréquences ventriculaires élevées et s'associe à des QRS larges."
+          },
+          {
+            "correct": true,
+            "proposition": "FA « grosse maille ». ",
+            "justification": "Elle est citée comme une présentation particulière à ne pas confondre avec le flutter atrial."
+          },
+          {
+            "correct": true,
+            "proposition": "FA avec BAV de degré 3.",
+            "justification": "Cette association est indiquée parmi les présentations particulières de la FA."
+          },
+          {
+            "correct": false,
+            "proposition": "FA avec QRS fins constants comme particularité.",
+            "justification": "Cette caractéristique n'est pas décrite parmi les présentations particulières de la FA."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755021911971_01",
+      "current_version_epoch_ms": 1755021911971,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les critères ECG définissant un syndrome coronarien aigu avec sus-décalage du ST (ST+).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sus-décalage du ST ≥ 2 mm dans au moins deux dérivations précordiales contiguës.",
+            "justification": "Le critère chiffré est un sus-décalage ≥ 2 mm en précordiales, présent dans au moins deux dérivations contiguës d'un même territoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Sus-décalage du ST ≥ 1 mm en inférieur (DII, DIII, aVF) ou en latéral haut (DI, aVL) dans au moins deux dérivations contiguës.",
+            "justification": "Le seuil est ≥ 1 mm pour les territoires inférieur et latéral haut, avec nécessité de dérivations contiguës d'un même territoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Un sous-décalage en miroir est fréquemment associé.",
+            "justification": "Les images en miroir (sous-décalage) sont généralement associées au ST+."
+          },
+          {
+            "correct": true,
+            "proposition": "Un nouveau bloc de branche gauche, dans un contexte aigu évocateur, constitue un équivalent de ST+.",
+            "justification": "Un bloc de branche gauche nouvellement apparu est considéré comme équivalent de ST+ lorsqu'il s'inscrit dans un tableau aigu évocateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Un sus-décalage isolé du ST dans une seule dérivation suffit pour poser le diagnostic de ST+.",
+            "justification": "Le diagnostic requiert au moins deux dérivations contiguës d'un même territoire et ne repose pas sur une dérivation isolée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021911971_02",
+      "current_version_epoch_ms": 1755021911971,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies ECG compatibles avec un syndrome coronarien aigu sans sus-décalage persistant du ST (ST-).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment ST horizontal ou descendant.",
+            "justification": "Le sous-décalage du ST est décrit comme plus fiable lorsqu'il est horizontal ou descendant."
+          },
+          {
+            "correct": true,
+            "proposition": "Négativation des ondes T.",
+            "justification": "Une inversion des ondes T fait partie des présentations possibles du ST-."
+          },
+          {
+            "correct": true,
+            "proposition": "ECG normal possible, notamment en post-critique.",
+            "justification": "Un ECG normal est possible, en particulier après la phase critique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage du ST persistant plus de 20 minutes.",
+            "justification": "Un sus-décalage persistant > 20 minutes définit au contraire un tableau de ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence systématique d'anomalies des ondes T.",
+            "justification": "La négativation des ondes T peut être observée ; l'absence systématique est donc inexacte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021911971_03",
+      "current_version_epoch_ms": 1755021911971,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les anomalies électrocardiographiques évocatrices d'une embolie pulmonaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie sinusale supérieure à 100/min.",
+            "justification": "La tachycardie sinusale > 100/min est un signe ECG fréquent."
+          },
+          {
+            "correct": true,
+            "proposition": "Aspect S1Q3 (onde S en DI et onde Q en DIII).",
+            "justification": "L'aspect S1Q3 est mentionné comme évocateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc de branche droit.",
+            "justification": "Un bloc de branche droit peut être observé."
+          },
+          {
+            "correct": true,
+            "proposition": "Négativation des ondes T de V1 à V3, voire V4.",
+            "justification": "Une inversion des T antérieures droites (V1–V3/V4) est décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies ECG sont constantes et indispensables au diagnostic.",
+            "justification": "Les anomalies ECG peuvent être absentes ; elles ne sont ni constantes ni indispensables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021911971_04",
+      "current_version_epoch_ms": 1755021911971,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "À propos de la dissection aortique, choisir les affirmations exactes concernant l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ECG est généralement normal.",
+            "justification": "Il est indiqué que l'ECG est en général normal dans la dissection aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Un sus-décalage du ST peut apparaître si l'extension intéresse une artère coronaire.",
+            "justification": "Un ST+ est possible en cas d'extension de la dissection à une coronaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Un sous-décalage diffus du segment PQ est attendu.",
+            "justification": "Le sous-décalage du PQ est décrit dans la péricardite, pas comme signe attendu de la dissection."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un aspect S1Q3 est typique.",
+            "justification": "L'aspect S1Q3 est évoqué pour l'embolie pulmonaire, pas pour la dissection."
+          },
+          {
+            "correct": false,
+            "proposition": "Une tachycardie sinusale > 100/min est un signe électrocardiographique caractéristique.",
+            "justification": "La tachycardie sinusale est rapportée pour l'embolie pulmonaire ; elle n'est pas décrite ici comme caractéristique de la dissection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021911971_05",
+      "current_version_epoch_ms": 1755021911971,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître les signes électrocardiographiques d'une péricardite avec tamponnade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sus-décalage diffus, non systématisé à un territoire coronaire, concave vers le haut, sans miroir et sans onde Q.",
+            "justification": "La péricardite se caractérise par un ST diffus, concave, non territorial, sans image en miroir ni onde Q."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment PQ au début.",
+            "justification": "Un sous-décalage du PQ est décrit comme une étape initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolution vers une négativation diffuse des ondes T puis normalisation en plusieurs semaines.",
+            "justification": "La séquence évolutive comporte inversion diffuse des T puis retour à la normale en semaines."
+          },
+          {
+            "correct": true,
+            "proposition": "Microvoltage et alternance électrique possibles.",
+            "justification": "La tamponnade peut s'accompagner de microvoltage et d'alternance électrique (variation d'amplitude des QRS)."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage territorial avec images en miroir.",
+            "justification": "Un sus-décalage territorial avec miroir évoque plutôt un ST+ coronarien, pas une péricardite diffuse."
+          }
+        ]
+      }
+    }
+  ]
+}

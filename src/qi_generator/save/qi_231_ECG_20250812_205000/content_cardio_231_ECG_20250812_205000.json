@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755024807198_01",
+      "current_version_epoch_ms": 1755024807198,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir la dysfonction sinusale et ses situations associées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle se définit par une bradycardie sinusale < 60 bpm ou des pauses > 3 secondes.",
+            "justification": "Les seuils retenus sont une fréquence < 60 bpm ou des pauses supérieures à 3 secondes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est toujours d'origine iatrogène.",
+            "justification": "Les causes sont multiples ; l'iatrongénie n'est qu'une cause secondaire possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute bradycardie correspond à une dysfonction sinusale.",
+            "justification": "Il existe des bradycardies physiologiques qui ne relèvent pas d'une dysfonction."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est souvent liée à un processus dégénératif chez les sujets âgés.",
+            "justification": "La dégénérescence liée à l'âge est citée comme mécanisme fréquent."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez le jeune sportif, une hypertonie vagale est fréquemment en cause.",
+            "justification": "Chez le jeune, la cause la plus fréquente est l'hypertonie vagale, notamment chez le sportif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024807198_02",
+      "current_version_epoch_ms": 1755024807198,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier ce qui relève d'une bradycardie physiologique versus d'une dysfonction sinusale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une bradycardie adaptée aux besoins physiologiques est physiologique.",
+            "justification": "La dysfonction est une bradycardie inadaptée ; une bradycardie adaptée est physiologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une bradycardie inadaptée aux besoins physiologiques évoque une dysfonction sinusale.",
+            "justification": "La définition repose sur le caractère inadapté aux besoins."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pause sinusale de 2 secondes suffit à définir la dysfonction.",
+            "justification": "Le seuil de pause retenu est > 3 secondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Une fréquence cardiaque à 55 bpm peut entrer dans la définition.",
+            "justification": "La bradycardie sinusale < 60 bpm fait partie des critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic repose uniquement sur l'âge du patient.",
+            "justification": "L'âge est un contexte fréquent, mais ce n'est pas un critère diagnostique à lui seul."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024807198_03",
+      "current_version_epoch_ms": 1755024807198,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Exclure des causes secondaires devant une bradycardie avant de conclure à une dysfonction sinusale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médicaments bradycardisants (iatrogénie).",
+            "justification": "Les causes iatrogènes doivent être exclues."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperkaliémie.",
+            "justification": "Fait partie des causes métaboliques à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypothyroïdie.",
+            "justification": "Fait partie des causes endocriniennes à éliminer."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypokaliémie.",
+            "justification": "Non mentionnée parmi les causes à exclure (la cause métabolique citée est l'hyperkaliémie)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthyroïdie.",
+            "justification": "Non citée parmi les causes endocriniennes à exclure (l'hypothyroïdie est mentionnée)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024807198_04",
+      "current_version_epoch_ms": 1755024807198,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant le bloc sino-atrial (BSA) de type 2, cochez les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au 1er degré, il existe un allongement progressif du délai PP jusqu'à disparition d'une onde P.",
+            "justification": "C'est la définition du 1er degré du type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Au 1er degré, la pause est égale au double du cycle atrial.",
+            "justification": "Au 1er degré, la pause est inférieure au double du délai PP précédent."
+          },
+          {
+            "correct": true,
+            "proposition": "Au 2e degré, il y a disparition d'une onde P sans allongement préalable du délai PP.",
+            "justification": "C'est la définition du 2e degré du type 2."
+          },
+          {
+            "correct": true,
+            "proposition": "Au 2e degré, la pause est égale au double du cycle atrial.",
+            "justification": "La pause correspond au double du cycle atrial au 2e degré."
+          },
+          {
+            "correct": false,
+            "proposition": "Le type 2 correspond à une absence complète d'activité sinusale.",
+            "justification": "L'absence d'activité sinusale caractérise le type 3."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024807198_05",
+      "current_version_epoch_ms": 1755024807198,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques des BSA de type 1 et de type 3.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le type 1 n'est pas visible et apparaît comme une simple bradycardie sinusale à l'ECG.",
+            "justification": "Le type 1 correspond à un allongement du temps de conduction non visible, se manifestant comme une bradycardie."
+          },
+          {
+            "correct": true,
+            "proposition": "Le type 3 se caractérise par une absence d'activité sinusale.",
+            "justification": "C'est la définition du BSA de type 3."
+          },
+          {
+            "correct": true,
+            "proposition": "En type 3, un rythme d'échappement jonctionnel ou ventriculaire peut apparaître.",
+            "justification": "En absence d'activité sinusale, un échappement jonctionnel ou ventriculaire peut survenir."
+          },
+          {
+            "correct": false,
+            "proposition": "Le type 1 se définit par une pause égale au double du cycle atrial.",
+            "justification": "La pause égale au double du cycle atrial appartient au type 2 (2e degré), pas au type 1."
+          },
+          {
+            "correct": true,
+            "proposition": "Le type 1 correspond à un allongement du temps de conduction dans la jonction sinoatriale.",
+            "justification": "C'est la définition du BSA de type 1."
+          }
+        ]
+      }
+    }
+  ]
+}

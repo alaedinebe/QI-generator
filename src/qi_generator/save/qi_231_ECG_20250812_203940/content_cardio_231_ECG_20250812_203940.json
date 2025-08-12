@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755024187216_01",
+      "current_version_epoch_ms": 1755024187216,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier le signe ECG le plus fiable d'hypertrophie ventriculaire gauche (HVG).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indice de Sokolow : SV1 ou V2 + RV5 ou V6 > 35 mm.",
+            "justification": "Le signe le plus fiable d'HVG est défini par la somme de l'onde S en V1 ou V2 avec l'onde R en V5 ou V6 supérieure à 35 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Somme SV1 + RV5 > 45 mm.",
+            "justification": "Le seuil retenu est > 35 mm et non 45 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Somme SV1 + RV2 > 35 mm.",
+            "justification": "Le critère associe SV1 ou V2 avec RV5 ou V6, pas SV1 avec RV2."
+          },
+          {
+            "correct": false,
+            "proposition": "Somme SV3 + RV5 > 35 mm.",
+            "justification": "SV3 n'entre pas dans la définition de l'indice de Sokolow."
+          },
+          {
+            "correct": false,
+            "proposition": "Amplitude de R en V5 seule > 35 mm.",
+            "justification": "Le critère repose sur une somme (S en V1 ou V2 + R en V5 ou V6), pas sur une seule amplitude."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024187216_02",
+      "current_version_epoch_ms": 1755024187216,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos d'une HVG importante, identifier les anomalies ECG possibles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ondes T négatives en latéral (DI, aVL, V5, V6).",
+            "justification": "Une HVG importante s'accompagne d'ondes T négatives dans les dérivations latérales DI, aVL, V5, V6."
+          },
+          {
+            "correct": true,
+            "proposition": "Déviation axiale gauche possible.",
+            "justification": "Une déviation axiale gauche peut parfois être observée en cas d'HVG importante."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes T latérales nécessairement positives.",
+            "justification": "En HVG importante, les ondes T latérales sont décrites comme négatives."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence systématique d'anomalie de repolarisation.",
+            "justification": "Des ondes T négatives latérales sont justement décrites dans l'HVG importante."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes T négatives limitées aux dérivations antérieures.",
+            "justification": "Les ondes T négatives attendues en HVG importante concernent les dérivations latérales (DI, aVL, V5, V6)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024187216_03",
+      "current_version_epoch_ms": 1755024187216,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant l'indice de Sokolow, préciser les situations d'applicabilité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il n'est pas applicable en cas de nécrose antérieure.",
+            "justification": "L'indice de Sokolow est indiqué comme non applicable lorsqu'il existe une nécrose antérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est toujours applicable, quelle que soit l'histoire cardiaque.",
+            "justification": "Une exception est explicitement mentionnée en cas de nécrose antérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est applicable que chez les patients hypertendus.",
+            "justification": "Aucune restriction à l'HTA n'est indiquée pour l'utilisation du critère."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inapplicable en cas d'insuffisance aortique isolée.",
+            "justification": "Seule la nécrose antérieure est mentionnée comme rendant le critère non applicable."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inapplicable en cas de rétrécissement aortique isolé.",
+            "justification": "Seule la nécrose antérieure est citée comme contre-indication d'applicabilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024187216_04",
+      "current_version_epoch_ms": 1755024187216,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer l'HVG selon la polarité des ondes T dans la distinction historique systolique/diastolique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HVG de type systolique : ondes T négatives.",
+            "justification": "La forme systolique (ex. HTA, rétrécissement aortique) s'accompagne d'ondes T négatives."
+          },
+          {
+            "correct": true,
+            "proposition": "HVG de type diastolique : ondes T restant positives.",
+            "justification": "La forme diastolique (ex. insuffisance aortique) est décrite avec des ondes T positives."
+          },
+          {
+            "correct": false,
+            "proposition": "HVG de type systolique : ondes T positives.",
+            "justification": "C'est l'inverse : la forme systolique s'accompagne d'ondes T négatives."
+          },
+          {
+            "correct": false,
+            "proposition": "HVG de type diastolique : ondes T négatives.",
+            "justification": "La forme diastolique est décrite avec des ondes T positives."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette distinction est rapportée comme historique.",
+            "justification": "Il est précisé qu'on distinguait historiquement HVG systolique et diastolique selon la polarité des ondes T."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024187216_05",
+      "current_version_epoch_ms": 1755024187216,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les dérivations concernées par les ondes T en cas d'HVG importante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "DI, aVL, V5, V6.",
+            "justification": "Les ondes T négatives en HVG importante sont décrites dans ces dérivations latérales."
+          },
+          {
+            "correct": false,
+            "proposition": "DII, DIII, aVF.",
+            "justification": "Ces dérivations ne figurent pas parmi celles citées pour les ondes T négatives en HVG importante (DI, aVL, V5, V6)."
+          },
+          {
+            "correct": false,
+            "proposition": "V1, V2.",
+            "justification": "Les dérivations mises en avant pour les ondes T négatives sont DI, aVL, V5, V6."
+          },
+          {
+            "correct": false,
+            "proposition": "V3, V4.",
+            "justification": "Les dérivations attendues sont latérales : DI, aVL, V5, V6."
+          },
+          {
+            "correct": false,
+            "proposition": "aVR.",
+            "justification": "Cette dérivation n'est pas mentionnée parmi les dérivations latérales où les ondes T sont négatives en HVG importante."
+          }
+        ]
+      }
+    }
+  ]
+}

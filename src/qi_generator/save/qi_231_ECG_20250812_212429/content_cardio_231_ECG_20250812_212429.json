@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755026875802_01",
+      "current_version_epoch_ms": 1755026875802,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les dérivations en fonction du territoire myocardique exploré lors d'un ECG 18 dérivations.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "V1 à V3 correspondent au territoire antéroseptal.",
+            "justification": "Le territoire antéroseptal est exploré par V1 à V3."
+          },
+          {
+            "correct": true,
+            "proposition": "V4 correspond au territoire apical.",
+            "justification": "Le territoire apical est exploré par V4."
+          },
+          {
+            "correct": true,
+            "proposition": "V5–V6 correspondent au territoire latéral bas.",
+            "justification": "Le territoire latéral bas est exploré par V5–V6."
+          },
+          {
+            "correct": false,
+            "proposition": "DI et aVL correspondent au territoire inférieur.",
+            "justification": "Le territoire inférieur correspond à DII, DIII et aVF, tandis que DI et aVL explorent le latéral haut."
+          },
+          {
+            "correct": true,
+            "proposition": "DII, DIII et aVF correspondent au territoire inférieur.",
+            "justification": "Le territoire inférieur est exploré par DII, DIII et aVF."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026875802_02",
+      "current_version_epoch_ms": 1755026875802,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir les critères électrocardiographiques d'un syndrome coronarien aigu avec sus-décalage du segment ST (SCA ST+).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un sus-décalage convexe du segment ST dans un territoire, présent dans au moins deux dérivations contiguës, > 1 mm en dérivations frontales/périphériques et > 2 mm en précordiales, est évocateur.",
+            "justification": "Le SCA ST+ se définit par un sus-décalage convexe du ST répondant à ces seuils et à la contiguïté des dérivations."
+          },
+          {
+            "correct": true,
+            "proposition": "Un sous-décalage du ST dans les territoires opposés peut être observé en miroir.",
+            "justification": "Un miroir est attendu avec sous-décalage du ST dans les territoires opposés."
+          },
+          {
+            "correct": false,
+            "proposition": "Au stade très précoce, les ondes T sont négatives, symétriques et profondes.",
+            "justification": "Au stade très précoce, les ondes T sont positives, symétriques et amples."
+          },
+          {
+            "correct": true,
+            "proposition": "Des ondes Q de nécrose peuvent apparaître en l'absence de revascularisation précoce et se définissent par une amplitude ≥ 1/3 du QRS et une durée > 40 ms.",
+            "justification": "Les ondes Q de nécrose surviennent sans revascularisation précoce et répondent à ces critères."
+          },
+          {
+            "correct": true,
+            "proposition": "La persistance d'un sus-décalage à distance peut traduire la formation d'un anévrysme ventriculaire.",
+            "justification": "Un sus-décalage persistant à distance est décrit en cas d'anévrysme ventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026875802_03",
+      "current_version_epoch_ms": 1755026875802,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques électrocardiographiques d'un syndrome coronarien aigu sans sus-décalage du segment ST (SCA sans ST+).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un sous-décalage horizontal ou descendant du segment ST dans un territoire, présent dans au moins deux dérivations contiguës, est compatible.",
+            "justification": "Le SCA sans ST+ se manifeste par un sous-décalage du ST horizontal ou descendant dans au moins deux dérivations contiguës."
+          },
+          {
+            "correct": true,
+            "proposition": "Des anomalies limitées aux ondes T, positives symétriques et amples ou négatives, peuvent suffire.",
+            "justification": "Des modifications isolées des ondes T (positives symétriques et amples ou négatives) sont possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG strictement normal écarte le diagnostic.",
+            "justification": "Un ECG peut être normal, notamment s'il est réalisé en post-critique; cela n'élimine pas le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Un ECG post-critique peut être normal.",
+            "justification": "Il est précisé que l'ECG est parfois normal, en particulier en post-critique."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un sus-décalage convexe du ST est caractéristique.",
+            "justification": "Le sus-décalage convexe du ST caractérise le SCA ST+, pas le SCA sans ST+."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026875802_04",
+      "current_version_epoch_ms": 1755026875802,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les situations rendant l'interprétation du ST/T non fiable et les particularités des IDM postérieurs.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un bloc de branche gauche complet rend les modifications non interprétables.",
+            "justification": "Les modifications du ST/T ne sont pas interprétables en présence d'un bloc de branche gauche complet."
+          },
+          {
+            "correct": true,
+            "proposition": "Un rythme stimulé ventriculaire rend les modifications non interprétables.",
+            "justification": "Les modifications ne sont pas interprétables en cas d'entraînement ventriculaire par un stimulateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Un IDM postérieur isolé peut se manifester par de grandes ondes R en V1 à V3, parfois isolées, sur un ECG 12 dérivations.",
+            "justification": "Il est décrit des grandes ondes R exclusives en V1 à V3 dans les IDM postérieurs isolés."
+          },
+          {
+            "correct": true,
+            "proposition": "Le recours aux dérivations postérieures V7 à V9 permet de confirmer un IDM postérieur.",
+            "justification": "Les dérivations postérieures sont d'intérêt pour confirmer le diagnostic d'IDM postérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dérivations droites V3R–V4R sont inutiles dans la suspicion de SCA.",
+            "justification": "Les dérivations droites (V3R–V4R) font partie de l'ECG 18 dérivations en cas de suspicion de SCA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026875802_05",
+      "current_version_epoch_ms": 1755026875802,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier des pièges diagnostiques et variantes dans les SCA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans le territoire antérieur, un rabotage des ondes R peut se voir à la place d'ondes Q de nécrose.",
+            "justification": "Il est rapporté un rabotage des ondes R plutôt que des ondes Q de nécrose, notamment en antérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans un IDM postérieur isolé, un sus-décalage franc du ST est habituellement visible en V1 à V3 sur l'ECG 12 dérivations.",
+            "justification": "L'ECG 12 dérivations peut être trompeur avec de grandes ondes R en V1 à V3; les dérivations V7 à V9 sont nécessaires pour confirmer."
+          },
+          {
+            "correct": true,
+            "proposition": "Des ondes Q de nécrose apparaissent en l'absence de revascularisation précoce puis des ondes T négatives plus tardivement.",
+            "justification": "En SCA ST+, des ondes Q de nécrose surviennent sans revascularisation précoce, puis des ondes T deviennent négatives plus tardivement."
+          },
+          {
+            "correct": true,
+            "proposition": "Des phénomènes de miroir se traduisent par un sous-décalage du ST dans les territoires opposés.",
+            "justification": "Le miroir est décrit comme un sous-décalage du ST dans les territoires opposés au sus-décalage."
+          },
+          {
+            "correct": true,
+            "proposition": "L'exploration postérieure par V7 à V9 est utile lorsque l'ECG 12 dérivations est trompeur.",
+            "justification": "En IDM postérieur isolé trompeur en 12 dérivations, les dérivations V7 à V9 sont indiquées pour confirmer."
+          }
+        ]
+      }
+    }
+  ]
+}

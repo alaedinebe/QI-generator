@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755028942358_01",
+      "current_version_epoch_ms": 1755028942358,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir le déclenchement du rythme stimulé par un stimulateur cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le stimulateur délivre des impulsions si le rythme propre du patient est inférieur au rythme programmé.",
+            "justification": "Le rythme est stimulé uniquement si le rythme propre est inférieur au rythme programmé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le stimulateur délivre des impulsions si le rythme propre du patient est supérieur au rythme programmé.",
+            "justification": "Le déclenchement ne se fait pas lorsque le rythme spontané est supérieur au rythme programmé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le stimulateur délivre des impulsions en continu, indépendamment du rythme propre.",
+            "justification": "Le fonctionnement n'est pas continu : il dépend du rapport entre rythme propre et rythme programmé."
+          },
+          {
+            "correct": true,
+            "proposition": "La stimulation peut être atriale, ventriculaire ou aux deux étages.",
+            "justification": "La stimulation peut concerner l'oreillette, le ventricule, ou les deux étages."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de fibrillation atriale permanente, une sonde atriale est implantée.",
+            "justification": "Chez les patients en fibrillation atriale permanente, on n'implante pas de sonde atriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028942358_02",
+      "current_version_epoch_ms": 1755028942358,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques ECG d'une stimulation ventriculaire droite et l'exception liée à la resynchronisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un artefact de stimulation (« spike ») peut être visible avant le complexe.",
+            "justification": "Un artefact de stimulation est plus ou moins visible."
+          },
+          {
+            "correct": true,
+            "proposition": "Les QRS stimulés sont typiquement larges en cas de stimulation dans le ventricule droit.",
+            "justification": "Les QRS stimulés sont larges car la stimulation se fait dans le ventricule droit."
+          },
+          {
+            "correct": true,
+            "proposition": "L'aspect des QRS en stimulation ventriculaire droite évoque un retard gauche.",
+            "justification": "La stimulation dans le ventricule droit donne un aspect de retard gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "Le spike de stimulation est toujours parfaitement visible.",
+            "justification": "Le spike peut être plus ou moins visible et n'est pas constamment net."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de resynchronisation cardiaque, l'aspect large attendu des QRS peut ne pas être présent.",
+            "justification": "L'exception mentionnée est la resynchronisation cardiaque, où l'aspect large n'est pas retrouvé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028942358_03",
+      "current_version_epoch_ms": 1755028942358,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les configurations de sondes des stimulateurs et les situations particulières.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La plupart des stimulateurs comportent deux sondes : une dans l'oreillette droite et une dans le ventricule droit.",
+            "justification": "La plupart des dispositifs ont 2 sondes, une en oreillette droite et une en ventricule droit."
+          },
+          {
+            "correct": true,
+            "proposition": "La resynchronisation cardiaque nécessite trois sondes.",
+            "justification": "Il est précisé qu'il y a 3 sondes si resynchronisation cardiaque."
+          },
+          {
+            "correct": true,
+            "proposition": "La resynchronisation cardiaque s'appuie sur une sonde dans le ventricule droit et une sonde dans une veine coronaire au contact du ventricule gauche.",
+            "justification": "La resynchronisation associe une sonde dans le ventricule droit et une autre dans une veine coronaire au contact du ventricule gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient en fibrillation atriale permanente, une sonde atriale est implantée pour synchroniser les oreillettes.",
+            "justification": "En fibrillation atriale permanente, on n'implante pas de sonde atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "La plupart des stimulateurs sont mono-sonde.",
+            "justification": "La configuration la plus fréquente mentionnée est bi-sonde (oreillette droite et ventricule droit)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028942358_04",
+      "current_version_epoch_ms": 1755028942358,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Associer la situation clinique au site principal de stimulation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysfonction sinusale isolée → stimulation atriale.",
+            "justification": "Les patients sont schématiquement stimulés dans l'oreillette en cas de dysfonction sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc auriculo-ventriculaire isolé → stimulation ventriculaire.",
+            "justification": "Les patients sont schématiquement stimulés dans le ventricule en cas de BAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysfonction sinusale associée à un bloc auriculo-ventriculaire → stimulation aux deux étages.",
+            "justification": "Les patients sont schématiquement stimulés aux 2 étages en cas d'association dysfonction sinusale et BAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc auriculo-ventriculaire → stimulation uniquement atriale.",
+            "justification": "En BAV, la stimulation attendue est ventriculaire, pas uniquement atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonction sinusale → stimulation exclusivement ventriculaire.",
+            "justification": "En dysfonction sinusale isolée, la stimulation attendue est atriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028942358_05",
+      "current_version_epoch_ms": 1755028942358,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier des éléments orientant vers un électroentraînement atrial, ventriculaire ou séquentiel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La stimulation peut concerner l'oreillette, le ventricule ou les deux étages (séquentiel).",
+            "justification": "Il est indiqué une stimulation atriale, ventriculaire ou aux 2 étages."
+          },
+          {
+            "correct": true,
+            "proposition": "Un artefact de stimulation peut être présent mais sa visibilité varie.",
+            "justification": "L'artefact (« spike ») est plus ou moins visible."
+          },
+          {
+            "correct": true,
+            "proposition": "Des QRS stimulés larges orientent vers une stimulation dans le ventricule droit.",
+            "justification": "La stimulation dans le ventricule droit donne des QRS stimulés larges."
+          },
+          {
+            "correct": false,
+            "proposition": "Un rythme stimulé peut apparaître même si le rythme propre dépasse le rythme programmé.",
+            "justification": "Le rythme stimulé n'apparaît que si le rythme propre est inférieur au rythme programmé."
+          },
+          {
+            "correct": true,
+            "proposition": "L'électroentraînement des deux étages vise à synchroniser oreillettes et ventricules si besoin.",
+            "justification": "Les dispositifs à plusieurs sondes permettent de synchroniser les oreillettes avec les ventricules lorsque nécessaire."
+          }
+        ]
+      }
+    }
+  ]
+}

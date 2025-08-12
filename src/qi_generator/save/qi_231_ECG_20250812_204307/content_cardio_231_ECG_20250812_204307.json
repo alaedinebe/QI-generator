@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755024393870_01",
+      "current_version_epoch_ms": 1755024393870,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères ECG d'un bloc de branche droit complet.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "QRS > 120 ms",
+            "justification": "Un bloc de branche droit complet se définit par un QRS élargi au-delà de 120 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS négatifs en V1-V2 avec aspect QS",
+            "justification": "Des QRS négatifs en V1-V2 avec aspect QS (ou rS) caractérisent le bloc de branche gauche, pas le droit."
+          },
+          {
+            "correct": true,
+            "proposition": "Aspect RsR' en V1-V2",
+            "justification": "Le bloc de branche droit complet présente des QRS positifs en V1-V2 avec aspect RsR'."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde S élargie en DI, V5 et V6",
+            "justification": "On observe en DI, V5 et V6 une onde S élargie (> 40 ms ou > à la durée de l'onde R) dans le bloc de branche droit complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Retard de la déflexion intrinsécoïde en V5-V6 > 60 ms",
+            "justification": "Le retard de la déflexion intrinsécoïde > 60 ms en V5-V6 est décrit dans le bloc de branche gauche, pas dans le droit (où le retard est en V1 > 50 ms)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024393870_02",
+      "current_version_epoch_ms": 1755024393870,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments ECG d'un bloc de branche gauche complet.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "QRS > 120 ms",
+            "justification": "Le bloc de branche gauche complet se définit par un QRS élargi au-delà de 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte de l'onde q physiologique en DI, V5 et V6 avec aspect rR'",
+            "justification": "Le bloc de branche gauche s'accompagne d'une disparition de l'onde q physiologique en DI, V5 et V6 avec un aspect rR'."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS positifs en V1-V2",
+            "justification": "Des QRS positifs en V1-V2 évoquent un bloc de branche droit ; dans le bloc de branche gauche, ils sont négatifs en V1-V2."
+          },
+          {
+            "correct": true,
+            "proposition": "Retard de la déflexion intrinsécoïde en V5-V6 > 60 ms",
+            "justification": "Un retard de la déflexion intrinsécoïde en V5-V6 > 60 ms est un critère du bloc de branche gauche complet."
+          },
+          {
+            "correct": true,
+            "proposition": "Aspect QS (ou rS) en V1-V2",
+            "justification": "Le bloc de branche gauche montre des QRS négatifs en V1-V2 avec aspect QS (ou rS)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024393870_03",
+      "current_version_epoch_ms": 1755024393870,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier hémibloc antérieur gauche (HAG) et hémibloc postérieur gauche (HPG).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HAG : déviation axiale gauche au-delà de -45°",
+            "justification": "L'hémibloc antérieur gauche entraîne une déviation axiale gauche (QRS négatif en aVF et en DII)."
+          },
+          {
+            "correct": true,
+            "proposition": "HAG isolé : QRS < 120 ms",
+            "justification": "Dans l'hémibloc antérieur gauche, le QRS est < 120 ms sauf s'il existe un bloc de branche droit complet associé."
+          },
+          {
+            "correct": true,
+            "proposition": "HPG : déviation axiale droite au-delà de +100°",
+            "justification": "L'hémibloc postérieur gauche se traduit par une déviation axiale droite franche (> +100°)."
+          },
+          {
+            "correct": true,
+            "proposition": "HAG : aspect qR en DI, aVL et rS en DII-DIII-aVF",
+            "justification": "Le profil de conduction de l'hémibranche antérieure gauche donne qR en DI, aVL et rS en dérivations inférieures."
+          },
+          {
+            "correct": false,
+            "proposition": "HPG : aspect qR en DI et aVL, RS en DII-DIII-aVF",
+            "justification": "En HPG, c'est l'inverse : RS ou rS en DI, aVL et qR en DII-DIII-aVF (pattern « S1Q3 »)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024393870_04",
+      "current_version_epoch_ms": 1755024393870,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les situations liées aux blocs bifasciculaires et au risque de BAV complet.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association bloc de branche droit + hémibloc antérieur gauche = bloc bifasciculaire",
+            "justification": "Le bloc bifasciculaire est défini par l'association d'un bloc de branche droit avec un hémibloc antérieur gauche ou postérieur gauche."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc de branche droit + hémibloc postérieur gauche : risque important de BAV complet",
+            "justification": "La présence d'un hémibloc postérieur gauche dans un bloc bifasciculaire expose à un risque élevé de BAV complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Bifasciculaire + PR > 200 ms = bloc trifasciculaire",
+            "justification": "En cas de PR > 200 ms, il s'agit d'un bloc bifasciculaire avec BAV du premier degré, et non d'un bloc trifasciculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc alternant (BBG complet puis BBD complet) : indication de stimulateur cardiaque",
+            "justification": "Le bloc alternant signe un risque majeur de BAV complet et justifie la mise en place d'un stimulateur cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc bifasciculaire = hémibloc antérieur gauche + hémibloc postérieur gauche sans bloc de branche droit",
+            "justification": "La définition donnée repose sur l'association d'un bloc de branche droit avec un hémibloc, pas sur deux hémiblocs isolés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024393870_05",
+      "current_version_epoch_ms": 1755024393870,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître des notions transversales : repolarisation secondaire, mécanisme fonctionnel et topographie des hémibranches.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bloc fonctionnel : aberration de conduction pour des fréquences rapides",
+            "justification": "Le bloc dit fonctionnel correspond à une aberration de conduction liée à des fréquences cardiaques rapides."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de bloc de branche, l'onde T est orientée dans le même sens que l'axe du QRS",
+            "justification": "Les anomalies de repolarisation secondaires se traduisent par un décalage du ST et une onde T orientée à l'opposé de l'axe du QRS."
+          },
+          {
+            "correct": true,
+            "proposition": "Anomalies de repolarisation secondaires : décalage du ST et T opposée à l'axe du QRS",
+            "justification": "La repolarisation est dite secondaire avec un ST décalé et une onde T d'orientation opposée à l'axe du QRS."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémibloc postérieur gauche : plus rare et témoigne souvent d'une atteinte sévère, surtout s'il est associé à un bloc de branche droit",
+            "justification": "L'hémibranche postérieure gauche a un diamètre plus important, rendant l'HPG plus rare et souvent signe d'atteinte sévère lorsqu'associé à un BBD."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc alternant : absence de retentissement particulier",
+            "justification": "Le bloc alternant expose au risque majeur de BAV complet, avec indication de stimulateur cardiaque."
+          }
+        ]
+      }
+    }
+  ]
+}

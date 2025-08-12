@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755026669130_01",
+      "current_version_epoch_ms": 1755026669130,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier un QTc simplement allongé du diagnostic de syndrome du QT long congénital (sans facteur favorisant).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un QTc > 440 ms est considéré allongé.",
+            "justification": "Le seuil d'allongement du QTc est > 440 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "En l'absence de facteur favorisant, un QTc ≥ 480 ms permet de retenir un syndrome du QT long congénital.",
+            "justification": "Le diagnostic de QT long congénital est retenu si QTc ≥ 480 ms sans facteur favorisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc ≥ 440 ms suffit pour diagnostiquer un QT long congénital.",
+            "justification": "Le diagnostic nécessite un seuil plus élevé : QTc ≥ 480 ms sans facteur favorisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc ≤ 440 ms est obligatoirement pathologique.",
+            "justification": "Le seuil pathologique d'allongement est au-delà de 440 ms, pas en-dessous ou égal."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc est considéré normal jusqu'à 500 ms.",
+            "justification": "Un QTc > 440 ms est déjà considéré allongé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026669130_02",
+      "current_version_epoch_ms": 1755026669130,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir précisément comment mesurer l'intervalle QT sur l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le QT se mesure du début du QRS à la fin de l'onde T.",
+            "justification": "Les bornes de mesure sont le début du QRS et la fin de l'onde T."
+          },
+          {
+            "correct": true,
+            "proposition": "La fin de l'onde T est repérée à l'intersection entre la tangente de l'onde T et la ligne isoélectrique.",
+            "justification": "La méthode de repérage de la fin de T est spécifiée ainsi."
+          },
+          {
+            "correct": false,
+            "proposition": "Le QT se mesure du début de l'onde P à la fin de l'onde T.",
+            "justification": "Le point de départ est le début du QRS, pas celui de l'onde P."
+          },
+          {
+            "correct": false,
+            "proposition": "La fin de l'onde T se définit au premier retour apparent à la ligne de base, sans recours à une tangente.",
+            "justification": "La définition retenue utilise la tangente de l'onde T et son intersection avec la ligne isoélectrique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il faut choisir une dérivation où l'onde T est bien visible pour mesurer le QT.",
+            "justification": "La mesure doit se faire là où l'onde T est bien visible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026669130_03",
+      "current_version_epoch_ms": 1755026669130,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Choisir la dérivation la plus adaptée pour mesurer le QT.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La dérivation DII est souvent adaptée car l'onde T y est bien visible.",
+            "justification": "DII est citée comme dérivation fréquemment favorable."
+          },
+          {
+            "correct": true,
+            "proposition": "La dérivation V5 est souvent adaptée pour une bonne visualisation de l'onde T.",
+            "justification": "V5 est citée comme dérivation fréquemment favorable."
+          },
+          {
+            "correct": false,
+            "proposition": "La mesure du QT doit se faire systématiquement en V1.",
+            "justification": "Il n'est pas indiqué de mesure systématique en V1 ; le choix dépend de la visibilité de T."
+          },
+          {
+            "correct": false,
+            "proposition": "La mesure doit toujours se faire en aVR, quelle que soit la morphologie de l'onde T.",
+            "justification": "Le critère déterminant est la bonne visibilité de l'onde T, pas une dérivation imposée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le choix de la dérivation dépend de la visibilité de l'onde T.",
+            "justification": "La consigne est de mesurer là où l'onde T est bien visible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026669130_04",
+      "current_version_epoch_ms": 1755026669130,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître l'influence de la fréquence cardiaque sur le QT et l'utilisation de la correction.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le QT varie en fonction de la fréquence cardiaque.",
+            "justification": "Il est explicitement indiqué que le QT dépend de la fréquence."
+          },
+          {
+            "correct": true,
+            "proposition": "La formule de Bazett est la plus utilisée pour corriger le QT.",
+            "justification": "La formule de Bazett est mentionnée comme la plus utilisée pour obtenir le QTc."
+          },
+          {
+            "correct": false,
+            "proposition": "La fréquence cardiaque n'influence pas le QT ; aucune correction n'est nécessaire.",
+            "justification": "C'est l'inverse : le QT varie avec la fréquence et nécessite une correction."
+          },
+          {
+            "correct": false,
+            "proposition": "La formule de Bazett est rarement utilisée pour corriger le QT.",
+            "justification": "Elle est au contraire la plus utilisée."
+          },
+          {
+            "correct": true,
+            "proposition": "L'interprétation doit se baser sur un QT corrigé (QTc) pour tenir compte de la fréquence.",
+            "justification": "Puisque le QT varie avec la fréquence et qu'une correction est utilisée, le QTc guide l'interprétation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026669130_05",
+      "current_version_epoch_ms": 1755026669130,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer différentes valeurs de QTc selon les seuils d'allongement et de diagnostic de QT long congénital (sans facteur favorisant).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un QTc de 460 ms est allongé.",
+            "justification": "Il dépasse le seuil d'allongement > 440 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc de 430 ms est allongé.",
+            "justification": "Il est inférieur au seuil d'allongement > 440 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Un QTc de 480 ms suffit pour diagnostiquer un QT long congénital en l'absence de facteur favorisant.",
+            "justification": "Le diagnostic est retenu pour QTc ≥ 480 ms sans facteur favorisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc de 470 ms suffit pour diagnostiquer un QT long congénital en l'absence de facteur favorisant.",
+            "justification": "Le seuil diagnostique est 480 ms, pas 470 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "Un QTc n'a pas besoin d'être corrigé pour être interprété.",
+            "justification": "Le QT varie avec la fréquence cardiaque ; la correction (QTc) est utilisée, notamment via Bazett."
+          }
+        ]
+      }
+    }
+  ]
+}

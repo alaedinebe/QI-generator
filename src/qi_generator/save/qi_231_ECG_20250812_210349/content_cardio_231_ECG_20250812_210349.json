@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755025635836_01",
+      "current_version_epoch_ms": 1755025635836,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant les tachycardies jonctionnelles, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le circuit de réentrée emprunte le nœud atrioventriculaire.",
+            "justification": "Il s'agit de tachycardies par réentrée dont le circuit passe par le NAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles peuvent être interrompues par des manœuvres vagales ou l'adénosine.",
+            "justification": "Les manœuvres vagales et l'adénosine bloquent la conduction dans le NAV et stoppent la tachycardie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le début et la fin sont progressifs.",
+            "justification": "Le début et la fin sont brusques, non progressifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Le rythme est toujours régulier avec un rapport A/V à 1.",
+            "justification": "La régularité et le rapport A/V à 1 caractérisent ces tachycardies."
+          },
+          {
+            "correct": false,
+            "proposition": "Les ondes P' sont antégrades et visibles avant le QRS dans les dérivations inférieures.",
+            "justification": "Les ondes P' sont rétrogrades, négatives dans les dérivations inférieures, et situées après le QRS (parfois masquées)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025635836_02",
+      "current_version_epoch_ms": 1755025635836,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître la tachycardie par réentrée intra-nodale (AVNRT).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le circuit de réentrée est localisé dans le nœud atrioventriculaire avec coexistence d'une voie rapide et d'une voie lente.",
+            "justification": "La présence d'une voie rapide et d'une voie lente dans le NAV fonde le mécanisme de réentrée intra-nodale."
+          },
+          {
+            "correct": true,
+            "proposition": "Les ondes P' rétrogrades sont « collées » au QRS et parfois non visibles.",
+            "justification": "Dans l'AVNRT, les P' sont accolées au QRS et peuvent être masquées."
+          },
+          {
+            "correct": false,
+            "proposition": "Les ondes P' sont à distance du QRS (> 80 ms).",
+            "justification": "Une P' à distance > 80 ms est plutôt en faveur d'une tachycardie sur voie accessoire."
+          },
+          {
+            "correct": true,
+            "proposition": "La tachycardie peut être interrompue par l'adénosine.",
+            "justification": "Le blocage de la conduction nodale par l'adénosine permet l'arrêt de la tachycardie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le circuit descend par une voie accessoire et remonte par le NAV.",
+            "justification": "Ce trajet correspond à une tachycardie antidromique sur voie accessoire, non à une AVNRT."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025635836_03",
+      "current_version_epoch_ms": 1755025635836,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les caractéristiques des tachycardies sur voie accessoire (AVRT) en orthodromiques vs antidromiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Orthodromique : le circuit descend par le NAV et remonte par la voie accessoire.",
+            "justification": "La forme la plus fréquente est orthodromique avec descente par le NAV et remontée par la voie accessoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Orthodromique : QRS fins.",
+            "justification": "Le passage initial par le NAV en orthodromique s'accompagne de QRS fins."
+          },
+          {
+            "correct": true,
+            "proposition": "Antidromique : le circuit descend par la voie accessoire et remonte par le NAV.",
+            "justification": "L'antidromique emprunte d'abord la voie accessoire puis remonte par le NAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Antidromique : QRS fins.",
+            "justification": "En antidromique, les QRS sont larges."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les AVRT, les ondes P' sont plus à distance du QRS (> 80 ms).",
+            "justification": "La P' rétrograde est plus éloignée du QRS dans les tachycardies sur voie accessoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025635836_04",
+      "current_version_epoch_ms": 1755025635836,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir les critères électrocardiographiques du syndrome de Wolff-Parkinson-White (rythme sinusal).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Préexcitation ventriculaire avec PR court (< 120 ms).",
+            "justification": "Le PR court est un critère de préexcitation en rythme sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une onde delta (empâtement du pied du QRS).",
+            "justification": "L'onde delta signe la conduction antérograde par la voie accessoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Rapport A/V égal à 1 en tachycardie.",
+            "justification": "Le rapport A/V à 1 caractérise les tachycardies jonctionnelles, ce n'est pas un critère de définition du WPW en sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de cet aspect en sinusal signe une voie accessoire à conduction antérograde.",
+            "justification": "Le WPW en sinusal atteste d'une conduction antérograde par la voie accessoire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'aspect WPW en sinusal élimine la présence d'une voie accessoire lors d'une tachycardie.",
+            "justification": "L'absence d'indices en sinusal n'exclut pas une voie accessoire en situation de tachycardie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025635836_05",
+      "current_version_epoch_ms": 1755025635836,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître la « maladie de Bouveret » et les arguments ECG orientant vers une tachycardie jonctionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Palpitations à début et fin brusques.",
+            "justification": "Ce caractère paroxystique définit la maladie de Bouveret."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythme toujours régulier.",
+            "justification": "La régularité est une caractéristique des tachycardies jonctionnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes P' rétrogrades, négatives dans les dérivations inférieures, visibles après le QRS.",
+            "justification": "Les P' sont rétrogrades et situées après le QRS, parfois non visibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Rapport A/V différent de 1.",
+            "justification": "Le rapport A/V est à 1 dans ces tachycardies."
+          },
+          {
+            "correct": true,
+            "proposition": "Interruption possible par manœuvres vagales.",
+            "justification": "Le blocage nodal induit par les manœuvres vagales peut arrêter la tachycardie."
+          }
+        ]
+      }
+    }
+  ]
+}

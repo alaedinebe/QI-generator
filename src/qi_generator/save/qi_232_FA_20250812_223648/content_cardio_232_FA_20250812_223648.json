@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "FA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755031215568_01",
+      "current_version_epoch_ms": 1755031215568,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Un patient présente une FA qui cesse spontanément 48 heures après son début, sans cardioversion électrique ni pharmacologique. Classer cette présentation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Correspond à une FA paroxystique.",
+            "justification": "La FA paroxystique se définit par un retour spontané en rythme sinusal en moins de 7 jours, sans cardioversion."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond à une FA persistante.",
+            "justification": "La FA persistante implique un retour en rythme sinusal au-delà de 7 jours, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": true,
+            "proposition": "La définition de FA paroxystique impose l'absence de cardioversion pour le retour en rythme sinusal.",
+            "justification": "Le retour doit être spontané, c'est-à-dire sans cardioversion électrique ou pharmacologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le retour s'était produit à J8 spontanément, ce serait encore paroxystique.",
+            "justification": "Au-delà de 7 jours, la catégorie devient persistante, même en cas de retour spontané."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette classification se fonde sur la chronologie d'évolution.",
+            "justification": "La classification usuelle de la FA est basée sur la présentation chronologique de la maladie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755031215568_02",
+      "current_version_epoch_ms": 1755031215568,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "FA évoluant depuis 10 jours, retour en rythme sinusal à J10 après introduction d'un traitement antiarythmique. Quelle(s) affirmation(s) est/sont correcte(s) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une FA persistante.",
+            "justification": "La FA persistante correspond à un retour en rythme sinusal au-delà de 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Le recours à un traitement exclut la catégorie « persistante ».",
+            "justification": "La FA persistante inclut un retour au-delà de 7 jours avec ou sans action thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce n'est pas une FA paroxystique.",
+            "justification": "La FA paroxystique exige un retour spontané en moins de 7 jours et sans cardioversion, ce qui n'est pas le cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Une FA persistante nécessite un retour en rythme sinusal au-delà de 7 jours, qu'il y ait ou non une action thérapeutique.",
+            "justification": "La définition inclut explicitement « avec ou sans action thérapeutique »."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la stratégie n'était pas de restaurer le rythme sinusal, on parlerait de FA persistante.",
+            "justification": "L'absence d'objectif de retour en rythme sinusal définit la FA permanente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755031215568_03",
+      "current_version_epoch_ms": 1755031215568,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Chez un patient en FA ancienne, l'équipe décide d'une stratégie sans objectif de retour en rythme sinusal (contrôle de fréquence uniquement). À propos de la classification :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est une FA permanente.",
+            "justification": "La FA permanente est celle pour laquelle la stratégie thérapeutique n'a pas pour objectif un retour en rythme sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une FA paroxystique.",
+            "justification": "La FA paroxystique suppose un retour spontané en moins de 7 jours sans cardioversion, ce qui n'est pas le sujet ici."
+          },
+          {
+            "correct": true,
+            "proposition": "La définition de FA permanente repose sur l'absence d'objectif thérapeutique de retour en rythme sinusal.",
+            "justification": "La catégorie « permanente » est définie par la stratégie thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "La notion de délai (< ou > 7 jours) ne définit pas cette catégorie.",
+            "justification": "La FA permanente est définie par l'objectif thérapeutique et non par un délai de retour."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une FA persistante.",
+            "justification": "La FA persistante se base sur un retour au-delà de 7 jours, alors qu'ici il n'y a pas d'objectif de retour."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755031215568_04",
+      "current_version_epoch_ms": 1755031215568,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "À partir des définitions usuelles, associer correctement situation et catégorie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Retour spontané à J5 sans cardioversion → FA paroxystique.",
+            "justification": "Retour spontané en moins de 7 jours sans cardioversion : paroxystique."
+          },
+          {
+            "correct": true,
+            "proposition": "Retour à J10 après cardioversion pharmacologique → FA persistante.",
+            "justification": "Retour au-delà de 7 jours, même avec action thérapeutique : persistante."
+          },
+          {
+            "correct": true,
+            "proposition": "Retour en rythme sinusal au-delà de 7 jours, sans aucune intervention → FA persistante.",
+            "justification": "Le critère est le délai > 7 jours, que ce soit avec ou sans action thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'objectif de retour sinusal → FA permanente.",
+            "justification": "La stratégie qui ne vise pas la restitution du rythme sinusal définit la forme permanente."
+          },
+          {
+            "correct": false,
+            "proposition": "Premier tracé d'arythmie confirmé → n'entre dans aucune catégorie de la classification usuelle.",
+            "justification": "« Premier épisode de FA » est l'un des quatre groupes de la classification."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755031215568_05",
+      "current_version_epoch_ms": 1755031215568,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Concernant la classification usuelle de la fibrillation atriale (FA) :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle comporte quatre groupes : premier épisode, paroxystique, persistante, permanente.",
+            "justification": "La classification usuelle est divisée en ces quatre catégories."
+          },
+          {
+            "correct": true,
+            "proposition": "La FA paroxystique correspond à un retour spontané en rythme sinusal en moins de 7 jours, sans cardioversion.",
+            "justification": "La définition précise un retour spontané sans cardioversion en moins de 7 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "La FA persistante se définit par un retour en rythme sinusal au-delà de 7 jours, avec ou sans action thérapeutique.",
+            "justification": "Le délai > 7 jours et l'indépendance vis-à-vis d'une intervention caractérisent cette catégorie."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA permanente se définit par la survenue d'une FA depuis plus de 7 jours.",
+            "justification": "La FA permanente est définie par l'absence d'objectif de retour en rythme sinusal, pas par un délai."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une classification basée sur la présentation chronologique de la maladie.",
+            "justification": "Le principe de cette classification est la chronologie d'évolution de la FA."
+          }
+        ]
+      }
+    }
+  ]
+}

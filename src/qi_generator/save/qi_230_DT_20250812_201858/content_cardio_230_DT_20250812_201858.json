@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755022945249_01",
+      "current_version_epoch_ms": 1755022945249,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître la place de la coronarographie dans le SCA : sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet d'identifier la lésion coronaire coupable et d'orienter le choix du traitement (angioplastie avec stent le plus souvent, parfois pontage ou traitement médical).",
+            "justification": "La coronarographie sert à repérer la lésion responsable et à décider entre angioplastie, pontage ou traitement médical."
+          },
+          {
+            "correct": true,
+            "proposition": "C'est un examen invasif nécessitant une explication pré-opératoire et le recueil du consentement.",
+            "justification": "Il s'agit d'un geste invasif, avec information préalable et consentement."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne peut jamais être thérapeutique.",
+            "justification": "L'angioplastie avec stent est précisément un traitement réalisé après coronarographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est non invasive et peut être réalisée sans consentement.",
+            "justification": "Le caractère invasif impose une information et un consentement."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut être réalisée à visée diagnostique ou thérapeutique.",
+            "justification": "Le geste est décrit comme diagnostique ou thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022945249_02",
+      "current_version_epoch_ms": 1755022945249,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier la stratégie initiale dans le SCA ST+ en fonction du délai.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le délai entre l'ECG diagnostiquant le ST+ et l'installation en salle de coronarographie pour débuter l'angioplastie est ≤ 120 minutes, l'angioplastie primaire est recommandée.",
+            "justification": "Pour un délai ≤ 120 min, la stratégie indiquée est l'angioplastie primaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Si ce délai est > 120 minutes, la fibrinolyse est privilégiée en l'absence de contre-indication et si les symptômes datent de ≤ 12 heures.",
+            "justification": "Au-delà de 120 min, fibrinolyse prioritaire sauf contre-indication et si symptômes ≤ 12 h."
+          },
+          {
+            "correct": false,
+            "proposition": "Après fibrinolyse avec signes de reperfusion, aucune angioplastie ne doit être réalisée dans les 24 heures.",
+            "justification": "En cas de reperfusion, une angioplastie différée dans les 24 h est prévue."
+          },
+          {
+            "correct": true,
+            "proposition": "Après fibrinolyse sans reperfusion, une angioplastie de sauvetage est indiquée.",
+            "justification": "L'absence de reperfusion conduit à une angioplastie de sauvetage."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai à évaluer correspond au temps entre le début des douleurs et la ponction artérielle.",
+            "justification": "Le délai est défini entre l'ECG diagnostique et l'installation en salle pour mise en place du guide d'angioplastie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022945249_03",
+      "current_version_epoch_ms": 1755022945249,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Classer les situations tardives du SCA ST+ (> 12 h après le début des douleurs) selon l'indication d'angioplastie primaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleurs persistantes : l'angioplastie primaire reste indiquée.",
+            "justification": "En cas de douleurs persistantes au-delà de 12 h, l'angioplastie primaire demeure indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Instabilité hémodynamique : l'angioplastie primaire reste indiquée.",
+            "justification": "L'instabilité hémodynamique justifie l'angioplastie primaire malgré le retard."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du rythme ventriculaires : l'angioplastie primaire reste indiquée.",
+            "justification": "Une instabilité rythmique ventriculaire motive l'angioplastie primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient asymptomatique et stable à 72 heures : l'angioplastie primaire doit être réalisée d'emblée sans autre évaluation.",
+            "justification": "Au-delà de 48 h sans douleur, il faut d'abord rechercher la viabilité dans le territoire infarci."
+          },
+          {
+            "correct": true,
+            "proposition": "Jusqu'à 48 heures après le début des symptômes, une angioplastie est à considérer.",
+            "justification": "Une angioplastie peut être envisagée jusqu'à 48 h après le début des symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022945249_04",
+      "current_version_epoch_ms": 1755022945249,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître la place de la coronarographie dans le SCA non ST+.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est généralement réalisée dans les 24 heures, en particulier s'il existe une élévation de la troponine.",
+            "justification": "La stratégie mentionne une coronarographie dans les 24 h, surtout en cas de troponine élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit toujours être réalisée en urgence < 2 heures quel que soit l'état clinique.",
+            "justification": "Le < 2 h est réservé au SCA non ST+ réfractaire au traitement médical."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de SCA non ST+ réfractaire au traitement médical (douleurs persistantes), une coronarographie en urgence < 2 heures est indiquée.",
+            "justification": "Le caractère réfractaire impose une prise en charge en urgence < 2 h."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la troponine est normale, la coronarographie n'a jamais d'indication.",
+            "justification": "L'indication n'est pas exclue par une troponine normale ; l'argument « jamais » est incorrect."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez tout patient stable avec troponine élevée, la coronarographie peut être reportée systématiquement au-delà de 24 heures.",
+            "justification": "La conduite proposée est plutôt dans les 24 h, notamment si la troponine est élevée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022945249_05",
+      "current_version_epoch_ms": 1755022945249,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Définir le « délai » clé à évaluer dans le SCA ST+ et ses conséquences thérapeutiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le délai correspond au temps entre l'ECG diagnostiquant le ST+ et l'installation en salle de coronarographie pour mise en place du guide d'angioplastie.",
+            "justification": "C'est la définition explicitement donnée pour orienter la stratégie."
+          },
+          {
+            "correct": true,
+            "proposition": "Un délai ≤ 120 minutes oriente vers une angioplastie primaire.",
+            "justification": "En deçà de 120 min, l'angioplastie primaire est recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Un délai ≤ 120 minutes oriente vers une fibrinolyse prioritaire.",
+            "justification": "La fibrinolyse est privilégiée lorsque le délai est > 120 min, pas ≤ 120 min."
+          },
+          {
+            "correct": true,
+            "proposition": "Un délai > 120 minutes fait privilégier la fibrinolyse si elle n'est pas contre-indiquée et si les symptômes datent de ≤ 12 heures.",
+            "justification": "C'est la règle énoncée pour le dépassement du seuil de 120 min."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai à considérer est le temps entre l'appel initial et l'arrivée aux urgences.",
+            "justification": "Le repère n'est pas l'appel ou l'arrivée, mais l'ECG diagnostique jusqu'à l'installation en salle."
+          }
+        ]
+      }
+    }
+  ]
+}

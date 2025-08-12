@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755025220508_01",
+      "current_version_epoch_ms": 1755025220508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères électrocardiographiques permettant de reconnaître une fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme ventriculaire irrégulier.",
+            "justification": "Critère décrit : rythme irrégulier."
+          },
+          {
+            "correct": true,
+            "proposition": "Trémulation de la ligne de base sans onde P visible.",
+            "justification": "Décrit : trémulation de la ligne de base sans onde P visible (mailles plus ou moins amples)."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS systématiquement fins sans aucune exception.",
+            "justification": "Il est précisé que les QRS sont fins sauf en cas de bloc de branche ou de pré-excitation ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'ondes P régulières et identiques.",
+            "justification": "Il est indiqué l'absence d'onde P visible."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS fins sauf en cas de bloc de branche ou de pré-excitation ventriculaire.",
+            "justification": "Spécifié : QRS fins sauf si bloc de branche ou pré-excitation ventriculaire (voie accessoire antérograde)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025220508_02",
+      "current_version_epoch_ms": 1755025220508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les situations pouvant expliquer des QRS non fins au cours d'une fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bloc de branche (organique ou fonctionnel fréquence-dépendant).",
+            "justification": "Listé comme exception aux QRS fins."
+          },
+          {
+            "correct": true,
+            "proposition": "Pré-excitation ventriculaire par voie accessoire antérograde.",
+            "justification": "Listée comme exception aux QRS fins."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc auriculo-ventriculaire complet avec échappement.",
+            "justification": "Mentionné parmi les causes de rythme ventriculaire régulier, pas comme cause de QRS non fins."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme ventriculaire entraîné par un stimulateur cardiaque.",
+            "justification": "Mentionné comme cause de rythme régulier, pas comme cause de QRS non fins."
+          },
+          {
+            "correct": false,
+            "proposition": "Bi-tachycardie (association de fibrillation atriale et de tachycardie ventriculaire).",
+            "justification": "Mentionnée comme cause de rythme régulier, pas comme exception aux QRS fins."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025220508_03",
+      "current_version_epoch_ms": 1755025220508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier les causes possibles d'un rythme ventriculaire régulier observé en contexte de fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bloc auriculo-ventriculaire complet avec échappement.",
+            "justification": "Listé parmi les causes de rythme ventriculaire régulier."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythme ventriculaire entraîné par un stimulateur cardiaque.",
+            "justification": "Listé parmi les causes de rythme ventriculaire régulier."
+          },
+          {
+            "correct": true,
+            "proposition": "Bi-tachycardie (association de fibrillation atriale et de tachycardie ventriculaire).",
+            "justification": "Listée parmi les causes de rythme ventriculaire régulier."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation atriale isolée, sans autre particularité.",
+            "justification": "Le critère indiqué est un rythme irrégulier."
+          },
+          {
+            "correct": false,
+            "proposition": "Pré-excitation ventriculaire par voie accessoire antérograde.",
+            "justification": "Cité comme exception aux QRS fins, pas comme cause de régularité du rythme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025220508_04",
+      "current_version_epoch_ms": 1755025220508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir l'élément électrocardiographique qui traduit la perte d'activation auriculaire organisée dans la fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trémulation de la ligne de base sans onde P visible.",
+            "justification": "Décrit explicitement comme caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P visible avant chaque QRS.",
+            "justification": "Il est indiqué l'absence d'onde P visible."
+          },
+          {
+            "correct": true,
+            "proposition": "Mailles de trémulation plus ou moins amples.",
+            "justification": "Précision apportée : mailles plus ou moins amples."
+          },
+          {
+            "correct": false,
+            "proposition": "Ligne isoélectrique parfaitement stable entre les QRS.",
+            "justification": "Il est décrit une trémulation de la ligne de base, non une ligne stable."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'ondes P visibles de morphologie variable.",
+            "justification": "La caractéristique indiquée est l'absence d'onde P visible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025220508_05",
+      "current_version_epoch_ms": 1755025220508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître le type de rythme ventriculaire attendu selon les situations associées à une fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En fibrillation atriale non compliquée, le rythme ventriculaire est irrégulier.",
+            "justification": "Critère mentionné : rythme irrégulier."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de bloc auriculo-ventriculaire complet avec échappement, un rythme régulier peut être observé.",
+            "justification": "Cité parmi les causes de rythme régulier en contexte de fibrillation atriale."
+          },
+          {
+            "correct": true,
+            "proposition": "Si le ventricule est entraîné par un stimulateur cardiaque, le rythme devient régulier.",
+            "justification": "Cité parmi les causes de rythme régulier en contexte de fibrillation atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "La pré-excitation ventriculaire antérograde rend le rythme ventriculaire régulier.",
+            "justification": "Évoquée comme exception aux QRS fins, pas comme cause de régularité."
+          },
+          {
+            "correct": true,
+            "proposition": "L'association fibrillation atriale et tachycardie ventriculaire (bi-tachycardie) peut s'accompagner d'un rythme régulier.",
+            "justification": "Cité parmi les causes de rythme régulier en contexte de fibrillation atriale."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "FA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755030388945_01",
+      "current_version_epoch_ms": 1755030388945,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Concernant l'utilisation du score CHA2DS2-VASc, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est indiqué chez les patients avec fibrillation atriale non valvulaire.",
+            "justification": "Le score n'est utilisé qu'en l'absence de FA valvulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est applicable en cas de fibrillation atriale valvulaire.",
+            "justification": "Son utilisation est limitée à l'absence de FA valvulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut être utilisé quel que soit le type de fibrillation atriale.",
+            "justification": "Il n'est pas utilisé en cas de FA valvulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est jamais utilisé chez les patients avec fibrillation atriale.",
+            "justification": "Il est prévu pour la FA non valvulaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Son utilisation est conditionnée par l'absence de FA valvulaire.",
+            "justification": "Il n'est utilisé qu'en l'absence de FA valvulaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755030388945_02",
+      "current_version_epoch_ms": 1755030388945,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Identifier le rôle de l'évaluation du risque hémorragique dans la fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle n'a pas de place dans la décision de mise en place d'un traitement anti-thrombotique.",
+            "justification": "Il est précisé qu'elle n'a pas de place dans cette décision."
+          },
+          {
+            "correct": false,
+            "proposition": "Un score HAS-BLED élevé contre-indique l'anticoagulation.",
+            "justification": "Un score élevé n'est pas en soi une contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet d'identifier les patients à risque pour intensifier leur suivi.",
+            "justification": "Elle sert à repérer les patients à risque afin de renforcer le suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit déterminer la dose initiale d'anticoagulant.",
+            "justification": "Elle n'a pas de place dans la décision de mise en place d'un traitement antithrombotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle repose sur un unique score universellement accepté.",
+            "justification": "Différents scores cliniques sont disponibles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755030388945_03",
+      "current_version_epoch_ms": 1755030388945,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "À propos des outils d'évaluation du risque hémorragique en FA, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le score HAS-BLED fait partie des scores utilisables.",
+            "justification": "Parmi les scores cliniques disponibles figure le HAS-BLED."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe qu'un seul score pour l'évaluation hémorragique.",
+            "justification": "Il existe différents scores cliniques."
+          },
+          {
+            "correct": true,
+            "proposition": "Ces outils sont des scores cliniques.",
+            "justification": "Il est indiqué que différents scores cliniques sont disponibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Le HAS-BLED est un score de risque thromboembolique.",
+            "justification": "Il est mentionné avec l'évaluation du risque hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le recours à ces scores remplace la surveillance clinique.",
+            "justification": "L'évaluation vise à identifier les patients à risque pour intensifier le suivi, pas à le remplacer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755030388945_04",
+      "current_version_epoch_ms": 1755030388945,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Interprétation d'un score HAS-BLED élevé chez un patient en fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ce n'est pas en soi une contre-indication à l'anticoagulation.",
+            "justification": "Un score HAS-BLED élevé n'est pas une contre-indication en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela contre-indique formellement tout traitement anticoagulant.",
+            "justification": "Il est précisé que ce n'est pas une contre-indication en soi."
+          },
+          {
+            "correct": true,
+            "proposition": "Cela doit conduire à intensifier le suivi.",
+            "justification": "L'évaluation hémorragique sert à identifier les patients à risque pour renforcer le suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela impose l'arrêt de tout traitement anti-thrombotique.",
+            "justification": "L'évaluation n'a pas pour but de contre-indiquer ou d'arrêter le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette évaluation décide à elle seule de la mise en place d'un traitement anti-thrombotique.",
+            "justification": "Elle n'a pas de place dans la décision de mise en place du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755030388945_05",
+      "current_version_epoch_ms": 1755030388945,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Synthèse : évaluation des risques chez un patient en fibrillation atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le score CHA2DS2-VASc ne s'utilise qu'en l'absence de FA valvulaire.",
+            "justification": "Utilisation réservée à la FA non valvulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'évaluation du risque hémorragique détermine l'indication d'un anticoagulant.",
+            "justification": "Elle n'a pas de place dans la décision de mise en place d'un traitement antithrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque hémorragique est apprécié à l'aide de scores cliniques, parmi lesquels HAS-BLED.",
+            "justification": "Différents scores cliniques sont disponibles, dont HAS-BLED."
+          },
+          {
+            "correct": true,
+            "proposition": "La finalité pratique de l'évaluation hémorragique est d'identifier les sujets à risque pour un suivi renforcé.",
+            "justification": "Elle permet d'identifier les patients à risque afin d'intensifier leur suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score CHA2DS2-VASc s'applique quel que soit le type de FA, y compris valvulaire.",
+            "justification": "Il n'est pas utilisé en cas de FA valvulaire."
+          }
+        ]
+      }
+    }
+  ]
+}

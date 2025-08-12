@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755023773903_01",
+      "current_version_epoch_ms": 1755023773903,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier, parmi les caractéristiques suivantes, celles compatibles avec l'interprétation d'un ECG normal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme sinusal régulier à 72 bpm",
+            "justification": "Un ECG normal présente un rythme sinusal régulier entre 60 et 100 bpm."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle PR à 220 ms",
+            "justification": "Le PR normal est compris entre 120 et 200 ms ; 220 ms est au-delà."
+          },
+          {
+            "correct": true,
+            "proposition": "Durée du QRS à 90 ms",
+            "justification": "Le QRS normal est ≤ 100 ms ; 90 ms est compatible."
+          },
+          {
+            "correct": true,
+            "proposition": "QTc à 430 ms",
+            "justification": "Le QTc normal est entre 340 et 440 ms ; 430 ms est dans la plage."
+          },
+          {
+            "correct": false,
+            "proposition": "Axe du QRS à +100°",
+            "justification": "L'axe normal est entre −30° et +90° ; +100° est en dehors."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023773903_02",
+      "current_version_epoch_ms": 1755023773903,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer l'axe électrique du QRS : sélectionner les valeurs compatibles avec un axe normal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Axe à −20°",
+            "justification": "L'axe normal est compris entre −30° et +90° ; −20° est inclus."
+          },
+          {
+            "correct": true,
+            "proposition": "Axe à +60°",
+            "justification": "La valeur +60° appartient à l'intervalle normal [−30° ; +90°]."
+          },
+          {
+            "correct": false,
+            "proposition": "Axe à −45°",
+            "justification": "−45° est inférieur à la borne −30° ; ce n'est pas un axe normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Axe à +95°",
+            "justification": "+95° dépasse la borne supérieure +90° ; ce n'est pas un axe normal."
+          },
+          {
+            "correct": true,
+            "proposition": "Axe à 0°",
+            "justification": "0° se situe entre −30° et +90° ; compatible avec un axe normal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023773903_03",
+      "current_version_epoch_ms": 1755023773903,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître un QTc normal : sélectionner les valeurs compatibles avec un QTc normal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "QTc à 340 ms",
+            "justification": "La plage normale est 340 à 440 ms ; 340 ms est au bord inférieur mais normal."
+          },
+          {
+            "correct": false,
+            "proposition": "QTc à 320 ms",
+            "justification": "320 ms est en dessous de 340 ms ; ce n'est pas dans la plage normale."
+          },
+          {
+            "correct": true,
+            "proposition": "QTc à 440 ms",
+            "justification": "440 ms est à la borne supérieure de l'intervalle normal 340–440 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "QTc à 480 ms",
+            "justification": "Un QTc ≥ 480 ms définit un QTc long ; ce n'est pas normal."
+          },
+          {
+            "correct": true,
+            "proposition": "QTc à 430 ms",
+            "justification": "430 ms se situe entre 340 et 440 ms ; valeur normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023773903_04",
+      "current_version_epoch_ms": 1755023773903,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier une conduction normale : parmi les éléments suivants, identifier ceux compatibles avec l'absence de trouble de la conduction sur un ECG normal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intervalle PR à 140 ms",
+            "justification": "PR normal : 120–200 ms ; 140 ms est normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle PR à 210 ms",
+            "justification": "210 ms dépasse 200 ms ; ce n'est pas un PR normal."
+          },
+          {
+            "correct": true,
+            "proposition": "Durée du QRS à 95 ms",
+            "justification": "QRS normal ≤ 100 ms ; 95 ms est normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Durée du QRS à 105 ms",
+            "justification": "105 ms est > 100 ms ; ce n'est pas une durée normale du QRS."
+          },
+          {
+            "correct": true,
+            "proposition": "PR à 180 ms et QRS à 90 ms",
+            "justification": "Les deux valeurs sont dans les limites normales (PR 120–200 ms ; QRS ≤ 100 ms)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023773903_05",
+      "current_version_epoch_ms": 1755023773903,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments dont la présence contredit un ECG normal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes d'hypertrophie atriale",
+            "justification": "Un ECG normal ne présente pas d'hypertrophie atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme sinusal régulier à 65 bpm",
+            "justification": "Un rythme sinusal régulier entre 60 et 100 bpm est compatible avec la normalité."
+          },
+          {
+            "correct": true,
+            "proposition": "Microvoltage",
+            "justification": "Un ECG normal ne présente pas de microvoltage."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'ondes Q",
+            "justification": "Un ECG normal ne présente pas d'onde Q."
+          },
+          {
+            "correct": true,
+            "proposition": "Rabotage des ondes R",
+            "justification": "Un ECG normal ne présente pas de rabotage des ondes R."
+          }
+        ]
+      }
+    }
+  ]
+}

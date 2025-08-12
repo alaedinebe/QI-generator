@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755023980559_01",
+      "current_version_epoch_ms": 1755023980559,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier, parmi les anomalies ECG suivantes, les troubles du rythme mettant en jeu le pronostic vital à court terme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fibrillation ventriculaire",
+            "justification": "Fait partie des troubles du rythme menaçant le pronostic vital à court terme."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire",
+            "justification": "Fait partie des troubles du rythme menaçant le pronostic vital à court terme."
+          },
+          {
+            "correct": true,
+            "proposition": "Torsade de pointe",
+            "justification": "Fait partie des troubles du rythme menaçant le pronostic vital à court terme."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrillation atriale avec pré-excitation ventriculaire (Super-Wolff)",
+            "justification": "Arythmie supraventriculaire à cadence ventriculaire rapide listée parmi les situations à risque vital."
+          },
+          {
+            "correct": false,
+            "proposition": "Flutter atrial 2/1",
+            "justification": "Non mentionné comme situation à risque vital ; la situation citée est la conduction nodale accélérée (Flutter atrial 1/1)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023980559_02",
+      "current_version_epoch_ms": 1755023980559,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos des bradycardies mettant en jeu le pronostic vital à court terme, sélectionner les entités correspondantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asystolie",
+            "justification": "Listée parmi les bradycardies menaçant le pronostic vital."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc auriculoventriculaire de haut degré",
+            "justification": "Listé parmi les bradycardies menaçant le pronostic vital."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysfonction sinusale",
+            "justification": "Listée parmi les bradycardies menaçant le pronostic vital."
+          },
+          {
+            "correct": false,
+            "proposition": "Dissociation électromécanique",
+            "justification": "Relève du diagnostic différentiel (arrêt cardiaque sans trouble du rythme), pas d'une bradycardie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc auriculoventriculaire du premier degré",
+            "justification": "Non cité parmi les bradycardies menaçant le pronostic vital."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023980559_03",
+      "current_version_epoch_ms": 1755023980559,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant la dissociation électromécanique, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un arrêt cardiaque sans troubles du rythme.",
+            "justification": "Correspond à la définition donnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut être secondaire à un épanchement péricardique mal toléré (tamponnade).",
+            "justification": "Un exemple cité est la tamponnade."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle relève des troubles du rythme.",
+            "justification": "Classée dans le diagnostic différentiel, non dans les troubles du rythme."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle relève du diagnostic différentiel.",
+            "justification": "Présentée comme diagnostic différentiel à considérer."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond à un SCA sans sus-décalage du segment ST.",
+            "justification": "Les SCA sont indiqués séparément ; la dissociation électromécanique n'en fait pas partie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023980559_04",
+      "current_version_epoch_ms": 1755023980559,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Parmi les anomalies ECG mettant en jeu le pronostic vital à court terme, lesquelles relèvent du syndrome coronaire aigu (SCA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SCA avec sus-décalage du segment ST",
+            "justification": "Explicitement listé parmi les situations en jeu vital relevant du SCA."
+          },
+          {
+            "correct": true,
+            "proposition": "SCA sans sus-décalage du segment ST",
+            "justification": "Explicitement listé parmi les situations en jeu vital relevant du SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Angor stable",
+            "justification": "Non mentionné dans la liste des anomalies menaçant le pronostic vital à court terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Allongement majeur de l'intervalle QT",
+            "justification": "Rattaché aux principales intoxications et troubles hydro-électrolytiques, pas au SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Super-Wolff (fibrillation atriale avec pré-excitation ventriculaire)",
+            "justification": "Classé parmi les arythmies supraventriculaires à cadence ventriculaire rapide, pas dans le SCA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023980559_05",
+      "current_version_epoch_ms": 1755023980559,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les principales anomalies liées aux intoxications et troubles hydro-électrolytiques mettant en jeu le pronostic vital à court terme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Allongement majeur de l'intervalle QT",
+            "justification": "Figure parmi les principales anomalies de ce groupe."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypokaliémie",
+            "justification": "Les hypo/hyperkaliémies sont citées parmi les principales anomalies."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperkaliémie",
+            "justification": "Les hypo/hyperkaliémies sont citées parmi les principales anomalies."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypercalcémie",
+            "justification": "Cité parmi les troubles hydro-électrolytiques concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyponatrémie",
+            "justification": "Non citée parmi les principales anomalies mentionnées."
+          }
+        ]
+      }
+    }
+  ]
+}

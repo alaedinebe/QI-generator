@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755026462475_01",
+      "current_version_epoch_ms": 1755026462475,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Devant un ECG, identifier les anomalies compatibles avec une hypokaliémie (sélectionnez toutes les réponses exactes).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ondes T plates ou négatives de façon diffuse",
+            "justification": "Les ondes T peuvent s'aplatir ou s'inverser de manière diffuse en hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment ST",
+            "justification": "Un sous-décalage du ST est décrit dans l'hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Allongement du QT avec apparition possible d'une onde U",
+            "justification": "L'hypokaliémie s'accompagne d'un QT allongé et peut faire apparaître une onde U."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes T amples, pointues et symétriques",
+            "justification": "Ces ondes T sont caractéristiques d'une hyperkaliémie, pas d'une hypokaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement des QRS",
+            "justification": "L'élargissement des QRS relève des troubles de conduction observés en hyperkaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026462475_02",
+      "current_version_epoch_ms": 1755026462475,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître l'hyperkaliémie à l'ECG (sélectionnez les éléments en faveur).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ondes T amples, pointues et symétriques",
+            "justification": "Ces ondes T sont typiques de l'hyperkaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Allongement du PR",
+            "justification": "L'hyperkaliémie peut entraîner des troubles de la conduction avec allongement du PR."
+          },
+          {
+            "correct": true,
+            "proposition": "Élargissement des QRS",
+            "justification": "L'hyperkaliémie peut s'accompagner d'un élargissement des QRS."
+          },
+          {
+            "correct": false,
+            "proposition": "Apparition d'une onde U",
+            "justification": "L'onde U est retrouvée en hypokaliémie, pas en hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Allongement du QT",
+            "justification": "L'allongement du QT est décrit en hypokaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026462475_03",
+      "current_version_epoch_ms": 1755026462475,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les troubles du rythme attendus en hypokaliémie (cochez toutes les réponses exactes).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Extrasystoles",
+            "justification": "L'hypokaliémie favorise l'hyperexcitabilité avec extrasystoles."
+          },
+          {
+            "correct": true,
+            "proposition": "Arythmie atriale",
+            "justification": "Des arythmies atriales peuvent survenir en hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Arythmie ventriculaire",
+            "justification": "Des arythmies ventriculaires sont possibles en hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Torsades de pointes",
+            "justification": "Les torsades de pointes sont rapportées en contexte d'hypokaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc auriculo-ventriculaire (BAV)",
+            "justification": "Le risque de BAV est associé à l'hyperkaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026462475_04",
+      "current_version_epoch_ms": 1755026462475,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les complications et troubles de conduction évocateurs d'hyperkaliémie (sélectionnez toutes les réponses exactes).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque de bloc auriculo-ventriculaire",
+            "justification": "L'hyperkaliémie expose à un risque de BAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysfonction sinusale",
+            "justification": "Une dysfonction du nœud sinusal peut survenir en hyperkaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Allongement du PR",
+            "justification": "Un allongement du PR traduit un trouble de conduction possible en hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Extrasystoles par hyperexcitabilité",
+            "justification": "L'hyperexcitabilité avec extrasystoles est décrite en hypokaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Torsades de pointes",
+            "justification": "Les torsades de pointes sont associées à l'hypokaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026462475_05",
+      "current_version_epoch_ms": 1755026462475,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Devant un ECG suspect de dyskaliémie, quelles anomalies s'opposent à une hyperkaliémie et orientent vers une hypokaliémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Apparition d'une onde U",
+            "justification": "L'onde U est attendue en hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Allongement du QT",
+            "justification": "Un QT allongé est décrit en hypokaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes T amples, pointues et symétriques",
+            "justification": "Ce morphotype T est en faveur d'une hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement des QRS",
+            "justification": "L'élargissement des QRS relève des troubles de conduction de l'hyperkaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment ST",
+            "justification": "Le sous-décalage du ST est rapporté en hypokaliémie."
+          }
+        ]
+      }
+    }
+  ]
+}

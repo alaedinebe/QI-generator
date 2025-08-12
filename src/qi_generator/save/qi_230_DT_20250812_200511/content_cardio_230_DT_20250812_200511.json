@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755022118628_01",
+      "current_version_epoch_ms": 1755022118628,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Classer la place de la radiographie thoracique devant une douleur thoracique et dans les différentes urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est réalisée systématiquement devant une douleur thoracique.",
+            "justification": "La radiographie thoracique est indiquée de façon systématique en cas de douleur thoracique."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est inutile à visée diagnostique dans un SCA typique.",
+            "justification": "Dans un SCA typique, la radiographie n'apporte pas le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle suffit à confirmer le diagnostic des trois autres urgences cardio-vasculaires.",
+            "justification": "Elle aide au diagnostic mais n'est pas suffisante pour confirmer."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet d'orienter des diagnostics différentiels comme pneumothorax et pneumopathie.",
+            "justification": "Elle est utile pour des diagnostics différentiels tels que pneumothorax ou pneumopathie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est jamais réalisée si une embolie pulmonaire est suspectée.",
+            "justification": "Elle est réalisée systématiquement devant douleur thoracique, y compris si une EP est suspectée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022118628_02",
+      "current_version_epoch_ms": 1755022118628,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les signes radiographiques évocateurs de dissection aortique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Élargissement du médiastin.",
+            "justification": "Un médiastin élargi peut être observé en cas de dissection aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Double contour aortique.",
+            "justification": "La présence d'un double contour aortique est décrite comme évocatrice."
+          },
+          {
+            "correct": false,
+            "proposition": "Cardiomégalie avec cœur en carafe.",
+            "justification": "Cet aspect est décrit dans la péricardite avec tamponnade, pas dans la dissection."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté pulmonaire diffuse.",
+            "justification": "L'hyperclarté pulmonaire est rapportée dans l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie souvent strictement normale.",
+            "justification": "Ce caractère souvent normal est rapporté pour l'embolie pulmonaire, pas pour la dissection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022118628_03",
+      "current_version_epoch_ms": 1755022118628,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies radiographiques possibles au cours d'une embolie pulmonaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie souvent normale.",
+            "justification": "La radiographie est fréquemment normale lors d'une EP."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperclarté pulmonaire.",
+            "justification": "Une hyperclarté pulmonaire peut être observée."
+          },
+          {
+            "correct": true,
+            "proposition": "Ascension d'une coupole diaphragmatique.",
+            "justification": "Une coupole diaphragmatique peut être ascendue."
+          },
+          {
+            "correct": true,
+            "proposition": "Atélectasies en bandes.",
+            "justification": "Des atélectasies linéaires en bandes peuvent être présentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement du médiastin.",
+            "justification": "L'élargissement médiastinal est plutôt rapporté dans la dissection aortique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022118628_04",
+      "current_version_epoch_ms": 1755022118628,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Différencier l'aspect radiographique d'une péricardite avec tamponnade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cardiomégalie avec aspect de cœur en carafe.",
+            "justification": "La péricardite avec tamponnade se manifeste par une cardiomégalie en cœur en carafe."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie souvent normale.",
+            "justification": "Un aspect typique est décrit, non une normalité habituelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Double contour aortique.",
+            "justification": "Le double contour aortique évoque une dissection aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté pulmonaire diffuse.",
+            "justification": "L'hyperclarté est rapportée pour l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie est inutile pour cette pathologie.",
+            "justification": "Elle aide au diagnostic des urgences autres que le SCA typique, dont la tamponnade."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022118628_05",
+      "current_version_epoch_ms": 1755022118628,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier le rôle et les limites de la radiographie thoracique dans les urgences cardio-vasculaires hors SCA typique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle aide au diagnostic de la dissection aortique, de l'embolie pulmonaire et de la péricardite avec tamponnade, sans suffire à confirmer.",
+            "justification": "Elle oriente pour ces trois urgences mais n'est pas confirmatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle confirme à elle seule une embolie pulmonaire.",
+            "justification": "Elle n'est pas suffisante pour confirmer le diagnostic d'EP."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet d'identifier des diagnostics différentiels comme pneumothorax et pneumopathie.",
+            "justification": "Elle est utile pour ces diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inutile pour toute douleur thoracique.",
+            "justification": "Elle est au contraire réalisée systématiquement devant une douleur thoracique."
+          },
+          {
+            "correct": true,
+            "proposition": "À visée diagnostique, elle est inutile dans un SCA typique.",
+            "justification": "Dans un SCA typique, elle n'apporte pas le diagnostic."
+          }
+        ]
+      }
+    }
+  ]
+}

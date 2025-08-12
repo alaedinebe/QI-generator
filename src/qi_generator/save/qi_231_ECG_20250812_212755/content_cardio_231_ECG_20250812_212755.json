@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755027082457_01",
+      "current_version_epoch_ms": 1755027082457,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques d'une onde P normale à l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Durée strictement inférieure à 120 ms.",
+            "justification": "Une onde P normale dure moins de 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Amplitude inférieure à 2,5 mm (0,25 mV).",
+            "justification": "L'amplitude normale de l'onde P est < 2,5 mm, équivalant à 0,25 mV."
+          },
+          {
+            "correct": true,
+            "proposition": "Axe situé autour de +60°.",
+            "justification": "L'activation atriale va du haut vers le bas et de la droite vers la gauche, plaçant l'axe de l'onde P autour de 60°."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée de 140 ms est compatible avec la normalité.",
+            "justification": "Une durée > 120 ms n'est pas normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Une amplitude de 3 mm est compatible avec la normalité.",
+            "justification": "Une amplitude ≥ 2,5 mm dépasse la plage normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027082457_02",
+      "current_version_epoch_ms": 1755027082457,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères d'hypertrophie atriale droite (HAD).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Onde P ample et pointue.",
+            "justification": "L'HAD se traduit par une onde P ample et pointue."
+          },
+          {
+            "correct": true,
+            "proposition": "Amplitude de l'onde P > 2,5 mm en dérivation DII.",
+            "justification": "Un critère quantitatif d'HAD est une amplitude > 2,5 mm en DII."
+          },
+          {
+            "correct": true,
+            "proposition": "Amplitude de l'onde P > 2 mm en V1 ou V2.",
+            "justification": "Un critère alternatif d'HAD est une amplitude > 2 mm en V1–V2."
+          },
+          {
+            "correct": false,
+            "proposition": "Durée de l'onde P > 120 ms définit l'HAD.",
+            "justification": "L'allongement de la durée (> 110–120 ms) caractérise l'HAG, pas l'HAD."
+          },
+          {
+            "correct": false,
+            "proposition": "Composante négative de l'onde P en V1 > 40 ms signe l'HAD.",
+            "justification": "Une composante négative > 40 ms en V1 oriente vers l'HAG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027082457_03",
+      "current_version_epoch_ms": 1755027082457,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères d'hypertrophie atriale gauche (HAG).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Durée de l'onde P > 110 ms (en pratique 120 ms).",
+            "justification": "L'HAG est définie par une onde P de durée > 110 ms, souvent retenue à 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une composante négative en V1 > 40 ms (1 mm).",
+            "justification": "Une composante négative terminale > 40 ms en V1 est un critère d'HAG."
+          },
+          {
+            "correct": false,
+            "proposition": "Amplitude de l'onde P > 2,5 mm en DII définit l'HAG.",
+            "justification": "L'amplitude > 2,5 mm en DII est un critère d'HAD."
+          },
+          {
+            "correct": false,
+            "proposition": "Amplitude de l'onde P > 2 mm en V1–V2 définit l'HAG.",
+            "justification": "L'amplitude > 2 mm en V1–V2 est un critère d'HAD."
+          },
+          {
+            "correct": false,
+            "proposition": "Un axe de l'onde P autour de +60° signe une HAG.",
+            "justification": "Un axe autour de +60° correspond à la normalité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027082457_04",
+      "current_version_epoch_ms": 1755027082457,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Un ECG montre une onde P de 130 ms, amplitude 1,8 mm en DII, avec composante négative terminale en V1 de 60 ms (1,5 mm). Classer la situation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compatible avec une hypertrophie atriale gauche.",
+            "justification": "Durée > 110–120 ms et composante négative en V1 > 40 ms répondent aux critères d'HAG."
+          },
+          {
+            "correct": false,
+            "proposition": "Compatible avec une hypertrophie atriale droite.",
+            "justification": "Aucun critère d'HAD (pas d'amplitude > 2,5 mm en DII ni > 2 mm en V1–V2)."
+          },
+          {
+            "correct": false,
+            "proposition": "Compatible avec une onde P normale.",
+            "justification": "La durée de 130 ms excède la limite normale (< 120 ms)."
+          },
+          {
+            "correct": true,
+            "proposition": "La seule durée > 110–120 ms suffit à définir l'HAG, même si l'amplitude en DII est < 2,5 mm.",
+            "justification": "L'HAG est définie par un allongement de la durée de l'onde P."
+          },
+          {
+            "correct": true,
+            "proposition": "La composante négative en V1 > 40 ms renforce le diagnostic d'HAG.",
+            "justification": "Une composante négative > 40 ms en V1 est un critère d'HAG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027082457_05",
+      "current_version_epoch_ms": 1755027082457,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Un ECG montre une onde P de 100 ms, amplitude 2,1 mm en V1 et 2,2 mm en V2, amplitude 2,3 mm en DII, onde P pointue, composante négative en V1 de 20 ms (0,5 mm). Identifier la (les) conclusion(s) correcte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Critères d'hypertrophie atriale droite atteints via V1–V2.",
+            "justification": "Amplitude > 2 mm en V1–V2 correspond à un critère d'HAD."
+          },
+          {
+            "correct": false,
+            "proposition": "Critères d'hypertrophie atriale gauche atteints.",
+            "justification": "Durée ≤ 110–120 ms et composante négative en V1 ≤ 40 ms ne soutiennent pas l'HAG."
+          },
+          {
+            "correct": false,
+            "proposition": "HAD non retenue car l'amplitude en DII est ≤ 2,5 mm.",
+            "justification": "L'HAD peut être retenue sur V1–V2 (> 2 mm) même si DII ≤ 2,5 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG compatible avec une onde P strictement normale.",
+            "justification": "La majoration d'amplitude en V1–V2 dépasse les valeurs normales."
+          },
+          {
+            "correct": true,
+            "proposition": "L'aspect d'onde P ample et pointue est cohérent avec l'HAD.",
+            "justification": "L'HAD se traduit par une onde P ample et pointue."
+          }
+        ]
+      }
+    }
+  ]
+}

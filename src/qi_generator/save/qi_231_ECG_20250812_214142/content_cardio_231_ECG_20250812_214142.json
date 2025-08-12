@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755027909080_01",
+      "current_version_epoch_ms": 1755027909080,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques du syndrome brady–tachy (maladie de l'oreillette).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alternance d'épisodes d'arythmie atriale et de dysfonction sinusale.",
+            "justification": "Se définit par l'alternance d'arythmie atriale et de dysfonction du nœud sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Se définit par une bradycardie sinusale isolée, sans épisode d'arythmie atriale.",
+            "justification": "La présence d'arythmie atriale est constitutive ; une bradycardie isolée n'en relève pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Relève d'un trouble du nœud sinusal.",
+            "justification": "La dysfonction sinusale en fait partie, ce qui implique une atteinte du nœud sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Sa définition implique une FC maximale à l'effort < 75 % de la FMT.",
+            "justification": "Ce critère chiffré définit l'insuffisance chronotrope et non ce syndrome."
+          },
+          {
+            "correct": false,
+            "proposition": "Est déclenché par la stimulation mécanique du sinus carotidien.",
+            "justification": "Le déclenchement par stimulation du sinus carotidien décrit le syndrome du sinus carotidien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027909080_02",
+      "current_version_epoch_ms": 1755027909080,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître l'insuffisance chronotrope et ses critères.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incapacité du cœur à accélérer la fréquence cardiaque pour faire face à l'effort.",
+            "justification": "Elle correspond à l'incapacité d'augmenter la FC pour répondre aux besoins physiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "À l'effort, la FC maximale est < 75 % de la fréquence maximale théorique (FMT).",
+            "justification": "Le critère chiffré à l'effort est FCmax < 75 % de la FMT."
+          },
+          {
+            "correct": true,
+            "proposition": "La FMT se calcule par 220 − âge.",
+            "justification": "La formule précisée est FMT = 220 − âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Survient préférentiellement au repos avec FC basse nocturne isolée.",
+            "justification": "La description concerne une limitation à l'effort ; la bradycardie nocturne isolée relève de l'hypertonie vagale du sportif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic repose sur une valeur de FC maximale indépendante de l'âge.",
+            "justification": "La référence utilise la FMT qui dépend de l'âge (220 − âge)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027909080_03",
+      "current_version_epoch_ms": 1755027909080,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les affirmations à propos des pauses post-réductionnelles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pauses sinusales observées fréquemment lors de la réduction d'épisodes d'arythmie atriale.",
+            "justification": "Elles sont décrites comme des pauses sinusales survenant fréquemment à la réduction d'arythmie atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Surviennent typiquement lors du déclenchement des arythmies atriales.",
+            "justification": "Elles sont rapportées lors de la phase de réduction, non au déclenchement."
+          },
+          {
+            "correct": true,
+            "proposition": "Impliquent le nœud sinusal.",
+            "justification": "Ce sont des pauses sinusales, donc en rapport avec le nœud sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspondent à des blocs atrio-ventriculaires de haut degré.",
+            "justification": "Il s'agit de pauses sinusales et non de blocs AV."
+          },
+          {
+            "correct": false,
+            "proposition": "Sont définies par un seuil RR maximal > 3 secondes.",
+            "justification": "Aucun seuil de RR n'est précisé pour ces pauses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027909080_04",
+      "current_version_epoch_ms": 1755027909080,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître le syndrome du sinus carotidien.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bradycardie déclenchée par la stimulation mécanique du sinus carotidien.",
+            "justification": "La stimulation mécanique du sinus carotidien déclenche une bradycardie."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut se traduire par une dysfonction sinusale ou un bloc atrio-ventriculaire.",
+            "justification": "La bradycardie peut s'exprimer par dysfonction sinusale ou BAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Associé à un intervalle RR maximal supérieur à 3 secondes.",
+            "justification": "Un RRmax > 3 s est mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond à la bradycardie vagale du jeune sportif.",
+            "justification": "La bradycardie du jeune sportif relève de l'hypertonie vagale, cadre différent."
+          },
+          {
+            "correct": false,
+            "proposition": "Survient exclusivement à l'effort intense.",
+            "justification": "Le déclencheur est la stimulation mécanique du sinus carotidien, pas l'effort intense."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027909080_05",
+      "current_version_epoch_ms": 1755027909080,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier la bradycardie sinusale par hypertonie vagale du jeune sportif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survient souvent chez le jeune sportif.",
+            "justification": "Elle est rapportée comme fréquente chez le jeune sportif."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut atteindre < 50 bpm en éveil et jusqu'à 30 bpm pendant le sommeil.",
+            "justification": "Les valeurs rapportées sont < 50 bpm en éveil et jusqu'à 30 bpm au sommeil."
+          },
+          {
+            "correct": true,
+            "proposition": "Est habituellement asymptomatique.",
+            "justification": "Elle est décrite comme asymptomatique."
+          },
+          {
+            "correct": true,
+            "proposition": "S'accompagne d'une accélération de la FC à l'effort ou après atropine.",
+            "justification": "Une accélération à l'effort ou après atropine est attendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Constitue une indication à traiter.",
+            "justification": "Il est précisé qu'il n'y a pas d'indication à traiter."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "FA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755029975635_01",
+      "current_version_epoch_ms": 1755029975635,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants comme « troubles hydro-électrolytiques et métaboliques » déclenchants : cocher tout ce qui convient.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypokaliémie",
+            "justification": "Figure dans la catégorie « troubles hydro-électrolytiques et métaboliques »."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperthyroïdie",
+            "justification": "Figure dans la catégorie « troubles hydro-électrolytiques et métaboliques »."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite",
+            "justification": "Relève de l'inflammation et non d'un trouble hydro-électrolytique ou métabolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Catécholamines",
+            "justification": "Classées parmi les facteurs médicamenteux."
+          },
+          {
+            "correct": false,
+            "proposition": "Réactions vagales",
+            "justification": "Constituent une catégorie distincte de facteurs déclenchants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029975635_02",
+      "current_version_epoch_ms": 1755029975635,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Identifier les facteurs relevant de l'inflammation générale (infection).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection",
+            "justification": "Mentionnée comme inflammation générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite",
+            "justification": "Rattachée à l'inflammation locale et non à l'inflammation générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Post-opératoire de chirurgie thoracique et cardiaque",
+            "justification": "Relève de l'inflammation locale."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'alcool",
+            "justification": "Relève des facteurs toxiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Chimiothérapies",
+            "justification": "Classées parmi les facteurs médicamenteux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029975635_03",
+      "current_version_epoch_ms": 1755029975635,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Reconnaître les facteurs toxiques déclenchants.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prise d'alcool",
+            "justification": "Listée dans la catégorie toxique."
+          },
+          {
+            "correct": true,
+            "proposition": "Caféine",
+            "justification": "Listée dans la catégorie toxique."
+          },
+          {
+            "correct": true,
+            "proposition": "Drogues (cocaïne, amphétamines)",
+            "justification": "Mentionnées comme facteurs toxiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticoïdes",
+            "justification": "Classés parmi les médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Post-opératoire de chirurgie thoracique et cardiaque",
+            "justification": "Relève de l'inflammation locale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029975635_04",
+      "current_version_epoch_ms": 1755029975635,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier ceux classés dans la catégorie « médicaments » déclenchants.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Catécholamines",
+            "justification": "Citées parmi les médicaments déclenchants."
+          },
+          {
+            "correct": true,
+            "proposition": "Corticoïdes",
+            "justification": "Cités parmi les médicaments déclenchants."
+          },
+          {
+            "correct": true,
+            "proposition": "Chimiothérapies",
+            "justification": "Citées parmi les médicaments déclenchants."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthyroïdie",
+            "justification": "Relève des troubles hydro-électrolytiques et métaboliques."
+          },
+          {
+            "correct": false,
+            "proposition": "Réactions vagales",
+            "justification": "Constituent une catégorie distincte, non médicamenteuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029975635_05",
+      "current_version_epoch_ms": 1755029975635,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Différencier inflammation locale des autres catégories : cocher les facteurs d'inflammation locale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Post-opératoire de chirurgie thoracique et cardiaque",
+            "justification": "Rattaché à l'inflammation locale."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite",
+            "justification": "Rattachée à l'inflammation locale."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection",
+            "justification": "Relève de l'inflammation générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypokaliémie",
+            "justification": "Relève des troubles hydro-électrolytiques et métaboliques."
+          },
+          {
+            "correct": false,
+            "proposition": "Catécholamines",
+            "justification": "Relèvent des facteurs médicamenteux."
+          }
+        ]
+      }
+    }
+  ]
+}

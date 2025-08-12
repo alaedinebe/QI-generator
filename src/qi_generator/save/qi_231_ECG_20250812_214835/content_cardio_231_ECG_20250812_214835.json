@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755028322390_01",
+      "current_version_epoch_ms": 1755028322390,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir les torsades de pointes : quelle description est exacte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire polymorphe avec rotation de l'axe autour de la ligne isoélectrique.",
+            "justification": "La définition est une tachycardie ventriculaire polymorphe dont l'axe semble tourner autour de la ligne isoélectrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie ventriculaire monomorphe sans variation d'axe.",
+            "justification": "À l'inverse, la morphologie est polymorphe et l'axe tourne autour de la ligne isoélectrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie supraventriculaire avec QRS fins.",
+            "justification": "Il s'agit d'une tachycardie ventriculaire, non supraventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Flutter auriculaire avec conduction variable.",
+            "justification": "Les torsades de pointes ne sont pas une arythmie auriculaire mais ventriculaire polymorphe."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation ventriculaire d'emblée.",
+            "justification": "Elles peuvent évoluer vers une fibrillation ventriculaire, mais n'en sont pas une d'emblée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028322390_02",
+      "current_version_epoch_ms": 1755028322390,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître la présentation habituelle des torsades de pointes : sélectionnez les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surviennent le plus souvent sous forme d'épisodes répétés non soutenus.",
+            "justification": "La présentation habituelle est faite d'épisodes non soutenus se répétant."
+          },
+          {
+            "correct": true,
+            "proposition": "S'accompagnent fréquemment de lipothymies ou de syncopes.",
+            "justification": "Ces épisodes s'accompagnent volontiers de lipothymies/syncopes."
+          },
+          {
+            "correct": false,
+            "proposition": "Épisodes toujours soutenus et prolongés.",
+            "justification": "Ils sont le plus souvent non soutenus."
+          },
+          {
+            "correct": true,
+            "proposition": "Peuvent dégénérer en fibrillation ventriculaire.",
+            "justification": "Une évolution possible est la dégénérescence en fibrillation ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours asymptomatiques.",
+            "justification": "La survenue de lipothymies/syncopes est fréquente, témoignant de symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028322390_03",
+      "current_version_epoch_ms": 1755028322390,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les contextes favorisant la survenue des torsades de pointes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypokaliémie.",
+            "justification": "La survenue est décrite principalement en cas d'hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Association de médicaments allongeant l'intervalle QT.",
+            "justification": "L'association de médicaments allongeant le QT favorise les torsades de pointes."
+          },
+          {
+            "correct": true,
+            "proposition": "Bradycardie.",
+            "justification": "La bradycardie fait partie des situations typiquement associées."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome du QT long congénital.",
+            "justification": "Un QT long congénital est un terrain classique de survenue."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperkaliémie.",
+            "justification": "Le terrain rapporté est l'hypokaliémie, à l'opposé de l'hyperkaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028322390_04",
+      "current_version_epoch_ms": 1755028322390,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les éléments ECG et contextuels caractéristiques des torsades de pointes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rotation de l'axe autour de la ligne isoélectrique.",
+            "justification": "La rotation de l'axe autour de la ligne isoélectrique est caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Morphologie des QRS identique de battement en battement.",
+            "justification": "La morphologie est polymorphe, non identique d'un battement à l'autre."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue principalement en lien avec un allongement de l'intervalle QT (congénital ou médicamenteux).",
+            "justification": "La survenue est surtout observée avec QT long congénital ou médicaments allongeant le QT."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire polymorphe.",
+            "justification": "Il s'agit d'une tachycardie ventriculaire polymorphe."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme atrial désorganisé.",
+            "justification": "Le trouble est ventriculaire, non atrial."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028322390_05",
+      "current_version_epoch_ms": 1755028322390,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Sélectionner les facteurs favorisants, à distinguer des conséquences possibles, des torsades de pointes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bradycardie.",
+            "justification": "La bradycardie est un facteur favorisant décrit."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypokaliémie.",
+            "justification": "L'hypokaliémie favorise la survenue."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome du QT long congénital.",
+            "justification": "Un QT long congénital est un terrain de survenue."
+          },
+          {
+            "correct": true,
+            "proposition": "Association de médicaments allongeant le QT.",
+            "justification": "L'association de médicaments allongeant le QT est une situation à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation ventriculaire.",
+            "justification": "La fibrillation ventriculaire est une possible dégénérescence, pas un facteur favorisant."
+          }
+        ]
+      }
+    }
+  ]
+}

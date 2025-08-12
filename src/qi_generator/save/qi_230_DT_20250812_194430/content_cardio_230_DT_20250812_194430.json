@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755020876677_01",
+      "current_version_epoch_ms": 1755020876677,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Devant une douleur thoracique, identifier les détresses vitales qui doivent être recherchées en première intention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "Fait partie des détresses vitales explicitement listées à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Détresse hémodynamique : signes de choc",
+            "justification": "Figure parmi les détresses vitales à identifier d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Détresse neurologique (coma et troubles de conscience)",
+            "justification": "Appartient aux détresses vitales à rechercher systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique d'effort chronique sans modification récente",
+            "justification": "N'est pas répertoriée parmi les trois détresses vitales à rechercher."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée",
+            "justification": "Ne fait pas partie des trois catégories de détresses vitales mentionnées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755020876677_02",
+      "current_version_epoch_ms": 1755020876677,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments relevant d'une détresse neurologique à rechercher devant une douleur thoracique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coma",
+            "justification": "Cité comme composante de la détresse neurologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de conscience",
+            "justification": "Mentionné explicitement dans la détresse neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "Relève d'une autre catégorie de détresse vitale que la neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de choc",
+            "justification": "Appartient à la détresse hémodynamique, pas neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Anxiété isolée",
+            "justification": "N'est pas listée dans les détresses vitales à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755020876677_03",
+      "current_version_epoch_ms": 1755020876677,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Classer les propositions suivantes : relèvent-elles de la détresse hémodynamique à rechercher en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes de choc",
+            "justification": "Correspond à la détresse hémodynamique citée."
+          },
+          {
+            "correct": false,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "Concerne la catégorie respiratoire, distincte de l'hémodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma",
+            "justification": "Relève de la détresse neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de conscience",
+            "justification": "Appartient à la détresse neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique isolée sans altération des fonctions vitales",
+            "justification": "N'est pas indiquée comme détresse hémodynamique à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755020876677_04",
+      "current_version_epoch_ms": 1755020876677,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Définir l'objectif prioritaire de l'évaluation initiale devant une douleur thoracique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une détresse respiratoire aiguë",
+            "justification": "Fait partie des détresses vitales à identifier en priorité."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une détresse hémodynamique (signes de choc)",
+            "justification": "Constitue une des détresses vitales à dépister immédiatement."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une détresse neurologique (coma et troubles de conscience)",
+            "justification": "Intègre les éléments neurologiques à investiguer d'emblée."
+          },
+          {
+            "correct": false,
+            "proposition": "Identifier immédiatement l'étiologie précise",
+            "justification": "L'objectif prioritaire est la recherche des détresses vitales listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser systématiquement un bilan biologique complet en première intention",
+            "justification": "Non prioritaire au regard de la recherche des trois détresses vitales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755020876677_05",
+      "current_version_epoch_ms": 1755020876677,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Différencier les situations imposant une prise en charge immédiate car correspondant à une détresse vitale à rechercher.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "Identifiée comme détresse vitale à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Coma",
+            "justification": "Élément de la détresse neurologique à dépister."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de conscience",
+            "justification": "Fait partie de la détresse neurologique mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique isolée sans retentissement clinique",
+            "justification": "Ne correspond pas aux détresses vitales listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue prolongée sans autre signe",
+            "justification": "N'est pas incluse dans les catégories de détresses vitales à rechercher."
+          }
+        ]
+      }
+    }
+  ]
+}

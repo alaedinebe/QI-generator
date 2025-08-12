@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755027495769_01",
+      "current_version_epoch_ms": 1755027495769,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir un bloc de branche incomplet sur l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une durée des QRS comprise entre 100 et 120 ms caractérise un bloc incomplet.",
+            "justification": "Les blocs incomplets ont une durée des QRS comprise entre 100 et 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Le bloc incomplet présente des patterns similaires à ceux des blocs complets.",
+            "justification": "Les blocs incomplets ont des patterns similaires aux blocs complets."
+          },
+          {
+            "correct": false,
+            "proposition": "Un bloc incomplet nécessite des fréquences cardiaques rapides pour apparaître.",
+            "justification": "La survenue à des fréquences rapides décrit les blocs fonctionnels, pas la définition du bloc incomplet."
+          },
+          {
+            "correct": false,
+            "proposition": "Un bloc incomplet se définit par des QRS strictement supérieurs à 120 ms.",
+            "justification": "La définition donnée pour le bloc incomplet est une durée entre 100 et 120 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "Des QRS inférieurs à 100 ms suffisent pour définir un bloc incomplet.",
+            "justification": "La durée des QRS pour un bloc incomplet est comprise entre 100 et 120 ms."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027495769_02",
+      "current_version_epoch_ms": 1755027495769,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître un bloc de branche fonctionnel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il correspond à une aberration de conduction pour des fréquences rapides.",
+            "justification": "Les blocs fonctionnels sont décrits comme une aberration de conduction pour des fréquences rapides."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est indistinguable d'un bloc organique en s'aidant de la fréquence cardiaque.",
+            "justification": "La mention des fréquences rapides permet précisément de distinguer le bloc fonctionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Il survient préférentiellement pour des fréquences lentes.",
+            "justification": "La définition fait intervenir des fréquences rapides, pas lentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se définit par des QRS compris entre 100 et 120 ms.",
+            "justification": "La plage 100–120 ms définit le bloc incomplet, pas le caractère fonctionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Il appartient à une catégorie distincte des blocs de branche organiques.",
+            "justification": "Il est explicitement fait distinction entre blocs organiques et blocs fonctionnels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027495769_03",
+      "current_version_epoch_ms": 1755027495769,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Un ECG montre un morphotype de bloc de branche avec QRS à 110 ms. Quelle(s) affirmation(s) est/sont exacte(s) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cela est compatible avec un bloc de branche incomplet.",
+            "justification": "Une durée des QRS entre 100 et 120 ms correspond à un bloc incomplet."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tracé n'est pas compatible avec un bloc de branche car la durée des QRS ne correspond pas.",
+            "justification": "La durée de 110 ms se situe précisément dans l'intervalle des blocs incomplets."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pattern similaire à un bloc complet exclut le diagnostic de bloc incomplet.",
+            "justification": "Les blocs incomplets ont des patterns similaires aux blocs complets."
+          },
+          {
+            "correct": true,
+            "proposition": "La classification en bloc incomplet repose sur la durée des QRS dans l'intervalle 100–120 ms.",
+            "justification": "La durée des QRS comprise entre 100 et 120 ms définit le bloc incomplet."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit nécessairement d'un bloc fonctionnel.",
+            "justification": "Le caractère fonctionnel renvoie à une aberration de conduction pour des fréquences rapides, ce qui n'est pas déduit ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027495769_04",
+      "current_version_epoch_ms": 1755027495769,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier un bloc de branche organique d'un bloc fonctionnel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La survenue lors de fréquences cardiaques rapides oriente vers un bloc fonctionnel.",
+            "justification": "Le bloc fonctionnel est une aberration de conduction pour des fréquences rapides."
+          },
+          {
+            "correct": true,
+            "proposition": "Le bloc fonctionnel est décrit comme une aberration de conduction.",
+            "justification": "Il est explicitement qualifié d'aberration de conduction pour des fréquences rapides."
+          },
+          {
+            "correct": false,
+            "proposition": "Les blocs organiques et fonctionnels correspondent à une seule et même entité.",
+            "justification": "Il est indiqué qu'on distingue les blocs organiques des blocs fonctionnels."
+          },
+          {
+            "correct": false,
+            "proposition": "La fréquence cardiaque n'apporte aucun élément pour les distinguer.",
+            "justification": "Les fréquences rapides caractérisent spécifiquement le bloc fonctionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "L'existence d'une distinction « organique vs fonctionnel » est reconnue.",
+            "justification": "Il est précisé qu'on distingue ces deux catégories."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027495769_05",
+      "current_version_epoch_ms": 1755027495769,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos des critères de durée des QRS d'un bloc de branche incomplet, cochez la(les) proposition(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Des QRS à 95 ms répondent à la définition d'un bloc incomplet.",
+            "justification": "La définition retient une durée entre 100 et 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Des QRS à 110 ms sont compatibles avec un bloc incomplet.",
+            "justification": "La durée 110 ms est comprise entre 100 et 120 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "Des QRS à 125 ms répondent à la définition d'un bloc incomplet.",
+            "justification": "La durée d'un bloc incomplet est comprise entre 100 et 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Un bloc incomplet peut présenter un pattern similaire à celui d'un bloc complet.",
+            "justification": "Les blocs incomplets ont des patterns similaires aux blocs complets."
+          },
+          {
+            "correct": false,
+            "proposition": "La définition d'un bloc incomplet repose sur une aberration de conduction pour des fréquences rapides.",
+            "justification": "Cette caractéristique décrit les blocs fonctionnels, pas le critère de durée du bloc incomplet."
+          }
+        ]
+      }
+    }
+  ]
+}

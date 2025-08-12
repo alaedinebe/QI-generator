@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755027289112_01",
+      "current_version_epoch_ms": 1755027289112,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier, à l'ECG, les éléments en faveur d'une hypertrophie ventriculaire droite (HVD). Cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Majoration de l'amplitude des QRS dans les dérivations droites",
+            "justification": "Décrit comme un signe d'HVD."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde R > onde S en V1",
+            "justification": "Énoncé comme critère en faveur d'HVD."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde S > onde R en V6",
+            "justification": "Énoncé comme critère en faveur d'HVD."
+          },
+          {
+            "correct": true,
+            "proposition": "Déviation axiale droite fréquente",
+            "justification": "Indiquée comme fréquente en HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Sensibilité/spécificité parfaite de l'ECG",
+            "justification": "Au contraire, les performances sont dites imparfaites par rapport à l'échographie cardiaque ou l'IRM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027289112_02",
+      "current_version_epoch_ms": 1755027289112,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "En V1 et V6, reconnaître les rapports d'onde caractéristiques d'une HVD. Quelles propositions sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En V1, onde R supérieure à onde S",
+            "justification": "R > S en V1 est rapporté dans l'HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "En V1, onde S supérieure à onde R",
+            "justification": "Inverse du critère rapporté (attendu : R > S en V1)."
+          },
+          {
+            "correct": true,
+            "proposition": "En V6, onde S supérieure à onde R",
+            "justification": "S > R en V6 est rapporté dans l'HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "En V6, onde R supérieure à onde S",
+            "justification": "Inverse du critère rapporté (attendu : S > R en V6)."
+          },
+          {
+            "correct": false,
+            "proposition": "Amplitude des QRS diminuée dans les dérivations droites",
+            "justification": "Le signe décrit est une majoration de l'amplitude, pas une diminution."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027289112_03",
+      "current_version_epoch_ms": 1755027289112,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer l'axe électrique dans l'HVD : choisissez les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déviation axiale droite fréquente",
+            "justification": "Mentionnée comme fréquemment observée en HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation axiale gauche typique",
+            "justification": "C'est la déviation axiale droite qui est rapportée comme fréquente."
+          },
+          {
+            "correct": false,
+            "proposition": "La déviation axiale droite est obligatoire",
+            "justification": "Le caractère « fréquent » n'implique pas un caractère obligatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "La déviation axiale droite est impossible en HVD",
+            "justification": "Contradiction avec l'énoncé indiquant qu'elle est fréquente."
+          },
+          {
+            "correct": false,
+            "proposition": "L'axe électrique ne fournit aucune information pour l'HVD",
+            "justification": "Une déviation axiale droite est précisément signalée comme fréquente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027289112_04",
+      "current_version_epoch_ms": 1755027289112,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Évaluer la performance de l'ECG pour diagnostiquer une HVD.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La sensibilité/spécificité de l'ECG est imparfaite",
+            "justification": "Indiqué explicitement comme imparfaite."
+          },
+          {
+            "correct": true,
+            "proposition": "Les performances sont appréciées par comparaison à l'échographie cardiaque ou à l'IRM",
+            "justification": "Formulé comme « par rapport à échographie cardiaque ou IRM »."
+          },
+          {
+            "correct": false,
+            "proposition": "La sensibilité/spécificité de l'ECG est parfaite",
+            "justification": "À l'inverse, elles sont dites imparfaites."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG suffit à lui seul à affirmer ou exclure une HVD",
+            "justification": "Des performances imparfaites n'autorisent pas une conclusion isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune comparaison à des examens d'imagerie n'est pertinente",
+            "justification": "Une comparaison à l'échographie cardiaque ou l'IRM est explicitement mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027289112_05",
+      "current_version_epoch_ms": 1755027289112,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier, parmi les éléments ci-dessous, ceux qui orientent vers une HVD à l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Majoration de l'amplitude des QRS dans les dérivations droites",
+            "justification": "Décrite comme un signe en faveur d'HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde R > onde S en V6",
+            "justification": "À l'inverse, S > R est attendu en V6."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde R > onde S en V1",
+            "justification": "Rapportée comme critère d'HVD."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde S > onde R en V6",
+            "justification": "Rapportée comme critère d'HVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation axiale gauche",
+            "justification": "C'est la déviation axiale droite qui est rapportée comme fréquente."
+          }
+        ]
+      }
+    }
+  ]
+}

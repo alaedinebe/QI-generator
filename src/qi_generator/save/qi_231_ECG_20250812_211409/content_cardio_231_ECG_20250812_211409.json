@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755026255819_01",
+      "current_version_epoch_ms": 1755026255819,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques majeures de la fibrillation ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme ventriculaire anarchique très rapide.",
+            "justification": "Définie comme un rythme ventriculaire anarchique très rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythme polymorphe.",
+            "justification": "Qualifiée de polymorphe."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme ventriculaire organisé et régulier.",
+            "justification": "Le rythme n'est pas organisé ni régulier ; il est anarchique."
+          },
+          {
+            "correct": true,
+            "proposition": "Responsable d'arrêt cardiaque.",
+            "justification": "Responsable d'arrêt cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme supraventriculaire.",
+            "justification": "Il s'agit d'un rythme ventriculaire, pas supraventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026255819_02",
+      "current_version_epoch_ms": 1755026255819,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier l'évolution temporelle des tracés en fibrillation ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les mailles deviennent de moins en moins amples.",
+            "justification": "Les mailles sont décrites comme de moins en moins amples."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mailles deviennent de plus en plus amples.",
+            "justification": "C'est l'inverse : l'amplitude diminue."
+          },
+          {
+            "correct": true,
+            "proposition": "La fibrillation ventriculaire évolue en asystolie.",
+            "justification": "La suite évolutive mentionnée est l'asystolie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'amplitude des mailles reste stable avec le temps.",
+            "justification": "Une diminution de l'amplitude des mailles est rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "La séquence associe diminution de l'amplitude des mailles puis asystolie.",
+            "justification": "Cette succession est explicitée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026255819_03",
+      "current_version_epoch_ms": 1755026255819,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Choisir la conduite à tenir immédiate devant une fibrillation ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Défibrillation électrique cardiaque en urgence.",
+            "justification": "Indication à une défibrillation électrique cardiaque en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'indication de défibrillation.",
+            "justification": "Une défibrillation en urgence est précisément indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Défibrillation différée après surveillance.",
+            "justification": "L'indication est en urgence, pas différée."
+          },
+          {
+            "correct": false,
+            "proposition": "Simple observation sans intervention électrique.",
+            "justification": "La prise en charge mentionnée est la défibrillation électrique en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement non électrique prioritaire.",
+            "justification": "La priorité indiquée est la défibrillation électrique en urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026255819_04",
+      "current_version_epoch_ms": 1755026255819,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer la fibrillation ventriculaire parmi les troubles du rythme selon les caractéristiques fournies.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble ventriculaire.",
+            "justification": "Définie comme un rythme ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Polymorphe.",
+            "justification": "Qualifiée de polymorphe."
+          },
+          {
+            "correct": false,
+            "proposition": "Monomorphe.",
+            "justification": "À l'inverse, elle est polymorphe."
+          },
+          {
+            "correct": true,
+            "proposition": "Très rapide et anarchique.",
+            "justification": "Rythme ventriculaire anarchique très rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Régulier et organisé.",
+            "justification": "Le caractère décrit est anarchique, non régulier."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026255819_05",
+      "current_version_epoch_ms": 1755026255819,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les conséquences et l'évolution immédiates associées à la fibrillation ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peut être responsable d'arrêt cardiaque.",
+            "justification": "Responsable d'arrêt cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "N'entraîne pas d'arrêt cardiaque.",
+            "justification": "C'est l'inverse : elle est responsable d'arrêt cardiaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut évoluer vers une asystolie.",
+            "justification": "Évolue en asystolie après diminution de l'amplitude des mailles."
+          },
+          {
+            "correct": false,
+            "proposition": "Se caractérise par une augmentation progressive de l'amplitude des mailles.",
+            "justification": "Les mailles deviennent de moins en moins amples."
+          },
+          {
+            "correct": false,
+            "proposition": "Reste de morphologie unique au cours de l'épisode.",
+            "justification": "Elle est décrite comme polymorphe."
+          }
+        ]
+      }
+    }
+  ]
+}

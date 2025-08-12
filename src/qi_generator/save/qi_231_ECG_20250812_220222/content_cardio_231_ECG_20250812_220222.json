@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755029149013_01",
+      "current_version_epoch_ms": 1755029149013,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir les caractéristiques techniques usuelles d'un Holter (durée et dérivations).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Enregistrement ECG de longue durée le plus souvent sur 24 heures, extensible à plusieurs semaines.",
+            "justification": "Il s'agit d'un ECG de longue durée, le plus souvent 24 h, mais pouvant aller jusqu'à plusieurs semaines."
+          },
+          {
+            "correct": true,
+            "proposition": "En pratique, l'enregistrement se fait habituellement sur 2 à 3 dérivations.",
+            "justification": "L'utilisation la plus fréquente est sur 2–3 dérivations."
+          },
+          {
+            "correct": false,
+            "proposition": "La méthode est systématiquement limitée à 12 dérivations.",
+            "justification": "Un Holter 12 dérivations est possible, mais ce n'est pas la configuration systématique ; l'usage le plus fréquent est 2–3 dérivations."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée d'enregistrement ne peut jamais dépasser 48 heures.",
+            "justification": "La durée habituelle est 24 h mais peut s'étendre à plusieurs semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'un ECG ponctuel de quelques secondes.",
+            "justification": "La méthode correspond à un ECG de longue durée et non à un enregistrement ponctuel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029149013_02",
+      "current_version_epoch_ms": 1755029149013,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les situations cliniques où la réalisation d'un Holter est indiquée ou utile.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Malaises ou syncopes non documentés sur un ECG standard.",
+            "justification": "Indication devant des malaises/syncopes non documentés par un ECG standard."
+          },
+          {
+            "correct": true,
+            "proposition": "Palpitations non documentées sur un ECG standard.",
+            "justification": "Indication devant des palpitations non documentées par un ECG standard."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveillance de la fréquence cardiaque moyenne chez des patients recevant des médicaments bradycardisants.",
+            "justification": "La méthode permet de surveiller la fréquence cardiaque moyenne sous médicaments bradycardisants."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation du contrôle de la fréquence chez un patient en fibrillation atriale.",
+            "justification": "La méthode permet de contrôler la fréquence en fibrillation atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode utile uniquement si des symptômes sont présents au moment de l'enregistrement.",
+            "justification": "Elle peut détecter des troubles du rythme y compris en l'absence de symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029149013_03",
+      "current_version_epoch_ms": 1755029149013,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître ce que l'Holter permet d'évaluer au cours de l'enregistrement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de troubles du rythme atriaux ou ventriculaires, même en l'absence de symptômes.",
+            "justification": "La recherche de troubles du rythme atriaux ou ventriculaires est possible y compris sans symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le calcul de l'intervalle QT sans utiliser de formules de correction à 60 bpm.",
+            "justification": "La méthode permet le calcul du QT sans formules de correction (à 60 bpm)."
+          },
+          {
+            "correct": true,
+            "proposition": "Le contrôle de la fréquence chez un patient en fibrillation atriale.",
+            "justification": "L'évaluation du contrôle de la fréquence en fibrillation atriale fait partie des objectifs."
+          },
+          {
+            "correct": false,
+            "proposition": "La recherche de troubles du rythme uniquement si des symptômes sont rapportés.",
+            "justification": "Les troubles du rythme peuvent être identifiés même sans symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Le calcul du QT nécessite l'application de formules de correction.",
+            "justification": "Le QT peut être calculé sans formules de correction à 60 bpm."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029149013_04",
+      "current_version_epoch_ms": 1755029149013,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer la conduite à tenir lorsque les symptômes sont trop rares pour être captés par un Holter.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposer un enregistreur d'évènements externe.",
+            "justification": "En cas de symptômes trop rares, des enregistreurs d'évènements externes peuvent être proposés."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un enregistreur d'évènements implantable.",
+            "justification": "Un enregistreur d'évènements implantable est une option lorsque les symptômes sont trop rares."
+          },
+          {
+            "correct": true,
+            "proposition": "Considérer qu'un enregistreur d'évènements implantable a une durée de vie d'environ 3 ans.",
+            "justification": "La durée de vie annoncée est d'environ 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Conclure à l'absence de trouble du rythme et s'abstenir de toute autre investigation.",
+            "justification": "Des symptômes trop rares justifient le recours aux enregistreurs d'évènements au lieu d'une conclusion d'absence."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser uniquement des ECG standards répétés sans autre alternative.",
+            "justification": "La stratégie proposée en cas de symptômes rares est l'utilisation d'enregistreurs d'évènements."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029149013_05",
+      "current_version_epoch_ms": 1755029149013,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier les affirmations exactes et inexactes concernant les paramètres d'enregistrement d'un Holter.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La durée habituelle est 24 heures.",
+            "justification": "La durée la plus fréquente est de 24 h."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée peut être prolongée jusqu'à plusieurs semaines.",
+            "justification": "Un enregistrement sur plusieurs semaines est possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Un Holter à 12 dérivations est réalisable.",
+            "justification": "Un Holter 12 dérivations est possible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'enregistrement se fait toujours sur 12 dérivations.",
+            "justification": "L'usage le plus fréquent est sur 2–3 dérivations ; 12 dérivations ne sont pas systématiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La méthode est réservée aux palpitations déjà documentées par un ECG standard.",
+            "justification": "Elle est indiquée en cas de palpitations non documentées par l'ECG standard."
+          }
+        ]
+      }
+    }
+  ]
+}

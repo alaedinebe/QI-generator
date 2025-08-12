@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755025842508_01",
+      "current_version_epoch_ms": 1755025842508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères ECG d'une extrasystole atriale (ESA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une onde P' prématurée différente de l'onde P sinusale.",
+            "justification": "L'ESA se caractérise par une onde P' prématurée d'origine atriale ectopique, distincte de la P sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Souvent suivie d'une pause post-extrasystolique.",
+            "justification": "Les extrasystoles atriales sont souvent suivies d'une pause post-extrasystolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Complexe QRS prématuré non précédé d'une onde P, semblable aux QRS en rythme sinusal.",
+            "justification": "Cette description correspond à une extrasystole jonctionnelle (QRS prématuré sans P, morphologie semblable au sinus), pas à une ESA."
+          },
+          {
+            "correct": false,
+            "proposition": "Complexe QRS prématuré et large, très différent du QRS sinusal, non précédé d'une onde P.",
+            "justification": "Un QRS large, différent du sinus et sans onde P évoque une extrasystole ventriculaire, pas atriale."
+          },
+          {
+            "correct": true,
+            "proposition": "Origine dans un foyer atrial ectopique.",
+            "justification": "L'onde P' de l'ESA provient d'un foyer atrial ectopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025842508_02",
+      "current_version_epoch_ms": 1755025842508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître une extrasystole jonctionnelle (NAV).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Complexe QRS prématuré non précédé d'une onde P.",
+            "justification": "L'extrasystole jonctionnelle se définit par un QRS prématuré sans onde P préalable."
+          },
+          {
+            "correct": true,
+            "proposition": "Morphologie du QRS semblable à celle du rythme sinusal.",
+            "justification": "Le QRS d'une extrasystole jonctionnelle est semblable aux QRS en rythme sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P' prématurée différente de l'onde P sinusale.",
+            "justification": "Une P' prématurée différente caractérise une extrasystole atriale, pas jonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Complexe QRS prématuré et large, différent des QRS sinusaux.",
+            "justification": "Un QRS large et différent du sinus évoque une extrasystole ventriculaire, pas jonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours suivie d'une pause post-extrasystolique.",
+            "justification": "La pause post-extrasystolique est rapportée pour les extrasystoles atriales (souvent), pas comme caractéristique des jonctionnelles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025842508_03",
+      "current_version_epoch_ms": 1755025842508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Caractéristiques d'une extrasystole ventriculaire (ESV).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Complexe QRS prématuré et large, différent des QRS en rythme sinusal.",
+            "justification": "L'ESV se manifeste par un QRS prématuré, large et morphologiquement différent du QRS sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'onde P précédant le QRS.",
+            "justification": "L'ESV n'est pas précédée d'une onde P."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS semblables aux QRS du rythme sinusal.",
+            "justification": "Des QRS semblables au sinus orientent vers une extrasystole jonctionnelle, non ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Origine ventriculaire gauche : aspect de retard droit (proche d'un bloc de branche droit).",
+            "justification": "Une ESV provenant du ventricule gauche présente un aspect de retard droit."
+          },
+          {
+            "correct": true,
+            "proposition": "Origine ventriculaire droite : aspect de retard gauche (proche d'un bloc de branche gauche).",
+            "justification": "Une ESV provenant du ventricule droit présente un aspect de retard gauche."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025842508_04",
+      "current_version_epoch_ms": 1755025842508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer la récurrence des extrasystoles selon la terminologie usuelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bigéminée : présente un battement sur 2.",
+            "justification": "La récurrence bigéminée correspond à une extrasystole sur 2 battements."
+          },
+          {
+            "correct": true,
+            "proposition": "Trigéminée : présente un battement sur 3.",
+            "justification": "La récurrence trigéminée correspond à une extrasystole sur 3 battements."
+          },
+          {
+            "correct": false,
+            "proposition": "Bigéminée : présente un battement sur 3.",
+            "justification": "Un battement sur 3 correspond à la trigéminie, pas à la bigéminie."
+          },
+          {
+            "correct": false,
+            "proposition": "Trigéminée : présente un battement sur 2.",
+            "justification": "Un battement sur 2 correspond à la bigéminie, pas à la trigéminie."
+          },
+          {
+            "correct": true,
+            "proposition": "La récurrence peut aussi être décrite comme isolée.",
+            "justification": "La classification mentionne également la forme isolée, en plus des formes bigéminée et trigéminée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025842508_05",
+      "current_version_epoch_ms": 1755025842508,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier l'origine d'une extrasystole à partir de l'onde P et du QRS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Onde P' prématurée différente de la P sinusale : orientation atriale.",
+            "justification": "Une P' prématurée, différente de la P sinusale, signe une origine atriale ectopique."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS prématuré non précédé d'onde P mais semblable au sinus : orientation jonctionnelle.",
+            "justification": "L'extrasystole jonctionnelle présente un QRS prématuré sans P préalable et de morphologie semblable au sinus."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS prématuré large, différent du sinus, sans onde P préalable : orientation ventriculaire.",
+            "justification": "L'ESV se définit par un QRS large, différent du sinus et non précédé d'une onde P."
+          },
+          {
+            "correct": false,
+            "proposition": "Les extrasystoles ventriculaires sont précédées d'une onde P.",
+            "justification": "Les ESV ne sont pas précédées d'une onde P."
+          },
+          {
+            "correct": false,
+            "proposition": "Les extrasystoles jonctionnelles présentent une onde P' prématurée.",
+            "justification": "L'onde P' prématurée est le critère des extrasystoles atriales, pas jonctionnelles."
+          }
+        ]
+      }
+    }
+  ]
+}

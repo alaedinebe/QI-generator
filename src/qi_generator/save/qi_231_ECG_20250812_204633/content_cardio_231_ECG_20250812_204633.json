@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755024600526_01",
+      "current_version_epoch_ms": 1755024600526,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, celle(s) caractérisant un bloc atrioventriculaire de premier degré (BAV 1).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intervalle PR > 200 ms.",
+            "justification": "Un BAV 1 se définit par un PR supérieur à 200 ms."
+          },
+          {
+            "correct": false,
+            "proposition": "Allongement progressif du PR suivi d'une onde P bloquée.",
+            "justification": "Cet enchaînement décrit un BAV 2 Mobitz 1 (Luciani-Wenckebach)."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P bloquée non précédée d'un allongement progressif du PR.",
+            "justification": "Ce critère correspond à un BAV 2 Mobitz 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Dissociation atrio-ventriculaire sans aucune onde P conduite.",
+            "justification": "Cette situation définit un BAV 3 (complet)."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle PR stable pour les ondes P conduites avec une onde P bloquée sur deux.",
+            "justification": "Ce profil correspond à un BAV 2 pour 1 (2/1) installé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024600526_02",
+      "current_version_epoch_ms": 1755024600526,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier un BAV 2 Mobitz 1 d'un BAV 2 Mobitz 2 en se fondant sur les critères électrocardiographiques et le contexte d'un BAV 2/1.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Allongement progressif du PR puis une onde P bloquée évoquent un Mobitz 1.",
+            "justification": "Le Mobitz 1 se caractérise par un allongement progressif du PR suivi d'une onde P bloquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P bloquée sans allongement progressif du PR évoque un Mobitz 2.",
+            "justification": "Le Mobitz 2 est défini par un blocage d'onde P sans allongement progressif préalable du PR."
+          },
+          {
+            "correct": false,
+            "proposition": "Le Mobitz 1 est le plus souvent infra-nodal (Hissien ou infra-Hissien).",
+            "justification": "Le Mobitz 1 est le plus souvent nodal."
+          },
+          {
+            "correct": true,
+            "proposition": "Le Mobitz 2 est le plus souvent infra-nodal.",
+            "justification": "Le Mobitz 2 est le plus souvent hissien ou infra-hissien."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de BAV 2/1, un effort aggrave un Mobitz 2 et améliore un Mobitz 1.",
+            "justification": "Dans le 2/1, l'effort aggrave le bloc infra-nodal (Mobitz 2) et améliore le bloc nodal (Mobitz 1)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024600526_03",
+      "current_version_epoch_ms": 1755024600526,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques d'un BAV 2 pour 1 (2/1) installé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une onde P bloquée sur deux.",
+            "justification": "Par définition, il y a une onde P sur deux qui n'est pas conduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Intervalle PR stable pour les ondes P conduites.",
+            "justification": "Dans le 2/1, le PR est stable pour les ondes P qui passent."
+          },
+          {
+            "correct": true,
+            "proposition": "Intervalles PR et RR constants quand il est installé.",
+            "justification": "Une fois le 2/1 installé, les PR et RR sont constants."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond nécessairement à un Mobitz 2.",
+            "justification": "Un 2/1 peut correspondre à un Mobitz 1 ou à un Mobitz 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Le siège du bloc est toujours nodal.",
+            "justification": "Le 2/1 peut relever d'un mécanisme nodal (Mobitz 1) ou infra-nodal (Mobitz 2)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024600526_04",
+      "current_version_epoch_ms": 1755024600526,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques d'un BAV 3 (complet) et la morphologie des échappements possibles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dissociation atrio-ventriculaire avec absence totale de conduction des ondes P.",
+            "justification": "Dans un BAV 3, aucune onde P n'est conduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Intervalle PR instable.",
+            "justification": "Le PR est instable dans le BAV 3."
+          },
+          {
+            "correct": true,
+            "proposition": "Intervalles RR constants quand l'échappement est stable.",
+            "justification": "Le RR devient constant lorsque le rythme d'échappement est stable."
+          },
+          {
+            "correct": true,
+            "proposition": "Échappement jonctionnel : QRS identiques aux QRS sinusaux, donc fins sauf si bloc de branche associé.",
+            "justification": "Un échappement jonctionnel donne des QRS comme en rythme sinusal (fins, sauf bloc de branche)."
+          },
+          {
+            "correct": false,
+            "proposition": "Échappement ventriculaire : QRS fins identiques au rythme sinusal.",
+            "justification": "L'échappement ventriculaire produit des QRS larges et différents du rythme sinusal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755024600526_05",
+      "current_version_epoch_ms": 1755024600526,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les propositions selon l'orientation vers un siège de blocage nodal ou infra-nodal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un Mobitz 1 oriente le plus souvent vers un bloc nodal.",
+            "justification": "Le Mobitz 1 est le plus souvent nodal."
+          },
+          {
+            "correct": true,
+            "proposition": "Un Mobitz 2 oriente le plus souvent vers un bloc infra-nodal (Hissien ou infra-Hissien).",
+            "justification": "Le Mobitz 2 est le plus souvent hissien ou infra-hissien."
+          },
+          {
+            "correct": false,
+            "proposition": "Un BAV 2/1 correspond d'emblée à un bloc infra-nodal.",
+            "justification": "Le 2/1 peut relever d'un Mobitz 1 (nodal) ou d'un Mobitz 2 (infra-nodal)."
+          },
+          {
+            "correct": true,
+            "proposition": "Un BAV 2/1 peut correspondre à un Mobitz 1 ou à un Mobitz 2.",
+            "justification": "Le 2/1 n'est pas spécifique d'un seul type de Mobitz."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2/1, une aggravation à l'effort oriente vers un bloc infra-nodal.",
+            "justification": "L'effort aggrave le Mobitz 2, qui est infra-nodal."
+          }
+        ]
+      }
+    }
+  ]
+}

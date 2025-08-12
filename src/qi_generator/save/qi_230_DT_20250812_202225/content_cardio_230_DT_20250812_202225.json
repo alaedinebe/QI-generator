@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755023151906_01",
+      "current_version_epoch_ms": 1755023151906,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier la stratégie d'imagerie selon la stabilité hémodynamique en cas de suspicion de dissection aortique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ETT est l'examen de 1ère intention chez un patient hémodynamiquement instable.",
+            "justification": "L'ETT est disponible en urgence au lit du malade et recommandée en 1ère intention chez l'instable."
+          },
+          {
+            "correct": true,
+            "proposition": "L'angioscanner thoracique est l'examen de choix pour le diagnostic positif chez un patient stabilisé.",
+            "justification": "Le scanner est l'examen de choix pour confirmer le diagnostic et s'adresse au patient stabilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO doit préférentiellement être réalisée en vigile aux urgences pour gagner du temps.",
+            "justification": "En cas de suspicion, l'ETO doit être réalisée sous couverture anesthésique, idéalement au bloc opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETT ne permet pas d'orienter vers des diagnostics différentiels.",
+            "justification": "L'ETT peut montrer des diagnostics différentiels comme un SCA (troubles de cinétique) ou un cœur pulmonaire aigu dans l'EP."
+          },
+          {
+            "correct": false,
+            "proposition": "L'angioscanner est uniquement utile pour le bilan d'extension, sans intérêt pour le diagnostic positif.",
+            "justification": "Le scanner est l'examen de choix pour le diagnostic positif et réalise aussi le bilan d'extension pré-opératoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023151906_02",
+      "current_version_epoch_ms": 1755023151906,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître ce que l'ETT peut mettre en évidence dans la dissection aortique et ses complications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un flap intimal dans l'aorte.",
+            "justification": "L'ETT peut faire le diagnostic de dissection en visualisant un flap aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une dilatation de l'aorte ascendante.",
+            "justification": "La dilatation de l'aorte ascendante peut être détectée à l'ETT."
+          },
+          {
+            "correct": true,
+            "proposition": "Un hémopéricarde.",
+            "justification": "L'ETT peut identifier des complications, dont un hémopéricarde."
+          },
+          {
+            "correct": true,
+            "proposition": "Une insuffisance aortique.",
+            "justification": "L'ETT peut mettre en évidence une insuffisance aortique liée à la dissection."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bilan d'extension pré-opératoire avec visualisation de la porte d'entrée et du faux chenal.",
+            "justification": "Ce bilan d'extension est du ressort de l'angioscanner thoracique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023151906_03",
+      "current_version_epoch_ms": 1755023151906,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Définir la place et les apports de l'angioscanner thoracique dans la dissection aortique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen de choix pour le diagnostic positif.",
+            "justification": "Le scanner est désigné comme l'examen de choix pour confirmer la dissection."
+          },
+          {
+            "correct": true,
+            "proposition": "Indiqué chez le patient stabilisé.",
+            "justification": "L'angioscanner est réalisé chez le patient stabilisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Permet le bilan d'extension pré-opératoire avec visualisation du faux chenal et de la porte d'entrée.",
+            "justification": "Le scanner décrit l'extension, la porte d'entrée et le faux chenal."
+          },
+          {
+            "correct": false,
+            "proposition": "Doit être évité lorsque le patient est stabilisé.",
+            "justification": "Au contraire, il est indiqué chez le patient stabilisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut montrer en coupe un vrai et un faux chenal, le faux étant plus sombre s'il est partiellement thrombosé.",
+            "justification": "La coupe transversale peut visualiser les deux chenaux, avec un faux chenal plus sombre en cas de thrombose partielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023151906_04",
+      "current_version_epoch_ms": 1755023151906,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les indications et précautions de l'ETO dans la dissection aortique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ETO peut compléter l'ETT chez un patient instable.",
+            "justification": "L'ETO est mentionnée comme complément possible de l'ETT dans l'instabilité."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion, l'ETO doit idéalement être réalisée sous couverture anesthésique au bloc opératoire.",
+            "justification": "Cette modalité réduit le risque lié à la procédure dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Une réalisation en vigile expose à un pic tensionnel à risque dans ce contexte.",
+            "justification": "La procédure en vigile est décrite comme à risque de pic tensionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO ne permet pas de visualiser un flap au niveau de l'aorte ascendante initiale.",
+            "justification": "Au contraire, une coupe ETO peut montrer une image de flap près de la valve aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO est l'examen de choix pour le diagnostic positif chez le patient stabilisé.",
+            "justification": "L'examen de choix pour le diagnostic positif est l'angioscanner thoracique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023151906_05",
+      "current_version_epoch_ms": 1755023151906,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Organiser la démarche d'imagerie pratique pour un patient instable avec suspicion de dissection aortique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une ETT au lit du malade.",
+            "justification": "L'ETT est disponible en urgence au lit et indiquée en 1ère intention chez l'instable."
+          },
+          {
+            "correct": true,
+            "proposition": "Prévoir un angioscanner thoracique après stabilisation hémodynamique.",
+            "justification": "Le scanner s'adresse au patient stabilisé pour le diagnostic positif et le bilan d'extension."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser l'ETT pour rechercher des diagnostics différentiels (SCA, cœur pulmonaire aigu d'EP).",
+            "justification": "L'ETT peut objectiver des troubles de cinétique d'un SCA et des signes de cœur pulmonaire aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Pratiquer une ETO en vigile aux urgences pour accélérer la prise en charge.",
+            "justification": "L'ETO doit être réalisée sous anesthésie, idéalement au bloc, pour éviter un pic tensionnel à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager une ETO pour compléter l'ETT si nécessaire.",
+            "justification": "L'ETO peut compléter l'ETT chez un patient instable."
+          }
+        ]
+      }
+    }
+  ]
+}

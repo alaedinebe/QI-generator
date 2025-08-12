@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755025013854_01",
+      "current_version_epoch_ms": 1755025013854,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères en faveur d'une tachycardie sinusale chez un patient en tachycardie régulière.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Début et fin progressifs avec fluctuations de la fréquence cardiaque.",
+            "justification": "Une évolution progressive avec variabilité de la fréquence est caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue en réponse à un facteur déclenchant (effort, stress, sepsis, hypovolémie, anémie, embolie pulmonaire…).",
+            "justification": "La présence d'un facteur déclenchant ou d'une cause sous-jacente oriente vers une origine sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P positive dans les dérivations inférieures, en DI et de V3 à V6.",
+            "justification": "Cette polarité de l'onde P est en faveur d'une origine du nœud sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P négative en aVR.",
+            "justification": "Une onde P négative en aVR est attendue pour une activation sinusale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes P' rétrogrades négatives visibles après le QRS dans les dérivations inférieures.",
+            "justification": "La présence d'ondes P' rétrogrades après le QRS évoque plutôt une tachycardie jonctionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025013854_02",
+      "current_version_epoch_ms": 1755025013854,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments orientant vers une fibrillation atriale (FA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme irrégulier.",
+            "justification": "La FA se caractérise par une irrégularité du rythme."
+          },
+          {
+            "correct": true,
+            "proposition": "Trémulation de la ligne de base sans onde P visible.",
+            "justification": "En FA, on observe une trémulation de la ligne de base et l'absence d'ondes P identifiables."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes F régulières avec conduction le plus souvent en 2/1.",
+            "justification": "Des ondes F avec conduction 2/1 évoquent plutôt un flutter auriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P' différente de l'onde P sinusale avec conduction en 1/1 ou 2/1.",
+            "justification": "Une onde P' de morphologie différente avec conductions 1/1 ou 2/1 est en faveur d'une tachycardie atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Retour à la ligne isoélectrique entre deux ondes P'.",
+            "justification": "Le retour à la ligne isoélectrique entre deux ondes P' caractérise la tachycardie atriale, pas la FA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025013854_03",
+      "current_version_epoch_ms": 1755025013854,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier une tachycardie atriale d'un flutter auriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'ondes F de flutter avec conduction le plus souvent en 2/1 ou conduction variable est en faveur du flutter.",
+            "justification": "Les ondes F et la conduction 2/1 sont typiques du flutter."
+          },
+          {
+            "correct": true,
+            "proposition": "Retour à la ligne isoélectrique entre deux ondes P' évoque une tachycardie atriale.",
+            "justification": "La présence d'une ligne isoélectrique entre P' permet de distinguer la tachycardie atriale du flutter."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P' différente de l'onde P sinusale avec conduction en 1/1, 2/1 ou variable évoque une tachycardie atriale.",
+            "justification": "La morphologie P' différente et les schémas de conduction variables orientent vers une tachycardie atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence totale d'onde P visible avec trémulation de la ligne de base caractérise le flutter.",
+            "justification": "Cette description correspond à la fibrillation atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le flutter présente systématiquement une conduction 1/1.",
+            "justification": "La conduction en flutter est le plus souvent 2/1 ou variable, pas strictement 1/1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025013854_04",
+      "current_version_epoch_ms": 1755025013854,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître une tachycardie jonctionnelle (réciproque sur voie accessoire ou réentrée intra-nodale).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie régulière à début et fin brusques.",
+            "justification": "Le caractère paroxystique avec début/fin brusques est typique."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes P' rétrogrades négatives dans les dérivations inférieures, visibles après le QRS.",
+            "justification": "La rétro-conduction atriale produit des P' négatives en dérivations inférieures après le QRS."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes P' rétrogrades « collées » au QRS plutôt en faveur d'une réentrée intra-nodale.",
+            "justification": "Des P' très proches du QRS orientent vers une réentrée intra-nodale."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes P' plus à distance du QRS (> 80 ms) plutôt en faveur d'une tachycardie réciproque sur voie accessoire.",
+            "justification": "Un intervalle plus long entre QRS et P' suggère une participation d'une voie accessoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Début et fin progressifs avec fluctuations de la fréquence.",
+            "justification": "Une évolution progressive avec fluctuations correspond davantage à une tachycardie sinusale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755025013854_05",
+      "current_version_epoch_ms": 1755025013854,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître la morphologie de l'onde P en faveur d'une origine sinusale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Onde P positive dans les dérivations inférieures (DII, DIII, aVF) et en DI.",
+            "justification": "Cette polarité est attendue pour une activation issue du nœud sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P positive de V3 à V6.",
+            "justification": "La positivité précordiale gauche est compatible avec une origine sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P souvent biphasique en V1 (parfois en V2).",
+            "justification": "La biphasie en V1 (éventuellement V2) est décrite en rythme sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P négative en aVR.",
+            "justification": "La négativité en aVR est un critère de P sinusale."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P négative dans les dérivations inférieures.",
+            "justification": "En rythme sinusale, l'onde P est positive dans les dérivations inférieures."
+          }
+        ]
+      }
+    }
+  ]
+}

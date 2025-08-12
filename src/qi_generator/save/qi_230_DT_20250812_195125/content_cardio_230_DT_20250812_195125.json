@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755021292005_01",
+      "current_version_epoch_ms": 1755021292005,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier parmi les diagnostics suivants ceux qui constituent les quatre urgences cardio-vasculaires à évoquer devant une douleur thoracique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dissection aortique",
+            "justification": "Appartient explicitement aux quatre urgences à évoquer."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome coronarien aigu (SCA)",
+            "justification": "Appartient explicitement aux quatre urgences à évoquer."
+          },
+          {
+            "correct": true,
+            "proposition": "Embolie pulmonaire (EP)",
+            "justification": "Appartient explicitement aux quatre urgences à évoquer."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite (tamponnade)",
+            "justification": "Appartient explicitement aux quatre urgences à évoquer."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Ne figure pas dans l'énumération des quatre urgences (PIED)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021292005_02",
+      "current_version_epoch_ms": 1755021292005,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Associer correctement chaque lettre du moyen mnémotechnique 'PIED' à l'entité correspondante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "P = Péricardite (tamponnade)",
+            "justification": "Le 'P' de PIED correspond à la péricardite (tamponnade)."
+          },
+          {
+            "correct": true,
+            "proposition": "I = Infarctus (SCA)",
+            "justification": "Le 'I' de PIED renvoie à l'infarctus, c'est-à-dire le SCA."
+          },
+          {
+            "correct": true,
+            "proposition": "E = Embolie pulmonaire",
+            "justification": "Le 'E' de PIED correspond à l'embolie pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "D = Dissection aortique",
+            "justification": "Le 'D' de PIED correspond à la dissection aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "E = Endocardite",
+            "justification": "Endocardite ne fait pas partie des quatre entités retenues par le moyen mnémotechnique PIED."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021292005_03",
+      "current_version_epoch_ms": 1755021292005,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Sélectionner la liste qui correspond exactement aux quatre urgences cardio-vasculaires à évoquer devant une douleur thoracique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Péricardite (tamponnade), Infarctus (SCA), Embolie pulmonaire, Dissection aortique",
+            "justification": "Correspond exactement aux quatre urgences retenues (PIED)."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite, Insuffisance cardiaque, Embolie pulmonaire, Dissection aortique",
+            "justification": "Comprend une entité non listée (insuffisance cardiaque)."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite, Infarctus, Épanchement pleural, Dissection aortique",
+            "justification": "Comprend une entité non listée (épanchement pleural)."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite, Infarctus, Embolie pulmonaire, Dissection coronarienne",
+            "justification": "Substitue une entité non listée (dissection coronarienne) à la dissection aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite, Angor stable, Embolie pulmonaire, Dissection aortique",
+            "justification": "Comprend une entité non listée (angor stable)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021292005_04",
+      "current_version_epoch_ms": 1755021292005,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître l'association précise mentionnée entre parenthèses dans l'une des quatre urgences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le terme 'tamponnade' est associé à 'péricardite'.",
+            "justification": "L'énumération indique 'péricardite (tamponnade)'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le terme 'tamponnade' est associé à 'embolie pulmonaire'.",
+            "justification": "La précision entre parenthèses n'est pas associée à l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le terme 'tamponnade' est associé au 'syndrome coronarien aigu'.",
+            "justification": "La précision entre parenthèses n'est pas associée au SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Le terme 'tamponnade' est associé à la 'dissection aortique'.",
+            "justification": "La précision entre parenthèses n'est pas associée à la dissection aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune des quatre urgences ne comporte de précision entre parenthèses.",
+            "justification": "Une précision est explicitement présente : 'péricardite (tamponnade)'."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021292005_05",
+      "current_version_epoch_ms": 1755021292005,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Évaluer la pertinence des moyens mnémotechniques suivants pour retenir les quatre urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PIED",
+            "justification": "C'est le moyen mnémotechnique proposé pour mémoriser les quatre urgences."
+          },
+          {
+            "correct": false,
+            "proposition": "DEPI",
+            "justification": "Ne correspond pas au moyen mnémotechnique proposé."
+          },
+          {
+            "correct": false,
+            "proposition": "EPIC",
+            "justification": "Ne correspond pas au moyen mnémotechnique proposé."
+          },
+          {
+            "correct": false,
+            "proposition": "DIEP",
+            "justification": "Ne correspond pas au moyen mnémotechnique proposé."
+          },
+          {
+            "correct": false,
+            "proposition": "PEID",
+            "justification": "Ne correspond pas au moyen mnémotechnique proposé."
+          }
+        ]
+      }
+    }
+  ]
+}

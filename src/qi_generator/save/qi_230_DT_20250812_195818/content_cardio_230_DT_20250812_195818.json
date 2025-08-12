@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755021705315_01",
+      "current_version_epoch_ms": 1755021705315,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les éléments à recueillir lors de l'anamnèse face à une urgence cardio-vasculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Terrain évocateur : facteurs de risque cardiovasculaires, cancer, hypertension artérielle.",
+            "justification": "Fait partie des données de terrain explicitement attendues à l'anamnèse."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractéristiques de la douleur : localisation, irradiation, ancienneté.",
+            "justification": "Les caractéristiques de la douleur doivent être précisées dès l'interrogatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Circonstances de survenue et facteurs aggravants ou antalgiques.",
+            "justification": "Les circonstances de survenue et l'effet des facteurs aggravants/antalgiques sont à documenter."
+          },
+          {
+            "correct": true,
+            "proposition": "Lien avec l'effort et trinitro-sensibilité.",
+            "justification": "Le lien à l'effort et la trinitro-sensibilité sont cités parmi les éléments à recueillir."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche systématique d'une fièvre chiffrée comme item prioritaire d'anamnèse.",
+            "justification": "Cet item n'est pas listé parmi les éléments d'anamnèse attendus (terrain, douleur, circonstances, trinitro-sensibilité, lien avec l'effort)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021705315_02",
+      "current_version_epoch_ms": 1755021705315,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître les particularités pertinentes de l'examen clinique initial dans une urgence cardio-vasculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalies à l'auscultation cardio-pulmonaire.",
+            "justification": "Relève des particularités de l'examen clinique à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence ou non des pouls périphériques.",
+            "justification": "La présence/absence des pouls périphériques fait partie de l'examen ciblé."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure de la pression artérielle.",
+            "justification": "La pression artérielle est un élément explicitement mentionné."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation d'une turgescence jugulaire.",
+            "justification": "La turgescence jugulaire fait partie des signes à examiner."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpation abdominale détaillée comme point clé spécifique.",
+            "justification": "Non mentionnée parmi les particularités clés retenues (auscultation cardio-pulmonaire, pouls, PA, turgescence jugulaire)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021705315_03",
+      "current_version_epoch_ms": 1755021705315,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "À propos de la séquence initiale de la démarche diagnostique, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher d'emblée des signes de choc ou de détresse vitale.",
+            "justification": "La recherche de signes de choc/détresse vitale fait partie des priorités."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser et interpréter un ECG précocement.",
+            "justification": "La réalisation et l'interprétation de l'ECG sont prévues dans la démarche initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Orienter le bilan biologique et d'imagerie à partir des observations initiales.",
+            "justification": "Le bilan complémentaire est réalisé ensuite, orienté par les observations précédentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer par un bilan biologique et d'imagerie standardisé avant tout interrogatoire et examen.",
+            "justification": "Contrarie la logique « puis bilan biologique et d'imagerie orientés par les observations précédentes »."
+          },
+          {
+            "correct": false,
+            "proposition": "Se dispenser d'anamnèse si la douleur est trinitro-sensible.",
+            "justification": "L'anamnèse est une étape attendue ; la trinitro-sensibilité est un item à recueillir, pas un motif pour l'omettre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021705315_04",
+      "current_version_epoch_ms": 1755021705315,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Définir la place de l'ECG dans la démarche diagnostique des urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il doit être réalisé et interprété.",
+            "justification": "La démarche prévoit explicitement la réalisation et l'interprétation de l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se fait avant toute anamnèse.",
+            "justification": "La démarche inclut d'abord l'anamnèse et l'examen, puis l'ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "Il contribue, avec les autres observations, à orienter la suite du bilan.",
+            "justification": "Le bilan biologique et d'imagerie est orienté par les observations précédentes, incluant l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut être omis si les pouls périphériques sont présents.",
+            "justification": "Aucune omission de l'ECG n'est prévue ; il fait partie de la démarche."
+          },
+          {
+            "correct": false,
+            "proposition": "Il remplace la recherche de signes de détresse vitale.",
+            "justification": "La recherche de signes de choc/détresse vitale constitue une étape distincte et indispensable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755021705315_05",
+      "current_version_epoch_ms": 1755021705315,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les éléments qui orientent le bilan biologique et d'imagerie dans une urgence cardio-vasculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les observations issues de l'anamnèse.",
+            "justification": "Le bilan complémentaire est orienté par les observations faites auparavant, dont l'anamnèse."
+          },
+          {
+            "correct": true,
+            "proposition": "Les constatations de l'examen clinique (PA, pouls, auscultation, turgescence jugulaire).",
+            "justification": "Les particularités cliniques recueillies guident la suite du bilan."
+          },
+          {
+            "correct": true,
+            "proposition": "Les résultats de l'ECG.",
+            "justification": "L'ECG est réalisé et interprété avant, et ses résultats participent à l'orientation du bilan."
+          },
+          {
+            "correct": false,
+            "proposition": "Un protocole d'examens identique pour tous, indépendamment des premières observations.",
+            "justification": "À l'inverse, le bilan est explicitement orienté par les observations précédentes."
+          },
+          {
+            "correct": false,
+            "proposition": "La réalisation d'imagerie avant tout interrogatoire et examen.",
+            "justification": "La séquence attendue comporte d'abord anamnèse, examen, recherche de gravité et ECG, puis le bilan orienté."
+          }
+        ]
+      }
+    }
+  ]
+}

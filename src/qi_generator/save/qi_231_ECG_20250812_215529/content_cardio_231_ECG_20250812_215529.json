@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755028735702_01",
+      "current_version_epoch_ms": 1755028735702,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos de la définition du syndrome de Wolff-Parkinson-White, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une pré-excitation ventriculaire par voie accessoire antérograde associée à des palpitations.",
+            "justification": "Le syndrome est défini par une pré-excitation (voie accessoire antérograde) associée à des symptômes, notamment des palpitations."
+          },
+          {
+            "correct": false,
+            "proposition": "Une voie accessoire rétrograde pure, asymptomatique, suffit pour définir le syndrome.",
+            "justification": "Une voie uniquement rétrograde est dite « cachée » et n'entraîne pas de pré-excitation ventriculaire ; l'association à des symptômes est requise."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pré-excitation ventriculaire isolée et asymptomatique définit le syndrome.",
+            "justification": "La présence de symptômes (palpitations) est nécessaire en plus de la pré-excitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Des palpitations sans pré-excitation ventriculaire suffisent à poser le diagnostic.",
+            "justification": "La pré-excitation ventriculaire liée à une voie accessoire antérograde est une condition indispensable."
+          },
+          {
+            "correct": true,
+            "proposition": "Le faisceau de Kent correspond à la voie accessoire antérograde responsable de la pré-excitation.",
+            "justification": "La voie accessoire antérograde est également appelée faisceau de Kent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028735702_02",
+      "current_version_epoch_ms": 1755028735702,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant les modes de conduction de la voie accessoire dans le Wolff-Parkinson-White, quelles propositions sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut conduire dans les deux sens (antérograde et rétrograde).",
+            "justification": "La voie accessoire peut être bidirectionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut conduire uniquement en antérograde.",
+            "justification": "Certaines voies accessoires ne conduisent qu'en antérograde."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut conduire uniquement en rétrograde, on parle alors de voie accessoire cachée.",
+            "justification": "Une conduction exclusivement rétrograde est possible et dite « cachée »."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne conduit jamais en antérograde.",
+            "justification": "La conduction antérograde fait partie des possibilités décrites."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les voies accessoires sont visibles sur l'ECG en rythme sinusal.",
+            "justification": "Les voies uniquement rétrogrades sont cachées et ne donnent pas de signes de pré-excitation en sinusal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028735702_03",
+      "current_version_epoch_ms": 1755028735702,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les critères ECG en rythme sinusal en faveur d'une pré-excitation liée à une voie accessoire antérograde.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PR court (< 120 ms).",
+            "justification": "Un PR < 120 ms est décrit en cas de pré-excitation en sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une onde delta.",
+            "justification": "L'onde delta est un signe de pré-excitation en sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Pré-excitation visible en cas de voie accessoire strictement rétrograde.",
+            "justification": "Une voie purement rétrograde est cachée et n'entraîne pas de pré-excitation en sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "La pré-excitation en sinusal atteste d'une conduction antérograde de la voie accessoire.",
+            "justification": "La visualisation de la pré-excitation en sinusal suppose une conduction antérograde par la voie accessoire."
+          },
+          {
+            "correct": false,
+            "proposition": "PR allongé avec absence d'onde delta.",
+            "justification": "Le tableau décrit un PR court et une onde delta, à l'inverse de cette proposition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028735702_04",
+      "current_version_epoch_ms": 1755028735702,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les caractéristiques des tachycardies par réentrée impliquant une voie accessoire dans le Wolff-Parkinson-White.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La tachycardie orthodromique est la plus fréquente et présente des QRS fins.",
+            "justification": "Il est précisé que l'orthodromique est la plus fréquente et qu'elle donne des QRS fins."
+          },
+          {
+            "correct": true,
+            "proposition": "En orthodromique, l'influx descend par le NAV et remonte par la voie accessoire.",
+            "justification": "Le circuit orthodromique emprunte le NAV en descendant puis la voie accessoire en remontant."
+          },
+          {
+            "correct": true,
+            "proposition": "La tachycardie antidromique a des QRS larges et le circuit descend par la voie accessoire.",
+            "justification": "L'antidromique est décrite avec QRS larges, descente par la voie accessoire et remontée par le NAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Le circuit le plus fréquent est l'antidromique.",
+            "justification": "C'est l'orthodromique qui est indiquée comme la plus fréquente."
+          },
+          {
+            "correct": true,
+            "proposition": "Des ondes P' peuvent être observées à distance du QRS (> 80 ms).",
+            "justification": "La présence d'ondes P' à distance du QRS (> 80 ms) est rapportée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028735702_05",
+      "current_version_epoch_ms": 1755028735702,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments liés au risque de mort subite dans le Wolff-Parkinson-White.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une voie accessoire à conduction antérograde rapide avec passage en fibrillation atriale expose à un risque de mort subite.",
+            "justification": "Ce contexte est explicitement associé à un risque de mort subite."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce tableau est désigné sous le terme de « super-Wolff ». ",
+            "justification": "Le terme « super-Wolff » est utilisé pour ce risque lié à la FA et à la conduction antérograde rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Le Wolff-Parkinson-White n'est pas associé à un risque de mort subite.",
+            "justification": "Un risque de mort subite est mentionné dans certaines circonstances."
+          },
+          {
+            "correct": false,
+            "proposition": "Le risque de mort subite ne concerne que les tachycardies orthodromiques.",
+            "justification": "Le risque est rapporté dans le contexte de FA avec conduction antérograde rapide, pas spécifiquement limité à l'orthodromique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une conduction antérograde lente de la voie accessoire augmente ce risque.",
+            "justification": "C'est la conduction antérograde rapide associée à la FA qui est incriminée."
+          }
+        ]
+      }
+    }
+  ]
+}

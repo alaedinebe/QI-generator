@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DT",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755022325281_01",
+      "current_version_epoch_ms": 1755022325281,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Identifier les éléments à inclure dans le bilan biologique standard initial lors d'une urgence cardio-vasculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS-plaquettes",
+            "justification": "Fait partie du bilan biologique standard recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin avec créatininémie",
+            "justification": "Fait partie du bilan biologique standard recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan de coagulation (TP, TCA)",
+            "justification": "Fait partie du bilan biologique standard recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Troponines ultrasensibles",
+            "justification": "Les troponines sont à doser spécifiquement, mais ne sont pas listées dans le bilan standard."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP",
+            "justification": "La CRP a un intérêt surtout pour la péricardite et n'est pas incluse dans le bilan standard."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022325281_02",
+      "current_version_epoch_ms": 1755022325281,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Différencier l'interprétation des troponines ultrasensibles en contexte d'urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une élévation est attendue dans le SCA",
+            "justification": "Les troponines s'élèvent dans le SCA."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles peuvent s'élever en cas de myocardite associée à une péricardite",
+            "justification": "Une élévation est possible dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seul critère d'élévation suffit à poser le diagnostic de SCA",
+            "justification": "L'élévation ne suffit pas à elle seule ; l'interprétation doit tenir compte du contexte et de la clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Deux dosages à 1–2 heures d'intervalle sont indiqués si le premier est normal",
+            "justification": "Un cycle de 2 mesures à 1 h ou 2 h est recommandé si le premier dosage est normal."
+          },
+          {
+            "correct": false,
+            "proposition": "L'élévation est habituellement plus marquée dans l'EP que dans le SCA",
+            "justification": "Dans l'EP, l'élévation est moindre que dans le SCA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022325281_03",
+      "current_version_epoch_ms": 1755022325281,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Classer les usages et limites des D-dimères dans les urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À demander en cas de suspicion faible ou modérée d'EP",
+            "justification": "Indiqués dans ce niveau de probabilité clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Des D-dimères normaux permettent d'éliminer une EP",
+            "justification": "Des valeurs normales éliminent l'EP dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Des D-dimères normaux permettent d'éliminer une dissection aortique",
+            "justification": "Des valeurs normales éliminent également la dissection aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "Un taux élevé confirme le diagnostic d'EP",
+            "justification": "Ils ne permettent la confirmation d'aucun diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "À privilégier quand la probabilité clinique d'EP est forte",
+            "justification": "Leur utilisation est précisée pour une suspicion faible ou modérée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022325281_04",
+      "current_version_epoch_ms": 1755022325281,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Reconnaître la place de la CRP (protéine C-réactive) dans ces situations.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Marqueur de syndrome inflammatoire",
+            "justification": "La CRP témoigne d'un état inflammatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Intérêt surtout pour la péricardite",
+            "justification": "Son utilité est surtout marquée dans la péricardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Marqueur spécifique de péricardite",
+            "justification": "La CRP est non spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une CRP élevée confirme un diagnostic précis",
+            "justification": "La CRP est non spécifique et ne confirme pas un diagnostic à elle seule."
+          },
+          {
+            "correct": false,
+            "proposition": "Fait partie du bilan biologique standard",
+            "justification": "Elle n'est pas incluse dans le triptyque standard (NFS-plaquettes, ionogramme avec créatininémie, TP/TCA)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755022325281_05",
+      "current_version_epoch_ms": 1755022325281,
+      "topic": {
+        "subject": "cardio",
+        "item": "DT"
+      },
+      "data": {
+        "statement": "Interpréter l'apport des gaz du sang dans les urgences cardio-vasculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiqués surtout en cas de détresse respiratoire",
+            "justification": "Leur intérêt est souligné dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Peuvent objectiver un effet shunt évoquant une EP",
+            "justification": "Un effet shunt aux gaz du sang peut évoquer une EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Des gaz du sang normaux éliminent formellement une EP",
+            "justification": "Le rôle mentionné est l'évocation d'EP par un effet shunt, pas l'exclusion formelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettent de confirmer une dissection aortique",
+            "justification": "Aucune confirmation diagnostique n'est attribuée aux gaz du sang dans ce cadre."
+          },
+          {
+            "correct": false,
+            "proposition": "Doivent être réalisés systématiquement quel que soit le contexte",
+            "justification": "Ils sont à privilégier surtout en cas de détresse respiratoire."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755023567248_01",
+      "current_version_epoch_ms": 1755023567248,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier parmi les symptômes suivants ceux qui constituent une indication d'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée",
+            "justification": "Symptôme explicitement listé comme indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Palpitations",
+            "justification": "Symptôme explicitement listé comme indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur thoracique",
+            "justification": "Symptôme explicitement listé comme indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Malaise/syncope",
+            "justification": "Symptôme explicitement listé comme indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée",
+            "justification": "Non citée parmi les indications symptomatiques retenues."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023567248_02",
+      "current_version_epoch_ms": 1755023567248,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes comme indications d'un ECG hors contexte strictement symptomatique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan initial ou suivi d'un diabète",
+            "justification": "Relève des pathologies non cardiaques pouvant entraîner des complications cardiovasculaires (exemple donné)."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan d'hypertension artérielle (HTA)",
+            "justification": "Explicitement mentionné comme indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Enquête familiale pour certaines cardiopathies héréditaires",
+            "justification": "Explicitement mentionnée comme indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan préopératoire selon le terrain et la chirurgie",
+            "justification": "Indication mentionnée en tenant compte du terrain et du type de chirurgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan d'infection urinaire non compliquée",
+            "justification": "Non mentionnée parmi les indications retenues."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023567248_03",
+      "current_version_epoch_ms": 1755023567248,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant l'ECG en contexte préopératoire, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "L'ECG est toujours indiqué avant toute chirurgie, quel que soit le patient.",
+            "justification": "La réalisation dépend du terrain et du type de chirurgie, et n'est pas systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ECG peut être indiqué en préopératoire en fonction du terrain.",
+            "justification": "Le terrain fait partie des critères mentionnés."
+          },
+          {
+            "correct": true,
+            "proposition": "La décision de réaliser un ECG préopératoire tient compte du type de chirurgie.",
+            "justification": "Le type de chirurgie est explicitement pris en compte."
+          },
+          {
+            "correct": false,
+            "proposition": "L'indication préopératoire d'un ECG est indépendante des comorbidités.",
+            "justification": "À l'inverse, le terrain (comorbidités) est un critère cité."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG préopératoire n'est jamais pertinent.",
+            "justification": "Il peut être indiqué selon le terrain et la chirurgie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023567248_04",
+      "current_version_epoch_ms": 1755023567248,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les contextes d'aptitude où un ECG est indiqué.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluation d'aptitude professionnelle pour conducteur",
+            "justification": "Cité comme exemple d'aptitude professionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation d'aptitude professionnelle pour pilote",
+            "justification": "Cité comme exemple d'aptitude professionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Certificat d'aptitude pour sports à risque ou en compétition",
+            "justification": "Mentionné comme indication en contexte sportif à risque/compétition."
+          },
+          {
+            "correct": false,
+            "proposition": "Certificat pour pratique sportive de loisir sans risque et sans compétition",
+            "justification": "Non cité ; la mention porte sur les sports à risque ou en compétition."
+          },
+          {
+            "correct": false,
+            "proposition": "Certificat d'aptitude pour activité artistique",
+            "justification": "Non cité parmi les contextes d'aptitude indiqués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755023567248_05",
+      "current_version_epoch_ms": 1755023567248,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier ceux qui constituent une indication d'ECG pour le bilan initial ou le suivi.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan initial d'une pathologie cardiaque",
+            "justification": "Les pathologies cardiaques font partie des situations de bilan initial/suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivi d'un diabète",
+            "justification": "Exemple de pathologie non cardiaque pouvant entraîner des complications cardiovasculaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan d'hypertension artérielle",
+            "justification": "Indication explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi d'une pathologie non cardiaque ne donnant pas de complications cardiovasculaires",
+            "justification": "Les pathologies non cardiaques ne sont retenues que si elles peuvent entraîner des complications cardiovasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan d'une lésion cutanée isolée",
+            "justification": "Ne fait pas partie des indications retenues."
+          }
+        ]
+      }
+    }
+  ]
+}

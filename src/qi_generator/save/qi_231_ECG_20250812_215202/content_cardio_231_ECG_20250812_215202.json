@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755028529046_01",
+      "current_version_epoch_ms": 1755028529046,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître le stade I précoce d'une péricardite aiguë à l'ECG : sélectionner les éléments caractéristiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sus-décalage du segment ST concave vers le haut",
+            "justification": "Le stade I précoce se caractérise par un sus-décalage du ST concave vers le haut."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage diffus de PQ",
+            "justification": "Le stade I comporte un sous-décalage diffus de PQ."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes T positives",
+            "justification": "Au stade I, les ondes T sont positives."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'ondes Q",
+            "justification": "Le stade I se fait sans onde Q."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de miroirs (sous-décalage en miroir du ST)",
+            "justification": "Le sus-décalage du ST du stade I survient sans miroir."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028529046_02",
+      "current_version_epoch_ms": 1755028529046,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos de l'évolution ECG des stades II et III d'une péricardite aiguë, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au stade II, les ondes T deviennent plates",
+            "justification": "Le stade II est défini par des ondes T plates."
+          },
+          {
+            "correct": true,
+            "proposition": "Au stade II, le segment ST revient à l'isoélectrique",
+            "justification": "Le stade II comporte un ST isoélectrique."
+          },
+          {
+            "correct": true,
+            "proposition": "Au stade III, les ondes T deviennent négatives",
+            "justification": "Le stade III se caractérise par des ondes T négatives."
+          },
+          {
+            "correct": false,
+            "proposition": "Au stade II, les ondes T restent positives",
+            "justification": "Au stade II, elles sont plates et non positives."
+          },
+          {
+            "correct": false,
+            "proposition": "Au stade II, on observe un sus-décalage du ST",
+            "justification": "Au stade II, le ST est isoélectrique, pas en sus-décalage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028529046_03",
+      "current_version_epoch_ms": 1755028529046,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant le stade IV d'une péricardite aiguë, cochez la(les) proposition(s) correcte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il correspond à une normalisation progressive",
+            "justification": "Le stade IV (< 1 mois) est décrit comme une normalisation progressive."
+          },
+          {
+            "correct": false,
+            "proposition": "Il survient typiquement après plus d'un mois",
+            "justification": "Le stade IV est précisé comme « < 1 mois »."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se définit par une alternance électrique",
+            "justification": "L'alternance électrique est rapportée en cas de tamponnade, pas comme définition du stade IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond à un ST isoélectrique avec ondes T plates",
+            "justification": "ST isoélectrique et ondes T plates caractérisent le stade II."
+          },
+          {
+            "correct": true,
+            "proposition": "Il survient dans le premier mois d'évolution",
+            "justification": "Le stade IV est spécifié comme survenant en moins d'un mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028529046_04",
+      "current_version_epoch_ms": 1755028529046,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier les signes associés/particuliers à la péricardite aiguë et à ses complications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alternance électrique en cas de tamponnade",
+            "justification": "Une alternance électrique est rapportée en cas de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Microvoltage des QRS avec amplitude < 5 mV dans les dérivations périphériques",
+            "justification": "Un microvoltage des QRS (< 5 mV en dérivations périphériques) est rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "Fréquence des troubles du rythme supraventriculaires",
+            "justification": "Les troubles du rythme supraventriculaires sont fréquents."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence des troubles du rythme ventriculaires",
+            "justification": "Seule la fréquence des troubles supraventriculaires est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence habituelle d'ondes Q pathologiques",
+            "justification": "L'absence d'onde Q est précise au stade I ; la présence habituelle d'ondes Q n'est pas rapportée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028529046_05",
+      "current_version_epoch_ms": 1755028529046,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos des modifications du segment PQ dans la péricardite aiguë, cochez la(les) proposition(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sous-décalage diffus de PQ au stade précoce",
+            "justification": "Le stade I comporte un sous-décalage diffus de PQ."
+          },
+          {
+            "correct": false,
+            "proposition": "PQ isoélectrique d'emblée au stade I",
+            "justification": "Au stade I, il existe un sous-décalage diffus de PQ, pas un PQ isoélectrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage de PQ au stade I",
+            "justification": "La modification décrite est un sous-décalage, non un sus-décalage."
+          },
+          {
+            "correct": true,
+            "proposition": "La modification du PQ participe à la reconnaissance du stade I",
+            "justification": "Le sous-décalage diffus de PQ fait partie des caractéristiques du stade I."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies du PQ définissent le stade II",
+            "justification": "Le stade II est défini par des ondes T plates et un ST isoélectrique."
+          }
+        ]
+      }
+    }
+  ]
+}

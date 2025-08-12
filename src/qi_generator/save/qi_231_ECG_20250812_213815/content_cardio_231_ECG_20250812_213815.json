@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755027702425_01",
+      "current_version_epoch_ms": 1755027702425,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Chez un patient en arythmie atriale, identifier les caractéristiques de la conduction atrioventriculaire pertinentes pour l'EDN.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "On ne parle pas de BAV de type 1 ou 2 dans ce contexte.",
+            "justification": "En présence d'une arythmie atriale, la classification en BAV 1 ou 2 n'est pas utilisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Des intervalles PR variables peuvent être observés sur conduction décrémentielle (périodes de Wenckebach).",
+            "justification": "Une conduction décrémentielle peut entraîner une variabilité des intervalles PR dite périodes de Wenckebach."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic repose sur la mise en évidence d'un PR constant.",
+            "justification": "La variabilité du PR est possible en arythmie atriale, ce qui contredit la constance du PR."
+          },
+          {
+            "correct": false,
+            "proposition": "Les périodes de Wenckebach sont impossibles en arythmie atriale.",
+            "justification": "Des périodes de Wenckebach peuvent justement être observées par conduction décrémentielle."
+          },
+          {
+            "correct": true,
+            "proposition": "Le rythme ventriculaire est souvent irrégulier en raison d'une conduction variable.",
+            "justification": "La conduction variable conduit fréquemment à une contraction ventriculaire irrégulière."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027702425_02",
+      "current_version_epoch_ms": 1755027702425,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les schémas de conduction possibles entre oreillettes et ventricules lors d'une arythmie atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une conduction 1 pour 1 est possible.",
+            "justification": "Selon l'arythmie atriale, une conduction 1:1 peut survenir."
+          },
+          {
+            "correct": true,
+            "proposition": "Une conduction 2 pour 1 est possible.",
+            "justification": "Des rapports de conduction 2:1 peuvent être observés."
+          },
+          {
+            "correct": true,
+            "proposition": "Une conduction 3 pour 1 est possible.",
+            "justification": "Des rapports de conduction 3:1 peuvent également être rencontrés."
+          },
+          {
+            "correct": false,
+            "proposition": "La conduction est toujours 2 pour 1.",
+            "justification": "La conduction peut varier (1:1, 2:1, 3:1, etc.) et n'est pas fixe."
+          },
+          {
+            "correct": true,
+            "proposition": "La conduction peut être variable d'un battement à l'autre.",
+            "justification": "Une conduction variable est fréquente et s'accompagne d'irrégularité ventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027702425_03",
+      "current_version_epoch_ms": 1755027702425,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître un BAV complet associé à une arythmie atriale (fibrillation ou flutter).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rythme ventriculaire devient régulier en présence d'un échappement.",
+            "justification": "En cas de BAV complet, un rythme d'échappement impose une régularité ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rythme ventriculaire est un multiple de l'activité atriale si celle-ci est organisée.",
+            "justification": "En BAV complet, le rythme ventriculaire n'est pas un multiple de l'activité atriale même si elle est organisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rythme ventriculaire reste irrégulier par conduction variable.",
+            "justification": "La régularité ventriculaire est attendue lorsqu'un échappement prend le relais en BAV complet."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette situation peut survenir avec une fibrillation atriale ou un flutter.",
+            "justification": "Le BAV complet peut être associé à une arythmie atriale, notamment fibrillation ou flutter."
+          },
+          {
+            "correct": false,
+            "proposition": "On parle alors de BAV 1 ou 2.",
+            "justification": "La distinction BAV 1 ou 2 n'est pas utilisée dans ce contexte d'arythmie atriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027702425_04",
+      "current_version_epoch_ms": 1755027702425,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier une conduction variable d'un BAV complet chez un patient en arythmie atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une conduction variable s'accompagne d'un rythme ventriculaire souvent irrégulier.",
+            "justification": "La variabilité de conduction entraîne une contraction ventriculaire irrégulière."
+          },
+          {
+            "correct": true,
+            "proposition": "Un BAV complet avec échappement donne un rythme ventriculaire régulier.",
+            "justification": "L'échappement impose une régularité du rythme ventriculaire en BAV complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Une conduction variable conduit à un rythme ventriculaire régulier.",
+            "justification": "C'est l'inverse : la conduction variable rend le rythme irrégulier."
+          },
+          {
+            "correct": false,
+            "proposition": "Le BAV complet rend le rythme ventriculaire un multiple de l'activité atriale organisée.",
+            "justification": "En BAV complet, le rythme ventriculaire n'est pas un multiple de l'activité atriale."
+          },
+          {
+            "correct": true,
+            "proposition": "Des périodes de Wenckebach peuvent s'observer en cas de conduction décrémentielle.",
+            "justification": "Les périodes de Wenckebach correspondent à une variabilité du PR liée à la conduction décrémentielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755027702425_05",
+      "current_version_epoch_ms": 1755027702425,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier l'explication d'une alternance 2:1 puis 3:1 avec irrégularité du rythme ventriculaire chez un patient en arythmie atriale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Conduction atrioventriculaire variable avec périodes de Wenckebach.",
+            "justification": "La variabilité de conduction et les périodes de Wenckebach expliquent l'irrégularité et l'alternance des rapports."
+          },
+          {
+            "correct": false,
+            "proposition": "BAV complet avec échappement efficace.",
+            "justification": "Un BAV complet avec échappement s'accompagne d'un rythme ventriculaire régulier, non irrégulier."
+          },
+          {
+            "correct": false,
+            "proposition": "Conduction stable 1 pour 1.",
+            "justification": "Une conduction 1:1 stable n'explique pas l'alternance 2:1–3:1 ni l'irrégularité."
+          },
+          {
+            "correct": true,
+            "proposition": "Situation compatible avec une arythmie atriale.",
+            "justification": "Les arythmies atriales peuvent présenter des conductions 2:1, 3:1 et une conduction variable."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité ventriculaire multiple fixe de l'activité atriale organisée.",
+            "justification": "En présence d'irrégularité et d'alternance des rapports, il n'existe pas de multiple fixe."
+          }
+        ]
+      }
+    }
+  ]
+}

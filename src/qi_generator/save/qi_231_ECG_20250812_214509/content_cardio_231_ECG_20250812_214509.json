@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755028115735_01",
+      "current_version_epoch_ms": 1755028115735,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Identifier le mécanisme d'action commun des manœuvres vagales et de l'adénosine sur la conduction cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles ralentissent la conduction dans le nœud atrioventriculaire (NAV).",
+            "justification": "Elles permettent de ralentir la conduction dans le NAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles peuvent bloquer temporairement la conduction dans le NAV.",
+            "justification": "Elles peuvent aller jusqu'au blocage transitoire de la conduction dans le NAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles accélèrent la conduction dans le NAV.",
+            "justification": "L'effet décrit est un ralentissement voire un blocage, pas une accélération."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles n'ont pas d'effet sur la conduction atrioventriculaire.",
+            "justification": "L'effet central est précisément de ralentir ou bloquer la conduction atrioventriculaire via le NAV."
+          },
+          {
+            "correct": true,
+            "proposition": "Manœuvres vagales et adénosine partagent ce même effet sur le NAV.",
+            "justification": "Les deux approches ont pour effet commun de ralentir ou de bloquer temporairement la conduction dans le NAV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028115735_02",
+      "current_version_epoch_ms": 1755028115735,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Reconnaître les principales manœuvres physiques et leurs caractéristiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le massage sino-carotidien est une manœuvre vagale physique.",
+            "justification": "Il fait partie des principales manœuvres physiques citées."
+          },
+          {
+            "correct": true,
+            "proposition": "La manœuvre de Valsalva consiste en une expiration à glotte fermée.",
+            "justification": "La définition précisée est une expiration fermée à glotte fermée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'injection d'adénosine est une manœuvre physique.",
+            "justification": "L'adénosine est administrée par injection et n'est pas une manœuvre physique."
+          },
+          {
+            "correct": false,
+            "proposition": "La manœuvre de Valsalva est une inspiration à glotte ouverte.",
+            "justification": "La caractéristique précisée est l'expiration à glotte fermée, et non une inspiration."
+          },
+          {
+            "correct": true,
+            "proposition": "Les principales manœuvres physiques sont le massage sino-carotidien et la manœuvre de Valsalva.",
+            "justification": "Ces deux manœuvres sont indiquées comme les principales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028115735_03",
+      "current_version_epoch_ms": 1755028115735,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer les effets attendus des manœuvres vagales/adénosine selon le type de tachycardie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ralentissement transitoire d'une tachycardie sinusale.",
+            "justification": "Un ralentissement transitoire est attendu."
+          },
+          {
+            "correct": true,
+            "proposition": "Réduction d'une tachycardie jonctionnelle.",
+            "justification": "Elles peuvent réduire une tachycardie jonctionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Ralentissement de la conduction atrioventriculaire permettant de démasquer des ondes F (flutter) ou des P' (tachycardie atriale).",
+            "justification": "Le ralentissement AV peut révéler ces ondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'effet sur une tachycardie ventriculaire.",
+            "justification": "Il est précisé qu'il n'y a pas d'effet sur la tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Interruption durable de toutes les tachycardies supraventriculaires.",
+            "justification": "Les effets décrits sont un ralentissement transitoire, une réduction ou un démasquage, pas une interruption durable généralisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028115735_04",
+      "current_version_epoch_ms": 1755028115735,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Définir l'intérêt diagnostique des manœuvres vagales/adénosine lors de tachycardies supraventriculaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En ralentissant la conduction AV, elles peuvent révéler les ondes F d'un flutter atrial.",
+            "justification": "Le ralentissement AV peut démasquer les ondes F."
+          },
+          {
+            "correct": true,
+            "proposition": "En ralentissant la conduction AV, elles peuvent révéler des ondes P' d'une tachycardie atriale.",
+            "justification": "Le ralentissement AV peut démasquer les ondes P'."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles suppriment les ondes F du flutter pour faciliter le diagnostic.",
+            "justification": "L'effet attendu est le démasquage des ondes, pas leur suppression."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles accélèrent la conduction AV pour rendre visibles les ondes atriales.",
+            "justification": "L'effet décrit est un ralentissement de la conduction AV, pas une accélération."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles n'ont aucun intérêt diagnostique pour le flutter ou la tachycardie atriale.",
+            "justification": "Au contraire, le ralentissement AV permet de révéler ondes F ou P' et aide au diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755028115735_05",
+      "current_version_epoch_ms": 1755028115735,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Différencier les situations où l'on n'attend aucun effet des manœuvres vagales/adénosine.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aucun effet n'est attendu sur une tachycardie ventriculaire.",
+            "justification": "Il est indiqué qu'il n'y a pas d'effet sur la tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun effet n'est attendu sur une tachycardie jonctionnelle.",
+            "justification": "Une réduction de la tachycardie jonctionnelle est attendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun effet n'est attendu sur une tachycardie sinusale.",
+            "justification": "Un ralentissement transitoire est attendu sur la tachycardie sinusale."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun effet n'est attendu sur un flutter atrial.",
+            "justification": "Le ralentissement AV peut démasquer les ondes F, ce qui constitue un effet utile."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun effet n'est attendu sur une tachycardie atriale.",
+            "justification": "Le ralentissement AV peut démasquer des ondes P', ce qui constitue un effet utile."
+          }
+        ]
+      }
+    }
+  ]
+}

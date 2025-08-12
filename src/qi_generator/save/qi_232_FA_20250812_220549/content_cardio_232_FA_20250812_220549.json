@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "FA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755029355669_01",
+      "current_version_epoch_ms": 1755029355669,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes concernant la fibrillation atriale (FA), identifier celles qui font partie de sa définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La FA est un trouble du rythme supraventriculaire.",
+            "justification": "Elle est décrite comme un trouble du rythme d'origine supra-ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "La FA résulte d'une activité électrique anarchique dans les oreillettes.",
+            "justification": "La définition précise une activité électrique auriculaire anarchique."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA se caractérise par une activité électrique auriculaire organisée.",
+            "justification": "Au contraire, l'activité est dite anarchique dans les oreillettes."
+          },
+          {
+            "correct": true,
+            "proposition": "La FA conduit à une perte de la contraction atriale.",
+            "justification": "La définition inclut la perte de la contraction des oreillettes."
+          },
+          {
+            "correct": false,
+            "proposition": "La FA correspond à un trouble du rythme ventriculaire.",
+            "justification": "Elle est spécifiée comme supraventriculaire, non ventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029355669_02",
+      "current_version_epoch_ms": 1755029355669,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Reconnaître les critères nécessaires pour poser le diagnostic de fibrillation atriale (FA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Documenter une FA pendant plus de 30 secondes sur un tracé ECG de surface permet le diagnostic.",
+            "justification": "Le diagnostic nécessite une FA présente > 30 s sur un ECG de surface."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée de 10 secondes sur ECG de surface est suffisante pour le diagnostic.",
+            "justification": "La durée requise est strictement supérieure à 30 secondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre en évidence la FA sur l'ensemble d'un ECG 12 dérivations suffit également.",
+            "justification": "Le diagnostic peut être posé si la FA est présente sur l'ensemble d'un ECG 12 dérivations."
+          },
+          {
+            "correct": true,
+            "proposition": "Un Holter-ECG peut constituer le tracé de surface utilisé pour documenter la FA.",
+            "justification": "Le Holter-ECG est cité comme exemple de tracé ECG de surface."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic peut être posé sur la seule clinique, sans enregistrement ECG.",
+            "justification": "Il est exigé une mise en évidence sur un tracé ECG de surface ou un ECG 12 dérivations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029355669_03",
+      "current_version_epoch_ms": 1755029355669,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Identifier les modalités d'enregistrement acceptées pour affirmer une fibrillation atriale (FA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un tracé ECG de surface montrant la FA pendant plus de 30 secondes est recevable.",
+            "justification": "La présence de FA > 30 s sur ECG de surface est un critère diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Seul un ECG 12 dérivations de plus de 30 secondes permet d'affirmer la FA.",
+            "justification": "Deux voies existent : > 30 s sur ECG de surface, ou FA sur l'ensemble d'un ECG 12 dérivations."
+          },
+          {
+            "correct": true,
+            "proposition": "Un ECG 12 dérivations montrant la FA sur l'ensemble de l'enregistrement suffit, sans autre exigence.",
+            "justification": "La condition mentionnée est la présence sur l'ensemble de l'ECG 12 dérivations."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de toute preuve sur un enregistrement ECG n'empêche pas d'affirmer la FA.",
+            "justification": "Le diagnostic repose sur une mise en évidence sur un tracé ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "Le Holter-ECG est une modalité d'ECG de surface pouvant documenter la FA.",
+            "justification": "Le Holter-ECG est donné comme exemple d'enregistrement de surface."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029355669_04",
+      "current_version_epoch_ms": 1755029355669,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "À propos d'un Holter-ECG montrant 35 secondes consécutives de FA, évaluer les affirmations suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le critère temporel de durée requis est satisfait.",
+            "justification": "La durée exigée sur ECG de surface est > 30 secondes."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic n'est pas possible sans ECG 12 dérivations.",
+            "justification": "La documentation > 30 s sur un ECG de surface (Holter-ECG inclus) suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut au minimum 60 secondes consécutives.",
+            "justification": "La définition retient un seuil strictement supérieur à 30 secondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le Holter-ECG est une modalité appropriée pour établir ce critère.",
+            "justification": "Il est cité comme exemple de tracé ECG de surface."
+          },
+          {
+            "correct": false,
+            "proposition": "La contraction atriale est préservée dans la FA.",
+            "justification": "La FA s'accompagne d'une perte de la contraction atriale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755029355669_05",
+      "current_version_epoch_ms": 1755029355669,
+      "topic": {
+        "subject": "cardio",
+        "item": "FA"
+      },
+      "data": {
+        "statement": "Un ECG 12 dérivations montre une FA sur l'ensemble de l'enregistrement. Classer les propositions suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de FA peut être affirmé sur cet enregistrement.",
+            "justification": "La présence de FA sur l'ensemble d'un ECG 12 dérivations suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut aussi une documentation > 30 secondes sur un ECG de surface.",
+            "justification": "Le critère 12 dérivations constitue une alternative suffisante."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette situation correspond à un trouble du rythme supraventriculaire.",
+            "justification": "La FA est définie comme supraventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle traduit une activité électrique auriculaire organisée.",
+            "justification": "La FA résulte d'une activité électrique auriculaire anarchique."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle implique une perte de la contraction atriale.",
+            "justification": "La définition inclut la perte de la contraction des oreillettes."
+          }
+        ]
+      }
+    }
+  ]
+}

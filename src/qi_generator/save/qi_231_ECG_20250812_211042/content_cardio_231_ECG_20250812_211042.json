@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ECG",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755026049165_01",
+      "current_version_epoch_ms": 1755026049165,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Devant une tachycardie à QRS larges, identifier les éléments qui orientent en faveur d'une tachycardie ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "QRS > 160 ms",
+            "justification": "Un QRS > 160 ms fait partie des critères en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde R exclusive en aVR",
+            "justification": "La présence d'une onde R exclusive en aVR est un critère en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Concordance positive (R exclusif) ou négative (QS) dans les précordiales",
+            "justification": "La concordance positive ou négative dans les dérivations précordiales est un critère en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Dissociation atrio-ventriculaire",
+            "justification": "La dissociation atrio-ventriculaire fait partie des deux signes pathognomoniques de tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Les ECG longs n'ont pas d'intérêt pour l'analyse de ces tachycardies",
+            "justification": "Il est indiqué de réaliser des ECG longs pour rechercher les signes en faveur d'une tachycardie ventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026049165_02",
+      "current_version_epoch_ms": 1755026049165,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Concernant les signes pathognomoniques d'une tachycardie ventriculaire, sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dissociation atrio-ventriculaire",
+            "justification": "La dissociation atrio-ventriculaire est explicitement citée comme un des deux signes pathognomoniques de tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de complexes de capture",
+            "justification": "Les complexes de capture font partie des deux signes pathognomoniques en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de complexes de fusion",
+            "justification": "Les complexes de fusion font partie des deux signes pathognomoniques en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde R exclusive en aVR",
+            "justification": "C'est un critère en faveur d'une tachycardie ventriculaire, mais pas un signe pathognomonique."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS > 160 ms",
+            "justification": "C'est un critère en faveur d'une tachycardie ventriculaire, mais pas un signe pathognomonique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026049165_03",
+      "current_version_epoch_ms": 1755026049165,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "À propos des complexes de capture et de fusion au cours d'une tachycardie ventriculaire, identifier les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un complexe de capture correspond à un QRS fin lié à la conduction d'une onde P aux ventricules durant la tachycardie ventriculaire",
+            "justification": "Le complexe de capture est décrit comme un QRS fin en rapport avec une onde P qui conduit aux ventricules au cours d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Un complexe de fusion résulte de la fusion d'un QRS fin (conduction d'une onde P) et du QRS large de tachycardie ventriculaire, avec une largeur intermédiaire",
+            "justification": "Le complexe de fusion est défini comme une fusion entre un QRS fin d'origine atriale conduite et le QRS large de la tachycardie ventriculaire, d'où une largeur intermédiaire."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de complexes de capture ou de fusion est pathognomonique d'une tachycardie ventriculaire",
+            "justification": "Les complexes de capture ou de fusion sont listés parmi les deux signes pathognomoniques de tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Un complexe de capture se traduit par un élargissement supplémentaire du QRS de tachycardie ventriculaire",
+            "justification": "Au contraire, le complexe de capture est un QRS fin lié à la conduction d'une onde P."
+          },
+          {
+            "correct": false,
+            "proposition": "Un complexe de fusion correspond à une aberration de conduction intraventriculaire sans rapport avec une tachycardie ventriculaire",
+            "justification": "Le complexe de fusion est défini par la coexistence de la conduction d'une onde P et du QRS large de la tachycardie ventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026049165_04",
+      "current_version_epoch_ms": 1755026049165,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Classer la tachycardie ventriculaire selon la durée et la tolérance.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire non soutenue si durée < 30 secondes",
+            "justification": "La tachycardie ventriculaire est dite non soutenue si elle dure moins de 30 secondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire soutenue si durée > 30 secondes",
+            "justification": "La tachycardie ventriculaire est dite soutenue si elle dure plus de 30 secondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire soutenue si mal tolérée",
+            "justification": "La tachycardie ventriculaire est dite soutenue si elle est mal tolérée, même sans dépasser 30 secondes."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie ventriculaire non soutenue si bien tolérée, même au-delà de 30 secondes",
+            "justification": "Au-delà de 30 secondes, la tachycardie ventriculaire est classée comme soutenue, indépendamment de la tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seuil temporel de définition est fixé à 20 secondes",
+            "justification": "Le seuil mentionné est de 30 secondes, pas 20 secondes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755026049165_05",
+      "current_version_epoch_ms": 1755026049165,
+      "topic": {
+        "subject": "cardio",
+        "item": "ECG"
+      },
+      "data": {
+        "statement": "Face à une tachycardie à QRS larges, identifier les affirmations pertinentes concernant la conduite diagnostique et les diagnostics différentiels.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute tachycardie à QRS larges est à considérer comme une tachycardie ventriculaire jusqu'à preuve du contraire",
+            "justification": "Il est précisé que toute tachycardie à QRS larges (> 120 ms) est une tachycardie ventriculaire jusqu'à preuve du contraire."
+          },
+          {
+            "correct": true,
+            "proposition": "Une tachycardie supraventriculaire peut se présenter avec des QRS larges en cas de bloc de branche",
+            "justification": "Il est indiqué qu'une tachycardie supraventriculaire peut présenter des QRS larges en cas de bloc de branche."
+          },
+          {
+            "correct": true,
+            "proposition": "Une tachycardie supraventriculaire peut se présenter avec des QRS larges en cas de pré-excitation ventriculaire (voie accessoire)",
+            "justification": "La pré-excitation ventriculaire par voie accessoire est mentionnée comme cause de QRS larges lors d'une tachycardie supraventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser des ECG longs est utile pour rechercher des signes discriminants",
+            "justification": "Il est précisé qu'il existe un intérêt à réaliser des ECG longs pour chercher les signes en faveur d'une tachycardie ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Des ondes P plus nombreuses que les QRS signent une dissociation atrio-ventriculaire",
+            "justification": "La dissociation atrio-ventriculaire se définit par moins d'ondes P que de complexes QRS."
+          }
+        ]
+      }
+    }
+  ]
+}
