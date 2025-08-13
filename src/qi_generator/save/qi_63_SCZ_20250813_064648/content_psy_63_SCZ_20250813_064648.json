@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SCZ",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755060615115_01",
+      "current_version_epoch_ms": 1755060615115,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Identifier les familles explicitement listées comme principaux diagnostics différentiels psychiatriques à connaître (OIC-063-14-B). Cochez toutes les réponses exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur",
+            "justification": "Fait partie des familles explicitement citées comme principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles délirants persistants",
+            "justification": "Fait partie des familles explicitement citées comme principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du neurodéveloppement",
+            "justification": "Fait partie des familles explicitement citées comme principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles anxieux",
+            "justification": "Non mentionné dans la liste de référence des principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles liés à l'usage de substances",
+            "justification": "Non mentionné dans la liste de référence des principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755060615115_02",
+      "current_version_epoch_ms": 1755060615115,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Complétude : Parmi les combinaisons suivantes, quelles correspondent exactement et uniquement aux familles citées pour l'objectif OIC-063-14-B ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur, Troubles délirants persistants, Troubles du neurodéveloppement",
+            "justification": "Correspond exactement et uniquement aux trois familles citées comme principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de l'humeur, Troubles anxieux",
+            "justification": "N'inclut pas toutes les familles citées et ajoute une catégorie non listée (Troubles anxieux)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles délirants persistants, Troubles du neurodéveloppement, Troubles anxieux",
+            "justification": "Ajoute une catégorie non listée (Troubles anxieux) et omet une famille citée (Troubles de l'humeur)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles du neurodéveloppement",
+            "justification": "Combinaison incomplète : toutes les familles citées ne sont pas présentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de l'humeur, Troubles délirants persistants, Troubles du neurodéveloppement, Troubles liés à l'usage de substances",
+            "justification": "Ajoute une catégorie non listée (Troubles liés à l'usage de substances) aux trois familles citées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755060615115_03",
+      "current_version_epoch_ms": 1755060615115,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Délimitation du périmètre : Sélectionnez les catégories qui ne font PAS partie des principaux diagnostics différentiels à connaître (OIC-063-14-B).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles anxieux",
+            "justification": "Non cité dans la liste des trois familles de référence de l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de l'humeur",
+            "justification": "Explicitement cité parmi les principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles délirants persistants",
+            "justification": "Explicitement cité parmi les principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles du neurodéveloppement",
+            "justification": "Explicitement cité parmi les principaux diagnostics différentiels à connaître (OIC-063-14-B)."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de la personnalité",
+            "justification": "Non cité dans la liste des trois familles de référence de l'objectif OIC-063-14-B."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755060615115_04",
+      "current_version_epoch_ms": 1755060615115,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Reconnaître les intitulés exacts attendus pour l'objectif OIC-063-14-B. Cochez toutes les réponses conformes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur",
+            "justification": "Intitulé conforme aux familles explicitement citées pour l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles délirants persistants",
+            "justification": "Intitulé conforme aux familles explicitement citées pour l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles délirants aigus",
+            "justification": "Intitulé différent de la famille citée ; cette formulation n'est pas listée pour l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du neurodéveloppement",
+            "justification": "Intitulé conforme aux familles explicitement citées pour l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles somatoformes",
+            "justification": "Non cité parmi les familles de référence pour l'objectif OIC-063-14-B."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755060615115_05",
+      "current_version_epoch_ms": 1755060615115,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Repérer les intrus : deux propositions ci-dessous ne relèvent pas des principaux diagnostics différentiels à connaître (OIC-063-14-B). Lesquelles ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Troubles du neurodéveloppement",
+            "justification": "Fait partie des familles explicitement citées dans l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de l'humeur",
+            "justification": "Fait partie des familles explicitement citées dans l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles délirants persistants",
+            "justification": "Fait partie des familles explicitement citées dans l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du comportement alimentaire",
+            "justification": "Non cité parmi les trois familles de référence de l'objectif OIC-063-14-B."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles liés à l'usage de substances",
+            "justification": "Non cité parmi les trois familles de référence de l'objectif OIC-063-14-B."
+          }
+        ]
+      }
+    }
+  ]
+}

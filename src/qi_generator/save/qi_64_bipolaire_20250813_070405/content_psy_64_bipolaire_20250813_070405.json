@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bipolaire",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755061652464_01",
+      "current_version_epoch_ms": 1755061652464,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Définir la durée minimale caractérisant un épisode maniaque selon les critères exposés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une symptomatologie durant au moins 7 jours, la plupart du temps, presque tous les jours.",
+            "justification": "La définition exige une durée d'au moins 7 jours avec une présence la plupart du temps, presque tous les jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée minimale de 4 jours suffit.",
+            "justification": "Une durée de 4 jours n'est pas suffisante ; le seuil requis est d'au moins 7 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "N'importe quelle durée si une hospitalisation est nécessaire.",
+            "justification": "L'hospitalisation lève l'exigence de durée : toute durée convient si l'état impose l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 14 jours sont requis pour affirmer l'épisode.",
+            "justification": "La définition retient un seuil de 7 jours, pas 14."
+          },
+          {
+            "correct": false,
+            "proposition": "Une seule journée suffit en l'absence d'hospitalisation.",
+            "justification": "Hors hospitalisation, une journée est insuffisante ; il faut au moins 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755061652464_02",
+      "current_version_epoch_ms": 1755061652464,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Identifier les composantes nécessaires de l'épisode maniaque tel que défini.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Humeur anormalement élevée, expansive ou irritable, persistante.",
+            "justification": "Une modification anormale et persistante de l'humeur (élevée/expansive/irritable) est requise."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation anormale et persistante de l'activité orientée vers un but ou de l'énergie.",
+            "justification": "L'augmentation de l'activité orientée vers un but ou de l'énergie, de façon persistante, fait partie des critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence obligatoire d'idées délirantes ou d'hallucinations.",
+            "justification": "Les caractéristiques psychotiques peuvent être présentes mais ne sont pas obligatoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Altération marquée du fonctionnement professionnel ou social, ou nécessité d'une hospitalisation, ou présence de caractéristiques psychotiques.",
+            "justification": "La sévérité se traduit par l'un de ces éléments : altération marquée, hospitalisation, ou psychose."
+          },
+          {
+            "correct": false,
+            "proposition": "Variations brèves de l'humeur sur quelques heures suffisent si l'énergie est augmentée.",
+            "justification": "La définition requiert une persistance la plupart du temps, presque tous les jours, sur une période prolongée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755061652464_03",
+      "current_version_epoch_ms": 1755061652464,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Reconnaître les situations qui remplissent la définition d'un épisode maniaque en articulant durée et sévérité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Humeur élevée et énergie accrues depuis 6 jours, hospitalisation nécessaire pour agitation sévère.",
+            "justification": "L'hospitalisation rend la durée indifférente : toute durée convient si l'état impose l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Humeur élevée et énergie accrues depuis 7 jours, fonctionnement préservé, sans hospitalisation ni psychose.",
+            "justification": "Sans altération marquée, sans hospitalisation et sans caractéristiques psychotiques, la sévérité requise n'est pas atteinte."
+          },
+          {
+            "correct": true,
+            "proposition": "Humeur irritable et énergie accrues depuis 10 jours avec idées délirantes.",
+            "justification": "La durée dépasse 7 jours et la présence d'idées délirantes constitue une caractéristique psychotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Humeur expansive isolée depuis 9 jours, sans augmentation de l'énergie, sans hospitalisation ni psychose.",
+            "justification": "Il faut à la fois l'humeur anormalement modifiée et l'augmentation de l'activité ou de l'énergie."
+          },
+          {
+            "correct": false,
+            "proposition": "Irritabilité sur 2 jours, altération marquée du fonctionnement, sans hospitalisation.",
+            "justification": "La durée minimale de 7 jours n'est pas atteinte et seule l'hospitalisation permet de lever ce critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755061652464_04",
+      "current_version_epoch_ms": 1755061652464,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Classer les éléments relevant des caractéristiques psychotiques mentionnées dans la définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Idées délirantes.",
+            "justification": "Les idées délirantes sont citées comme caractéristiques psychotiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Hallucinations.",
+            "justification": "Les hallucinations sont citées comme caractéristiques psychotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Obsessions.",
+            "justification": "Seules les idées délirantes et les hallucinations sont retenues ici comme caractéristiques psychotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Désorganisation de la pensée.",
+            "justification": "La définition met en avant les idées délirantes et les hallucinations comme caractéristiques psychotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Amnésie antérograde.",
+            "justification": "Cette manifestation n'est pas une caractéristique psychotique citée dans la définition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755061652464_05",
+      "current_version_epoch_ms": 1755061652464,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Préciser les exigences de fréquence et de persistance des manifestations au cours de l'épisode maniaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence la plupart du temps, presque tous les jours.",
+            "justification": "La fréquence attendue est la plupart du temps, presque tous les jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence uniquement le matin.",
+            "justification": "La définition exige une présence étendue, pas limitée à un moment de la journée."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de façon épisodique quelques jours par mois.",
+            "justification": "La persistance requise est continue sur la période définie, pas épisodique mensuelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractère persistant de l'humeur anormale et de l'augmentation de l'énergie.",
+            "justification": "Les deux dimensions (humeur et énergie/activité) doivent être anormalement et durablement présentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence strictement continue 24h/24 sans fluctuation autorisée.",
+            "justification": "La formulation attendue est « la plupart du temps, presque tous les jours », pas une continuité absolue."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755047585470_01",
+      "current_version_epoch_ms": 1755047585470,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Définir les extrasystoles et reconnaître leurs caractéristiques générales.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Battements prématurés et ectopiques, de morphologie différente car nés hors des voies de conduction normales.",
+            "justification": "Ce sont des battements en avance sur le rythme normal et d'aspect différent car ils naissent en dehors des voies de conduction habituelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours suivies d'un repos compensateur.",
+            "justification": "Elles sont souvent suivies d'un repos compensateur, mais pas systématiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "Peuvent initier des arythmies plus graves (fibrillation atriale ou tachycardie/fibrillation ventriculaire).",
+            "justification": "Les extrasystoles atriales peuvent favoriser une fibrillation atriale, et les ventriculaires une tachycardie ou fibrillation ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Surviennent uniquement à l'effort.",
+            "justification": "Le déclenchement peut se faire à l'effort ou au repos."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne constituent jamais un élément pathologique et sont toujours asymptomatiques.",
+            "justification": "Elles ne sont pas pathologiques en elles-mêmes mais peuvent être symptomatiques (à-coups, battement manquant, ébranlement thoracique)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047585470_02",
+      "current_version_epoch_ms": 1755047585470,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Différencier les types d'extrasystoles sur l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Onde P' prématurée de morphologie différente suivie d'un QRS identique au QRS de base → extrasystole atriale.",
+            "justification": "L'extrasystole atriale se caractérise par une onde P' prématurée anormale, avec QRS identique au QRS basal."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS large, prématuré, différent du QRS basal, sans onde P préalable → extrasystole ventriculaire.",
+            "justification": "L'extrasystole ventriculaire naît dans le ventricule, donnant un QRS large prématuré, différent, sans onde P en amont."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS identique et prématuré par rapport au QRS de base, sans onde P préalable → extrasystole jonctionnelle.",
+            "justification": "Les extrasystoles jonctionnelles prennent souvent l'aspect de QRS identiques et prématurés, sans onde P préalable."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS fin prématuré avec onde P' cachée dans l'onde T du battement précédent → extrasystole atriale.",
+            "justification": "Un QRS fin prématuré dont l'onde P' est masquée dans l'onde T correspond à une origine atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS fin prématuré précédé d'une onde P sinusale → extrasystole ventriculaire.",
+            "justification": "Une extrasystole ventriculaire se définit par un QRS large et l'absence d'onde P préalable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047585470_03",
+      "current_version_epoch_ms": 1755047585470,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les critères de malignité des extrasystoles ventriculaires (EV).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquentes.",
+            "justification": "La fréquence élevée fait partie des critères de malignité des EV."
+          },
+          {
+            "correct": true,
+            "proposition": "Polymorphes.",
+            "justification": "Le polymorphisme des QRS est un critère de malignité des EV."
+          },
+          {
+            "correct": true,
+            "proposition": "À couplage court (phénomène R/T).",
+            "justification": "Un couplage court avec phénomène R/T est un critère péjoratif."
+          },
+          {
+            "correct": true,
+            "proposition": "Déclenchées à l'effort.",
+            "justification": "Le déclenchement à l'effort est un critère de malignité des EV."
+          },
+          {
+            "correct": false,
+            "proposition": "Survenant chez un sujet sans cardiopathie et uniquement isolées.",
+            "justification": "Le terrain de cardiopathie est au contraire un critère de malignité ; l'isolement n'est pas un critère péjoratif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047585470_04",
+      "current_version_epoch_ms": 1755047585470,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Préciser les caractéristiques utiles pour décrire des extrasystoles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence en nombre sur 24 heures.",
+            "justification": "La fréquence (nombre/24 h) fait partie des éléments à détailler."
+          },
+          {
+            "correct": true,
+            "proposition": "Répétitivité : isolée, doublets, salves.",
+            "justification": "La répétitivité est un critère descriptif important (isolée, doublets, salves)."
+          },
+          {
+            "correct": false,
+            "proposition": "Couplage uniquement court.",
+            "justification": "Le couplage peut être court, long ou variable, pas uniquement court."
+          },
+          {
+            "correct": true,
+            "proposition": "Morphologie : retard droit/gauche, mono ou polymorphes.",
+            "justification": "La morphologie se décrit notamment par retard droit/gauche et le caractère mono ou polymorphe."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclenchement uniquement au repos.",
+            "justification": "Le déclenchement peut survenir à l'effort ou au repos."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047585470_05",
+      "current_version_epoch_ms": 1755047585470,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître des causes générales associées aux extrasystoles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alcoolisation (ivresse aiguë).",
+            "justification": "L'alcoolisation aiguë est citée parmi les causes générales possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperthyroïdie (goitre ou nodule thyroïdien).",
+            "justification": "L'hyperthyroïdie est une cause générale mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Électrocution.",
+            "justification": "L'électrocution fait partie des causes générales possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothyroïdie.",
+            "justification": "La cause endocrinienne citée est l'hyperthyroïdie, pas l'hypothyroïdie."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome d'apnée du sommeil.",
+            "justification": "Le syndrome d'apnée du sommeil est listé parmi les causes générales."
+          }
+        ]
+      }
+    }
+  ]
+}

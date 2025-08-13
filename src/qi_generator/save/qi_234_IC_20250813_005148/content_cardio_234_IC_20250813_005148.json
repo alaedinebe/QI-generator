@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755039315159_01",
+      "current_version_epoch_ms": 1755039315159,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier, parmi les classes suivantes, celles qui constituent des traitements cardioprotecteurs standards en cas d'insuffisance cardiaque avec fraction d'éjection réduite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhibiteurs de l'enzyme de conversion (IEC) ou ARNi (sacubitril/valsartan)",
+            "justification": "Fait partie des traitements cardioprotecteurs standards en cas d'IC avec FE réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Bêtabloquants",
+            "justification": "Listés comme traitement cardioprotecteur standard en cas d'IC avec FE réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Antagonistes des récepteurs de l'aldostérone (spironolactone, éplérénone)",
+            "justification": "Mentionnés comme cardioprotecteurs standards en IC avec FE réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Glifozines",
+            "justification": "Incluses parmi les classes cardioprotectrices standards en IC avec FE réduite."
+          },
+          {
+            "correct": false,
+            "proposition": "Diurétiques",
+            "justification": "Indiqués pour le traitement symptomatique en cas de signes de congestion, pas comme cardioprotecteurs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039315159_02",
+      "current_version_epoch_ms": 1755039315159,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître des étiologies de l'insuffisance cardiaque gauche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cardiopathies ischémiques, avec ou sans séquelle d'infarctus du myocarde",
+            "justification": "Citées comme étiologies d'IC gauche."
+          },
+          {
+            "correct": true,
+            "proposition": "Valvulopathies sévères",
+            "justification": "Toute valvulopathie sévère peut se compliquer d'insuffisance cardiaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Cardiomyopathie dilatée toxique (alcool, cocaïne)",
+            "justification": "Les cardiomyopathies dilatées toxiques figurent parmi les causes d'IC gauche."
+          },
+          {
+            "correct": true,
+            "proposition": "Épanchement péricardique abondant ou tamponnade",
+            "justification": "Les causes péricardiques (épanchement abondant, tamponnade) sont listées comme étiologies d'IC."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance respiratoire chronique",
+            "justification": "Identifiée parmi les étiologies spécifiques de l'IC droite, pas de l'IC gauche."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039315159_03",
+      "current_version_epoch_ms": 1755039315159,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Définir la notion de sidération myocardique liée aux cardiopathies ischémiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysfonction ventriculaire sur myocarde en ischémie mais viable, réversible après revascularisation",
+            "justification": "La dysfonction sur myocarde viable en ischémie peut être réversible après revascularisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Phénomène synonyme d'infarctus avec nécrose irréversible",
+            "justification": "La viabilité est conservée, ce n'est pas une nécrose irréversible."
+          },
+          {
+            "correct": true,
+            "proposition": "Situation potentiellement impliquée dans les cardiopathies ischémiques responsables d'IC",
+            "justification": "Rattachée aux cardiopathies ischémiques, étiologies d'IC."
+          },
+          {
+            "correct": false,
+            "proposition": "Processus qui ne bénéficie pas de revascularisation",
+            "justification": "La réversibilité est justement décrite après revascularisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Tableau obligatoire après un infarctus avec séquelle",
+            "justification": "Les cardiopathies ischémiques peuvent survenir avec ou sans séquelle d'infarctus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039315159_04",
+      "current_version_epoch_ms": 1755039315159,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer les étiologies spécifiques de l'insuffisance cardiaque droite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque gauche (cause la plus fréquente, conduisant à une IC globale)",
+            "justification": "Mentionnée comme la cause la plus fréquente d'IC droite (IC globale)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle pulmonaire précapillaire et ses causes (dont l'embolie pulmonaire)",
+            "justification": "Listée parmi les étiologies spécifiques de l'IC droite."
+          },
+          {
+            "correct": true,
+            "proposition": "Valvulopathies tricuspidiennes",
+            "justification": "Évoquées explicitement comme causes d'IC droite."
+          },
+          {
+            "correct": true,
+            "proposition": "Infarctus du ventricule droit",
+            "justification": "Cité comme étiologie d'IC droite."
+          },
+          {
+            "correct": false,
+            "proposition": "Cardiomyopathie hypertrophique sarcomérique",
+            "justification": "Présentée parmi les cardiomyopathies hypertrophiques, non comme étiologie spécifique de l'IC droite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039315159_05",
+      "current_version_epoch_ms": 1755039315159,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les facteurs déclenchants d'une décompensation d'insuffisance cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fibrillation atriale et autres troubles du rythme",
+            "justification": "Listés comme facteurs déclenchants."
+          },
+          {
+            "correct": true,
+            "proposition": "Poussée hypertensive",
+            "justification": "Fait partie des facteurs déclenchants."
+          },
+          {
+            "correct": true,
+            "proposition": "Infections",
+            "justification": "Mentionnées comme déclenchants de décompensation."
+          },
+          {
+            "correct": true,
+            "proposition": "Inobservance des règles hygiéno-diététiques (écart de régime hyposodé)",
+            "justification": "Citée parmi les facteurs déclenchants."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémochromatose",
+            "justification": "Figure parmi les étiologies (métabolique/restrictive), pas parmi les facteurs déclenchants listés."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755046552187_01",
+      "current_version_epoch_ms": 1755046552187,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Bradycardie avec ou sans arrêt : identifier les priorités initiales de prise en charge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'urgence de la prise en charge dépend de la tolérance de la bradycardie.",
+            "justification": "La priorité est conditionnée par la tolérance clinique de la bradycardie."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'arrêt cardio-respiratoire, un coup de poing sternal peut être tenté.",
+            "justification": "Une manœuvre de réanimation par coup de poing sternal est indiquée en cas d'arrêt."
+          },
+          {
+            "correct": true,
+            "proposition": "Si le coup de poing sternal est inefficace, un massage cardiaque externe doit être débuté.",
+            "justification": "Le massage cardiaque externe est à initier si la manœuvre initiale échoue."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'arrêt cardio-respiratoire, l'isoprénaline doit être administrée avant toute manœuvre.",
+            "justification": "Les manœuvres de réanimation (coup de poing sternal puis massage) sont indiquées, sans priorité à une perfusion d'isoprénaline."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise en charge est identique quelle que soit la tolérance de la bradycardie.",
+            "justification": "La conduite dépend explicitement de la tolérance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046552187_02",
+      "current_version_epoch_ms": 1755046552187,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Isoprénaline (Isuprel) dans les bradycardies mal tolérées : reconnaître les modalités d'emploi et les contre-indications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administration intra-veineuse, à l'abri de la lumière et diluée dans du G5 %.",
+            "justification": "La seringue doit être protégée (aluminium) et la dilution se fait dans du G5 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Posologie classique : 5 ampoules dans 250 cc de G5 %.",
+            "justification": "La dilution usuelle est spécifiée à 5 ampoules pour 250 cc de G5 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Effets B1 (inotrope et chronotrope positifs) et B2 (vasodilatateur, bronchodilatateur).",
+            "justification": "Le médicament est à la fois B1-mimétique et B2-mimétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiqué en cas d'intoxication digitalique.",
+            "justification": "L'intoxication digitalique constitue une contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Contre-indiqué en cas d'extrasystolie ventriculaire ou de tachycardie > 120 bpm.",
+            "justification": "La présence d'ESV ou d'une tachycardie > 120 bpm contre-indique l'isoprénaline."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046552187_03",
+      "current_version_epoch_ms": 1755046552187,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Atropine dans la bradycardie : préciser posologie, indications et contre-indications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0,5 à 1 mg IVD, renouvelable toutes les 3 à 5 minutes, dose maximale 3 mg.",
+            "justification": "La posologie et la limite de 3 mg sont précisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Efficace dans les bradycardies ischémiques.",
+            "justification": "L'efficacité est indiquée pour les bradycardies ischémiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Efficace dans l'intoxication digitalique.",
+            "justification": "L'efficacité est mentionnée pour l'intoxication digitalique."
+          },
+          {
+            "correct": true,
+            "proposition": "Contre-indiquée en cas de QT allongé, d'adénome de prostate ou de glaucome.",
+            "justification": "Ces situations sont listées comme contre-indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Renouvelable toutes les 10 à 15 minutes sans dose maximale définie.",
+            "justification": "L'intervalle recommandé est de 3 à 5 minutes avec une dose maximale de 3 mg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046552187_04",
+      "current_version_epoch_ms": 1755046552187,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Traitements non médicamenteux de la bradycardie : classer les indications et techniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les patches d'électrostimulation externe réalisent une stimulation cardiaque externe.",
+            "justification": "Ils correspondent à la stimulation cardiaque externe."
+          },
+          {
+            "correct": true,
+            "proposition": "Une sonde temporaire d'entraînement est mise dans le ventricule droit par ponction veineuse.",
+            "justification": "La voie d'abord est veineuse avec positionnement dans le ventricule droit."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils sont envisagés en cas d'échec du traitement médicamenteux ou de mauvaise tolérance de la bradycardie.",
+            "justification": "L'indication associe échec thérapeutique médicamenteux ou mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils constituent systématiquement le premier recours dès qu'une bradycardie est identifiée.",
+            "justification": "Le recours est conditionné par l'échec médicamenteux ou la mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en place de la sonde temporaire se fait préférentiellement par voie artérielle.",
+            "justification": "La mise en place est décrite par ponction veineuse, non artérielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046552187_05",
+      "current_version_epoch_ms": 1755046552187,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Situations cliniques : associer indication/contre-indication entre isoprénaline et atropine.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bradycardie avec intoxication digitalique : privilégier l'atropine.",
+            "justification": "L'atropine est efficace dans l'intoxication digitalique tandis que l'isoprénaline y est contre-indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie avec QT allongé : l'atropine est recommandée.",
+            "justification": "Le QT allongé est une contre-indication à l'atropine."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie avec extrasystoles ventriculaires : l'isoprénaline est à privilégier.",
+            "justification": "La présence d'ESV contre-indique l'isoprénaline."
+          },
+          {
+            "correct": true,
+            "proposition": "Bradycardie vagale : l'atropine peut être efficace.",
+            "justification": "L'atropine est efficace dans la bradycardie vagale."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une tachycardie > 120 bpm : l'isoprénaline est contre-indiquée.",
+            "justification": "Une tachycardie supérieure à 120 bpm fait partie des contre-indications de l'isoprénaline."
+          }
+        ]
+      }
+    }
+  ]
+}

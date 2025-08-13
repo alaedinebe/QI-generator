@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755039728472_01",
+      "current_version_epoch_ms": 1755039728472,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les mesures immédiates prioritaires lors d'un OAP cardiogénique en phase d'urgence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre le patient en position assise.",
+            "justification": "La position assise fait partie des premières mesures d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Installer le patient en décubitus dorsal strict.",
+            "justification": "Le décubitus dorsal n'est pas recommandé ; la position assise est indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre en place une voie d'apport veineuse.",
+            "justification": "La mise en place d'une voie veineuse est explicitement prévue en urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Assurer un monitorage (fréquence cardiaque, pression artérielle, saturation, scope).",
+            "justification": "Le monitorage complet est listé parmi les mesures initiales."
+          },
+          {
+            "correct": true,
+            "proposition": "Instaurer une oxygénothérapie avec objectif de SaO2 > 90 %.",
+            "justification": "Une oxygénothérapie par sonde ou masque est indiquée avec une cible de SaO2 > 90 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039728472_02",
+      "current_version_epoch_ms": 1755039728472,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les prescriptions médicamenteuses initiales et leurs conditions en OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer du furosémide i.v. à 1 mg/kg puis adapter à la diurèse.",
+            "justification": "Le diurétique recommandé est le furosémide 1 mg/kg, avec adaptation secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Débuter la trinitrine à 1 mg/h quelle que soit la pression artérielle.",
+            "justification": "Les dérivés nitrés ne sont indiqués que si la PAS est > 100 mmHg et doivent être adaptés à la PA."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer de la morphine i.v. en cas d'anxiété importante ou de douleur thoracique.",
+            "justification": "La morphine i.v. est indiquée dans ces situations."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer systématiquement de la digoxine i.v. chez tout patient en OAP.",
+            "justification": "La digoxine i.v. est réservée au traitement d'un facteur déclenchant de FA rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Instaurer une anticoagulation efficace si fibrillation auriculaire rapide.",
+            "justification": "Une anticoagulation efficace est prévue en cas de FA rapide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039728472_03",
+      "current_version_epoch_ms": 1755039728472,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités de prise en charge respiratoire et leurs indications au cours d'un OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre en place une CPAP en cas de non-réponse aux mesures initiales.",
+            "justification": "La ventilation par CPAP est proposée en cas de non-réponse."
+          },
+          {
+            "correct": true,
+            "proposition": "Procéder à une intubation nasotrachéale et ventilation invasive si persistance d'insuffisance respiratoire aiguë avec épuisement.",
+            "justification": "L'intubation et la ventilation invasive sont indiquées dans cette situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une intubation d'emblée chez tout patient avec OAP.",
+            "justification": "L'intubation n'est indiquée qu'en cas de persistance de signes de gravité et d'épuisement."
+          },
+          {
+            "correct": true,
+            "proposition": "Administer une oxygénothérapie pour viser une SaO2 > 90 %.",
+            "justification": "L'oxygénothérapie fait partie des mesures respiratoires initiales avec une cible > 90 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer la CPAP comme contre-indiquée dans l'OAP cardiogénique.",
+            "justification": "La CPAP est au contraire indiquée en cas de non-réponse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039728472_04",
+      "current_version_epoch_ms": 1755039728472,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Différencier les traitements de fond à introduire après l'épisode aigu d'OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduire un traitement bêtabloquant à distance de l'épisode, après sevrage de l'oxygène.",
+            "justification": "Les bêtabloquants doivent être débutés à distance, après sevrage de l'oxygène."
+          },
+          {
+            "correct": true,
+            "proposition": "Débuter un IEC rapidement, notamment en cas d'hypertension associée.",
+            "justification": "Les IEC peuvent être commencés précocement, surtout s'il existe une HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Démarrer un bêtabloquant d'emblée pendant la phase aiguë.",
+            "justification": "Le bêtabloquant est réservé à l'introduction à distance de l'épisode aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Retarder systématiquement l'introduction des IEC à plusieurs semaines.",
+            "justification": "Il n'est pas nécessaire d'attendre ; un début rapide est possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser les dérivés nitrés comme traitement de fond de référence.",
+            "justification": "Les traitements de fond mentionnés sont les bêtabloquants (à distance) et les IEC ; les dérivés nitrés sont utilisés en phase aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039728472_05",
+      "current_version_epoch_ms": 1755039728472,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les mesures complémentaires et la prise en charge des facteurs déclenchants en OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre en place une anticoagulation préventive systématique.",
+            "justification": "Une anticoagulation préventive systématique est prévue."
+          },
+          {
+            "correct": true,
+            "proposition": "Traiter une poussée hypertensive associée.",
+            "justification": "Le traitement d'une poussée hypertensive fait partie des mesures à entreprendre."
+          },
+          {
+            "correct": true,
+            "proposition": "Administrer de la digoxine i.v. en cas de fibrillation auriculaire rapide.",
+            "justification": "La digoxine i.v. est indiquée pour ce facteur déclenchant."
+          },
+          {
+            "correct": true,
+            "proposition": "Instaurer une anticoagulation efficace en cas de fibrillation auriculaire rapide.",
+            "justification": "Une anticoagulation efficace est requise lorsque la FA rapide est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas rechercher ni traiter de facteur déclenchant pendant la phase aiguë.",
+            "justification": "La prise en charge inclut explicitement le traitement d'un facteur déclenchant."
+          }
+        ]
+      }
+    }
+  ]
+}

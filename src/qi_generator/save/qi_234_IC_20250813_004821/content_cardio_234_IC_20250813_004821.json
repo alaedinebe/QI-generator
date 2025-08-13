@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755039108502_01",
+      "current_version_epoch_ms": 1755039108502,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier la modalité d'imagerie illustrée par « Radiographie thoracique d'un OAP d'origine hémodynamique ».",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie thoracique",
+            "justification": "La formulation comporte explicitement « Radiographie thoracique »."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Aucune mention de « scanner » ; seule la radiographie est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM thoracique",
+            "justification": "Aucune mention d'« IRM » dans l'intitulé fourni."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie cardiaque",
+            "justification": "Il est question d'un cliché thoracique, pas d'échographie."
+          },
+          {
+            "correct": false,
+            "proposition": "TEP (PET-scan)",
+            "justification": "Aucune référence à une TEP ; seule la radiographie est citée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039108502_02",
+      "current_version_epoch_ms": 1755039108502,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître la pathologie mise en avant sur le cliché mentionné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Œdème aigu du poumon (OAP)",
+            "justification": "L'intitulé précise « OAP » et « exemple de cliché thoracique d'œdème aigu du poumon »."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Aucune mention de pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Pleurésie",
+            "justification": "Aucune mention de pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie lobaire",
+            "justification": "Aucune mention de pneumonie ; la pathologie citée est l'œdème aigu du poumon."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie pulmonaire",
+            "justification": "Aucune mention d'embolie pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039108502_03",
+      "current_version_epoch_ms": 1755039108502,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Préciser l'origine de l'OAP telle qu'indiquée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "D'origine hémodynamique",
+            "justification": "La mention exacte est « OAP d'origine hémodynamique »."
+          },
+          {
+            "correct": false,
+            "proposition": "D'origine infectieuse",
+            "justification": "Aucune mention d'une origine infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "D'origine allergique",
+            "justification": "Aucune mention d'une origine allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "D'origine toxique",
+            "justification": "Aucune mention d'une origine toxique."
+          },
+          {
+            "correct": false,
+            "proposition": "D'origine traumatique",
+            "justification": "Aucune mention d'une origine traumatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039108502_04",
+      "current_version_epoch_ms": 1755039108502,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Associer correctement le sigle « OAP » dans ce contexte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Œdème aigu du poumon",
+            "justification": "Les expressions « OAP » et « œdème aigu du poumon » figurent ensemble pour la même entité."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction aérienne pulmonaire",
+            "justification": "Cette expansion n'apparaît pas ; la formulation retenue est « œdème aigu du poumon »."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème alvéolaire progressif",
+            "justification": "Cette expansion n'est pas mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Oxygénation artérielle perturbée",
+            "justification": "Cette expansion n'est pas citée."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité apicale persistante",
+            "justification": "Aucune mention de ce libellé ; le sigle renvoie à l'œdème aigu du poumon."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039108502_05",
+      "current_version_epoch_ms": 1755039108502,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier l'information de référence associée au cliché décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le code associé est « OIC-234-15-A »",
+            "justification": "La ligne comporte « OIC-234-15-A » à côté de la description."
+          },
+          {
+            "correct": false,
+            "proposition": "Le code associé est « OIC-234-15-B »",
+            "justification": "Ce code ne figure pas ; seul « OIC-234-15-A » est indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Le code associé est « OIC-123-45-A »",
+            "justification": "Ce code n'est pas mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Le code associé est « OIC-234-16-A »",
+            "justification": "Ce code n'apparaît pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun code n'est indiqué avec ce cliché",
+            "justification": "Un code est bien présent : « OIC-234-15-A »."
+          }
+        ]
+      }
+    }
+  ]
+}

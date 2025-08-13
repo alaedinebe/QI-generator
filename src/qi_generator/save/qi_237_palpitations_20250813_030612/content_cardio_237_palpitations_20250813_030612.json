@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755047378814_01",
+      "current_version_epoch_ms": 1755047378814,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Parallélisme électro-clinique : identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il correspond à la corrélation entre les symptômes de palpitations et le tracé ECG.",
+            "justification": "Le parallélisme est établi lorsque l'ECG est enregistré concomitamment aux palpitations, permettant une corrélation électro-clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il n'est possible qu'avec un ECG percritique concomitant aux palpitations.",
+            "justification": "La corrélation électro-clinique nécessite un enregistrement pendant les palpitations, c'est l'ECG percritique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut être posé sur un ECG intercritique normal.",
+            "justification": "L'ECG intercritique est réalisé en dehors des palpitations et peut être normal ; il ne suffit pas pour établir la corrélation électro-clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'apporte pas de certitude diagnostique.",
+            "justification": "Le parallélisme électro-clinique obtenu percritiquement est le seul moyen d'obtenir un diagnostic de certitude."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est difficile à obtenir en consultation en raison du caractère transitoire des palpitations.",
+            "justification": "L'ECG percritique est rarement obtenu lors de l'admission ou en consultation car les palpitations sont souvent transitoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047378814_02",
+      "current_version_epoch_ms": 1755047378814,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "ECG percritique : classer les propositions en vrai/faux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est réalisé concomitamment aux palpitations.",
+            "justification": "Par définition, l'ECG percritique est enregistré pendant l'épisode de palpitations."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est le seul moyen d'obtenir un diagnostic de certitude.",
+            "justification": "La certitude diagnostique repose sur la corrélation électro-clinique apportée par l'ECG percritique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est habituellement facile à obtenir à l'admission aux urgences.",
+            "justification": "Il est rarement obtenu à l'admission ou en consultation du fait du caractère souvent transitoire des palpitations."
+          },
+          {
+            "correct": false,
+            "proposition": "Un Holter ECG est synonyme d'ECG percritique.",
+            "justification": "Le Holter est proposé si l'ECG percritique n'a pas pu être obtenu ; ce n'est pas un enregistrement percritique par définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Un enregistrement dans les conditions habituelles de survenue peut aider à l'obtenir.",
+            "justification": "En cas de circonstances déclenchantes identifiées, un enregistrement dans ces conditions (ex : épreuve d'effort) sensibilise l'examen."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047378814_03",
+      "current_version_epoch_ms": 1755047378814,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Choix de la modalité d'enregistrement quand l'ECG percritique n'a pas été obtenu : cocher les propositions adaptées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Palpitations fréquentes (> 1/semaine) : proposer un Holter ECG de 24 à 96 heures.",
+            "justification": "Pour des symptômes fréquents, la durée d'enregistrement recommandée est de 24 à 96 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptômes plus rares : proposer un ECG ambulatoire de longue durée (7 à 21 jours).",
+            "justification": "Lorsque les symptômes sont rares, un enregistrement prolongé de 7 à 21 jours est indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpitations fréquentes (> 1/semaine) : privilégier d'emblée un ECG ambulatoire de 7 à 21 jours.",
+            "justification": "Pour des symptômes fréquents, la durée proposée est plutôt 24 à 96 heures ; 7 à 21 jours est réservé aux symptômes plus rares."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de circonstances déclenchantes identifiées, réaliser l'enregistrement dans ces conditions (ex : épreuve d'effort).",
+            "justification": "Réaliser l'examen dans les conditions habituelles de survenue permet de sensibiliser l'enregistrement."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG intercritique normal suffit à affirmer le diagnostic.",
+            "justification": "L'ECG intercritique peut être normal et n'apporte pas, à lui seul, un diagnostic de certitude."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047378814_04",
+      "current_version_epoch_ms": 1755047378814,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "ECG intercritique : reconnaître les caractéristiques exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est réalisé en dehors des palpitations.",
+            "justification": "Par définition, l'ECG intercritique est effectué hors épisode."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est bien souvent normal.",
+            "justification": "L'ECG intercritique est fréquemment normal lorsqu'il est réalisé hors symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet à lui seul d'obtenir un diagnostic de certitude.",
+            "justification": "La certitude diagnostique nécessite un enregistrement percritique avec corrélation électro-clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut orienter sur le mécanisme des palpitations.",
+            "justification": "Des anomalies comme un sus-décalage du ST ou une pré-excitation ventriculaire peuvent orienter le mécanisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inutile dans l'évaluation des palpitations.",
+            "justification": "Même s'il est souvent normal, il peut orienter le mécanisme et reste utile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047378814_05",
+      "current_version_epoch_ms": 1755047378814,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Conduite à tenir devant des palpitations : cocher les propositions adaptées selon le contexte décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Palpitations > 1/semaine sans ECG percritique initial : proposer un Holter ECG de 24 à 96 heures.",
+            "justification": "Pour des palpitations fréquentes, la durée recommandée est 24 à 96 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpitations > 1/semaine : proposer d'emblée un ECG ambulatoire de 7 à 21 jours.",
+            "justification": "L'enregistrement de 7 à 21 jours est réservé aux symptômes plus rares."
+          },
+          {
+            "correct": true,
+            "proposition": "Si les palpitations surviennent habituellement à l'effort, réaliser un enregistrement dans ces conditions (ex : épreuve d'effort).",
+            "justification": "Un enregistrement dans les conditions habituelles de survenue sensibilise l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG intercritique normal permet d'affirmer le diagnostic.",
+            "justification": "Un ECG intercritique peut être normal et ne suffit pas pour un diagnostic de certitude."
+          },
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de certitude repose sur un ECG concomitant aux palpitations.",
+            "justification": "L'ECG percritique est le seul moyen d'obtenir un diagnostic de certitude grâce à la corrélation électro-clinique."
+          }
+        ]
+      }
+    }
+  ]
+}

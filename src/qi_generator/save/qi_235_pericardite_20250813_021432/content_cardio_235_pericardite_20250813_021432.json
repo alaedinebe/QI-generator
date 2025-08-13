@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755044278949_01",
+      "current_version_epoch_ms": 1755044278949,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier les éléments définissant la tamponnade et son mécanisme physiopathologique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Adiastolie liée à une pression extérieure de l'épanchement empêchant le remplissage du ventricule droit +/- gauche.",
+            "justification": "La tamponnade correspond à une adiastolie où la pression de l'épanchement empêche le remplissage ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonction systolique gauche isolée sans épanchement péricardique.",
+            "justification": "Le mécanisme repose sur la compression par un épanchement péricardique, pas sur une dysfonction systolique isolée."
+          },
+          {
+            "correct": true,
+            "proposition": "Choc cardiogénique par compression des cavités cardiaques, le plus souvent droites.",
+            "justification": "Le choc est dû à la compression des cavités, principalement droites car leur pression est la plus faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du retour veineux menant au remplissage excessif des cavités droites.",
+            "justification": "Le problème est l'empêchement du remplissage par pression externe, et non un excès de retour veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue lors d'un épanchement péricardique abondant et/ou d'installation brutale.",
+            "justification": "Une accumulation abondante ou rapidement constituée d'épanchement provoque la compression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044278949_02",
+      "current_version_epoch_ms": 1755044278949,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les manifestations cliniques évocatrices de tamponnade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur thoracique avec dyspnée positionnelle, polypnée puis orthopnée et toux.",
+            "justification": "Ces symptômes respiratoires et la douleur thoracique sont rapportés."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysphagie, nausée, hoquet possibles.",
+            "justification": "Ces signes digestifs peuvent accompagner le tableau."
+          },
+          {
+            "correct": true,
+            "proposition": "Turgescence jugulaire et reflux hépato-jugulaire traduisant une insuffisance cardiaque droite aiguë.",
+            "justification": "Ce sont des signes d'atteinte aiguë droite décrits."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie, PAS < 90 mmHg, marbrures, extrémités froides.",
+            "justification": "Ce sont des signes de choc associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie avec hypertension artérielle.",
+            "justification": "À l'inverse, le tableau décrit associe tachycardie et pression artérielle systolique basse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044278949_03",
+      "current_version_epoch_ms": 1755044278949,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Définir le pouls paradoxal et les signes auscultatoires attendus dans la tamponnade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pouls paradoxal : baisse de la PAS de 10 mmHg à l'inspiration.",
+            "justification": "Le pouls paradoxal est défini par cette diminution de la PAS à l'inspiration."
+          },
+          {
+            "correct": true,
+            "proposition": "Bruits du cœur assourdis.",
+            "justification": "Des bruits cardiaques assourdis sont rapportés."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension systolique à l'expiration caractérisant le pouls paradoxal.",
+            "justification": "La définition mentionne une baisse à l'inspiration, pas à l'expiration."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la PAS de 20 mmHg à l'inspiration.",
+            "justification": "Le phénomène attendu est une baisse, non une augmentation, d'environ 10 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de pouls paradoxal dans la tamponnade.",
+            "justification": "Le pouls paradoxal fait partie des signes décrits."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044278949_04",
+      "current_version_epoch_ms": 1755044278949,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les signes électriques et échocardiographiques de la tamponnade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG : microvoltage.",
+            "justification": "Le microvoltage est rapporté à l'ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "ECG : alternance électrique possible.",
+            "justification": "Une alternance électrique peut être observée lorsque le cœur « se balance » dans le liquide."
+          },
+          {
+            "correct": true,
+            "proposition": "ETT : compression des cavités droites, surtout en inspiration.",
+            "justification": "L'échographie confirme la compression droite, majorée à l'inspiration."
+          },
+          {
+            "correct": true,
+            "proposition": "ETT : aspect de « swinging heart » et déplacement paradoxal du septum à l'inspiration.",
+            "justification": "Ces éléments échographiques sont rapportés."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG systématiquement normal.",
+            "justification": "Des anomalies attendues sont un microvoltage et parfois une alternance électrique ; l'ECG n'est donc pas systématiquement normal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044278949_05",
+      "current_version_epoch_ms": 1755044278949,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer les éléments de prise en charge en urgence d'une tamponnade confirmée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Situation d'urgence avec risque d'arrêt cardio-circulatoire par dissociation électromécanique.",
+            "justification": "La tamponnade non traitée peut mener à un arrêt cardio-circulatoire par dissociation électromécanique."
+          },
+          {
+            "correct": true,
+            "proposition": "La confirmation échographique impose le drainage.",
+            "justification": "Une fois confirmée à l'échographie, un drainage s'impose."
+          },
+          {
+            "correct": true,
+            "proposition": "Drainage en urgence par voie percutanée ou chirurgicale.",
+            "justification": "Ces deux voies de drainage sont indiquées en urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Remplissage et amines en attendant le drainage.",
+            "justification": "Un remplissage et des amines peuvent être nécessaires en attente du geste."
+          },
+          {
+            "correct": false,
+            "proposition": "Diurétiques en première intention.",
+            "justification": "Les mesures mises en avant sont le drainage en urgence, le remplissage et les amines ; les diurétiques ne sont pas indiqués ici."
+          }
+        ]
+      }
+    }
+  ]
+}

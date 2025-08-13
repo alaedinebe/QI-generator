@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755045725560_01",
+      "current_version_epoch_ms": 1755045725560,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments d'interrogatoire, ceux qui suggèrent une mauvaise tolérance d'une bradycardie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syncope à l'emporte-pièce avec chute traumatique",
+            "justification": "Fait partie des éléments de gravité recherchés à l'interrogatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Angor",
+            "justification": "Reconnu comme signe de gravité à l'interrogatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpitations isolées",
+            "justification": "Ne fait pas partie des éléments de gravité listés pour la mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées",
+            "justification": "Non répertorié parmi les signes de gravité dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre",
+            "justification": "N'est pas indiquée parmi les critères de mauvaise tolérance de la bradycardie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045725560_02",
+      "current_version_epoch_ms": 1755045725560,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître les signes cliniques de gravité à l'examen physique d'une bradycardie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension",
+            "justification": "Mentionnée comme signe de gravité à l'examen physique."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes de choc",
+            "justification": "Fait partie des éléments de gravité à l'examen physique."
+          },
+          {
+            "correct": true,
+            "proposition": "Oligurie",
+            "justification": "Figure parmi les signes de mauvais débit à l'examen physique."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble de la conscience",
+            "justification": "Énoncé comme critère de gravité clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "N'est pas indiquée comme élément de gravité pour la mauvaise tolérance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045725560_03",
+      "current_version_epoch_ms": 1755045725560,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies ECG associées à une mauvaise tolérance d'une bradycardie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Allongement du QT",
+            "justification": "Identifié comme élément de gravité à l'ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "Torsade de pointe",
+            "justification": "Fait partie des anomalies ECG graves rapportées."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage du ST",
+            "justification": "Non cité parmi les anomalies ECG évocatrices de gravité dans ce cadre."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc de branche droit isolé",
+            "justification": "Ne fait pas partie des anomalies ECG retenues ici comme marqueurs de mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation auriculaire",
+            "justification": "Non mentionnée parmi les critères ECG de gravité associés à la bradycardie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045725560_04",
+      "current_version_epoch_ms": 1755045725560,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Classer les résultats biologiques témoignant d'un retentissement d'organe par bas débit lors d'une bradycardie mal tolérée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale",
+            "justification": "Fait partie du retentissement d'organe lié au bas débit."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance hépatocellulaire",
+            "justification": "Mentionnée comme atteinte d'organe en lien avec le bas débit."
+          },
+          {
+            "correct": true,
+            "proposition": "Élévation des lactates",
+            "justification": "Indiquée comme marqueur biologique de bas débit."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP élevée",
+            "justification": "Non listée parmi les marqueurs biologiques de retentissement d'organe par bas débit dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyponatrémie",
+            "justification": "N'est pas indiquée parmi les éléments biologiques de gravité rapportés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045725560_05",
+      "current_version_epoch_ms": 1755045725560,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Concernant l'appréciation de la tolérance d'une bradycardie et la conduite à tenir, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mauvaise tolérance dépend du caractère paroxystique ou permanent de la bradycardie.",
+            "justification": "Explicitement indiqué comme déterminant de la tolérance."
+          },
+          {
+            "correct": true,
+            "proposition": "La mauvaise tolérance dépend de la fréquence de la cadence ventriculaire.",
+            "justification": "Énoncé comme facteur clé d'évaluation de la tolérance."
+          },
+          {
+            "correct": true,
+            "proposition": "Une bradycardie mal tolérée nécessite une prise en charge urgente avec une thérapeutique.",
+            "justification": "Précisé comme principe de prise en charge en cas de mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "La mauvaise tolérance dépend uniquement de l'âge du patient.",
+            "justification": "L'âge n'est pas présenté comme critère déterminant dans cette définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Une bradycardie mal tolérée ne nécessite pas de prise en charge urgente.",
+            "justification": "À l'inverse, une prise en charge urgente est requise lorsqu'elle est mal tolérée."
+          }
+        ]
+      }
+    }
+  ]
+}

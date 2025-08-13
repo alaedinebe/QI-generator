@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755045518904_01",
+      "current_version_epoch_ms": 1755045518904,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Identifier les critères ECG permettant d'évoquer une dysfonction sinusale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bradycardie sans onde P visible avec rythme d'échappement jonctionnel ou atrial.",
+            "justification": "La dysfonction sinusale est définie par une bradycardie sans onde P visible avec un échappement jonctionnel ou atrial."
+          },
+          {
+            "correct": true,
+            "proposition": "Pause sinusale prolongée isolée pouvant aller jusqu'à une asystolie avec retour en rythme sinusal.",
+            "justification": "Elle peut prendre l'aspect d'une pause prolongée isolée avec asystolie puis retour au rythme sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "Allongement de l'intervalle PR > 200 ms comme anomalie principale.",
+            "justification": "L'allongement de PR > 200 ms caractérise un BAV de 1er degré, pas la dysfonction sinusale."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque la pause entre deux ondes P est un multiple du cycle sinusal normal, il s'agit d'un bloc sino-atrial du 2e degré.",
+            "justification": "Une pause égale à un multiple du cycle sinusal correspond à un bloc sino-atrial de 2e degré."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence systématique d'ondes P visibles régulières.",
+            "justification": "La définition insiste justement sur l'absence d'onde P visible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045518904_02",
+      "current_version_epoch_ms": 1755045518904,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître un bloc auriculo-ventriculaire (BAV) de 1er degré.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Allongement de l'espace PR > 200 ms.",
+            "justification": "Le BAV1 se définit par un PR > 200 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "Bloc généralement nodal (supra-hissien).",
+            "justification": "Le BAV1 est décrit comme généralement nodal."
+          },
+          {
+            "correct": true,
+            "proposition": "Souvent asymptomatique.",
+            "justification": "Il est rapporté comme asymptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dissociation auriculo-ventriculaire.",
+            "justification": "La dissociation caractérise le BAV complet (3e degré), pas le BAV1."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle PR constant avec ondes P bloquées.",
+            "justification": "PR constant avec une onde P bloquée décrit un BAV2 Mobitz 2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045518904_03",
+      "current_version_epoch_ms": 1755045518904,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Différencier un BAV 2 Mobitz 1 d'un BAV 2 Mobitz 2 sur l'ECG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mobitz 1 : allongement progressif de PR jusqu'à une onde P non suivie d'un QRS.",
+            "justification": "Le BAV2 Mobitz 1 présente un allongement progressif de PR puis une onde P bloquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Mobitz 2 : intervalle PR constant avec une onde P bloquée.",
+            "justification": "Le BAV2 Mobitz 2 est défini par un PR constant et une onde P bloquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Mobitz 2 : pas de variation de l'intervalle PP et pause égale à deux cycles PP.",
+            "justification": "La pause incluant l'onde P bloquée est égale à deux cycles PP, sans variation de PP."
+          },
+          {
+            "correct": false,
+            "proposition": "Mobitz 1 : atteinte hissienne/infra-hissienne.",
+            "justification": "Mobitz 1 est décrit comme supra-hissien (nodal)."
+          },
+          {
+            "correct": true,
+            "proposition": "Mobitz 1 : QRS fins dans l'exemple décrit.",
+            "justification": "L'exemple rapporte des QRS fins pour le Mobitz 1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045518904_04",
+      "current_version_epoch_ms": 1755045518904,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître un BAV de 3e degré (complet) et ses implications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dissociation de l'activité auriculaire et ventriculaire.",
+            "justification": "Le BAV3 se caractérise par une dissociation auriculo-ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythme ventriculaire plus lent lié à un rythme d'échappement.",
+            "justification": "La fréquence ventriculaire est plus lente en lien avec un échappement."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS fins si échappement nodal, QRS larges si échappement infra-hissien.",
+            "justification": "Le siège de l'échappement conditionne l'aspect des QRS (fins nodal, larges infra-hissien)."
+          },
+          {
+            "correct": false,
+            "proposition": "Synchronisation régulière entre oreillettes et ventricules.",
+            "justification": "Il n'existe aucune synchronisation dans le BAV complet."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG de surface précise toujours la localisation du bloc.",
+            "justification": "Il est précisé que l'ECG de surface n'est parfois pas suffisant pour localiser le BAV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045518904_05",
+      "current_version_epoch_ms": 1755045518904,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Classer les critères ECG d'un bloc de branche droit (BBD) et d'un bloc de branche gauche (BBG).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un bloc de branche se traduit par des QRS élargis (> 120 ms).",
+            "justification": "Les blocs de branche sont associés à des QRS > 120 ms."
+          },
+          {
+            "correct": true,
+            "proposition": "BBD : aspect RsR' en V1.",
+            "justification": "Le BBD présente un aspect RsR' en V1."
+          },
+          {
+            "correct": true,
+            "proposition": "BBD : grande onde S empâtée en latéral.",
+            "justification": "Il est décrit une grande S empâtée en latéral dans le BBD."
+          },
+          {
+            "correct": true,
+            "proposition": "BBG : aspect rS ou QS en V1 et R exclusif ou RR' en V6.",
+            "justification": "Le BBG associe rS ou QS en V1 et R exclusif/RR' en V6."
+          },
+          {
+            "correct": false,
+            "proposition": "BBG : QRS fins (< 120 ms).",
+            "justification": "Les blocs de branche, dont le BBG, s'accompagnent de QRS élargis (> 120 ms)."
+          }
+        ]
+      }
+    }
+  ]
+}

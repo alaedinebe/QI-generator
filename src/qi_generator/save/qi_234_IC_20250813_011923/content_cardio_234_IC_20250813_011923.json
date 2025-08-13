@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755040970428_01",
+      "current_version_epoch_ms": 1755040970428,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier, parmi les classes suivantes, celles qui constituent des traitements cardioprotecteurs standards en cas d'insuffisance cardiaque avec fraction d'éjection réduite (IC à FE diminuée).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhibiteurs de l'enzyme de conversion (IEC) / ARNi (sacubitril/valsartan)",
+            "justification": "Les IEC et l'association antagoniste de l'angiotensine II–inhibiteur de l'endopeptidase neutre (sacubitril/valsartan, ARNi) font partie des traitements cardioprotecteurs standards en IC à FE réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Bêtabloquants",
+            "justification": "Les bêtabloquants sont listés comme traitements cardioprotecteurs standards en cas d'IC avec FE réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Antagonistes des récepteurs de l'aldostérone (spironolactone, éplérénone)",
+            "justification": "Les antagonistes de l'aldostérone figurent explicitement parmi les traitements cardioprotecteurs standards."
+          },
+          {
+            "correct": true,
+            "proposition": "Glifozines",
+            "justification": "Les glifozines sont mentionnées comme faisant partie des traitements cardioprotecteurs standards en IC à FE réduite."
+          },
+          {
+            "correct": false,
+            "proposition": "Diurétiques",
+            "justification": "Les diurétiques sont indiqués comme traitement symptomatique en cas de signes de congestion, et non comme cardioprotecteurs standards."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040970428_02",
+      "current_version_epoch_ms": 1755040970428,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "En cas de signes de congestion chez un patient insuffisant cardiaque, reconnaître la mesure symptomatique adaptée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prescrire des diurétiques",
+            "justification": "Le traitement symptomatique en cas de signes de congestion repose sur la prescription de diurétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Retarder les diurétiques et surveiller uniquement",
+            "justification": "Il est indiqué de prescrire des diurétiques en cas de congestion, et non de les retarder."
+          },
+          {
+            "correct": false,
+            "proposition": "Introduire un ARNi uniquement pour décongestionner",
+            "justification": "L'ARNi est mentionné parmi les cardioprotecteurs standards, pas comme traitement symptomatique de la congestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter rapidement la dose de bêtabloquant pour un effet diurétique",
+            "justification": "Les bêtabloquants sont des cardioprotecteurs standards et ne sont pas indiqués comme traitement symptomatique de la congestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune thérapeutique spécifique n'est recommandée",
+            "justification": "Une thérapeutique spécifique est indiquée : la prescription de diurétiques en cas de congestion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040970428_03",
+      "current_version_epoch_ms": 1755040970428,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Différencier œdème pulmonaire lésionnel et cardiogénique : sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans l'œdème lésionnel, la pression capillaire pulmonaire est normale ou basse (< 18 mmHg).",
+            "justification": "L'œdème lésionnel est lié à une augmentation de perméabilité avec pression capillaire pulmonaire normale ou basse, inférieure à 18 mmHg."
+          },
+          {
+            "correct": true,
+            "proposition": "Le liquide d'œdème lésionnel a une forte teneur en protides proche de celle du plasma.",
+            "justification": "Le liquide d'un œdème lésionnel est riche en protéines, proche du plasma."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'œdème cardiogénique, une élévation de la PCP au-delà d'environ 25 mmHg entraîne une extravasation de liquide.",
+            "justification": "Au-delà de 25 mmHg de pression capillaire pulmonaire, il y a extravasation de liquide interstitiel puis alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La PCP physiologique (7–12 mmHg) suffit à provoquer un œdème cardiogénique.",
+            "justification": "La PCP normale est de 7–12 mmHg ; l'œdème cardiogénique est lié à son élévation, pas à sa valeur physiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'œdème lésionnel est secondaire à une hyperpression capillaire pulmonaire.",
+            "justification": "L'œdème lésionnel résulte d'une altération de la perméabilité de la membrane alvéolo-capillaire, pas d'une hyperpression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040970428_04",
+      "current_version_epoch_ms": 1755040970428,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les conséquences physiopathologiques associées à l'œdème pulmonaire cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoxémie par troubles de l'hématose",
+            "justification": "L'élévation de la PCP conduit à une extravasation avec troubles de l'hématose et hypoxémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Diminution de la compliance pulmonaire",
+            "justification": "L'extravasation liquidienne dans l'interstitium puis l'alvéole s'accompagne d'une diminution de la compliance pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Passage du liquide dans l'interstitium puis dans l'alvéole",
+            "justification": "Au-delà du seuil de pression, le liquide diffuse d'abord dans l'interstitium puis dans l'alvéole."
+          },
+          {
+            "correct": false,
+            "proposition": "PCP normale ou basse",
+            "justification": "L'œdème cardiogénique est lié à une élévation de la PCP, non à une valeur normale ou basse."
+          },
+          {
+            "correct": false,
+            "proposition": "Liquide d'œdème riche en protides proche du plasma",
+            "justification": "Cette caractéristique décrit l'œdème lésionnel, pas l'œdème cardiogénique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040970428_05",
+      "current_version_epoch_ms": 1755040970428,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer les éléments de la prise en charge globale d'un patient avec antécédent cardiovasculaire et IC à FE réduite, hors phase aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consultation de suivi et éducation thérapeutique",
+            "justification": "La consultation de suivi et l'éducation thérapeutique sont citées comme composantes de la prise en charge."
+          },
+          {
+            "correct": true,
+            "proposition": "Réadaptation",
+            "justification": "La réadaptation est mentionnée comme élément de la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt des traitements cardioprotecteurs standards",
+            "justification": "Les traitements cardioprotecteurs standards sont des piliers de l'IC à FE réduite et ne sont pas à arrêter dans la prise en charge décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclure l'éducation thérapeutique du parcours",
+            "justification": "L'éducation thérapeutique est explicitement incluse dans la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de suivi nécessaire après la phase initiale",
+            "justification": "Un suivi est explicitement indiqué via la consultation dédiée."
+          }
+        ]
+      }
+    }
+  ]
+}

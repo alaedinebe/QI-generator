@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755048000799_01",
+      "current_version_epoch_ms": 1755048000799,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les éléments de présentation clinique typiques d'une tachycardie jonctionnelle (« maladie de Bouveret »).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Palpitations avec parfois des battements cervicaux",
+            "justification": "Fait partie des manifestations décrites."
+          },
+          {
+            "correct": true,
+            "proposition": "Début et fin brutale des symptômes",
+            "justification": "Caractéristique rapportée des épisodes."
+          },
+          {
+            "correct": false,
+            "proposition": "Sensation de tachycardie irrégulière",
+            "justification": "La sensation est celle d'une tachycardie régulière."
+          },
+          {
+            "correct": true,
+            "proposition": "Polyurie post-critique",
+            "justification": "Mentionnée comme signe accompagnateur après l'épisode."
+          },
+          {
+            "correct": true,
+            "proposition": "Survient préférentiellement chez l'adolescent ou l'adulte jeune, sur cœur sain",
+            "justification": "Profil typique précisé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048000799_02",
+      "current_version_epoch_ms": 1755048000799,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques ECG en période critique d'une tachycardie jonctionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie régulière le plus souvent à QRS fins",
+            "justification": "Cité comme aspect électrocardiographique habituel."
+          },
+          {
+            "correct": true,
+            "proposition": "Activité atriale rétrograde négative dans les dérivations inférieures",
+            "justification": "Décrite comme critère ECG attendu."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité atriale toujours visible en clair",
+            "justification": "Elle peut être invisible ou cachée dans la repolarisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes P' pouvant être cachées dans la repolarisation",
+            "justification": "Possibilité explicitement décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Mise en évidence d'une pré-excitation ventriculaire pendant la crise",
+            "justification": "La pré-excitation peut être révélée en dehors des palpitations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048000799_03",
+      "current_version_epoch_ms": 1755048000799,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Déterminer les mesures permettant d'arrêter un épisode de tachycardie jonctionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Manœuvres vagales",
+            "justification": "Indiquées comme pouvant arrêter l'épisode."
+          },
+          {
+            "correct": true,
+            "proposition": "Injection d'adénosine",
+            "justification": "Mentionnée comme option d'arrêt."
+          },
+          {
+            "correct": true,
+            "proposition": "Injection d'adénosine-5'-triphosphorique",
+            "justification": "Également rapportée comme efficace pour l'arrêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Choc électrique systématique d'emblée",
+            "justification": "L'arrêt est obtenu par manœuvres vagales ou adénosine, pas systématiquement par choc."
+          },
+          {
+            "correct": false,
+            "proposition": "Inefficacité des manœuvres vagales",
+            "justification": "À l'inverse, elles sont rapportées comme pouvant arrêter l'épisode."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048000799_04",
+      "current_version_epoch_ms": 1755048000799,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les aspects attendus de l'ECG en dehors des palpitations chez un patient avec tachycardie jonctionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tracé ECG normal",
+            "justification": "Possibilité décrite pour la période intercritique."
+          },
+          {
+            "correct": true,
+            "proposition": "Révélation d'une pré-excitation ventriculaire (syndrome de Wolff-Parkinson-White)",
+            "justification": "Peut être mise en évidence en dehors des palpitations."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation atriale de base",
+            "justification": "Non rapportée parmi les possibilités intercritiques décrites (normal ou pré-excitation)."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc de branche permanent",
+            "justification": "Non cité parmi les aspects intercritiques attendus."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalies de repolarisation ischémiques obligatoires",
+            "justification": "Aucune obligation de ce type n'est décrite ; les possibilités sont normalité ou pré-excitation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048000799_05",
+      "current_version_epoch_ms": 1755048000799,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "À propos de l'exemple suivant : tachycardie à 150/min, régulière, QRS fins, onde P' rétrograde négative en DII cachée dans la repolarisation. Quels éléments permettent de classer cet épisode comme tachycardie jonctionnelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme régulier",
+            "justification": "Correspond au caractère régulier décrit pour ces épisodes."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS fins",
+            "justification": "Aspect fréquent lors des épisodes."
+          },
+          {
+            "correct": true,
+            "proposition": "Onde P' rétrograde négative en dérivations inférieures",
+            "justification": "Critère ECG décrit, pouvant être caché dans la repolarisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité atriale antérograde précédant chaque QRS",
+            "justification": "L'activité attendue est rétrograde, pas antérograde."
+          },
+          {
+            "correct": true,
+            "proposition": "Fréquence autour de 150/min possible",
+            "justification": "Valeur explicitement mentionnée dans l'exemple décrit."
+          }
+        ]
+      }
+    }
+  ]
+}

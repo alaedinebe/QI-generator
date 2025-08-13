@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755040348441_01",
+      "current_version_epoch_ms": 1755040348441,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les éléments cliniques qui font évoquer un choc cardiogénique à l'examen.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle",
+            "justification": "L'hypotension artérielle fait partie des éléments cliniques qui font évoquer le choc cardiogénique."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes d'insuffisance cardiaque",
+            "justification": "La présence de signes d'insuffisance cardiaque est un argument d'évocation."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre > 38,5 °C",
+            "justification": "La fièvre n'est pas retenue parmi les critères d'évocation décrits pour le choc cardiogénique."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes d'hypoperfusion périphérique (oligurie, marbrures, extrémités froides, cyanose, troubles de conscience)",
+            "justification": "Les signes d'hypoperfusion périphérique constituent un pilier de l'évocation clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de conscience",
+            "justification": "Les troubles de conscience sont cités parmi les signes d'hypoperfusion périphérique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040348441_02",
+      "current_version_epoch_ms": 1755040348441,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les critères hémodynamiques de choc cardiogénique et leurs seuils.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pression artérielle systolique < 90 mmHg pendant au moins 30 minutes",
+            "justification": "Il s'agit d'un critère hémodynamique explicite avec une durée minimale précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Index cardiaque < 2,2 L/min/m²",
+            "justification": "Le bas débit cardiaque est défini par un index < 2,2 L/min/m²."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression artérielle pulmonaire d'occlusion (PAPO) > 15 mmHg",
+            "justification": "Une PAPO supérieure à 15 mmHg fait partie des critères hémodynamiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pression artérielle systolique < 90 mmHg, même si la durée est < 30 minutes",
+            "justification": "La durée d'au moins 30 minutes est requise avec la PAS < 90 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "PAPO ≤ 15 mmHg",
+            "justification": "Le seuil retenu est une PAPO strictement supérieure à 15 mmHg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040348441_03",
+      "current_version_epoch_ms": 1755040348441,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Définir les modalités qui confirment le caractère cardiogénique d'un état de choc.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échocardiographie mettant en évidence une insuffisance cardiaque",
+            "justification": "La confirmation repose sur la mise en évidence d'une insuffisance cardiaque par échocardiographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Cathétérisme cardiaque objectivant une insuffisance cardiaque",
+            "justification": "Le cathétérisme fait partie des moyens de confirmation du caractère cardiogénique."
+          },
+          {
+            "correct": true,
+            "proposition": "Confirmation réalisée après exclusion ou correction d'une hypovolémie",
+            "justification": "L'exclusion ou la correction d'une hypovolémie est requise avant de confirmer le caractère cardiogénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang artériel suffisant à lui seul pour confirmer le caractère cardiogénique",
+            "justification": "La confirmation nécessite la mise en évidence d'une insuffisance cardiaque par échocardiographie ou cathétérisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "Cet examen n'est pas mentionné parmi les modalités de confirmation du caractère cardiogénique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040348441_04",
+      "current_version_epoch_ms": 1755040348441,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, reconnaître les signes d'hypoperfusion périphérique dans le choc cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oligurie",
+            "justification": "L'oligurie fait partie des signes d'hypoperfusion périphérique décrits."
+          },
+          {
+            "correct": true,
+            "proposition": "Marbrures cutanées",
+            "justification": "Les marbrures cutanées sont citées comme signes d'hypoperfusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Cyanose",
+            "justification": "La cyanose figure parmi les signes d'hypoperfusion périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "Extrémités froides",
+            "justification": "Les extrémités froides sont incluses dans les signes d'hypoperfusion périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère franc",
+            "justification": "L'ictère n'est pas listé parmi les signes d'hypoperfusion périphérique retenus ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040348441_05",
+      "current_version_epoch_ms": 1755040348441,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les situations qui satisferaient l'ensemble des critères hémodynamiques d'un choc cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PAS 85 mmHg depuis 45 minutes, index cardiaque 1,9 L/min/m², PAPO 20 mmHg",
+            "justification": "PAS < 90 mmHg ≥ 30 min, index cardiaque < 2,2 et PAPO > 15 mmHg : les trois critères sont réunis."
+          },
+          {
+            "correct": false,
+            "proposition": "PAS 85 mmHg depuis 20 minutes, index cardiaque 1,8 L/min/m², PAPO 18 mmHg",
+            "justification": "La durée d'hypotension est insuffisante (< 30 minutes) malgré les deux autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "PAS 92 mmHg, index cardiaque 2,0 L/min/m², PAPO 18 mmHg",
+            "justification": "La PAS n'est pas < 90 mmHg, donc les critères ne sont pas tous remplis."
+          },
+          {
+            "correct": false,
+            "proposition": "PAS 88 mmHg depuis 40 minutes, index cardiaque 2,5 L/min/m², PAPO 18 mmHg",
+            "justification": "L'index cardiaque n'est pas < 2,2 L/min/m²."
+          },
+          {
+            "correct": true,
+            "proposition": "PAS 80 mmHg depuis 30 minutes, index cardiaque 2,1 L/min/m², PAPO 16 mmHg",
+            "justification": "PAS < 90 mmHg pendant au moins 30 min, index cardiaque < 2,2 et PAPO > 15 mmHg : critères satisfaits."
+          }
+        ]
+      }
+    }
+  ]
+}

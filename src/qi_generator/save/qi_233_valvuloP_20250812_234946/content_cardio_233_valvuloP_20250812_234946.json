@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755035593307_01",
+      "current_version_epoch_ms": 1755035593307,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier les éléments auscultatoires caractéristiques du rétrécissement aortique (RA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Souffle râpeux, méso-systolique, prédominant au foyer aortique.",
+            "justification": "Le RA donne un souffle râpeux méso-systolique au foyer aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Irradiation du souffle aux carotides.",
+            "justification": "Le souffle du RA irradie aux carotides."
+          },
+          {
+            "correct": true,
+            "proposition": "Abolition du B2 en cas de RA serré.",
+            "justification": "Dans les formes serrées, le B2 peut être aboli."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle holosystolique en jet de vapeur irradiant à l'aisselle gauche.",
+            "justification": "Cela décrit l'IM, pas le RA."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle protodiastolique doux, aspiratif, mieux entendu assis.",
+            "justification": "Ce profil est celui de l'IA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035593307_02",
+      "current_version_epoch_ms": 1755035593307,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître des critères de sévérité ou des signes périphériques d'une insuffisance aortique (IA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pression artérielle diastolique < 50 mmHg avec augmentation de la PA différentielle.",
+            "justification": "Une diastolique < 50 mmHg signe une IA sévère avec PA différentielle augmentée."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperpulsatilité périphérique.",
+            "justification": "L'IA s'accompagne d'hyperpulsatilité périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "Souffle holodiastolique.",
+            "justification": "L'IA sévère peut donner un souffle holodiastolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Abolition du B2.",
+            "justification": "L'abolition du B2 caractérise un RA serré."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle méso-systolique irradiant aux carotides.",
+            "justification": "Ce type de souffle est typique du RA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035593307_03",
+      "current_version_epoch_ms": 1755035593307,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier ceux qui orientent vers une insuffisance mitrale (IM) aiguë plutôt qu'une IM chronique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée aiguë/OAP d'emblée.",
+            "justification": "L'IM aiguë se manifeste par dyspnée aiguë ou OAP."
+          },
+          {
+            "correct": true,
+            "proposition": "Claquement et douleur thoracique brève évoquant une rupture de cordage.",
+            "justification": "La rupture de cordage peut entraîner un claquement et une douleur brève."
+          },
+          {
+            "correct": true,
+            "proposition": "OAP parfois unilatéral.",
+            "justification": "En cas de rupture de cordage, l'OAP peut être unilatéral."
+          },
+          {
+            "correct": false,
+            "proposition": "Longtemps asymptomatique puis dyspnée progressive.",
+            "justification": "Ce profil correspond à l'IM chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Évolution initiale paucisymptomatique pendant des années.",
+            "justification": "Une longue phase asymptomatique est décrite pour l'IM chronique, pas pour l'aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035593307_04",
+      "current_version_epoch_ms": 1755035593307,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier les éléments auscultatoires évocateurs d'un rétrécissement mitral (RM) et/ou de son retentissement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Roulement diastolique au foyer mitral.",
+            "justification": "Le RM donne un roulement diastolique au foyer mitral."
+          },
+          {
+            "correct": true,
+            "proposition": "Éclat du B1 si valve souple.",
+            "justification": "Un B1 éclatant est décrit lorsque la valve est souple."
+          },
+          {
+            "correct": true,
+            "proposition": "Dédoublement du B2 en cas d'HTAP (rythme en 3 temps de Durozier).",
+            "justification": "Le RM peut s'accompagner d'un dédoublement de B2 en cas d'HTAP."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle protodiastolique doux, aspiratif, au foyer aortique.",
+            "justification": "Ce souffle correspond à l'IA."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle holosystolique irradiant à l'aisselle gauche.",
+            "justification": "Ce souffle est typique de l'IM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035593307_05",
+      "current_version_epoch_ms": 1755035593307,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Associer les valvulopathies suivantes à leurs signes fonctionnels typiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rétrécissement aortique : dyspnée d'effort, angor, syncope ou lipothymie.",
+            "justification": "Le RA donne des symptômes à l'effort : dyspnée+++, angor++, syncope ou lipothymie."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance aortique : dyspnée et angor d'effort.",
+            "justification": "L'IA se manifeste par dyspnée+++ et angor d'effort."
+          },
+          {
+            "correct": true,
+            "proposition": "Rétrécissement mitral : longtemps asymptomatique, parfois révélé par grossesse ou passage en FA.",
+            "justification": "Le RM peut être révélé par la grossesse ou une FA après une phase asymptomatique."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance mitrale chronique : longtemps asymptomatique puis dyspnée progressive.",
+            "justification": "L'IM chronique évolue après une longue phase asymptomatique vers une dyspnée progressive."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement aortique : symptômes au repos d'emblée.",
+            "justification": "Le RA est longtemps asymptomatique, les symptômes surviennent à l'effort."
+          }
+        ]
+      }
+    }
+  ]
+}

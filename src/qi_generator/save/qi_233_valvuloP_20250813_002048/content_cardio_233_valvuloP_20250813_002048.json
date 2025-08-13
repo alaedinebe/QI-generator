@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755037455234_01",
+      "current_version_epoch_ms": 1755037455234,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier les situations où un traitement médical de l'insuffisance aortique (IA) est approprié.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est indiqué en cas d'IA sans indication chirurgicale.",
+            "justification": "Le recours au traitement médical est réservé aux situations d'IA ne relevant pas d'une prise en charge chirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est systématique, quel que soit le statut chirurgical.",
+            "justification": "Le traitement médical n'est pas proposé lorsqu'il existe une indication opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il repose uniquement sur la chirurgie.",
+            "justification": "La prise en charge médicale comporte des mesures non chirurgicales."
+          },
+          {
+            "correct": true,
+            "proposition": "Il associe des mesures hygiéno-diététiques et un traitement pharmacologique.",
+            "justification": "Le schéma thérapeutique combine régime pauvre en sel et médicaments appropriés."
+          },
+          {
+            "correct": true,
+            "proposition": "Il intègre la prévention de l'endocardite infectieuse et la surveillance.",
+            "justification": "La conduite à tenir inclut hygiène bucco-dentaire avec suivi et contrôles clinique/ECG/ETT."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037455234_02",
+      "current_version_epoch_ms": 1755037455234,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître les composantes du traitement médical de l'IA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Régime pauvre en sel.",
+            "justification": "Les règles hygiéno-diététiques comportent une restriction sodée."
+          },
+          {
+            "correct": true,
+            "proposition": "IEC ou ARA2.",
+            "justification": "Les inhibiteurs de l'enzyme de conversion ou les antagonistes des récepteurs de l'angiotensine II font partie du traitement pharmacologique."
+          },
+          {
+            "correct": true,
+            "proposition": "+/− diurétiques.",
+            "justification": "Des diurétiques peuvent être associés selon les besoins cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibioprophylaxie systématique avant tout soin dentaire.",
+            "justification": "La prévention recommandée repose sur l'hygiène bucco-dentaire régulière et le suivi, sans antibioprophylaxie systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Hygiène bucco-dentaire régulière avec contrôle semestriel.",
+            "justification": "Un entretien bucco-dentaire avec contrôle tous les 6 mois est préconisé pour prévenir l'endocardite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037455234_03",
+      "current_version_epoch_ms": 1755037455234,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Différencier les mesures de prévention de l'endocardite et les indications de dépistage familial en contexte d'IA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hygiène bucco-dentaire avec contrôle tous les 6 mois.",
+            "justification": "Un soin dentaire régulier biannuel est recommandé pour prévenir l'endocardite infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivi régulier.",
+            "justification": "La prévention comprend un suivi médical organisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie prophylactique systématique pour tout geste dentaire.",
+            "justification": "La stratégie de prévention indiquée repose sur l'hygiène et le suivi, sans antibiothérapie systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépistage des apparentés du premier degré en cas de maladie de Marfan.",
+            "justification": "Un dépistage familial est recommandé pour les proches au premier degré en présence de Marfan."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépistage des apparentés du premier degré en cas de bicuspidie aortique.",
+            "justification": "Le dépistage familial concerne également la bicuspidie chez les apparentés du premier degré."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037455234_04",
+      "current_version_epoch_ms": 1755037455234,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Classer les modalités de surveillance clinique/ECG/ETT selon le contexte d'IA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les 6 à 12 mois en cas d'IA modérée à sévère asymptomatique.",
+            "justification": "Un rythme semestriel à annuel est prévu pour ces formes asymptomatiques plus avancées."
+          },
+          {
+            "correct": true,
+            "proposition": "Tous les ans si diamètre de l'aorte > 40 mm.",
+            "justification": "Un contrôle annuel est requis lorsque l'aorte dépasse 40 mm."
+          },
+          {
+            "correct": true,
+            "proposition": "Tous les 2 ans si IA minime.",
+            "justification": "Les formes minimes bénéficient d'un espacement biennal des contrôles."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de suivi si IA minime.",
+            "justification": "Même l'IA minime nécessite des contrôles programmés tous les 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance mensuelle pour toute IA.",
+            "justification": "Les intervalles recommandés sont de 6–12 mois, 1 an ou 2 ans selon le contexte, et non mensuels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037455234_05",
+      "current_version_epoch_ms": 1755037455234,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître la prise en charge spécifique en cas de syndrome de Marfan ou de dilatation de l'aorte ascendante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bêtabloquants pour freiner la dilatation aortique.",
+            "justification": "Un bêtabloquant est indiqué pour ralentir la progression de la dilatation."
+          },
+          {
+            "correct": true,
+            "proposition": "ARA2 (losartan) pour freiner la dilatation aortique.",
+            "justification": "Le losartan est proposé pour limiter la dilatation de l'aorte ascendante."
+          },
+          {
+            "correct": true,
+            "proposition": "Objectif thérapeutique : freiner la dilatation de l'aorte.",
+            "justification": "La finalité des traitements cités est de ralentir l'augmentation du diamètre aortique."
+          },
+          {
+            "correct": false,
+            "proposition": "IEC spécifiquement indiqués pour freiner la dilatation aortique chez Marfan.",
+            "justification": "Les médicaments ciblés sont les bêtabloquants ou un ARA2 (losartan) dans ce contexte précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Diurétiques en première intention pour freiner la dilatation.",
+            "justification": "Les diurétiques peuvent être associés au traitement de l'IA mais ne constituent pas la stratégie spécifique pour freiner la dilatation aortique."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755044692262_01",
+      "current_version_epoch_ms": 1755044692262,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier ce que peut apporter la radiographie thoracique dans l'exploration d'une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut être normale.",
+            "justification": "La radiographie de thorax est décrite comme normale le plus souvent."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut montrer une rectitude du bord gauche ou un « cœur en carafe » en cas d'épanchement abondant.",
+            "justification": "Un épanchement abondant peut entraîner une rectitude du bord gauche ou un aspect de « cœur en carafe »."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut mettre en évidence un épanchement pleural associé.",
+            "justification": "Un épanchement pleural peut parfois être associé sur la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de mesurer en millimètres l'abondance de l'épanchement péricardique.",
+            "justification": "La quantification en millimètres relève de l'échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle montre un espace clair noir entre les deux feuillets péricardiques.",
+            "justification": "L'espace clair vide d'échos entre les feuillets est un critère échocardiographique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044692262_02",
+      "current_version_epoch_ms": 1755044692262,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer ce que permet l'échocardiographie chez un patient avec suspicion de péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut être normale dans une péricardite dite « sèche ».",
+            "justification": "Il est précisé que l'échocardiographie est parfois normale dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle visualise l'épanchement comme un espace clair vide d'échos entre les feuillets péricardiques.",
+            "justification": "L'épanchement correspond à un décollement des feuillets avec un espace noir (anéchogène)."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle apprécie l'abondance de l'épanchement avec des seuils : minime < 10 mm, modéré 10–20 mm, abondant > 20 mm.",
+            "justification": "Les seuils de classification en millimètres sont explicitement donnés pour l'échocardiographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle évalue le retentissement hémodynamique (compression des cavités ou signes de constriction).",
+            "justification": "Le retentissement hémodynamique fait partie des éléments appréciés en échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle met en évidence exclusivement les épanchements pleuraux associés.",
+            "justification": "L'échocardiographie cible le péricarde et l'épanchement péricardique ; l'épanchement pleural est décrit à la radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044692262_03",
+      "current_version_epoch_ms": 1755044692262,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer correctement l'abondance de l'épanchement péricardique en échocardiographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Minime : < 10 mm.",
+            "justification": "La catégorie « minime » est définie par un décollement inférieur à 10 mm."
+          },
+          {
+            "correct": true,
+            "proposition": "Modéré : 10–20 mm.",
+            "justification": "La catégorie « modéré » correspond à 10–20 mm."
+          },
+          {
+            "correct": true,
+            "proposition": "Abondant : > 20 mm.",
+            "justification": "La catégorie « abondant » est définie au-delà de 20 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Minime : 10–20 mm.",
+            "justification": "10–20 mm correspond à « modéré », pas à « minime »."
+          },
+          {
+            "correct": false,
+            "proposition": "Abondant : ≥ 10 mm.",
+            "justification": "Un seuil de 10 mm inclut la catégorie « modéré » ; « abondant » est > 20 mm."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044692262_04",
+      "current_version_epoch_ms": 1755044692262,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les signes radiographiques compatibles avec un épanchement péricardique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rectitude du bord gauche ou aspect de « cœur en carafe » en cas d'épanchement abondant.",
+            "justification": "Ces signes radiographiques sont décrits en présence d'un épanchement important."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaississement péricardique.",
+            "justification": "L'épaississement péricardique est rapporté à l'échocardiographie, pas à la radiographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Radiographie normale fréquente.",
+            "justification": "La radiographie est le plus souvent normale dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Visualisation d'un espace clair entre les feuillets péricardiques.",
+            "justification": "L'espace anéchogène entre feuillets est un signe échocardiographique."
+          },
+          {
+            "correct": true,
+            "proposition": "Épanchement pleural parfois associé.",
+            "justification": "Un épanchement pleural peut être observé sur la radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044692262_05",
+      "current_version_epoch_ms": 1755044692262,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Choisir l'examen le plus pertinent selon l'objectif d'exploration d'une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer le retentissement hémodynamique : échocardiographie.",
+            "justification": "L'échocardiographie apprécie la compression des cavités ou des signes de constriction."
+          },
+          {
+            "correct": false,
+            "proposition": "Classer l'abondance en millimètres : radiographie thoracique.",
+            "justification": "La classification en mm (minime, modéré, abondant) est réalisée en échocardiographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Localiser l'épanchement : échocardiographie.",
+            "justification": "La localisation de l'épanchement est appréciée en échocardiographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une masse péricardique : échocardiographie.",
+            "justification": "La présence d'une masse péricardique (étiologie tumorale) fait partie des éléments accessibles en échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Visualiser la rectitude du bord gauche/« cœur en carafe » : échocardiographie.",
+            "justification": "Ces signes sont décrits en radiographie thoracique, notamment en cas d'épanchement abondant."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755039521815_01",
+      "current_version_epoch_ms": 1755039521815,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les éléments du tableau clinique typique d'un OAP cardiogénique au lit du malade.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë de survenue brutale",
+            "justification": "La survenue brutale d'une détresse respiratoire aiguë est décrite comme caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "Toux avec expectoration mousseuse, blanchâtre ou saumonée",
+            "justification": "Une toux avec expectoration mousseuse blanchâtre ou saumonée est rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "Râles crépitants bilatéraux remontant des bases vers les sommets en « marée montante »",
+            "justification": "L'auscultation pulmonaire typique retrouve des crépitants bilatéraux ascendants."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient confortablement allongé en décubitus dorsal",
+            "justification": "Le patient est décrit comme obligé de s'asseoir, jambes pendantes, et non allongé."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue souvent nocturne",
+            "justification": "La survenue est précisée comme souvent nocturne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039521815_02",
+      "current_version_epoch_ms": 1755039521815,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer les signes suivants comme relevant de la détresse respiratoire aiguë dans l'OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence respiratoire > 30/minute",
+            "justification": "Un rythme respiratoire > 30/minute fait partie des signes de détresse respiratoire aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Tirage",
+            "justification": "Le tirage est listé parmi les signes de détresse respiratoire aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Sueurs profuses",
+            "justification": "Des sueurs profuses, indiquant une hypercapnie, sont citées dans cette catégorie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence respiratoire < 12/minute",
+            "justification": "Une fréquence respiratoire < 12/minute est rattachée à l'épuisement et non à la détresse respiratoire aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Normo- ou hypercapnie",
+            "justification": "La normo- ou hypercapnie figure parmi les signes de détresse respiratoire aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039521815_03",
+      "current_version_epoch_ms": 1755039521815,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les signes de choc chez un patient présentant un OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pression artérielle systolique < 90 mmHg ou chute de 30 mmHg par rapport à l'habituelle",
+            "justification": "Une PAS < 90 mmHg ou une chute de 30 mmHg est explicitement indiquée comme signe de choc."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de conscience",
+            "justification": "Les troubles de conscience sont listés comme signes de choc."
+          },
+          {
+            "correct": true,
+            "proposition": "Marbrures",
+            "justification": "Les marbrures sont mentionnées parmi les signes de choc."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoperfusion périphérique, oligurie",
+            "justification": "L'hypoperfusion périphérique avec oligurie est incluse dans les signes de choc."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique prolongée",
+            "justification": "La douleur thoracique est rangée dans le syndrome coronarien aigu, pas dans les signes de choc."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039521815_04",
+      "current_version_epoch_ms": 1755039521815,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les marqueurs d'épuisement au cours d'un OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aggravation de la cyanose",
+            "justification": "L'aggravation de la cyanose est indiquée dans la rubrique épuisement."
+          },
+          {
+            "correct": true,
+            "proposition": "Fréquence respiratoire < 12/minute",
+            "justification": "Une fréquence respiratoire < 12/minute est associée à l'épuisement."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes d'OAP persistants",
+            "justification": "La persistance des signes d'OAP fait partie des items d'épuisement."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion",
+            "justification": "La confusion est listée parmi les éléments d'épuisement."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque > 150/minute",
+            "justification": "Une fréquence cardiaque > 150/minute est signalée parmi les signes de détresse respiratoire aiguë, pas d'épuisement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755039521815_05",
+      "current_version_epoch_ms": 1755039521815,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Différencier les signes de syndrome coronarien aigu (SCA) associés à un OAP cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur thoracique",
+            "justification": "La douleur thoracique est mentionnée dans la section SCA."
+          },
+          {
+            "correct": true,
+            "proposition": "Surélévation du segment ST à l'ECG",
+            "justification": "La surélévation du ST (ECG ST+) est explicitement citée pour le SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Normo- ou hypercapnie",
+            "justification": "La normo- ou hypercapnie est un signe de détresse respiratoire aiguë, pas un critère de SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Marbrures",
+            "justification": "Les marbrures appartiennent aux signes de choc, non au SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Tirage",
+            "justification": "Le tirage relève de la détresse respiratoire aiguë et n'est pas un signe de SCA."
+          }
+        ]
+      }
+    }
+  ]
+}

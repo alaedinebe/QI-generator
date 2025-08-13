@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755037039905_01",
+      "current_version_epoch_ms": 1755037039905,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier, chez un patient asymptomatique porteur d'une insuffisance mitrale (IM) chronique sévère (grade 3/4), les critères qui permettent d'envisager une intervention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Retentissement ventriculaire gauche avec diamètre télésystolique > 45 mm",
+            "justification": "En cas d'IM chronique sévère asymptomatique, un retentissement VG avec diamètre télésystolique > 45 mm constitue un critère d'intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Fraction d'éjection ventriculaire gauche (FEVG) < 60 %",
+            "justification": "Une FEVG < 60 % chez un patient asymptomatique avec IM sévère justifie d'envisager une intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue d'une fibrillation atriale",
+            "justification": "La fibrillation atriale est un critère retenu pour proposer une intervention chez l'asymptomatique avec IM sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression artérielle pulmonaire systolique (PAPs) > 50 mmHg",
+            "justification": "Une PAPs > 50 mmHg est un critère d'indication chez l'asymptomatique avec IM sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "FEVG > 30 %",
+            "justification": "La mention FEVG > 30 % concerne l'IM chronique sévère symptomatique ; elle ne constitue pas en soi un critère d'intervention chez l'asymptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037039905_02",
+      "current_version_epoch_ms": 1755037039905,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître, pour un rétrécissement aortique (RA) serré, les situations constituant une indication de traitement chirurgical.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient symptomatique",
+            "justification": "Un RA serré symptomatique relève d'une indication opératoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Épreuve d'effort positive",
+            "justification": "Un RA serré avec épreuve d'effort positive constitue une indication de traitement chirurgical."
+          },
+          {
+            "correct": true,
+            "proposition": "Asymptomatique avec FEVG < 50 %",
+            "justification": "Chez l'asymptomatique, une FEVG < 50 % est un des critères justifiant l'intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Asymptomatique avec Vmax > 5,5 m/s, ou progression > 0,3 m/s/an, ou HVG importante",
+            "justification": "Chez l'asymptomatique, un RA très serré, d'évolution rapide, ou avec HVG importante motive l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Asymptomatique sans critère de sévérité ni altération de FEVG",
+            "justification": "En absence des critères listés (FEVG < 50 %, très serré, progression rapide, HVG importante), l'indication opératoire n'est pas retenue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037039905_03",
+      "current_version_epoch_ms": 1755037039905,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier, dans l'insuffisance aortique (IA) sévère chronique asymptomatique, les critères d'intervention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "FEVG < 50 %",
+            "justification": "Une FEVG < 50 % chez l'asymptomatique avec IA sévère chronique justifie une intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Diamètre télésystolique du VG > 50 mm",
+            "justification": "Un diamètre télésystolique > 50 mm est un critère d'intervention chez l'asymptomatique."
+          },
+          {
+            "correct": true,
+            "proposition": "Diamètre télédiastolique du VG > 70 mm",
+            "justification": "Un diamètre télédiastolique > 70 mm est également un critère d'intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Dilatation de l'aorte ascendante > 55 mm",
+            "justification": "Une dilatation de l'aorte ascendante > 55 mm motive une intervention, même sans symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Dilatation de l'aorte ascendante > 50 mm quel que soit le contexte",
+            "justification": "Le seuil > 50 mm s'applique spécifiquement à la bicuspidie aortique (et 45–50 mm au Marfan selon FDR) ; en dehors de ces contextes, le seuil retenu est > 55 mm."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037039905_04",
+      "current_version_epoch_ms": 1755037039905,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Différencier les situations relevant d'un traitement chirurgical du rétrécissement mitral (RM).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Commissurotomie percutanée non envisageable",
+            "justification": "Lorsque la commissurotomie percutanée n'est pas possible, un traitement chirurgical est indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "RM très sévère",
+            "justification": "Un RM très sévère relève d'une indication chirurgicale."
+          },
+          {
+            "correct": true,
+            "proposition": "RM sévère symptomatique",
+            "justification": "Un RM sévère symptomatique justifie une intervention chirurgicale."
+          },
+          {
+            "correct": true,
+            "proposition": "Autre chirurgie cardiaque associée nécessaire",
+            "justification": "La nécessité d'une autre chirurgie cardiaque associée motive l'intervention sur le RM."
+          },
+          {
+            "correct": false,
+            "proposition": "RM modéré asymptomatique sans HTAP post-capillaire ni gradient moyen > 15 mmHg à l'effort",
+            "justification": "L'indication chez le RM modéré requiert des symptômes avec HTAP post-capillaire et/ou gradient moyen > 15 mmHg à l'effort."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755037039905_05",
+      "current_version_epoch_ms": 1755037039905,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître les valvulopathies imposant une intervention chirurgicale en urgence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance mitrale aiguë mal tolérée",
+            "justification": "IM aiguë mal tolérée : indication en urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance aortique sévère aiguë",
+            "justification": "IA sévère aiguë : indication urgente (peu tolérée)."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement aortique serré symptomatique",
+            "justification": "C'est une indication opératoire, mais sans mention d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement mitral très sévère",
+            "justification": "Indication chirurgicale, sans caractère d'urgence spécifié."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance mitrale chronique sévère symptomatique avec FEVG > 30 %",
+            "justification": "Indication opératoire possible, mais non qualifiée d'urgence."
+          }
+        ]
+      }
+    }
+  ]
+}

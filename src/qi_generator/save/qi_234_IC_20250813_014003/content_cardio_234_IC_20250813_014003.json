@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755042210367_01",
+      "current_version_epoch_ms": 1755042210367,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les mesures initiales obligatoires dans la prise en charge immédiate d'un choc cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hospitalisation en soins intensifs ou réanimation médicale",
+            "justification": "La prise en charge doit se faire en milieu surveillé de haute technicité dès le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Mise en place d'une sonde urinaire",
+            "justification": "La pose d'une sonde urinaire fait partie des mesures initiales recommandées."
+          },
+          {
+            "correct": true,
+            "proposition": "Monitorage invasif de la pression artérielle par cathéter radial",
+            "justification": "Un monitorage invasif de la PA est indiqué d'emblée."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion de noradrénaline en première intention chez tous les patients",
+            "justification": "La première intention est la dobutamine ; la noradrénaline s'associe en cas de vasoplégie."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation de la volémie et adaptation (remplissage si hypovolémie, diurétiques si hyperhydratation extracellulaire)",
+            "justification": "L'ajustement au statut volémique fait partie des principes thérapeutiques initiaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042210367_02",
+      "current_version_epoch_ms": 1755042210367,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "À propos des agents inotropes et des catécholamines dans le choc cardiogénique, reconnaître les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La dobutamine est utilisée en première intention et exerce un effet inotrope positif via une stimulation bêta-1",
+            "justification": "La dobutamine est indiquée d'emblée pour l'effet inotrope positif (agoniste bêta-1)."
+          },
+          {
+            "correct": true,
+            "proposition": "La noradrénaline, à prédominance alpha, s'associe en deuxième ligne en cas de vasoplégie pour une vasoconstriction périphérique",
+            "justification": "Elle est ajoutée si vasoplégie pour restaurer le tonus vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le lévosimendan est un sensibilisateur calcique à propriétés inotropes et vasodilatatrices, discuté quand le sevrage des inotropes échoue et sans projet alternatif",
+            "justification": "Indiqué chez les patients non sevrables des inotropes en l'absence d'alternative (assistance, greffe)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le lévosimendan est le traitement de première intention de tout choc cardiogénique",
+            "justification": "Il n'est pas utilisé d'emblée ; il est réservé à des situations particulières."
+          },
+          {
+            "correct": false,
+            "proposition": "La dobutamine induit une inotropie négative",
+            "justification": "Au contraire, la dobutamine a un effet inotrope positif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042210367_03",
+      "current_version_epoch_ms": 1755042210367,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Adapter le traitement à l'état volémique chez un patient en choc cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer un remplissage si hypovolémie",
+            "justification": "Un remplissage est indiqué lorsqu'une hypovolémie est identifiée."
+          },
+          {
+            "correct": true,
+            "proposition": "Prescrire des diurétiques en cas d'hyperhydratation extracellulaire (signes de surcharge)",
+            "justification": "Les diurétiques sont utilisés devant une surcharge hydrosodée."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un remplissage systématique même en cas de signes de surcharge",
+            "justification": "Le traitement doit être adapté à la volémie ; en cas de surcharge, on privilégie les diurétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer que l'évaluation de la volémie est non indispensable",
+            "justification": "L'évaluation de la volémie est un principe clé pour guider remplissage ou diurétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter les diurétiques en présence d'hyperhydratation extracellulaire",
+            "justification": "En cas de surcharge, les diurétiques sont indiqués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042210367_04",
+      "current_version_epoch_ms": 1755042210367,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "En cas de non-réponse au traitement d'un choc cardiogénique, classer les options à discuter.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contre-pulsion intra-aortique dans l'infarctus du myocarde",
+            "justification": "Cette option peut être discutée spécifiquement dans le contexte d'infarctus."
+          },
+          {
+            "correct": true,
+            "proposition": "Assistance circulatoire de courte durée de type ECMO",
+            "justification": "L'ECMO fait partie des assistances de courte durée à discuter."
+          },
+          {
+            "correct": true,
+            "proposition": "Assistance uni- ou biventriculaire de plus longue durée",
+            "justification": "Une assistance mécanique prolongée peut être envisagée."
+          },
+          {
+            "correct": true,
+            "proposition": "Cœur artificiel ou greffe cardiaque en urgence",
+            "justification": "Ces options peuvent être discutées en dernier recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombolyse systématique comme stratégie d'escalade",
+            "justification": "Les options d'escalade mentionnées incluent contre-pulsion, assistances (ECMO, uni/bi-ventriculaire), cœur artificiel ou greffe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042210367_05",
+      "current_version_epoch_ms": 1755042210367,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments cliniques orientant vers un choc cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pression artérielle < 90 mmHg",
+            "justification": "Une hypotension marquée fait partie des critères indiqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Oligurie",
+            "justification": "La diminution du débit urinaire est un signe rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "Marbrures cutanées",
+            "justification": "Les marbrures cutanées sont citées parmi les signes cliniques initiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Pression artérielle systolique ≥ 140 mmHg",
+            "justification": "Le critère rapporté est une pression artérielle basse, non élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de marbrures cutanées",
+            "justification": "Les marbrures, et non leur absence, sont indiquées comme signe d'alerte."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755043036993_01",
+      "current_version_epoch_ms": 1755043036993,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier, le 1er jour d'une péricardite aiguë, les anomalies ECG attendues.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sus-décalage du segment ST concave vers le haut, diffus, sans miroir, sans onde Q, avec ondes T positives le 1er jour",
+            "justification": "Au stade 1, l'ECG montre un sus-décalage ST concave vers le haut, diffus, sans miroir, sans onde Q, avec ondes T positives le 1er jour."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment PQ",
+            "justification": "Le sous-décalage du PQ fait partie des signes précoces."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie sinusale",
+            "justification": "La tachycardie sinusale est un signe précoce décrit."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'ondes Q pathologiques",
+            "justification": "Il n'y a pas d'onde Q au stade initial décrit."
+          },
+          {
+            "correct": false,
+            "proposition": "Ondes T négatives dès le 1er jour",
+            "justification": "Les ondes T sont positives le 1er jour ; l'inversion des T survient plus tard."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043036993_02",
+      "current_version_epoch_ms": 1755043036993,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer les modifications des ondes T au cours du temps dans la péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ondes T plates entre la 24e et la 48e heure",
+            "justification": "Le stade 2 se caractérise par des ondes T plates entre 24 et 48 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes T négatives la première semaine",
+            "justification": "Le stade 3 correspond à des ondes T négatives la première semaine."
+          },
+          {
+            "correct": true,
+            "proposition": "Ondes T positives le 1er jour",
+            "justification": "Au stade 1, les ondes T sont positives le 1er jour."
+          },
+          {
+            "correct": true,
+            "proposition": "Normalisation au cours du 1er mois",
+            "justification": "Le stade 4 est la normalisation au cours du 1er mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Persistance obligatoire des ondes T positives après une semaine",
+            "justification": "Les ondes T deviennent négatives la première semaine, elles ne restent pas positives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043036993_03",
+      "current_version_epoch_ms": 1755043036993,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments du bilan biologique initial pertinent et leur interprétation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS et CRP pour évaluer l'inflammation, avec CRP qui peut être normale",
+            "justification": "Les marqueurs inflammatoires incluent NFS et CRP, qui peut être normale."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperleucocytose possible",
+            "justification": "Une hyperleucocytose avec syndrome inflammatoire est possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Troponine à rechercher systématiquement ; son élévation signe une myocardite associée et constitue un signe de gravité",
+            "justification": "La troponine est à rechercher systématiquement ; augmentée si myocardite associée, c'est un signe de gravité ++++."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin et créatinine pour dépister une insuffisance rénale avant AINS",
+            "justification": "Le dosage de l'ionogramme et de la créatinine vise la recherche d'une insuffisance rénale avant prescription d'AINS."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP toujours élevée dans la péricardite",
+            "justification": "La CRP peut être normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043036993_04",
+      "current_version_epoch_ms": 1755043036993,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier les signes ECG en cas d'épanchement péricardique abondant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Microvoltage avec amplitude QRS < 5 mm dans les dérivations périphériques",
+            "justification": "Le microvoltage est défini par une amplitude QRS < 5 mm en périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "Microvoltage avec amplitude QRS < 10 mm dans les dérivations précordiales",
+            "justification": "Le microvoltage est défini par une amplitude QRS < 10 mm en précordiales."
+          },
+          {
+            "correct": true,
+            "proposition": "Alternance électrique des QRS",
+            "justification": "L'épanchement abondant peut s'accompagner d'une alternance électrique."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS d'amplitude variable correspondant à l'équivalent électrique du « swinging heart » échographique",
+            "justification": "L'alternance électrique est l'équivalent électrique du swinging heart avec QRS d'amplitude variable."
+          },
+          {
+            "correct": false,
+            "proposition": "Apparition d'ondes Q pathologiques",
+            "justification": "La présence d'ondes Q n'est pas décrite dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043036993_05",
+      "current_version_epoch_ms": 1755043036993,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Interpréter un ECG dans la suspicion de péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un ECG normal n'élimine pas le diagnostic et doit être répété",
+            "justification": "L'ECG peut être normal, il doit être répété."
+          },
+          {
+            "correct": true,
+            "proposition": "Anomalies diffuses non systématisées possibles",
+            "justification": "Des anomalies diffuses non systématisées sont décrites."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du PQ fait partie des signes précoces",
+            "justification": "Le sous-décalage du PQ est cité parmi les signes précoces."
+          },
+          {
+            "correct": true,
+            "proposition": "Sus-décalage ST diffus sans miroir attendu au stade initial",
+            "justification": "Au stade 1, le sus-décalage ST est diffus et sans miroir."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG normal permet d'exclure formellement une péricardite",
+            "justification": "La normalité initiale n'exclut pas le diagnostic, l'examen doit être répété."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755047172157_01",
+      "current_version_epoch_ms": 1755047172157,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier, à l'interrogatoire, les éléments de terrain qui augmentent la gravité d'un trouble du rythme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cardiopathie sous-jacente (ischémique, dilatée, hypertrophique, congénitale).",
+            "justification": "Fait partie des antécédents personnels à rechercher parmi les éléments de gravité (terrain)."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents de troubles du rythme, notamment ventriculaires.",
+            "justification": "Explicitement cités dans les antécédents personnels à explorer pour apprécier la gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'un stimulateur ou d'un défibrillateur cardiaque.",
+            "justification": "Mentionnée dans les antécédents personnels recherchés dans l'évaluation du terrain."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents familiaux de mort subite du nourrisson ou avant 35 ans.",
+            "justification": "Orientent vers des arythmies de cause génétique et sont à rechercher sur l'arbre généalogique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les antécédents familiaux de mort subite avant 35 ans n'orientent pas l'évaluation.",
+            "justification": "À l'inverse, ils sont explicitement considérés comme un élément important à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047172157_02",
+      "current_version_epoch_ms": 1755047172157,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître sur l'ECG les situations évoquant une urgence absolue (risque d'arrêt cardio-respiratoire).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute tachycardie régulière à QRS larges est évocatrice de tachycardie ventriculaire jusqu'à preuve du contraire.",
+            "justification": "Énoncé tel quel parmi les critères ECG d'urgence absolue."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble de la repolarisation évoquant un syndrome coronaire aigu.",
+            "justification": "Listé comme élément ECG évocateur d'une urgence absolue."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie à QRS fins avec bonne tolérance clinique.",
+            "justification": "Seule la mauvaise tolérance est mentionnée comme élément de gravité ; la bonne tolérance n'est pas un critère d'urgence absolue."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de cardiopathie sous-jacente (séquelle, maladie électrique primaire) suffisent à définir une urgence absolue.",
+            "justification": "Ces signes sont cités comme éléments de gravité, pas comme critères d'urgence absolue."
+          },
+          {
+            "correct": false,
+            "proposition": "Une tachycardie régulière à QRS larges évoque d'abord une origine supraventriculaire.",
+            "justification": "À l'opposé, elle est à considérer comme ventriculaire jusqu'à preuve du contraire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047172157_03",
+      "current_version_epoch_ms": 1755047172157,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Classer les éléments ECG de gravité (hors critères d'urgence absolue).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie à QRS fins avec mauvaise tolérance clinique.",
+            "justification": "Explicitement citée comme élément ECG de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes de cardiopathie sous-jacente (séquelle, maladie électrique primaire).",
+            "justification": "Mentionnés comme éléments ECG de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble de la repolarisation évoquant un syndrome coronaire aigu.",
+            "justification": "Classé parmi les urgences absolues et non dans la rubrique des éléments de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie régulière à QRS larges est toujours rassurante si stable.",
+            "justification": "Au contraire, elle est évocatrice de tachycardie ventriculaire jusqu'à preuve du contraire."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'antécédents personnels à l'interrogatoire.",
+            "justification": "Il s'agit d'un élément d'interrogatoire, pas d'un critère ECG de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047172157_04",
+      "current_version_epoch_ms": 1755047172157,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Devant une tachycardie régulière à 160/min à QRS larges (aspect de retard droit) avec dissociation ventriculo-atriale et complexes de capture/fusion, quelle conclusion s'impose en première intention ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Considérer une tachycardie ventriculaire jusqu'à preuve du contraire.",
+            "justification": "Toute tachycardie régulière à QRS larges doit être tenue pour ventriculaire jusqu'à preuve du contraire ; l'exemple décrit est associé à ce cadre."
+          },
+          {
+            "correct": true,
+            "proposition": "Situation relevant d'une prise en charge en urgence absolue.",
+            "justification": "Les tachycardies régulières à QRS larges sont citées parmi les situations évoquant une urgence absolue avec risque d'arrêt cardio-respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Classer l'épisode comme tachycardie à QRS fins.",
+            "justification": "Le tracé décrit comporte des QRS larges ; ce n'est pas un QRS fin."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas rechercher la tolérance hémodynamique ni le terrain.",
+            "justification": "La gravité repose aussi sur la mauvaise tolérance hémodynamique et le terrain, à rechercher à l'interrogatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Conclure à un simple trouble de la repolarisation isolé.",
+            "justification": "Le tableau décrit une tachycardie régulière à QRS larges, pas un trouble de la repolarisation isolé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755047172157_05",
+      "current_version_epoch_ms": 1755047172157,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "À l'interrogatoire, reconnaître les symptômes et signes cliniques utiles pour apprécier la gravité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lipothymies ou syncopes.",
+            "justification": "Mentionnées comme symptômes à rechercher pour évaluer la gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes de bas débit (confusion, douleurs abdominales).",
+            "justification": "Cités comme signes orientant vers un bas débit à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes d'insuffisance cardiaque (dyspnée).",
+            "justification": "Explicitement listés parmi les éléments cliniques à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Angor / douleur thoracique.",
+            "justification": "Indiqué comme symptôme à rechercher, notamment en lien avec un syndrome coronaire aigu ou fonctionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces manifestations ne sont pas utiles à rechercher lors de l'évaluation initiale.",
+            "justification": "À l'inverse, elles sont précisément celles à rechercher pour apprécier la gravité."
+          }
+        ]
+      }
+    }
+  ]
+}

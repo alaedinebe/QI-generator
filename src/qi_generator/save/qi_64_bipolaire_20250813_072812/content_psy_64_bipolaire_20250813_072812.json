@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bipolaire",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755063099059_01",
+      "current_version_epoch_ms": 1755063099059,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Identifier les éléments pertinents du bilan étiologique initial chez un patient présentant un trouble de l'humeur.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie",
+            "justification": "Fait partie du bilan sanguin recommandé (bilan étiologique)."
+          },
+          {
+            "correct": true,
+            "proposition": "TSH ultrasensible (TSHus)",
+            "justification": "Incluse dans le bilan sanguin initial afin d'éliminer une cause non psychiatrique."
+          },
+          {
+            "correct": true,
+            "proposition": "Toxicologie urinaire (cannabis, amphétamines, cocaïne)",
+            "justification": "Prévue au bilan urinaire pour rechercher une cause toxique."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie cérébrale et EEG systématiques chez tout patient",
+            "justification": "L'imagerie cérébrale et l'EEG ne sont indiqués qu'en cas de 1er épisode, point d'appel neurologique ou manifestation atypique."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan hépatique",
+            "justification": "Fait partie des examens sanguins listés au bilan paraclinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755063099059_02",
+      "current_version_epoch_ms": 1755063099059,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Dans quelles situations faut-il réaliser une imagerie cérébrale et/ou un EEG dans l'évaluation initiale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Premier épisode",
+            "justification": "L'imagerie et/ou l'EEG sont indiqués lors d'un premier épisode."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'un point d'appel neurologique",
+            "justification": "Un signe neurologique oriente vers une exploration par imagerie et/ou EEG."
+          },
+          {
+            "correct": true,
+            "proposition": "Manifestation atypique",
+            "justification": "Une présentation atypique justifie ces examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi de routine chez un patient diagnostiqué et stable",
+            "justification": "Le suivi de routine n'est pas mentionné parmi les indications (réservé au 1er épisode, point d'appel neurologique ou atypie)."
+          },
+          {
+            "correct": false,
+            "proposition": "Demande du patient sans indication clinique",
+            "justification": "L'indication repose sur le 1er épisode, un point d'appel neurologique ou une atypie, pas sur la demande seule."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755063099059_03",
+      "current_version_epoch_ms": 1755063099059,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Reconnaître les indications d'une hospitalisation en psychiatrie dans le cadre des troubles de l'humeur.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque suicidaire élevé",
+            "justification": "Fait partie des indications explicites d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Agitation avec troubles du comportement délétères pour le patient ou l'entourage",
+            "justification": "Constitue une indication d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque hétéro-agressif",
+            "justification": "Mentionné comme motif d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Altération de l'état général",
+            "justification": "Figure parmi les indications d'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Simple demande d'arrêt de travail",
+            "justification": "Ne fait pas partie des indications d'hospitalisation énumérées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755063099059_04",
+      "current_version_epoch_ms": 1755063099059,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Classer les mesures adaptées à la prise en charge de l'épisode maniaque aigu.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement de l'agitation",
+            "justification": "Priorité de la phase aiguë maniaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitement des perturbations du sommeil par anxiolytique/hypnotique",
+            "justification": "Recommandé pour corriger les troubles du sommeil."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt du traitement antidépresseur le cas échéant",
+            "justification": "Indiqué lors de l'épisode maniaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Initiation d'un thymorégulateur et/ou d'un antipsychotique de 2e génération",
+            "justification": "Constitue le traitement de fond médicamenteux de la phase aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription d'un antidépresseur pour corriger l'humeur",
+            "justification": "À l'inverse, l'antidépresseur doit être arrêté le cas échéant en phase maniaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755063099059_05",
+      "current_version_epoch_ms": 1755063099059,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Définir la place de l'électroconvulsivothérapie (ECT) dans les troubles de l'humeur.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peut être utilisée en phase aiguë maniaque ou dépressive",
+            "justification": "Indiquée dans les deux phases lorsque nécessaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Indiquée lorsque la symptomatologie est sévère et engage le pronostic vital à court terme",
+            "justification": "Fait partie des indications de recours à l'ECT."
+          },
+          {
+            "correct": true,
+            "proposition": "Indiquée en cas de résistance médicamenteuse (inefficacité ou effets indésirables non acceptables)",
+            "justification": "Proposée en cas d'échec thérapeutique ou d'intolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Réservée exclusivement aux épisodes dépressifs et jamais en manie",
+            "justification": "L'ECT peut être utilisée aussi en phase maniaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut être envisagée lorsque les traitements pharmacologiques ont des effets indésirables non acceptables",
+            "justification": "Mentionnée comme situation justifiant l'ECT."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755048414112_01",
+      "current_version_epoch_ms": 1755048414112,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier le mécanisme électrophysiologique à l'origine du syndrome de Wolff-Parkinson-White.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une voie accessoire atrio-ventriculaire reliant oreillettes et ventricules (faisceau de Kent).",
+            "justification": "Le syndrome repose sur une voie accessoire atrio-ventriculaire, dite faisceau de Kent, reliant oreillettes et ventricules."
+          },
+          {
+            "correct": false,
+            "proposition": "Conduction normale sans voie accessoire atrio-ventriculaire.",
+            "justification": "Une voie accessoire est constitutive du syndrome."
+          },
+          {
+            "correct": true,
+            "proposition": "Pré-excitation ventriculaire possible en rythme sinusal.",
+            "justification": "La présence d'une voie accessoire peut entraîner une pré-excitation ventriculaire en rythme sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Responsable de tachycardies jonctionnelles.",
+            "justification": "La voie accessoire est responsable de tachycardies jonctionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble défini par un intervalle PR allongé.",
+            "justification": "La pré-excitation s'accompagne d'un PR court (<120 ms), et non allongé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048414112_02",
+      "current_version_epoch_ms": 1755048414112,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître la triade ECG de la pré-excitation ventriculaire en rythme sinusal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PR court (<120 ms).",
+            "justification": "Le PR court (<120 ms) fait partie de la triade caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "QRS larges.",
+            "justification": "Des QRS larges appartiennent à la triade de la pré-excitation en rythme sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Empâtement initial du QRS (onde delta).",
+            "justification": "L'onde delta correspond à l'empâtement initial du QRS et complète la triade."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS fins.",
+            "justification": "La triade comporte des QRS larges, pas fins."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle PR long.",
+            "justification": "La triade comprend un PR court, non long."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048414112_03",
+      "current_version_epoch_ms": 1755048414112,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les anomalies attendues sur un ECG intercritique chez un patient avec Wolff-Parkinson-White.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intervalle PR court.",
+            "justification": "L'ECG intercritique peut révéler un PR court."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une onde delta.",
+            "justification": "L'ECG intercritique peut montrer une onde delta."
+          },
+          {
+            "correct": false,
+            "proposition": "Triade complète obligatoire (PR court, QRS larges, onde delta).",
+            "justification": "En intercritique, la mise en évidence d'un PR court et d'une onde delta peut suffire."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'onde delta.",
+            "justification": "L'onde delta fait partie des anomalies observables en intercritique."
+          },
+          {
+            "correct": false,
+            "proposition": "PR allongé obligatoire.",
+            "justification": "Le PR est court, pas allongé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048414112_04",
+      "current_version_epoch_ms": 1755048414112,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Différencier ce qui caractérise l'onde delta et la pré-excitation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'onde delta correspond à l'empâtement de la phase initiale du QRS.",
+            "justification": "L'onde delta est définie par l'empâtement initial du QRS."
+          },
+          {
+            "correct": true,
+            "proposition": "L'onde delta traduit une pré-excitation ventriculaire.",
+            "justification": "La pré-excitation ventriculaire se manifeste par l'onde delta."
+          },
+          {
+            "correct": false,
+            "proposition": "L'onde delta se définit par des QRS fins.",
+            "justification": "La pré-excitation s'associe à des QRS larges."
+          },
+          {
+            "correct": true,
+            "proposition": "L'onde delta s'inscrit dans la triade PR court, QRS larges, onde delta.",
+            "justification": "Elle fait partie de la triade en rythme sinusal."
+          },
+          {
+            "correct": false,
+            "proposition": "L'onde delta s'accompagne d'un PR allongé.",
+            "justification": "La pré-excitation s'accompagne d'un PR court (<120 ms)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048414112_05",
+      "current_version_epoch_ms": 1755048414112,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Classer les éléments qui orientent vers une pré-excitation liée à une voie accessoire chez un patient suspect de Wolff-Parkinson-White.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rythme sinusal avec PR court (<120 ms).",
+            "justification": "Un PR court en rythme sinusal est un critère de pré-excitation."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythme sinusal avec QRS larges et onde delta.",
+            "justification": "La combinaison QRS larges et onde delta est évocatrice de pré-excitation."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG normal sans voie accessoire atrio-ventriculaire.",
+            "justification": "La présence d'une voie accessoire est au cœur du diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardies jonctionnelles dans les antécédents.",
+            "justification": "La voie accessoire est responsable de tachycardies jonctionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'onde delta en intercritique.",
+            "justification": "En intercritique, une onde delta peut être visible avec un PR court."
+          }
+        ]
+      }
+    }
+  ]
+}

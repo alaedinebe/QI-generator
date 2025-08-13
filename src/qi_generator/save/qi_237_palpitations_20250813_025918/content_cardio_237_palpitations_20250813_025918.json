@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755046965501_01",
+      "current_version_epoch_ms": 1755046965501,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Définir les palpitations : identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un trouble subjectif.",
+            "justification": "La définition insiste sur un ressenti subjectif du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles correspondent à la perception anormale de battements cardiaques normaux ou anormaux.",
+            "justification": "La perception peut porter sur des battements physiologiques ou pathologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles nécessitent obligatoirement une arythmie pour exister.",
+            "justification": "La définition inclut aussi la perception de battements normaux ; une arythmie n'est pas indispensable."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles sont décrites comme la sensation d'un cœur qui se « débat » dans la poitrine.",
+            "justification": "Cette description figure dans la définition proposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont un phénomène objectif défini par l'examen clinique.",
+            "justification": "Il s'agit d'un trouble subjectif, non d'un signe objectivé d'emblée par l'examen."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046965501_02",
+      "current_version_epoch_ms": 1755046965501,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Classer les descriptions suivantes selon la forme de palpitations : hyperkinétique ou rythmique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hyperkinétique : sensation que le cœur bat trop fort.",
+            "justification": "La forme hyperkinétique est définie par un battement perçu comme trop fort."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythmique : sensation que le cœur bat trop vite.",
+            "justification": "La forme rythmique inclut la tachycardie perçue comme trop rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Rythmique : sensation de battements irréguliers.",
+            "justification": "La forme rythmique comprend l'irrégularité ressentie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperkinétique : sensation de battements irréguliers.",
+            "justification": "L'hyperkinétique renvoie à l'intensité (trop fort), pas à l'irrégularité."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperkinétique : survient uniquement lors d'une tachycardie.",
+            "justification": "L'hyperkinétique est définie par la force perçue, indépendamment d'un rythme trop rapide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046965501_03",
+      "current_version_epoch_ms": 1755046965501,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître le siège de perception des palpitations selon la définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles peuvent être ressenties en latéro-cervical le long des axes carotides.",
+            "justification": "La définition mentionne explicitement la perception latéro-cervicale carotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont strictement limitées à la région précordiale.",
+            "justification": "La possibilité d'une perception latéro-cervicale s'oppose à une localisation strictement précordiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne sont jamais perçues au niveau du cou.",
+            "justification": "La perception le long des axes carotides (cou) est possible."
+          },
+          {
+            "correct": true,
+            "proposition": "La perception peut se projeter vers le cou.",
+            "justification": "La projection latéro-cervicale est intégrée à la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "La définition exige une confirmation par palpation artérielle pour parler de palpitations.",
+            "justification": "Il s'agit d'un ressenti subjectif, sans exigence de confirmation instrumentale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046965501_04",
+      "current_version_epoch_ms": 1755046965501,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Différencier intensité et rythme dans les palpitations.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dire « le cœur bat trop fort » renvoie à des palpitations hyperkinétiques.",
+            "justification": "L'hyperkinétique est définie par l'intensité excessive perçue."
+          },
+          {
+            "correct": true,
+            "proposition": "Dire « le cœur bat trop vite » renvoie à des palpitations rythmiques.",
+            "justification": "La forme rythmique inclut la tachycardie perçue."
+          },
+          {
+            "correct": true,
+            "proposition": "Dire « le cœur bat irrégulièrement » renvoie à des palpitations rythmiques.",
+            "justification": "L'irrégularité du rythme fait partie de la forme rythmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une sensation de battements trop forts implique nécessairement une irrégularité.",
+            "justification": "L'intensité perçue (hyperkinétique) ne préjuge pas de la régularité."
+          },
+          {
+            "correct": false,
+            "proposition": "Une sensation de battements trop rapides correspond à une hyperkinésie.",
+            "justification": "« Trop rapide » relève de la forme rythmique, non de l'hyperkinétique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046965501_05",
+      "current_version_epoch_ms": 1755046965501,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les propositions exactes concernant la portée de la définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles peuvent concerner des battements cardiaques normaux.",
+            "justification": "La définition inclut la perception de battements normaux ou anormaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne concernent que des battements cardiaques anormaux.",
+            "justification": "La restriction aux seuls battements anormaux contredit la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles correspondent à un ressenti du patient.",
+            "justification": "Il est précisé qu'il s'agit d'un trouble subjectif."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles peuvent être décrites comme « le cœur se débattant ».",
+            "justification": "Cette description fait partie des expressions rapportées."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles impliquent systématiquement un rythme irrégulier.",
+            "justification": "La forme rythmique peut être rapide ou irrégulière, mais l'irrégularité n'est pas obligatoire."
+          }
+        ]
+      }
+    }
+  ]
+}

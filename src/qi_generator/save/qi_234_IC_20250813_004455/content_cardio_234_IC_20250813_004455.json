@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755038901845_01",
+      "current_version_epoch_ms": 1755038901845,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les signes de l'œdème interstitiel dans l'OAP d'origine hémodynamique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de lignes B de Kerley.",
+            "justification": "Fait partie de l'œdème interstitiel décrit."
+          },
+          {
+            "correct": true,
+            "proposition": "Aspect flou des gros vaisseaux hilaires.",
+            "justification": "Décrit parmi les signes d'œdème interstitiel."
+          },
+          {
+            "correct": true,
+            "proposition": "Images réticulo-nodulaires prédominant aux bases.",
+            "justification": "Mentionnées comme anomalies interstitielles basales."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacités floconneuses à contours flous en « ailes de papillon ».",
+            "justification": "Correspond à l'œdème alvéolaire, pas interstitiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Rapport cardiothoracique > 0,5.",
+            "justification": "Traduit une cardiomégalie, non un signe interstitiel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038901845_02",
+      "current_version_epoch_ms": 1755038901845,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques de l'œdème alvéolaire dans l'OAP d'origine hémodynamique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacités floconneuses à contours flous partant des hiles vers la périphérie.",
+            "justification": "Décrit comme l'expression de l'œdème alvéolaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Aspect dit « en ailes de papillon ».",
+            "justification": "Aspect caractéristique des opacités alvéolaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours bilatérales sans exception.",
+            "justification": "Des formes unilatérales trompeuses peuvent se voir."
+          },
+          {
+            "correct": true,
+            "proposition": "Possibilité de formes unilatérales trompeuses (insuffisance mitrale directionnelle).",
+            "justification": "Explicitement mentionné comme possibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Réticulo-nodules basaux prédominants.",
+            "justification": "Relève de l'atteinte interstitielle, pas alvéolaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038901845_03",
+      "current_version_epoch_ms": 1755038901845,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier le signe radiographique de stase vasculaire en OAP d'origine hémodynamique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Redistribution vasculaire de la base vers les sommets.",
+            "justification": "Signalé comme signe de stase vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural uni- ou bilatéral.",
+            "justification": "Anomalie pleurale, pas un signe de redistribution vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Rapport cardiothoracique > 0,5.",
+            "justification": "Traduit une cardiomégalie, non la stase vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lignes B de Kerley.",
+            "justification": "Relève de l'œdème interstitiel, pas de la redistribution vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacités en « ailes de papillon ».",
+            "justification": "Correspondent à l'œdème alvéolaire, non à la stase vasculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038901845_04",
+      "current_version_epoch_ms": 1755038901845,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Définir radiologiquement la cardiomégalie dans ce contexte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation du rapport cardiothoracique (RCT) > 0,5.",
+            "justification": "Seuil indiqué pour la cardiomégalie."
+          },
+          {
+            "correct": false,
+            "proposition": "RCT > 0,6 uniquement.",
+            "justification": "Le seuil retenu est > 0,5."
+          },
+          {
+            "correct": false,
+            "proposition": "RCT < 0,5.",
+            "justification": "Un RCT inférieur à 0,5 n'indique pas de cardiomégalie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'opacités en « ailes de papillon ».",
+            "justification": "Signe alvéolaire, indépendant du RCT."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'épanchements pleuraux bilatéraux.",
+            "justification": "Atteinte pleurale, ne définit pas la cardiomégalie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038901845_05",
+      "current_version_epoch_ms": 1755038901845,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les anomalies pleurales attendues dans l'OAP d'origine hémodynamique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épanchements pleuraux uni- ou bilatéraux.",
+            "justification": "Mentionnés comme possibles dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Redistribution vasculaire de la base vers les sommets.",
+            "justification": "Relève de la stase vasculaire, pas d'une atteinte pleurale."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacités floconneuses en « ailes de papillon ».",
+            "justification": "Relèvent de l'œdème alvéolaire, non pleural."
+          },
+          {
+            "correct": false,
+            "proposition": "Lignes B de Kerley.",
+            "justification": "Signe interstitiel, non pleural."
+          },
+          {
+            "correct": false,
+            "proposition": "Images réticulo-nodulaires basales.",
+            "justification": "Signe interstitiel, non pleural."
+          }
+        ]
+      }
+    }
+  ]
+}

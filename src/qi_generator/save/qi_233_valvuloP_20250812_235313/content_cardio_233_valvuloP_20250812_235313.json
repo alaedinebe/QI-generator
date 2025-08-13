@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755035799965_01",
+      "current_version_epoch_ms": 1755035799965,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier les indications respectives de l'ETT et de l'ETO dans l'évaluation des valvulopathies.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ETT est l'examen clef pour l'évaluation des valvulopathies.",
+            "justification": "L'ETT est explicitement présentée comme l'examen clef pour les valvulopathies."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ETO est surtout indiquée pour les valvulopathies mitrales.",
+            "justification": "L'ETO est dite « surtout indiquée » pour l'évaluation des valvulopathies mitrales."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ETO est indiquée en cas de suspicion d'endocardite.",
+            "justification": "Une indication spécifique de l'ETO est la suspicion d'endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETT n'a pas d'intérêt pour apprécier la sévérité d'une valvulopathie.",
+            "justification": "L'échographie a pour but d'apprécier la sévérité, et l'ETT en est l'examen clef."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO est l'examen de première intention pour toutes les valvulopathies aortiques.",
+            "justification": "L'ETO est surtout indiquée pour la mitrale et l'endocardite, pas pour toutes les valvulopathies aortiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035799965_02",
+      "current_version_epoch_ms": 1755035799965,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Différencier les caractéristiques échographiques d'une IM organique (type II de Carpentier) et d'une IM fonctionnelle (type I+III).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prolapsus de la valve mitrale postérieure en ETO avec jet régurgitant excentré : IM organique type II.",
+            "justification": "L'ETO montre un prolapsus postérieur avec jet excentré dans l'IM organique type II."
+          },
+          {
+            "correct": true,
+            "proposition": "Dilatation de l'anneau et tenting des feuillets en ETT avec jet central : IM type I+III.",
+            "justification": "L'ETT décrit une IM par dilatation de l'anneau + tenting avec jet central (type I+III)."
+          },
+          {
+            "correct": false,
+            "proposition": "Un jet régurgitant central en ETT signe typiquement une IM organique type II.",
+            "justification": "Le jet central est associé à l'IM fonctionnelle (type I+III), pas au type II."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO n'est pas utile pour les valvulopathies mitrales.",
+            "justification": "L'ETO est au contraire surtout indiquée pour les valvulopathies mitrales."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ETT peut objectiver une IM par dilatation de l'anneau.",
+            "justification": "L'ETT montre l'IM par dilatation de l'anneau avec tenting et jet central."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035799965_03",
+      "current_version_epoch_ms": 1755035799965,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître les signes d'un rétrécissement aortique (RA) serré en échographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Valve aortique calcifiée avec ouverture limitée en ETT.",
+            "justification": "Le RA serré est décrit avec une valve calcifiée et une ouverture limitée en ETT."
+          },
+          {
+            "correct": true,
+            "proposition": "Gradient élevé en Doppler continu (CW) en ETT.",
+            "justification": "Un gradient élevé en Doppler continu est rapporté dans le RA serré."
+          },
+          {
+            "correct": false,
+            "proposition": "Flux régurgitant dans le ventricule gauche en Doppler couleur et continu.",
+            "justification": "Ce profil correspond à une IA massive, pas à un RA."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO est surtout indiquée pour évaluer un RA.",
+            "justification": "L'ETO est surtout indiquée pour la mitrale et l'endocardite ; l'ETT est l'examen clef."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ETT est l'examen clef pour l'évaluation des valvulopathies.",
+            "justification": "Rappel du rôle central de l'ETT pour les valvulopathies, incluant le RA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035799965_04",
+      "current_version_epoch_ms": 1755035799965,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Classer les éléments échographiques en faveur d'une insuffisance aortique (IA) massive.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'un flux régurgitant dans le ventricule gauche en Doppler couleur.",
+            "justification": "L'ETT avec IA massive montre un flux régurgitant dans le VG en Doppler couleur."
+          },
+          {
+            "correct": true,
+            "proposition": "Mise en évidence d'un flux régurgitant en Doppler continu.",
+            "justification": "L'IA massive est visualisée également en Doppler continu."
+          },
+          {
+            "correct": false,
+            "proposition": "Valve aortique calcifiée avec ouverture limitée.",
+            "justification": "Cette description est celle d'un RA serré."
+          },
+          {
+            "correct": false,
+            "proposition": "Jet mitral excentré lié à un prolapsus postérieur.",
+            "justification": "Ce tableau correspond à une IM organique type II."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ETT permet d'objectiver ces anomalies.",
+            "justification": "L'ETT est montrée avec IA massive et les signaux Doppler caractéristiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035799965_05",
+      "current_version_epoch_ms": 1755035799965,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Définir les critères échographiques d'un rétrécissement mitral (RM) serré et rappeler les objectifs de l'échographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mitrale remaniée calcifiée avec ouverture limitée en ETO.",
+            "justification": "Le RM serré est illustré par une mitrale remaniée calcifiée à ouverture limitée en ETO."
+          },
+          {
+            "correct": true,
+            "proposition": "Gradient élevé en Doppler continu.",
+            "justification": "Un gradient élevé en Doppler continu est rapporté dans le RM serré."
+          },
+          {
+            "correct": true,
+            "proposition": "Surface mitrale < 1,5 cm2 en 2D et 3D.",
+            "justification": "Le RM serré comporte une surface < 1,5 cm2 en imagerie 2D et 3D."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ETO est inutile pour l'évaluation mitrale.",
+            "justification": "L'ETO est surtout indiquée pour les valvulopathies mitrales."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échographie sert à confirmer le diagnostic, apprécier la sévérité, déterminer l'étiologie, évaluer le retentissement et rechercher d'autres valvulopathies.",
+            "justification": "Ces finalités sont explicitement listées pour l'échographie cardiaque."
+          }
+        ]
+      }
+    }
+  ]
+}

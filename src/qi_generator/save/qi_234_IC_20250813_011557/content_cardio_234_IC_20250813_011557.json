@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755040763771_01",
+      "current_version_epoch_ms": 1755040763771,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier parmi les propositions les classes médicamenteuses recommandées en cardioprotection standard dans l'insuffisance cardiaque à FEVG réduite.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Les diurétiques font partie des traitements cardioprotecteurs standards",
+            "justification": "Les diurétiques sont indiqués en traitement symptomatique en cas de signes de congestion, pas comme cardioprotecteurs standards."
+          },
+          {
+            "correct": true,
+            "proposition": "Inhibiteurs de l'enzyme de conversion (IEC) ou sacubitril/valsartan (ARNi)",
+            "justification": "Les IEC et l'ARNi (sacubitril/valsartan) font partie des traitements cardioprotecteurs standards en cas d'IC avec FEVG réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Bêtabloquants",
+            "justification": "Les bêtabloquants sont listés parmi les traitements cardioprotecteurs standards en IC à FEVG réduite."
+          },
+          {
+            "correct": true,
+            "proposition": "Antagonistes des récepteurs de l'aldostérone (spironolactone ou éplérénone)",
+            "justification": "Les antagonistes des récepteurs de l'aldostérone font partie des options cardioprotectrices standards."
+          },
+          {
+            "correct": true,
+            "proposition": "Gliflozines",
+            "justification": "Les gliflozines figurent parmi les classes recommandées en cardioprotection standard."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040763771_02",
+      "current_version_epoch_ms": 1755040763771,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Concernant les définitions et calculs hémodynamiques du ventricule gauche, cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le volume d'éjection systolique (VES) se calcule : VES = VTD − VTS",
+            "justification": "Le VES est défini comme la différence entre le volume télédiastolique et le volume télésystolique."
+          },
+          {
+            "correct": true,
+            "proposition": "La fraction d'éjection (FEVG) se calcule : FEVG = (VTD − VTS) / VTD",
+            "justification": "La FEVG est le rapport du volume éjecté sur le volume télédiastolique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le débit cardiaque (Qc) se calcule : Qc = VES × fréquence cardiaque",
+            "justification": "Le débit cardiaque est le volume éjecté par unité de temps, produit du VES par la fréquence cardiaque."
+          },
+          {
+            "correct": true,
+            "proposition": "La précharge correspond aux conditions de remplissage ventriculaire en diastole",
+            "justification": "La précharge est liée aux conditions de remplissage du ventricule durant la diastole."
+          },
+          {
+            "correct": false,
+            "proposition": "La postcharge correspond aux conditions de remplissage ventriculaire en diastole",
+            "justification": "La postcharge correspond aux conditions d'éjection en systole, pas au remplissage diastolique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040763771_03",
+      "current_version_epoch_ms": 1755040763771,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "À propos du remodelage ventriculaire dans l'insuffisance cardiaque, cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit de modifications moléculaires, cellulaires et interstitielles se traduisant par des changements de taille, de forme et de fonction du cœur",
+            "justification": "Le remodelage est défini par des altérations multiscalaires conduisant à des changements de géométrie et de fonction cardiaques."
+          },
+          {
+            "correct": true,
+            "proposition": "Il survient quelle que soit la cause de l'insuffisance cardiaque",
+            "justification": "Le remodelage est présent indépendamment de l'étiologie de l'IC."
+          },
+          {
+            "correct": true,
+            "proposition": "À court terme, il peut s'accompagner d'une augmentation de l'inotropie ou du volume d'éjection",
+            "justification": "Une augmentation transitoire de l'inotropie ou du VES peut être observée à court terme."
+          },
+          {
+            "correct": false,
+            "proposition": "À long terme, il améliore la géométrie et la fonction ventriculaire",
+            "justification": "À long terme, il est associé à une altération de la géométrie et de la fonction ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Il implique notamment activation neurohormonale, altération du métabolisme calcique et mitochondrial, fibrose interstitielle, hypertrophie et mort cellulaire",
+            "justification": "Ces mécanismes sont explicitement décrits comme participants au remodelage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040763771_04",
+      "current_version_epoch_ms": 1755040763771,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Concernant la désynchronisation et les arythmies au cours de l'insuffisance cardiaque, cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le bloc de branche gauche et le BAV du premier degré sont des troubles de l'activation pouvant entraîner des conséquences hémodynamiques",
+            "justification": "Ces anomalies d'activation réduisent la durée de diastole et retardent la contraction de la paroi latérale."
+          },
+          {
+            "correct": true,
+            "proposition": "La resynchronisation peut corriger la désynchronisation",
+            "justification": "Des techniques de stimulation spécifiques sont mentionnées pour corriger la désynchronisation."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG est le plus souvent strictement normal chez un patient insuffisant cardiaque",
+            "justification": "Il est rare qu'un patient IC ait un ECG strictement normal."
+          },
+          {
+            "correct": true,
+            "proposition": "Les modifications observées favorisent la survenue d'arythmies ventriculaires (extrasystoles, tachycardies, fibrillation)",
+            "justification": "L'altération du substrat, l'activation neurohormonale et les gâchettes électriques favorisent ces arythmies."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'IC sévère, un dispositif de défibrillation peut prévenir la mort subite",
+            "justification": "La prévention des morts subites par mise en place d'un système de défibrillation est mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755040763771_05",
+      "current_version_epoch_ms": 1755040763771,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "À propos de l'insuffisance cardiaque droite, cochez les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut être due à une atteinte intrinsèque du ventricule droit",
+            "justification": "L'atteinte primitive du ventricule droit est une cause possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut résulter d'une élévation de la postcharge du VD liée à une HTP précapillaire ou postcapillaire",
+            "justification": "L'HTP, qu'elle soit précapillaire ou postcapillaire, augmente la postcharge du VD."
+          },
+          {
+            "correct": true,
+            "proposition": "La cause postcapillaire la plus fréquente est l'insuffisance cardiaque gauche",
+            "justification": "L'IC gauche est indiquée comme la cause la plus fréquente d'HTP postcapillaire menant à l'IC droite."
+          },
+          {
+            "correct": true,
+            "proposition": "Les signes cliniques incluent œdèmes des membres inférieurs et turgescence jugulaire",
+            "justification": "Ces signes sont rapportés comme manifestations cliniques d'IC droite."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ascite et l'insuffisance hépatocellulaire sont des signes précoces",
+            "justification": "Ces signes surviennent aux stades tardifs ; en imagerie, on retrouve dilatation de la VCI et reflux vers les veines sus-hépatiques."
+          }
+        ]
+      }
+    }
+  ]
+}

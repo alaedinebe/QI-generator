@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755048620769_01",
+      "current_version_epoch_ms": 1755048620769,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Définir le principe diagnostique de la névrose cardiaque (OIC-237-09-B).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est un diagnostic d'élimination.",
+            "justification": "Il est explicitement précisé qu'il s'agit d'un diagnostic d'élimination."
+          },
+          {
+            "correct": true,
+            "proposition": "Il repose sur un ECG percritique strictement normal.",
+            "justification": "Le critère central est l'ECG percritique strictement normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Il nécessite systématiquement un ECG anormal pendant les symptômes.",
+            "justification": "L'ECG attendu est strictement normal en phase percritique, pas anormal."
+          },
+          {
+            "correct": true,
+            "proposition": "Le monitorage de longue durée est souvent utile pour documenter cet ECG.",
+            "justification": "Le monitorage de longue durée est cité comme moyen d'obtenir l'ECG percritique normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Il se fonde sur la mise en évidence d'une pathologie cardiaque structurelle.",
+            "justification": "La présence d'une pathologie cardiaque identifiée va à l'encontre de ce diagnostic d'élimination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048620769_02",
+      "current_version_epoch_ms": 1755048620769,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier les situations qui doivent faire évoquer une névrose cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examens cliniques et paracliniques tous normaux.",
+            "justification": "La normalité des examens est un élément devant faire évoquer ce diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de pathologie cardiaque et extracardiaque identifiée.",
+            "justification": "L'absence de cause cardio ou extracardio objectivée est un critère d'évocation."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de signes de dépression (humeur triste/douleur morale) ou d'anxiété.",
+            "justification": "La survenue de signes dépressifs ou anxieux est un contexte orientant."
+          },
+          {
+            "correct": false,
+            "proposition": "Découverte d'une pathologie extracardiaque expliquant les symptômes.",
+            "justification": "L'identification d'une autre pathologie explique les symptômes et n'oriente plus vers cette hypothèse d'élimination."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalies objectivées aux examens paracliniques.",
+            "justification": "La démarche s'appuie sur des examens normaux, non sur des anomalies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048620769_03",
+      "current_version_epoch_ms": 1755048620769,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître le rôle de l'ECG percritique et du monitorage dans la névrose cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ECG percritique doit être strictement normal.",
+            "justification": "Le diagnostic repose sur un ECG percritique strictement normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG percritique anormal oriente vers une névrose cardiaque.",
+            "justification": "La normalité, et non l'anomalie, est recherchée en période percritique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le monitorage de longue durée est utile pour obtenir un enregistrement percritique.",
+            "justification": "Le monitorage prolongé est mentionné comme moyen d'obtenir l'ECG percritique normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Un simple ECG réalisé hors symptômes suffit toujours.",
+            "justification": "La référence est l'ECG percritique ; un tracé hors symptômes n'apporte pas le critère requis."
+          },
+          {
+            "correct": false,
+            "proposition": "L'objectif du monitorage est d'objectiver une arythmie spécifique.",
+            "justification": "L'intérêt indiqué est d'obtenir un ECG percritique normal, pas de mettre en évidence une anomalie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048620769_04",
+      "current_version_epoch_ms": 1755048620769,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants selon leur compatibilité avec la démarche diagnostique proposée pour la névrose cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Normalité des examens cliniques et paracliniques.",
+            "justification": "La normalité des examens fait partie des éléments d'orientation."
+          },
+          {
+            "correct": false,
+            "proposition": "Identification d'une autre pathologie expliquant les symptômes.",
+            "justification": "La présence d'une pathologie identifiée s'oppose à ce diagnostic d'élimination."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence de pathologie cardiaque ou extracardiaque objectivée.",
+            "justification": "L'absence de cause identifiée est un critère d'évocation."
+          },
+          {
+            "correct": true,
+            "proposition": "Association à un contexte anxieux ou dépressif.",
+            "justification": "Des signes d'anxiété ou de dépression sont rapportés comme éléments orientant vers ce diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Validation sur la seule base d'un symptôme rapporté sans évaluation.",
+            "justification": "La démarche nécessite des examens et un ECG percritique normal, pas la seule plainte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048620769_05",
+      "current_version_epoch_ms": 1755048620769,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Différencier la névrose cardiaque d'autres affections à partir des critères fournis.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'une pathologie cardiaque identifiée exclut ce diagnostic.",
+            "justification": "Ce diagnostic est envisagé en l'absence de pathologie cardiaque objectivée."
+          },
+          {
+            "correct": true,
+            "proposition": "Des examens paracliniques strictement normaux renforcent l'hypothèse.",
+            "justification": "La normalité des examens est un élément d'orientation."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic est confirmé par des anomalies ECG spécifiques.",
+            "justification": "Aucune anomalie ECG spécifique n'est attendue ; l'ECG percritique doit être normal."
+          },
+          {
+            "correct": true,
+            "proposition": "L'existence de signes anxieux ou dépressifs peut orienter vers ce diagnostic.",
+            "justification": "Des signes d'anxiété ou de dépression sont mentionnés comme éléments contextuels."
+          },
+          {
+            "correct": false,
+            "proposition": "La preuve repose sur des biomarqueurs sanguins spécifiques.",
+            "justification": "Aucun biomarqueur n'est requis ; l'argument clé est l'ECG percritique normal avec examens normaux."
+          }
+        ]
+      }
+    }
+  ]
+}

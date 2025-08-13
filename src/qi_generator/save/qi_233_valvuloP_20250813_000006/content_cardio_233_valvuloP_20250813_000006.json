@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755036213278_01",
+      "current_version_epoch_ms": 1755036213278,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Concernant l'ECG dans les valvulopathies, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un ECG normal est rare dans les valvulopathies chroniques sévères.",
+            "justification": "Il est indiqué que l'ECG est rarement normal dans les valvulopathies chroniques sévères."
+          },
+          {
+            "correct": true,
+            "proposition": "La fibrillation atriale est fréquente, notamment dans les valvulopathies mitrales.",
+            "justification": "La fibrillation atriale est décrite comme fréquente, en particulier dans les atteintes mitrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bloc auriculo-ventriculaire est fréquent, surtout dans le rétrécissement aortique.",
+            "justification": "Le bloc auriculo-ventriculaire est mentionné comme rare, surtout dans le rétrécissement aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une hypertrophie ventriculaire gauche de type systolique oriente vers un rétrécissement aortique.",
+            "justification": "L'HVG systolique est rapportée dans le rétrécissement aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une hypertrophie ventriculaire droite peut être observée dans le rétrécissement mitral.",
+            "justification": "L'hypertrophie ventriculaire droite est spécifiquement mentionnée pour le rétrécissement mitral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755036213278_02",
+      "current_version_epoch_ms": 1755036213278,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "À la radiographie thoracique dans les valvulopathies, reconnaître les éléments attendus.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une surcharge pulmonaire peut se voir dans l'insuffisance mitrale, le rétrécissement aortique et le rétrécissement mitral.",
+            "justification": "La surcharge pulmonaire est listée pour IM, RA et RM."
+          },
+          {
+            "correct": true,
+            "proposition": "La cardiomégalie est attendue dans l'insuffisance mitrale, l'insuffisance aortique et le rétrécissement mitral.",
+            "justification": "La cardiomégalie est rapportée pour IM, IA et RM."
+          },
+          {
+            "correct": true,
+            "proposition": "La dilatation de l'aorte ascendante peut être visible dans le rétrécissement aortique et l'insuffisance aortique.",
+            "justification": "La dilatation de l'aorte ascendante est indiquée pour RA et IA."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie thoracique est très spécifique pour le diagnostic précoce des valvulopathies.",
+            "justification": "Il est précisé que ces examens sont peu spécifiques et d'intérêt limité pour le diagnostic précoce."
+          },
+          {
+            "correct": true,
+            "proposition": "La radiographie thoracique peut rester longtemps normale au début des valvulopathies.",
+            "justification": "Il est indiqué que la radiographie de thorax est longtemps normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755036213278_03",
+      "current_version_epoch_ms": 1755036213278,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "À propos de l'épreuve d'effort dans les valvulopathies, classer les indications et contre-indications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'épreuve d'effort est contre-indiquée en cas de valvulopathie symptomatique.",
+            "justification": "La contre-indication en cas de symptômes est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans l'insuffisance mitrale sévère asymptomatique, l'épreuve d'effort est bien codifiée et systématique.",
+            "justification": "Il est indiqué que ce n'est pas très bien codifié ; l'évaluation peut reposer sur l'étude de la VO2 ou l'échographie d'effort."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans l'insuffisance aortique, l'épreuve d'effort est indiquée pour évaluer la tolérance.",
+            "justification": "Il est précisé que l'épreuve d'effort n'est pas indiquée dans l'insuffisance aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans le rétrécissement mitral avec discordance clinico-échographique, une échographie d'effort permet de mesurer gradients et pressions pulmonaires.",
+            "justification": "Cette indication d'échographie d'effort est décrite en cas de discordance."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans un rétrécissement aortique serré mais asymptomatique, un test sous-maximal a un intérêt.",
+            "justification": "Un test sous-maximal est mentionné comme ayant un intérêt dans cette situation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755036213278_04",
+      "current_version_epoch_ms": 1755036213278,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Pour un rétrécissement aortique serré asymptomatique, reconnaître ce que doit rechercher un test d'effort sous-maximal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'apparition de symptômes à l'effort.",
+            "justification": "La recherche de symptômes fait partie des objectifs du test sous-maximal."
+          },
+          {
+            "correct": true,
+            "proposition": "Une modification électrocardiographique à l'effort.",
+            "justification": "La recherche de modification ECG est citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Un profil tensionnel non adapté à l'effort.",
+            "justification": "Le profil tensionnel non adapté est un critère recherché."
+          },
+          {
+            "correct": false,
+            "proposition": "La mesure de la VO2 pour juger de la performance maximale.",
+            "justification": "La mesure de VO2 est évoquée pour l'insuffisance mitrale sévère asymptomatique, pas comme objectif du test sous-maximal dans le rétrécissement aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "La survenue d'arythmie ventriculaire pouvant orienter vers une prise en charge chirurgicale.",
+            "justification": "La survenue d'arythmie ventriculaire à l'effort est citée comme en faveur d'une prise en charge chirurgicale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755036213278_05",
+      "current_version_epoch_ms": 1755036213278,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Associer valvulopathies et anomalies électrocardiographiques typiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HVG systolique : rétrécissement aortique.",
+            "justification": "L'HVG systolique est rapportée dans le rétrécissement aortique."
+          },
+          {
+            "correct": true,
+            "proposition": "HVG diastolique : insuffisance mitrale ou insuffisance aortique.",
+            "justification": "L'HVG diastolique est associée à l'IM et à l'IA."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertrophie de l'oreillette gauche : IM, RA, IA, RM.",
+            "justification": "L'hypertrophie de l'OG est mentionnée pour ces quatre valvulopathies."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertrophie ventriculaire droite : rétrécissement mitral.",
+            "justification": "L'HVD est spécifiquement indiquée pour le rétrécissement mitral."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc auriculo-ventriculaire fréquent dans le rétrécissement aortique.",
+            "justification": "Le bloc auriculo-ventriculaire est décrit comme rare, surtout pour le rétrécissement aortique."
+          }
+        ]
+      }
+    }
+  ]
+}

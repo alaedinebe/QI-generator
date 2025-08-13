@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755046345531_01",
+      "current_version_epoch_ms": 1755046345531,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Devant une dysfonction sinusale ou un trouble de conduction (TDC) OIC-236-04-B, identifier les examens de première intention à demander pour rechercher une cardiopathie sous-jacente et une étiologie curable.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG",
+            "justification": "Examen de première intention indiqué pour rechercher un syndrome coronaire aigu associé."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Examen de première intention indiqué pour la recherche d'une hyperkaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Troponines",
+            "justification": "Examen de première intention indiqué si suspicion de trouble de conduction d'origine ischémique."
+          },
+          {
+            "correct": true,
+            "proposition": "Échographie cardiaque",
+            "justification": "Examen de première intention pour rechercher une cardiopathie sous-jacente (altération de la fraction d'éjection, rétrécissement aortique serré, argument pour endocardite, hypertrophie des parois)."
+          },
+          {
+            "correct": true,
+            "proposition": "Sérologie Lyme",
+            "justification": "Examen de première intention à réaliser si le patient est à risque de maladie de Lyme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046345531_02",
+      "current_version_epoch_ms": 1755046345531,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Pour l'ECG réalisé en première intention, reconnaître l'objectif principal attendu.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher un syndrome coronaire aigu associé",
+            "justification": "Objectif explicite de l'ECG ; un exemple mentionne un BAV complet avec sus-décalage du segment ST inférieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une hyperkaliémie",
+            "justification": "Cet objectif relève de l'ionogramme sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer un trouble de conduction d'origine ischémique par dosage biologique",
+            "justification": "Cette indication correspond au dosage des troponines."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer une cardiopathie sous-jacente (fraction d'éjection, rétrécissement aortique serré, endocardite, hypertrophie des parois)",
+            "justification": "Cette exploration relève de l'échographie cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépister une maladie de Lyme chez un patient à risque",
+            "justification": "Cette démarche correspond à la sérologie Lyme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046345531_03",
+      "current_version_epoch_ms": 1755046345531,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Concernant l'ionogramme sanguin demandé en première intention, identifier l'objectif visé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherche d'une hyperkaliémie",
+            "justification": "Objectif explicite de l'ionogramme sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher un syndrome coronaire aigu associé",
+            "justification": "Cette recherche relève de l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer une cardiopathie sous-jacente à l'échographie",
+            "justification": "L'exploration morphologique cardiaque est l'objectif de l'échographie cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des troponines si suspicion de trouble de conduction d'origine ischémique",
+            "justification": "Cette indication concerne les troponines."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie Lyme si facteur de risque",
+            "justification": "Le dépistage de la maladie de Lyme repose sur la sérologie dédiée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046345531_04",
+      "current_version_epoch_ms": 1755046345531,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "À propos des troponines en contexte de dysfonction sinusale/TDC, préciser l'indication appropriée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si suspicion de trouble de conduction d'origine ischémique",
+            "justification": "Indication explicite du dosage des troponines."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher un syndrome coronaire aigu associé",
+            "justification": "Cette recherche est l'objectif de l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche d'une hyperkaliémie",
+            "justification": "Cet objectif relève de l'ionogramme sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer une cardiopathie sous-jacente (fraction d'éjection, rétrécissement aortique serré, endocardite, hypertrophie des parois)",
+            "justification": "Cette exploration relève de l'échographie cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une sérologie Lyme chez un patient à risque",
+            "justification": "Cette indication correspond à la sérologie Lyme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046345531_05",
+      "current_version_epoch_ms": 1755046345531,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Pour l'échographie cardiaque de première intention, sélectionner les cibles pertinentes de l'examen.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Altération de la fraction d'éjection",
+            "justification": "Fait partie des éléments recherchés pour identifier une cardiopathie sous-jacente."
+          },
+          {
+            "correct": true,
+            "proposition": "Rétrécissement aortique serré",
+            "justification": "Fait partie des éléments recherchés pour identifier une cardiopathie sous-jacente."
+          },
+          {
+            "correct": true,
+            "proposition": "Argument pour endocardite",
+            "justification": "Fait partie des éléments recherchés pour identifier une cardiopathie sous-jacente."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertrophie des parois ventriculaires (maladie de surcharge)",
+            "justification": "Fait partie des éléments recherchés pour identifier une cardiopathie sous-jacente."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher un syndrome coronaire aigu associé",
+            "justification": "Cette recherche relève de l'ECG, pas de l'échographie cardiaque."
+          }
+        ]
+      }
+    }
+  ]
+}

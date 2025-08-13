@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755045932217_01",
+      "current_version_epoch_ms": 1755045932217,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Identifier les localisations anatomiques correctes des structures du système de conduction.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nœud sinusal est situé au toit de l'oreillette droite, près de l'ostium de la veine cave supérieure.",
+            "justification": "Le nœud sinusal se trouve au niveau du toit de l'oreillette droite proche de l'ostium de la VCS."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nœud atrioventriculaire est situé dans l'oreillette gauche.",
+            "justification": "Le nœud atrioventriculaire est situé dans l'oreillette droite, en haut et en avant de l'ostium du sinus coronaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nœud atrioventriculaire est en haut et en avant de l'ostium du sinus coronaire.",
+            "justification": "Sa localisation est décrite comme étant dans l'oreillette droite, en haut et en avant de l'ostium du sinus coronaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le faisceau de His se divise en deux branches, droite et gauche, puis la branche gauche en faisceaux antérieur et postérieur.",
+            "justification": "Le faisceau de His se divise en deux branches droite et gauche, et la branche gauche en deux faisceaux antérieur et postérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Le réseau de Purkinje assure la dépolarisation des oreillettes.",
+            "justification": "Le réseau de Purkinje permet la dépolarisation et la contraction des ventricules, pas des oreillettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045932217_02",
+      "current_version_epoch_ms": 1755045932217,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Définir la dysfonction sinusale en s'appuyant sur ses mécanismes et sa traduction rythmique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut résulter d'un arrêt du nœud sinusal.",
+            "justification": "La dysfonction sinusale associe notamment un arrêt du nœud sinusal."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut correspondre à un bloc sino-atrial avec non-transmission à l'oreillette droite.",
+            "justification": "Elle peut résulter d'un bloc sino-atrial, c'est-à-dire la non transmission de l'activité à l'oreillette droite."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond à une tachycardie sinusale appropriée aux besoins.",
+            "justification": "Elle correspond à une bradycardie sinusale inappropriée par rapport aux besoins physiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle correspond à une bradycardie sinusale inappropriée aux besoins de l'organisme.",
+            "justification": "La définition précise une bradycardie sinusale inappropriée par rapport aux besoins physiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle signe une atteinte du nœud atrioventriculaire.",
+            "justification": "La dysfonction sinusale implique le nœud sinusal ou un bloc sino-atrial, pas le nœud atrioventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045932217_03",
+      "current_version_epoch_ms": 1755045932217,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Différencier bloc auriculo-ventriculaire (BAV) et autres troubles de conduction quant au siège de l'atteinte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un BAV correspond à une atteinte au sein du nœud atrioventriculaire ou du faisceau de His.",
+            "justification": "Le BAV est défini par une atteinte du nœud atrioventriculaire ou du faisceau de His."
+          },
+          {
+            "correct": true,
+            "proposition": "On distingue des BAV supra-hissiens et infra-hissiens.",
+            "justification": "La classification mentionne un bloc supra et infra hissien."
+          },
+          {
+            "correct": false,
+            "proposition": "Un BAV résulte d'un trouble de conduction d'une branche du faisceau de His.",
+            "justification": "Le trouble d'une branche du faisceau de His correspond au bloc de branche, pas au BAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Un BAV est une atteinte au niveau sino-atrial.",
+            "justification": "L'atteinte sino-atriale relève d'un bloc sino-atrial dans la dysfonction sinusale, pas d'un BAV."
+          },
+          {
+            "correct": false,
+            "proposition": "Un BAV implique le réseau de Purkinje de façon isolée.",
+            "justification": "La définition du BAV ne mentionne que le nœud atrioventriculaire et le faisceau de His."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045932217_04",
+      "current_version_epoch_ms": 1755045932217,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Classer les caractéristiques du bloc de branche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une interruption ou d'un retard de conduction d'une branche du faisceau de His.",
+            "justification": "Le bloc de branche est défini comme une interruption ou un retard de conduction d'une branche du faisceau de His."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être complet.",
+            "justification": "Les formes possibles incluent un bloc complet."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être incomplet.",
+            "justification": "Les formes possibles incluent un bloc incomplet."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est uniquement permanent.",
+            "justification": "Il peut être permanent ou intermittent."
+          },
+          {
+            "correct": false,
+            "proposition": "Son siège est le nœud atrioventriculaire.",
+            "justification": "Le bloc de branche concerne une branche du faisceau de His, pas le nœud atrioventriculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755045932217_05",
+      "current_version_epoch_ms": 1755045932217,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître l'enchaînement anatomique conduisant à la dépolarisation ventriculaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le faisceau de His se prolonge en branches qui atteignent le réseau de Purkinje, permettant la dépolarisation et la contraction des ventricules.",
+            "justification": "Les branches issues du faisceau de His atteignent le réseau de Purkinje, responsable de la dépolarisation et de la contraction ventriculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "La branche gauche se divise en faisceaux antérieur et postérieur.",
+            "justification": "La branche gauche se divise en deux faisceaux, antérieur et postérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "La branche droite se divise en faisceaux antérieur et postérieur.",
+            "justification": "La division en faisceaux antérieur et postérieur est décrite pour la branche gauche, pas pour la branche droite."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nœud sinusal est situé dans l'oreillette gauche près de la veine cave supérieure.",
+            "justification": "Le nœud sinusal est au toit de l'oreillette droite, proche de l'ostium de la veine cave supérieure."
+          },
+          {
+            "correct": true,
+            "proposition": "Le réseau de Purkinje participe à l'activation des ventricules.",
+            "justification": "Il permet la dépolarisation et la contraction des ventricules."
+          }
+        ]
+      }
+    }
+  ]
+}

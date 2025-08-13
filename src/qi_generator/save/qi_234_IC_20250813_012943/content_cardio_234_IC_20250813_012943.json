@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755041590397_01",
+      "current_version_epoch_ms": 1755041590397,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Dans un contexte de dyspnée aiguë, quels résultats rendent le diagnostic d'insuffisance cardiaque très improbable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BNP < 100 pg/ml",
+            "justification": "Des valeurs normales de BNP (< 100 pg/ml) rendent le diagnostic très improbable en cas de dyspnée aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "NT-proBNP < 300 pg/ml",
+            "justification": "Des valeurs normales de NT-proBNP (< 300 pg/ml) rendent le diagnostic très improbable en cas de dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "BNP > 300 pg/ml",
+            "justification": "Un BNP > 300 pg/ml va à l'inverse vers l'hypothèse d'insuffisance cardiaque plutôt que l'écarter."
+          },
+          {
+            "correct": false,
+            "proposition": "NT-proBNP = 600 pg/ml chez un patient de 80 ans",
+            "justification": "Chez > 75 ans, le seuil d'alerte est plus élevé (> 1 800 pg/ml) ; 600 pg/ml ne suffit pas à rendre le diagnostic très improbable."
+          },
+          {
+            "correct": true,
+            "proposition": "BNP < 100 pg/ml chez un patient obèse",
+            "justification": "Le BNP diminue en cas d'obésité ; néanmoins un BNP < 100 pg/ml reste dans la zone rendant le diagnostic très improbable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041590397_02",
+      "current_version_epoch_ms": 1755041590397,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Chez un patient de 60 ans consultant pour dyspnée aiguë, quels seuils biologiques orientent vers une insuffisance cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NT-proBNP > 900 pg/ml",
+            "justification": "Entre 50 et 75 ans, le seuil pertinent pour le NT-proBNP est > 900 pg/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "NT-proBNP > 450 pg/ml",
+            "justification": "Le seuil > 450 pg/ml concerne les sujets de moins de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "NT-proBNP > 1 800 pg/ml comme seuil adapté à cet âge",
+            "justification": "Le seuil > 1 800 pg/ml s'applique aux sujets de plus de 75 ans, pas aux 50–75 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "BNP > 300 pg/ml",
+            "justification": "Un BNP > 300 pg/ml est un élément biologique en faveur de l'insuffisance cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "NT-proBNP ≥ 300 pg/ml suffit comme seuil pour cet âge",
+            "justification": "300 pg/ml est la limite de normalité générale ; chez 50–75 ans, le seuil pertinent est plus élevé (> 900 pg/ml)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041590397_03",
+      "current_version_epoch_ms": 1755041590397,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les facteurs qui modifient les concentrations de BNP/NT-proBNP et orientent l'interprétation clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les taux augmentent avec l'âge",
+            "justification": "Il est précisé que les concentrations augmentent avec l'âge."
+          },
+          {
+            "correct": true,
+            "proposition": "Les taux diminuent en cas d'obésité",
+            "justification": "Les concentrations diminuent en cas d'obésité."
+          },
+          {
+            "correct": false,
+            "proposition": "Les taux diminuent en cas d'insuffisance rénale",
+            "justification": "Ils augmentent en cas d'insuffisance rénale."
+          },
+          {
+            "correct": true,
+            "proposition": "Les taux augmentent en cas de fibrillation atriale",
+            "justification": "Ils augmentent en cas de fibrillation atriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Les taux sont plus bas chez la femme",
+            "justification": "Il est indiqué qu'ils augmentent chez la femme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041590397_04",
+      "current_version_epoch_ms": 1755041590397,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Concernant l'impact d'un ARNI (sacubitril-valsartan) sur l'interprétation des peptides natriurétiques, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sous ARNI, le BNP peut être ininterprétable car sa concentration augmente",
+            "justification": "L'ARNI entraîne une hausse des concentrations en BNP, rendant le BNP ininterprétable."
+          },
+          {
+            "correct": true,
+            "proposition": "Le NT-proBNP reste interprétable sous ARNI",
+            "justification": "Le NT-proBNP n'est pas substrat de la néprilysine et sa concentration reste indépendante du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sacubitril-valsartan abaisse spécifiquement le NT-proBNP",
+            "justification": "Il est précisé que le NT-proBNP reste indépendant de la prise d'ARNI, pas abaissé par celle-ci."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour le suivi sous ARNI, il faut privilégier le NT-proBNP",
+            "justification": "Le BNP étant ininterprétable sous ARNI, le NT-proBNP, indépendant du traitement, est à privilégier pour le suivi."
+          },
+          {
+            "correct": true,
+            "proposition": "Une hausse du BNP sous ARNI peut être liée au traitement plutôt qu'à une aggravation",
+            "justification": "L'ARNI induit une hausse du BNP, ce qui altère la valeur interprétative de ce marqueur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041590397_05",
+      "current_version_epoch_ms": 1755041590397,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "À propos du BNP et du NT-proBNP, quelles propositions décrivent correctement leur physiologie et leur signification ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils sont sécrétés par les cardiomyocytes atriaux et ventriculaires",
+            "justification": "Ils sont produits par les cardiomyocytes des oreillettes et des ventricules."
+          },
+          {
+            "correct": true,
+            "proposition": "Leur sécrétion augmente en cas de mise en tension du tissu myocardique",
+            "justification": "Ils sont sécrétés en cas de mise en tension du tissu."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils reflètent uniquement la volémie circulante",
+            "justification": "Leur valeur reflète le régime de pression moyen dans les cavités cardiaques, pas exclusivement la volémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Leur concentration reflète le régime de pression moyen dans les cavités cardiaques",
+            "justification": "Il est précisé que la valeur reflète ce régime de pression moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont spécifiques de l'oreillette droite",
+            "justification": "Ils sont sécrétés par les compartiments atriaux et ventriculaires, non spécifiques d'une seule cavité."
+          }
+        ]
+      }
+    }
+  ]
+}

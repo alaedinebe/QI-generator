@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SCZ",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755059581832_01",
+      "current_version_epoch_ms": 1755059581832,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Identifier les situations constituant une indication de traitement pharmacologique en phase aiguë d'une symptomatologie psychotique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique avec souffrance significative.",
+            "justification": "La présence de souffrance liée aux symptômes psychotiques constitue à elle seule une indication en phase aiguë (logique « et/ou »)."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique avec dysfonctionnement dans un domaine important de la vie.",
+            "justification": "Un retentissement fonctionnel dans un domaine important de la vie suffit pour indiquer le traitement en phase aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique nécessitant une hospitalisation.",
+            "justification": "La nécessité d'une hospitalisation est un motif d'indication du traitement en phase aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes psychotiques sans souffrance, sans dysfonctionnement important et sans nécessité d'hospitalisation.",
+            "justification": "En l'absence de souffrance, de dysfonctionnement important ou d'indication d'hospitalisation, l'indication n'est pas établie."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes non psychotiques causant une gêne modérée.",
+            "justification": "Les indications visent explicitement une symptomatologie psychotique ; des symptômes non psychotiques ne répondent pas au critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059581832_02",
+      "current_version_epoch_ms": 1755059581832,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Concernant la logique des indications en phase aiguë d'une symptomatologie psychotique, identifier les énoncés exacts.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La souffrance seule suffit à indiquer un traitement.",
+            "justification": "La souffrance liée à la symptomatologie psychotique constitue un critère suffisant (« et/ou »)."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut obligatoirement souffrance, dysfonctionnement important et hospitalisation simultanés.",
+            "justification": "La logique n'est pas cumulative obligatoire ; un seul des critères peut suffire."
+          },
+          {
+            "correct": true,
+            "proposition": "Un dysfonctionnement dans un domaine important de la vie peut justifier l'indication, même sans souffrance ni hospitalisation.",
+            "justification": "Le dysfonctionnement dans un domaine important suffit en lui-même."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hospitalisation n'est jamais une indication de traitement pharmacologique aigu.",
+            "justification": "La nécessité d'une hospitalisation fait partie des motifs d'indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins un des trois critères (souffrance, dysfonctionnement important, hospitalisation) suffit.",
+            "justification": "La formulation « et/ou » signifie qu'un seul critère peut établir l'indication."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059581832_03",
+      "current_version_epoch_ms": 1755059581832,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants comme motifs d'indication du traitement pharmacologique en phase aiguë d'une symptomatologie psychotique (cocher les vrais).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Souffrance liée à la symptomatologie psychotique.",
+            "justification": "La souffrance est un motif suffisant d'indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysfonctionnement dans un domaine important de la vie lié à la symptomatologie psychotique.",
+            "justification": "Le retentissement fonctionnel majeur est un motif d'indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessité d'une hospitalisation en lien avec la symptomatologie psychotique.",
+            "justification": "La nécessité d'hospitalisation fait partie des indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonctionnement mineur dans un domaine non important de la vie.",
+            "justification": "Le critère porte sur un domaine important de la vie ; un domaine non important ne répond pas à l'indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de symptomatologie psychotique.",
+            "justification": "Les indications concernent explicitement une symptomatologie psychotique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059581832_04",
+      "current_version_epoch_ms": 1755059581832,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Pour chaque situation, déterminer si l'instauration d'un traitement pharmacologique aigu est indiquée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique provoquant une détresse personnelle marquée, sans autre retentissement.",
+            "justification": "La souffrance à elle seule établit l'indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique altérant la capacité à fonctionner dans un domaine important de la vie.",
+            "justification": "Le dysfonctionnement dans un domaine important justifie l'indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptomatologie psychotique bien tolérée, sans souffrance, sans retentissement et sans nécessité d'hospitalisation.",
+            "justification": "Aucun des critères requis n'est présent."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptomatologie psychotique conduisant à une décision d'hospitalisation.",
+            "justification": "La nécessité d'une hospitalisation est un motif d'indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes somatiques isolés sans signe psychotique, sans souffrance ni hospitalisation.",
+            "justification": "En l'absence de symptomatologie psychotique, l'indication n'est pas retenue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059581832_05",
+      "current_version_epoch_ms": 1755059581832,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Quel énoncé définit correctement l'indication de traitement pharmacologique en phase aiguë dans ce contexte ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Toute symptomatologie psychotique, quelle qu'en soit l'intensité, impose automatiquement un traitement.",
+            "justification": "L'indication requiert souffrance, dysfonctionnement important et/ou nécessité d'hospitalisation ; ce n'est pas automatique en toute circonstance."
+          },
+          {
+            "correct": true,
+            "proposition": "L'indication correspond à une symptomatologie psychotique entraînant une souffrance.",
+            "justification": "La souffrance est explicitement un des critères d'indication."
+          },
+          {
+            "correct": true,
+            "proposition": "L'indication correspond à une symptomatologie psychotique entraînant un dysfonctionnement dans un domaine important de la vie.",
+            "justification": "Le retentissement dans un domaine important est un critère suffisant."
+          },
+          {
+            "correct": true,
+            "proposition": "L'indication correspond à une symptomatologie psychotique nécessitant une hospitalisation.",
+            "justification": "La nécessité d'hospitalisation fait partie des indications possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Seule la nécessité d'une hospitalisation permet d'indiquer le traitement.",
+            "justification": "Plusieurs critères possibles existent ; l'hospitalisation n'est pas la seule."
+          }
+        ]
+      }
+    }
+  ]
+}

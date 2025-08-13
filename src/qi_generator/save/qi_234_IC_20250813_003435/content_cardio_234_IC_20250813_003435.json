@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755038281875_01",
+      "current_version_epoch_ms": 1755038281875,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier, parmi les diagnostics ci-dessous, ceux à évoquer devant un OAP cardiogénique de présentation atypique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SDRA",
+            "justification": "Listé parmi les causes d'insuffisance respiratoire aiguë à évoquer en cas de forme atypique."
+          },
+          {
+            "correct": true,
+            "proposition": "Crise d'asthme",
+            "justification": "Figure parmi les diagnostics différentiels d'une détresse respiratoire aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Embolie pulmonaire",
+            "justification": "Fait partie des causes d'insuffisance respiratoire aiguë à considérer."
+          },
+          {
+            "correct": true,
+            "proposition": "Décompensation de BPCO",
+            "justification": "Mentionnée comme étiologie possible d'insuffisance respiratoire aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumopathie",
+            "justification": "Appartient aux causes respiratoires aiguës à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038281875_02",
+      "current_version_epoch_ms": 1755038281875,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les symptômes associés orientant vers une cause non cardiogénique d'insuffisance respiratoire aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toux et expectoration",
+            "justification": "À rechercher en faveur d'une infection bronchopulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Wheezing",
+            "justification": "Cité parmi les bruits respiratoires associés à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Cornage",
+            "justification": "Fait partie des bruits respiratoires associés à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre",
+            "justification": "Mentionnée comme signe clinique associé à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes de phlébite",
+            "justification": "Indiqués comme signes associés à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038281875_03",
+      "current_version_epoch_ms": 1755038281875,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants : cocher ceux qui relèvent des anomalies de percussion thoracique à rechercher en faveur d'une cause non cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Matité",
+            "justification": "Fait partie des anomalies de percussion thoracique (matité)."
+          },
+          {
+            "correct": true,
+            "proposition": "Tympanisme",
+            "justification": "Relève des anomalies de percussion thoracique (tympanisme)."
+          },
+          {
+            "correct": false,
+            "proposition": "Abolition localisée du murmure vésiculaire",
+            "justification": "Classée parmi les anomalies à l'auscultation, pas à la percussion."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des vibrations vocales",
+            "justification": "Relève des anomalies de palpation, non de percussion."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des vibrations vocales",
+            "justification": "Relève des anomalies de palpation, non de percussion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038281875_04",
+      "current_version_epoch_ms": 1755038281875,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les éléments qui correspondent à des anomalies de palpation à rechercher en faveur d'une cause non cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation des vibrations vocales",
+            "justification": "Mentionnée comme anomalie de palpation."
+          },
+          {
+            "correct": true,
+            "proposition": "Réduction des vibrations vocales",
+            "justification": "Mentionnée comme anomalie de palpation."
+          },
+          {
+            "correct": false,
+            "proposition": "Matité",
+            "justification": "Relève des anomalies de percussion, pas de palpation."
+          },
+          {
+            "correct": false,
+            "proposition": "Tympanisme",
+            "justification": "Relève des anomalies de percussion, pas de palpation."
+          },
+          {
+            "correct": false,
+            "proposition": "Crépitants",
+            "justification": "Classés parmi les anomalies à l'auscultation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755038281875_05",
+      "current_version_epoch_ms": 1755038281875,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies d'auscultation respiratoire à rechercher en faveur d'une cause non cardiogénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Crépitants",
+            "justification": "Cités parmi les anomalies à l'auscultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Sibilants",
+            "justification": "Cités parmi les anomalies à l'auscultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Râles bronchiques",
+            "justification": "Cités parmi les anomalies à l'auscultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Abolition localisée du murmure vésiculaire",
+            "justification": "Indiquée comme anomalie à l'auscultation."
+          },
+          {
+            "correct": false,
+            "proposition": "Wheezing",
+            "justification": "Rangé parmi les bruits respiratoires associés, distinct des anomalies à l'auscultation listées."
+          }
+        ]
+      }
+    }
+  ]
+}

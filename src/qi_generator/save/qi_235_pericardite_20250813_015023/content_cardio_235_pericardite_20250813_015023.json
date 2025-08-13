@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755042830337_01",
+      "current_version_epoch_ms": 1755042830337,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments cliniques suivants, ceux qui évoquent une tamponnade dans une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Turgescence jugulaire",
+            "justification": "Relève des signes d'insuffisance cardiaque droite aiguë listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Reflux hépato-jugulaire",
+            "justification": "Fait partie des signes d'insuffisance cardiaque droite aiguë mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie",
+            "justification": "Non cité ; au contraire, la tachycardie est indiquée dans les signes de choc."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression artérielle systolique < 90 mmHg",
+            "justification": "Mentionnée parmi les signes de choc."
+          },
+          {
+            "correct": true,
+            "proposition": "Extrémités froides",
+            "justification": "Cité parmi les signes de choc (avec marbrures)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042830337_02",
+      "current_version_epoch_ms": 1755042830337,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Définir correctement le pouls paradoxal dans le contexte de péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution de la PAS de 10 mmHg à l'inspiration",
+            "justification": "Définition explicitement donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la PAS de 10 mmHg à l'inspiration",
+            "justification": "Inverse de la définition fournie."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la PAS de 10 mmHg à l'expiration",
+            "justification": "La variation décrite concerne l'inspiration, pas l'expiration."
+          },
+          {
+            "correct": false,
+            "proposition": "Variation de la fréquence cardiaque de 10 bpm à l'inspiration",
+            "justification": "La définition porte sur la pression artérielle, pas la fréquence."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de variation tensionnelle avec la respiration",
+            "justification": "La définition précise une diminution de 10 mmHg à l'inspiration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042830337_03",
+      "current_version_epoch_ms": 1755042830337,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies ECG de gravité à rechercher devant une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Microvoltage",
+            "justification": "Mentionné comme évocateur de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Alternance électrique",
+            "justification": "Cité comme signe ECG de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du rythme ventriculaire",
+            "justification": "Indiqués dans le cadre d'une myocardite associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage diffus du segment ST",
+            "justification": "Non listé parmi les anomalies ECG de gravité citées ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc atrio-ventriculaire complet",
+            "justification": "Non mentionné parmi les signes ECG retenus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042830337_04",
+      "current_version_epoch_ms": 1755042830337,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Interpréter la valeur d'une troponine élevée dans ce contexte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oriente vers une myocardite associée",
+            "justification": "L'élévation de la troponine est indiquée comme signe de myocardite associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Signe spécifique d'une tamponnade",
+            "justification": "Les signes de tamponnade cités sont microvoltage et alternance électrique, pas la troponine."
+          },
+          {
+            "correct": false,
+            "proposition": "Critère déterminant pour indiquer le drainage à lui seul",
+            "justification": "Le drainage est discuté devant les signes de tamponnade ; ce point n'est pas attribué à la seule troponine."
+          },
+          {
+            "correct": false,
+            "proposition": "Son absence exclut toute gravité",
+            "justification": "Une telle conclusion n'est pas mentionnée parmi les critères fournis."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP élevée est le marqueur principal à considérer",
+            "justification": "La CRP n'est pas mentionnée ; seule l'élévation de la troponine est citée en biologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042830337_05",
+      "current_version_epoch_ms": 1755042830337,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Choisir les critères échographiques qui doivent faire appeler en urgence pour un drainage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épanchement péricardique > 20 mm",
+            "justification": "Indiqué comme critère échographique de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Compression des cavités droites",
+            "justification": "Mentionnée comme signe échographique évocateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement péricardique < 20 mm",
+            "justification": "Ce seuil n'est pas retenu parmi les critères de gravité ; le seuil cité est > 20 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Microvoltage",
+            "justification": "Anomalie ECG, pas un critère échographique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dilatation des cavités gauches",
+            "justification": "Non mentionnée parmi les critères échographiques listés."
+          }
+        ]
+      }
+    }
+  ]
+}

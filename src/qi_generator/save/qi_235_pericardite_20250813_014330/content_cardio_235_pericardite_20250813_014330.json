@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755042417023_01",
+      "current_version_epoch_ms": 1755042417023,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier les éléments qui définissent une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inflammation aiguë des feuillets du péricarde.",
+            "justification": "C'est la définition même de la péricardite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement péricardique obligatoire pour affirmer le diagnostic.",
+            "justification": "Un épanchement peut être présent ou absent ; il n'est pas obligatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Possibilité d'une forme sans épanchement appelée « péricardite sèche ».",
+            "justification": "L'absence d'épanchement correspond à la « péricardite sèche »."
+          },
+          {
+            "correct": true,
+            "proposition": "Association à une élévation de la troponine = myo-péricardite.",
+            "justification": "L'élévation de la troponine définit la myo-péricardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Affection nécessairement chronique.",
+            "justification": "La définition précise une inflammation aiguë, pas chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042417023_02",
+      "current_version_epoch_ms": 1755042417023,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Différencier péricardite aiguë et myo-péricardite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La myo-péricardite est définie par une élévation de la troponine.",
+            "justification": "La présence d'une élévation de la troponine qualifie la myo-péricardite."
+          },
+          {
+            "correct": true,
+            "proposition": "Sans élévation de la troponine, on ne parle pas de myo-péricardite.",
+            "justification": "La myo-péricardite est conditionnée par l'élévation de la troponine."
+          },
+          {
+            "correct": false,
+            "proposition": "La péricardite aiguë ne peut pas s'associer à une atteinte myocardique.",
+            "justification": "Elle peut s'y associer ; dans ce cas, c'est une myo-péricardite."
+          },
+          {
+            "correct": false,
+            "proposition": "La myo-péricardite correspond à une forme chronique.",
+            "justification": "Le cadre est celui d'une inflammation aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Un épanchement péricardique est requis pour définir une myo-péricardite.",
+            "justification": "Ce qui définit la myo-péricardite est l'élévation de la troponine, pas l'épanchement (qui peut être présent ou absent)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042417023_03",
+      "current_version_epoch_ms": 1755042417023,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant l'épanchement péricardique dans la péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un épanchement peut être présent.",
+            "justification": "La péricardite peut s'accompagner d'un épanchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Un épanchement est indispensable au diagnostic.",
+            "justification": "Le diagnostic peut être posé sans épanchement."
+          },
+          {
+            "correct": true,
+            "proposition": "L'absence d'épanchement définit la « péricardite sèche ».",
+            "justification": "La forme sans épanchement est dite « sèche »."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un épanchement exclut la péricardite aiguë.",
+            "justification": "La péricardite aiguë peut s'accompagner d'un épanchement."
+          },
+          {
+            "correct": false,
+            "proposition": "La péricardite sans épanchement n'est pas une péricardite aiguë.",
+            "justification": "Une péricardite aiguë peut être sans épanchement (péricardite sèche)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042417023_04",
+      "current_version_epoch_ms": 1755042417023,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Définir précisément la péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inflammation aiguë des feuillets du péricarde.",
+            "justification": "Il s'agit de l'élément central de la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Inflammation chronique des feuillets du péricarde.",
+            "justification": "La définition porte sur une inflammation aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte myocardique isolée sans inflammation péricardique.",
+            "justification": "La définition concerne le péricarde ; l'atteinte myocardique seule ne définit pas la péricardite."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut être appelée « péricardite sèche » en l'absence d'épanchement.",
+            "justification": "L'absence d'épanchement correspond à la forme dite « sèche »."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostic basé exclusivement sur l'élévation de la troponine.",
+            "justification": "La troponine élevée définit la myo-péricardite, pas la péricardite aiguë elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042417023_05",
+      "current_version_epoch_ms": 1755042417023,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître les associations terminologiques correctes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Péricardite aiguë = inflammation aiguë du péricarde.",
+            "justification": "Correspond à la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite sèche = péricardite aiguë sans épanchement.",
+            "justification": "La forme sans épanchement est qualifiée de « sèche »."
+          },
+          {
+            "correct": true,
+            "proposition": "Myo-péricardite = péricardite aiguë avec élévation de la troponine.",
+            "justification": "L'élévation de la troponine caractérise la myo-péricardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite aiguë = épanchement péricardique obligatoire.",
+            "justification": "L'épanchement peut être présent ou absent."
+          },
+          {
+            "correct": false,
+            "proposition": "Myo-péricardite = absence d'atteinte myocardique.",
+            "justification": "La myo-péricardite implique une atteinte myocardique mise en évidence par la troponine élevée."
+          }
+        ]
+      }
+    }
+  ]
+}

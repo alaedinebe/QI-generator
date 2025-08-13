@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755043452323_01",
+      "current_version_epoch_ms": 1755043452323,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier, parmi les situations suivantes, celles qui justifient une hospitalisation en cas de péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre > 38 °C",
+            "justification": "Fait partie des facteurs prédictifs de tamponnade, justifiant l'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptômes présents depuis plusieurs semaines",
+            "justification": "Élément listé parmi les facteurs prédictifs de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient sous anticoagulant oral",
+            "justification": "Facteur prédictif de tamponnade nécessitant hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur cédant dès la première dose d'AINS",
+            "justification": "Ce n'est pas un critère de gravité listé ; à l'inverse, l'hyperalgie malgré la première dose d'AINS oriente vers une forme à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Épanchement péricardique > 20 mm",
+            "justification": "Correspond à un épanchement abondant (> 20 mm), inclus parmi les facteurs prédictifs de tamponnade."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043452323_02",
+      "current_version_epoch_ms": 1755043452323,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants selon qu'ils sont des facteurs prédictifs de tamponnade en péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Immunodépression",
+            "justification": "Identifiée comme facteur prédictif de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatisme thoracique récent",
+            "justification": "La survenue après un traumatisme thoracique fait partie des facteurs prédictifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle",
+            "justification": "N'est pas mentionnée parmi les facteurs prédictifs de tamponnade fournis."
+          },
+          {
+            "correct": true,
+            "proposition": "Myocardite associée objectivée par élévation de la troponine",
+            "justification": "La myocardite associée (élévation de troponine) est un facteur prédictif."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottement péricardique à l'auscultation",
+            "justification": "N'est pas listé parmi les facteurs prédictifs de tamponnade fournis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043452323_03",
+      "current_version_epoch_ms": 1755043452323,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Définir le seuil d'un épanchement péricardique abondant à l'échographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épaisseur diastolique > 20 mm",
+            "justification": "Le seuil d'abondance est fixé à > 20 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaisseur diastolique > 10 mm",
+            "justification": "Le seuil indiqué est plus élevé : > 20 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaisseur diastolique ≥ 25 mm",
+            "justification": "Le critère d'abondance retenu est > 20 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaisseur diastolique comprise entre 15 et 20 mm",
+            "justification": "Ne correspond pas au critère d'abondance défini (> 20 mm)."
+          },
+          {
+            "correct": false,
+            "proposition": "Non quantifiable, dépend uniquement du contexte clinique",
+            "justification": "Un seuil chiffré explicite est fourni (> 20 mm)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043452323_04",
+      "current_version_epoch_ms": 1755043452323,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier les critères évolutifs ou de gravité imposant une hospitalisation au cours du suivi d'une péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement anti-inflammatoire (aspirine ou AINS) bien conduit depuis 7 jours",
+            "justification": "Mentionnée comme situation à risque nécessitant hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Tamponnade",
+            "justification": "Élément de gravité inclus parmi les facteurs prédictifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre > 38 °C",
+            "justification": "Fait partie des facteurs prédictifs de tamponnade."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration rapide sous AINS",
+            "justification": "Ne constitue pas un critère d'hospitalisation ; l'alerte porte sur l'absence de réponse après 7 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptômes présents depuis plusieurs semaines",
+            "justification": "Fait partie des facteurs prédictifs de tamponnade."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755043452323_05",
+      "current_version_epoch_ms": 1755043452323,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Décider si une hospitalisation est indiquée dans les scénarios cliniques suivants de péricardite aiguë.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Péricardite chez une patiente immunodéprimée",
+            "justification": "L'immunodépression est un facteur prédictif de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite chez un patient sous anticoagulant oral",
+            "justification": "Le traitement anticoagulant oral fait partie des facteurs prédictifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite survenant après un traumatisme thoracique",
+            "justification": "Le contexte post-traumatique est listé parmi les facteurs prédictifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Péricardite isolée, afébrile, douleur soulagée par la première dose d'AINS, sans autre facteur listé",
+            "justification": "Ne comporte aucun des facteurs prédictifs énumérés (au contraire, l'hyperalgie malgré la première dose d'AINS alerte)."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite avec élévation de la troponine",
+            "justification": "Correspond à une myocardite associée, facteur prédictif de tamponnade."
+          }
+        ]
+      }
+    }
+  ]
+}

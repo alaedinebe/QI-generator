@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pericardite",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755044485605_01",
+      "current_version_epoch_ms": 1755044485605,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Identifier les situations pour lesquelles un drainage péricardique est indiqué en urgence ou peut être discuté.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tamponnade cardiaque",
+            "justification": "Indiqué en urgence en cas de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Retentissement hémodynamique à l'échographie avec tension artérielle conservée",
+            "justification": "Peut être discuté en présence d'un retentissement hémodynamique à l'écho avec TA conservée."
+          },
+          {
+            "correct": true,
+            "proposition": "Épanchement abondant chronique sans étiologie évidente",
+            "justification": "Parfois également indiqué en cas d'épanchement abondant chronique sans cause évidente."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'épanchement purulent constitue à elle seule une indication à différer tout drainage",
+            "justification": "La suspicion de purulent oriente la voie (chirurgicale), elle n'impose pas de différer le drainage."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement minime sans retentissement",
+            "justification": "Non listé parmi les situations justifiant un drainage ; les indications mentionnées sont la tamponnade, le retentissement à l'écho avec TA conservée et certains épanchements abondants chroniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044485605_02",
+      "current_version_epoch_ms": 1755044485605,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Différencier la voie percutanée de la voie chirurgicale selon le contexte clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voie percutanée à privilégier si patient instable",
+            "justification": "La péricardiocentèse est à privilégier si le patient est instable."
+          },
+          {
+            "correct": true,
+            "proposition": "Voie chirurgicale à privilégier en cas de suspicion d'épanchement purulent",
+            "justification": "La voie chirurgicale est privilégiée en cas de suspicion de purulent car elle permet la pose d'un drain de plus gros calibre."
+          },
+          {
+            "correct": true,
+            "proposition": "La péricardiocentèse se fait par ponction sous-sternale à l'aiguille écho-guidée",
+            "justification": "La voie percutanée est décrite comme une ponction sous-sternale à l'aiguille écho-guidée."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie chirurgicale à privilégier chez le patient instable",
+            "justification": "Chez l'instable, c'est la voie percutanée qui est à privilégier."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie percutanée permet la pose d'un drain de plus gros calibre",
+            "justification": "Le gros calibre est mentionné pour la voie chirurgicale, pas pour la voie percutanée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044485605_03",
+      "current_version_epoch_ms": 1755044485605,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Reconnaître l'intérêt diagnostique de la ponction péricardique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse bactériologique du liquide",
+            "justification": "L'analyse du liquide comprend un examen bactériologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Analyse virologique du liquide",
+            "justification": "L'analyse du liquide comprend un examen virologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Analyse cytologique du liquide",
+            "justification": "L'analyse du liquide comprend un examen cytologique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'analyse du liquide n'est pas nécessaire si le drainage est thérapeutique",
+            "justification": "Dans tous les cas, une analyse du liquide drainé est réalisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Les résultats apportent des éléments au bilan étiologique",
+            "justification": "Les analyses bactériologique, virologique et cytologique apportent des éléments au bilan étiologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044485605_04",
+      "current_version_epoch_ms": 1755044485605,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Classer les affirmations selon qu'elles relèvent d'une indication urgente, d'une discussion ou d'une situation non indiquée pour le drainage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La tamponnade correspond à une indication de drainage en urgence",
+            "justification": "Le drainage est indiqué en urgence en cas de tamponnade."
+          },
+          {
+            "correct": true,
+            "proposition": "Un retentissement hémodynamique à l'échographie avec TA conservée correspond à une situation à discuter",
+            "justification": "La conduite à tenir est « à discuter » dans cette situation."
+          },
+          {
+            "correct": true,
+            "proposition": "Un épanchement abondant chronique sans étiologie évidente peut correspondre à une indication",
+            "justification": "Il est parfois indiqué dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "La suspicion d'épanchement purulent est une contre-indication au drainage",
+            "justification": "Elle oriente vers la voie chirurgicale, elle n'est pas présentée comme une contre-indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Le drainage est systématiquement urgent quel que soit le contexte",
+            "justification": "Seule la tamponnade impose l'urgence ; d'autres situations relèvent d'une discussion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755044485605_05",
+      "current_version_epoch_ms": 1755044485605,
+      "topic": {
+        "subject": "cardio",
+        "item": "pericardite"
+      },
+      "data": {
+        "statement": "Définir les éléments procéduraux et systématiques associés à une péricardiocentèse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction sous-sternale écho-guidée à l'aiguille",
+            "justification": "La technique percutanée est décrite ainsi."
+          },
+          {
+            "correct": false,
+            "proposition": "Le drainage doit toujours être chirurgical",
+            "justification": "La voie percutanée est une option et même à privilégier chez l'instable."
+          },
+          {
+            "correct": true,
+            "proposition": "Analyse systématique du liquide drainé",
+            "justification": "Dans tous les cas, le liquide drainé est analysé."
+          },
+          {
+            "correct": false,
+            "proposition": "Indication réservée aux patients avec TA conservée",
+            "justification": "La voie percutanée est justement à privilégier si le patient est instable."
+          },
+          {
+            "correct": false,
+            "proposition": "Procédure uniquement thérapeutique sans intérêt étiologique",
+            "justification": "Les analyses bactériologique, virologique et cytologique apportent des éléments au bilan étiologique."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "valvuloP",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755035179998_01",
+      "current_version_epoch_ms": 1755035179998,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Identifier la définition correcte de l'insuffisance mitrale (IM).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysfonctionnement de la valve mitrale avec défaut de fermeture systolique, régurgitation du VG vers l'OG en systole.",
+            "justification": "IM = défaut de fermeture de la valve mitrale en systole entraînant une régurgitation du ventricule gauche vers l'oreillette gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonctionnement de la valve aortique avec limitation d'ouverture, obstacle à l'éjection systolique du VG.",
+            "justification": "Cette description correspond au rétrécissement aortique, caractérisé par une limitation d'ouverture de la valve aortique et un obstacle à l'éjection systolique du VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonctionnement de la valve aortique avec défaut de fermeture en diastole, régurgitation de l'aorte vers le VG.",
+            "justification": "Cette description correspond à l'insuffisance aortique, définie par un défaut de fermeture en diastole avec régurgitation aorte → VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonctionnement de la valve mitrale avec limitation d'ouverture en diastole, obstacle à l'écoulement OG → VG au remplissage.",
+            "justification": "Cette description correspond au rétrécissement mitral, défini par une limitation d'ouverture en diastole gênant l'écoulement OG → VG lors du remplissage."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonctionnement de la valve aortique avec défaut de fermeture systolique, régurgitation du VG vers l'OG en systole.",
+            "justification": "Aucun défaut de fermeture systolique de la valve aortique n'est décrit ; la régurgitation VG → OG en systole définit l'IM et implique la valve mitrale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035179998_02",
+      "current_version_epoch_ms": 1755035179998,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, identifier les affirmations exactes concernant les valvulopathies aortiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rétrécissement aortique (RA) se définit par une limitation d'ouverture causant un obstacle à l'éjection systolique du VG.",
+            "justification": "RA = dysfonctionnement de la valve aortique avec limitation d'ouverture, entraînant un obstacle à l'éjection systolique du VG."
+          },
+          {
+            "correct": true,
+            "proposition": "L'insuffisance aortique (IA) se définit par un défaut de fermeture en diastole entraînant une régurgitation de l'aorte vers le VG.",
+            "justification": "IA = défaut de fermeture de la valve aortique en diastole avec régurgitation aorte → VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RA correspond à une régurgitation du VG vers l'OG en systole.",
+            "justification": "La régurgitation VG → OG en systole caractérise l'IM, pas le RA qui est un problème de limitation d'ouverture."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IA correspond à une limitation d'ouverture en diastole gênant le flux de l'OG vers le VG.",
+            "justification": "La limitation d'ouverture gênant l'écoulement OG → VG en diastole définit le rétrécissement mitral, alors que l'IA est un défaut de fermeture avec régurgitation aorte → VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RA correspond à un défaut de fermeture en diastole.",
+            "justification": "Le RA n'est pas un défaut de fermeture ; il s'agit d'une limitation d'ouverture."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035179998_03",
+      "current_version_epoch_ms": 1755035179998,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Différencier les mécanismes : cocher les entités caractérisées par un défaut de fermeture valvulaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance mitrale (IM).",
+            "justification": "IM = défaut de fermeture de la valve mitrale en systole avec régurgitation VG → OG."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement mitral (RM).",
+            "justification": "RM = limitation d'ouverture en diastole avec obstacle à l'écoulement OG → VG."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance aortique (IA).",
+            "justification": "IA = défaut de fermeture de la valve aortique en diastole avec régurgitation aorte → VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement aortique (RA).",
+            "justification": "RA = limitation d'ouverture de la valve aortique entraînant un obstacle à l'éjection systolique du VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les valvulopathies listées sont des défauts de fermeture.",
+            "justification": "Deux entités (RA, RM) sont des limitations d'ouverture ; toutes ne relèvent pas d'un défaut de fermeture."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035179998_04",
+      "current_version_epoch_ms": 1755035179998,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Reconnaître la valvulopathie à partir de la physiopathologie suivante : obstacle à l'éjection systolique du ventricule gauche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cette description correspond au rétrécissement aortique (RA).",
+            "justification": "RA = limitation d'ouverture de la valve aortique créant un obstacle à l'éjection systolique du VG."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette description correspond à l'insuffisance aortique (IA).",
+            "justification": "IA = défaut de fermeture en diastole avec régurgitation aorte → VG, pas un obstacle à l'éjection systolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette description correspond à l'insuffisance mitrale (IM).",
+            "justification": "IM = défaut de fermeture en systole avec régurgitation VG → OG, sans notion d'obstacle à l'éjection."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette description correspond à une atteinte de la valve aortique par limitation d'ouverture.",
+            "justification": "L'obstacle à l'éjection systolique du VG résulte d'une limitation d'ouverture de la valve aortique, définition du RA."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette description correspond au rétrécissement mitral (RM).",
+            "justification": "RM = limitation d'ouverture en diastole gênant l'écoulement OG → VG au remplissage, non un obstacle à l'éjection du VG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755035179998_05",
+      "current_version_epoch_ms": 1755035179998,
+      "topic": {
+        "subject": "cardio",
+        "item": "valvuloP"
+      },
+      "data": {
+        "statement": "Classer par phase et sens du flux : sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans l'IM, la régurgitation du VG vers l'OG survient en systole.",
+            "justification": "IM = défaut de fermeture systolique avec régurgitation du ventricule gauche vers l'oreillette gauche en systole."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'IA, la régurgitation de l'aorte vers le VG survient en diastole.",
+            "justification": "IA = défaut de fermeture en diastole avec régurgitation de l'aorte vers le ventricule gauche."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans le RM, l'obstacle à l'écoulement OG → VG survient en diastole (remplissage cardiaque).",
+            "justification": "RM = limitation d'ouverture en diastole entraînant un obstacle à l'écoulement de l'oreillette gauche vers le ventricule gauche au moment du remplissage."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans le RA, la limitation d'ouverture provoque un obstacle à l'éjection systolique du VG.",
+            "justification": "RA = limitation d'ouverture de la valve aortique responsable d'un obstacle à l'éjection systolique du ventricule gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le RM, il existe une régurgitation de l'OG vers le VG en diastole.",
+            "justification": "Le RM est défini par un obstacle à l'écoulement OG → VG en diastole, et non par une régurgitation."
+          }
+        ]
+      }
+    }
+  ]
+}

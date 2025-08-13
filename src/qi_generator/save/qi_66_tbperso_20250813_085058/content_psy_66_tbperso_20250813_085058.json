@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755068064965_01",
+      "current_version_epoch_ms": 1755068064965,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier les indications du recours à un psychiatre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble sévère",
+            "justification": "Fait partie des indications de consultation : présence d'un trouble sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Comorbidité",
+            "justification": "Fait partie des indications de consultation : comorbidité associée."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement",
+            "justification": "Fait partie des indications de consultation : résistance au traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Situation à risque justifiant une consultation : grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de comorbidité",
+            "justification": "Ne correspond pas aux indications de recours listées (la comorbidité, et non son absence, justifie la consultation)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755068064965_02",
+      "current_version_epoch_ms": 1755068064965,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître les situations justifiant une hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anxiété majeure",
+            "justification": "L'hospitalisation se discute en cas d'anxiété majeure."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque suicidaire",
+            "justification": "L'hospitalisation se justifie en présence d'un risque suicidaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Épisode dépressif caractérisé sévère (EDC sévère)",
+            "justification": "L'hospitalisation peut être nécessaire en cas d'EDC sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Grossesse non compliquée",
+            "justification": "La grossesse relève d'une consultation (situation à risque) ; l'hospitalisation n'est pas indiquée d'emblée."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance au traitement sans autre gravité",
+            "justification": "La résistance au traitement motive une consultation ; l'hospitalisation n'est pas l'option par défaut."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755068064965_03",
+      "current_version_epoch_ms": 1755068064965,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "À propos de l'hospitalisation, choisir les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est rarement nécessaire.",
+            "justification": "Principe général : l'hospitalisation est rarement nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est systématique en post-partum.",
+            "justification": "Le post-partum est une situation à risque justifiant une consultation, pas une hospitalisation systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut être envisagée en cas d'anxiété majeure.",
+            "justification": "Exception prévue : anxiété majeure."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est indiquée d'emblée en cas de résistance au traitement.",
+            "justification": "La résistance au traitement relève d'abord d'une consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut se justifier en cas de risque suicidaire.",
+            "justification": "Exception prévue : risque suicidaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755068064965_04",
+      "current_version_epoch_ms": 1755068064965,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, préciser celles qui sont explicitement qualifiées de « situations à risque » nécessitant une consultation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Qualifiée de situation à risque nécessitant une consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Post-partum",
+            "justification": "Qualifié de situation à risque nécessitant une consultation."
+          },
+          {
+            "correct": false,
+            "proposition": "Comorbidité",
+            "justification": "Indication de consultation, mais pas désignée comme « situation à risque »."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance au traitement",
+            "justification": "Indication de consultation, mais pas désignée comme « situation à risque »."
+          },
+          {
+            "correct": false,
+            "proposition": "Anxiété majeure",
+            "justification": "Motif d'hospitalisation possible, pas une « situation à risque » au sens défini."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755068064965_05",
+      "current_version_epoch_ms": 1755068064965,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Différencier les situations relevant d'abord d'une consultation de celles pouvant justifier une hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Comorbidité → consultation",
+            "justification": "La comorbidité motive un recours en consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement → consultation",
+            "justification": "La résistance au traitement motive un recours en consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse → consultation",
+            "justification": "La grossesse est une situation à risque relevant de la consultation."
+          },
+          {
+            "correct": true,
+            "proposition": "Post-partum → consultation",
+            "justification": "Le post-partum est une situation à risque relevant de la consultation."
+          },
+          {
+            "correct": false,
+            "proposition": "Épisode dépressif caractérisé sévère (EDC sévère) → consultation",
+            "justification": "Un EDC sévère peut justifier une hospitalisation, pas une simple consultation."
+          }
+        ]
+      }
+    }
+  ]
+}

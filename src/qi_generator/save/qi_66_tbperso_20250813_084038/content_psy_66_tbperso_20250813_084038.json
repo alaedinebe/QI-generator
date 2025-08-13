@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755067444996_01",
+      "current_version_epoch_ms": 1755067444996,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier, chez un patient présentant un épisode dépressif, les situations constituant des indications de recours au psychiatre (OIC-066-14-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque suicidaire élevé",
+            "justification": "Indication explicite de recours au psychiatre."
+          },
+          {
+            "correct": true,
+            "proposition": "Mise en danger",
+            "justification": "Indication explicite de recours au psychiatre."
+          },
+          {
+            "correct": true,
+            "proposition": "Épisode dépressif caractérisé (EDC) sévère",
+            "justification": "La sévérité de l'EDC fait partie des indications de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Comorbidités associées",
+            "justification": "La présence de comorbidités est citée parmi les indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Anxiété isolée sans autre critère",
+            "justification": "Cette situation n'est pas mentionnée parmi les indications de recours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755067444996_02",
+      "current_version_epoch_ms": 1755067444996,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Définir la situation de « résistance » justifiant un recours au psychiatre dans la prise en charge d'un EDC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Résistance à deux antidépresseurs à posologie et durée suffisantes",
+            "justification": "Correspond précisément à l'indication de recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance à un seul antidépresseur à posologie et durée suffisantes",
+            "justification": "Un seul essai insuffisant n'est pas cité comme critère ; deux essais sont requis."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance à deux antidépresseurs avec posologie suffisante mais durée insuffisante",
+            "justification": "La durée doit aussi être suffisante ; ce critère n'est donc pas rempli."
+          },
+          {
+            "correct": false,
+            "proposition": "Échec d'une prise en charge non médicamenteuse isolée",
+            "justification": "Non listé comme motif de recours ; le critère porte sur deux antidépresseurs à posologie et durée suffisantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de caractéristiques psychotiques",
+            "justification": "Constitue une autre indication de recours, distincte de la résistance aux antidépresseurs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755067444996_03",
+      "current_version_epoch_ms": 1755067444996,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques cliniques d'un épisode dépressif qui justifient un recours au psychiatre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Caractéristiques mélancoliques",
+            "justification": "Citées comme indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractéristiques psychotiques",
+            "justification": "Citées comme indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractéristiques mixtes",
+            "justification": "Citées comme indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractéristiques catatoniques",
+            "justification": "Citées comme indication de recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Caractéristiques atypiques",
+            "justification": "Non mentionnées parmi les caractéristiques indiquant un recours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755067444996_04",
+      "current_version_epoch_ms": 1755067444996,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Classer les situations de vie suivantes selon qu'elles relèvent d'un recours au psychiatre en contexte d'EDC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Fait partie des situations à risque nécessitant un recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Post-partum",
+            "justification": "Fait partie des situations à risque nécessitant un recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Pré-adolescence",
+            "justification": "Non listée comme situation à risque nécessitant un recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Péri-ménopause",
+            "justification": "Non listée comme situation à risque nécessitant un recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Péri-opératoire",
+            "justification": "Non listée comme situation à risque nécessitant un recours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755067444996_05",
+      "current_version_epoch_ms": 1755067444996,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Différencier les contextes nécessitant un avis spécialisé de ceux pouvant relever d'une prise en charge de première ligne.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mise en danger",
+            "justification": "Cité comme motif de recours au psychiatre."
+          },
+          {
+            "correct": true,
+            "proposition": "Comorbidités associées à l'EDC",
+            "justification": "La présence de comorbidités est une indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "EDC sévère",
+            "justification": "La sévérité de l'EDC justifie le recours."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC léger sans facteur de risque",
+            "justification": "La légèreté de l'épisode n'est pas citée comme indication de recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de comorbidités",
+            "justification": "Ce contexte n'est pas une indication de recours ; ce sont les comorbidités qui le sont."
+          }
+        ]
+      }
+    }
+  ]
+}

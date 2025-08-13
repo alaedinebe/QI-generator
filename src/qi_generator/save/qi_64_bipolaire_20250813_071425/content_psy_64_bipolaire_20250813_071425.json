@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bipolaire",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755062272433_01",
+      "current_version_epoch_ms": 1755062272433,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes sur la prévalence selon l'âge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez l'adulte, elle varie de 1 à 4 %.",
+            "justification": "La valeur attendue chez l'adulte est un intervalle 1–4 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez l'enfant, elle est de 0,1 %.",
+            "justification": "La valeur donnée pour les enfants est 0,1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez l'adolescent, elle est ≤ 1 %.",
+            "justification": "Chez les adolescents, la valeur est strictement > 1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez l'adulte, elle peut être < 1 %.",
+            "justification": "Chez l'adulte, l'intervalle commence à 1 % (1–4 %)."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez l'adolescent, elle est > 1 %.",
+            "justification": "La prévalence indiquée chez les adolescents est strictement supérieure à 1 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755062272433_02",
+      "current_version_epoch_ms": 1755062272433,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Reconnaître les valeurs compatibles avec la prévalence chez l'adulte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2 % est compatible.",
+            "justification": "2 % appartient à l'intervalle 1–4 %."
+          },
+          {
+            "correct": false,
+            "proposition": "0,5 % est compatible.",
+            "justification": "0,5 % est inférieur à la borne minimale de 1 %."
+          },
+          {
+            "correct": true,
+            "proposition": "4 % est compatible.",
+            "justification": "4 % correspond à la borne supérieure de l'intervalle 1–4 %."
+          },
+          {
+            "correct": true,
+            "proposition": "1 % est compatible.",
+            "justification": "1 % correspond à la borne minimale de l'intervalle 1–4 %."
+          },
+          {
+            "correct": false,
+            "proposition": "4,5 % est compatible.",
+            "justification": "4,5 % dépasse la borne supérieure de 4 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755062272433_03",
+      "current_version_epoch_ms": 1755062272433,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Différencier la prévalence chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est d'environ 0,1 %.",
+            "justification": "La valeur rapportée chez l'enfant est 0,1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle peut atteindre 1 %.",
+            "justification": "Aucune plage n'est indiquée pour l'enfant ; la valeur donnée est 0,1 %, bien inférieure à 1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle se situe entre 1 et 4 %.",
+            "justification": "L'intervalle 1–4 % concerne les adultes, pas les enfants (0,1 %)."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est inférieure à celle des adolescents (> 1 %).",
+            "justification": "0,1 % chez l'enfant est inférieur à une valeur strictement > 1 % chez l'adolescent."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est inférieure à celle des adultes (1–4 %).",
+            "justification": "0,1 % est inférieur à toute valeur comprise entre 1 % et 4 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755062272433_04",
+      "current_version_epoch_ms": 1755062272433,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant la prévalence chez les adolescents.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est strictement supérieure à 1 %.",
+            "justification": "La mention est > 1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle peut être exactement de 1 %.",
+            "justification": "Le signe strictement > 1 % exclut l'égalité à 1 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est compatible avec 0,8 %.",
+            "justification": "0,8 % est < 1 %, incompatible avec > 1 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est supérieure à celle des enfants (0,1 %).",
+            "justification": "> 1 % (adolescents) est supérieur à 0,1 % (enfants)."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inférieure à la borne minimale chez l'adulte (1 %).",
+            "justification": "Chez les adolescents, la valeur est > 1 %, donc non inférieure à 1 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755062272433_05",
+      "current_version_epoch_ms": 1755062272433,
+      "topic": {
+        "subject": "psy",
+        "item": "bipolaire"
+      },
+      "data": {
+        "statement": "Comparer les ordres de grandeur de prévalence entre classes d'âge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La prévalence minimale chez l'adulte est 10 fois celle des enfants.",
+            "justification": "1 % (minimum adulte) est 10 × 0,1 % (enfants)."
+          },
+          {
+            "correct": true,
+            "proposition": "La prévalence maximale chez l'adulte n'excède pas 4 %.",
+            "justification": "La borne supérieure chez l'adulte est 4 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les adolescents, elle est ≤ 1 %.",
+            "justification": "Chez les adolescents, la valeur est > 1 %."
+          },
+          {
+            "correct": true,
+            "proposition": "La prévalence chez l'adulte peut être 40 fois celle des enfants.",
+            "justification": "4 % (maximum adulte) / 0,1 % (enfants) = 40."
+          },
+          {
+            "correct": false,
+            "proposition": "La prévalence chez les enfants est comprise entre 1 et 4 %.",
+            "justification": "Les 1–4 % concernent les adultes ; chez l'enfant la valeur est 0,1 %."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755042003711_01",
+      "current_version_epoch_ms": 1755042003711,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier des éléments pronostiques clés de l'insuffisance cardiaque (IC).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IC est une maladie grave.",
+            "justification": "Le caractère grave de l'IC est explicitement affirmé."
+          },
+          {
+            "correct": true,
+            "proposition": "La mortalité à cinq ans est d'environ 50 %.",
+            "justification": "Il est indiqué une mortalité moyenne de 50 % à cinq ans."
+          },
+          {
+            "correct": false,
+            "proposition": "La survie à cinq ans dépasse 90 %.",
+            "justification": "Une mortalité de 50 % à cinq ans contredit une survie supérieure à 90 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La mortalité à court et moyen terme est nulle.",
+            "justification": "La mention d'une mortalité de 50 % à cinq ans s'oppose à l'idée d'une mortalité nulle."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IC n'est pas associée à des décès subits.",
+            "justification": "La mort subite est citée avec TV, FV et dissociation électromécanique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042003711_02",
+      "current_version_epoch_ms": 1755042003711,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer les causes de décès directement associées à l'IC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque chronique réfractaire avec cachexie cardiaque.",
+            "justification": "Cette cause est listée parmi les issues létales de l'IC."
+          },
+          {
+            "correct": true,
+            "proposition": "Choc cardiogénique aboutissant à une défaillance multiviscérale.",
+            "justification": "Le choc cardiogénique menant à la défaillance multiviscérale est cité."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale terminale dans le cadre d'un syndrome cardiorénal.",
+            "justification": "L'insuffisance rénale terminale liée au syndrome cardiorénal est mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Épisodes d'insuffisance cardiaque aiguë.",
+            "justification": "Les épisodes d'ICA font partie des causes de décès retenues."
+          },
+          {
+            "correct": false,
+            "proposition": "Endocardite infectieuse.",
+            "justification": "Ne fait pas partie des causes détaillées (réfractaire/cachexie, choc cardiogénique avec défaillance multiviscérale, insuffisance rénale terminale par syndrome cardiorénal, épisodes d'ICA, mort subite par TV/FV ou dissociation électromécanique)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042003711_03",
+      "current_version_epoch_ms": 1755042003711,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les mécanismes de mort subite chez les patients avec IC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie ventriculaire (TV).",
+            "justification": "La TV est citée comme trouble du rythme ventriculaire responsable."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrillation ventriculaire (FV).",
+            "justification": "La FV est listée parmi les troubles ventriculaires impliqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Dissociation électromécanique.",
+            "justification": "La mort subite par dissociation électromécanique est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrillation auriculaire.",
+            "justification": "Non identifiée parmi les mécanismes de mort subite retenus (TV, FV, dissociation électromécanique)."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie jonctionnelle.",
+            "justification": "Non citée parmi les mécanismes responsables de mort subite indiqués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042003711_04",
+      "current_version_epoch_ms": 1755042003711,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les complications thromboemboliques associées à l'IC et un facteur favorisant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Embolies systémiques responsables d'AVC.",
+            "justification": "Les embolies systémiques (AVC) sont mentionnées."
+          },
+          {
+            "correct": true,
+            "proposition": "Embolie pulmonaire.",
+            "justification": "L'embolie pulmonaire fait partie des complications listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue favorisée lors des épisodes d'alitement.",
+            "justification": "La précision « épisodes d'alitement » est associée à l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombose veineuse profonde explicitement listée.",
+            "justification": "Seules les embolies systémiques (AVC) et l'embolie pulmonaire sont précisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie paradoxale citée comme complication typique de l'IC.",
+            "justification": "Non mentionnée parmi les complications thromboemboliques retenues."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755042003711_05",
+      "current_version_epoch_ms": 1755042003711,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Relier des trajectoires évolutives de l'IC aux issues observées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le syndrome cardiorénal peut aboutir à une insuffisance rénale terminale.",
+            "justification": "L'insuffisance rénale terminale dans un contexte de syndrome cardiorénal est indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Les épisodes d'insuffisance cardiaque aiguë contribuent à la mortalité.",
+            "justification": "Ils sont inclus parmi les causes de décès associées à l'IC."
+          },
+          {
+            "correct": true,
+            "proposition": "La cachexie cardiaque s'associe aux formes réfractaires.",
+            "justification": "L'IC chronique réfractaire avec cachexie cardiaque est citée comme cause de décès."
+          },
+          {
+            "correct": true,
+            "proposition": "Un choc cardiogénique peut évoluer vers une défaillance multiviscérale.",
+            "justification": "Cette progression est explicitement décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "La plupart des décès surviennent sans lien avec l'IC.",
+            "justification": "À l'inverse, des causes liées à l'IC sont détaillées (réfractaire/cachexie, cardiorénal, ICA, mort subite)."
+          }
+        ]
+      }
+    }
+  ]
+}

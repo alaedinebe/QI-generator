@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "precarite",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755052755983_01",
+      "current_version_epoch_ms": 1755052755983,
+      "topic": {
+        "subject": "psy",
+        "item": "precarite"
+      },
+      "data": {
+        "statement": "Identifier l'expansion exacte des sigles listés parmi les aides financières à connaître (OIC-059-12-A). Cochez la/les réponse(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "RSA signifie « Revenu de solidarité active ».",
+            "justification": "Le sigle RSA est développé en « Revenu de solidarité active »."
+          },
+          {
+            "correct": true,
+            "proposition": "AAH signifie « Allocation Adulte Handicapés ».",
+            "justification": "Le sigle AAH est donné comme « Allocation Adulte Handicapés »."
+          },
+          {
+            "correct": true,
+            "proposition": "APA signifie « Allocation Personnalité d'Autonomie ».",
+            "justification": "Le sigle APA est libellé « Allocation Personnalité d'Autonomie »."
+          },
+          {
+            "correct": false,
+            "proposition": "RSA signifie « Allocation Adulte Handicapés ».",
+            "justification": "Cette expansion correspond à AAH, pas à RSA."
+          },
+          {
+            "correct": false,
+            "proposition": "AAH signifie « Revenu de solidarité active ».",
+            "justification": "Cette expansion correspond à RSA, pas à AAH."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755052755983_02",
+      "current_version_epoch_ms": 1755052755983,
+      "topic": {
+        "subject": "psy",
+        "item": "precarite"
+      },
+      "data": {
+        "statement": "Différencier, selon leur dénomination, lesquelles relèvent d'une « Allocation » ou d'un « Revenu ». Cochez la/les affirmation(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "RSA relève d'un « Revenu », pas d'une « Allocation ».",
+            "justification": "Son intitulé contient « Revenu de solidarité active »."
+          },
+          {
+            "correct": true,
+            "proposition": "AAH est une « Allocation » selon son intitulé.",
+            "justification": "Le libellé est « Allocation Adulte Handicapés »."
+          },
+          {
+            "correct": true,
+            "proposition": "APA est une « Allocation » selon son intitulé.",
+            "justification": "Le libellé est « Allocation Personnalité d'Autonomie »."
+          },
+          {
+            "correct": false,
+            "proposition": "Les trois aides citées sont des « Revenus ».",
+            "justification": "Deux aides (AAH, APA) sont présentées comme « Allocation »."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune des aides ne comporte le mot « Allocation ».",
+            "justification": "AAH et APA comportent le terme « Allocation »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755052755983_03",
+      "current_version_epoch_ms": 1755052755983,
+      "topic": {
+        "subject": "psy",
+        "item": "precarite"
+      },
+      "data": {
+        "statement": "Reconnaître les aides explicitement mentionnées et le nombre d'entrées listées. Cochez la/les réponse(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "RSA fait partie des aides financières à connaître.",
+            "justification": "RSA figure dans la liste des aides."
+          },
+          {
+            "correct": true,
+            "proposition": "AAH fait partie des aides financières à connaître.",
+            "justification": "AAH figure dans la liste des aides."
+          },
+          {
+            "correct": true,
+            "proposition": "APA fait partie des aides financières à connaître.",
+            "justification": "APA figure dans la liste des aides."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nombre d'aides différentes citées est de trois.",
+            "justification": "Seules trois entrées distinctes sont mentionnées : RSA, AAH, APA."
+          },
+          {
+            "correct": false,
+            "proposition": "Une quatrième aide financière est citée en plus de RSA, AAH et APA.",
+            "justification": "Aucune autre aide n'est ajoutée à ces trois sigles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755052755983_04",
+      "current_version_epoch_ms": 1755052755983,
+      "topic": {
+        "subject": "psy",
+        "item": "precarite"
+      },
+      "data": {
+        "statement": "Identifier les mots constitutifs des intitulés tels qu'énoncés. Cochez la/les affirmation(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le mot « solidarité » figure dans l'intitulé du RSA.",
+            "justification": "L'intitulé est « Revenu de solidarité active »."
+          },
+          {
+            "correct": true,
+            "proposition": "Le mot « Handicapés » figure dans l'intitulé de l'AAH.",
+            "justification": "L'intitulé est « Allocation Adulte Handicapés »."
+          },
+          {
+            "correct": true,
+            "proposition": "Le mot « Autonomie » figure dans l'intitulé de l'APA.",
+            "justification": "L'intitulé est « Allocation Personnalité d'Autonomie »."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mot « Revenu » figure dans l'intitulé de l'AAH.",
+            "justification": "AAH est libellé comme une « Allocation », sans « Revenu »."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mot « Allocation » figure dans l'intitulé du RSA.",
+            "justification": "RSA est libellé « Revenu de solidarité active », sans « Allocation »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755052755983_05",
+      "current_version_epoch_ms": 1755052755983,
+      "topic": {
+        "subject": "psy",
+        "item": "precarite"
+      },
+      "data": {
+        "statement": "Classer ces aides selon leurs sigles et éléments distinctifs de dénomination. Cochez la/les affirmation(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les trois sigles listés sont RSA, AAH et APA.",
+            "justification": "Ce sont les trois aides mentionnées."
+          },
+          {
+            "correct": true,
+            "proposition": "AAH et APA partagent la mention « Allocation » dans leur libellé.",
+            "justification": "Les intitulés commencent par « Allocation » pour AAH et APA."
+          },
+          {
+            "correct": false,
+            "proposition": "RSA partage également la mention « Allocation » dans son libellé.",
+            "justification": "RSA est présenté comme « Revenu », pas « Allocation »."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'intitulé cité, AAH comporte le mot « Adulte ».",
+            "justification": "Le libellé repris est « Allocation Adulte Handicapés »."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'intitulé cité, APA comporte le mot « Personnalité ».",
+            "justification": "Le libellé repris est « Allocation Personnalité d'Autonomie »."
+          }
+        ]
+      }
+    }
+  ]
+}

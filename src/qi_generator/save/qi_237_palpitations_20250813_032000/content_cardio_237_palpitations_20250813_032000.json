@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palpitations",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755048207456_01",
+      "current_version_epoch_ms": 1755048207456,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Identifier, parmi les examens suivants, ceux qui relèvent de la biologie de première intention dans la prise en charge initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS",
+            "justification": "Fait partie de la biologie de première intention (NFS, ionogramme, TSH)."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme",
+            "justification": "Fait partie de la biologie de première intention (NFS, ionogramme, TSH)."
+          },
+          {
+            "correct": true,
+            "proposition": "TSH",
+            "justification": "Fait partie de la biologie de première intention (NFS, ionogramme, TSH)."
+          },
+          {
+            "correct": false,
+            "proposition": "B-HCG",
+            "justification": "Examen orienté selon le contexte, non listé en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "D-dimères",
+            "justification": "Examen orienté selon le contexte, non listé en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048207456_02",
+      "current_version_epoch_ms": 1755048207456,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Classer les examens suivants comme « orientés selon le contexte » lors de l'évaluation initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "B-HCG",
+            "justification": "Mentionné comme examen orienté selon le contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "D-dimères",
+            "justification": "Mentionné comme examen orienté selon le contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Troponines",
+            "justification": "Mentionnées comme examens orientés selon le contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS",
+            "justification": "Fait partie de la biologie de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme",
+            "justification": "Fait partie de la biologie de première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048207456_03",
+      "current_version_epoch_ms": 1755048207456,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Reconnaître l'indication des examens non invasifs dans l'exploration initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échocardiographie pour rechercher une cardiopathie sous-jacente",
+            "justification": "Indiquée à la recherche d'une cardiopathie sous-jacente."
+          },
+          {
+            "correct": true,
+            "proposition": "Épreuve d'effort en cas de survenue à l'effort ou de suspicion d'ischémie myocardique",
+            "justification": "Indiquée si survenue à l'effort ou suspicion d'ischémie myocardique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cardiaque systématique d'emblée",
+            "justification": "Non citée parmi les examens recommandés dans ces modalités initiales."
+          },
+          {
+            "correct": false,
+            "proposition": "Coroscanner systématique d'emblée",
+            "justification": "Non cité parmi les examens recommandés dans ces modalités initiales."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique systématique d'emblée",
+            "justification": "Non citée parmi les examens recommandés dans ces modalités initiales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048207456_04",
+      "current_version_epoch_ms": 1755048207456,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Choisir la modalité d'enregistrement ambulatoire de l'ECG en fonction de la fréquence des palpitations.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Palpitations fréquentes (>1/semaine) : Holter ECG 24 à 96 heures",
+            "justification": "Indiqué lorsque les palpitations sont fréquentes, pour une durée de 24 à 96 h."
+          },
+          {
+            "correct": true,
+            "proposition": "Palpitations moins fréquentes (<1/semaine) : ECG ambulatoire de longue durée 7 à 21 jours",
+            "justification": "Utilisé lorsque les palpitations sont moins fréquentes, pour 7 à 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpitations fréquentes (>1/semaine) : ECG ambulatoire de longue durée 7 à 21 jours",
+            "justification": "Pour des palpitations fréquentes, la durée recommandée est 24 à 96 h (Holter)."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpitations moins fréquentes (<1/semaine) : Holter ECG 24 à 96 heures",
+            "justification": "Pour des palpitations moins fréquentes, la recommandation est 7 à 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Holter ECG 12 heures en cas de symptômes quasi quotidiens",
+            "justification": "Durée de 12 h non mentionnée ; la durée citée est 24 à 96 h."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755048207456_05",
+      "current_version_epoch_ms": 1755048207456,
+      "topic": {
+        "subject": "cardio",
+        "item": "palpitations"
+      },
+      "data": {
+        "statement": "Définir l'élément central permettant d'établir le diagnostic et la conduite à tenir si absent initialement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obtention d'un tracé électrocardiographique percritique",
+            "justification": "Le diagnostic repose sur l'obtention d'un tracé percritique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan biologique isolé sans corrélation électrocardiographique",
+            "justification": "Le diagnostic ne repose pas sur la biologie isolée mais sur un tracé percritique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie seule",
+            "justification": "L'échocardiographie recherche une cardiopathie mais ne constitue pas l'élément diagnostique central."
+          },
+          {
+            "correct": false,
+            "proposition": "Épreuve d'effort systématique, quelle que soit la présentation",
+            "justification": "Réservée à la survenue à l'effort ou suspicion d'ischémie, pas systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Organisation d'un enregistrement ambulatoire de l'ECG si aucun tracé initial n'a pu être obtenu",
+            "justification": "En l'absence de tracé initial, un enregistrement ambulatoire est organisé pour capturer le tracé percritique."
+          }
+        ]
+      }
+    }
+  ]
+}

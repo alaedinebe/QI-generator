@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TdC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755046758843_01",
+      "current_version_epoch_ms": 1755046758843,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Avant toute implantation de stimulateur cardiaque, identifier l'exigence préalable indispensable.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une étiologie curable du trouble conductif.",
+            "justification": "Il est précisé que l'implantation nécessite de rechercher une étiologie curable du trouble conductif."
+          },
+          {
+            "correct": false,
+            "proposition": "Implanter d'emblée en présence d'une bradycardie, sans autre démarche.",
+            "justification": "La pose ne doit pas être immédiate : une recherche d'étiologie curable est requise."
+          },
+          {
+            "correct": true,
+            "proposition": "Écarter une étiologie réversible avant d'indiquer la stimulation.",
+            "justification": "L'indication est donnée devant une bradycardie inappropriée sans étiologie curable ou réversible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'évaluation étiologique n'est pas nécessaire en cas de BAV 3.",
+            "justification": "Aucune exception n'est mentionnée : la recherche d'une cause curable est requise avant implantation."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter la recherche étiologique aux seules dysfonctions sinusales.",
+            "justification": "La recherche d'étiologie curable concerne le trouble conductif en général, pas uniquement la dysfonction sinusale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046758843_02",
+      "current_version_epoch_ms": 1755046758843,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Reconnaître les situations constituant une indication de stimulateur cardiaque définitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysfonction sinusale symptomatique.",
+            "justification": "Elle fait partie des indications listées."
+          },
+          {
+            "correct": true,
+            "proposition": "BAV de troisième degré (BAV 3).",
+            "justification": "Les BAV 3 sont explicitement indiqués."
+          },
+          {
+            "correct": true,
+            "proposition": "BAV 2 de type Mobitz II à siège infra-hissien.",
+            "justification": "Indiqué si le siège est infra-hissien."
+          },
+          {
+            "correct": true,
+            "proposition": "BAV 2 de type Mobitz II symptomatique quel que soit le siège.",
+            "justification": "Indiqué s'il est symptomatique, quel que soit le siège."
+          },
+          {
+            "correct": false,
+            "proposition": "BAV de premier degré (BAV 1).",
+            "justification": "Les BAV 1 ne nécessitent pas la pose de stimulateur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046758843_03",
+      "current_version_epoch_ms": 1755046758843,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes comme ne nécessitant pas la pose d'un stimulateur cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BAV 2 de type Mobitz I asymptomatique.",
+            "justification": "Il est précisé qu'il ne nécessite pas la pose."
+          },
+          {
+            "correct": true,
+            "proposition": "BAV de premier degré (BAV 1).",
+            "justification": "Indiqué comme ne nécessitant pas la pose."
+          },
+          {
+            "correct": false,
+            "proposition": "BAV 3.",
+            "justification": "Le BAV 3 fait partie des indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysfonction sinusale symptomatique.",
+            "justification": "Elle est listée parmi les indications."
+          },
+          {
+            "correct": false,
+            "proposition": "BAV 2 de type Mobitz II symptomatique.",
+            "justification": "C'est une indication quel que soit le siège lorsqu'il est symptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046758843_04",
+      "current_version_epoch_ms": 1755046758843,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Définir la règle générale d'indication de la stimulation en cas de bradycardie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bradycardie inappropriée sans étiologie curable ou réversible.",
+            "justification": "C'est la condition générale mentionnée pour indiquer le stimulateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie inappropriée avec étiologie curable identifiée.",
+            "justification": "La présence d'une étiologie curable s'oppose à l'indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie inappropriée avec étiologie réversible identifiée.",
+            "justification": "La présence d'une étiologie réversible s'oppose à l'indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute bradycardie quelle qu'en soit la cause.",
+            "justification": "L'indication n'est posée qu'en l'absence d'étiologie curable ou réversible."
+          },
+          {
+            "correct": false,
+            "proposition": "BAV 2 de type Mobitz I asymptomatique.",
+            "justification": "Cette situation ne nécessite pas la pose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755046758843_05",
+      "current_version_epoch_ms": 1755046758843,
+      "topic": {
+        "subject": "cardio",
+        "item": "TdC"
+      },
+      "data": {
+        "statement": "Identifier les éléments techniques décrits pour la mise en place d'un stimulateur simple ou double chambre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Procédure sous anesthésie locale.",
+            "justification": "La procédure est décrite comme réalisée sous anesthésie locale."
+          },
+          {
+            "correct": true,
+            "proposition": "Incision dans le sillon delto-pectoral.",
+            "justification": "L'incision est précisée à cet endroit."
+          },
+          {
+            "correct": true,
+            "proposition": "Implantation d'une ou deux sondes dans les cavités cardiaques droites via le réseau veineux supérieur.",
+            "justification": "Le trajet et le nombre de sondes sont explicitement décrits."
+          },
+          {
+            "correct": false,
+            "proposition": "Anesthésie générale obligatoire.",
+            "justification": "Ce n'est pas ce qui est décrit : l'anesthésie mentionnée est locale."
+          },
+          {
+            "correct": false,
+            "proposition": "Abord par voie artérielle fémorale.",
+            "justification": "La voie décrite est veineuse supérieure, avec incision delto-pectorale."
+          }
+        ]
+      }
+    }
+  ]
+}

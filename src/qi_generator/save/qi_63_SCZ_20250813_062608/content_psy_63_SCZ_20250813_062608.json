@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SCZ",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755059375175_01",
+      "current_version_epoch_ms": 1755059375175,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, celles qui relèvent des causes neurologiques de diagnostic différentiel non psychiatrique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épilepsies",
+            "justification": "Relève des causes neurologiques : épilepsies."
+          },
+          {
+            "correct": true,
+            "proposition": "Tumeurs cérébrales",
+            "justification": "Relève des causes neurologiques : tumeurs cérébrales."
+          },
+          {
+            "correct": true,
+            "proposition": "AVC",
+            "justification": "Relève des causes neurologiques : AVC."
+          },
+          {
+            "correct": true,
+            "proposition": "Inflammation",
+            "justification": "Relève des causes neurologiques : inflammation."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysthyroïdies",
+            "justification": "Relève des causes endocriniennes : dysthyroïdies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059375175_02",
+      "current_version_epoch_ms": 1755059375175,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Reconnaître la cause endocrinienne pertinente dans le cadre d'un diagnostic différentiel non psychiatrique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysthyroïdies",
+            "justification": "Relève des causes endocriniennes : dysthyroïdies."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoglycémie",
+            "justification": "Relève des causes métaboliques : hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyscalcémie",
+            "justification": "Relève des causes métaboliques : dyscalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie de Wilson",
+            "justification": "Relève des causes métaboliques : Maladie de Wilson."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine",
+            "justification": "Relève des causes iatrogènes : méfloquine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059375175_03",
+      "current_version_epoch_ms": 1755059375175,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Classer les propositions qui correspondent à des causes métaboliques de diagnostic différentiel non psychiatrique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maladie de Wilson",
+            "justification": "Relève des causes métaboliques : Maladie de Wilson."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoglycémie",
+            "justification": "Relève des causes métaboliques : hypoglycémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Dyscalcémie",
+            "justification": "Relève des causes métaboliques : dyscalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "L-DOPA",
+            "justification": "Relève des causes iatrogènes : L-DOPA."
+          },
+          {
+            "correct": false,
+            "proposition": "Amphétamines",
+            "justification": "Relève d'une intoxication par une substance psychoactive (psychostimulants)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059375175_04",
+      "current_version_epoch_ms": 1755059375175,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Identifier les étiologies iatrogènes impliquées dans les diagnostics différentiels non psychiatriques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L-DOPA",
+            "justification": "Relève des causes iatrogènes : L-DOPA."
+          },
+          {
+            "correct": true,
+            "proposition": "Méfloquine",
+            "justification": "Relève des causes iatrogènes : méfloquine."
+          },
+          {
+            "correct": false,
+            "proposition": "LSD",
+            "justification": "Relève d'une intoxication par une substance psychoactive (hallucinogènes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Cannabis",
+            "justification": "Relève d'une intoxication par une substance psychoactive (hallucinogènes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Épilepsies",
+            "justification": "Relève des causes neurologiques : épilepsies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755059375175_05",
+      "current_version_epoch_ms": 1755059375175,
+      "topic": {
+        "subject": "psy",
+        "item": "SCZ"
+      },
+      "data": {
+        "statement": "Parmi les substances suivantes, reconnaître celles impliquées dans une intoxication psychoactive parmi les diagnostics différentiels non psychiatriques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amphétamines",
+            "justification": "Relève des psychostimulants impliqués dans une intoxication."
+          },
+          {
+            "correct": true,
+            "proposition": "Cocaïne",
+            "justification": "Relève des psychostimulants impliqués dans une intoxication."
+          },
+          {
+            "correct": true,
+            "proposition": "Cannabis",
+            "justification": "Relève des hallucinogènes impliqués dans une intoxication."
+          },
+          {
+            "correct": true,
+            "proposition": "LSD",
+            "justification": "Relève des hallucinogènes impliqués dans une intoxication."
+          },
+          {
+            "correct": true,
+            "proposition": "Kétamine",
+            "justification": "Relève des hallucinogènes impliqués dans une intoxication."
+          }
+        ]
+      }
+    }
+  ]
+}

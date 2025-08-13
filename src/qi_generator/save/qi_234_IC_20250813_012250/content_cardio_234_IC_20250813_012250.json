@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IC",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755041177084_01",
+      "current_version_epoch_ms": 1755041177084,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Définir et caractériser correctement la fraction d'éjection (FE) et la FEVG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La FE est la fraction de sang éjectée à chaque systole, exprimée en pourcentage du volume télédiastolique (VTD).",
+            "justification": "La FE correspond à la proportion de sang éjectée par battement et s'exprime en % du VTD."
+          },
+          {
+            "correct": true,
+            "proposition": "La FEVG est le paramètre le plus utilisé pour caractériser la fonction systolique du ventricule gauche.",
+            "justification": "Il est précisé que la FE du ventricule gauche est l'indicateur de référence pour la fonction systolique du VG."
+          },
+          {
+            "correct": true,
+            "proposition": "La FEVG est mesurée en échocardiographie.",
+            "justification": "Il est indiqué que la mesure se fait en échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "La FE s'exprime en millilitres éjectés par battement.",
+            "justification": "La FE est un pourcentage, pas un volume absolu."
+          },
+          {
+            "correct": false,
+            "proposition": "La FE évalue la proportion du volume télésystolique éjectée à chaque systole.",
+            "justification": "La FE est rapportée au volume télédiastolique, pas au volume télésystolique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041177084_02",
+      "current_version_epoch_ms": 1755041177084,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Classer des valeurs de FEVG dans les catégories d'insuffisance cardiaque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "FEVG = 35 % correspond à une IC à FEVG diminuée.",
+            "justification": "Une FEVG ≤ 40 % définit l'IC à FEVG diminuée."
+          },
+          {
+            "correct": true,
+            "proposition": "FEVG = 55 % correspond à une IC à FEVG conservée.",
+            "justification": "Une FEVG ≥ 50 % définit l'IC à FEVG conservée."
+          },
+          {
+            "correct": true,
+            "proposition": "FEVG = 45 % correspond à une IC à FEVG modérément altérée.",
+            "justification": "Une FEVG entre 41 et 49 % définit l'IC à FEVG modérément altérée."
+          },
+          {
+            "correct": false,
+            "proposition": "FEVG = 40 % correspond à une IC à FEVG conservée.",
+            "justification": "À 40 %, la FEVG est dans la catégorie diminuée (≤ 40 %)."
+          },
+          {
+            "correct": false,
+            "proposition": "FEVG = 49 % correspond à une IC à FEVG diminuée.",
+            "justification": "À 49 %, la FEVG reste dans l'intervalle 41–49 % donc modérément altérée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041177084_03",
+      "current_version_epoch_ms": 1755041177084,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Identifier les seuils de classification précis de la FEVG (limites incluses).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une FEVG de 40 % est classée dans l'IC à FEVG diminuée.",
+            "justification": "Le seuil « ≤ 40 % » inclut 40 % dans la catégorie diminuée."
+          },
+          {
+            "correct": true,
+            "proposition": "Une FEVG de 50 % est classée dans l'IC à FEVG conservée.",
+            "justification": "Le seuil « ≥ 50 % » inclut 50 % dans la catégorie conservée."
+          },
+          {
+            "correct": true,
+            "proposition": "Une FEVG de 41 % relève de l'IC à FEVG modérément altérée.",
+            "justification": "L'intervalle 41–49 % définit la catégorie modérément altérée."
+          },
+          {
+            "correct": true,
+            "proposition": "Une FEVG de 49 % relève de l'IC à FEVG modérément altérée.",
+            "justification": "49 % appartient aussi à l'intervalle 41–49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Une FEVG de 50 % est classée dans l'IC à FEVG modérément altérée.",
+            "justification": "À 50 %, la FEVG passe dans la catégorie conservée (≥ 50 %)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041177084_04",
+      "current_version_epoch_ms": 1755041177084,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Reconnaître les implications thérapeutiques de la distinction entre FEVG diminuée et conservée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Différencier une IC à FEVG diminuée d'une IC à FEVG conservée a des implications thérapeutiques.",
+            "justification": "Il est indiqué que cette distinction a des répercussions sur la prise en charge."
+          },
+          {
+            "correct": true,
+            "proposition": "La majorité des traitements de l'IC réduisant la mortalité ciblent l'IC à FEVG diminuée.",
+            "justification": "Il est précisé que ces traitements visent majoritairement la FEVG diminuée."
+          },
+          {
+            "correct": false,
+            "proposition": "La majorité des traitements de l'IC réduisant la mortalité ciblent l'IC à FEVG conservée.",
+            "justification": "Il est spécifié que la cible majoritaire est l'IC à FEVG diminuée, pas conservée."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier la catégorie de FEVG oriente le choix thérapeutique.",
+            "justification": "La distinction entre mécanismes ayant des implications thérapeutiques implique un choix de traitement orienté par la FEVG."
+          },
+          {
+            "correct": false,
+            "proposition": "La distinction entre FEVG diminuée et conservée n'a pas d'impact sur la prise en charge.",
+            "justification": "C'est l'inverse : la distinction a des implications thérapeutiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755041177084_05",
+      "current_version_epoch_ms": 1755041177084,
+      "topic": {
+        "subject": "cardio",
+        "item": "IC"
+      },
+      "data": {
+        "statement": "Différencier ce que mesure la FEVG et ses usages en pratique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La FEVG se rapporte au ventricule gauche.",
+            "justification": "Il est question spécifiquement de la FE du ventricule gauche (FEVG)."
+          },
+          {
+            "correct": true,
+            "proposition": "La FEVG permet de caractériser la fonction systolique du ventricule gauche.",
+            "justification": "Elle est le paramètre le plus utilisé pour cette caractérisation."
+          },
+          {
+            "correct": true,
+            "proposition": "La FEVG permet de classer l'insuffisance cardiaque en trois catégories principales.",
+            "justification": "Les catégories diminuée (≤ 40 %), conservée (≥ 50 %) et modérément altérée (41–49 %) sont définies à partir de la FEVG."
+          },
+          {
+            "correct": false,
+            "proposition": "La FEVG évalue principalement la fonction diastolique du ventricule gauche.",
+            "justification": "Elle est utilisée pour caractériser la fonction systolique, pas la diastolique."
+          },
+          {
+            "correct": true,
+            "proposition": "La FEVG est obtenue par échocardiographie.",
+            "justification": "Il est indiqué que la mesure se fait en échocardiographie."
+          }
+        ]
+      }
+    }
+  ]
+}
