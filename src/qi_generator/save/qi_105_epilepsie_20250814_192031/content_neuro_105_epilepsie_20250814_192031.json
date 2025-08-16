@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epilepsie",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755192238285_01",
+      "current_version_epoch_ms": 1755192238285,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Concernant l'état de mal épileptique généralisé tonicoclonique, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il constitue une urgence vitale.",
+            "justification": "Il est explicitement précisé qu'il s'agit d'une urgence vitale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic repose prioritairement sur un examen paraclinique avant toute décision.",
+            "justification": "Le diagnostic est clinique, sans exigence préalable d'examens complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Il convient d'attendre 30 minutes avant de débuter tout traitement.",
+            "justification": "Des mesures thérapeutiques urgentes s'imposent dès le diagnostic clinique, sans délai d'attente."
+          },
+          {
+            "correct": true,
+            "proposition": "Une durée supérieure à 30 minutes engage le pronostic vital et fonctionnel.",
+            "justification": "Au-delà de 30 minutes, le pronostic vital et fonctionnel est engagé."
+          },
+          {
+            "correct": true,
+            "proposition": "La prise en charge doit être initiée immédiatement après la reconnaissance clinique.",
+            "justification": "Des mesures thérapeutiques urgentes sont requises dès que le diagnostic clinique est posé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755192238285_02",
+      "current_version_epoch_ms": 1755192238285,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Déterminer à quel moment débuter les mesures thérapeutiques urgentes lors d'un état de mal épileptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dès que le diagnostic clinique est posé.",
+            "justification": "La conduite à tenir impose des mesures urgentes dès le diagnostic clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Après confirmation par des examens complémentaires systématiques.",
+            "justification": "Le diagnostic est clinique et n'exige pas une confirmation préalable par examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement si apparaissent hypotension ou collapsus.",
+            "justification": "L'instauration du traitement est urgente dès le diagnostic, sans attendre des complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement si la durée dépasse 30 minutes.",
+            "justification": "L'urgence thérapeutique est immédiate dès le diagnostic, avant le seuil des 30 minutes."
+          },
+          {
+            "correct": true,
+            "proposition": "Avant la survenue d'hypoxie ou d'atteinte multiviscérale.",
+            "justification": "Le traitement est urgent dès le diagnostic pour prévenir les complications graves citées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755192238285_03",
+      "current_version_epoch_ms": 1755192238285,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Classer les complications pouvant survenir si l'épisode d'état de mal épileptique dure plus de 30 minutes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle et collapsus.",
+            "justification": "Mentionnées comme complications en cas de durée supérieure à 30 minutes."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoxie.",
+            "justification": "Identifiée comme une complication lors d'un épisode prolongé."
+          },
+          {
+            "correct": true,
+            "proposition": "Rhabdomyolyse.",
+            "justification": "Citée parmi les atteintes possibles au-delà de 30 minutes."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte multiviscérale.",
+            "justification": "Fait partie des conséquences d'un épisode prolongé."
+          },
+          {
+            "correct": true,
+            "proposition": "Ischémie cérébrale.",
+            "justification": "Explicitement rapportée comme complication au-delà de 30 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755192238285_04",
+      "current_version_epoch_ms": 1755192238285,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Interpréter la signification clinique du seuil de 30 minutes dans l'état de mal épileptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au-delà de 30 minutes, le pronostic vital est engagé.",
+            "justification": "Le seuil de 30 minutes est associé à une menace vitale."
+          },
+          {
+            "correct": true,
+            "proposition": "Au-delà de 30 minutes, le pronostic fonctionnel est engagé.",
+            "justification": "Il est indiqué que le pronostic fonctionnel est également compromis."
+          },
+          {
+            "correct": true,
+            "proposition": "Au-delà de 30 minutes, des complications telles que hypotension/collapsus peuvent survenir.",
+            "justification": "Les complications hémodynamiques sont listées pour les épisodes prolongés."
+          },
+          {
+            "correct": true,
+            "proposition": "Au-delà de 30 minutes, une ischémie cérébrale est possible.",
+            "justification": "L'ischémie cérébrale est citée parmi les conséquences d'une durée prolongée."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée dépassant 30 minutes n'a pas d'impact viscéral significatif.",
+            "justification": "À l'inverse, une atteinte multiviscérale est rapportée en cas de prolongation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755192238285_05",
+      "current_version_epoch_ms": 1755192238285,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Préciser la nature du diagnostic et ses implications immédiates dans l'état de mal épileptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic est clinique.",
+            "justification": "Il est indiqué que l'état de mal épileptique se diagnostique cliniquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic impose obligatoirement un examen complémentaire avant toute décision.",
+            "justification": "Le caractère clinique du diagnostic n'impose pas d'examens complémentaires préalables."
+          },
+          {
+            "correct": true,
+            "proposition": "La reconnaissance clinique doit conduire à débuter immédiatement des mesures thérapeutiques.",
+            "justification": "Des mesures urgentes s'imposent dès le diagnostic clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de traitement urgent est justifiée si le patient est stable hémodynamiquement.",
+            "justification": "La mise en route du traitement est urgente dès le diagnostic, indépendamment de la stabilité initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de rhabdomyolyse exclut le diagnostic.",
+            "justification": "Le diagnostic est clinique et ne dépend pas de la présence d'une complication particulière."
+          }
+        ]
+      }
+    }
+  ]
+}

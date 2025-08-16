@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755305924804_01",
+      "current_version_epoch_ms": 1755305924804,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est la bactérie la plus fréquemment responsable de la méningite chez le nouveau-né ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Streptococcus agalactiae (SGB)",
+            "justification": "Streptococcus agalactiae est la principale cause de méningite chez le nouveau-né, en raison de sa capacité à coloniser le tractus génital de la mère et à transmettre l'infection lors de l'accouchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Haemophilus influenzae",
+            "justification": "Bien que cette bactérie puisse causer des méningites, elle est moins fréquente chez les nouveau-nés, en particulier avec la vaccination récente contre Haemophilus."
+          },
+          {
+            "correct": false,
+            "proposition": "Escherichia coli",
+            "justification": "Escherichia coli est également une cause fréquente de méningite chez le nouveau-né, mais moins courante que Streptococcus agalactiae."
+          },
+          {
+            "correct": false,
+            "proposition": "Listeria monocytogenes",
+            "justification": "Listeria monocytogenes peut causer une méningite chez le nouveau-né, mais elle est beaucoup plus rare que Streptococcus agalactiae et Escherichia coli."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumocoque",
+            "justification": "Le pneumocoque est plus souvent responsable des méningites chez le nourrisson et l'enfant de plus de 2 ans, mais est rarement impliqué chez les nouveau-nés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305924804_02",
+      "current_version_epoch_ms": 1755305924804,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est le traitement antibiotique probabiliste recommandé en cas de méningite bactérienne présumée chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céfotaxime ou céftriaxone + amoxicilline",
+            "justification": "La combinaison de céfotaxime ou céftriaxone avec amoxicilline couvre les bactéries les plus fréquentes chez les nourrissons, comme le pneumocoque et le méningocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline G",
+            "justification": "La pénicilline G est moins efficace pour couvrir l'ensemble des bactéries responsables de la méningite chez le nourrisson, comme le pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine seule",
+            "justification": "La vancomycine est généralement utilisée pour les souches de pneumocoque résistantes, mais elle ne couvre pas toutes les causes de méningite chez le nourrisson."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline seule",
+            "justification": "L'amoxicilline seule est insuffisante pour couvrir toutes les bactéries responsables de la méningite chez le nourrisson."
+          },
+          {
+            "correct": false,
+            "proposition": "Gentamicine seule",
+            "justification": "La gentamicine est utilisée dans certains protocoles pour d'autres infections, mais elle ne couvre pas efficacement toutes les bactéries responsables de méningites chez les nourrissons."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305924804_03",
+      "current_version_epoch_ms": 1755305924804,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel signe clinique est caractéristique de la méningite chez le nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotonie",
+            "justification": "L'hypotonie est fréquente chez les nourrissons présentant une méningite, surtout au début de l'infection, avant l'apparition de raideur."
+          },
+          {
+            "correct": false,
+            "proposition": "Raideur de la nuque",
+            "justification": "La raideur de la nuque est moins fréquente chez les nourrissons, et l'hypotonie peut être plus présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée",
+            "justification": "La fièvre est souvent accompagnée d'autres signes cliniques comme l'hypotonie, la modification du comportement et les vomissements chez les nourrissons."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements sans diarrhée",
+            "justification": "Les vomissements sont un signe de méningite chez le nourrisson, mais sans diarrhée, il est important de chercher d'autres signes neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie isolée",
+            "justification": "La tachycardie peut être un signe de sepsis, mais elle ne suffit pas pour poser un diagnostic de méningite chez le nourrisson."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305924804_04",
+      "current_version_epoch_ms": 1755305924804,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la vaccination dans la prévention des méningites chez le nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution de l'incidence des méningites à Haemophilus influenzae, pneumocoque et méningocoque",
+            "justification": "Les vaccinations contre Haemophilus influenzae, pneumocoque et méningocoque ont permis une réduction significative de l'incidence des méningites chez les nourrissons."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévention complète de toutes les formes de méningites",
+            "justification": "Bien que la vaccination ait un impact majeur, elle ne couvre pas toutes les bactéries responsables de méningites, comme Listeria monocytogenes."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévention des méningites virales uniquement",
+            "justification": "Les vaccins actuels ne sont pas spécifiquement ciblés contre les virus responsables des méningites, comme l'entérovirus ou HSV."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévention de l'herpès viral",
+            "justification": "Les vaccins ne couvrent pas spécifiquement l'herpès simplex, qui est responsable de certaines méningites virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Protection contre toutes les causes de méningites bactériennes",
+            "justification": "Aucune vaccination ne protège contre toutes les causes possibles de méningite, comme les infections à Escherichia coli ou Listeria."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305924804_05",
+      "current_version_epoch_ms": 1755305924804,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est l'examen biologique essentiel pour diagnostiquer une méningite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire est essentielle pour diagnostiquer la méningite en permettant l'analyse du liquide céphalorachidien, même en l'absence de syndrome inflammatoire au début."
+          },
+          {
+            "correct": false,
+            "proposition": "Radio crânienne",
+            "justification": "La radiographie crânienne n'est pas nécessaire pour diagnostiquer la méningite. Elle peut être utile pour détecter des complications comme l'hydrocéphalie, mais pas pour le diagnostic initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie transfontanellaire",
+            "justification": "Bien qu'utilisée dans certains cas de nourrissons pour détecter des anomalies intracrâniennes, elle n'est pas spécifique au diagnostic de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de la CRP uniquement",
+            "justification": "La CRP est un marqueur inflammatoire, mais ne permet pas de poser un diagnostic de méningite à elle seule. Elle doit être utilisée en complément d'autres examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie",
+            "justification": "La tomodensitométrie (TDM) n'est pas un examen de première intention pour diagnostiquer la méningite, elle est utilisée pour évaluer les complications."
+          }
+        ]
+      }
+    }
+  ]
+}

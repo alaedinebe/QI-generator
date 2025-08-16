@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbsommeil",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755207764025_01",
+      "current_version_epoch_ms": 1755207764025,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Identifier, parmi les outils d'anamnèse pour le syndrome d'apnées du sommeil (SAS), les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'échelle de somnolence d'Epworth est largement utilisée et validée dans l'évaluation du SAS.",
+            "justification": "Elle est explicitement décrite comme largement utilisée et validée dans l'évaluation de l'apnée du sommeil."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échelle d'Epworth comporte 8 questions sur le risque d'endormissement dans des situations de vie courante.",
+            "justification": "Elle est constituée de 8 questions évaluant le risque d'endormissement en situations courantes."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échelle d'Epworth fournit des informations sur l'architecture du sommeil.",
+            "justification": "L'architecture du sommeil est apportée par la polysomnographie, pas par l'échelle d'Epworth."
+          },
+          {
+            "correct": true,
+            "proposition": "Le questionnaire de Berlin identifie les patients avec un index d'apnées-hypopnées > 5 avec une sensibilité de 86 % et une spécificité de 77 %.",
+            "justification": "Ces performances (sensibilité 86 %, spécificité 77 %) sont rapportées pour dépister un IAH > 5."
+          },
+          {
+            "correct": false,
+            "proposition": "Le questionnaire de Berlin est plus performant chez les patients âgés.",
+            "justification": "Il est indiqué comme moins performant chez les patients âgés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207764025_02",
+      "current_version_epoch_ms": 1755207764025,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments clés de l'examen clinique orientant l'évaluation d'un SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IMC fait partie des paramètres à explorer.",
+            "justification": "L'examen clinique mentionne l'exploration de l'IMC."
+          },
+          {
+            "correct": true,
+            "proposition": "La mesure de la pression artérielle est intégrée à l'évaluation.",
+            "justification": "La PA est listée parmi les éléments évalués."
+          },
+          {
+            "correct": true,
+            "proposition": "L'examen ORL recherche notamment une obstruction nasale, une langue épaisse (score de Mallampati) et des anomalies de morphologie faciale comme un rétrognathisme.",
+            "justification": "Ces cibles de l'examen ORL sont explicitement citées."
+          },
+          {
+            "correct": false,
+            "proposition": "Une imagerie des voies aériennes est recommandée systématiquement lors de l'examen clinique.",
+            "justification": "L'imagerie des voies aériennes est en général inutile."
+          },
+          {
+            "correct": false,
+            "proposition": "La mesure de la SaO2 n'a pas sa place dans l'évaluation clinique du SAS.",
+            "justification": "La mesure de la SaO2 fait partie des paramètres cliniques explorés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207764025_03",
+      "current_version_epoch_ms": 1755207764025,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Classer les examens complémentaires selon leur rôle dans le bilan d'un SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La polysomnographie est l'examen de référence.",
+            "justification": "Elle est désignée comme l'examen de référence pour le SAS."
+          },
+          {
+            "correct": true,
+            "proposition": "La polysomnographie apporte des informations sur l'architecture du sommeil.",
+            "justification": "Elle est indiquée comme apportant des informations sur l'architecture du sommeil."
+          },
+          {
+            "correct": false,
+            "proposition": "La polygraphie ventilatoire nocturne est insuffisante dans la majorité des cas.",
+            "justification": "Au contraire, elle est suffisante dans la majorité des cas."
+          },
+          {
+            "correct": true,
+            "proposition": "La polygraphie ventilatoire nocturne est un examen ambulatoire plus simple qui enregistre la respiration pendant le sommeil.",
+            "justification": "Elle est décrite comme plus simple, ambulatoire, et enregistrant seulement la respiration."
+          },
+          {
+            "correct": false,
+            "proposition": "La polysomnographie ne peut être réalisée qu'à l'hôpital.",
+            "justification": "Elle peut être réalisée à l'hôpital ou en ambulatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207764025_04",
+      "current_version_epoch_ms": 1755207764025,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Différencier les examens utiles ou non en fonction du contexte clinique dans le SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Des EFR avec gazométrie artérielle peuvent être utiles si le patient est fumeur et/ou dyspnéique à l'effort.",
+            "justification": "Cette association est explicitement proposée dans ces situations."
+          },
+          {
+            "correct": true,
+            "proposition": "L'imagerie des voies aériennes est en général inutile.",
+            "justification": "Il est précisé que l'imagerie des voies aériennes n'est généralement pas utile."
+          },
+          {
+            "correct": false,
+            "proposition": "L'imagerie des voies aériennes est recommandée en première intention pour tous les patients.",
+            "justification": "Elle est indiquée comme généralement inutile, donc pas recommandée systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les EFR ne doivent être réalisées que chez les non-fumeurs sans dyspnée.",
+            "justification": "Elles sont au contraire proposées en cas de tabagisme et/ou de dyspnée d'effort."
+          },
+          {
+            "correct": false,
+            "proposition": "La polysomnographie est obligatoire avant toute polygraphie ambulatoire.",
+            "justification": "La polygraphie ambulatoire est suffisante dans la majorité des cas et la polysomnographie est envisagée en complément."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207764025_05",
+      "current_version_epoch_ms": 1755207764025,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Élaborer une stratégie d'exploration pour un SAS en précisant quand compléter les examens.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans la majorité des cas, une polygraphie ventilatoire nocturne ambulatoire suffit pour évaluer un SAS.",
+            "justification": "La polygraphie est décrite comme suffisante dans la majorité des cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Une polysomnographie est envisagée en complément si l'on suspecte d'autres pathologies du sommeil.",
+            "justification": "La polysomnographie est indiquée en complément ou en cas de suspicion d'autres troubles du sommeil."
+          },
+          {
+            "correct": false,
+            "proposition": "La polygraphie ventilatoire nocturne renseigne sur l'architecture du sommeil.",
+            "justification": "Elle enregistre seulement la respiration pendant le sommeil."
+          },
+          {
+            "correct": true,
+            "proposition": "La polysomnographie peut être effectuée à l'hôpital ou en ambulatoire selon l'organisation locale.",
+            "justification": "Il est mentionné qu'elle peut être réalisée à l'hôpital ou en ambulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen ORL à la recherche d'obstacles aériens est inutile avant de prescrire des examens du sommeil.",
+            "justification": "L'examen ORL fait partie de l'évaluation clinique, à la recherche d'obstacles comme l'obstruction nasale ou une langue épaisse."
+          }
+        ]
+      }
+    }
+  ]
+}

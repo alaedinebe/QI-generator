@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "infdermato",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755322080530_01",
+      "current_version_epoch_ms": 1755322080530,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour un abcès lié à un Staphylococcus aureus ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incision et drainage de l'abcès, antibiothérapie pendant 5 jours avec clindamycine ou pristinamycine par voie orale.",
+            "justification": "L'incision et le drainage de l'abcès sont nécessaires pour évacuer le pus. L'antibiothérapie doit être active contre le Staphylococcus aureus, et la clindamycine ou pristinamycine est indiquée par voie orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Incision et drainage de l'abcès, antibiothérapie avec pénicilline par voie intraveineuse.",
+            "justification": "La pénicilline n'est pas active sur le Staphylococcus aureus, un antibiotique spécifique comme la clindamycine ou la pristinamycine est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Incision et drainage de l'abcès, antibiothérapie pendant 5 jours avec amoxicilline par voie orale.",
+            "justification": "L'amoxicilline n'est pas active contre le Staphylococcus aureus dans ce contexte clinique. Il est préférable d'utiliser la clindamycine ou la pristinamycine."
+          },
+          {
+            "correct": true,
+            "proposition": "Incision et drainage de l'abcès, antibiothérapie avec oxacilline ou cloxacilline par voie intraveineuse.",
+            "justification": "L'oxacilline ou la cloxacilline par voie intraveineuse est une option appropriée, surtout pour les infections graves liées au Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "Incision et drainage de l'abcès, antibiothérapie pendant 7 jours avec amoxicilline/clavulanate.",
+            "justification": "Bien que l'amoxicilline/acide clavulanique puisse être utilisée dans certaines infections, elle n'est pas la meilleure option contre le Staphylococcus aureus en cas d'abcès."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322080530_02",
+      "current_version_epoch_ms": 1755322080530,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quel antibiotique est recommandé en première intention pour un abcès dû à un Staphylococcus aureus chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline/acide clavulanique ou céphalosporine de 1ère génération.",
+            "justification": "Chez l'enfant, l'amoxicilline/acide clavulanique ou une céphalosporine de 1ère génération sont recommandées pour traiter une infection à Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "Clindamycine ou pristinamycine par voie orale.",
+            "justification": "Bien que ces antibiotiques soient efficaces contre le Staphylococcus aureus, ils ne sont pas les premiers choix recommandés pour les enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline par voie intraveineuse.",
+            "justification": "La pénicilline n'est pas active contre le Staphylococcus aureus dans ce cas clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine par voie intraveineuse.",
+            "justification": "La vancomycine est généralement utilisée en cas d'infections graves ou résistantes, ce qui n'est pas nécessaire dans ce cas clinique de premier recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalosporine de 1ère génération par voie intraveineuse.",
+            "justification": "Les céphalosporines de 1ère génération, comme la céfazoline, sont des choix sûrs et efficaces pour traiter une infection à Staphylococcus aureus chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322080530_03",
+      "current_version_epoch_ms": 1755322080530,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelles sont les principales indications pour l'antibiothérapie dans le traitement d'un abcès ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour traiter les infections bactériennes à Staphylococcus aureus et éviter la propagation de l'infection.",
+            "justification": "L'antibiothérapie permet de cibler spécifiquement le Staphylococcus aureus et d'éviter des complications, telles que la propagation de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement pour prévenir la formation d'un abcès.",
+            "justification": "L'antibiothérapie n'est pas utilisée pour prévenir la formation d'un abcès, mais pour traiter une infection bactérienne déjà présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour traiter l'inflammation locale sans lien avec une infection bactérienne.",
+            "justification": "L'inflammation locale est gérée par l'incision et le drainage, mais l'antibiothérapie est nécessaire pour traiter une infection bactérienne spécifique."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour éviter la septicémie et d'autres complications graves associées à l'infection.",
+            "justification": "Une antibiothérapie adéquate permet de limiter les risques de septicémie et d'autres complications graves liées à une infection à Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour traiter les infections virales susceptibles d'aggraver l'abcès.",
+            "justification": "Les antibiotiques ne sont pas efficaces contre les infections virales, leur utilisation est donc non appropriée dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322080530_04",
+      "current_version_epoch_ms": 1755322080530,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelle est la durée recommandée de l'antibiothérapie dans le traitement d'un abcès ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "5 jours.",
+            "justification": "Une antibiothérapie de 5 jours est suffisante pour traiter un abcès causé par un Staphylococcus aureus dans les situations non compliquées."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours.",
+            "justification": "Un traitement plus long, comme 10 jours, n'est généralement pas nécessaire pour un abcès non compliqué, et 5 jours sont suffisants."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours.",
+            "justification": "Trois jours d'antibiothérapie sont insuffisants pour un traitement complet d'un abcès dû à un Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "7 jours.",
+            "justification": "Sept jours peuvent être nécessaires dans certains cas complexes, mais pour un abcès non compliqué, 5 jours suffisent."
+          },
+          {
+            "correct": true,
+            "proposition": "5 jours, avec une possibilité de prolongation en fonction de l'évolution clinique.",
+            "justification": "La durée standard de traitement est de 5 jours, mais elle peut être ajustée en fonction de la réponse clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322080530_05",
+      "current_version_epoch_ms": 1755322080530,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du drainage dans le traitement d'un abcès ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éviter l'accumulation de pus et réduire la pression locale.",
+            "justification": "Le drainage permet de libérer le pus accumulé dans l'abcès, réduisant ainsi la pression et la douleur, et facilitant la guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "Favoriser la cicatrisation sans antibiothérapie.",
+            "justification": "Le drainage seul ne suffit pas; une antibiothérapie est également nécessaire pour traiter l'infection bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Traiter l'infection virale sous-jacente.",
+            "justification": "Le drainage ne traite pas les infections virales, mais uniquement celles de nature bactérienne, comme celle causée par le Staphylococcus aureus."
+          },
+          {
+            "correct": true,
+            "proposition": "Permettre l'évacuation du contenu purulent et prévenir la formation de nouvelles collections.",
+            "justification": "Le drainage de l'abcès empêche l'accumulation de pus et aide à prévenir la récidive de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Soulager la douleur immédiatement sans aucune autre intervention.",
+            "justification": "Bien que le drainage soulage la douleur en réduisant la pression, une antibiothérapie est également nécessaire pour traiter l'infection."
+          }
+        ]
+      }
+    }
+  ]
+}

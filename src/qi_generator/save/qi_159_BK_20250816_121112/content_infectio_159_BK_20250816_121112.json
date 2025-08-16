@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "BK",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755339279590_01",
+      "current_version_epoch_ms": 1755339279590,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "La vaccination par le BCG est recommandée chez les enfants présentant quelles caractéristiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Enfants nés dans un pays de forte endémie",
+            "justification": "Les enfants originaires de pays à forte endémie sont à risque accru de contracter la tuberculose, justifiant la vaccination par le BCG."
+          },
+          {
+            "correct": true,
+            "proposition": "Enfants de parents nés dans un pays de forte endémie",
+            "justification": "La présence d'antécédents familiaux de tuberculose augmente le risque pour l'enfant de contracter la maladie, nécessitant une vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Enfants nés dans un pays sans endémie tuberculeuse",
+            "justification": "Les enfants nés dans des pays où la tuberculose est peu présente ne sont pas considérés comme à risque pour cette pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Enfants ayant un antécédent de pneumonie",
+            "justification": "Les antécédents de pneumonie ne sont pas un facteur de risque spécifique pour la tuberculose, ne justifiant pas la vaccination par le BCG."
+          },
+          {
+            "correct": true,
+            "proposition": "Enfants devant séjourner plus d'un mois dans un pays à forte endémie",
+            "justification": "Les enfants qui séjournent dans des zones endémiques pendant une période prolongée sont exposés à un risque accru d'infection par la tuberculose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339279590_02",
+      "current_version_epoch_ms": 1755339279590,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quand la vaccination par le BCG est-elle recommandée avant la sortie de la maternité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour les enfants originaires de Guyane, de Mayotte ou ayant un membre de l'entourage atteint d'une tuberculose récente",
+            "justification": "La vaccination néonatale est recommandée dans ces situations en raison du risque accru de transmission de la tuberculose dans ces zones géographiques ou dans ces contextes familiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour tous les nouveaux-nés",
+            "justification": "La vaccination néonatale n'est pas systématiquement recommandée pour tous les nouveaux-nés, mais uniquement pour ceux à risque spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour les enfants ayant des antécédents de tuberculose dans leur famille",
+            "justification": "Bien que les antécédents familiaux de tuberculose soient un facteur de risque, la vaccination néonatale n'est pas obligatoire dans ces cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour les enfants résidant en Île-de-France ou en Guyane",
+            "justification": "Ces régions présentent des taux plus élevés de tuberculose, justifiant la vaccination avant la sortie de la maternité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour les enfants dont les parents ne présentent pas de signes de tuberculose",
+            "justification": "Les signes cliniques de tuberculose chez les parents ne justifient pas la vaccination néonatale, sauf dans les cas d'exposition récente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339279590_03",
+      "current_version_epoch_ms": 1755339279590,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Jusqu'à quel âge la vaccination par le BCG peut-elle être réalisée chez les enfants à risque non vaccinés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Jusqu'à 15 ans",
+            "justification": "La vaccination peut être administrée jusqu'à l'âge de 15 ans pour les enfants à risque non vaccinés, permettant ainsi de protéger les jeunes à risque tardivement."
+          },
+          {
+            "correct": false,
+            "proposition": "Jusqu'à 5 ans",
+            "justification": "La vaccination au BCG peut être effectuée jusqu'à 15 ans, et non limitée à 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Jusqu'à 12 ans",
+            "justification": "Bien que la vaccination puisse être réalisée jusqu'à 15 ans, une limite de 12 ans n'est pas spécifiée dans les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Jusqu'à 18 ans",
+            "justification": "La vaccination est limitée à 15 ans, et non à 18 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Jusqu'à 10 ans",
+            "justification": "Le délai limite pour la vaccination est de 15 ans, et non de 10 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339279590_04",
+      "current_version_epoch_ms": 1755339279590,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel type de protection le BCG confère-t-il principalement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Protection contre les formes miliaires et les méningites tuberculeuses",
+            "justification": "Le BCG est particulièrement efficace pour prévenir les formes graves de tuberculose, notamment les formes miliaires et les méningites tuberculeuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Protection contre la tuberculose pulmonaire",
+            "justification": "Le BCG offre une protection limitée contre la tuberculose pulmonaire, mais son efficacité est surtout prouvée contre les formes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Protection contre toutes les formes de tuberculose",
+            "justification": "Le BCG ne protège pas contre toutes les formes de tuberculose, mais il est surtout efficace contre les formes graves, comme les méningites et les formes miliaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Protection contre la tuberculose cutanée",
+            "justification": "La protection contre la tuberculose cutanée n'est pas spécifiquement l'objectif du BCG, qui est davantage orienté vers les formes systématiques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Protection contre la tuberculose osseuse",
+            "justification": "Le BCG n'offre pas de protection spécifiquement ciblée contre la tuberculose osseuse, bien qu'il puisse réduire le risque de formes graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339279590_05",
+      "current_version_epoch_ms": 1755339279590,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle est la principale voie d'administration du BCG ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voie intradermique",
+            "justification": "Le BCG est administré par voie intradermique, ce qui permet une stimulation locale du système immunitaire pour une protection efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie intramusculaire",
+            "justification": "Le BCG ne s'administre pas par voie intramusculaire, mais bien par voie intradermique pour une meilleure réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie subcutanée",
+            "justification": "La voie subcutanée n'est pas utilisée pour l'administration du BCG, la voie intradermique étant privilégiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie orale",
+            "justification": "Le BCG n'est pas administré par voie orale, mais uniquement par voie intradermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie intraveineuse",
+            "justification": "L'administration du BCG par voie intraveineuse n'est pas une pratique courante, l'intradermique étant la voie recommandée."
+          }
+        ]
+      }
+    }
+  ]
+}

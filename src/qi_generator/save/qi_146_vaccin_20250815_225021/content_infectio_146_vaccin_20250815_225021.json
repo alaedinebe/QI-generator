@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vaccin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755291227790_01",
+      "current_version_epoch_ms": 1755291227790,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel vaccin est recommandé pour les personnes âgées de 65 ans ou plus, selon le calendrier vaccinal français ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccin contre la grippe saisonnière",
+            "justification": "La vaccination annuelle contre la grippe est fortement recommandée pour les personnes âgées de 65 ans et plus."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la rougeole",
+            "justification": "Le vaccin contre la rougeole n'est pas spécifiquement recommandé pour les personnes âgées de 65 ans et plus, sauf si non contracté précédemment."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre le pneumocoque",
+            "justification": "Le vaccin contre le pneumocoque est recommandé pour les personnes âgées ayant des facteurs de risque d'infection invasive à pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la varicelle",
+            "justification": "La vaccination contre la varicelle n'est pas couramment recommandée chez les personnes âgées de 65 ans et plus."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre le zona",
+            "justification": "Le vaccin contre le zona est recommandé chez les personnes âgées de 65 à 74 ans révolus, bien que son efficacité soit modeste après 80 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291227790_02",
+      "current_version_epoch_ms": 1755291227790,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel vaccin est recommandé durant la grossesse ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la rubéole",
+            "justification": "Le vaccin contre la rubéole est contre-indiqué durant la grossesse car il est un vaccin vivant."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre la grippe",
+            "justification": "Le vaccin antigrippal est recommandé durant la grossesse, notamment en période épidémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le papillomavirus",
+            "justification": "Le vaccin contre le papillomavirus est recommandé avant la grossesse et non pendant."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre la coqueluche",
+            "justification": "Le vaccin contre la coqueluche est recommandé dès le second trimestre de grossesse pour protéger le nouveau-né."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la varicelle",
+            "justification": "Le vaccin contre la varicelle est contre-indiqué durant la grossesse car il est un vaccin vivant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291227790_03",
+      "current_version_epoch_ms": 1755291227790,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel vaccin est obligatoire pour les professionnels de santé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccin contre la diphtérie",
+            "justification": "Le vaccin contre la diphtérie est obligatoire pour les professionnels de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le COVID-19",
+            "justification": "Le vaccin contre le COVID-19 est recommandé mais pas obligatoire pour tous les professionnels de santé, à partir de 2021."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre l'hépatite B",
+            "justification": "Le vaccin contre l'hépatite B est obligatoire pour les professionnels de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la varicelle",
+            "justification": "Le vaccin contre la varicelle est recommandé mais pas obligatoire pour les professionnels de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le tétanos",
+            "justification": "Le vaccin contre le tétanos est obligatoire, mais seulement dans certaines situations spécifiques pour les professionnels de santé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291227790_04",
+      "current_version_epoch_ms": 1755291227790,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Pour quel groupe de personnes la vaccination contre le pneumocoque est-elle particulièrement recommandée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Les personnes âgées de moins de 65 ans en bonne santé",
+            "justification": "La vaccination contre le pneumocoque est recommandée principalement pour les personnes âgées ayant des facteurs de risque d'infections invasives."
+          },
+          {
+            "correct": true,
+            "proposition": "Les personnes immunodéprimées",
+            "justification": "Les personnes immunodéprimées ou avec des maladies sous-jacentes prédisposant aux infections à pneumocoque doivent être vaccinées contre le pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Les femmes enceintes",
+            "justification": "La vaccination contre le pneumocoque n'est pas systématiquement recommandée durant la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Les enfants de moins de 2 ans",
+            "justification": "Les enfants de moins de 2 ans reçoivent un vaccin contre le pneumocoque, mais cette question concerne uniquement les adultes."
+          },
+          {
+            "correct": true,
+            "proposition": "Les personnes âgées de plus de 65 ans avec des facteurs de risque",
+            "justification": "Les personnes âgées de plus de 65 ans présentant des facteurs de risque d'infections invasives à pneumocoque sont fortement encouragées à se faire vacciner."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291227790_05",
+      "current_version_epoch_ms": 1755291227790,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel vaccin est recommandé pour les femmes enceintes en période épidémique de COVID-19 ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la rougeole",
+            "justification": "Le vaccin contre la rougeole n'est pas recommandé pendant la grossesse, surtout en période épidémique de COVID-19."
+          },
+          {
+            "correct": true,
+            "proposition": "Vaccin contre le COVID-19",
+            "justification": "Le vaccin contre le COVID-19 est recommandé pour les femmes enceintes en période épidémique, notamment pour celles à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la varicelle",
+            "justification": "Le vaccin contre la varicelle est contre-indiqué pendant la grossesse car c'est un vaccin vivant."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la grippe",
+            "justification": "Bien que recommandé, la vaccination contre la grippe n'est pas spécifiquement liée à la période épidémique de COVID-19."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la coqueluche",
+            "justification": "Le vaccin contre la coqueluche est recommandé dès le second trimestre de grossesse mais n'est pas lié à la période épidémique de COVID-19."
+          }
+        ]
+      }
+    }
+  ]
+}

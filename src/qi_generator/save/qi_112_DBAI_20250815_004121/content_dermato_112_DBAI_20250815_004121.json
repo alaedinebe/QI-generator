@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755211487990_01",
+      "current_version_epoch_ms": 1755211487990,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier les éléments qui définissent une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'immunoglobulines déposées à la jonction dermo-épidermique ou à la surface des kératinocytes.",
+            "justification": "Elle est définie par des dépôts d'immunoglobulines à ces sites."
+          },
+          {
+            "correct": true,
+            "proposition": "Lésions le plus souvent bulleuses siégeant sur la peau ou les muqueuses.",
+            "justification": "Elle est caractérisée par des lésions bulleuses cutanées et/ou muqueuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépôts d'immunoglobulines exclusivement au niveau des capillaires du derme.",
+            "justification": "Les dépôts sont décrits à la jonction dermo-épidermique ou à la surface des kératinocytes, pas sur les capillaires du derme."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute dermatose bulleuse, quelle qu'en soit la cause, correspond à une forme auto-immune.",
+            "justification": "La démarche clinique impose justement de distinguer le mécanisme auto-immun des autres causes."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de toute atteinte muqueuse par définition.",
+            "justification": "Les lésions peuvent siéger sur la peau ou les muqueuses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211487990_02",
+      "current_version_epoch_ms": 1755211487990,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître les manifestations orientant vers une dermatose bulleuse lors de l'examen clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bulles cutanées.",
+            "justification": "Les lésions à type de bulle orientent vers une dermatose bulleuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Érosions post-bulleuses.",
+            "justification": "Les érosions post-bulleuses font partie des présentations cliniques évocatrices."
+          },
+          {
+            "correct": true,
+            "proposition": "Décollement cutané en linge mouillé.",
+            "justification": "Le décollement en linge mouillé est un signe clinique de dermatose bulleuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Signe de Nikolsky péri-lésionnel.",
+            "justification": "Le détachement de l'épiderme au frottement (signe de Nikolsky) oriente vers une dermatose bulleuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Plaques strictement non bulleuses, sans érosion ni décollement, suffisent à affirmer une dermatose bulleuse.",
+            "justification": "Les signes évocateurs incluent bulles, érosions post-bulleuses, décollement et signe de Nikolsky."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211487990_03",
+      "current_version_epoch_ms": 1755211487990,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant la bulle sous-épidermique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le clivage est situé sous l'épiderme.",
+            "justification": "La bulle sous-épidermique résulte d'un clivage sous l'épiderme."
+          },
+          {
+            "correct": true,
+            "proposition": "Le toit de la bulle est constitué de l'intégralité de l'épiderme.",
+            "justification": "Dans la bulle sous-épidermique, le toit correspond à tout l'épiderme."
+          },
+          {
+            "correct": true,
+            "proposition": "Le plancher de la bulle est situé dans le derme.",
+            "justification": "Le plancher se trouve dans le derme lorsque le clivage est sous-épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le clivage siège dans l'épiderme.",
+            "justification": "Un clivage intra-épidermique définit au contraire la bulle intra-épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est habituellement flasque et fragile.",
+            "justification": "La bulle sous-épidermique est habituellement tendue ; la flaccidité est décrite pour l'intra-épidermique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211487990_04",
+      "current_version_epoch_ms": 1755211487990,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Relier tension de la bulle et niveau du clivage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une bulle sous-épidermique est habituellement tendue.",
+            "justification": "La bulle sous-épidermique est décrite comme habituellement tendue."
+          },
+          {
+            "correct": true,
+            "proposition": "Une bulle intra-épidermique est flasque et fragile.",
+            "justification": "La bulle intra-épidermique est décrite comme flasque et fragile."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute bulle tendue correspond nécessairement à une bulle intra-épidermique.",
+            "justification": "La tension est rapportée à la bulle sous-épidermique, pas à l'intra-épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute bulle flasque signe une bulle sous-épidermique.",
+            "justification": "La flaccidité caractérise l'intra-épidermique, pas la sous-épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "La tension de la bulle ne renseigne pas sur le niveau du clivage.",
+            "justification": "La distinction tendue vs flasque oriente respectivement vers sous- vs intra-épidermique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211487990_05",
+      "current_version_epoch_ms": 1755211487990,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Préciser la démarche initiale à tenir devant une dermatose bulleuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Distinguer ce qui relève d'un mécanisme auto-immun de toutes les autres causes.",
+            "justification": "Il est indiqué que la démarche doit toujours permettre cette distinction."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer d'emblée qu'il s'agit d'une dermatose bulleuse auto-immune.",
+            "justification": "Il faut au contraire différencier systématiquement l'auto-immun des autres causes."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter l'évaluation à l'absence de bulles si les muqueuses sont indemnes.",
+            "justification": "Les lésions peuvent siéger sur la peau ou les muqueuses ; la démarche ne se limite pas à ce critère."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher des lésions typiques comme bulles, érosions post-bulleuses, décollement en linge mouillé et signe de Nikolsky.",
+            "justification": "Ces éléments cliniques doivent faire suspecter une dermatose bulleuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Conclure uniquement sur l'aspect d'une lésion sans autre raisonnement.",
+            "justification": "Une démarche structurée est nécessaire, incluant la distinction du mécanisme en cause."
+          }
+        ]
+      }
+    }
+  ]
+}

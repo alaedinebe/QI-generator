@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "EI",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755308410783_01",
+      "current_version_epoch_ms": 1755308410783,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions de prélèvement des hémocultures pour diagnostiquer une endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trois prélèvements sanguins veineux espacés d'au moins une heure, sur 24 heures, avec un volume de sang de 40 à 60 mL.",
+            "justification": "Les hémocultures doivent être effectuées avec trois prélèvements veineux espacés d'au moins une heure pour maximiser la détection de la bactériémie. Le volume de 40 à 60 mL améliore la sensibilité de l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seul prélèvement sanguin veineux suffit, quelle que soit la quantité de sang prélevé.",
+            "justification": "Un seul prélèvement n'est pas suffisant car les concentrations bactériennes sanguines fluctuent et un seul prélèvement ne permet pas d'obtenir des résultats fiables."
+          },
+          {
+            "correct": true,
+            "proposition": "Les hémocultures doivent être répétées au-delà de 24 heures en cas de résultats négatifs, notamment après la prise d'antibiotiques.",
+            "justification": "Les hémocultures doivent être répétées pour augmenter les chances de détection, surtout en cas de prise préalable d'antibiotiques qui pourrait inhiber la croissance bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures doivent être prélevées uniquement en cas de fièvre ou de frissons.",
+            "justification": "Une bactériémie peut être présente sans symptômes cliniques comme la fièvre, ce qui justifie des prélèvements même en l'absence de signes cliniques évidents."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures doivent être prélevées uniquement avec un volume de sang inférieur à 20 mL.",
+            "justification": "Un volume de sang inférieur à 40 mL diminue la sensibilité de l'examen, ce qui rend ce prélèvement insuffisant pour un diagnostic fiable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755308410783_02",
+      "current_version_epoch_ms": 1755308410783,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quels sont les examens clés pour le diagnostic d'endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les hémocultures et l'échographie cardiaque.",
+            "justification": "Les hémocultures permettent de diagnostiquer une bactériémie ou une fongémie, tandis que l'échographie cardiaque permet de visualiser des végétations ou des lésions valvulaires caractéristiques d'endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Les radiographies pulmonaires et les analyses urinaires.",
+            "justification": "Les radiographies pulmonaires et les analyses urinaires ne sont pas des examens clés dans le diagnostic d'endocardite infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échographie cardiaque pour visualiser des végétations ou des abcès valvulaires.",
+            "justification": "L'échographie cardiaque est essentielle pour détecter des végétations ou d'autres lésions valvulaires, qui sont des signes caractéristiques d'endocardite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Les biopsies pulmonaires et cérébrales.",
+            "justification": "Les biopsies pulmonaires et cérébrales ne sont pas utilisées pour diagnostiquer l'endocardite infectieuse, ces examens ne sont pas recommandés dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie abdominale.",
+            "justification": "L'échographie abdominale ne joue pas un rôle clé dans le diagnostic de l'endocardite infectieuse, qui repose sur l'échographie cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755308410783_03",
+      "current_version_epoch_ms": 1755308410783,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quelles sont les justifications pour effectuer trois prélèvements d'hémocultures dans le cadre d'un diagnostic d'endocardite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les prélèvements doivent être espacés pour maximiser les chances de détection en raison des fluctuations des concentrations bactériennes.",
+            "justification": "Les bactéries sanguines peuvent fluctuer dans le temps, d'où la nécessité de multiples prélèvements espacés pour assurer une détection fiable de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les trois prélèvements permettent de confirmer l'absence de bactériémie.",
+            "justification": "Les prélèvements sont effectués pour augmenter la probabilité de détecter la bactériémie, mais ne sont pas destinés à confirmer son absence."
+          },
+          {
+            "correct": true,
+            "proposition": "Les prélèvements permettent de déterminer l'origine microbiologique et d'orienter la recherche de la porte d'entrée.",
+            "justification": "Les hémocultures sont utilisées pour identifier le micro-organisme responsable et pour guider la recherche de la porte d'entrée de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Les prélèvements doivent être effectués exclusivement en cas de symptômes graves comme la fièvre.",
+            "justification": "Les hémocultures doivent être réalisées même en absence de symptômes comme la fièvre, car une bactériémie peut être présente sans signes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les trois prélèvements sont nécessaires uniquement en cas d'antibiothérapie antérieure.",
+            "justification": "Les prélèvements sont également recommandés même sans antécédent d'antibiothérapie, car cela permet une meilleure détection des bactéries."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755308410783_04",
+      "current_version_epoch_ms": 1755308410783,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Pourquoi les hémocultures doivent-elles être répétées après 24 heures dans le cadre d'une endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les hémocultures doivent être répétées en cas de résultats négatifs après 24 heures pour augmenter la probabilité de détection de la bactériémie, notamment après une prise d'antibiotiques.",
+            "justification": "La prise d'antibiotiques peut inhiber la croissance des bactéries, ce qui justifie des prélèvements répétées après 24 heures pour améliorer la détection de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures sont répétées après 24 heures uniquement pour tester la sensibilité des bactéries aux antibiotiques.",
+            "justification": "Les hémocultures sont répétées principalement pour détecter la présence persistante de la bactériémie, et non pour tester la sensibilité aux antibiotiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Les répétitions permettent de compenser l'éventuelle diminution de la concentration bactérienne dans le sang après 24 heures.",
+            "justification": "Après 24 heures, la concentration bactérienne peut diminuer, rendant nécessaires des prélèvements répétés pour maximiser les chances de détection."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures répétées sont inutiles si le premier prélèvement est négatif.",
+            "justification": "Il est essentiel de répéter les hémocultures pour confirmer l'absence de bactériémie et ajuster le traitement, si nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures doivent être répétées uniquement si la fièvre persiste après 24 heures.",
+            "justification": "La bactériémie peut être présente sans fièvre, justifiant ainsi des prélèvements répétées même en l'absence de symptômes de fièvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755308410783_05",
+      "current_version_epoch_ms": 1755308410783,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quelles informations doivent être communiquées au laboratoire de microbiologie lorsqu'une endocardite infectieuse est suspectée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le laboratoire doit être informé de la suspicion d'endocardite infectieuse pour que les hémocultures et autres tests soient effectués en conséquence.",
+            "justification": "Informer le laboratoire permet de guider l'orientation des tests microbiologiques, notamment en fonction de la suspicion clinique d'endocardite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est suffisant de transmettre les résultats des examens cliniques sans mentionner la suspicion d'endocardite.",
+            "justification": "Il est crucial de spécifier la suspicion clinique d'endocardite afin que le laboratoire adapte les tests à cette situation particulière."
+          },
+          {
+            "correct": false,
+            "proposition": "Le laboratoire doit uniquement être informé si les hémocultures sont positives.",
+            "justification": "Le laboratoire doit être informé dès la suspicion, même avant d'obtenir les résultats des hémocultures, afin de préparer les tests nécessaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Les informations sur la présence d'une bactériémie ou fongémie doivent être communiquées pour ajuster le type de culture.",
+            "justification": "La communication de la présence d'une bactériémie ou fongémie permet d'orienter les cultures vers les micro-organismes responsables et d'ajuster les protocoles diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inutile d'informer le laboratoire si des traitements antibiotiques ont été administrés avant les prélèvements.",
+            "justification": "Il est essentiel d'informer le laboratoire des antécédents d'antibiothérapie, car cela peut influencer la détection des agents pathogènes."
+          }
+        ]
+      }
+    }
+  ]
+}

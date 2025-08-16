@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "osteoporose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755249579892_01",
+      "current_version_epoch_ms": 1755249579892,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Identifier, parmi les examens suivants, ceux proposés en 1ère intention dans l'évaluation d'une fragilité osseuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémogramme",
+            "justification": "Fait partie des dosages initiaux proposés."
+          },
+          {
+            "correct": true,
+            "proposition": "CRP",
+            "justification": "Fait partie des dosages initiaux proposés."
+          },
+          {
+            "correct": true,
+            "proposition": "Électrophorèse des protéines sériques",
+            "justification": "Fait partie des dosages initiaux proposés."
+          },
+          {
+            "correct": false,
+            "proposition": "PTH",
+            "justification": "À envisager dans un deuxième temps pour rechercher une hyperparathyroïdie."
+          },
+          {
+            "correct": false,
+            "proposition": "TSH",
+            "justification": "À envisager dans un deuxième temps selon le contexte clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249579892_02",
+      "current_version_epoch_ms": 1755249579892,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Reconnaître l'examen biologique devant être associé à une estimation de la clairance selon la formule CKD-EPI.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Créatininémie avec estimation de la clairance selon CKD-EPI",
+            "justification": "Explicitement mentionné comme tel parmi les dosages initiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie",
+            "justification": "Dosage initial possible, sans mention d'estimation CKD-EPI."
+          },
+          {
+            "correct": false,
+            "proposition": "Phosphatémie",
+            "justification": "Dosage initial possible, sans lien avec CKD-EPI."
+          },
+          {
+            "correct": false,
+            "proposition": "25-OH-vitamine D",
+            "justification": "Dosage initial possible, sans estimation de clairance associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophorèse des protéines sériques",
+            "justification": "Aucun lien indiqué avec l'estimation CKD-EPI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249579892_03",
+      "current_version_epoch_ms": 1755249579892,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Classer les examens qui doivent être envisagés dans un deuxième temps, en fonction de l'interrogatoire, de l'examen clinique et des premiers résultats.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PTH",
+            "justification": "À ajouter en deuxième temps pour explorer une hyperparathyroïdie."
+          },
+          {
+            "correct": true,
+            "proposition": "TSH",
+            "justification": "À ajouter en deuxième temps pour explorer une hyperthyroïdie ou un surdosage en hormone thyroïdienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Cortisol minuit +/- freinage minute +/- cortisolurie des 24h avec créatininurie",
+            "justification": "À ajouter en deuxième temps pour explorer un hypercortisolisme endogène."
+          },
+          {
+            "correct": true,
+            "proposition": "Coefficient de saturation de la transferrine",
+            "justification": "À ajouter en deuxième temps pour rechercher une hémochromatose."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie",
+            "justification": "Proposée en 1ère intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249579892_04",
+      "current_version_epoch_ms": 1755249579892,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Différencier les étiologies ciblées par les dosages de deuxième intention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dosage de PTH recherche une hyperparathyroïdie.",
+            "justification": "Indiqué pour explorer une hyperparathyroïdie."
+          },
+          {
+            "correct": true,
+            "proposition": "La TSH explore une hyperthyroïdie ou un surdosage en hormone thyroïdienne lors d'un traitement.",
+            "justification": "Précisé comme cible du dosage de TSH."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dosage de la testostérone plasmatique explore un hypogonadisme chez l'homme.",
+            "justification": "Mentionné pour rechercher un hypogonadisme chez l'homme."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coefficient de saturation de la transferrine explore un hypercortisolisme endogène.",
+            "justification": "Il est destiné à rechercher une hémochromatose."
+          },
+          {
+            "correct": true,
+            "proposition": "Le cortisol minuit +/- freinage minute +/- cortisolurie des 24h avec créatininurie explore un hypercortisolisme endogène.",
+            "justification": "Précisé comme modalité d'exploration de l'hypercortisolisme endogène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249579892_05",
+      "current_version_epoch_ms": 1755249579892,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Reconnaître les affirmations exactes concernant les objectifs et le cadrage du bilan biologique devant une fragilité osseuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le bilan biologique vise à éliminer une cause secondaire et d'autres causes de fragilité osseuse dont la prise en charge est différente.",
+            "justification": "Objectif explicitement indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "Il n'existe pas de consensus sur les examens biologiques à effectuer systématiquement.",
+            "justification": "Mention explicite de l'absence de consensus."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens listés doivent être systématiquement réalisés chez tous les patients.",
+            "justification": "Contredit l'absence de consensus et l'adaptation au contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens de deuxième intention doivent être réalisés d'emblée avec le bilan initial.",
+            "justification": "Ils sont ajoutés en fonction de l'interrogatoire, de l'examen clinique et des premiers résultats."
+          },
+          {
+            "correct": true,
+            "proposition": "Le choix des examens de deuxième temps dépend des données de l'interrogatoire, de l'examen clinique et des premiers résultats.",
+            "justification": "Précisé comme principe de sélection des examens additionnels."
+          }
+        ]
+      }
+    }
+  ]
+}

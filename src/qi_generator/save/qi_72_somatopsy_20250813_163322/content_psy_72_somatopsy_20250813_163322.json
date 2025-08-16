@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "somatopsy",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755095809624_01",
+      "current_version_epoch_ms": 1755095809624,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Identifier la prévalence rapportée d'un diagnostic ponctuel d'au moins un TSF.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle se situe entre 26,2 et 34,8 %.",
+            "justification": "La prévalence d'un diagnostic ponctuel d'au moins un TSF est indiquée entre 26,2 et 34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inférieure à 10 %.",
+            "justification": "Cette valeur est en dehors de la fourchette 26,2–34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est exactement de 50 %.",
+            "justification": "50 % ne correspond pas à la fourchette 26,2–34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle dépasse systématiquement 40 %.",
+            "justification": "40 % est au-delà de la borne supérieure 34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne peut pas être estimée.",
+            "justification": "Une estimation chiffrée est fournie : 26,2–34,8 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095809624_02",
+      "current_version_epoch_ms": 1755095809624,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Reconnaître l'affirmation exacte concernant la prévalence des SSF.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle varie selon le SSF considéré.",
+            "justification": "Il est précisé que la prévalence d'un SSF varie avec le SSF."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est identique pour tous les SSF.",
+            "justification": "Ceci contredit le fait qu'elle varie selon le SSF."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est toujours de 1,6 %, quel que soit le SSF.",
+            "justification": "1,6 % n'est cité qu'à titre d'exemple pour la fibromyalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne peut jamais être inférieure à 2 %.",
+            "justification": "La fibromyalgie est rapportée à 1,6 %, donc < 2 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est systématiquement supérieure à 30 %.",
+            "justification": "Aucune affirmation de ce type n'est donnée pour les SSF."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095809624_03",
+      "current_version_epoch_ms": 1755095809624,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Reconnaître la prévalence rapportée pour la fibromyalgie (exemple de SSF, INSERM 2020).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ 1,6 %.",
+            "justification": "La fibromyalgie est donnée en exemple à 1,6 % (INSERM 2020)."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 26,2 et 34,8 %.",
+            "justification": "Cette fourchette concerne la prévalence d'un diagnostic ponctuel d'au moins un TSF, pas la fibromyalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours supérieure à 10 %.",
+            "justification": "La valeur rapportée est 1,6 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Inconnue.",
+            "justification": "Une valeur précise est fournie : 1,6 %."
+          },
+          {
+            "correct": false,
+            "proposition": "0,16 %.",
+            "justification": "La valeur rapportée est 1,6 %, pas 0,16 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095809624_04",
+      "current_version_epoch_ms": 1755095809624,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Classer les propositions décrivant la prévalence d'un diagnostic ponctuel d'au moins un TSF.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un diagnostic ponctuel.",
+            "justification": "La formulation précise un diagnostic ponctuel d'au moins un TSF."
+          },
+          {
+            "correct": true,
+            "proposition": "Une fourchette chiffrée de 26,2 à 34,8 % est rapportée.",
+            "justification": "La prévalence est indiquée entre 26,2 et 34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle dépend du type de SSF.",
+            "justification": "La variabilité selon le type concerne les SSF, pas la prévalence globale d'au moins un TSF."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est illustrée par 1,6 % pour la fibromyalgie.",
+            "justification": "1,6 % correspond à un exemple de SSF (fibromyalgie), non à la prévalence d'au moins un TSF."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas quantifiée.",
+            "justification": "Une quantification est fournie : 26,2–34,8 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095809624_05",
+      "current_version_epoch_ms": 1755095809624,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Identifier les affirmations correctes concernant les ordres de grandeur des prévalences rapportées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fourchette 26,2–34,8 % est supérieure à 1,6 %.",
+            "justification": "26,2–34,8 % (TSF) > 1,6 % (fibromyalgie, SSF)."
+          },
+          {
+            "correct": true,
+            "proposition": "1,6 % illustre la prévalence d'un SSF.",
+            "justification": "1,6 % est donné pour la fibromyalgie, exemple de SSF."
+          },
+          {
+            "correct": false,
+            "proposition": "La prévalence d'un SSF est identique quel que soit le SSF.",
+            "justification": "Il est indiqué qu'elle varie avec le SSF."
+          },
+          {
+            "correct": true,
+            "proposition": "La prévalence d'un diagnostic ponctuel d'au moins un TSF peut avoisiner 30 %.",
+            "justification": "30 % se situe dans la fourchette rapportée 26,2–34,8 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La fibromyalgie est rapportée à 16 %.",
+            "justification": "La valeur fournie est 1,6 %."
+          }
+        ]
+      }
+    }
+  ]
+}

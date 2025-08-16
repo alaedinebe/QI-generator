@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "migraine",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755172573281_01",
+      "current_version_epoch_ms": 1755172573281,
+      "topic": {
+        "subject": "neuro",
+        "item": "migraine"
+      },
+      "data": {
+        "statement": "Quel est le diagnostic à poser en cas de coexistence de migraines et de céphalées de tension épisodiques chez un patient ayant plus de 15 jours de céphalées par mois ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de migraine prime et il s'agit d'une migraine chronique si le patient a 8 jours par mois de céphalées migraineuses.",
+            "justification": "Le diagnostic de migraine prime dès que le patient présente 8 jours par mois de céphalées migraineuses, ce qui permet de poser le diagnostic de migraine chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de céphalée de tension est plus important que celui de migraine.",
+            "justification": "Le diagnostic de migraine prime dans ce contexte, même en présence de céphalées de tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est pas nécessaire de poser de diagnostic spécifique si les céphalées sont mixtes.",
+            "justification": "Un diagnostic spécifique doit toujours être posé, et la migraine chronique prime sur la céphalée de tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de céphalée de tension chronique doit être posé dans ce cas.",
+            "justification": "En cas de coexistence de migraines et de céphalées de tension, c'est la migraine chronique qui doit être diagnostiquée si les critères sont remplis."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient doit être suivi uniquement pour la céphalée de tension sans prise en compte des migraines.",
+            "justification": "Le traitement doit se concentrer sur la migraine, même en présence de céphalées de tension."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755172573281_02",
+      "current_version_epoch_ms": 1755172573281,
+      "topic": {
+        "subject": "neuro",
+        "item": "migraine"
+      },
+      "data": {
+        "statement": "Quand doit-on poser le diagnostic de migraine chronique chez un patient avec des céphalées de nature migraineuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le patient a 8 jours par mois de céphalées migraineuses.",
+            "justification": "Le critère pour diagnostiquer une migraine chronique est la présence de 8 jours de céphalées migraineuses par mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient a des céphalées tous les jours.",
+            "justification": "Les céphalées quotidiennes ne suffisent pas à poser le diagnostic de migraine chronique, ce dernier étant basé sur 8 jours par mois de céphalées migraineuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les céphalées durent plus de 4 heures chaque jour.",
+            "justification": "La durée quotidienne des céphalées n'est pas le critère principal, c'est la fréquence mensuelle de céphalées migraineuses qui compte."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient a 4 jours de céphalées migraineuses par mois.",
+            "justification": "Le diagnostic de migraine chronique nécessite au moins 8 jours par mois de céphalées migraineuses, soit 2 jours par semaine."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de migraine chronique n'est jamais posé chez les patients ayant des céphalées de tension.",
+            "justification": "Il est possible de poser le diagnostic de migraine chronique même en présence de céphalées de tension, tant que les critères de fréquence sont remplis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755172573281_03",
+      "current_version_epoch_ms": 1755172573281,
+      "topic": {
+        "subject": "neuro",
+        "item": "migraine"
+      },
+      "data": {
+        "statement": "Que signifie une 'céphalée de tension épisodique' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est une céphalée qui survient moins de 15 jours par mois.",
+            "justification": "Les céphalées de tension épisodiques sont définies par une fréquence inférieure à 15 jours par mois."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une céphalée qui persiste chaque jour pendant plus d'une semaine.",
+            "justification": "Les céphalées de tension épisodiques sont moins fréquentes, avec moins de 15 jours par mois."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une céphalée qui se manifeste uniquement après un traumatisme crânien.",
+            "justification": "Les céphalées de tension épisodiques ne sont pas liées spécifiquement à un traumatisme crânien."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une céphalée caractérisée par des nausées fréquentes.",
+            "justification": "Les céphalées de tension épisodiques sont souvent associées à une pression ou une sensation de lourdeur, sans les symptômes associés aux migraines, comme les nausées."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une céphalée persistante pendant plus de 6 mois.",
+            "justification": "Les céphalées de tension épisodiques ne durent généralement pas aussi longtemps et sont moins fréquentes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755172573281_04",
+      "current_version_epoch_ms": 1755172573281,
+      "topic": {
+        "subject": "neuro",
+        "item": "migraine"
+      },
+      "data": {
+        "statement": "Qu'est-ce qu'une céphalée chronique quotidienne (CCQ) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une céphalée présente plus de 15 jours par mois.",
+            "justification": "Une céphalée est considérée comme chronique quotidienne (CCQ) lorsqu'elle est présente plus de 15 jours par mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée qui dure plus de 4 heures chaque jour.",
+            "justification": "La durée quotidienne n'est pas le critère principal pour définir une céphalée chronique quotidienne, mais la fréquence mensuelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée qui ne survient que la nuit.",
+            "justification": "La céphalée chronique quotidienne n'a pas de limite horaire spécifique et peut se manifester à tout moment de la journée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée présente tous les jours pendant une période de 6 mois.",
+            "justification": "Une céphalée chronique quotidienne peut être définie par plus de 15 jours par mois de céphalées, sans mention d'une durée continue de 6 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée qui ne cesse qu'après un traitement chirurgical.",
+            "justification": "Une céphalée chronique quotidienne est définie par sa fréquence mensuelle élevée, pas par la nécessité d'un traitement chirurgical."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755172573281_05",
+      "current_version_epoch_ms": 1755172573281,
+      "topic": {
+        "subject": "neuro",
+        "item": "migraine"
+      },
+      "data": {
+        "statement": "Comment différencier une migraine sans aura d'une céphalée de tension épisodique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La migraine sans aura est souvent accompagnée de symptômes tels que la photophobie et la phonophobie, alors que la céphalée de tension épisodique ne présente pas ces symptômes.",
+            "justification": "La migraine sans aura est souvent associée à des symptômes tels que la photophobie et la phonophobie, contrairement à la céphalée de tension épisodique qui est plus liée à une sensation de pression."
+          },
+          {
+            "correct": false,
+            "proposition": "La céphalée de tension épisodique est plus sévère que la migraine sans aura.",
+            "justification": "En général, la migraine sans aura est considérée comme plus intense et invalidante que la céphalée de tension épisodique."
+          },
+          {
+            "correct": false,
+            "proposition": "La migraine sans aura se manifeste uniquement le matin, tandis que la céphalée de tension épisodique apparaît en fin de journée.",
+            "justification": "La migraine sans aura peut survenir à n'importe quel moment de la journée et n'est pas limitée au matin, contrairement à la céphalée de tension qui peut être plus fréquente en fin de journée."
+          },
+          {
+            "correct": false,
+            "proposition": "La migraine sans aura est moins fréquente que la céphalée de tension épisodique.",
+            "justification": "La céphalée de tension épisodique est généralement plus fréquente que la migraine sans aura, mais les deux types de céphalées peuvent coexister chez un même patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La migraine sans aura est toujours précédée de troubles visuels.",
+            "justification": "La migraine sans aura peut survenir sans symptômes visuels, contrairement à la migraine avec aura qui inclut des troubles visuels."
+          }
+        ]
+      }
+    }
+  ]
+}

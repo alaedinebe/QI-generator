@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbsommeil",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755203416136_01",
+      "current_version_epoch_ms": 1755203416136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques des différents stades du sommeil chez l'adulte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le stade 1 associe mouvements oculaires lents et activité EEG thêta.",
+            "justification": "Le stade 1 est défini par des mouvements oculaires lents, une activité EEG thêta et une possible conscience de l'environnement."
+          },
+          {
+            "correct": true,
+            "proposition": "Le stade 2 correspond à un sommeil léger avec activité thêta et des grapho-éléments spécifiques.",
+            "justification": "Le stade 2 est un sommeil léger caractérisé par une activité thêta et l'apparition de grapho-éléments spécifiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Au stade 3, l'individu n'est plus conscient de son environnement et l'EEG montre une activité delta lente de grande amplitude.",
+            "justification": "Le stade 3 est associé à une activité EEG synchronisée lente de grande amplitude delta et à l'absence de conscience de l'environnement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sommeil paradoxal se caractérise par des mouvements oculaires lents.",
+            "justification": "Le sommeil paradoxal se définit par des mouvements oculaires rapides, non lents."
+          },
+          {
+            "correct": true,
+            "proposition": "Le sommeil paradoxal présente une atonie musculaire et une activité EEG désynchronisée rapide proche de la veille.",
+            "justification": "Le sommeil paradoxal associe atonie musculaire et EEG rapide désynchronisé proche de l'état de veille."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755203416136_02",
+      "current_version_epoch_ms": 1755203416136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Définir un cycle de sommeil et ses caractéristiques temporelles au cours d'une nuit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un cycle de sommeil dure environ 90 minutes.",
+            "justification": "La succession des stades définit un cycle d'une durée de 90 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Une nuit normale comprend au maximum deux cycles.",
+            "justification": "Une nuit comporte typiquement trois à cinq cycles successifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Les cycles sont séparés par des éveils nocturnes physiologiques généralement inférieurs à 10 minutes.",
+            "justification": "Les éveils intercalés entre cycles sont physiologiques et le plus souvent de moins de 10 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "La fréquence des éveils nocturnes diminue avec l'âge.",
+            "justification": "Les éveils nocturnes ont tendance à augmenter avec l'âge et à être plus conscients."
+          },
+          {
+            "correct": true,
+            "proposition": "La succession du sommeil lent et du sommeil paradoxal constitue un cycle.",
+            "justification": "L'alternance entre sommeil lent et paradoxal définit l'architecture cyclique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755203416136_03",
+      "current_version_epoch_ms": 1755203416136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Ordonnancement des stades après une période d'éveil.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après chaque période d'éveil, les stades 1 puis 2 puis 3 du sommeil lent surviennent dans le même ordre.",
+            "justification": "Le sommeil lent est organisé en trois stades qui se succèdent dans le même ordre après chaque éveil."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sommeil paradoxal survient avant le stade 1 lors de l'endormissement.",
+            "justification": "L'enchaînement initial concerne d'abord les stades du sommeil lent (1→2→3), non le paradoxal en premier."
+          },
+          {
+            "correct": true,
+            "proposition": "Le stade 2 correspond à un sommeil léger.",
+            "justification": "Le stade 2 est explicitement décrit comme un sommeil léger."
+          },
+          {
+            "correct": true,
+            "proposition": "Au stade 1, l'individu peut encore être conscient de son environnement.",
+            "justification": "Le stade 1 permet encore une certaine conscience de l'environnement."
+          },
+          {
+            "correct": false,
+            "proposition": "Au stade 3, l'individu reste conscient de son environnement.",
+            "justification": "Au stade 3, l'individu n'est plus conscient de son environnement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755203416136_04",
+      "current_version_epoch_ms": 1755203416136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître les marqueurs EEG et oculaires selon les stades de sommeil.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le stade 3 montre une activité EEG synchronisée lente delta de grande amplitude.",
+            "justification": "Le stade 3 est défini par des ondes delta lentes, de grande amplitude, synchronisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Le sommeil paradoxal présente une activité EEG désynchronisée rapide proche de l'état de veille.",
+            "justification": "Le sommeil paradoxal a un EEG rapide désynchronisé, proche de la veille."
+          },
+          {
+            "correct": false,
+            "proposition": "Le stade 2 se définit par une activité alpha prédominante.",
+            "justification": "Le stade 2 est associé à une activité thêta et à des grapho-éléments spécifiques, pas à une activité alpha prédominante."
+          },
+          {
+            "correct": true,
+            "proposition": "Le stade 1 est associé à une activité thêta.",
+            "justification": "Le stade 1 présente une activité EEG thêta."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mouvements oculaires rapides caractérisent le sommeil lent.",
+            "justification": "Les mouvements oculaires rapides caractérisent le sommeil paradoxal, pas le sommeil lent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755203416136_05",
+      "current_version_epoch_ms": 1755203416136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Rythme veille-sommeil : éveils nocturnes et évolution avec l'âge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les éveils nocturnes séparant les cycles sont physiologiques.",
+            "justification": "Les éveils intercycliques sont décrits comme physiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée habituelle de ces éveils est généralement inférieure à 10 minutes.",
+            "justification": "Ces éveils durent en général moins de 10 minutes."
+          },
+          {
+            "correct": true,
+            "proposition": "Avec l'âge, ces éveils tendent à augmenter et à devenir plus conscients.",
+            "justification": "Il est indiqué qu'ils augmentent avec l'âge et deviennent plus conscients."
+          },
+          {
+            "correct": false,
+            "proposition": "Une nuit normale se définit par l'absence d'éveils nocturnes.",
+            "justification": "Au contraire, des éveils nocturnes physiologiques sont attendus entre les cycles."
+          },
+          {
+            "correct": true,
+            "proposition": "Au cours d'une nuit, trois à cinq cycles de sommeil se succèdent.",
+            "justification": "La nuit normale comporte trois à cinq cycles successifs."
+          }
+        ]
+      }
+    }
+  ]
+}

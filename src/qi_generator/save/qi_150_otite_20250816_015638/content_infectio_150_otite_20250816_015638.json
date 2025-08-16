@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "otite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755302405543_01",
+      "current_version_epoch_ms": 1755302405543,
+      "topic": {
+        "subject": "infectio",
+        "item": "otite"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant l'épidémiologie de l'otite moyenne aiguë (OMA) chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'OMA est une infection très fréquente chez l'enfant, surtout entre 6 et 24 mois.",
+            "justification": "Infection la plus fréquente chez l'enfant, surtout entre 6 et 24 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "La contamination se fait le plus souvent à partir du rhinopharynx.",
+            "justification": "Contamination à partir du rhinopharynx."
+          },
+          {
+            "correct": false,
+            "proposition": "La majorité des OMA congestives sont d'origine bactérienne.",
+            "justification": "90 % des OMA congestives sont d'origine virale."
+          },
+          {
+            "correct": false,
+            "proposition": "En population pédiatrique, l'OMA survient le plus souvent après 5 ans.",
+            "justification": "Survient surtout entre 6 et 24 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "L'OMA est une pathologie rare chez l'enfant.",
+            "justification": "Infection la plus fréquente chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755302405543_02",
+      "current_version_epoch_ms": 1755302405543,
+      "topic": {
+        "subject": "infectio",
+        "item": "otite"
+      },
+      "data": {
+        "statement": "À propos des agents responsables de l'OMA, classer les propositions.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ 10 % des OMA sont d'origine bactérienne.",
+            "justification": "10 % des OMA sont bactériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Parmi les bactéries en cause, le pneumocoque représente environ 40 %. ",
+            "justification": "Pneumocoque ≈ 40 % des OMA bactériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Haemophilus influenzae est impliqué dans 30 à 40 % des OMA bactériennes.",
+            "justification": "Haemophilus influenzae : 30–40 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Les virus sont en cause dans 90 % des OMA congestives.",
+            "justification": "90 % des OMA congestives sont d'origine virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Streptococcus pyogenes (groupe A) n'est pas impliqué dans l'OMA.",
+            "justification": "Le streptocoque du groupe A fait partie des bactéries responsables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755302405543_03",
+      "current_version_epoch_ms": 1755302405543,
+      "topic": {
+        "subject": "infectio",
+        "item": "otite"
+      },
+      "data": {
+        "statement": "Concernant les profils de résistance en OMA, reconnaître les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Haemophilus influenzae sécrète une bêtalactamase dans environ 17 % des cas.",
+            "justification": "H. influenzae : 17 % de sécrétion de bêtalactamase."
+          },
+          {
+            "correct": true,
+            "proposition": "Parmi les pneumocoques, 4 % présentent une résistance à la pénicilline.",
+            "justification": "Pneumocoques : 4 % de résistance à la pénicilline."
+          },
+          {
+            "correct": true,
+            "proposition": "La sensibilité diminuée à la pénicilline (PSDP) concerne environ 42 % des pneumocoques.",
+            "justification": "Pneumocoques : 42 % de résistance intermédiaire (PSDP)."
+          },
+          {
+            "correct": true,
+            "proposition": "PSDP signifie « pneumocoque de sensibilité diminuée à la pénicilline ». ",
+            "justification": "Définition donnée : pneumocoque de sensibilité diminuée à la pénicilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez le pneumocoque, la résistance à la pénicilline atteint environ 40 %.",
+            "justification": "Résistance élevée non rapportée : 4 % résistants, 42 % intermédiaires (PSDP)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755302405543_04",
+      "current_version_epoch_ms": 1755302405543,
+      "topic": {
+        "subject": "infectio",
+        "item": "otite"
+      },
+      "data": {
+        "statement": "Associer signes cliniques et orientation étiologique lors d'OMA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Conjonctivite purulente associée : oriente vers Haemophilus influenzae.",
+            "justification": "Association avec conjonctivite purulente : élément d'orientation vers Haemophilus influenzae."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre > 38,5 °C et douleurs importantes : oriente vers le pneumocoque.",
+            "justification": "Fièvre > 38,5 °C et douleurs importantes : pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Conjonctivite purulente associée : oriente vers le pneumocoque.",
+            "justification": "Conjonctivite purulente oriente vers Haemophilus influenzae."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre > 38,5 °C et douleurs importantes : oriente plutôt vers Haemophilus influenzae.",
+            "justification": "Fièvre élevée et douleurs importantes orientent vers le pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de conjonctivite purulente ne permet aucune orientation étiologique.",
+            "justification": "C'est un élément d'orientation vers Haemophilus influenzae."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755302405543_05",
+      "current_version_epoch_ms": 1755302405543,
+      "topic": {
+        "subject": "infectio",
+        "item": "otite"
+      },
+      "data": {
+        "statement": "Identifier les facteurs de risque de pneumocoque de sensibilité diminuée à la pénicilline (PSDP) en OMA.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge < 18 mois.",
+            "justification": "Âge < 18 mois fait partie des facteurs de risque de PSDP."
+          },
+          {
+            "correct": true,
+            "proposition": "Vie en collectivité.",
+            "justification": "Vie en collectivité listée parmi les facteurs de risque de PSDP."
+          },
+          {
+            "correct": true,
+            "proposition": "OMA récente.",
+            "justification": "OMA récente fait partie des facteurs de risque de PSDP."
+          },
+          {
+            "correct": true,
+            "proposition": "Administration récente d'antibiotiques (pénicilline A) dans les 3 derniers mois.",
+            "justification": "Administration récente d'antibiotiques (pénicilline A) dans les 3 derniers mois est un facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de prise antibiotique dans les 12 derniers mois.",
+            "justification": "Le facteur de risque rapporté est au contraire une administration récente de pénicilline A dans les 3 derniers mois."
+          }
+        ]
+      }
+    }
+  ]
+}

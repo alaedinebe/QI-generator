@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755212727929_01",
+      "current_version_epoch_ms": 1755212727929,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier les éléments lésionnels décrits dans cette présentation clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bulles tendues",
+            "justification": "Décrit : bulles tendues."
+          },
+          {
+            "correct": false,
+            "proposition": "Bulles flasques",
+            "justification": "La tension des bulles est mentionnée, pas un aspect flasque."
+          },
+          {
+            "correct": true,
+            "proposition": "Croûtes rondes",
+            "justification": "Décrit : croûtes rondes."
+          },
+          {
+            "correct": false,
+            "proposition": "Pustules purulentes",
+            "justification": "Non rapportées ; il est fait état de bulles, pas de pustules."
+          },
+          {
+            "correct": true,
+            "proposition": "Peau urticarienne sous-jacente",
+            "justification": "Décrit : peau urticarienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212727929_02",
+      "current_version_epoch_ms": 1755212727929,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer la nature du contenu des bulles observées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contenu clair",
+            "justification": "Décrit : contenu clair."
+          },
+          {
+            "correct": true,
+            "proposition": "Contenu hémorragique",
+            "justification": "Décrit : contenu hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Contenu lactescent",
+            "justification": "Non rapporté."
+          },
+          {
+            "correct": false,
+            "proposition": "Contenu purulent",
+            "justification": "Non rapporté."
+          },
+          {
+            "correct": false,
+            "proposition": "Contenu gazeux",
+            "justification": "Non rapporté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212727929_03",
+      "current_version_epoch_ms": 1755212727929,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments de contexte cliniques rapportés (patient et localisation).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient de sexe masculin",
+            "justification": "Décrit : chez un homme."
+          },
+          {
+            "correct": true,
+            "proposition": "Localisation au niveau du bras",
+            "justification": "Décrit : siégeant au niveau du bras."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte buccale",
+            "justification": "Non rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du cuir chevelu",
+            "justification": "Non rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte généralisée",
+            "justification": "Non rapportée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212727929_04",
+      "current_version_epoch_ms": 1755212727929,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier le diagnostic rapporté pour cette présentation dermatologique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pemphigoïde bulleuse",
+            "justification": "Diagnostic explicitement indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Pemphigus vulgaire",
+            "justification": "Non indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatite herpétiforme",
+            "justification": "Non indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Impétigo bulleux",
+            "justification": "Non indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Épidermolyse bulleuse",
+            "justification": "Non indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212727929_05",
+      "current_version_epoch_ms": 1755212727929,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Sélectionner les descripteurs morphologiques adéquats pour décrire ce cas.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bulles tendues à contenu clair",
+            "justification": "Décrit : bulles tendues avec contenu clair."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire isolée sans bulles",
+            "justification": "Des bulles sont rapportées en plus de la peau urticarienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Croûtes rondes",
+            "justification": "Décrit : croûtes rondes."
+          },
+          {
+            "correct": true,
+            "proposition": "Bulles à contenu hémorragique possibles",
+            "justification": "Décrit : contenu hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésions vésiculeuses millimétriques",
+            "justification": "Non rapportées ; il est question de bulles."
+          }
+        ]
+      }
+    }
+  ]
+}

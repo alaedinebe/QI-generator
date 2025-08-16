@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755105745455_01",
+      "current_version_epoch_ms": 1755105745455,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant la part du tabac dans les cancers et la mortalité par cancer broncho-pulmonaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le tabac est responsable d'environ 25 % de l'ensemble des cancers.",
+            "justification": "La part attribuable indiquée est d'un quart de l'ensemble des cancers."
+          },
+          {
+            "correct": true,
+            "proposition": "80 % des décès par cancers broncho-pulmonaires sont liés au tabac.",
+            "justification": "La majorité des décès par cancers broncho-pulmonaires est imputée au tabac (80 %)."
+          },
+          {
+            "correct": false,
+            "proposition": "Il existe un seuil de consommation au-dessous duquel fumer ne comporte aucun risque.",
+            "justification": "Il n'existe pas de seuil de sécurité : toute consommation expose à un risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Le tabagisme passif augmente le risque relatif de cancer broncho-pulmonaire d'environ 26 %. ",
+            "justification": "Une augmentation du risque relatif de 26 % est rapportée pour le tabagisme passif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tabac n'est pas impliqué dans les cancers des voies aérodigestives supérieures.",
+            "justification": "Les voies aérodigestives supérieures font partie des localisations associées au tabac."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105745455_02",
+      "current_version_epoch_ms": 1755105745455,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître l'impact de la dose et surtout de la durée d'exposition au tabac sur le risque de cancer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Doubler la dose de tabac multiplie le risque de cancer par 2.",
+            "justification": "La relation dose-risque spécifiée est x2 quand la dose double."
+          },
+          {
+            "correct": true,
+            "proposition": "Doubler la durée d'exposition multiplie le risque de cancer par 23.",
+            "justification": "La relation durée-risque indiquée est x23 pour un doublement de la durée."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose est le facteur de risque le plus important devant la durée.",
+            "justification": "La durée de l'intoxication est identifiée comme le facteur de risque le plus important."
+          },
+          {
+            "correct": true,
+            "proposition": "À dose égale, l'allongement de la durée majore beaucoup plus le risque que l'augmentation de la dose.",
+            "justification": "Le doublement de la durée (x23) a un effet bien supérieur à celui du doublement de la dose (x2)."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée d'intoxication est un facteur mineur de risque par rapport aux autres paramètres.",
+            "justification": "La durée est explicitement désignée comme le principal facteur de risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105745455_03",
+      "current_version_epoch_ms": 1755105745455,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer les assertions relatives au tabagisme passif et au site concerné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le tabagisme passif augmente de 26 % le risque relatif de cancer broncho-pulmonaire.",
+            "justification": "Une élévation de 26 % du risque relatif de cancer broncho-pulmonaire est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tabagisme passif n'a aucun impact mesurable sur le risque de cancer broncho-pulmonaire.",
+            "justification": "Un accroissement du risque est rapporté, infirmant l'absence d'impact."
+          },
+          {
+            "correct": false,
+            "proposition": "L'effet du tabagisme passif concerne exclusivement les cancers de la vessie.",
+            "justification": "L'effet chiffré rapporté concerne le cancer broncho-pulmonaire, non exclusivement la vessie."
+          },
+          {
+            "correct": true,
+            "proposition": "Le site explicitement concerné est le poumon (cancer broncho-pulmonaire).",
+            "justification": "La localisation précisée pour l'augmentation du risque est broncho-pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'augmentation de risque rapportée est de 10 %.",
+            "justification": "La valeur indiquée est de 26 %, pas de 10 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105745455_04",
+      "current_version_epoch_ms": 1755105745455,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Évaluer la validité de différentes affirmations sur l'existence d'un seuil de sécurité pour le tabac.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il n'existe pas de seuil en-dessous duquel fumer soit sans risque.",
+            "justification": "L'absence de seuil de sécurité est explicitement affirmée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une faible consommation protège d'un risque de cancer lié au tabac.",
+            "justification": "Sans seuil de sécurité, même une faible consommation expose à un risque."
+          },
+          {
+            "correct": true,
+            "proposition": "L'absence de seuil implique qu'une consommation occasionnelle reste à risque.",
+            "justification": "Sans seuil, toute exposition conserve un niveau de risque non nul."
+          },
+          {
+            "correct": false,
+            "proposition": "Le risque n'apparaît qu'au-delà d'une consommation élevée.",
+            "justification": "Le risque existe dès les faibles consommations puisqu'aucun seuil n'est reconnu."
+          },
+          {
+            "correct": true,
+            "proposition": "La notion de seuil de sécurité n'est pas applicable au tabac.",
+            "justification": "Il est précisé qu'aucun seuil ne rend la consommation sans risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105745455_05",
+      "current_version_epoch_ms": 1755105745455,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Parmi les localisations suivantes, identifier celles associées au tabac.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voies aérodigestives supérieures",
+            "justification": "Les voies aérodigestives supérieures font partie des localisations associées au tabac."
+          },
+          {
+            "correct": true,
+            "proposition": "Pancréas",
+            "justification": "Le pancréas est cité parmi les cancers liés au tabac."
+          },
+          {
+            "correct": true,
+            "proposition": "Reins",
+            "justification": "Les cancers du rein sont listés parmi les localisations en lien avec le tabac."
+          },
+          {
+            "correct": true,
+            "proposition": "Vessie",
+            "justification": "La vessie est une localisation associée aux cancers liés au tabac."
+          },
+          {
+            "correct": false,
+            "proposition": "Thyroïde",
+            "justification": "Les localisations associées citées sont voies aérodigestives supérieures, pancréas, reins et vessie; la thyroïde n'en fait pas partie."
+          }
+        ]
+      }
+    }
+  ]
+}

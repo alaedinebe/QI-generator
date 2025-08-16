@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vaccin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755290395114_01",
+      "current_version_epoch_ms": 1755290395114,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal des lymphocytes T CD8+ dans la protection vaccinale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils détruisent les cellules infectées.",
+            "justification": "Les lymphocytes T CD8+ sont cytotoxiques et leur rôle est de détruire les cellules infectées par l'antigène."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils stimulent la production d'anticorps par les lymphocytes B.",
+            "justification": "La stimulation de la production d'anticorps est la fonction des lymphocytes T CD4+ et non des CD8+."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils produisent des anticorps.",
+            "justification": "La production d'anticorps est assurée par les lymphocytes B et non les lymphocytes T CD8+."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils favorisent l'élimination de l'antigène dans le sang.",
+            "justification": "L'élimination de l'antigène dans le sang est plutôt le rôle des anticorps produits par les lymphocytes B."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils activeraient les cellules dendritiques pour initier une réponse immune.",
+            "justification": "Les lymphocytes T CD8+ ne sont pas responsables de l'activation des cellules dendritiques, rôle qui est généralement attribué aux lymphocytes T CD4+."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290395114_02",
+      "current_version_epoch_ms": 1755290395114,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est le rôle des lymphocytes T CD4+ dans la réponse immunitaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils stimulent la production d'anticorps par les lymphocytes B.",
+            "justification": "Les lymphocytes T CD4+ ont un rôle clé dans l'activation des lymphocytes B, permettant la production d'anticorps spécifiques à l'antigène."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils détruisent les cellules infectées.",
+            "justification": "La destruction des cellules infectées est la fonction des lymphocytes T CD8+, pas des CD4+."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils induisent l'activation des lymphocytes B sans assistance des CD8+.",
+            "justification": "Les lymphocytes B sont activés par les lymphocytes T CD4+, mais cette activation n'est pas indépendante des CD8+."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils produisent des anticorps.",
+            "justification": "Les lymphocytes T CD4+ ne produisent pas d'anticorps; c'est le rôle des lymphocytes B."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils détruisent directement les antigènes dans le corps.",
+            "justification": "La destruction des antigènes n'est pas directement assurée par les lymphocytes T CD4+, mais plutôt par les lymphocytes T CD8+."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290395114_03",
+      "current_version_epoch_ms": 1755290395114,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quelles cellules sont principalement impliquées dans la réponse humorale après vaccination ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les lymphocytes B.",
+            "justification": "La réponse humorale repose principalement sur les lymphocytes B, qui produisent des anticorps après activation par les lymphocytes T CD4+."
+          },
+          {
+            "correct": false,
+            "proposition": "Les lymphocytes T CD8+.",
+            "justification": "Les lymphocytes T CD8+ sont responsables de la destruction des cellules infectées et non de la réponse humorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Les macrophages.",
+            "justification": "Les macrophages participent à la phagocytose et à la présentation de l'antigène, mais ne sont pas responsables de la réponse humorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Les cellules dendritiques.",
+            "justification": "Les cellules dendritiques présentent l'antigène aux lymphocytes T, mais ne produisent pas d'anticorps."
+          },
+          {
+            "correct": false,
+            "proposition": "Les lymphocytes T CD4+.",
+            "justification": "Les lymphocytes T CD4+ jouent un rôle de régulation et d'activation des lymphocytes B, mais ne produisent pas directement des anticorps."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290395114_04",
+      "current_version_epoch_ms": 1755290395114,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme par lequel les anticorps produits après vaccination aident à éliminer l'antigène ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils se lient à l'antigène et facilitent sa destruction par d'autres cellules immunitaires.",
+            "justification": "Les anticorps se lient à l'antigène, marquant ainsi ce dernier pour sa destruction par des cellules immunitaires comme les macrophages."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils détruisent directement les cellules infectées par l'antigène.",
+            "justification": "Les anticorps ne détruisent pas directement les cellules infectées, mais facilitent leur élimination par d'autres mécanismes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils activent les lymphocytes CD8+ pour détruire les cellules infectées.",
+            "justification": "Les anticorps n'activent pas directement les lymphocytes CD8+, leur rôle est plutôt de marquer l'antigène pour d'autres réponses immunitaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils désactivent l'antigène en le neutralisant.",
+            "justification": "Les anticorps peuvent neutraliser l'antigène en le liant, mais leur principale fonction est de faciliter la destruction de l'antigène par des cellules immunitaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils produisent des cytokines pour lutter contre l'infection.",
+            "justification": "Les anticorps ne produisent pas de cytokines; ce rôle est plutôt assuré par les lymphocytes T et d'autres cellules immunitaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290395114_05",
+      "current_version_epoch_ms": 1755290395114,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Comment l'immunité cellulaire contribue-t-elle à la protection vaccinale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En activant les lymphocytes T CD8+ qui détruisent les cellules infectées.",
+            "justification": "L'immunité cellulaire repose sur l'activation des lymphocytes T CD8+, qui sont responsables de la destruction des cellules infectées par l'antigène."
+          },
+          {
+            "correct": false,
+            "proposition": "En stimulant la production d'anticorps par les lymphocytes B.",
+            "justification": "La production d'anticorps est principalement due à l'immunité humorale, et non à l'immunité cellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En inhibant la multiplication de l'antigène dans le sang.",
+            "justification": "L'immunité cellulaire n'inhibe pas directement la multiplication de l'antigène, mais facilite son élimination via la destruction des cellules infectées."
+          },
+          {
+            "correct": false,
+            "proposition": "En neutralisant l'antigène dans le corps.",
+            "justification": "La neutralisation de l'antigène est un rôle de l'immunité humorale via les anticorps, et non de l'immunité cellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En produisant des anticorps pour détruire l'antigène.",
+            "justification": "Les anticorps sont produits par les lymphocytes B, et non par l'immunité cellulaire qui se concentre sur la destruction des cellules infectées."
+          }
+        ]
+      }
+    }
+  ]
+}

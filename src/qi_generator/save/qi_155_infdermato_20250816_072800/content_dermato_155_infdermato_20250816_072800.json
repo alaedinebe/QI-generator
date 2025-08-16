@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "infdermato",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755322287187_01",
+      "current_version_epoch_ms": 1755322287187,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quel est le traitement initial recommandé pour un panaris non compliqué ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antiseptiques locaux en bains pluriquotidiens",
+            "justification": "Les antiseptiques locaux en bains pluriquotidiens permettent un traitement non invasif du panaris au stade précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Incision et drainage",
+            "justification": "L'incision et drainage ne sont indiqués que si une collection purulente ou une complication survient."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie systémique par voie intraveineuse",
+            "justification": "L'antibiothérapie par voie intraveineuse est réservée aux cas graves ou compliqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie de débridement",
+            "justification": "La chirurgie de débridement est indiquée en cas de nécrose tissulaire, ce qui n'est pas une première étape de traitement pour un panaris non compliqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Médication anti-inflammatoire",
+            "justification": "Les anti-inflammatoires ne sont pas un traitement de première intention pour un panaris."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322287187_02",
+      "current_version_epoch_ms": 1755322287187,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quand l'incision et le drainage sont-ils nécessaires dans le traitement d'un panaris ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de collection purulente ou de phlegmon des gaines",
+            "justification": "L'incision et le drainage sont nécessaires pour évacuer une collection purulente ou prévenir une extension infectieuse vers les gaines tendineuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de l'apparition de symptômes modérés sans signe d'infection grave",
+            "justification": "L'incision n'est pas justifiée en l'absence de signe de complication, tels qu'une collection purulente ou un phlegmon."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'antibiothérapie est inefficace",
+            "justification": "L'incision et le drainage ne sont pas directement liés à l'efficacité de l'antibiothérapie, mais plutôt à la présence d'une collection purulente."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la douleur devient insupportable",
+            "justification": "La douleur seule ne justifie pas une incision, qui est indiquée pour des signes cliniques d'infection localisée sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'abcès superficiel sans signes d'infection profonde",
+            "justification": "Un abcès superficiel peut être traité par drainage simple sans incision chirurgicale approfondie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322287187_03",
+      "current_version_epoch_ms": 1755322287187,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de l'antibiothérapie par voie orale dans le traitement d'un panaris ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de résistance ou de complication",
+            "justification": "L'antibiothérapie par voie orale est utilisée en cas de résistance aux antiseptiques locaux ou lorsqu'une complication survient."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de panaris non compliqué",
+            "justification": "L'antibiothérapie n'est pas nécessaire en cas de panaris non compliqué, où un traitement local suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour prévenir les infections systémiques",
+            "justification": "L'antibiothérapie est administrée uniquement en cas de complications locales ou de résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de traitement inefficace par antiseptiques locaux",
+            "justification": "Les antibiotiques sont nécessaires en cas de complications ou de résistance, mais pas après une simple inefficacité des antiseptiques locaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une infection généralisée est suspectée",
+            "justification": "Une infection généralisée nécessiterait une prise en charge plus poussée, pas uniquement de l'antibiothérapie orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322287187_04",
+      "current_version_epoch_ms": 1755322287187,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du traitement par antiseptiques locaux dans le panaris ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éviter l'infection et prévenir l'évolution vers une forme compliquée",
+            "justification": "L'antiseptique local est utilisé pour limiter la propagation de l'infection et éviter les complications comme le phlegmon ou l'abcès."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer une cicatrisation rapide de la peau",
+            "justification": "Bien que l'antiseptique aide à la prévention de l'infection, son but principal est de contrôler l'infection plutôt que d'accélérer la cicatrisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer les germes de manière systémique",
+            "justification": "L'antiseptique local agit à un niveau local pour contrôler l'infection mais n'a pas un effet systémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire l'inflammation générale",
+            "justification": "L'objectif principal n'est pas de réduire l'inflammation systémique, mais de contrôler localement l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévient l'extension de l'infection à d'autres organes",
+            "justification": "L'antiseptique local est destiné à contrôler l'infection locale, mais ne vise pas à prévenir une dissémination systémique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755322287187_05",
+      "current_version_epoch_ms": 1755322287187,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelle est la première mesure à prendre en cas de panaris avec signes de phlegmon des gaines ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incision et drainage",
+            "justification": "Lorsque des signes de phlegmon des gaines apparaissent, l'incision et le drainage sont nécessaires pour éviter l'extension de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie par voie orale",
+            "justification": "L'antibiothérapie est indiquée en cas de résistance ou de complication, mais l'incision et drainage restent la première mesure en présence d'un phlegmon des gaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance clinique sans traitement",
+            "justification": "La surveillance seule n'est pas suffisante en présence de signes cliniques graves comme un phlegmon des gaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement local avec antiseptique uniquement",
+            "justification": "L'antiseptique seul est insuffisant en présence de phlegmon des gaines, une intervention chirurgicale est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Médication anti-inflammatoire systémique",
+            "justification": "L'anti-inflammatoire systémique ne traite pas directement la cause de l'infection et ne suffit pas pour un phlegmon des gaines."
+          }
+        ]
+      }
+    }
+  ]
+}

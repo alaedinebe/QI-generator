@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755208177370_01",
+      "current_version_epoch_ms": 1755208177370,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier la définition exacte de l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dermatose inflammatoire chronique touchant le follicule pilo-sébacé.",
+            "justification": "Correspond mot à mot aux éléments clés : dermatoses, caractère inflammatoire, chronicité, atteinte du follicule pilo-sébacé."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatose aiguë touchant le follicule pilo-sébacé.",
+            "justification": "Ne correspond pas : la définition précise un caractère chronique, pas aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Affection systémique inflammatoire chronique.",
+            "justification": "Ne correspond pas : il s'agit d'une dermatoses (atteinte cutanée), pas d'une affection systémique, et la cible follicule pilo-sébacé n'est pas mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatose inflammatoire chronique touchant la glande sudoripare.",
+            "justification": "Ne correspond pas : l'atteinte porte sur le follicule pilo-sébacé, pas sur la glande sudoripare."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatose non inflammatoire chronique du follicule pilo-sébacé.",
+            "justification": "Ne correspond pas : le caractère inflammatoire fait partie de la définition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208177370_02",
+      "current_version_epoch_ms": 1755208177370,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments constitutifs de la définition de l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Relève d'une dermatose.",
+            "justification": "La définition la qualifie explicitement de dermatoses."
+          },
+          {
+            "correct": true,
+            "proposition": "Correspond à un processus inflammatoire.",
+            "justification": "Le caractère inflammatoire est inclus dans la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolue sur un mode chronique.",
+            "justification": "La chronicité fait partie de la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Intéresse le follicule pilo-sébacé.",
+            "justification": "La structure ciblée est le follicule pilo-sébacé selon la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Se définit par une atteinte aiguë isolée.",
+            "justification": "Ne correspond pas : la définition insiste sur la chronicité, pas sur l'aigu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208177370_03",
+      "current_version_epoch_ms": 1755208177370,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier : sélectionner les propositions qui ne correspondent PAS à la définition de l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Affection aiguë du follicule pilo-sébacé.",
+            "justification": "Ne correspond pas : la définition précise un trouble chronique, pas aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatose inflammatoire chronique du follicule pilo-sébacé.",
+            "justification": "Correspond exactement aux critères définitoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Dermatose non inflammatoire chronique du follicule pilo-sébacé.",
+            "justification": "Ne correspond pas : l'inflammation est constitutive de la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte inflammatoire chronique de la glande sudoripare.",
+            "justification": "Ne correspond pas : la structure cible est le follicule pilo-sébacé, pas la glande sudoripare."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatose inflammatoire chronique touchant le follicule pilo-sébacé.",
+            "justification": "Conforme à la définition donnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208177370_04",
+      "current_version_epoch_ms": 1755208177370,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier la structure cutanée spécifiquement impliquée selon la définition de l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le follicule pilo-sébacé est la structure en cause.",
+            "justification": "La définition cible explicitement le follicule pilo-sébacé."
+          },
+          {
+            "correct": false,
+            "proposition": "Les glandes sudoripares sont la structure en cause.",
+            "justification": "Ne correspond pas : la définition ne mentionne pas les glandes sudoripares."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune structure cutanée précise n'est impliquée.",
+            "justification": "Incorrect : une structure précise est citée, le follicule pilo-sébacé."
+          },
+          {
+            "correct": false,
+            "proposition": "La jonction dermo-épidermique est la structure principale en cause.",
+            "justification": "Non retenu : la définition n'évoque pas cette structure, mais le follicule pilo-sébacé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tissu conjonctif sous-cutané est la structure en cause.",
+            "justification": "Non retenu : la définition cible le follicule pilo-sébacé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208177370_05",
+      "current_version_epoch_ms": 1755208177370,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Classer le mode évolutif et le caractère lésionnel de l'acné selon sa définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Affection chronique.",
+            "justification": "La chronicité est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Affection aiguë.",
+            "justification": "S'oppose à la chronicité précisée dans la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Affection inflammatoire.",
+            "justification": "L'inflammation est un élément constitutif de la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Affection non inflammatoire.",
+            "justification": "Contradiction avec le caractère inflammatoire requis."
+          },
+          {
+            "correct": true,
+            "proposition": "Affection chronique inflammatoire.",
+            "justification": "Associe les deux attributs définitoires : chronique et inflammatoire."
+          }
+        ]
+      }
+    }
+  ]
+}

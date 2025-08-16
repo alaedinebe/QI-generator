@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antalgie",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755272172471_01",
+      "current_version_epoch_ms": 1755272172471,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, celles qui relèvent d'une douleur neuropathique ou de ses exemples cliniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleurs des polyneuropathies",
+            "justification": "Relève des exemples cités de douleurs liées à une lésion ou maladie des systèmes somato-sensoriels."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs post zostériennes",
+            "justification": "Fait partie des exemples explicites de douleurs neuropathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs neuropathiques post-chirurgicales",
+            "justification": "Mentionnées comme exemple de douleur neuropathique."
+          },
+          {
+            "correct": true,
+            "proposition": "Sciatique chronique",
+            "justification": "Cité comme exemple de douleur neuropathique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs sans lésion ou maladie des systèmes somato-sensoriels",
+            "justification": "Par définition, la douleur neuropathique est liée à une lésion ou une maladie des systèmes somato-sensoriels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755272172471_02",
+      "current_version_epoch_ms": 1755272172471,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Différencier les antalgiques adaptés dans la prise en charge des douleurs neuropathiques chroniques.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Paracétamol seul",
+            "justification": "Les antalgiques simples ne sont pas efficaces dans les douleurs neuropathiques chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Anti-inflammatoires non stéroïdiens",
+            "justification": "Les antalgiques simples, dont les AINS, sont inadaptés aux douleurs neuropathiques chroniques."
+          },
+          {
+            "correct": true,
+            "proposition": "Tramadol à libération prolongée",
+            "justification": "Cité parmi les antalgiques recommandés, de préférence sous forme LP."
+          },
+          {
+            "correct": true,
+            "proposition": "Amitriptyline (antidépresseur tricyclique)",
+            "justification": "Les antidépresseurs tricycliques sont recommandés."
+          },
+          {
+            "correct": false,
+            "proposition": "Association paracétamol + codéine",
+            "justification": "Les antalgiques de palier II (sauf le tramadol) ne sont pas efficaces dans les douleurs neuropathiques chroniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755272172471_03",
+      "current_version_epoch_ms": 1755272172471,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Reconnaître les principes de mise en route, d'arrêt et de suivi des traitements des douleurs neuropathiques chroniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduction et arrêt progressifs selon le principe de la titration",
+            "justification": "Les traitements sont à introduire et arrêter de façon progressive, avec titration selon efficacité et tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt brutal en cas d'inefficacité",
+            "justification": "L'arrêt doit être progressif ; un arrêt brutal n'est pas conforme au principe de titration."
+          },
+          {
+            "correct": true,
+            "proposition": "Le délai d'action dépend de la rapidité de la titration",
+            "justification": "Il est précisé que le délai d'action dépend de la rapidité de la titration."
+          },
+          {
+            "correct": false,
+            "proposition": "Les topiques locaux nécessitent une titration",
+            "justification": "Les topiques locaux font exception au principe de titration."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'efficacité, la durée moyenne du traitement est d'au moins 6 mois",
+            "justification": "La durée moyenne recommandée est d'au moins 6 mois en cas d'efficacité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755272172471_04",
+      "current_version_epoch_ms": 1755272172471,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Classer les thérapeutiques recommandées et celles à réserver en dernière intention dans la douleur neuropathique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Duloxétine (IRSNA)",
+            "justification": "Les inhibiteurs mixtes de la recapture sérotonine-noradrénaline, dont la duloxétine, sont recommandés."
+          },
+          {
+            "correct": true,
+            "proposition": "Gabapentine",
+            "justification": "Les antiépileptiques, dont la gabapentine, sont recommandés."
+          },
+          {
+            "correct": false,
+            "proposition": "Prégabaline en premier choix systématique",
+            "justification": "La prégabaline est indiquée en second choix."
+          },
+          {
+            "correct": true,
+            "proposition": "Patchs de lidocaïne pour douleurs neuropathiques périphériques localisées",
+            "justification": "Les topiques locaux, dont les patchs de lidocaïne, sont recommandés pour les formes périphériques localisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Morphine à libération prolongée en première intention",
+            "justification": "Les opioïdes forts sont efficaces mais recommandés en dernière intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755272172471_05",
+      "current_version_epoch_ms": 1755272172471,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Identifier les interventions non recommandées et les techniques de neurostimulation validées dans la douleur neuropathique.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Fentanyl transmuqueux pour accès douloureux paroxystiques neuropathiques non cancéreux",
+            "justification": "Les opioïdes d'action rapide, notamment le fentanyl transmuqueux, sont fortement déconseillés et doivent rester dans leurs indications officielles."
+          },
+          {
+            "correct": false,
+            "proposition": "Neuroleptiques",
+            "justification": "Aucune efficacité établie ; non recommandés."
+          },
+          {
+            "correct": true,
+            "proposition": "Stimulation électrique transcutanée (TENS) en première intention",
+            "justification": "La stimulation électrique transcutanée est indiquée en première intention parmi les techniques de neurostimulation."
+          },
+          {
+            "correct": true,
+            "proposition": "Stimulation magnétique trans-crânienne répétitive (rTMS) en troisième intention (spécialiste)",
+            "justification": "La rTMS est une option de troisième intention pour le spécialiste."
+          },
+          {
+            "correct": true,
+            "proposition": "Stimulation médullaire pour douleurs neuropathiques réfractaires (diabétiques ou radiculopathie post-chirurgicale) en troisième intention",
+            "justification": "La stimulation médullaire est à proposer pour les douleurs neuropathiques réfractaires, en troisième intention."
+          }
+        ]
+      }
+    }
+  ]
+}

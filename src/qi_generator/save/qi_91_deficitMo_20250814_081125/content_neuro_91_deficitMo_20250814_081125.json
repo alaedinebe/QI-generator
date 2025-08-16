@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "deficitMo",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755152091768_01",
+      "current_version_epoch_ms": 1755152091768,
+      "topic": {
+        "subject": "neuro",
+        "item": "deficitMo"
+      },
+      "data": {
+        "statement": "Quel est l'examen non radiologique de choix en cas de suspicion d'atteinte du système nerveux périphérique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Électromyogramme (EMG)",
+            "justification": "L'électromyogramme (EMG) est l'examen de choix en cas de suspicion d'atteinte du système nerveux périphérique, que ce soit au niveau des racines, plexus, troncs nerveux, de la jonction neuromusculaire ou des muscles."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme (ECG)",
+            "justification": "L'électrocardiogramme (ECG) est utilisé pour évaluer les troubles du rythme cardiaque, mais il ne permet pas d'évaluer les atteintes du système nerveux périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire pour étude du LCS",
+            "justification": "La ponction lombaire est indiquée en cas de suspicion de polyradiculonévrite ou de processus infectieux/inflammatoire, mais pas pour une suspicion d'atteinte du système nerveux périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "EEG",
+            "justification": "L'électroencéphalogramme (EEG) est utilisé en cas de suspicion de crise d'épilepsie, et non pour les atteintes du système nerveux périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse des enzymes musculaires",
+            "justification": "Bien que l'analyse des enzymes musculaires puisse être pertinente pour des pathologies musculaires, elle ne remplace pas l'électromyogramme pour une évaluation du système nerveux périphérique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755152091768_02",
+      "current_version_epoch_ms": 1755152091768,
+      "topic": {
+        "subject": "neuro",
+        "item": "deficitMo"
+      },
+      "data": {
+        "statement": "Quand la ponction lombaire est-elle réalisée en cas de déficit neurologique focal ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Avant toute imagerie cérébrale",
+            "justification": "La ponction lombaire ne doit pas être réalisée avant l'imagerie cérébrale ou médullaire en raison du risque de compresser une éventuelle hernie ou hématome."
+          },
+          {
+            "correct": true,
+            "proposition": "Après l'imagerie cérébrale ou médullaire",
+            "justification": "La ponction lombaire doit être réalisée après l'imagerie cérébrale ou médullaire en cas de déficit neurologique focal, afin d'éviter les risques liés à une procédure invasive sans exploration préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de suspicion de polyradiculonévrite",
+            "justification": "La ponction lombaire est aussi indiquée en cas de suspicion de processus infectieux ou inflammatoire, pas uniquement en cas de suspicion de polyradiculonévrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la première consultation neurologique",
+            "justification": "La ponction lombaire ne doit pas être effectuée systématiquement lors de la première consultation neurologique sans que d'autres examens préalables aient été réalisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de suspicion de crise d'épilepsie",
+            "justification": "La ponction lombaire n'est pas spécifiquement indiquée pour une suspicion de crise d'épilepsie, car cette pathologie est davantage explorée par l'EEG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755152091768_03",
+      "current_version_epoch_ms": 1755152091768,
+      "topic": {
+        "subject": "neuro",
+        "item": "deficitMo"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire non radiologique est recommandé en cas de suspicion de crise d'épilepsie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "EEG",
+            "justification": "L'électroencéphalogramme (EEG) est l'examen de référence pour diagnostiquer une crise d'épilepsie en enregistrant l'activité électrique cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire pour étude du LCS",
+            "justification": "La ponction lombaire est utilisée pour l'étude du liquide céphalorachidien en cas de suspicion de processus infectieux ou inflammatoire, mais pas pour une suspicion de crise d'épilepsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Électromyogramme (EMG)",
+            "justification": "L'électromyogramme (EMG) est utile pour les pathologies du système nerveux périphérique, mais pas pour la détection des crises d'épilepsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme (ECG)",
+            "justification": "L'ECG évalue les troubles du rythme cardiaque, mais il ne permet pas de diagnostiquer une crise d'épilepsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse des toxiques",
+            "justification": "L'analyse des toxiques peut être pertinente dans le cadre d'une intoxication, mais ne permet pas de diagnostiquer une crise d'épilepsie en elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755152091768_04",
+      "current_version_epoch_ms": 1755152091768,
+      "topic": {
+        "subject": "neuro",
+        "item": "deficitMo"
+      },
+      "data": {
+        "statement": "Dans quel cas la ponction lombaire doit-elle être effectuée après l'imagerie cérébrale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion de processus infectieux ou inflammatoire",
+            "justification": "Lorsqu'un déficit neurologique focal est suspecté, une ponction lombaire est réalisée après l'imagerie pour évaluer les signes inflammatoires ou infectieux dans le liquide céphalorachidien (LCS)."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de suspicion de pathologie musculaire",
+            "justification": "La ponction lombaire n'est pas indiquée pour des pathologies musculaires ; un électromyogramme (EMG) est préférable."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de suspicion d'atteinte du système nerveux périphérique",
+            "justification": "Une suspicion d'atteinte du système nerveux périphérique nécessite un EMG, pas une ponction lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la première consultation neurologique",
+            "justification": "La ponction lombaire ne doit pas être réalisée systématiquement lors de la première consultation neurologique sans exploration préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de suspicion de polyradiculonévrite",
+            "justification": "Bien que la ponction lombaire soit indiquée en cas de suspicion de polyradiculonévrite, elle est également réalisée pour évaluer des processus infectieux ou inflammatoires après l'imagerie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755152091768_05",
+      "current_version_epoch_ms": 1755152091768,
+      "topic": {
+        "subject": "neuro",
+        "item": "deficitMo"
+      },
+      "data": {
+        "statement": "En cas de déficit neurologique focal, quel est l'examen de choix en présence d'une suspicion de polyradiculonévrite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction lombaire pour étude du LCS",
+            "justification": "La ponction lombaire est l'examen de référence pour étudier le liquide céphalorachidien (LCS) en cas de suspicion de polyradiculonévrite."
+          },
+          {
+            "correct": false,
+            "proposition": "EEG",
+            "justification": "L'EEG est utilisé pour diagnostiquer des crises d'épilepsie, mais n'est pas indiqué pour une polyradiculonévrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Électromyogramme (EMG)",
+            "justification": "Bien que l'EMG soit utile pour les atteintes du système nerveux périphérique, il ne remplace pas la ponction lombaire dans le cadre d'une polyradiculonévrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme (ECG)",
+            "justification": "L'ECG est utile pour évaluer les troubles du rythme cardiaque, mais il n'est pas pertinent pour une polyradiculonévrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse des enzymes musculaires",
+            "justification": "Bien que l'analyse des enzymes musculaires soit importante dans certaines pathologies musculaires, elle n'est pas le test de choix pour la polyradiculonévrite."
+          }
+        ]
+      }
+    }
+  ]
+}

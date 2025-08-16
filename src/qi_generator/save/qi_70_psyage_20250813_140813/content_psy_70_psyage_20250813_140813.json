@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psyage",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755087099750_01",
+      "current_version_epoch_ms": 1755087099750,
+      "topic": {
+        "subject": "psy",
+        "item": "psyage"
+      },
+      "data": {
+        "statement": "Devant un trouble de l'humeur chez le sujet âgé, identifier les diagnostics différentiels à éliminer en priorité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pathologies médicales non psychiatriques : iatrogénie, troubles ioniques, métaboliques, endocriniens, neurologiques et cardiovasculaires.",
+            "justification": "Ces causes non psychiatriques doivent être éliminées en priorité dans le bilan des troubles de l'humeur chez le sujet âgé."
+          },
+          {
+            "correct": true,
+            "proposition": "Pathologies neurodégénératives avec symptômes psychocomportementaux de la démence (SCPD).",
+            "justification": "Les pathologies neurodégénératives avec SCPD font partie des diagnostics différentiels à discuter."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles psychiatriques, notamment délirants lors de manifestations psychotiques.",
+            "justification": "La présence de manifestations psychotiques impose d'éliminer des troubles délirants."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble anxieux isolé comme premier diagnostic à écarter.",
+            "justification": "Les éléments à éliminer précisés sont médicaux non psychiatriques, neurodégénératifs avec SCPD et troubles délirants ; un trouble anxieux n'est pas listé en priorité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sevrage des benzodiazépines ou de l'alcool comme cause principale.",
+            "justification": "Le sevrage benzodiazépines/alcool est cité dans le cadre du diagnostic différentiel des troubles psychotiques tardifs, pas en première ligne pour les troubles de l'humeur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755087099750_02",
+      "current_version_epoch_ms": 1755087099750,
+      "topic": {
+        "subject": "psy",
+        "item": "psyage"
+      },
+      "data": {
+        "statement": "Devant des troubles psychotiques à début tardif chez le sujet âgé, reconnaître les diagnostics différentiels essentiels à éliminer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur avec caractéristiques psychotiques.",
+            "justification": "Ils doivent être éliminés dans le bilan des psychoses tardives."
+          },
+          {
+            "correct": true,
+            "proposition": "SCPD (symptômes psychocomportementaux de la démence).",
+            "justification": "Les SCPD font partie des diagnostics différentiels des psychoses du sujet âgé."
+          },
+          {
+            "correct": true,
+            "proposition": "Causes non psychiatriques ou induites par une substance avec confusion fréquente : pathologies neurologiques, métaboliques et endocriniennes.",
+            "justification": "Ces étiologies non psychiatriques sont explicitement mentionnées comme diagnostics différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "Causes médicamenteuses, notamment morphiniques ou psychotropes.",
+            "justification": "Les médicaments, en particulier morphiniques et psychotropes, peuvent induire des symptômes psychotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pathologies cardiovasculaires comme cause non psychiatrique typique.",
+            "justification": "Les causes non psychiatriques précisées sont neurologiques, métaboliques et endocriniennes, pas cardiovasculaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755087099750_03",
+      "current_version_epoch_ms": 1755087099750,
+      "topic": {
+        "subject": "psy",
+        "item": "psyage"
+      },
+      "data": {
+        "statement": "Concernant les SCPD chez le sujet âgé, classer les entités à discuter en diagnostic différentiel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome confusionnel.",
+            "justification": "Le diagnostic différentiel des SCPD inclut le syndrome confusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur.",
+            "justification": "Les troubles de l'humeur doivent être discutés face à des SCPD."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles anxieux.",
+            "justification": "Les troubles anxieux figurent parmi les diagnostics différentiels des SCPD."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles psychotiques.",
+            "justification": "Les troubles psychotiques font partie du diagnostic différentiel des SCPD."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles liés à l'usage d'alcool et de médicaments.",
+            "justification": "Ils ne sont pas listés comme diagnostics différentiels des SCPD dans ce cadre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755087099750_04",
+      "current_version_epoch_ms": 1755087099750,
+      "topic": {
+        "subject": "psy",
+        "item": "psyage"
+      },
+      "data": {
+        "statement": "Pour un trouble lié à l'usage d'alcool ou de médicaments chez le sujet âgé, identifier les diagnostics différentiels pertinents.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de l'humeur.",
+            "justification": "Ils font partie des diagnostics différentiels psychiatriques à considérer."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble anxieux.",
+            "justification": "Les troubles anxieux sont mentionnés parmi les diagnostics différentiels psychiatriques."
+          },
+          {
+            "correct": true,
+            "proposition": "Autres troubles addictifs.",
+            "justification": "Ils font partie des diagnostics différentiels psychiatriques à discuter."
+          },
+          {
+            "correct": true,
+            "proposition": "Autres substances psychoactives.",
+            "justification": "Elles appartiennent aux diagnostics différentiels non psychiatriques à envisager."
+          },
+          {
+            "correct": true,
+            "proposition": "Pathologies neurologiques, métaboliques et iatrogènes.",
+            "justification": "Ces étiologies non psychiatriques sont à éliminer dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755087099750_05",
+      "current_version_epoch_ms": 1755087099750,
+      "topic": {
+        "subject": "psy",
+        "item": "psyage"
+      },
+      "data": {
+        "statement": "Dans l'évaluation initiale d'un sujet âgé présentant des manifestations psychotiques, définir les démarches et causes à rechercher.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un examen clinique complet pour orienter un bilan paraclinique si nécessaire.",
+            "justification": "Un examen clinique complet est indispensable et guide la suite des explorations."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander systématiquement une imagerie cérébrale en première intention, sans examen clinique préalable.",
+            "justification": "La démarche repose d'abord sur l'examen clinique, qui oriente le bilan complémentaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une cause médicamenteuse, notamment morphiniques ou psychotropes.",
+            "justification": "Les antalgique morphiniques et psychotropes sont cités comme causes possibles de symptômes psychotiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Considérer un sevrage de benzodiazépines ou de l'alcool.",
+            "justification": "Le sevrage des benzodiazépines ou de l'alcool est mentionné parmi les étiologies à éliminer."
+          },
+          {
+            "correct": true,
+            "proposition": "Écarter des causes neurologiques, métaboliques et endocriniennes.",
+            "justification": "Ces causes non psychiatriques sont à rechercher car elles peuvent expliquer des symptômes psychotiques chez le sujet âgé."
+          }
+        ]
+      }
+    }
+  ]
+}

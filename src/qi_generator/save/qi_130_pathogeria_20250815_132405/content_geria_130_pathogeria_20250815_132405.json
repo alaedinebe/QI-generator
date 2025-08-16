@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathogeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755257252517_01",
+      "current_version_epoch_ms": 1755257252517,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Identifier des situations illustrant une absence de signe spécifique chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infarctus du myocarde sans douleur thoracique.",
+            "justification": "Chez la personne âgée, la douleur thoracique est moins fréquente lors d'un infarctus."
+          },
+          {
+            "correct": true,
+            "proposition": "Péritonite sans défense ni contracture abdominale.",
+            "justification": "La défense musculaire ou la contracture peuvent être absentes."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumonie sans foyer de crépitants à l'admission, avec apparition après réhydratation.",
+            "justification": "La déshydratation peut masquer un foyer crépitant qui devient audible après réhydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Chute favorisée par asthénie/déshydratation dans une pneumonie.",
+            "justification": "Il s'agit d'un signe non spécifique, pas d'une absence de signe spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Confusion comme présentation principale d'une pyélonéphrite.",
+            "justification": "Ceci relève d'une sémiologie d'emprunt et non d'une absence de signe spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755257252517_02",
+      "current_version_epoch_ms": 1755257252517,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Classer les manifestations non spécifiques lors d'un évènement aigu chez un sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chute dans un contexte de pneumonie, favorisée par asthénie et/ou déshydratation.",
+            "justification": "La chute est un signe non spécifique fréquent."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion et/ou déclin fonctionnel comme symptôme principal chez un patient avec TNCM.",
+            "justification": "Chez les patients avec troubles neurocognitifs majeurs, ces manifestations peuvent dominer."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème aigu du poumon sur anémie.",
+            "justification": "Ceci correspond à une sémiologie d'emprunt liée à une décompensation d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthermie quasi constante lors des infections.",
+            "justification": "La fièvre peut être absente chez le sujet âgé."
+          },
+          {
+            "correct": false,
+            "proposition": "Foyer de crépitants toujours présent et stable en cas de pneumonie.",
+            "justification": "Un foyer peut être absent en cas de déshydratation et devenir audible après réhydratation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755257252517_03",
+      "current_version_epoch_ms": 1755257252517,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Reconnaître la sémiologie d'emprunt chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Œdème aigu du poumon sur anémie, avec signes d'OAP prédominants.",
+            "justification": "Les signes de décompensation d'organe dominent la présentation."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion révélatrice d'une pyélonéphrite.",
+            "justification": "La confusion peut être l'expression d'une décompensation liée à une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique typique lors d'un infarctus.",
+            "justification": "Il s'agit d'un signe spécifique, pas d'une sémiologie d'emprunt."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes en lien avec une décompensation d'organe qui orientent la présentation clinique.",
+            "justification": "La sémiologie d'emprunt correspond à des signes de décompensation d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence quasi constante de fièvre lors des infections.",
+            "justification": "La fièvre peut manquer chez la personne âgée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755257252517_04",
+      "current_version_epoch_ms": 1755257252517,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Conduite diagnostique face à l'atypie sémiologique chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'atypie peut être responsable d'un retard diagnostique.",
+            "justification": "Les présentations hétérogènes retardent l'identification de la cause."
+          },
+          {
+            "correct": true,
+            "proposition": "Un examen clinique rigoureux et systématique est indispensable.",
+            "justification": "Il permet d'identifier le facteur précipitant, notamment en présence de signes non spécifiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La plupart des patients présentent une sémiologie mixte (signes spécifiques et non spécifiques).",
+            "justification": "Les tableaux sont souvent mixtes chez la personne âgée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de signes classiques permet d'exclure rapidement une pathologie grave.",
+            "justification": "Les signes spécifiques peuvent manquer malgré une pathologie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "La sémiologie mixte est rare et peu utile pour le diagnostic.",
+            "justification": "Au contraire, elle est fréquente et doit guider une évaluation complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755257252517_05",
+      "current_version_epoch_ms": 1755257252517,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Différencier les particularités auscultatoires d'une pneumonie chez un sujet âgé déshydraté.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un foyer de crépitants peut être absent initialement.",
+            "justification": "La déshydratation peut masquer l'auscultation pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le foyer de crépitants peut devenir audible après réhydratation.",
+            "justification": "La réhydratation fait apparaître le foyer précédemment inaudible."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de crépitants élimine la pneumonie.",
+            "justification": "Chez le sujet âgé déshydraté, l'auscultation peut être faussement rassurante."
+          },
+          {
+            "correct": true,
+            "proposition": "La déshydratation explique l'absence initiale de foyer auscultatoire.",
+            "justification": "Le foyer peut manquer en raison de l'état d'hydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Une forte fièvre accompagne habituellement la pneumonie chez la personne âgée.",
+            "justification": "La fièvre peut être absente dans les infections."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "compressionmed",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755157268349_01",
+      "current_version_epoch_ms": 1755157268349,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel est l'examen de référence pour explorer le contenu intra-canalaire dans le cadre d'un syndrome de la queue de cheval ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM avec injection de Gadolinium",
+            "justification": "L'IRM avec injection de Gadolinium est l'examen de référence en raison de sa très bonne résolution et sensibilité pour l'exploration du contenu intra-canalaire, des os, des disques et des ligaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner",
+            "justification": "Le scanner est performant pour l'exploration osseuse, mais il est moins sensible pour l'exploration du contenu intra-canalaire et des tissus mous."
+          },
+          {
+            "correct": false,
+            "proposition": "Angiographie",
+            "justification": "L'angiographie est utilisée dans des indications exceptionnelles, telles que l'embolisation préopératoire, mais pas pour l'exploration du syndrome de la queue de cheval."
+          },
+          {
+            "correct": false,
+            "proposition": "Electro-neuro-myogramme (ENMG)",
+            "justification": "L'ENMG n'est pas utile en cas de syndrome de la queue de cheval clinique typique, mais pourrait être envisagé en cas de doute diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire (PL)",
+            "justification": "La ponction lombaire ne doit être réalisée que si l'IRM exclut une compression, sinon elle peut aggraver l'état du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755157268349_02",
+      "current_version_epoch_ms": 1755157268349,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel examen est indiqué en cas de contre-indication à l'IRM dans le cadre du syndrome de la queue de cheval ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiculo-scanner",
+            "justification": "Le radiculo-scanner est un scanner du rachis avec injection de produit de contraste intrathécal, utilisé en cas de contre-indication à l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner sans injection",
+            "justification": "Le scanner sans injection est performant pour l'exploration osseuse, mais ne permet pas d'explorer correctement le contenu intra-canalaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Electro-neuro-myogramme (ENMG)",
+            "justification": "L'ENMG n'a pas d'intérêt en cas de suspicion clinique de syndrome de la queue de cheval et est uniquement utile pour des doutes diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire (PL)",
+            "justification": "La ponction lombaire n'est indiquée que si l'IRM exclut une compression, sinon elle peut aggraver l'état clinique du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographies standards",
+            "justification": "Les radiographies standards ont une place marginale et ne doivent pas retarder la réalisation de l'IRM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755157268349_03",
+      "current_version_epoch_ms": 1755157268349,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'angiographie est-elle indiquée pour un syndrome de la queue de cheval ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Embolisation préopératoire pour limiter les pertes hémorragiques",
+            "justification": "L'angiographie est indiquée dans des situations exceptionnelles, telles que l'embolisation préopératoire pour limiter les pertes hémorragiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Exploration des tissus mous intra-canalaire",
+            "justification": "L'angiographie n'est pas utilisée pour explorer les tissus mous intra-canalaire dans le cadre du syndrome de la queue de cheval."
+          },
+          {
+            "correct": false,
+            "proposition": "Exploration osseuse",
+            "justification": "L'angiographie ne sert pas à explorer l'os, qui est mieux évalué par la tomodensitométrie (scanner)."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostic du syndrome de la queue de cheval",
+            "justification": "L'angiographie n'est pas un examen de diagnostic pour le syndrome de la queue de cheval, l'IRM étant l'examen de référence."
+          },
+          {
+            "correct": false,
+            "proposition": "Evaluation des radiculopathies",
+            "justification": "L'angiographie n'est pas utilisée pour évaluer les radiculopathies, et un ENMG serait plus pertinent dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755157268349_04",
+      "current_version_epoch_ms": 1755157268349,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel est l'examen de 1ère intention à réaliser en urgence devant une suspicion de syndrome de la queue de cheval ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM avec séquences T1, T2, T1 + injection de Gadolinium",
+            "justification": "L'IRM avec séquences T1, T2 et injection de Gadolinium est l'examen de 1ère intention à réaliser en urgence pour évaluer la compression médullaire dans un syndrome de la queue de cheval."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner",
+            "justification": "Le scanner, bien qu'efficace pour l'exploration osseuse, n'est pas le premier choix pour explorer le contenu intra-canalaire dans un syndrome de la queue de cheval."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire (PL)",
+            "justification": "La ponction lombaire ne doit pas être effectuée avant l'IRM, car elle peut aggraver l'état du patient en cas de compression médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiculo-scanner",
+            "justification": "Le radiculo-scanner est utilisé en cas de contre-indication à l'IRM, mais ne doit pas être privilégié en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Electro-neuro-myogramme (ENMG)",
+            "justification": "L'ENMG n'est pas utile en cas de syndrome de la queue de cheval clinique typique, mais pourrait être envisagé en cas de doute diagnostique avec d'autres pathologies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755157268349_05",
+      "current_version_epoch_ms": 1755157268349,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel examen est inutile pour le diagnostic du syndrome de la queue de cheval en présence d'un examen clinique typique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Electro-neuro-myogramme (ENMG)",
+            "justification": "L'ENMG n'est pas utile en cas de syndrome de la queue de cheval avec un examen clinique typique. Il n'est recommandé que dans des situations de doute diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "L'IRM est l'examen de référence et doit être réalisé en urgence dans tous les cas de syndrome de la queue de cheval."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner",
+            "justification": "Bien que le scanner soit utile pour l'exploration osseuse, il n'est pas l'examen le plus pertinent pour explorer le contenu intra-canalaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire (PL)",
+            "justification": "La ponction lombaire n'est utile que si l'IRM exclut une compression médullaire, sinon elle peut aggraver l'état du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiculo-scanner",
+            "justification": "Le radiculo-scanner est utilisé lorsque l'IRM est contre-indiquée, mais ce n'est pas un examen de première intention."
+          }
+        ]
+      }
+    }
+  ]
+}

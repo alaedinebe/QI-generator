@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755329127136_01",
+      "current_version_epoch_ms": 1755329127136,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Dans le cas d'une fongémie, quelles localisations septiques secondaires doivent être systématiquement recherchées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Localisation rétinienne",
+            "justification": "La recherche d'une localisation rétinienne est essentielle dans le cadre d'une fongémie, en raison du risque de mycose rétinienne fréquente chez les patients immunodéprimés."
+          },
+          {
+            "correct": true,
+            "proposition": "Endocardite",
+            "justification": "L'endocardite infectieuse est une localisation septique secondaire importante dans le cadre d'une fongémie, surtout si la fièvre persiste sous traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection des cathéters",
+            "justification": "Les cathéters infectés doivent être contrôlés et retirés si nécessaire, car ils représentent une porte d'entrée fréquente pour les infections fongiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie",
+            "justification": "Bien que la pneumonie puisse survenir dans un contexte infectieux, elle n'est pas systématiquement liée à la fongémie et ne constitue pas une priorité dans ce cadre."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection urinaire",
+            "justification": "Les infections urinaires ne sont pas spécifiquement liées à la fongémie et ne sont pas systématiquement recherchées dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329127136_02",
+      "current_version_epoch_ms": 1755329127136,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel examen est essentiel pour rechercher une localisation rétinienne dans le cadre d'une fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fond d'œil",
+            "justification": "Le fond d'œil est l'examen de référence pour détecter des lésions rétiniennes dans les infections fongiques, en particulier chez les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie rétinienne",
+            "justification": "L'échographie rétinienne n'est pas utilisée pour diagnostiquer les infections fongiques rétiniennes, le fond d'œil étant plus approprié."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale peut être utile dans certains contextes infectieux mais n'est pas l'examen clé pour la détection des infections rétiniennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique n'est pas destiné à évaluer des lésions rétiniennes et n'est donc pas pertinent dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique est utile pour évaluer une candidose hépatosplénique, mais il n'aide pas à diagnostiquer les infections rétiniennes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329127136_03",
+      "current_version_epoch_ms": 1755329127136,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Lors d'une fongémie, quelles investigations doivent être menées en cas de fièvre persistante ou de non-négativation des hémocultures sous traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherche d'une localisation rétinienne par fond d'œil",
+            "justification": "Une fièvre persistante ou une non-négativation des hémocultures justifie la recherche d'une localisation rétinienne, qui peut indiquer une infection fongique."
+          },
+          {
+            "correct": true,
+            "proposition": "Contrôle des cathéters",
+            "justification": "Les cathéters doivent être examinés pour vérifier s'ils sont infectés, ce qui peut expliquer une fièvre persistante sous traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Échographie transoesophagienne pour rechercher une endocardite",
+            "justification": "Une échographie transoesophagienne permet de détecter une endocardite, une complication fréquente chez les patients présentant une fongémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "Bien qu'une radiographie pulmonaire soit utile pour évaluer d'autres infections, elle n'est pas la méthode la plus pertinente pour rechercher des localisations fongiques secondaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise de cultures urinaires",
+            "justification": "Les cultures urinaires ne sont pas prioritaires dans le cadre d'une fongémie, qui se concentre sur des localisations comme la rétine, les cathéters et l'endocarde."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329127136_04",
+      "current_version_epoch_ms": 1755329127136,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelles manifestations cliniques doivent faire suspecter une candidose hépatosplénique chez un patient atteint de fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hépato-splénomégalie",
+            "justification": "Une hépato-splénomégalie est un signe clinique majeur de candidose hépatosplénique, souvent observée chez les patients présentant une fongémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Perturbation du bilan hépatique",
+            "justification": "La perturbation du bilan hépatique, avec des anomalies des enzymes hépatiques, est également un indicateur clé d'une candidose hépatosplénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs abdominales localisées",
+            "justification": "Les douleurs abdominales localisées ne sont pas des manifestations spécifiques de la candidose hépatosplénique, qui se manifeste principalement par des anomalies biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthermie prolongée",
+            "justification": "Bien que la fièvre soit un symptôme fréquent dans la fongémie, elle n'est pas spécifique de la candidose hépatosplénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cicatrices cutanées",
+            "justification": "Les cicatrices cutanées ne sont pas associées à la candidose hépatosplénique et ne font pas partie des signes cliniques caractéristiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329127136_05",
+      "current_version_epoch_ms": 1755329127136,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "En cas de choc septique, quel est le rôle de l'examen clinique dans l'orientation diagnostique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher la porte d'entrée et le foyer infectieux",
+            "justification": "L'examen clinique permet d'identifier la porte d'entrée de l'infection et le foyer infectieux, éléments clés pour orienter la prise en charge du choc septique."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier les localisations septiques secondaires",
+            "justification": "L'examen clinique doit inclure la recherche de localisations septiques secondaires, telles que les infections rétiniennes ou les endocardites, particulièrement en cas de sepsis fongique."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander une tomodensitométrie de tout le corps",
+            "justification": "Une tomodensitométrie générale n'est pas systématiquement indiquée dans l'orientation diagnostique initiale du choc septique, sauf si des localisations spécifiques sont suspectées."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un traitement antibiotique empirique",
+            "justification": "Bien que le traitement antibiotique soit crucial dans la prise en charge du choc septique, l'examen clinique sert avant tout à déterminer la localisation de l'infection, pas à prescrire un traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction rénale",
+            "justification": "L'évaluation de la fonction rénale est importante mais n'est pas le principal objectif de l'examen clinique pour orienter le diagnostic du choc septique."
+          }
+        ]
+      }
+    }
+  ]
+}

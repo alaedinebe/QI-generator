@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathosalivaire",
+    "subject": "cmf"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755149818512_01",
+      "current_version_epoch_ms": 1755149818512,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle est l'exploration de choix pour une pathologie tumorale des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM injectée avec séquences T1-T2 perfusion et diffusion",
+            "justification": "L'IRM avec séquences T1-T2 perfusion et diffusion permet d'évaluer le risque de malignité en fonction du signal en T2, du coefficient de diffusion apparent (ADC) et de la courbe de perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal n'est pas indiqué pour l'exploration des tumeurs des glandes salivaires. L'IRM est l'exploration de choix."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie thoracique",
+            "justification": "L'échographie thoracique ne permet pas d'évaluer les tumeurs des glandes salivaires. L'IRM est l'exploration recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomographie par émission de positons (PET scan)",
+            "justification": "Bien que le PET scan puisse aider à évaluer la malignité, il n'est pas l'examen de première intention dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Biopsie direct de la glande salivaire",
+            "justification": "La biopsie est déconseillée en raison des risques de lésion du nerf facial et de dissémination des cellules tumorales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149818512_02",
+      "current_version_epoch_ms": 1755149818512,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel est le résultat possible d'une cytoponction dans le système de Milan de 2018 pour une tumeur des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Type II : Bénin",
+            "justification": "Un résultat de type II indique une lésion bénigne selon le système de Milan de 2018, permettant ainsi une prise en charge conservatrice."
+          },
+          {
+            "correct": false,
+            "proposition": "Type IV : Néoplasme à potentiel incertain",
+            "justification": "Le type IV indique un néoplasme à potentiel incertain, nécessitant une surveillance et un suivi plus approfondis."
+          },
+          {
+            "correct": false,
+            "proposition": "Type V : Suspect de malignité",
+            "justification": "Le type V suggère une suspicion de malignité, mais ne définit pas de manière concluante la nature tumorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Type VI : Malin",
+            "justification": "Le type VI indique un diagnostic de malignité, nécessitant une prise en charge chirurgicale et parfois adjuvante."
+          },
+          {
+            "correct": false,
+            "proposition": "Type I : Non satisfaisant pour le diagnostic",
+            "justification": "Le type I correspond à un échantillon non satisfaisant pour le diagnostic, ce qui requiert un nouveau prélèvement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149818512_03",
+      "current_version_epoch_ms": 1755149818512,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel est le principal risque de la biopsie dans le cadre de la prise en charge d'une tumeur des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lésion du nerf facial et dissémination tumorale",
+            "justification": "La biopsie présente des risques de lésion du nerf facial, ainsi que de dissémination des cellules tumorales."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection locale",
+            "justification": "Bien qu'une infection locale soit toujours un risque dans les procédures invasives, elle n'est pas spécifique à la biopsie dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de tissu tumoral pour analyse",
+            "justification": "La biopsie ne compromet pas nécessairement la quantité de tissu tumoral nécessaire pour un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte des glandes salivaires adjacentes",
+            "justification": "L'atteinte des glandes salivaires adjacentes n'est pas un risque majeur dans la procédure de biopsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Complications respiratoires",
+            "justification": "Les complications respiratoires ne sont pas une conséquence attendue de la biopsie dans le cadre des tumeurs des glandes salivaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149818512_04",
+      "current_version_epoch_ms": 1755149818512,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge chirurgicale des tumeurs des glandes salivaires si une malignité est suspectée en extemporané ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parotidectomie totale avec évidement cervical homolatéral",
+            "justification": "La parotidectomie totale avec évidement cervical homolatéral est nécessaire si la malignité est confirmée en extemporané."
+          },
+          {
+            "correct": false,
+            "proposition": "Parotidectomie partielle avec conservation du nerf facial",
+            "justification": "La parotidectomie partielle est effectuée dans les cas où la tumeur est bénigne ou localisée dans le lobe superficiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Submandibulectomie",
+            "justification": "La submandibulectomie est indiquée pour des lésions dans la glande submandibulaire, pas nécessairement en cas de malignité dans la glande parotide."
+          },
+          {
+            "correct": false,
+            "proposition": "Excision locale sans ganglion",
+            "justification": "L'excision locale sans ganglion est insuffisante en cas de suspicion de malignité, surtout si l'extension ganglionnaire est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie par voie endoscopique uniquement",
+            "justification": "La chirurgie par voie endoscopique ne permet pas un abord suffisant dans le cadre des tumeurs des glandes salivaires malignes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149818512_05",
+      "current_version_epoch_ms": 1755149818512,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle est la gestion post-opératoire la plus fréquemment envisagée après une parotidectomie totale pour malignité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiothérapie post-opératoire",
+            "justification": "La radiothérapie post-opératoire est fréquemment envisagée pour réduire les risques de récidive après une parotidectomie totale pour malignité."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie systématique prolongée",
+            "justification": "L'antibiothérapie prolongée n'est pas systématiquement indiquée après une parotidectomie totale, sauf en cas d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi clinique avec échographie de contrôle",
+            "justification": "Bien que le suivi clinique soit important, l'échographie de contrôle n'est pas la principale mesure post-opératoire dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Kinésithérapie respiratoire",
+            "justification": "La kinésithérapie respiratoire n'est généralement pas nécessaire après une parotidectomie totale, sauf complications respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Thérapie génique ciblée",
+            "justification": "La thérapie génique ciblée n'est pas encore une option thérapeutique standard après parotidectomie totale."
+          }
+        ]
+      }
+    }
+  ]
+}

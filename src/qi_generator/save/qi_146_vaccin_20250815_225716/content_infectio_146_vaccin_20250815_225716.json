@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vaccin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755291643137_01",
+      "current_version_epoch_ms": 1755291643137,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Que faire en cas de retard vaccinal chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Reprendre le calendrier au stade où il a été stoppé et compléter les injections attendues.",
+            "justification": "En cas de retard vaccinal, il n'est pas nécessaire de recommencer la totalité des injections. Le rattrapage se fait en reprenant le calendrier là où il a été interrompu, puis en complétant les doses restantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Recommencer toutes les injections du début.",
+            "justification": "Il n'est pas nécessaire de recommencer la totalité des injections en cas de retard vaccinal."
+          },
+          {
+            "correct": false,
+            "proposition": "Compléter les injections sans respecter les délais entre les doses.",
+            "justification": "Chez l'enfant, il est nécessaire de respecter les délais entre les doses en cas de décalage du calendrier."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer un nouveau calendrier vaccinal à partir de zéro.",
+            "justification": "Un nouveau calendrier vaccinal n'est pas nécessaire, il faut reprendre là où le calendrier a été interrompu."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement les rappels sans compléter les doses manquantes.",
+            "justification": "Les doses manquantes doivent être complétées, il n'est pas suffisant de faire uniquement les rappels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291643137_02",
+      "current_version_epoch_ms": 1755291643137,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Que doit-on respecter lors du rattrapage vaccinal chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les délais entre les doses en cas de décalage du calendrier.",
+            "justification": "Il est important de respecter les délais entre les doses en cas de retard dans le calendrier vaccinal, particulièrement chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Reprendre immédiatement toutes les doses manquantes sans se soucier des délais.",
+            "justification": "Le respect des délais entre les doses est une exigence spécifique, il ne faut pas administrer les doses sans respecter ces intervalles."
+          },
+          {
+            "correct": false,
+            "proposition": "Exécuter les injections dès que possible sans vérifier les dates de précédentes doses.",
+            "justification": "Il est essentiel de vérifier l'historique vaccinal et de respecter les délais entre les doses, en particulier pour l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Ignorer les recommandations nationales en vigueur pour effectuer le rattrapage.",
+            "justification": "Il est impératif de suivre les recommandations nationales en matière de rattrapage vaccinal."
+          },
+          {
+            "correct": false,
+            "proposition": "Administer toutes les doses à des intervalles plus courts pour accélérer le processus.",
+            "justification": "Les intervalles entre les doses doivent être respectés pour garantir l'efficacité et la sécurité du vaccin."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291643137_03",
+      "current_version_epoch_ms": 1755291643137,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Lors du rattrapage vaccinal chez un adulte, quelle est la procédure à suivre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compléter les doses en respectant les intervalles nécessaires, sans recommencer la totalité du schéma vaccinal.",
+            "justification": "Tout comme chez l'enfant, il est inutile de recommencer entièrement le schéma vaccinal, il suffit de compléter les doses selon les intervalles nécessaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Recommencer toutes les injections dès le début du schéma.",
+            "justification": "Il n'est pas nécessaire de recommencer l'intégralité du schéma vaccinal en cas de retard."
+          },
+          {
+            "correct": false,
+            "proposition": "Omettre les injections manquantes et ne faire que les rappels.",
+            "justification": "Les doses manquantes doivent être administrées, les rappels seuls ne sont pas suffisants."
+          },
+          {
+            "correct": false,
+            "proposition": "N'administer que les premières doses et ne pas tenir compte des autres injections à faire.",
+            "justification": "Il est essentiel de compléter toutes les doses manquantes selon les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Prendre les doses à n'importe quel moment sans respecter les intervalles.",
+            "justification": "Il est crucial de respecter les intervalles entre les doses pour garantir l'efficacité et la sécurité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291643137_04",
+      "current_version_epoch_ms": 1755291643137,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Que faire si un retard vaccinal chez l'adulte concerne un vaccin contenant plusieurs doses ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compléter la vaccination en réalisant le nombre d'injections attendu à l'âge du patient.",
+            "justification": "Lors d'un retard, il faut compléter la vaccination en respectant le nombre d'injections à réaliser, sans repartir de zéro."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire une seule injection pour rattraper toutes les doses.",
+            "justification": "Il est nécessaire de faire toutes les doses manquantes, non une seule pour remplacer toutes les autres."
+          },
+          {
+            "correct": false,
+            "proposition": "Sauter certaines doses en fonction de l'âge du patient.",
+            "justification": "Il est important de respecter l'intégralité du schéma vaccinal et de ne pas sauter de doses, même en fonction de l'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire uniquement les rappels sans se soucier des doses initiales.",
+            "justification": "Les doses initiales sont nécessaires avant les rappels, il est donc important de compléter toutes les doses requises."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas faire de rattrapage et attendre la prochaine dose de rappel.",
+            "justification": "Le rattrapage doit être effectué en fonction du retard, il ne faut pas attendre uniquement la prochaine dose de rappel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291643137_05",
+      "current_version_epoch_ms": 1755291643137,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Pourquoi est-il important de respecter les délais entre les doses lors d'un rattrapage vaccinal chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parce que les intervalles entre les doses garantissent une bonne réponse immunitaire.",
+            "justification": "Respecter les délais permet une meilleure réponse immunitaire et l'efficacité de la vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que les intervalles courts permettent de vacciner plus rapidement.",
+            "justification": "Les intervalles doivent être respectés pour garantir l'efficacité, et non pour accélérer le processus de vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'il est plus facile de gérer les vaccins quand les doses sont rapprochées.",
+            "justification": "La gestion des vaccins ne dépend pas de l'espacement des doses, mais de l'efficacité de la réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que les doses rapprochées sont moins douloureuses pour l'enfant.",
+            "justification": "L'espacement des doses est une question de respect des recommandations médicales et d'efficacité, pas de confort."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que le retard vaccinal chez l'enfant n'a pas d'impact sur l'efficacité du vaccin.",
+            "justification": "Un retard vaccinal peut compromettre l'efficacité de la vaccination si les délais entre les doses ne sont pas respectés."
+          }
+        ]
+      }
+    }
+  ]
+}

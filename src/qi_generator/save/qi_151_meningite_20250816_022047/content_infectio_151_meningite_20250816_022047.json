@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755303854204_01",
+      "current_version_epoch_ms": 1755303854204,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Identifier, à partir d'un LCS trouble avec prédominance neutrophile, rapport glycorachie/glycémie < 0,4 et protéinorachie > 0,4 g/L, les agents étiologiques les plus probables.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Streptococcus pneumoniæ",
+            "justification": "Associé au profil « liquide trouble », formule neutrophile, rapport glycorachie/glycémie < 0,4 et protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Neisseria meningitidis",
+            "justification": "Figure dans les micro-organismes du profil trouble, neutrophile, glycorachie basse (< 0,4) et protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Hæmophilus influenzæ",
+            "justification": "Listé parmi les bactéries du profil trouble, prédominance neutrophile, glycorachie < 0,4, protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Escherichia coli et autres entérobactéries",
+            "justification": "Inclus dans les étiologies du profil trouble à neutrophiles, glycorachie < 0,4 et protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Mycobacterium tuberculosis",
+            "justification": "Rattaché au profil lymphocytaire/panaché avec rapport glycorachie/glycémie < 0,4, non au profil trouble neutrophile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755303854204_02",
+      "current_version_epoch_ms": 1755303854204,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Reconnaître, devant une formule lymphocytaire ou panachée avec rapport glycorachie/glycémie < 0,4 et protéinorachie > 0,4 g/L, les étiologies à évoquer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mycobacterium tuberculosis",
+            "justification": "Mentionné pour le profil lymphocytaire/panaché avec glycorachie basse (< 0,4) et protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Listeria monocytogenes",
+            "justification": "Apparaît dans les causes du profil lymphocytaire/panaché avec rapport glycorachie/glycémie < 0,4."
+          },
+          {
+            "correct": true,
+            "proposition": "Autres bactéries au stade précoce de l'infection",
+            "justification": "Citées dans le profil lymphocytaire/panaché avec glycorachie < 0,4."
+          },
+          {
+            "correct": true,
+            "proposition": "Oreillons",
+            "justification": "Présentés dans la liste des micro-organismes du profil lymphocytaire/panaché avec glycorachie < 0,4."
+          },
+          {
+            "correct": false,
+            "proposition": "Hæmophilus influenzæ",
+            "justification": "Rattaché au profil trouble à neutrophiles avec glycorachie < 0,4, pas au profil lymphocytaire/panaché de cette ligne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755303854204_03",
+      "current_version_epoch_ms": 1755303854204,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Classer les étiologies compatibles avec une formule lymphocytaire ou panachée lorsque le rapport glycorachie/glycémie > 0,4 et la protéinorachie est variable.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Étiologies virales",
+            "justification": "Rattachées au profil avec rapport glycorachie/glycémie > 0,4 et protéinorachie variable."
+          },
+          {
+            "correct": true,
+            "proposition": "Leptospiroses",
+            "justification": "Listées avec les causes à glycorachie/glycémie > 0,4 et protéinorachie variable."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie de Lyme",
+            "justification": "Appartient au groupe d'étiologies du profil à rapport > 0,4 et protéinorachie variable."
+          },
+          {
+            "correct": true,
+            "proposition": "Brucellose",
+            "justification": "Incluse parmi les causes compatibles avec rapport > 0,4 et protéinorachie variable."
+          },
+          {
+            "correct": true,
+            "proposition": "Syphilis",
+            "justification": "Mentionnée dans les étiologies du profil à rapport > 0,4 et protéinorachie variable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755303854204_04",
+      "current_version_epoch_ms": 1755303854204,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Différencier les orientations diagnostiques suggérées par un LCS macroscopiquement trouble.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évoque une formule à prédominance neutrophile.",
+            "justification": "Le profil trouble est associé à une prédominance neutrophile."
+          },
+          {
+            "correct": true,
+            "proposition": "S'accompagne typiquement d'un rapport glycorachie/glycémie < 0,4.",
+            "justification": "Le rapport < 0,4 est indiqué avec le profil trouble."
+          },
+          {
+            "correct": false,
+            "proposition": "Oriente vers des étiologies virales, leptospiroses, Lyme, brucellose, syphilis.",
+            "justification": "Ces étiologies sont associées au profil à rapport > 0,4 et protéinorachie variable."
+          },
+          {
+            "correct": true,
+            "proposition": "S'associe le plus souvent à une protéinorachie > 0,4 g/L.",
+            "justification": "Le profil trouble comporte une protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Oriente vers Streptococcus pneumoniæ et Neisseria meningitidis.",
+            "justification": "Ces bactéries figurent parmi les micro-organismes du profil trouble neutrophile à glycorachie basse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755303854204_05",
+      "current_version_epoch_ms": 1755303854204,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Classer, pour un LCS clair à formule lymphocytaire/panachée, l'orientation selon le rapport glycorachie/glycémie et la protéinorachie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le rapport glycorachie/glycémie < 0,4, évoquer Mycobacterium tuberculosis.",
+            "justification": "Mycobacterium tuberculosis est cité dans le profil lymphocytaire/panaché avec rapport < 0,4."
+          },
+          {
+            "correct": true,
+            "proposition": "Si le rapport glycorachie/glycémie > 0,4, évoquer étiologies virales, leptospiroses, maladie de Lyme, brucellose, syphilis.",
+            "justification": "Ces causes sont listées avec un rapport > 0,4 et une protéinorachie variable."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le rapport glycorachie/glycémie < 0,4, évoquer Hæmophilus influenzæ.",
+            "justification": "Hæmophilus influenzæ est associé au profil trouble à neutrophiles, pas au clair lymphocytaire de cette ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque le rapport est < 0,4, la protéinorachie est > 0,4 g/L.",
+            "justification": "Le profil lymphocytaire/panaché à rapport < 0,4 comporte une protéinorachie > 0,4 g/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le rapport est > 0,4, la protéinorachie est constamment > 0,4 g/L.",
+            "justification": "Pour le profil à rapport > 0,4, la protéinorachie est indiquée comme variable."
+          }
+        ]
+      }
+    }
+  ]
+}

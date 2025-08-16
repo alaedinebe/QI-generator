@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "handicap",
+    "subject": "mpr"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755228044879_01",
+      "current_version_epoch_ms": 1755228044879,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Concernant la négligence spatiale unilatérale (NSU), quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une incapacité à prendre en compte les stimuli venant de l'hémi-espace opposé à la lésion cérébrale.",
+            "justification": "Définition : les stimuli ignorés proviennent de l'hémi-espace opposé à la lésion."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est secondaire à une lésion cérébrale.",
+            "justification": "La NSU survient à la suite d'une lésion cérébrale."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est fréquente après un accident vasculaire cérébral.",
+            "justification": "La NSU est décrite comme fréquente après un AVC."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle touche principalement l'hémisphère gauche.",
+            "justification": "La localisation préférentielle mentionnée est l'hémisphère droit, pas le gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle concerne des stimuli provenant du même hémi-espace que la lésion.",
+            "justification": "L'hémi-espace concerné est opposé à la lésion, non du même côté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755228044879_02",
+      "current_version_epoch_ms": 1755228044879,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Identifier ce qui relève d'une négligence personnelle dans la NSU :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oubli des soins de l'hémiface (rasage, coiffure).",
+            "justification": "Exemple cité de négligence du corps (personnelle)."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-utilisation du membre supérieur.",
+            "justification": "Exemple cité de négligence du corps (personnelle)."
+          },
+          {
+            "correct": false,
+            "proposition": "Se cogner dans l'environnement proche.",
+            "justification": "Relève de la négligence de l'espace extrapersonnel proche."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas trouver un objet proche situé dans l'hémichamps négligé.",
+            "justification": "Relève de la négligence de l'espace extrapersonnel proche."
+          },
+          {
+            "correct": false,
+            "proposition": "Difficulté d'orientation dans l'espace.",
+            "justification": "Relève de la négligence de l'espace extrapersonnel lointain."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755228044879_03",
+      "current_version_epoch_ms": 1755228044879,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Identifier ce qui relève d'une négligence extrapersonnelle de l'espace proche :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Se cogner.",
+            "justification": "Exemple cité pour l'espace extrapersonnel proche."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas trouver un objet proche situé dans l'hémichamps négligé.",
+            "justification": "Exemple cité pour l'espace extrapersonnel proche."
+          },
+          {
+            "correct": false,
+            "proposition": "Difficulté d'orientation dans l'espace.",
+            "justification": "Exemple de l'atteinte de l'espace extrapersonnel lointain."
+          },
+          {
+            "correct": false,
+            "proposition": "Oubli des soins de l'hémiface.",
+            "justification": "Relève de la négligence personnelle (corps)."
+          },
+          {
+            "correct": false,
+            "proposition": "Sous-utilisation du membre supérieur.",
+            "justification": "Relève de la négligence personnelle (corps)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755228044879_04",
+      "current_version_epoch_ms": 1755228044879,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Un patient ignore systématiquement les stimuli situés dans l'hémi-espace gauche. Quelles affirmations sont cohérentes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ce tableau évoque une lésion de l'hémisphère droit.",
+            "justification": "Les stimuli ignorés proviennent de l'hémi-espace opposé à la lésion."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tableau évoque une lésion de l'hémisphère gauche.",
+            "justification": "Ignorer l'hémi-espace gauche renvoie à une lésion cérébrale du côté droit (opposé)."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tableau est incompatible avec une origine cérébrale.",
+            "justification": "La NSU est secondaire à une lésion cérébrale."
+          },
+          {
+            "correct": true,
+            "proposition": "La situation décrite correspond à une atteinte de l'hémi-espace opposé à la lésion.",
+            "justification": "Formulation conforme à la définition de la NSU."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tableau ne s'observe qu'en l'absence d'AVC.",
+            "justification": "La NSU est au contraire fréquente après un AVC."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755228044879_05",
+      "current_version_epoch_ms": 1755228044879,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "À propos des domaines potentiellement touchés par la NSU, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut toucher le corps (négligence personnelle).",
+            "justification": "Exemples : oubli des soins de l'hémiface, sous-utilisation du membre supérieur."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut toucher l'espace extrapersonnel proche.",
+            "justification": "Exemples : se cogner, ne pas trouver un objet proche dans l'hémichamps négligé."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut toucher l'espace extrapersonnel lointain.",
+            "justification": "Exemple : difficulté d'orientation dans l'espace."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne concerne jamais l'espace lointain.",
+            "justification": "L'espace lointain peut être atteint avec difficultés d'orientation."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans l'atteinte de l'espace lointain, on observe des difficultés d'orientation.",
+            "justification": "La difficulté d'orientation illustre l'atteinte de l'espace lointain."
+          }
+        ]
+      }
+    }
+  ]
+}

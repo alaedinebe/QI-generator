@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SEP",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755186648357_01",
+      "current_version_epoch_ms": 1755186648357,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Identifier le contexte clinique qui oriente vers une SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sujet jeune avec symptômes neurologiques d'installation subaiguë.",
+            "justification": "Le contexte attendu associe sujet jeune et symptômes/signes neurologiques d'installation subaiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du système nerveux périphérique prédominante.",
+            "justification": "L'atteinte décrite concerne la substance blanche du système nerveux central, pas le système nerveux périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'atteinte extra-neurologique associée.",
+            "justification": "Il n'y a pas d'atteinte extra-neurologique dans le tableau attendu."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome inflammatoire général fréquent.",
+            "justification": "L'absence de syndrome inflammatoire général est attendue."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte de la substance blanche du système nerveux central.",
+            "justification": "L'atteinte de la substance blanche du SNC fait partie du contexte typique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186648357_02",
+      "current_version_epoch_ms": 1755186648357,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Définir la dissémination dans l'espace (DIS) dans la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte clinique ou radiologique de plusieurs zones au sein du système nerveux central.",
+            "justification": "La DIS correspond à l'atteinte de plusieurs zones au sein du SNC, cliniquement ou en imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte d'une seule zone sur l'IRM cérébrale.",
+            "justification": "Une seule zone ne suffit pas à définir une dissémination dans l'espace."
+          },
+          {
+            "correct": false,
+            "proposition": "Nouvelles lésions sur IRM successives.",
+            "justification": "Les nouvelles lésions sur IRM successives relèvent de la dissémination dans le temps, pas dans l'espace."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésions d'âge différent (prenant et ne prenant pas le contraste) sur la même IRM.",
+            "justification": "La présence de lésions d'âge différent correspond à la dissémination dans le temps."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte extra-neurologique de plusieurs organes.",
+            "justification": "La DIS concerne des zones du SNC ; l'atteinte extra-neurologique n'en fait pas partie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186648357_03",
+      "current_version_epoch_ms": 1755186648357,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités validant la dissémination dans le temps (DIT) dans la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins deux épisodes neurologiques séparés d'au moins un mois.",
+            "justification": "Deux épisodes séparés d'au moins un mois valident la DIT."
+          },
+          {
+            "correct": true,
+            "proposition": "Nouvelles lésions sur IRM successives.",
+            "justification": "L'apparition de nouvelles lésions entre des IRM successives est un critère de DIT."
+          },
+          {
+            "correct": true,
+            "proposition": "Lésions d'âge différent (prenant et ne prenant pas le contraste) sur une même IRM.",
+            "justification": "Des lésions rehaussées et non rehaussées sur une même IRM signent des âges différents et valident la DIT."
+          },
+          {
+            "correct": false,
+            "proposition": "Deux épisodes séparés d'au moins une semaine.",
+            "justification": "L'intervalle requis est d'au moins un mois, pas une semaine."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les formes progressives d'emblée, une évolution sur plus d'un an valide ce critère.",
+            "justification": "Une progression d'emblée sur une période de plus d'un an valide la DIT dans ces formes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186648357_04",
+      "current_version_epoch_ms": 1755186648357,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Identifier les éléments du LCS attestant d'une inflammation compatible avec la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sécrétion intrathécale d'IgG authentifiée par au moins 2 bandes oligoclonales en isofocalisation.",
+            "justification": "La présence d'au moins 2 bandes oligoclonales d'IgG en isofocalisation atteste une sécrétion intrathécale."
+          },
+          {
+            "correct": true,
+            "proposition": "Index d'IgG supérieur à 0,7.",
+            "justification": "Un index d'IgG augmenté > 0,7 témoigne d'une inflammation du LCS."
+          },
+          {
+            "correct": false,
+            "proposition": "Index d'IgG supérieur à 0,5.",
+            "justification": "Le seuil retenu est > 0,7 ; > 0,5 ne suffit pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Une seule bande oligoclonale suffit.",
+            "justification": "Il faut au moins 2 bandes oligoclonales."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise de contraste des lésions à l'IRM cérébrale.",
+            "justification": "La prise de contraste renseigne sur l'âge des lésions (DIT), pas sur l'inflammation du LCS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186648357_05",
+      "current_version_epoch_ms": 1755186648357,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Classer les éléments qui renforcent le diagnostic de SEP et ceux qui le fragilisent.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de meilleure explication après élimination des diagnostics différentiels.",
+            "justification": "Le diagnostic requiert l'absence d'une meilleure explication et l'élimination des diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un syndrome inflammatoire général.",
+            "justification": "L'absence de syndrome inflammatoire général est attendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte extra-neurologique associée.",
+            "justification": "Il n'y a pas d'atteinte extra-neurologique dans le tableau typique."
+          },
+          {
+            "correct": true,
+            "proposition": "Contexte de sujet jeune avec symptômes neurologiques d'installation subaiguë.",
+            "justification": "Ce contexte est décrit comme évocateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte de la substance blanche du système nerveux central.",
+            "justification": "L'atteinte de la substance blanche du SNC fait partie des arguments en faveur."
+          }
+        ]
+      }
+    }
+  ]
+}

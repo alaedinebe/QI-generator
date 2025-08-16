@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755210247987_01",
+      "current_version_epoch_ms": 1755210247987,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier les éléments indispensables au diagnostic d'acné et les implications en leur absence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de lésions rétentionnelles (comédons) est nécessaire pour poser un diagnostic d'acné.",
+            "justification": "« Pas de comédon = pas d'acné » implique que les comédons sont indispensables au diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "On peut diagnostiquer une acné même sans comédons.",
+            "justification": "L'absence de comédons exclut l'acné : « Pas de comédon = pas d'acné »."
+          },
+          {
+            "correct": true,
+            "proposition": "En l'absence de comédons, il faut évoquer des diagnostics différentiels.",
+            "justification": "Il est précisé d'évoquer d'autres diagnostics lorsque les lésions rétentionnelles sont absentes."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée fait partie des diagnostics à discuter en cas d'absence de comédons.",
+            "justification": "La rosacée est explicitement citée comme diagnostic différentiel lorsque les comédons manquent."
+          },
+          {
+            "correct": false,
+            "proposition": "Les folliculites infectieuses ne sont jamais des diagnostics différentiels de l'acné.",
+            "justification": "Les folliculites infectieuses sont au contraire listées comme diagnostics différentiels si les comédons sont absents."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755210247987_02",
+      "current_version_epoch_ms": 1755210247987,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Classer les étiologies possibles des folliculites infectieuses.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une origine bactérienne est possible.",
+            "justification": "Les folliculites infectieuses peuvent être d'origine bactérienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Une origine parasitaire à Demodex est possible.",
+            "justification": "Demodex est cité comme étiologie parasitaire de folliculite infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Une origine mycosique à Candida est possible.",
+            "justification": "Candida est mentionné comme étiologie mycosique de folliculite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée est une forme de folliculite infectieuse.",
+            "justification": "La rosacée est présentée comme un diagnostic différentiel, pas comme une étiologie de folliculite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Les folliculites infectieuses ne peuvent jamais être d'origine mycosique.",
+            "justification": "C'est l'inverse : une origine mycosique (Candida) est explicitement mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755210247987_03",
+      "current_version_epoch_ms": 1755210247987,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Devant des lésions sans lésions rétentionnelles (absence de comédons), quels diagnostics proposer en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Folliculite infectieuse.",
+            "justification": "À évoquer en l'absence de comédons parmi les diagnostics différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "Rosacée.",
+            "justification": "La rosacée fait partie des diagnostics différentiels lorsque les comédons sont absents."
+          },
+          {
+            "correct": false,
+            "proposition": "Acné.",
+            "justification": "Sans comédons, l'acné est exclue : « Pas de comédon = pas d'acné »."
+          },
+          {
+            "correct": true,
+            "proposition": "Folliculite à Demodex.",
+            "justification": "Demodex est une étiologie parasitaire de folliculite infectieuse, à évoquer en l'absence de comédons."
+          },
+          {
+            "correct": true,
+            "proposition": "Folliculite à Candida.",
+            "justification": "Candida est une étiologie mycosique de folliculite infectieuse, à considérer si absence de comédons."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755210247987_04",
+      "current_version_epoch_ms": 1755210247987,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier entités et catégories étiologiques liées aux diagnostics différentiels de l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Demodex correspond à une étiologie parasitaire de folliculite infectieuse.",
+            "justification": "Demodex est explicitement cité comme cause parasitaire de folliculite infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Candida correspond à une étiologie mycosique de folliculite infectieuse.",
+            "justification": "Candida est cité comme cause mycosique de folliculite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Les folliculites infectieuses sont uniquement d'origine bactérienne.",
+            "justification": "Elles peuvent aussi être parasitaires (Demodex) ou mycosiques (Candida)."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée est un diagnostic différentiel de l'acné.",
+            "justification": "La rosacée est listée comme diagnostic à évoquer en l'absence de comédons."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de comédons confirme une acné.",
+            "justification": "C'est l'inverse : sans comédons, l'acné est écartée (« Pas de comédon = pas d'acné »)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755210247987_05",
+      "current_version_epoch_ms": 1755210247987,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Hiérarchiser la démarche diagnostique face à une suspicion d'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher des lésions rétentionnelles (comédons) pour confirmer l'acné.",
+            "justification": "Les comédons conditionnent le diagnostic : « Pas de comédon = pas d'acné »."
+          },
+          {
+            "correct": true,
+            "proposition": "En l'absence de comédons, l'hypothèse d'acné est rejetée.",
+            "justification": "L'absence de comédons exclut l'acné selon la règle donnée."
+          },
+          {
+            "correct": true,
+            "proposition": "En l'absence de comédons, évoquer une folliculite infectieuse.",
+            "justification": "Les folliculites infectieuses sont à évoquer lorsqu'il n'y a pas de lésions rétentionnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "En l'absence de comédons, évoquer une rosacée.",
+            "justification": "La rosacée est mentionnée parmi les diagnostics différentiels en cas d'absence de comédons."
+          },
+          {
+            "correct": false,
+            "proposition": "Folliculites infectieuses et rosacée ne doivent être envisagées qu'en présence de comédons.",
+            "justification": "C'est l'inverse : elles sont à envisager précisément lorsque les comédons sont absents."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755260567140_01",
+      "current_version_epoch_ms": 1755260567140,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier, en situation aiguë chez le sujet âgé, les indications d'imagerie devant un trouble de l'équilibre ou de la marche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographies ostéoarticulaires pour rechercher une fracture en cas de chute.",
+            "justification": "En contexte de chute ou de trouble aigu, les radiographies ostéoarticulaires sont indiquées pour la recherche de fracture."
+          },
+          {
+            "correct": false,
+            "proposition": "TDM cérébrale en urgence systématique pour tout trouble de l'équilibre aigu, sans autre critère.",
+            "justification": "La TDM cérébrale en urgence n'est pas systématique; elle est réservée à des situations précises."
+          },
+          {
+            "correct": true,
+            "proposition": "TDM cérébrale en urgence en cas de traumatisme crânien sous antithrombotique.",
+            "justification": "Une TDM cérébrale en urgence est indiquée en cas de traumatisme crânien chez un patient sous anticoagulant ou antiplaquettaire."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale en première intention si suspicion d'AVC avec délai de thrombolyse ou de thrombectomie.",
+            "justification": "En cas de suspicion d'AVC dans une fenêtre thérapeutique, l'IRM cérébrale est indiquée en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune imagerie n'est jamais indiquée en cas de trouble aigu de l'équilibre.",
+            "justification": "Des examens d'imagerie peuvent être nécessaires en aigu selon les signes cliniques et le contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260567140_02",
+      "current_version_epoch_ms": 1755260567140,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Différencier les examens indiqués dans une démarche étiologique guidée par l'examen clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographies ostéoarticulaires pour documenter une arthrose.",
+            "justification": "Dans une recherche étiologique, les radiographies ostéoarticulaires sont indiquées pour l'arthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM ou TDM cérébrale pour rechercher un hématome sous-dural, une hydrocéphalie à pression normale, des séquelles d'AVC ou un état lacunaire.",
+            "justification": "Ces examens cérébraux sont spécifiquement mentionnés pour ces étiologies neurologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM médullaire en cas de suspicion de myélopathie cervico-arthrosique et/ou de canal lombaire étroit.",
+            "justification": "L'IRM médullaire est indiquée pour explorer ces atteintes rachidiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation d'une imagerie systématique quel que soit le contexte clinique.",
+            "justification": "Aucun examen d'imagerie n'est systématique; les indications sont conditionnées par l'examen clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Examens spécifiques orientés par les comorbidités (p. ex. pathologie neurodégénérative, cardiopathie, électromyogramme).",
+            "justification": "Des examens ciblés peuvent être demandés selon les comorbidités identifiées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260567140_03",
+      "current_version_epoch_ms": 1755260567140,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les principes généraux d'indication des examens d'imagerie chez le sujet âgé avec trouble de la marche ou de l'équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aucun examen d'imagerie n'est systématique.",
+            "justification": "Le recours à l'imagerie n'est jamais automatique et dépend des situations."
+          },
+          {
+            "correct": true,
+            "proposition": "Les indications d'imagerie sont guidées par les données de l'examen clinique.",
+            "justification": "La recherche étiologique s'appuie sur l'orientation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les radiographies ostéoarticulaires ne sont utiles qu'en cas de fracture suspectée.",
+            "justification": "Elles sont également indiquées pour l'arthrose dans une démarche étiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM cérébrale ne doit jamais être utilisée en première intention.",
+            "justification": "Elle est en première intention en cas de suspicion d'AVC dans la fenêtre de recanalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Les comorbidités orientent vers des examens spécifiques complémentaires.",
+            "justification": "Des examens ciblés peuvent être demandés selon les comorbidités (ex. électromyogramme)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260567140_04",
+      "current_version_epoch_ms": 1755260567140,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer les situations qui justifient une TDM cérébrale en urgence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Apparition de signes neurologiques associés au trouble de l'équilibre.",
+            "justification": "La TDM cérébrale en urgence est indiquée en cas de symptôme neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Chute simple sans signe neurologique et sans traitement antithrombotique.",
+            "justification": "Dans ce cas, une TDM cérébrale en urgence n'est pas indiquée d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatisme crânien chez un patient sous anticoagulant ou antiplaquettaire.",
+            "justification": "Le traitement antithrombotique avec traumatisme crânien justifie une TDM en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'AVC dans une fenêtre de thrombolyse ou de thrombectomie.",
+            "justification": "Dans ce contexte, l'IRM cérébrale est indiquée en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'hématome sous-dural chronique sans signe aigu.",
+            "justification": "Une imagerie cérébrale peut être utile, mais la TDM en urgence n'est pas spécifiquement requise sans critère d'urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260567140_05",
+      "current_version_epoch_ms": 1755260567140,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Choisir l'examen d'imagerie pertinent selon le contexte clinique décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Suspicion de myélopathie cervico-arthrosique ou de canal lombaire étroit → IRM médullaire.",
+            "justification": "L'IRM médullaire est indiquée pour explorer ces atteintes rachidiennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'hydrocéphalie à pression normale → IRM ou TDM cérébrale.",
+            "justification": "Les examens cérébraux sont indiqués pour cette étiologie."
+          },
+          {
+            "correct": true,
+            "proposition": "Chute avec suspicion de fracture → radiographies ostéoarticulaires.",
+            "justification": "En aigu, les radiographies sont indiquées pour rechercher une fracture."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'AVC avec possibilité de recanalisation → IRM cérébrale en première intention.",
+            "justification": "L'IRM est à privilégier en première intention dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble chronique sans orientation clinique → imagerie systématique immédiate.",
+            "justification": "Aucun examen n'est systématique; l'imagerie doit être guidée par l'examen clinique et le contexte."
+          }
+        ]
+      }
+    }
+  ]
+}

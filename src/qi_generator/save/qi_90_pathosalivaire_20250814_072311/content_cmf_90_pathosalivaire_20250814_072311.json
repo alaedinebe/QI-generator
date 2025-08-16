@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathosalivaire",
+    "subject": "cmf"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755149198527_01",
+      "current_version_epoch_ms": 1755149198527,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Parmi les examens d'imagerie, quel est l'examen de choix dans le cadre d'une pathologie tumorale des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie",
+            "justification": "L'échographie permet de rechercher des signes de malignité tels que l'hétérogénéité, la nécrose, les contours irréguliers, et les adénopathies, et de guider une cytoponction."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie",
+            "justification": "La radiographie n'est pas utilisée dans le cadre de l'évaluation des pathologies tumorales des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cervico-thoracique",
+            "justification": "L'IRM parotidienne est systématique mais l'IRM cervico-thoracique est utilisé dans des cas très probables de malignité, comme en présence d'adénopathies."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner non injecté",
+            "justification": "Le scanner non injecté n'est pas indiqué en première intention dans les pathologies tumorales des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialo-IRM",
+            "justification": "La Sialo-IRM est utilisée pour les lithiases, et non pour les pathologies tumorales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149198527_02",
+      "current_version_epoch_ms": 1755149198527,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle est la séquence recommandée pour l'IRM parotidienne dans les pathologies tumorales des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Séquences T1, T2, avec et sans injection de Gadolinium, séquences FAT-SAT",
+            "justification": "Les séquences T1 et T2 avec et sans injection de Gadolinium, ainsi que les séquences FAT-SAT, permettent une meilleure évaluation de la malignité et des lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquence T1 uniquement",
+            "justification": "Une séquence T1 seule n'est pas suffisante pour évaluer correctement les pathologies tumorales des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquence de diffusion sans Gadolinium",
+            "justification": "La séquence de diffusion seule sans Gadolinium ne permet pas d'identifier correctement les signes de malignité."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquence de perfusion seule",
+            "justification": "La séquence de perfusion seule est insuffisante sans les séquences précédemment mentionnées pour une évaluation complète."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner avec injection de produit de contraste",
+            "justification": "Le scanner avec injection est utilisé principalement en cas de malignité très probable, mais l'IRM reste l'examen systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149198527_03",
+      "current_version_epoch_ms": 1755149198527,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Lors d'une suspicion de lithiase des glandes salivaires, quel est l'examen d'imagerie de choix ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie",
+            "justification": "L'échographie est l'examen de choix pour détecter les lithiases des glandes salivaires, surtout après l'épisode douloureux."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "L'IRM n'est pas nécessaire en première intention pour diagnostiquer une lithiase des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner salivaire injecté",
+            "justification": "Le scanner salivaire injecté n'est pas indiqué dans le diagnostic de lithiase des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie standard",
+            "justification": "La radiographie standard n'est pas adaptée pour diagnostiquer une lithiase des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialo-IRM immédiat",
+            "justification": "La Sialo-IRM est utilisée pour les cas plus complexes ou récidivants, mais elle n'est pas le premier examen à réaliser."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149198527_04",
+      "current_version_epoch_ms": 1755149198527,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle est l'indication de l'IRM dans les sialoses ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour analyser les lésions kystiques diffuses et les dilatations canalaires avec plus de précision que l'échographie",
+            "justification": "L'IRM permet une analyse plus précise des lésions kystiques diffuses et des dilatations canalaires, caractéristiques des sialoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher des signes de malignité",
+            "justification": "Les sialoses ne sont pas des pathologies malignes, l'IRM est donc utilisée pour une meilleure précision diagnostique, pas pour détecter la malignité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour guider une cytoponction",
+            "justification": "La cytoponction est principalement guidée par échographie dans les pathologies tumorales, et non dans les sialoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la perfusion des glandes salivaires",
+            "justification": "L'évaluation de la perfusion n'est pas une priorité dans les sialoses, contrairement aux pathologies tumorales."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour visualiser des adénopathies cervicales",
+            "justification": "Les adénopathies cervicales sont plus liées à des pathologies tumorales ou infectieuses et non aux sialoses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149198527_05",
+      "current_version_epoch_ms": 1755149198527,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'IRM par rapport à l'échographie dans les pathologies des glandes salivaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IRM offre une meilleure précision dans l'analyse des lésions kystiques et des dilatations canalaires dans les sialoses",
+            "justification": "L'IRM permet une analyse plus fine et plus précise des lésions par rapport à l'échographie, surtout dans le cas des sialoses."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM est utilisée uniquement pour guider une cytoponction dans les pathologies tumorales",
+            "justification": "L'échographie est préférée pour guider une cytoponction dans les pathologies tumorales, et non l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM permet de diagnostiquer directement les lithiases salivaires",
+            "justification": "L'IRM n'est pas utilisée en première intention pour diagnostiquer les lithiases, l'échographie étant l'examen de choix."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM est toujours plus rapide et moins invasive que l'échographie",
+            "justification": "L'échographie est moins invasive, plus rapide et moins coûteuse que l'IRM dans l'évaluation des pathologies des glandes salivaires."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM est utilisée pour confirmer la présence de tumeurs malignes après l'échographie",
+            "justification": "L'IRM est utile dans certains cas complexes, mais l'échographie reste l'examen de première intention pour détecter les signes de malignité."
+          }
+        ]
+      }
+    }
+  ]
+}

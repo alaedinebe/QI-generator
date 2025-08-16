@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755209625998_01",
+      "current_version_epoch_ms": 1755209625998,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques qui définissent une acné mixte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association de lésions rétentionnelles et inflammatoires (acné papulo pustuleuse).",
+            "justification": "L'acné mixte est la forme la plus habituelle et correspond à l'association de lésions rétentionnelles et inflammatoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Débute généralement à la puberté.",
+            "justification": "L'acné mixte débute en général à la puberté."
+          },
+          {
+            "correct": false,
+            "proposition": "Peu ou pas de lésions inflammatoires.",
+            "justification": "La faible composante inflammatoire caractérise l'acné rétentionnelle, pas l'acné mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de lésions nodulaires.",
+            "justification": "La présence de lésions nodulaires définit l'acné nodulaire, forme sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque cicatriciel plus important justifiant une prise en charge thérapeutique spécifique.",
+            "justification": "Ce risque majoré avec nécessité de prise en charge spécifique caractérise l'acné nodulaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209625998_02",
+      "current_version_epoch_ms": 1755209625998,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître la forme cliniquement compatible avec une acné rétentionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peu ou pas de lésions inflammatoires.",
+            "justification": "L'acné rétentionnelle se caractérise par une faible ou absence de composante inflammatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Forme la plus fréquente des acnés qui débutent.",
+            "justification": "Parmi les formes débutantes, l'acné rétentionnelle est la plus fréquente."
+          },
+          {
+            "correct": false,
+            "proposition": "Association de lésions rétentionnelles et inflammatoires.",
+            "justification": "Cette association décrit l'acné mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Débute généralement à la puberté et s'accompagne de papulo-pustules.",
+            "justification": "Le début pubertaire avec papulo-pustules évoque l'acné mixte, pas la forme rétentionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de lésions nodulaires avec risque cicatriciel majoré.",
+            "justification": "Des nodules avec risque cicatriciel plus important définissent l'acné nodulaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209625998_03",
+      "current_version_epoch_ms": 1755209625998,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier l'acné nodulaire des autres formes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Forme sévère.",
+            "justification": "L'acné nodulaire est explicitement décrite comme une forme sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de lésions nodulaires.",
+            "justification": "La présence de nodules est l'élément définissant de cette forme."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque cicatriciel plus important justifiant une prise en charge thérapeutique spécifique.",
+            "justification": "Cette forme expose à un risque cicatriciel accru nécessitant une prise en charge dédiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Peu ou pas de lésions inflammatoires.",
+            "justification": "Cette description correspond à l'acné rétentionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Début typiquement à la puberté avec lésions papulo-pustuleuses.",
+            "justification": "Le début pubertaire avec lésions inflammatoires papulo-pustuleuses évoque l'acné mixte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209625998_04",
+      "current_version_epoch_ms": 1755209625998,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Classer la situation suivante : adolescent présentant une association de lésions rétentionnelles et inflammatoires (papulo-pustuleuses).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acné mixte.",
+            "justification": "L'association de lésions rétentionnelles et inflammatoires chez un sujet pubertaire correspond à l'acné mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Acné rétentionnelle.",
+            "justification": "L'acné rétentionnelle comporte peu ou pas de lésions inflammatoires, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Acné nodulaire.",
+            "justification": "La présence de nodules n'est pas rapportée ; l'aspect nodulaire définit la forme nodulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Forme sévère avec risque cicatriciel majoré nécessitant une prise en charge spécifique.",
+            "justification": "Cette gravité et ce risque sont caractéristiques de l'acné nodulaire, absents dans cette situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Forme débutante la plus fréquente avec peu d'inflammation.",
+            "justification": "La forme débutante la plus fréquente avec faible inflammation est l'acné rétentionnelle, non compatible avec l'association décrite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209625998_05",
+      "current_version_epoch_ms": 1755209625998,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Classer la situation suivante : sujet présentant des lésions nodulaires multiples avec inquiétude sur des cicatrices.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acné nodulaire.",
+            "justification": "La présence de lésions nodulaires définit cette forme."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque cicatriciel plus important justifiant une prise en charge thérapeutique spécifique.",
+            "justification": "Cette forme est associée à un risque cicatriciel accru nécessitant une prise en charge dédiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Acné mixte débutant à la puberté.",
+            "justification": "L'acné mixte combine rétentionnel et inflammatoire, sans notion de nodules ni de risque cicatriciel majoré."
+          },
+          {
+            "correct": false,
+            "proposition": "Acné rétentionnelle avec peu ou pas d'inflammation.",
+            "justification": "La description de nodules n'est pas compatible avec une forme rétentionnelle peu inflammatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Forme la plus fréquente des acnés qui débutent.",
+            "justification": "Cette caractéristique concerne l'acné rétentionnelle, non la forme nodulaire."
+          }
+        ]
+      }
+    }
+  ]
+}

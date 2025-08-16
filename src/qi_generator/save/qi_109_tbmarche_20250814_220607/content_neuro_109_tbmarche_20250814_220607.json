@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarche",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755202174146_01",
+      "current_version_epoch_ms": 1755202174146,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Identifier, parmi les examens ci-dessous, ceux explicitement mentionnés devant un trouble de la marche ou de l'équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan biologique",
+            "justification": "Fait partie des examens complémentaires listés (hypoglycémies, troubles ioniques, anémie)."
+          },
+          {
+            "correct": true,
+            "proposition": "Gaz du sang",
+            "justification": "Mentionné comme examen complémentaire à réaliser."
+          },
+          {
+            "correct": true,
+            "proposition": "RP (embolie pulmonaire)",
+            "justification": "Cité comme examen à considérer en lien avec l'embolie pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "ECG",
+            "justification": "Indiqué pour rechercher des troubles du rythme."
+          },
+          {
+            "correct": true,
+            "proposition": "Scanner cérébral sans injection",
+            "justification": "Évoqué avec ses cibles (hématomes sous/extra-dural, AVC)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755202174146_02",
+      "current_version_epoch_ms": 1755202174146,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Classer les anomalies à rechercher dans le bilan biologique devant un trouble de la marche ou de l'équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoglycémies",
+            "justification": "Explicitement incluse dans le bilan biologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Dyskaliémie",
+            "justification": "Les troubles ioniques comprenant les anomalies du potassium sont cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypercalcémie",
+            "justification": "La calcémie élevée fait partie des anomalies listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyponatrémie",
+            "justification": "Trouble ionique mentionné dans le bilan biologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypomagnésémie",
+            "justification": "Non mentionnée parmi les éléments biologiques à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755202174146_03",
+      "current_version_epoch_ms": 1755202174146,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Associer chaque examen à l'objectif ou à la pathologie correspondante tels qu'indiqués.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG — troubles du rythme",
+            "justification": "Association explicitement indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "RP — embolie pulmonaire",
+            "justification": "Lien explicitement mentionné."
+          },
+          {
+            "correct": true,
+            "proposition": "Scanner cérébral sans injection — AVC",
+            "justification": "Fait partie des atteintes détectées par le scanner sans injection."
+          },
+          {
+            "correct": true,
+            "proposition": "Scanner cérébral sans injection — hématome sous-dural",
+            "justification": "Ciblé parmi les lésions recherchées."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang — anémie",
+            "justification": "L'anémie relève du bilan biologique, pas des gaz du sang."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755202174146_04",
+      "current_version_epoch_ms": 1755202174146,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Différencier ce que permet de rechercher un scanner cérébral sans injection dans ce contexte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hématome sous-dural",
+            "justification": "Spécifiquement cité comme cible du scanner sans injection."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématome extra-dural",
+            "justification": "Spécifiquement cité comme cible du scanner sans injection."
+          },
+          {
+            "correct": true,
+            "proposition": "Accident vasculaire cérébral (AVC)",
+            "justification": "Listé parmi les diagnostics accessibles au scanner sans injection."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles du rythme",
+            "justification": "Attribués à l'ECG, pas au scanner cérébral sans injection."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyponatrémie",
+            "justification": "Relève du bilan biologique, non du scanner."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755202174146_05",
+      "current_version_epoch_ms": 1755202174146,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Reconnaître, parmi les propositions suivantes, les examens complémentaires à envisager devant un trouble de la marche ou de l'équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan biologique",
+            "justification": "Mentionné avec hypoglycémies, troubles ioniques et anémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Gaz du sang",
+            "justification": "Cité explicitement comme examen complémentaire."
+          },
+          {
+            "correct": true,
+            "proposition": "ECG",
+            "justification": "Indiqué pour dépister des troubles du rythme."
+          },
+          {
+            "correct": false,
+            "proposition": "Holter ECG",
+            "justification": "Non cité parmi les examens mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie doppler veineux des membres inférieurs",
+            "justification": "Non mentionnée parmi les examens listés."
+          }
+        ]
+      }
+    }
+  ]
+}

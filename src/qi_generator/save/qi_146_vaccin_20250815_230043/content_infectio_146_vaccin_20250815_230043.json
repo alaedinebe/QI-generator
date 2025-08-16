@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vaccin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755291849795_01",
+      "current_version_epoch_ms": 1755291849795,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est le calendrier de vaccination recommandé pour un prématuré?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les mêmes modalités que la population générale, avec une dose supplémentaire de pneumocoque à 3 mois.",
+            "justification": "Les prématurés reçoivent les vaccins dès l'âge de 6 à 8 semaines, avec une dose supplémentaire de pneumocoque à 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils doivent attendre l'âge de 12 mois pour commencer la vaccination.",
+            "justification": "Le prématuré doit commencer la vaccination dès 6 à 8 semaines, quel que soit le degré de prématurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est recommandé de vacciner uniquement contre le pneumocoque et l'influenza.",
+            "justification": "Le calendrier de vaccination inclut plusieurs vaccins, dont le pneumocoque, mais aussi d'autres vaccins selon les recommandations générales."
+          },
+          {
+            "correct": false,
+            "proposition": "Une vaccination contre la varicelle est obligatoire dès 6 semaines.",
+            "justification": "La vaccination contre la varicelle n'est pas incluse dans le calendrier précoce pour les prématurés."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune vaccination n'est nécessaire avant 6 mois.",
+            "justification": "Les prématurés commencent la vaccination dès 6 à 8 semaines, quel que soit leur degré de prématurité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291849795_02",
+      "current_version_epoch_ms": 1755291849795,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quels vaccins sont recommandés pour un patient immunodéprimé sous chimiothérapie?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grippe, COVID-19 et pneumocoque.",
+            "justification": "Les patients sous chimiothérapie et jusqu'à 6 mois après doivent être vaccinés contre la grippe, le COVID-19 et le pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe, varicelle et rougeole.",
+            "justification": "Les vaccins contre la varicelle et la rougeole sont contre-indiqués pour les patients sous chimiothérapie, car ils sont des vaccins vivants atténués."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe et rougeole.",
+            "justification": "Le vaccin contre la rougeole n'est pas recommandé pour les immunodéprimés, car il est vivant atténué."
+          },
+          {
+            "correct": false,
+            "proposition": "COVID-19, hépatite A et B.",
+            "justification": "L'hépatite A et B ne sont pas systématiquement recommandées pour les patients sous chimiothérapie, contrairement à la grippe, au COVID-19 et au pneumocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe, pneumocoque et méningocoque.",
+            "justification": "Le vaccin contre le méningocoque n'est pas systématiquement indiqué pour tous les patients sous chimiothérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291849795_03",
+      "current_version_epoch_ms": 1755291849795,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel vaccin est contre-indiqué chez un patient greffé sous immunosuppresseur?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccins vivants atténués.",
+            "justification": "Les vaccins vivants atténués sont contre-indiqués chez les patients greffés sous immunosuppresseur."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre l'hépatite B.",
+            "justification": "Le vaccin contre l'hépatite B est recommandé pour les patients transplantés sous immunosuppresseur, à condition de le faire 6 mois après la greffe."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le pneumocoque.",
+            "justification": "Le vaccin contre le pneumocoque est recommandé pour les patients transplantés sous immunosuppresseur, à faire 6 mois après la greffe."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le COVID-19.",
+            "justification": "Le vaccin contre le COVID-19 est recommandé pour les patients transplantés, à condition de le faire 6 mois après la greffe."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la grippe.",
+            "justification": "Le vaccin contre la grippe est recommandé pour les patients transplantés sous immunosuppresseur, à faire 6 mois après la greffe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291849795_04",
+      "current_version_epoch_ms": 1755291849795,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quels sont les vaccins recommandés pour une personne asplénique?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grippe, pneumocoque, méningocoque, Haemophilus B.",
+            "justification": "Les personnes aspléniques doivent être vaccinées contre la grippe, le pneumocoque, le méningocoque et Haemophilus B."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe, pneumocoque et hépatite B.",
+            "justification": "L'hépatite B n'est pas spécifiquement recommandée pour les personnes aspléniques, contrairement aux vaccins mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe et COVID-19 uniquement.",
+            "justification": "Les personnes aspléniques doivent être vaccinées contre plusieurs pathogènes, incluant pneumocoque, méningocoque et Haemophilus B."
+          },
+          {
+            "correct": false,
+            "proposition": "Méningocoque, hépatite A et varicelle.",
+            "justification": "La varicelle n'est pas spécifiquement recommandée pour les personnes aspléniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre jaune et rabies.",
+            "justification": "Les vaccins contre la fièvre jaune et la rage ne sont pas spécifiquement indiqués pour les personnes aspléniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755291849795_05",
+      "current_version_epoch_ms": 1755291849795,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Qui doit être vacciné contre la fièvre jaune dans un cadre professionnel?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les techniciens de laboratoire en Guyane.",
+            "justification": "La fièvre jaune est recommandée pour les techniciens de laboratoire de Guyane, avec une seconde dose recommandée 10 ans après la primovaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Les travailleurs en crèche.",
+            "justification": "La vaccination contre la fièvre jaune n'est pas indiquée pour les travailleurs en crèche."
+          },
+          {
+            "correct": false,
+            "proposition": "Les personnels des laboratoires en métropole.",
+            "justification": "La fièvre jaune est spécifiquement recommandée pour les techniciens de laboratoire en Guyane, et non pour tous les laboratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Les travailleurs dans les égouts.",
+            "justification": "La fièvre jaune n'est pas une recommandation pour les travailleurs dans les égouts."
+          },
+          {
+            "correct": false,
+            "proposition": "Les sapeurs-pompiers.",
+            "justification": "Les sapeurs-pompiers n'ont pas de risque spécifique lié à la fièvre jaune dans le cadre de leur activité professionnelle."
+          }
+        ]
+      }
+    }
+  ]
+}

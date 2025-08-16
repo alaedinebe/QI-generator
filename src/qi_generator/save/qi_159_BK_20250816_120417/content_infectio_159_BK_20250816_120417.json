@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "BK",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755338864260_01",
+      "current_version_epoch_ms": 1755338864260,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est l'isolement recommandé pour un patient atteint de tuberculose pulmonaire bacillifère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chambre individuelle en pression négative avec aération régulière par ouverture des fenêtres",
+            "justification": "La chambre individuelle doit être en pression négative pour limiter la propagation des bacilles et l'aération régulière est nécessaire pour assurer une bonne ventilation."
+          },
+          {
+            "correct": false,
+            "proposition": "Chambre commune avec ventilation mécanique",
+            "justification": "Le patient doit être isolé dans une chambre individuelle afin de limiter les risques de transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Port de masque FFP2 pour les soignants lors de l'entrée dans la chambre",
+            "justification": "Le masque FFP2 est nécessaire pour protéger les soignants contre l'inhalation de particules infectieuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement en chambre individuelle sans mesure de ventilation",
+            "justification": "L'isolement doit inclure des mesures de ventilation pour réduire le risque de propagation des bacilles."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas d'isolement nécessaire après 7 jours de traitement",
+            "justification": "L'isolement doit être maintenu jusqu'à la négativation des prélèvements respiratoires, indépendamment de la durée du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338864260_02",
+      "current_version_epoch_ms": 1755338864260,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle est la durée recommandée pour l'isolement d'un patient tuberculeux bacillifère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "14 jours minimum ou jusqu'à négativation des prélèvements respiratoires",
+            "justification": "L'isolement doit être maintenu pendant 14 jours ou jusqu'à ce que les prélèvements respiratoires deviennent négatifs, afin de limiter la propagation de la tuberculose."
+          },
+          {
+            "correct": false,
+            "proposition": "7 jours de traitement seulement",
+            "justification": "L'isolement doit durer au moins 14 jours, et il est possible qu'il dure plus longtemps en fonction de la négativation des prélèvements."
+          },
+          {
+            "correct": false,
+            "proposition": "21 jours minimum sans exception",
+            "justification": "La durée d'isolement peut varier entre 7 et 21 jours, en fonction de la réponse au traitement et des résultats des prélèvements."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours de traitement uniquement",
+            "justification": "L'isolement de 3 jours n'est pas suffisant pour assurer la sécurité des autres patients et du personnel soignant."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement permanent jusqu'à guérison",
+            "justification": "L'isolement est maintenu jusqu'à la négativation des prélèvements, mais pas de manière permanente après guérison."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338864260_03",
+      "current_version_epoch_ms": 1755338864260,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le rôle du centre de lutte antituberculeuse (CLAT) dans la prise en charge des sujets contacts ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Assurer la prise en charge et le suivi des adultes contacts d'un patient tuberculeux",
+            "justification": "Le CLAT est responsable de la prise en charge des sujets contacts adultes, y compris le dépistage et la surveillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer le traitement immédiat des enfants exposés sans évaluation préalable",
+            "justification": "Les enfants exposés doivent d'abord subir une évaluation clinique et radiologique avant tout traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer des prélèvements respiratoires de tous les contacts",
+            "justification": "Les prélèvements respiratoires ne sont pas systématiques pour tous les contacts, mais plutôt en fonction des symptômes et du risque d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer le traitement préventif de tous les adultes contacts sans évaluation",
+            "justification": "Le traitement préventif est basé sur les résultats des tests de dépistage (IDR ou IGRA), et non administré systématiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "Assurer le suivi des contacts à partir d'une radiographie de thorax",
+            "justification": "Une radiographie de thorax est réalisée immédiatement pour évaluer le risque de tuberculose pulmonaire chez les adultes contacts."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338864260_04",
+      "current_version_epoch_ms": 1755338864260,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Que faire en cas d'exposition d'un enfant de moins de 5 ans à un patient tuberculeux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Effectuer une première évaluation clinique et radiographique moins de 2 semaines après le diagnostic du cas index",
+            "justification": "Une évaluation rapide est essentielle pour détecter toute infection active chez l'enfant et éviter l'évolution vers la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas effectuer d'examen avant 3 mois d'exposition",
+            "justification": "Les enfants doivent être évalués dans les deux semaines suivant l'exposition pour un diagnostic précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas proposer de traitement préventif avant 6 mois d'exposition",
+            "justification": "Le traitement préventif est proposé dès que l'exposition est confirmée, notamment pour les enfants de moins de 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement un test IGRA sans radiographie",
+            "justification": "La radiographie de thorax est essentielle pour évaluer l'infection active, en plus des tests immunologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer une prophylaxie avec isoniazide et rifampicine pour les enfants de moins de 2 ans",
+            "justification": "Les enfants de moins de 2 ans exposés doivent recevoir une prophylaxie pour prévenir l'apparition de la tuberculose maladie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338864260_05",
+      "current_version_epoch_ms": 1755338864260,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle est la procédure recommandée pour l'évaluation des contacts chez un enfant de plus de 5 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Suivre les mêmes modalités que pour un adulte, avec radiographie et tests IGRA",
+            "justification": "Les enfants de plus de 5 ans sont suivis de manière similaire aux adultes pour évaluer les risques d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement un examen clinique et ne pas réaliser de radiographie",
+            "justification": "La radiographie est un examen essentiel pour évaluer l'infection pulmonaire chez les enfants de plus de 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas effectuer de test IGRA si la radiographie est normale",
+            "justification": "Le test IGRA doit être réalisé, même si la radiographie est normale, pour un dépistage complet de l'infection latente."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer immédiatement un traitement préventif sans test",
+            "justification": "Le traitement préventif est décidé en fonction des résultats des examens cliniques et radiologiques, pas avant."
+          },
+          {
+            "correct": true,
+            "proposition": "Faire un suivi à 2 mois avec IDR ou test IGRA si la radiographie est normale",
+            "justification": "Le suivi est essentiel pour détecter une infection latente chez les enfants après l'exposition à un cas de tuberculose."
+          }
+        ]
+      }
+    }
+  ]
+}

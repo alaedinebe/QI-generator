@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "autonomiegeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755268442422_01",
+      "current_version_epoch_ms": 1755268442422,
+      "topic": {
+        "subject": "geria",
+        "item": "autonomiegeria"
+      },
+      "data": {
+        "statement": "Quel groupe Iso-Ressources correspond aux personnes ayant la plus grande autonomie pour les actes discriminants de la vie courante ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Groupe 1",
+            "justification": "Le groupe 1 regroupe les personnes les plus dépendantes et nécessite une aide pour la plupart des actes de la vie quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe 2",
+            "justification": "Le groupe 2 concerne des personnes ayant une dépendance partielle et nécessitant une aide occasionnelle pour certains actes."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe 3",
+            "justification": "Le groupe 3 correspond à des personnes encore dépendantes mais moins que celles des groupes 1 et 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe 4",
+            "justification": "Le groupe 4 regroupe des personnes ayant une autonomie partielle mais nécessitant de l'aide pour certaines tâches spécifiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Groupe 6",
+            "justification": "Le groupe 6 regroupe les personnes qui n'ont pas perdu leur autonomie pour les actes discriminants de la vie courante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755268442422_02",
+      "current_version_epoch_ms": 1755268442422,
+      "topic": {
+        "subject": "geria",
+        "item": "autonomiegeria"
+      },
+      "data": {
+        "statement": "Le score GIR est basé sur quelle variable discriminante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cohérence",
+            "justification": "La cohérence fait partie des variables discriminantes, car elle évalue si la personne peut converser et/ou se comporter de façon logique et sensée."
+          },
+          {
+            "correct": false,
+            "proposition": "Communication verbale",
+            "justification": "La communication verbale n'est pas une variable discriminante dans le score GIR. C'est la capacité de communication à distance qui compte."
+          },
+          {
+            "correct": false,
+            "proposition": "Capacité à prendre des décisions médicales",
+            "justification": "La capacité à prendre des décisions médicales n'est pas incluse dans les critères du score GIR."
+          },
+          {
+            "correct": false,
+            "proposition": "Mobilité générale",
+            "justification": "La mobilité générale est une variable importante, mais elle n'est pas directement liée à la cohérence dans le score GIR."
+          },
+          {
+            "correct": false,
+            "proposition": "Santé cognitive",
+            "justification": "La santé cognitive en tant que telle n'est pas une variable discriminante, bien que la cohérence et l'orientation soient liées à la cognition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755268442422_03",
+      "current_version_epoch_ms": 1755268442422,
+      "topic": {
+        "subject": "geria",
+        "item": "autonomiegeria"
+      },
+      "data": {
+        "statement": "Comment est classé un individu dans le groupe Iso-Ressources 4 selon les critères discriminants ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Il fait toutes les tâches seul et correctement",
+            "justification": "Les individus de ce groupe nécessitent une aide pour certains actes, ce qui exclut la possibilité d'effectuer toutes les tâches seul et correctement."
+          },
+          {
+            "correct": true,
+            "proposition": "Il fait certaines tâches partiellement ou de manière incorrecte",
+            "justification": "Le groupe 4 correspond à des individus ayant une autonomie partielle mais nécessitant une aide pour certaines tâches spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Il fait toutes les tâches seul mais de manière partielle",
+            "justification": "Les individus du groupe 4 ne réalisent pas toutes les tâches de manière partielle, mais ont des difficultés qui nécessitent une aide."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est totalement dépendant de l'aide pour toutes les tâches",
+            "justification": "Les individus totalement dépendants appartiennent aux groupes 1, 2 ou 3, pas au groupe 4."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est totalement autonome dans tous les actes de la vie quotidienne",
+            "justification": "L'autonomie totale correspond à un individu du groupe 6, et non du groupe 4."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755268442422_04",
+      "current_version_epoch_ms": 1755268442422,
+      "topic": {
+        "subject": "geria",
+        "item": "autonomiegeria"
+      },
+      "data": {
+        "statement": "Dans le score GIR, quelle activité est incluse sous le critère 'toilette' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toilette du haut et du bas",
+            "justification": "La toilette est divisée en deux parties : la toilette du haut et la toilette du bas."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise de médicaments",
+            "justification": "La prise de médicaments n'est pas une variable discriminante dans le score GIR."
+          },
+          {
+            "correct": false,
+            "proposition": "Déplacement à l'extérieur",
+            "justification": "Le déplacement à l'extérieur est un critère distinct, différent de la toilette dans le score GIR."
+          },
+          {
+            "correct": false,
+            "proposition": "Alimentation (se servir et manger)",
+            "justification": "L'alimentation est une variable distincte du critère de la toilette dans le score GIR."
+          },
+          {
+            "correct": false,
+            "proposition": "Transfert (se lever, se coucher, s'asseoir)",
+            "justification": "Le transfert fait partie d'une autre catégorie, séparée de la toilette dans le score GIR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755268442422_05",
+      "current_version_epoch_ms": 1755268442422,
+      "topic": {
+        "subject": "geria",
+        "item": "autonomiegeria"
+      },
+      "data": {
+        "statement": "Quel est l'élément caractéristique du groupe Iso-Ressources 1 ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Aucune dépendance",
+            "justification": "Le groupe 1 correspond aux personnes les plus dépendantes, pas à celles totalement autonomes."
+          },
+          {
+            "correct": true,
+            "proposition": "Très forte dépendance, nécessite une aide pour la plupart des actes",
+            "justification": "Le groupe 1 regroupe les personnes les plus dépendantes, nécessitant une aide pour presque toutes les activités de la vie quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Autonomie totale pour les actes discriminants",
+            "justification": "L'autonomie totale correspond aux personnes du groupe 6, et non du groupe 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépendance partielle",
+            "justification": "La dépendance partielle correspond aux groupes 2, 3 ou 4, pas au groupe 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Autonomie partielle mais suffisante pour gérer les actes quotidiens",
+            "justification": "Le groupe 1 regroupe des individus qui sont très dépendants et ne peuvent pas gérer seuls leurs actes quotidiens."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "infdermato",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755318356663_01",
+      "current_version_epoch_ms": 1755318356663,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quels sont les signes locaux de gravité d'une dermohypodermite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur intense au-delà de la zone érythémateuse, œdémateuse et infiltrée",
+            "justification": "La douleur intense est un signe majeur de gravité, souvent au-delà de la zone affectée, et accompagne une détérioration de l'état local."
+          },
+          {
+            "correct": true,
+            "proposition": "Crépitations et zones cyaniques livédoïdes",
+            "justification": "La crépitation et les zones cyaniques livédoïdes sont des signes locaux de gravité suggérant une infection sévère et une altération de la perfusion tissulaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécrose cutanée et hypoesthésie",
+            "justification": "La nécrose cutanée et l'hypoesthésie sont des signes de dégradation tissulaire, annonçant souvent une évolution grave et rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Chaleur locale modérée",
+            "justification": "La chaleur locale est un signe d'inflammation, mais elle n'est pas un indicateur spécifique de gravité en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème limité à la zone affectée",
+            "justification": "Un érythème limité à la zone est souvent un signe moins grave et ne correspond pas aux critères de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755318356663_02",
+      "current_version_epoch_ms": 1755318356663,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quels sont les signes généraux de sepsis dans le cadre d'une dermohypodermite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension",
+            "justification": "L'hypotension est un signe tardif du sepsis, mais elle reste un indicateur clé de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Tachycardie",
+            "justification": "La tachycardie est un signe précoce du sepsis, indiquant une réaction systémique à l'infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion (irritabilité ou somnolence chez le nourrisson)",
+            "justification": "La confusion, ou l'irritabilité et somnolence chez les nourrissons, est un signe d'atteinte neurologique liée au sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthermie persistante",
+            "justification": "Bien que la fièvre soit fréquente dans le sepsis, l'hyperthermie persistante n'est pas toujours présente dans les cas sévères de dermohypodermite."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la fréquence cardiaque",
+            "justification": "Une diminution de la fréquence cardiaque est plutôt un signe de choc avancé et non un signe précoce de sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755318356663_03",
+      "current_version_epoch_ms": 1755318356663,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelle est la signification d'une extension très rapide de la dermohypodermite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indication d'une infection grave et évolutive",
+            "justification": "Une extension rapide est un signe d'aggravation rapide de l'infection, souvent associé à des formes graves nécessitant une prise en charge urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Processus inflammatoire bénin",
+            "justification": "L'extension rapide est le signe d'une infection grave et ne doit pas être interprétée comme bénigne."
+          },
+          {
+            "correct": false,
+            "proposition": "Réponse inflammatoire normale",
+            "justification": "Une réponse inflammatoire normale ne se traduit pas par une extension aussi rapide de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Indicateur d'une bonne réponse au traitement",
+            "justification": "Une extension rapide est un signe d'aggravation et non de réponse favorable au traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessité d'une intervention urgente",
+            "justification": "L'extension rapide des signes locaux nécessite une prise en charge urgente pour éviter une détérioration plus grave."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755318356663_04",
+      "current_version_epoch_ms": 1755318356663,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Que signifie une aggravation des signes locaux après 48 h d'antibiothérapie bien menée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes de résistance ou de mauvaise diffusion de l'antibiotique",
+            "justification": "L'aggravation après 48 h d'antibiothérapie suggère une inefficacité du traitement, soit par résistance soit par mauvaise diffusion dans le tissu infecté."
+          },
+          {
+            "correct": false,
+            "proposition": "Indication d'un traitement antibiotique excessif",
+            "justification": "L'aggravation des symptômes après 48 h n'est pas un signe de traitement excessif, mais plutôt d'une défaillance thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessité de réévaluation du diagnostic",
+            "justification": "Une aggravation malgré un traitement approprié nécessite une réévaluation du diagnostic pour exclure d'autres causes ou complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Indication de guérison partielle",
+            "justification": "Une aggravation des signes locaux indique une progression de l'infection et non une guérison partielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Réponse normale à l'antibiothérapie",
+            "justification": "Une aggravation des signes locaux après 48 h n'est pas une réponse normale et nécessite un réajustement thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755318356663_05",
+      "current_version_epoch_ms": 1755318356663,
+      "topic": {
+        "subject": "dermato",
+        "item": "infdermato"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques de l'hypotension chez l'enfant dans le cadre de la dermohypodermite ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Signe précoce d'une infection grave",
+            "justification": "L'hypotension est un signe tardif chez l'enfant et ne doit pas être considéré comme précoce dans la progression d'une dermohypodermite."
+          },
+          {
+            "correct": true,
+            "proposition": "Signe tardif de sepsis",
+            "justification": "L'hypotension chez l'enfant est généralement un signe tardif, survenant lorsque l'infection est déjà bien avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Indicateur de déshydratation uniquement",
+            "justification": "L'hypotension est un signe de sepsis, et non simplement d'une déshydratation."
+          },
+          {
+            "correct": true,
+            "proposition": "Accompagnée souvent de tachycardie",
+            "justification": "La tachycardie est un signe précoce de sepsis chez l'enfant, souvent associé à une hypotension tardive."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours accompagnée d'une fièvre élevée",
+            "justification": "L'hypotension n'est pas systématiquement accompagnée de fièvre élevée et peut survenir sans hyperthermie."
+          }
+        ]
+      }
+    }
+  ]
+}

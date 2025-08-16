@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755078614582_01",
+      "current_version_epoch_ms": 1755078614582,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant la durée et la temporalité des troubles liés au traumatisme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour le trouble stress aigu (TSA), la durée des symptômes du critère B est comprise entre 3 jours et 1 mois après l'exposition.",
+            "justification": "Le critère C du TSA précise une durée de 3 jours à 1 mois après le traumatisme."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour le trouble stress post-traumatique (TSPT), la perturbation (critères B, C, D, E) dure plus d'un mois.",
+            "justification": "Le critère F du TSPT exige une durée supérieure à un mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Un tableau durant moins de 3 jours suffit pour poser un TSA.",
+            "justification": "Le TSA requiert au minimum 3 jours de symptômes (critère C)."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée supérieure à un mois exclut le diagnostic de TSPT.",
+            "justification": "Au contraire, le TSPT nécessite une durée > 1 mois (critère F)."
+          },
+          {
+            "correct": false,
+            "proposition": "Un TSPT peut être diagnostiqué si la symptomatologie cesse avant 1 mois.",
+            "justification": "Le TSPT exige une durée au-delà d'un mois (critère F)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755078614582_02",
+      "current_version_epoch_ms": 1755078614582,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "À propos du critère B du TSA, reconnaître les éléments requis et leur catégorisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le TSA requiert au moins neuf symptômes parmi les cinq catégories listées.",
+            "justification": "Le critère B du TSA demande neuf symptômes ou plus, provenant de n'importe laquelle des cinq catégories."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces neuf symptômes doivent obligatoirement comprendre au moins un élément de chaque catégorie.",
+            "justification": "Il est précisé qu'ils peuvent provenir de n'importe laquelle des catégories, sans obligation d'en couvrir chacune."
+          },
+          {
+            "correct": true,
+            "proposition": "L'altération de la perception de la réalité appartient aux symptômes dissociatifs du TSA.",
+            "justification": "Dans le TSA, les symptômes dissociatifs incluent l'altération de la perception de la réalité (catégorie « symptômes dissociatifs »)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypervigilance, difficultés de concentration et réaction de sursaut exagérée relèvent des symptômes d'éveil du TSA.",
+            "justification": "Ces items figurent dans la catégorie « symptômes d'éveil » du TSA."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un évitement est obligatoire pour poser un TSA.",
+            "justification": "Le TSA requiert neuf symptômes au total, quelle que soit la répartition; l'évitement n'est pas obligatoire si le seuil est atteint autrement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755078614582_03",
+      "current_version_epoch_ms": 1755078614582,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Classer le nombre minimal de manifestations requises par cluster dans le TSPT (DSM-5).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins un symptôme envahissant est requis.",
+            "justification": "Le critère B du TSPT demande un ou plusieurs symptômes envahissants."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins une manifestation d'évitement est requise.",
+            "justification": "Le critère C du TSPT exige une des deux manifestations d'évitement au minimum."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins deux altérations négatives des cognitions et de l'humeur sont requises.",
+            "justification": "Le critère D du TSPT en demande deux ou plus."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins deux altérations de l'éveil et de la réactivité sont requises.",
+            "justification": "Le critère E du TSPT en demande deux ou plus."
+          },
+          {
+            "correct": false,
+            "proposition": "Un minimum de trois symptômes d'évitement est nécessaire.",
+            "justification": "Le critère C précise une ou deux manifestations d'évitement; trois ne sont pas exigées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755078614582_04",
+      "current_version_epoch_ms": 1755078614582,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités d'exposition admises au critère A (communes au TSA et au TSPT).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exposition directe à un ou plusieurs évènements traumatiques.",
+            "justification": "Figure explicitement parmi les modalités du critère A."
+          },
+          {
+            "correct": true,
+            "proposition": "Témoin direct d'évènements traumatiques survenus à d'autres.",
+            "justification": "Listé dans le critère A."
+          },
+          {
+            "correct": true,
+            "proposition": "Apprendre qu'un évènement traumatique est arrivé à un membre de la famille proche ou à un ami.",
+            "justification": "Listé dans le critère A."
+          },
+          {
+            "correct": true,
+            "proposition": "Exposition répétée ou extrême aux caractéristiques aversives des évènements (ex. intervenants de première ligne, policiers).",
+            "justification": "Listé dans le critère A."
+          },
+          {
+            "correct": false,
+            "proposition": "Consulter des images traumatiques dans les médias sans lien professionnel suffit.",
+            "justification": "Cette modalité n'est pas mentionnée parmi les quatre voies d'exposition décrites."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755078614582_05",
+      "current_version_epoch_ms": 1755078614582,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier les critères additionnels communs et spécifiques aux TSA et TSPT.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les deux troubles exigent une détresse cliniquement significative ou une altération du fonctionnement.",
+            "justification": "TSA: critère D; TSPT: critère G."
+          },
+          {
+            "correct": true,
+            "proposition": "Les deux troubles exigent que la perturbation ne soit pas imputable aux effets d'une substance ou d'une affection médicale.",
+            "justification": "TSA: critère E; TSPT: critère H."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour le TSA, il est précisé que le tableau ne doit pas être mieux expliqué par un trouble psychotique bref.",
+            "justification": "Mention explicite dans le critère E du TSA."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le TSPT, la présence d'un comportement irréfléchi ou autodestructeur est un critère obligatoire.",
+            "justification": "Ce comportement fait partie des altérations de l'éveil (critère E) parmi d'autres manifestations; il n'est pas obligatoire en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le TSA, l'humeur négative n'entre pas dans les catégories de symptômes.",
+            "justification": "Le TSA inclut une catégorie « humeur négative » (incapacité persistante d'éprouver des émotions positives)."
+          }
+        ]
+      }
+    }
+  ]
+}

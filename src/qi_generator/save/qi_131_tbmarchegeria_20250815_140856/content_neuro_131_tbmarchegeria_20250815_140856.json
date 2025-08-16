@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755259943136_01",
+      "current_version_epoch_ms": 1755259943136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les étiologies les plus probables d'une astasie-abasie au démarrage de la marche chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte frontale",
+            "justification": "L'astasie-abasie au début de la marche est décrite comme d'origine frontale."
+          },
+          {
+            "correct": true,
+            "proposition": "Lésions lacunaires",
+            "justification": "Une origine lacunaire est rapportée pour l'astasie-abasie de démarrage."
+          },
+          {
+            "correct": true,
+            "proposition": "Hydrocéphalie à pression normale",
+            "justification": "L'hydrocéphalie à pression normale est associée à l'astasie-abasie de démarrage."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte vestibulaire",
+            "justification": "L'atteinte vestibulaire donne une marche ataxique latéralisée et/ou en étoile, pas une astasie-abasie de démarrage."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte cérébelleuse",
+            "justification": "L'atteinte cérébelleuse entraîne une marche ataxique pseudo-ébrieuse, différente de l'astasie-abasie de démarrage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259943136_02",
+      "current_version_epoch_ms": 1755259943136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques d'une marche parkinsonienne chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte du ballant des bras",
+            "justification": "La marche parkinsonienne comporte une perte du ballant des bras."
+          },
+          {
+            "correct": true,
+            "proposition": "Petits pas lents",
+            "justification": "Elle est décrite comme lente, à petits pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Fauchage du membre inférieur",
+            "justification": "Le fauchage correspond à une marche spastique d'origine pyramidale unilatérale, pas parkinsonienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Freezing avec blocage à l'initiation",
+            "justification": "Le freezing et l'enrayage cinétique font partie des signes de la marche parkinsonienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Steppage franc",
+            "justification": "Le steppage traduit une marche parétique d'origine L4-L5 ou SPE, non une marche parkinsonienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259943136_03",
+      "current_version_epoch_ms": 1755259943136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Concernant les marches ataxiques du sujet âgé, identifier les associations correctes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Marche ataxique latéralisée et/ou en étoile → origine vestibulaire",
+            "justification": "La marche ataxique latéralisée/en étoile est d'origine vestibulaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche ataxique pseudo-ébrieuse → origine cérébelleuse",
+            "justification": "La marche pseudo-ébrieuse est attribuée à une atteinte cérébelleuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche ataxique talonnante → origine proprioceptive",
+            "justification": "La marche talonnante est décrite comme d'origine proprioceptive."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche dandinante → origine ataxique",
+            "justification": "La marche dandinante est une marche parétique d'origine pelvienne, pas une ataxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Steppage → origine cérébelleuse",
+            "justification": "Le steppage relève d'une atteinte L4-L5 ou du SPE, non cérébelleuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259943136_04",
+      "current_version_epoch_ms": 1755259943136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer correctement les troubles spastiques de la marche chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fauchage unilatéral → atteinte pyramidale unilatérale",
+            "justification": "La marche spastique avec fauchage est d'origine pyramidale unilatérale."
+          },
+          {
+            "correct": true,
+            "proposition": "Spasticité spasmodique bilatérale → atteinte pyramidale bilatérale",
+            "justification": "La marche spastique spasmodique est d'origine pyramidale bilatérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Steppage → trouble spastique",
+            "justification": "Le steppage traduit une marche parétique (L4-L5 ou SPE), pas un trouble spastique."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche dandinante → trouble spastique bilatéral",
+            "justification": "La marche dandinante est d'origine pelvienne (parésie proximale), non spastique."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche talonnante → spasticité pyramidale",
+            "justification": "La marche talonnante est une ataxie proprioceptive, pas un signe de spasticité pyramidale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259943136_05",
+      "current_version_epoch_ms": 1755259943136,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Chez un sujet âgé présentant une marche douloureuse avec périmètre de marche limité (claudication), quelles étiologies envisager en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Origine vasculaire de type AOMI",
+            "justification": "La marche claudicante douloureuse avec périmètre limité peut être d'origine vasculaire (AOMI)."
+          },
+          {
+            "correct": true,
+            "proposition": "Origine médullaire",
+            "justification": "Une origine médullaire est également rapportée pour une marche claudicante douloureuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Boiterie d'évitement ostéo-articulaire douloureuse",
+            "justification": "La boiterie d'évitement ostéo-articulaire est une autre entité, distincte de la claudication douloureuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Boiterie déficitaire neurologique",
+            "justification": "La boiterie déficitaire traduit une pathologie neurologique motrice, différente de la claudication douloureuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche apraxique liée à hydrocéphalie à pression normale",
+            "justification": "La marche apraxique (petits pas traînants collés au sol) est liée à une hydrocéphalie à pression normale, une atteinte frontale ou un hématome sous-dural, sans notion de claudication douloureuse."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TNC",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755264297108_01",
+      "current_version_epoch_ms": 1755264297108,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Identifier parmi les lésions suivantes celles qui caractérisent la maladie d'Alzheimer (niveau histopathologique).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plaques amyloïdes extracellulaires composées de dépôts de peptides Aβ issus d'un clivage anormal de l'APP.",
+            "justification": "Lésions extracellulaires constituées de peptides amyloïdes Aβ dérivés d'un clivage anormal de la protéine précurseur APP."
+          },
+          {
+            "correct": true,
+            "proposition": "Dégénérescences neurofibrillaires intracellulaires faites principalement de protéine tau hyperphosphorylée.",
+            "justification": "Lésions intracellulaires dont le composant principal est la protéine tau hyperphosphorylée."
+          },
+          {
+            "correct": true,
+            "proposition": "Activation de la neuroinflammation (astrogliose et microgliose).",
+            "justification": "La maladie s'accompagne d'une activation gliale, incluant astrogliose et microgliose."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte neuronale au terme du processus lésionnel.",
+            "justification": "Une perte de neurones est décrite comme aboutissement des atteintes."
+          },
+          {
+            "correct": false,
+            "proposition": "Dégénérescences neurofibrillaires extracellulaires.",
+            "justification": "Ces dégénérescences sont décrites comme intracellulaires, non extracellulaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755264297108_02",
+      "current_version_epoch_ms": 1755264297108,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Différencier la localisation des principales lésions dans la maladie d'Alzheimer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les plaques amyloïdes sont des lésions extracellulaires.",
+            "justification": "Elles sont explicitement décrites comme extracellulaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Les plaques amyloïdes sont des lésions intracellulaires.",
+            "justification": "Leur localisation est extracellulaire, pas intracellulaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Les dégénérescences neurofibrillaires sont des lésions intracellulaires.",
+            "justification": "Elles siègent à l'intérieur des neurones."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dégénérescences neurofibrillaires sont des lésions extracellulaires.",
+            "justification": "Elles sont décrites comme intracellulaires."
+          },
+          {
+            "correct": true,
+            "proposition": "L'activation de la neuroinflammation correspond à une astrogliose et une microgliose.",
+            "justification": "La réponse inflammatoire impliquant astrocytes et microglie est explicitement mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755264297108_03",
+      "current_version_epoch_ms": 1755264297108,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Reconnaître la composition des lésions caractéristiques de la maladie d'Alzheimer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les plaques amyloïdes sont composées de peptides Aβ.",
+            "justification": "Elles résultent de dépôts de peptides amyloïdes Aβ."
+          },
+          {
+            "correct": true,
+            "proposition": "Les peptides Aβ proviennent du clivage anormal de l'APP.",
+            "justification": "L'origine des Aβ est un clivage anormal de la protéine précurseur APP."
+          },
+          {
+            "correct": true,
+            "proposition": "Les dégénérescences neurofibrillaires contiennent principalement de la protéine tau hyperphosphorylée.",
+            "justification": "La composante essentielle est la tau hyperphosphorylée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les plaques amyloïdes sont composées principalement de protéine tau hyperphosphorylée.",
+            "justification": "Les plaques sont constituées de peptides Aβ, pas de tau."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dégénérescences neurofibrillaires sont constituées de peptides Aβ.",
+            "justification": "Elles sont faites de tau hyperphosphorylée, non d'Aβ."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755264297108_04",
+      "current_version_epoch_ms": 1755264297108,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Identifier les conséquences cellulaires associées à la protéine tau hyperphosphorylée dans la maladie d'Alzheimer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La tau hyperphosphorylée perturbe le fonctionnement des microtubules.",
+            "justification": "Il est précisé que cette hyperphosphorylation altère les microtubules."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette altération retentit sur le transport intra-neuronal.",
+            "justification": "La perturbation des microtubules compromet le transport à l'intérieur du neurone."
+          },
+          {
+            "correct": false,
+            "proposition": "La tau hyperphosphorylée stabilise les microtubules.",
+            "justification": "L'effet décrit est l'inverse : une perturbation du fonctionnement des microtubules."
+          },
+          {
+            "correct": false,
+            "proposition": "La tau impliquée dans ces lésions est hypophosphorylée.",
+            "justification": "La forme impliquée est hyperphosphorylée, pas hypophosphorylée."
+          },
+          {
+            "correct": true,
+            "proposition": "La tau hyperphosphorylée constitue l'élément majeur des dégénérescences neurofibrillaires.",
+            "justification": "Ces dégénérescences sont composées essentiellement de tau hyperphosphorylée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755264297108_05",
+      "current_version_epoch_ms": 1755264297108,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Classer les affirmations relatives aux lésions associées chez les sujets de plus de 75 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La co-existence de lésions de pathologies différentes est fréquente après 75 ans.",
+            "justification": "Il est indiqué que cette co-existence est fréquente dans cette tranche d'âge."
+          },
+          {
+            "correct": true,
+            "proposition": "On peut retrouver des lésions d'Alzheimer associées à des lésions vasculaires ischémiques diffuses.",
+            "justification": "Les lésions vasculaires ischémiques diffuses sont citées parmi les associations possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Des lésions lacunaires peuvent co-exister avec des lésions caractéristiques d'Alzheimer.",
+            "justification": "Les lésions lacunaires sont mentionnées comme associations possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Des micro-hémorragies peuvent faire partie des lésions associées.",
+            "justification": "Les micro-hémorragies sont citées parmi les lésions retrouvées en co-existence."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de telles lésions associées exclut la maladie d'Alzheimer.",
+            "justification": "La co-existence est décrite comme fréquente et n'exclut pas le diagnostic."
+          }
+        ]
+      }
+    }
+  ]
+}

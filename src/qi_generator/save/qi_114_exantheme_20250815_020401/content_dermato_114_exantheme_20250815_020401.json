@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exantheme",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755216447813_01",
+      "current_version_epoch_ms": 1755216447813,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier le type d'éruption cutanée illustrée par l'illustration décrite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exanthème morbilliforme",
+            "justification": "La désignation « exanthème morbilliforme » est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème vésiculeux",
+            "justification": "Aucun qualificatif vésiculeux n'est indiqué ; seul le terme « morbilliforme » est cité."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème urticarien",
+            "justification": "Le qualificatif urticarien n'est pas mentionné ; la qualification fournie est « morbilliforme »."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème purpurique",
+            "justification": "Purpurique n'est pas indiqué ; la dénomination donnée est « morbilliforme »."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème papulo-nodulaire",
+            "justification": "Papulo-nodulaire n'est pas mentionné ; la catégorie précisée est « morbilliforme »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216447813_02",
+      "current_version_epoch_ms": 1755216447813,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier la nature de la ressource utilisée pour illustrer l'exanthème décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Photographie",
+            "justification": "La formulation précise « Photographie »."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie",
+            "justification": "Aucune modalité radiographique n'est indiquée ; il est précisé qu'il s'agit d'une photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Schéma",
+            "justification": "Il n'est pas fait état d'un schéma ; la ressource est une photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "Aucune IRM n'est mentionnée ; la ressource est photographique."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner",
+            "justification": "Aucun scanner n'est indiqué ; la ressource est une photographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216447813_03",
+      "current_version_epoch_ms": 1755216447813,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Reconnaître la référence associée à l'illustration de l'exanthème.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "OIC-114-19-A",
+            "justification": "Cette référence est explicitement accolée à la photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "ABC-2020-EX-01",
+            "justification": "Cette chaîne n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "REF-EXANT-007",
+            "justification": "Cette chaîne n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-114-19-B",
+            "justification": "La terminaison citée est « A », pas « B »."
+          },
+          {
+            "correct": false,
+            "proposition": "114-OIC-19",
+            "justification": "Cette permutation n'est pas fournie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216447813_04",
+      "current_version_epoch_ms": 1755216447813,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Classer l'élément qui suggère l'existence d'une seconde illustration de l'exanthème.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mention « Exanthème morbilliforme 2 »",
+            "justification": "La numérotation « 2 » signale une seconde vue."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence du mot « Photographie »",
+            "justification": "Le terme indique un format, pas une numérotation."
+          },
+          {
+            "correct": false,
+            "proposition": "La référence « OIC-114-19-A »",
+            "justification": "La référence se termine par « A », sans indice séquentiel chiffré."
+          },
+          {
+            "correct": false,
+            "proposition": "La répétition de « Exanthème morbilliforme » sans chiffre",
+            "justification": "Une répétition simple n'indique pas une seconde illustration."
+          },
+          {
+            "correct": false,
+            "proposition": "L'acronyme « OIC »",
+            "justification": "Il s'agit d'un identifiant, sans valeur numérotée de série."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216447813_05",
+      "current_version_epoch_ms": 1755216447813,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier le terme employé pour désigner l'éruption cutanée diffuse dans l'intitulé fourni.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exanthème",
+            "justification": "Le mot « Exanthème » est utilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Énanthème",
+            "justification": "Ce terme n'est pas utilisé dans l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème noueux",
+            "justification": "Cette entité n'est pas mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Vascularite cutanée",
+            "justification": "Ce diagnostic n'apparaît pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Purpura",
+            "justification": "Ce terme n'est pas cité."
+          }
+        ]
+      }
+    }
+  ]
+}

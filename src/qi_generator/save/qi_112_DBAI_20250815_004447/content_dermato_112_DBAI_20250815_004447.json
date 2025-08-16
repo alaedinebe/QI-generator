@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755211694647_01",
+      "current_version_epoch_ms": 1755211694647,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier les présentations cutanéo-muqueuses qui doivent faire évoquer une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lésions cutanées à type de bulles",
+            "justification": "La suspicion clinique repose notamment sur des bulles cutanées."
+          },
+          {
+            "correct": true,
+            "proposition": "Érosions post-bulleuses",
+            "justification": "Les érosions post-bulleuses figurent parmi les présentations qui doivent faire suspecter l'affection."
+          },
+          {
+            "correct": true,
+            "proposition": "Décollement en linge mouillé",
+            "justification": "Le décollement en linge mouillé est un signe clinique d'orientation."
+          },
+          {
+            "correct": true,
+            "proposition": "Plaques urticariennes",
+            "justification": "Des plaques urticariennes peuvent faire évoquer une dermatose bulleuse auto-immune."
+          },
+          {
+            "correct": false,
+            "proposition": "Macules pigmentées isolées",
+            "justification": "Cette présentation n'appartient pas aux lésions décrites comme suggestives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211694647_02",
+      "current_version_epoch_ms": 1755211694647,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Définir les modalités de confirmation diagnostique d'une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Deux biopsies cutanées sont réalisées : une pour l'histologie standard et une pour l'immunofluorescence directe",
+            "justification": "La confirmation passe par deux biopsies dédiées, histologie et immunofluorescence directe."
+          },
+          {
+            "correct": false,
+            "proposition": "Une unique biopsie pour histologie suffit à confirmer",
+            "justification": "L'histologie seule ne permet pas la confirmation ; une immunofluorescence directe est requise."
+          },
+          {
+            "correct": true,
+            "proposition": "La confirmation repose sur un examen en immunofluorescence directe",
+            "justification": "L'immunofluorescence directe fait partie intégrante de la confirmation diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une prise de sang pour auto-anticorps suffit à confirmer",
+            "justification": "La confirmation décrite repose sur des biopsies cutanées avec immunofluorescence directe, pas sur une simple analyse sanguine."
+          },
+          {
+            "correct": false,
+            "proposition": "Un écouvillonnage cutané permet la confirmation",
+            "justification": "La procédure confirmatoire indiquée est la double biopsie avec analyse histologique et immunofluorescence directe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211694647_03",
+      "current_version_epoch_ms": 1755211694647,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître ce que permet et ne permet pas l'analyse histologique standard dans le bilan d'une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Distinguer un clivage intra-épidermique d'un clivage sous-épidermique",
+            "justification": "L'histologie permet de préciser le lieu de formation de la bulle dans la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Préciser le mécanisme de formation de la bulle",
+            "justification": "Il est indiqué que l'histologie ne précise pas le mécanisme de formation de la bulle."
+          },
+          {
+            "correct": true,
+            "proposition": "Faire partie des deux prélèvements nécessaires à la confirmation",
+            "justification": "La confirmation comprend une biopsie pour histologie en plus de l'immunofluorescence directe."
+          },
+          {
+            "correct": false,
+            "proposition": "Affirmer à elle seule la nature auto-immune de la dermatose",
+            "justification": "Ce rôle revient à l'immunofluorescence directe positive montrant des auto-anticorps au sein des lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "Être inutile si une immunofluorescence directe est prévue",
+            "justification": "Les deux examens sont réalisés : l'histologie pour le plan de clivage, l'immunofluorescence directe pour l'auto-immunité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211694647_04",
+      "current_version_epoch_ms": 1755211694647,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Interpréter correctement l'immunofluorescence directe (IFD) dans le diagnostic d'une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sa positivité, en mettant en évidence des auto-anticorps au sein des lésions, permet d'affirmer la nature auto-immune",
+            "justification": "La présence d'auto-anticorps en IFD confirme la nature auto-immune."
+          },
+          {
+            "correct": true,
+            "proposition": "Une IFD négative écarte le diagnostic de dermatose bulleuse auto-immune",
+            "justification": "Il est précisé que si l'IFD est négative, le diagnostic est écarté."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle précise le mécanisme de formation de la bulle",
+            "justification": "L'IFD sert à démontrer l'auto-immunité, pas à expliquer le mécanisme de formation de la bulle."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle remplace l'analyse histologique standard",
+            "justification": "Les deux examens sont complémentaires : histologie et IFD."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle se réalise sur une biopsie cutanée dédiée",
+            "justification": "Une biopsie spécifique est prévue pour l'immunofluorescence directe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211694647_05",
+      "current_version_epoch_ms": 1755211694647,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer les localisations muqueuses qui doivent faire évoquer une dermatose bulleuse auto-immune.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte buccale",
+            "justification": "Les érosions des muqueuses buccales font partie des présentations évocatrices."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte conjonctivale",
+            "justification": "Les érosions conjonctivales sont citées parmi les atteintes muqueuses à considérer."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte nasale",
+            "justification": "Les érosions des muqueuses nasales doivent faire évoquer le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte trachéale",
+            "justification": "Cette localisation n'est pas retenue parmi les atteintes muqueuses évoquées."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte laryngo-pharyngée",
+            "justification": "Les érosions laryngo-pharyngées comptent parmi les localisations muqueuses évocatrices."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755074684041_01",
+      "current_version_epoch_ms": 1755074684041,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, les diagnostics différentiels non psychiatriques de type cardiovasculaire à envisager.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome coronarien aigu",
+            "justification": "Fait partie des pathologies cardiovasculaires citées (avec HTA et troubles du rythme)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle (HTA)",
+            "justification": "Relève des pathologies cardiovasculaires listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du rythme",
+            "justification": "Appartient aux diagnostics différentiels cardiovasculaires indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme",
+            "justification": "Relève des pathologies respiratoires, pas cardiovasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Épilepsie",
+            "justification": "Relève des pathologies neurologiques, pas cardiovasculaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755074684041_02",
+      "current_version_epoch_ms": 1755074684041,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître, parmi les propositions, les diagnostics différentiels de nature neurologique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épilepsie",
+            "justification": "Fait partie des pathologies neurologiques listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Sclérose en plaques (SEP)",
+            "justification": "Relève des diagnostics différentiels neurologiques mentionnés."
+          },
+          {
+            "correct": true,
+            "proposition": "Migraine",
+            "justification": "Appartient aux affections neurologiques proposées comme différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "Accident ischémique transitoire",
+            "justification": "Figure parmi les diagnostics différentiels neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthyroïdie",
+            "justification": "Relève des étiologies endocriniennes, pas neurologiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755074684041_03",
+      "current_version_epoch_ms": 1755074684041,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Classer les situations liées aux substances pouvant mimer un tableau anxieux : identifier celles correspondant à une intoxication ou à un sevrage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amphétamines",
+            "justification": "Mentionné parmi les intoxications possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Cocaïne",
+            "justification": "Mentionnée parmi les intoxications possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Hallucinogènes",
+            "justification": "Fait partie des intoxications citées."
+          },
+          {
+            "correct": true,
+            "proposition": "Sevrage d'alcool",
+            "justification": "Relève des sevrages possibles (alcool)."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme",
+            "justification": "Relève des pathologies respiratoires, pas d'une intoxication ou d'un sevrage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755074684041_04",
+      "current_version_epoch_ms": 1755074684041,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, les étiologies endocriniennes à envisager en diagnostic différentiel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoglycémie",
+            "justification": "Figure parmi les causes endocriniennes citées."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète",
+            "justification": "Fait partie des étiologies endocriniennes listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysthyroïdie",
+            "justification": "Relève des causes endocriniennes proposées."
+          },
+          {
+            "correct": true,
+            "proposition": "Phéochromocytome",
+            "justification": "Mentionné parmi les étiologies endocriniennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble obsessionnel-compulsif (TOC)",
+            "justification": "Relève des autres troubles anxieux, pas d'une cause endocrinienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755074684041_05",
+      "current_version_epoch_ms": 1755074684041,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Différencier, parmi les propositions, les autres troubles anxieux à distinguer en diagnostic différentiel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble stress post-traumatique",
+            "justification": "Fait partie des autres troubles anxieux cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble de l'adaptation",
+            "justification": "Mentionné parmi les autres troubles anxieux."
+          },
+          {
+            "correct": true,
+            "proposition": "TP",
+            "justification": "Figure explicitement parmi les autres troubles anxieux (TP et TOC)."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble obsessionnel-compulsif (TOC)",
+            "justification": "Listé parmi les autres troubles anxieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie",
+            "justification": "Relève des pathologies respiratoires, pas d'un trouble anxieux."
+          }
+        ]
+      }
+    }
+  ]
+}

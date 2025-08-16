@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antalgie",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755273835807_01",
+      "current_version_epoch_ms": 1755273835807,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Identifier les indications validées (niveau de preuve élevé) des antiépileptiques à visée antalgique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gabapentine est indiquée dans les douleurs neuropathiques.",
+            "justification": "Les gabapentinoïdes, dont la gabapentine, sont indiqués dans les douleurs neuropathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La prégabaline est indiquée dans les douleurs neuropathiques.",
+            "justification": "La prégabaline fait partie des gabapentinoïdes indiqués dans les douleurs neuropathiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La carbamazépine est indiquée dans la névralgie essentielle du trijumeau.",
+            "justification": "La névralgie essentielle du trijumeau relève de la carbamazépine (et de l'oxcarbazépine)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxcarbazépine est indiquée dans le traitement de fond de la migraine.",
+            "justification": "Le traitement de fond de la migraine relève du topiramate, pas de l'oxcarbazépine."
+          },
+          {
+            "correct": true,
+            "proposition": "Le topiramate est indiqué en traitement de fond de la migraine.",
+            "justification": "Le topiramate est cité comme traitement de fond validé de la migraine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273835807_02",
+      "current_version_epoch_ms": 1755273835807,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Reconnaître les mécanismes d'action des antiépileptiques utilisés à visée antalgique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gabapentine se lie à une sous-unité des canaux calciques voltage-dépendants, diminuant la libération de neurotransmetteurs excitateurs.",
+            "justification": "Les gabapentinoïdes se lient à une sous-unité des canaux calciques VD et réduisent la libération de neurotransmetteurs excitateurs."
+          },
+          {
+            "correct": false,
+            "proposition": "La prégabaline bloque directement les canaux sodiques voltage-dépendants.",
+            "justification": "La prégabaline agit sur une sous-unité des canaux calciques, pas sur les canaux sodiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La carbamazépine agit comme bloqueur des canaux sodiques voltage-dépendants.",
+            "justification": "La carbamazépine est classée parmi les bloqueurs des canaux sodiques VD."
+          },
+          {
+            "correct": true,
+            "proposition": "Le topiramate réduit la libération de glutamate.",
+            "justification": "Le topiramate réduit la libération de glutamate et possède des propriétés stabilisantes de l'humeur."
+          },
+          {
+            "correct": true,
+            "proposition": "Les gabapentinoïdes ont des propriétés anxiolytiques et sur le sommeil.",
+            "justification": "Les propriétés anxiolytiques et sur le sommeil sont rapportées pour gabapentine et prégabaline."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273835807_03",
+      "current_version_epoch_ms": 1755273835807,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Identifier les effets indésirables et interactions des antiépileptiques à visée antalgique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Somnolence et vertiges sont des effets fréquents sous gabapentine ou prégabaline.",
+            "justification": "Somnolence et vertiges sont rapportés pour les gabapentinoïdes."
+          },
+          {
+            "correct": true,
+            "proposition": "L'association gabapentinoïdes et opioïdes peut aggraver le risque de dépression respiratoire.",
+            "justification": "Une aggravation du risque de dépression respiratoire a été rapportée avec cette association."
+          },
+          {
+            "correct": false,
+            "proposition": "Les gabapentinoïdes présentent de nombreuses interactions pharmacologiques.",
+            "justification": "Aucune interaction pharmacologique n'est signalée pour gabapentine et prégabaline."
+          },
+          {
+            "correct": true,
+            "proposition": "La carbamazépine et l'oxcarbazépine peuvent réduire l'efficacité des contraceptifs oraux par effet inducteur enzymatique.",
+            "justification": "Un effet inducteur enzymatique est décrit, réduisant l'effet des contraceptifs oraux."
+          },
+          {
+            "correct": true,
+            "proposition": "Le topiramate peut entraîner anorexie et paresthésies.",
+            "justification": "Anorexie et paresthésies figurent parmi les effets indésirables du topiramate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273835807_04",
+      "current_version_epoch_ms": 1755273835807,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Classer les principales contre-indications des antiépileptiques à visée antalgique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'insuffisance rénale sévère contre-indique la gabapentine et la prégabaline.",
+            "justification": "Ces molécules nécessitent une réduction posologique en insuffisance rénale et l'insuffisance rénale sévère est indiquée comme contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Un bloc auriculo-ventriculaire contre-indique la carbamazépine.",
+            "justification": "Un effet cardiaque de type bloc auriculo-ventriculaire est signalé et constitue une contre-indication."
+          },
+          {
+            "correct": true,
+            "proposition": "Un antécédent de calcul rénal constitue une contre-indication au topiramate.",
+            "justification": "Le topiramate, via son effet sur l'anhydrase carbonique, est contre-indiqué en cas de calcul rénal."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse et allaitement sont des contre-indications pour ces médicaments.",
+            "justification": "Grossesse et allaitement figurent parmi les contre-indications principales."
+          },
+          {
+            "correct": false,
+            "proposition": "Les enfants de moins de 6 ans peuvent recevoir carbamazépine et oxcarbazépine.",
+            "justification": "Moins de 6 ans est mentionné comme contre-indication pour carbamazépine et oxcarbazépine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273835807_05",
+      "current_version_epoch_ms": 1755273835807,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Reconnaître les principes de prescription et les causes d'échec des antiépileptiques à visée antalgique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Commencer à faible posologie puis augmenter progressivement afin de limiter les effets indésirables.",
+            "justification": "Il est recommandé de débuter bas et titrer progressivement."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer du risque lié à la conduite automobile, particulièrement à l'initiation.",
+            "justification": "Un avertissement concernant la conduite est requis, surtout en début de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dépistage d'un mésusage ou d'un abus de gabapentinoïdes est inutile.",
+            "justification": "Il est demandé de rechercher un mésusage/abus avant prescription et à chaque renouvellement."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'insuffisance rénale, il convient d'augmenter les doses de gabapentine/prégabaline.",
+            "justification": "En insuffisance rénale, il faut au contraire réduire les doses des gabapentinoïdes."
+          },
+          {
+            "correct": true,
+            "proposition": "Une cause fréquente d'échec est l'absence de titration ou une augmentation trop rapide provoquant des effets indésirables.",
+            "justification": "Les échecs sont liés à des doses trop faibles sans titration ou à une augmentation trop rapide induisant des effets indésirables."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755341348305_01",
+      "current_version_epoch_ms": 1755341348305,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt principal de la réalisation d'une bandelette urinaire (BU) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de confirmer le diagnostic d'infection urinaire (IU) chez un patient symptomatique.",
+            "justification": "La BU est utilisée pour orienter vers un diagnostic d'IU, notamment chez les patients symptomatiques, mais elle ne fait que confirmer un diagnostic clinique déjà évoqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de diagnostiquer définitivement une infection urinaire chez tous les patients.",
+            "justification": "La BU n'a aucune valeur diagnostique définitive, elle est un examen d'orientation et ne remplace pas un examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être systématiquement pratiquée chez tous les patients suspectés d'IU.",
+            "justification": "La BU ne doit être réalisée que dans le cadre d'une suspicion d'IU communautaire, et non chez tous les patients suspectés d'IU."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de diagnostiquer l'IU chez les patients porteurs de matériel endo-urinaire.",
+            "justification": "La BU n'a aucune valeur chez les patients porteurs de matériel endo-urinaire, car la leucocyturie et l'hématurie sont quasi systématiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de diagnostiquer une IU sans tenir compte du contexte clinique.",
+            "justification": "L'interprétation de la BU doit toujours se faire en tenant compte du contexte clinique du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341348305_02",
+      "current_version_epoch_ms": 1755341348305,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelle condition est nécessaire à la détection des nitrites par une bandelette urinaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de nitrates dans l'alimentation et la présence d'une bactérie porteuse de nitrate réductase.",
+            "justification": "La détection des nitrites par la BU nécessite des nitrates provenant de l'alimentation et une bactérie capable de les réduire en nitrites, comme les entérobactéries."
+          },
+          {
+            "correct": false,
+            "proposition": "La seule présence de leucocytes dans les urines.",
+            "justification": "La détection des nitrites dépend des nitrates et des bactéries réductrices de nitrate, pas de la leucocyturie."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une hématurie.",
+            "justification": "La présence d'hématurie n'est pas liée à la détection des nitrites, qui est associée à la présence de nitrates et de bactéries spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise d'antibiotiques par le patient.",
+            "justification": "Certains antibiotiques peuvent interférer avec les réactifs de la BU, mais ils ne sont pas nécessaires pour la détection des nitrites."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de cristaux dans les urines.",
+            "justification": "La détection des nitrites n'a aucun lien avec la présence de cristaux dans les urines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341348305_03",
+      "current_version_epoch_ms": 1755341348305,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quand la bandelette urinaire (BU) peut-elle avoir une valeur prédictive négative (VPN) excellente ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez un patient asymptomatique.",
+            "justification": "Chez un patient asymptomatique, la VPN de la BU est excellente, car elle confirme l'absence d'IU chez un patient sans symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient symptomatique.",
+            "justification": "Chez un patient symptomatique, la valeur prédictive positive (VPP) est plus importante que la VPN. La BU sert surtout à confirmer un diagnostic clinique déjà posé."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient porteur de matériel endo-urinaire.",
+            "justification": "La BU ne doit pas être utilisée chez les patients porteurs de matériel endo-urinaire, car la leucocyturie et l'hématurie sont souvent présentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient diabétique.",
+            "justification": "Chez les patients diabétiques, la BU peut être positive sans que cela n'indique nécessairement une IU, rendant la VPN moins fiable."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient présentant une bactériurie asymptomatique.",
+            "justification": "La présence de bactériurie asymptomatique ne doit pas être interprétée comme une IU en l'absence de symptômes cliniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341348305_04",
+      "current_version_epoch_ms": 1755341348305,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Pourquoi la bandelette urinaire (BU) a-t-elle une valeur prédictive positive (VPP) excellente chez les patients symptomatiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parce qu'elle confirme ce que l'examen clinique a déjà diagnostiqué.",
+            "justification": "Chez les patients symptomatiques, la BU sert surtout à confirmer un diagnostic d'IU qui a déjà été suspecté cliniquement, d'où sa VPP excellente."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'elle permet de poser un diagnostic d'IU indépendamment des symptômes cliniques.",
+            "justification": "La BU ne permet pas de poser un diagnostic indépendant des symptômes cliniques. Elle est utilisée pour confirmer un diagnostic clinique déjà évoqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'elle peut isoler les bactéries responsables de l'IU.",
+            "justification": "La BU n'est pas un test microbiologique et ne permet pas d'isoler des bactéries. Elle détecte uniquement la présence de nitrites et d'autres paramètres suggestifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'elle détecte toutes les infections urinaires, qu'elles soient bactériennes ou virales.",
+            "justification": "La BU détecte les infections urinaires bactériennes, mais pas les infections virales, et elle doit toujours être interprétée dans un contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'elle détecte systématiquement la leucocyturie et l'hématurie.",
+            "justification": "La BU peut détecter la leucocyturie et l'hématurie, mais ces éléments sont plus fréquents chez les patients avec matériel endo-urinaire et ne permettent pas toujours d'orienter vers une IU."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341348305_05",
+      "current_version_epoch_ms": 1755341348305,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quand la bandelette urinaire (BU) est-elle inutile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez les patients porteurs de matériel endo-urinaire.",
+            "justification": "La BU est inutile chez les patients avec matériel endo-urinaire, car la leucocyturie et l'hématurie sont quasi systématiques et peuvent fausser l'interprétation."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients asymptomatiques sans facteur de risque.",
+            "justification": "Chez les patients asymptomatiques, la BU peut avoir une excellente valeur prédictive négative et n'est pas inutile."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients symptomatiques, si les symptômes sont légers.",
+            "justification": "Chez les patients symptomatiques, la BU peut être utile pour confirmer le diagnostic d'IU."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients avec diabète sans autres symptômes urinaires.",
+            "justification": "La BU peut être positive chez les patients diabétiques, mais cela ne signifie pas nécessairement une IU. Elle peut toujours être utile dans un contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients ayant pris des antibiotiques récemment.",
+            "justification": "La prise d'antibiotiques peut interférer avec la BU, mais cela ne rend pas l'examen inutile dans tous les cas."
+          }
+        ]
+      }
+    }
+  ]
+}

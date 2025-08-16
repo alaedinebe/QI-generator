@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "fievreaigue",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755292678470_01",
+      "current_version_epoch_ms": 1755292678470,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "En présence de signes de gravité chez un enfant fébrile, quelle est la conduite à tenir en urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hospitalisation avec investigations systématiques (hémoculture, BU, ECBU, NFS, CRP/PCT, PL facile)",
+            "justification": "En cas de signes de gravité, une hospitalisation est indispensable afin de débuter les investigations nécessaires pour évaluer la cause de la fièvre et traiter rapidement si nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement symptomatique à domicile sans examens complémentaires",
+            "justification": "En présence de signes de gravité, il est impératif d'hospitaliser l'enfant et de réaliser des examens complémentaires pour éviter des complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie probabiliste sans examen complémentaire",
+            "justification": "L'antibiothérapie n'est débutée qu'après avoir réalisé les examens nécessaires pour orienter le traitement, sauf en cas de suspicion claire de sepsis ou méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation clinique à domicile avec suivi à 48 heures",
+            "justification": "Les signes de gravité nécessitent une prise en charge hospitalière immédiate pour éviter toute aggravation de l'état de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Consultation pédiatrique en urgence sans examens complémentaires",
+            "justification": "Un examen clinique ne suffit pas dans ce cas. Des investigations systématiques doivent être réalisées pour déterminer l'origine de la fièvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292678470_02",
+      "current_version_epoch_ms": 1755292678470,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir devant une fièvre isolée chez un adulte avec un bilan clinique négatif au bout de 3 jours ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réévaluation clinique à 48h sans antibiotique si absence de foyer infectieux",
+            "justification": "En cas de bilan clinique négatif et de persistance de la fièvre après 3 jours, une réévaluation clinique est nécessaire sans débuter d'antibiothérapie à moins de signes cliniques de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Débuter une antibiothérapie sans réévaluation",
+            "justification": "Une antibiothérapie empirique n'est indiquée que si un foyer infectieux est identifié ou si des signes cliniques de gravité apparaissent."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une radiographie thoracique systématique",
+            "justification": "Une radiographie thoracique n'est pas systématiquement nécessaire en l'absence de symptômes respiratoires ou de signes cliniques évocateurs d'une infection pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander un scanner systématique",
+            "justification": "Le scanner n'est indiqué que dans des cas particuliers, souvent en fonction des symptômes cliniques, et non systématiquement pour une fièvre isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer une hydratation intraveineuse sans diagnostic",
+            "justification": "L'hydratation intraveineuse n'est pas une mesure systématique pour une fièvre isolée sans signe de déshydratation ou de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292678470_03",
+      "current_version_epoch_ms": 1755292678470,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quels examens complémentaires sont indiqués devant une fièvre isolée prolongée (>72h) chez un adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BU et éventuellement CRP/PCT, hémocultures selon le contexte",
+            "justification": "Une bandelette urinaire (BU) est indiquée pour détecter une infection urinaire et un dosage de CRP/PCT peut aider à différencier les étiologies bactériennes et virales. Les hémocultures sont également indiquées en l'absence de point d'appel évident."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire systématique",
+            "justification": "La ponction lombaire est réservée aux situations de suspicion de méningite ou de syndrome méningé, ce qui n'est pas systématiquement le cas dans une fièvre prolongée."
+          },
+          {
+            "correct": false,
+            "proposition": "Examens d'imagerie thoracique et abdominale systématiques",
+            "justification": "Les examens d'imagerie ne sont pratiqués que si un foyer infectieux spécifique est suspecté ou si les signes cliniques l'indiquent, et non de manière systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription d'antibiothérapie sans examens",
+            "justification": "L'antibiothérapie n'est débutée qu'après avoir réalisé les examens nécessaires pour orienter le traitement, et non avant."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation clinique à domicile sans examens complémentaires",
+            "justification": "Une fièvre prolongée chez un adulte nécessite des examens complémentaires pour identifier la cause sous-jacente, surtout si le bilan clinique reste négatif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292678470_04",
+      "current_version_epoch_ms": 1755292678470,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Chez l'enfant de moins de 6 semaines, quelle conduite est recommandée en cas de fièvre isolée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan systématique en milieu hospitalier et surveillance",
+            "justification": "Les nouveau-nés et nourrissons de moins de 6 semaines présentent un risque accru d'infections bactériennes, nécessitant un bilan systématique en milieu hospitalier."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement symptomatique à domicile",
+            "justification": "Le traitement symptomatique à domicile n'est pas recommandé en l'absence d'un diagnostic confirmé, car le risque de complication est élevé chez les très jeunes enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie empirique immédiate sans examens",
+            "justification": "L'antibiothérapie est débutée uniquement après la réalisation des examens nécessaires pour identifier une infection grave, sauf en cas de suspicion de sepsis ou de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Consultation en pédiatrie avec prescription d'antibiotiques sans investigation",
+            "justification": "Les investigations doivent être réalisées avant de commencer un traitement antibiotique systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance à domicile avec suivi à 48h",
+            "justification": "La surveillance à domicile n'est pas recommandée en raison du risque élevé de dégradation rapide de l'état clinique des nourrissons de moins de 6 semaines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292678470_05",
+      "current_version_epoch_ms": 1755292678470,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quel est l'examen complémentaire à réaliser chez un adulte présentant une fièvre avec syndrome méningé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire est l'examen clé pour confirmer un diagnostic de méningite et déterminer son étiologie en cas de syndrome méningé."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie thoracique n'est pas pertinente dans le cadre d'un syndrome méningé, sauf en cas de suspicion d'infection pulmonaire concomitante."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie abdominale n'est pas un examen de première intention pour un syndrome méningé. Elle peut être indiquée si des signes abdominaux spécifiques sont présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Numération des plaquettes",
+            "justification": "La numération des plaquettes est utile dans d'autres contextes cliniques, mais n'est pas spécifique à un syndrome méningé."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG n'est pas un examen utile pour un syndrome méningé, sauf en présence de signes cardiaques associés."
+          }
+        ]
+      }
+    }
+  ]
+}

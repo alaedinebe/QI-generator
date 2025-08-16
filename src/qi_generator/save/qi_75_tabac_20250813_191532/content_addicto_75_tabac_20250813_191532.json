@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755105538798_01",
+      "current_version_epoch_ms": 1755105538798,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier l'évolution du tabagisme quotidien entre 2017 et 2018.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il diminue (26,9% → 25,4%).",
+            "justification": "Le passage de 26,9% en 2017 à 25,4% en 2018 correspond à une baisse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il augmente (26,9% → 25,4%).",
+            "justification": "Une valeur qui passe de 26,9% à 25,4% traduit une diminution, pas une hausse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il reste stable, avec une variation ≤ 0,1 point.",
+            "justification": "La variation est de 1,5 point (26,9 à 25,4), supérieure à 0,1 point."
+          },
+          {
+            "correct": true,
+            "proposition": "Il diminue d'environ 1,5 point.",
+            "justification": "La différence entre 26,9% et 25,4% est de 1,5 point."
+          },
+          {
+            "correct": false,
+            "proposition": "Il diminue de plus de 5 points.",
+            "justification": "La baisse observée est de 1,5 point, donc nettement inférieure à 5 points."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105538798_02",
+      "current_version_epoch_ms": 1755105538798,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître l'évolution du tabagisme occasionnel entre 2017 et 2018.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il augmente (4,9% → 6,6%).",
+            "justification": "Le passage de 4,9% à 6,6% correspond à une hausse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il diminue (4,9% → 6,6%).",
+            "justification": "La valeur est plus élevée en 2018 qu'en 2017, ce qui traduit une augmentation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il reste stable, avec une variation < 0,5 point.",
+            "justification": "La variation est de 1,7 point (4,9 à 6,6), supérieure à 0,5 point."
+          },
+          {
+            "correct": true,
+            "proposition": "Il augmente d'environ 1,7 point.",
+            "justification": "La différence entre 6,6% et 4,9% est de 1,7 point."
+          },
+          {
+            "correct": false,
+            "proposition": "Il passe en dessous de 4%.",
+            "justification": "La valeur en 2018 est de 6,6%, au-dessus de 4%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105538798_03",
+      "current_version_epoch_ms": 1755105538798,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Interpréter la tendance du tabagisme global entre 2017 (31,8%) et 2018 (32%).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Légère augmentation.",
+            "justification": "Le pourcentage passe de 31,8% à 32%, soit une hausse."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution.",
+            "justification": "Les valeurs augmentent de 31,8% à 32%, ce n'est pas une baisse."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation d'environ 0,2 point.",
+            "justification": "La différence entre 32% et 31,8% est de 0,2 point."
+          },
+          {
+            "correct": false,
+            "proposition": "Variation supérieure à 1 point.",
+            "justification": "La variation est de 0,2 point, donc inférieure à 1 point."
+          },
+          {
+            "correct": false,
+            "proposition": "Stabilité stricte (31,8% inchangé).",
+            "justification": "La valeur 2018 est de 32%, différente de 31,8%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105538798_04",
+      "current_version_epoch_ms": 1755105538798,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer les évolutions relatives des sous-catégories de consommation entre 2017 et 2018.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le tabagisme quotidien est en baisse tandis que le tabagisme occasionnel est en hausse.",
+            "justification": "Quotidien : 26,9% → 25,4% (baisse) ; Occasionnel : 4,9% → 6,6% (hausse)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tabagisme quotidien et le tabagisme occasionnel évoluent dans le même sens.",
+            "justification": "L'un diminue (quotidien) quand l'autre augmente (occasionnel)."
+          },
+          {
+            "correct": true,
+            "proposition": "L'augmentation du tabagisme occasionnel est supérieure à 1 point de pourcentage.",
+            "justification": "Hausse de 4,9% à 6,6%, soit +1,7 point."
+          },
+          {
+            "correct": true,
+            "proposition": "La diminution du tabagisme quotidien est inférieure à 2 points.",
+            "justification": "Baisse de 26,9% à 25,4%, soit −1,5 point."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces évolutions aboutissent à une baisse nette du tabagisme global.",
+            "justification": "Le global passe de 31,8% à 32%, ce qui correspond à une légère hausse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105538798_05",
+      "current_version_epoch_ms": 1755105538798,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître les couples année/valeur exacts pour chaque modalité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En 2017, le tabagisme quotidien est à 26,9%.",
+            "justification": "La valeur 2017 du quotidien est indiquée à 26,9%."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2018, le tabagisme quotidien est à 25,4%.",
+            "justification": "La valeur 2018 du quotidien est indiquée à 25,4%."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2017, le tabagisme occasionnel est à 4,9%.",
+            "justification": "La valeur 2017 de l'occasionnel est indiquée à 4,9%."
+          },
+          {
+            "correct": false,
+            "proposition": "En 2018, le tabagisme global est à 31,8%.",
+            "justification": "La valeur 2018 du global est indiquée à 32%."
+          },
+          {
+            "correct": true,
+            "proposition": "En 2018, le tabagisme occasionnel est à 6,6%.",
+            "justification": "La valeur 2018 de l'occasionnel est indiquée à 6,6%."
+          }
+        ]
+      }
+    }
+  ]
+}

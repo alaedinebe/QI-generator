@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "chocseptique",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755334518389_01",
+      "current_version_epoch_ms": 1755334518389,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels éléments à l'anamnèse sont évocateurs d'une infection pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toux, douleur thoracique, dyspnée",
+            "justification": "Ces symptômes sont typiques des infections pulmonaires, notamment dans le cadre de pneumonies ou autres pathologies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur lombaire unilatérale",
+            "justification": "La douleur lombaire est davantage évocatrice d'une infection urinaire ou rénale, et non pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées, confusion",
+            "justification": "Les céphalées et confusion sont plutôt observées dans les infections neuro-méningées, pas dans les infections pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère",
+            "justification": "L'ictère est associé aux infections biliaires ou hépatiques, pas aux infections pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème, œdème",
+            "justification": "L'érythème et l'œdème sont plus typiques d'infections cutanées, et non d'infections pulmonaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755334518389_02",
+      "current_version_epoch_ms": 1755334518389,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quel est l'élément clinique évocateur d'une infection biliaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur en hypochondre droit",
+            "justification": "La douleur en hypochondre droit est un signe classique d'infection biliaire, notamment dans le cadre de cholécystites ou coliques biliaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique",
+            "justification": "La douleur thoracique est plus typique des infections pulmonaires ou cardiaques, et non des infections biliaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Cicatrice érythémateuse",
+            "justification": "Une cicatrice érythémateuse est associée aux infections du site opératoire, et non aux infections biliaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Signe de Babinski",
+            "justification": "Le signe de Babinski est un signe neurologique, pas un signe spécifique d'infection biliaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Ictère",
+            "justification": "L'ictère est un signe évocateur d'une infection biliaire, souvent en cas de cholécystite ou d'obstruction des voies biliaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755334518389_03",
+      "current_version_epoch_ms": 1755334518389,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels éléments à l'examen clinique sont caractéristiques d'une infection neuro-méningée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déficit neurologique focal, raideur de nuque",
+            "justification": "La raideur de nuque et les déficits neurologiques focaux sont des signes cliniques caractéristiques des infections neuro-méningées, comme la méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur à l'ébranlement lombaire",
+            "justification": "Ce signe est plus évocateur d'une infection urinaire ou rénale, et non d'une infection neuro-méningée."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de détresse respiratoire",
+            "justification": "Les signes de détresse respiratoire sont plus typiques des infections pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Cicatrice déhiscente",
+            "justification": "Une cicatrice déhiscente est un signe d'infection du site opératoire, pas d'infection neuro-méningée."
+          },
+          {
+            "correct": true,
+            "proposition": "Convulsions",
+            "justification": "Les convulsions sont souvent associées aux infections neuro-méningées, en particulier lorsqu'il y a une atteinte cérébrale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755334518389_04",
+      "current_version_epoch_ms": 1755334518389,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels éléments à l'anamnèse orientent vers une infection du site opératoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur aiguë post-opératoire",
+            "justification": "Une douleur anormale après une opération, surtout si elle est aiguë, est un signe évocateur d'une infection du site opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale et vomissements",
+            "justification": "Ces symptômes sont plus caractéristiques d'une infection intra-abdominale, et non d'une infection du site opératoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Cicatrice érythémateuse, déhiscente",
+            "justification": "Une cicatrice érythémateuse, déhiscente avec un écoulement est typique des infections du site opératoire, souvent associées à une mauvaise guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux et dyspnée",
+            "justification": "Les symptômes respiratoires sont plus évocateurs d'une infection pulmonaire, pas d'une infection du site opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "La détresse respiratoire aiguë est généralement associée à des infections pulmonaires ou cardiaques, pas à des infections du site opératoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755334518389_05",
+      "current_version_epoch_ms": 1755334518389,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels éléments à l'examen clinique sont évocateurs d'une endocardite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Souffle de régurgitation",
+            "justification": "Le souffle de régurgitation est un signe classique de l'endocardite, dû à l'atteinte des valves cardiaques."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur à l'ébranlement lombaire",
+            "justification": "La douleur à l'ébranlement lombaire est plus typique d'une infection rénale ou urinaire, pas d'une endocardite."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes cutanés (purpura, faux panaris)",
+            "justification": "Les signes cutanés comme le purpura et le faux panaris peuvent être observés dans les endocardites, en raison de l'embolie septique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère",
+            "justification": "L'ictère est plus évocateur d'une infection biliaire ou hépatique, et non d'une endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Erythème et œdème sous-cutanés",
+            "justification": "L'érythème et l'œdème sous-cutanés sont typiques des infections cutanées, pas de l'endocardite."
+          }
+        ]
+      }
+    }
+  ]
+}

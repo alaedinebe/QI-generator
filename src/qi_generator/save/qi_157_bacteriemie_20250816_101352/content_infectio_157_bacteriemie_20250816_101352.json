@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755332239084_01",
+      "current_version_epoch_ms": 1755332239084,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quels sont les éléments à prendre en compte pour évaluer le risque d'agent infectieux résistant chez un patient présentant une infection liée aux soins ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Durée d'hospitalisation",
+            "justification": "La durée d'hospitalisation est un facteur clé, car elle augmente le risque de développement de résistances en raison de l'exposition prolongée à des antibiotiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent de colonisation ou d'infection à un agent infectieux multi résistant",
+            "justification": "Les antécédents de colonisation ou d'infection par des agents résistants augmentent la probabilité de résistance en raison de la persistance des bactéries résistantes dans le microbiote."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression de sélection par antibiothérapie préalable (durée, spectre)",
+            "justification": "Une antibiothérapie antérieure, surtout si elle a été de longue durée ou à large spectre, favorise la sélection d'agents infectieux résistants."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement antirétroviral",
+            "justification": "Les traitements antirétroviraux ne sont pas spécifiquement liés au risque d'infection nosocomiale résistante, contrairement aux antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Alimentation par voie parentérale",
+            "justification": "Bien que l'alimentation parentérale soit une condition de soins, elle n'est pas directement liée au risque d'infection par des agents résistants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332239084_02",
+      "current_version_epoch_ms": 1755332239084,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la combinaison d'antibiotiques recommandée en cas de sepsis/choc septique sans foyer identifié dans le cadre d'une infection liée aux soins ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pipéracilline/tazobactam ou céfépime ou carbapénème + amikacine",
+            "justification": "Cette combinaison permet de couvrir une large gamme de bacilles Gram-négatif nosocomiaux, tout en étant adaptée à la gravité d'un sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine peut être ajoutée pour couvrir un staphylocoque résistant à la méticilline, en particulier en cas de suspicion de telles infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine + doxycycline",
+            "justification": "Bien que ces deux antibiotiques couvrent certains pathogènes, cette combinaison n'est pas recommandée dans le cadre d'un sepsis nosocomial, en raison de l'inefficacité contre les Gram-négatifs et certains staphylocoques."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline + acide clavulanique",
+            "justification": "Cette combinaison n'est pas assez large pour couvrir les bacilles Gram-négatifs nosocomiaux souvent responsables de sepsis dans un cadre hospitalier."
+          },
+          {
+            "correct": true,
+            "proposition": "Échinocandine",
+            "justification": "L'échinocandine peut être ajoutée en fonction du terrain et de la gravité, notamment pour couvrir des infections fongiques graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332239084_03",
+      "current_version_epoch_ms": 1755332239084,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est l'indication d'utilisation de vancomycine en antibiothérapie dans le cadre d'une infection liée aux soins ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Couverture d'un staphylocoque résistant à la méticilline",
+            "justification": "La vancomycine est efficace contre les staphylocoques résistants à la méticilline, qui sont fréquents dans les infections nosocomiales."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement des infections virales",
+            "justification": "La vancomycine n'est pas utilisée contre les infections virales. Elle est un antibiotique spécifique contre certaines bactéries Gram-positives."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévention de l'infection post-chirurgicale",
+            "justification": "Bien que la vancomycine soit utilisée dans certaines situations de prophylaxie, son usage dans la prévention post-chirurgicale n'est pas systématique pour toutes les infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement des infections fongiques",
+            "justification": "La vancomycine ne cible pas les infections fongiques, pour lesquelles des antifongiques spécifiques comme les échinocandines sont nécessaires."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas d'infection sévère à staphylocoques dans un contexte nosocomial",
+            "justification": "La vancomycine est le traitement de choix dans les infections sévères à staphylocoques résistants dans un environnement hospitalier."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332239084_04",
+      "current_version_epoch_ms": 1755332239084,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quels sont les risques associés à une hémodialyse chronique en termes d'infections nosocomiales résistantes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque accru d'infection à Staphylococcus aureus résistant à la méticilline",
+            "justification": "Les patients sous hémodialyse chronique sont particulièrement vulnérables aux infections à Staphylococcus aureus, surtout celles résistantes à la méticilline, en raison de l'exposition répétée aux dispositifs médicaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de colonisation par des entérocoques résistants",
+            "justification": "Bien que les entérocoques puissent être responsables d'infections, le risque associé à l'hémodialyse concerne davantage les staphylocoques résistants."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de mycoses cutanées graves",
+            "justification": "Bien que l'hémodialyse expose à certaines infections fongiques, les risques principaux sont les infections bactériennes, notamment celles à Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'infections à Escherichia coli résistants aux ß-lactamines",
+            "justification": "Bien qu'une résistance aux ß-lactamines puisse concerner Escherichia coli, ce n'est pas la principale préoccupation dans le cadre d'une hémodialyse chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque d'infection liée à la durée de vie du cathéter",
+            "justification": "Les cathéters utilisés en hémodialyse sont des points d'entrée pour les infections, augmentant le risque de bactériémies, notamment à Staphylococcus aureus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332239084_05",
+      "current_version_epoch_ms": 1755332239084,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Pourquoi la pression de sélection par antibiothérapie préalable est-elle un facteur de risque pour le développement de résistances ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle favorise la sélection d'agents infectieux résistants en raison de l'exposition prolongée aux antibiotiques",
+            "justification": "Une antibiothérapie antérieure, surtout à large spectre, sélectionne les bactéries résistantes en éliminant les souches sensibles et favorise leur propagation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de traiter rapidement les infections, réduisant ainsi le risque de résistance",
+            "justification": "L'usage rapide d'antibiotiques peut être bénéfique pour traiter une infection, mais une pression excessive ou mal ciblée augmente le risque de résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'a aucune influence sur le développement des résistances",
+            "justification": "La pression de sélection par antibiotérapie est précisément l'un des facteurs majeurs qui contribuent au développement des résistances."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle conduit à une modification du microbiote intestinal, favorisant la colonisation par des agents résistants",
+            "justification": "Les antibiotiques modifient le microbiote, permettant à des souches résistantes de se développer et de coloniser l'hôte."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de prévenir les infections nosocomiales",
+            "justification": "Bien que l'antibiothérapie puisse prévenir certaines infections, une pression excessive augmente le risque de développement de résistances."
+          }
+        ]
+      }
+    }
+  ]
+}

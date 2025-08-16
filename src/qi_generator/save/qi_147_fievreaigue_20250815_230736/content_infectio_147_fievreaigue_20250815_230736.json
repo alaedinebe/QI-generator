@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "fievreaigue",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755292263140_01",
+      "current_version_epoch_ms": 1755292263140,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quels signes cliniques sont indicatifs d'un sepsis chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Angoisse, agitation, syndrome confusionnel",
+            "justification": "Ces signes neurologiques sont caractéristiques d'une défaillance organique associée au sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression artérielle systolique ≤100 mm Hg",
+            "justification": "La baisse de la pression artérielle est un signe cardinal d'un sepsis grave chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque >100 bpm",
+            "justification": "Bien que la tachycardie puisse être présente, elle n'est pas spécifiquement un signe de sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "SaO2 <90%",
+            "justification": "L'hypoxie, mesurée par la saturation en oxygène, est un signe de gravité en sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée sans autres symptômes",
+            "justification": "La fièvre seule n'est pas un signe de sepsis mais peut décompenser une comorbidité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292263140_02",
+      "current_version_epoch_ms": 1755292263140,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quels critères indiquent un sepsis chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle",
+            "justification": "L'hypotension est un signe de gravité extrême chez l'enfant, associée à un sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "Marbrures et froideur des extrémités",
+            "justification": "Ces signes de défaillance circulatoire périphérique sont caractéristiques d'un sepsis chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque inférieure à 100 bpm",
+            "justification": "Une fréquence cardiaque faible n'est pas nécessairement un signe de sepsis chez l'enfant."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome méningé",
+            "justification": "Les signes neurologiques comme le syndrome méningé sont souvent associés à un sepsis chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre modérée sans autres symptômes",
+            "justification": "La fièvre seule, même si elle est présente, n'est pas un signe de sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292263140_03",
+      "current_version_epoch_ms": 1755292263140,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelles situations sont considérées comme urgentes devant une fièvre chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre chez un nourrisson de moins de 3 mois",
+            "justification": "Le nourrisson de moins de 3 mois présente un risque élevé d'infection grave en cas de fièvre."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre accompagnée d'une hépatomégalie",
+            "justification": "L'hépatomégalie chez un nourrisson est un signe de gravité extrême, souvent lié à une défaillance cardiaque ou au sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre sans altération de l'état général",
+            "justification": "Une fièvre isolée sans autres signes n'est pas considérée comme une urgence chez un nourrisson."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre chez un nourrisson de plus de 6 mois",
+            "justification": "Les nourrissons de plus de 6 mois ont un risque moins élevé d'infection grave comparé aux moins de 3 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre chez un nourrisson avec signes de déshydratation",
+            "justification": "La déshydratation est un signe de gravité, surtout chez les nourrissons, nécessitant une prise en charge rapide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292263140_04",
+      "current_version_epoch_ms": 1755292263140,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge initiale d'une hyperthermie maligne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Refroidissement rapide du patient",
+            "justification": "L'hyperthermie maligne nécessite une prise en charge urgente par refroidissement pour éviter des lésions irréversibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie large spectre",
+            "justification": "L'hyperthermie maligne n'est pas liée à une infection, l'antibiothérapie ne constitue donc pas un traitement initial."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt immédiat des médicaments favorisant l'hyperthermie",
+            "justification": "L'arrêt des médicaments, comme les neuroleptiques ou anesthésiques volatils, est crucial dans la gestion de l'hyperthermie maligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de liquide intraveineux à haute dose",
+            "justification": "Bien que l'hydratation soit importante, l'urgence réside d'abord dans la gestion thermique et l'arrêt des médicaments responsables."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie pour ablation des tissus lésés",
+            "justification": "L'hyperthermie maligne est une urgence thermique, et non une pathologie nécessitant une intervention chirurgicale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292263140_05",
+      "current_version_epoch_ms": 1755292263140,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique principale des crises fébriles chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survient généralement chez les enfants de 6 mois à 5 ans",
+            "justification": "Les crises fébriles sont courantes dans cette tranche d'âge, associées à un climat inflammatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Non directement liée à la fièvre mais au climat inflammatoire",
+            "justification": "Les crises fébriles sont causées par le climat inflammatoire plutôt que par la température elle-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours liées à une infection sévère",
+            "justification": "Les crises fébriles peuvent survenir sans infection sévère, particulièrement chez les enfants plus jeunes."
+          },
+          {
+            "correct": false,
+            "proposition": "Une crise fébrile prolongée est toujours synonyme de méningite",
+            "justification": "Bien que la méningite doive être évoquée en cas de signes graves, une crise fébrile isolée n'est pas en soi un signe de méningite."
+          },
+          {
+            "correct": true,
+            "proposition": "La gestion consiste généralement en un contrôle de la température et surveillance",
+            "justification": "La prise en charge des crises fébriles se concentre sur la gestion de la température et la surveillance sans traitement spécifique dans la plupart des cas."
+          }
+        ]
+      }
+    }
+  ]
+}

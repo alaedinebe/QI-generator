@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755070342220_01",
+      "current_version_epoch_ms": 1755070342220,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions suivantes, les indications formelles de recours au psychiatre (OIC-066-65-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble sévère",
+            "justification": "Fait partie des indications de recours au psychiatre."
+          },
+          {
+            "correct": true,
+            "proposition": "Comorbidité",
+            "justification": "La présence d'une comorbidité constitue une indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement",
+            "justification": "Une résistance au traitement justifie un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Relève des situations à risque spécifique (grossesse, post-partum) indiquant un recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Évolution favorable sous traitement, sans comorbidité",
+            "justification": "Ne correspond à aucune des indications listées (sévérité, comorbidité, résistance, grossesse/post-partum)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755070342220_02",
+      "current_version_epoch_ms": 1755070342220,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Patiente en post-partum présentant un trouble sévère avec symptômes persistants malgré un traitement instauré. Classer les éléments suivants selon qu'ils constituent ou non une indication de recours au psychiatre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Post-partum",
+            "justification": "Le post-partum est une situation à risque spécifique indiquant un recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement",
+            "justification": "La persistance des symptômes malgré le traitement correspond à une résistance, indication de recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble sévère",
+            "justification": "La sévérité du trouble justifie un avis spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de comorbidité",
+            "justification": "Ce critère n'est pas une indication en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Stabilité clinique sous traitement",
+            "justification": "La stabilité n'entre pas dans les indications listées ; ici, la situation décrite est au contraire non stabilisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755070342220_03",
+      "current_version_epoch_ms": 1755070342220,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Patient présentant un trouble non sévère mais associé à une comorbidité. Quelles propositions relèvent d'une indication de recours au psychiatre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Comorbidité",
+            "justification": "La comorbidité fait partie des indications de recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble sévère",
+            "justification": "La situation évoque un trouble non sévère ; la sévérité n'est pas l'argument retenu ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance au traitement",
+            "justification": "Aucune résistance n'est rapportée ; ce n'est donc pas l'indication pertinente."
+          },
+          {
+            "correct": false,
+            "proposition": "Grossesse",
+            "justification": "La grossesse n'est pas mentionnée dans cette situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Post-partum",
+            "justification": "Le post-partum n'est pas évoqué ; l'indication repose ici sur la comorbidité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755070342220_04",
+      "current_version_epoch_ms": 1755070342220,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Femme enceinte avec trouble d'intensité légère, répondant au traitement et sans comorbidité. Parmi les propositions suivantes, lesquelles justifient un recours au psychiatre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Relève des situations à risque spécifique justifiant un recours, indépendamment de la sévérité."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de comorbidité",
+            "justification": "Ne constitue pas une indication de recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance au traitement",
+            "justification": "La situation décrit une réponse au traitement, pas une résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Post-partum",
+            "justification": "Le cas concerne la grossesse, non le post-partum."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble sévère",
+            "justification": "Le trouble est décrit comme léger ; la sévérité n'est pas l'argument ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755070342220_05",
+      "current_version_epoch_ms": 1755070342220,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître, parmi les items suivants, ceux qui appartiennent à la catégorie « situation à risque spécifique » justifiant un recours au psychiatre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Fait partie des situations à risque spécifique indiquant un recours."
+          },
+          {
+            "correct": true,
+            "proposition": "Post-partum",
+            "justification": "Relève des situations à risque spécifique justifiant un recours."
+          },
+          {
+            "correct": false,
+            "proposition": "Comorbidité",
+            "justification": "Constitue une indication de recours, mais ne relève pas de la catégorie « situation à risque spécifique »."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble sévère",
+            "justification": "Est une indication de recours, mais distincte des situations à risque spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Résistance au traitement",
+            "justification": "Indication de recours, mais non classée parmi les situations à risque spécifique."
+          }
+        ]
+      }
+    }
+  ]
+}

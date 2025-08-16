@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "prurit",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755221423737_01",
+      "current_version_epoch_ms": 1755221423737,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Définir le prurit selon les attendus et en préciser une caractéristique clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prurit est une sensation qui provoque le besoin de se gratter.",
+            "justification": "Il s'agit d'un signe fonctionnel défini par la sensation induisant le besoin de se gratter."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit est une douleur cutanée qui s'atténue au froid.",
+            "justification": "La définition repose sur la sensation qui pousse à se gratter, sans notion de douleur ni de modulation thermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit est un signe objectif mesurable à l'examen clinique.",
+            "justification": "Il est décrit comme un signe fonctionnel, donc subjectif, et non un paramètre objectif mesurable."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit correspond à l'apparition de lésions cutanées spécifiques.",
+            "justification": "Le prurit est une sensation ; les lésions spécifiques relèvent des dermatoses et ne définissent pas le prurit lui-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit est nécessairement diffus et ne peut pas être localisé.",
+            "justification": "Il peut être localisé ou diffus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221423737_02",
+      "current_version_epoch_ms": 1755221423737,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant les caractéristiques générales du prurit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prurit peut être localisé ou diffus.",
+            "justification": "Cette variabilité de topographie est explicitement rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prurit est le plus souvent secondaire à une dermatose (psoriasis, eczéma, gale).",
+            "justification": "Il est précisé qu'il est le plus souvent secondaire à une dermatose, avec ces exemples."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit ne peut pas être lié à une gale.",
+            "justification": "La gale est citée parmi les dermatoses fréquemment responsables."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit implique toujours des lésions cutanées spécifiques.",
+            "justification": "Il peut exister sans lésion spécifique, notamment dans le cadre d'un prurit sine materia."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prurit est un signe fonctionnel.",
+            "justification": "Il est explicitement défini comme tel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221423737_03",
+      "current_version_epoch_ms": 1755221423737,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Différencier prurit sine materia et autres formes de prurit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prurit sine materia survient sans lésions cutanées spécifiques.",
+            "justification": "C'est l'élément central de sa définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans le prurit sine materia, des lésions de grattage peuvent être présentes.",
+            "justification": "Il est précisé que des lésions de grattage peuvent exister malgré l'absence de lésions spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit sine materia requiert la présence d'un eczéma.",
+            "justification": "La présence d'une dermatose avec lésions spécifiques n'est pas compatible avec la définition sine materia."
+          },
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de prurit sine materia n'est pas retenu s'il existe des lésions cutanées spécifiques.",
+            "justification": "La présence de lésions spécifiques contredit la définition sine materia."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit sine materia est défini par un déclenchement après contact avec l'eau.",
+            "justification": "Cette caractéristique définit au contraire le prurit aquagénique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221423737_04",
+      "current_version_epoch_ms": 1755221423737,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Reconnaître la définition du prurit aquagénique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prurit aquagénique est un prurit survenant après un contact avec l'eau.",
+            "justification": "C'est la définition donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit aquagénique nécessite un contact avec de l'eau chaude uniquement.",
+            "justification": "La définition ne conditionne pas la température de l'eau ; le critère est le contact avec l'eau."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit aquagénique peut être défini en l'absence de tout contact avec l'eau.",
+            "justification": "Le contact avec l'eau est constitutif de la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prurit aquagénique est défini par un facteur déclenchant plutôt que par des lésions cutanées spécifiques.",
+            "justification": "La définition repose sur le déclenchement par l'eau et non sur l'existence de lésions spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit aquagénique correspond à une dermatose spécifique.",
+            "justification": "Il est défini par le contexte de survenue (contact avec l'eau), pas par des lésions spécifiques de dermatose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221423737_05",
+      "current_version_epoch_ms": 1755221423737,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Classer les situations cliniques suivantes selon les définitions des différentes formes de prurit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prurit apparaissant systématiquement après contact avec l'eau : correspond à un prurit aquagénique.",
+            "justification": "Le déclenchement par l'eau définit le prurit aquagénique."
+          },
+          {
+            "correct": true,
+            "proposition": "Prurit sans lésion cutanée spécifique, avec possibles lésions de grattage : correspond à un prurit sine materia.",
+            "justification": "L'absence de lésion spécifique avec éventuelles lésions de grattage caractérise le sine materia."
+          },
+          {
+            "correct": false,
+            "proposition": "Prurit associé à des lésions typiques de psoriasis : correspond à un prurit sine materia.",
+            "justification": "La présence de lésions spécifiques n'est pas compatible avec le sine materia."
+          },
+          {
+            "correct": true,
+            "proposition": "Prurit lié à une dermatose telle qu'un eczéma ou une gale : correspond à un prurit secondaire à une dermatose.",
+            "justification": "Le prurit est le plus souvent secondaire à une dermatose, avec ces exemples cités."
+          },
+          {
+            "correct": false,
+            "proposition": "Prurit qui, par définition, ne peut jamais être localisé : correspond à la présentation usuelle.",
+            "justification": "Le prurit peut être localisé ou diffus."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbdecubitus",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755230113527_01",
+      "current_version_epoch_ms": 1755230113527,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Définir l'immobilisation selon OIC-120-01-A : sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle correspond à la perte de la station verticale associée à l'absence d'exercice.",
+            "justification": "Définition OIC-120-01-A : immobilisation = perte de la station verticale + absence d'exercice."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est définie par l'absence d'exercice, même si la station verticale est conservée.",
+            "justification": "La définition exige l'association des deux éléments ; l'absence d'exercice seule ne suffit pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle nécessite la perte de la station verticale, même si un exercice est maintenu.",
+            "justification": "La définition requiert aussi l'absence d'exercice ; la perte de la station verticale seule ne suffit pas."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence d'exercice exclut l'immobilisation.",
+            "justification": "L'immobilisation requiert l'absence d'exercice ; la présence d'exercice contredit cette condition."
+          },
+          {
+            "correct": true,
+            "proposition": "La conservation de la station verticale exclut l'immobilisation.",
+            "justification": "L'immobilisation requiert la perte de la station verticale ; sa conservation contredit cette condition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230113527_02",
+      "current_version_epoch_ms": 1755230113527,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Identifier les éléments nécessaires de l'immobilisation (OIC-120-01-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La perte de la station verticale est un élément nécessaire.",
+            "justification": "Elle fait partie de l'égalité définitoire : immobilisation = perte de la station verticale + absence d'exercice."
+          },
+          {
+            "correct": true,
+            "proposition": "L'absence d'exercice est un élément nécessaire.",
+            "justification": "Elle fait partie de l'égalité définitoire : immobilisation = perte de la station verticale + absence d'exercice."
+          },
+          {
+            "correct": false,
+            "proposition": "Chacun des deux éléments, pris isolément, suffit à définir l'immobilisation.",
+            "justification": "La définition impose l'association des deux éléments ; un seul ne suffit pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Les deux éléments doivent être présents simultanément.",
+            "justification": "La définition est une conjonction : perte de la station verticale + absence d'exercice."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins un des deux éléments suffit si l'autre manque.",
+            "justification": "La définition n'est pas satisfaite si l'un des deux éléments manque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230113527_03",
+      "current_version_epoch_ms": 1755230113527,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Reconnaître, parmi les combinaisons suivantes, celles qui définissent une immobilisation (OIC-120-01-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de la station verticale + absence d'exercice.",
+            "justification": "Correspond exactement à la définition : immobilisation = perte de la station verticale + absence d'exercice."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de la station verticale + exercice présent.",
+            "justification": "La présence d'exercice contredit l'exigence d'absence d'exercice."
+          },
+          {
+            "correct": false,
+            "proposition": "Station verticale conservée + absence d'exercice.",
+            "justification": "La conservation de la station verticale contredit l'exigence de perte de la station verticale."
+          },
+          {
+            "correct": false,
+            "proposition": "Station verticale conservée + exercice présent.",
+            "justification": "Aucun des deux éléments requis (perte de la station verticale ET absence d'exercice) n'est réuni."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'exercice + perte de la station verticale.",
+            "justification": "Ordre inversé mais mêmes éléments exigés par la définition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230113527_04",
+      "current_version_epoch_ms": 1755230113527,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Différencier conditions nécessaires et suffisantes pour l'immobilisation (OIC-120-01-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La perte de la station verticale est nécessaire.",
+            "justification": "Elle figure explicitement dans l'égalité définitoire."
+          },
+          {
+            "correct": true,
+            "proposition": "L'absence d'exercice est nécessaire.",
+            "justification": "Elle figure explicitement dans l'égalité définitoire."
+          },
+          {
+            "correct": false,
+            "proposition": "La perte de la station verticale est suffisante.",
+            "justification": "La suffisance exige aussi l'absence d'exercice selon la définition conjointe."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'exercice est suffisante.",
+            "justification": "La suffisance exige aussi la perte de la station verticale selon la définition conjointe."
+          },
+          {
+            "correct": true,
+            "proposition": "L'association des deux conditions est suffisante.",
+            "justification": "La conjonction (perte de la station verticale + absence d'exercice) définit l'immobilisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230113527_05",
+      "current_version_epoch_ms": 1755230113527,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Appliquer la définition d'immobilisation (OIC-120-01-A) : conséquences logiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si un exercice est présent, il n'y a pas immobilisation.",
+            "justification": "La définition requiert l'absence d'exercice ; sa présence exclut l'immobilisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Si la station verticale est conservée, il n'y a pas immobilisation.",
+            "justification": "La définition requiert la perte de la station verticale ; sa conservation exclut l'immobilisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'une des deux conditions manque, la définition n'est pas remplie.",
+            "justification": "La définition est conjonctive : les deux éléments doivent être réunis."
+          },
+          {
+            "correct": false,
+            "proposition": "Si une seule des deux conditions est présente, l'immobilisation est définie.",
+            "justification": "Un seul élément ne suffit pas ; la définition impose les deux."
+          },
+          {
+            "correct": true,
+            "proposition": "L'immobilisation est définie uniquement si les deux conditions sont présentes.",
+            "justification": "Définition OIC-120-01-A : perte de la station verticale + absence d'exercice."
+          }
+        ]
+      }
+    }
+  ]
+}

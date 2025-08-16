@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarche",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755200727551_01",
+      "current_version_epoch_ms": 1755200727551,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Identifier les éléments initiaux à documenter lors de l'interrogatoire devant un trouble de la marche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Noter la date de début des troubles.",
+            "justification": "La datation du début des troubles fait partie des informations à recueillir d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser le mode d'installation (brutal, progressif…).",
+            "justification": "Le mode d'installation est explicitement à caractériser lors de l'interrogatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Explorer la douleur et sa relation avec l'effort.",
+            "justification": "La plainte peut être une douleur dont le lien avec l'effort doit être précisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Recueillir le regard d'un tiers si nécessaire.",
+            "justification": "Certains troubles (ralentissement, perte du ballant d'un bras) sont mieux perçus par l'entourage."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer systématiquement la fréquence cardiaque de repos.",
+            "justification": "L'interrogatoire ciblé porte sur la datation, le mode d'installation, la plainte, la sévérité, les capacités fonctionnelles, les aides et les traitements ; la fréquence cardiaque de repos n'y figure pas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200727551_02",
+      "current_version_epoch_ms": 1755200727551,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments à rechercher pour caractériser la plainte principale et différencier les symptômes associés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Différencier une instabilité d'un vertige authentique.",
+            "justification": "L'instabilité doit être bien différenciée d'un vertige."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher des petits pas comme élément de la plainte.",
+            "justification": "Les petits pas sont mentionnés parmi les caractéristiques possibles de la plainte."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier une raideur comme élément pertinent.",
+            "justification": "La raideur fait partie des caractéristiques de la plainte principale."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer l'instabilité comme synonyme de vertige.",
+            "justification": "Il est explicitement demandé de différencier l'instabilité d'un vertige ; ce ne sont pas des synonymes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas explorer la douleur si elle n'est pas liée à l'effort.",
+            "justification": "La douleur fait partie de la plainte principale et son lien avec l'effort doit être exploré ; l'ignorer serait contraire aux attentes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200727551_03",
+      "current_version_epoch_ms": 1755200727551,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Classer les informations utiles pour évaluer la sévérité et l'impact sur l'autonomie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Documenter les chutes et « presque-chutes ».",
+            "justification": "Les chutes ou quasi-chutes participent à l'évaluation de la sévérité."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser les conséquences en termes de morbidité (traumatismes, fractures, hospitalisations).",
+            "justification": "Ces conséquences sont à recueillir pour qualifier la gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractériser les sorties du domicile : non accompagnées (avec ou sans transports en commun), accompagnées ou absence de sorties.",
+            "justification": "Le niveau d'autonomie est apprécié par les modalités de sorties."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les habitudes tabagiques pour coter la sévérité de la marche.",
+            "justification": "L'évaluation de sévérité attendue concerne chutes, morbidité et autonomie ; le tabagisme n'est pas un item listé ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Compter le nombre exact de marches au domicile.",
+            "justification": "Ce qui est attendu est la capacité à monter ou descendre un escalier, non le décompte des marches."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200727551_04",
+      "current_version_epoch_ms": 1755200727551,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Reconnaître les items relatifs aux capacités fonctionnelles et à l'usage d'aides techniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer la capacité à monter un escalier (force).",
+            "justification": "Monter un escalier renseigne sur la force."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer la capacité à descendre un escalier (équilibre).",
+            "justification": "Descendre un escalier renseigne sur l'équilibre."
+          },
+          {
+            "correct": true,
+            "proposition": "Déterminer le périmètre de marche.",
+            "justification": "Le périmètre de marche fait partie de l'évaluation fonctionnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser l'utilisation d'une canne, d'un fauteuil roulant ou d'un déambulateur, et la nécessité d'une aide humaine.",
+            "justification": "L'usage d'aides techniques et la nécessité d'une aide humaine doivent être précisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher prioritairement des allergies alimentaires.",
+            "justification": "Les items attendus portent sur capacités, périmètre, aides et aide humaine ; les allergies alimentaires n'en font pas partie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200727551_05",
+      "current_version_epoch_ms": 1755200727551,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Identifier les facteurs iatrogènes et cognitifs à explorer lors de l'interrogatoire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Établir la liste complète des médicaments pris.",
+            "justification": "La liste des médicaments doit être connue intégralement."
+          },
+          {
+            "correct": true,
+            "proposition": "Reconnaître que les médicaments sont un premier facteur de risque de chutes du sujet âgé.",
+            "justification": "Les traitements médicamenteux sont indiqués comme premier facteur de risque de chutes chez le sujet âgé."
+          },
+          {
+            "correct": true,
+            "proposition": "Apprécier les capacités cognitives du sujet.",
+            "justification": "L'évaluation des capacités cognitives est à intégrer à l'interrogatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser la nécessité d'une aide humaine pour les gestes de la vie quotidienne.",
+            "justification": "La nécessité d'une aide humaine fait partie des informations à recueillir."
+          },
+          {
+            "correct": false,
+            "proposition": "Exiger un dosage biologique systématique (ex. vitamine D) lors de l'interrogatoire.",
+            "justification": "L'approche attendue est interrogatoire-centrée (médicaments, cognition, autonomie) sans examen biologique systématique cité."
+          }
+        ]
+      }
+    }
+  ]
+}

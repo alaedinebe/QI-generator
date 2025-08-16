@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SEP",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755189547631_01",
+      "current_version_epoch_ms": 1755189547631,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Identifier les éléments du bilan à réaliser en urgence devant une NORB.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesure de l'acuité visuelle",
+            "justification": "Fait partie du bilan urgent et permet d'évaluer la sévérité de l'atteinte visuelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Exploration du champ visuel",
+            "justification": "Fait partie du bilan urgent pour rechercher un scotome et en apprécier l'étendue."
+          },
+          {
+            "correct": true,
+            "proposition": "Fond d'œil",
+            "justification": "Fait partie du bilan urgent afin de rechercher un œdème papillaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Potentiels évoqués visuels (PEV) en première intention en urgence",
+            "justification": "Les PEV sont réalisés dans un second temps ; ils ne font pas partie du bilan urgent."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM des nerfs optiques avec injection systématique en urgence",
+            "justification": "L'IRM peut être réalisée pour visualiser la lésion et éliminer une compression, mais elle n'est pas décrite comme examen du bilan urgent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755189547631_02",
+      "current_version_epoch_ms": 1755189547631,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "À propos des potentiels évoqués visuels (PEV) dans la NORB, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un allongement de la latence du P100 confirme la démyélinisation du nerf optique",
+            "justification": "Les PEV confirment la démyélinisation par l'allongement de la latence du P100."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont indispensables au diagnostic",
+            "justification": "Ils ne sont pas indispensables au diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils sont réalisés dans un second temps",
+            "justification": "Ils confirment dans un second temps la démyélinisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils permettent de mesurer l'étendue du scotome",
+            "justification": "La recherche et l'étendue d'un scotome relèvent du champ visuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils évaluent directement la sévérité de la baisse d'acuité visuelle",
+            "justification": "La sévérité est appréciée par la mesure de l'acuité visuelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755189547631_03",
+      "current_version_epoch_ms": 1755189547631,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "IRM des nerfs optiques dans la NORB : reconnaître ses objectifs et modalités.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle se réalise avec injection de produit de contraste",
+            "justification": "L'IRM des nerfs optiques est décrite avec injection de produit de contraste."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle permet de visualiser la lésion inflammatoire responsable de la baisse d'acuité visuelle",
+            "justification": "L'IRM peut visualiser la lésion inflammatoire à l'origine de la baisse d'acuité."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle aide à éliminer une étiologie compressive (tumorale ou autre)",
+            "justification": "L'IRM permet d'éliminer une cause compressive."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle fait partie systématique du bilan à réaliser en urgence",
+            "justification": "Le bilan urgent mentionne acuité visuelle, champ visuel et fond d'œil, pas l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle se fait préférentiellement sans injection",
+            "justification": "L'IRM est indiquée avec injection de produit de contraste."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755189547631_04",
+      "current_version_epoch_ms": 1755189547631,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "OCT (tomographie par cohérence optique) dans la NORB : classer ses apports.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intérêt diagnostique en objectivant un œdème papillaire",
+            "justification": "L'OCT peut mettre en évidence un œdème papillaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Intérêt surtout pronostique",
+            "justification": "L'OCT a surtout un intérêt pronostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen prioritaire du bilan d'urgence",
+            "justification": "Le bilan urgent comprend acuité visuelle, champ visuel et fond d'œil ; l'OCT n'y est pas cité en priorité."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet d'éliminer une étiologie compressive",
+            "justification": "L'élimination d'une cause compressive relève de l'IRM des nerfs optiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure la latence du P100",
+            "justification": "La latence du P100 est mesurée par les PEV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755189547631_05",
+      "current_version_epoch_ms": 1755189547631,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Associer chaque outil à son objectif principal dans l'évaluation d'une NORB.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesure de l'acuité visuelle → évaluer la sévérité de l'atteinte visuelle",
+            "justification": "L'acuité visuelle apprécie la sévérité de la baisse visuelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Champ visuel → rechercher un scotome et son étendue",
+            "justification": "Le champ visuel sert à identifier un scotome et sa taille."
+          },
+          {
+            "correct": true,
+            "proposition": "Fond d'œil → rechercher un œdème papillaire",
+            "justification": "Le fond d'œil vise la détection d'un œdème papillaire."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM avec injection → confirmer la démyélinisation par allongement du P100",
+            "justification": "La confirmation de la démyélinisation par latence du P100 allongée relève des PEV."
+          },
+          {
+            "correct": true,
+            "proposition": "PEV → confirmer la démyélinisation du nerf optique",
+            "justification": "Les PEV confirment la démyélinisation via l'allongement du P100."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "EI",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755309654755_01",
+      "current_version_epoch_ms": 1755309654755,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Dans quel cas une antibioprophylaxie est-elle justifiée avant un soin dentaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient avec une prothèse valvulaire et soin dentaire à haut risque",
+            "justification": "L'antibioprophylaxie est justifiée si le patient présente une prothèse valvulaire et que le soin dentaire est à haut risque (manipulation de la gencive ou effraction muqueuse)."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient avec une cardiopathie congénitale non cyanogène et soin dentaire à faible risque",
+            "justification": "Les patients avec des cardiopathies non cyanogènes n'ont pas besoin d'antibioprophylaxie, même si le soin dentaire est faible risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient avec une cardiopathie ischémique et soin dentaire à haut risque",
+            "justification": "L'antibioprophylaxie n'est pas justifiée pour les patients ayant une cardiopathie ischémique, même si le soin dentaire est à haut risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient avec une chirurgie digestive et soin dentaire à haut risque",
+            "justification": "L'antibioprophylaxie n'est pas recommandée dans les procédures digestives, urinaires ou cutanées, même en cas de soin dentaire à haut risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient sans antécédent d'EI et soin dentaire à faible risque",
+            "justification": "Les patients sans antécédent d'EI et pour des soins dentaires à faible risque ne nécessitent pas d'antibioprophylaxie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309654755_02",
+      "current_version_epoch_ms": 1755309654755,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quelle est la posologie de l'amoxicilline dans le cadre de l'antibioprophylaxie avant un soin dentaire à haut risque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline per os, en dose unique, dans l'heure précédant le geste",
+            "justification": "L'amoxicilline est administrée en dose unique par voie orale, une heure avant le geste à risque, pour maximiser l'efficacité de l'antibioprophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline en perfusion intraveineuse, 30 minutes avant le geste",
+            "justification": "La posologie d'amoxicilline se fait par voie orale et non par perfusion intraveineuse avant un geste dentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline per os, 2 heures avant le geste",
+            "justification": "La prise d'amoxicilline doit être effectuée dans l'heure précédant le geste, pas 2 heures avant."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline en deux doses, espacées de 12 heures",
+            "justification": "Une seule dose d'amoxicilline est administrée, et non en deux doses séparées."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline en dose continue pendant la procédure",
+            "justification": "L'antibiotique est administré avant le geste et non de façon continue pendant la procédure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309654755_03",
+      "current_version_epoch_ms": 1755309654755,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quel est le traitement de substitution en cas d'allergie à l'amoxicilline pour l'antibioprophylaxie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Clindamycine per os",
+            "justification": "En cas d'allergie à l'amoxicilline, la clindamycine est utilisée comme traitement de substitution pour l'antibioprophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine per os",
+            "justification": "La ciprofloxacine n'est pas recommandée comme traitement de substitution dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Gentamicine intraveineuse",
+            "justification": "La gentamicine n'est pas utilisée dans le cadre de l'antibioprophylaxie pour les soins dentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline G intraveineuse",
+            "justification": "La pénicilline G n'est pas indiquée pour les patients allergiques à l'amoxicilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine par voie intraveineuse",
+            "justification": "La vancomycine n'est pas recommandée pour l'antibioprophylaxie des soins dentaires, sauf en cas de situations particulières."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309654755_04",
+      "current_version_epoch_ms": 1755309654755,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quel est le principal objectif de l'antibioprophylaxie dans le cadre d'un soin dentaire à haut risque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Limiter la survenue et la durée de la bactériémie",
+            "justification": "L'objectif principal de l'antibioprophylaxie est de limiter la survenue et la durée de la bactériémie qui pourrait survenir suite au geste dentaire à haut risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter l'infection post-chirurgicale de la plaie dentaire",
+            "justification": "L'antibioprophylaxie vise spécifiquement à prévenir l'endocardite infectieuse liée à une bactériémie, et non les infections post-chirurgicales des plaies dentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévenir une possible allergie à l'amoxicilline",
+            "justification": "L'antibioprophylaxie n'a pas pour objectif de prévenir les allergies à l'amoxicilline, mais de réduire le risque d'endocardite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Favoriser la guérison rapide des lésions gingivales",
+            "justification": "L'antibioprophylaxie ne cible pas la guérison des lésions gingivales, mais la prévention de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire le nombre de consultations médicales post-opératoires",
+            "justification": "L'objectif n'est pas de réduire le nombre de consultations post-opératoires, mais de prévenir la survenue d'une endocardite infectieuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309654755_05",
+      "current_version_epoch_ms": 1755309654755,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quel est l'avantage principal d'une carte de « patients à risque d'endocardite infectieuse » ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Informer les professionnels de santé avant tout geste à risque",
+            "justification": "La carte permet d'informer les professionnels de santé que le patient est à risque d'endocardite infectieuse et nécessite une antibioprophylaxie avant un soin dentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Aider à déterminer le type d'antibiotique à administrer",
+            "justification": "La carte n'indique pas le type d'antibiotique à administrer, mais uniquement le besoin d'antibioprophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire les coûts des soins médicaux liés à l'EI",
+            "justification": "La carte ne vise pas à réduire les coûts des soins médicaux, mais à prévenir l'endocardite infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre la prescription d'antibiotiques sans consultation préalable",
+            "justification": "La carte ne permet pas la prescription d'antibiotiques sans consultation préalable avec un professionnel de santé."
+          },
+          {
+            "correct": false,
+            "proposition": "Garantir l'efficacité de l'antibioprophylaxie",
+            "justification": "La carte n'a pas pour objectif de garantir l'efficacité de l'antibioprophylaxie, mais de signaler un risque et la nécessité d'une mesure préventive."
+          }
+        ]
+      }
+    }
+  ]
+}

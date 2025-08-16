@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vieillissement",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755236947410_01",
+      "current_version_epoch_ms": 1755236947410,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Identifier la catégorie de fragilité selon Fried chez une personne présentant : perte de poids involontaire, fatigue subjective et vitesse de marche diminuée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fragile",
+            "justification": "La présence d'au moins 3 critères (perte de poids, fatigue, lenteur de marche) définit la fragilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pré-fragile",
+            "justification": "La pré-fragilité correspond à 1 ou 2 critères seulement."
+          },
+          {
+            "correct": false,
+            "proposition": "Robuste",
+            "justification": "La robustesse correspond à l'absence de tout critère."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépendant au sens fonctionnel",
+            "justification": "La dépendance fonctionnelle renvoie à l'impossibilité d'accomplir les activités quotidiennes sans aide ; la classification de Fried ne conclut pas à elle seule à la dépendance."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclin fonctionnel certain",
+            "justification": "Le déclin fonctionnel implique une perte d'indépendance sur les ADL/IADL, ce qui n'est pas établi par le seul comptage des critères de Fried."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236947410_02",
+      "current_version_epoch_ms": 1755236947410,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Différencier autonomie, dépendance et déclin fonctionnel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'autonomie correspond à la capacité à se gouverner soi-même avec jugement et liberté d'agir dans le respect des lois et usages.",
+            "justification": "L'autonomie suppose une capacité de jugement (prévoir, choisir) et la liberté d'accepter ou refuser d'agir."
+          },
+          {
+            "correct": true,
+            "proposition": "La dépendance est l'impossibilité partielle ou totale d'effectuer sans aide humaine les activités de la vie quotidienne et de s'adapter à son environnement.",
+            "justification": "La définition inclut la nécessité d'aide pour des activités quotidiennes et l'adaptation à l'environnement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le déclin fonctionnel se définit par une baisse de vitesse de marche, même sans impact sur les activités quotidiennes.",
+            "justification": "Le déclin fonctionnel est caractérisé par une perte d'indépendance fonctionnelle sur les ADL/IADL, pas par un seul paramètre de performance isolé."
+          },
+          {
+            "correct": false,
+            "proposition": "La dépendance ne concerne que des activités physiques, pas psychiques ni sociales.",
+            "justification": "La dépendance peut porter sur des activités physiques, psychiques ou sociales."
+          },
+          {
+            "correct": false,
+            "proposition": "L'autonomie n'implique pas la possibilité d'accepter ou de refuser d'agir.",
+            "justification": "L'autonomie inclut explicitement la liberté d'accepter ou refuser d'agir en fonction de son jugement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236947410_03",
+      "current_version_epoch_ms": 1755236947410,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Classer les activités suivantes comme gestes élémentaires (ADL) ou activités instrumentales (IADL).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Habillage : geste élémentaire évalué par l'ADL.",
+            "justification": "Les ADL incluent les gestes élémentaires tels que l'habillage."
+          },
+          {
+            "correct": true,
+            "proposition": "Gestion des comptes : activité instrumentale (IADL).",
+            "justification": "Les IADL comprennent la gestion des comptes."
+          },
+          {
+            "correct": false,
+            "proposition": "Toilette : activité instrumentale (IADL).",
+            "justification": "La toilette relève des gestes élémentaires et est mesurée par l'ADL."
+          },
+          {
+            "correct": true,
+            "proposition": "Utilisation des transports en commun : IADL.",
+            "justification": "Les IADL comprennent l'utilisation des transports en commun."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche : geste élémentaire relevant de l'ADL.",
+            "justification": "La marche fait partie des gestes élémentaires évalués par l'ADL."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236947410_04",
+      "current_version_epoch_ms": 1755236947410,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Reconnaître les situations qui correspondent à un déclin fonctionnel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Besoin d'aide humaine pour s'habiller.",
+            "justification": "L'aide pour un geste élémentaire (ADL) traduit une perte d'indépendance fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Gère seul ses traitements et ses comptes.",
+            "justification": "L'autonomie sur des IADL (traitements, comptes) ne traduit pas un déclin fonctionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Force de préhension (hand grip) diminuée sans retentissement sur les activités quotidiennes.",
+            "justification": "Une diminution isolée de force ne caractérise pas un déclin fonctionnel sans perte d'indépendance sur ADL/IADL."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessite une aide pour utiliser le téléphone et les transports.",
+            "justification": "L'aide sur des IADL (téléphone, transports) correspond à une perte d'indépendance fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche plus lente mais réalise seul les activités quotidiennes.",
+            "justification": "La lenteur de marche isolée n'est pas un déclin fonctionnel sans perte d'indépendance dans les ADL/IADL."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236947410_05",
+      "current_version_epoch_ms": 1755236947410,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Identifier les éléments appartenant aux critères de fragilité de Fried.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids involontaire dans la dernière année.",
+            "justification": "C'est un des cinq critères listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Impression subjective de fatigue.",
+            "justification": "C'est un des cinq critères listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Réduction des activités physiques.",
+            "justification": "C'est un des cinq critères listés."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de la mémoire.",
+            "justification": "Les critères se limitent à cinq : perte de poids, fatigue, réduction des activités, lenteur de marche, force de hand grip diminuée ; les troubles mnésiques n'en font pas partie."
+          },
+          {
+            "correct": true,
+            "proposition": "Vitesse de marche diminuée.",
+            "justification": "La lenteur de la marche est un des cinq critères listés."
+          }
+        ]
+      }
+    }
+  ]
+}

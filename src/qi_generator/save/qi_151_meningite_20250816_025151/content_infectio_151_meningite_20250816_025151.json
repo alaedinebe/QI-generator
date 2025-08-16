@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755305718147_01",
+      "current_version_epoch_ms": 1755305718147,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est la première mesure à prendre en cas de suspicion d'infection invasive à méningocoque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signaler sans délai aux Agences régionales de santé (ARS)",
+            "justification": "La déclaration immédiate aux ARS permet la mise en place rapide des mesures de prévention et le suivi des sujets contacts."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer un traitement antibiotique sans confirmation de l'infection",
+            "justification": "Le traitement antibiotique ne doit être administré qu'après confirmation de l'infection par les tests appropriés."
+          },
+          {
+            "correct": false,
+            "proposition": "Isoler le patient en chambre individuelle sans mesures respiratoires",
+            "justification": "L'isolement doit inclure des précautions respiratoires de type gouttelettes, qui sont nécessaires pour prévenir la transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre le patient sous antibioprophylaxie uniquement en l'absence de symptômes graves",
+            "justification": "L'antibioprophylaxie doit être administrée sans délai aux sujets contacts, et non basée sur la gravité des symptômes du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Vacciner immédiatement tous les sujets contacts sans vérification de leur statut immunitaire",
+            "justification": "La vaccination n'est pas systématique, elle dépend du type de contact et des recommandations spécifiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305718147_02",
+      "current_version_epoch_ms": 1755305718147,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quels sont les contacts concernés par les mesures de prévention en cas d'infection invasive à méningocoque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les personnes ayant été en contact étroit avec le patient",
+            "justification": "Les sujets contacts sont ceux ayant eu des contacts étroits et prolongés avec le patient, comme les membres de la famille ou les proches."
+          },
+          {
+            "correct": false,
+            "proposition": "Les personnes ayant uniquement croisé le patient dans un espace public",
+            "justification": "Les contacts occasionnels dans des lieux publics ne nécessitent pas de mesures spécifiques de prévention."
+          },
+          {
+            "correct": false,
+            "proposition": "Les personnes vivant à plus de 50 mètres du lieu de résidence du patient",
+            "justification": "Les mesures de prévention ne concernent pas les personnes qui ne sont pas des contacts étroits et directs."
+          },
+          {
+            "correct": true,
+            "proposition": "Les professionnels de santé ayant pris en charge le patient",
+            "justification": "Les soignants doivent être inclus dans les mesures de prévention car ils ont été en contact direct avec le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Les personnes qui ont voyagé avec le patient dans un même véhicule",
+            "justification": "Le transport en véhicule n'est pas suffisant pour qualifier un contact comme étant étroit, sauf s'il s'agit d'un contact prolongé et direct."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305718147_03",
+      "current_version_epoch_ms": 1755305718147,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quels sont les principaux types de mesures de prévention pour les sujets contacts d'une infection invasive à méningocoque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antibioprophylaxie",
+            "justification": "L'antibioprophylaxie est la principale mesure de prévention pour les sujets contacts afin d'éviter la contamination."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement des sujets contacts pendant 7 jours",
+            "justification": "L'isolement des contacts n'est pas une mesure standard, contrairement à l'antibioprophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination systématique des contacts",
+            "justification": "La vaccination est recommandée dans certains cas spécifiques, mais pas systématiquement pour tous les contacts."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation obligatoire de tous les contacts",
+            "justification": "L'hospitalisation n'est nécessaire que pour les contacts présentant des symptômes ou des risques particuliers."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveillance médicale des contacts",
+            "justification": "Une surveillance médicale rapprochée est essentielle pour détecter précocement l'apparition de symptômes chez les contacts."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305718147_04",
+      "current_version_epoch_ms": 1755305718147,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est la nature des précautions respiratoires nécessaires pour une infection invasive à méningocoque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Précautions de type gouttelettes",
+            "justification": "Les précautions de type gouttelettes sont nécessaires pour limiter la transmission par les voies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Précautions de type aérosols",
+            "justification": "Les précautions de type aérosols ne sont pas recommandées pour les infections invasives à méningocoque."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas de précautions respiratoires nécessaires si le patient porte un masque",
+            "justification": "Même si le patient porte un masque, les précautions respiratoires sont nécessaires pour éviter toute transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolation stricte en chambre stérile",
+            "justification": "L'isolement en chambre stérile n'est pas nécessaire pour une infection à méningocoque, sauf dans des situations très graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'un ventilateur pour les patients",
+            "justification": "L'utilisation d'un ventilateur n'est pas une mesure préventive standard dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305718147_05",
+      "current_version_epoch_ms": 1755305718147,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelles sont les principales actions à prendre pour l'entourage d'un patient atteint d'infection invasive à méningocoque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer une antibioprophylaxie si nécessaire",
+            "justification": "L'antibioprophylaxie est une mesure clé pour prévenir la transmission à l'entourage immédiat du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Informer uniquement les contacts à proximité immédiate du patient",
+            "justification": "Tous les contacts proches doivent être identifiés, pas seulement ceux à proximité immédiate, afin d'assurer une prévention complète."
+          },
+          {
+            "correct": false,
+            "proposition": "Exiger que l'entourage évite tout contact avec le patient, y compris les visites médicales",
+            "justification": "Il est préférable d'éviter les contacts rapprochés, mais les visites médicales ne doivent pas être interdites si elles sont nécessaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre l'entourage sous surveillance hospitalière systématique",
+            "justification": "La surveillance hospitalière n'est pas nécessaire pour tous les membres de l'entourage, sauf si des symptômes apparaissent."
+          },
+          {
+            "correct": true,
+            "proposition": "Suivre les recommandations des autorités sanitaires locales",
+            "justification": "Les recommandations des ARS doivent être suivies pour assurer la mise en place appropriée des mesures de prévention."
+          }
+        ]
+      }
+    }
+  ]
+}

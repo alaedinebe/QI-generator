@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pso",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755225976263_01",
+      "current_version_epoch_ms": 1755225976263,
+      "topic": {
+        "subject": "dermato",
+        "item": "pso"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier les facteurs de gravité du psoriasis.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obésité",
+            "justification": "Fait partie des facteurs de gravité explicitement cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Tabagisme",
+            "justification": "Fait partie des facteurs de gravité explicitement cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Consommation excessive d'alcool",
+            "justification": "Fait partie des facteurs de gravité explicitement cités."
+          },
+          {
+            "correct": false,
+            "proposition": "Existence d'une atteinte articulaire",
+            "justification": "Intervient dans le choix thérapeutique, mais n'est pas listée comme facteur de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge avancé",
+            "justification": "N'est pas cité parmi les facteurs de gravité (seuls obésité, tabagisme et alcool sont indiqués)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755225976263_02",
+      "current_version_epoch_ms": 1755225976263,
+      "topic": {
+        "subject": "dermato",
+        "item": "pso"
+      },
+      "data": {
+        "statement": "Concernant les principes généraux de la prise en charge thérapeutique du psoriasis, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les traitements sont suspensifs et ne permettent pas la guérison définitive.",
+            "justification": "Le psoriasis est une dermatose chronique et récidivante ; les traitements contrôlent les lésions et préviennent les récidives."
+          },
+          {
+            "correct": true,
+            "proposition": "Le choix du traitement dépend de la gravité, du retentissement sur la qualité de vie, de l'atteinte articulaire et des comorbidités.",
+            "justification": "Ces éléments sont à prendre en compte pour adapter la stratégie thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements locaux ne doivent jamais être utilisés en complément d'un traitement général.",
+            "justification": "Ils peuvent être utilisés seuls dans les formes peu étendues ou en complément des traitements généraux."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les formes peu étendues, un traitement local seul peut être proposé.",
+            "justification": "Les traitements locaux sont toujours possibles seuls dans les formes peu étendues."
+          },
+          {
+            "correct": false,
+            "proposition": "La stratégie thérapeutique est indépendante de l'existence d'une atteinte articulaire.",
+            "justification": "L'existence ou non d'une atteinte articulaire fait partie des critères guidant le choix du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755225976263_03",
+      "current_version_epoch_ms": 1755225976263,
+      "topic": {
+        "subject": "dermato",
+        "item": "pso"
+      },
+      "data": {
+        "statement": "À propos des traitements locaux utilisables dans le psoriasis, cocher la ou les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dermocorticoïdes topiques",
+            "justification": "Font partie des options locales recommandées."
+          },
+          {
+            "correct": true,
+            "proposition": "Analogues de la vitamine D topiques",
+            "justification": "Font partie des options locales recommandées."
+          },
+          {
+            "correct": true,
+            "proposition": "Association dermocorticoïdes + analogues de la vitamine D",
+            "justification": "La combinaison des deux est citée comme traitement local possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Inhibiteurs de la calcineurine topiques pour les lésions du visage (hors AMM)",
+            "justification": "Indiqués comme utiles pour les lésions du visage, en dehors de l'AMM."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiotiques topiques en première intention",
+            "justification": "Ne font pas partie des traitements locaux mentionnés ; les adjuvants cités sont les kératolytiques et émollients."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755225976263_04",
+      "current_version_epoch_ms": 1755225976263,
+      "topic": {
+        "subject": "dermato",
+        "item": "pso"
+      },
+      "data": {
+        "statement": "S'agissant des traitements systémiques conventionnels du psoriasis, quelle(s) affirmation(s) est/sont correcte(s) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La photothérapie UVB TL01 se réalise en cycles de 20 à 30 séances/an et le total ne doit pas dépasser 200 séances à vie.",
+            "justification": "Ces modalités et la limite cumulative sont précisées ; un risque de carcinogénicité cutanée existe à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "L'acitrétine a une forte efficacité et est recommandée chez la femme en âge de procréer.",
+            "justification": "Son efficacité est dite faible et elle est à éviter chez la femme en âge de procréer en raison de sa tératogénicité (contraception 3 ans après arrêt)."
+          },
+          {
+            "correct": true,
+            "proposition": "Le méthotrexate est indiqué en première intention dans les formes cutanées et articulaires, avec surveillance hématologique et hépatique, et contraception indispensable.",
+            "justification": "Ces éléments d'indication et de surveillance sont indiqués, avec exigence de contraception."
+          },
+          {
+            "correct": true,
+            "proposition": "L'aprémilast est indiqué en seconde intention dans les formes cutanées et articulaires ; contraception indispensable.",
+            "justification": "Positionné en seconde intention avec exigence de contraception."
+          },
+          {
+            "correct": false,
+            "proposition": "La ciclosporine peut être prescrite sans limite de durée.",
+            "justification": "Elle présente une toxicité rénale au long cours ; la prescription ne doit pas dépasser 2 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755225976263_05",
+      "current_version_epoch_ms": 1755225976263,
+      "topic": {
+        "subject": "dermato",
+        "item": "pso"
+      },
+      "data": {
+        "statement": "Identifier les précautions majeures liées à certains traitements du psoriasis et la place des biothérapies.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acitrétine : tératogène ; à éviter chez la femme en âge de procréer ; contraception requise pendant 3 ans après l'arrêt.",
+            "justification": "La nécessité d'un programme de prévention de la grossesse et de 3 ans de contraception après l'arrêt est précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "Photothérapie UVB : carcinogénicité cutanée à long terme ; prudence en cas de médicaments phototoxiques.",
+            "justification": "Un risque de carcinogénicité cutanée est mentionné et une attention particulière aux médicaments phototoxiques est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthotrexate : absence de besoin de contraception.",
+            "justification": "La contraception est indiquée comme indispensable sous méthotrexate."
+          },
+          {
+            "correct": true,
+            "proposition": "Ciclosporine : toxicité rénale au long cours ; ne pas dépasser 2 ans de prescription.",
+            "justification": "La limite de durée est précisée en raison de la néphrotoxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Biothérapies : à instaurer d'emblée avant tout traitement systémique conventionnel.",
+            "justification": "Elles sont de seconde intention après échec, contre-indication ou intolérance à au moins deux traitements systémiques conventionnels ; bilan infectieux préalable requis."
+          }
+        ]
+      }
+    }
+  ]
+}

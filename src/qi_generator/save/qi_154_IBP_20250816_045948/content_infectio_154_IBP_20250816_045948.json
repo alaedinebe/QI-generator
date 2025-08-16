@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IBP",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755313394823_01",
+      "current_version_epoch_ms": 1755313394823,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quels sont les signes de gravité des pneumonies aiguës communautaires (PAC) permettant de recommander une hospitalisation immédiate ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Confusion",
+            "justification": "La confusion est un signe de gravité indiquant une altération de l'état de conscience, ce qui nécessite une évaluation en hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Fréquence respiratoire > 30/min",
+            "justification": "Une fréquence respiratoire > 30/min est un signe de détresse respiratoire, nécessitant une prise en charge hospitalière."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée",
+            "justification": "Bien que la fièvre soit un signe clinique important, elle ne justifie pas à elle seule une hospitalisation immédiate selon les critères de gravité des PAC."
+          },
+          {
+            "correct": true,
+            "proposition": "PA systolique < 90 mmHg",
+            "justification": "Une pression artérielle systolique inférieure à 90 mmHg est un signe de gravité indiquant un choc septique potentiel et justifiant une hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie légère",
+            "justification": "Une tachycardie légère n'est pas un critère suffisant pour recommander une hospitalisation dans le cadre d'une PAC."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313394823_02",
+      "current_version_epoch_ms": 1755313394823,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques de gravité d'une pneumonie aiguë de l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence respiratoire augmentée pour l'âge",
+            "justification": "Une fréquence respiratoire anormalement élevée pour l'âge est un signe de détresse respiratoire nécessitant une prise en charge spécialisée."
+          },
+          {
+            "correct": true,
+            "proposition": "SpO2 < 95% en air ambiant",
+            "justification": "Une saturation en oxygène inférieure à 95% est un signe d'hypoxémie et de gravité de la pneumonie chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique",
+            "justification": "La douleur thoracique est généralement moins fréquente chez l'enfant et n'est pas un signe principal de gravité de la pneumonie."
+          },
+          {
+            "correct": true,
+            "proposition": "Difficulté d'alimentation",
+            "justification": "La difficulté d'alimentation chez un enfant est un signe de gravité indiquant une altération de l'état général et de l'aptitude à maintenir une bonne hydratation et nutrition."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de température corporelle",
+            "justification": "La baisse de température corporelle est généralement un signe de sepsis grave et non un critère spécifique aux pneumonies aiguës de l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313394823_03",
+      "current_version_epoch_ms": 1755313394823,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel signe clinique est évocateur d'une gravité dans une bronchiolite chez le nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence respiratoire > 60/min",
+            "justification": "Une fréquence respiratoire supérieure à 60/min est un signe de détresse respiratoire et un critère de gravité dans la bronchiolite."
+          },
+          {
+            "correct": true,
+            "proposition": "Cyanose",
+            "justification": "La cyanose est un signe d'hypoxémie importante, indiquant un besoin urgent d'une prise en charge médicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Refus alimentaire léger",
+            "justification": "Un refus alimentaire léger n'est pas nécessairement un signe de gravité dans la bronchiolite, mais peut être un symptôme associé."
+          },
+          {
+            "correct": true,
+            "proposition": "Apnées",
+            "justification": "Les apnées chez un nourrisson sont un signe de gravité dans la bronchiolite, nécessitant une surveillance rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche",
+            "justification": "La toux sèche seule n'est pas un signe de gravité spécifique dans la bronchiolite, qui est plutôt associée à une toux humide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313394823_04",
+      "current_version_epoch_ms": 1755313394823,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quels sont les signes biologiques de gravité dans une pneumonie aiguë communautaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Thrombopénie (< 100 G/L)",
+            "justification": "La thrombopénie est un signe de gravité qui peut être associé à une défaillance organique et justifie une surveillance en milieu hospitalier."
+          },
+          {
+            "correct": true,
+            "proposition": "Leucopénie (< 4 G/L)",
+            "justification": "La leucopénie est un signe d'infection sévère et d'immunodépression, indiquant une possible gravité de la pneumonie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperglycémie modérée",
+            "justification": "L'hyperglycémie modérée n'est pas un critère spécifique de gravité pour la pneumonie aiguë communautaire, bien qu'elle puisse être observée dans certains cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Acidose métabolique",
+            "justification": "L'acidose métabolique est un signe de défaillance organique liée à une infection sévère et nécessitant une prise en charge urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperkaliémie légère",
+            "justification": "L'hyperkaliémie légère n'est pas un critère de gravité spécifique pour la pneumonie aiguë communautaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313394823_05",
+      "current_version_epoch_ms": 1755313394823,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quels critères doivent être présents pour recommander l'admission en soins intensifs ou réanimation pour une pneumonie aiguë communautaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Choc septique",
+            "justification": "Le choc septique est un signe de défaillance circulatoire majeure, nécessitant une admission en soins intensifs ou réanimation."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale aiguë",
+            "justification": "L'insuffisance rénale aiguë peut être un signe de gravité nécessitant une prise en charge en soins intensifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue générale",
+            "justification": "La fatigue générale n'est pas un critère suffisant pour recommander l'admission en soins intensifs ou réanimation."
+          },
+          {
+            "correct": true,
+            "proposition": "Besoin de ventilation assistée",
+            "justification": "Un besoin de ventilation assistée, en raison d'une défaillance respiratoire ou d'une acidose respiratoire, justifie l'admission en réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque élevée sans autres signes",
+            "justification": "Une fréquence cardiaque élevée seule ne suffit pas à justifier l'admission en soins intensifs sans d'autres signes de gravité."
+          }
+        ]
+      }
+    }
+  ]
+}

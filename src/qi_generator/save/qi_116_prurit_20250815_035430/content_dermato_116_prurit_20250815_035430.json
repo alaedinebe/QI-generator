@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "prurit",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755223076989_01",
+      "current_version_epoch_ms": 1755223076989,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant les médiateurs du prurit et l'urticaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'histamine est essentiellement impliquée dans l'urticaire.",
+            "justification": "Il est précisé que l'histamine est essentiellement impliquée dans l'urticaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les autres étiologies de prurit, un médiateur unique est généralement responsable.",
+            "justification": "Il est indiqué que, hors urticaire, les médiateurs impliqués sont nombreux, et non uniques."
+          },
+          {
+            "correct": true,
+            "proposition": "La physiopathologie du prurit est complexe.",
+            "justification": "La complexité de la physiopathologie du prurit est explicitement soulignée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'histamine n'intervient jamais dans les autres étiologies de prurit.",
+            "justification": "Formulation exclusive non soutenue : seule l'implication essentielle dans l'urticaire est mentionnée et les autres étiologies font intervenir de nombreux médiateurs."
+          },
+          {
+            "correct": true,
+            "proposition": "Les médiateurs du prurit varient selon l'étiologie.",
+            "justification": "La mention de médiateurs nombreux dans les étiologies non urticariennes implique une variabilité selon les causes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223076989_02",
+      "current_version_epoch_ms": 1755223076989,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier les origines possibles d'un prurit selon les niveaux d'initiation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prurit a le plus souvent une origine cutanée.",
+            "justification": "Il est indiqué que l'origine est le plus souvent cutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Un prurit peut naître dans le système nerveux central.",
+            "justification": "Il est précisé qu'il peut naître en aval de la peau, dans les voies neuronales, y compris le système nerveux central."
+          },
+          {
+            "correct": true,
+            "proposition": "Un prurit peut naître dans le système nerveux périphérique.",
+            "justification": "Les voies neuronales de transmission incluent le système nerveux périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit ne peut pas naître en aval de la peau.",
+            "justification": "C'est l'inverse : il peut parfois naître en aval de la peau, dans les voies neuronales."
+          },
+          {
+            "correct": false,
+            "proposition": "Les formes d'origine cutanée sont plus rares que les formes centrales.",
+            "justification": "Contradiction avec l'énoncé selon lequel l'origine est le plus souvent cutanée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223076989_03",
+      "current_version_epoch_ms": 1755223076989,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Différencier les mécanismes en jeu dans un prurit non urticarien.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un prurit non urticarien implique souvent plusieurs médiateurs.",
+            "justification": "Hors urticaire, les médiateurs impliqués sont nombreux."
+          },
+          {
+            "correct": false,
+            "proposition": "L'histamine est toujours le médiateur dominant dans les prurits non urticariens.",
+            "justification": "Aucune domination de l'histamine n'est affirmée hors urticaire ; la multiplicité des médiateurs est mise en avant."
+          },
+          {
+            "correct": false,
+            "proposition": "Parler d'un seul médiateur suffit pour expliquer ces prurits.",
+            "justification": "La multiplicité des médiateurs exclut l'explication par un seul médiateur."
+          },
+          {
+            "correct": true,
+            "proposition": "La notion de complexité s'applique à ces prurits.",
+            "justification": "La physiopathologie du prurit est décrite comme complexe, ce qui inclut les formes non urticariennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces prurits relèvent exclusivement d'une origine cutanée.",
+            "justification": "Ils peuvent aussi naître en aval de la peau, dans les voies neuronales de transmission."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223076989_04",
+      "current_version_epoch_ms": 1755223076989,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Classer les sites potentiels d'initiation du prurit parmi les propositions suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Structures cutanées.",
+            "justification": "Le prurit a le plus souvent une origine cutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Voies neuronales périphériques.",
+            "justification": "Les voies neuronales de transmission incluent le système nerveux périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "Système nerveux central.",
+            "justification": "Il peut parfois naître en aval de la peau, dans le système nerveux central."
+          },
+          {
+            "correct": false,
+            "proposition": "Sang circulant comme site primaire d'initiation.",
+            "justification": "Un site hématologique primaire n'est pas mentionné parmi les origines possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Muscle squelettique comme site primaire d'initiation.",
+            "justification": "Le muscle n'est pas cité comme site d'initiation ; seules l'origine cutanée et les voies neuronales sont rapportées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223076989_05",
+      "current_version_epoch_ms": 1755223076989,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Reconnaître les relations entre urticaire, médiateurs et complexité du prurit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans l'urticaire, l'histamine joue un rôle majeur.",
+            "justification": "Il est indiqué que l'histamine est essentiellement impliquée dans l'urticaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans toutes les étiologies, l'histamine est le médiateur central.",
+            "justification": "Hors urticaire, de nombreux médiateurs sont impliqués ; aucune centralité générale de l'histamine n'est affirmée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit s'explique uniquement par des mécanismes cutanés.",
+            "justification": "Il peut aussi naître en aval de la peau, dans le système nerveux central ou périphérique."
+          },
+          {
+            "correct": true,
+            "proposition": "La multiplicité des médiateurs contribue à la complexité de la physiopathologie du prurit.",
+            "justification": "La physiopathologie est dite complexe et, hors urticaire, les médiateurs sont nombreux."
+          },
+          {
+            "correct": false,
+            "proposition": "Un prurit d'origine neuronale est impossible.",
+            "justification": "C'est l'inverse : un prurit peut naître dans les voies neuronales de transmission."
+          }
+        ]
+      }
+    }
+  ]
+}

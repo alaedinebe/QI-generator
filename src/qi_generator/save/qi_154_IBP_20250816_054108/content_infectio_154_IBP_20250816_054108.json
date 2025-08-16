@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IBP",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755315874701_01",
+      "current_version_epoch_ms": 1755315874701,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Chez un patient ambulatoire atteint de pneumonie aiguë communautaire (PAC) et présentant une évolution défavorable, quelle est la première démarche à suivre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Effectuer un switch de l'antibiothérapie (amoxicilline ↔ macrolide).",
+            "justification": "Un switch de l'antibiothérapie est recommandé lorsque les symptômes persistent ou s'aggravent chez un patient ambulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la dose d'amoxicilline.",
+            "justification": "L'augmentation de la dose d'amoxicilline n'est pas indiquée en première intention. Le changement de classe antibiotique est préféré."
+          },
+          {
+            "correct": false,
+            "proposition": "Admettre immédiatement le patient en réanimation.",
+            "justification": "L'hospitalisation est indiquée en cas de deuxième échec, mais pas systématiquement en réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuivre la même antibiothérapie sans modification.",
+            "justification": "Poursuivre la même antibiothérapie sans modification n'est pas adapté en cas d'évolution défavorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un traitement antiviral.",
+            "justification": "Les antibiotiques sont recommandés pour traiter la PAC, sauf suspicion de pathologie virale, mais un traitement antiviral n'est pas recommandé en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755315874701_02",
+      "current_version_epoch_ms": 1755315874701,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel est le premier facteur à rechercher chez un patient hospitalisé en cas d'échec de l'antibiothérapie dans le cadre d'une pneumonie aiguë communautaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une complication telle qu'une pleurésie ou un abcès.",
+            "justification": "Les complications telles que la pleurésie ou l'abcès sont des causes fréquentes d'échec thérapeutique chez un patient hospitalisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier si le patient a une mauvaise observance.",
+            "justification": "Bien que l'observance puisse être un facteur contribuant à l'échec, la recherche de complications doit être effectuée en priorité."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer la possibilité d'une étiologie virale.",
+            "justification": "La recherche d'une étiologie virale est pertinente dans certains cas, mais ce n'est pas la première cause à explorer chez un patient hospitalisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Passer à un traitement antivirale.",
+            "justification": "L'antibiothérapie reste l'option principale, sauf si une étiologie virale est fortement suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer une dose plus élevée du même antibiotique.",
+            "justification": "L'augmentation de la dose n'est pas la première approche en cas d'échec; l'identification de la cause sous-jacente est primordiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755315874701_03",
+      "current_version_epoch_ms": 1755315874701,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Chez un enfant avec une évolution défavorable de pneumonie aiguë communautaire ambulatoire, quelle est la principale cause d'échec thérapeutique à rechercher ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une complication telle qu'une pleuropneumopathie ou un corps étranger.",
+            "justification": "Les complications comme la pleuropneumopathie ou la présence d'un corps étranger sont des causes fréquentes d'aggravation chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la durée de l'antibiothérapie sans modification.",
+            "justification": "L'augmentation de la durée n'est pas systématique, surtout si une complication est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la dose d'amoxicilline.",
+            "justification": "L'augmentation de la dose n'est pas la solution de première intention. Il est important d'explorer d'abord d'autres facteurs, comme les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Changer pour un antibiotique antivirale.",
+            "justification": "Une étiologie virale peut être considérée, mais l'antibiothérapie reste nécessaire dans un premier temps."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la dose de macrolides.",
+            "justification": "Augmenter la dose de macrolides n'est pas recommandé sans évaluation préalable de la cause de l'échec thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755315874701_04",
+      "current_version_epoch_ms": 1755315874701,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Dans quel cas un switch d'antibiothérapie chez un patient atteint de pneumonie aiguë communautaire peut-il être envisagé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si l'antibiothérapie initiale n'a pas montré de bénéfice après 48 à 72h.",
+            "justification": "Un switch d'antibiothérapie est recommandé si les symptômes persistent ou s'aggravent après 48 à 72h de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il n'y a pas de complications identifiées.",
+            "justification": "Un switch n'est pas systématique en l'absence de complications. La persistance des symptômes est le principal critère."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la fièvre diminue au bout de 48h.",
+            "justification": "La diminution de la fièvre seule ne justifie pas un switch, car l'évolution clinique générale reste un critère clé."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un traitement antibiotique a été prescrit de manière précoce.",
+            "justification": "La prescription précoce ne garantit pas une réponse favorable, et le switch doit se baser sur l'évolution clinique et la persistance des symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'on suspecte une infection virale.",
+            "justification": "Un switch est approprié en cas d'échec de l'antibiothérapie, non en cas de suspicion virale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755315874701_05",
+      "current_version_epoch_ms": 1755315874701,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Que faire si un patient hospitalisé pour une pneumonie aiguë communautaire présente une fièvre persistante malgré un traitement antibiotique adéquat ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une autre cause de la fièvre, telle qu'une infection urinaire ou une complication thrombo-embolique.",
+            "justification": "La persistance de la fièvre malgré un traitement adéquat nécessite de rechercher d'autres causes, comme une infection urinaire ou des complications thrombo-emboliques."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter immédiatement la dose d'antibiotiques.",
+            "justification": "L'augmentation de la dose d'antibiotiques n'est pas la première solution si la cause de la fièvre reste inexpliquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Passer à un antibiotique de dernière ligne.",
+            "justification": "Passer à un antibiotique de dernière ligne n'est pas justifié sans rechercher d'abord une autre cause de la fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un anti-inflammatoire non stéroïdien.",
+            "justification": "Les anti-inflammatoires peuvent masquer des symptômes importants. La recherche de la cause sous-jacente de la fièvre doit être la priorité."
+          },
+          {
+            "correct": false,
+            "proposition": "Continuer le traitement antibiotique sans modification.",
+            "justification": "La persistance de la fièvre malgré un traitement antibiotique approprié nécessite une réévaluation pour rechercher d'autres causes."
+          }
+        ]
+      }
+    }
+  ]
+}

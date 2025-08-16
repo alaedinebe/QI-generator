@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "compressionmed",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755156229015_01",
+      "current_version_epoch_ms": 1755156229015,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Dans le diagnostic d'une compression médullaire, quelle est la première étape à réaliser sur l'imagerie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Confirmer la compression médullaire et localiser la lésion",
+            "justification": "Il est essentiel de confirmer la présence de la compression médullaire et de localiser précisément la lésion pour pouvoir évaluer son impact sur la moelle épinière."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'état des vertèbres sus-jacentes",
+            "justification": "L'état des vertèbres sus-jacentes est important dans le bilan d'extension lésionnel, mais ne constitue pas la première étape du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une déformation de la moelle épinière",
+            "justification": "La déformation de la moelle épinière est un signe de sévérité, mais il est nécessaire d'abord de confirmer la compression et de la localiser."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la présence de métastases rachidiennes",
+            "justification": "Les métastases sont évaluées dans le cadre du bilan d'extension lésionnel, mais ce n'est pas la première étape du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier l'instabilité biomécanique",
+            "justification": "L'évaluation biomécanique est réalisée après confirmation de la compression médullaire pour rechercher des critères d'instabilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755156229015_02",
+      "current_version_epoch_ms": 1755156229015,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Comment localiser la compression médullaire à l'imagerie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En observant la déformation de la moelle épinière et la disparition du liseré de LCS péri-médullaire",
+            "justification": "La déformation de la moelle épinière et la disparition du liseré de LCS péri-médullaire sont des signes d'une compression médullaire localisée."
+          },
+          {
+            "correct": false,
+            "proposition": "En mesurant l'épaisseur du mur postérieur",
+            "justification": "L'épaisseur du mur postérieur est utile dans l'évaluation biomécanique mais pas directement pour la localisation de la compression médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En recherchant la présence de fractures dans les vertèbres sus-jacentes",
+            "justification": "Les fractures des vertèbres sont importantes pour évaluer l'instabilité, mais elles ne sont pas utilisées pour localiser une compression médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En observant l'étendue des métastases rachidiennes",
+            "justification": "Les métastases rachidiennes sont évaluées dans le cadre du bilan d'extension lésionnel, mais ne permettent pas de localiser précisément la compression médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En réalisant une évaluation clinique complète avant l'imagerie",
+            "justification": "Bien que l'évaluation clinique soit importante, elle n'est pas suffisante pour localiser précisément la compression médullaire, qui nécessite des examens d'imagerie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755156229015_03",
+      "current_version_epoch_ms": 1755156229015,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel critère permet de déterminer l'origine vertébro-épidurale de la compression médullaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'existence d'une lésion vertébrale associée à la compression",
+            "justification": "La présence d'une lésion vertébrale (fracture ou pathologie) associée à la compression médullaire permet d'évoquer une origine vertébro-épidurale."
+          },
+          {
+            "correct": false,
+            "proposition": "La déformation des structures intradurales",
+            "justification": "Une déformation intradurale est plus compatible avec une origine intradural extramédullaire ou intramédullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de métastases rachidiennes",
+            "justification": "Les métastases rachidiennes peuvent entraîner une compression médullaire, mais elles sont classées dans le cadre d'une origine étiologique différente."
+          },
+          {
+            "correct": false,
+            "proposition": "L'atteinte du liseré de LCS péri-médullaire",
+            "justification": "Le liseré de LCS péri-médullaire est un signe de compression, mais ne permet pas de déterminer l'origine vertébro-épidurale."
+          },
+          {
+            "correct": false,
+            "proposition": "L'instabilité biomécanique des vertèbres",
+            "justification": "L'instabilité biomécanique peut être présente dans tous les types de compression, indépendamment de l'origine vertébro-épidurale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755156229015_04",
+      "current_version_epoch_ms": 1755156229015,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Quel est l'objectif du bilan biomécanique dans le diagnostic d'une compression médullaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher des signes d'instabilité avant de décider d'une ostéosynthèse",
+            "justification": "Le bilan biomécanique permet d'identifier les critères d'instabilité, comme l'atteinte du mur postérieur ou du pédicule, nécessaires à la décision d'une ostéosynthèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Localiser précisément la compression médullaire",
+            "justification": "La localisation de la compression est réalisée par l'imagerie, et non par le bilan biomécanique."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'état des vertèbres sus-jacentes",
+            "justification": "L'évaluation des vertèbres sus-jacentes fait partie du bilan d'extension lésionnel et non du bilan biomécanique."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer l'origine vertébro-épidurale de la compression",
+            "justification": "L'origine vertébro-épidurale de la compression est évaluée par d'autres éléments du diagnostic étiologique, pas par le bilan biomécanique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher des métastases rachidiennes",
+            "justification": "Les métastases rachidiennes sont recherchées dans le cadre du bilan d'extension lésionnel, pas dans le bilan biomécanique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755156229015_05",
+      "current_version_epoch_ms": 1755156229015,
+      "topic": {
+        "subject": "neuro",
+        "item": "compressionmed"
+      },
+      "data": {
+        "statement": "Dans le cas d'une compression médullaire d'origine intradurale extra-médullaire, quel élément est particulièrement important à évaluer à l'imagerie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La déformation des structures intradurales et l'éventuelle présence de masse compressive",
+            "justification": "Les compressions intradurales extra-médullaires entraînent la déformation des structures intradurales, souvent en raison de la présence d'une masse extrinsèque à la moelle."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une fracture vertébrale associée",
+            "justification": "Une fracture vertébrale est davantage indicative d'une origine vertébro-épidurale et non d'une compression intradurale extra-médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'état des vertèbres sous-jacentes",
+            "justification": "L'état des vertèbres sous-jacentes est plus pertinent pour les bilans d'extension dans le cas de métastases ou d'autres lésions rachidiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "La recherche de signes d'instabilité biomécanique",
+            "justification": "Les signes d'instabilité biomécanique sont plus importants dans le bilan d'une compression d'origine vertébro-épidurale."
+          },
+          {
+            "correct": false,
+            "proposition": "La détection de métastases rachidiennes",
+            "justification": "Les métastases rachidiennes sont recherchées spécifiquement dans le cadre du bilan d'extension lésionnel et non dans l'évaluation d'une compression intradurale extra-médullaire."
+          }
+        ]
+      }
+    }
+  ]
+}

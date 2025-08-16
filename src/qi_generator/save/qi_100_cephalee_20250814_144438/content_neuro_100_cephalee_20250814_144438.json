@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "cephalee",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755175685278_01",
+      "current_version_epoch_ms": 1755175685278,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Définir et différencier les types de céphalées à installation rapide : identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une céphalée en coup de tonnerre est sévère (EVA ≥ 7) et maximale en moins d'une minute.",
+            "justification": "Elle est définie par une douleur très intense, atteignant son maximum en moins d'une minute."
+          },
+          {
+            "correct": true,
+            "proposition": "Une céphalée brutale est maximale en quelques minutes.",
+            "justification": "La céphalée dite brutale atteint son intensité maximale en quelques minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les causes des céphalées maximales en moins d'une heure diffèrent de celles des céphalées en coup de tonnerre.",
+            "justification": "Les causes des céphalées maximales en moins d'une heure sont en pratique les mêmes que celles des céphalées en coup de tonnerre."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée en coup de tonnerre est maximale en moins d'une heure.",
+            "justification": "Le délai est inférieur à une minute, pas moins d'une heure."
+          },
+          {
+            "correct": false,
+            "proposition": "Une céphalée brutale est maximale en 1 à 3 semaines.",
+            "justification": "Un délai de semaines est incompatible avec la notion de céphalée brutale, qui culmine en quelques minutes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175685278_02",
+      "current_version_epoch_ms": 1755175685278,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques cliniques d'une hémorragie sous-arachnoïdienne (HSA) à l'origine d'une céphalée brutale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'HSA représente environ 10 à 25 % des céphalées brutales.",
+            "justification": "Elle constitue une part importante des céphalées à installation brutale."
+          },
+          {
+            "correct": true,
+            "proposition": "La céphalée typique d'HSA est explosive, en coup de tonnerre, sévère, persistante, associée à un syndrome méningé et une cervicalgie.",
+            "justification": "Le tableau associe douleur brutale et signes méningés avec cervicalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Une HSA est toujours précédée d'une céphalée isolée de courte durée (« épistaxis méningée »).",
+            "justification": "Une céphalée isolée brève peut précéder une HSA massive, mais ce n'est pas constant."
+          },
+          {
+            "correct": true,
+            "proposition": "Une céphalée isolée de courte durée peut annoncer une HSA massive.",
+            "justification": "Une « épistaxis méningée » peu abondante peut précéder une HSA majeure."
+          },
+          {
+            "correct": true,
+            "proposition": "Une paralysie du III peut survenir par compression anévrismale de la communicante postérieure ou de la terminaison carotidienne.",
+            "justification": "Le déficit oculomoteur est mentionné comme signe associé possible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175685278_03",
+      "current_version_epoch_ms": 1755175685278,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Identifier les éléments évocateurs d'un syndrome de vasoconstriction cérébrale réversible (SVCR).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le SVCR représente 10 à 45 % des céphalées en coup de tonnerre vues aux urgences.",
+            "justification": "Il est fréquent parmi les céphalées en coup de tonnerre et sous-diagnostiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une vasoconstriction segmentaire et diffuse réversible en 3 mois.",
+            "justification": "La réversibilité en trois mois est caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "La céphalée dure 5 minutes à plusieurs heures et se répète sur 1 à 3 semaines, volontiers déclenchée par l'effort, l'émotion, le Valsalva ou l'activité sexuelle.",
+            "justification": "La répétition sur quelques semaines et les déclencheurs sont typiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Le SVCR peut se compliquer d'HSA corticale sans anévrisme et d'AVC hémorragique ou ischémique.",
+            "justification": "Des complications hémorragiques ou ischémiques sont rapportées."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre et un syndrome infectieux orientent d'abord vers un SVCR.",
+            "justification": "Un contexte infectieux évoque plutôt une méningite ou méningoencéphalite, pas le SVCR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175685278_04",
+      "current_version_epoch_ms": 1755175685278,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Classer les tableaux suivants : répondre VRAI si compatible avec une dissection artérielle cervicale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalée aiguë avec cervicalgie et, du côté douloureux, syndrome de Claude-Bernard-Horner, acouphène pulsatile, paralysie du XII, douleur orbitaire.",
+            "justification": "Ces signes latéralisés (carotide) sont typiques d'une dissection."
+          },
+          {
+            "correct": true,
+            "proposition": "Cervicalgie postérieure avec céphalée aiguë.",
+            "justification": "La cervicalgie postérieure évoque une dissection vertébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalée orthostatique disparaissant en décubitus.",
+            "justification": "Ce profil oriente vers une hypotension intracrânienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée précédant une amaurose transitoire, un AIT ou un AVC.",
+            "justification": "Les signes d'ischémie rétinienne ou cérébrale peuvent suivre une dissection."
+          },
+          {
+            "correct": false,
+            "proposition": "Halos lumineux, œil rouge, mydriase et baisse d'acuité visuelle.",
+            "justification": "Ce tableau est en faveur d'un glaucome aigu par fermeture de l'angle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175685278_05",
+      "current_version_epoch_ms": 1755175685278,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Associer chaque tableau clinique à l'étiologie la plus probable (répondre VRAI si l'association est correcte).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Halos lumineux, baisse d'acuité visuelle, nausées-vomissements, œil rouge et pupille en mydriase → glaucome aigu par fermeture de l'angle.",
+            "justification": "Cette constellation de signes est typique du glaucome aigu."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée posturale orthostatique disparaissant en décubitus → hypotension intracrânienne.",
+            "justification": "La dépendance posturale avec soulagement en décubitus caractérise l'hypotension intracrânienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée brutale, troubles visuels, hémianopsie bitemporale, puis signes d'insuffisance hypophysaire en contexte de postpartum → apoplexie/nécrose pituitaire.",
+            "justification": "Le contexte et les signes visuels/hypophysaires orientent vers l'apoplexie pituitaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalées brutales transitoires lors des mouvements ou à la toux, devenant ensuite permanentes → hydrocéphalie aiguë (HTIC aiguë) sur tumeur comprimant le 3e ou 4e ventricule.",
+            "justification": "La majoration à l'effort/toux puis la persistance évoquent une hydrocéphalie aiguë sur lésion obstructive."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées en salves sur 1 à 3 semaines, déclenchées par effort, émotion, Valsalva ou activité sexuelle → hémorragie sous-arachnoïdienne par rupture d'anévrisme.",
+            "justification": "Des épisodes répétés sur 1 à 3 semaines avec ces déclencheurs sont évocateurs d'un SVCR, pas d'une HSA typique."
+          }
+        ]
+      }
+    }
+  ]
+}

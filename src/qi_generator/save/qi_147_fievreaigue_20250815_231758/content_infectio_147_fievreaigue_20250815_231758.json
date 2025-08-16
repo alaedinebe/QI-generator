@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "fievreaigue",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755292885127_01",
+      "current_version_epoch_ms": 1755292885127,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelles sont les indications d'antibiothérapie urgente probabiliste en cas de fièvre sans diagnostic précis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de signes de gravité (sepsis, choc septique)",
+            "justification": "Les signes de gravité, tels que le sepsis ou le choc septique, justifient une antibiothérapie urgente pour prévenir l'aggravation de l'état du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre chez un patient neutropénique (neutrophiles < 500/m3) ou asplénique",
+            "justification": "Les patients neutropéniques ou aspléniques sont particulièrement vulnérables aux infections graves, justifiant une antibiothérapie urgente même sans étiologie précise."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'infection grave (ex : purpura fulminans)",
+            "justification": "En cas de suspicion d'infection grave, telle que le purpura fulminans, une antibiothérapie est indiquée dès le domicile pour prévenir une détérioration rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée sans symptômes associés",
+            "justification": "Une fièvre isolée sans autres signes cliniques n'indique pas d'urgence à initier une antibiothérapie avant un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre chez un patient avec infection respiratoire bénigne",
+            "justification": "Dans le cadre d'une infection respiratoire bénigne, l'urgence n'est pas d'initier une antibiothérapie probabiliste, mais de poser un diagnostic précis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292885127_02",
+      "current_version_epoch_ms": 1755292885127,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Que faire en cas de fièvre chez un patient neutropénique sans étiologie identifiée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Initier une antibiothérapie urgente",
+            "justification": "Chez un patient neutropénique (neutrophiles < 500/m3), l'antibiothérapie urgente est cruciale pour prévenir des infections graves, même en l'absence de diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre les résultats des examens microbiologiques avant d'initier un traitement",
+            "justification": "Le délai d'attente pour les résultats microbiologiques peut compromettre l'état du patient. Une antibiothérapie urgente doit être administrée sans attendre."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer uniquement des anti-inflammatoires",
+            "justification": "Les anti-inflammatoires ne sont pas suffisants pour traiter une infection chez un patient neutropénique, et une antibiothérapie est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter les examens diagnostiques pour éviter l'infection nosocomiale",
+            "justification": "Les examens diagnostiques sont importants pour identifier l'infection, et il est crucial de ne pas retarder le traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveiller étroitement l'évolution clinique et ajuster l'antibiothérapie selon les résultats",
+            "justification": "Bien que l'antibiothérapie urgente soit administrée, la surveillance clinique permet d'ajuster rapidement le traitement en fonction de l'évolution de l'état du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292885127_03",
+      "current_version_epoch_ms": 1755292885127,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Dans quel cas l'antibiothérapie est-elle indiquée avant tout prélèvement chez un patient présentant une fièvre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion de purpura fulminans",
+            "justification": "Le purpura fulminans est une urgence infectieuse nécessitant une antibiothérapie immédiate avant tout prélèvement pour prévenir la rapidité de la dégradation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une fièvre sans signes cliniques associés",
+            "justification": "Une fièvre isolée sans signes cliniques graves ne justifie pas une antibiothérapie avant le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le cas d'une infection bénigne des voies respiratoires",
+            "justification": "Une infection bénigne ne nécessite pas une antibiothérapie avant d'obtenir un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient présente une simple rhinopharyngite",
+            "justification": "Une rhinopharyngite n'est pas une indication d'antibiothérapie urgente, d'autant plus qu'il s'agit généralement d'une infection virale."
+          },
+          {
+            "correct": true,
+            "proposition": "Lors d'une suspicion de septicémie grave",
+            "justification": "La suspicion de septicémie grave exige un traitement antibiotique immédiat pour éviter un choc septique, même avant de connaître l'étiologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292885127_04",
+      "current_version_epoch_ms": 1755292885127,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Comment gérer une fièvre avec des signes de gravité chez un patient avec suspicion d'infection grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Initiation rapide d'une antibiothérapie probabiliste",
+            "justification": "Les signes de gravité et la suspicion d'infection grave exigent une antibiothérapie immédiate pour réduire le risque de complications majeures."
+          },
+          {
+            "correct": false,
+            "proposition": "Observer sans traitement en attendant les résultats des examens",
+            "justification": "L'attente des résultats peut entraîner un état de choc ou des complications graves. Le traitement antibiotique doit commencer sans délai."
+          },
+          {
+            "correct": false,
+            "proposition": "Donner un antipyretique et observer l'évolution",
+            "justification": "Les antipyretiques ne sont pas suffisants pour traiter une infection grave et ne doivent pas être utilisés à la place d'une antibiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une antibiothérapie à large spectre uniquement en cas de confirmation d'infection bactérienne",
+            "justification": "Le traitement doit être initié avant toute confirmation d'infection bactérienne, car les infections graves évoluent rapidement."
+          },
+          {
+            "correct": true,
+            "proposition": "Prendre des prélèvements microbiologiques en parallèle du traitement antibiotique",
+            "justification": "Bien que l'antibiothérapie soit urgente, les prélèvements permettent de guider le traitement ultérieur en fonction de l'identification de l'agent pathogène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292885127_05",
+      "current_version_epoch_ms": 1755292885127,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'urgence est de réaliser un diagnostic précis avant d'administrer une antibiothérapie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre sans signes de gravité et sans suspicion d'infection grave",
+            "justification": "Lorsque la fièvre n'est pas accompagnée de signes graves ou de suspicion d'infection grave, le diagnostic doit être posé rapidement pour administrer le traitement adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre accompagnée de purpura fulminans",
+            "justification": "Le purpura fulminans justifie une antibiothérapie immédiate, sans attendre les résultats du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre chez un patient neutropénique",
+            "justification": "Chez un patient neutropénique, l'antibiothérapie urgente est nécessaire même sans diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre avec sepsis",
+            "justification": "Le sepsis nécessite une antibiothérapie urgente sans attendre un diagnostic précis."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre avec suspicion d'infection bénigne",
+            "justification": "Dans le cas d'une suspicion d'infection bénigne, l'urgence est de confirmer le diagnostic avant de débuter un traitement spécifique."
+          }
+        ]
+      }
+    }
+  ]
+}

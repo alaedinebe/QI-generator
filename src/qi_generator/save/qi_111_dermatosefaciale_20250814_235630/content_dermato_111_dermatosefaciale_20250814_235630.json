@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755208797339_01",
+      "current_version_epoch_ms": 1755208797339,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier les formes de rosacée à connaître pour l'objectif OIC-111-12-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La rosacée vasculaire fait partie des formes à reconnaître.",
+            "justification": "Forme listée parmi les catégories de rosacée à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée papulo-pustuleuse fait partie des formes à reconnaître.",
+            "justification": "Forme listée parmi les catégories de rosacée à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée hypertrophique (rhinophyma) fait partie des formes à reconnaître.",
+            "justification": "Forme listée, avec rhinophyma précisé comme hypertrophique."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée papulo-pustuleuse n'est pas une forme de rosacée.",
+            "justification": "Contradiction avec la classification qui l'énumère explicitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Le rhinophyma correspond à une forme hypertrophique de rosacée.",
+            "justification": "Rhinophyma est indiqué comme exemple de forme hypertrophique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208797339_02",
+      "current_version_epoch_ms": 1755208797339,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Classer correctement le rhinophyma dans la typologie de la rosacée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rhinophyma relève de la rosacée hypertrophique.",
+            "justification": "Rhinophyma est explicitement rattaché à la forme hypertrophique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rhinophyma relève de la rosacée vasculaire.",
+            "justification": "Catégorie distincte de la forme hypertrophique où le rhinophyma est placé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rhinophyma relève de la rosacée papulo-pustuleuse.",
+            "justification": "Catégorie différente de la forme hypertrophique mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée hypertrophique est illustrée par le rhinophyma.",
+            "justification": "Le libellé précise « rosacée hypertrophique : rhinophyma »."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rhinophyma n'appartient pas à la rosacée.",
+            "justification": "Il est explicitement présenté comme une forme de rosacée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208797339_03",
+      "current_version_epoch_ms": 1755208797339,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier la forme vasculaire des autres formes de rosacée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La rosacée vasculaire est une catégorie de la rosacée.",
+            "justification": "Énumérée parmi les formes de rosacée."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée vasculaire est synonyme de rosacée papulo-pustuleuse.",
+            "justification": "Deux intitulés distincts sont listés, indiquant des catégories différentes."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée vasculaire comprend le rhinophyma.",
+            "justification": "Le rhinophyma est rattaché à la forme hypertrophique, pas à la vasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée vasculaire est distincte de la forme hypertrophique.",
+            "justification": "Les deux formes sont présentées séparément dans la classification."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée vasculaire relève de l'objectif de reconnaissance OIC-111-12-A.",
+            "justification": "Incluse dans l'ensemble des formes à reconnaître pour cet objectif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208797339_04",
+      "current_version_epoch_ms": 1755208797339,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître et classer la rosacée papulo-pustuleuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La rosacée papulo-pustuleuse fait partie des formes officielles de la rosacée.",
+            "justification": "Elle figure expressément dans la liste des formes."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée papulo-pustuleuse est équivalente à la forme hypertrophique.",
+            "justification": "La forme hypertrophique est illustrée par le rhinophyma, distincte de la papulo-pustuleuse."
+          },
+          {
+            "correct": true,
+            "proposition": "La rosacée papulo-pustuleuse est distincte de la forme vasculaire.",
+            "justification": "Deux catégories nommées séparément."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée papulo-pustuleuse n'est pas incluse dans l'objectif OIC-111-12-A.",
+            "justification": "Elle est comprise dans les formes à reconnaître définies par cet objectif."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée papulo-pustuleuse désigne le rhinophyma.",
+            "justification": "Le rhinophyma est rattaché à la forme hypertrophique, pas papulo-pustuleuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208797339_05",
+      "current_version_epoch_ms": 1755208797339,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Valider les éléments constitutifs de la classification utile pour « Savoir reconnaître une rosacée » (OIC-111-12-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les formes à connaître comprennent : vasculaire, papulo-pustuleuse, hypertrophique (rhinophyma).",
+            "justification": "Ces trois intitulés sont précisément mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe qu'une seule forme de rosacée citée.",
+            "justification": "Plusieurs formes sont énumérées."
+          },
+          {
+            "correct": true,
+            "proposition": "Le rhinophyma est explicitement cité comme exemple de forme hypertrophique.",
+            "justification": "Formulation « rosacée hypertrophique : rhinophyma »."
+          },
+          {
+            "correct": false,
+            "proposition": "La rosacée vasculaire n'est pas incluse dans cette classification.",
+            "justification": "Elle fait partie de la liste des formes à reconnaître."
+          },
+          {
+            "correct": true,
+            "proposition": "L'objectif OIC-111-12-A porte sur la compétence de reconnaissance des formes de rosacée.",
+            "justification": "Le titre précise « Savoir reconnaître une rosacée »."
+          }
+        ]
+      }
+    }
+  ]
+}

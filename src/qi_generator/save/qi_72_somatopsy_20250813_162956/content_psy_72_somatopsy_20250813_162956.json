@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "somatopsy",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755095602967_01",
+      "current_version_epoch_ms": 1755095602967,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Identifier la bonne fourchette de prévalence, en soins primaires, de l'expression de symptômes médicalement non expliqués.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "5–9 %",
+            "justification": "Valeur très inférieure à l'intervalle indiqué (40–49 %)."
+          },
+          {
+            "correct": false,
+            "proposition": "10–19 %",
+            "justification": "En dehors de l'intervalle 40–49 % rapporté."
+          },
+          {
+            "correct": false,
+            "proposition": "25–35 %",
+            "justification": "En dehors de l'intervalle 40–49 % rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "40–49 %",
+            "justification": "La prévalence en soins primaires est comprise entre 40 et 49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 50 %",
+            "justification": "Au-dessus de 49 %, contraire à l'intervalle 40–49 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095602967_02",
+      "current_version_epoch_ms": 1755095602967,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Différencier les affirmations exactes concernant cette prévalence en soins primaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est comprise entre 40 et 49 %.",
+            "justification": "La fourchette rapportée est 40–49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inférieure à 30 %.",
+            "justification": "Contradiction avec l'intervalle 40–49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est ≥ 50 %.",
+            "justification": "Dépasse 49 %, ce qui n'est pas le cas."
+          },
+          {
+            "correct": true,
+            "proposition": "La donnée concerne les soins primaires.",
+            "justification": "La prévalence rapportée est en soins primaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est exactement 45 %.",
+            "justification": "Seule une fourchette (40–49 %) est fournie, aucune valeur ponctuelle n'est établie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095602967_03",
+      "current_version_epoch_ms": 1755095602967,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Identifier les bornes correctes de l'intervalle de prévalence rapporté.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Borne inférieure : 40 %.",
+            "justification": "L'intervalle commence à 40 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Borne supérieure : 49 %.",
+            "justification": "L'intervalle se termine à 49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Borne inférieure : 39 %. ",
+            "justification": "39 % est hors de l'intervalle 40–49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Borne supérieure : 50 %.",
+            "justification": "50 % dépasse la borne 49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Intervalle : 39–48 %.",
+            "justification": "Ne correspond pas à la fourchette 40–49 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095602967_04",
+      "current_version_epoch_ms": 1755095602967,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "Reconnaître les valeurs ponctuelles compatibles avec l'intervalle de prévalence rapporté (40–49 %).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "38 %.",
+            "justification": "Inférieur à la borne 40 %."
+          },
+          {
+            "correct": true,
+            "proposition": "41 %.",
+            "justification": "Comprise dans l'intervalle 40–49 %."
+          },
+          {
+            "correct": true,
+            "proposition": "45 %.",
+            "justification": "Comprise dans l'intervalle 40–49 %."
+          },
+          {
+            "correct": true,
+            "proposition": "48 %.",
+            "justification": "Comprise dans l'intervalle 40–49 %."
+          },
+          {
+            "correct": false,
+            "proposition": "50 %.",
+            "justification": "Au-dessus de 49 %, hors intervalle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755095602967_05",
+      "current_version_epoch_ms": 1755095602967,
+      "topic": {
+        "subject": "psy",
+        "item": "somatopsy"
+      },
+      "data": {
+        "statement": "En soins primaires, classer comme correctes toutes les propositions décrivant fidèlement cette prévalence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle concerne l'expression de symptômes médicalement non expliqués.",
+            "justification": "La donnée porte sur l'expression de symptômes médicalement non expliqués."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est observée en soins primaires.",
+            "justification": "La prévalence rapportée concerne les soins primaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est comprise entre 30 et 39 %.",
+            "justification": "Hors de la fourchette 40–49 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est comprise entre 40 et 49 %.",
+            "justification": "Correspond exactement à la fourchette indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle dépasse 60 %.",
+            "justification": "Contradiction avec la borne supérieure à 49 %."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psychotropes",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755104092136_01",
+      "current_version_epoch_ms": 1755104092136,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Identifier les interactions médicamenteuses importantes des psychostimulants (méthylphénidate et/ou modafinil).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association avec les antidépresseurs tricycliques",
+            "justification": "Fait partie des principales interactions médicamenteuses rapportées avec les psychostimulants."
+          },
+          {
+            "correct": true,
+            "proposition": "Association avec des anesthésiques volatils",
+            "justification": "Mentionnée parmi les interactions médicamenteuses importantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Association avec des agents vasopresseurs",
+            "justification": "Mentionnée parmi les principales interactions médicamenteuses."
+          },
+          {
+            "correct": true,
+            "proposition": "Le modafinil peut inactiver les contraceptifs oraux",
+            "justification": "L'inactivation des contraceptifs oraux est explicitement rapportée avec le modafinil."
+          },
+          {
+            "correct": false,
+            "proposition": "Le modafinil augmente l'exposition à la ciclosporine",
+            "justification": "Il est indiqué une inactivation de la ciclosporine par le modafinil, suggérant une diminution d'effet et non une augmentation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104092136_02",
+      "current_version_epoch_ms": 1755104092136,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Reconnaître les effets indésirables neuro-psychiatriques associés au méthylphénidate.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tics",
+            "justification": "Listés parmi les effets neurologiques et psychiques du méthylphénidate."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptômes psychotiques",
+            "justification": "Mentionnés dans les effets neuro-psychiatriques du méthylphénidate."
+          },
+          {
+            "correct": true,
+            "proposition": "Tristesse de l'humeur",
+            "justification": "Présente dans les effets psychiques rapportés sous méthylphénidate."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyskinésies",
+            "justification": "Rapportées avec le modafinil, pas avec le méthylphénidate."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles visuels",
+            "justification": "Rapportés avec le modafinil, pas parmi les effets du méthylphénidate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104092136_03",
+      "current_version_epoch_ms": 1755104092136,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Reconnaître les effets indésirables cardiovasculaires rapportés avec le modafinil.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie",
+            "justification": "Indiquée parmi les effets cardiovasculaires du modafinil."
+          },
+          {
+            "correct": true,
+            "proposition": "Palpitations",
+            "justification": "Indiquées parmi les effets cardiovasculaires du modafinil."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle",
+            "justification": "Mentionnée dans les effets cardiovasculaires du modafinil."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle",
+            "justification": "Signalée comme possible avec le modafinil."
+          },
+          {
+            "correct": false,
+            "proposition": "Artérite ou phénomène de Raynaud",
+            "justification": "Rapportés avec le méthylphénidate, pas avec le modafinil."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104092136_04",
+      "current_version_epoch_ms": 1755104092136,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Identifier les effets digestifs et musculo-squelettiques rapportés sous méthylphénidate.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nausées",
+            "justification": "Listées parmi les effets digestifs du méthylphénidate."
+          },
+          {
+            "correct": true,
+            "proposition": "Anorexie avec perte de poids",
+            "justification": "Mentionnée comme effet digestif (perte de poids)."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs abdominales",
+            "justification": "Indiquées parmi les effets digestifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Myalgies",
+            "justification": "Rapportées avec le modafinil, pas parmi les effets du méthylphénidate."
+          },
+          {
+            "correct": true,
+            "proposition": "Possible ralentissement staturo-pondéral",
+            "justification": "Listé dans les effets musculo-squelettiques du méthylphénidate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104092136_05",
+      "current_version_epoch_ms": 1755104092136,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Sous modafinil, reconnaître les manifestations allergiques ou hématologiques rapportées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Urticaire voire œdème de Quincke",
+            "justification": "Mentionnés parmi les effets allergiques du modafinil."
+          },
+          {
+            "correct": true,
+            "proposition": "Éosinophilie",
+            "justification": "Listée parmi les effets hématologiques du modafinil."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction anaphylactique",
+            "justification": "Rapportée avec le méthylphénidate (allergies), pas avec le modafinil."
+          },
+          {
+            "correct": false,
+            "proposition": "Cytopénies",
+            "justification": "Indiquées avec le méthylphénidate (hématologique), pas avec le modafinil."
+          },
+          {
+            "correct": false,
+            "proposition": "Sécheresse buccale",
+            "justification": "Effet digestif du modafinil, non une manifestation allergique ou hématologique."
+          }
+        ]
+      }
+    }
+  ]
+}

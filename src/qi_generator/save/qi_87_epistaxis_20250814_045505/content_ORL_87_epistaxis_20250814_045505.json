@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epistaxis",
+    "subject": "ORL"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755140312147_01",
+      "current_version_epoch_ms": 1755140312147,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quels examens biologiques doivent être réalisés devant une épistaxis grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Numération Formule Sanguine",
+            "justification": "La numération formule sanguine permet d'évaluer l'état hématologique du patient, essentiel en cas d'épistaxis grave pour détecter une anémie ou une thrombopénie."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan pré-transfusionnel (Groupe sanguin, Rhésus, RAI)",
+            "justification": "Le bilan pré-transfusionnel est indispensable en cas de transfusion potentielle pour connaître le groupe sanguin, le Rhésus et réaliser un test de compatibilité (RAI)."
+          },
+          {
+            "correct": false,
+            "proposition": "INR",
+            "justification": "L'INR n'est pas un examen de routine dans une épistaxis grave, sauf en cas de suspicion de prise d'anticoagulants oraux."
+          },
+          {
+            "correct": false,
+            "proposition": "TP",
+            "justification": "Le TP (Temps de Prothrombine) est utile en cas de suspicion de troubles de l'hémostase, mais pas nécessaire dans un cadre d'épistaxis grave sans cette suspicion."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité antiXa",
+            "justification": "L'activité antiXa est utilisée pour surveiller les anticoagulants de type xabans et non pour un examen de base dans une épistaxis grave."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755140312147_02",
+      "current_version_epoch_ms": 1755140312147,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quels examens doivent être réalisés devant une suspicion de troubles de l'hémostase ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TP, TCA, Plaquettes",
+            "justification": "Le TP (Temps de Prothrombine), le TCA (Temps de Céphaline Activée) et le dosage des plaquettes permettent d'évaluer les paramètres clés de l'hémostase et de détecter des anomalies comme une coagulopathie."
+          },
+          {
+            "correct": false,
+            "proposition": "Numération Formule Sanguine",
+            "justification": "Bien que la NFS soit utile dans certaines situations, elle n'est pas spécifique pour diagnostiquer des troubles de l'hémostase."
+          },
+          {
+            "correct": true,
+            "proposition": "INR (pour les AVK)",
+            "justification": "L'INR permet d'évaluer l'effet des antivitamines K (AVK) et d'ajuster le traitement en cas de troubles de l'hémostase."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan pré-transfusionnel (Groupe sanguin, Rhésus, RAI)",
+            "justification": "Ce bilan est important en cas de transfusion, mais il n'est pas directement lié à la suspicion de troubles de l'hémostase."
+          },
+          {
+            "correct": true,
+            "proposition": "Activité antiXa (pour la classe des xabans)",
+            "justification": "L'activité antiXa permet de mesurer l'effet des anticoagulants de la classe des xabans, importants en cas de suspicion de troubles de l'hémostase sous traitement anticoagulant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755140312147_03",
+      "current_version_epoch_ms": 1755140312147,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel examen biologique est indiqué pour vérifier l'efficacité des AVK dans le cadre de troubles de l'hémostase ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "INR",
+            "justification": "L'INR est utilisé pour surveiller l'effet des AVK et ajuster la posologie afin de maintenir un équilibre entre prévention des thromboses et risque hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "TCA",
+            "justification": "Le TCA n'est pas pertinent pour l'évaluation des AVK, qui agissent principalement sur la voie extrinsèque de la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Numération Formule Sanguine",
+            "justification": "La NFS évalue les cellules sanguines, mais elle ne permet pas de mesurer l'effet des AVK sur la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Plaquettes",
+            "justification": "La mesure des plaquettes est utile en cas de troubles de l'hémostase mais ne renseigne pas sur l'effet des AVK."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité antiXa",
+            "justification": "L'activité antiXa est spécifique pour surveiller les anticoagulants de type xabans, mais ne s'applique pas aux AVK."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755140312147_04",
+      "current_version_epoch_ms": 1755140312147,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel examen biologique est utilisé pour évaluer la fonction plaquettaire dans le cadre d'une épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plaquettes",
+            "justification": "Le comptage des plaquettes permet d'évaluer leur nombre, essentiel en cas de troubles de l'hémostase ou de saignements comme l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "TP",
+            "justification": "Le TP mesure l'activité des facteurs de la coagulation, mais il ne donne pas d'information directe sur la fonction plaquettaire."
+          },
+          {
+            "correct": false,
+            "proposition": "TCA",
+            "justification": "Le TCA mesure le temps de coagulation en relation avec les facteurs plasmatiques, mais ne renseigne pas directement sur la fonction plaquettaire."
+          },
+          {
+            "correct": false,
+            "proposition": "INR",
+            "justification": "L'INR est un test spécifique pour les patients sous AVK, il n'évalue pas la fonction plaquettaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité antiXa",
+            "justification": "L'activité antiXa est utilisée pour surveiller les anticoagulants de type xabans, pas pour évaluer la fonction plaquettaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755140312147_05",
+      "current_version_epoch_ms": 1755140312147,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Pourquoi effectuer un bilan pré-transfusionnel dans le cadre d'une épistaxis grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour connaître le groupe sanguin, le Rhésus et effectuer un test de compatibilité avant une transfusion éventuelle",
+            "justification": "Le bilan pré-transfusionnel permet de connaître le groupe sanguin et le Rhésus du patient et de réaliser un test de compatibilité, essentiels pour éviter une réaction transfusionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour mesurer le temps de prothrombine",
+            "justification": "Le TP est utilisé pour évaluer la coagulation, mais il n'est pas pertinent dans le cadre du bilan pré-transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour déterminer la numération des plaquettes",
+            "justification": "La numération des plaquettes est utile pour diagnostiquer des troubles de l'hémostase, mais elle n'est pas le but principal du bilan pré-transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer l'activité antiXa",
+            "justification": "L'activité antiXa est utilisée pour mesurer les anticoagulants de type xabans et n'a pas de lien direct avec le bilan pré-transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour vérifier la fonction rénale",
+            "justification": "La fonction rénale n'est pas le paramètre à surveiller dans un bilan pré-transfusionnel destiné à préparer une transfusion sanguine."
+          }
+        ]
+      }
+    }
+  ]
+}

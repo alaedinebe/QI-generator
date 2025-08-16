@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755330581799_01",
+      "current_version_epoch_ms": 1755330581799,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est l'antibiotique de première intention recommandé pour traiter une infection à Staphylococcus aureus sensible à la méticilline (SASM) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pénicilline M",
+            "justification": "La pénicilline M est l'antibiotique de 1ère intention pour le traitement des infections causées par Staphylococcus aureus sensible à la méticilline."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphazoline",
+            "justification": "La céphazoline, une céphalosporine de 1ère génération, est également indiquée pour le traitement des infections à Staphylococcus aureus sensible à la méticilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine est réservée au traitement des infections causées par Staphylococcus aureus résistant à la méticilline (SARM), et non pour les souches sensibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline n'est pas spécifiée pour le traitement des infections à Staphylococcus aureus sensible à la méticilline, bien que cela puisse être le cas pour d'autres streptocoques."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluconazole",
+            "justification": "Le fluconazole est un antifongique utilisé contre les infections à Candida et non contre les infections bactériennes à Staphylococcus aureus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330581799_02",
+      "current_version_epoch_ms": 1755330581799,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est l'antibiotique de première intention pour traiter une infection à Streptococcus pneumoniae grave, comme la méningite ou la pneumonie aigue communautaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pénicilline A (amoxicilline)",
+            "justification": "L'amoxicilline est l'antibiotique de 1ère intention pour les infections graves à Streptococcus pneumoniae, incluant les cas de méningite ou de pneumonie communautaire aigue."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalosporine de 3ème génération (céfotaxime, ceftriaxone)",
+            "justification": "Les céphalosporines de 3ème génération, comme le céfotaxime ou le ceftriaxone, sont également indiquées pour traiter Streptococcus pneumoniae dans les infections graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Imidazole",
+            "justification": "L'imidazole est utilisé pour traiter les infections anaérobies, pas les infections à Streptococcus pneumoniae."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine est utilisée pour le traitement du Staphylococcus aureus résistant à la méticilline (SARM), mais pas pour Streptococcus pneumoniae."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluconazole",
+            "justification": "Le fluconazole est un antifongique et ne s'applique pas aux infections bactériennes comme celles causées par Streptococcus pneumoniae."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330581799_03",
+      "current_version_epoch_ms": 1755330581799,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la première intention thérapeutique pour traiter une infection à Escherichia coli chez un patient sans allergie aux antibiotiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalosporine de 3ème génération",
+            "justification": "Les céphalosporines de 3ème génération sont utilisées comme traitement de 1ère intention pour les infections à Escherichia coli."
+          },
+          {
+            "correct": true,
+            "proposition": "Fluoroquinolone",
+            "justification": "En cas d'allergie aux céphalosporines de 3ème génération, les fluoroquinolones sont une alternative recommandée pour traiter Escherichia coli."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline A",
+            "justification": "La pénicilline A n'est pas efficace contre Escherichia coli, qui est généralement résistant à cet antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline n'est pas le traitement recommandé pour les infections à Escherichia coli, qui nécessite des antibiotiques à large spectre comme les céphalosporines de 3ème génération."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine est utilisée pour traiter le SARM, mais pas pour les infections à Escherichia coli."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330581799_04",
+      "current_version_epoch_ms": 1755330581799,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est l'antibiotique de choix pour traiter une infection à Candida selon l'antifongigramme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fluconazole",
+            "justification": "Le fluconazole est un antifongique de première ligne pour traiter les infections à Candida, selon l'antifongigramme."
+          },
+          {
+            "correct": true,
+            "proposition": "Echinocandine",
+            "justification": "L'échinocandine est une autre option thérapeutique, particulièrement efficace contre certaines souches de Candida résistantes au fluconazole."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine est un antibiotique utilisé contre le SARM et non contre les infections fongiques à Candida."
+          },
+          {
+            "correct": false,
+            "proposition": "Imidazole",
+            "justification": "Bien que l'imidazole soit utilisé contre certaines infections anaérobies, il n'est pas recommandé pour le traitement des infections à Candida."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporine de 3ème génération",
+            "justification": "Les céphalosporines de 3ème génération sont utilisées pour les infections bactériennes et ne sont pas efficaces contre Candida."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330581799_05",
+      "current_version_epoch_ms": 1755330581799,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est l'antibiotique recommandé pour traiter une infection à Staphylococcus aureus résistant à la méticilline (SARM) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vancomycine",
+            "justification": "La vancomycine est le traitement de 1ère intention pour les infections à Staphylococcus aureus résistant à la méticilline (SARM), en raison de son efficacité contre cette souche résistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporine de 1ère génération",
+            "justification": "Les céphalosporines de 1ère génération ne sont pas efficaces contre le SARM, qui est résistant à ces antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline M",
+            "justification": "La pénicilline M est utilisée contre Staphylococcus aureus sensible à la méticilline, mais pas contre les souches résistantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline n'est pas efficace contre le SARM, qui est résistant aux pénicillines."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluconazole",
+            "justification": "Le fluconazole est un antifongique, non un antibiotique bactérien, et n'est pas utile pour traiter une infection bactérienne à Staphylococcus aureus."
+          }
+        ]
+      }
+    }
+  ]
+}

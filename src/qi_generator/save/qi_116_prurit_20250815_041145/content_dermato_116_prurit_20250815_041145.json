@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "prurit",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755224112288_01",
+      "current_version_epoch_ms": 1755224112288,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Parmi les affections suivantes, identifier celles qui constituent des causes spécifiques de prurit au cours de la grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cholestase intra-hépatique de la grossesse",
+            "justification": "Fait partie des trois causes spécifiques listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Dermatose bulleuse auto-immune spécifique de la grossesse (pemphigoïde de la grossesse)",
+            "justification": "Fait partie des trois causes spécifiques listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Éruption polymorphe de la grossesse",
+            "justification": "Fait partie des trois causes spécifiques listées."
+          },
+          {
+            "correct": false,
+            "proposition": "Cytolyse hépatique isolée au cours de la grossesse",
+            "justification": "La cytolyse peut être associée à la cholestase mais n'est pas une cause spécifique en elle-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation isolée des sels biliaires sanguins",
+            "justification": "Il s'agit d'un critère de confirmation de la cholestase, pas d'une entité causale autonome."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755224112288_02",
+      "current_version_epoch_ms": 1755224112288,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Concernant la cholestase intra-hépatique de la grossesse, reconnaître les éléments qui la caractérisent.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prurit généralisé",
+            "justification": "Décrit comme prurit généralisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Prurit sévère",
+            "justification": "Décrit comme prurit sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Prurit nu",
+            "justification": "Décrit comme prurit nu."
+          },
+          {
+            "correct": true,
+            "proposition": "Confirmation par une augmentation des sels biliaires sanguins",
+            "justification": "La confirmation repose sur l'augmentation des sels biliaires sanguins."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmation par une diminution des sels biliaires sanguins",
+            "justification": "La confirmation est liée à une augmentation, non à une diminution."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755224112288_03",
+      "current_version_epoch_ms": 1755224112288,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Sélectionner les énoncés exacts concernant la confirmation diagnostique de la cholestase intra-hépatique de la grossesse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'augmentation des sels biliaires sanguins confirme le diagnostic",
+            "justification": "Explicitement indiqué comme critère de confirmation."
+          },
+          {
+            "correct": true,
+            "proposition": "La cytolyse peut être associée",
+            "justification": "La confirmation peut s'accompagner d'une cytolyse."
+          },
+          {
+            "correct": true,
+            "proposition": "La confirmation est possible en l'absence de cytolyse",
+            "justification": "Elle est associée ou non à une cytolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "La confirmation repose sur des critères exclusivement cliniques",
+            "justification": "Un critère biologique (augmentation des sels biliaires) est requis pour confirmer."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cytolyse isolée suffit à confirmer le diagnostic",
+            "justification": "La cytolyse peut être associée, mais la confirmation repose sur l'augmentation des sels biliaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755224112288_04",
+      "current_version_epoch_ms": 1755224112288,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Différencier les entités spécifiques de prurit de la grossesse en associant chaque énoncé à l'entité correspondante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La pemphigoïde de la grossesse est une dermatose bulleuse auto-immune",
+            "justification": "C'est l'intitulé même de l'entité."
+          },
+          {
+            "correct": true,
+            "proposition": "L'éruption polymorphe de la grossesse est l'une des causes spécifiques de prurit pendant la grossesse",
+            "justification": "Elle est listée parmi les trois causes spécifiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La cholestase intra-hépatique de la grossesse se manifeste par un prurit généralisé, sévère et nu",
+            "justification": "Caractérisation clinique décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "La pemphigoïde de la grossesse est confirmée par l'augmentation des sels biliaires sanguins",
+            "justification": "L'augmentation des sels biliaires confirme la cholestase, pas la pemphigoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "L'éruption polymorphe de la grossesse est confirmée par une cytolyse",
+            "justification": "La mention de cytolyse ne concerne que la cholestase."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755224112288_05",
+      "current_version_epoch_ms": 1755224112288,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Au sujet des trois causes spécifiques de prurit pendant la grossesse, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles comprennent la cholestase intra-hépatique de la grossesse",
+            "justification": "Listée explicitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles comprennent la pemphigoïde de la grossesse",
+            "justification": "Listée explicitement comme dermatose bulleuse auto-immune spécifique."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles comprennent l'éruption polymorphe de la grossesse",
+            "justification": "Listée explicitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont toutes confirmées par l'augmentation des sels biliaires sanguins",
+            "justification": "L'augmentation des sels biliaires ne sert à confirmer que la cholestase."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prurit de la cholestase est généralement discret",
+            "justification": "Il est décrit comme sévère."
+          }
+        ]
+      }
+    }
+  ]
+}

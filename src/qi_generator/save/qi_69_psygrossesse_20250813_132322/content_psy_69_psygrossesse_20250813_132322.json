@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psygrossesse",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755084409131_01",
+      "current_version_epoch_ms": 1755084409131,
+      "topic": {
+        "subject": "psy",
+        "item": "psygrossesse"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, les facteurs relevant de la vulnérabilité psychiatrique prédisposant à un trouble psychique de la grossesse et du post-partum.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédents psychiatriques personnels",
+            "justification": "Relève de la vulnérabilité psychiatrique (antécédents personnels)."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents psychiatriques familiaux",
+            "justification": "Relève de la vulnérabilité psychiatrique (antécédents familiaux)."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble lié à l'usage de substances",
+            "justification": "Relève de la vulnérabilité psychiatrique (trouble de l'usage de substances)."
+          },
+          {
+            "correct": false,
+            "proposition": "Primiparité",
+            "justification": "Relève des facteurs gynécologiques/obstétricaux, pas de la vulnérabilité psychiatrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement",
+            "justification": "Relève des facteurs environnementaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755084409131_02",
+      "current_version_epoch_ms": 1755084409131,
+      "topic": {
+        "subject": "psy",
+        "item": "psygrossesse"
+      },
+      "data": {
+        "statement": "Classer les facteurs gynécologiques ou obstétricaux prédisposant à un trouble psychique de la grossesse et du post-partum.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge maternel de 18 ans",
+            "justification": "Âge < 20 ans, classé parmi les facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse non désirée",
+            "justification": "Élément listé parmi les facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement",
+            "justification": "Relève des facteurs environnementaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension gravidique",
+            "justification": "Facteur gynécologique/obstétrical identifié."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents traumatiques",
+            "justification": "Relève des facteurs environnementaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755084409131_03",
+      "current_version_epoch_ms": 1755084409131,
+      "topic": {
+        "subject": "psy",
+        "item": "psygrossesse"
+      },
+      "data": {
+        "statement": "Reconnaître les facteurs environnementaux associés au risque de trouble psychique pendant la grossesse et le post-partum.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Précarité économique",
+            "justification": "Classée parmi les facteurs environnementaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Faible niveau d'éducation",
+            "justification": "Classé parmi les facteurs environnementaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Migration",
+            "justification": "Classée parmi les facteurs environnementaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète gestationnel",
+            "justification": "Relève des facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Malformation ou pathologie fœtale",
+            "justification": "Relève des facteurs gynécologiques/obstétricaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755084409131_04",
+      "current_version_epoch_ms": 1755084409131,
+      "topic": {
+        "subject": "psy",
+        "item": "psygrossesse"
+      },
+      "data": {
+        "statement": "Sélectionner les situations où le risque est lié à l'âge et/ou à la parité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patiente de 38 ans, primipare",
+            "justification": "Âge > 35 ans et primiparité, deux facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Patiente de 27 ans, multipare",
+            "justification": "Ni âge < 20 ans, ni âge > 35 ans, et absence de primiparité."
+          },
+          {
+            "correct": true,
+            "proposition": "Patiente de 19 ans, primipare",
+            "justification": "Âge < 20 ans et primiparité, facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Patiente de 36 ans, primipare",
+            "justification": "Âge > 35 ans et primiparité, facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Patiente de 32 ans, primipare",
+            "justification": "Primiparité reconnue comme facteur gynécologique/obstétrical."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755084409131_05",
+      "current_version_epoch_ms": 1755084409131,
+      "topic": {
+        "subject": "psy",
+        "item": "psygrossesse"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, identifier les facteurs gynécologiques/obstétricaux liés à l'état fœtal ou au déroulement de l'accouchement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Malformation ou pathologie fœtale",
+            "justification": "Listée parmi les facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Prématurité",
+            "justification": "Listée parmi les facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypotrophie",
+            "justification": "Listée parmi les facteurs gynécologiques/obstétricaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Difficultés de couple",
+            "justification": "Relève des facteurs environnementaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Accouchement compliqué",
+            "justification": "Listé parmi les facteurs gynécologiques/obstétricaux."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755104918795_01",
+      "current_version_epoch_ms": 1755104918795,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier la prévalence du tabagisme (18–75 ans) en 2019.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "30,4 %",
+            "justification": "La prévalence rapportée pour l'ensemble des 18–75 ans en 2019 est de 30,4 %."
+          },
+          {
+            "correct": false,
+            "proposition": "34,6 %",
+            "justification": "34,6 % correspond à la valeur chez les hommes, pas à l'ensemble 18–75 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "26,5 %",
+            "justification": "26,5 % correspond à la valeur chez les femmes, pas à l'ensemble 18–75 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "31,0 %",
+            "justification": "La valeur attendue pour l'ensemble 18–75 ans est précisément 30,4 %, pas 31,0 %."
+          },
+          {
+            "correct": false,
+            "proposition": "25,0 %",
+            "justification": "La valeur pour l'ensemble 18–75 ans est de 30,4 %, supérieure à 25,0 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104918795_02",
+      "current_version_epoch_ms": 1755104918795,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître les différences de prévalence selon le sexe en 2019.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La prévalence est plus élevée chez les hommes que chez les femmes.",
+            "justification": "Hommes 34,6 % vs femmes 26,5 % : 34,6 % > 26,5 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les hommes, elle est de 26,5 %.",
+            "justification": "26,5 % est la valeur des femmes ; chez les hommes, c'est 34,6 %."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez les femmes, elle est de 26,5 %.",
+            "justification": "La valeur indiquée pour les femmes est 26,5 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Hommes et femmes présentent la même prévalence.",
+            "justification": "Les valeurs diffèrent : 34,6 % chez les hommes et 26,5 % chez les femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les femmes, elle est supérieure à 34,6 %.",
+            "justification": "La valeur féminine est 26,5 %, inférieure à 34,6 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104918795_03",
+      "current_version_epoch_ms": 1755104918795,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer les prévalences 2019 par ordre croissant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Femmes (26,5 %) < Total (30,4 %) < Hommes (34,6 %)",
+            "justification": "26,5 % < 30,4 % < 34,6 % respecte l'ordre croissant des valeurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Hommes (34,6 %) < Total (30,4 %) < Femmes (26,5 %)",
+            "justification": "34,6 % n'est pas inférieur à 30,4 % ni à 26,5 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Total (30,4 %) < Femmes (26,5 %) < Hommes (34,6 %)",
+            "justification": "30,4 % n'est pas inférieur à 26,5 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Femmes (26,5 %) < Hommes (34,6 %) < Total (30,4 %)",
+            "justification": "34,6 % n'est pas inférieur à 30,4 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Total (30,4 %) = Hommes (34,6 %) = Femmes (26,5 %)",
+            "justification": "Les trois valeurs sont différentes : 26,5 %, 30,4 % et 34,6 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104918795_04",
+      "current_version_epoch_ms": 1755104918795,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Calculer l'écart absolu (en points de pourcentage) entre la prévalence chez les hommes et chez les femmes (2019).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "8,1 points",
+            "justification": "Écart = 34,6 % − 26,5 % = 8,1 points."
+          },
+          {
+            "correct": false,
+            "proposition": "0 point",
+            "justification": "Les valeurs diffèrent (34,6 % vs 26,5 %), l'écart n'est pas nul."
+          },
+          {
+            "correct": false,
+            "proposition": "4,1 points",
+            "justification": "L'écart exact est 8,1 points (34,6 − 26,5), pas 4,1."
+          },
+          {
+            "correct": false,
+            "proposition": "30,4 points",
+            "justification": "30,4 % correspond à la valeur totale, ce n'est pas l'écart hommes–femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "61,1 points",
+            "justification": "Cette valeur ne correspond à aucun écart calculé à partir de 34,6 % et 26,5 %."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104918795_05",
+      "current_version_epoch_ms": 1755104918795,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les affirmations conformes aux données 2019 sur le tabagisme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La prévalence globale (18–75 ans) est de 30,4 %.",
+            "justification": "La valeur pour l'ensemble des 18–75 ans est 30,4 %."
+          },
+          {
+            "correct": true,
+            "proposition": "La prévalence chez les femmes est de 26,5 %.",
+            "justification": "La valeur féminine indiquée est 26,5 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La prévalence chez les hommes est inférieure à 30 %. ",
+            "justification": "Chez les hommes, elle est de 34,6 %, donc supérieure à 30 %."
+          },
+          {
+            "correct": true,
+            "proposition": "La prévalence chez les hommes est de 34,6 %.",
+            "justification": "La valeur masculine indiquée est 34,6 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La prévalence globale est supérieure à celle des hommes.",
+            "justification": "La valeur globale (30,4 %) est inférieure à celle des hommes (34,6 %)."
+          }
+        ]
+      }
+    }
+  ]
+}

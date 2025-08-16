@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmiction",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755243365945_01",
+      "current_version_epoch_ms": 1755243365945,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Définir l'incontinence urinaire : parmi les affirmations suivantes, identifier celles qui correspondent à la définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute perte involontaire d'urine correspond à une incontinence urinaire.",
+            "justification": "Identique à la définition : « toute perte involontaire d'urine »."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute perte volontaire d'urine correspond à une incontinence urinaire.",
+            "justification": "Exclu car volontaire ; la définition exige l'involontarité."
+          },
+          {
+            "correct": true,
+            "proposition": "Sans perte d'urine, il ne peut pas s'agir d'incontinence urinaire.",
+            "justification": "La définition repose sur l'existence d'une perte d'urine."
+          },
+          {
+            "correct": false,
+            "proposition": "La définition impose un volume minimal d'urine perdu.",
+            "justification": "Aucun seuil n'est requis : « toute perte »."
+          },
+          {
+            "correct": false,
+            "proposition": "La définition précise la cause de la perte d'urine.",
+            "justification": "La définition se limite à « toute perte involontaire d'urine », sans cause."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243365945_02",
+      "current_version_epoch_ms": 1755243365945,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Éléments constitutifs : identifier ce qui fait partie de la définition de l'incontinence urinaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'une perte d'urine fait partie de la définition.",
+            "justification": "La définition mentionne une perte d'urine."
+          },
+          {
+            "correct": true,
+            "proposition": "Le caractère involontaire de la perte est requis.",
+            "justification": "Formulation clé : « involontaire »."
+          },
+          {
+            "correct": false,
+            "proposition": "Un contexte d'effort physique est obligatoire.",
+            "justification": "Aucun contexte n'est exigé par « toute perte involontaire d'urine »."
+          },
+          {
+            "correct": false,
+            "proposition": "Une survenue nocturne est obligatoire.",
+            "justification": "La définition ne spécifie pas de moment ; elle se limite à la perte involontaire d'urine."
+          },
+          {
+            "correct": false,
+            "proposition": "Un âge minimal est requis.",
+            "justification": "Aucun critère d'âge n'apparaît dans « toute perte involontaire d'urine »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243365945_03",
+      "current_version_epoch_ms": 1755243365945,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Cas limites : déterminer si chaque situation relève de l'incontinence urinaire au regard de la définition.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une perte involontaire d'urine même ponctuelle et de faible quantité relève de l'incontinence urinaire.",
+            "justification": "« Toute perte » inclut une faible quantité si elle est involontaire et d'urine."
+          },
+          {
+            "correct": true,
+            "proposition": "Des pertes involontaires d'urine répétées relèvent de l'incontinence urinaire.",
+            "justification": "Conforme à « toute perte involontaire d'urine »."
+          },
+          {
+            "correct": false,
+            "proposition": "Des fuites d'urine volontaires relèvent de l'incontinence urinaire.",
+            "justification": "Le caractère volontaire contredit « involontaire »."
+          },
+          {
+            "correct": false,
+            "proposition": "Une perte involontaire d'un liquide qui n'est pas de l'urine relève de l'incontinence urinaire.",
+            "justification": "La définition porte sur l'urine spécifiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "Une perte d'urine sans précision de cause relève de l'incontinence urinaire si elle est involontaire.",
+            "justification": "La cause n'est pas requise ; seul compte « toute perte involontaire d'urine »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243365945_04",
+      "current_version_epoch_ms": 1755243365945,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Choisir la/les bonne(s) formulation(s) correspondant exactement à la définition de l'incontinence urinaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute perte involontaire d'urine.",
+            "justification": "Correspond mot pour mot à la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute perte d'urine, même si elle est volontaire.",
+            "justification": "La définition exige l'involontarité."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute perte involontaire de liquides corporels.",
+            "justification": "La définition vise l'urine, pas tout liquide."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute perte involontaire d'urine dépassant un seuil prédéfini.",
+            "justification": "Aucun seuil : « toute perte »."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute absence de perte d'urine.",
+            "justification": "Il faut une perte d'urine pour répondre à la définition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243365945_05",
+      "current_version_epoch_ms": 1755243365945,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Implications pratiques de la définition : valider les énoncés suivants.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La définition ne précise ni cause, ni contexte, ni durée.",
+            "justification": "Elle se limite à « toute perte involontaire d'urine »."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut prouver une pathologie sous-jacente pour retenir la définition.",
+            "justification": "Aucune exigence de pathologie n'est incluse."
+          },
+          {
+            "correct": true,
+            "proposition": "La définition s'applique quel que soit l'âge.",
+            "justification": "Aucun critère d'âge n'est mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Un volume minimal d'urine perdu est exigé.",
+            "justification": "Formulation « toute perte » sans seuil."
+          },
+          {
+            "correct": true,
+            "proposition": "Le caractère involontaire est indispensable.",
+            "justification": "Cœur de la définition : « involontaire »."
+          }
+        ]
+      }
+    }
+  ]
+}

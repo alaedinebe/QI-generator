@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "confusiongeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755197834293_01",
+      "current_version_epoch_ms": 1755197834293,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Chez un patient présentant une confusion mentale, identifier les examens paracliniques systématiques à prescrire en première intention. (Plusieurs réponses possibles)",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémogramme",
+            "justification": "Fait partie des examens paracliniques systématiques à réaliser d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Calcémie",
+            "justification": "Mentionnée explicitement parmi les examens systématiques (calcémie +++)."
+          },
+          {
+            "correct": true,
+            "proposition": "Bandelette urinaire (leucocytes, nitrites)",
+            "justification": "Incluse dans les examens systématiques à visée étiologique initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "ECG",
+            "justification": "L'électrocardiogramme fait partie des examens systématiques à réaliser et interpréter."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM encéphalique",
+            "justification": "Relève des examens de seconde intention, indiquée notamment si signe de focalisation avec TDM normale ou en urgence selon le contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755197834293_02",
+      "current_version_epoch_ms": 1755197834293,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Devant une confusion mentale, reconnaître les indications d'un scanner cérébral sans injection. (Plusieurs réponses possibles)",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signe de focalisation neurologique sensitif et/ou moteur",
+            "justification": "Indication formelle d'un scanner cérébral sans injection."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitement anticoagulant en cours",
+            "justification": "Indication formelle d'imagerie cérébrale sans injection."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatisme crânien récent",
+            "justification": "Indication formelle de scanner cérébral sans injection."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre sans point d'appel",
+            "justification": "Conduit à discuter une ponction lombaire (en l'absence de contre-indication), pas une indication formelle de scanner."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome confusionnel important avec fluctuation de la vigilance avant une ponction lombaire",
+            "justification": "Le scanner est le plus souvent nécessaire avant une PL en cas de trouble de conscience."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755197834293_03",
+      "current_version_epoch_ms": 1755197834293,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Indiquer les situations où une ponction lombaire est formellement indiquée, en l'absence de contre-indication. (Plusieurs réponses possibles)",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre sans point d'appel",
+            "justification": "Indication formelle de ponction lombaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome méningé",
+            "justification": "Indication formelle de ponction lombaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'encéphalite (après TDM et/ou IRM)",
+            "justification": "Indication formelle de ponction lombaire après imagerie appropriée."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble de conscience sans imagerie préalable",
+            "justification": "Contre-indication à la PL sans imagerie ; une imagerie est nécessaire avant."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement anticoagulant",
+            "justification": "N'est pas listé comme indication formelle de PL ; il oriente vers l'indication de scanner cérébral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755197834293_04",
+      "current_version_epoch_ms": 1755197834293,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments essentiels de l'examen clinique et neurologique à rechercher systématiquement devant une confusion mentale. (Plusieurs réponses possibles)",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Saturation en O2",
+            "justification": "Fait partie des constantes à relever en examen clinique général."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure de la glycémie",
+            "justification": "Élément prioritaire (glycémie +++) de l'évaluation initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Morsure latérale de langue",
+            "justification": "Doit être recherchée lors de l'examen clinique général."
+          },
+          {
+            "correct": true,
+            "proposition": "Examen des pupilles",
+            "justification": "Fait partie de l'examen neurologique (coma et troubles de conscience)."
+          },
+          {
+            "correct": true,
+            "proposition": "Recherche d'astérixis",
+            "justification": "Signe d'encéphalopathie à rechercher lors de l'examen neurologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755197834293_05",
+      "current_version_epoch_ms": 1755197834293,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Classer les examens relevant de la seconde intention en cas de confusion mentale, sur point d'appel et/ou en absence d'étiologie retrouvée. (Plusieurs réponses possibles)",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "EEG",
+            "justification": "Examen de seconde intention, utile pour l'état de mal non convulsivant ou une encéphalopathie métabolique."
+          },
+          {
+            "correct": true,
+            "proposition": "Échographie abdomino-pelvienne",
+            "justification": "Proposée parmi les examens de seconde intention selon le point d'appel."
+          },
+          {
+            "correct": true,
+            "proposition": "Gaz du sang",
+            "justification": "Mentionnés comme examens de seconde intention possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Ammoniémie",
+            "justification": "Fait partie des examens complémentaires de seconde intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie",
+            "justification": "Relève des examens paracliniques systématiques de première intention, pas de la seconde intention."
+          }
+        ]
+      }
+    }
+  ]
+}

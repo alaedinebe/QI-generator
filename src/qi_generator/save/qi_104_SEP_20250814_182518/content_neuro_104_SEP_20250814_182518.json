@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SEP",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755188925646_01",
+      "current_version_epoch_ms": 1755188925646,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Devant une suspicion d'atteinte inflammatoire du système nerveux central, identifier l'examen d'imagerie à privilégier et son intérêt.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IRM est l'examen de prédilection à réaliser en première intention.",
+            "justification": "Il est indiqué que l'IRM est l'examen de prédilection devant une suspicion d'atteinte inflammatoire du système nerveux central."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune imagerie n'est recommandée en première intention.",
+            "justification": "Une imagerie est recommandée et l'IRM est précisée comme l'examen de choix."
+          },
+          {
+            "correct": true,
+            "proposition": "L'IRM permet de conforter le diagnostic et d'éliminer des diagnostics différentiels.",
+            "justification": "Il est précisé que l'IRM a un double intérêt : conforter le diagnostic et éliminer les diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM n'a pas d'intérêt pour éliminer des diagnostics différentiels.",
+            "justification": "Il est explicitement indiqué que l'IRM aide à éliminer les diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM doit être évitée en cas de suspicion d'atteinte inflammatoire du SNC.",
+            "justification": "Au contraire, l'IRM est l'examen de prédilection dans cette situation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188925646_02",
+      "current_version_epoch_ms": 1755188925646,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Classer le choix de l'IRM à réaliser en priorité selon la présentation clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une IRM médullaire est prioritaire devant une myélite.",
+            "justification": "Il est indiqué : IRM médullaire devant une myélite."
+          },
+          {
+            "correct": true,
+            "proposition": "Une IRM cérébrale est prioritaire devant une névrite optique.",
+            "justification": "Il est indiqué : IRM cérébrale devant une névrite optique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une IRM médullaire est prioritaire devant une atteinte encéphalique.",
+            "justification": "Devant une atteinte encéphalique, l'IRM cérébrale est prioritaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a pas lieu d'adapter l'examen d'IRM à la présentation clinique.",
+            "justification": "Le choix de l'examen à réaliser en priorité dépend de la présentation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut toujours réaliser d'emblée une IRM cérébrale et une IRM médullaire.",
+            "justification": "L'examen initial peut être complété par l'autre territoire seulement si la SEP reste évoquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188925646_03",
+      "current_version_epoch_ms": 1755188925646,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Reconnaître les indications de compléter l'examen initial par une IRM de l'autre territoire et ses objectifs.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compléter par une IRM de l'autre territoire si le diagnostic de SEP reste évoqué.",
+            "justification": "Il est indiqué que l'examen initial pourra être complété si la SEP reste évoquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le complément est systématique même si les critères de dissémination dans le temps et l'espace sont déjà remplis.",
+            "justification": "Un complément n'est pas indispensable pour la démarche diagnostique si les critères sont remplis."
+          },
+          {
+            "correct": true,
+            "proposition": "Le complément vise à rechercher des arguments de dissémination dans le temps et l'espace.",
+            "justification": "Il est précisé que l'objectif est de rechercher des arguments de dissémination dans le temps et l'espace."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de myélite avec aspect évocateur, il est inutile de réaliser une IRM cérébrale.",
+            "justification": "Dans l'exemple de myélite, il est recommandé de faire une IRM cérébrale pour rechercher d'autres lésions et des lésions d'âge différent."
+          },
+          {
+            "correct": false,
+            "proposition": "Le complément ne concerne que les lésions périventriculaires.",
+            "justification": "Les zones de prédilection citées incluent périventriculaire, juxta-corticale/corticale et infratentorielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188925646_04",
+      "current_version_epoch_ms": 1755188925646,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Un patient présente une myélite. L'IRM médullaire montre un aspect évocateur d'une myélite inflammatoire. Déterminer la démarche d'imagerie suivante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une IRM cérébrale pour rechercher d'autres lésions dans les zones de prédilection et des lésions d'âge différent.",
+            "justification": "L'exemple précise qu'après une myélite, il faut faire une IRM cérébrale pour rechercher d'autres lésions (périventriculaire, juxta-corticale/corticale, infratentorielle) et des lésions d'âge différents."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêter l'exploration d'imagerie car l'atteinte médullaire suffit.",
+            "justification": "Il est recommandé de compléter par une IRM cérébrale dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Répéter uniquement l'IRM médullaire sans IRM cérébrale.",
+            "justification": "La conduite à tenir proposée est de réaliser une IRM cérébrale pour compléter le bilan."
+          },
+          {
+            "correct": false,
+            "proposition": "Compléter par une IRM de l'autre territoire uniquement en cas d'atteinte encéphalique clinique.",
+            "justification": "Même sans signe clinique encéphalique, l'exemple de myélite indique de faire une IRM cérébrale pour la recherche de dissémination."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une dissémination dans le temps et l'espace.",
+            "justification": "Le complément d'imagerie a pour but de documenter des lésions dans d'autres sites de prédilection et d'âge différent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188925646_05",
+      "current_version_epoch_ms": 1755188925646,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Une névrite optique est confirmée cliniquement. L'IRM cérébrale montre plusieurs lésions d'allure inflammatoire, dont certaines périventriculaires et infratentorielles, avec prise de contraste sur le nerf optique mais pas sur les autres lésions. Identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "L'IRM médullaire est indispensable pour poser le diagnostic dans cette situation.",
+            "justification": "Il est précisé que l'IRM médullaire n'est pas indispensable pour la démarche diagnostique lorsque les critères de dissémination sont remplis."
+          },
+          {
+            "correct": true,
+            "proposition": "Les critères de dissémination dans le temps et l'espace sont remplis.",
+            "justification": "La présence de plusieurs lésions dans des zones de prédilection et des lésions avec ou sans prise de contraste permet de remplir ces critères."
+          },
+          {
+            "correct": true,
+            "proposition": "L'IRM cérébrale est l'examen prioritaire en cas de névrite optique.",
+            "justification": "Il est indiqué : IRM cérébrale devant une névrite optique."
+          },
+          {
+            "correct": true,
+            "proposition": "La différence de prise de contraste suggère des lésions d'âge différent.",
+            "justification": "Il est mentionné la recherche de lésions d'âge différents (avec ou sans prise de contraste)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IRM médullaire n'a aucun intérêt dans ce contexte.",
+            "justification": "Elle n'est pas indispensable pour le diagnostic mais reste utile à visée pronostique et pour guider les choix thérapeutiques."
+          }
+        ]
+      }
+    }
+  ]
+}

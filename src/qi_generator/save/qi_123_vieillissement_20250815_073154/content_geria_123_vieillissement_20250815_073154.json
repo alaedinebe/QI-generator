@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vieillissement",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755236120783_01",
+      "current_version_epoch_ms": 1755236120783,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Identifier les seuils d'âge reconnus selon les différents contextes listés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À partir de 60 ans pour les prestations sociales en France.",
+            "justification": "Les prestations sociales en France retiennent 60 ans comme seuil pour considérer un sujet âgé."
+          },
+          {
+            "correct": true,
+            "proposition": "À partir de 65 ans selon l'Organisation mondiale de la Santé.",
+            "justification": "L'OMS fixe le seuil à 65 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "À partir de 75 ans pour le risque de perte d'autonomie et de fragilité.",
+            "justification": "Le risque de perte d'autonomie et la fragilité sont associés au seuil de 75 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "À partir de 75 ans pour entrer en service de gériatrie, avec une moyenne d'âge des patients > 80 ans.",
+            "justification": "L'entrée en gériatrie est envisagée à partir de 75 ans et l'âge moyen des patients y est supérieur à 80 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Il existe une définition consensuelle unique de la vieillesse.",
+            "justification": "Aucune définition consensuelle n'est retenue ; plusieurs seuils coexistent selon le contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236120783_02",
+      "current_version_epoch_ms": 1755236120783,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Différencier les seuils selon le cadre mentionné (social, OMS, risque clinique, gériatrie).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Les prestations sociales françaises considèrent un sujet âgé dès 65 ans.",
+            "justification": "Le seuil retenu par les prestations sociales en France est 60 ans, et non 65 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "L'OMS retient 65 ans pour définir un sujet âgé.",
+            "justification": "Le repère donné pour l'OMS est 65 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Le seuil de 75 ans est lié au risque de perte d'autonomie et de fragilité.",
+            "justification": "Le risque de perte d'autonomie/fragilité est associé à 75 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "L'entrée en service de gériatrie requiert systématiquement un âge moyen strictement supérieur à 80 ans.",
+            "justification": "Le repère pour l'admission est « à partir de 75 ans » ; > 80 ans correspond à la moyenne observée, pas à une exigence individuelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Il n'existe pas de définition consensuelle unique de la vieillesse.",
+            "justification": "Le contenu précise l'absence de définition consensuelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236120783_03",
+      "current_version_epoch_ms": 1755236120783,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Reconnaître les énoncés exacts concernant le seuil de 75 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il marque un repère pour le risque de perte d'autonomie et de fragilité.",
+            "justification": "Le risque de perte d'autonomie/fragilité est associé à 75 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond au seuil officiel retenu par l'OMS.",
+            "justification": "L'OMS retient 65 ans, pas 75 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est utilisé pour envisager l'entrée en service de gériatrie.",
+            "justification": "L'admission en gériatrie est indiquée à partir de 75 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Il représente l'âge moyen des patients hospitalisés en gériatrie.",
+            "justification": "L'âge moyen en gériatrie est supérieur à 80 ans, 75 ans est un seuil d'entrée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'a pas de pertinence dans les repères proposés.",
+            "justification": "75 ans est cité comme repère pour la fragilité et pour l'entrée en gériatrie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236120783_04",
+      "current_version_epoch_ms": 1755236120783,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Définir la variabilité des repères d'âge de la vieillesse à partir des éléments fournis.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il n'existe pas de définition consensuelle de la vieillesse.",
+            "justification": "L'absence de consensus est explicitement indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Plusieurs seuils coexistent : 60, 65 et 75 ans selon le contexte.",
+            "justification": "Les repères mentionnés sont 60 ans (prestations sociales), 65 ans (OMS) et 75 ans (fragilité, gériatrie)."
+          },
+          {
+            "correct": true,
+            "proposition": "La moyenne d'âge des patients en gériatrie est supérieure à 80 ans.",
+            "justification": "Il est précisé que la moyenne en gériatrie est > 80 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les prestations sociales françaises et l'OMS utilisent le même seuil d'âge.",
+            "justification": "Les prestations sociales retiennent 60 ans, l'OMS 65 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les seuls seuils cités sont 60 et 65 ans.",
+            "justification": "Un seuil supplémentaire à 75 ans est également mentionné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755236120783_05",
+      "current_version_epoch_ms": 1755236120783,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Associer chaque seuil d'âge au bon domaine d'application.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "60 ans → prestations sociales en France.",
+            "justification": "Le repère social français est 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "65 ans → admission en service de gériatrie.",
+            "justification": "L'admission en gériatrie est à partir de 75 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "75 ans → risque de perte d'autonomie et de fragilité.",
+            "justification": "La fragilité et la perte d'autonomie sont associées à 75 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "65 ans → repère retenu par l'OMS.",
+            "justification": "L'OMS fixe le seuil à 65 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "> 80 ans → moyenne d'âge en service de gériatrie.",
+            "justification": "L'âge moyen des patients en gériatrie est mentionné comme supérieur à 80 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

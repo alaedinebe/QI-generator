@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755305511490_01",
+      "current_version_epoch_ms": 1755305511490,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel traitement initial est indiqué en cas de méningite présumée bactérienne due à un cocci à Gram positif de type *Streptococcus pneumoniae* ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céfotaxime IV ou Ceftriaxone IV",
+            "justification": "Le traitement de choix pour les cocci à Gram positif, tels que *Streptococcus pneumoniae*, est basé sur la céfotaxime ou la ceftriaxone IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline IV + Gentamicine IV",
+            "justification": "Ce traitement est indiqué pour *Listeria monocytogenes*, et non pour *Streptococcus pneumoniae*."
+          },
+          {
+            "correct": false,
+            "proposition": "Céfotaxime IV + Gentamicine IV",
+            "justification": "Ce traitement n'est pas indiqué pour *Streptococcus pneumoniae*, il est utilisé dans le traitement de *Listeria monocytogenes*."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline IV",
+            "justification": "L'amoxicilline seule n'est pas le traitement recommandé pour *Streptococcus pneumoniae* en raison du spectre limité."
+          },
+          {
+            "correct": false,
+            "proposition": "Céfotaxime IV + Dexaméthasone",
+            "justification": "La dexaméthasone est ajoutée en cas de complications spécifiques ou de contre-indication à la ponction lombaire, mais n'est pas un traitement de première intention pour *Streptococcus pneumoniae*."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305511490_02",
+      "current_version_epoch_ms": 1755305511490,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est le traitement initial recommandé en cas de méningite présumée bactérienne due à *Neisseria meningitidis* ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céfotaxime IV ou Ceftriaxone IV",
+            "justification": "Le traitement recommandé pour une méningite due à *Neisseria meningitidis* est la céfotaxime ou la ceftriaxone IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline IV + Gentamicine IV",
+            "justification": "Ce traitement est réservé aux infections par *Listeria monocytogenes*, et non pour *Neisseria meningitidis*."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline IV",
+            "justification": "L'amoxicilline seule ne couvre pas *Neisseria meningitidis*."
+          },
+          {
+            "correct": false,
+            "proposition": "Céfotaxime IV + Dexaméthasone",
+            "justification": "La dexaméthasone est utilisée dans certains cas de méningite bactérienne, mais n'est pas un traitement initial standard pour *Neisseria meningitidis*."
+          },
+          {
+            "correct": false,
+            "proposition": "Céfotaxime IV + Gentamicine IV",
+            "justification": "Bien que ce traitement soit efficace contre certains germes, il n'est pas recommandé pour *Neisseria meningitidis*."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305511490_03",
+      "current_version_epoch_ms": 1755305511490,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il nécessaire d'associer de l'amoxicilline IV et de la gentamicine IV dans le traitement d'une méningite présumée bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion de *Listeria monocytogenes*",
+            "justification": "L'association amoxicilline IV + gentamicine IV est spécifiquement indiquée en cas de suspicion de *Listeria monocytogenes*."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de *Neisseria meningitidis*",
+            "justification": "Le traitement pour *Neisseria meningitidis* nécessite la céfotaxime ou la ceftriaxone IV, et non l'amoxicilline et la gentamicine."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de *Streptococcus pneumoniae*",
+            "justification": "Le traitement pour *Streptococcus pneumoniae* est basé sur la céfotaxime ou la ceftriaxone IV, sans amoxicilline ou gentamicine."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'examen direct négatif pour *Listeria monocytogenes*",
+            "justification": "L'amoxicilline IV et la gentamicine IV sont utilisées lorsque *Listeria monocytogenes* est suspectée, même en cas d'examen direct négatif."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de méningite virale présumée",
+            "justification": "La méningite virale nécessite un traitement symptomatique, et non l'association amoxicilline et gentamicine IV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305511490_04",
+      "current_version_epoch_ms": 1755305511490,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est la signification d'une glycorrachie ≤ 0,4 x glycémie dans le contexte d'une méningite présumée bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cela indique une méningite bactérienne présumée",
+            "justification": "Une glycorrachie inférieure ou égale à 0,4 fois la glycémie est un argument en faveur d'une méningite bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela indique une méningite virale présumée",
+            "justification": "Une glycorrachie inférieure à 0,4 fois la glycémie est plus caractéristique d'une méningite bactérienne, et non virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela indique une absence d'infection",
+            "justification": "Une glycorrachie faible est un signe clinique d'une infection bactérienne, et non d'une absence d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela indique une inflammation non infectieuse",
+            "justification": "Une glycorrachie faible est liée à une infection bactérienne, et non à une inflammation non infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie qu'une ponction lombaire est inutile",
+            "justification": "Une glycorrachie faible nécessite une ponction lombaire pour confirmer le diagnostic de méningite bactérienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305511490_05",
+      "current_version_epoch_ms": 1755305511490,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est l'indication d'un traitement par Dexaméthasone dans le cadre d'une méningite présumée bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de contre-indication à la ponction lombaire, de LCS trouble ou d'examen direct positif",
+            "justification": "La dexaméthasone est indiquée si la ponction lombaire est contre-indiquée, en cas de LCS trouble, ou si l'examen direct est positif pour des germes spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de méningite virale présumée",
+            "justification": "La dexaméthasone n'est pas utilisée pour la méningite virale."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de méningite parasitaire présumée",
+            "justification": "La dexaméthasone n'est pas utilisée pour la méningite parasitaire, qui nécessite un traitement spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de toute méningite bactérienne, sans distinction",
+            "justification": "La dexaméthasone n'est pas systématiquement utilisée dans toutes les formes de méningite bactérienne, elle est réservée à certains cas spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'infection fongique suspectée",
+            "justification": "La dexaméthasone n'est pas utilisée dans les infections fongiques, qui nécessitent un traitement antifongique."
+          }
+        ]
+      }
+    }
+  ]
+}

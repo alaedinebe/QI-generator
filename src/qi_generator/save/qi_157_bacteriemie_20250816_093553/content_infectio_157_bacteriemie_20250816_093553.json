@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755329959812_01",
+      "current_version_epoch_ms": 1755329959812,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelles sont les indications des hémocultures dans le cadre d'une suspicion de bactériémie/fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre associée à un purpura fébrile",
+            "justification": "La fièvre associée à un purpura fébrile fait partie des critères pour la réalisation d'hémocultures dans le cadre d'une suspicion de bactériémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'endocardite, même en l'absence de fièvre",
+            "justification": "Dans le cadre de la suspicion d'endocardite, trois paires d'hémocultures doivent être réalisées, même sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de douleur thoracique sans autres signes cliniques",
+            "justification": "La douleur thoracique isolée n'est pas un critère d'indication pour la réalisation d'hémocultures."
+          },
+          {
+            "correct": true,
+            "proposition": "Terrain particulier : asplénie ou neutropénie",
+            "justification": "Les terrains particuliers comme l'asplénie ou la neutropénie justifient la réalisation d'hémocultures en raison du risque accru de bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre sans signes cliniques associés",
+            "justification": "La fièvre seule sans autres signes cliniques ne justifie pas à elle seule la réalisation d'hémocultures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329959812_02",
+      "current_version_epoch_ms": 1755329959812,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la procédure correcte pour la réalisation d'hémocultures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction d'une veine périphérique après antisepsie cutanée",
+            "justification": "La ponction doit être réalisée après une antisepsie cutanée soigneuse, avec respect des règles d'asepsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'un cathéter central uniquement pour la ponction",
+            "justification": "La ponction doit être réalisée en veine périphérique, sauf si le patient est porteur d'un cathéter central, auquel cas des hémocultures sur cathéter sont également nécessaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Prélever au moins deux flacons : un aérobie et un anaérobie",
+            "justification": "Le respect du prélèvement de deux flacons, un aérobie et un anaérobie, permet de maximiser la sensibilité des hémocultures."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de signes de gravité, prélever 4 à 6 flacons",
+            "justification": "En présence de signes de gravité, il est essentiel de prélever 4 à 6 flacons pour maximiser la probabilité de détection de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre le pic de fièvre pour effectuer la ponction",
+            "justification": "Les hémocultures ne doivent pas nécessairement être prélevées au moment du pic de fièvre, et peuvent être effectuées à tout moment."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329959812_03",
+      "current_version_epoch_ms": 1755329959812,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Comment interpréter une hémoculture fongique positive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tout flacon positif à Candida spp ou Cryptococcus neoformans nécessite un traitement antifongique",
+            "justification": "La détection de Candida spp ou Cryptococcus neoformans dans une hémoculture fongique est un indicateur de fongémie, nécessitant un traitement antifongique."
+          },
+          {
+            "correct": false,
+            "proposition": "La détection de levures rares peut être ignorée si le patient n'est pas immunodéprimé",
+            "justification": "Même la détection de levures rares doit être discutée avec un mycologue, notamment en cas de suspicion d'infection fongique."
+          },
+          {
+            "correct": true,
+            "proposition": "Les levures du genre Malassezia sont responsables de fongémies en néonatologie",
+            "justification": "Les levures du genre Malassezia sont couramment responsables de fongémies en néonatologie, un aspect crucial à prendre en compte dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "La détection de levures dans les hémocultures est toujours un signe de contamination",
+            "justification": "Les levures dans les hémocultures ne sont pas toujours un signe de contamination et nécessitent une évaluation clinique pour établir la validité de la bactériémie."
+          },
+          {
+            "correct": true,
+            "proposition": "La confirmation des levures ou filaments se fait par une coloration de MGG ou Giemsa",
+            "justification": "Les techniques de coloration comme MGG ou Giemsa permettent la confirmation de la présence de levures ou filaments dans les hémocultures fongiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329959812_04",
+      "current_version_epoch_ms": 1755329959812,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est l'importance de la technique d'analyse des hémocultures en laboratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les hémocultures positives doivent être analysées par coloration de Gram et antibiogramme",
+            "justification": "L'examen direct par coloration de Gram et la réalisation d'un antibiogramme permettent d'identifier rapidement le pathogène et de guider la thérapie antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures doivent toujours être incubées pendant 48h avant toute analyse",
+            "justification": "La plupart des bactéries peuvent être détectées en 24-48h, mais certaines, comme les levures ou les mycobactéries, nécessitent une incubation plus longue."
+          },
+          {
+            "correct": true,
+            "proposition": "Informez le microbiologiste en cas de suspicion d'endocardite pour une incubation prolongée",
+            "justification": "La suspicion d'endocardite nécessite une incubation prolongée (10 à 14 jours) pour identifier les microorganismes responsables."
+          },
+          {
+            "correct": false,
+            "proposition": "Les hémocultures fongiques doivent être analysées uniquement après 72h de culture",
+            "justification": "Les hémocultures fongiques se positivent généralement en 1 à 5 jours, ce qui permet une communication rapide avec le clinicien pour initier le traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Les techniques comme la PCR permettent une identification plus rapide des microorganismes",
+            "justification": "Des techniques comme la PCR ou la spectrométrie de masse permettent une identification rapide des microorganismes, mais elles ne sont pas disponibles dans tous les laboratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755329959812_05",
+      "current_version_epoch_ms": 1755329959812,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quels agents infectieux sont considérés comme pathogènes dans le cadre d'une bactériémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Staphylococcus aureus et Escherichia coli sont toujours pathogènes",
+            "justification": "Ces agents infectieux sont toujours pathogènes et peuvent être responsables d'une bactériémie, nécessitant un traitement antibiotique adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "Cutibacterium acnes est toujours pathogène dans le cadre d'une bactériémie",
+            "justification": "Cutibacterium acnes est généralement considéré comme un contaminant et nécessite un contexte clinique spécifique pour être considéré comme pathogène."
+          },
+          {
+            "correct": true,
+            "proposition": "Streptococcus pneumoniae et Pseudomonas aeruginosa sont des agents pathogènes classiques dans la bactériémie",
+            "justification": "Ces bactéries font partie des agents infectieux toujours pathogènes dans les cas de bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bacillus spp. est un agent infectieux systématiquement pathogène",
+            "justification": "Bacillus spp. est souvent un contaminant et ne constitue pas systématiquement un pathogène dans le cadre de la bactériémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Candida spp. est toujours pathogène et nécessite un traitement antifongique",
+            "justification": "Candida spp. est un agent infectieux souvent pathogène dans les cas de fongémie et nécessite un traitement antifongique."
+          }
+        ]
+      }
+    }
+  ]
+}

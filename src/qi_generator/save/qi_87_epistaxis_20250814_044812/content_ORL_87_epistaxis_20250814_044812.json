@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epistaxis",
+    "subject": "ORL"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755139898833_01",
+      "current_version_epoch_ms": 1755139898833,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quels sont les critères diagnostiques de gravité de l'épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'abondance du saignement et sa durée",
+            "justification": "Un saignement abondant et prolongé est un critère de gravité de l'épistaxis, car il peut entraîner une perte importante de volume sanguin."
+          },
+          {
+            "correct": true,
+            "proposition": "La répétition des épisodes hémorragiques",
+            "justification": "Des épisodes récurrents augmentent le risque de complications et de déplétion sanguine, ce qui rend l'épistaxis plus grave."
+          },
+          {
+            "correct": true,
+            "proposition": "La fragilité du patient (âge, terrain cardio-vasculaire, déplétion sanguine préexistante)",
+            "justification": "Les patients fragiles, notamment ceux ayant des comorbidités cardiovasculaires ou une déplétion sanguine, sont plus vulnérables aux complications de l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de symptômes respiratoires ou digestifs",
+            "justification": "L'absence de symptômes respiratoires ou digestifs ne constitue pas un critère de gravité, car ceux-ci ne sont pas directement associés à la gravité de l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un saignement nasale unilatéral",
+            "justification": "La localisation unilatérale de l'épistaxis n'est pas en soi un critère de gravité, car l'orientation du saignement dépend de la cause sous-jacente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755139898833_02",
+      "current_version_epoch_ms": 1755139898833,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quels sont les diagnostics différentiels à éliminer en cas d'épistaxis avec des signes respiratoires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'hémoptysie",
+            "justification": "L'hémoptysie se manifeste par un saignement provenant des voies respiratoires, souvent associé à des signes respiratoires comme la toux et la dyspnée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hématémèse",
+            "justification": "L'hématémèse est un saignement digestif et ne correspond pas à des signes respiratoires comme la toux ou la dyspnée."
+          },
+          {
+            "correct": false,
+            "proposition": "La gastroentérite",
+            "justification": "La gastroentérite est une infection digestive, elle n'est pas liée aux signes respiratoires observés dans l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "L'angine streptococcique",
+            "justification": "L'angine streptococcique peut causer une douleur au niveau de la gorge mais ne provoque pas de saignement actif comme dans le cas de l'épistaxis."
+          },
+          {
+            "correct": true,
+            "proposition": "La broncho-pneumopathie chronique obstructive (BPCO)",
+            "justification": "La BPCO peut entraîner des épisodes de toux et de dyspnée accompagnés d'hémoptysie, ce qui doit être différencié de l'épistaxis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755139898833_03",
+      "current_version_epoch_ms": 1755139898833,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quels signes peuvent faire évoquer une hématémèse plutôt qu'une épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de vomissements associés",
+            "justification": "L'hématémèse est généralement associée à des vomissements de sang, ce qui distingue ce diagnostic de l'épistaxis, qui n'entraîne pas de vomissements."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de dyspnée",
+            "justification": "La dyspnée est plus couramment associée à des causes respiratoires comme l'hémoptysie et non à l'hématémèse."
+          },
+          {
+            "correct": true,
+            "proposition": "Sang ayant un aspect de marc de café",
+            "justification": "Le sang vomi sous forme de marc de café est un signe caractéristique de l'hématémèse, indiquant un saignement provenant de l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de toux sèche",
+            "justification": "La toux sèche est plus souvent un symptôme d'hémoptysie ou d'infections respiratoires que d'hématémèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Saignement exclusivement nasal",
+            "justification": "Un saignement exclusivement nasal est un critère diagnostique d'épistaxis, et non d'hématémèse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755139898833_04",
+      "current_version_epoch_ms": 1755139898833,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme principal de la gravité de l'épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de volume sanguin",
+            "justification": "La perte importante de volume sanguin est le principal facteur de gravité de l'épistaxis, pouvant conduire à un choc hypovolémique si elle n'est pas contrôlée."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection des voies respiratoires supérieures",
+            "justification": "Bien que l'infection puisse causer des symptômes nasaux, elle n'est pas responsable de la gravité de l'épistaxis, qui dépend de l'abondance du saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction des voies aériennes",
+            "justification": "L'obstruction des voies aériennes n'est pas un facteur de gravité direct dans le cadre de l'épistaxis, à moins qu'elle ne résulte de l'abondance du saignement."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoxie induite par la déplétion sanguine",
+            "justification": "L'hypoxie résultant de la perte de sang est un autre facteur de gravité, en particulier chez les patients fragiles."
+          },
+          {
+            "correct": false,
+            "proposition": "Saignement lié à un traumatisme récent",
+            "justification": "Bien que les traumatismes nasaux puissent causer des épistaxis, la gravité n'est pas uniquement liée à cette cause mais à l'abondance du saignement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755139898833_05",
+      "current_version_epoch_ms": 1755139898833,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel est le premier geste thérapeutique à réaliser lors d'une épistaxis grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compression des fosses nasales",
+            "justification": "La compression des fosses nasales est le premier geste à réaliser pour contrôler un saignement nasal en attendant une prise en charge médicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de vasoconstricteurs systémiques",
+            "justification": "Bien que les vasoconstricteurs puissent être utilisés, la compression des fosses nasales reste le premier geste thérapeutique dans la gestion de l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "Suturation de la plaie nasale",
+            "justification": "Les sutures ne sont généralement pas nécessaires en première intention dans le traitement d'une épistaxis, sauf en cas de lésion traumatique associée."
+          },
+          {
+            "correct": true,
+            "proposition": "Positionner le patient en position assise avec la tête inclinée en avant",
+            "justification": "Cette position permet de limiter le risque d'aspiration de sang et d'étouffement, tout en facilitant la gestion du saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion intraveineuse d'oxygène",
+            "justification": "La perfusion d'oxygène n'est pas un geste initial immédiat dans le cadre de l'épistaxis, sauf si l'hypoxie est évidente."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755211901304_01",
+      "current_version_epoch_ms": 1755211901304,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Devant une dermatose bulleuse, identifier les finalités principales d'une biopsie associée à une immunofluorescence directe (IFD).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Affirmer le diagnostic de maladie bulleuse auto-immune.",
+            "justification": "La biopsie cutanée ou muqueuse avec IFD permet d'affirmer le diagnostic de maladie bulleuse auto-immune."
+          },
+          {
+            "correct": true,
+            "proposition": "Évoquer une cause non auto-immune de lésions bulleuses.",
+            "justification": "L'examen permet aussi d'évoquer une étiologie non auto-immune des lésions bulleuses."
+          },
+          {
+            "correct": true,
+            "proposition": "Distinguer une dermatose sous-épidermique d'une dermatose intra-épidermique.",
+            "justification": "L'examen permet la distinction entre les groupes sous-épidermiques et intra-épidermiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Établir le pronostic vital immédiat.",
+            "justification": "Les objectifs décrits concernent le diagnostic étiologique et la classification, pas l'évaluation pronostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Écarter une dermatose bulleuse auto-immune si l'IFD est négative.",
+            "justification": "En cas de négativité de l'IFD, le diagnostic de dermatose bulleuse auto-immune est écarté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211901304_02",
+      "current_version_epoch_ms": 1755211901304,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître l'interprétation correcte d'une immunofluorescence directe (IFD) négative dans l'exploration d'une dermatose bulleuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Écarte le diagnostic de dermatose bulleuse auto-immune.",
+            "justification": "Une IFD négative permet d'écarter le diagnostic de dermatose bulleuse auto-immune."
+          },
+          {
+            "correct": true,
+            "proposition": "Oriente vers d'autres étiologies de lésions bulleuses.",
+            "justification": "Après IFD négative, l'orientation se fait vers des causes non auto-immunes."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirme un pemphigus.",
+            "justification": "La négativité de l'IFD n'affirme pas une maladie auto-immune telle qu'un pemphigus."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirme une pemphigoïde.",
+            "justification": "La négativité de l'IFD n'affirme pas une maladie auto-immune telle qu'une pemphigoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "N'a pas d'intérêt pour la démarche diagnostique.",
+            "justification": "La négativité a une valeur d'exclusion et guide vers d'autres étiologies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211901304_03",
+      "current_version_epoch_ms": 1755211901304,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer les dermatoses bulleuses auto-immunes selon la localisation du clivage mise en évidence grâce à la biopsie avec IFD.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les dermatoses sous-épidermiques correspondent au groupe des pemphigoïdes (pour les causes auto-immunes).",
+            "justification": "La distinction indique que les sous-épidermiques renvoient au groupe des pemphigoïdes pour les causes auto-immunes."
+          },
+          {
+            "correct": true,
+            "proposition": "Les dermatoses intra-épidermiques correspondent au groupe des pemphigus (pour les causes auto-immunes).",
+            "justification": "La distinction indique que les intra-épidermiques renvoient au groupe des pemphigus pour les causes auto-immunes."
+          },
+          {
+            "correct": false,
+            "proposition": "La distinction sous-/intra-épidermique n'est pas accessible par la biopsie avec IFD.",
+            "justification": "L'examen permet précisément cette distinction."
+          },
+          {
+            "correct": true,
+            "proposition": "La classification repose sur le niveau de clivage (sous-épidermique vs intra-épidermique).",
+            "justification": "Il est indiqué que l'examen permet de distinguer ces deux niveaux de clivage."
+          },
+          {
+            "correct": false,
+            "proposition": "Cette distinction n'a pas d'intérêt pour l'orientation diagnostique.",
+            "justification": "La distinction oriente vers les groupes pemphigoïdes ou pemphigus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211901304_04",
+      "current_version_epoch_ms": 1755211901304,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Définir le champ d'application et les modalités pertinentes de la biopsie dans les dermatoses bulleuses.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peut être réalisée sur peau.",
+            "justification": "Il est indiqué qu'il s'agit d'une biopsie cutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut être réalisée sur muqueuse.",
+            "justification": "Il est précisé que la biopsie peut être muqueuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Repose uniquement sur un prélèvement sanguin.",
+            "justification": "La démarche diagnostique décrite est une biopsie cutanée ou muqueuse avec IFD."
+          },
+          {
+            "correct": true,
+            "proposition": "L'examen pertinent associe la biopsie à une immunofluorescence directe.",
+            "justification": "C'est l'association à l'IFD qui permet l'affirmation diagnostique et la classification."
+          },
+          {
+            "correct": false,
+            "proposition": "La biopsie sans IFD permet toujours d'affirmer le diagnostic auto-immun.",
+            "justification": "L'affirmation diagnostique est attribuée à la biopsie avec IFD."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755211901304_05",
+      "current_version_epoch_ms": 1755211901304,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Face à une suspicion de maladie bulleuse, reconnaître ce que permet concrètement la biopsie associée à l'IFD dans le raisonnement clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Affirmer la nature auto-immune d'une maladie bulleuse.",
+            "justification": "La biopsie avec IFD permet d'affirmer le diagnostic de maladie bulleuse auto-immune."
+          },
+          {
+            "correct": true,
+            "proposition": "Exclure une dermatose bulleuse auto-immune si l'IFD est négative et orienter vers d'autres causes.",
+            "justification": "Une IFD négative écarte l'étiologie auto-immune et oriente vers d'autres étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Classer la dermatose selon un clivage sous-épidermique ou intra-épidermique.",
+            "justification": "L'examen permet la distinction sous-épidermique vs intra-épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Conclure d'emblée à un pemphigus sans apport de l'IFD.",
+            "justification": "La classification et l'affirmation diagnostique décrites reposent sur l'IFD."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer l'ensemble des autres approches diagnostiques quel que soit le contexte.",
+            "justification": "Les objectifs explicités portent sur l'affirmation auto-immune, l'orientation étiologique et la distinction de clivage, sans mention de substitution globale."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbsommeil",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755207350712_01",
+      "current_version_epoch_ms": 1755207350712,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Identifier les postes professionnels contre-indiqués chez un patient présentant un syndrome d'apnées du sommeil (SAS) non traité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Travail de nuit ou travail posté",
+            "justification": "Le travail de nuit ou posté est fortement déconseillé en cas de SAS."
+          },
+          {
+            "correct": true,
+            "proposition": "Conduite de véhicules ou d'engins",
+            "justification": "La conduite de véhicules ou de machines est fortement déconseillée en raison du risque accru d'accident."
+          },
+          {
+            "correct": true,
+            "proposition": "Postes à risque nécessitant une vigilance soutenue",
+            "justification": "Tout poste à risque est déconseillé car la somnolence diurne liée au SAS compromet la sécurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Travail de jour au bureau sans activité de conduite",
+            "justification": "Il n'est pas indiqué que ces postes sédentaires sans conduite soient contre-indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Télétravail sans exposition à des machines",
+            "justification": "Aucune contre-indication n'est mentionnée pour des activités sans conduite ni machines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207350712_02",
+      "current_version_epoch_ms": 1755207350712,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître les implications du SAS sur la sécurité routière et l'aptitude à la conduite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le SAS multiplie par six la probabilité d'accident au volant",
+            "justification": "Le risque d'accident est majoré d'un facteur six chez les conducteurs avec SAS."
+          },
+          {
+            "correct": true,
+            "proposition": "Le médecin doit prévenir le patient de son inaptitude à la conduite jusqu'à normalisation sous traitement",
+            "justification": "Il est indiqué de déclarer l'inaptitude à la conduite tant que le syndrome n'est pas normalisé sous traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "La conduite peut être reprise immédiatement après le diagnostic si le patient se sent reposé",
+            "justification": "La reprise nécessite un traitement efficace et un délai défini, pas un simple ressenti."
+          },
+          {
+            "correct": true,
+            "proposition": "Après traitement efficace, la reprise de la conduite d'un véhicule léger est envisageable entre 2 semaines et 1 mois",
+            "justification": "La réglementation prévoit un délai de 2 semaines à 1 mois selon la pathologie, sous traitement efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "L'aptitude à la conduite est délivrée sans limite de durée",
+            "justification": "L'aptitude est délivrée pour une durée maximale de 3 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207350712_03",
+      "current_version_epoch_ms": 1755207350712,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Classer les décisions médico-professionnelles face à une somnolence diurne répétée liée au SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prendre en compte la somnolence pour l'aptitude aux postes à risque (conduite, engins)",
+            "justification": "La somnolence diurne est explicitement prise en compte pour l'aptitude à des postes à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas en tenir compte si le patient nie les épisodes, car l'évaluation est trop subjective",
+            "justification": "Elle doit être prise en compte pour l'aptitude, indépendamment de la perception du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un aménagement en évitant la conduite de véhicules ou de machines",
+            "justification": "La conduite de véhicules ou machines étant déconseillée, un aménagement va dans ce sens."
+          },
+          {
+            "correct": false,
+            "proposition": "Autoriser le travail de nuit si un traitement est simplement prévu",
+            "justification": "Le travail de nuit ou posté est fortement déconseillé en cas de SAS."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclarer systématiquement l'inaptitude à tout poste, sans distinction",
+            "justification": "Seuls les postes à risque sont ciblés ; il n'est pas indiqué d'inaptitude à tout emploi."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207350712_04",
+      "current_version_epoch_ms": 1755207350712,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Définir les délais et conditions pour l'aptitude à la conduite selon l'arrêté du 18 décembre 2015 chez un patient ayant un SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour un véhicule du groupe léger, reprise possible 2 semaines à 1 mois après mise en place d'un traitement efficace",
+            "justification": "Un délai de 2 semaines à 1 mois est précisé selon la pathologie, sous traitement efficace."
+          },
+          {
+            "correct": true,
+            "proposition": "Une évaluation de l'efficacité thérapeutique est requise avant la reprise",
+            "justification": "La reprise intervient après évaluation de l'efficacité du traitement approprié."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour le groupe léger, aucun délai minimal n'est requis",
+            "justification": "Un délai de 2 semaines à 1 mois est explicitement indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "L'aptitude à la conduite est délivrée pour une durée maximale de 3 ans",
+            "justification": "La durée maximale d'aptitude mentionnée est de 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "La décision de reprise n'implique pas le médecin du travail",
+            "justification": "En cas d'inaptitude au poste, le médecin du travail intervient dans le processus conduisant à la reprise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207350712_05",
+      "current_version_epoch_ms": 1755207350712,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître les messages clés à délivrer à un patient atteint de SAS concernant la conduite et l'activité professionnelle.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Informer de l'inaptitude à la conduite jusqu'à normalisation du syndrome sous traitement",
+            "justification": "Le médecin doit prévenir de l'inaptitude jusqu'à normalisation sous traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Expliquer que le travail de nuit/posté et la conduite de machines sont fortement déconseillés",
+            "justification": "Ces activités sont explicitement déconseillées chez les personnes présentant un SAS."
+          },
+          {
+            "correct": false,
+            "proposition": "Rassurer en indiquant que le risque d'accident n'est pas augmenté",
+            "justification": "Le SAS multiplie par six la probabilité d'accident au volant."
+          },
+          {
+            "correct": true,
+            "proposition": "Préciser que la reprise de la conduite peut être envisagée après 2 semaines à 1 mois de traitement efficace",
+            "justification": "La reprise est possible entre 2 semaines et 1 mois sous traitement efficace, selon la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer que l'aptitude à la conduite, une fois délivrée, n'a pas d'échéance",
+            "justification": "L'aptitude est limitée dans le temps et délivrée au maximum pour 3 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

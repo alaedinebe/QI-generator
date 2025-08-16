@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "BK",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755339692919_01",
+      "current_version_epoch_ms": 1755339692919,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le schéma thérapeutique recommandé pour le traitement de la tuberculose chez l'adulte en phase d'induction ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Quadrithérapie pendant deux mois avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol",
+            "justification": "Le traitement de phase d'induction chez l'adulte repose sur une quadrithérapie incluant Rifampicine, Isoniazide, Pyrazinamide et Ethambutol pendant deux mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Bithérapie avec Rifampicine et Isoniazide pendant six mois",
+            "justification": "La bithérapie n'est utilisée qu'en phase de continuation et ne concerne pas la phase d'induction."
+          },
+          {
+            "correct": false,
+            "proposition": "Monothérapie avec Rifampicine pendant trois mois",
+            "justification": "La monothérapie n'est pas recommandée pour le traitement de la tuberculose active chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Trithérapie avec Rifampicine, Isoniazide et Pyrazinamide pendant deux mois",
+            "justification": "La trithérapie n'est utilisée que chez l'enfant ou pour certaines formes de tuberculose."
+          },
+          {
+            "correct": false,
+            "proposition": "Quadrithérapie pendant quatre mois avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol",
+            "justification": "La phase de continuation dure quatre mois, mais elle se compose uniquement de Rifampicine et Isoniazide, pas de quadrithérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339692919_02",
+      "current_version_epoch_ms": 1755339692919,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le traitement de la tuberculose chez l'enfant en phase d'induction ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trithérapie avec Isoniazide, Rifampicine et Pyrazinamide pendant deux mois",
+            "justification": "Le traitement de l'enfant en phase d'induction repose sur une trithérapie incluant Isoniazide, Rifampicine et Pyrazinamide pendant deux mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Quadrithérapie avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol pendant quatre mois",
+            "justification": "L'ajout d'Ethambutol dans la trithérapie est réservé aux formes riches en bacilles et non utilisé de manière systématique chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Monothérapie avec Isoniazide pendant six mois",
+            "justification": "La monothérapie n'est pas appropriée pour le traitement de la tuberculose chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Bithérapie avec Rifampicine et Isoniazide pendant trois mois",
+            "justification": "La bithérapie est utilisée dans le cadre de l'infection tuberculeuse latente, pas pour la tuberculose active chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Quadrithérapie avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol pendant deux mois",
+            "justification": "L'Ethambutol n'est ajouté que dans les formes sévères chez l'enfant, et non systématiquement dans la phase d'induction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339692919_03",
+      "current_version_epoch_ms": 1755339692919,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle est la durée du traitement pour la phase de continuation chez l'adulte souffrant de tuberculose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Quatre mois avec Rifampicine et Isoniazide",
+            "justification": "La phase de continuation dure quatre mois, pendant lesquels le traitement est basé sur Rifampicine et Isoniazide uniquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Six mois avec Rifampicine et Isoniazide",
+            "justification": "La phase de continuation dure quatre mois et non six mois chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Deux mois avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol",
+            "justification": "La phase de continuation ne comprend pas la pyrazinamide ni l'éthambutol."
+          },
+          {
+            "correct": false,
+            "proposition": "Trois mois avec Rifampicine et Pyrazinamide",
+            "justification": "La pyrazinamide n'est pas utilisée en phase de continuation, seulement en phase d'induction."
+          },
+          {
+            "correct": false,
+            "proposition": "Trois mois avec Rifampicine et Ethambutol",
+            "justification": "L'éthambutol n'est utilisé qu'en phase d'induction dans certains cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339692919_04",
+      "current_version_epoch_ms": 1755339692919,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quand doit-on réaliser un test génotypique pour détecter une résistance aux anti-tuberculeux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Avant la mise en route du traitement, pour détecter une éventuelle résistance à la Rifampicine",
+            "justification": "La détection d'une souche résistante à la Rifampicine par test génotypique (PCR) est systématique avant la mise en place du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Après deux mois de traitement pour vérifier la résistance aux médicaments",
+            "justification": "Le test génotypique doit être réalisé avant le début du traitement, pas après plusieurs mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la phase de continuation pour ajuster le traitement",
+            "justification": "La détection de résistance se fait avant le début du traitement, et non pendant la phase de continuation."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement si le patient présente des symptômes sévères de tuberculose",
+            "justification": "Le test génotypique est systématique, indépendamment des symptômes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Au bout de quatre mois de traitement pour valider la réponse thérapeutique",
+            "justification": "Le test génotypique doit être effectué avant le traitement, et non après plusieurs mois de traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755339692919_05",
+      "current_version_epoch_ms": 1755339692919,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour l'infection tuberculeuse latente chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bithérapie avec Rifampicine et Isoniazide pendant 3 mois",
+            "justification": "La bithérapie avec Rifampicine et Isoniazide pendant 3 mois est l'une des options thérapeutiques pour l'infection tuberculeuse latente."
+          },
+          {
+            "correct": false,
+            "proposition": "Monothérapie avec Isoniazide pendant 9 mois",
+            "justification": "La monothérapie avec Isoniazide pendant 9 mois est une alternative, mais non la seule option."
+          },
+          {
+            "correct": false,
+            "proposition": "Trithérapie avec Rifampicine, Isoniazide et Pyrazinamide pendant 2 mois",
+            "justification": "La trithérapie n'est pas utilisée pour l'infection tuberculeuse latente chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Quadrithérapie avec Rifampicine, Isoniazide, Pyrazinamide et Ethambutol pendant 4 mois",
+            "justification": "La quadrithérapie est utilisée pour la tuberculose active, pas pour l'infection latente."
+          },
+          {
+            "correct": false,
+            "proposition": "Bithérapie avec Rifampicine et Pyrazinamide pendant 3 mois",
+            "justification": "La Pyrazinamide n'est pas utilisée dans le traitement de l'infection tuberculeuse latente."
+          }
+        ]
+      }
+    }
+  ]
+}

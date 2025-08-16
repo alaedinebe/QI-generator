@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "rachialgie",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755158929684_01",
+      "current_version_epoch_ms": 1755158929684,
+      "topic": {
+        "subject": "rhumato",
+        "item": "rachialgie"
+      },
+      "data": {
+        "statement": "Quelle est la première démarche à adopter devant une poussée aiguë de lombalgie, avant la 7ème semaine ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Demander une IRM du rachis lombaire.",
+            "justification": "Aucune imagerie n'est recommandée avant la 7ème semaine sauf en présence de drapeaux rouges."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas demander d'imagerie, sauf en présence de drapeaux rouges.",
+            "justification": "Aucune imagerie n'est nécessaire avant la 7ème semaine, sauf en cas de signes évocateurs de pathologies graves (drapeaux rouges)."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une radiographie du rachis lombaire.",
+            "justification": "Les radiographies ne sont pas indiquées dans la phase aiguë de lombalgie sans signes de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une radiographie dynamique du rachis lombaire.",
+            "justification": "La radiographie dynamique n'est pas appropriée dans les premières semaines sans signes de stabilité du rachis."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander un scanner du rachis lombaire.",
+            "justification": "Le scanner n'est pas la première ligne d'examen en cas de lombalgie aiguë, l'IRM étant préférée en cas de drapeaux rouges."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755158929684_02",
+      "current_version_epoch_ms": 1755158929684,
+      "topic": {
+        "subject": "rhumato",
+        "item": "rachialgie"
+      },
+      "data": {
+        "statement": "Dans le cas d'une lombalgie commune chronique, quel est l'examen à privilégier ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une IRM du rachis lombaire.",
+            "justification": "L'IRM est recommandée pour les lombalgies chroniques en absence de contre-indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Une radiographie du rachis lombaire en F + P.",
+            "justification": "Les radiographies ne sont généralement pas suffisantes pour une évaluation complète des lombalgies chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Un scanner du rachis lombaire.",
+            "justification": "Le scanner est indiqué uniquement en cas de contre-indication à l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Une IRM cervicale.",
+            "justification": "L'IRM cervicale ne concerne pas les lombalgies mais les cervicalgies."
+          },
+          {
+            "correct": false,
+            "proposition": "Une échographie du rachis lombaire.",
+            "justification": "L'échographie n'est pas un examen de choix pour les lombalgies chroniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755158929684_03",
+      "current_version_epoch_ms": 1755158929684,
+      "topic": {
+        "subject": "rhumato",
+        "item": "rachialgie"
+      },
+      "data": {
+        "statement": "Dans le cas de toute dorsalgie avec signes de gravité (drapeau rouge), quel examen doit être effectué ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographies du rachis dorsal en F + P.",
+            "justification": "Les radiographies sont nécessaires pour évaluer les structures du rachis dorsal en cas de signes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM du rachis dorsal.",
+            "justification": "L'IRM est généralement réservée aux pathologies spécifiques comme la spondylodiscite, et non comme première intention dans toute dorsalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner du rachis dorsal.",
+            "justification": "Le scanner n'est pas le premier choix pour une dorsalgie sans signes spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie dynamique du rachis dorsal.",
+            "justification": "Les radiographies dynamiques ne sont pas indiquées sans suspicion de troubles de la statique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cervicale.",
+            "justification": "L'IRM cervicale n'est pas indiquée pour une dorsalgie, elle est réservée aux cervicalgies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755158929684_04",
+      "current_version_epoch_ms": 1755158929684,
+      "topic": {
+        "subject": "rhumato",
+        "item": "rachialgie"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une cervicalgie aiguë, quel est le délai avant d'envisager une imagerie ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Demander une IRM immédiatement.",
+            "justification": "Aucune imagerie n'est nécessaire avant 7 jours, sauf si des signes de gravité sont présents."
+          },
+          {
+            "correct": true,
+            "proposition": "Aucune imagerie avant 7 jours, sauf en présence de drapeaux rouges.",
+            "justification": "Les examens d'imagerie ne sont indiqués qu'en cas de signes graves (drapeaux rouges) ou au-delà de 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander un scanner du rachis cervical.",
+            "justification": "Le scanner n'est pas le premier choix pour évaluer une cervicalgie aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander une radiographie dynamique du rachis cervical.",
+            "justification": "La radiographie dynamique n'est indiquée qu'en cas d'entorse cervicale avec instabilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander une échographie cervicale.",
+            "justification": "L'échographie n'est pas utile dans le cadre des cervicalgies aiguës."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755158929684_05",
+      "current_version_epoch_ms": 1755158929684,
+      "topic": {
+        "subject": "rhumato",
+        "item": "rachialgie"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une cervicalgie chronique sans radiculalgie, quel examen est recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une radiographie du rachis cervical en F + P + 3/4.",
+            "justification": "Les radiographies standard sont recommandées pour explorer les cervicalgies chroniques sans radiculalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Une IRM cervicale immédiatement.",
+            "justification": "L'IRM n'est envisagée qu'en 2ème intention, après les radiographies."
+          },
+          {
+            "correct": false,
+            "proposition": "Un scanner cervical.",
+            "justification": "Le scanner n'est pas la méthode d'examen de première intention pour une cervicalgie sans radiculalgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Des clichés dynamiques du rachis cervical.",
+            "justification": "Les clichés dynamiques ne sont nécessaires que si une entorse cervicale ou une instabilité est suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une échographie cervicale.",
+            "justification": "L'échographie n'est pas utilisée dans l'évaluation des cervicalgies chroniques."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vieillissement",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755237154066_01",
+      "current_version_epoch_ms": 1755237154066,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant l'espérance de vie à la naissance en France en 2020.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est de 85,2 ans chez les femmes.",
+            "justification": "En 2020, à la naissance, la valeur pour les femmes est 85,2 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est de 79,2 ans chez les hommes.",
+            "justification": "En 2020, à la naissance, la valeur pour les hommes est 79,2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est identique chez les deux sexes.",
+            "justification": "Les valeurs diffèrent : 85,2 ans chez les femmes vs 79,2 ans chez les hommes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est de 79,2 ans chez les femmes.",
+            "justification": "79,2 ans correspond à la valeur masculine à la naissance en 2020, pas féminine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est de 85,2 ans chez les hommes.",
+            "justification": "85,2 ans correspond à la valeur féminine à la naissance en 2020, pas masculine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755237154066_02",
+      "current_version_epoch_ms": 1755237154066,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Reconnaître les affirmations exactes concernant l'espérance de vie à 60 ans en 2020.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À 60 ans, l'espérance de vie est de 27 ans chez les femmes.",
+            "justification": "Pour un sujet de 60 ans en 2020, la valeur est de 27 ans chez les femmes."
+          },
+          {
+            "correct": true,
+            "proposition": "À 60 ans, l'espérance de vie est de 23 ans chez les hommes.",
+            "justification": "Pour un sujet de 60 ans en 2020, la valeur est de 23 ans chez les hommes."
+          },
+          {
+            "correct": true,
+            "proposition": "À 60 ans, les femmes ont 4 ans de plus d'espérance de vie que les hommes.",
+            "justification": "La différence est 27 ans − 23 ans = 4 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "À 60 ans, les hommes ont une espérance de vie supérieure à celle des femmes.",
+            "justification": "Les valeurs indiquent 23 ans chez les hommes contre 27 ans chez les femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "À 60 ans, l'espérance de vie est de 25 ans chez les femmes.",
+            "justification": "La valeur féminine à 60 ans en 2020 est 27 ans, pas 25."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755237154066_03",
+      "current_version_epoch_ms": 1755237154066,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Différencier les notions d'espérance de vie « à la naissance » et « à 60 ans » en 2020.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "« À la naissance » correspond à 85,2 ans chez les femmes et 79,2 ans chez les hommes.",
+            "justification": "Les valeurs à la naissance en 2020 sont 85,2 ans (femmes) et 79,2 ans (hommes)."
+          },
+          {
+            "correct": true,
+            "proposition": "« À 60 ans » correspond à 27 ans chez les femmes et 23 ans chez les hommes.",
+            "justification": "Pour un sujet de 60 ans en 2020, les valeurs sont 27 ans (femmes) et 23 ans (hommes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Les valeurs « à la naissance » et « à 60 ans » décrivent la même grandeur numérique pour un même sexe.",
+            "justification": "Chez les femmes : 85,2 vs 27 ; chez les hommes : 79,2 vs 23 ; elles diffèrent nettement."
+          },
+          {
+            "correct": true,
+            "proposition": "« À 60 ans » décrit une espérance exprimée en années à partir de l'âge de 60 ans.",
+            "justification": "Il est indiqué qu'à 60 ans, l'espérance de vie est de 27 ans (femmes) et 23 ans (hommes)."
+          },
+          {
+            "correct": false,
+            "proposition": "« À 60 ans » vaut 85,2 ans chez les femmes et 79,2 ans chez les hommes.",
+            "justification": "85,2 et 79,2 ans sont les valeurs à la naissance, pas à 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755237154066_04",
+      "current_version_epoch_ms": 1755237154066,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Reconnaître la dynamique entre allongement de la vie et années vécues en incapacité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'allongement de la vie s'est accompagné d'une diminution du nombre moyen d'années vécues en incapacité.",
+            "justification": "Il est rapporté une diminution des années d'incapacité parallèlement à l'allongement de la vie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'allongement de la vie s'est accompagné d'une augmentation du nombre moyen d'années vécues en incapacité.",
+            "justification": "L'évolution mentionnée est une diminution, pas une augmentation."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nombre moyen d'années vécues en incapacité par individu a diminué.",
+            "justification": "La diminution des années d'incapacité par individu est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe aucune relation décrite entre longévité et incapacité.",
+            "justification": "Une relation conjointe est décrite : allongement de la vie et diminution des années d'incapacité."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée de vie augmente tandis que la durée moyenne d'incapacité diminue.",
+            "justification": "L'association rapportée est un allongement de la vie avec moins d'années en incapacité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755237154066_05",
+      "current_version_epoch_ms": 1755237154066,
+      "topic": {
+        "subject": "geria",
+        "item": "vieillissement"
+      },
+      "data": {
+        "statement": "Comparer les écarts selon le sexe et l'âge pour l'espérance de vie en 2020.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À la naissance, l'espérance de vie est plus élevée chez les femmes que chez les hommes.",
+            "justification": "85,2 ans (femmes) vs 79,2 ans (hommes)."
+          },
+          {
+            "correct": true,
+            "proposition": "À la naissance, l'écart femmes-hommes est de 6,0 ans.",
+            "justification": "85,2 − 79,2 = 6,0 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "À 60 ans, l'écart femmes-hommes est de 2,0 ans.",
+            "justification": "27 − 23 = 4 ans, pas 2."
+          },
+          {
+            "correct": true,
+            "proposition": "À 60 ans, l'espérance de vie est inférieure chez les hommes par rapport aux femmes.",
+            "justification": "23 ans (hommes) vs 27 ans (femmes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour un même sexe, les valeurs à la naissance et à 60 ans sont identiques.",
+            "justification": "Elles diffèrent : femmes 85,2 vs 27 ; hommes 79,2 vs 23."
+          }
+        ]
+      }
+    }
+  ]
+}

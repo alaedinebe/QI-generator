@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psychotropes",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755103472150_01",
+      "current_version_epoch_ms": 1755103472150,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Identifier les molécules ayant une indication en traitement curatif de l'épisode maniaque dans les troubles bipolaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sels de lithium",
+            "justification": "Indiqués en traitement curatif de l'épisode maniaque (marqué X)."
+          },
+          {
+            "correct": true,
+            "proposition": "Valproate",
+            "justification": "Indiqué en traitement curatif de l'épisode maniaque (marqué X)."
+          },
+          {
+            "correct": false,
+            "proposition": "Lamotrigine",
+            "justification": "Aucune indication pour l'épisode maniaque n'est mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Valpromide",
+            "justification": "Indiqué en traitement curatif de l'épisode maniaque (marqué X)."
+          },
+          {
+            "correct": true,
+            "proposition": "Carbamazépine",
+            "justification": "Indiquée en traitement curatif de l'épisode maniaque (marqué X)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755103472150_02",
+      "current_version_epoch_ms": 1755103472150,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Reconnaître des contre-indications absolues du lithium.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale sévère",
+            "justification": "Classée parmi les contre-indications absolues du lithium."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle (HTA)",
+            "justification": "Mentionnée comme contre-indication relative du lithium, pas absolue."
+          },
+          {
+            "correct": true,
+            "proposition": "Déplétion hydro-sodée ou hyponatrémie",
+            "justification": "Classée parmi les contre-indications absolues du lithium."
+          },
+          {
+            "correct": true,
+            "proposition": "Association aux salidiurétiques",
+            "justification": "Classée parmi les contre-indications absolues du lithium."
+          },
+          {
+            "correct": true,
+            "proposition": "Régime sans sel ou peu salé",
+            "justification": "Classé parmi les contre-indications absolues du lithium."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755103472150_03",
+      "current_version_epoch_ms": 1755103472150,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Parmi les molécules suivantes, identifier celles indiquées dans le traitement curatif de l'épisode dépressif caractérisé des troubles bipolaires.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Carbamazépine",
+            "justification": "Aucune indication pour l'épisode dépressif n'est mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Lamotrigine",
+            "justification": "Indiquée en traitement curatif de l'épisode dépressif (marqué X)."
+          },
+          {
+            "correct": true,
+            "proposition": "Valpromide",
+            "justification": "Indiqué en traitement curatif de l'épisode dépressif (marqué X)."
+          },
+          {
+            "correct": true,
+            "proposition": "Valproate",
+            "justification": "Indiqué en traitement curatif de l'épisode dépressif (marqué X)."
+          },
+          {
+            "correct": true,
+            "proposition": "Sels de lithium",
+            "justification": "Indiqués en traitement curatif de l'épisode dépressif (marqué X)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755103472150_04",
+      "current_version_epoch_ms": 1755103472150,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Classer ces affirmations sur la place des thymorégulateurs (ligne de traitement et aspects pratiques).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le valpromide est un traitement de 1ère ligne.",
+            "justification": "Le valpromide est indiqué en 2de ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "La carbamazépine est classée en 2de ligne.",
+            "justification": "La carbamazépine figure en 2de ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "La lamotrigine est un traitement de 1ère ligne.",
+            "justification": "La lamotrigine figure en 1ère ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "Le valproate est un traitement de 1ère ligne.",
+            "justification": "Le valproate figure en 1ère ligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Les sels de lithium ne sont pas le thymorégulateur de référence.",
+            "justification": "Les sels de lithium sont indiqués comme thymorégulateur de référence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755103472150_05",
+      "current_version_epoch_ms": 1755103472150,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Concernant la carbamazépine, identifier les contre-indications absolues.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles de la conduction cardiaque (bloc auriculo-ventriculaire)",
+            "justification": "Classés parmi les contre-indications absolues de la carbamazépine."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent d'aplasie médullaire",
+            "justification": "Classé parmi les contre-indications absolues de la carbamazépine."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent de porphyrie aiguë intermittente",
+            "justification": "Classé parmi les contre-indications absolues de la carbamazépine."
+          },
+          {
+            "correct": false,
+            "proposition": "Glaucome à angle fermé",
+            "justification": "Mentionné comme contre-indication relative avec la carbamazépine."
+          },
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "Mentionnée parmi les contre-indications absolues de la carbamazépine."
+          }
+        ]
+      }
+    }
+  ]
+}

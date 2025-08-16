@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755328920479_01",
+      "current_version_epoch_ms": 1755328920479,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la définition microbiologique de la bactériémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de bactéries dans le sang détectables dans un flacon d'hémocultures",
+            "justification": "La bactériémie est définie par la présence de bactéries dans le sang, spécifiquement détectables par hémoculture."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de bactéries dans un prélèvement urinaire",
+            "justification": "La bactériémie ne se définit pas par la présence de bactéries dans un prélèvement urinaire mais dans le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de champignons dans le sang",
+            "justification": "La présence de champignons dans le sang définit la fongémie, et non la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de bactéries dans un prélèvement pulmonaire",
+            "justification": "Les bactéries dans un prélèvement pulmonaire peuvent indiquer une infection, mais cela ne correspond pas à la définition de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de virus dans le sang",
+            "justification": "La présence de virus dans le sang correspond à une virose, non à une bactériémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755328920479_02",
+      "current_version_epoch_ms": 1755328920479,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la principale conséquence du manque de traitement adapté dans une bactériémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évolution vers le sepsis, le choc septique et le décès",
+            "justification": "Sans traitement approprié, la bactériémie peut évoluer vers un sepsis, un choc septique et entraîner la mort."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des symptômes sans nécessiter de traitement",
+            "justification": "Sans traitement adapté, les symptômes de la bactériémie ne vont pas se réduire de manière spontanée et risquent d'empirer."
+          },
+          {
+            "correct": false,
+            "proposition": "Guérison spontanée de l'infection",
+            "justification": "Une guérison spontanée est très rare en l'absence de traitement, et l'infection peut rapidement s'aggraver."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction du risque de propagation de l'infection",
+            "justification": "Sans traitement, le risque de propagation de l'infection, notamment vers d'autres organes, est élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Disparition des bactéries sans conséquence clinique",
+            "justification": "Les bactéries ne disparaissent pas spontanément sans traitement et continuent de se multiplier, aggravant l'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755328920479_03",
+      "current_version_epoch_ms": 1755328920479,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle différence existe-t-il entre bactériémie et fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La bactériémie est la présence de bactéries dans le sang, et la fongémie est la présence de champignons dans le sang",
+            "justification": "La bactériémie et la fongémie se distinguent par le type de microorganismes présents dans le sang : des bactéries pour la bactériémie et des champignons pour la fongémie."
+          },
+          {
+            "correct": false,
+            "proposition": "La bactériémie est une infection virale, et la fongémie est une infection bactérienne",
+            "justification": "La bactériémie concerne les bactéries, et la fongémie concerne les champignons, pas les virus ou les bactéries dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "La bactériémie ne présente pas de risque évolutif, contrairement à la fongémie",
+            "justification": "Les deux peuvent entraîner des risques évolutifs graves, en particulier sans traitement adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "La fongémie est plus fréquente que la bactériémie",
+            "justification": "La bactériémie est plus courante que la fongémie, surtout dans les infections aiguës."
+          },
+          {
+            "correct": false,
+            "proposition": "La fongémie est une forme de bactériémie chronique",
+            "justification": "La fongémie et la bactériémie sont deux entités distinctes, la fongémie étant causée par des champignons et non une forme de bactériémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755328920479_04",
+      "current_version_epoch_ms": 1755328920479,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une bactériémie, quelle est la première étape dans la prise en charge ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier la porte d'entrée de l'infection",
+            "justification": "Il est essentiel d'identifier la porte d'entrée de l'infection (muqueuse, plaie, urines...) pour guider le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer un traitement antibiotique à large spectre",
+            "justification": "Bien que nécessaire, le traitement antibiotique doit être adapté après identification de la source de l'infection, et non débuté sans évaluation préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Procéder à une chirurgie immédiate",
+            "justification": "La chirurgie n'est pas la première étape dans la gestion de la bactériémie, sauf en cas de complications spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Réévaluer la fonction rénale",
+            "justification": "Bien que la fonction rénale soit importante, elle n'est pas la première étape dans la prise en charge de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer une mise en décharge vasculaire",
+            "justification": "La mise en décharge vasculaire n'est pas directement liée à la prise en charge immédiate de la bactériémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755328920479_05",
+      "current_version_epoch_ms": 1755328920479,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le terme à éviter pour décrire une infection sanguine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Septicémie",
+            "justification": "Le terme 'septicémie' est devenu imprécis et ne doit plus être utilisé ; il est remplacé par des termes plus précis comme bactériémie ou fongémie selon l'agent pathogène."
+          },
+          {
+            "correct": false,
+            "proposition": "Bactériémie",
+            "justification": "Le terme 'bactériémie' est toujours utilisé de manière précise pour décrire la présence de bactéries dans le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Fongémie",
+            "justification": "La fongémie est un terme correct pour décrire la présence de champignons dans le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection systémique",
+            "justification": "Le terme 'infection systémique' est utilisé pour décrire des infections généralisées, mais n'est pas aussi précis que bactériémie ou fongémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Endocardite",
+            "justification": "L'endocardite est une infection spécifique du cœur et ne remplace pas les termes bactériémie ou fongémie."
+          }
+        ]
+      }
+    }
+  ]
+}

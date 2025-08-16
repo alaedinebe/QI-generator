@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SEP",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755186855015_01",
+      "current_version_epoch_ms": 1755186855015,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Concernant les manifestations ophtalmologiques au cours de la sclérose en plaques (SEP), identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ 30% des SEP débutent par une anomalie de la vision.",
+            "justification": "La fréquence d'un début par des signes ophtalmologiques est d'environ 30%."
+          },
+          {
+            "correct": true,
+            "proposition": "Le principal diagnostic associé est la névrite optique rétro-bulbaire.",
+            "justification": "La névrite optique rétro-bulbaire est indiquée comme le diagnostic principal en cas d'atteinte ophtalmologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Les paralysies oculomotrices représentent environ 5% des manifestations inaugurales.",
+            "justification": "Les paralysies oculomotrices constituent environ 5% des présentations inaugurales de SEP."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nystagmus survient le plus souvent à la phase chronique de la maladie.",
+            "justification": "Le nystagmus est décrit comme apparaissant le plus souvent au cours de la phase chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "La majorité des SEP débutent par une diplopie.",
+            "justification": "La diplopie peut être inaugurale, mais la proportion globale de débuts ophtalmologiques est d'environ 30% et non une majorité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186855015_02",
+      "current_version_epoch_ms": 1755186855015,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "À propos de l'ophtalmoplégie internucléaire (OIN) dans la SEP, reconnaître les éléments qui la caractérisent.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diplopie.",
+            "justification": "L'OIN associe habituellement une diplopie."
+          },
+          {
+            "correct": true,
+            "proposition": "Limitation de l'adduction de l'œil adducteur.",
+            "justification": "L'OIN comporte une limitation de l'adduction du côté adducteur."
+          },
+          {
+            "correct": true,
+            "proposition": "Nystagmus de l'œil abducteur.",
+            "justification": "L'OIN s'accompagne d'un nystagmus du côté abducteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Limitation de l'abduction de l'œil abducteur.",
+            "justification": "L'OIN décrit une limitation de l'adduction, pas de l'abduction ; l'œil abducteur présente un nystagmus."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte systématique du nerf IV.",
+            "justification": "Le nerf IV peut être concerné, mais ce n'est pas systématique ; l'atteinte peut intéresser les noyaux III, VI, parfois IV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186855015_03",
+      "current_version_epoch_ms": 1755186855015,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Classer les propositions concernant la localisation lésionnelle des paralysies oculomotrices associées à la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles peuvent être liées à une atteinte nucléaire des nerfs oculomoteurs (III, VI, parfois IV).",
+            "justification": "Une origine nucléaire (III, VI, parfois IV) est décrite parmi les mécanismes possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Elles sont plus fréquemment dues à une atteinte de la bandelette longitudinale supérieure reliant le noyau du III et du VI controlatéral.",
+            "justification": "La cause la plus fréquente est l'atteinte de cette bandelette fortement myélinisée."
+          },
+          {
+            "correct": true,
+            "proposition": "La structure en cause est fortement myélinisée.",
+            "justification": "La bandelette longitudinale supérieure est précisée comme fortement myélinisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles représentent environ 30% des manifestations inaugurales de SEP.",
+            "justification": "La proportion rapportée pour les paralysies oculomotrices inaugurales est d'environ 5%."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne sont jamais inaugurales.",
+            "justification": "Elles peuvent être inaugurales, avec une fréquence d'environ 5%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186855015_04",
+      "current_version_epoch_ms": 1755186855015,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Devant des signes ophtalmologiques au cours de la SEP, identifier le diagnostic principal à évoquer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Névrite optique rétro-bulbaire.",
+            "justification": "La névrite optique rétro-bulbaire est explicitement indiquée comme le principal diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Ophtalmoplégie internucléaire.",
+            "justification": "Il s'agit d'une autre manifestation, pas du diagnostic principal à évoquer en premier."
+          },
+          {
+            "correct": false,
+            "proposition": "Nystagmus isolé.",
+            "justification": "Le nystagmus est surtout observé en phase chronique et ne constitue pas le diagnostic principal."
+          },
+          {
+            "correct": false,
+            "proposition": "Diplopie par paralysie oculomotrice.",
+            "justification": "La diplopie est une manifestation possible, mais le diagnostic principal reste la névrite optique rétro-bulbaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Névrite optique antérieure.",
+            "justification": "Le diagnostic principal précisé est la forme rétro-bulbaire, et non une autre forme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755186855015_05",
+      "current_version_epoch_ms": 1755186855015,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "À propos du moment de survenue et de la fréquence des manifestations ophtalmologiques de la SEP, déterminer les affirmations justes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nystagmus est le plus souvent observé à la phase chronique.",
+            "justification": "Le nystagmus est rapporté comme survenant le plus souvent en phase chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "Une diplopie inaugurale peut s'expliquer par une paralysie oculomotrice.",
+            "justification": "La diplopie par paralysie oculomotrice fait partie des manifestations, y compris inaugurales."
+          },
+          {
+            "correct": false,
+            "proposition": "Les paralysies oculomotrices inaugurales sont le plus souvent d'origine nucléaire.",
+            "justification": "La cause la plus fréquente est l'atteinte de la bandelette longitudinale supérieure, et non une origine nucléaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Environ 30% des débuts de SEP comportent des signes ophtalmologiques.",
+            "justification": "La proportion d'atteintes inaugurales ophtalmologiques est d'environ 30%."
+          },
+          {
+            "correct": false,
+            "proposition": "Les paralysies oculomotrices représentent environ 30% des présentations inaugurales.",
+            "justification": "La proportion mentionnée pour ces paralysies est d'environ 5%, et non 30%."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "vaccin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755290188456_01",
+      "current_version_epoch_ms": 1755290188456,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la vaccination ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Protéger l'individu de l'infection ou des formes graves de l'infection",
+            "justification": "La vaccination vise avant tout à protéger l'individu contre les infections et les formes graves associées."
+          },
+          {
+            "correct": false,
+            "proposition": "Stimuler immédiatement le système immunitaire",
+            "justification": "La vaccination stimule le système immunitaire de manière différée, contrairement à la sérothérapie qui est une défense immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer complètement les agents infectieux dans la population",
+            "justification": "La vaccination ne garantit pas l'élimination totale des agents infectieux, mais elle vise à réduire leur circulation et à atteindre l'immunité de groupe."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la durée des maladies infectieuses",
+            "justification": "La vaccination ne réduit pas la durée de la maladie mais prévient son apparition ou ses formes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Créer une immunité passive dans la population",
+            "justification": "L'immunité générée par la vaccination est active, contrairement à l'immunité passive obtenue par sérothérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290188456_02",
+      "current_version_epoch_ms": 1755290188456,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre les vaccins vivants atténués et les vaccins inactivés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les vaccins vivants atténués utilisent des agents infectieux vivants dont la virulence a été atténuée",
+            "justification": "Les vaccins vivants atténués contiennent des agents infectieux vivants modifiés pour réduire leur virulence, ce qui les rend plus risqués pour les immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les vaccins inactivés ne contiennent aucun agent infectieux",
+            "justification": "Les vaccins inactivés contiennent des agents infectieux entiers ou des sous-unités, mais ils sont inactivés pour ne pas être infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Les vaccins vivants atténués sont plus sûrs pour les personnes immunodéprimées",
+            "justification": "Les vaccins vivants atténués sont contre-indiqués chez les immunodéprimés en raison du risque d'infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Les vaccins inactivés ne sont pas infectieux",
+            "justification": "Les vaccins inactivés ne possèdent pas de pouvoir infectieux car ils contiennent des agents infectieux inactivés ou des sous-unités."
+          },
+          {
+            "correct": false,
+            "proposition": "Les vaccins inactivés sont contre-indiqués chez les femmes enceintes",
+            "justification": "Les vaccins inactivés sont généralement considérés comme sûrs pour les femmes enceintes, contrairement aux vaccins vivants atténués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290188456_03",
+      "current_version_epoch_ms": 1755290188456,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Qu'est-ce que le rappel dans le cadre de la vaccination ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Renouvellement de l'injection du vaccin pour maintenir un bon niveau de protection",
+            "justification": "Le rappel consiste à administrer une nouvelle dose de vaccin pour maintenir une protection suffisante contre la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les premières injections nécessaires pour obtenir une protection",
+            "justification": "Cela correspond à la primovaccination, et non au rappel qui intervient après les premières injections."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise à jour des vaccinations en injectant les doses manquantes",
+            "justification": "Cela correspond au rattrapage, qui diffère du rappel en ce qu'il comble un retard dans le calendrier de vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "La première dose de vaccin administrée à la naissance",
+            "justification": "La première dose administrée à la naissance est une primovaccination, et non un rappel."
+          },
+          {
+            "correct": false,
+            "proposition": "L'administration de vaccins à ARNm",
+            "justification": "Les vaccins à ARNm peuvent être utilisés lors de la primovaccination ou du rappel, mais cela ne définit pas le concept de rappel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290188456_04",
+      "current_version_epoch_ms": 1755290188456,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Qu'est-ce que la sérothérapie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administration de sérums contenant des anticorps pour une défense immédiate mais transitoire",
+            "justification": "La sérothérapie consiste à administrer des anticorps pour neutraliser immédiatement un agent infectieux, mais cette défense est transitoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination avec des agents infectieux inactivés",
+            "justification": "La sérothérapie n'implique pas la vaccination, mais l'administration d'anticorps pour une défense immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination avec des agents infectieux vivants atténués",
+            "justification": "La vaccination avec des agents infectieux vivants atténués est distincte de la sérothérapie qui ne stimule pas le système immunitaire de façon active."
+          },
+          {
+            "correct": false,
+            "proposition": "Mise à jour des vaccinations pour rattraper un retard",
+            "justification": "Le rattrapage consiste à injecter des doses manquantes, ce qui n'est pas lié à la sérothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Production endogène d'anticorps par l'organisme",
+            "justification": "La sérothérapie n'entraîne pas de production d'anticorps par l'organisme, mais l'administration d'anticorps préexistants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755290188456_05",
+      "current_version_epoch_ms": 1755290188456,
+      "topic": {
+        "subject": "infectio",
+        "item": "vaccin"
+      },
+      "data": {
+        "statement": "Quel est l'objectif de la primovaccination ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les premières injections nécessaires pour obtenir une protection",
+            "justification": "La primovaccination correspond aux premières injections d'un vaccin qui sont nécessaires pour assurer une protection."
+          },
+          {
+            "correct": false,
+            "proposition": "Renouveler l'injection d'un vaccin pour maintenir une protection",
+            "justification": "Cela correspond au rappel, pas à la primovaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Mise à jour des vaccinations pour rattraper un retard",
+            "justification": "Le rattrapage permet de combler un retard, ce qui diffère de la primovaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéger un individu après une exposition à un agent infectieux",
+            "justification": "Cela correspond à l'immunité passive (ex. sérothérapie), mais pas à la primovaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer complètement un agent infectieux de la population",
+            "justification": "La primovaccination vise à protéger l'individu, mais pas à éliminer l'agent infectieux de la population."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755110506688_01",
+      "current_version_epoch_ms": 1755110506688,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Définir le mécanisme d'action des aides médicamenteuses hors TSN dans le sevrage tabagique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La varénicline est un agoniste partiel des récepteurs nicotiniques à l'acétylcholine.",
+            "justification": "La varénicline exerce une action agoniste partielle sur les récepteurs nicotiniques à l'acétylcholine."
+          },
+          {
+            "correct": false,
+            "proposition": "La varénicline inhibe la recapture de la noradrénaline et de la dopamine.",
+            "justification": "Cet effet correspond au bupropion, pas à la varénicline."
+          },
+          {
+            "correct": true,
+            "proposition": "Le bupropion est un inhibiteur de la recapture de la noradrénaline et de la dopamine.",
+            "justification": "Le bupropion agit en inhibant la recapture de la noradrénaline et de la dopamine."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bupropion est un agoniste partiel des récepteurs nicotiniques.",
+            "justification": "Le rôle d'agoniste partiel des récepteurs nicotiniques est attribué à la varénicline."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun de ces médicaments n'interagit avec les récepteurs nicotiniques.",
+            "justification": "La varénicline interagit avec les récepteurs nicotiniques en tant qu'agoniste partiel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755110506688_02",
+      "current_version_epoch_ms": 1755110506688,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer la place des aides médicamenteuses hors TSN dans la stratégie de sevrage tabagique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La varénicline peut être proposée en seconde intention après les traitements de substitution nicotinique.",
+            "justification": "Après les TSN, la varénicline est proposée en seconde intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Le bupropion peut être proposé en dernière intention.",
+            "justification": "La place du bupropion est en dernière intention après échec des options précédentes."
+          },
+          {
+            "correct": false,
+            "proposition": "La varénicline est proposée d'emblée, avant toute substitution nicotinique.",
+            "justification": "La varénicline n'est pas de première intention ; elle suit les TSN."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bupropion est recommandé en seconde intention avant la varénicline.",
+            "justification": "La séquence indiquée place la varénicline avant le bupropion."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune aide médicamenteuse hors TSN n'est proposée après échec des TSN.",
+            "justification": "Il est justement possible de proposer la varénicline puis le bupropion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755110506688_03",
+      "current_version_epoch_ms": 1755110506688,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître les effets indésirables rapportés de la varénicline.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nausées.",
+            "justification": "Les nausées font partie des effets secondaires rapportés."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalées.",
+            "justification": "Les céphalées sont mentionnées parmi les effets indésirables."
+          },
+          {
+            "correct": true,
+            "proposition": "Cauchemars.",
+            "justification": "Les cauchemars figurent parmi les effets secondaires possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Insomnie.",
+            "justification": "L'insomnie est rapportée comme effet indésirable."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépression et risque cardio-vasculaire.",
+            "justification": "Une dépression et un risque cardio-vasculaire sont mentionnés comme effets indésirables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755110506688_04",
+      "current_version_epoch_ms": 1755110506688,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les situations d'indication de la varénicline dans le sevrage tabagique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échec d'un sevrage tabagique par substitution nicotinique.",
+            "justification": "La varénicline est indiquée après échec des TSN."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépendance forte à la nicotine.",
+            "justification": "La varénicline est indiquée en cas de dépendance forte à la nicotine."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation systématique en première intention, avant toute TSN.",
+            "justification": "La varénicline intervient en seconde intention après les TSN."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation sans tenir compte du niveau de dépendance à la nicotine.",
+            "justification": "L'indication mentionne la dépendance forte à la nicotine."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquée pour le sevrage d'alcool.",
+            "justification": "La varénicline est indiquée pour le sevrage tabagique, pas pour l'alcool."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755110506688_05",
+      "current_version_epoch_ms": 1755110506688,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Différencier varénicline et bupropion selon leur place thérapeutique, mécanisme et aspects pratiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La varénicline est proposée en seconde intention après les TSN.",
+            "justification": "Elle suit les traitements de substitution nicotinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le bupropion est proposé en dernière intention.",
+            "justification": "Il vient après la varénicline dans la séquence proposée."
+          },
+          {
+            "correct": false,
+            "proposition": "La varénicline inhibe la recapture de la noradrénaline et de la dopamine.",
+            "justification": "Cet effet correspond au bupropion."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bupropion est un agoniste partiel des récepteurs nicotiniques.",
+            "justification": "L'agonisme partiel nicotinique est la propriété de la varénicline."
+          },
+          {
+            "correct": true,
+            "proposition": "La varénicline bénéficie d'un remboursement par l'assurance maladie.",
+            "justification": "Un remboursement par l'assurance maladie est mentionné pour la varénicline."
+          }
+        ]
+      }
+    }
+  ]
+}

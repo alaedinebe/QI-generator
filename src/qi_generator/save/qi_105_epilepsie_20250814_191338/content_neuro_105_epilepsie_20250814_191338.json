@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epilepsie",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755191824956_01",
+      "current_version_epoch_ms": 1755191824956,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Identifier les gestes immédiats lors d'une crise généralisée tonico-clonique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Noter l'heure de début et observer les signes cliniques.",
+            "justification": "Il est recommandé de noter l'horaire de début et d'observer afin de pouvoir décrire les signes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Introduire les doigts ou un objet dans la bouche pour protéger la langue.",
+            "justification": "Il est explicitement indiqué de ne pas introduire les doigts ni aucun objet dans la bouche."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre le patient en position latérale de sécurité.",
+            "justification": "La PLS aide à libérer les voies aériennes supérieures et prévient l'inhalation en cas de vomissements."
+          },
+          {
+            "correct": true,
+            "proposition": "Libérer les voies aériennes supérieures.",
+            "justification": "La libération des voies aériennes supérieures fait partie des gestes immédiats à réaliser."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitaliser systématiquement le patient après la crise.",
+            "justification": "Une hospitalisation systématique n'est pas recommandée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755191824956_02",
+      "current_version_epoch_ms": 1755191824956,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Reconnaître les situations qui imposent d'appeler le 15 lors d'une crise généralisée tonico-clonique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Première crise chez un patient.",
+            "justification": "Un appel au 15 est indiqué en cas de première crise."
+          },
+          {
+            "correct": true,
+            "proposition": "Crise inhabituelle par rapport aux épisodes antérieurs.",
+            "justification": "Un appel au 15 est indiqué en cas de crise inhabituelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Crise durant plus de 5 minutes.",
+            "justification": "Un appel au 15 est indiqué lorsque la durée est supérieure à 5 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Crise typique et brève (moins de 5 minutes) chez une personne épileptique connue, avec récupération.",
+            "justification": "Les indications d'appel sont la première crise, la crise inhabituelle ou une durée > 5 minutes ; cette situation ne correspond à aucune de ces conditions."
+          },
+          {
+            "correct": false,
+            "proposition": "Crise d'environ 4 minutes chez un épileptique connu, sans caractère inhabituel.",
+            "justification": "L'appel est indiqué si première crise, crise inhabituelle ou durée > 5 minutes ; aucune de ces conditions n'est remplie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755191824956_03",
+      "current_version_epoch_ms": 1755191824956,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Préciser la place de la benzodiazépine de recours et de l'hospitalisation dans la prise en charge d'une crise généralisée tonico-clonique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'épilepsie connue, une benzodiazépine de recours peut être administrée selon prescription, habituellement après 5 minutes de crise.",
+            "justification": "L'administration d'une benzodiazépine de recours est prévue chez l'épileptique connu, selon prescription, habituellement après 5 minutes de crise généralisée tonico-clonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer une benzodiazépine dès la première minute de toute crise, quelle qu'en soit la durée.",
+            "justification": "Il n'est pas recommandé de l'administrer d'emblée ; le seuil habituel mentionné est 5 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer d'emblée une benzodiazépine lors d'une première crise non documentée.",
+            "justification": "L'usage mentionné concerne l'épilepsie connue avec prescription ; ce n'est pas indiqué pour une première crise."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitaliser systématiquement le patient après la crise lorsque la benzodiazépine a été administrée.",
+            "justification": "L'hospitalisation systématique n'est pas recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Associer la surveillance clinique et la libération des voies aériennes supérieures.",
+            "justification": "La prise en charge inclut l'observation des signes cliniques et la libération des voies aériennes supérieures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755191824956_04",
+      "current_version_epoch_ms": 1755191824956,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Décider de l'instauration d'un traitement antiépileptique au long cours après une première crise.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Commencer systématiquement un traitement antiépileptique après toute première crise.",
+            "justification": "Il est précisé qu'un traitement ne doit pas être débuté de manière systématique après une première crise."
+          },
+          {
+            "correct": true,
+            "proposition": "Réserver le traitement aux patients à haut risque de récidive, sur avis spécialisé rapide.",
+            "justification": "Seuls les patients à risque élevé de récidive doivent être traités, sur avis spécialisé rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas prendre la décision d'instauration dans l'urgence au service d'accueil des urgences.",
+            "justification": "La décision ne doit pas être faite dans l'urgence aux urgences."
+          },
+          {
+            "correct": true,
+            "proposition": "Introduire le traitement après une information claire et l'accord du patient (ou de la famille chez l'enfant).",
+            "justification": "L'introduction se fait après information claire et consentement du patient adulte ou de la famille chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Choisir le médicament sans tenir compte du syndrome épileptique ni des caractéristiques du patient.",
+            "justification": "Le choix du médicament doit prendre en compte le syndrome épileptique et les caractéristiques du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755191824956_05",
+      "current_version_epoch_ms": 1755191824956,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Classer les syndromes d'épilepsie à connaître cités dans la liste des syndromes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épilepsie-absence de l'enfant.",
+            "justification": "Cette entité figure explicitement parmi les syndromes à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "Épilepsie myoclonique juvénile.",
+            "justification": "Ce syndrome est listé parmi ceux à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "Épilepsie avec crises tonicocloniques seules (autrefois dites du réveil).",
+            "justification": "Cette forme est citée dans la liste des syndromes à connaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de West.",
+            "justification": "Ce syndrome ne fait pas partie des syndromes mentionnés dans la liste fournie."
+          },
+          {
+            "correct": false,
+            "proposition": "Épilepsie focale temporale.",
+            "justification": "Cette forme n'est pas citée parmi les syndromes à connaître énumérés."
+          }
+        ]
+      }
+    }
+  ]
+}

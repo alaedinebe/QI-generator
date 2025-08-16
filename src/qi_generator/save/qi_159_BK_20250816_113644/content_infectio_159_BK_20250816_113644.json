@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "BK",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755337211008_01",
+      "current_version_epoch_ms": 1755337211008,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le seuil d'induration à la tuberculine pour porter le diagnostic d'ITL chez une personne immunocompétente ayant été vaccinée par le BCG ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "15 mm",
+            "justification": "Le seuil d'induration requis pour un diagnostic d'ITL est de 15 mm chez une personne ayant reçu la vaccination par le BCG."
+          },
+          {
+            "correct": false,
+            "proposition": "10 mm",
+            "justification": "Le seuil d'induration de 10 mm est requis pour les personnes n'ayant pas reçu la vaccination par le BCG, et non pour celles ayant été vaccinées."
+          },
+          {
+            "correct": false,
+            "proposition": "5 mm",
+            "justification": "Le seuil de 5 mm est trop faible pour le diagnostic d'ITL, même chez une personne immunocompétente."
+          },
+          {
+            "correct": false,
+            "proposition": "20 mm",
+            "justification": "Une induration de 20 mm est au-dessus du seuil diagnostique requis pour l'ITL et n'est pas une mesure usuelle."
+          },
+          {
+            "correct": false,
+            "proposition": "25 mm",
+            "justification": "Un seuil de 25 mm n'est pas pertinent pour le diagnostic d'ITL dans un contexte de vaccination BCG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755337211008_02",
+      "current_version_epoch_ms": 1755337211008,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Dans quel cas les tests IGRA sont particulièrement utiles pour le diagnostic de la tuberculose chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans les formes paucibacillaires de tuberculose",
+            "justification": "Les tests IGRA sont utiles dans les formes paucibacillaires de tuberculose, où la preuve microbiologique est souvent difficile à obtenir."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les formes de tuberculose pulmonaire évidente",
+            "justification": "Les tests IGRA sont moins utilisés lorsque le diagnostic de tuberculose pulmonaire est déjà cliniquement évident."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la suspicion d'une tuberculose extra-pulmonaire uniquement",
+            "justification": "Bien que les tests IGRA puissent aider dans des cas de suspicion de tuberculose extra-pulmonaire, ce n'est pas leur principal domaine d'application."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une preuve microbiologique de la maladie",
+            "justification": "Les tests IGRA ne sont pas nécessaires lorsque la preuve microbiologique de la tuberculose a déjà été obtenue."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une recherche de tuberculose latente uniquement",
+            "justification": "Les tests IGRA peuvent être utilisés pour détecter l'infection tuberculeuse latente, mais leur rôle est aussi important dans le diagnostic de la tuberculose maladie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755337211008_03",
+      "current_version_epoch_ms": 1755337211008,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est l'indication principale de l'intradermoréaction à la tuberculine (IDR) chez un migrant de moins de 18 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dépistage de la tuberculose latente (ITL)",
+            "justification": "L'IDR est utilisée principalement pour le dépistage de l'ITL chez les populations à haut risque, comme les migrants de moins de 18 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de la tuberculose maladie",
+            "justification": "L'IDR n'est pas utilisée pour poser un diagnostic direct de la tuberculose maladie mais pour détecter l'infection tuberculeuse latente."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suivi post-thérapeutique de la tuberculose",
+            "justification": "L'IDR n'est pas utilisée pour le suivi post-thérapeutique, mais pour le dépistage des cas de tuberculose latente."
+          },
+          {
+            "correct": false,
+            "proposition": "La détection des formes de tuberculose extra-pulmonaire",
+            "justification": "L'IDR est plus adaptée pour le dépistage de l'ITL et non spécifiquement pour la tuberculose extra-pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La vérification de la vaccination BCG",
+            "justification": "L'IDR n'est pas utilisée pour vérifier la vaccination BCG mais pour détecter une réponse à l'antigène mycobactérien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755337211008_04",
+      "current_version_epoch_ms": 1755337211008,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le principal avantage des tests IGRA par rapport à l'intradermoréaction à la tuberculine (IDR) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils nécessitent une seule prise de sang et peuvent être réalisés en une seule visite",
+            "justification": "Les tests IGRA, comme le Quantiferon®, nécessitent seulement une prise de sang et peuvent être réalisés en une seule visite, contrairement à l'IDR qui nécessite une lecture à 72 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont plus sensibles pour le diagnostic de la tuberculose maladie",
+            "justification": "Les tests IGRA ne distinguent pas entre l'infection tuberculeuse latente (ITL) et la tuberculose maladie, ce qui n'est pas leur principal avantage."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont moins coûteux que l'intradermoréaction à la tuberculine",
+            "justification": "Les tests IGRA sont généralement plus coûteux que l'IDR en raison de leur nature de test sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont utilisés uniquement chez les adultes",
+            "justification": "Les tests IGRA peuvent être utilisés à tout âge, pas uniquement chez les adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils permettent de détecter directement la tuberculose active",
+            "justification": "Les tests IGRA ne permettent pas de détecter la tuberculose active, mais uniquement de diagnostiquer l'infection tuberculeuse latente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755337211008_05",
+      "current_version_epoch_ms": 1755337211008,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions dans lesquelles les tests IGRA sont recommandés avant la mise en route d'un traitement immunosuppresseur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez un patient devant recevoir un traitement antiTNFα ou une greffe",
+            "justification": "Les tests IGRA sont recommandés pour dépister une ITL avant la mise en route d'un traitement immunosuppresseur comme l'antiTNFα ou avant une greffe."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez tous les patients avant tout traitement médicamenteux",
+            "justification": "Les tests IGRA ne sont pas recommandés systématiquement avant tout traitement, mais spécifiquement avant un traitement immunosuppresseur."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients immunodéprimés uniquement après un traitement de la tuberculose",
+            "justification": "Les tests IGRA doivent être réalisés avant, pas après, le traitement de la tuberculose, notamment dans les cas de traitement immunosuppresseur."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement chez les patients âgés de plus de 65 ans",
+            "justification": "Les tests IGRA peuvent être utilisés chez des patients de tous âges, en particulier en cas d'immunosuppression, sans limitation d'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la recherche d'une tuberculose pulmonaire active",
+            "justification": "Les tests IGRA ne sont pas principalement utilisés pour le diagnostic de la tuberculose pulmonaire active, mais pour la détection de l'infection latente."
+          }
+        ]
+      }
+    }
+  ]
+}

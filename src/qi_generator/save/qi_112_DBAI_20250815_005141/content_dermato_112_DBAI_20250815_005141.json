@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755212107960_01",
+      "current_version_epoch_ms": 1755212107960,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques exactes de la lésion décrite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une bulle.",
+            "justification": "Il est précisé qu'il s'agit d'une « bulle »."
+          },
+          {
+            "correct": true,
+            "proposition": "La bulle est tendue.",
+            "justification": "La description mentionne explicitement une « bulle tendue »."
+          },
+          {
+            "correct": true,
+            "proposition": "Le contenu est clair.",
+            "justification": "La formulation indique un « contenu clair »."
+          },
+          {
+            "correct": true,
+            "proposition": "La lésion siège sur le dessus du pied.",
+            "justification": "La localisation est donnée : « dessus du pied »."
+          },
+          {
+            "correct": false,
+            "proposition": "Le contenu est hémorragique.",
+            "justification": "La description parle d'un contenu clair, pas hémorragique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212107960_02",
+      "current_version_epoch_ms": 1755212107960,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Localiser correctement la lésion à partir de la description fournie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dessus du pied",
+            "justification": "La localisation mentionnée est « sur le dessus du pied »."
+          },
+          {
+            "correct": false,
+            "proposition": "Plante du pied",
+            "justification": "Cette localisation n'est pas indiquée ; seule la face dorsale est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Paume de la main",
+            "justification": "Aucune mention de la main ; la localisation donnée est le dessus du pied."
+          },
+          {
+            "correct": false,
+            "proposition": "Cuir chevelu",
+            "justification": "Le siège décrit est le dessus du pied, pas le cuir chevelu."
+          },
+          {
+            "correct": false,
+            "proposition": "Tibia (face antérieure de la jambe)",
+            "justification": "La description ne mentionne pas la jambe mais le dessus du pied."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212107960_03",
+      "current_version_epoch_ms": 1755212107960,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Qualifier la tension de la lésion selon la description.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tendue",
+            "justification": "La lésion est décrite comme une « bulle tendue »."
+          },
+          {
+            "correct": false,
+            "proposition": "Flasque",
+            "justification": "La tension précisée est tendue, pas flasque."
+          },
+          {
+            "correct": false,
+            "proposition": "Rupturée",
+            "justification": "Il n'est pas indiqué que la bulle soit rompue."
+          },
+          {
+            "correct": false,
+            "proposition": "Paroi opaque",
+            "justification": "Le contenu est dit clair ; aucune opacité n'est rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Toit absent",
+            "justification": "Aucun élément ne mentionne une perte du toit ; la bulle est décrite comme tendue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212107960_04",
+      "current_version_epoch_ms": 1755212107960,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Qualifier le contenu intralésionnel conformément à la description.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Clair",
+            "justification": "La description précise un « contenu clair »."
+          },
+          {
+            "correct": false,
+            "proposition": "Purulent",
+            "justification": "Il n'est pas fait mention de pus ; le contenu est indiqué comme clair."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémorragique",
+            "justification": "Le contenu rapporté est clair, pas sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble",
+            "justification": "La mention explicite est « clair », non trouble."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécrotique",
+            "justification": "Aucun élément ne décrit un contenu nécrotique ; il est précisé clair."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212107960_05",
+      "current_version_epoch_ms": 1755212107960,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître l'élément sémiologique principal décrit.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bulle",
+            "justification": "L'élément principal indiqué est une « bulle »."
+          },
+          {
+            "correct": false,
+            "proposition": "Vésicule",
+            "justification": "La description ne parle pas de vésicule ; l'élément nommé est une bulle."
+          },
+          {
+            "correct": false,
+            "proposition": "Pustule",
+            "justification": "Le contenu est clair ; aucune mention de contenu purulent."
+          },
+          {
+            "correct": false,
+            "proposition": "Érosion",
+            "justification": "Il s'agit d'une lésion cloquée décrite comme bulle, pas d'une perte de substance."
+          },
+          {
+            "correct": false,
+            "proposition": "Croûte",
+            "justification": "La description ne rapporte pas de croûte mais une bulle tendue à contenu clair."
+          }
+        ]
+      }
+    }
+  ]
+}

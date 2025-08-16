@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suiviMIT",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755288741778_01",
+      "current_version_epoch_ms": 1755288741778,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Qu'est-ce que la prévalence d'une maladie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport entre le nombre de personnes atteintes d'une maladie dans une population à un moment donné et l'ensemble de cette population.",
+            "justification": "La prévalence permet de mesurer la proportion de personnes affectées par une maladie dans une population donnée à un instant précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de nouveaux cas d'une maladie dans une population pendant une période donnée.",
+            "justification": "Cela correspond à l'incidence, et non à la prévalence, qui mesure la proportion à un moment donné."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de décès dans une population dûs à une maladie.",
+            "justification": "Ce n'est pas la prévalence, mais la mortalité qui mesure cela."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre total des contacts non infectés au début de la période.",
+            "justification": "Cela correspond au taux d'attaque, utilisé en période épidémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de cas de décès rapportés pour une maladie dans une population donnée.",
+            "justification": "Cela correspond à la létalité, pas à la prévalence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288741778_02",
+      "current_version_epoch_ms": 1755288741778,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Quelle est la définition de l'incidence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport entre le nombre de nouveaux cas d'une maladie dans une population pendant une période donnée et l'ensemble de la population suivie pendant cette période.",
+            "justification": "L'incidence mesure l'apparition de nouveaux cas dans une population pendant une période spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de décès dans une population et l'ensemble de cette population.",
+            "justification": "Cela définit la mortalité, non l'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre total des contacts non infectés au début de la période et le nombre de nouveaux cas.",
+            "justification": "Cette description correspond au taux d'attaque, et non à l'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de personnes vivant avec une maladie dans une population à un moment donné.",
+            "justification": "Cela définit la prévalence, pas l'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre total des cas dans une population à un moment donné.",
+            "justification": "Cela définit la prévalence, pas l'incidence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288741778_03",
+      "current_version_epoch_ms": 1755288741778,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Que représente le taux d'attaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport entre le nombre de nouveaux cas d'infection durant une période déterminée et le nombre total des contacts non infectés au début de la période.",
+            "justification": "Le taux d'attaque est utilisé pour mesurer la transmissibilité des infections durant une épidémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de nouveaux cas d'une maladie pendant une période donnée.",
+            "justification": "Cela décrit l'incidence, et non le taux d'attaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de décès dans une période donnée et l'ensemble de la population.",
+            "justification": "Cela décrit la mortalité, pas le taux d'attaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre total des cas d'une maladie dans une population à un moment donné.",
+            "justification": "Cela correspond à la prévalence, et non au taux d'attaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de nouveaux cas générés par une personne infectée dans une population susceptible.",
+            "justification": "Cela décrit le nombre de reproduction de base (R0), pas le taux d'attaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288741778_04",
+      "current_version_epoch_ms": 1755288741778,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Qu'indique le nombre de reproduction de base (R0) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre moyen attendu de nouveaux cas générés par une personne infectée dans une population susceptible.",
+            "justification": "Le R0 permet d'estimer la propagation d'une maladie contagieuse dans une population sans immunité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de nouveaux cas d'une maladie dans une population pendant une période donnée et l'ensemble de la population suivie.",
+            "justification": "Cela décrit l'incidence, et non le nombre de reproduction de base."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre total de cas d'une maladie dans une population donnée à un moment donné.",
+            "justification": "Cela correspond à la prévalence, et non au R0."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de décès dus à une maladie et l'ensemble de la population.",
+            "justification": "Cela définit la mortalité, pas le R0."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de nouveaux cas d'infection et le nombre de contacts non infectés.",
+            "justification": "Cela correspond au taux d'attaque, et non au R0."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288741778_05",
+      "current_version_epoch_ms": 1755288741778,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Que définit la létalité d'une maladie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport entre le nombre de décès dans une période donnée et la population atteinte de la maladie.",
+            "justification": "La létalité mesure la proportion de décès parmi les personnes atteintes d'une maladie spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de décès dans une période donnée et l'ensemble de la population.",
+            "justification": "Cela définit la mortalité, et non la létalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport entre le nombre de nouveaux cas dans une période donnée et l'ensemble de la population.",
+            "justification": "Cela décrit l'incidence, et non la létalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre total des contacts non infectés au début de la période.",
+            "justification": "Cela correspond au taux d'attaque, et non à la létalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre moyen de nouveaux cas générés par une personne infectée.",
+            "justification": "Cela décrit le R0, pas la létalité."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "confusiongeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755200520862_01",
+      "current_version_epoch_ms": 1755200520862,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Identifier les situations cliniques où une scintigraphie de perfusion ou une TEP-FDG est indiquée dans un trouble neurocognitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient vu au stade débutant d'un trouble neurocognitif mineur",
+            "justification": "Fait partie des situations de diagnostic difficile pour lesquelles une scintigraphie de perfusion ou une TEP-FDG est indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Profil clinique atypique",
+            "justification": "Relève des formes de diagnostic difficile justifiant l'imagerie fonctionnelle (scintigraphie de perfusion ou TEP-FDG)."
+          },
+          {
+            "correct": true,
+            "proposition": "Démence à début précoce",
+            "justification": "Explicitement citée parmi les indications d'imagerie fonctionnelle en cas de diagnostic difficile."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépistage populationnel des troubles neurocognitifs",
+            "justification": "Le dépistage de masse n'est pas une indication ; les indications visent des situations de diagnostic difficile (débutant, atypique, début précoce)."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi évolutif systématique d'une maladie d'Alzheimer typique confirmée",
+            "justification": "Le suivi systématique n'est pas listé parmi les indications ; l'imagerie est réservée aux situations de diagnostic difficile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200520862_02",
+      "current_version_epoch_ms": 1755200520862,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Reconnaître la topographie évocatrice d'une maladie d'Alzheimer en imagerie fonctionnelle (scintigraphie de perfusion ou TEP-FDG).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoperfusion/hypométabolisme des régions corticales associatives et temporales internes",
+            "justification": "Correspond à la topographie décrite pour la maladie d'Alzheimer."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoperfusion/hypométabolisme des régions frontales prédominantes",
+            "justification": "Évoque plutôt une dégénérescence lobaire frontotemporale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoperfusion/hypométabolisme des régions temporales antérieures",
+            "justification": "Topographie rattachée aux dégénérescences lobaires frontotemporales."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte cingulaire prédominante isolée",
+            "justification": "Les régions cingulaires sont rapportées dans les DLFT, pas comme signature de la maladie d'Alzheimer ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen strictement normal",
+            "justification": "La maladie d'Alzheimer s'accompagne d'anomalies topographiques décrites (associatives et temporales internes)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200520862_03",
+      "current_version_epoch_ms": 1755200520862,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Différencier une dégénérescence lobaire frontotemporale (DLFT) d'autres démences à partir de la topographie en scintigraphie de perfusion ou TEP-FDG.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoperfusion/hypométabolisme des régions frontales",
+            "justification": "Fait partie de la topographie attendue dans les DLFT."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoperfusion/hypométabolisme des régions temporales antérieures",
+            "justification": "Élément caractéristique décrit pour les DLFT."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoperfusion/hypométabolisme des régions cingulaires",
+            "justification": "Peut s'observer dans les DLFT (atteinte frontale, temporale antérieure et/ou cingulaire)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoperfusion/hypométabolisme des régions corticales associatives et temporales internes",
+            "justification": "Topographie évocatrice de la maladie d'Alzheimer."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'anomalie topographique",
+            "justification": "Ne correspond pas à la description attendue pour les DLFT, qui montrent des atteintes frontales, temporales antérieures et/ou cingulaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200520862_04",
+      "current_version_epoch_ms": 1755200520862,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Identifier l'indication et l'interprétation de la scintigraphie des transporteurs de la dopamine (DaT) dans les troubles neurocognitifs.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiquée en cas d'hésitation diagnostique entre maladie à corps de Lewy diffus et maladie d'Alzheimer",
+            "justification": "C'est l'indication précisée pour cet examen."
+          },
+          {
+            "correct": true,
+            "proposition": "En maladie à corps de Lewy, l'examen objective une dénervation dopaminergique du striatum",
+            "justification": "Résultat pathologique attendu dans cette situation."
+          },
+          {
+            "correct": true,
+            "proposition": "En maladie d'Alzheimer, l'examen est attendu normal",
+            "justification": "L'examen n'objective pas de dénervation striatale dans la maladie d'Alzheimer."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquée systématiquement chez tous les patients présentant un trouble neurocognitif mineur",
+            "justification": "L'indication n'est pas générale ; elle vise l'hésitation entre maladie à corps de Lewy et maladie d'Alzheimer."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquée pour trancher entre DLFT et maladie d'Alzheimer",
+            "justification": "Cette utilisation n'est pas retenue ; l'indication concerne l'hésitation avec une maladie à corps de Lewy."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755200520862_05",
+      "current_version_epoch_ms": 1755200520862,
+      "topic": {
+        "subject": "geria",
+        "item": "confusiongeria"
+      },
+      "data": {
+        "statement": "Relier les modalités (scintigraphie de perfusion vs TEP-FDG) et leurs topographies dans les démences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La scintigraphie de perfusion et la TEP-FDG mettent en évidence des anomalies de même topographie",
+            "justification": "Hypoperfusion et hypométabolisme ont la même topographie selon les entités considérées."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans la maladie d'Alzheimer, elles montrent des anomalies des régions corticales associatives et temporales internes",
+            "justification": "Topographie attendue pour la maladie d'Alzheimer avec ces deux examens."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les DLFT, elles montrent des anomalies frontales, temporales antérieures et/ou cingulaires",
+            "justification": "Topographie décrite pour les DLFT avec ces deux modalités."
+          },
+          {
+            "correct": false,
+            "proposition": "La TEP-FDG et la scintigraphie de perfusion explorent des topographies différentes en pratique courante",
+            "justification": "Il est précisé qu'elles présentent la même topographie des anomalies."
+          },
+          {
+            "correct": false,
+            "proposition": "La concordance topographique entre les deux modalités ne vaut que pour la maladie d'Alzheimer",
+            "justification": "La concordance est indiquée de façon générale et illustrée aussi pour les DLFT."
+          }
+        ]
+      }
+    }
+  ]
+}

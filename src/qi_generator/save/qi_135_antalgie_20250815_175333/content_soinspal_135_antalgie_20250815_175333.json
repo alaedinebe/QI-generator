@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antalgie",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755273420477_01",
+      "current_version_epoch_ms": 1755273420477,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Classer les anesthésiques locaux par famille à partir d'exemples usuels.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La lidocaïne appartient à la classe des amides.",
+            "justification": "Elle est citée parmi les amides (avec prilocaïne, bupivacaïne, ropivacaïne)."
+          },
+          {
+            "correct": true,
+            "proposition": "La bupivacaïne est un amide.",
+            "justification": "Elle figure dans la liste des amides."
+          },
+          {
+            "correct": true,
+            "proposition": "La tétracaïne est un ester.",
+            "justification": "Elle est mentionnée parmi les esters."
+          },
+          {
+            "correct": false,
+            "proposition": "La ropivacaïne est un ester.",
+            "justification": "La ropivacaïne est classée parmi les amides."
+          },
+          {
+            "correct": false,
+            "proposition": "La procaïcine est un amide.",
+            "justification": "La procaïcine est citée parmi les esters."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273420477_02",
+      "current_version_epoch_ms": 1755273420477,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques pharmacologiques et galéniques de la lidocaïne.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Son délai d'action est d'environ 5 minutes.",
+            "justification": "Le délai d'action est court, autour de 5 minutes."
+          },
+          {
+            "correct": true,
+            "proposition": "Sa durée d'action est d'environ 1 heure.",
+            "justification": "La durée d'action annoncée est courte, environ 1 heure."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est disponible en solutions à 1 % (10 mg/ml) et 2 % (20 mg/ml).",
+            "justification": "Ces deux concentrations sont explicitement indiquées."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose maximale recommandée est de 10 mg/kg.",
+            "justification": "La dose maximale précisée est de 5 mg/kg."
+          },
+          {
+            "correct": true,
+            "proposition": "C'est l'anesthésique local le plus souvent utilisé en pratique hors environnement anesthésique.",
+            "justification": "Elle est décrite comme la plus utilisée en pratique courante en dehors d'un environnement anesthésique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273420477_03",
+      "current_version_epoch_ms": 1755273420477,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Identifier les indications pertinentes des anesthésiques locaux et formes associées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analgésie de contact cutanée pour une ponction veineuse.",
+            "justification": "L'analgésie de contact cutanée est indiquée pour des gestes invasifs douloureux comme la ponction veineuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Analgésie par infiltration cutanée pour une suture.",
+            "justification": "L'infiltration cutanée est indiquée pour de petits gestes chirurgicaux tels que les sutures."
+          },
+          {
+            "correct": true,
+            "proposition": "Anesthésie locorégionale par blocs nerveux périphériques ou centraux (rachianesthésie, péridurale).",
+            "justification": "Les blocs périphériques et centraux font partie des indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise en charge de douleurs neuropathiques périphériques diffuses par emplâtre de lidocaïne.",
+            "justification": "L'emplâtre est indiqué pour des douleurs neuropathiques périphériques localisées, pas diffuses."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise en charge de douleurs neuropathiques périphériques localisées par emplâtre de lidocaïne en première intention.",
+            "justification": "L'emplâtre de lidocaïne (Versatis®) est indiqué en première intention pour des douleurs neuropathiques périphériques localisées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273420477_04",
+      "current_version_epoch_ms": 1755273420477,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Décrire le mécanisme d'action des anesthésiques locaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Blocage des canaux sodiques au niveau de la fibre nerveuse.",
+            "justification": "Ils agissent par blocage des canaux sodiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Blocage de l'entrée de sodium dans la cellule nerveuse.",
+            "justification": "Ils empêchent l'entrée de sodium."
+          },
+          {
+            "correct": true,
+            "proposition": "Blocage de la propagation du potentiel d'action.",
+            "justification": "Ils bloquent la propagation du potentiel d'action."
+          },
+          {
+            "correct": false,
+            "proposition": "Destruction irréversible de la conduction nerveuse.",
+            "justification": "La conduction est bloquée de manière réversible."
+          },
+          {
+            "correct": true,
+            "proposition": "Blocage réversible de la conduction nerveuse.",
+            "justification": "Le bloc de conduction est réversible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755273420477_05",
+      "current_version_epoch_ms": 1755273420477,
+      "topic": {
+        "subject": "soinspal",
+        "item": "antalgie"
+      },
+      "data": {
+        "statement": "Prévenir, reconnaître et débuter la prise en charge d'une toxicité liée aux anesthésiques locaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une injection lente et fractionnée avec test d'aspiration avant chaque injection.",
+            "justification": "Ces précautions d'emploi sont recommandées pour éviter la toxicité."
+          },
+          {
+            "correct": true,
+            "proposition": "Goût métallique, bourdonnements d'oreille et fourmillement péribuccal sont des signes évocateurs.",
+            "justification": "Ces manifestations figurent parmi les principaux signes de toxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "La toxicité lors d'un usage topique est uniquement allergique.",
+            "justification": "Outre les réactions locales, une toxicité cardiovasculaire et neurologique grave est possible en cas de passage sanguin ou surdosage."
+          },
+          {
+            "correct": true,
+            "proposition": "L'émulsion lipidique à 20 % constitue l'antidote d'une intoxication systémique.",
+            "justification": "L'émulsion lipidique 20 % (ex. Intralipide® 20 %) est indiquée comme antidote avec rôle de chélateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les patchs de lidocaïne doivent être posés sur une peau lésée.",
+            "justification": "Ils doivent être posés sur une peau saine."
+          }
+        ]
+      }
+    }
+  ]
+}

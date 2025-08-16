@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755209419344_01",
+      "current_version_epoch_ms": 1755209419344,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier les mécanismes physiopathologiques majeurs impliqués dans l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hyperséborrhée par stimulation excessive de la production de sébum par la glande sébacée",
+            "justification": "La production de sébum est stimulée de façon excessive, entraînant une hyperséborrhée."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperandrogénie périphérique liée à une hypersensibilité des récepteurs androgènes des sébocytes, avec taux circulants habituellement normaux",
+            "justification": "Les récepteurs aux androgènes des sébocytes sont hypersensibles, alors que les taux d'androgènes circulants sont habituellement normaux."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperprolifération et anomalies de différenciation des kératinocytes au sein de l'infundibulum pilaire conduisant à des comédons",
+            "justification": "Les kératinocytes prolifèrent et se différencient anormalement dans l'infundibulum pilaire, ce qui conduit à la comédogenèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la production de sébum par la glande sébacée",
+            "justification": "C'est l'excès de production de sébum qui est décrit, pas une diminution."
+          },
+          {
+            "correct": true,
+            "proposition": "Implication du microbiome avec Cutibacterium acnes, bacille à Gram positif anaérobie, se multipliant dans le poil et les glandes sébacées",
+            "justification": "Cutibacterium acnes est impliqué et prolifère dans le poil et les glandes sébacées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209419344_02",
+      "current_version_epoch_ms": 1755209419344,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques essentielles de Cutibacterium acnes dans l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bacille à Gram positif anaérobie",
+            "justification": "La bactérie est décrite comme un bacille à Gram positif anaérobie."
+          },
+          {
+            "correct": true,
+            "proposition": "Anciennement nommé Propionibacterium acnes",
+            "justification": "La dénomination antérieure mentionnée est Propionibacterium acnes."
+          },
+          {
+            "correct": false,
+            "proposition": "Se multiplie dans le poil et les glandes sudoripares en cas d'obstruction de l'infundibulum pilaire",
+            "justification": "La multiplication se fait dans le poil et les glandes sébacées, pas dans les glandes sudoripares."
+          },
+          {
+            "correct": true,
+            "proposition": "Sécrète des facteurs pro-inflammatoires",
+            "justification": "La sécrétion de facteurs pro-inflammatoires est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Bactérie strictement aérobie",
+            "justification": "Elle est décrite comme anaérobie, pas aérobie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209419344_03",
+      "current_version_epoch_ms": 1755209419344,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier les éléments de l'hyperandrogénie périphérique associée à l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypersensibilité des récepteurs aux androgènes présents sur les sébocytes",
+            "justification": "Le mécanisme repose sur une hypersensibilité des récepteurs androgéniques des sébocytes."
+          },
+          {
+            "correct": true,
+            "proposition": "Polymorphismes génétiques potentiellement impliqués",
+            "justification": "Des polymorphismes génétiques sont évoqués dans ce mécanisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux d'androgènes circulants habituellement élevés",
+            "justification": "Les taux circulants sont habituellement normaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la sensibilité des récepteurs androgènes",
+            "justification": "Il s'agit d'une hypersensibilité, pas d'une diminution de sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Mécanisme impliquant surtout des récepteurs aux œstrogènes",
+            "justification": "Le mécanisme décrit concerne les récepteurs aux androgènes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209419344_04",
+      "current_version_epoch_ms": 1755209419344,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Définir le mécanisme conduisant à la formation de comédons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hyperprolifération et anomalies de différenciation des kératinocytes",
+            "justification": "La comédogenèse résulte d'une hyperprolifération et d'anomalies de différenciation kératinocytaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Localisation au sein de l'infundibulum pilaire",
+            "justification": "Le siège est l'infundibulum pilaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte prédominante des mélanocytes",
+            "justification": "Ce sont les kératinocytes qui sont concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Processus siégeant principalement dans la glande sébacée plutôt que dans l'infundibulum",
+            "justification": "Le processus est décrit au niveau de l'infundibulum pilaire."
+          },
+          {
+            "correct": false,
+            "proposition": "N'entraîne pas la formation de comédons",
+            "justification": "Ce mécanisme aboutit justement à la formation de comédons."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209419344_05",
+      "current_version_epoch_ms": 1755209419344,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Relier obstruction de l'infundibulum pilaire et inflammation dans l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'obstruction de l'infundibulum pilaire favorise la multiplication de Cutibacterium acnes",
+            "justification": "La prolifération de Cutibacterium acnes survient du fait de l'obstruction de l'infundibulum pilaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Cutibacterium acnes sécrète des facteurs pro-inflammatoires",
+            "justification": "La bactérie est décrite comme sécrétant des facteurs pro-inflammatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'obstruction, la charge en Cutibacterium acnes diminue",
+            "justification": "L'obstruction favorise au contraire sa multiplication."
+          },
+          {
+            "correct": true,
+            "proposition": "La multiplication bactérienne se fait dans le poil et les glandes sébacées",
+            "justification": "Les sites de prolifération indiqués sont le poil et les glandes sébacées."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mécanisme implique une bactérie à Gram négatif",
+            "justification": "Cutibacterium acnes est un bacille à Gram positif."
+          }
+        ]
+      }
+    }
+  ]
+}

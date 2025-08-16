@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "HBP",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755247924572_01",
+      "current_version_epoch_ms": 1755247924572,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Identifier, parmi les situations suivantes, celles qui justifient un avis spécialisé chez un homme présentant des symptômes du bas appareil urinaire (SBAU).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Homme de 45 ans présentant des urgenturies isolées.",
+            "justification": "Fait partie des SBAU a priori non liés à une HBP justifiant un avis spécialisé : patient < 50 ans et urgenturies isolées."
+          },
+          {
+            "correct": false,
+            "proposition": "Homme de 72 ans avec SBAU modérés et ECBU stérile.",
+            "justification": "Un ECBU anormal fait partie des critères ; un ECBU stérile n'en fait pas partie, et aucun autre critère déclencheur n'est présent."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématurie chez un fumeur.",
+            "justification": "L'hématurie avec facteur de risque de cancer urothélial (tabac, profession) justifie un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Globe vésical palpable à l'examen clinique.",
+            "justification": "Anomalie clinique (globe palpable) justifiant un avis spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Résidu post-mictionnel mesuré à 80 ml.",
+            "justification": "Le critère mentionné est un résidu post-mictionnel > 100 ml."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247924572_02",
+      "current_version_epoch_ms": 1755247924572,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Classer parmi les propositions suivantes les SBAU a priori non liés à une HBP qui imposent un avis spécialisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient de moins de 50 ans présentant des SBAU.",
+            "justification": "Patient < 50 ans : situation listée comme justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Urgenturies isolées.",
+            "justification": "Urgenturies isolées : situation listée parmi les SBAU a priori non liés à une HBP."
+          },
+          {
+            "correct": true,
+            "proposition": "Nycturie isolée.",
+            "justification": "Nycturie isolée : situation listée parmi les SBAU a priori non liés à une HBP."
+          },
+          {
+            "correct": true,
+            "proposition": "Incontinence urinaire.",
+            "justification": "Incontinence urinaire : situation listée parmi les SBAU a priori non liés à une HBP."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématurie avec facteur de risque professionnel ou tabagique.",
+            "justification": "Hématurie avec facteur de risque de cancer urothélial (tabac, profession) : justifie un avis spécialisé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247924572_03",
+      "current_version_epoch_ms": 1755247924572,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Reconnaître les anomalies à l'examen clinique qui justifient un avis spécialisé chez l'homme avec SBAU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Globe vésical palpable.",
+            "justification": "Anomalie clinique listée comme justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Nodule au toucher rectal.",
+            "justification": "Nodule au toucher rectal : anomalie clinique justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Induration au toucher rectal.",
+            "justification": "Induration au toucher rectal : anomalie clinique justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Toucher rectal non réalisable.",
+            "justification": "Toucher rectal non réalisable : situation listée comme justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Phimosis serré.",
+            "justification": "Phimosis serré : anomalie clinique justifiant un avis spécialisé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247924572_04",
+      "current_version_epoch_ms": 1755247924572,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Identifier, parmi ces résultats, ceux qui imposent un avis spécialisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECBU avec bactériurie.",
+            "justification": "ECBU anormal (bactériurie) : justifie un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "ECBU avec leucocyturie.",
+            "justification": "ECBU anormal (leucocyturie) : justifie un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "ECBU avec hématurie.",
+            "justification": "ECBU anormal (hématurie) : justifie un avis spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU stérile.",
+            "justification": "Seul un ECBU anormal (bactériurie, leucocyturie ou hématurie) fait partie des critères."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation du PSA.",
+            "justification": "Augmentation du PSA : situation listée comme justifiant un avis spécialisé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247924572_05",
+      "current_version_epoch_ms": 1755247924572,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Reconnaître les situations d'obstruction sévère ou de complication qui imposent un avis spécialisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptômes sévères de SBAU.",
+            "justification": "Les symptômes sévères sont listés parmi les situations justifiant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Rétention aiguë d'urine.",
+            "justification": "Rétention aiguë d'urine : complication imposant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale obstructive.",
+            "justification": "Insuffisance rénale obstructive : complication imposant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Prostatite aiguë.",
+            "justification": "Prostatite aiguë : complication imposant un avis spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Résidu post-mictionnel > 100 ml.",
+            "justification": "Résidu post-mictionnel > 100 ml : situation listée comme justifiant un avis spécialisé."
+          }
+        ]
+      }
+    }
+  ]
+}

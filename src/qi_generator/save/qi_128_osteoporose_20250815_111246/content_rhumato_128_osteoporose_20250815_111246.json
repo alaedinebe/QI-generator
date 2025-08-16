@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "osteoporose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755249373235_01",
+      "current_version_epoch_ms": 1755249373235,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Identifier les situations qui constituent une indication d'ostéodensitométrie pour le dépistage de l'ostéoporose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue d'une fracture d'allure ostéoporotique.",
+            "justification": "Le dépistage est indiqué lors d'une fracture évocatrice d'ostéoporose."
+          },
+          {
+            "correct": true,
+            "proposition": "Découverte d'un ou plusieurs facteurs de risque d'ostéoporose à l'interrogatoire.",
+            "justification": "La présence de facteurs de risque motive la réalisation de l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédent de fracture survenu lors d'un traumatisme majeur.",
+            "justification": "L'indication reconnue porte sur l'antécédent de fracture sans traumatisme majeur."
+          },
+          {
+            "correct": true,
+            "proposition": "Découverte fortuite d'une fracture d'allure ostéoporotique sur des radiographies.",
+            "justification": "La mise en évidence radiographique d'une fracture évocatrice justifie l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan systématique chez un adulte sans facteur de risque ni fracture.",
+            "justification": "Le dépistage est ciblé sur la survenue de fracture évocatrice et/ou l'existence de facteurs de risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249373235_02",
+      "current_version_epoch_ms": 1755249373235,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Parmi les indications d'ostéodensitométrie reconnues et remboursées, sélectionner celles valables quel que soit l'âge et le sexe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédent de fracture sans traumatisme majeur.",
+            "justification": "Indication explicitement listée indépendamment de l'âge et du sexe."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperparathyroïdie primaire.",
+            "justification": "Fait partie des pathologies potentiellement inductrices d'ostéoporose."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperthyroïdie évolutive non traitée.",
+            "justification": "Également citée parmi les situations à risque nécessitant l'examen."
+          },
+          {
+            "correct": true,
+            "proposition": "Corticothérapie de plus de trois mois.",
+            "justification": "La prise prolongée de corticoïdes constitue une indication reconnue."
+          },
+          {
+            "correct": false,
+            "proposition": "Ménopause précoce (avant 40 ans).",
+            "justification": "Ce critère concerne spécifiquement la femme ménopausée dans une liste dédiée, et non « quel que soit l'âge et le sexe »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249373235_03",
+      "current_version_epoch_ms": 1755249373235,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Chez la femme ménopausée (en sus d'une fracture non traumatique), identifier les indications complémentaires d'ostéodensitométrie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédent de fracture de hanche non traumatique chez un parent au 1er degré.",
+            "justification": "Cet antécédent familial est cité parmi les critères supplémentaires."
+          },
+          {
+            "correct": true,
+            "proposition": "IMC < 19 kg/m².",
+            "justification": "Un IMC inférieur à 19 kg/m² est un critère retenu."
+          },
+          {
+            "correct": true,
+            "proposition": "Ménopause précoce (avant 40 ans).",
+            "justification": "La survenue d'une ménopause avant 40 ans constitue une indication supplémentaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent de prise de corticoïdes ≥ 3 mois consécutifs à une dose ≥ 7,5 mg/kg d'équivalent prednisone.",
+            "justification": "Ce schéma d'exposition aux corticoïdes est explicitement mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC ≥ 19 kg/m².",
+            "justification": "Seul le seuil IMC < 19 kg/m² est retenu comme critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249373235_04",
+      "current_version_epoch_ms": 1755249373235,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Concernant l'évaluation morphologique du rachis par radiographies, sélectionner les indications et éléments pertinents.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleurs de la région lombaire.",
+            "justification": "La présence de douleurs lombaires justifie l'évaluation radiographique."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs du rachis.",
+            "justification": "Toute douleur rachidienne entre dans les indications pratiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte de taille ≥ 4 cm.",
+            "justification": "Un seuil de perte staturale d'au moins 4 cm motive l'exploration morphologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Déformation rachidienne à type de cyphose suffit à elle seule à indiquer l'examen.",
+            "justification": "La cyphose est décrite comme possible en cas de fractures dorsales, mais l'indication pratique repose sur la douleur et/ou la perte de taille ≥ 4 cm."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de taille de 2 cm.",
+            "justification": "Le seuil indiqué est une perte de taille d'au moins 4 cm."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249373235_05",
+      "current_version_epoch_ms": 1755249373235,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Devant un doute après l'évaluation du rachis, quelle conduite d'imagerie est appropriée pour écarter une autre origine, notamment tumorale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un scanner du rachis.",
+            "justification": "Un scanner peut être utilisé pour confirmer l'absence de signes d'une autre origine."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser une IRM du rachis.",
+            "justification": "L'IRM est également indiquée dans cette situation de doute."
+          },
+          {
+            "correct": false,
+            "proposition": "Répéter l'ostéodensitométrie pour lever le doute étiologique.",
+            "justification": "L'ostéodensitométrie n'a pas pour objectif d'exclure une autre origine (notamment tumorale) en cas de doute sur le rachis."
+          },
+          {
+            "correct": true,
+            "proposition": "Compléter par un scanner et/ou une IRM afin de confirmer l'absence de signes en faveur d'une autre origine, en particulier tumorale.",
+            "justification": "La conduite recommandée est de compléter par un scanner et/ou une IRM du rachis."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir d'imagerie complémentaire si la douleur persiste.",
+            "justification": "En cas de doute, un examen tomodensitométrique et/ou une IRM est indiqué."
+          }
+        ]
+      }
+    }
+  ]
+}

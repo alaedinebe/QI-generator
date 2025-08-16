@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "chocseptique",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755335969018_01",
+      "current_version_epoch_ms": 1755335969018,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Dans quel contexte l'antibiothérapie d'une infection grave doit-elle être modifiée pour couvrir les germes résistants aux antibiotiques usuels ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le patient a été hospitalisé dans les 3 derniers mois.",
+            "justification": "Les patients hospitalisés récemment sont à risque de développer des résistances aux antibiotiques utilisés pendant l'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un patient a été traité par des antibiotiques à large spectre dans les 6 derniers mois.",
+            "justification": "L'utilisation prolongée d'antibiotiques à large spectre augmente la probabilité de résistance bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient n'a jamais été hospitalisé ou traité par antibiotiques.",
+            "justification": "L'absence d'antibiothérapie ou d'hospitalisation récente diminue le risque de résistance aux antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient est traité uniquement par des antibiotiques de première intention.",
+            "justification": "Les antibiotiques de première intention n'incluent pas forcément ceux qui couvrent les résistances."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient est traité par un antibiotique spécifique pour une infection communautaire.",
+            "justification": "Les infections communautaires ne nécessitent pas forcément une couverture pour les résistances aux antibiotiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755335969018_02",
+      "current_version_epoch_ms": 1755335969018,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels facteurs augmentent le risque d'infection par une bactérie multirésistante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La récente hospitalisation dans les 3 derniers mois.",
+            "justification": "Les patients hospitalisés récemment sont souvent exposés à des bactéries multirésistantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le séjour dans une zone de forte prévalence de bactéries résistantes aux antibiotiques.",
+            "justification": "Les zones intertropicales, USA, Italie et Grèce présentent des taux élevés de résistances aux antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de traitement antibiotique dans les derniers mois.",
+            "justification": "Les patients non traités par antibiotiques ont moins de risques de développer des résistances."
+          },
+          {
+            "correct": false,
+            "proposition": "Le fait de vivre dans une zone rurale avec peu de contact avec des hôpitaux.",
+            "justification": "Les zones rurales ne sont pas nécessairement associées à un risque accru de résistances."
+          },
+          {
+            "correct": true,
+            "proposition": "L'exposition aux antibiotiques dans les 6 derniers mois.",
+            "justification": "L'exposition à des antibiotiques à large spectre peut favoriser l'émergence de résistances."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755335969018_03",
+      "current_version_epoch_ms": 1755335969018,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quel est l'antibiotique de choix en cas de suspicion d'infection par un staphylocoque résistant à la méticilline ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vancomycine ou linézolide.",
+            "justification": "Ces antibiotiques sont utilisés pour traiter les infections résistantes à la méticilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline.",
+            "justification": "L'amoxicilline ne couvre pas les staphylocoques résistants à la méticilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine.",
+            "justification": "La ciprofloxacine n'est pas efficace contre les staphylocoques résistants à la méticilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Pipéracilline/tazobactam.",
+            "justification": "Ce traitement est utilisé pour les infections par Pseudomonas aeruginosa, pas pour les staphylocoques résistants."
+          },
+          {
+            "correct": false,
+            "proposition": "Ceftriaxone.",
+            "justification": "Le céftriaxone ne couvre pas les staphylocoques résistants à la méticilline."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755335969018_04",
+      "current_version_epoch_ms": 1755335969018,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quel traitement doit être ajouté en cas de suspicion d'infection fongique chez un patient d'hématologie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Caspofungine ou amphotéricine B.",
+            "justification": "Ces antifongiques sont utilisés en cas de suspicion d'infection fongique, particulièrement par Candida."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine.",
+            "justification": "La vancomycine est utilisée pour les staphylocoques, mais pas pour les infections fongiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Clindamycine.",
+            "justification": "La clindamycine est utilisée contre les infections à staphylocoques et streptocoques, mais pas pour les infections fongiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pipéracilline/tazobactam.",
+            "justification": "Ce traitement est utilisé pour Pseudomonas aeruginosa, pas pour les infections fongiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine.",
+            "justification": "La ciprofloxacine est un antibiotique utilisé pour les infections urinaires, pas pour les infections fongiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755335969018_05",
+      "current_version_epoch_ms": 1755335969018,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Que doit-on faire en cas de suspicion d'infection par une entérobactérie résistante aux C3G ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Remplacer la β-lactamine par un carbapénème (imipénème ou méropénème).",
+            "justification": "Les carbapénèmes sont efficaces contre les entérobactéries résistantes aux C3G."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser un antibiotique de la classe des macrolides.",
+            "justification": "Les macrolides ne sont pas efficaces contre les entérobactéries résistantes aux C3G."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuivre le traitement par β-lactamine.",
+            "justification": "Les β-lactamines ne sont pas efficaces contre les entérobactéries résistantes aux C3G."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire de la vancomycine.",
+            "justification": "La vancomycine est utilisée contre les staphylocoques, mais pas pour les entérobactéries résistantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ajouter un aminoglycoside.",
+            "justification": "Les aminoglycosides ne sont pas une première ligne de traitement contre les entérobactéries résistantes aux C3G."
+          }
+        ]
+      }
+    }
+  ]
+}

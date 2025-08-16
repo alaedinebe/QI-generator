@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755073030773_01",
+      "current_version_epoch_ms": 1755073030773,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier les situations justifiant un recours à l'électroconvulsivothérapie (ECT) dans l'épisode dépressif caractérisé (EDC).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Formes les plus sévères d'EDC avec caractéristiques mélancoliques, catatoniques ou psychotiques",
+            "justification": "L'ECT est indiquée dans les formes les plus sévères comportant des caractéristiques mélancoliques, catatoniques ou psychotiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistance au traitement médicamenteux antidépresseur",
+            "justification": "La résistance au traitement médicamenteux fait partie des indications de l'ECT."
+          },
+          {
+            "correct": true,
+            "proposition": "Contre-indication au traitement médicamenteux",
+            "justification": "Une contre-indication aux antidépresseurs est une indication de l'ECT."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC d'intensité légère sans signe de gravité",
+            "justification": "Les formes légères ne relèvent pas de l'ECT en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Situation d'urgence vitale (risque suicidaire, risque de dénutrition/déshydratation)",
+            "justification": "En présence d'un risque vital, l'ECT est indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755073030773_02",
+      "current_version_epoch_ms": 1755073030773,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Reconnaître la place des traitements psychothérapiques dans la prise en charge de l'EDC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposés en première intention dans les EDC d'intensité légère ou modérée",
+            "justification": "Les psychothérapies sont indiquées en première intention pour les formes légères ou modérées."
+          },
+          {
+            "correct": false,
+            "proposition": "Contre-indiqués en cas de résistance médicamenteuse",
+            "justification": "Au contraire, ils constituent un complément important en cas de résistance aux médicaments."
+          },
+          {
+            "correct": true,
+            "proposition": "Complément important des antidépresseurs",
+            "justification": "Ils sont un complément majeur des traitements médicamenteux."
+          },
+          {
+            "correct": false,
+            "proposition": "Réservés uniquement aux formes psychotiques",
+            "justification": "Ils ne sont pas limités aux formes psychotiques et sont indiqués dès les formes légères à modérées."
+          },
+          {
+            "correct": false,
+            "proposition": "Jamais proposés en première intention",
+            "justification": "Ils sont précisément recommandés en première intention dans les formes légères ou modérées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755073030773_03",
+      "current_version_epoch_ms": 1755073030773,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Classer les situations d'urgence vitale qui orientent vers l'ECT dans l'EDC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque suicidaire imminent",
+            "justification": "Le risque suicidaire relève d'une urgence vitale où l'ECT est indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque de dénutrition ou de déshydratation",
+            "justification": "La menace somatique aiguë par dénutrition/déshydratation justifie l'ECT."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC d'intensité légère sans signe de gravité",
+            "justification": "L'absence de gravité ne justifie pas l'ECT."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC modérée stabilisée sans urgence",
+            "justification": "Sans urgence vitale, l'ECT n'est pas indiquée d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "EDC avec contre-indication au traitement médicamenteux dans un contexte nécessitant une réponse rapide",
+            "justification": "La contre-indication aux médicaments est une indication d'ECT, notamment si une intervention rapide est requise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755073030773_04",
+      "current_version_epoch_ms": 1755073030773,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Définir les principes de l'ECT d'entretien après une bonne réponse initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposée après une bonne réponse à l'ECT initiale",
+            "justification": "Des séances d'entretien sont proposées en cas de bonne réponse."
+          },
+          {
+            "correct": true,
+            "proposition": "Réalisation durant quelques mois",
+            "justification": "La durée d'entretien s'étend sur quelques mois."
+          },
+          {
+            "correct": true,
+            "proposition": "Objectif de prévenir la récurrence dépressive",
+            "justification": "Le but est de prévenir la récurrence de l'épisode dépressif."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique chez tous les patients traités par antidépresseurs",
+            "justification": "Elle concerne la suite d'une bonne réponse à l'ECT, pas l'ensemble des patients sous antidépresseurs."
+          },
+          {
+            "correct": false,
+            "proposition": "À interrompre immédiatement dès la rémission initiale",
+            "justification": "Au contraire, la poursuite quelques mois est recommandée pour prévenir la récurrence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755073030773_05",
+      "current_version_epoch_ms": 1755073030773,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Orienter la stratégie initiale non pharmacologique selon l'intensité de l'EDC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Psychothérapies en première intention pour un EDC léger à modéré sans signe de gravité",
+            "justification": "Les psychothérapies sont indiquées d'emblée dans ces formes."
+          },
+          {
+            "correct": false,
+            "proposition": "ECT d'emblée pour tout EDC, quel que soit le niveau de sévérité",
+            "justification": "L'ECT est réservée aux formes sévères, résistantes, contre-indiquées aux médicaments ou en urgence vitale."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de prise en charge initiale dans un EDC léger",
+            "justification": "Une prise en charge psychothérapique est indiquée même dans les formes légères."
+          },
+          {
+            "correct": false,
+            "proposition": "Psychothérapie uniquement après échec d'un antidépresseur",
+            "justification": "Elle peut être proposée d'emblée dans les formes légères à modérées."
+          },
+          {
+            "correct": true,
+            "proposition": "Recours à l'ECT en présence de caractéristiques psychotiques ou de situation d'urgence vitale",
+            "justification": "Les caractéristiques psychotiques et les urgences vitales font partie des indications de l'ECT."
+          }
+        ]
+      }
+    }
+  ]
+}

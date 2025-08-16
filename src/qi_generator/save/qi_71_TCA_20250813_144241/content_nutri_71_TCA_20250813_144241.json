@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TCA",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755089168365_01",
+      "current_version_epoch_ms": 1755089168365,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Identifier les éléments définissant un épisode d'hyperphagie incontrôlée selon les critères DSM-5 de la boulimie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absorptions alimentaires largement supérieures à la moyenne en un temps limité.",
+            "justification": "Un épisode se caractérise par des quantités largement supérieures à la moyenne prises en peu de temps."
+          },
+          {
+            "correct": true,
+            "proposition": "Impression de perdre le contrôle sur les quantités ingérées ou la possibilité de s'arrêter.",
+            "justification": "La perte de contrôle sur la quantité ingérée ou sur l'arrêt de l'ingestion fait partie de la définition de l'épisode."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise alimentaire normale répartie sur toute la journée.",
+            "justification": "La définition insiste sur une ingestion en peu de temps, et non sur une répartition sur la journée."
+          },
+          {
+            "correct": false,
+            "proposition": "Sensation de faim physiologique intense préalable obligatoire.",
+            "justification": "La faim préalable n'est pas un critère requis ; ce sont la quantité ingérée et la perte de contrôle qui définissent l'épisode."
+          },
+          {
+            "correct": false,
+            "proposition": "Grignotage continu sans limite temporelle.",
+            "justification": "L'épisode implique une ingestion en peu de temps, ce qui s'oppose à un grignotage continu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755089168365_02",
+      "current_version_epoch_ms": 1755089168365,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Classer les comportements compensatoires visant à éviter la prise de poids dans la boulimie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vomissements provoqués.",
+            "justification": "Les vomissements provoqués figurent parmi les comportements compensatoires décrits."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise de laxatifs.",
+            "justification": "La prise de laxatifs est explicitement listée comme comportement compensatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise de diurétiques.",
+            "justification": "La prise de diurétiques est mentionnée parmi les conduites compensatoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Jeûnes.",
+            "justification": "Le jeûne fait partie des comportements compensatoires indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'antidépresseurs.",
+            "justification": "Les comportements compensatoires décrits incluent vomissements, laxatifs, diurétiques, jeûnes et exercice excessif ; la prise d'antidépresseurs n'en fait pas partie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755089168365_03",
+      "current_version_epoch_ms": 1755089168365,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Reconnaître l'exigence de fréquence et de durée pour poser le diagnostic de boulimie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins 1 fois par semaine durant au moins 3 mois.",
+            "justification": "Une fréquence moyenne d'au moins une fois par semaine pendant au moins trois mois est requise."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 2 fois par semaine durant au moins 6 mois.",
+            "justification": "Ces seuils ne correspondent pas aux critères temporels spécifiés."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 1 fois par jour durant au moins 1 mois.",
+            "justification": "Il est demandé une fréquence hebdomadaire minimale sur trois mois, pas quotidienne sur un mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 3 fois par semaine durant au moins 1 mois.",
+            "justification": "Le critère porte sur une fois par semaine en moyenne pendant trois mois, non trois fois par semaine sur un mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun seuil de fréquence ou de durée n'est requis.",
+            "justification": "Un seuil est explicitement fixé : au moins une fois par semaine pendant trois mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755089168365_04",
+      "current_version_epoch_ms": 1755089168365,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Différencier la boulimie d'une anorexie mentale concomitante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le trouble ne survient pas exclusivement au cours d'une période d'anorexie mentale.",
+            "justification": "Le diagnostic de boulimie exige que les épisodes ne soient pas limités exclusivement à une période d'anorexie mentale."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une période d'anorexie mentale rend toujours impossible le diagnostic de boulimie, quel que soit le contexte.",
+            "justification": "L'exclusion porte sur une survenue exclusivement pendant l'anorexie ; en dehors de cette exclusivité, le diagnostic reste possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de boulimie exige la co-occurrence d'une anorexie mentale.",
+            "justification": "Il n'est pas requis que les deux troubles coexistent ; au contraire, l'exclusivité pendant l'anorexie empêche le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "La boulimie peut être diagnostiquée si les épisodes ne se limitent pas à une période d'anorexie mentale.",
+            "justification": "La condition posée est l'absence de survenue exclusivement pendant une période d'anorexie mentale."
+          },
+          {
+            "correct": false,
+            "proposition": "La boulimie survient exclusivement au cours d'une période d'anorexie mentale.",
+            "justification": "C'est l'inverse : l'exclusivité pendant l'anorexie mentale contredit le critère diagnostique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755089168365_05",
+      "current_version_epoch_ms": 1755089168365,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Reconnaître l'atteinte de l'estime de soi dans la boulimie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'estime de soi est perturbée de manière excessive par la forme du corps et le poids.",
+            "justification": "Une perturbation excessive de l'estime de soi liée à la forme du corps et au poids fait partie des critères."
+          },
+          {
+            "correct": false,
+            "proposition": "La peur de prendre du poids est le seul critère psychologique requis.",
+            "justification": "Le critère psychologique mis en avant concerne l'impact excessif de la forme du corps et du poids sur l'estime de soi, pas une peur unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune altération de l'estime de soi n'est impliquée.",
+            "justification": "Une altération excessive de l'estime de soi est justement spécifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "La forme du corps et le poids n'ont aucun impact sur l'estime de soi.",
+            "justification": "Il est indiqué au contraire un impact excessif de ces facteurs sur l'estime de soi."
+          },
+          {
+            "correct": false,
+            "proposition": "L'estime de soi est perturbée uniquement par des facteurs professionnels.",
+            "justification": "La perturbation excessive est reliée à la forme du corps et au poids."
+          }
+        ]
+      }
+    }
+  ]
+}

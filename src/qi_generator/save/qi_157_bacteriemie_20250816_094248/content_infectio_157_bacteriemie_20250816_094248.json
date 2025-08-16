@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755330375141_01",
+      "current_version_epoch_ms": 1755330375141,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du traitement antimicrobien dans la prise en charge d'une bactériémie/fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éradiquer l'infection le plus rapidement possible",
+            "justification": "Le traitement antimicrobien est une urgence thérapeutique, visant à éradiquer l'infection rapidement."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire les symptômes cliniques sans cibler l'infection",
+            "justification": "Le traitement antimicrobien doit viser à éradiquer l'infection et non seulement réduire les symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévenir les complications locales sans traiter l'infection systémique",
+            "justification": "Le traitement doit viser l'infection systémique, et non uniquement les complications locales."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre les résultats d'un antibiogramme avant d'initier le traitement",
+            "justification": "Le traitement antimicrobien est initié avant les résultats de l'antibiogramme, basé sur des choix probabilistes."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser exclusivement des antibiotiques oraux",
+            "justification": "Le traitement antimicrobien initial doit être par voie parentérale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330375141_02",
+      "current_version_epoch_ms": 1755330375141,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'examen direct de l'hémoculture dans la gestion de la bactériémie/fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet d'adapter rapidement le traitement antimicrobien en fonction du type d'agent infectieux",
+            "justification": "L'examen direct de l'hémoculture permet une identification rapide de l'agent infectieux, ce qui permet d'adapter le traitement antimicrobien."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirme la guérison de l'infection",
+            "justification": "L'examen direct de l'hémoculture permet de guider le traitement, mais ne sert pas à confirmer la guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecte uniquement les infections virales",
+            "justification": "L'hémoculture est utilisée pour détecter les infections bactériennes et fongiques, pas les infections virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Évalue la gravité de l'infection sans spécifier l'agent causatif",
+            "justification": "L'examen direct identifie spécifiquement l'agent infectieux, ce qui permet de cibler le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de diagnostiquer l'infection avant les signes cliniques",
+            "justification": "L'examen direct est complémentaire aux signes cliniques et ne permet pas de diagnostiquer avant l'apparition de ceux-ci."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330375141_03",
+      "current_version_epoch_ms": 1755330375141,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le rôle des associations (bithérapie) dans le traitement de la bactériémie/fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Élargir le spectre d'action contre des agents infectieux non identifiés",
+            "justification": "Les bithérapies sont utilisées pour élargir le spectre d'action initial, jusqu'à l'identification précise de l'agent infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre un traitement plus rapide sans attendre l'identification de l'agent infectieux",
+            "justification": "La bithérapie est utilisée pour élargir le spectre, mais elle n'est pas une solution à la rapidité de traitement initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la toxicité des antibiotiques",
+            "justification": "Les bithérapies n'ont pas pour but de réduire la toxicité des antibiotiques mais d'élargir leur efficacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter l'utilisation de médicaments fongicides",
+            "justification": "Les bithérapies peuvent inclure des agents fongicides, selon le type d'infection suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter la survenue de résistance aux antibiotiques",
+            "justification": "Les bithérapies ne sont pas spécifiquement utilisées pour éviter la résistance aux antibiotiques mais pour couvrir un spectre plus large."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330375141_04",
+      "current_version_epoch_ms": 1755330375141,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quels critères permettent d'adapter le traitement antimicrobien après les résultats de l'hémoculture ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'identification de l'espèce microbienne et l'antibiogramme/antifongigramme",
+            "justification": "L'adaptation du traitement antimicrobien se base sur l'identification précise de l'espèce et la sensibilité à l'antibiotique ou antifongique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les résultats des tests de sensibilité génétique de l'agent infectieux",
+            "justification": "Les tests de sensibilité génétique ne sont pas mentionnés comme critères d'adaptation du traitement dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "La réévaluation clinique des symptômes du patient",
+            "justification": "Bien que la réévaluation clinique soit importante, l'adaptation se base avant tout sur les résultats microbiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La suppression totale des symptômes cliniques",
+            "justification": "L'adaptation du traitement dépend avant tout des résultats microbiologiques, non de la disparition des symptômes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'effets secondaires des antimicrobiens initiaux",
+            "justification": "Les effets secondaires des traitements sont importants mais ne sont pas le principal critère pour l'adaptation thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755330375141_05",
+      "current_version_epoch_ms": 1755330375141,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le choix initial d'antimicrobien dans la prise en charge probabiliste d'une bactériémie/fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un antimicrobien par voie parentérale adapté à la porte d'entrée suspectée",
+            "justification": "Le traitement initial doit être administré par voie parentérale et être basé sur la porte d'entrée suspectée cliniquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement antimicrobien local par voie topique",
+            "justification": "Le traitement local n'est pas adapté dans les cas de bactériémie/fongémie qui nécessitent un traitement systémique par voie parentérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un antimicrobien oral à large spectre",
+            "justification": "Les antimicrobiens par voie orale ne sont pas utilisés en traitement initial dans la gestion de la bactériémie/fongémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement antivirale dès le début",
+            "justification": "Le traitement antivirale n'est pas indiqué dans la prise en charge de la bactériémie/fongémie, sauf en cas de suspicion spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement empirique avec des antifongiques uniquement",
+            "justification": "Le traitement initial doit être bactéricide ou fongicide selon la porte d'entrée suspectée, mais pas uniquement antifongique."
+          }
+        ]
+      }
+    }
+  ]
+}

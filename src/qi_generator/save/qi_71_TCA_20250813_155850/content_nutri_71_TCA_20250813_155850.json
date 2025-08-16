@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TCA",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755093737009_01",
+      "current_version_epoch_ms": 1755093737009,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions suivantes, celles qui relèvent des critères anamnestiques d'indication d'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Modification brutale du poids ou cassure de la courbe de croissance",
+            "justification": "Fait partie des critères anamnestiques d'hospitalisation listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Sévérité des crises avec fréquence élevée (> 8/semaine)",
+            "justification": "Relève explicitement des critères anamnestiques d'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalies de l'ECG",
+            "justification": "Classé dans les critères cliniques, pas dans les critères anamnestiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Échec de la stratégie ambulatoire",
+            "justification": "Mentionné comme critère anamnestique d'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte hépatique sévère",
+            "justification": "Relève des critères paracliniques, non des critères anamnestiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755093737009_02",
+      "current_version_epoch_ms": 1755093737009,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Reconnaître les critères cliniques imposant l'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle ou trouble du rythme cardiaque",
+            "justification": "Cité parmi les critères cliniques justifiant l'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Incapacité à contrôler des crises devenant pluriquotidiennes",
+            "justification": "Indiqué comme critère clinique d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "État de mal boulimique",
+            "justification": "Fait partie des critères cliniques nécessitant l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Tentative de suicide ou projet suicidaire explicite",
+            "justification": "Appartient à la rubrique « risque suicidaire », pas aux critères cliniques."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes cliniques de dénutrition",
+            "justification": "Mentionné parmi les critères cliniques d'hospitalisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755093737009_03",
+      "current_version_epoch_ms": 1755093737009,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants : lesquels correspondent à des critères paracliniques justifiant l'hospitalisation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte hépatique sévère",
+            "justification": "Identifié comme critère paraclinique d'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles hydroélectrolytiques ou métaboliques sévères",
+            "justification": "Relève des critères paracliniques justifiant l'hospitalisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale et déshydratation",
+            "justification": "Élément paraclinique mentionné comme indication d'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes cliniques de dénutrition",
+            "justification": "Classé parmi les critères cliniques, pas paracliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Critiques environnementales élevées",
+            "justification": "Relève des critères environnementaux, non paracliniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755093737009_04",
+      "current_version_epoch_ms": 1755093737009,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Parmi les comorbidités psychiatriques suivantes, identifier celles qui peuvent à elles seules justifier l'hospitalisation si sévères.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épisode dépressif caractérisé",
+            "justification": "Peut à lui seul justifier l'hospitalisation s'il est sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Abus de substances et trouble des conduites",
+            "justification": "Indiqué comme comorbidité pouvant justifier l'hospitalisation si sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Anxiété sévère",
+            "justification": "Mentionnée comme comorbidité pouvant justifier l'hospitalisation si sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptômes psychotiques",
+            "justification": "Peuvent à eux seuls justifier l'hospitalisation s'ils sont sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Automutilations répétées",
+            "justification": "Classées dans la rubrique « risque suicidaire », pas dans les comorbidités justifiant seules l'hospitalisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755093737009_05",
+      "current_version_epoch_ms": 1755093737009,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Identifier les critères environnementaux et sociaux justifiant l'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Problèmes familiaux ou absence de famille",
+            "justification": "Relève des critères de disponibilité de l'entourage."
+          },
+          {
+            "correct": true,
+            "proposition": "Épuisement de l'entourage",
+            "justification": "Fait partie des critères liés à la disponibilité de l'entourage."
+          },
+          {
+            "correct": true,
+            "proposition": "Isolement social sévère",
+            "justification": "Appartient aux critères de stress environnemental."
+          },
+          {
+            "correct": false,
+            "proposition": "Projet suicidaire explicite",
+            "justification": "Relève du risque suicidaire, non des critères environnementaux et sociaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalies de l'ECG",
+            "justification": "Critère clinique, pas environnemental/social."
+          }
+        ]
+      }
+    }
+  ]
+}

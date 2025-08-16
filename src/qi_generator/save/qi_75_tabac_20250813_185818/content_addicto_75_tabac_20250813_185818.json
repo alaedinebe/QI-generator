@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755104505483_01",
+      "current_version_epoch_ms": 1755104505483,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, celui explicitement désigné comme principal responsable de la dépendance liée au tabac.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La nicotine",
+            "justification": "La nicotine est indiquée comme le principal agent responsable de la dépendance."
+          },
+          {
+            "correct": false,
+            "proposition": "Un désir puissant ou compulsif de fumer",
+            "justification": "Il s'agit d'un critère de dépendance (CIM-10), pas de l'agent responsable."
+          },
+          {
+            "correct": false,
+            "proposition": "La tolérance",
+            "justification": "La tolérance est un critère de dépendance (CIM-10), pas l'agent causal."
+          },
+          {
+            "correct": false,
+            "proposition": "Le syndrome de sevrage",
+            "justification": "Le sevrage est un critère de dépendance (CIM-10), pas l'agent responsable."
+          },
+          {
+            "correct": false,
+            "proposition": "Un mode de consommation préjudiciable sans critères de dépendance",
+            "justification": "Cette formulation correspond à l'usage nocif (CIM-10), distinct de l'agent de dépendance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104505483_02",
+      "current_version_epoch_ms": 1755104505483,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "À propos de l'usage de tabac nocif pour la santé (CIM-10), sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Correspond à un mode de consommation préjudiciable sans les critères de la dépendance",
+            "justification": "L'usage nocif est défini comme préjudiciable à la santé sans réunir les critères de dépendance."
+          },
+          {
+            "correct": true,
+            "proposition": "Les complications peuvent être physiques ou psychiques",
+            "justification": "Il est précisé que les complications peuvent être somatiques ou psychiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient identifie clairement le lien entre les dommages et sa consommation",
+            "justification": "Il est indiqué que le patient ne connaît pas les liens entre le dommage et la consommation."
+          },
+          {
+            "correct": false,
+            "proposition": "Sa définition exige au moins trois critères parmi un ensemble de six",
+            "justification": "Cette exigence correspond à la dépendance (CIM-10), pas à l'usage nocif."
+          },
+          {
+            "correct": false,
+            "proposition": "Il inclut nécessairement un syndrome de sevrage",
+            "justification": "Le sevrage fait partie des critères de dépendance ; l'usage nocif est défini sans ces critères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104505483_03",
+      "current_version_epoch_ms": 1755104505483,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants : font-ils partie des critères CIM-10 de dépendance au tabac ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Désir puissant ou compulsif de fumer",
+            "justification": "Fait partie des critères de dépendance listés par la CIM-10."
+          },
+          {
+            "correct": true,
+            "proposition": "Difficultés à contrôler l'usage de tabac",
+            "justification": "Mentionné comme critère de dépendance (début, interruption ou niveaux d'usage)."
+          },
+          {
+            "correct": false,
+            "proposition": "Mode de consommation préjudiciable à la santé sans critères de dépendance",
+            "justification": "Correspond à l'usage nocif, distinct de la dépendance."
+          },
+          {
+            "correct": true,
+            "proposition": "Poursuite de la consommation malgré des conséquences nocives",
+            "justification": "Figure parmi les critères CIM-10 de dépendance."
+          },
+          {
+            "correct": true,
+            "proposition": "Abandon d'autres sources de plaisir et d'intérêts au profit du tabac",
+            "justification": "Énoncé comme critère de dépendance (CIM-10)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104505483_04",
+      "current_version_epoch_ms": 1755104505483,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Calculer le score total du test de Fagerström pour ce profil : (1) première cigarette dans les 5 minutes ; (2) difficile de s'abstenir dans les lieux interdits : oui ; (3) cigarette la plus difficile : la première de la journée ; (4) 11 à 20 cigarettes/jour ; (5) fume à intervalles plus rapprochés le matin : oui ; (6) fume lorsqu'il est malade au lit : non.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "5",
+            "justification": "Sous-estimé : le cumul des scores des réponses indiquées dépasse 5."
+          },
+          {
+            "correct": false,
+            "proposition": "6",
+            "justification": "Sous-estimé : Q1=3, Q2=1, Q3=1, Q4=1, Q5=1, Q6=0 donnent un total supérieur."
+          },
+          {
+            "correct": true,
+            "proposition": "7",
+            "justification": "Somme : Q1 5 min=3 ; Q2 oui=1 ; Q3 première=1 ; Q4 11–20=1 ; Q5 oui=1 ; Q6 non=0 ; total=7."
+          },
+          {
+            "correct": false,
+            "proposition": "8",
+            "justification": "Surestimé par rapport à la somme des points attribués aux réponses données."
+          },
+          {
+            "correct": false,
+            "proposition": "9",
+            "justification": "Ne correspond pas au total obtenu à partir des barèmes fournis pour chaque item."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755104505483_05",
+      "current_version_epoch_ms": 1755104505483,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Dans le test de Fagerström, reconnaître les items qui caractérisent le plus l'intoxication tabagique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Délai entre le réveil et la première cigarette",
+            "justification": "L'item 1 est précisé comme caractérisant le plus l'intoxication tabagique."
+          },
+          {
+            "correct": true,
+            "proposition": "Nombre quotidien de cigarettes",
+            "justification": "L'item 4 est précisé comme caractérisant le plus l'intoxication tabagique."
+          },
+          {
+            "correct": false,
+            "proposition": "Difficulté à s'abstenir dans les lieux où c'est interdit",
+            "justification": "Fait partie du test mais n'est pas indiqué comme l'un des deux items les plus caractéristiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Cigarette à laquelle il est le plus difficile de renoncer",
+            "justification": "Fait partie du test mais n'est pas mentionné parmi les deux items les plus caractéristiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Fumer davantage le matin que le reste de la journée",
+            "justification": "Fait partie du test mais n'est pas signalé comme un des deux items les plus caractéristiques."
+          }
+        ]
+      }
+    }
+  ]
+}

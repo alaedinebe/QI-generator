@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755340934993_01",
+      "current_version_epoch_ms": 1755340934993,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelle est la bactérie la plus fréquemment isolée lors des infections urinaires communautaires chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Escherichia coli",
+            "justification": "Escherichia coli est la principale bactérie isolée dans environ 70 à 90% des infections urinaires communautaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Klebsiella",
+            "justification": "Klebsiella est moins fréquemment isolée par rapport à Escherichia coli dans les infections urinaires communautaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Staphylococcus aureus",
+            "justification": "Staphylococcus aureus est principalement impliqué dans des infections plus graves et moins fréquentes que celles causées par E. coli."
+          },
+          {
+            "correct": false,
+            "proposition": "Enterococcus faecalis",
+            "justification": "Enterococcus faecalis est une cause fréquente dans les infections urinaires, mais moins fréquente que E. coli."
+          },
+          {
+            "correct": false,
+            "proposition": "Proteus mirabilis",
+            "justification": "Proteus mirabilis est aussi une cause fréquente mais moins prédominante que E. coli dans les infections urinaires communautaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340934993_02",
+      "current_version_epoch_ms": 1755340934993,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le facteur de risque principal pour le développement d'une infection à BLSE (bêta-lactamases à spectre étendu) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédent d'infection à EBLSE dans les 3 mois précédents",
+            "justification": "L'antécédent d'infection ou de colonisation par une entérobactérie productrice de BLSE dans les 3 mois précédents est un facteur de risque majeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'antibiotiques pour une infection virale",
+            "justification": "La prise d'antibiotiques pour des infections virales n'est pas un facteur de risque pour les infections à BLSE."
+          },
+          {
+            "correct": false,
+            "proposition": "Vie en milieu rural",
+            "justification": "La vie en milieu rural n'est pas un facteur de risque connu pour les infections à BLSE."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation élevée de protéines animales",
+            "justification": "La consommation de protéines animales n'a pas d'impact direct sur la résistance aux antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Voyages en zone tropicale",
+            "justification": "Bien que les voyages en zones endémiques peuvent influencer la résistance bactérienne, ce n'est pas un facteur spécifique aux BLSE."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340934993_03",
+      "current_version_epoch_ms": 1755340934993,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quels sont les mécanismes de résistance chromosomiques des entérobactéries ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sécrétion naturelle d'une céphalosporinase",
+            "justification": "Certaines entérobactéries, comme le groupe 3 (Enterobacter, Morganella), sécrètent naturellement une céphalosporinase, ce qui contribue à leur résistance aux céphalosporines."
+          },
+          {
+            "correct": false,
+            "proposition": "Acquisition d'une pénicillinase plasmidique",
+            "justification": "Les résistances plasmidiques ne sont pas des mécanismes chromosomiques mais acquis par transfert de plasmides."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la perméabilité membranaire",
+            "justification": "La réduction de la perméabilité membranaire est une résistance généralement acquise, mais pas un mécanisme chromosomique naturel."
+          },
+          {
+            "correct": false,
+            "proposition": "Production d'une bêta-lactamase à haut niveau",
+            "justification": "La production d'une bêta-lactamase à haut niveau est un mécanisme de résistance acquis, non chromosomique."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de l'action des quinolones par mutation génétique",
+            "justification": "Ce mécanisme de résistance aux quinolones est acquis, et non un mécanisme chromosomique naturel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340934993_04",
+      "current_version_epoch_ms": 1755340934993,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quels antibiotiques sont principalement résistants chez Klebsiella en raison de la production de BLSE ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aminopénicilline (amoxicilline)",
+            "justification": "Klebsiella, en raison de la production de BLSE, est résistante aux aminopénicillines comme l'amoxicilline."
+          },
+          {
+            "correct": false,
+            "proposition": "C3G (céftriaxone)",
+            "justification": "Klebsiella est généralement sensible à la ceftriaxone, sauf en cas de production de BLSE."
+          },
+          {
+            "correct": false,
+            "proposition": "C1G (céfalotine)",
+            "justification": "La céfalotine est souvent efficace contre Klebsiella, bien qu'il puisse y avoir des résistances en présence de BLSE."
+          },
+          {
+            "correct": false,
+            "proposition": "C2G (céfoxitine)",
+            "justification": "Klebsiella est généralement sensible à la céfoxitine, mais une résistance pourrait être observée en cas de BLSE."
+          },
+          {
+            "correct": false,
+            "proposition": "Uréidopénicilline (pipéracilline)",
+            "justification": "La pipéracilline est souvent efficace contre Klebsiella, mais la résistance se développe en présence de BLSE."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340934993_05",
+      "current_version_epoch_ms": 1755340934993,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le principal mécanisme de résistance des entérobactéries au niveau des pénicillines et des céphalosporines ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Production de bêta-lactamases",
+            "justification": "Les entérobactéries produisent naturellement ou acquièrent des bêta-lactamases, qui hydrolysent les antibiotiques bêta-lactamines, conférant ainsi une résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la cible de la pénicilline",
+            "justification": "La résistance des entérobactéries aux pénicillines et céphalosporines est principalement due à la production de bêta-lactamases et non à des modifications de la cible."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la production de l'enzyme dihydrofolate réductase",
+            "justification": "Ce mécanisme de résistance est plus spécifique des agents anti-foliques et non des pénicillines ou céphalosporines."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la perméabilité membranaire",
+            "justification": "Bien que la réduction de la perméabilité membranaire soit un mécanisme de résistance, il n'est pas le principal pour les pénicillines et céphalosporines."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutation génétique rendant les bactéries résistantes aux antimicrobiens",
+            "justification": "Les mutations génétiques affectant la cible des antibiotiques ne sont pas le principal mécanisme de résistance des entérobactéries aux bêta-lactamines."
+          }
+        ]
+      }
+    }
+  ]
+}

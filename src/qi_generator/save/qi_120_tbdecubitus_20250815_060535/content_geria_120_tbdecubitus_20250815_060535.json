@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbdecubitus",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755230942170_01",
+      "current_version_epoch_ms": 1755230942170,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Identifier le stade d'escarre correspondant à une rougeur cutanée qui disparaît à la pression.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Stade 0",
+            "justification": "Le stade 0 est défini par une hyperhémie réactionnelle disparaissant à la pression."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 1",
+            "justification": "Le stade 1 est défini par un érythème permanent, et non une rougeur qui disparaît à la pression."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 2",
+            "justification": "Le stade 2 correspond à une lésion cutanée partielle intéressant l'épiderme, le derme ou les deux."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 3",
+            "justification": "Le stade 3 correspond à une lésion cutanée intéressant toutes les couches de la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 4",
+            "justification": "Le stade 4 correspond à une destruction extensive avec perte cutanée profonde s'étendant à l'os, aux tendons et aux articulations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230942170_02",
+      "current_version_epoch_ms": 1755230942170,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Classer les atteintes compatibles avec un stade 2 d'escarre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte limitée à l'épiderme",
+            "justification": "Le stade 2 peut intéresser l'épiderme."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte limitée au derme",
+            "justification": "Le stade 2 peut intéresser le derme."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte de l'épiderme et du derme",
+            "justification": "Le stade 2 peut intéresser l'épiderme et le derme."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte de toutes les couches de la peau",
+            "justification": "L'atteinte de toutes les couches de la peau définit un stade 3."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte cutanée profonde s'étendant à l'os, aux tendons ou aux articulations",
+            "justification": "L'extension à l'os, aux tendons ou aux articulations définit un stade 4."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230942170_03",
+      "current_version_epoch_ms": 1755230942170,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Reconnaître le stade approprié face à une lésion cutanée intéressant toutes les couches de la peau, sans mention d'extension aux structures sous-jacentes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Correspond à un stade 3",
+            "justification": "Le stade 3 est une lésion cutanée intéressant toutes les couches de la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond à un stade 4",
+            "justification": "Le stade 4 implique une destruction extensive s'étendant à l'os, aux tendons et aux articulations."
+          },
+          {
+            "correct": false,
+            "proposition": "Relève d'un stade 2",
+            "justification": "Le stade 2 est une lésion partielle intéressant l'épiderme, le derme ou les deux."
+          },
+          {
+            "correct": false,
+            "proposition": "Évoque un stade 1",
+            "justification": "Le stade 1 correspond à un érythème permanent."
+          },
+          {
+            "correct": false,
+            "proposition": "Relève d'un stade 0",
+            "justification": "Le stade 0 est une hyperhémie réactionnelle disparaissant à la pression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230942170_04",
+      "current_version_epoch_ms": 1755230942170,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Différencier les éléments définissant un stade 4 d'escarre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Extension à l'os",
+            "justification": "Le stade 4 s'étend à l'os."
+          },
+          {
+            "correct": true,
+            "proposition": "Extension aux tendons",
+            "justification": "Le stade 4 s'étend aux tendons."
+          },
+          {
+            "correct": true,
+            "proposition": "Extension aux articulations sous-jacentes",
+            "justification": "Le stade 4 s'étend aux articulations sous-jacentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème permanent",
+            "justification": "L'érythème permanent définit un stade 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte partielle de l'épiderme et/ou du derme",
+            "justification": "L'atteinte partielle de l'épiderme et/ou du derme correspond à un stade 2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755230942170_05",
+      "current_version_epoch_ms": 1755230942170,
+      "topic": {
+        "subject": "geria",
+        "item": "tbdecubitus"
+      },
+      "data": {
+        "statement": "Associer correctement les stades d'escarre à leur critère principal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Stade 0 = hyperhémie réactionnelle disparaissant à la pression",
+            "justification": "Le stade 0 est défini par une hyperhémie réactionnelle disparaissant à la pression."
+          },
+          {
+            "correct": true,
+            "proposition": "Stade 1 = érythème permanent",
+            "justification": "Le stade 1 est défini par un érythème permanent."
+          },
+          {
+            "correct": true,
+            "proposition": "Stade 2 = lésion cutanée partielle intéressant l'épiderme, le derme ou les deux",
+            "justification": "Le stade 2 est une lésion partielle intéressant l'épiderme, le derme ou les deux."
+          },
+          {
+            "correct": true,
+            "proposition": "Stade 3 = lésion cutanée intéressant toutes les couches de la peau",
+            "justification": "Le stade 3 intéresse toutes les couches de la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 4 = lésion limitée à l'épiderme et au derme",
+            "justification": "Le stade 4 correspond à une destruction extensive s'étendant à l'os, aux tendons et aux articulations, et non à une lésion limitée à l'épiderme et au derme."
+          }
+        ]
+      }
+    }
+  ]
+}

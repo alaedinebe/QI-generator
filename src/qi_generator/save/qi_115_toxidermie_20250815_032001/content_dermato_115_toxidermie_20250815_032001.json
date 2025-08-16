@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "toxidermie",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755221008391_01",
+      "current_version_epoch_ms": 1755221008391,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Différencier les mécanismes : identifier les caractéristiques temporelles et la dépendance aux doses pour phototoxicité et photo-allergie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La phototoxicité se manifeste dans les heures qui suivent l'exposition.",
+            "justification": "La phototoxicité est décrite comme une éruption survenant dans les heures suivant l'exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "La photo-allergie apparaît après un délai de 7 à 21 jours suivant l'exposition au médicament.",
+            "justification": "La photo-allergie comporte un délai retardé de 7 à 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "La phototoxicité est indépendante des doses de médicament et des UVA.",
+            "justification": "La phototoxicité dépend à la fois des doses de médicament et des doses d'UVA."
+          },
+          {
+            "correct": true,
+            "proposition": "La photo-allergie peut être déclenchée par des expositions solaires minimes.",
+            "justification": "Il est indiqué que des expositions solaires minimes peuvent suffire pour la photo-allergie."
+          },
+          {
+            "correct": true,
+            "proposition": "La phototoxicité dépend des doses d'UVA.",
+            "justification": "La phototoxicité est explicitement liée aux doses d'UVA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221008391_02",
+      "current_version_epoch_ms": 1755221008391,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Reconnaître la topographie : classer les affirmations concernant la distribution des lésions lors d'une photosensibilité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les lésions sont photodistribuées, prédominant sur les zones découvertes (visage, décolleté, extrémités).",
+            "justification": "La photosensibilité se caractérise par des lésions localisées aux zones découvertes citées."
+          },
+          {
+            "correct": false,
+            "proposition": "L'atteinte prédomine sur les zones couvertes.",
+            "justification": "La définition précise une localisation photodistribuée sur les zones découvertes, non couvertes."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans la photo-allergie, l'atteinte débute aux zones exposées et peut s'étendre en dehors de ces zones.",
+            "justification": "Il est précisé que la photo-allergie peut s'étendre au-delà des zones exposées."
+          },
+          {
+            "correct": false,
+            "proposition": "Quelle que soit la forme, l'éruption reste toujours strictement limitée aux zones exposées.",
+            "justification": "La photo-allergie peut s'étendre en dehors des zones exposées."
+          },
+          {
+            "correct": true,
+            "proposition": "L'éruption est déclenchée par une exposition solaire.",
+            "justification": "La photosensibilité est définie comme une éruption déclenchée par le soleil."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221008391_03",
+      "current_version_epoch_ms": 1755221008391,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques d'une phototoxicité médicamenteuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle dépend à la fois de la dose de médicament et des doses d'UVA.",
+            "justification": "La phototoxicité est décrite comme dépendant des doses de médicament et d'UVA."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle apparaît typiquement après un délai de 7 à 21 jours.",
+            "justification": "Un délai de 7 à 21 jours correspond à la photo-allergie."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle survient dans les heures qui suivent l'exposition.",
+            "justification": "La survenue rapide après l'exposition est caractéristique de la phototoxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est volontiers déclenchée par des expositions solaires minimes.",
+            "justification": "Des expositions solaires minimes sont suffisantes pour la photo-allergie, pas pour la phototoxicité qui dépend des doses."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle s'étend typiquement en dehors des zones exposées dès le début.",
+            "justification": "L'extension au-delà des zones exposées est décrite pour la photo-allergie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221008391_04",
+      "current_version_epoch_ms": 1755221008391,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Scénario : après l'instauration d'un médicament, une éruption débute 14 jours plus tard, après des expositions solaires minimes, aux zones exposées puis s'étend. Identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le mécanisme le plus probable est une photo-allergie.",
+            "justification": "Le délai de 7 à 21 jours, le déclenchement par des expositions minimes et l'extension au-delà des zones exposées sont caractéristiques de la photo-allergie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai est plus évocateur d'une phototoxicité.",
+            "justification": "La phototoxicité survient dans les heures suivant l'exposition, pas après 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Le déclenchement est indépendant de l'exposition solaire.",
+            "justification": "La photosensibilité est définie par une éruption déclenchée par le soleil."
+          },
+          {
+            "correct": false,
+            "proposition": "La présentation suggère une dépendance prédominante aux doses d'UVA et de médicament.",
+            "justification": "La dépendance aux doses d'UVA et de médicament caractérise la phototoxicité, non la photo-allergie décrite ici."
+          },
+          {
+            "correct": true,
+            "proposition": "L'extension des lésions en dehors des zones exposées est compatible avec la photo-allergie.",
+            "justification": "Il est indiqué que la photo-allergie peut s'étendre en dehors des zones exposées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755221008391_05",
+      "current_version_epoch_ms": 1755221008391,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Scénario : dans les heures suivant une forte exposition solaire sous traitement, une éruption limitée aux zones découvertes apparaît. Classer les propositions.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le mécanisme évoqué est une phototoxicité.",
+            "justification": "La survenue dans les heures et la limitation aux zones exposées orientent vers la phototoxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai est plus compatible avec une photo-allergie.",
+            "justification": "La photo-allergie présente un délai de 7 à 21 jours, non immédiat."
+          },
+          {
+            "correct": true,
+            "proposition": "La physiopathologie implique une dépendance aux doses de médicament et d'UVA.",
+            "justification": "La phototoxicité dépend des doses de médicament et des doses d'UVA."
+          },
+          {
+            "correct": false,
+            "proposition": "La survenue est typiquement déclenchée par des expositions solaires minimes.",
+            "justification": "Des expositions minimes sont suffisantes pour la photo-allergie, pas pour la phototoxicité dépendante des doses."
+          },
+          {
+            "correct": false,
+            "proposition": "Une extension d'emblée au-delà des zones exposées est attendue.",
+            "justification": "L'extension au-delà des zones exposées est décrite pour la photo-allergie, pas comme caractéristique de la phototoxicité."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "toxidermie",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755220593061_01",
+      "current_version_epoch_ms": 1755220593061,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quel mécanisme est responsable des toxidermies liées aux propriétés pharmacodynamiques du médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mécanisme non immunologique",
+            "justification": "Ce mécanisme est lié aux effets pharmacodynamiques directs ou latéraux du médicament, comme la chéilite sous rétinoïdes ou l'alopécie post-antimitotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mécanisme immuno-allergique",
+            "justification": "Les mécanismes immuno-allergiques ne sont pas responsables des toxidermies dues aux propriétés pharmacodynamiques du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction d'hypersensibilité immédiate IgE médiée",
+            "justification": "Ce type de réaction est associé aux toxidermies immunologiques, pas aux effets pharmacodynamiques des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction d'hypersensibilité retardée",
+            "justification": "Les réactions d'hypersensibilité retardée sont des mécanismes immunologiques et ne sont pas liées aux effets pharmacodynamiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Effet secondaire générique des médicaments",
+            "justification": "Les effets secondaires génériques ne sont pas spécifiquement liés aux mécanismes pharmacodynamiques qui provoquent des toxidermies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220593061_02",
+      "current_version_epoch_ms": 1755220593061,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "La fréquence des toxidermies liées à un mécanisme immuno-allergique est :",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Fréquente",
+            "justification": "Les toxidermies immuno-allergiques sont peu fréquentes, contrairement aux mécanismes non immunologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Peu fréquente",
+            "justification": "Les mécanismes immuno-allergiques, tels que les réactions d'hypersensibilité, sont moins fréquents que les effets pharmacodynamiques du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Quotidienne",
+            "justification": "Les réactions immuno-allergiques sont relativement rares et non quotidiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Exceptionnelle",
+            "justification": "Bien que peu fréquentes, les toxidermies immuno-allergiques ne sont pas exceptionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Variable selon le médicament",
+            "justification": "La fréquence des toxidermies immuno-allergiques est globalement peu fréquente, indépendamment du médicament."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220593061_03",
+      "current_version_epoch_ms": 1755220593061,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quel est le délai de survenue d'une toxidermie liée à un mécanisme immuno-allergique ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Immédiat",
+            "justification": "Les toxidermies immuno-allergiques ne surviennent pas immédiatement, elles prennent généralement plusieurs jours à plusieurs semaines."
+          },
+          {
+            "correct": true,
+            "proposition": "Plusieurs jours à plusieurs semaines",
+            "justification": "Le délai de survenue des toxidermies immuno-allergiques est variable, mais il est généralement compris entre plusieurs jours et plusieurs semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 24 heures",
+            "justification": "Les toxidermies immuno-allergiques ne surviennent pas en moins de 24 heures, contrairement aux effets pharmacodynamiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Instantané",
+            "justification": "Une toxidermie d'origine immuno-allergique n'est pas instantanée, elle prend plusieurs jours à apparaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans l'heure suivant la prise du médicament",
+            "justification": "Le délai de survenue est bien plus long que celui-ci pour les toxidermies immuno-allergiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220593061_04",
+      "current_version_epoch_ms": 1755220593061,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quelles toxidermies sont liées à des effets pharmacodynamiques des médicaments ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chéilite sous rétinoïdes et alopécie post-antimitotique",
+            "justification": "Ces toxidermies sont directement liées aux effets pharmacodynamiques des médicaments, qui provoquent des réactions locales ou visibles après la prise."
+          },
+          {
+            "correct": false,
+            "proposition": "DRESS à l'allopurinol",
+            "justification": "Le DRESS est une toxidermie liée à une réaction immuno-allergique, pas à un effet pharmacodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème noueux",
+            "justification": "L'érythème noueux est une réaction inflammatoire associée à des mécanismes immunologiques, pas à un effet pharmacodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de Stevens-Johnson",
+            "justification": "Le syndrome de Stevens-Johnson est une toxidermie grave liée à un mécanisme immunologique, pas à un effet pharmacodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaires chroniques",
+            "justification": "Les urticaires chroniques sont principalement d'origine immunologique et non pharmacodynamique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220593061_05",
+      "current_version_epoch_ms": 1755220593061,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "La mortalité des toxidermies immuno-allergiques peut atteindre jusqu'à :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "25% pour une nécrolyse épidermique",
+            "justification": "Les toxidermies immuno-allergiques, comme la nécrolyse épidermique, peuvent avoir une mortalité importante, jusqu'à 25%."
+          },
+          {
+            "correct": false,
+            "proposition": "1% pour toutes les toxidermies immuno-allergiques",
+            "justification": "La mortalité de 1% ne correspond pas aux toxidermies immuno-allergiques graves, qui peuvent avoir des taux plus élevés comme la nécrolyse épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "10% pour toutes les toxidermies immuno-allergiques",
+            "justification": "Bien que grave, la mortalité des toxidermies immuno-allergiques graves peut atteindre jusqu'à 25%, et non 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "0% pour la majorité des toxidermies",
+            "justification": "La mortalité dépend du type de toxidermie, et certaines peuvent être fatales, comme la nécrolyse épidermique."
+          },
+          {
+            "correct": false,
+            "proposition": "50% pour une nécrolyse épidermique",
+            "justification": "Bien que la mortalité de la nécrolyse épidermique soit grave, elle ne dépasse généralement pas 25%."
+          }
+        ]
+      }
+    }
+  ]
+}

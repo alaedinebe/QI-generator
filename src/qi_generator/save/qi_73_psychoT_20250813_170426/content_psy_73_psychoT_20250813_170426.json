@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psychoT",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755097673583_01",
+      "current_version_epoch_ms": 1755097673583,
+      "topic": {
+        "subject": "psy",
+        "item": "psychoT"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant le titre de « psychothérapeute » en France.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un titre réglementé depuis 2010.",
+            "justification": "Le titre est indiqué comme « un titre réglementé (2010) »."
+          },
+          {
+            "correct": true,
+            "proposition": "Un Registre National est associé à ce titre.",
+            "justification": "La mention « Registre National » est explicitement liée au titre."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'un titre non réglementé.",
+            "justification": "Le titre est explicitement présenté comme réglementé depuis 2010."
+          },
+          {
+            "correct": false,
+            "proposition": "Le titre est délivré automatiquement à tout médecin, quelle que soit sa spécialité.",
+            "justification": "L'automaticité ne concerne que le médecin psychiatre (et le psychologue clinicien), pas tout médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "En dehors des cas d'obtention automatique, l'accès ne requiert pas de stage pratique.",
+            "justification": "Hors automaticité, une formation (> 400 h) ET un stage pratique (> 5 mois) sont requis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755097673583_02",
+      "current_version_epoch_ms": 1755097673583,
+      "topic": {
+        "subject": "psy",
+        "item": "psychoT"
+      },
+      "data": {
+        "statement": "Parmi les professionnels suivants, lesquels obtiennent le titre de « psychothérapeute » de façon automatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médecin psychiatre",
+            "justification": "Figure parmi les bénéficiaires de l'automaticité."
+          },
+          {
+            "correct": true,
+            "proposition": "Psychologue clinicien",
+            "justification": "Figure parmi les bénéficiaires de l'automaticité."
+          },
+          {
+            "correct": false,
+            "proposition": "Médecin non-psychiatre",
+            "justification": "Accès possible mais conditionné à une formation en psychopathologie (> 400 h) et un stage (> 5 mois)."
+          },
+          {
+            "correct": false,
+            "proposition": "Psychologue non-clinicien",
+            "justification": "Accès possible mais conditionné à une formation en psychopathologie (> 400 h) et un stage (> 5 mois)."
+          },
+          {
+            "correct": false,
+            "proposition": "Psychanalyste",
+            "justification": "Accès possible mais conditionné à une formation en psychopathologie (> 400 h) et un stage (> 5 mois)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755097673583_03",
+      "current_version_epoch_ms": 1755097673583,
+      "topic": {
+        "subject": "psy",
+        "item": "psychoT"
+      },
+      "data": {
+        "statement": "Classer les professionnels devant suivre une formation théorique (> 400 h) en psychopathologie et un stage pratique (> 5 mois) pour accéder au titre de « psychothérapeute ».",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médecin non-psychiatre",
+            "justification": "Fait partie des profils pour lesquels ces exigences sont requises."
+          },
+          {
+            "correct": true,
+            "proposition": "Psychologue non-clinicien",
+            "justification": "Fait partie des profils pour lesquels ces exigences sont requises."
+          },
+          {
+            "correct": true,
+            "proposition": "Psychanalyste",
+            "justification": "Fait partie des profils pour lesquels ces exigences sont requises."
+          },
+          {
+            "correct": false,
+            "proposition": "Médecin psychiatre",
+            "justification": "Bénéficie de l'obtention automatique, sans condition de formation/stage supplémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Psychologue clinicien",
+            "justification": "Bénéficie de l'obtention automatique, sans condition de formation/stage supplémentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755097673583_04",
+      "current_version_epoch_ms": 1755097673583,
+      "topic": {
+        "subject": "psy",
+        "item": "psychoT"
+      },
+      "data": {
+        "statement": "Reconnaître les situations donnant lieu à un remboursement complet ou à la gratuité des psychothérapies.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consultations de psychologues dans les CMP",
+            "justification": "Les psychologues du secteur public psychiatrique (CMP) relèvent du remboursement complet ou de la gratuité."
+          },
+          {
+            "correct": true,
+            "proposition": "Consultations de psychiatres en hôpitaux de jour",
+            "justification": "Les psychiatres des établissements du secteur public psychiatrique (hôpitaux de jour) relèvent du remboursement complet ou de la gratuité."
+          },
+          {
+            "correct": false,
+            "proposition": "Consultations de psychiatres libéraux",
+            "justification": "Relèvent d'un remboursement total ou partiel selon le parcours de soins, pas d'une gratuité systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Consultations de psychologues libéraux (au 1er janvier 2022)",
+            "justification": "Relèvent d'un remboursement total ou partiel selon le parcours de soins, pas d'une gratuité systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Séances chez un psychothérapeute libéral hors parcours de soins",
+            "justification": "Relèvent d'un non-remboursement ou d'un remboursement partiel (mutuelles)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755097673583_05",
+      "current_version_epoch_ms": 1755097673583,
+      "topic": {
+        "subject": "psy",
+        "item": "psychoT"
+      },
+      "data": {
+        "statement": "Concernant le remboursement dans le cadre du parcours de soins, sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour bénéficier d'un remboursement optimal, il faut consulter son médecin traitant.",
+            "justification": "La nécessité de consulter le médecin traitant pour un remboursement optimal est précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "La consultation d'un psychiatre libéral est remboursée totalement ou partiellement selon le parcours de soins.",
+            "justification": "Cette modalité est explicitement indiquée pour les psychiatres libéraux."
+          },
+          {
+            "correct": true,
+            "proposition": "La consultation d'un psychologue libéral (au 1er janvier 2022) peut être remboursée totalement ou partiellement selon le parcours de soins.",
+            "justification": "Cette modalité est explicitement indiquée pour les psychologues libéraux à cette date."
+          },
+          {
+            "correct": false,
+            "proposition": "Les soins du secteur public psychiatrique (CMP, hôpitaux de jour) ne sont pas remboursés.",
+            "justification": "Ils relèvent du remboursement complet ou de la gratuité."
+          },
+          {
+            "correct": false,
+            "proposition": "Les psychologues et psychothérapeutes libéraux hors parcours de soins bénéficient d'un remboursement complet.",
+            "justification": "Ils relèvent d'un non-remboursement ou d'un remboursement partiel (mutuelles)."
+          }
+        ]
+      }
+    }
+  ]
+}

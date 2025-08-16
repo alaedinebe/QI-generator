@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755342588244_01",
+      "current_version_epoch_ms": 1755342588244,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Dans le cadre du traitement des pyélonéphrites aiguës simples, quelle est la durée du traitement antibiotique de première intention ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "7 jours",
+            "justification": "Le traitement antibiotique de première intention repose sur les fluoroquinolones pour une durée de 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "14 jours",
+            "justification": "Le traitement antibiotique de première intention dure 7 jours et non 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours",
+            "justification": "La durée du traitement antibiotique pour une PNA simple est de 7 jours, et non de 3 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours",
+            "justification": "Le traitement antibiotique est de 7 jours, et non de 10 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours",
+            "justification": "La durée recommandée du traitement est de 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755342588244_02",
+      "current_version_epoch_ms": 1755342588244,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge de la pyélonéphrite aiguë simple en cas de vomissements empêchant un traitement antibiotique per os ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prise en charge hospitalière avec traitement par C3G IV",
+            "justification": "En cas de vomissements empêchant un traitement antibiotique per os, la prise en charge hospitalière avec un traitement par C3G IV est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement antibiotique par fluoroquinolones per os pendant 7 jours",
+            "justification": "Le traitement par fluoroquinolones per os est contre-indiqué si les vomissements empêchent l'absorption."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi ambulatoire avec traitement par antibiotiques de première intention",
+            "justification": "Le suivi ambulatoire est impossible en cas de vomissements empêchant la prise d'antibiotiques per os."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune prise en charge nécessaire, traitement symptomatique seul",
+            "justification": "Un traitement antibiotique est essentiel, et en cas d'incapacité de prendre des antibiotiques par voie orale, la prise en charge doit être hospitalière."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation avec traitement symptomatique uniquement",
+            "justification": "Le traitement antibiotique par C3G IV est nécessaire et non un traitement uniquement symptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755342588244_03",
+      "current_version_epoch_ms": 1755342588244,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "En cas d'échec du traitement des pyélonéphrites aiguës simples après 48-72 heures, quelle démarche doit être entreprise ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation d'une imagerie et hospitalisation",
+            "justification": "En cas d'échec du traitement dans les 48-72 heures, une imagerie doit être réalisée et la patiente hospitalisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Prolongation du traitement antibiotique de 7 jours supplémentaires",
+            "justification": "Si l'évolution est défavorable après 48-72 heures, une imagerie doit être réalisée et non simplement prolonger le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Ajout d'un deuxième antibiotique sans imagerie",
+            "justification": "En cas d'échec, l'imagerie est une étape incontournable avant toute modification du traitement antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction du traitement antibiotique à 3 jours",
+            "justification": "En cas d'échec, l'imagerie est nécessaire et le traitement ne doit pas être réduit sans examen supplémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Retour à une prise en charge ambulatoire",
+            "justification": "L'échec du traitement nécessite une hospitalisation, et non un retour à la prise en charge ambulatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755342588244_04",
+      "current_version_epoch_ms": 1755342588244,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Dans le cadre de la prise en charge des pyélonéphrites aiguës simples, quel traitement antibiotique de première intention est recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fluoroquinolones",
+            "justification": "Le traitement antibiotique de première intention repose sur les fluoroquinolones, sauf en cas de prise récente d'antibiotiques de cette classe."
+          },
+          {
+            "correct": false,
+            "proposition": "C3G IV",
+            "justification": "Les C3G IV ne sont indiquées qu'en cas de prise en charge hospitalière et non en première intention pour les PNA simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline n'est pas indiquée en première intention pour le traitement des pyélonéphrites aiguës simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Tétracycline",
+            "justification": "La tétracycline n'est pas recommandée pour le traitement des pyélonéphrites aiguës simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrolides",
+            "justification": "Les macrolides ne sont pas le traitement de première intention pour les pyélonéphrites aiguës simples."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755342588244_05",
+      "current_version_epoch_ms": 1755342588244,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel facteur conditionne l'usage des fluoroquinolones pour traiter une pyélonéphrite aiguë simple ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de prise d'antibiotiques de cette classe dans les 3 mois précédents",
+            "justification": "L'usage des fluoroquinolones est contre-indiqué si la patiente a pris un antibiotique de cette classe dans les 3 mois précédents."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une grossesse",
+            "justification": "La grossesse n'est pas mentionnée comme un critère de contre-indication spécifique dans le cas des pyélonéphrites aiguës simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie aux pénicillines",
+            "justification": "L'allergie aux pénicillines ne contre-indique pas l'utilisation des fluoroquinolones pour le traitement des pyélonéphrites aiguës simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de diabète",
+            "justification": "Les antécédents de diabète ne sont pas une contre-indication à l'utilisation des fluoroquinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents d'insuffisance rénale",
+            "justification": "Les antécédents d'insuffisance rénale ne sont pas mentionnés comme une contre-indication directe pour l'utilisation des fluoroquinolones, mais nécessitent une adaptation posologique."
+          }
+        ]
+      }
+    }
+  ]
+}

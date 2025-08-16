@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmiction",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755243159289_01",
+      "current_version_epoch_ms": 1755243159289,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques générales des symptômes du bas appareil urinaire (SBAU).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils correspondent à la dénomination actuelle des « troubles de la miction ».",
+            "justification": "Les troubles de la miction sont désormais appelés symptômes du bas appareil urinaire (SBAU)."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce sont des indicateurs subjectifs perçus par le patient.",
+            "justification": "Les SBAU sont des indicateurs subjectifs perçus par le patient évoquant une pathologie du bas appareil urinaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils se classent en trois catégories : remplissage, miction/vidange et post-mictionnelle.",
+            "justification": "Les SBAU peuvent être classés en trois catégories : phase de remplissage, phase mictionnelle/vidange, phase post-mictionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une nycturie est indispensable pour retenir des SBAU.",
+            "justification": "La nycturie n'est qu'un symptôme possible de la phase de remplissage, parmi d'autres."
+          },
+          {
+            "correct": false,
+            "proposition": "Chaque symptôme est défini par un seuil chiffré fixe.",
+            "justification": "La pollakiurie diurne est explicitement définie sans seuil chiffré, montrant que tous les symptômes ne reposent pas sur un seuil."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243159289_02",
+      "current_version_epoch_ms": 1755243159289,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Classer : cocher les symptômes relevant de la phase de remplissage.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pollakiurie diurne",
+            "justification": "La pollakiurie diurne appartient à la phase de remplissage."
+          },
+          {
+            "correct": true,
+            "proposition": "Urgenturie",
+            "justification": "L'urgenturie est listée parmi les symptômes de la phase de remplissage."
+          },
+          {
+            "correct": true,
+            "proposition": "Incontinence urinaire",
+            "justification": "L'incontinence urinaire figure parmi les symptômes de la phase de remplissage."
+          },
+          {
+            "correct": false,
+            "proposition": "Jet faible",
+            "justification": "Le jet faible relève de la phase mictionnelle/vidange, pas de la phase de remplissage."
+          },
+          {
+            "correct": false,
+            "proposition": "Gouttes retardataires",
+            "justification": "Les gouttes retardataires appartiennent à la phase post-mictionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243159289_03",
+      "current_version_epoch_ms": 1755243159289,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Différencier pollakiurie nocturne et nycturie : sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La pollakiurie nocturne correspond à une augmentation de la fréquence mictionnelle la nuit.",
+            "justification": "La pollakiurie nocturne est définie comme une augmentation de la fréquence mictionnelle la nuit."
+          },
+          {
+            "correct": true,
+            "proposition": "La nycturie est un besoin d'uriner réveillant le patient.",
+            "justification": "La nycturie est définie comme un besoin d'uriner qui réveille le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La pollakiurie nocturne et la nycturie sont des synonymes.",
+            "justification": "Il est précisé de ne pas confondre pollakiurie nocturne et nycturie, qui sont différentes."
+          },
+          {
+            "correct": true,
+            "proposition": "La pollakiurie diurne est une augmentation de la fréquence mictionnelle le jour, sans seuil défini.",
+            "justification": "La pollakiurie diurne est définie par une augmentation diurne sans seuil."
+          },
+          {
+            "correct": false,
+            "proposition": "La pollakiurie nocturne relève de la phase mictionnelle/vidange.",
+            "justification": "Les symptômes comme pollakiurie et nycturie relèvent de la phase de remplissage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243159289_04",
+      "current_version_epoch_ms": 1755243159289,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Reconnaître l'hyperactivité vésicale (HAV).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est un syndrome clinique défini par la survenue d'urgenturies.",
+            "justification": "L'HAV est un syndrome clinique défini par la survenue d'urgenturies."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle peut s'accompagner d'incontinence urinaire, mais ce n'est pas obligatoire.",
+            "justification": "L'HAV est définie par des urgenturies avec ou sans incontinence urinaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est habituellement associée à une pollakiurie ou une nycturie.",
+            "justification": "L'HAV est habituellement associée à une pollakiurie ou une nycturie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle impose l'absence d'urgenturie.",
+            "justification": "Au contraire, l'urgenturie est l'élément central de la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle relève des symptômes de la phase mictionnelle/vidange.",
+            "justification": "L'HAV repose sur l'urgenturie et s'associe à pollakiurie/nycturie, qui appartiennent à la phase de remplissage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243159289_05",
+      "current_version_epoch_ms": 1755243159289,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Identifier les symptômes de la phase mictionnelle/vidange.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Jet faible",
+            "justification": "Le jet faible est un symptôme de la phase mictionnelle/vidange."
+          },
+          {
+            "correct": true,
+            "proposition": "Jet en arrosoir",
+            "justification": "Le jet en arrosoir relève de la phase mictionnelle/vidange."
+          },
+          {
+            "correct": true,
+            "proposition": "Jet hésitant",
+            "justification": "Le jet hésitant appartient à la phase mictionnelle/vidange."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysurie de poussée",
+            "justification": "La dysurie de poussée, miction obtenue avec poussée abdominale, est rangée dans la phase mictionnelle/vidange."
+          },
+          {
+            "correct": false,
+            "proposition": "Sensation de vidange vésicale incomplète",
+            "justification": "La sensation de vidange incomplète est un symptôme de la phase post-mictionnelle."
+          }
+        ]
+      }
+    }
+  ]
+}

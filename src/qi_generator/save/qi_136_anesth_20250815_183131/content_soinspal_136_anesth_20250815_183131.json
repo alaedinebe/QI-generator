@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "anesth",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755275697785_01",
+      "current_version_epoch_ms": 1755275697785,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir en péri-opératoire concernant l'antiagrégant plaquettaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Poursuite de l'acide acétylsalicylique sauf cas particuliers",
+            "justification": "L'acide acétylsalicylique doit être poursuivi en péri-opératoire sauf si des indications particulières nécessitent un arrêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt systématique des antiagrégants plaquettaires",
+            "justification": "L'arrêt des antiagrégants plaquettaires n'est pas systématique sauf en cas de contre-indication spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Substitution par un autre anticoagulant",
+            "justification": "Il n'est pas indiqué de substitution par un anticoagulant en cas de prise d'antiagrégants plaquettaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt uniquement de l'aspirine",
+            "justification": "L'aspirine n'est pas l'unique antiagrégant plaquettaire concerné par des adaptations en péri-opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuite sans ajustement de la posologie",
+            "justification": "La posologie peut nécessiter des ajustements, notamment dans le cadre de certaines interventions spécifiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275697785_02",
+      "current_version_epoch_ms": 1755275697785,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quel traitement nécessite un arrêt en péri-opératoire en raison du risque d'hémorragie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anticoagulants",
+            "justification": "Les anticoagulants doivent être arrêtés en raison du risque majeur d'hémorragie en péri-opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Diurétiques",
+            "justification": "Les diurétiques ne sont pas arrêtés en péri-opératoire, sauf en cas de risque spécifique de dyskaliémie ou hypovolémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticothérapie au long cours",
+            "justification": "La corticothérapie au long cours n'est pas systématiquement arrêtée, sauf en cas de risque d'insuffisance surrénalienne aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Sulfamides ou glinides",
+            "justification": "Les sulfamides ou glinides ne nécessitent pas un arrêt en raison d'un risque hémorragique, mais plutôt de risques hypoglycémiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Biguanides",
+            "justification": "Les biguanides sont arrêtés pour prévenir le risque d'acidose lactique, mais pas en raison d'un risque hémorragique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275697785_03",
+      "current_version_epoch_ms": 1755275697785,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quelles insulines nécessitent une adaptation posologique en péri-opératoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuline ultra-rapide",
+            "justification": "Les insulines ultra-rapides nécessitent une adaptation posologique en raison du risque d'hypoglycémie et d'acidocétose."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline lente",
+            "justification": "L'insuline lente est poursuivie en péri-opératoire sans adaptation posologique significative, sauf circonstances particulières."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline mixte",
+            "justification": "L'insuline mixte n'est pas mentionnée comme nécessitant une adaptation spécifique en péri-opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline orale",
+            "justification": "Il n'existe pas d'insuline orale, seules les insulines injectables sont pertinentes pour cette question."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline longue durée",
+            "justification": "Les insulines de longue durée, comme l'insuline lente, ne nécessitent pas d'adaptation posologique sauf exception."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275697785_04",
+      "current_version_epoch_ms": 1755275697785,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quel traitement doit être arrêté en péri-opératoire pour éviter l'acidose lactique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Biguanides",
+            "justification": "Les biguanides doivent être arrêtés en péri-opératoire en raison du risque d'acidose lactique, qui est contre-indiquée en cas de chirurgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticothérapie",
+            "justification": "La corticothérapie au long cours n'entraîne pas d'acidose lactique et nécessite une adaptation en cas de risque d'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Anticoagulants",
+            "justification": "Les anticoagulants ne présentent pas de risque d'acidose lactique mais plutôt de complications hémorragiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Sulfamides",
+            "justification": "Les sulfamides n'entraînent pas d'acidose lactique mais un risque d'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Insulines lentes",
+            "justification": "Les insulines lentes ne causent pas d'acidose lactique et ne nécessitent pas d'arrêt sauf en cas d'indication spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275697785_05",
+      "current_version_epoch_ms": 1755275697785,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir pour un patient sous antihypertenseur antagoniste du SRAA avant une chirurgie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Arrêt en cas d'hypertension artérielle",
+            "justification": "Les antagonistes du SRAA doivent être arrêtés en cas d'hypertension artérielle pour éviter des risques d'hypotension importante en péri-opératoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuite en cas d'hypertension",
+            "justification": "Les antagonistes du SRAA ne doivent pas être poursuivis en cas d'hypertension artérielle en raison du risque de choc hypovolémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt en cas d'insuffisance cardiaque",
+            "justification": "Les antagonistes du SRAA doivent être poursuivis dans les cas d'insuffisance cardiaque, sauf autres contre-indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuite sans ajustement",
+            "justification": "Les antagonistes du SRAA peuvent être poursuivis uniquement dans d'autres indications comme l'insuffisance cardiaque, mais avec ajustements."
+          },
+          {
+            "correct": false,
+            "proposition": "Poursuite dans toutes les situations",
+            "justification": "La poursuite dans toutes les situations n'est pas appropriée, car les risques d'hypotension peuvent être majeurs."
+          }
+        ]
+      }
+    }
+  ]
+}

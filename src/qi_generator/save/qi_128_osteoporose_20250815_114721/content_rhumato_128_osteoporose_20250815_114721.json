@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "osteoporose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755251447867_01",
+      "current_version_epoch_ms": 1755251447867,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Identifier les éléments cliniques et d'imagerie rapportés dans ce cas de fracture vertébrale ostéoporotique semi-récente.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Femme ménopausée de 60 ans",
+            "justification": "Rapporté : patiente de 60 ans ménopausée."
+          },
+          {
+            "correct": true,
+            "proposition": "Chute de sa hauteur",
+            "justification": "Rapporté : chute de sa hauteur précédant les douleurs."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs lombaires persistantes",
+            "justification": "Rapporté : douleurs lombaires persistantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Fracture du plateau supérieur du corps vertébral de L1",
+            "justification": "Rapporté : atteinte du plateau supérieur de L1."
+          },
+          {
+            "correct": true,
+            "proposition": "Œdème osseux en hypersignal T2 Fat-Sat",
+            "justification": "Rapporté : œdème osseux visible en hypersignal T2 Fat-Sat."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251447867_02",
+      "current_version_epoch_ms": 1755251447867,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Différencier ce qui, parmi les éléments rapportés, permet d'affirmer le caractère semi-récent de la fracture.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Persistance d'un œdème osseux en hypersignal T2 Fat-Sat",
+            "justification": "Rapporté comme correspondant à une fracture ostéoporotique semi-récente."
+          },
+          {
+            "correct": false,
+            "proposition": "Chute de sa hauteur",
+            "justification": "Élément contextuel rapporté, mais non présenté comme critère du caractère semi-récent."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs lombaires persistantes",
+            "justification": "Symptôme rapporté, sans être indiqué comme critère spécifique de semi-récence."
+          },
+          {
+            "correct": false,
+            "proposition": "Localisation à L1",
+            "justification": "Le siège à L1 est décrit, sans être identifié comme le critère de semi-récence."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypersignal T2 Fat-Sat de la moelle osseuse vertébrale",
+            "justification": "Signe IRM rapporté comme compatible avec une fracture semi-récente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251447867_03",
+      "current_version_epoch_ms": 1755251447867,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Classer le siège et le type de lésion vertébrale décrits par l'IRM.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte du corps vertébral de L1",
+            "justification": "Rapporté : fracture du corps vertébral de L1."
+          },
+          {
+            "correct": true,
+            "proposition": "Intéresse le plateau supérieur",
+            "justification": "Rapporté : fracture du plateau supérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte sacro-iliaque",
+            "justification": "Non rapportée ; la lésion décrite siège à L1."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion discale isolée",
+            "justification": "Non rapportée ; il est décrit une fracture du corps vertébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture de C1",
+            "justification": "Non rapportée ; la fracture concerne L1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251447867_04",
+      "current_version_epoch_ms": 1755251447867,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Reconnaître la population et le contexte clinique décrits.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Femme ménopausée",
+            "justification": "Rapporté : patiente ménopausée."
+          },
+          {
+            "correct": false,
+            "proposition": "Homme de 40 ans",
+            "justification": "Contradictoire avec la description : femme de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatisme par chute de sa hauteur",
+            "justification": "Rapporté : chute de sa hauteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Traumatisme à haute cinétique",
+            "justification": "Non rapporté ; le mécanisme décrit est une chute de sa hauteur."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs lombaires persistantes après la chute",
+            "justification": "Rapporté : douleurs lombaires persistantes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251447867_05",
+      "current_version_epoch_ms": 1755251447867,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Définir le diagnostic et ses caractéristiques IRM essentielles telles que décrites.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fracture vertébrale ostéoporotique semi-récente",
+            "justification": "Rapporté explicitement par l'IRM."
+          },
+          {
+            "correct": true,
+            "proposition": "Œdème osseux en hypersignal T2 Fat-Sat",
+            "justification": "Rapporté comme signe IRM associé à cette fracture."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte du plateau supérieur de L1",
+            "justification": "Rapporté : fracture du plateau supérieur du corps vertébral de L1."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM strictement normale",
+            "justification": "Contradictoire : l'IRM décrit une fracture et un œdème osseux."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture infectieuse",
+            "justification": "Non rapportée ; l'IRM conclut à une fracture ostéoporotique semi-récente."
+          }
+        ]
+      }
+    }
+  ]
+}

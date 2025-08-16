@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IBP",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755314221448_01",
+      "current_version_epoch_ms": 1755314221448,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel est le principe fondamental de l'antibiothérapie dans le traitement des pneumonies aiguës communautaires (PAC) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'antibiothérapie est probabiliste et urgente.",
+            "justification": "L'antibiothérapie est débutée de manière urgente et probabiliste en fonction du tableau clinique, avant les résultats des prélèvements microbiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antibiothérapie est choisie après les résultats des prélèvements microbiologiques.",
+            "justification": "Le traitement antibiotique est initié avant les résultats microbiologiques, sur la base de la clinique et du terrain du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antibiothérapie est uniquement administrée en milieu hospitalier.",
+            "justification": "L'antibiothérapie peut être administrée en ambulatoire, notamment pour les patients jeunes sans comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antibiothérapie est uniquement spécifique au pneumocoque.",
+            "justification": "Bien que le pneumocoque soit fréquemment en cause, l'antibiothérapie couvre d'autres agents en fonction des facteurs cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'antibiothérapie est choisie en fonction uniquement de la présentation radiologique.",
+            "justification": "Le choix de l'antibiothérapie se base également sur le terrain et les critères biologiques, en plus de la présentation radiologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755314221448_02",
+      "current_version_epoch_ms": 1755314221448,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention des pneumonies aiguës communautaires (PAC) chez un patient de moins de 65 ans sans comorbidités ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline par voie orale ou macrolide si suspicion de bactérie atypique.",
+            "justification": "En cas de PAC non compliquée, l'amoxicilline est le traitement de première intention, ou un macrolide si une bactérie atypique est suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporine de troisième génération par voie intraveineuse.",
+            "justification": "Les céphalosporines de troisième génération sont utilisées principalement en cas d'allergie aux beta-lactamines ou en situation plus grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluoroquinolone anti-pneumococcique par voie orale.",
+            "justification": "Les fluoroquinolones sont réservées aux cas avec allergies sévères ou échec du traitement initial, pas de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline et acide clavulanique par voie orale.",
+            "justification": "Ce traitement est réservé aux sujets plus âgés ou avec comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation immédiate avec antibiothérapie IV.",
+            "justification": "Une hospitalisation n'est pas systématique pour les patients jeunes sans comorbidités et présentant une PAC non compliquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755314221448_03",
+      "current_version_epoch_ms": 1755314221448,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quelle est la durée habituelle du traitement antibiotique pour une pneumonie aiguë communautaire (PAC) non compliquée chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "5 jours.",
+            "justification": "Le traitement antibiotique pour une PAC non compliquée chez un enfant dure habituellement 5 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "7 jours.",
+            "justification": "La durée de 7 jours est souvent utilisée chez l'adulte, mais pour un enfant sans antécédents, 5 jours suffisent."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours.",
+            "justification": "3 jours est trop court pour une PAC, même non compliquée."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours.",
+            "justification": "10 jours ne sont pas nécessaires pour une PAC non compliquée chez un enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "7 à 10 jours, selon les cas.",
+            "justification": "La durée standard est de 5 jours pour les PAC non compliquées chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755314221448_04",
+      "current_version_epoch_ms": 1755314221448,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Dans quel cas de pneumonie aiguë communautaire (PAC) faut-il envisager un traitement prolongé de 21 jours ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumonie documentée à Legionella avec signes de gravité ou chez un immunodéprimé.",
+            "justification": "La pneumonie à Legionella avec signes de gravité ou chez un patient immunodéprimé nécessite un traitement antibiotique prolongé de 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie grippale sans complication.",
+            "justification": "La pneumonie grippale sans complication nécessite un traitement de 5 à 7 jours, pas 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie avec abcès.",
+            "justification": "Les pneumonies avec abcès sont traitées avec amoxicilline / acide clavulanique ou C3G IV + métronidazole pendant 3 à 6 semaines, mais pas 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie bactérienne simple.",
+            "justification": "Une pneumonie bactérienne simple, non documentée à Legionella, ne nécessite pas un traitement de 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie à Pneumocoque non compliquée.",
+            "justification": "Le traitement de la pneumonie à Pneumocoque non compliquée dure habituellement 7 jours, pas 21 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755314221448_05",
+      "current_version_epoch_ms": 1755314221448,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quelle est la première ligne de traitement antibiotique d'une pneumonie aiguë communautaire (PAC) chez un enfant avant 3 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline 80 à 100 mg/kg/j PO sans dépasser 3g/jour.",
+            "justification": "Chez un enfant de moins de 3 ans présentant une PAC, l'amoxicilline est le traitement de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Pristinamycine.",
+            "justification": "La pristinamycine est utilisée dans des cas particuliers, mais pas comme traitement de première intention pour les enfants avant 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporine de 3ème génération IV.",
+            "justification": "Les céphalosporines sont réservées en cas d'allergie à la pénicilline ou dans les formes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrolide, en cas de suspicion de mycoplasme.",
+            "justification": "Les macrolides sont envisagés après 3 ans en cas de suspicion de mycoplasme, mais ne sont pas de première intention chez les enfants de moins de 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluoroquinolone.",
+            "justification": "Les fluoroquinolones ne sont pas utilisées en première intention chez les enfants, sauf cas exceptionnels."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exantheme",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755214794560_01",
+      "current_version_epoch_ms": 1755214794560,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier les critères essentiels définissant une érythrodermie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Érythème atteignant au moins 90 % de la surface cutanée.",
+            "justification": "L'atteinte d'au moins 90 % de la surface cutanée fait partie de la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Desquamation diffuse fine ou en larges lambeaux associée.",
+            "justification": "La présence d'une desquamation diffuse, fine ou en larges lambeaux, est incluse dans la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolution depuis au moins 6 semaines.",
+            "justification": "Une durée d'évolution d'au moins 6 semaines est un critère définitoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre obligatoire témoignant d'un trouble de la thermorégulation.",
+            "justification": "Les troubles de la thermorégulation (fièvre et/ou hypothermie) sont souvent présents mais non obligatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Éruptions faites d'éléments diffus séparés par des intervalles de peau saine.",
+            "justification": "Cette présentation correspond aux éruptions érythémato-squameuses à distinguer de l'érythrodermie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755214794560_02",
+      "current_version_epoch_ms": 1755214794560,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Devant une rougeur généralisée, reconnaître les éléments orientant vers une érythrodermie plutôt qu'une éruption érythémato-squameuse.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte continue d'au moins 90 % sans intervalles de peau saine.",
+            "justification": "L'érythrodermie atteint au moins 90 % de la surface cutanée et ne présente pas d'intervalles de peau saine."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'intervalles de peau saine entre les lésions.",
+            "justification": "Les intervalles de peau saine évoquent une éruption érythémato-squameuse, pas une érythrodermie."
+          },
+          {
+            "correct": true,
+            "proposition": "Association à une desquamation diffuse.",
+            "justification": "La desquamation diffuse fait partie de la définition de l'érythrodermie."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolution d'au moins 6 semaines.",
+            "justification": "La durée minimale d'évolution retenue est d'au moins 6 semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte limitée à des plaques distinctes.",
+            "justification": "Des éléments séparés par de la peau saine correspondent à une autre entité à différencier."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755214794560_03",
+      "current_version_epoch_ms": 1755214794560,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "À propos des manifestations associées à l'érythrodermie, déterminer les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Des troubles de la thermorégulation (fièvre et/ou hypothermie) sont souvent observés.",
+            "justification": "L'érythrodermie est souvent génératrice de troubles de la thermorégulation, avec fièvre et/ou hypothermie."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence d'une polyadénopathie est souvent retrouvée.",
+            "justification": "Une polyadénopathie est souvent présente dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de fièvre exclut le diagnostic.",
+            "justification": "La fièvre n'est pas obligatoire ; les troubles thermiques sont décrits comme fréquents, pas constants."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hypothermie est incompatible avec l'érythrodermie.",
+            "justification": "L'hypothermie fait partie des troubles de la thermorégulation souvent observés."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces manifestations font partie des critères obligatoires de définition.",
+            "justification": "Elles sont décrites comme souvent présentes mais ne constituent pas des critères obligatoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755214794560_04",
+      "current_version_epoch_ms": 1755214794560,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Concernant l'érythème de l'érythrodermie, choisir les propositions conformes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est en général prurigineux.",
+            "justification": "L'érythème est décrit comme en général prurigineux."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est souvent œdémateux voire infiltré.",
+            "justification": "L'érythème est souvent œdémateux, voire infiltré."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est par définition non prurigineux.",
+            "justification": "Au contraire, le prurit est généralement présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne peut jamais être infiltré.",
+            "justification": "L'érythème peut être infiltré selon la description."
+          },
+          {
+            "correct": false,
+            "proposition": "Son caractère prurigineux, œdémateux ou infiltré n'est pas décrit.",
+            "justification": "Ces caractères sont explicitement mentionnés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755214794560_05",
+      "current_version_epoch_ms": 1755214794560,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier ceux qui appartiennent à la définition stricte de l'érythrodermie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte d'au moins 90 % de la surface cutanée.",
+            "justification": "Ce seuil d'extension est un critère définitoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Desquamation diffuse fine ou en larges lambeaux.",
+            "justification": "La desquamation diffuse fait partie de la définition."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolution depuis au moins 6 semaines.",
+            "justification": "La durée minimale d'évolution retenue est de 6 semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Polyadénopathie.",
+            "justification": "Elle est souvent présente mais n'est pas un critère obligatoire de définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre.",
+            "justification": "La fièvre relève des troubles de la thermorégulation souvent observés, non d'un critère obligatoire."
+          }
+        ]
+      }
+    }
+  ]
+}

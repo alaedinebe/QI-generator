@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dlrphysiopath",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755269686478_01",
+      "current_version_epoch_ms": 1755269686478,
+      "topic": {
+        "subject": "soinspal",
+        "item": "dlrphysiopath"
+      },
+      "data": {
+        "statement": "Quelle est l'échelle d'auto-évaluation de la douleur la plus adaptée pour un adulte capable de communiquer verbalement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échelle Visuelle Analogique (EVA)",
+            "justification": "L'EVA permet une évaluation précise de l'intensité de la douleur en utilisant une réglette avec des graduations, adaptée à un patient communicant."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Numérique (EN)",
+            "justification": "L'EN est également utilisée pour évaluer l'intensité de la douleur, mais l'EVA est généralement plus précise en raison de sa réglette."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Verbale Simple (EVS)",
+            "justification": "L'EVS est utilisée pour les patients incapables d'utiliser les autres échelles, donc elle n'est pas adaptée ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle de douleur comportementale",
+            "justification": "Cette échelle est destinée aux patients non communicants, elle ne s'applique donc pas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Questionnaire douleur de McGill",
+            "justification": "Le questionnaire de McGill est un outil multidimensionnel pour évaluer la douleur chronique et ne s'applique pas à une évaluation immédiate de la douleur aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755269686478_02",
+      "current_version_epoch_ms": 1755269686478,
+      "topic": {
+        "subject": "soinspal",
+        "item": "dlrphysiopath"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'échelle numérique (EN) est-elle particulièrement utile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lors de situations critiques comme en préhospitalier ou en soins intensifs",
+            "justification": "L'échelle numérique (EN) est adaptée aux situations où un support visuel est nécessaire pour évaluer la douleur de manière rapide et compréhensible."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de consultations de suivi de douleur chronique",
+            "justification": "L'échelle numérique n'est pas adaptée à l'évaluation de la douleur chronique qui nécessite une évaluation plus complexe et multidimensionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour les patients incapables de communiquer verbalement",
+            "justification": "L'EN s'adresse uniquement aux patients capables de quantifier verbalement leur douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une évaluation comportementale chez un patient sédaté",
+            "justification": "Cette échelle ne permet pas de quantifier directement la douleur des patients non communicants, comme ceux en état sédaté."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le cadre d'une douleur neuropathique",
+            "justification": "L'EN peut évaluer l'intensité de la douleur, mais elle ne prend pas en compte les caractéristiques spécifiques de la douleur neuropathique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755269686478_03",
+      "current_version_epoch_ms": 1755269686478,
+      "topic": {
+        "subject": "soinspal",
+        "item": "dlrphysiopath"
+      },
+      "data": {
+        "statement": "Quelle échelle d'hétéro-évaluation de la douleur est particulièrement adaptée pour les jeunes enfants en post-opératoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échelle comportementale",
+            "justification": "Les échelles comportementales permettent d'évaluer la douleur chez les jeunes enfants en observant des comportements spécifiques comme la vocalisation, l'expression faciale, et l'agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Visuelle Analogique (EVA)",
+            "justification": "L'EVA nécessite que le patient soit capable de situer sa douleur sur une réglette, ce qui n'est pas adapté pour les jeunes enfants non verbalistes."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Verbale Simple (EVS)",
+            "justification": "L'EVS est conçue pour les patients capables de communiquer verbalement et ne s'adapte pas aux jeunes enfants qui ne sont pas encore capables de s'exprimer clairement."
+          },
+          {
+            "correct": false,
+            "proposition": "Questionnaire douleur de McGill",
+            "justification": "Le questionnaire de McGill est utilisé principalement pour la douleur chronique et ne correspond pas aux besoins des enfants post-opératoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Numérique (EN)",
+            "justification": "L'EN est difficile à utiliser chez les jeunes enfants qui ne sont pas capables de comprendre et quantifier verbalement leur douleur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755269686478_04",
+      "current_version_epoch_ms": 1755269686478,
+      "topic": {
+        "subject": "soinspal",
+        "item": "dlrphysiopath"
+      },
+      "data": {
+        "statement": "Quel type de douleur est souvent associé à un traitement étiologique curatif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur aiguë",
+            "justification": "La douleur aiguë, souvent nociceptive, est liée à une cause identifiable et peut être traitée de manière curative par un traitement étiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur chronique",
+            "justification": "La douleur chronique, étant multifactorielle, est généralement traitée de manière symptomatique, sans possibilité de traitement curatif étiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur neuropathique",
+            "justification": "La douleur neuropathique peut être difficile à traiter de manière curative, et nécessite souvent une gestion symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur viscérale",
+            "justification": "La douleur viscérale est souvent chronique et difficile à traiter de manière curative, nécessitant une gestion symptomatique à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur nociplastique",
+            "justification": "La douleur nociplastique est souvent liée à des troubles du traitement de la douleur et est généralement gérée symptomatiquement plutôt que par un traitement curatif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755269686478_05",
+      "current_version_epoch_ms": 1755269686478,
+      "topic": {
+        "subject": "soinspal",
+        "item": "dlrphysiopath"
+      },
+      "data": {
+        "statement": "Quelle échelle d'évaluation de la douleur est la plus utilisée pour la douleur chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Questionnaire douleur de McGill",
+            "justification": "Le questionnaire de McGill est un outil multidimensionnel qui permet d'évaluer la douleur chronique, en explorant les aspects sensoriels et affectifs de la douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Visuelle Analogique (EVA)",
+            "justification": "L'EVA est adaptée à l'évaluation de la douleur aiguë, mais elle ne permet pas d'évaluer les différentes dimensions de la douleur chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Numérique (EN)",
+            "justification": "L'EN est un outil simple pour mesurer l'intensité de la douleur, mais elle ne permet pas d'explorer les dimensions affectives et sensorielles nécessaires pour évaluer la douleur chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle Verbale Simple (EVS)",
+            "justification": "L'EVS est une échelle plus simple, utilisée principalement pour les douleurs aiguës ou pour les patients non capables d'utiliser des échelles plus complexes."
+          },
+          {
+            "correct": false,
+            "proposition": "Échelle comportementale",
+            "justification": "Les échelles comportementales sont destinées aux patients non communicants et ne conviennent pas pour évaluer la douleur chronique."
+          }
+        ]
+      }
+    }
+  ]
+}

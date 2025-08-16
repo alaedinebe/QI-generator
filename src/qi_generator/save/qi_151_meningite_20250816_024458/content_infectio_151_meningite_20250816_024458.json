@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755305304834_01",
+      "current_version_epoch_ms": 1755305304834,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "En cas de suspicion de méningite et en l'absence de contre-indication à la ponction lombaire (PL), quelle est la première démarche à suivre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Effectuer une ponction lombaire et des hémocultures en urgence.",
+            "justification": "La ponction lombaire (PL) et les hémocultures doivent être réalisées en urgence pour confirmer le diagnostic et orienter le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer des antibiotiques avant de réaliser la ponction lombaire.",
+            "justification": "Les antibiotiques ne doivent être administrés qu'après la PL et la récolte des hémocultures, sauf si l'état du patient justifie une prise en charge immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un scanner cérébral avant toute autre intervention.",
+            "justification": "Le scanner cérébral n'est indiqué qu'en cas de contre-indication neurologique à la PL."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement des hémocultures sans ponction lombaire.",
+            "justification": "La ponction lombaire est essentielle pour le diagnostic en cas de méningite, les hémocultures étant complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Prendre en charge les symptômes sans investigation complémentaire immédiate.",
+            "justification": "Les investigations doivent être réalisées rapidement, notamment la PL et les hémocultures, pour débuter un traitement ciblé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305304834_02",
+      "current_version_epoch_ms": 1755305304834,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Que faut-il faire si le liquide céphalo-rachidien (LCR) est trouble lors de la ponction lombaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer de la dexaméthasone (DXM) et débuter une antibiothérapie immédiate.",
+            "justification": "Un LCR trouble indique souvent une étiologie bactérienne nécessitant une corticothérapie (DXM) et une antibiothérapie immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre les résultats de la cyto-biochimie avant d'administrer un traitement.",
+            "justification": "Il est essentiel de commencer un traitement antibiotique immédiatement en cas de LCR trouble, avant d'obtenir les résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer uniquement de la dexaméthasone sans antibiothérapie.",
+            "justification": "La dexaméthasone est indiquée en association avec l'antibiothérapie, car seule elle ne couvre pas les infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rien administrer et attendre les résultats microbiologiques.",
+            "justification": "En cas de LCR trouble, l'absence de traitement immédiat augmente le risque de complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un traitement antiviral en premier lieu.",
+            "justification": "Un LCR trouble suggère une étiologie bactérienne, pas virale, rendant l'antibiothérapie plus appropriée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305304834_03",
+      "current_version_epoch_ms": 1755305304834,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Que faire si le liquide céphalo-rachidien (LCR) est clair lors d'une suspicion de méningite ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Commencer immédiatement un traitement antibiotique sans attendre les résultats de la cyto-biochimie.",
+            "justification": "Le LCR clair nécessite une analyse approfondie avant d'engager un traitement antibiotique, sauf en cas de méningo-encéphalite à liquide clair."
+          },
+          {
+            "correct": true,
+            "proposition": "Attendre les résultats de la cyto-biochimie pour orienter le traitement.",
+            "justification": "Le LCR clair permet d'attendre les résultats microbiologiques pour choisir le traitement le plus adapté, sauf en cas de méningo-encéphalite."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rien administrer et observer l'évolution clinique.",
+            "justification": "Bien qu'une attente soit possible, un traitement doit être initié en fonction des résultats microbiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de la dexaméthasone et une antibiothérapie immédiatement.",
+            "justification": "La dexaméthasone et l'antibiothérapie ne sont indiquées que si le LCR est trouble et suggère une infection bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un scanner cérébral pour exclure une autre pathologie.",
+            "justification": "Le scanner cérébral n'est indiqué que si une contre-indication neurologique à la PL est présente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305304834_04",
+      "current_version_epoch_ms": 1755305304834,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "En cas de contre-indication à la ponction lombaire, quelles sont les étapes à suivre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Effectuer des hémocultures et administrer de la dexaméthasone et des antibiotiques.",
+            "justification": "Les hémocultures et le traitement antibiotique sont indispensables pour débuter une prise en charge, même en l'absence de PL."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un scanner cérébral sans correction de la contre-indication à la PL.",
+            "justification": "Le scanner est effectué en cas de contre-indication neurologique, mais il ne remplace pas la PL une fois la contre-indication levée."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer uniquement l'antibiothérapie sans hémocultures.",
+            "justification": "Les hémocultures sont essentielles pour adapter l'antibiothérapie et doivent être réalisées avant le début du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rien administrer tant que la PL n'est pas possible.",
+            "justification": "Il est crucial de commencer un traitement antibiotique et de recueillir des échantillons même en cas de contre-indication à la PL."
+          },
+          {
+            "correct": false,
+            "proposition": "Abstention thérapeutique jusqu'à ce que la PL soit possible.",
+            "justification": "Le traitement antibiotique doit commencer dès que possible, même si la PL est contre-indiquée temporairement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755305304834_05",
+      "current_version_epoch_ms": 1755305304834,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Que faire si une contre-indication non neurologique à la ponction lombaire est présente ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Corriger la contre-indication non neurologique et réaliser la PL dès que possible.",
+            "justification": "Les contre-indications non neurologiques doivent être corrigées pour permettre la réalisation de la PL et la confirmation du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Réévaluer la nécessité de la PL après quelques jours.",
+            "justification": "La PL doit être réalisée dès que la contre-indication est levée, sans retard inutile."
+          },
+          {
+            "correct": false,
+            "proposition": "Procéder directement à l'administration d'antibiotiques sans attendre la PL.",
+            "justification": "Bien que l'antibiothérapie soit nécessaire, la PL doit être effectuée dès que possible pour confirmer l'étiologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Laisser l'état du patient évoluer sans intervention supplémentaire.",
+            "justification": "Il est essentiel d'intervenir rapidement, notamment en réalisant la PL après correction de la contre-indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la posologie de l'antibiothérapie en attendant la PL.",
+            "justification": "L'antibiothérapie doit être administrée selon les protocoles, sans réduction de la posologie avant la réalisation de la PL."
+          }
+        ]
+      }
+    }
+  ]
+}

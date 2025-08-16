@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755106989428_01",
+      "current_version_epoch_ms": 1755106989428,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Quel est le dépistage simple recommandé pour identifier une consommation de tabac chez tout patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Poser la question : « Fumez-vous ? »",
+            "justification": "Le dépistage simple repose explicitement sur la question « fumez-vous ? »."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander d'emblée la date de début du tabagisme",
+            "justification": "Cette information n'est pas l'étape de dépistage simple, qui consiste à poser « fumez-vous ? »."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer par quantifier les paquets-années",
+            "justification": "La quantification (PA) relève de l'évaluation, pas du dépistage simple qui se limite à « fumez-vous ? »."
+          },
+          {
+            "correct": false,
+            "proposition": "Interroger d'abord sur les tentatives d'arrêt",
+            "justification": "Ce n'est pas la première étape : le dépistage simple se fait par la question « fumez-vous ? »."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander en premier le type de produit consommé",
+            "justification": "L'étape de dépistage simple est la question « fumez-vous ? », avant tout autre détail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755106989428_02",
+      "current_version_epoch_ms": 1755106989428,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Quelle est la définition correcte du calcul des paquets-années (PA) pour l'évaluation du tabagisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PA = nombre de paquets par jour × nombre d'années d'intoxication",
+            "justification": "La définition donnée est : PA = paquets/jour × années d'intoxication."
+          },
+          {
+            "correct": false,
+            "proposition": "PA = nombre de paquets par jour + nombre d'années d'intoxication",
+            "justification": "Il s'agit d'un produit (×) et non d'une addition."
+          },
+          {
+            "correct": false,
+            "proposition": "PA = nombre de paquets par semaine × nombre d'années d'intoxication",
+            "justification": "La formule se base sur les paquets par jour, pas par semaine."
+          },
+          {
+            "correct": false,
+            "proposition": "PA = (nombre de paquets par jour × nombre de mois d'intoxication)",
+            "justification": "L'unité temporelle utilisée est l'année, pas le mois."
+          },
+          {
+            "correct": false,
+            "proposition": "PA = nombre de cigarettes par jour × nombre d'années d'intoxication",
+            "justification": "La définition utilise les paquets par jour, pas le nombre de cigarettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755106989428_03",
+      "current_version_epoch_ms": 1755106989428,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Après une réponse positive à la question « Fumez-vous ? », quelle conduite générale est attendue ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déployer un algorithme décisionnel visant la progression jusqu'à l'arrêt du tabac",
+            "justification": "Après le dépistage, il est prévu un algorithme décisionnel jusqu'à l'arrêt du tabac."
+          },
+          {
+            "correct": false,
+            "proposition": "Noter l'information et s'abstenir de toute action ultérieure",
+            "justification": "Une suite est explicitement prévue : un algorithme décisionnel jusqu'à l'arrêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter toute démarche d'intervention à une consultation ultérieure systématique",
+            "justification": "La logique est d'enchaîner vers un algorithme décisionnel, pas de différer systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne proposer une suite que si la consommation est jugée « importante »",
+            "justification": "Aucun seuil n'est mentionné : la suite est un algorithme décisionnel jusqu'à l'arrêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter la démarche à une information verbale unique",
+            "justification": "La démarche attendue est structurée en algorithme décisionnel, pas une simple information ponctuelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755106989428_04",
+      "current_version_epoch_ms": 1755106989428,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Concernant l'évaluation et le suivi de la consommation de tabac, quelles affirmations sont justes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une évaluation du tabagisme chez tout patient",
+            "justification": "Il est précisé que tout patient doit bénéficier d'une évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Réserver l'évaluation aux patients présentant une plainte respiratoire",
+            "justification": "L'évaluation concerne tout patient, sans restriction de motif."
+          },
+          {
+            "correct": true,
+            "proposition": "Organiser un suivi après l'évaluation",
+            "justification": "Il est indiqué qu'un suivi doit être assuré pour tout patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter l'évaluation aux adultes",
+            "justification": "Aucune limitation d'âge n'est mentionnée : il est question de tout patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser l'évaluation uniquement lors des bilans de santé programmés",
+            "justification": "L'évaluation est à réaliser pour tout patient, sans condition de contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755106989428_05",
+      "current_version_epoch_ms": 1755106989428,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "À partir de la définition des paquets-années (PA), quelles égalités sont correctes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "1 paquet/jour pendant 12 ans = 12 PA",
+            "justification": "PA = paquets/jour × années = 1 × 12 = 12."
+          },
+          {
+            "correct": true,
+            "proposition": "2 paquets/jour pendant 5 ans = 10 PA",
+            "justification": "PA = 2 × 5 = 10."
+          },
+          {
+            "correct": true,
+            "proposition": "0,5 paquet/jour pendant 10 ans = 5 PA",
+            "justification": "PA = 0,5 × 10 = 5."
+          },
+          {
+            "correct": false,
+            "proposition": "3 paquets/jour pendant 4 ans = 7 PA",
+            "justification": "PA = 3 × 4 = 12, et non 7."
+          },
+          {
+            "correct": false,
+            "proposition": "1 paquet/jour pendant 20 ans = 15 PA",
+            "justification": "PA = 1 × 20 = 20, et non 15."
+          }
+        ]
+      }
+    }
+  ]
+}

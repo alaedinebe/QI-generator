@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "arthrose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755253105202_01",
+      "current_version_epoch_ms": 1755253105202,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes concernant l'entité et sa localisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une gonarthrose.",
+            "justification": "L'entité décrite est explicitement une gonarthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "L'atteinte est fémoro-tibiale interne.",
+            "justification": "La localisation précisée est le compartiment fémoro-tibial interne."
+          },
+          {
+            "correct": false,
+            "proposition": "L'atteinte est fémoro-tibiale externe.",
+            "justification": "La localisation externe n'est pas celle indiquée ; c'est interne."
+          },
+          {
+            "correct": false,
+            "proposition": "L'atteinte est fémoro-patellaire isolée.",
+            "justification": "La localisation fémoro-patellaire n'est pas celle rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne s'agit pas d'une arthrose.",
+            "justification": "Il est précisé qu'il s'agit d'une arthrose (gonarthrose)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253105202_02",
+      "current_version_epoch_ms": 1755253105202,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître la modalité d'imagerie associée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie.",
+            "justification": "La modalité annoncée est une radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM.",
+            "justification": "Ce n'est pas l'IRM qui est précisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner (TDM).",
+            "justification": "La modalité indiquée n'est pas un scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie.",
+            "justification": "L'imagerie mentionnée n'est pas une échographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Scintigraphie osseuse.",
+            "justification": "La modalité retenue n'est pas la scintigraphie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253105202_03",
+      "current_version_epoch_ms": 1755253105202,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Classer la topographie de l'arthrose décrite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compartiment fémoro-tibial interne.",
+            "justification": "La topographie précisée est le compartiment fémoro-tibial interne."
+          },
+          {
+            "correct": false,
+            "proposition": "Compartiment fémoro-tibial externe.",
+            "justification": "La localisation externe ne correspond pas à celle indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte bi-compartimentaire fémoro-tibiale.",
+            "justification": "Il n'est pas rapporté d'atteinte bi-compartimentaire ; une localisation interne unique est précisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte tri-compartimentaire incluant fémoro-patellaire.",
+            "justification": "Aucune atteinte tri-compartimentaire n'est indiquée ; seule l'atteinte interne est spécifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Compartiment fémoro-patellaire.",
+            "justification": "La localisation fémoro-patellaire n'est pas celle décrite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253105202_04",
+      "current_version_epoch_ms": 1755253105202,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Différencier les terminologies valides pour décrire cette atteinte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Arthrose fémoro-tibiale interne.",
+            "justification": "Cette terminologie correspond exactement à la localisation annoncée."
+          },
+          {
+            "correct": true,
+            "proposition": "Gonarthrose.",
+            "justification": "Le terme employé est celui de gonarthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Coxarthrose.",
+            "justification": "Cette appellation ne correspond pas à l'atteinte décrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Arthrose fémoro-tibiale externe.",
+            "justification": "La localisation externe n'est pas celle spécifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Arthrose fémoro-patellaire isolée.",
+            "justification": "La localisation fémoro-patellaire isolée n'est pas celle retenue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253105202_05",
+      "current_version_epoch_ms": 1755253105202,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Sélectionner les affirmations compatibles avec la description fournie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic appartient au cadre des arthroses.",
+            "justification": "Il est précisé qu'il s'agit d'une arthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "La latéralité du compartiment atteint est interne.",
+            "justification": "La localisation interne est explicitement indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "La description exclut une atteinte fémoro-tibiale externe isolée.",
+            "justification": "La localisation retenue est interne, ce qui n'est pas compatible avec une localisation externe isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une atteinte fémoro-patellaire associée est imposée par la description.",
+            "justification": "Aucune atteinte fémoro-patellaire associée n'est imposée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen de référence cité est une IRM.",
+            "justification": "La modalité d'imagerie mentionnée est la radiographie, pas l'IRM."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755209003996_01",
+      "current_version_epoch_ms": 1755209003996,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier, chez l'adulte, les éléments cliniques évocateurs d'une dermatite séborrhéique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plaques érythémateuses recouvertes de squames sur les zones séborrhéiques du visage (sillons nasogéniens, sourcils, glabelle, lisière antérieure du cuir chevelu).",
+            "justification": "Le visage est la topographie la plus fréquente avec plaques érythémato-squameuses sur les zones séborrhéiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Squames non adhérentes du cuir chevelu (pellicules).",
+            "justification": "L'atteinte du cuir chevelu se manifeste par des squames non adhérentes, décrites comme des pellicules."
+          },
+          {
+            "correct": true,
+            "proposition": "Lésions annulaires ou circinées avec bordure squameuse prédominant en zone médiane pré-sternale.",
+            "justification": "L'atteinte du tronc est décrite sous forme de lésions annulaires/circinées à bordure squameuse au niveau pré-sternal."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte prédominante des membres inférieurs sans participation du visage, du cuir chevelu ou du tronc médian.",
+            "justification": "Les localisations typiques rapportées sont le visage, le cuir chevelu et la zone médiane pré-sternale, pas une prédominance des membres."
+          },
+          {
+            "correct": false,
+            "proposition": "Localisation exclusive sur des zones non séborrhéiques du visage.",
+            "justification": "La localisation faciale caractéristique concerne les zones séborrhéiques (sillons nasogéniens, sourcils, glabelle, lisière antérieure du cuir chevelu)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209003996_02",
+      "current_version_epoch_ms": 1755209003996,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Définir la modalité du diagnostic d'une dermatite séborrhéique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic est clinique.",
+            "justification": "Il est explicitement précisé que le diagnostic est clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une biopsie cutanée est nécessaire d'emblée pour confirmer le diagnostic.",
+            "justification": "Aucune nécessité de biopsie n'est indiquée ; la clinique suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "Une culture mycologique est obligatoire au diagnostic.",
+            "justification": "Aucun examen complémentaire obligatoire n'est requis ; la conduite repose sur la clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic est un diagnostic d'exclusion après échec des traitements.",
+            "justification": "Il n'est pas présenté comme un diagnostic d'exclusion mais comme un diagnostic clinique direct."
+          },
+          {
+            "correct": false,
+            "proposition": "Une sérologie VIH est systématique chez tout patient au moment du diagnostic.",
+            "justification": "Le dépistage VIH est indiqué en cas de forme grave résistant au traitement, pas systématiquement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209003996_03",
+      "current_version_epoch_ms": 1755209003996,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître la présentation typique chez le nouveau-né et le nourrisson.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Débute après la naissance.",
+            "justification": "La forme du nouveau-né et du nourrisson débute après la naissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Croûtes jaunâtres du cuir chevelu (croûtes de lait) et du visage.",
+            "justification": "La présentation la plus fréquente associe croûtes jaunâtres du cuir chevelu et du visage."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte possible du siège.",
+            "justification": "Une atteinte du siège est possible dans ces formes."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythrodermie fréquente.",
+            "justification": "L'érythrodermie est rare dans ces formes."
+          },
+          {
+            "correct": false,
+            "proposition": "Survenue anténatale.",
+            "justification": "La survenue est post-natale, pas anténatale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209003996_04",
+      "current_version_epoch_ms": 1755209003996,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Différencier les caractéristiques de l'atteinte du cuir chevelu chez l'adulte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peut être isolée.",
+            "justification": "L'atteinte du cuir chevelu peut être isolée."
+          },
+          {
+            "correct": true,
+            "proposition": "Squames non adhérentes correspondant à des pellicules.",
+            "justification": "Les squames sont décrites comme non adhérentes (pellicules)."
+          },
+          {
+            "correct": false,
+            "proposition": "Squames toujours adhérentes et profondes.",
+            "justification": "Il est indiqué des squames non adhérentes, et non des squames toujours adhérentes."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut évoluer vers un casque squameux dans les formes sévères.",
+            "justification": "Les formes sévères peuvent présenter un casque squameux."
+          },
+          {
+            "correct": false,
+            "proposition": "Jamais associée à une atteinte du visage.",
+            "justification": "Le visage constitue la topographie la plus fréquente et peut s'associer à l'atteinte du cuir chevelu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755209003996_05",
+      "current_version_epoch_ms": 1755209003996,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier la situation imposant un dépistage du VIH en lien avec une dermatite séborrhéique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dermatite séborrhéique grave résistant au traitement.",
+            "justification": "Une forme grave résistante au traitement doit faire prescrire un test de dépistage du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute dermatite séborrhéique nouvellement diagnostiquée, quel que soit le contexte.",
+            "justification": "Le dépistage n'est pas systématique ; il est indiqué en cas de forme grave résistante au traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Forme légère du nourrisson avec croûtes de lait isolées.",
+            "justification": "Aucune indication de dépistage dans cette présentation habituelle n'est rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte tronculaire pré-sternale isolée bien contrôlée.",
+            "justification": "L'indication ciblée concerne les formes graves résistantes, pas une atteinte localisée contrôlée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du cuir chevelu avec pellicules simples répondant au traitement.",
+            "justification": "La simple présence de pellicules sans résistance au traitement ne justifie pas de dépistage."
+          }
+        ]
+      }
+    }
+  ]
+}

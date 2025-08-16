@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755212314618_01",
+      "current_version_epoch_ms": 1755212314618,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier les éléments cliniques/biologiques qui orientent vers une pemphigoïde bulleuse (PB).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sujet âgé (> 70 ans), souvent en mauvais état général.",
+            "justification": "La PB touche typiquement un sujet de plus de 70 ans, souvent en mauvais état général."
+          },
+          {
+            "correct": true,
+            "proposition": "Prurit intense associé.",
+            "justification": "La PB s'accompagne d'un prurit intense."
+          },
+          {
+            "correct": true,
+            "proposition": "Lésions eczématiformes ou urticariennes recouvertes de bulles tendues.",
+            "justification": "La PB se manifeste par des lésions eczématiformes/urticariennes avec bulles tendues."
+          },
+          {
+            "correct": true,
+            "proposition": "Topographie à la racine et aux faces de flexion avec épargne de la tête, du cou et des muqueuses.",
+            "justification": "Les lésions de PB sont localisées aux racines et faces de flexion, épargnant tête, cou et muqueuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Érosions douloureuses de la muqueuse buccale inaugurales.",
+            "justification": "Des érosions muqueuses inaugurales orientent vers un pemphigus vulgaire, pas vers une PB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212314618_02",
+      "current_version_epoch_ms": 1755212314618,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Différencier les maladies bulleuses auto-immunes selon la localisation du clivage et les caractères histologiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Clivage sous-épidermique dans les pemphigoïdes.",
+            "justification": "Les pemphigoïdes sont caractérisées par une bulle sous-épidermique."
+          },
+          {
+            "correct": true,
+            "proposition": "Clivage intra-épidermique suprabasal dans le pemphigus vulgaire.",
+            "justification": "Le pemphigus vulgaire siège dans la région supra-basale de l'épiderme."
+          },
+          {
+            "correct": true,
+            "proposition": "Clivage sous-corné dans le pemphigus superficiel.",
+            "justification": "Le pemphigus superficiel siège dans la région sous-cornée."
+          },
+          {
+            "correct": true,
+            "proposition": "Acantholyse intra-épidermique dans le pemphigus vulgaire.",
+            "justification": "Le pemphigus vulgaire présente une bulle intra-épidermique avec acantholyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Bulle des pemphigoïdes typiquement flasque et fragile.",
+            "justification": "Les bulles flasques et fragiles caractérisent les pemphigus ; en PB, les bulles sont habituellement tendues."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212314618_03",
+      "current_version_epoch_ms": 1755212314618,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître les profils d'immunofluorescence directe (IFD) des pemphigoïdes et des pemphigus.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dépôt linéaire d'IgG et de C3 à la jonction dermo-épidermique en pemphigoïde bulleuse.",
+            "justification": "La PB montre un marquage linéaire d'IgG et C3 à la jonction dermo-épidermique."
+          },
+          {
+            "correct": true,
+            "proposition": "Marquage intercellulaire en résille d'IgG et de C3 à la surface des kératinocytes en pemphigus.",
+            "justification": "Le pemphigus présente un dépôt d'IgG et C3 à la surface des kératinocytes (marquage en résille)."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de C3 dans la pemphigoïde bulleuse.",
+            "justification": "En PB, on observe un dépôt d'IgG et de C3, et non une absence de C3."
+          },
+          {
+            "correct": false,
+            "proposition": "Marquage à la surface des kératinocytes en pemphigoïde bulleuse.",
+            "justification": "Le marquage à la surface des kératinocytes correspond au pemphigus, pas à la PB."
+          },
+          {
+            "correct": false,
+            "proposition": "Marquage linéaire à la jonction dermo-épidermique en pemphigus.",
+            "justification": "Le marquage linéaire à la JDE est celui de la PB ; le pemphigus est intercellulaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212314618_04",
+      "current_version_epoch_ms": 1755212314618,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer les associations maladie–cibles sérologiques (IIF/ELISA).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pemphigoïde bulleuse ↔ anticorps circulants contre la jonction dermo-épidermique, BP180/BP230 à l'ELISA.",
+            "justification": "En PB, les anticorps reconnaissent la JDE et ciblent BP180 et BP230 en ELISA."
+          },
+          {
+            "correct": true,
+            "proposition": "Pemphigus vulgaire ↔ anticorps intercellulaires, desmogléine 3 à l'ELISA.",
+            "justification": "Le pemphigus vulgaire présente des anticorps contre la substance intercellulaire ; l'ELISA cible la desmogléine 3."
+          },
+          {
+            "correct": true,
+            "proposition": "Pemphigus superficiel ↔ desmogléine 1 à l'ELISA.",
+            "justification": "Le pemphigus superficiel est associé à des anticorps anti-desmogléine 1 en ELISA."
+          },
+          {
+            "correct": false,
+            "proposition": "Pemphigoïde bulleuse ↔ anticorps intercellulaires.",
+            "justification": "Les anticorps intercellulaires sont retrouvés dans le pemphigus, pas dans la PB."
+          },
+          {
+            "correct": false,
+            "proposition": "Pemphigus ↔ absence d'anticorps circulants en immunofluorescence indirecte.",
+            "justification": "En pemphigus, des anticorps circulants reconnaissant la substance intercellulaire sont mis en évidence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212314618_05",
+      "current_version_epoch_ms": 1755212314618,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Différencier pemphigoïde bulleuse (PB) et pemphigus vulgaire (PV) : sélectionner les associations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PB ↔ bulles habituellement tendues (hors muqueuses).",
+            "justification": "Les bulles de PB sont habituellement tendues ; sur les muqueuses, elles se rompent rapidement."
+          },
+          {
+            "correct": true,
+            "proposition": "PV ↔ bulles flasques et fragiles.",
+            "justification": "Les bulles des pemphigus sont flasques et fragiles."
+          },
+          {
+            "correct": true,
+            "proposition": "PB ↔ hyperéosinophilie sanguine.",
+            "justification": "Une hyperéosinophilie sanguine est décrite dans la PB."
+          },
+          {
+            "correct": true,
+            "proposition": "PV ↔ bulles cutanées secondaires sur peau non inflammatoire avec signe de Nikolsky.",
+            "justification": "Le PV peut présenter secondairement des bulles cutanées sur peau non inflammatoire et un signe de Nikolsky."
+          },
+          {
+            "correct": false,
+            "proposition": "PB ↔ érosions muqueuses inaugurales.",
+            "justification": "Des érosions muqueuses inaugurales évoquent le PV, pas la PB."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbperso",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755080267835_01",
+      "current_version_epoch_ms": 1755080267835,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier, parmi les diagnostics différentiels (OIC-066-64-B), la catégorie explicitement non psychiatrique à envisager.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Réaction adaptée au stress",
+            "justification": "Ne correspond pas à la catégorie intitulée « cause médicale non-psychiatrique »."
+          },
+          {
+            "correct": true,
+            "proposition": "Cause médicale non-psychiatrique",
+            "justification": "Catégorie explicitement nommée comme non psychiatrique dans OIC-066-64-B."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC",
+            "justification": "Ne correspond pas à la catégorie intitulée « cause médicale non-psychiatrique »."
+          },
+          {
+            "correct": false,
+            "proposition": "TSA",
+            "justification": "Ne correspond pas à la catégorie intitulée « cause médicale non-psychiatrique »."
+          },
+          {
+            "correct": false,
+            "proposition": "TSPT",
+            "justification": "Ne correspond pas à la catégorie intitulée « cause médicale non-psychiatrique »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755080267835_02",
+      "current_version_epoch_ms": 1755080267835,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Sélectionner les entités abrégées par un sigle parmi les principaux diagnostics différentiels (OIC-066-64-B).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Réaction adaptée au stress",
+            "justification": "Intitulé en toutes lettres ; ce n'est pas un sigle."
+          },
+          {
+            "correct": false,
+            "proposition": "Cause médicale non-psychiatrique",
+            "justification": "Intitulé en toutes lettres ; ce n'est pas un sigle."
+          },
+          {
+            "correct": true,
+            "proposition": "EDC",
+            "justification": "Abréviation explicitement listée parmi les diagnostics différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "TSA",
+            "justification": "Abréviation explicitement listée parmi les diagnostics différentiels."
+          },
+          {
+            "correct": true,
+            "proposition": "TSPT",
+            "justification": "Abréviation explicitement listée parmi les diagnostics différentiels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755080267835_03",
+      "current_version_epoch_ms": 1755080267835,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Repérer, parmi les propositions, celles qui figurent parmi les principaux diagnostics différentiels à considérer (OIC-066-64-B ; Items 66a et 66f).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaction adaptée au stress",
+            "justification": "Figure explicitement parmi les diagnostics différentiels à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "Cause médicale non-psychiatrique",
+            "justification": "Figure explicitement parmi les diagnostics différentiels à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "EDC",
+            "justification": "Figure explicitement parmi les diagnostics différentiels à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "TSA",
+            "justification": "Figure explicitement parmi les diagnostics différentiels à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "TSPT",
+            "justification": "Figure explicitement parmi les diagnostics différentiels à connaître."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755080267835_04",
+      "current_version_epoch_ms": 1755080267835,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Identifier l'entité correspondant précisément à « réaction adaptée au stress » parmi les diagnostics différentiels (OIC-066-64-B).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaction adaptée au stress",
+            "justification": "Intitulé explicitement présent dans la liste des diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Cause médicale non-psychiatrique",
+            "justification": "Désigne une autre catégorie de la liste, différente de « réaction adaptée au stress »."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC",
+            "justification": "Abréviation d'un autre diagnostic différentiel, distinct de « réaction adaptée au stress »."
+          },
+          {
+            "correct": false,
+            "proposition": "TSA",
+            "justification": "Abréviation d'un autre diagnostic différentiel, distinct de « réaction adaptée au stress »."
+          },
+          {
+            "correct": false,
+            "proposition": "TSPT",
+            "justification": "Abréviation d'un autre diagnostic différentiel, distinct de « réaction adaptée au stress »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755080267835_05",
+      "current_version_epoch_ms": 1755080267835,
+      "topic": {
+        "subject": "psy",
+        "item": "tbperso"
+      },
+      "data": {
+        "statement": "Parmi les diagnostics ci-dessous, sélectionner ceux dont l'intitulé contient explicitement le terme « stress » (OIC-066-64-B).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaction adaptée au stress",
+            "justification": "Le terme « stress » figure explicitement dans l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "Cause médicale non-psychiatrique",
+            "justification": "Le terme « stress » n'apparaît pas dans l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "EDC",
+            "justification": "Le terme « stress » n'apparaît pas dans l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "TSA",
+            "justification": "Le terme « stress » n'apparaît pas dans l'intitulé."
+          },
+          {
+            "correct": true,
+            "proposition": "TSPT",
+            "justification": "Le terme « stress » figure explicitement dans l'intitulé (« trouble de stress post-traumatique »)."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "fievreaigue",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755292056483_01",
+      "current_version_epoch_ms": 1755292056483,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la température corporelle seuil définissant la fièvre chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "38°C le matin et 38,3°C le soir",
+            "justification": "La fièvre chez l'adulte est définie par une température corporelle centrale supérieure ou égale à 38°C le matin, et 38,3°C le soir."
+          },
+          {
+            "correct": false,
+            "proposition": "37,5°C le matin et 38°C le soir",
+            "justification": "La température de 37,5°C est inférieure au seuil défini pour la fièvre chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "38,5°C le matin et 39°C le soir",
+            "justification": "La température de 38,5°C est trop élevée par rapport aux seuils standards définis pour la fièvre chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "37°C tout au long de la journée",
+            "justification": "Une température de 37°C est considérée comme normale et ne définit pas la fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "39°C le matin et 39,3°C le soir",
+            "justification": "Des températures aussi élevées sont considérées comme de la hyperthermie et ne sont pas définies comme de la fièvre dans le cadre des seuils cliniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292056483_02",
+      "current_version_epoch_ms": 1755292056483,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la méthode la plus fiable pour mesurer la température chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voie rectale avec thermomètre électronique",
+            "justification": "La voie rectale est la méthode la plus fiable pour mesurer la température chez l'enfant, surtout lorsqu'elle est réalisée avec un thermomètre électronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie auriculaire avec thermomètre infrarouge",
+            "justification": "Bien que pratique, la voie auriculaire est moins fiable que la voie rectale, notamment en raison des variations possibles liées à l'obstruction du conduit auditif."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie frontale avec thermomètre infrarouge",
+            "justification": "La mesure par voie frontale est moins fiable que par voie rectale, bien qu'elle soit souvent utilisée pour sa rapidité."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie buccale avec thermomètre électronique",
+            "justification": "La mesure buccale est moins fiable que la voie rectale, en particulier en raison de l'importance de la technique et des risques de variabilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Voie axillaire avec thermomètre électronique",
+            "justification": "La voie axillaire est moins précise que la voie rectale et nécessite une majoration de 0,5°C pour obtenir une estimation de la température centrale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292056483_03",
+      "current_version_epoch_ms": 1755292056483,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quelle est la définition de la fièvre prolongée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre évoluant depuis plus de 20 jours, avec une origine infectieuse retrouvée dans la moitié des cas",
+            "justification": "La fièvre prolongée est définie par une évolution de plus de 20 jours, avec une origine infectieuse retrouvée dans environ 50% des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre évoluant depuis plus de 10 jours, avec une origine infectieuse retrouvée dans la majorité des cas",
+            "justification": "La fièvre prolongée est définie après 20 jours et non 10 jours. De plus, l'origine infectieuse n'est retrouvée que dans la moitié des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre évoluant depuis 5 jours, avec une origine infectieuse retrouvée dans la majorité des cas",
+            "justification": "La fièvre de 5 jours est définie comme une fièvre aiguë, et non prolongée, avec une origine infectieuse dans la majorité des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre évoluant depuis plus de 15 jours, avec une origine infectieuse retrouvée dans 75% des cas",
+            "justification": "L'origine infectieuse dans la fièvre prolongée n'est retrouvée que dans environ 50% des cas, et la durée de 15 jours n'est pas la limite définie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre évoluant depuis plus de 30 jours, avec une origine infectieuse retrouvée dans 25% des cas",
+            "justification": "La fièvre prolongée est définie après 20 jours et non 30 jours. De plus, l'origine infectieuse n'est retrouvée que dans la moitié des cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292056483_04",
+      "current_version_epoch_ms": 1755292056483,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Quel est un facteur important à prendre en compte dans l'évaluation de la gravité d'une fièvre ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le degré de la fièvre",
+            "justification": "Le degré de la fièvre n'est pas un élément isolé de gravité, il est important de considérer d'autres facteurs comme l'origine et l'évolution de la fièvre."
+          },
+          {
+            "correct": true,
+            "proposition": "L'origine infectieuse de la fièvre",
+            "justification": "Il est crucial d'identifier si la fièvre est d'origine infectieuse, car certaines infections peuvent nécessiter une prise en charge urgente, tandis que d'autres sont bénignes."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de la fièvre uniquement",
+            "justification": "La durée seule n'est pas suffisante pour évaluer la gravité de la fièvre ; il est nécessaire d'examiner l'origine de la fièvre et le terrain du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de frissons",
+            "justification": "L'absence de frissons ne constitue pas un indicateur direct de la gravité d'une fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "La température maximale atteinte",
+            "justification": "La température maximale n'est pas un facteur isolé de gravité ; d'autres éléments cliniques sont nécessaires pour évaluer la gravité d'une fièvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755292056483_05",
+      "current_version_epoch_ms": 1755292056483,
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreaigue"
+      },
+      "data": {
+        "statement": "Dans quel cas la fièvre peut-elle être associée à une hypothermie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bactériémie à bacille gram négatif",
+            "justification": "Certaines infections graves, comme les bactériémies à bacille gram négatif, peuvent être associées à une hypothermie plutôt qu'à de la fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection virale classique",
+            "justification": "Les infections virales classiques entraînent généralement de la fièvre, pas de l'hypothermie."
+          },
+          {
+            "correct": false,
+            "proposition": "Angine streptococcique",
+            "justification": "Les angines streptococciques entraînent typiquement de la fièvre et non de l'hypothermie."
+          },
+          {
+            "correct": false,
+            "proposition": "Gastro-entérite virale",
+            "justification": "Les gastro-entérites virales sont associées à de la fièvre, pas à une hypothermie."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection urinaire simple",
+            "justification": "Les infections urinaires simples causent généralement de la fièvre et non de l'hypothermie."
+          }
+        ]
+      }
+    }
+  ]
+}

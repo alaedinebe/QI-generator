@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathogeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755259116477_01",
+      "current_version_epoch_ms": 1755259116477,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions suivantes, celles qui correspondent à un critère de Fried.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids",
+            "justification": "Fait partie des cinq critères de Fried listés : perte de poids, fatigue subjective, activité physique diminuée, vitesse de marche diminuée, force de préhension diminuée."
+          },
+          {
+            "correct": true,
+            "proposition": "Fatigue subjective",
+            "justification": "Explicitement citée parmi les cinq critères de Fried."
+          },
+          {
+            "correct": false,
+            "proposition": "Activité physique augmentée",
+            "justification": "Le critère retenu est une activité physique diminuée, pas augmentée."
+          },
+          {
+            "correct": true,
+            "proposition": "Vitesse de marche diminuée",
+            "justification": "Figure dans la liste des cinq critères de Fried."
+          },
+          {
+            "correct": false,
+            "proposition": "Force de préhension augmentée",
+            "justification": "Le critère retenu est une force de préhension diminuée, pas augmentée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259116477_02",
+      "current_version_epoch_ms": 1755259116477,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Classer correctement l'état (robuste, préfragile, fragile) selon le nombre de critères de Fried retrouvés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0 critère = robuste",
+            "justification": "L'absence de critère correspond à une personne robuste."
+          },
+          {
+            "correct": true,
+            "proposition": "1 critère = préfragile",
+            "justification": "La présence d'un seul critère définit une personne préfragile."
+          },
+          {
+            "correct": false,
+            "proposition": "2 critères = fragile",
+            "justification": "Avec 1 ou 2 critères, la personne est préfragile, pas fragile."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins 3 critères = fragile",
+            "justification": "La fragilité est définie par la présence d'au moins trois critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de critère = préfragile",
+            "justification": "Sans critère, la personne est robuste."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259116477_03",
+      "current_version_epoch_ms": 1755259116477,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Identifier le statut d'une personne présentant exactement deux critères de Fried (par exemple : perte de poids et fatigue subjective).",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Robuste",
+            "justification": "Robuste correspond à 0 critère."
+          },
+          {
+            "correct": true,
+            "proposition": "Préfragile",
+            "justification": "La présence d'1 ou 2 critères classe la personne comme préfragile."
+          },
+          {
+            "correct": false,
+            "proposition": "Fragile",
+            "justification": "La fragilité requiert au moins 3 critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Non classable",
+            "justification": "La classification est définie par le nombre de critères ; avec 2 critères, la catégorie préfragile s'applique."
+          },
+          {
+            "correct": false,
+            "proposition": "Équivalent à ≥3 critères",
+            "justification": "Deux critères ne correspondent pas à la définition ≥3 critères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259116477_04",
+      "current_version_epoch_ms": 1755259116477,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Définir le nombre minimal de critères de Fried nécessaires pour qualifier une personne de fragile.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "1",
+            "justification": "Avec 1 critère, la personne est préfragile."
+          },
+          {
+            "correct": false,
+            "proposition": "2",
+            "justification": "Avec 2 critères, la personne est encore préfragile."
+          },
+          {
+            "correct": true,
+            "proposition": "3",
+            "justification": "La fragilité est définie en présence d'au moins 3 critères ; le seuil minimal est donc 3."
+          },
+          {
+            "correct": false,
+            "proposition": "4",
+            "justification": "Quatre critères qualifient aussi la fragilité, mais ce n'est pas le seuil minimal."
+          },
+          {
+            "correct": false,
+            "proposition": "5",
+            "justification": "Cinq critères qualifient la fragilité, mais le seuil minimal est 3."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259116477_05",
+      "current_version_epoch_ms": 1755259116477,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Classer l'état d'une personne présentant trois critères de Fried (activité physique diminuée, vitesse de marche diminuée, force de préhension diminuée).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fragile",
+            "justification": "La présence d'au moins 3 critères correspond à la fragilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Préfragile",
+            "justification": "La préfragilité correspond à 1 ou 2 critères, pas 3."
+          },
+          {
+            "correct": false,
+            "proposition": "Robuste",
+            "justification": "Robuste correspond à l'absence de critère."
+          },
+          {
+            "correct": false,
+            "proposition": "Non classable",
+            "justification": "Le nombre de critères permet une classification : 3 critères → fragile."
+          },
+          {
+            "correct": false,
+            "proposition": "Statut identique à 1 critère",
+            "justification": "Un seul critère définit la préfragilité ; trois critères définissent la fragilité."
+          }
+        ]
+      }
+    }
+  ]
+}

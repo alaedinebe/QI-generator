@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathogeria",
+    "subject": "geria"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755259323133_01",
+      "current_version_epoch_ms": 1755259323133,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Identifier, chez la personne âgée, la présentation atypique possible d'une infection.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de fièvre lors d'une infection",
+            "justification": "Exemple de spécificité sémiologique avec l'âge : une infection peut se présenter sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Anorexie sans douleur comme signe isolé d'ulcère gastroduodénal",
+            "justification": "Cet exemple est rapporté pour l'ulcère gastroduodénal, pas pour l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'humeur dépressive dans un état dépressif majeur",
+            "justification": "Cet exemple concerne l'épisode dépressif majeur, non l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de contracture abdominale dans une péritonite",
+            "justification": "Cet exemple correspond à la péritonite, pas à l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de douleur thoracique lors d'un infarctus du myocarde",
+            "justification": "Cet exemple se rapporte à l'infarctus du myocarde, pas à l'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259323133_02",
+      "current_version_epoch_ms": 1755259323133,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Reconnaître, chez la personne âgée, un signe isolé possible d'un ulcère gastroduodénal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anorexie sans douleur isolée",
+            "justification": "Exemple de spécificité sémiologique avec l'âge pour l'ulcère gastroduodénal : l'anorexie peut être isolée sans douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de fièvre dans une infection",
+            "justification": "Cet exemple correspond aux infections, pas à l'ulcère gastroduodénal."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'humeur dépressive dans un état dépressif majeur",
+            "justification": "Cet exemple concerne la dépression majeure, pas l'ulcère gastroduodénal."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de contracture abdominale dans une péritonite",
+            "justification": "Cet exemple décrit une péritonite, non un ulcère gastroduodénal."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de douleur thoracique lors d'un infarctus du myocarde",
+            "justification": "Cet exemple est relatif à l'infarctus, pas à l'ulcère gastroduodénal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259323133_03",
+      "current_version_epoch_ms": 1755259323133,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Identifier une spécificité sémiologique d'un épisode dépressif majeur chez la personne âgée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence d'humeur dépressive",
+            "justification": "Exemple de spécificité sémiologique avec l'âge : l'épisode dépressif majeur peut se présenter sans humeur dépressive."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de fièvre dans une infection",
+            "justification": "Exemple propre aux infections, pas à la dépression majeure."
+          },
+          {
+            "correct": false,
+            "proposition": "Anorexie sans douleur isolée d'un ulcère gastroduodénal",
+            "justification": "Exemple attribué à l'ulcère gastroduodénal, non à la dépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de contracture abdominale dans une péritonite",
+            "justification": "Exemple spécifique à la péritonite, pas à la dépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de douleur thoracique lors d'un infarctus du myocarde",
+            "justification": "Exemple lié à l'infarctus du myocarde, pas à la dépression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259323133_04",
+      "current_version_epoch_ms": 1755259323133,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Différencier une présentation possible de péritonite chez la personne âgée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de contracture abdominale",
+            "justification": "Exemple de spécificité sémiologique avec l'âge : une péritonite peut survenir sans contracture abdominale."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de fièvre dans une infection",
+            "justification": "Exemple attribué aux infections, pas à la péritonite."
+          },
+          {
+            "correct": false,
+            "proposition": "Anorexie sans douleur isolée d'un ulcère gastroduodénal",
+            "justification": "Exemple qui décrit l'ulcère gastroduodénal, pas la péritonite."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'humeur dépressive dans un état dépressif majeur",
+            "justification": "Exemple relatif à la dépression majeure, pas à la péritonite."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de douleur thoracique lors d'un infarctus du myocarde",
+            "justification": "Exemple se rapportant à l'infarctus, pas à la péritonite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259323133_05",
+      "current_version_epoch_ms": 1755259323133,
+      "topic": {
+        "subject": "geria",
+        "item": "pathogeria"
+      },
+      "data": {
+        "statement": "Reconnaître une présentation possible d'un infarctus du myocarde chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de douleur thoracique",
+            "justification": "Exemple de spécificité sémiologique avec l'âge : un infarctus peut se présenter sans douleur thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de fièvre dans une infection",
+            "justification": "Exemple concernant l'infection, pas l'infarctus."
+          },
+          {
+            "correct": false,
+            "proposition": "Anorexie sans douleur isolée d'un ulcère gastroduodénal",
+            "justification": "Exemple propre à l'ulcère gastroduodénal, non à l'infarctus."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'humeur dépressive dans un état dépressif majeur",
+            "justification": "Exemple lié à la dépression majeure, pas à l'infarctus."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de contracture abdominale dans une péritonite",
+            "justification": "Exemple décrivant la péritonite, pas l'infarctus."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "arthrose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755255799822_01",
+      "current_version_epoch_ms": 1755255799822,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier, parmi les étiologies suivantes, celles pouvant induire une gonarthrose secondaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Polyarthrite rhumatoïde",
+            "justification": "Fait partie des arthrites chroniques citées comme causes de gonarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Spondyloarthrite périphérique",
+            "justification": "Enumerée parmi les arthrites chroniques pouvant conduire à une gonarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Ostéonécrose évoluée",
+            "justification": "Explicitement mentionnée comme étiologie de gonarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie de Paget",
+            "justification": "Listée parmi les causes possibles de gonarthrose secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Inégalité des membres inférieurs > 3 cm",
+            "justification": "Mentionnée comme étiologie de coxarthrose secondaire, pas de la gonarthrose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755255799822_02",
+      "current_version_epoch_ms": 1755255799822,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les étiologies pouvant induire une coxarthrose secondaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysplasie luxante ou dysplasie interne",
+            "justification": "Malformations congénitales citées comme causes de coxarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Fracture du cotyle ou du toit cotyloïdien",
+            "justification": "Traumatisme osseux mentionné comme étiologie de coxarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Ostéonécrose de la tête fémorale à un stade évolué",
+            "justification": "Spécifiquement citée comme cause de coxarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Coxites évoluées liées à une maladie articulaire destructrice (spondylarthrite, polyarthrite rhumatoïde, arthrite microcristalline, arthrite septique)",
+            "justification": "Regroupement explicitement mentionné d'étiologies conduisant à une coxarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Inégalité des membres inférieurs dépassant 3 cm",
+            "justification": "Citée comme facteur étiologique de coxarthrose secondaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755255799822_03",
+      "current_version_epoch_ms": 1755255799822,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Concernant les modalités diagnostiques d'une arthrose secondaire (hanche/genou), sélectionner les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le contexte clinique contribue au diagnostic",
+            "justification": "Le diagnostic est en général évoqué par le contexte clinique associé à l'imagerie."
+          },
+          {
+            "correct": true,
+            "proposition": "La radiographie standard montrant un pincement articulaire global de l'interligne suffit en général à évoquer le diagnostic",
+            "justification": "La radiographie standard avec pincement global est décrite comme suffisante, avec le contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une IRM est systématiquement nécessaire",
+            "justification": "Non requis : le diagnostic est en général évoqué par le contexte clinique et la radiographie standard."
+          },
+          {
+            "correct": false,
+            "proposition": "Un arthroscanner est indispensable",
+            "justification": "Non requis : la radiographie standard associée au contexte clinique suffit en général."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie est l'examen de référence pour confirmer l'arthrose secondaire",
+            "justification": "Non retenu : l'élément clé mentionné est la radiographie standard avec pincement global."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755255799822_04",
+      "current_version_epoch_ms": 1755255799822,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Classer les énoncés suivants selon la localisation pour laquelle ils sont indiqués dans les étiologies d'arthrose secondaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les arthrites chroniques (polyarthrite rhumatoïde, spondyloarthrite périphérique, arthrite septique, arthropathie microcristalline) sont des causes de gonarthrose secondaire",
+            "justification": "Ces étiologies sont listées pour la gonarthrose secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Une inégalité des membres inférieurs > 3 cm est une cause de gonarthrose secondaire",
+            "justification": "Cette inégalité est mentionnée pour la coxarthrose secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Les fractures du cotyle ou du toit cotyloïdien relèvent de la coxarthrose secondaire",
+            "justification": "Elles sont citées comme causes de coxarthrose secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie de Paget n'est impliquée que dans la coxarthrose secondaire",
+            "justification": "Elle est citée dans les étiologies de la gonarthrose et de la coxarthrose secondaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Une ostéonécrose évoluée peut s'intégrer aux deux localisations (genou et hanche) selon le siège",
+            "justification": "Une ostéonécrose évoluée est listée pour la gonarthrose et, pour la coxarthrose, celle de la tête fémorale est spécifiquement mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755255799822_05",
+      "current_version_epoch_ms": 1755255799822,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "À propos des éléments d'imagerie et cliniques utiles au diagnostic d'arthrose secondaire (hanche/genou), déterminer les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le pincement articulaire global de l'interligne est un signe radiographique typique",
+            "justification": "Le pincement global sur radiographie standard est décrit comme l'élément typique."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce signe se recherche sur une radiographie standard",
+            "justification": "La radiographie standard est citée comme suffisante en association au contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La confirmation du pincement nécessite une IRM",
+            "justification": "Non nécessaire : la radiographie standard suffit en général avec le contexte clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Le contexte clinique et la radiographie standard suffisent en général à évoquer le diagnostic",
+            "justification": "Formulation explicitement mentionnée pour le diagnostic d'arthrose secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie est l'examen clé pour visualiser le pincement de l'interligne",
+            "justification": "Non retenu : l'élément central rapporté est la radiographie standard."
+          }
+        ]
+      }
+    }
+  ]
+}

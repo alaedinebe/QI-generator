@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TCA",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755094152322_01",
+      "current_version_epoch_ms": 1755094152322,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Identifier les éléments essentiels de la prise en charge pharmacologique dans cette indication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fluoxétine dispose d'une AMM dans cette indication.",
+            "justification": "Il est indiqué qu'un seul médicament a une AMM et qu'il s'agit de la fluoxétine."
+          },
+          {
+            "correct": false,
+            "proposition": "Plusieurs molécules disposent d'une AMM.",
+            "justification": "Il est précisé qu'un seul médicament a une AMM."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune molécule ne dispose d'une AMM.",
+            "justification": "La présence d'une AMM pour la fluoxétine est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'AMM concerne un autre ISRS que la fluoxétine.",
+            "justification": "Il est spécifié que la fluoxétine est le seul médicament avec AMM."
+          },
+          {
+            "correct": true,
+            "proposition": "La prise en charge inclut une option pharmacologique.",
+            "justification": "La notion de prise en charge pharmacologique est explicitement mentionnée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755094152322_02",
+      "current_version_epoch_ms": 1755094152322,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Concernant la posologie du traitement médicamenteux dans cette indication, cocher la(les) affirmation(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La posologie de la fluoxétine est plus élevée que dans l'épisode dépressif caractérisé.",
+            "justification": "Il est précisé que la posologie est supérieure à celle utilisée dans l'épisode dépressif caractérisé."
+          },
+          {
+            "correct": false,
+            "proposition": "La posologie est identique à celle de l'épisode dépressif caractérisé.",
+            "justification": "C'est l'inverse : la posologie est indiquée comme plus élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "La posologie est systématiquement plus faible que dans l'épisode dépressif caractérisé.",
+            "justification": "Il est indiqué qu'elle est plus élevée, et non plus faible."
+          },
+          {
+            "correct": true,
+            "proposition": "La comparaison posologique se fait par rapport à l'épisode dépressif caractérisé.",
+            "justification": "La posologie est explicitement comparée à celle de l'épisode dépressif caractérisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune information n'est donnée sur la posologie par rapport à l'épisode dépressif caractérisé.",
+            "justification": "Une information comparative claire est fournie : posologie plus élevée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755094152322_03",
+      "current_version_epoch_ms": 1755094152322,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Classer les propositions selon les principes de la pharmacothérapie dans cette indication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La stratégie médicamenteuse reconnue repose sur une molécule disposant d'une AMM.",
+            "justification": "Il est spécifié qu'un seul médicament a une AMM."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements médicamenteux ne font pas partie de la prise en charge.",
+            "justification": "La prise en charge pharmacologique est explicitement mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "La fluoxétine constitue la référence médicamenteuse avec AMM dans cette indication.",
+            "justification": "La fluoxétine est citée comme le seul médicament disposant d'une AMM."
+          },
+          {
+            "correct": false,
+            "proposition": "La posologie de fluoxétine est inférieure à celle utilisée dans l'épisode dépressif caractérisé.",
+            "justification": "La posologie indiquée est plus élevée que dans l'épisode dépressif caractérisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Plusieurs classes médicamenteuses disposent d'une AMM dans cette indication.",
+            "justification": "Il est précisé qu'un seul médicament a une AMM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755094152322_04",
+      "current_version_epoch_ms": 1755094152322,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Différencier les spécificités du choix thérapeutique médicamenteux dans cette indication par rapport à l'épisode dépressif caractérisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'une AMM concerne uniquement la fluoxétine.",
+            "justification": "Un seul médicament a une AMM et il s'agit de la fluoxétine."
+          },
+          {
+            "correct": false,
+            "proposition": "Le recours à d'autres molécules disposant d'une AMM est possible.",
+            "justification": "Il n'est pas fait mention d'autres médicaments avec AMM."
+          },
+          {
+            "correct": true,
+            "proposition": "L'option médicamenteuse fait partie de la prise en charge.",
+            "justification": "La prise en charge pharmacologique est spécifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "La posologie de la fluoxétine est égale à celle de l'épisode dépressif caractérisé.",
+            "justification": "La posologie est indiquée comme plus élevée."
+          },
+          {
+            "correct": true,
+            "proposition": "La posologie plus élevée constitue une particularité de cette indication par rapport à l'épisode dépressif caractérisé.",
+            "justification": "Il est précisé que la posologie est supérieure à celle de l'épisode dépressif caractérisé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755094152322_05",
+      "current_version_epoch_ms": 1755094152322,
+      "topic": {
+        "subject": "nutri",
+        "item": "TCA"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments clés à connaître sur la pharmacothérapie dans cette indication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un seul médicament bénéficie d'une AMM.",
+            "justification": "Il est indiqué qu'il n'y a qu'un seul médicament avec AMM."
+          },
+          {
+            "correct": true,
+            "proposition": "Le médicament disposant de l'AMM est la fluoxétine.",
+            "justification": "La fluoxétine est explicitement citée comme ayant l'AMM."
+          },
+          {
+            "correct": false,
+            "proposition": "La posologie recommandée est plus faible que dans l'épisode dépressif caractérisé.",
+            "justification": "La posologie est annoncée comme plus élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise en charge repose exclusivement sur des approches non médicamenteuses.",
+            "justification": "Une prise en charge pharmacologique est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun repère relatif à l'épisode dépressif caractérisé n'est fourni pour la posologie.",
+            "justification": "La posologie est comparée à celle de l'épisode dépressif caractérisé et décrite comme plus élevée."
+          }
+        ]
+      }
+    }
+  ]
+}

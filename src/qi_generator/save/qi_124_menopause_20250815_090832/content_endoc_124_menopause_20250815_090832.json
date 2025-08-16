@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "menopause",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755241919317_01",
+      "current_version_epoch_ms": 1755241919317,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Identifier les situations qui imposent de privilégier une voie d'administration non orale pour le THM.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypertriglycéridémie",
+            "justification": "Fait partie des conditions métaboliques citées comme imposant le choix d'une voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle (HTA)",
+            "justification": "L'HTA est explicitement incluse parmi les conditions métaboliques imposant une voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de facteurs de risque thrombo-embolique veineux",
+            "justification": "Les facteurs de risque veineux sont indiqués comme imposant une voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de comorbidité",
+            "justification": "En dehors d'hypertriglycéridémie, d'HTA ou de facteurs de risque veineux, il n'y a pas d'obligation de privilégier une voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercholestérolémie isolée",
+            "justification": "Ne fait pas partie des situations listées (hypertriglycéridémie, HTA, facteurs de risque veineux) imposant la voie non orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755241919317_02",
+      "current_version_epoch_ms": 1755241919317,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Femme de 52 ans souhaitant un THM ; elle présente une hypertriglycéridémie. Quelle conduite concernant la voie d'administration est appropriée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Privilégier une voie d'administration non orale",
+            "justification": "L'hypertriglycéridémie est une condition métabolique pour laquelle la voie non orale est imposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférer la voie orale standard",
+            "justification": "Incorrect : dans cette condition métabolique, la voie orale n'est pas à privilégier car la voie non orale est imposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer que toutes les voies sont équivalentes",
+            "justification": "Inexact : la présence d'une condition métabolique impose la voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Réserver la voie non orale aux seules situations d'HTA",
+            "justification": "Erroné : la voie non orale est imposée aussi en cas d'hypertriglycéridémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser une voie non orale uniquement en cas de facteurs de risque veineux, pas en cas de condition métabolique",
+            "justification": "Faux : les conditions métaboliques (dont l'hypertriglycéridémie) imposent également la voie non orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755241919317_03",
+      "current_version_epoch_ms": 1755241919317,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes selon qu'elles imposent une voie non orale pour le THM.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle (HTA)",
+            "justification": "L'HTA est citée parmi les conditions métaboliques imposant la voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertriglycéridémie",
+            "justification": "Fait partie des conditions métaboliques pour lesquelles la voie non orale est imposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Obésité isolée",
+            "justification": "Ne relève pas des éléments listés (hypertriglycéridémie, HTA, facteurs de risque veineux) imposant la voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète de type 2 isolé",
+            "justification": "N'est pas inclus dans la liste restreinte des situations imposant la voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "Facteurs de risque thrombo-embolique veineux",
+            "justification": "Mentionnés comme imposant le choix d'une voie non orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755241919317_04",
+      "current_version_epoch_ms": 1755241919317,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Femme de 55 ans avec HTA souhaitant débuter un THM. Identifier l'affirmation correcte concernant le choix de la voie d'administration.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'HTA impose de privilégier une voie non orale",
+            "justification": "L'HTA fait partie des conditions métaboliques imposant la voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie orale est recommandée en première intention",
+            "justification": "Incorrect : la voie non orale est imposée en cas d'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "La décision de voie n'est pas influencée par l'HTA",
+            "justification": "Faux : l'HTA est explicitement un critère imposant la voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les facteurs de risque veineux, pas l'HTA, orientent la voie",
+            "justification": "Erroné : l'HTA figure aussi parmi les situations imposant la voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "Des conditions métaboliques peuvent imposer la voie non orale",
+            "justification": "Vrai : les conditions métaboliques, dont l'HTA, exigent une voie non orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755241919317_05",
+      "current_version_epoch_ms": 1755241919317,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "À propos des contre-indications du THM au sens du choix de la voie d'administration, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Certaines situations n'interdisent pas le THM mais imposent la voie non orale",
+            "justification": "Il est précisé que le choix se porte sur une voie non orale dans des situations particulières."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertriglycéridémie, HTA et facteurs de risque veineux font partie de ces situations",
+            "justification": "Ces éléments sont indiqués comme imposant une voie non orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces situations contre-indiquent toute forme de THM",
+            "justification": "Inexact : la contrainte porte sur la voie d'administration, pas sur l'ensemble du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie non orale n'est jamais imposée chez la femme avec facteurs de risque veineux",
+            "justification": "Faux : la présence de facteurs de risque veineux impose précisément la voie non orale."
+          },
+          {
+            "correct": true,
+            "proposition": "La notion clé ici est le choix de la voie d'administration",
+            "justification": "Le point central est l'obligation de privilégier une voie non orale dans les situations indiquées."
+          }
+        ]
+      }
+    }
+  ]
+}

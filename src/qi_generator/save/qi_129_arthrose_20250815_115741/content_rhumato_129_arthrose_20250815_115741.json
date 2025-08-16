@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "arthrose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755252067871_01",
+      "current_version_epoch_ms": 1755252067871,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux qui doivent faire évoquer une arthrose chez un adulte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 40 ans.",
+            "justification": "Âge > 40 ans correspond à un terrain compatible qui doit faire évoquer une arthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "Surpoids ou obésité.",
+            "justification": "Le surpoids/l'obésité est un facteur de risque constituant un terrain compatible."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur articulaire chronique d'horaire mécanique touchant le genou, la hanche (pli de l'aine) ou les mains.",
+            "justification": "La douleur mécanique d'un membre, notamment au genou, à la hanche ou aux mains, fait partie des critères d'évocation."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'arguments orientant vers un autre diagnostic.",
+            "justification": "C'est l'absence d'argument pour un autre diagnostic qui renforce l'hypothèse d'arthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur aiguë limitée au rachis cervical sans atteinte d'un membre.",
+            "justification": "Les localisations mises en avant sont un membre (genou, hanche avec douleur au pli de l'aine, mains), pas le rachis cervical isolé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755252067871_02",
+      "current_version_epoch_ms": 1755252067871,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les modalités de l'examen clinique des membres inférieurs devant une suspicion d'arthrose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen bilatéral et comparatif.",
+            "justification": "Il est précisé de réaliser un examen bilatéral et comparatif."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation debout, au statique, à la marche puis en décubitus.",
+            "justification": "La séquence recommandée est debout, statique, à la marche puis allongé."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen uniquement allongé.",
+            "justification": "L'examen ne se limite pas au décubitus ; il comporte des étapes debout, statique et à la marche."
+          },
+          {
+            "correct": false,
+            "proposition": "Palpation et inspection d'un seul côté si la douleur est unilatérale.",
+            "justification": "Même en cas d'atteinte unilatérale, l'examen doit être bilatéral et comparatif."
+          },
+          {
+            "correct": true,
+            "proposition": "Recherche de raideur et de déformations articulaires.",
+            "justification": "La raideur et les déformations font partie des signes associés à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755252067871_03",
+      "current_version_epoch_ms": 1755252067871,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Différencier les signes cliniques en faveur d'une coxarthrose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur du pli de l'aine, antérieure ou antéro-interne, parfois postérieure.",
+            "justification": "La douleur typique de hanche siège au pli de l'aine, antérieure/antéro-interne et peut être postérieure."
+          },
+          {
+            "correct": true,
+            "proposition": "Signe de la clé (roulé de hanche douloureux).",
+            "justification": "Le signe de la clé, c'est-à-dire le roulé de hanche douloureux, est rapporté dans la coxarthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "Attitude vicieuse en flessum et rotation externe dans les formes évoluées.",
+            "justification": "Cette attitude est décrite dans les formes évoluées de coxarthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur élective à la palpation de la rotule.",
+            "justification": "La douleur à la palpation de la rotule relève de l'atteinte fémoropatellaire, pas d'une coxarthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur provoquée par la manœuvre du rabot.",
+            "justification": "La manœuvre du rabot évalue le frottement rotule-trochlée, caractéristique de l'atteinte fémoropatellaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755252067871_04",
+      "current_version_epoch_ms": 1755252067871,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Classer les éléments en faveur d'une gonarthrose fémorotibiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur du genou avec craquements.",
+            "justification": "La douleur du genou avec craquement est un signe de gonarthrose fémorotibiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur reproduite à la palpation de l'interligne médial ou latéral.",
+            "justification": "La douleur à la palpation de l'interligne articulaire médial ou latéral est caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "Trouble statique de type genu valgum ou varum.",
+            "justification": "Un trouble statique (genu valgum/varum) peut être associé."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur déclenchée par la manœuvre de Zohlen.",
+            "justification": "La manœuvre de Zohlen explore l'atteinte fémoropatellaire, non fémorotibiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Épanchement possible (choc rotulien, signe du flot).",
+            "justification": "Un épanchement est possible et évalué par le choc rotulien et le signe du flot."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755252067871_05",
+      "current_version_epoch_ms": 1755252067871,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques de la gonarthrose fémoropatellaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur de la face antérieure du genou à la marche et à la descente des escaliers, majorée après station assise prolongée.",
+            "justification": "Cette topographie et ces circonstances déclenchantes sont typiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur à l'extension contrariée de la jambe.",
+            "justification": "La douleur est reproduite à l'extension contrariée du genou."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur à la pression de la rotule sur genou fléchi.",
+            "justification": "La pression de la rotule sur un genou fléchi est douloureuse en cas d'atteinte fémoropatellaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur élective à la palpation de l'interligne médial.",
+            "justification": "La douleur de l'interligne médial ou latéral est en faveur d'une atteinte fémorotibiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur provoquée par la manœuvre du rabot et par la manœuvre de Zohlen.",
+            "justification": "Ces deux manœuvres sollicitent l'articulation fémoropatellaire et sont douloureuses en cas d'atteinte."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exantheme",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755216654469_01",
+      "current_version_epoch_ms": 1755216654469,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier le type de support présenté pour l'exanthème scarlatiniforme.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Photographie",
+            "justification": "Le libellé comporte « Photographie d'un exanthème scarlatiniforme »."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie",
+            "justification": "Le libellé indique une photographie et ne correspond pas à une imagerie radiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme (ECG)",
+            "justification": "Le support décrit n'est pas un enregistrement électrocardiographique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "Le support mentionné n'est pas une imagerie par résonance magnétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie",
+            "justification": "Le support annoncé n'est pas une échographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216654469_02",
+      "current_version_epoch_ms": 1755216654469,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Reconnaître l'intitulé exact associé à l'image.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exanthème scarlatiniforme",
+            "justification": "Intitulé explicitement cité à plusieurs reprises."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème morbilliforme",
+            "justification": "Intitulé non indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire",
+            "justification": "Intitulé non indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Purpura",
+            "justification": "Intitulé non indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Érythème noueux",
+            "justification": "Intitulé non indiqué."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216654469_03",
+      "current_version_epoch_ms": 1755216654469,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier la référence codée associée à l'illustration.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "OIC-114-20-A",
+            "justification": "Référence alphanumérique indiquée après l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-114-20-B",
+            "justification": "Diffère de la référence indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-114-21-A",
+            "justification": "Numérotation différente de celle indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-115-20-A",
+            "justification": "Numérotation différente de celle indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune référence n'est donnée",
+            "justification": "Une référence est fournie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216654469_04",
+      "current_version_epoch_ms": 1755216654469,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Repérer les éléments textuels présents et répétés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La séquence « Exanthème scarlatiniforme » apparaît plusieurs fois.",
+            "justification": "L'intitulé est répété."
+          },
+          {
+            "correct": false,
+            "proposition": "Le mot « Photographie » n'apparaît pas.",
+            "justification": "La formulation commence par « Photographie d'un exanthème scarlatiniforme »."
+          },
+          {
+            "correct": true,
+            "proposition": "Une valeur numérique « 3 » est mentionnée.",
+            "justification": "La chaîne « Exanthème scarlatiniforme 3 » est présente."
+          },
+          {
+            "correct": true,
+            "proposition": "Un code alphanumérique est inclus.",
+            "justification": "La séquence « OIC-114-20-A » est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Une étiologie de l'exanthème est précisée.",
+            "justification": "Aucune cause n'est indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216654469_05",
+      "current_version_epoch_ms": 1755216654469,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Différencier ce qui est exactement cité de ce qui ne l'est pas.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "« Photographie d'un exanthème scarlatiniforme »",
+            "justification": "Formulation explicitement citée."
+          },
+          {
+            "correct": true,
+            "proposition": "« Exanthème scarlatiniforme 3 »",
+            "justification": "Formulation explicitement citée."
+          },
+          {
+            "correct": true,
+            "proposition": "« OIC-114-20-A »",
+            "justification": "Référence explicitement citée."
+          },
+          {
+            "correct": false,
+            "proposition": "« Exanthème morbilliforme »",
+            "justification": "Formulation non citée."
+          },
+          {
+            "correct": false,
+            "proposition": "« Photographie d'un exanthème morbilliforme »",
+            "justification": "Formulation non citée."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbauditif",
+    "subject": "ORL"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755146511941_01",
+      "current_version_epoch_ms": 1755146511941,
+      "topic": {
+        "subject": "ORL",
+        "item": "tbauditif"
+      },
+      "data": {
+        "statement": "Lors du test de Weber, quel est le résultat observé en cas de surdité de perception ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le son est perçu au centre",
+            "justification": "Ce résultat correspond à une audition normale."
+          },
+          {
+            "correct": true,
+            "proposition": "Le son est perçu du côté de l'oreille la moins atteinte",
+            "justification": "Dans la surdité de perception, le son est perçu plus fort du côté de l'oreille la moins atteinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu du côté de l'oreille la plus atteinte",
+            "justification": "Ce résultat correspond à une surdité de transmission, et non de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu de manière égale des deux côtés",
+            "justification": "Ce résultat correspond à une audition normale, et non à une surdité de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu uniquement d'un côté, sans préciser lequel",
+            "justification": "La question demande une précision sur l'oreille la moins atteinte dans le cadre de la surdité de perception."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755146511941_02",
+      "current_version_epoch_ms": 1755146511941,
+      "topic": {
+        "subject": "ORL",
+        "item": "tbauditif"
+      },
+      "data": {
+        "statement": "Quel est le résultat du test de Rinne en cas de surdité de transmission ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "CO > CA (Rinne négatif)",
+            "justification": "En cas de surdité de transmission, la conduction osseuse (CO) est perçue plus fort que la conduction aérienne (CA), ce qui donne un Rinne négatif."
+          },
+          {
+            "correct": false,
+            "proposition": "CO < CA (Rinne positif)",
+            "justification": "Ce résultat correspond à une audition normale ou à une surdité de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son n'est perçu ni en CO ni en CA",
+            "justification": "Ce résultat ne correspond à aucune des catégories de surdité mentionnées."
+          },
+          {
+            "correct": false,
+            "proposition": "CA > CO (Rinne positif)",
+            "justification": "Ce résultat correspond à une surdité de perception, où la conduction aérienne (CA) est perçue plus forte que la conduction osseuse (CO)."
+          },
+          {
+            "correct": false,
+            "proposition": "CO = CA",
+            "justification": "Un tel résultat ne correspond à aucune des catégories cliniques d'une surdité et est atypique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755146511941_03",
+      "current_version_epoch_ms": 1755146511941,
+      "topic": {
+        "subject": "ORL",
+        "item": "tbauditif"
+      },
+      "data": {
+        "statement": "Quel est le résultat attendu d'un test de Weber en cas de surdité de transmission ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le son est perçu du côté de l'oreille la plus atteinte",
+            "justification": "Dans une surdité de transmission, la conduction osseuse (CO) est mieux perçue du côté de l'oreille la plus atteinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu au centre",
+            "justification": "Ce résultat est normal, et non associé à une surdité de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu du côté de l'oreille la moins atteinte",
+            "justification": "Ce résultat correspond à une surdité de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu de manière égale des deux côtés",
+            "justification": "Ce résultat est typique d'une audition normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son n'est pas perçu du tout",
+            "justification": "Un tel résultat est atypique pour une surdité de transmission."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755146511941_04",
+      "current_version_epoch_ms": 1755146511941,
+      "topic": {
+        "subject": "ORL",
+        "item": "tbauditif"
+      },
+      "data": {
+        "statement": "Quel est le résultat du test de Rinne en cas d'audition normale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "CO < CA (Rinne positif)",
+            "justification": "En cas d'audition normale, la conduction aérienne (CA) est perçue plus forte que la conduction osseuse (CO), ce qui donne un Rinne positif."
+          },
+          {
+            "correct": false,
+            "proposition": "CO > CA (Rinne négatif)",
+            "justification": "Ce résultat correspond à une surdité de transmission, et non à une audition normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son n'est perçu ni en CO ni en CA",
+            "justification": "Ce résultat est atypique et ne correspond à aucune des formes de surdité discutées."
+          },
+          {
+            "correct": false,
+            "proposition": "CO = CA",
+            "justification": "Une telle égalité n'est pas un résultat habituel des tests acoumétriques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu uniquement en CO",
+            "justification": "Ce résultat suggère une surdité de transmission, et non une audition normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755146511941_05",
+      "current_version_epoch_ms": 1755146511941,
+      "topic": {
+        "subject": "ORL",
+        "item": "tbauditif"
+      },
+      "data": {
+        "statement": "Comment interpréter le test de Weber en cas de surdité de perception ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le son est perçu du côté de l'oreille la moins atteinte",
+            "justification": "Dans la surdité de perception, le son est perçu plus fort du côté de l'oreille la moins atteinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu du côté de l'oreille la plus atteinte",
+            "justification": "Ce résultat correspond à une surdité de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu au centre",
+            "justification": "Ce résultat correspond à une audition normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son est perçu de manière égale des deux côtés",
+            "justification": "Ce résultat est également normal, et non associé à une surdité de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Le son n'est pas perçu du tout",
+            "justification": "Un tel résultat est atypique et ne correspond à aucune forme de surdité de perception."
+          }
+        ]
+      }
+    }
+  ]
+}

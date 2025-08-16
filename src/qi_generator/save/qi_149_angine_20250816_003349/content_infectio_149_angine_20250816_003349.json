@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "angine",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755297435669_01",
+      "current_version_epoch_ms": 1755297435669,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quel est l'indicateur clé pour la réalisation d'un test de diagnostic rapide (TDR) chez un adulte présentant une angine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le score clinique de Mac Isaac supérieur ou égal à 2",
+            "justification": "Un score clinique de Mac Isaac supérieur ou égal à 2 justifie la réalisation systématique d'un test de diagnostic rapide (TDR)."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de toux",
+            "justification": "La toux est un critère d'exclusion du test, elle réduit la probabilité d'une angine bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre au-dessus de 38°C seule",
+            "justification": "La fièvre seule ne justifie pas la réalisation du test. Il faut un score global qui inclut d'autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge inférieur à 3 ans",
+            "justification": "Chez l'enfant de moins de 3 ans, la probabilité d'angine bactérienne est très faible et aucun test n'est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'exsudat seul",
+            "justification": "La présence d'exsudat n'est qu'un des critères du score de Mac Isaac, mais elle seule ne justifie pas un test."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297435669_02",
+      "current_version_epoch_ms": 1755297435669,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Que permet un score clinique de Mac Isaac inférieur à 2 chez un adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exclure l'origine streptococcique de l'angine avec une probabilité inférieure à 5%",
+            "justification": "Un score inférieur à 2 permet de conclure à une probabilité faible d'infection à Streptococcus pyogenes (SGA), avec une valeur prédictive négative de plus de 95%."
+          },
+          {
+            "correct": false,
+            "proposition": "Justifier la prescription systématique d'antibiotiques",
+            "justification": "Le score faible indique une probabilité faible d'infection bactérienne, ce qui n'implique pas une antibiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclure la réalisation du test de diagnostic rapide (TDR)",
+            "justification": "Le score faible indique que le test TDR n'est pas nécessaire, mais il n'implique pas son exclusion systématique dans tous les cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer la nécessité d'une hospitalisation immédiate",
+            "justification": "Le score faible n'indique pas la nécessité d'une hospitalisation, mais plutôt une gestion ambulatoire avec surveillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclencher un test de culture de la gorge",
+            "justification": "Le test de culture n'est pas systématiquement recommandé si le score clinique est faible. Le test rapide (TDR) est plus pertinent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297435669_03",
+      "current_version_epoch_ms": 1755297435669,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quel est le rôle du test de diagnostic rapide (TDR) dans la gestion de l'angine érythémato-pultacée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Confirmer une infection streptococcique et justifier une antibiothérapie",
+            "justification": "Un test TDR positif permet de confirmer l'infection à Streptococcus pyogenes et de justifier le traitement antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer la gravité de l'angine",
+            "justification": "Le TDR ne permet pas d'évaluer la gravité de l'angine, mais seulement de diagnostiquer l'infection bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer l'examen clinique dans la décision thérapeutique",
+            "justification": "Le test TDR est un complément à l'examen clinique, mais ne remplace pas le raisonnement clinique basé sur les signes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer toutes les causes virales d'angine",
+            "justification": "Le TDR est spécifique aux infections streptococciques et ne permet pas d'éliminer les causes virales d'angine."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer un traitement symptomatique uniquement",
+            "justification": "Le TDR, en cas de résultat positif, justifie une antibiothérapie, pas simplement un traitement symptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297435669_04",
+      "current_version_epoch_ms": 1755297435669,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "À partir de quel âge est-il recommandé de réaliser un test de diagnostic rapide (TDR) pour une angine érythémato-pultacée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À partir de 3 ans",
+            "justification": "Le test TDR est recommandé à partir de 3 ans en raison de la probabilité plus élevée d'infection bactérienne chez les enfants plus âgés."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 5 ans",
+            "justification": "Le seuil de 3 ans est suffisant pour recommander un test TDR. À 5 ans, il est déjà souvent pratiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 2 ans",
+            "justification": "Avant 3 ans, la probabilité d'une angine bactérienne est très faible, et aucun test n'est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 6 ans",
+            "justification": "Le test peut être effectué à partir de 3 ans, et il est peu utile d'attendre 6 ans pour l'initier."
+          },
+          {
+            "correct": false,
+            "proposition": "À tout âge",
+            "justification": "Avant 3 ans, il n'est pas recommandé de réaliser un TDR, car la probabilité d'angine bactérienne est trop faible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297435669_05",
+      "current_version_epoch_ms": 1755297435669,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du score clinique de Mac Isaac dans la gestion d'une angine chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aider à décider si un test de diagnostic rapide (TDR) doit être réalisé",
+            "justification": "Le score Mac Isaac permet de décider de réaliser ou non un test TDR, selon un score supérieur ou égal à 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer la nécessité d'une antibiothérapie systématique",
+            "justification": "Le score ne justifie pas une antibiothérapie systématique, mais oriente la réalisation d'un test TDR en cas de score élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer une infection virale ou bactérienne de manière définitive",
+            "justification": "Le score clinique est un outil d'orientation, mais il ne permet pas de poser un diagnostic définitif sans test complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer l'examen clinique dans la décision thérapeutique",
+            "justification": "Le score de Mac Isaac complète l'examen clinique, mais ne remplace pas le raisonnement clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la gravité des symptômes de l'angine",
+            "justification": "Le score Mac Isaac sert uniquement à orienter vers un test de diagnostic rapide, sans évaluer la gravité des symptômes."
+          }
+        ]
+      }
+    }
+  ]
+}

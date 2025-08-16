@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exantheme",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755216861126_01",
+      "current_version_epoch_ms": 1755216861126,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier le support d'imagerie cité pour ce cas d'érythrodermie (réf. OIC-114-21-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Photographie",
+            "justification": "La mention exacte est « Photographie d'une érythrodermie OIC-114-21-A »."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner",
+            "justification": "Il n'est fait aucune mention d'un scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "Il n'est fait aucune mention d'une IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie",
+            "justification": "Il n'est fait aucune mention d'une radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermoscopy",
+            "justification": "Il n'est fait aucune mention d'une dermoscopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216861126_02",
+      "current_version_epoch_ms": 1755216861126,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier l'entité clinique explicitement nommée par la légende de l'illustration.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Érythrodermie",
+            "justification": "Le terme « Érythrodermie » est indiqué explicitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Ulcère",
+            "justification": "Ce terme n'est pas indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire",
+            "justification": "Ce terme n'est pas indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Eczéma",
+            "justification": "Ce terme n'est pas indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion unique",
+            "justification": "Cette formulation n'est pas indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216861126_03",
+      "current_version_epoch_ms": 1755216861126,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Reconnaître la référence associée à l'illustration présentée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "OIC-114-21-A",
+            "justification": "C'est la référence indiquée avec la photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-114-12-B",
+            "justification": "Ne correspond pas à la référence indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "IOC-114-21-A",
+            "justification": "L'ordre des lettres diffère et ne correspond pas à la référence indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-141-21-A",
+            "justification": "Les chiffres diffèrent et ne correspondent pas à la référence indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "OIC-114-21",
+            "justification": "Il manque le suffixe « -A » par rapport à la référence indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216861126_04",
+      "current_version_epoch_ms": 1755216861126,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, sélectionner celui qui est explicitement répété dans le libellé associé à l'illustration.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "« Érythrodermie »",
+            "justification": "Le mot « Érythrodermie » apparaît à plusieurs reprises."
+          },
+          {
+            "correct": false,
+            "proposition": "« Photographie »",
+            "justification": "Ce terme n'est pas répété."
+          },
+          {
+            "correct": false,
+            "proposition": "« OIC-114-21-A »",
+            "justification": "Cette référence n'est pas répétée."
+          },
+          {
+            "correct": false,
+            "proposition": "« Érythème »",
+            "justification": "Ce terme n'apparaît pas."
+          },
+          {
+            "correct": false,
+            "proposition": "« Biopsie »",
+            "justification": "Ce terme n'apparaît pas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755216861126_05",
+      "current_version_epoch_ms": 1755216861126,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Choisir l'expression qui correspond exactement à la légende associée au cas présenté.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "« Photographie d'une érythrodermie »",
+            "justification": "Cette formulation est indiquée telle quelle."
+          },
+          {
+            "correct": false,
+            "proposition": "« Schéma d'une érythrodermie »",
+            "justification": "Il n'est pas question d'un schéma."
+          },
+          {
+            "correct": false,
+            "proposition": "« Vidéo d'une érythrodermie »",
+            "justification": "Il n'est pas question d'une vidéo."
+          },
+          {
+            "correct": false,
+            "proposition": "« Biopsie d'une érythrodermie »",
+            "justification": "Il n'est pas question d'une biopsie."
+          },
+          {
+            "correct": false,
+            "proposition": "« Photographie d'une dermatose »",
+            "justification": "La formulation exacte emploie le terme « érythrodermie »."
+          }
+        ]
+      }
+    }
+  ]
+}

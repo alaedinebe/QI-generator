@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755105125451_01",
+      "current_version_epoch_ms": 1755105125451,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les repères d'âge typiques d'initiation tabagique chez les jeunes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'expérimentation survient vers 14 ans.",
+            "justification": "Le repère d'âge indiqué pour la première cigarette est 14 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "La consommation quotidienne débute vers 15 ans.",
+            "justification": "Le repère d'âge indiqué pour l'installation d'une consommation quotidienne est 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "L'expérimentation survient après l'installation de la consommation quotidienne.",
+            "justification": "L'expérimentation est repérée à 14 ans et précède la consommation quotidienne repérée à 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux événements surviennent la même année, à 14 ans.",
+            "justification": "Deux repères distincts sont donnés : 14 ans pour l'expérimentation et 15 ans pour la consommation quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Le repère d'âge pour la consommation quotidienne est 16 ans.",
+            "justification": "La consommation quotidienne est repérée à 15 ans, pas 16."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105125451_02",
+      "current_version_epoch_ms": 1755105125451,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Différencier expérimentation et consommation quotidienne par la chronologie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'expérimentation précède la consommation quotidienne.",
+            "justification": "L'expérimentation est repérée à 14 ans et la consommation quotidienne à 15 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "L'écart typique entre ces deux repères d'âge est d'environ un an.",
+            "justification": "15 ans − 14 ans = 1 an entre expérimentation et consommation quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Un repère à 15 ans correspond à l'expérimentation.",
+            "justification": "15 ans correspond au repère de consommation quotidienne, l'expérimentation est à 14 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Un repère à 14 ans correspond à la consommation quotidienne.",
+            "justification": "14 ans correspond au repère d'expérimentation, pas de consommation quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "La consommation quotidienne survient avant l'expérimentation.",
+            "justification": "L'ordre indiqué est 14 ans (expérimentation) puis 15 ans (quotidienne)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105125451_03",
+      "current_version_epoch_ms": 1755105125451,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Associer chaque âge proposé à l'événement correspondant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "14 ans → expérimentation.",
+            "justification": "Le repère d'âge de la première cigarette est 14 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "15 ans → consommation quotidienne.",
+            "justification": "Le repère d'âge de l'installation quotidienne est 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "14 ans → consommation quotidienne.",
+            "justification": "14 ans correspond à l'expérimentation, pas à la consommation quotidienne."
+          },
+          {
+            "correct": false,
+            "proposition": "15 ans → expérimentation.",
+            "justification": "15 ans correspond à la consommation quotidienne, l'expérimentation est à 14 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "13 ans → expérimentation.",
+            "justification": "Le repère fourni pour l'expérimentation est 14 ans, 13 ans ne correspond pas à ce repère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105125451_04",
+      "current_version_epoch_ms": 1755105125451,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Évaluer ces affirmations sur les repères d'âge chez les jeunes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le repère d'âge de la première cigarette est 14 ans.",
+            "justification": "La première cigarette (expérimentation) est repérée à 14 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Le repère d'âge de la première cigarette est 15 ans.",
+            "justification": "15 ans correspond au repère de consommation quotidienne, pas à l'expérimentation."
+          },
+          {
+            "correct": true,
+            "proposition": "Le repère d'âge de la consommation quotidienne est 15 ans.",
+            "justification": "L'installation de la consommation quotidienne est repérée à 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux repères correspondent tous deux à 15 ans.",
+            "justification": "Deux âges différents sont donnés : 14 ans (expérimentation) et 15 ans (quotidienne)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le repère d'âge de la consommation quotidienne est 14 ans.",
+            "justification": "14 ans est le repère d'expérimentation, pas de consommation quotidienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755105125451_05",
+      "current_version_epoch_ms": 1755105125451,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Interpréter ce cas : un jeune a essayé une cigarette à 14 ans et fume quotidiennement à 15 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Son âge d'expérimentation correspond au repère indiqué.",
+            "justification": "L'expérimentation est repérée à 14 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Il a commencé l'usage quotidien la même année que l'expérimentation.",
+            "justification": "La consommation quotidienne est repérée l'année suivante, à 15 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "L'usage quotidien à 15 ans s'aligne avec le repère indiqué.",
+            "justification": "La consommation quotidienne est repérée à 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "L'expérience initiale à 15 ans serait conforme au repère d'expérimentation.",
+            "justification": "Le repère d'expérimentation est 14 ans, pas 15 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai entre essai et usage quotidien est nul.",
+            "justification": "Les repères d'âge sont espacés d'environ un an (14 puis 15 ans)."
+          }
+        ]
+      }
+    }
+  ]
+}

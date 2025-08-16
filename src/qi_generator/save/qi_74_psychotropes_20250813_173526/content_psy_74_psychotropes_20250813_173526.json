@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "psychotropes",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755099533524_01",
+      "current_version_epoch_ms": 1755099533524,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Identifier les molécules appartenant aux inhibiteurs sélectifs de la recapture de la sérotonine (IRS).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Citalopram",
+            "justification": "Classée parmi les IRS."
+          },
+          {
+            "correct": true,
+            "proposition": "Escitalopram",
+            "justification": "Classée parmi les IRS."
+          },
+          {
+            "correct": true,
+            "proposition": "Sertraline",
+            "justification": "Classée parmi les IRS."
+          },
+          {
+            "correct": false,
+            "proposition": "Venlafaxine",
+            "justification": "Classée parmi les inhibiteurs de la recapture de la sérotonine et de la noradrénaline (IRSN), pas parmi les IRS."
+          },
+          {
+            "correct": false,
+            "proposition": "Mirtazapine",
+            "justification": "Rangée dans les « autres antidépresseurs », pas parmi les IRS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755099533524_02",
+      "current_version_epoch_ms": 1755099533524,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Classer les molécules relevant des inhibiteurs de la recapture de la sérotonine et de la noradrénaline (IRSN).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Duloxétine",
+            "justification": "Classée parmi les IRSN."
+          },
+          {
+            "correct": true,
+            "proposition": "Venlafaxine",
+            "justification": "Classée parmi les IRSN."
+          },
+          {
+            "correct": false,
+            "proposition": "Paroxétine",
+            "justification": "Classée parmi les IRS, pas parmi les IRSN."
+          },
+          {
+            "correct": false,
+            "proposition": "Agomélatine",
+            "justification": "Rangée dans les « autres antidépresseurs », pas parmi les IRSN."
+          },
+          {
+            "correct": false,
+            "proposition": "Amitriptyline",
+            "justification": "Classée parmi les imipraminiques, pas parmi les IRSN."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755099533524_03",
+      "current_version_epoch_ms": 1755099533524,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Reconnaître les imipraminiques parmi les propositions suivantes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amitriptyline",
+            "justification": "Classée parmi les imipraminiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Clomipramine",
+            "justification": "Classée parmi les imipraminiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Vortioxétine",
+            "justification": "Rangée dans les « autres antidépresseurs », pas parmi les imipraminiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluoxétine",
+            "justification": "Classée parmi les IRS, pas parmi les imipraminiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Duloxétine",
+            "justification": "Classée parmi les IRSN, pas parmi les imipraminiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755099533524_04",
+      "current_version_epoch_ms": 1755099533524,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Parmi les molécules suivantes, sélectionner celles rangées dans la catégorie « autres antidépresseurs » (mécanisme pharmacologique différent).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mirtazapine",
+            "justification": "Rangée dans la catégorie « autres antidépresseurs »."
+          },
+          {
+            "correct": true,
+            "proposition": "Agomélatine",
+            "justification": "Rangée dans la catégorie « autres antidépresseurs »."
+          },
+          {
+            "correct": true,
+            "proposition": "Vortioxétine",
+            "justification": "Rangée dans la catégorie « autres antidépresseurs »."
+          },
+          {
+            "correct": false,
+            "proposition": "Sertraline",
+            "justification": "Classée parmi les IRS, pas dans la catégorie « autres antidépresseurs »."
+          },
+          {
+            "correct": false,
+            "proposition": "Citalopram",
+            "justification": "Classée parmi les IRS, pas dans la catégorie « autres antidépresseurs »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755099533524_05",
+      "current_version_epoch_ms": 1755099533524,
+      "topic": {
+        "subject": "psy",
+        "item": "psychotropes"
+      },
+      "data": {
+        "statement": "Concernant la classification des antidépresseurs, choisir les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est imparfaite.",
+            "justification": "La classification est décrite comme imparfaite."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle repose sur le mécanisme d'action supposé.",
+            "justification": "La classification est basée sur le mécanisme d'action supposé."
+          },
+          {
+            "correct": true,
+            "proposition": "Les classes les plus utilisées comprennent IRS, IRSN, « autres antidépresseurs » et imipraminiques.",
+            "justification": "Ces classes sont explicitement listées parmi les plus utilisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Les IRS comprennent la paroxétine et la fluoxétine.",
+            "justification": "Paroxétine et fluoxétine figurent parmi les IRS."
+          },
+          {
+            "correct": false,
+            "proposition": "Les imipraminiques comprennent la venlafaxine.",
+            "justification": "La venlafaxine est classée parmi les IRSN, pas parmi les imipraminiques."
+          }
+        ]
+      }
+    }
+  ]
+}

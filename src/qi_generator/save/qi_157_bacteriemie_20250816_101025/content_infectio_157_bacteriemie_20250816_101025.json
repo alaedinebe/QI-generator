@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755332032428_01",
+      "current_version_epoch_ms": 1755332032428,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelles sont les modalités de surveillance recommandées dans les bactériémies à Staphylococcus aureus ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémocultures à 48h d'antibiothérapie.",
+            "justification": "La surveillance des hémocultures à 48h d'antibiothérapie permet de vérifier l'efficacité du traitement et d'identifier une persistance de la bactériémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures à 24h d'antibiothérapie.",
+            "justification": "Les hémocultures sont surveillées à 48h et non à 24h, car la prise en charge nécessite un délai suffisant pour évaluer la réponse au traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Echocardiographie systématique uniquement si la bactériémie est associée à des signes cliniques de endocardite.",
+            "justification": "L'échocardiographie systématique est indiquée dans tous les cas de bactériémie à Staphylococcus aureus en raison du risque d'endocardite, même sans signes cliniques évidents."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie systématique après 1 semaine de traitement.",
+            "justification": "L'échocardiographie doit être réalisée dès le diagnostic, pas après une semaine, car elle est cruciale pour détecter une endocardite associée, présente dans 10% des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance clinique sans tests microbiologiques complémentaires.",
+            "justification": "Une surveillance microbiologique, notamment les hémocultures, est essentielle pour guider le traitement et identifier des complications comme une endocardite ou une thrombose associée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332032428_02",
+      "current_version_epoch_ms": 1755332032428,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé en cas de bactériémie à Staphylococcus aureus non compliquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "14 jours de traitement par voie parentérale IV.",
+            "justification": "En cas de bactériémie non compliquée, sans endocardite et avec stérilisation précoce des hémocultures, le traitement de 14 jours par voie parentérale IV est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "4 à 6 semaines de traitement par voie orale.",
+            "justification": "Le traitement de 4 à 6 semaines par voie orale est réservé aux bactériémies compliquées, notamment lorsqu'il y a des complications comme l'endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "14 jours de traitement par voie orale.",
+            "justification": "La durée de traitement par voie orale est insuffisante dans une bactériémie non compliquée. Le traitement par voie parentérale est essentiel."
+          },
+          {
+            "correct": false,
+            "proposition": "4 à 6 semaines de traitement par voie parentérale IV.",
+            "justification": "La durée de 4 à 6 semaines est nécessaire dans les cas compliqués (endocardite ou localisation septique secondaire), pas dans les formes non compliquées."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement de 10 jours par voie parentérale IV.",
+            "justification": "Le traitement de 10 jours est trop court pour une bactériémie non compliquée à Staphylococcus aureus, où la durée minimale est de 14 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332032428_03",
+      "current_version_epoch_ms": 1755332032428,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge d'une bactériémie à Staphylococcus aureus liée à un cathéter ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher une thrombose associée par écho-Doppler.",
+            "justification": "En cas de bactériémie liée à un cathéter et d'évolution défavorable, il est important de rechercher une thrombose associée par écho-Doppler."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie systématique pour tous les cas.",
+            "justification": "L'échocardiographie systématique est indiquée uniquement en cas de suspicion d'endocardite, ce qui n'est pas systématique pour les bactériémies liées au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'endocardite sans nécessiter d'examens supplémentaires.",
+            "justification": "L'endocardite n'est pas toujours associée à une bactériémie liée à un cathéter. La priorité ici est de rechercher une thrombose par écho-Doppler."
+          },
+          {
+            "correct": false,
+            "proposition": "Durée de traitement de 14 jours sans modification.",
+            "justification": "En cas de bactériémie liée à un cathéter, la durée du traitement peut être prolongée et ajustée en fonction de la présence d'une thrombose ou d'autres complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie orale de 14 jours après retrait du cathéter.",
+            "justification": "L'antibiothérapie orale n'est pas adaptée pour les cas de bactériémie à Staphylococcus aureus liés à un cathéter. Un traitement parentéral est nécessaire pour une prise en charge optimale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332032428_04",
+      "current_version_epoch_ms": 1755332032428,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le taux d'association d'une bactériémie à Staphylococcus aureus avec une endocardite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "10% des cas.",
+            "justification": "Une bactériémie à Staphylococcus aureus est associée à une endocardite dans environ 10% des cas, ce qui justifie la réalisation systématique d'une échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "50% des cas.",
+            "justification": "Le taux d'association est beaucoup plus faible, de l'ordre de 10%, et non 50%."
+          },
+          {
+            "correct": false,
+            "proposition": "30% des cas.",
+            "justification": "L'association entre bactériémie à Staphylococcus aureus et endocardite est de 10%, et non de 30%."
+          },
+          {
+            "correct": false,
+            "proposition": "1% des cas.",
+            "justification": "Le taux d'association avec l'endocardite est bien plus élevé que 1%, soit environ 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "20% des cas.",
+            "justification": "Le taux réel d'association avec une endocardite est de 10%, non 20%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332032428_05",
+      "current_version_epoch_ms": 1755332032428,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'échocardiographie systématique dans la gestion de la bactériémie à Staphylococcus aureus ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détecter une endocardite, présente dans 10% des cas.",
+            "justification": "L'échocardiographie systématique permet de détecter une endocardite, qui est présente dans environ 10% des cas de bactériémie à Staphylococcus aureus."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer la durée du traitement antibiotique.",
+            "justification": "L'échocardiographie ne permet pas de déterminer la durée du traitement antibiotique, mais elle est essentielle pour identifier une endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier la stérilisation des hémocultures.",
+            "justification": "La stérilisation des hémocultures est vérifiée après 48h d'antibiothérapie, pas par l'échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la résistance du Staphylococcus aureus aux antibiotiques.",
+            "justification": "L'échocardiographie n'a aucun rôle dans la mesure de la résistance bactérienne, qui est déterminée par des tests microbiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveiller l'évolution de la thrombose associée.",
+            "justification": "L'échocardiographie n'est pas utilisée pour surveiller les thromboses. Un écho-Doppler est utilisé dans ce cas."
+          }
+        ]
+      }
+    }
+  ]
+}

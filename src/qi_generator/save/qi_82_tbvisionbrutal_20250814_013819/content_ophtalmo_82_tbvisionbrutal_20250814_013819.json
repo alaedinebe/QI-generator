@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbvisionbrutal",
+    "subject": "ophtalmo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755128506240_01",
+      "current_version_epoch_ms": 1755128506240,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire est indiqué en cas de glaucome ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Champs visuel de Goldman",
+            "justification": "Le champ visuel de Goldman (périmétrie cinétique) est utilisé pour diagnostiquer des pathologies comme le glaucome."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomographie en cohérence optique (OCT)",
+            "justification": "L'OCT est davantage indiquée pour des anomalies maculaires ou dans le cadre d'une évaluation préopératoire de la cataracte, mais pas spécifiquement pour le glaucome."
+          },
+          {
+            "correct": false,
+            "proposition": "Angiographie à la fluorescéine",
+            "justification": "L'angiographie à la fluorescéine est indiquée principalement pour des pathologies rétiniennes, comme la DMLA ou les occlusions vasculaires rétiniennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophysiologie visuelle",
+            "justification": "Les tests électrophysiologiques sont utilisés pour les dystrophies rétiniennes et les neuropathies optiques, pas pour le glaucome."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie oculaire en mode B",
+            "justification": "L'échographie en mode B est utilisée pour dépister un décollement rétinien ou localiser des corps étrangers intraoculaires, mais pas pour le glaucome."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755128506240_02",
+      "current_version_epoch_ms": 1755128506240,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel examen est recommandé pour une pathologie rétinienne telle que la dégénérescence maculaire liée à l'âge (DMLA) ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Champs visuel de Goldman",
+            "justification": "Le champ visuel de Goldman est principalement utilisé pour des troubles comme le glaucome, pas pour la DMLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophysiologie visuelle",
+            "justification": "Les électrophysiologies visuelles sont utiles pour les dystrophies rétiniennes, mais pas pour la DMLA."
+          },
+          {
+            "correct": true,
+            "proposition": "Angiographie à la fluorescéine",
+            "justification": "L'angiographie à la fluorescéine est indiquée pour diagnostiquer des pathologies rétiniennes comme la DMLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomographie en cohérence optique (OCT)",
+            "justification": "Bien que l'OCT puisse être utilisée pour examiner la macula, l'angiographie à la fluorescéine est plus spécifique pour la DMLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Angiographie au vert d'indocyanine",
+            "justification": "L'angiographie au vert d'indocyanine est surtout utilisée pour les pathologies inflammatoires du segment postérieur, pas pour la DMLA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755128506240_03",
+      "current_version_epoch_ms": 1755128506240,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Dans quel cas l'échographie oculaire en mode B est-elle principalement indiquée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Évaluation préopératoire de la cataracte",
+            "justification": "L'échographie en mode A est utilisée pour déterminer la longueur du globe oculaire avant une chirurgie de la cataracte, mais non en mode B."
+          },
+          {
+            "correct": true,
+            "proposition": "Détection de décollement de la rétine",
+            "justification": "L'échographie en mode B est utilisée pour dépister un décollement rétinien, particulièrement en cas de trouble des milieux oculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépistage du glaucome",
+            "justification": "L'échographie en mode B n'est pas utilisée pour le glaucome, c'est la périmétrie ou l'OCT qui sont indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen des anomalies maculaires",
+            "justification": "Les anomalies maculaires sont plutôt analysées avec une tomographie en cohérence optique (OCT), pas avec l'échographie en mode B."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation des dystrophies rétiniennes",
+            "justification": "Les dystrophies rétiniennes sont diagnostiquées grâce à des tests électrophysiologiques, pas avec l'échographie en mode B."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755128506240_04",
+      "current_version_epoch_ms": 1755128506240,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire est particulièrement utile pour le diagnostic des neuropathies optiques ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Tomographie en cohérence optique (OCT)",
+            "justification": "Bien que l'OCT soit utile pour analyser le nerf optique, il ne permet pas un diagnostic complet des neuropathies optiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Champs visuel de Goldman",
+            "justification": "Le champ visuel de Goldman est utilisé principalement pour évaluer les déficits visuels associés au glaucome et aux pathologies neuro-ophtalmologiques, mais pas spécifiquement pour les neuropathies optiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Potentiels évoqués visuels (PEV)",
+            "justification": "Les potentiels évoqués visuels (PEV) sont particulièrement utiles pour le diagnostic des neuropathies optiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Angiographie à la fluorescéine",
+            "justification": "L'angiographie à la fluorescéine est utile pour les pathologies rétiniennes mais ne permet pas de diagnostiquer les neuropathies optiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie oculaire",
+            "justification": "L'échographie oculaire est utilisée pour des pathologies structurelles comme le décollement de rétine, mais pas pour les neuropathies optiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755128506240_05",
+      "current_version_epoch_ms": 1755128506240,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel examen est principalement indiqué pour évaluer des anomalies maculaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tomographie en cohérence optique (OCT)",
+            "justification": "L'OCT est un examen clé pour diagnostiquer les anomalies maculaires comme les drusen, hémorragies ou le trou maculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Angiographie à la fluorescéine",
+            "justification": "L'angiographie à la fluorescéine est plus utile pour diagnostiquer des pathologies rétiniennes comme la DMLA, pas spécifiquement pour les anomalies maculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Champs visuel de Goldman",
+            "justification": "Les champs visuels sont principalement utilisés pour des troubles comme le glaucome ou les pathologies neuro-ophtalmologiques, pas pour les anomalies maculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophysiologie visuelle",
+            "justification": "Les tests électrophysiologiques sont utilisés pour les dystrophies rétiniennes et les neuropathies optiques, pas pour les anomalies maculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie oculaire",
+            "justification": "L'échographie oculaire est utilisée pour détecter un décollement de la rétine, pas pour les anomalies maculaires."
+          }
+        ]
+      }
+    }
+  ]
+}

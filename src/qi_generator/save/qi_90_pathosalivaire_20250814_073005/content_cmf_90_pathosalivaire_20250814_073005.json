@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "pathosalivaire",
+    "subject": "cmf"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755149611839_01",
+      "current_version_epoch_ms": 1755149611839,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel traitement est indiqué pour un calcul de glande salivaire situé dans le tiers postérieur du canal parotidien, de taille supérieure à 8 mm ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chirurgie",
+            "justification": "Le traitement chirurgical est indiqué pour les calculs de plus de 8 mm, quelle que soit leur localisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialendoscopie",
+            "justification": "La sialendoscopie est utilisée pour les calculs de moins de 8 mm, particulièrement dans la partie antérieure ou pour les calculs inférieurs à 4 mm dans la partie postérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "Lithotripsie extracorporelle",
+            "justification": "La lithotripsie extracorporelle est réservée aux calculs de moins de 8 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Laser endoscopique",
+            "justification": "Le laser est utilisé lors de la sialendoscopie, principalement pour fragmenter des calculs de grande taille, mais n'est pas un traitement indépendant pour les calculs de plus de 8 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation sans traitement",
+            "justification": "Un calcul supérieur à 8 mm nécessite un traitement actif, généralement chirurgical, et ne peut être laissé sans intervention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149611839_02",
+      "current_version_epoch_ms": 1755149611839,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quelle technique est privilégiée pour traiter un calcul situé dans la partie postérieure du canal parotidien mesurant entre 4 et 8 mm ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sialendoscopie après lithotripsie extracorporelle",
+            "justification": "Les calculs de taille intermédiaire (entre 4 et 8 mm) nécessitent parfois une fragmentation préalable par lithotripsie extracorporelle avant l'extraction par sialendoscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie",
+            "justification": "La chirurgie est indiquée pour les calculs de plus de 8 mm, et non pour ceux entre 4 et 8 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialendoscopie sans lithotripsie",
+            "justification": "L'extraction par sialendoscopie est plus difficile pour les calculs de plus de 4 mm dans la partie postérieure du canal et peut nécessiter une fragmentation préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lithotripsie extracorporelle seule",
+            "justification": "La lithotripsie extracorporelle seule est réservée aux calculs de moins de 8 mm et ne suffit pas pour un calcul situé dans la partie postérieure de plus de 4 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation sans traitement",
+            "justification": "Les calculs de cette taille nécessitent un traitement actif et ne peuvent pas être laissés sans intervention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149611839_03",
+      "current_version_epoch_ms": 1755149611839,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel traitement est indiqué pour un calcul submandibulaire situé dans le tiers antérieur du canal, mesurant 6 mm ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chirurgie par voie endobuccale",
+            "justification": "Les calculs dans la partie antérieure du canal peuvent être traités par chirurgie endobuccale, qui est réalisable sous anesthésie locale ou générale selon la taille et la localisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialendoscopie",
+            "justification": "La sialendoscopie est principalement utilisée pour les calculs de moins de 4 mm ou dans les cas où la chirurgie est difficile, mais elle n'est pas la technique privilégiée pour les calculs de 6 mm dans le tiers antérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "Lithotripsie extracorporelle",
+            "justification": "La lithotripsie extracorporelle est utilisée uniquement pour les calculs de moins de 8 mm, mais dans la partie antérieure du canal, la chirurgie est une option plus adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialendoscopie après fragmentation par laser",
+            "justification": "Le laser peut être utilisé pour fragmenter des calculs plus grands pendant la sialendoscopie, mais dans ce cas, la chirurgie par voie endobuccale est la technique la plus adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation sans traitement",
+            "justification": "Un calcul de 6 mm nécessite un traitement actif, généralement chirurgical, pour éviter des complications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149611839_04",
+      "current_version_epoch_ms": 1755149611839,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Quel est le traitement privilégié pour un calcul de moins de 4 mm situé dans la partie postérieure du canal parotidien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sialendoscopie",
+            "justification": "Les calculs de moins de 4 mm situés dans la partie postérieure du canal parotidien peuvent être extraits par sialendoscopie, qui est la méthode de choix pour cette taille de calcul."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie",
+            "justification": "La chirurgie n'est généralement pas nécessaire pour les calculs de moins de 4 mm dans la partie postérieure du canal parotidien."
+          },
+          {
+            "correct": false,
+            "proposition": "Lithotripsie extracorporelle",
+            "justification": "La lithotripsie extracorporelle est réservée aux calculs de taille plus grande, généralement ceux de moins de 8 mm mais pas dans cette zone spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sialendoscopie après lithotripsie",
+            "justification": "La lithotripsie n'est pas nécessaire pour les calculs de moins de 4 mm, la sialendoscopie suffit pour les traiter."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation sans traitement",
+            "justification": "Même les calculs de petite taille dans la partie postérieure nécessitent un traitement actif pour éviter des complications, la sialendoscopie étant la méthode de choix."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755149611839_05",
+      "current_version_epoch_ms": 1755149611839,
+      "topic": {
+        "subject": "cmf",
+        "item": "pathosalivaire"
+      },
+      "data": {
+        "statement": "Dans quel cas la lithotripsie extracorporelle est-elle recommandée pour traiter un calcul salivaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Calculs de moins de 8 mm",
+            "justification": "La lithotripsie extracorporelle est recommandée pour les calculs de moins de 8 mm, notamment ceux qui ne peuvent être extraits par sialendoscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculs de plus de 8 mm",
+            "justification": "Les calculs de plus de 8 mm nécessitent une chirurgie, pas de lithotripsie extracorporelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculs dans la partie antérieure du canal uniquement",
+            "justification": "La lithotripsie extracorporelle est utilisée pour les calculs de moins de 8 mm, quelle que soit leur localisation, pas uniquement dans la partie antérieure du canal."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculs dans la partie postérieure du canal inférieurs à 4 mm",
+            "justification": "Les calculs inférieurs à 4 mm dans la partie postérieure du canal sont mieux extraits par sialendoscopie sans besoin de lithotripsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculs de plus de 8 mm dans la partie postérieure du canal",
+            "justification": "Les calculs de plus de 8 mm, même dans la partie postérieure, nécessitent une intervention chirurgicale et non une lithotripsie extracorporelle."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "anesth",
+    "subject": "soinspal"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755275491127_01",
+      "current_version_epoch_ms": 1755275491127,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quel est le délai minimum pour réaliser une consultation pré-anesthésique avant une intervention programmée nécessitant une anesthésie générale ou locorégionale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2 jours avant l'intervention",
+            "justification": "Le décret anesthésie OIC-136-03 stipule que la consultation pré-anesthésique doit être réalisée au moins 2 jours avant une intervention programmée."
+          },
+          {
+            "correct": false,
+            "proposition": "24 heures avant l'intervention",
+            "justification": "Le délai de 24 heures concerne la visite pré-anesthésique et non la consultation pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "1 semaine avant l'intervention",
+            "justification": "Le délai de 1 semaine avant l'intervention n'est pas mentionné dans le décret. Le délai pour la consultation pré-anesthésique est de 2 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours avant l'intervention",
+            "justification": "Le décret spécifie un minimum de 2 jours avant l'intervention pour la consultation pré-anesthésique, pas 3 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mois avant l'intervention",
+            "justification": "La consultation pré-anesthésique est valable pour une durée de 1 mois, mais elle doit avoir lieu au moins 2 jours avant l'intervention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275491127_02",
+      "current_version_epoch_ms": 1755275491127,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quelle est la durée de validité d'une consultation pré-anesthésique réalisée avant une intervention programmée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "1 mois",
+            "justification": "Le décret OIC-136-03 indique que la consultation pré-anesthésique est valable pour une durée d'un mois, sauf avis anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "6 mois",
+            "justification": "Le décret ne prévoit pas de validité de 6 mois pour la consultation pré-anesthésique, la durée est de 1 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "3 mois",
+            "justification": "La validité de la consultation pré-anesthésique est d'un mois, et non de 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "24 heures",
+            "justification": "La validité d'une consultation pré-anesthésique n'est pas de 24 heures, cette durée est applicable à la visite pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "2 jours",
+            "justification": "La consultation pré-anesthésique doit être réalisée 2 jours avant l'intervention, mais sa validité est d'un mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275491127_03",
+      "current_version_epoch_ms": 1755275491127,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Dans quel cas le processus anesthésique est adapté en fonction du degré d'urgence de la situation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'intervention urgente",
+            "justification": "En cas d'intervention urgente, le processus anesthésique est modifié pour s'adapter à l'urgence de la situation."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'intervention programmée",
+            "justification": "Le processus anesthésique pour une intervention programmée suit un protocole standard, et n'est pas adapté en fonction de l'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'anesthésie générale est réalisée",
+            "justification": "L'adaptation du processus anesthésique est basée sur l'urgence de l'intervention, et non sur le type d'anesthésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de l'anesthésie locorégionale",
+            "justification": "Le processus anesthésique n'est pas spécifiquement modifié par le type d'anesthésie, mais par le degré d'urgence de l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la surveillance post-intervention",
+            "justification": "La surveillance post-intervention est standard, quel que soit le type d'intervention ou d'urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275491127_04",
+      "current_version_epoch_ms": 1755275491127,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la consultation pré-anesthésique réalisée avant une intervention programmée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer le risque anesthésique et recueillir le consentement du patient",
+            "justification": "La consultation pré-anesthésique permet d'évaluer les risques anesthésiques et de recueillir le consentement éclairé du patient avant l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier les antécédents médicaux du patient uniquement",
+            "justification": "Bien que les antécédents médicaux soient évalués, l'objectif principal est d'évaluer le risque anesthésique et de recueillir le consentement."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire les médicaments préopératoires",
+            "justification": "La prescription des médicaments préopératoires peut être réalisée après la consultation, mais ce n'est pas l'objectif principal de la consultation pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "Organiser le suivi post-opératoire",
+            "justification": "Le suivi post-opératoire est une étape distincte du processus anesthésique, réalisé après l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Planifier la rééducation postopératoire",
+            "justification": "La rééducation postopératoire n'est pas l'objet de la consultation pré-anesthésique, qui se concentre sur l'anesthésie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755275491127_05",
+      "current_version_epoch_ms": 1755275491127,
+      "topic": {
+        "subject": "soinspal",
+        "item": "anesth"
+      },
+      "data": {
+        "statement": "Quelle est la surveillance requise après une intervention nécessitant une anesthésie générale ou locorégionale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une surveillance continue",
+            "justification": "Le décret OIC-136-03 prévoit une surveillance continue après l'intervention pour détecter d'éventuelles complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Une surveillance uniquement pendant la phase de réveil",
+            "justification": "La surveillance est continue, non limitée à la phase de réveil, afin de garantir la sécurité du patient après l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune surveillance n'est nécessaire si l'intervention est simple",
+            "justification": "Même pour une intervention simple, une surveillance continue est nécessaire pour prévenir les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Une surveillance limitée à 1 heure après l'intervention",
+            "justification": "La surveillance continue doit durer au-delà d'une heure, en fonction de l'état du patient et des risques potentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Une surveillance uniquement en cas de complication majeure",
+            "justification": "La surveillance est systématique, même en l'absence de complications majeures, pour prévenir tout risque postopératoire."
+          }
+        ]
+      }
+    }
+  ]
+}

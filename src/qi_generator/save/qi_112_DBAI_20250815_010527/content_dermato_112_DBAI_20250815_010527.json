@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755212934585_01",
+      "current_version_epoch_ms": 1755212934585,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux décrits dans les lésions observées chez une patiente atteinte de pemphigus vulgaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de bulles tendues",
+            "justification": "Des bulles tendues sont rapportées."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de bulles flasques",
+            "justification": "Des bulles flasques sont rapportées."
+          },
+          {
+            "correct": true,
+            "proposition": "Multiples érosions à bords déchiquetés",
+            "justification": "Des érosions à bords déchiquetés sont explicitement mentionnées."
+          },
+          {
+            "correct": false,
+            "proposition": "Pustules folliculaires",
+            "justification": "Seules des bulles et des érosions sont décrites ; pas de pustules."
+          },
+          {
+            "correct": false,
+            "proposition": "Plaques squameuses",
+            "justification": "Aucune plaque squameuse n'est indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212934585_02",
+      "current_version_epoch_ms": 1755212934585,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer le type d'atteinte rapportée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte cutanéo-muqueuse",
+            "justification": "Les lésions sont qualifiées de cutanéo-muqueuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte cutanée exclusive",
+            "justification": "La présence d'une atteinte muqueuse est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte muqueuse exclusive",
+            "justification": "Des lésions cutanées sont également précisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte unguéale exclusive",
+            "justification": "Aucune atteinte unguéale n'est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte systémique documentée",
+            "justification": "Seules des atteintes cutanées et muqueuses sont rapportées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212934585_03",
+      "current_version_epoch_ms": 1755212934585,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître la localisation cutanée explicitement indiquée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dos",
+            "justification": "Les bulles sont décrites au niveau du dos."
+          },
+          {
+            "correct": false,
+            "proposition": "Cuir chevelu",
+            "justification": "Cette localisation n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Visage",
+            "justification": "Cette localisation n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Paumes",
+            "justification": "Cette localisation n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Plantes",
+            "justification": "Cette localisation n'est pas indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212934585_04",
+      "current_version_epoch_ms": 1755212934585,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier le diagnostic associé aux lésions décrites.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pemphigus vulgaire",
+            "justification": "Le diagnostic de pemphigus vulgaire est explicitement associé aux lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "Pemphigoïde bulleuse",
+            "justification": "Ce diagnostic n'est pas associé à ces lésions dans la description."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatite séborrhéique",
+            "justification": "Cette affection n'est pas rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Psoriasis en plaques",
+            "justification": "Cette affection n'est pas rapportée."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire aiguë",
+            "justification": "Cette affection n'est pas rapportée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212934585_05",
+      "current_version_epoch_ms": 1755212934585,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Caractériser précisément les lésions dans ce cas.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Érosions à bords déchiquetés",
+            "justification": "La présence d'érosions à bords déchiquetés est précisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'érosion",
+            "justification": "Des érosions sont mentionnées."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement des bulles tendues",
+            "justification": "Des bulles peuvent être tendues ou flasques."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement des bulles flasques",
+            "justification": "Des bulles peuvent être flasques ou tendues."
+          },
+          {
+            "correct": true,
+            "proposition": "Bulles tendues ou flasques",
+            "justification": "La description indique des bulles pouvant être tendues ou flasques."
+          }
+        ]
+      }
+    }
+  ]
+}

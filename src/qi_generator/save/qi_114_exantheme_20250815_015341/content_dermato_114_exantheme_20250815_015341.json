@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exantheme",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755215827844_01",
+      "current_version_epoch_ms": 1755215827844,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Identifier la cause principale d'un exanthème quel que soit l'âge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection virale aiguë",
+            "justification": "La cause principale commune à l'adulte et à l'enfant est infectieuse, spécifiquement virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction médicamenteuse",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie auto-immune",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection bactérienne aiguë",
+            "justification": "La cause principale n'est pas bactérienne mais virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxicité environnementale",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755215827844_02",
+      "current_version_epoch_ms": 1755215827844,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Chez un enfant présentant un exanthème, quelle étiologie envisager en premier ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection virale aiguë",
+            "justification": "Chez l'enfant, la cause la plus fréquente d'exanthème est une infection virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie de contact",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Carence nutritionnelle",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxidermie médicamenteuse",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie bactérienne invasive",
+            "justification": "La cause principale n'est pas bactérienne mais virale aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755215827844_03",
+      "current_version_epoch_ms": 1755215827844,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Reconnaître les affirmations exactes concernant l'épidémiologie des exanthèmes chez l'adulte et l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'étiologie la plus fréquente est infectieuse, due à des infections virales aiguës.",
+            "justification": "La cause principale commune aux deux groupes d'âge est une infection virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez l'adulte, la cause principale est allergique.",
+            "justification": "La cause principale n'est pas allergique ; elle est infectieuse virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Le raisonnement clinique doit reconnaître en premier l'hypothèse d'une infection virale aiguë.",
+            "justification": "Puisque l'étiologie principale est virale aiguë, c'est l'hypothèse la plus probable à considérer."
+          },
+          {
+            "correct": false,
+            "proposition": "Les causes non infectieuses sont majoritaires tous âges confondus.",
+            "justification": "C'est l'inverse : la cause principale est infectieuse virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Le caractère « commun à l'adulte et à l'enfant » signifie que la même cause principale s'applique aux deux.",
+            "justification": "La cause principale est partagée par les deux groupes d'âge : infection virale aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755215827844_04",
+      "current_version_epoch_ms": 1755215827844,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Différencier selon l'âge l'étiologie la plus probable d'un exanthème.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exanthème chez l'adulte : suspecter en premier une infection virale aiguë.",
+            "justification": "La cause principale chez l'adulte est une infection virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Exanthème chez l'enfant : suspecter en premier une infection virale aiguë.",
+            "justification": "La cause principale chez l'enfant est une infection virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème chez l'adulte : la principale cause est une allergie médicamenteuse.",
+            "justification": "La cause principale n'est pas médicamenteuse ; elle est infectieuse virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème chez l'enfant : la principale cause est bactérienne.",
+            "justification": "La cause principale n'est pas bactérienne ; elle est virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Quel que soit l'âge, la principale cause est une infection virale aiguë.",
+            "justification": "La cause principale est commune à l'adulte et à l'enfant et correspond à des infections virales aiguës."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755215827844_05",
+      "current_version_epoch_ms": 1755215827844,
+      "topic": {
+        "subject": "dermato",
+        "item": "exantheme"
+      },
+      "data": {
+        "statement": "Classer les propositions exactes relatives à la « cause principale » d'un exanthème.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est infectieuse, liée à des infections virales aiguës.",
+            "justification": "La cause principale d'un exanthème est une infection virale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle diffère entre l'enfant et l'adulte.",
+            "justification": "Elle est commune aux deux groupes d'âge : infection virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est commune à l'enfant et à l'adulte.",
+            "justification": "La même cause principale s'applique aux deux : infection virale aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle oriente le raisonnement clinique vers l'hypothèse infectieuse virale en première intention.",
+            "justification": "Puisqu'elle est la plus fréquente, l'hypothèse virale aiguë est la plus probable à considérer d'emblée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle correspond le plus souvent à une allergie médicamenteuse.",
+            "justification": "Ce n'est pas la cause principale ; la cause principale est infectieuse virale aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}

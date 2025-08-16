@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "cephalee",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755176309280_01",
+      "current_version_epoch_ms": 1755176309280,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Identifier les mesures initiales appropriées devant une suspicion de céphalée secondaire aux urgences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Installer le patient allongé, tête à 30°, au calme et dans l'obscurité en cas de photophobie.",
+            "justification": "Mesure non pharmacologique explicitement recommandée en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre le patient à jeun.",
+            "justification": "Fait partie de la prise en charge initiale d'une suspicion de céphalée secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer d'emblée de l'aspirine.",
+            "justification": "L'aspirine est à éviter car elle peut aggraver une hémorragie."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser des sédatifs pour calmer le patient agité.",
+            "justification": "Les sédatifs sont à éviter car ils peuvent masquer l'émergence de troubles de la conscience."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un antalgique (paracétamol 1 g ou néfopam 20 mg) et associer un antiémétique en cas de nausées/vomissements.",
+            "justification": "Antalgie et antiémétique sont indiqués en traitement initial."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755176309280_02",
+      "current_version_epoch_ms": 1755176309280,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Différencier les éléments clés de la prise en charge d'une crise de céphalée primaire avec vomissements abondants aux urgences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre en place une réhydratation IV si nécessaire.",
+            "justification": "La réhydratation IV est indiquée en cas de vomissements abondants."
+          },
+          {
+            "correct": true,
+            "proposition": "Administrer un antalgique IV (paracétamol 1 g ou néfopam 20 mg).",
+            "justification": "Les antalgiques IV sont recommandés dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser un AINS, par exemple kétoprofène 100 mg.",
+            "justification": "Un AINS peut être utilisé dans la crise de céphalée primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter tout AINS en raison d'un risque hémorragique.",
+            "justification": "La contre-indication des AINS concerne la suspicion de céphalée secondaire, pas la crise primaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Associer un antiémétique comme le métoclopramide 10 mg.",
+            "justification": "Un antiémétique est recommandé dans la crise primaire avec nausées/vomissements."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755176309280_03",
+      "current_version_epoch_ms": 1755176309280,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Choisir la voie d'administration et l'escalade thérapeutique en cas de troubles digestifs associés lors d'une suspicion de céphalée secondaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Privilégier la voie IV pour l'antalgie.",
+            "justification": "La voie IV est indiquée en cas de troubles digestifs associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférer la voie orale pour le paracétamol.",
+            "justification": "La voie orale n'est pas privilégiée en présence de troubles digestifs ; la voie IV est recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Retarder l'antiémétique jusqu'au contrôle complet de la douleur.",
+            "justification": "L'antiémétique doit être associé en cas de nausées/vomissements, sans délai imposé."
+          },
+          {
+            "correct": true,
+            "proposition": "Passer à un antalgique de palier 2 en cas d'échec.",
+            "justification": "Une escalade vers un palier 2 est prévue en cas d'échec de l'antalgie initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Éviter les AINS et l'aspirine.",
+            "justification": "Ils sont susceptibles d'aggraver une hémorragie et doivent être évités."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755176309280_04",
+      "current_version_epoch_ms": 1755176309280,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Reconnaître la situation imposant de remettre en cause le diagnostic de crise de céphalée primaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalée qui persiste inchangée après le traitement initial.",
+            "justification": "La persistance inchangée doit conduire à rechercher une cause secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements abondants d'emblée.",
+            "justification": "Ils justifient une réhydratation IV mais ne constituent pas, en soi, un critère de remise en cause du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Photophobie initiale.",
+            "justification": "La photophobie oriente des mesures de confort mais n'impose pas de requalification diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration rapide après kétoprofène 100 mg.",
+            "justification": "L'amélioration n'est pas un motif de remettre en cause le diagnostic ; seul l'échec avec persistance inchangée est mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un calmant sédatif au traitement initial.",
+            "justification": "Les sédatifs sont à éviter ; la remise en cause est liée à la persistance inchangée après prise en charge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755176309280_05",
+      "current_version_epoch_ms": 1755176309280,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Classer les éléments à éviter dans la prise en charge d'une suspicion de céphalée secondaire aux urgences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aspirine.",
+            "justification": "À éviter car peut aggraver une hémorragie."
+          },
+          {
+            "correct": true,
+            "proposition": "AINS.",
+            "justification": "À éviter pour la même raison d'aggravation d'une hémorragie."
+          },
+          {
+            "correct": true,
+            "proposition": "Sédatifs.",
+            "justification": "À éviter car peuvent masquer l'émergence de troubles de la conscience."
+          },
+          {
+            "correct": false,
+            "proposition": "Antalgiques de palier 2 en cas d'échec.",
+            "justification": "Peuvent être utilisés en cas d'échec de l'antalgie initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Antiémétique (métoclopramide).",
+            "justification": "Indiqué en cas de nausées/vomissements."
+          }
+        ]
+      }
+    }
+  ]
+}

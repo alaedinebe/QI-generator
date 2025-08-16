@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755259529825_01",
+      "current_version_epoch_ms": 1755259529825,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les raisons de réaliser systématiquement l'examen clinique de la marche chez la personne âgée lors d'une première consultation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre en évidence d'éventuelles pathologies pré-existantes.",
+            "justification": "Les troubles de la marche peuvent témoigner de pathologies pré-existantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Repérer une situation exposant à des complications.",
+            "justification": "Les troubles de la marche exposent à des complications."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier un besoin de rééducation et/ou d'aides techniques, voire d'aides à domicile.",
+            "justification": "Les troubles de la marche peuvent nécessiter la mise en place de rééducation et/ou d'aides techniques, voire d'aides à domicile."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne s'impose que s'il existe une plainte de marche.",
+            "justification": "L'examen de la marche doit être systématique, en particulier au minimum lors d'une première consultation."
+          },
+          {
+            "correct": false,
+            "proposition": "N'est indiqué qu'en cas de chute récente.",
+            "justification": "Il est recommandé de le réaliser de façon systématique, pas uniquement après une chute."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259529825_02",
+      "current_version_epoch_ms": 1755259529825,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Associer chaque type de marche à son origine étiologique la plus évocatrice.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Marche ataxique pseudo-ébrieuse → atteinte cérébelleuse.",
+            "justification": "La marche ataxique pseudo-ébrieuse est d'origine cérébelleuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche ataxique talonnante → atteinte proprioceptive.",
+            "justification": "La marche ataxique talonnante est d'origine proprioceptive."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche ataxique latéralisée et/ou en étoile → atteinte vestibulaire.",
+            "justification": "La marche ataxique latéralisée et/ou en étoile est d'origine vestibulaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche spastique avec fauchage → atteinte pyramidale unilatérale.",
+            "justification": "Le fauchage traduit une origine pyramidale unilatérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Marche parétique avec steppage → atteinte pyramidale bilatérale.",
+            "justification": "Le steppage évoque une origine L4-L5 ou nerf SPE (fibulaire), pas une atteinte pyramidale bilatérale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259529825_03",
+      "current_version_epoch_ms": 1755259529825,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les caractéristiques de la marche parkinsonienne.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Allure lente avec petits pas.",
+            "justification": "La marche parkinsonienne est décrite comme lente, à petits pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte du ballant des bras.",
+            "justification": "La perte du ballant des bras fait partie des signes décrits."
+          },
+          {
+            "correct": true,
+            "proposition": "Demi-tour décomposé.",
+            "justification": "Le demi-tour décomposé est cité parmi les caractéristiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence possible de freezing, de festination et d'enrayage cinétique.",
+            "justification": "Freezing, festination et enrayage cinétique sont mentionnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Grands pas avec ballant des bras augmenté.",
+            "justification": "C'est l'inverse des éléments attendus (petits pas et perte du ballant)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259529825_04",
+      "current_version_epoch_ms": 1755259529825,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes selon le mécanisme principal de la boiterie ou de la claudication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Boiterie d'évitement → origine ostéo-articulaire douloureuse.",
+            "justification": "La boiterie d'évitement est décrite comme d'origine ostéo-articulaire douloureuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Boiterie déficitaire → pathologie neurologique.",
+            "justification": "La boiterie déficitaire est rapportée à une pathologie neurologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Marche claudicante douloureuse avec périmètre de marche limité → origine vasculaire (AOMI) ou médullaire.",
+            "justification": "La marche claudicante douloureuse est d'origine vasculaire (AOMI) ou médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Boiterie d'évitement → atteinte vestibulaire périphérique.",
+            "justification": "L'atteinte vestibulaire est associée à une marche ataxique, pas à une boiterie d'évitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Claudication douloureuse → gonarthrose typique.",
+            "justification": "La gonarthrose relève d'une atteinte ostéo-articulaire douloureuse, non d'une claudication d'origine vasculaire/médullaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755259529825_05",
+      "current_version_epoch_ms": 1755259529825,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Définir les étapes et compléments incontournables de l'examen clinique de la marche chez la personne âgée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Faire marcher la personne nu-pieds sur une courte distance en ligne droite puis réaliser un demi-tour.",
+            "justification": "Il est recommandé de disposer d'un espace dégagé pour faire marcher nu-pieds en ligne droite et faire demi-tour."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher un déficit visuel et des troubles attentionnels.",
+            "justification": "La recherche d'un déficit visuel et de troubles attentionnels fait partie de l'examen."
+          },
+          {
+            "correct": true,
+            "proposition": "Examiner l'appareil ostéo-articulaire, notamment pour une gonarthrose ou une coxarthrose.",
+            "justification": "Un examen ostéo-articulaire est indiqué à la recherche d'une gonarthrose ou d'une coxarthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser un examen neurologique ciblant déficit moteur/sensitif, syndromes pyramidal, parkinsonien, vestibulaire, cérébelleux, radiculaire, polyneuropathie, myogène, myasthénique ou du motoneurone.",
+            "justification": "Ces éléments neurologiques sont listés comme à rechercher lors de l'examen."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir si l'espace est restreint, l'examen étant non indispensable.",
+            "justification": "Au contraire, il faut un espace suffisamment dégagé car l'examen est recommandé de manière systématique."
+          }
+        ]
+      }
+    }
+  ]
+}

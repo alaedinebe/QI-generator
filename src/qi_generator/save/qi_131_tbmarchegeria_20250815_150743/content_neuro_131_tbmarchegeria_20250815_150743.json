@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755263470430_01",
+      "current_version_epoch_ms": 1755263470430,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les mécanismes liés au vieillissement qui favorisent l'hypotension orthostatique (HTO).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte des barorécepteurs liée à l'âge",
+            "justification": "Le vieillissement favorise l'HTO par l'atteinte du barorécepteur."
+          },
+          {
+            "correct": true,
+            "proposition": "Vieillissement de la paroi artérielle",
+            "justification": "Le vieillissement de la paroi artérielle participe à la survenue de l'HTO."
+          },
+          {
+            "correct": true,
+            "proposition": "Réduction du taux d'aldostérone et de rénine",
+            "justification": "La diminution d'aldostérone et de rénine avec l'âge favorise l'HTO."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du taux d'aldostérone et de rénine",
+            "justification": "C'est l'inverse qui est rapporté : une réduction de ces hormones favorise l'HTO."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration de la sensibilité baroréflexe",
+            "justification": "Le vieillissement est associé à une atteinte, non une amélioration, de la fonction baroréflexe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263470430_02",
+      "current_version_epoch_ms": 1755263470430,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier ce qui doit faire partie, au minimum, du diagnostic étiologique initial d'une HTO chez la personne âgée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Iatrogénie (ex. dérivés nitrés, association d'antihypertenseurs, alpha-bloqueurs, antidépresseurs tricycliques/IMAO, L-dopa, anticholinergiques, phénothiazines, morphine)",
+            "justification": "La recherche d'une iatrogénie est prioritaire (IATROGENIE +++)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypovolémie ou déshydratation",
+            "justification": "La déshydratation/hypovolémie est à rechercher d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Anémie",
+            "justification": "L'HTO peut traduire une mauvaise tolérance de l'anémie pouvant justifier une transfusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'inadaptation hémodynamique à l'orthostatisme dans l'insuffisance cardiaque fait partie des causes à rechercher."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble anxieux isolé",
+            "justification": "N'appartient pas aux causes à rechercher au minimum énumérées (iatrogénie, hypovolémie/déshydratation, anémie, insuffisance cardiaque, endocrinopathies, dysautonomie)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263470430_03",
+      "current_version_epoch_ms": 1755263470430,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes selon qu'elles relèvent de la dysautonomie pouvant favoriser une HTO.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maladie à corps de Lewy",
+            "justification": "Citée parmi les pathologies neurodégénératives responsables de dysautonomie."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie de Parkinson ou « Parkinson + »",
+            "justification": "Fait partie des causes neurodégénératives de dysautonomie."
+          },
+          {
+            "correct": true,
+            "proposition": "Alitement prolongé",
+            "justification": "Mentionné comme facteur de dysautonomie favorisant l'HTO."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte neurologique périphérique due au diabète",
+            "justification": "Le diabète est cité parmi les causes d'atteinte neurologique périphérique responsable de dysautonomie."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme",
+            "justification": "Non mentionné parmi les causes de dysautonomie favorisant l'HTO."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263470430_04",
+      "current_version_epoch_ms": 1755263470430,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître l'élément à rechercher en priorité devant une HTO d'apparition récente chez la personne âgée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduction récente d'un dérivé nitré",
+            "justification": "La recherche d'une iatrogénie est prioritaire (IATROGENIE +++)."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie",
+            "justification": "Cause à rechercher, mais pas en priorité par rapport à l'iatrogénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypovolémie/déshydratation",
+            "justification": "À investiguer, mais l'iatrogénie doit être traquée en premier."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "À considérer, mais l'iatrogénie est l'élément prioritaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysthyroïdie",
+            "justification": "Relève des endocrinopathies plus rares ; la priorité reste l'iatrogénie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263470430_05",
+      "current_version_epoch_ms": 1755263470430,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Parmi les affections suivantes, identifier celles classées comme endocrinopathies (plutôt rares) pouvant être en cause dans une HTO.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Phéochromocytome",
+            "justification": "Fait partie des endocrinopathies citées."
+          },
+          {
+            "correct": true,
+            "proposition": "Dysthyroïdie",
+            "justification": "Mentionnée parmi les endocrinopathies possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance surrénalienne",
+            "justification": "Citée comme endocrinopathie pouvant être en cause."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance anté-hypophysaire",
+            "justification": "Fait partie des endocrinopathies plus rares évoquées."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale",
+            "justification": "Évoquée comme cause d'atteinte neurologique périphérique (dysautonomie), pas comme endocrinopathie."
+          }
+        ]
+      }
+    }
+  ]
+}

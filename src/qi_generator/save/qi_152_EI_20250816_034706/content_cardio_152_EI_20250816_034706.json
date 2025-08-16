@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "EI",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755309032768_01",
+      "current_version_epoch_ms": 1755309032768,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'antibiothérapie probabiliste doit-elle être débutée sans délai en cas de suspicion d'endocardite infectieuse (EI) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sepsis, choc septique",
+            "justification": "En cas de sepsis ou de choc septique, il est crucial de débuter l'antibiothérapie probabiliste sans délai pour prévenir la propagation de l'infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Forte suspicion clinique d'EI, surtout si les images sont évocatrices à l'échocardiographie",
+            "justification": "Une forte suspicion clinique d'EI, corroborée par des images échocardiographiques évocatrices, justifie un traitement antibiotique immédiat afin de traiter efficacement l'infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Indication de chirurgie valvulaire urgente",
+            "justification": "Une indication de chirurgie valvulaire urgente, en raison de la gravité de l'EI, nécessite une antibiothérapie probabiliste pour éviter une propagation bactérienne durant l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostic microbiologique suspecté, mais sans sepsis",
+            "justification": "Dans ce cas, l'antibiothérapie doit être retardée pour optimiser le diagnostic microbiologique et débuter le traitement adapté en fonction des résultats des hémocultures."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures négatives",
+            "justification": "Les hémocultures négatives ne justifient pas le début immédiat d'une antibiothérapie. L'antibiothérapie ne commence que si les hémocultures deviennent positives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309032768_02",
+      "current_version_epoch_ms": 1755309032768,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quand l'antibiothérapie probabiliste doit-elle être retardée dans le cadre de la suspicion d'endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de forte suspicion clinique d'EI",
+            "justification": "Une forte suspicion clinique d'EI nécessite une antibiothérapie probabiliste immédiate, surtout si les images échocardiographiques sont évocatrices."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une chirurgie valvulaire urgente est indiquée",
+            "justification": "Lorsque la chirurgie valvulaire urgente est nécessaire, l'antibiothérapie doit être débutée sans délai pour prévenir la propagation de l'infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque l'on souhaite optimiser le diagnostic microbiologique",
+            "justification": "L'antibiothérapie doit être retardée dans les situations où l'on cherche à optimiser le diagnostic microbiologique, en effectuant 3 paires d'hémocultures sur 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque des hémocultures sont déjà en cours",
+            "justification": "Les hémocultures ne nécessitent pas un retard de traitement, mais plutôt un ajustement en fonction des résultats des tests microbiologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque les hémocultures sont négatives",
+            "justification": "Si les hémocultures sont négatives, l'antibiothérapie est retardée pour attendre la positivité des cultures avant de commencer un traitement approprié."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309032768_03",
+      "current_version_epoch_ms": 1755309032768,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quelle est la principale raison d'entamer une antibiothérapie probabiliste immédiatement dans le cas d'une suspicion d'endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prévenir la propagation de l'infection dans des cas graves comme le sepsis ou le choc septique",
+            "justification": "La prévention de la propagation de l'infection est une priorité dans les situations graves telles que le sepsis et le choc septique, d'où l'importance de débuter l'antibiothérapie sans délai."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer la présence d'une bactérie dans l'organisme",
+            "justification": "L'objectif de l'antibiothérapie n'est pas de confirmer la bactérie, mais de traiter immédiatement en attendant les résultats microbiologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Récupérer rapidement les résultats des hémocultures",
+            "justification": "L'antibiothérapie est commencée avant l'obtention des résultats des hémocultures pour traiter immédiatement l'infection, sans attendre leur confirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "Obtenir un consensus médical",
+            "justification": "L'antibiothérapie est initiée en urgence pour des raisons cliniques et non pour obtenir un consensus médical."
+          },
+          {
+            "correct": true,
+            "proposition": "Traiter en urgence en cas d'indication chirurgicale",
+            "justification": "Lorsqu'une intervention chirurgicale est nécessaire, le traitement antibiotique doit être administré sans délai pour éviter toute complication bactérienne pendant la chirurgie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309032768_04",
+      "current_version_epoch_ms": 1755309032768,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal des hémocultures dans le traitement de l'endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permettre d'adapter l'antibiothérapie en fonction des résultats microbiologiques",
+            "justification": "Les hémocultures permettent d'identifier l'agent pathogène afin d'adapter l'antibiothérapie de manière ciblée et efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer l'endocardite infectieuse sans l'aide d'autres examens",
+            "justification": "Les hémocultures ne sont pas suffisantes pour poser le diagnostic d'endocardite, d'autres examens comme l'échocardiographie sont nécessaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer le suivi clinique du patient",
+            "justification": "Les hémocultures ne servent pas à suivre l'évolution clinique, mais à identifier l'agent infectieux."
+          },
+          {
+            "correct": true,
+            "proposition": "Optimiser le diagnostic microbiologique avant d'initier l'antibiothérapie",
+            "justification": "Avant de débuter l'antibiothérapie, il est essentiel de réaliser les hémocultures pour affiner le diagnostic microbiologique et choisir le traitement le plus approprié."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la durée de traitement antibiotique",
+            "justification": "Les hémocultures permettent d'adapter l'antibiothérapie, mais la durée du traitement dépend de l'évolution clinique et des résultats."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755309032768_05",
+      "current_version_epoch_ms": 1755309032768,
+      "topic": {
+        "subject": "cardio",
+        "item": "EI"
+      },
+      "data": {
+        "statement": "Pourquoi l'antibiothérapie doit-elle être retardée dans certaines situations lors de la suspicion d'endocardite infectieuse ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Pour éviter un traitement inutile en cas de bactérie non pathogène",
+            "justification": "Le retard est justifié par la nécessité de réaliser un diagnostic microbiologique précis, et non pour éviter des traitements inutiles."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour permettre de réaliser un diagnostic microbiologique optimisé avec des hémocultures",
+            "justification": "Le retard permet d'effectuer un diagnostic microbiologique plus précis, en réalisant trois paires d'hémocultures sur 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour limiter l'usage des antibiotiques et éviter la résistance",
+            "justification": "Le but du retard n'est pas de limiter l'usage des antibiotiques, mais d'optimiser le diagnostic avant de débuter un traitement adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour éviter la surinfection par des bactéries résistantes",
+            "justification": "Le retard n'est pas motivé par un risque de surinfection, mais par la nécessité d'obtenir des résultats microbiologiques précis."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour garantir la positivité des hémocultures avant le début du traitement",
+            "justification": "Le retard permet de garantir que les hémocultures soient positives, afin de débuter l'antibiothérapie dès que possible et de l'adapter selon les résultats."
+          }
+        ]
+      }
+    }
+  ]
+}

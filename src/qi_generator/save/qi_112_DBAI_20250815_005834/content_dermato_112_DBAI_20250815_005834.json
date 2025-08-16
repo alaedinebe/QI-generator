@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "DBAI",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755212521274_01",
+      "current_version_epoch_ms": 1755212521274,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions suivantes, celles qui font partie des autres étiologies des maladies bulleuses.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toxidermie bulleuse (syndrome de Lyell)",
+            "justification": "Cité explicitement parmi les autres étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Érythème polymorphe bulleux",
+            "justification": "Cité explicitement parmi les autres étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Bulles d'origine thermique",
+            "justification": "Décrit comme apparition de bulles après exposition au froid, à une source de chaleur ou après frottement."
+          },
+          {
+            "correct": true,
+            "proposition": "Bulles d'origine caustique",
+            "justification": "Décrit comme apparition de bulles après exposition à une substance chimique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dermatite atopique",
+            "justification": "Non citée parmi les autres étiologies listées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212521274_02",
+      "current_version_epoch_ms": 1755212521274,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Différencier les contextes déclenchants de bulles : sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Apparition de bulles après exposition à une substance chimique oriente vers une cause caustique.",
+            "justification": "Correspond à la définition des bulles d'origine caustique."
+          },
+          {
+            "correct": true,
+            "proposition": "Érythème dans les heures suivant une exposition solaire, puis survenue de bulles, évoque un coup de soleil.",
+            "justification": "Décrit précisément le coup de soleil."
+          },
+          {
+            "correct": true,
+            "proposition": "Bulles survenant après exposition au froid, à une source de chaleur ou après frottement relèvent d'une origine thermique.",
+            "justification": "Correspond à la définition des bulles d'origine thermique."
+          },
+          {
+            "correct": true,
+            "proposition": "Apparition de lésions bulleuses sur les zones de contact définit une phytophotodermatose.",
+            "justification": "C'est la caractéristique mentionnée pour la phytophotodermatose."
+          },
+          {
+            "correct": false,
+            "proposition": "Phytophotodermatose se définit par des bulles après exposition à une substance chimique.",
+            "justification": "Cette description correspond à une origine caustique, pas à une phytophotodermatose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212521274_03",
+      "current_version_epoch_ms": 1755212521274,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Reconnaître les descriptions cliniques associées : indiquer les propositions correctes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bulles localisées au centre de lésions souvent violacées, en particulier sur les membres inférieurs, évoquent une piqûre d'insecte.",
+            "justification": "Description mentionnée pour la piqûre d'insecte."
+          },
+          {
+            "correct": false,
+            "proposition": "Coup de soleil : bulles d'emblée, sans érythème préalable ni délai après l'exposition.",
+            "justification": "Le coup de soleil associe un érythème dans les heures suivant l'exposition solaire, puis des bulles."
+          },
+          {
+            "correct": true,
+            "proposition": "Phytophotodermatose : lésions bulleuses sur les zones de contact.",
+            "justification": "Caractéristique décrite pour cette entité."
+          },
+          {
+            "correct": true,
+            "proposition": "Coup de soleil : érythème dans les heures suivant une exposition solaire, puis bulles.",
+            "justification": "C'est la séquence décrite."
+          },
+          {
+            "correct": true,
+            "proposition": "Origine thermique : bulles après frottement.",
+            "justification": "Le frottement fait partie des déclencheurs listés pour l'origine thermique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212521274_04",
+      "current_version_epoch_ms": 1755212521274,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Classer selon la notion d'exposition explicite : sélectionner les causes directement reliées à une exposition ou un agent externe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exposition au froid, à une source de chaleur ou frottement (origine thermique).",
+            "justification": "Déclencheurs explicitement cités pour l'origine thermique."
+          },
+          {
+            "correct": true,
+            "proposition": "Exposition à une substance chimique (origine caustique).",
+            "justification": "Déclencheur explicitement cité pour l'origine caustique."
+          },
+          {
+            "correct": true,
+            "proposition": "Exposition solaire suivie d'un érythème puis de bulles (coup de soleil).",
+            "justification": "Lien direct avec l'exposition solaire indiqué."
+          },
+          {
+            "correct": true,
+            "proposition": "Piqûre d'insecte.",
+            "justification": "Cause externe mentionnée avec description typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vascularite.",
+            "justification": "Mentionnée comme étiologie mais sans relation d'exposition spécifique décrite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755212521274_05",
+      "current_version_epoch_ms": 1755212521274,
+      "topic": {
+        "subject": "dermato",
+        "item": "DBAI"
+      },
+      "data": {
+        "statement": "Connaître l'étendue des autres étiologies citées : cocher les entités effectivement mentionnées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vascularite",
+            "justification": "Cité explicitement parmi les autres étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Érythème polymorphe bulleux",
+            "justification": "Cité explicitement parmi les autres étiologies."
+          },
+          {
+            "correct": true,
+            "proposition": "Coup de soleil",
+            "justification": "Cité avec la séquence érythème puis bulles après exposition solaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Piqûre d'insecte",
+            "justification": "Cité avec la description de bulles au centre de lésions souvent violacées."
+          },
+          {
+            "correct": false,
+            "proposition": "Bulles d'origine infectieuse",
+            "justification": "Non cité dans la liste des autres étiologies."
+          }
+        ]
+      }
+    }
+  ]
+}

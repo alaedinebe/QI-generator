@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbsommeil",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755207970680_01",
+      "current_version_epoch_ms": 1755207970680,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Chez un patient avec un IAH à 12/h confirmé par une polysomnographie valide, identifier la conduite à tenir.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Classer ce tableau comme un SAS léger.",
+            "justification": "Un IAH entre 5 et 15 correspond à un SAS léger."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer une PPC d'emblée.",
+            "justification": "La PPC n'est pas indiquée d'emblée en cas de SAS léger ; elle est le traitement de référence mais s'indique notamment pour les formes sévères."
+          },
+          {
+            "correct": true,
+            "proposition": "S'abstenir de traitement si la clinique est concordante et sans comorbidités.",
+            "justification": "Entre 5 et 15, aucun traitement n'est nécessaire sauf discordance clinique ou comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer systématiquement une orthèse d'avancée mandibulaire.",
+            "justification": "L'orthèse est à proposer en cas de difficultés avec la PPC ou en cas de SAS modéré, pas systématiquement pour un SAS léger."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager un examen complémentaire en présence de comorbidités.",
+            "justification": "En cas de SAS léger avec comorbidités ou discordance clinique, un examen complémentaire est à envisager."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207970680_02",
+      "current_version_epoch_ms": 1755207970680,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître les indications et modalités de prise en charge de la PPC dans le SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La PPC est le traitement de référence du SAS.",
+            "justification": "Il est précisé que le traitement de référence est la pression positive continue (PPC)."
+          },
+          {
+            "correct": true,
+            "proposition": "La PPC est prise en charge par l'assurance maladie en cas d'IAH > 30/h.",
+            "justification": "La prise en charge est prévue lorsque l'IAH est supérieur à 30."
+          },
+          {
+            "correct": true,
+            "proposition": "La PPC est prise en charge en cas de SAS modéré documenté avec comorbidités.",
+            "justification": "Elle est remboursée pour un SAS modéré, documenté par polysomnographie, avec comorbidités."
+          },
+          {
+            "correct": true,
+            "proposition": "La PPC peut faire l'objet d'une ALD en présence de comorbidités.",
+            "justification": "Il est indiqué qu'elle peut faire l'objet d'une ALD en cas de comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "La PPC est indiquée d'emblée pour tout SAS léger.",
+            "justification": "Le SAS léger ne nécessite pas de traitement, sauf situations particulières, et la PPC n'y est pas indiquée d'emblée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207970680_03",
+      "current_version_epoch_ms": 1755207970680,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Différencier les éléments clés de la polysomnographie et de l'IAH pour orienter le traitement du SAS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une durée minimale d'enregistrement de 4 heures est requise pour la validité de l'examen.",
+            "justification": "La polysomnographie nécessite au moins 4 heures pour être valide."
+          },
+          {
+            "correct": true,
+            "proposition": "L'IAH correspond au nombre d'événements respiratoires par heure de sommeil.",
+            "justification": "L'IAH est défini comme le nombre d'événements par heure de sommeil."
+          },
+          {
+            "correct": true,
+            "proposition": "La décision thérapeutique dépend des résultats de la polysomnographie.",
+            "justification": "Le choix thérapeutique va dépendre des résultats de la polysomnographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Une durée de 2 heures suffit à valider la polysomnographie.",
+            "justification": "La validité requiert une durée minimale de 4 heures, pas 2 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IAH est le nombre d'événements respiratoires sur l'ensemble de la nuit, sans pondération par le temps de sommeil.",
+            "justification": "L'IAH est rapporté au temps de sommeil, exprimé par heure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207970680_04",
+      "current_version_epoch_ms": 1755207970680,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Classer les alternatives thérapeutiques à la PPC selon leurs indications.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'orthèse d'avancée mandibulaire est à proposer en cas de difficultés avec la PPC ou en cas de SAS modéré.",
+            "justification": "Il est indiqué que l'orthèse est une option en cas de difficultés avec la PPC ou pour un SAS modéré."
+          },
+          {
+            "correct": true,
+            "proposition": "La chirurgie maxillo-faciale peut être proposée chez les patients jeunes, notamment en cas de dysmorphie faciale.",
+            "justification": "Chez les patients jeunes, en particulier avec dysmorphie faciale, un traitement chirurgical peut être proposé."
+          },
+          {
+            "correct": true,
+            "proposition": "Un traitement positionnel simple (balle de tennis) est adapté lorsque les apnées prédominent en décubitus dorsal.",
+            "justification": "En cas d'apnées positionnelles, la balle de tennis dans le dos chaque nuit est une solution thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'orthèse d'avancée mandibulaire est indiquée d'emblée pour tout SAS sévère.",
+            "justification": "L'orthèse n'est pas indiquée d'emblée pour un SAS sévère ; elle est envisagée en cas de difficultés avec la PPC ou pour un SAS modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "La chirurgie maxillo-faciale est réservée aux sujets âgés sans dysmorphie faciale.",
+            "justification": "La proposition ciblée est plutôt chez les patients jeunes, notamment en cas de dysmorphie faciale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755207970680_05",
+      "current_version_epoch_ms": 1755207970680,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbsommeil"
+      },
+      "data": {
+        "statement": "Reconnaître la gradation de la sévérité du SAS selon l'IAH et la conséquence thérapeutique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un IAH entre 15 et 30 définit un SAS modéré pour lequel un traitement est à envisager selon la clinique et en cas de comorbidités.",
+            "justification": "Entre 15 et 30, le SAS est modéré et la décision thérapeutique tient compte de la clinique et des comorbidités."
+          },
+          {
+            "correct": true,
+            "proposition": "Un IAH > 30 définit un SAS sévère, pour lequel un traitement est indiqué d'emblée.",
+            "justification": "Au-delà de 30, le SAS est sévère et un traitement est indiqué d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Un IAH entre 5 et 15 correspond à un SAS léger sans traitement nécessaire sauf discordance clinique ou comorbidités.",
+            "justification": "Pour un IAH entre 5 et 15, l'abstention thérapeutique est la règle hors discordance clinique ou comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour un SAS modéré, aucun traitement n'est à envisager, quelle que soit la clinique.",
+            "justification": "En SAS modéré, un traitement est à envisager en fonction de la clinique et des comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de SAS sévère, la mise en route d'un traitement n'est pas prioritaire.",
+            "justification": "Le SAS sévère nécessite un traitement indiqué d'emblée."
+          }
+        ]
+      }
+    }
+  ]
+}

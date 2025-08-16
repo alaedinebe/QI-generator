@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarche",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755201967490_01",
+      "current_version_epoch_ms": 1755201967490,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Identifier la stratégie d'imagerie en urgence devant un trouble de la marche d'apparition brutale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser en urgence une IRM cérébrale avec séquence de diffusion et analyse du polygone de Willis.",
+            "justification": "Permet d'écarter un AVC ischémique aigu en contexte de début brutal."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir d'imagerie en première intention.",
+            "justification": "Un bilan urgent est requis pour exclure un AVC ischémique aigu."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser un scanner ET un angioscanner du polygone de Willis en cas de contre-indication à l'IRM.",
+            "justification": "Constitue l'alternative recommandée lorsque l'IRM est contre-indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une IRM cérébrale sans séquence de diffusion.",
+            "justification": "La séquence de diffusion est explicitement requise en phase aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Différer l'imagerie de 24–48 heures.",
+            "justification": "L'exploration doit être réalisée en urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755201967490_02",
+      "current_version_epoch_ms": 1755201967490,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Reconnaître les objectifs de l'IRM cérébrale en cas de symptomatologie non aiguë de troubles de la marche/équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éliminer une hydrocéphalie chronique de l'adulte.",
+            "justification": "Fait partie des cibles de l'IRM en situation non aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher un processus lésionnel intra-crânien évolutif.",
+            "justification": "Figure parmi les étiologies à exclure par l'IRM."
+          },
+          {
+            "correct": true,
+            "proposition": "Écarter un hématome sous-dural aigu ou chronique.",
+            "justification": "Est explicitement visé par l'IRM en première intention non aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Écarter prioritairement un AVC ischémique aigu.",
+            "justification": "La recherche d'AVC aigu relève du contexte d'apparition brutale."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer un syndrome parkinsonien typique.",
+            "justification": "L'imagerie est inutile si la clinique évoque typiquement une maladie de Parkinson."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755201967490_03",
+      "current_version_epoch_ms": 1755201967490,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Différencier les indications d'imagerie dans les syndromes parkinsoniens.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Imagerie cérébrale inutile lorsque la clinique évoque typiquement une maladie de Parkinson.",
+            "justification": "Aucune imagerie n'est requise si le tableau est typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie à réaliser systématiquement pour confirmer toute maladie de Parkinson.",
+            "justification": "Elle n'est pas systématique en l'absence d'atypies."
+          },
+          {
+            "correct": true,
+            "proposition": "Imagerie indiquée devant des atypies du tableau (syndromes parkinsoniens plus).",
+            "justification": "Une exploration est à réaliser en présence d'atypies."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie cérébrale toujours à réaliser en première intention quel que soit le tableau parkinsonien.",
+            "justification": "La réalisation dépend du caractère typique ou atypique du tableau."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie nécessaire pour tout syndrome parkinsonien même sans atypies.",
+            "justification": "Elle est inutile lorsque la présentation est typique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755201967490_04",
+      "current_version_epoch_ms": 1755201967490,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Choisir l'alternative d'imagerie en cas de contre-indication à l'IRM dans un contexte d'apparition aiguë brutale.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Réaliser un scanner cérébral seul.",
+            "justification": "Le protocole associe scanner et angioscanner du polygone de Willis."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser un scanner cérébral ET un angioscanner du polygone de Willis.",
+            "justification": "Correspond à l'alternative indiquée lorsque l'IRM est contre-indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une IRM cérébrale sans séquence de diffusion.",
+            "justification": "La diffusion est requise en contexte aigu; de plus l'IRM est contre-indiquée ici."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir d'imagerie si l'examen clinique est rassurant.",
+            "justification": "En cas de début brutal, une exploration en urgence s'impose."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un angioscanner du polygone de Willis sans scanner.",
+            "justification": "L'alternative associe les deux examens (scanner et angioscanner)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755201967490_05",
+      "current_version_epoch_ms": 1755201967490,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarche"
+      },
+      "data": {
+        "statement": "Classer les couples situation–imagerie appropriés devant un trouble de la marche/équilibre.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble d'apparition brutale : IRM avec séquence de diffusion et analyse du polygone de Willis en urgence.",
+            "justification": "Permet d'écarter un AVC ischémique aigu."
+          },
+          {
+            "correct": true,
+            "proposition": "Symptomatologie non aiguë : IRM cérébrale proposée en premier lieu.",
+            "justification": "Indiquée pour éliminer hydrocéphalie chronique, processus lésionnel évolutif et hématome sous-dural."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome parkinsonien avec atypies : imagerie cérébrale à réaliser.",
+            "justification": "Exploration indiquée en présence d'atypies (parkinsoniens plus)."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome parkinsonien clinique typique : imagerie indispensable.",
+            "justification": "L'imagerie est inutile lorsque la présentation est typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptomatologie aiguë : scanner et angioscanner d'emblée même si l'IRM est possible.",
+            "justification": "L'IRM en urgence est privilégiée; le couple scanner–angioscanner est l'alternative si l'IRM est contre-indiquée."
+          }
+        ]
+      }
+    }
+  ]
+}

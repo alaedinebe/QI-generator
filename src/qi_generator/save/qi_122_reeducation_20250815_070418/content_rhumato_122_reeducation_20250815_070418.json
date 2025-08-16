@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "reeducation",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755234465483_01",
+      "current_version_epoch_ms": 1755234465483,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Identifier, parmi les éléments suivants, ceux qui sont indispensables sur une ordonnance de masso-kinésithérapie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coordonnées complètes du prescripteur",
+            "justification": "Fait partie des éléments indispensables à renseigner sur l'ordonnance."
+          },
+          {
+            "correct": true,
+            "proposition": "Date",
+            "justification": "Figure parmi les éléments indispensables à la prescription."
+          },
+          {
+            "correct": true,
+            "proposition": "Nom et prénom du patient",
+            "justification": "Doivent obligatoirement apparaître sur l'ordonnance."
+          },
+          {
+            "correct": false,
+            "proposition": "Nombre et fréquence des séances",
+            "justification": "Ces informations sont indiquées comme facultatives."
+          },
+          {
+            "correct": true,
+            "proposition": "Signature",
+            "justification": "La signature du prescripteur fait partie des éléments indispensables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755234465483_02",
+      "current_version_epoch_ms": 1755234465483,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Classer correctement le caractère obligatoire ou facultatif de certains éléments lors de la rédaction d'une ordonnance de masso-kinésithérapie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre et la fréquence des séances sont facultatifs.",
+            "justification": "Ils sont mentionnés parmi les éléments facultatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "La nature de la prescription « masso-kinésithérapie » est facultative.",
+            "justification": "La nature de la prescription est un élément indispensable."
+          },
+          {
+            "correct": true,
+            "proposition": "Joindre un courrier précisant le diagnostic et le contexte clinique est facultatif.",
+            "justification": "La possibilité de joindre un courrier est listée comme facultative."
+          },
+          {
+            "correct": false,
+            "proposition": "L'indication de la masso-kinésithérapie (région à traiter) est facultative.",
+            "justification": "L'indication (région à traiter) fait partie des éléments indispensables."
+          },
+          {
+            "correct": false,
+            "proposition": "Les coordonnées complètes du prescripteur sont facultatives.",
+            "justification": "Elles sont requises parmi les éléments indispensables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755234465483_03",
+      "current_version_epoch_ms": 1755234465483,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Différencier les situations nécessitant une mention spécifique ou l'usage de l'ordonnance bizone en masso-kinésithérapie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mention « dimanche et jours fériés inclus » peut être ajoutée si nécessaire, notamment en cas de problèmes respiratoires.",
+            "justification": "Cette mention est prévue en cas de nécessité, en particulier pour des problèmes respiratoires."
+          },
+          {
+            "correct": true,
+            "proposition": "La rédaction dans la zone adéquate de l'ordonnance bizone est requise lorsque le traitement est lié à une ALD.",
+            "justification": "L'ordonnance bizone doit être utilisée si le traitement est en lien avec une ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "La mention « dimanche et jours fériés inclus » est obligatoire pour toute séance de masso-kinésithérapie.",
+            "justification": "Cette mention n'est pas systématique, elle n'est indiquée que si nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ordonnance bizone est requise pour toute rééducation, quelle qu'en soit la cause.",
+            "justification": "Elle est spécifiquement indiquée si le traitement est lié à une ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "La mention « dimanche et jours fériés inclus » ne peut jamais apparaître sur une ordonnance de masso-kinésithérapie.",
+            "justification": "Elle peut être mentionnée si besoin, notamment pour des problèmes respiratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755234465483_04",
+      "current_version_epoch_ms": 1755234465483,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Reconnaître la conduite à tenir lorsque le nombre de séances nécessaires dépasse les recommandations validées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une demande d'entente préalable avec un argumentaire.",
+            "justification": "Une entente préalable argumentée est requise au-delà des recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune démarche supplémentaire n'est requise.",
+            "justification": "Une procédure d'entente préalable est nécessaire si le dépassement est envisagé."
+          },
+          {
+            "correct": true,
+            "proposition": "La HAS a validé, pour 14 indications, un nombre de séances pris en charge par l'Assurance maladie.",
+            "justification": "Ces recommandations encadrent le nombre de séances avant tout dépassement."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut changer le prescripteur pour éviter la procédure.",
+            "justification": "La conduite attendue est la demande d'entente préalable, pas le changement de prescripteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de séances n'est jamais encadré.",
+            "justification": "Il est encadré par des validations pour 14 indications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755234465483_05",
+      "current_version_epoch_ms": 1755234465483,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Définir les obligations du masseur-kinésithérapeute concernant le bilan de rééducation et sa restitution.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le masseur-kinésithérapeute doit réaliser un bilan.",
+            "justification": "La réalisation d'un bilan est exigée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le compte rendu du bilan est transmis au prescripteur à l'issue de la rééducation.",
+            "justification": "La transmission du compte rendu au prescripteur est prévue à la fin de la rééducation."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bilan n'est réalisé que si l'ordonnance le demande explicitement.",
+            "justification": "Le bilan est à réaliser indépendamment d'une mention explicite."
+          },
+          {
+            "correct": false,
+            "proposition": "Le compte rendu n'est pas à transmettre au prescripteur.",
+            "justification": "Le compte rendu doit être transmis au prescripteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bilan peut être remplacé par un appel téléphonique sans écrit.",
+            "justification": "Un compte rendu écrit du bilan est prévu pour être transmis."
+          }
+        ]
+      }
+    }
+  ]
+}

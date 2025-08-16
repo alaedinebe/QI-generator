@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suivivalv",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755312146766_01",
+      "current_version_epoch_ms": 1755312146766,
+      "topic": {
+        "subject": "cardio",
+        "item": "suivivalv"
+      },
+      "data": {
+        "statement": "Quel est l'INR cible recommandé pour un patient porteur d'une prothèse aortique de type Medtronic-Hall® sans facteur de risque associé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2,5",
+            "justification": "Les prothèses à faible risque, comme celles en position aortique de type Medtronic-Hall®, nécessitent un INR cible de 2,5 sans facteur de risque associé."
+          },
+          {
+            "correct": false,
+            "proposition": "3,0",
+            "justification": "Un INR cible de 3,0 est utilisé pour des prothèses à risque intermédiaire ou élevé, et non pour celles à faible risque."
+          },
+          {
+            "correct": false,
+            "proposition": "3,5",
+            "justification": "Un INR cible de 3,5 est réservé pour des prothèses à risque intermédiaire avec des facteurs de risque associés."
+          },
+          {
+            "correct": false,
+            "proposition": "4,0",
+            "justification": "Un INR de 4,0 est recommandé pour des prothèses à risque élevé, non pour des prothèses à faible risque."
+          },
+          {
+            "correct": false,
+            "proposition": "2,0",
+            "justification": "L'INR cible de 2,0 est trop bas pour les prothèses mécaniques, même à faible risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755312146766_02",
+      "current_version_epoch_ms": 1755312146766,
+      "topic": {
+        "subject": "cardio",
+        "item": "suivivalv"
+      },
+      "data": {
+        "statement": "Quel est le facteur de risque associé à un INR cible plus élevé pour les prothèses mécaniques en position mitrale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une prothèse en position mitrale",
+            "justification": "Les prothèses mécaniques en position mitrale nécessitent un INR plus élevé (3,0 à 4,0) en raison du risque accru de thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "Prothèse aortique à faible risque",
+            "justification": "Les prothèses aortiques à faible risque nécessitent un INR inférieur, généralement autour de 2,5."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de maladie thrombo-embolique",
+            "justification": "L'absence de maladie thrombo-embolique est un facteur de moindre risque, mais ne justifie pas un INR cible plus élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Prothèse biologique",
+            "justification": "Les prothèses biologiques n'exigent généralement pas d'anticoagulation ou nécessitent une anticoagulation transitoire à des doses plus faibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétrécissement mitral associé",
+            "justification": "Le rétrécissement mitral associé peut influencer la prise en charge, mais n'augmente pas directement l'INR cible pour la prothèse elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755312146766_03",
+      "current_version_epoch_ms": 1755312146766,
+      "topic": {
+        "subject": "cardio",
+        "item": "suivivalv"
+      },
+      "data": {
+        "statement": "Quelles sont les valeurs cibles de l'INR pour un patient avec une prothèse aortique à risque intermédiaire et un facteur de risque associé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "3,0 à 3,5",
+            "justification": "Les prothèses à risque intermédiaire avec un facteur de risque associé nécessitent un INR cible compris entre 3,0 et 3,5."
+          },
+          {
+            "correct": false,
+            "proposition": "2,5 à 3,0",
+            "justification": "Ces valeurs sont insuffisantes pour une prothèse à risque intermédiaire avec des facteurs de risque associés."
+          },
+          {
+            "correct": false,
+            "proposition": "3,5 à 4,0",
+            "justification": "Un INR cible de 3,5 à 4,0 est utilisé pour des prothèses à risque élevé, non intermédiaire."
+          },
+          {
+            "correct": false,
+            "proposition": "2,0 à 2,5",
+            "justification": "Ces valeurs d'INR sont trop faibles et ne conviennent pas aux prothèses à risque intermédiaire, même avec des facteurs de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "4,0",
+            "justification": "Un INR de 4,0 est réservé aux prothèses à risque élevé et non à celles à risque intermédiaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755312146766_04",
+      "current_version_epoch_ms": 1755312146766,
+      "topic": {
+        "subject": "cardio",
+        "item": "suivivalv"
+      },
+      "data": {
+        "statement": "Quel est le rôle du CoaguChek® INRange dans la gestion de l'anticoagulation pour les patients porteurs de prothèses mécaniques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet un suivi plus régulier de l'INR à domicile",
+            "justification": "Le CoaguChek® INRange permet aux patients de mesurer leur INR à domicile, facilitant un suivi plus régulier et personnalisé de l'anticoagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplace les visites mensuelles en laboratoire",
+            "justification": "Bien que le suivi à domicile soit possible, il ne remplace pas nécessairement les tests en laboratoire réguliers."
+          },
+          {
+            "correct": false,
+            "proposition": "Remboursé uniquement pour les prothèses biologiques",
+            "justification": "Le remboursement du CoaguChek® INRange concerne les patients adultes porteurs de prothèses mécaniques, et non biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Indique si un patient peut arrêter l'anticoagulation",
+            "justification": "Le CoaguChek® INRange est destiné à la surveillance de l'INR, mais ne permet pas de prendre des décisions sur l'arrêt de l'anticoagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Indique directement la nécessité d'une intervention chirurgicale",
+            "justification": "Le CoaguChek® INRange ne permet pas de déterminer la nécessité d'une intervention chirurgicale, mais plutôt de surveiller l'INR pour ajuster le traitement anticoagulant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755312146766_05",
+      "current_version_epoch_ms": 1755312146766,
+      "topic": {
+        "subject": "cardio",
+        "item": "suivivalv"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour un patient porteur d'une bioprothèse aortique sans facteur de risque associé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anti-agrégation plaquettaire pendant 3 mois",
+            "justification": "Après une bioprothèse aortique, une anti-agrégation plaquettaire est requise pendant 3 mois pour l'endothélisation de la prothèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Anticoagulation pendant 3 mois",
+            "justification": "L'anticoagulation n'est nécessaire que si des facteurs de risque associés sont présents pour les prothèses biologiques, sinon l'anti-agrégation est suffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "Anticoagulation à vie",
+            "justification": "Les prothèses biologiques ne nécessitent pas d'anticoagulation à vie, sauf en cas de facteurs de risque associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Anti-agrégation plaquettaire indéfiniment",
+            "justification": "Une anti-agrégation plaquettaire à vie n'est pas nécessaire après une bioprothèse aortique sans facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure thérapeutique",
+            "justification": "Bien que la prothèse biologique n'exige pas d'anticoagulation, une anti-agrégation plaquettaire est nécessaire pour l'endothélisation pendant les 3 premiers mois."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "arthrose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755253311859_01",
+      "current_version_epoch_ms": 1755253311859,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier les éléments exacts figurant dans l'intitulé « Radiographie d'arthrose des articulations interphalangiennes distales OIC-129-13-A ».",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La modalité d'imagerie est une radiographie.",
+            "justification": "Le terme « Radiographie » est explicitement indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une IRM.",
+            "justification": "Le terme indiqué est « Radiographie », ce qui exclut l'IRM."
+          },
+          {
+            "correct": true,
+            "proposition": "La pathologie évoquée est une arthrose.",
+            "justification": "La formulation comporte « d'arthrose »."
+          },
+          {
+            "correct": true,
+            "proposition": "La localisation concerne les articulations interphalangiennes distales.",
+            "justification": "La localisation est précisée comme « articulations interphalangiennes distales »."
+          },
+          {
+            "correct": true,
+            "proposition": "Le code associé est OIC-129-13-A.",
+            "justification": "La référence « OIC-129-13-A » figure dans l'intitulé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253311859_02",
+      "current_version_epoch_ms": 1755253311859,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Différencier la localisation anatomique précisée par l'intitulé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les articulations interphalangiennes distales sont concernées.",
+            "justification": "La localisation mentionne explicitement les articulations interphalangiennes distales."
+          },
+          {
+            "correct": false,
+            "proposition": "Les articulations interphalangiennes proximales sont concernées.",
+            "justification": "Le niveau indiqué est distal, pas proximal."
+          },
+          {
+            "correct": false,
+            "proposition": "Les articulations métacarpo-phalangiennes sont concernées.",
+            "justification": "La localisation précise « interphalangiennes distales », et non métacarpo-phalangiennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Le niveau au sein des articulations interphalangiennes est précisé.",
+            "justification": "La mention « distales » indique le niveau articulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La localisation n'est pas précisée.",
+            "justification": "La localisation est explicitement indiquée comme interphalangiennes distales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253311859_03",
+      "current_version_epoch_ms": 1755253311859,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Classer la nature de l'affection décrite par l'intitulé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est question d'arthrose.",
+            "justification": "Le terme employé pour l'affection est « arthrose »."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est question d'une fracture aiguë.",
+            "justification": "L'affection nommée est « arthrose », pas une fracture."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est question d'une infection articulaire.",
+            "justification": "L'affection nommée est « arthrose », pas une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est question d'une tumeur osseuse.",
+            "justification": "L'affection nommée est « arthrose », pas une tumeur."
+          },
+          {
+            "correct": true,
+            "proposition": "L'affection est associée à des articulations interphalangiennes distales.",
+            "justification": "La formulation « arthrose des articulations interphalangiennes distales » l'indique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253311859_04",
+      "current_version_epoch_ms": 1755253311859,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments exclus ou confirmés par l'intitulé.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "L'examen correspond à un scanner.",
+            "justification": "L'intitulé précise « Radiographie », et non « scanner »."
+          },
+          {
+            "correct": true,
+            "proposition": "L'examen correspond à une radiographie.",
+            "justification": "Le mot « Radiographie » est explicitement présent."
+          },
+          {
+            "correct": true,
+            "proposition": "La référence associée est « OIC-129-13-A ».",
+            "justification": "Cette référence figure dans l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "La pathologie mentionnée est une entorse.",
+            "justification": "La pathologie nommée est « arthrose »."
+          },
+          {
+            "correct": true,
+            "proposition": "La localisation correspond à des articulations interphalangiennes distales.",
+            "justification": "La localisation indiquée est « articulations interphalangiennes distales »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755253311859_05",
+      "current_version_epoch_ms": 1755253311859,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier la référence codée figurant dans l'intitulé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une référence codée est présente.",
+            "justification": "La séquence « OIC-129-13-A » apparaît à la fin de l'intitulé."
+          },
+          {
+            "correct": false,
+            "proposition": "La référence codée est « OIC-129-31-A ». ",
+            "justification": "La référence indiquée diffère : « OIC-129-13-A »."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune référence codée n'apparaît.",
+            "justification": "Une référence est explicitement écrite : « OIC-129-13-A »."
+          },
+          {
+            "correct": true,
+            "proposition": "La référence exacte est « OIC-129-13-A ». ",
+            "justification": "C'est la référence figurant dans l'intitulé."
+          },
+          {
+            "correct": true,
+            "proposition": "La référence codée commence par « OIC ».",
+            "justification": "La chaîne de caractères débute par « OIC »."
+          }
+        ]
+      }
+    }
+  ]
+}

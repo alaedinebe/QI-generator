@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epilepsie",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755190376308_01",
+      "current_version_epoch_ms": 1755190376308,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "À propos de l'état de mal épileptique menaçant, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il correspond à une crise qui dure plus de 5 minutes.",
+            "justification": "L'état de mal menaçant est défini par une crise dont la durée dépasse 5 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond à une crise qui dure plus de 30 minutes.",
+            "justification": "La durée de plus de 30 minutes définit l'état de mal installé, pas l'état de mal menaçant."
+          },
+          {
+            "correct": true,
+            "proposition": "Le seuil temporel qui le définit (5 minutes) correspond au délai d'administration de la première ligne de traitement.",
+            "justification": "Le seuil de 5 minutes est le délai retenu pour administrer la première ligne de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Il implique une mise en jeu systématique du pronostic vital.",
+            "justification": "La mise en jeu du pronostic vital est précisée pour l'état de mal installé en cas de crise généralisée tonico-clonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Des crises répétées avec reprise de la conscience le définissent.",
+            "justification": "La répétition sans reprise de la conscience relève de l'état de mal installé ; la définition du menaçant repose sur la durée > 5 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755190376308_02",
+      "current_version_epoch_ms": 1755190376308,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Concernant l'état de mal épileptique installé, lesquelles des propositions suivantes sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une crise unique durant plus de 30 minutes le définit.",
+            "justification": "Une durée supérieure à 30 minutes caractérise l'état de mal installé."
+          },
+          {
+            "correct": true,
+            "proposition": "Des crises qui se répètent sans reprise de la conscience le définissent.",
+            "justification": "La répétition des crises sans reprise de la conscience correspond à un état de mal installé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est défini lorsque la crise dure entre 5 et 10 minutes.",
+            "justification": "Une durée de 5 minutes définit l'état de mal menaçant ; l'installé nécessite > 30 minutes ou l'absence de reprise de conscience entre crises."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de crise généralisée tonico-clonique, il met en jeu le pronostic vital.",
+            "justification": "La mise en jeu du pronostic vital est indiquée pour l'état de mal installé lors d'une crise généralisée tonico-clonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il suppose obligatoirement la présence de convulsions.",
+            "justification": "La définition repose sur la durée > 30 minutes ou la répétition sans reprise de conscience ; la mention des convulsions concerne la forme généralisée tonico-clonique pour le pronostic vital."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755190376308_03",
+      "current_version_epoch_ms": 1755190376308,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes : cocher celles qui correspondent à un état de mal installé.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Crise unique durant 6 minutes.",
+            "justification": "Une crise > 5 minutes définit un état de mal menaçant, pas installé."
+          },
+          {
+            "correct": true,
+            "proposition": "Crise unique durant 32 minutes.",
+            "justification": "Une crise > 30 minutes correspond à un état de mal installé."
+          },
+          {
+            "correct": true,
+            "proposition": "Crises répétées sans reprise de la conscience.",
+            "justification": "La répétition des crises sans reprise de la conscience définit l'état de mal installé."
+          },
+          {
+            "correct": false,
+            "proposition": "Crises répétées avec reprise de la conscience entre les épisodes.",
+            "justification": "L'état de mal installé suppose des crises répétées sans reprise de la conscience."
+          },
+          {
+            "correct": true,
+            "proposition": "Crise généralisée tonico-clonique durant 35 minutes.",
+            "justification": "Une durée > 30 minutes caractérise l'état de mal installé ; dans cette forme, le pronostic vital est en jeu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755190376308_04",
+      "current_version_epoch_ms": 1755190376308,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Concernant le délai d'administration de la première ligne de traitement dans l'état de mal épileptique, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est fixé à 5 minutes, correspondant à l'état de mal menaçant.",
+            "justification": "Le seuil de 5 minutes est le délai retenu pour administrer la première ligne, ce qui définit l'état de mal menaçant."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut attendre 30 minutes avant d'administrer la première ligne.",
+            "justification": "Le délai indiqué est de 5 minutes ; 30 minutes correspond à la définition de l'état de mal installé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est indiqué qu'en présence de convulsions généralisées.",
+            "justification": "Seul le seuil de 5 minutes est précisé pour l'administration ; aucune restriction aux crises généralisées n'est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond au seuil de l'état de mal installé.",
+            "justification": "Le seuil de traitement de première ligne est à 5 minutes, alors que l'état de mal installé est défini par > 30 minutes ou absence de reprise de conscience."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'applique lorsqu'une crise dure au moins 5 minutes.",
+            "justification": "Le délai d'administration de la première ligne est précisément 5 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755190376308_05",
+      "current_version_epoch_ms": 1755190376308,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "À propos des troubles de conscience et du pronostic dans l'état de mal épileptique, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La répétition de crises sans reprise de la conscience définit l'état de mal installé.",
+            "justification": "L'état de mal installé est défini par des crises qui se répètent sans reprise de la conscience."
+          },
+          {
+            "correct": true,
+            "proposition": "Un coma peut survenir lors de ces répétitions sans reprise de la conscience.",
+            "justification": "La description associe ces situations à un coma et à des troubles de conscience."
+          },
+          {
+            "correct": false,
+            "proposition": "La reprise de la conscience entre les crises confirme l'état de mal installé.",
+            "justification": "L'état de mal installé suppose l'absence de reprise de la conscience entre crises."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de crise généralisée tonico-clonique, l'état de mal installé met en jeu le pronostic vital.",
+            "justification": "La mise en jeu du pronostic vital est précisée pour l'état de mal installé lors d'une crise généralisée tonico-clonique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'état de mal menaçant est défini par des troubles de conscience prolongés.",
+            "justification": "L'état de mal menaçant est défini par une durée de crise > 5 minutes ; la définition ne repose pas sur des troubles de conscience."
+          }
+        ]
+      }
+    }
+  ]
+}

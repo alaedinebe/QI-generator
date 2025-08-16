@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "addpsychotropes",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755115478614_01",
+      "current_version_epoch_ms": 1755115478614,
+      "topic": {
+        "subject": "addicto",
+        "item": "addpsychotropes"
+      },
+      "data": {
+        "statement": "Identifier les situations relevant de l'usage à risque des benzodiazépines.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Durée de prescription dépassant les Références Médicales Opposables (RMO).",
+            "justification": "Relève de l'usage à risque : toute prescription ou prise dont la durée dépasse les RMO."
+          },
+          {
+            "correct": true,
+            "proposition": "Prescription en dehors des indications précisées dans les RMO.",
+            "justification": "Relève de l'usage à risque : toute prescription ou prise en dehors des indications des RMO."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise à des doses supérieures à celles indiquées dans les RMO.",
+            "justification": "Relève de l'usage à risque : toute prescription ou prise à des doses supérieures aux RMO."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise sans prescription et sans suivi médical.",
+            "justification": "Relève de l'usage à risque : toute prise en dehors d'une prescription et d'un suivi médical."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisations répétées pour intoxications.",
+            "justification": "Relève de l'usage nocif (CIM-10), pas de l'usage à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755115478614_02",
+      "current_version_epoch_ms": 1755115478614,
+      "topic": {
+        "subject": "addicto",
+        "item": "addpsychotropes"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments définissant l'usage nocif (CIM-10) des benzodiazépines.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles répétés de la vigilance.",
+            "justification": "Fait partie des éléments de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hospitalisations répétées pour intoxications.",
+            "justification": "Fait partie des éléments de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Accidents répétés.",
+            "justification": "Fait partie des éléments de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Conséquences comportementales, sociales ou professionnelles.",
+            "justification": "Fait partie des éléments de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise en dehors d'une prescription et d'un suivi médical.",
+            "justification": "Relève de l'usage à risque, pas de l'usage nocif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755115478614_03",
+      "current_version_epoch_ms": 1755115478614,
+      "topic": {
+        "subject": "addicto",
+        "item": "addpsychotropes"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, classer celles qui appartiennent aux critères CIM-10 de dépendance aux benzodiazépines.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Désir puissant ou compulsif de consommer la substance.",
+            "justification": "Critère de dépendance (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Difficultés à contrôler l'usage (début, interruption, niveaux d'usage).",
+            "justification": "Critère de dépendance (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome de sevrage à la diminution ou à l'arrêt.",
+            "justification": "Critère de dépendance (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Tolérance (nécessité d'augmenter les doses pour les mêmes effets).",
+            "justification": "Critère de dépendance (CIM-10)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisations répétées pour intoxications.",
+            "justification": "Élément d'usage nocif (CIM-10), pas un critère de dépendance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755115478614_04",
+      "current_version_epoch_ms": 1755115478614,
+      "topic": {
+        "subject": "addicto",
+        "item": "addpsychotropes"
+      },
+      "data": {
+        "statement": "À propos de la dépendance aux benzodiazépines (CIM-10), identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic requiert au moins trois critères parmi une liste définie.",
+            "justification": "La dépendance est retenue s'il existe au moins trois critères (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "La tolérance fait partie des critères possibles.",
+            "justification": "La tolérance est explicitement listée parmi les critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Le syndrome de sevrage n'appartient pas aux critères.",
+            "justification": "Le syndrome de sevrage est un critère de dépendance (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Les difficultés à contrôler l'usage constituent un critère possible.",
+            "justification": "Les difficultés à contrôler l'usage figurent parmi les critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seul critère suffit à poser le diagnostic.",
+            "justification": "Il faut au moins trois critères pour retenir la dépendance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755115478614_05",
+      "current_version_epoch_ms": 1755115478614,
+      "topic": {
+        "subject": "addicto",
+        "item": "addpsychotropes"
+      },
+      "data": {
+        "statement": "Différencier usage à risque et usage nocif des benzodiazépines : sélectionner ce qui relève de l'usage à risque (et non de l'usage nocif).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Durée de traitement dépassant les RMO.",
+            "justification": "Relève de l'usage à risque : dépassement de la durée recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Prescription en dehors des indications RMO.",
+            "justification": "Relève de l'usage à risque : prescription hors indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Accidents répétés.",
+            "justification": "Relève de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles répétés de la vigilance.",
+            "justification": "Relève de l'usage nocif (CIM-10)."
+          },
+          {
+            "correct": true,
+            "proposition": "Doses supérieures aux RMO.",
+            "justification": "Relève de l'usage à risque : dépassement des doses recommandées."
+          }
+        ]
+      }
+    }
+  ]
+}

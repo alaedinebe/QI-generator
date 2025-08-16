@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755331203784_01",
+      "current_version_epoch_ms": 1755331203784,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Parmi les agents responsables des fongémies, lequel est le plus fréquemment retrouvé dans les cas de candidémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Candida albicans",
+            "justification": "Candida albicans est responsable de 50-60% des candidémies, ce qui en fait l'agent le plus fréquemment retrouvé."
+          },
+          {
+            "correct": false,
+            "proposition": "Cryptococcus sp.",
+            "justification": "Cryptococcus sp. est un agent de fongémie, mais il est moins fréquemment impliqué dans les candidémies, et principalement observé dans d'autres types d'infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Malassezia",
+            "justification": "Malassezia est un agent de fongémie, notamment en pédiatrie, mais n'est pas l'agent principal des candidémies."
+          },
+          {
+            "correct": false,
+            "proposition": "Aspergillus",
+            "justification": "Aspergillus ne pousse pas dans les hémocultures, ce qui le rend inapproprié comme agent responsable des candidémies."
+          },
+          {
+            "correct": false,
+            "proposition": "Candida krusei",
+            "justification": "Candida krusei est un agent moins fréquent des candidémies, souvent retrouvé dans des contextes spécifiques comme les infections résistantes aux antifongiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331203784_02",
+      "current_version_epoch_ms": 1755331203784,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le terrain associé à une candidémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Immunodépression, chimiothérapie et transplantation d'organe",
+            "justification": "Ces conditions favorisent la translocation des Candida dans le sang en raison de la dépression immunitaire associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Personnes en bonne santé, sans traitement médical",
+            "justification": "Les candidémies surviennent principalement chez les patients immunodéprimés ou avec des facteurs de risque médicaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation excessive d'antibiotiques",
+            "justification": "Bien que l'antibiothérapie puisse favoriser les candidémies, le facteur décisif reste l'immunodépression et les traitements invasifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de maladies virales comme la grippe",
+            "justification": "Les infections virales n'ont pas une relation aussi forte avec les candidémies que les facteurs de risque immunitaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Voyages dans des zones endémiques",
+            "justification": "Les candidémies ne sont pas directement liées aux voyages dans des zones endémiques, mais plutôt aux facteurs médicaux spécifiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331203784_03",
+      "current_version_epoch_ms": 1755331203784,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la principale porte d'entrée des candidémies ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cathéter vasculaire",
+            "justification": "Les cathéters vasculaires sont une porte d'entrée fréquente pour la candidémie en raison de la colonisation locale et de la translocation vers le compartiment sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Piqûres d'insectes",
+            "justification": "Les piqûres d'insectes ne sont pas une porte d'entrée significative des candidémies, qui sont plutôt associées aux interventions médicales."
+          },
+          {
+            "correct": false,
+            "proposition": "Exposition à des animaux infectés",
+            "justification": "Les candidémies ne sont pas transmises par contact avec des animaux, mais plutôt par colonisation humaine et translocation dans le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Contact avec des surfaces contaminées",
+            "justification": "Les candidémies sont liées à des interventions médicales directes et non à une contamination par contact avec des surfaces."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhalation de spores fongiques",
+            "justification": "L'inhalation de spores fongiques peut entraîner des infections respiratoires, mais ne constitue pas une porte d'entrée majeure pour les candidémies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331203784_04",
+      "current_version_epoch_ms": 1755331203784,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Dans quel contexte une candidémie est-elle le plus souvent favorisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chirurgie abdominale et séjour en réanimation",
+            "justification": "Les interventions chirurgicales abdominales et les soins en réanimation sont des facteurs de risque importants pour la candidémie, en raison de la perturbation de la barrière muqueuse et de l'immunodépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'antifongiques à long terme",
+            "justification": "La prise d'antifongiques à long terme n'est pas un facteur qui favorise directement la candidémie, contrairement à la dépression immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Transfusion sanguine",
+            "justification": "Les transfusions sanguines n'ont pas de lien direct avec les candidémies, bien qu'elles puissent être impliquées dans la transmission d'autres infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination",
+            "justification": "La vaccination n'est pas un facteur qui favorise les candidémies. Au contraire, elle protège contre d'autres types d'infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Environnement trop humide",
+            "justification": "L'humidité n'est pas un facteur significatif dans la survenue des candidémies, qui sont plutôt liées à des interventions médicales invasives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331203784_05",
+      "current_version_epoch_ms": 1755331203784,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Parmi les agents de fongémies autres que Candida, lequel est mentionné comme cause de fongémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cryptococcus sp.",
+            "justification": "Cryptococcus sp. est un agent de fongémie mentionné dans le contenu médical, bien que les candidémies soient plus fréquentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Candida glabrata",
+            "justification": "Candida glabrata est un agent de candidémie, et non un autre agent de fongémie différent de Candida."
+          },
+          {
+            "correct": false,
+            "proposition": "Malassezia",
+            "justification": "Bien que Malassezia soit un agent de fongémie, sa prévalence est plus élevée en pédiatrie et non dans le cadre des candidémies classiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Aspergillus",
+            "justification": "Aspergillus est un agent fongique, mais il ne cause pas de fongémies dans les hémocultures, ce qui le rend peu pertinent dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Trichophyton sp.",
+            "justification": "Trichophyton sp. est un champignon responsable de dermatoses, et non d'infections sanguines comme les candidémies."
+          }
+        ]
+      }
+    }
+  ]
+}

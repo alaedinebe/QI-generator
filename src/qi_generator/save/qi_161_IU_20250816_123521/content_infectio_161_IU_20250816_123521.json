@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755340728335_01",
+      "current_version_epoch_ms": 1755340728335,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelle est la définition d'une cystite récidivante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une cystite survenant avec une fréquence de ≥ 4 épisodes par an",
+            "justification": "La définition des cystites récidivantes est basée sur la fréquence des épisodes, à partir de 4 épisodes par an."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cystite survenant avec une fréquence de ≥ 2 épisodes par an",
+            "justification": "Cette fréquence est trop faible pour être considérée comme une cystite récidivante. La fréquence minimale est de 4 épisodes par an."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cystite accompagnée de fièvre",
+            "justification": "La cystite récidivante ne nécessite pas la présence de fièvre. Elle est caractérisée par la fréquence des épisodes, indépendamment de la température."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cystite uniquement d'origine bactérienne",
+            "justification": "La cystite récidivante peut être d'origine bactérienne ou mycosique, elle ne dépend pas exclusivement d'une étiologie bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Une infection urinaire chez un homme",
+            "justification": "Les cystites récidivantes sont plus fréquentes chez les femmes, et bien que l'infection urinaire masculine soit à risque de complication, elle ne définit pas la cystite récidivante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340728335_02",
+      "current_version_epoch_ms": 1755340728335,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le traitement de choix pour une cystite récidivante en échec des mesures hygiéno-diététiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'antibioprophylaxie au long cours",
+            "justification": "En cas d'échec des mesures hygiéno-diététiques et de plus de 1 épisode par mois, l'antibioprophylaxie au long cours est recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'utilisation d'antifongiques à long terme",
+            "justification": "Les antifongiques ne sont pas utilisés comme traitement de première intention pour la prévention des cystites récidivantes, sauf en cas d'infection mycosique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'injection de corticostéroïdes",
+            "justification": "Les corticostéroïdes ne sont pas un traitement standard pour les cystites récidivantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement par diurétiques",
+            "justification": "Les diurétiques ne sont pas utilisés pour traiter les cystites récidivantes."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hydratation abondante seule",
+            "justification": "Bien que l'hydratation soit bénéfique, elle ne suffit pas à traiter les cystites récidivantes après échec des mesures hygiéno-diététiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340728335_03",
+      "current_version_epoch_ms": 1755340728335,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Parmi les facteurs de risque suivants, lequel n'est plus considéré comme un facteur de risque de complication pour les infections urinaires ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "L'insuffisance rénale",
+            "justification": "L'insuffisance rénale est un facteur de risque majeur pour les infections urinaires à risque de complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Le diabète",
+            "justification": "Bien que le diabète soit un facteur de risque d'IU, il n'est plus considéré comme un facteur de risque de complication en raison des améliorations dans la gestion du diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "L'anomalie de l'arbre urinaire",
+            "justification": "Les malformations de l'arbre urinaire sont un facteur de risque reconnu pour les infections urinaires à risque de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "La grossesse",
+            "justification": "La grossesse est un facteur de risque d'infection urinaire à risque de complication, en raison des changements physiopathologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge supérieur à 75 ans",
+            "justification": "L'âge avancé est un facteur de risque bien établi pour les infections urinaires compliquées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340728335_04",
+      "current_version_epoch_ms": 1755340728335,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelle caractéristique définit une infection urinaire grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'infection urinaire avec sepsis grave (score qSOFA ≥ 2)",
+            "justification": "Le sepsis grave, tel que défini par un score qSOFA ≥ 2, est un critère de gravité pour une infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'infection urinaire accompagnée de fièvre uniquement",
+            "justification": "La fièvre seule ne suffit pas à qualifier une infection urinaire de grave. Il faut un sepsis ou un choc septique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'infection urinaire sans fièvre",
+            "justification": "Une infection urinaire grave nécessite généralement la présence de signes systémiques de gravité tels que le sepsis ou le choc septique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une infection urinaire chez un sujet immunodéprimé",
+            "justification": "Bien que l'immunodépression soit un facteur de risque, elle n'est pas en soi un critère de gravité pour une infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Une infection urinaire chez une femme enceinte",
+            "justification": "La grossesse est un facteur de risque d'infection urinaire, mais seule, elle ne suffit pas à qualifier l'infection de grave."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340728335_05",
+      "current_version_epoch_ms": 1755340728335,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quelles sont les principales caractéristiques des infections urinaires chez les enfants ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les infections urinaires basses sont non fébriles, tandis que les infections urinaires hautes sont fébriles",
+            "justification": "Cette distinction est fondamentale pour la classification des infections urinaires chez les enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Les infections urinaires sont plus fréquentes chez les filles après 6 mois",
+            "justification": "Chez les enfants, les infections urinaires sont plus fréquentes chez les garçons avant 6 mois, et chez les filles après 6 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Les infections urinaires basses sont systématiquement fébriles",
+            "justification": "Les infections urinaires basses chez les enfants sont par définition non fébriles."
+          },
+          {
+            "correct": false,
+            "proposition": "Les infections urinaires chez les garçons sont toujours plus graves que chez les filles",
+            "justification": "La gravité des infections urinaires chez les enfants ne dépend pas du sexe, mais de la localisation et de l'état général."
+          },
+          {
+            "correct": false,
+            "proposition": "Les malformations, telles que le reflux vésico-urétéral, favorisent les infections urinaires chez l'enfant",
+            "justification": "Le reflux vésico-urétéral est bien un facteur de risque pour les infections urinaires chez l'enfant."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IBP",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755313808136_01",
+      "current_version_epoch_ms": 1755313808136,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quelle est la localisation de l'opacité dans le cas d'une pneumonie franche lobaire aiguë (PFLA) du lobe moyen ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'opacité est localisée dans le lobe moyen du poumon droit.",
+            "justification": "La radiographie montre une opacité dans l'hémichamp pulmonaire droit avec une limite supérieure nette correspondant à la petite scissure, ce qui indique une localisation dans le lobe moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "L'opacité est localisée dans le lobe supérieur du poumon droit.",
+            "justification": "L'opacité est située dans le lobe moyen, et non dans le lobe supérieur comme indiqué par la limite nette à la petite scissure."
+          },
+          {
+            "correct": false,
+            "proposition": "L'opacité est localisée dans le lobe inférieur du poumon droit.",
+            "justification": "La description de l'opacité avec une limite nette à la petite scissure exclut un emplacement dans le lobe inférieur."
+          },
+          {
+            "correct": false,
+            "proposition": "L'opacité est localisée dans le lobe gauche.",
+            "justification": "L'opacité est spécifiquement décrite dans le lobe droit, pas dans le lobe gauche."
+          },
+          {
+            "correct": false,
+            "proposition": "L'opacité est localisée dans les deux lobes droits et gauche.",
+            "justification": "L'opacité est isolée dans le lobe moyen du poumon droit, et non dans les deux lobes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313808136_02",
+      "current_version_epoch_ms": 1755313808136,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel élément de la radiographie permet d'affirmer que l'opacité est localisée dans le lobe moyen ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La limite supérieure nette correspondant à la petite scissure.",
+            "justification": "La petite scissure est un repère clé pour la localisation de l'opacité dans le lobe moyen, comme décrit dans le cas clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'effacement du bord droit du cœur.",
+            "justification": "L'effacement du bord droit du cœur est un signe de la position antérieure de l'opacité, mais il ne détermine pas directement la localisation dans le lobe moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de bronchogramme aérien.",
+            "justification": "Le bronchogramme aérien indique un syndrome alvéolaire, mais ne précise pas nécessairement la localisation dans le lobe moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "L'opacité est systématisée.",
+            "justification": "Le terme 'systématisé' désigne l'extension homogène de l'opacité, mais il ne localise pas l'opacité dans le lobe moyen."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de toute autre opacité dans les lobes voisins.",
+            "justification": "L'absence d'autres opacités dans les lobes voisins peut être indicative, mais ce n'est pas le critère principal pour localiser l'opacité dans le lobe moyen."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313808136_03",
+      "current_version_epoch_ms": 1755313808136,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel est le type de syndrome pulmonaire observé dans cette pneumonie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome alvéolaire.",
+            "justification": "Le bronchogramme aérien, présent dans cette pneumonie, est un signe caractéristique du syndrome alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome interstitiel.",
+            "justification": "Le syndrome interstitiel se caractérise par des infiltrats diffus et des épaississements des septa, ce qui n'est pas décrit dans cette radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome obstructif.",
+            "justification": "Le syndrome obstructif se manifeste par un hyperinflation et des signes de restriction, ce qui ne correspond pas à la description de cette pneumonie."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de condensation.",
+            "justification": "Le terme 'syndrome de condensation' est parfois utilisé, mais il désigne un aspect radiologique non spécifique qui ne correspond pas ici au diagnostic de PFLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome pleural.",
+            "justification": "Le syndrome pleural se caractérise par des signes tels que l'épanchement pleural, ce qui n'est pas mentionné dans cette radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313808136_04",
+      "current_version_epoch_ms": 1755313808136,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel signe radiologique est présent dans cette pneumonie franche lobaire aiguë (PFLA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bronchogramme aérien.",
+            "justification": "Le bronchogramme aérien est un signe clé du syndrome alvéolaire, qui est présent dans cette pneumonie."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité nodulaire.",
+            "justification": "Une opacité nodulaire n'est pas décrite ici, la radiographie indique une opacité systématisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural.",
+            "justification": "L'épanchement pleural n'est pas mentionné dans cette radiographie, qui montre seulement une opacité lobaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Infiltrats interstitiels.",
+            "justification": "Les infiltrats interstitiels ne sont pas décrits ici, la radiographie montre un syndrome alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte des ganglions lymphatiques.",
+            "justification": "Il n'y a pas d'atteinte ganglionnaire observée dans cette radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755313808136_05",
+      "current_version_epoch_ms": 1755313808136,
+      "topic": {
+        "subject": "infectio",
+        "item": "IBP"
+      },
+      "data": {
+        "statement": "Quel élément permet de différencier une pneumonie franche lobaire aiguë (PFLA) d'une pneumonie interstitielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de bronchogramme aérien.",
+            "justification": "Le bronchogramme aérien est spécifique du syndrome alvéolaire, caractéristique de la PFLA, contrairement à la pneumonie interstitielle."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de la petite scissure.",
+            "justification": "La petite scissure est présente dans la PFLA, mais son absence ne permet pas de différencier les deux types de pneumonies."
+          },
+          {
+            "correct": false,
+            "proposition": "La systématisation de l'opacité.",
+            "justification": "La systématisation de l'opacité est observée dans la PFLA, mais elle peut aussi être présente dans d'autres types de pneumonies."
+          },
+          {
+            "correct": false,
+            "proposition": "L'effacement du bord du cœur.",
+            "justification": "L'effacement du bord du cœur est un signe de la position antérieure de l'opacité, mais il ne permet pas de différencier une PFLA d'une pneumonie interstitielle."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une opacité nodulaire.",
+            "justification": "Les opacités nodulaires sont plus caractéristiques de certaines infections ou tumeurs, mais elles ne sont pas un critère différentiel spécifique ici."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "SEP",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755188305676_01",
+      "current_version_epoch_ms": 1755188305676,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Identifier les indications de la ponction lombaire (PL) dans le diagnostic de la sclérose en plaques (SEP).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La PL n'est pas systématique si la dissémination dans l'espace et dans le temps est déjà établie.",
+            "justification": "Elle n'est pas réalisée d'emblée lorsque les critères diagnostiques sont remplis."
+          },
+          {
+            "correct": true,
+            "proposition": "La PL peut contribuer à éliminer des diagnostics différentiels.",
+            "justification": "Les paramètres du LCS hors des normes attendues orientent vers d'autres étiologies."
+          },
+          {
+            "correct": false,
+            "proposition": "La PL est toujours nécessaire chez tout patient suspect de SEP.",
+            "justification": "Elle n'est pas systématique lorsque les critères diagnostiques sont déjà satisfaits."
+          },
+          {
+            "correct": true,
+            "proposition": "La PL permet de mettre en évidence une inflammation du SNC via la mise en évidence d'une synthèse intrathécale d'IgG.",
+            "justification": "Les bandes oligoclonales et/ou un index IgG > 0,7 témoignent d'une synthèse intrathécale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un LCS normal exclut le diagnostic de SEP.",
+            "justification": "Le LCS peut être normal dans la SEP."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188305676_02",
+      "current_version_epoch_ms": 1755188305676,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments du LCS qui contribuent aux critères diagnostiques de la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de bandes oligoclonales en iso-électrofocalisation.",
+            "justification": "Elle atteste d'une synthèse intrathécale d'IgG et contribue aux critères diagnostiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Un index IgG supérieur à 0,7.",
+            "justification": "Un index IgG augmenté (> 0,7) signe une sécrétion intrathécale d'IgG."
+          },
+          {
+            "correct": false,
+            "proposition": "Une protéinorachie > 1 g/L dans la majorité des cas.",
+            "justification": "La protéinorachie n'est augmentée que dans 25 % des cas et reste inférieure à 1 g/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Une cytorachie mononucléée > 50 éléments/mm3 définit le caractère inflammatoire du LCS.",
+            "justification": "La cytorachie est le plus souvent < 50 éléments/mm3 et n'entre pas dans les critères contribuant au diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "La mise en évidence d'une synthèse intrathécale d'IgG.",
+            "justification": "C'est l'élément clé (bandes oligoclonales et/ou index IgG > 0,7) qui contribue aux critères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188305676_03",
+      "current_version_epoch_ms": 1755188305676,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Classer les profils de LCS attendus dans la SEP et ceux devant alerter vers un diagnostic différentiel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Protéinorachie augmentée dans 25 % des cas, restant inférieure à 1 g/L.",
+            "justification": "C'est le profil décrit pour la SEP lorsque la protéinorachie est élevée."
+          },
+          {
+            "correct": true,
+            "proposition": "Cytorachie composée d'éléments mononucléés, > 4 éléments/mm3 dans un tiers des cas, le plus souvent < 50 éléments/mm3.",
+            "justification": "C'est le profil cytologique typiquement observé."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéinorachie fréquemment > 1 g/L.",
+            "justification": "Une protéinorachie > 1 g/L n'est pas l'attendu et doit faire discuter d'autres étiologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Cytorachie très élevée, habituellement au-delà de 50 éléments/mm3.",
+            "justification": "Dans la SEP, la cytorachie est le plus souvent < 50 éléments/mm3."
+          },
+          {
+            "correct": true,
+            "proposition": "LCS pouvant être normal.",
+            "justification": "Un LCS normal est possible dans la SEP."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188305676_04",
+      "current_version_epoch_ms": 1755188305676,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Identifier les situations où les potentiels évoqués (PE) sont indiqués dans l'exploration d'une SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils ne doivent pas être proposés systématiquement.",
+            "justification": "Le recours aux PE n'est pas de routine."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils sont indiqués quand la clinique est compatible mais que la dissémination dans l'espace n'est pas remplie.",
+            "justification": "Ils aident alors à objectiver une atteinte non détectée par les autres examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont indiqués chez tous les patients pour établir la dissémination dans le temps.",
+            "justification": "Cette indication systématique n'est pas retenue."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils sont utiles en cas de doute sur l'organicité des troubles.",
+            "justification": "Les PE peuvent aider à trancher sur l'objectivation d'une atteinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont toujours inutiles lorsque l'IRM est disponible.",
+            "justification": "Ils gardent un intérêt dans certaines situations cliniques précises."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755188305676_05",
+      "current_version_epoch_ms": 1755188305676,
+      "topic": {
+        "subject": "neuro",
+        "item": "SEP"
+      },
+      "data": {
+        "statement": "Reconnaître l'apport spécifique des potentiels évoqués visuels (PEV) dans des situations cliniques compatibles avec la SEP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un allongement de la latence des PEV peut révéler une atteinte infra-clinique du nerf optique chez un patient avec myélite sans critères suffisants de dissémination dans l'espace à l'IRM.",
+            "justification": "Cet allongement témoigne d'une atteinte optique non clinique utile au diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Les PEV peuvent confirmer une névrite optique si la clinique et l'IRM ne sont pas concluantes.",
+            "justification": "Ils apportent alors un argument physiologique complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Des PEV normaux éliminent le diagnostic de SEP.",
+            "justification": "L'absence d'anomalie aux PEV ne permet pas d'exclure la SEP."
+          },
+          {
+            "correct": false,
+            "proposition": "Les PEV suffisent à eux seuls pour établir la dissémination dans le temps.",
+            "justification": "Leur rôle est ciblé et ne remplace pas les autres critères diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les PEV sont l'examen de première intention chez tout patient suspect de SEP.",
+            "justification": "Ils ne sont pas systématiques et sont réservés à des situations précises."
+          }
+        ]
+      }
+    }
+  ]
+}

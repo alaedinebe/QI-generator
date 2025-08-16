@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tetanos",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755340314973_01",
+      "current_version_epoch_ms": 1755340314973,
+      "topic": {
+        "subject": "infectio",
+        "item": "tetanos"
+      },
+      "data": {
+        "statement": "Quel est le signe clinique principal devant faire suspecter un tétanos ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trismus",
+            "justification": "Le trismus est le signe clinique initial majeur du tétanos, même en l'absence de plaie tétanigène identifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée",
+            "justification": "Le tétanos ne présente généralement pas de fièvre, ce qui le distingue de nombreuses infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur aiguë au niveau de l'articulation temporo-mandibulaire",
+            "justification": "Bien que la douleur au niveau de l'articulation temporo-mandibulaire soit possible, elle correspond à une pathologie différentielle, comme l'arthrite."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur diffuse dans tout le corps",
+            "justification": "La douleur diffuse n'est pas un symptôme typique du tétanos, qui débute par un trismus puis une contraction musculaire localisée et descendante."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalée intense",
+            "justification": "Les céphalées ne sont pas un signe spécifique du tétanos et peuvent être présentes dans diverses autres pathologies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340314973_02",
+      "current_version_epoch_ms": 1755340314973,
+      "topic": {
+        "subject": "infectio",
+        "item": "tetanos"
+      },
+      "data": {
+        "statement": "Quel diagnostic différentiel faut-il évoquer devant un trismus isolé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pathologies de l'articulation temporo-mandibulaire (arthrite)",
+            "justification": "Le trismus isolé peut être dû à des pathologies articulaires locales, comme l'arthrite de l'articulation temporo-mandibulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome malin des neuroleptiques",
+            "justification": "Bien que ce syndrome provoque une hypertonie, il est rarement isolé avec un trismus sans autres signes neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Strychnine (raticide)",
+            "justification": "L'exposition à la strychnine provoque une hypertonie générale, mais le trismus isolé est moins fréquent dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Dystonies aux phénothiazines",
+            "justification": "Les dystonies provoquées par les neuroleptiques de première génération peuvent être différenciées par la prise de médicaments antipsychotiques, ce qui n'est pas typiquement associé à un trismus isolé."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de l'homme raide",
+            "justification": "Le syndrome de l'homme raide est souvent paranéoplasique et ne se manifeste pas par un trismus isolé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340314973_03",
+      "current_version_epoch_ms": 1755340314973,
+      "topic": {
+        "subject": "infectio",
+        "item": "tetanos"
+      },
+      "data": {
+        "statement": "Dans quelle situation le tétanos évolue-t-il généralement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contraction généralisée et évolution descendante",
+            "justification": "Le tétanos évolue typiquement vers une contraction généralisée qui suit un schéma descendant, avec des signes de dysautonomie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évolution ascendante avec atteinte du système nerveux central",
+            "justification": "L'évolution du tétanos est descendante et non ascendante. Le système nerveux central est moins impliqué au début de la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Provoque une paralysie flasque progressive",
+            "justification": "La paralysie flasque est un signe de lésions neurogènes aiguës, contrairement au tétanos, qui provoque une contraction musculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Évolution rapide vers un coma profond",
+            "justification": "Le coma profond n'est pas un symptôme du tétanos, qui reste caractérisé par des spasmes musculaires sans perte de conscience significative."
+          },
+          {
+            "correct": false,
+            "proposition": "Débute par une forte fièvre puis des convulsions",
+            "justification": "Bien que le tétanos soit une pathologie grave, il ne présente pas de fièvre dans sa phase initiale, ce qui le distingue des infections aiguës."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340314973_04",
+      "current_version_epoch_ms": 1755340314973,
+      "topic": {
+        "subject": "infectio",
+        "item": "tetanos"
+      },
+      "data": {
+        "statement": "Quels sont les diagnostics différentiels devant une contraction musculaire localisée ou généralisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome malin des neuroleptiques",
+            "justification": "Ce syndrome provoque une hypertonie musculaire, souvent associée à des troubles de la conscience et des signes autonomiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Dystonies aux phénothiazines",
+            "justification": "Les dystonies induites par les neuroleptiques de première génération entraînent des contractions musculaires, dont une hypertonie généralisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Infarctus du myocarde",
+            "justification": "L'infarctus du myocarde se manifeste par une douleur thoracique et des signes de détresse cardiovasculaire, mais pas par une hypertonie musculaire généralisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Épilepsie généralisée",
+            "justification": "Bien que l'épilepsie puisse provoquer des convulsions, elle ne conduit pas à une hypertonie persistante ni à un trismus isolé."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de Guillain-Barré",
+            "justification": "Le syndrome de Guillain-Barré se caractérise par une faiblesse progressive, non par une contraction musculaire généralisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755340314973_05",
+      "current_version_epoch_ms": 1755340314973,
+      "topic": {
+        "subject": "infectio",
+        "item": "tetanos"
+      },
+      "data": {
+        "statement": "Quel signe clinique est typiquement absent dans le tétanos ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Fièvre",
+            "justification": "Le tétanos n'entraîne généralement pas de fièvre, contrairement à d'autres infections bactériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle",
+            "justification": "L'hypotension n'est pas un signe typique du tétanos, qui est plutôt caractérisé par des signes de dysautonomie sans modification notable de la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Trismus",
+            "justification": "Le trismus est un signe caractéristique du tétanos et fait partie du tableau clinique précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Spasmes musculaires généralisés",
+            "justification": "Les spasmes musculaires généralisés apparaissent généralement après le trismus et sont caractéristiques du tétanos."
+          },
+          {
+            "correct": false,
+            "proposition": "Dysphagie",
+            "justification": "La dysphagie peut être présente dans le cadre de la dysautonomie, mais n'est pas un signe spécifique ou précoce du tétanos."
+          }
+        ]
+      }
+    }
+  ]
+}

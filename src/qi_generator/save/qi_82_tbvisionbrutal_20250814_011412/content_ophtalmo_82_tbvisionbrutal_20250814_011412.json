@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbvisionbrutal",
+    "subject": "ophtalmo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755127059628_01",
+      "current_version_epoch_ms": 1755127059628,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel est l'effet du réflexe photomoteur direct (RPM) normal chez un sujet sain ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il y a un myosis réflexe du même côté que l'éclairement.",
+            "justification": "Chez un sujet normal, l'éclairement d'un œil entraîne un myosis réflexe du même côté, ce qui constitue le RPM direct."
+          },
+          {
+            "correct": false,
+            "proposition": "Il y a une dilatation de la pupille du côté éclairé.",
+            "justification": "Le réflexe photomoteur entraîne une constriction pupillaire, et non une dilatation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a aucun changement au niveau des pupilles.",
+            "justification": "Le RPM normal induit une constriction pupillaire dès l'éclairement de l'œil."
+          },
+          {
+            "correct": false,
+            "proposition": "Il y a un myosis réflexe de l'œil opposé.",
+            "justification": "Ce phénomène correspond au RPM consensuel, pas au RPM direct."
+          },
+          {
+            "correct": false,
+            "proposition": "Le réflexe est annulé en cas de mydriase paralytique.",
+            "justification": "La mydriase paralytique n'affecte que le RPM consensuel, pas le RPM direct."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755127059628_02",
+      "current_version_epoch_ms": 1755127059628,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Quel est l'impact d'une mydriase d'origine sensorielle sur le réflexe photomoteur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RPM direct et consensuel sont abolis à l'éclairement de l'œil atteint.",
+            "justification": "En cas de mydriase sensorielle, la voie afférente est altérée, abolissant ainsi le RPM direct et consensuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM direct est conservé, mais le RPM consensuel est aboli.",
+            "justification": "La mydriase sensorielle affecte les deux réflexes pupillaires, pas uniquement le RPM consensuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM est conservé dans les deux yeux.",
+            "justification": "La mydriase sensorielle empêche le réflexe d'être conservé dans l'œil affecté."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM est annulé seulement dans l'œil non éclairé.",
+            "justification": "Le RPM est supprimé de manière bilatérale dans le cas d'une mydriase sensorielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM consensuel est normal, même en cas de mydriase sensorielle.",
+            "justification": "Le RPM consensuel est aussi affecté par la baisse de vision dans une mydriase sensorielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755127059628_03",
+      "current_version_epoch_ms": 1755127059628,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Que se passe-t-il dans le réflexe photomoteur en cas de mydriase paralytique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RPM direct est aboli, mais le RPM consensuel est conservé.",
+            "justification": "Dans la mydriase paralytique, la voie efférente est altérée pour l'œil affecté, mais la voie afférente reste intacte, préservant le RPM consensuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM consensuel est aboli, mais le RPM direct est conservé.",
+            "justification": "Cela correspond à l'inverse de ce qui se passe dans une mydriase paralytique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM est totalement aboli.",
+            "justification": "Seul le RPM direct est aboli en cas de mydriase paralytique, le RPM consensuel reste intact."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux réflexes pupillaires sont anormaux à l'éclairement de l'œil atteint.",
+            "justification": "Le réflexe consensuel est préservé dans la mydriase paralytique, donc seule la réponse directe est affectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réflexes sont normaux dans les deux yeux.",
+            "justification": "Le réflexe direct est affecté par la paralysie, mais le réflexe consensuel est conservé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755127059628_04",
+      "current_version_epoch_ms": 1755127059628,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Comment interpréter une anisocorie lorsque l'anisocorie est plus marquée à la lumière ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'œil pathologique est celui qui présente la pupille la plus grande (mydriase).",
+            "justification": "Lorsque l'anisocorie est plus marquée à la lumière, l'œil qui présente une pupille plus dilatée (mydriase) est celui affecté."
+          },
+          {
+            "correct": false,
+            "proposition": "L'œil pathologique est celui qui présente la pupille la plus petite (myosis).",
+            "justification": "Le myosis n'est pas observé à la lumière, mais à l'obscurité, dans les cas d'anisocorie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'anisocorie est sans signification clinique.",
+            "justification": "L'anisocorie a une signification clinique importante, notamment en fonction des variations de taille des pupilles."
+          },
+          {
+            "correct": false,
+            "proposition": "L'anisocorie est plus marquée à l'obscurité.",
+            "justification": "Cela correspond à une situation opposée à celle où l'anisocorie est plus marquée à la lumière."
+          },
+          {
+            "correct": false,
+            "proposition": "L'œil pathologique présente un RPM normal.",
+            "justification": "Un œil pathologique avec anisocorie présente souvent des anomalies du réflexe photomoteur, comme une abolition partielle ou complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755127059628_05",
+      "current_version_epoch_ms": 1755127059628,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "tbvisionbrutal"
+      },
+      "data": {
+        "statement": "Que se passe-t-il lors d'un trouble du réflexe photomoteur avec anisocorie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RPM est altéré et peut être affecté par une mydriase ou un myosis selon l'origine du trouble.",
+            "justification": "Les troubles du RPM peuvent être associés à une anisocorie marquée, soit par une mydriase, soit par un myosis, en fonction de la nature du trouble."
+          },
+          {
+            "correct": false,
+            "proposition": "L'anisocorie est toujours liée à une mydriase.",
+            "justification": "L'anisocorie peut être causée par une mydriase ou un myosis, selon le type de trouble du réflexe photomoteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a pas de changement au niveau des pupilles.",
+            "justification": "Un trouble du RPM entraîne toujours des changements pupillaires, comme un myosis ou une mydriase."
+          },
+          {
+            "correct": false,
+            "proposition": "L'anisocorie est uniquement un signe de paralysie du sphincter irien.",
+            "justification": "L'anisocorie peut être due à plusieurs causes, y compris des troubles sensoriels et paralysiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM est toujours normal dans les deux yeux.",
+            "justification": "Les troubles du RPM peuvent altérer l'une ou l'autre des réponses pupillaires, entraînant une anisocorie."
+          }
+        ]
+      }
+    }
+  ]
+}

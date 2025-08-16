@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epilepsie",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755193066926_01",
+      "current_version_epoch_ms": 1755193066926,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Identifier la première ligne et les caractéristiques initiales de la prise en charge d'un état de mal épileptique généralisé tonico-clonique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le clonazépam 1 mg en intraveineuse lente constitue la première ligne.",
+            "justification": "La première ligne décrite est une benzodiazépine administrée en IV lente (clonazépam 1 mg)."
+          },
+          {
+            "correct": true,
+            "proposition": "La première injection peut être répétée une fois si l'échec persiste après 5 minutes.",
+            "justification": "Il est précisé qu'en cas d'échec à 5 minutes, une seconde injection de benzodiazépine peut être réalisée."
+          },
+          {
+            "correct": false,
+            "proposition": "La benzodiazépine doit être injectée en bolus IV rapide.",
+            "justification": "La modalité d'administration indiquée est une perfusion intraveineuse lente, et non un bolus rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "La première ligne n'est pas indiquée si l'intervention débute avant 30 minutes.",
+            "justification": "Avant 30 minutes, la stratégie initiale repose précisément sur une benzodiazépine en première ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une urgence vitale.",
+            "justification": "L'état de mal épileptique généralisé tonico-clonique est qualifié d'urgence vitale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755193066926_02",
+      "current_version_epoch_ms": 1755193066926,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Différencier les indications et options thérapeutiques de deuxième ligne dans l'état de mal épileptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La deuxième ligne est indiquée 5 minutes après la deuxième benzodiazépine en cas d'échec, ou 10 minutes après la première.",
+            "justification": "Le déclenchement de la deuxième ligne est précisé selon ces délais d'échec après les injections de benzodiazépine."
+          },
+          {
+            "correct": true,
+            "proposition": "La phénitoïne (avant 4 ans) fait partie des antiépileptiques d'action prolongée utilisables en IV.",
+            "justification": "La phénitoïne (avant 4 ans) est listée parmi les options de deuxième ligne en IV à la seringue électrique."
+          },
+          {
+            "correct": true,
+            "proposition": "La fosphénitoïne (Prodilantin®) peut être utilisée en deuxième ligne.",
+            "justification": "La fosphénitoïne est explicitement mentionnée parmi les options injectables de deuxième ligne."
+          },
+          {
+            "correct": true,
+            "proposition": "Le phénobarbital (Gardénal®) est une option de deuxième ligne.",
+            "justification": "Le phénobarbital figure dans les antiépileptiques d'action prolongée utilisables en IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Le lévétiracétam, l'acide valproïque et le lacosamide ne doivent pas être utilisés en injectable dans ce contexte.",
+            "justification": "Ces trois molécules sont citées comme autres médicaments injectables utilisables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755193066926_03",
+      "current_version_epoch_ms": 1755193066926,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Reconnaître la stratégie de troisième ligne et la définition de l'état de mal réfractaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si l'état de mal persiste 30 minutes après la deuxième ligne, une hospitalisation en réanimation ou en unité de surveillance est indiquée.",
+            "justification": "La poursuite des crises 30 minutes après la deuxième ligne impose une prise en charge en milieu de soins intensifs."
+          },
+          {
+            "correct": true,
+            "proposition": "Une sédation par propofol ou midazolam ou thiopental avec intubation orotrachéale peut être nécessaire.",
+            "justification": "La sédation avec intubation orotrachéale est décrite comme la troisième ligne thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Cette situation correspond à un état de mal épileptique réfractaire.",
+            "justification": "La persistance après la deuxième ligne définit l'état de mal réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune ventilation ni intubation ne doit être envisagée à ce stade.",
+            "justification": "La stratégie de troisième ligne inclut explicitement une sédation avec intubation orotrachéale."
+          },
+          {
+            "correct": false,
+            "proposition": "La troisième ligne consiste à répéter la benzodiazépine à la même dose.",
+            "justification": "La répétition d'une benzodiazépine concerne la première ligne ; la troisième ligne repose sur une sédation avec intubation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755193066926_04",
+      "current_version_epoch_ms": 1755193066926,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Adapter la conduite à tenir si la prise en charge débute au-delà de 30 minutes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer une benzodiazépine en intraveineuse.",
+            "justification": "Après 30 minutes, une benzodiazépine fait toujours partie du schéma initial."
+          },
+          {
+            "correct": true,
+            "proposition": "Associer d'emblée un antiépileptique d'action prolongée de deuxième ligne en IV.",
+            "justification": "Il est indiqué d'administrer une benzodiazépine et un antiépileptique d'action prolongée de deuxième ligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Se limiter à l'observation clinique sans traitement initial.",
+            "justification": "Une intervention médicamenteuse est requise ; l'abstention thérapeutique n'est pas proposée."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter la mise en place d'une voie veineuse périphérique.",
+            "justification": "La mise en place d'une voie veineuse périphérique fait partie de la mise en condition à réaliser systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Initier d'emblée une sédation avec intubation orotrachéale.",
+            "justification": "La sédation avec intubation correspond à la troisième ligne, en cas de persistance après la deuxième ligne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755193066926_05",
+      "current_version_epoch_ms": 1755193066926,
+      "topic": {
+        "subject": "neuro",
+        "item": "epilepsie"
+      },
+      "data": {
+        "statement": "Classer les mesures systématiques à appliquer dans tous les cas d'état de mal épileptique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Position latérale de sécurité et libération des voies aériennes supérieures.",
+            "justification": "Ces gestes font partie de la mise en condition initiale."
+          },
+          {
+            "correct": true,
+            "proposition": "Oxygénothérapie et mise en place d'une voie veineuse périphérique.",
+            "justification": "Oxygène et VVP sont inclus dans la prise en charge systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveillance en soins continus ou réanimation avec SaO2, FC, FR, TA, glycémie, ionogramme sanguin, pH.",
+            "justification": "Les paramètres à monitorer sont explicitement listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitement étiologique.",
+            "justification": "La prise en charge comprend la recherche et le traitement de la cause."
+          },
+          {
+            "correct": true,
+            "proposition": "Mise en place rapide d'un traitement antiépileptique de relais de la dose de charge.",
+            "justification": "La poursuite par un traitement de relais est à instaurer rapidement."
+          }
+        ]
+      }
+    }
+  ]
+}

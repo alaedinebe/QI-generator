@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "BK",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755338037633_01",
+      "current_version_epoch_ms": 1755338037633,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel examen est indispensable pour poser le diagnostic de tuberculose pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie de thorax",
+            "justification": "La radiographie de thorax est l'examen de première intention pour diagnostiquer une tuberculose pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie thoracique",
+            "justification": "La TDM thoracique est un examen complémentaire qui peut être demandé après la radiographie, mais elle n'est pas indispensable pour poser le diagnostic initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie bronchique",
+            "justification": "La fibroscopie bronchique n'est pas utilisée comme examen de première intention, elle est réservée à des prélèvements respiratoires invasifs si nécessaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement de sang pour culture",
+            "justification": "Le prélèvement sanguin n'est pas utilisé pour diagnostiquer la tuberculose pulmonaire, les examens microbiologiques se concentrent sur les produits d'expectoration."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral",
+            "justification": "Un scanner cérébral n'est pas pertinent pour diagnostiquer la tuberculose pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338037633_02",
+      "current_version_epoch_ms": 1755338037633,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle est la principale méthode pour établir la contagiosité d'un patient suspect de tuberculose pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen microscopique des produits d'expectoration pour rechercher des BAAR",
+            "justification": "La recherche de bacilles acido-alcoolo-résistants (BAAR) dans les expectorations permet de déterminer si le patient est contagieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement sanguin",
+            "justification": "Le prélèvement sanguin n'est pas utilisé pour établir la contagiosité dans la tuberculose pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie thoracique",
+            "justification": "Bien que la TDM thoracique soit utile pour visualiser l'atteinte pulmonaire, elle ne permet pas de déterminer la contagiosité."
+          },
+          {
+            "correct": false,
+            "proposition": "PCR sur prélèvement sanguin",
+            "justification": "La PCR est utilisée pour confirmer la tuberculose, mais pas pour évaluer la contagiosité. Elle est plus utile dans les prélèvements respiratoires positifs à l'examen microscopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Anatomopathologie pulmonaire",
+            "justification": "L'anatomopathologie peut fournir des indices sur la tuberculose, mais elle n'est pas utilisée pour évaluer la contagiosité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338037633_03",
+      "current_version_epoch_ms": 1755338037633,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quelle méthode est la plus sensible pour confirmer rapidement le diagnostic de tuberculose chez un patient avec examen microscopique positif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amplification génique par PCR",
+            "justification": "La PCR permet de confirmer rapidement le diagnostic en cas de résultats positifs à l'examen microscopique et d'identifier les formes résistantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Culture des produits d'expectoration",
+            "justification": "La culture prend plus de temps (10-15 jours) pour confirmer le diagnostic, alors que la PCR offre une confirmation plus rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie thoracique",
+            "justification": "La TDM est utile pour observer l'extension des lésions pulmonaires, mais elle ne permet pas de confirmer le diagnostic de tuberculose."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement gastrique",
+            "justification": "Bien que l'aspiration gastrique puisse être réalisée dans certains cas, elle n'est pas aussi rapide ni aussi spécifique que la PCR pour confirmer le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen histopathologique",
+            "justification": "L'examen histopathologique n'est pas indispensable au diagnostic et présente une sensibilité inférieure à celle de la PCR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338037633_04",
+      "current_version_epoch_ms": 1755338037633,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel examen est nécessaire pour adapter le traitement antibiotique dans la tuberculose pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Culture des produits d'expectoration avec antibiogramme",
+            "justification": "La culture permet de confirmer le diagnostic et de réaliser un antibiogramme pour adapter le traitement antibiotique en fonction de la résistance des souches."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement sanguin pour recherche de mycobactéries",
+            "justification": "Le prélèvement sanguin n'est pas utilisé pour adapter le traitement antibiotique, qui repose sur les résultats microbiologiques des expectorations."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie thoracique",
+            "justification": "La TDM thoracique permet de visualiser les lésions pulmonaires mais ne fournit pas d'informations pour adapter le traitement antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Amplification génique par PCR sur produit d'expectoration",
+            "justification": "La PCR permet de confirmer le diagnostic, mais elle ne permet pas d'adapter directement le traitement antibiotique comme le fait l'antibiogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique",
+            "justification": "L'examen clinique, bien qu'important pour évaluer l'état du patient, ne permet pas d'adapter précisément le traitement antibiotique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755338037633_05",
+      "current_version_epoch_ms": 1755338037633,
+      "topic": {
+        "subject": "infectio",
+        "item": "BK"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de l'anatomopathologie dans le diagnostic de tuberculose pulmonaire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Confirmer le diagnostic de tuberculose de manière systématique",
+            "justification": "L'anatomopathologie n'est pas systématiquement nécessaire pour confirmer le diagnostic de tuberculose pulmonaire, les tests microbiologiques et radiologiques étant suffisants."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre en évidence des granulomes épithélioïdes avec nécrose caséeuse",
+            "justification": "L'anatomopathologie peut montrer des granulomes caractéristiques avec nécrose caséeuse, mais ce n'est pas un test de diagnostic systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter la résistance aux médicaments",
+            "justification": "L'anatomopathologie ne permet pas d'évaluer la résistance aux médicaments, ce qui nécessite un antibiogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Révéler des BAAR dans les tissus",
+            "justification": "Bien que des BAAR puissent être observés dans les tissus, la microbiologie est plus sensible et spécifique pour confirmer la présence de mycobactéries."
+          },
+          {
+            "correct": false,
+            "proposition": "Être utilisée comme méthode de dépistage de la tuberculose",
+            "justification": "L'anatomopathologie n'est pas utilisée comme méthode de dépistage de la tuberculose, les examens microbiologiques sont préférés."
+          }
+        ]
+      }
+    }
+  ]
+}

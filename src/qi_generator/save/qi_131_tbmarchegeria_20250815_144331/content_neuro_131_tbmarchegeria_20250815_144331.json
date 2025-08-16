@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755262017770_01",
+      "current_version_epoch_ms": 1755262017770,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les examens d'imagerie indiqués devant des troubles chroniques de la marche chez un sujet âgé, en fonction de l'examen clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser des radiographies ostéoarticulaires en cas de suspicion d'arthrose.",
+            "justification": "Radiographies ostéoarticulaires pour arthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire d'emblée une imagerie systématique quel que soit le contexte clinique.",
+            "justification": "Aucun examen d'imagerie médicale n'est systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Demander une IRM ou une TDM cérébrale pour rechercher un hématome sous-dural, une hydrocéphalie à pression normale, des séquelles d'AVC ou un état lacunaire selon le contexte.",
+            "justification": "IRM ou TDM cérébrale en particulier pour recherche d'hématome sous-dural, suspicion d'hydrocéphalie à pression normale, séquelle d'AVC, état lacunaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser une IRM médullaire si l'on suspecte une myélopathie cervico-arthrosique ou un canal lombaire étroit.",
+            "justification": "IRM médullaire pour recherche de myélopathie cervico-arthrosique et/ou canal lombaire étroit."
+          },
+          {
+            "correct": false,
+            "proposition": "Écarter les examens spécifiques liés aux comorbidités.",
+            "justification": "Des examens spécifiques seront demandés selon les comorbidités (p. ex. électromyogramme)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755262017770_02",
+      "current_version_epoch_ms": 1755262017770,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Après une chute avec douleur d'un membre chez un sujet âgé, sans signe neurologique ni traumatisme crânien sous antithrombotique, reconnaître les examens pertinents.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Demander des radiographies ostéoarticulaires pour rechercher une fracture.",
+            "justification": "Radiographies ostéoarticulaires pour recherche de fracture en contexte de chute."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une TDM cérébrale en urgence de façon systématique.",
+            "justification": "TDM cérébrale en urgence uniquement en cas de symptôme neurologique ou de traumatisme crânien sous antithrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager une TDM cérébrale en urgence seulement s'il apparaît des symptômes neurologiques.",
+            "justification": "TDM cérébrale en urgence uniquement en cas de symptôme neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une IRM cérébrale en première intention pour suspicion d'AVC dans ce contexte.",
+            "justification": "IRM cérébrale en première intention si suspicion d'AVC avec délai de thrombolyse/thrombectomie, ce qui n'est pas décrit ici."
+          },
+          {
+            "correct": false,
+            "proposition": "S'abstenir de toute imagerie.",
+            "justification": "En cas de chute, des radiographies ostéoarticulaires sont indiquées pour rechercher une fracture."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755262017770_03",
+      "current_version_epoch_ms": 1755262017770,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Devant une suspicion d'AVC chez un sujet âgé dans la fenêtre thérapeutique, classer l'examen de première intention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une IRM cérébrale en première intention.",
+            "justification": "IRM cérébrale en première intention si suspicion d'AVC et délai thrombolyse ou thrombectomie."
+          },
+          {
+            "correct": false,
+            "proposition": "Choisir une TDM cérébrale en première intention en l'absence d'argument spécifique.",
+            "justification": "Dans ce cadre, l'IRM cérébrale est explicitement indiquée en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter toute imagerie car aucune n'est systématique.",
+            "justification": "Bien qu'aucun examen ne soit systématique, une indication formelle existe ici (suspicion d'AVC dans le délai)."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser des radiographies ostéoarticulaires pour arthrose.",
+            "justification": "Les radiographies ostéoarticulaires concernent l'arthrose, pas la suspicion d'AVC."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une IRM médullaire.",
+            "justification": "L'IRM médullaire est indiquée pour myélopathie cervico-arthrosique et/ou canal lombaire étroit, pas pour un AVC."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755262017770_04",
+      "current_version_epoch_ms": 1755262017770,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Chez un sujet âgé avec troubles de la marche et suspicion d'hydrocéphalie à pression normale, différencier les examens indiqués.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiquer une IRM ou une TDM cérébrale.",
+            "justification": "IRM ou TDM cérébrale en particulier pour suspicion d'hydrocéphalie à pression normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer une IRM médullaire en première intention.",
+            "justification": "L'IRM médullaire est destinée à la myélopathie cervico-arthrosique et/ou au canal lombaire étroit."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser des radiographies ostéoarticulaires comme examen principal.",
+            "justification": "Les radiographies ostéoarticulaires sont indiquées pour l'arthrose, non pour l'hydrocéphalie à pression normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter toute imagerie car aucune n'est systématique.",
+            "justification": "Une indication d'imagerie cérébrale est précisée en cas de suspicion d'hydrocéphalie à pression normale."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher des séquelles d'AVC ou un état lacunaire par imagerie cérébrale si nécessaire.",
+            "justification": "IRM/TDM cérébrale en particulier pour séquelle d'AVC et état lacunaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755262017770_05",
+      "current_version_epoch_ms": 1755262017770,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Sujet âgé avec troubles de la marche évoquant myélopathie cervico-arthrosique et possible canal lombaire étroit : classer les examens appropriés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une IRM médullaire.",
+            "justification": "IRM médullaire pour recherche de myélopathie cervico-arthrosique et/ou canal lombaire étroit."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser d'emblée une imagerie cérébrale systématique.",
+            "justification": "Aucun examen d'imagerie n'est systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Considérer des examens spécifiques selon les comorbidités (par exemple un électromyogramme).",
+            "justification": "Des examens spécifiques seront demandés selon les comorbidités."
+          },
+          {
+            "correct": true,
+            "proposition": "Réserver la TDM cérébrale en urgence aux cas avec symptômes neurologiques ou traumatisme crânien sous antithrombotique.",
+            "justification": "TDM cérébrale en urgence uniquement en cas de symptôme neurologique ou en cas de traumatisme crânien sous antithrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Demander des radiographies ostéoarticulaires si une arthrose est cliniquement évoquée.",
+            "justification": "Radiographies ostéoarticulaires pour arthrose."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "oeilR-D",
+    "subject": "ophtalmo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755131816879_01",
+      "current_version_epoch_ms": 1755131816879,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "oeilR-D"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge d'une kératite avec baisse de l'acuité visuelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pas de corticoïdes locaux sans diagnostic précis.",
+            "justification": "L'utilisation de corticoïdes locaux est contre-indiquée en l'absence d'un diagnostic précis car cela pourrait aggraver l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de corticoïdes locaux immédiatement.",
+            "justification": "L'administration de corticoïdes locaux est risquée sans un diagnostic précis, car elle peut compliquer les infections comme les kératites infectieuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'une antibiothérapie systémique à large spectre.",
+            "justification": "Bien qu'il puisse y avoir une infection, l'usage systématique d'antibiotiques n'est pas indiqué sans confirmation d'une étiologie infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription d'analgésiques uniquement.",
+            "justification": "Les analgésiques peuvent soulager la douleur mais ne traitent pas la cause sous-jacente de la kératite."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan étiologique immédiat.",
+            "justification": "Bien qu'un bilan étiologique soit essentiel, la prise en charge immédiate ne se limite pas à cela. Une évaluation clinique et des traitements locaux sont également nécessaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755131816879_02",
+      "current_version_epoch_ms": 1755131816879,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "oeilR-D"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques permettant d'évoquer une uvéite antérieure aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Myosis, cercle périkératique, cornée claire, synéchies iridocristallinienne, précipités rétrodescémétiques.",
+            "justification": "Ce sont les signes caractéristiques d'une uvéite antérieure aiguë, incluant la douleur oculaire, la synéchie et la présence de précipités rétrodescémétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de transparence cornéenne, ulcération fluorescente.",
+            "justification": "Ces signes sont plus caractéristiques d'une kératite, et non d'une uvéite antérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "Cécité unilatérale, syndrome digestif, mydriase.",
+            "justification": "Ces signes sont plutôt associés à un glaucome aigu, où la pression intraoculaire élevée est un facteur clé."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème cornéen, douleur intense, élévation de la pression intra-oculaire.",
+            "justification": "Ces signes sont également caractéristiques d'un glaucome aigu et non d'une uvéite antérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de cercle périkératique sans autres signes oculaires.",
+            "justification": "Le cercle périkératique est un signe non spécifique et doit être associé à d'autres signes pour évoquer une uvéite antérieure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755131816879_03",
+      "current_version_epoch_ms": 1755131816879,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "oeilR-D"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention dans un glaucome aigu ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement de l'hypertonie oculaire.",
+            "justification": "Le traitement de l'hypertonie intraoculaire est essentiel dans le glaucome aigu pour réduire la pression intraoculaire élevée et prévenir des lésions permanentes du nerf optique."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie locale.",
+            "justification": "L'antibiothérapie n'est pas indiquée en cas de glaucome aigu, car ce dernier n'est pas d'origine infectieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticoïdes locaux.",
+            "justification": "Les corticoïdes sont contre-indiqués dans le glaucome aigu car ils peuvent aggraver la pression intraoculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement antalgique uniquement.",
+            "justification": "Les analgésiques ne traitent pas la cause sous-jacente du glaucome aigu et ne sont donc pas suffisants pour sa prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Mydriatique pour dilater la pupille.",
+            "justification": "Le traitement mydriatique peut aggraver la situation en cas de glaucome aigu, car il augmente la pression intraoculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755131816879_04",
+      "current_version_epoch_ms": 1755131816879,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "oeilR-D"
+      },
+      "data": {
+        "statement": "Dans quel contexte doit-on suspecter une endophtalmie post-opératoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après chirurgie de la cataracte ou injection intravitréenne.",
+            "justification": "Les infections post-opératoires sont souvent liées à des interventions telles que la chirurgie de la cataracte ou des injections intravitréennes, d'où la nécessité d'une prise en charge urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de l'apparition de signes de kératite dans les premiers jours post-opératoires.",
+            "justification": "Bien que la kératite puisse survenir après une intervention chirurgicale, les signes d'une endophtalmie sont généralement plus graves et incluent des douleurs intenses, un œdème et des symptômes systémiques."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de baisse de l'acuité visuelle sans douleur.",
+            "justification": "La douleur intense est un signe clé d'une endophtalmie, ce qui n'est pas typiquement associé à une simple baisse de l'acuité visuelle sans douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans tous les cas après une chirurgie intraoculaire, indépendamment des symptômes.",
+            "justification": "L'endophtalmie ne se produit pas systématiquement après une chirurgie intraoculaire ; elle est rare mais doit être suspectée en cas de douleur intense et de signes d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de simple mydriase post-opératoire.",
+            "justification": "La mydriase seule après une chirurgie n'est pas indicative d'une endophtalmie ; des symptômes plus graves, comme la douleur et l'œdème, sont plus caractéristiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755131816879_05",
+      "current_version_epoch_ms": 1755131816879,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "oeilR-D"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal dans la gestion de l'œil rouge douloureux avec baisse de l'acuité visuelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier l'étiologie sous-jacente et initier un traitement spécifique.",
+            "justification": "L'identification rapide de l'étiologie est cruciale pour instaurer un traitement adapté (corticoïdes, antihypertenseurs, antibiotiques) et éviter des complications sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un traitement anti-inflammatoire général.",
+            "justification": "Le traitement anti-inflammatoire n'est pas spécifique à la cause de l'œil rouge et peut être contre-indiqué dans certaines conditions, comme le glaucome aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rien faire jusqu'à l'amélioration des symptômes.",
+            "justification": "L'attente sans traitement peut entraîner des lésions permanentes, notamment en cas de glaucome aigu ou d'infection sévère comme l'endophtalmie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire systématiquement des corticoïdes locaux.",
+            "justification": "Les corticoïdes locaux peuvent aggraver certaines conditions (ex: glaucome aigu) et ne doivent être prescrits qu'après un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement un bilan biologique.",
+            "justification": "Un bilan biologique seul ne permet pas de poser un diagnostic clinique précis, d'où la nécessité d'une évaluation complète incluant un examen clinique détaillé."
+          }
+        ]
+      }
+    }
+  ]
+}

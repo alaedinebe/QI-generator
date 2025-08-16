@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "suiviMIT",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755288948434_01",
+      "current_version_epoch_ms": 1755288948434,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Quelle est la formule de la sensibilité (Se) d'un examen diagnostique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Se = a/(a + c)",
+            "justification": "La sensibilité correspond à la proportion de sujets malades correctement identifiés par le test, soit les vrais positifs (a) sur l'ensemble des malades (a + c)."
+          },
+          {
+            "correct": false,
+            "proposition": "Se = b/(b + d)",
+            "justification": "Cette formule correspond à la spécificité, et non à la sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Se = a/(a + b)",
+            "justification": "Cette formule est incorrecte car elle ne prend pas en compte les vrais négatifs dans le calcul de la sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Se = c/(c + d)",
+            "justification": "Cette formule est incorrecte car elle ne correspond à aucun indicateur lié à la sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Se = d/(a + b)",
+            "justification": "Cette formule ne correspond à aucun des indicateurs de performance d'un examen diagnostique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288948434_02",
+      "current_version_epoch_ms": 1755288948434,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Comment calcule-t-on la spécificité (Sp) d'un examen diagnostique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sp = d/(b + d)",
+            "justification": "La spécificité mesure la proportion de non-malades correctement identifiés par le test, soit les vrais négatifs (d) sur l'ensemble des non-malades (b + d)."
+          },
+          {
+            "correct": false,
+            "proposition": "Sp = a/(a + c)",
+            "justification": "Cette formule correspond à la sensibilité et non à la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sp = b/(a + b)",
+            "justification": "Cette formule est incorrecte car elle ne correspond à aucun indicateur de performance des tests diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Sp = c/(a + d)",
+            "justification": "Cette formule est incorrecte car elle mélange des variables non pertinentes pour la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sp = a/(b + d)",
+            "justification": "Cette formule est incorrecte et ne reflète pas la définition de la spécificité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288948434_03",
+      "current_version_epoch_ms": 1755288948434,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Quelle est la formule de la valeur prédictive positive (VPP) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VPP = a/(a + b)",
+            "justification": "La valeur prédictive positive est la proportion de sujets réellement malades parmi ceux classés malades par le test, soit les vrais positifs (a) sur l'ensemble des personnes testées positives (a + b)."
+          },
+          {
+            "correct": false,
+            "proposition": "VPP = c/(c + d)",
+            "justification": "Cette formule correspond à la valeur prédictive négative, et non à la VPP."
+          },
+          {
+            "correct": false,
+            "proposition": "VPP = b/(a + b)",
+            "justification": "Cette formule ne correspond pas à la valeur prédictive positive, mais à un calcul erroné."
+          },
+          {
+            "correct": false,
+            "proposition": "VPP = d/(c + d)",
+            "justification": "Cette formule correspond à la valeur prédictive négative (VPN) et non à la VPP."
+          },
+          {
+            "correct": false,
+            "proposition": "VPP = a/(c + d)",
+            "justification": "Cette formule est incorrecte car elle ne représente pas correctement la valeur prédictive positive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288948434_04",
+      "current_version_epoch_ms": 1755288948434,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Quel est le calcul de la valeur prédictive négative (VPN) d'un examen diagnostique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VPN = d/(c + d)",
+            "justification": "La valeur prédictive négative mesure la proportion de non-malades correctement identifiés parmi ceux classés non malades par le test, soit les vrais négatifs (d) sur l'ensemble des non-malades (c + d)."
+          },
+          {
+            "correct": false,
+            "proposition": "VPN = a/(a + b)",
+            "justification": "Cette formule correspond à la valeur prédictive positive, et non à la VPN."
+          },
+          {
+            "correct": false,
+            "proposition": "VPN = b/(a + b)",
+            "justification": "Cette formule est incorrecte car elle ne correspond à aucun des indicateurs de performance des tests diagnostiques."
+          },
+          {
+            "correct": false,
+            "proposition": "VPN = c/(c + d)",
+            "justification": "Cette formule est incorrecte, elle correspond à la sensibilité et non à la VPN."
+          },
+          {
+            "correct": false,
+            "proposition": "VPN = a/(b + d)",
+            "justification": "Cette formule est incorrecte et ne correspond à aucun des indicateurs de performance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755288948434_05",
+      "current_version_epoch_ms": 1755288948434,
+      "topic": {
+        "subject": "infectio",
+        "item": "suiviMIT"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, lequel fait partie de la définition de la spécificité d'un examen diagnostique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proportion des non-malades correctement identifiés par le test",
+            "justification": "La spécificité mesure la capacité du test à identifier les sujets non malades parmi ceux qui ne sont effectivement pas malades."
+          },
+          {
+            "correct": false,
+            "proposition": "Proportion des malades correctement identifiés par le test",
+            "justification": "Cela correspond à la sensibilité, et non à la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Proportion des sujets testés positifs parmi les malades",
+            "justification": "Cette proposition se réfère à la valeur prédictive positive, et non à la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Proportion des sujets non malades parmi ceux testés négatifs",
+            "justification": "Cela décrit la valeur prédictive négative, mais pas la spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "Proportion des malades parmi ceux testés négatifs",
+            "justification": "Cette proposition se réfère à la proportion de faux négatifs, et non à la spécificité."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755107196084_01",
+      "current_version_epoch_ms": 1755107196084,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Un fumeur présente : désir puissant de fumer, difficultés à contrôler l'usage, et syndrome de sevrage lorsqu'il réduit. À propos du diagnostic et de ses critères, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une dépendance au tabac.",
+            "justification": "La dépendance au tabac (CIM-10) est retenue s'il existe au moins 3 critères parmi la liste fournie ; ici, désir puissant, perte de contrôle et sevrage sont présents."
+          },
+          {
+            "correct": false,
+            "proposition": "La tolérance doit obligatoirement être présente pour conclure à la dépendance.",
+            "justification": "La tolérance est un des critères possibles, mais le diagnostic nécessite au moins 3 critères au total, pas nécessairement celui-ci spécifiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "La nicotine est le principal agent responsable de la dépendance observée.",
+            "justification": "La nicotine est explicitement indiquée comme le principal agent responsable de la dépendance."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tableau correspond à un usage de tabac nocif.",
+            "justification": "L'usage nocif correspond à un mode de consommation préjudiciable sans critères de dépendance ; ici, des critères de dépendance sont réunis."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de reconnaissance des liens entre consommation et dommages est nécessaire ici.",
+            "justification": "Ce point caractérise l'usage nocif ; il n'est pas requis pour poser la dépendance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755107196084_02",
+      "current_version_epoch_ms": 1755107196084,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Un fumeur poursuit sa consommation malgré des conséquences nocives, rapporte une tolérance et a abandonné d'autres sources de plaisir au profit du tabac. Concernant la classification, cochez les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les éléments décrits sont compatibles avec une dépendance au tabac.",
+            "justification": "Poursuite malgré dommages, tolérance et abandon d'autres plaisirs sont des critères listés ; au moins 3 critères sont réunis."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce tableau définit un usage nocif plutôt qu'une dépendance.",
+            "justification": "L'usage nocif se définit par un mode préjudiciable sans critères de dépendance ; or plusieurs critères de dépendance sont présents."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de tolérance fait partie des critères de dépendance.",
+            "justification": "La tolérance (augmentation des doses pour obtenir les mêmes effets) figure dans la liste des critères."
+          },
+          {
+            "correct": true,
+            "proposition": "L'abandon d'autres sources de plaisir au profit du tabac est un critère de dépendance.",
+            "justification": "Cet élément est explicitement cité dans les critères CIM-10 de dépendance au tabac."
+          },
+          {
+            "correct": true,
+            "proposition": "La poursuite de la consommation malgré des conséquences nocives est un critère de dépendance.",
+            "justification": "La poursuite malgré la survenue de conséquences nocives fait partie des critères listés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755107196084_03",
+      "current_version_epoch_ms": 1755107196084,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Un fumeur présente des complications physiques et psychiques liées au tabac, mais ne fait pas le lien entre ces dommages et sa consommation. Aucun critère de dépendance n'est retrouvé. Identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un usage de tabac nocif.",
+            "justification": "L'usage nocif correspond à un mode de consommation préjudiciable sans critères de dépendance, avec complications possibles non reconnues par le patient comme liées à sa consommation."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diagnostic de dépendance est retenu.",
+            "justification": "La dépendance nécessite au moins 3 critères spécifiques, absents ici."
+          },
+          {
+            "correct": true,
+            "proposition": "Le fait que le patient ne connaisse pas les liens entre dommages et consommation est compatible avec l'usage nocif.",
+            "justification": "Il est précisé que, dans l'usage nocif, les complications peuvent être présentes sans que le patient en connaisse les liens avec la consommation."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'un syndrome de sevrage est indispensable pour parler d'usage nocif.",
+            "justification": "Le syndrome de sevrage est un critère de dépendance, pas une condition de l'usage nocif."
+          },
+          {
+            "correct": false,
+            "proposition": "Une tolérance est nécessaire pour définir l'usage nocif.",
+            "justification": "La tolérance appartient aux critères de dépendance ; elle n'est pas requise pour l'usage nocif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755107196084_04",
+      "current_version_epoch_ms": 1755107196084,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, identifier ceux qui font partie des critères CIM-10 de dépendance au tabac.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Désir puissant ou compulsif de fumer.",
+            "justification": "Cet item figure explicitement parmi les critères."
+          },
+          {
+            "correct": true,
+            "proposition": "Difficultés à contrôler l'usage de tabac.",
+            "justification": "La perte de contrôle (début, interruption, niveaux d'usage) est listée parmi les critères."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome de sevrage à la diminution ou à l'arrêt.",
+            "justification": "Le sevrage est cité comme critère."
+          },
+          {
+            "correct": true,
+            "proposition": "Tolérance (augmentation des doses pour obtenir les mêmes effets).",
+            "justification": "La tolérance fait partie des critères de dépendance."
+          },
+          {
+            "correct": false,
+            "proposition": "Complications physiques ou psychiques sans que le patient connaisse le lien avec sa consommation.",
+            "justification": "Cet élément caractérise l'usage nocif, pas un critère de dépendance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755107196084_05",
+      "current_version_epoch_ms": 1755107196084,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Seuil diagnostique : combien de critères doivent être présents simultanément pour conclure à une dépendance au tabac selon la CIM-10 ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Au moins 1 critère.",
+            "justification": "Le seuil n'est pas d'un critère isolé."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 2 critères.",
+            "justification": "Le seuil est supérieur à deux critères."
+          },
+          {
+            "correct": true,
+            "proposition": "Au moins 3 critères.",
+            "justification": "La dépendance au tabac (CIM-10) requiert au moins 3 critères parmi la liste établie."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 4 critères.",
+            "justification": "Quatre critères ne sont pas requis ; le seuil est fixé à trois."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 5 critères.",
+            "justification": "Cinq critères ne sont pas requis ; le seuil diagnostique est de trois."
+          }
+        ]
+      }
+    }
+  ]
+}

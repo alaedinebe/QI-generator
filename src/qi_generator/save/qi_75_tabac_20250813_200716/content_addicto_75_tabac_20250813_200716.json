@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tabac",
+    "subject": "addicto"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755108642730_01",
+      "current_version_epoch_ms": 1755108642730,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les composants entrant dans la définition d'une cigarette électronique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Propylène-glycol",
+            "justification": "Fait partie du mélange défini : propylène-glycol + nicotine + eau + arômes + glycérol."
+          },
+          {
+            "correct": true,
+            "proposition": "Nicotine",
+            "justification": "Fait partie du mélange défini : propylène-glycol + nicotine + eau + arômes + glycérol."
+          },
+          {
+            "correct": true,
+            "proposition": "Eau",
+            "justification": "Fait partie du mélange défini : propylène-glycol + nicotine + eau + arômes + glycérol."
+          },
+          {
+            "correct": true,
+            "proposition": "Arômes",
+            "justification": "Fait partie du mélange défini : propylène-glycol + nicotine + eau + arômes + glycérol."
+          },
+          {
+            "correct": true,
+            "proposition": "Glycérol",
+            "justification": "Fait partie du mélange défini : propylène-glycol + nicotine + eau + arômes + glycérol."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755108642730_02",
+      "current_version_epoch_ms": 1755108642730,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Reconnaître le mode d'administration d'une cigarette électronique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Propulsé sous forme de vapeur",
+            "justification": "Le mélange est propulsé sous forme de vapeur."
+          },
+          {
+            "correct": true,
+            "proposition": "Inhalation",
+            "justification": "La vapeur est inhalée."
+          },
+          {
+            "correct": false,
+            "proposition": "Combustion du tabac",
+            "justification": "La définition mentionne la vaporisation et l'inhalation, pas la combustion."
+          },
+          {
+            "correct": false,
+            "proposition": "Ingestion orale du liquide",
+            "justification": "Le mode décrit est la vapeur inhalée, non l'ingestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Application transdermique",
+            "justification": "Le mode décrit est l'inhalation de vapeur, pas une application cutanée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755108642730_03",
+      "current_version_epoch_ms": 1755108642730,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Classer le statut des cigarettes électroniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Produits de consommation",
+            "justification": "Elles sont considérées comme des produits de consommation."
+          },
+          {
+            "correct": false,
+            "proposition": "Médicaments",
+            "justification": "Elles sont considérées comme des produits de consommation, pas comme des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Dispositifs médicaux",
+            "justification": "Elles sont considérées comme des produits de consommation, pas comme des dispositifs médicaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Produits stupéfiants réglementés",
+            "justification": "Elles sont considérées comme des produits de consommation."
+          },
+          {
+            "correct": false,
+            "proposition": "Biocides",
+            "justification": "Elles sont considérées comme des produits de consommation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755108642730_04",
+      "current_version_epoch_ms": 1755108642730,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Identifier les éléments rapportés à ce jour concernant la sécurité des cigarettes électroniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aucun effet indésirable rapporté à ce jour",
+            "justification": "Il est précisé qu'à ce jour, aucun effet indésirable n'a été rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "Aucun cas d'intoxication rapporté",
+            "justification": "Il est précisé qu'à ce jour, aucun cas d'intoxication n'a été rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "Des réactions allergiques sont possibles",
+            "justification": "Des réactions allergiques sont mentionnées comme possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Des effets indésirables fréquents sont rapportés",
+            "justification": "C'est l'inverse qui est indiqué : aucun effet indésirable rapporté à ce jour."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe aucun risque allergique",
+            "justification": "C'est l'inverse : des réactions allergiques sont possibles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755108642730_05",
+      "current_version_epoch_ms": 1755108642730,
+      "topic": {
+        "subject": "addicto",
+        "item": "tabac"
+      },
+      "data": {
+        "statement": "Définir les éléments constitutifs et la voie d'exposition d'une cigarette électronique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mélange de propylène-glycol, nicotine, eau, arômes et glycérol",
+            "justification": "Correspond exactement à la composition indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessite une phase de combustion",
+            "justification": "La définition mentionne une vaporisation, pas une combustion."
+          },
+          {
+            "correct": true,
+            "proposition": "Nécessite une vaporisation du mélange",
+            "justification": "Le mélange est propulsé sous forme de vapeur."
+          },
+          {
+            "correct": true,
+            "proposition": "Administration par inhalation",
+            "justification": "La vapeur produite est inhalée."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence obligatoire de tabac",
+            "justification": "La définition ne mentionne pas de tabac ; la composition est précisée (propylène-glycol, nicotine, eau, arômes, glycérol)."
+          }
+        ]
+      }
+    }
+  ]
+}

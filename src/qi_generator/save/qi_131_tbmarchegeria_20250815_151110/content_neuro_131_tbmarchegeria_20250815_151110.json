@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755263677087_01",
+      "current_version_epoch_ms": 1755263677087,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Chez un patient âgé venant de faire une chute, identifier les situations qui rendent l'ECG indiqué dans l'évaluation initiale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Malaise ou perte de connaissance au moment de la chute",
+            "justification": "L'ECG est quasi systématique, en particulier en cas de malaise ou de perte de connaissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Chute dans des circonstances inconnues",
+            "justification": "Un ECG est indiqué lorsque les circonstances de la chute ne sont pas élucidées."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion ou évaluation de la sévérité d'une hyperkaliémie",
+            "justification": "L'ECG est mentionné pour la suspicion d'hyperkaliémie ou l'évaluation de sa sévérité."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de facteurs de risque cardiovasculaire ou de cardiopathie sous-jacente",
+            "justification": "L'ECG est indiqué en particulier en cas de facteurs de risque cardiovasculaire ou de cardiopathie."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement par insuline sans autre signe associé",
+            "justification": "Le traitement par insuline justifie une glycémie ; il n'est pas indiqué comme critère d'ECG à lui seul."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263677087_02",
+      "current_version_epoch_ms": 1755263677087,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les indications d'imagerie cérébrale en urgence après chute chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptôme neurologique après la chute",
+            "justification": "La TDM cérébrale en urgence n'est indiquée qu'en cas de symptôme neurologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatisme crânien sous antithrombotique (anticoagulant ou antiplaquettaire)",
+            "justification": "Une imagerie cérébrale en urgence est indiquée dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion d'AVC dans une fenêtre thérapeutique avec IRM en première intention",
+            "justification": "En cas de suspicion d'AVC avec délai de thrombolyse/thrombectomie, l'IRM est en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation systématique d'une TDM cérébrale chez tout patient chuté",
+            "justification": "L'imagerie cérébrale n'est pas indiquée de façon systématique après une chute."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'AVC dans la fenêtre avec TDM en première intention",
+            "justification": "Dans ce cas, l'IRM cérébrale est indiquée en première intention, pas la TDM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263677087_03",
+      "current_version_epoch_ms": 1755263677087,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer les examens biologiques pertinents à réaliser selon les conséquences immédiates de la chute.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage des CPK et de la créatinine sérique si séjour au sol > 1 heure",
+            "justification": "Ces dosages sont indiqués lorsque le séjour au sol dépasse une heure."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure de la glycémie si la personne est diabétique",
+            "justification": "La glycémie est à réaliser chez la personne diabétique."
+          },
+          {
+            "correct": true,
+            "proposition": "Examens biologiques de routine facilement réalisés, surtout en l'absence de référence récente",
+            "justification": "En raison de la fréquence des troubles hydroélectrolytiques, de l'anémie et de la déshydratation, un bilan de routine est pertinent."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage systématique de l'HbA1c",
+            "justification": "L'HbA1c ne doit pas être réalisée à titre systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan d'hémostase systématique chez tout patient chuté",
+            "justification": "Le bilan d'hémostase est indiqué en cas de traitement par anticoagulants, pas de façon systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263677087_04",
+      "current_version_epoch_ms": 1755263677087,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Dans une démarche étiologique ou en présence de situations à risque de complications après une chute, sélectionner les examens complémentaires appropriés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG, échographie cardiaque et coronarographie si trouble du rythme/de la conduction ou infarctus du myocarde",
+            "justification": "Ces examens sont indiqués dans ce contexte cardiovasculaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Imagerie cérébrale en cas d'accident vasculaire cérébral",
+            "justification": "L'imagerie cérébrale est indiquée en cas d'AVC."
+          },
+          {
+            "correct": true,
+            "proposition": "Enquête étiologique d'une pathologie infectieuse",
+            "justification": "Une recherche d'étiologie infectieuse est à envisager selon le contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan d'hémostase en cas de traitement par anticoagulants",
+            "justification": "Un bilan d'hémostase est indiqué s'il existe un traitement anticoagulant."
+          },
+          {
+            "correct": false,
+            "proposition": "Holter-ECG réalisé de manière systématique",
+            "justification": "Le Holter-ECG ne doit pas être réalisé à titre systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755263677087_05",
+      "current_version_epoch_ms": 1755263677087,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les examens qui ne doivent pas être réalisés à titre systématique après une chute chez le sujet âgé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HbA1c",
+            "justification": "Ne fait pas partie des examens à réaliser systématiquement après une chute."
+          },
+          {
+            "correct": true,
+            "proposition": "EEG",
+            "justification": "Ne doit pas être réalisé de façon systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Imagerie cérébrale (TDM/IRM)",
+            "justification": "N'est indiquée qu'en présence de critères spécifiques et non de façon systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est quasi systématique dans l'évaluation initiale, notamment selon le contexte clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Examen écho-Doppler des artères supraaortiques",
+            "justification": "Ne doit pas être réalisé systématiquement ; il dépend des données cliniques."
+          }
+        ]
+      }
+    }
+  ]
+}

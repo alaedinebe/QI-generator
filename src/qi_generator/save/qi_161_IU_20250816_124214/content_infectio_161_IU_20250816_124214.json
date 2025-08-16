@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755341141648_01",
+      "current_version_epoch_ms": 1755341141648,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire est recommandé en cas de cystite simple ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bandelette urinaire (BU)",
+            "justification": "La BU est l'examen de première intention recommandé pour diagnostiquer une cystite simple."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU avec antibiogramme",
+            "justification": "L'ECBU avec antibiogramme est réservé pour les cystites à risque de complication, pas pour les cystites simples."
+          },
+          {
+            "correct": false,
+            "proposition": "TDM AP non injecté",
+            "justification": "L'imagerie n'est pas indiquée dans la gestion d'une cystite simple, sauf en cas de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie des reins et de la vessie",
+            "justification": "L'échographie n'est pas nécessaire pour une cystite simple."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan sanguin complet",
+            "justification": "Un bilan sanguin n'est pas utile pour le diagnostic de cystite simple."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341141648_02",
+      "current_version_epoch_ms": 1755341141648,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'ECBU avec antibiogramme systématique est-il recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cystite à risque de complications",
+            "justification": "L'ECBU avec antibiogramme est systématique pour les cystites à risque de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Cystite simple",
+            "justification": "Pour une cystite simple, seule la BU est recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Pyélonéphrite aiguë simple",
+            "justification": "L'ECBU avec antibiogramme est également indiqué pour la pyélonéphrite aiguë simple."
+          },
+          {
+            "correct": false,
+            "proposition": "Pyélonéphrite aiguë grave",
+            "justification": "Bien que l'ECBU avec antibiogramme soit réalisé, la prise en charge d'une pyélonéphrite aiguë grave nécessite une imagerie et des examens complémentaires urgents."
+          },
+          {
+            "correct": false,
+            "proposition": "Cystite non compliquée",
+            "justification": "Les cystites non compliquées ne nécessitent pas d'ECBU avec antibiogramme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341141648_03",
+      "current_version_epoch_ms": 1755341141648,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est l'examen complémentaire recommandé en cas de pyélonéphrite aiguë grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TDM AP non injecté avec injection éventuelle",
+            "justification": "En cas de pyélonéphrite aiguë grave, un TDM AP non injecté avec injection est recommandé pour rechercher des complications."
+          },
+          {
+            "correct": false,
+            "proposition": "BU",
+            "justification": "La BU ne permet pas d'évaluer la gravité d'une pyélonéphrite aiguë grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie des reins et de la vessie",
+            "justification": "L'échographie peut être utile dans d'autres cas mais l'imagerie de choix pour une pyélonéphrite grave est un TDM."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont nécessaires mais l'examen principal reste l'imagerie par TDM."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU avec antibiogramme",
+            "justification": "Bien que l'ECBU soit réalisé, l'examen de première intention reste l'imagerie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341141648_04",
+      "current_version_epoch_ms": 1755341141648,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quand doit-on proposer une antibioprophylaxie à long terme dans le cadre des cystites récidivantes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de plus de 1 épisode de cystite par mois",
+            "justification": "L'antibioprophylaxie à long terme est indiquée lorsque les cystites récidivantes surviennent plus d'une fois par mois."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de cystite simple isolée",
+            "justification": "Une antibioprophylaxie à long terme n'est pas nécessaire pour une cystite simple isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Après un seul épisode de cystite sévère",
+            "justification": "Un seul épisode sévère ne justifie pas une antibioprophylaxie à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Après une première cystite sans facteur de risque",
+            "justification": "L'antibioprophylaxie à long terme est réservée aux cas de cystites récidivantes, pas aux premières infections."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de cystite avec signes cliniques peu marqués",
+            "justification": "La sévérité clinique seule ne justifie pas l'antibioprophylaxie à long terme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341141648_05",
+      "current_version_epoch_ms": 1755341141648,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel examen est indispensable en cas de pyélonéphrite à risque de complications ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Imagerie : TDM AP non injecté avec injection éventuelle",
+            "justification": "En cas de pyélonéphrite à risque de complications, une imagerie par TDM est nécessaire pour exclure des complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie des reins et de la vessie",
+            "justification": "Bien que l'échographie puisse être utile, un TDM est préféré dans les cas à risque de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU avec antibiogramme",
+            "justification": "L'ECBU avec antibiogramme est systématique, mais l'examen crucial reste l'imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont réalisées mais l'imagerie est l'examen prioritaire dans ces situations."
+          },
+          {
+            "correct": false,
+            "proposition": "BU",
+            "justification": "La BU seule n'est pas suffisante pour évaluer les complications possibles dans une pyélonéphrite à risque."
+          }
+        ]
+      }
+    }
+  ]
+}

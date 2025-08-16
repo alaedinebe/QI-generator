@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "angine",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755297642325_01",
+      "current_version_epoch_ms": 1755297642325,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention recommandé chez un enfant de plus de 3 ans pour une angine aiguë à streptocoque du groupe A, en l'absence d'allergies ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline, 50mg/kg/24h en 2 prises par jour pendant 6 jours",
+            "justification": "La prescription d'amoxicilline à la dose de 50mg/kg/24h en 2 prises par jour pendant 6 jours est recommandée chez l'enfant de plus de 3 ans en cas d'angine à streptocoque du groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline, 500mg/24h en 1 prise par jour pendant 6 jours",
+            "justification": "Cette posologie est incorrecte car elle ne respecte pas la dose et la fréquence recommandées pour l'enfant de plus de 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporines, 50mg/kg/24h en 2 prises par jour pendant 6 jours",
+            "justification": "Les céphalosporines sont utilisées en cas d'allergies à l'amoxicilline, mais ne sont pas de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrolides, 1g/jour en 1 prise pendant 6 jours",
+            "justification": "Les macrolides peuvent être envisagés en cas d'allergies à l'amoxicilline, mais ce n'est pas la première ligne de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline, 250mg/24h en 1 prise par jour pendant 3 jours",
+            "justification": "La durée de traitement de 3 jours est trop courte et la posologie de 250mg/24h est insuffisante pour un traitement efficace."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297642325_02",
+      "current_version_epoch_ms": 1755297642325,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention recommandé chez un adulte pour une angine aiguë à streptocoque du groupe A, en l'absence d'allergies ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline, 1g*2/j par 24h pendant 6 jours",
+            "justification": "La prescription d'amoxicilline à la dose de 1g*2/j par 24h pendant 6 jours est recommandée pour le traitement des angines aiguës à streptocoque du groupe A chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline, 500mg*2/j par 24h pendant 3 jours",
+            "justification": "La durée de traitement de 3 jours est insuffisante et la posologie de 500mg*2/j par 24h n'est pas suffisante pour une efficacité optimale."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalosporines, 1g*2/j par 24h pendant 6 jours",
+            "justification": "Les céphalosporines sont utilisées en cas d'allergies à l'amoxicilline, mais ne sont pas de première intention pour un adulte sans allergie."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrolides, 500mg/jour en 1 prise pendant 5 jours",
+            "justification": "Les macrolides peuvent être envisagés en cas d'allergies, mais ce n'est pas la première ligne de traitement chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline, 500mg/jour en 1 prise pendant 6 jours",
+            "justification": "La posologie de 500mg/jour est trop faible pour un traitement efficace dans le cas d'une angine aiguë à streptocoque du groupe A."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297642325_03",
+      "current_version_epoch_ms": 1755297642325,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "En cas d'allergies à l'amoxicilline, quel traitement est recommandé chez l'adulte pour une angine aiguë à streptocoque du groupe A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalosporines ou macrolides",
+            "justification": "En cas d'allergies à l'amoxicilline, un traitement par céphalosporines ou macrolides est envisagé."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline, 1g*2/j par 24h pendant 6 jours",
+            "justification": "L'amoxicilline est contre-indiquée en cas d'allergies à ce médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine, 500mg/jour pendant 5 jours",
+            "justification": "La ciprofloxacine n'est pas recommandée pour le traitement de l'angine à streptocoque du groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "Pénicilline G, 2 millions d'UI/jour pendant 7 jours",
+            "justification": "La pénicilline G est généralement bien tolérée, mais elle n'est pas la meilleure alternative aux céphalosporines ou macrolides en cas d'allergie à l'amoxicilline."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine, 1g/jour pendant 5 jours",
+            "justification": "La vancomycine est un antibiotique réservé aux infections plus graves et ne fait pas partie du traitement standard pour l'angine à streptocoque du groupe A."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297642325_04",
+      "current_version_epoch_ms": 1755297642325,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Dans quel cas le traitement antibiotique de l'angine à streptocoque du groupe A est-il recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'une angine érythémateuse ou érythémato-pultacée est prouvée à streptocoque du groupe A",
+            "justification": "Le traitement antibiotique est recommandé uniquement lorsque l'angine est prouvée à streptocoque du groupe A, notamment dans les formes érythémateuses ou érythémato-pultacées."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une angine virale",
+            "justification": "Les angines virales ne nécessitent pas de traitement antibiotique, car les antibiotiques sont inefficaces contre les virus."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans toutes les formes d'angine aiguë",
+            "justification": "Le traitement antibiotique n'est pas systématiquement nécessaire pour toutes les angines aiguës, mais uniquement lorsque l'angine est causée par le streptocoque du groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe des signes de complications telles que des abcès ou une septicémie",
+            "justification": "Les antibiotiques sont utilisés pour traiter l'angine à streptocoque du groupe A avant l'apparition des complications, et non pour traiter des complications déjà présentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une angine bactérienne non spécifique",
+            "justification": "Les antibiotiques ne sont utilisés que lorsque l'angine est causée par un streptocoque du groupe A et non pour d'autres types de bactéries."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755297642325_05",
+      "current_version_epoch_ms": 1755297642325,
+      "topic": {
+        "subject": "infectio",
+        "item": "angine"
+      },
+      "data": {
+        "statement": "Quelle est la durée recommandée du traitement antibiotique pour l'angine à streptocoque du groupe A chez un enfant de plus de 3 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "6 jours",
+            "justification": "La durée du traitement recommandé est de 6 jours pour garantir l'élimination complète du streptocoque du groupe A et éviter les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours",
+            "justification": "La durée de 3 jours est trop courte pour garantir l'éradication complète de l'infection à streptocoque du groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "7 jours",
+            "justification": "Une durée de 7 jours n'est généralement pas nécessaire, la durée de 6 jours étant suffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours",
+            "justification": "Une durée de 10 jours est excessive pour un traitement standard d'une angine à streptocoque du groupe A chez un enfant de plus de 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours",
+            "justification": "La durée de 5 jours n'est pas suffisante pour éliminer complètement l'infection."
+          }
+        ]
+      }
+    }
+  ]
+}

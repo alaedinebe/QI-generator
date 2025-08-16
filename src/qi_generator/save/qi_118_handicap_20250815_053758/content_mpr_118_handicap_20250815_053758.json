@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "handicap",
+    "subject": "mpr"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755229284818_01",
+      "current_version_epoch_ms": 1755229284818,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Identifier, chez un adulte lourdement handicapé de moins de 60 ans lorsque le maintien à domicile est impossible, les structures d'hébergement pertinentes. Sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maison d'Accueil Spécialisée (MAS)",
+            "justification": "Fait partie des structures possibles pour les adultes de moins de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Foyer d'Accueil Médicalisé (FAM)",
+            "justification": "Mentionné parmi les options d'hébergement pour les adultes de moins de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Etablissement ou Service d'Aide par le Travail (ESAT)",
+            "justification": "Listé comme structure envisageable pour les adultes de moins de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Établissement d'Hébergement pour Personnes Âgées Dépendantes (EHPAD)",
+            "justification": "Réservé aux adultes de plus de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Foyer-logement",
+            "justification": "Appartient aux structures destinées aux adultes de plus de 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755229284818_02",
+      "current_version_epoch_ms": 1755229284818,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Classer les structures adaptées aux adultes lourdement handicapés de plus de 60 ans quand le maintien à domicile est impossible. Sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Établissement d'Hébergement pour Personnes Âgées Dépendantes (EHPAD)",
+            "justification": "Indiqué pour les adultes de plus de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Foyer-logement",
+            "justification": "Fait partie des structures prévues pour les adultes de plus de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Maison d'Accueil Spécialisée (MAS)",
+            "justification": "Répertoriée parmi les structures pour les adultes de moins de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Foyer d'Accueil Médicalisé (FAM)",
+            "justification": "Mentionné pour les adultes de moins de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Foyers occupationnels",
+            "justification": "Cités pour les adultes de moins de 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755229284818_03",
+      "current_version_epoch_ms": 1755229284818,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Définir les conditions générales d'orientation vers une structure d'hébergement pour une personne lourdement handicapée. Sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Orientation envisagée si le maintien à domicile est impossible",
+            "justification": "L'impossibilité du maintien à domicile est posée comme condition."
+          },
+          {
+            "correct": false,
+            "proposition": "Orientation possible sur simple souhait du patient même si le domicile est possible",
+            "justification": "Seule l'impossibilité du maintien à domicile est explicitement retenue."
+          },
+          {
+            "correct": false,
+            "proposition": "Orientation réservée aux personnes de plus de 60 ans",
+            "justification": "Des structures sont prévues pour les moins de 60 ans et pour les plus de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Relève notamment des champs 345, 328 et 330",
+            "justification": "Rattaché aux domaines 345-Situation de handicap, 328-annonce d'une maladie chronique et 330-accompagnement global d'un aidant."
+          },
+          {
+            "correct": false,
+            "proposition": "Avis de la CDAPH requis pour tout adulte, quel que soit l'âge",
+            "justification": "L'avis de la CDAPH est précisé pour les adultes de moins de 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755229284818_04",
+      "current_version_epoch_ms": 1755229284818,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Reconnaître le rôle de la CDAPH dans l'orientation des adultes de moins de 60 ans. Sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'orientation vers une MAS chez un adulte de moins de 60 ans se fait selon avis de la CDAPH",
+            "justification": "Pour les moins de 60 ans, MAS figure dans la liste sous avis de la CDAPH."
+          },
+          {
+            "correct": false,
+            "proposition": "La CDAPH oriente vers un FAM pour les adultes de plus de 60 ans",
+            "justification": "FAM est cité pour les moins de 60 ans, pas pour les plus de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ESAT peut être proposé chez un adulte de moins de 60 ans après avis de la CDAPH",
+            "justification": "ESAT est inclus parmi les structures pour les moins de 60 ans sous avis de la CDAPH."
+          },
+          {
+            "correct": false,
+            "proposition": "Les foyers occupationnels concernent uniquement les plus de 60 ans",
+            "justification": "Les foyers occupationnels sont mentionnés pour les moins de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "L'entrée en EHPAD nécessite systématiquement l'avis de la CDAPH",
+            "justification": "L'avis de la CDAPH n'est spécifié que pour les moins de 60 ans ; l'EHPAD est listé pour les plus de 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755229284818_05",
+      "current_version_epoch_ms": 1755229284818,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Associer chaque structure d'hébergement à la tranche d'âge correspondante en cas d'impossibilité de maintien à domicile. Sélectionner les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "EHPAD — adultes de plus de 60 ans",
+            "justification": "EHPAD est indiqué pour les plus de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Foyer-logement — adultes de plus de 60 ans",
+            "justification": "Le foyer-logement figure parmi les structures pour les plus de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "MAS — adultes de moins de 60 ans",
+            "justification": "MAS est mentionnée pour les moins de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "FAM — adultes de moins de 60 ans",
+            "justification": "FAM appartient aux structures pour les moins de 60 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "ESAT — adultes de plus de 60 ans",
+            "justification": "ESAT est listé pour les moins de 60 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

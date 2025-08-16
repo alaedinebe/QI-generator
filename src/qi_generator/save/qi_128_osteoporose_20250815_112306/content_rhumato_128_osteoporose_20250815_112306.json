@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "osteoporose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755249993204_01",
+      "current_version_epoch_ms": 1755249993204,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Identifier la modalité d'imagerie illustrée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie (rayons X)",
+            "justification": "Examen indiqué : radiographie montrant une fracture vertébrale sur fond d'ostéoporose."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM",
+            "justification": "Il ne s'agit pas d'une imagerie par résonance magnétique mais d'une radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner (TDM)",
+            "justification": "Aucune indication de tomodensitométrie ; l'examen est une radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie",
+            "justification": "L'examen n'est pas une échographie mais une radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Scintigraphie osseuse",
+            "justification": "Il n'est pas question de scintigraphie ; l'examen est une radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249993204_02",
+      "current_version_epoch_ms": 1755249993204,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Reconnaître la projection de l'examen du rachis.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incidence de profil (vue latérale)",
+            "justification": "Projection précisée : de profil sur le rachis lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Incidence de face (AP)",
+            "justification": "La projection indiquée n'est pas de face mais de profil."
+          },
+          {
+            "correct": false,
+            "proposition": "Incidence oblique",
+            "justification": "La mention porte sur une vue de profil, non oblique."
+          },
+          {
+            "correct": false,
+            "proposition": "Incidence axiale",
+            "justification": "Aucune incidence axiale ; la vue est latérale (profil)."
+          },
+          {
+            "correct": false,
+            "proposition": "Incidence du bassin",
+            "justification": "La zone explorée est le rachis lombaire, pas le bassin."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249993204_03",
+      "current_version_epoch_ms": 1755249993204,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Préciser la région anatomique étudiée par l'examen.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rachis lombaire",
+            "justification": "La région anatomique examinée est le rachis lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Rachis cervical",
+            "justification": "Ce n'est pas le segment cervical mais lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Rachis thoracique",
+            "justification": "Le segment mentionné est lombaire, non thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Bassin",
+            "justification": "L'examen porte sur la colonne lombaire, pas sur le bassin."
+          },
+          {
+            "correct": false,
+            "proposition": "Col fémoral",
+            "justification": "La localisation est vertébrale (rachis lombaire), pas fémorale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249993204_04",
+      "current_version_epoch_ms": 1755249993204,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "À propos de la pathologie visible sur l'examen, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il existe une fracture vertébrale.",
+            "justification": "La lésion décrite est une fracture vertébrale."
+          },
+          {
+            "correct": true,
+            "proposition": "Le contexte est celui d'une ostéoporose.",
+            "justification": "La fracture est rapportée sur un terrain d'ostéoporose."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une luxation acromio-claviculaire.",
+            "justification": "La localisation est vertébrale lombaire, sans rapport avec l'articulation acromio-claviculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une arthrite de la hanche.",
+            "justification": "L'examen concerne le rachis lombaire, pas l'articulation coxo-fémorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une fracture du radius distal.",
+            "justification": "La lésion décrite est vertébrale, non située à l'avant-bras."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755249993204_05",
+      "current_version_epoch_ms": 1755249993204,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Concernant l'identification de l'illustration, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La référence OIC-128-10-A est associée à cette radiographie.",
+            "justification": "Référence précisée : OIC-128-10-A pour la radiographie d'ostéoporose avec fracture vertébrale."
+          },
+          {
+            "correct": true,
+            "proposition": "L'intitulé comporte « Radiographie de profil du rachis lombaire ».",
+            "justification": "La désignation inclut une radiographie de profil du rachis lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune référence codée n'est fournie.",
+            "justification": "Une référence codée est présente : OIC-128-10-A."
+          },
+          {
+            "correct": false,
+            "proposition": "La référence OIC-128-10-A correspond à une IRM.",
+            "justification": "Cette référence est associée à une radiographie, pas à une IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "L'illustration concerne le rachis cervical.",
+            "justification": "La dénomination précise un examen du rachis lombaire."
+          }
+        ]
+      }
+    }
+  ]
+}

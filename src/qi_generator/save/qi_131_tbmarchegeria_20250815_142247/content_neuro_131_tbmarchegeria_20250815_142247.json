@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmarchegeria",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755260773795_01",
+      "current_version_epoch_ms": 1755260773795,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Identifier les éléments à analyser pour évaluer la gravité d'une chute (OIC-131-11-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Conséquences de la chute",
+            "justification": "Fait partie des facteurs à analyser pour guider l'indication des examens complémentaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Caractère répété de la chute",
+            "justification": "Mentionné parmi les facteurs analysés dans la démarche d'évaluation."
+          },
+          {
+            "correct": true,
+            "proposition": "Étiologies de la chute",
+            "justification": "Figure parmi les éléments directeurs de la démarche."
+          },
+          {
+            "correct": true,
+            "proposition": "Situations médicales et sociales à risque de complications",
+            "justification": "Inclus explicitement dans les facteurs à considérer."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge du patient (≥ 80 ans) comme facteur distinct à analyser",
+            "justification": "Non cité parmi les facteurs listés, qui sont les conséquences, le caractère répété, les étiologies et les situations à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260773795_02",
+      "current_version_epoch_ms": 1755260773795,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les situations rendant l'ECG indiqué après une chute.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Malaise ou perte de connaissance",
+            "justification": "L'ECG est quasi systématique, notamment en cas de malaise ou de perte de connaissance."
+          },
+          {
+            "correct": true,
+            "proposition": "Facteurs de risque cardiovasculaire ou cardiopathie sous-jacente",
+            "justification": "L'ECG est particulièrement indiqué dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion ou évaluation de la sévérité d'une hyperkaliémie",
+            "justification": "L'ECG est recommandé dans cette situation."
+          },
+          {
+            "correct": true,
+            "proposition": "Circonstances de la chute inconnues",
+            "justification": "L'ECG est proposé quasi systématiquement, notamment si les circonstances sont inconnues."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète connu, sans autre signe associé",
+            "justification": "Dans ce cas, c'est la glycémie qui est indiquée ; le diabète isolé n'est pas listé comme indication spécifique d'ECG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260773795_03",
+      "current_version_epoch_ms": 1755260773795,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Différencier les examens à ne pas réaliser de façon systématique dans l'évaluation d'une chute.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HbA1c",
+            "justification": "Cité parmi les examens non utiles à titre systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "EEG",
+            "justification": "Fait partie des examens non indiqués d'emblée de façon systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Imagerie cérébrale",
+            "justification": "N'est pas systématique ; elle dépend des symptômes neurologiques ou du contexte d'antithrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Examen écho-Doppler des artères supra-aortiques",
+            "justification": "Listé parmi les examens non systématiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique de la vitamine D (25OHD)",
+            "justification": "Indiqué pour évaluer le risque fracturaire et la prise en charge de l'ostéoporose dans les situations à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260773795_04",
+      "current_version_epoch_ms": 1755260773795,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Classer les examens à demander selon les conséquences immédiates d'une chute.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographies osseuses en cas de suspicion de fracture",
+            "justification": "Indiquées si une fracture est suspectée."
+          },
+          {
+            "correct": true,
+            "proposition": "Dosage des CPK et de la créatinine sérique si séjour au sol > 1 heure",
+            "justification": "Spécifiquement recommandé dans cette circonstance."
+          },
+          {
+            "correct": true,
+            "proposition": "Glycémie si la personne est diabétique",
+            "justification": "Précisée comme à réaliser chez le patient diabétique."
+          },
+          {
+            "correct": false,
+            "proposition": "TDM cérébrale en urgence en l'absence de symptôme neurologique et sans traumatisme crânien sous antithrombotique",
+            "justification": "L'imagerie cérébrale en urgence n'est indiquée qu'en cas de symptômes neurologiques ou de traumatisme crânien sous antithrombotique."
+          },
+          {
+            "correct": true,
+            "proposition": "Examens biologiques de routine facilement réalisés en l'absence de référence récente",
+            "justification": "Proposés en raison de la fréquence des troubles hydroélectrolytiques, de l'anémie et de la déshydratation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755260773795_05",
+      "current_version_epoch_ms": 1755260773795,
+      "topic": {
+        "subject": "neuro",
+        "item": "tbmarchegeria"
+      },
+      "data": {
+        "statement": "Reconnaître les examens orientés par l'étiologie ou des situations à risque de complications après une chute.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG, échographie cardiaque et coronarographie en cas de trouble du rythme/de la conduction ou d'infarctus du myocarde",
+            "justification": "Ces examens sont indiqués dans ce contexte cardiaque."
+          },
+          {
+            "correct": true,
+            "proposition": "Imagerie cérébrale en cas d'accident vasculaire cérébral",
+            "justification": "Indiquée dans ce contexte (IRM en première intention si fenêtre de thrombolyse/thrombectomie)."
+          },
+          {
+            "correct": true,
+            "proposition": "Enquête étiologique d'une pathologie infectieuse",
+            "justification": "Prévue lorsqu'une cause infectieuse est suspectée."
+          },
+          {
+            "correct": true,
+            "proposition": "Bilan d'hémostase en cas de traitement par anticoagulants",
+            "justification": "Recommandé dans cette situation thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Confusion : bilan étiologique non urgent",
+            "justification": "La confusion est un facteur précipitant fréquent et son bilan étiologique est une urgence."
+          }
+        ]
+      }
+    }
+  ]
+}

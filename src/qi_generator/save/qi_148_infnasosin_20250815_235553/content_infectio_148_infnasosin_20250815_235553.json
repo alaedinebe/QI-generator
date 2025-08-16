@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "infnasosin",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755295160397_01",
+      "current_version_epoch_ms": 1755295160397,
+      "topic": {
+        "subject": "infectio",
+        "item": "infnasosin"
+      },
+      "data": {
+        "statement": "Quel est le traitement antibiotique de première intention pour une sinusite maxillaire aiguë purulente ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline 1g 3 fois par jour pendant 7 jours",
+            "justification": "L'amoxicilline est le traitement de première intention pour une sinusite maxillaire aiguë purulente, selon les recommandations cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline-acide clavulanique 1g 3 fois par jour pendant 7 jours",
+            "justification": "L'amoxicilline-acide clavulanique est recommandé en cas de sinusite maxillaire d'origine dentaire, mais pas pour une sinusite maxillaire aiguë purulente classique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine 500mg 2 fois par jour pendant 7 jours",
+            "justification": "La ciprofloxacine n'est pas indiquée en première intention pour une sinusite maxillaire aiguë purulente."
+          },
+          {
+            "correct": false,
+            "proposition": "Azithromycine 500mg une fois par jour pendant 5 jours",
+            "justification": "L'azithromycine n'est pas recommandée en première intention pour une sinusite maxillaire aiguë purulente."
+          },
+          {
+            "correct": false,
+            "proposition": "Clindamycine 300mg 3 fois par jour pendant 7 jours",
+            "justification": "La clindamycine n'est pas indiquée pour le traitement de la sinusite maxillaire aiguë purulente en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755295160397_02",
+      "current_version_epoch_ms": 1755295160397,
+      "topic": {
+        "subject": "infectio",
+        "item": "infnasosin"
+      },
+      "data": {
+        "statement": "Quel traitement est recommandé pour une sinusite maxillaire d'origine dentaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline-acide clavulanique 1g 3 fois par jour pendant 7 jours",
+            "justification": "L'amoxicilline-acide clavulanique est recommandé pour les sinusites maxillaires d'origine dentaire en raison de son efficacité contre les germes souvent responsables de cette infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline 1g 3 fois par jour pendant 7 jours",
+            "justification": "Bien que l'amoxicilline soit efficace pour de nombreuses sinusites, elle n'est pas suffisante dans les sinusites d'origine dentaire, nécessitant l'ajout d'acide clavulanique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine 500mg 2 fois par jour pendant 7 jours",
+            "justification": "La ciprofloxacine n'est pas le traitement de choix pour une sinusite maxillaire d'origine dentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Clarithromycine 500mg 2 fois par jour pendant 7 jours",
+            "justification": "La clarithromycine n'est pas recommandée pour une sinusite maxillaire d'origine dentaire en raison de son spectre d'action."
+          },
+          {
+            "correct": false,
+            "proposition": "Doxycycline 100mg par jour pendant 7 jours",
+            "justification": "La doxycycline n'est pas un antibiotique de première ligne pour une sinusite maxillaire d'origine dentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755295160397_03",
+      "current_version_epoch_ms": 1755295160397,
+      "topic": {
+        "subject": "infectio",
+        "item": "infnasosin"
+      },
+      "data": {
+        "statement": "Quels sont les traitements symptomatiques à associer à l'antibiothérapie dans le cas d'une sinusite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Paracétamol, lavage de nez au sérum physiologique, inhalations et corticoïdes locaux",
+            "justification": "Le traitement symptomatique doit inclure des antalgiques comme le paracétamol, des lavages de nez au sérum physiologique, des inhalations et des corticoïdes locaux pour améliorer les symptômes de la sinusite."
+          },
+          {
+            "correct": false,
+            "proposition": "AINS (anti-inflammatoires non stéroïdiens)",
+            "justification": "Les AINS sont déconseillés en raison de leur risque de potentialisation des infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiotiques uniquement sans traitement symptomatique",
+            "justification": "Les antibiotiques doivent être associés à un traitement symptomatique pour gérer la douleur et l'inflammation."
+          },
+          {
+            "correct": false,
+            "proposition": "Antihistaminiques et décongestionnants",
+            "justification": "Bien que les antihistaminiques puissent être utiles dans certaines situations, ils ne sont pas recommandés pour le traitement symptomatique d'une sinusite."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticoïdes par voie générale pendant toute la durée du traitement",
+            "justification": "Les corticoïdes par voie générale peuvent être prescrits en cas de sinusite hyperalgique, mais uniquement en cure courte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755295160397_04",
+      "current_version_epoch_ms": 1755295160397,
+      "topic": {
+        "subject": "infectio",
+        "item": "infnasosin"
+      },
+      "data": {
+        "statement": "Quand faut-il envisager un traitement antibiotique pour une sinusite maxillaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque les critères diagnostiques de sinusite maxillaire aiguë purulente sont remplis ou en cas de sinusite unilatérale associée à une infection dentaire",
+            "justification": "L'antibiothérapie est justifiée dès que la sinusite maxillaire aiguë purulente est diagnostiquée ou si une infection dentaire est associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une sinusite est présente depuis moins de 48 heures sans complications",
+            "justification": "Un traitement antibiotique n'est pas nécessaire dans les sinusites aiguës simples, souvent résolutives spontanément."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les symptômes sont modérés sans fièvre",
+            "justification": "L'antibiothérapie n'est pas indiquée en cas de symptômes modérés sans signes de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la sinusite est d'origine virale",
+            "justification": "Les sinusites d'origine virale ne nécessitent pas d'antibiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente des symptômes de sinusite mais sans douleur importante",
+            "justification": "La douleur importante est un critère important pour envisager l'antibiothérapie, mais ce n'est pas le seul critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755295160397_05",
+      "current_version_epoch_ms": 1755295160397,
+      "topic": {
+        "subject": "infectio",
+        "item": "infnasosin"
+      },
+      "data": {
+        "statement": "Quel est le traitement de la sinusite frontale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoxicilline-acide clavulanique 1g 3 fois par jour pendant 7 jours",
+            "justification": "L'amoxicilline-acide clavulanique est le traitement antibiotique recommandé d'emblée pour la sinusite frontale."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline 1g 3 fois par jour pendant 7 jours",
+            "justification": "L'amoxicilline seule n'est pas suffisante pour traiter une sinusite frontale, l'association avec l'acide clavulanique est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine 500mg 2 fois par jour pendant 7 jours",
+            "justification": "La ciprofloxacine n'est pas recommandée pour la sinusite frontale."
+          },
+          {
+            "correct": false,
+            "proposition": "Azithromycine 500mg par jour pendant 5 jours",
+            "justification": "L'azithromycine n'est pas indiquée pour traiter une sinusite frontale."
+          },
+          {
+            "correct": false,
+            "proposition": "Clindamycine 300mg 3 fois par jour pendant 7 jours",
+            "justification": "La clindamycine n'est pas le choix de traitement de première intention pour la sinusite frontale."
+          }
+        ]
+      }
+    }
+  ]
+}

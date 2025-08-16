@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "arthrose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755254138485_01",
+      "current_version_epoch_ms": 1755254138485,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Identifier la localisation périphérique la plus fréquente de l'arthrose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gonarthrose est la localisation périphérique la plus fréquente.",
+            "justification": "Il est précisé que la localisation la plus fréquente d'arthrose périphérique (non rachidienne) est la gonarthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "La coxarthrose est la localisation périphérique la plus fréquente.",
+            "justification": "La coxarthrose n'est pas indiquée comme la plus fréquente ; c'est la gonarthrose qui occupe ce rang."
+          },
+          {
+            "correct": false,
+            "proposition": "L'arthrose digitale est la localisation périphérique la plus fréquente.",
+            "justification": "L'arthrose digitale est décrite comme très fréquente, mais la plus fréquente est la gonarthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'arthrose rachidienne est la localisation périphérique la plus fréquente.",
+            "justification": "La formulation concerne l'arthrose périphérique (non rachidienne) ; l'arthrose rachidienne n'entre pas dans cette catégorie."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les localisations périphériques ont une fréquence équivalente.",
+            "justification": "Une hiérarchie est donnée : la gonarthrose est la plus fréquente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755254138485_02",
+      "current_version_epoch_ms": 1755254138485,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les ordres de grandeur de prévalence rapportés pour la gonarthrose et la coxarthrose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gonarthrose est responsable de douleur chez environ 10 % de la population.",
+            "justification": "Il est indiqué qu'elle est responsable de douleur chez environ 10 % de la population."
+          },
+          {
+            "correct": true,
+            "proposition": "La coxarthrose affecte environ 1 à 5 % de la population.",
+            "justification": "La coxarthrose est rapportée comme affectant 1 à 5 % de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "La coxarthrose touche plus de 10 % de la population.",
+            "justification": "La plage fournie est de 1 à 5 %, et non au-delà de 10 %."
+          },
+          {
+            "correct": false,
+            "proposition": "La gonarthrose concerne moins de 1 % de la population.",
+            "justification": "La gonarthrose est associée à des douleurs chez environ 10 % de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "La gonarthrose et la coxarthrose touchent exactement la même proportion de la population.",
+            "justification": "Des chiffres différents sont fournis : environ 10 % pour la gonarthrose vs 1–5 % pour la coxarthrose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755254138485_03",
+      "current_version_epoch_ms": 1755254138485,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Différencier les facteurs architecturaux associés à la coxarthrose.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La moitié des cas de coxarthrose surviennent sur un vice architectural (dysplasie).",
+            "justification": "Il est précisé que la coxarthrose survient dans 50 % des cas sur un vice architectural (dysplasie)."
+          },
+          {
+            "correct": false,
+            "proposition": "La coxarthrose survient toujours sans dysplasie.",
+            "justification": "Une proportion importante (50 %) est rapportée comme survenant sur dysplasie."
+          },
+          {
+            "correct": false,
+            "proposition": "La coxarthrose ne survient jamais sur dysplasie.",
+            "justification": "L'association à une dysplasie est indiquée dans 50 % des cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Une part significative des coxarthroses est liée à une dysplasie.",
+            "justification": "Le chiffre de 50 % correspond à une part significative."
+          },
+          {
+            "correct": false,
+            "proposition": "La dysplasie n'est pas un facteur associé rapporté dans la coxarthrose.",
+            "justification": "La dysplasie est explicitement mentionnée comme contexte dans 50 % des cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755254138485_04",
+      "current_version_epoch_ms": 1755254138485,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Classer les articulations digitales les plus concernées par l'arthrose digitale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il existe une prédominance aux articulations inter-phalangiennes distales (IPD).",
+            "justification": "L'arthrose digitale prédomine aux articulations inter-phalangiennes distales et proximales."
+          },
+          {
+            "correct": true,
+            "proposition": "Il existe une prédominance aux articulations inter-phalangiennes proximales (IPP).",
+            "justification": "La prédominance est indiquée aux inter-phalangiennes distales et proximales."
+          },
+          {
+            "correct": false,
+            "proposition": "La prédominance concerne surtout les articulations métacarpo-phalangiennes.",
+            "justification": "La prédominance est spécifiée pour les inter-phalangiennes distales et proximales, pas pour les métacarpo-phalangiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "L'arthrose digitale atteint préférentiellement la hanche.",
+            "justification": "La hanche correspond à la coxarthrose ; l'arthrose digitale concerne les articulations des doigts."
+          },
+          {
+            "correct": false,
+            "proposition": "L'arthrose digitale est rare.",
+            "justification": "Elle est qualifiée de « très fréquente »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755254138485_05",
+      "current_version_epoch_ms": 1755254138485,
+      "topic": {
+        "subject": "rhumato",
+        "item": "arthrose"
+      },
+      "data": {
+        "statement": "Reconnaître les affirmations exactes concernant l'épidémiologie des localisations arthrosiques périphériques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gonarthrose est la localisation périphérique la plus fréquente.",
+            "justification": "C'est explicitement indiqué pour l'arthrose périphérique (non rachidienne)."
+          },
+          {
+            "correct": true,
+            "proposition": "L'arthrose digitale est très fréquente.",
+            "justification": "Elle est décrite comme « très fréquente »."
+          },
+          {
+            "correct": false,
+            "proposition": "La coxarthrose est la localisation périphérique la plus fréquente.",
+            "justification": "La localisation la plus fréquente est la gonarthrose."
+          },
+          {
+            "correct": true,
+            "proposition": "La coxarthrose affecte environ 1 à 5 % de la population.",
+            "justification": "Une prévalence de 1 à 5 % est rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "L'arthrose digitale prédomine aux inter-phalangiennes distales et proximales.",
+            "justification": "La prédominance aux inter-phalangiennes distales et proximales est mentionnée."
+          }
+        ]
+      }
+    }
+  ]
+}

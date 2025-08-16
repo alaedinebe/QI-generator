@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "tbmiction",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755243572601_01",
+      "current_version_epoch_ms": 1755243572601,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Identifier les examens relevant du bilan de 1ère intention devant des SBAU et/ou une incontinence urinaire.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen cytobactériologique des urines (ECBU) pour éliminer une infection urinaire responsable des symptômes",
+            "justification": "Fait partie du bilan de première intention et vise à écarter une infection urinaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure du résidu post-mictionnel (RPM) par échographie ou bladder scan",
+            "justification": "Relève du bilan de première intention pour quantifier le résidu post-mictionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Cytologie urinaire en 1ère intention s'il existe des arguments en faveur d'une tumeur de vessie",
+            "justification": "Peut être demandée en première intention lorsqu'il existe des éléments évocateurs de tumeur vésicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Cystoscopie systématique en 1ère intention",
+            "justification": "La cystoscopie est indiquée en 2e intention devant certains SBAU/incontinence."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan urodynamique d'emblée pour tout patient",
+            "justification": "Le bilan urodynamique relève de la 2e intention, pour préciser le mécanisme des troubles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243572601_02",
+      "current_version_epoch_ms": 1755243572601,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Reconnaître les situations qui justifient une cytologie urinaire en 1ère intention.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hématurie micro ou macroscopique",
+            "justification": "Constitue un argument en faveur d'une tumeur vésicale et peut motiver une cytologie en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Tabagisme",
+            "justification": "Fait partie des facteurs conduisant à demander une cytologie urinaire en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Urgenturies",
+            "justification": "Évoquent une possible tumeur de vessie et peuvent justifier la cytologie en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 50 ans",
+            "justification": "L'âge > 50 ans est un argument permettant de demander une cytologie urinaire en première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent de tumeur vésicale, radiothérapie, exposition professionnelle/toxique ou séjour en zone d'endémie bilharzienne",
+            "justification": "Ces expositions/antécédents sont des arguments en faveur d'une tumeur vésicale et autorisent la cytologie en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243572601_03",
+      "current_version_epoch_ms": 1755243572601,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Classer les examens suivants selon qu'ils relèvent de la 2e intention devant certains SBAU/incontinence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilan urodynamique pour préciser le mécanisme des SBAU/incontinence",
+            "justification": "Indiqué en deuxième intention pour mesurer les pressions vésicales et sphinctériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Cystoscopie pour rechercher calcul, tumeur ou corps étranger",
+            "justification": "Relève de la deuxième intention pour explorer la vessie et éliminer des facteurs locaux."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU",
+            "justification": "Fait partie du bilan de première intention pour éliminer une infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du résidu post-mictionnel (RPM)",
+            "justification": "Relève de la première intention par échographie ou bladder scan."
+          },
+          {
+            "correct": false,
+            "proposition": "Cytologie urinaire uniquement en 2e intention",
+            "justification": "Peut être demandée en première intention s'il existe des arguments en faveur d'une tumeur vésicale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243572601_04",
+      "current_version_epoch_ms": 1755243572601,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Préciser les objectifs de la cystoscopie dans l'évaluation de certains SBAU/incontinence.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Explorer la vessie et éliminer un facteur local favorisant l'urgenturie (calcul, tumeur, corps étranger)",
+            "justification": "La cystoscopie permet l'exploration vésicale et la recherche de ces facteurs."
+          },
+          {
+            "correct": true,
+            "proposition": "Détecter une sténose de l'urètre",
+            "justification": "La cystoscopie peut mettre en évidence une sténose urétrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer les pressions vésicales et sphinctériennes",
+            "justification": "Cette mesure relève du bilan urodynamique, pas de la cystoscopie."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher l'existence d'un obstacle prostatique",
+            "justification": "La cystoscopie peut objectiver un obstacle prostatique."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre en évidence une fistule vésico-vaginale",
+            "justification": "La cystoscopie peut permettre d'identifier une fistule vésico-vaginale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755243572601_05",
+      "current_version_epoch_ms": 1755243572601,
+      "topic": {
+        "subject": "uro",
+        "item": "tbmiction"
+      },
+      "data": {
+        "statement": "Énoncer les principes généraux du diagnostic des SBAU/incontinence et du recours aux examens complémentaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic des SBAU et de l'incontinence urinaire est clinique",
+            "justification": "Le diagnostic repose sur la clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens complémentaires sont systématiques",
+            "justification": "Ils ne sont pas systématiques."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ECBU peut être prescrit pour éliminer une infection urinaire responsable des symptômes",
+            "justification": "Relève du bilan de première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Le résidu post-mictionnel se mesure par échographie ou bladder scan",
+            "justification": "La mesure du RPM fait partie du bilan de première intention et utilise ces modalités."
+          },
+          {
+            "correct": false,
+            "proposition": "La cytologie urinaire est toujours demandée en 1ère intention quel que soit le contexte",
+            "justification": "Elle n'est indiquée en première intention qu'en présence d'arguments en faveur d'une tumeur vésicale."
+          }
+        ]
+      }
+    }
+  ]
+}

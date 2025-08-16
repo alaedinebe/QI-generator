@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "prurit",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755223492318_01",
+      "current_version_epoch_ms": 1755223492318,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier le diagnostic indiqué par la légende associée à la photographie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lichénification",
+            "justification": "La légende stipule qu'il s'agit d'une « lésion typique de lichénification (OIC-116-05-B) » ; c'est donc le diagnostic à reconnaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire",
+            "justification": "La mention identifie explicitement une lichénification, pas une lésion d'urticaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Vésicule herpétique",
+            "justification": "La désignation fournie est « lichénification », et non une lésion vésiculeuse herpétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Psoriasis en plaques",
+            "justification": "Le libellé donne comme diagnostic « lichénification », et non psoriasis."
+          },
+          {
+            "correct": false,
+            "proposition": "Impétigo",
+            "justification": "L'indication diagnostique est la lichénification ; l'impétigo n'est pas mentionné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223492318_02",
+      "current_version_epoch_ms": 1755223492318,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "À propos des informations explicitement fournies, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La lésion est qualifiée de « typique ».",
+            "justification": "L'expression « lésion typique » est explicitement précisée."
+          },
+          {
+            "correct": true,
+            "proposition": "La référence associée est OIC-116-05-B.",
+            "justification": "Le code OIC-116-05-B est indiqué avec la légende."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une photographie clinique.",
+            "justification": "Le terme « Photographie » accompagne la description."
+          },
+          {
+            "correct": true,
+            "proposition": "Le diagnostic évoqué est une lichénification.",
+            "justification": "La désignation mentionne explicitement une lichénification."
+          },
+          {
+            "correct": false,
+            "proposition": "La lésion est décrite comme « ulcérée ».",
+            "justification": "Le qualificatif rapporté est « typique de lichénification », sans mention d'ulcération."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223492318_03",
+      "current_version_epoch_ms": 1755223492318,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier le type de support iconographique présenté.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Photographie clinique d'une lésion cutanée",
+            "justification": "Le support est indiqué comme une photographie d'une lésion."
+          },
+          {
+            "correct": false,
+            "proposition": "Schéma anatomique",
+            "justification": "Il n'est pas question d'un schéma, mais d'une photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Coupe histologique",
+            "justification": "Aucune coupe histologique n'est mentionnée ; il s'agit d'une photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie",
+            "justification": "Le support n'est pas une imagerie radiographique mais une photographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Vidéo endoscopique",
+            "justification": "La nature du support est photographique, pas vidéo endoscopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223492318_04",
+      "current_version_epoch_ms": 1755223492318,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Choisir l'intitulé diagnostique approprié à associer à ce visuel.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lésion de lichénification",
+            "justification": "La légende précise qu'il s'agit d'une lésion typique de lichénification."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion urticarienne",
+            "justification": "La dénomination fournie n'évoque pas l'urticaire mais la lichénification."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion pustuleuse",
+            "justification": "Rien n'indique une pustule ; l'élément rapporté est une lichénification."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion bulleuse",
+            "justification": "Le terme employé est « lichénification », sans mention de bulle."
+          },
+          {
+            "correct": false,
+            "proposition": "Purpura",
+            "justification": "L'entité nommée est la lichénification ; le purpura n'est pas retenu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223492318_05",
+      "current_version_epoch_ms": 1755223492318,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Concernant le degré de représentativité de l'exemple fourni, sélectionner la(les) proposition(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'un exemple typique.",
+            "justification": "Le qualificatif « typique » est explicitement accolé à la lésion."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'un exemple atypique.",
+            "justification": "Le terme utilisé est « typique », pas « atypique »."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'un exemple douteux.",
+            "justification": "Aucun caractère de doute n'est rapporté ; l'exemple est dit typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun niveau de typicité n'est précisé.",
+            "justification": "Un niveau est précisé : « typique »."
+          },
+          {
+            "correct": false,
+            "proposition": "L'exemple est noté non spécifique.",
+            "justification": "La formulation insiste au contraire sur la spécificité typique."
+          }
+        ]
+      }
+    }
+  ]
+}

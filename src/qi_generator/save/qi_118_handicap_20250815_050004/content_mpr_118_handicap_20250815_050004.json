@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "handicap",
+    "subject": "mpr"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755227011597_01",
+      "current_version_epoch_ms": 1755227011597,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Classer les types de surdité selon le siège de l'atteinte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte de l'oreille externe ou moyenne → surdité de transmission.",
+            "justification": "La surdité de transmission correspond à une pathologie de l'oreille externe et moyenne."
+          },
+          {
+            "correct": true,
+            "proposition": "Atteinte de l'oreille interne, du nerf auditif ou des voies auditives centrales → surdité de perception.",
+            "justification": "La surdité de perception résulte d'une atteinte de l'oreille interne, du nerf auditif ou des voies auditives centrales."
+          },
+          {
+            "correct": true,
+            "proposition": "Association d'une atteinte de perception et de transmission → surdité mixte.",
+            "justification": "La surdité mixte associe une surdité de perception et une surdité de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte de l'oreille moyenne → surdité de perception.",
+            "justification": "L'atteinte de l'oreille moyenne définit une surdité de transmission, pas de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte exclusive de l'oreille interne → surdité de transmission.",
+            "justification": "L'atteinte de l'oreille interne relève d'une surdité de perception, non de transmission."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755227011597_02",
+      "current_version_epoch_ms": 1755227011597,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Classer la sévérité d'une perte auditive selon les seuils en dB et l'impact sur la parole.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surdité légère : 20–39 dB ; gêne lorsque le locuteur parle à voix basse ou s'éloigne.",
+            "justification": "La forme légère est définie par 20 à 39 dB avec gêne pour la voix basse ou éloignée."
+          },
+          {
+            "correct": true,
+            "proposition": "Surdité moyenne : 40–69 dB ; parole perçue si on élève la voix.",
+            "justification": "La forme moyenne correspond à 40 à 69 dB avec parole perçue si on élève la voix."
+          },
+          {
+            "correct": true,
+            "proposition": "Surdité sévère : 70–89 dB ; parole perçue à voix forte près de l'oreille.",
+            "justification": "La forme sévère est définie par 70 à 89 dB avec parole perçue à voix forte près de l'oreille."
+          },
+          {
+            "correct": false,
+            "proposition": "Surdité profonde : > 80 dB ; aucune perception de la parole.",
+            "justification": "La surdité profonde est définie par une perte > 90 dB, pas > 80 dB, avec absence de perception de la parole."
+          },
+          {
+            "correct": true,
+            "proposition": "Cophose (totale) : perte moyenne de 120 dB ; aucun son perçu.",
+            "justification": "La surdité totale (cophose) correspond à une perte moyenne de 120 dB avec absence de perception sonore."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755227011597_03",
+      "current_version_epoch_ms": 1755227011597,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Reconnaître l'interprétation des tests acoumétriques (Weber, Rinne).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Weber : en cas de surdité de perception unilatérale, le son est perçu plus fort dans l'oreille saine.",
+            "justification": "Lors du test de Weber (diapason sur le vertex), la perception est plus forte du côté sain en cas de surdité de perception unilatérale."
+          },
+          {
+            "correct": true,
+            "proposition": "Weber : en cas de surdité de transmission unilatérale, le son est perçu plus fort dans l'oreille sourde.",
+            "justification": "Le test de Weber latéralise vers l'oreille sourde en cas de surdité de transmission unilatérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Rinne positif signifie que la conduction osseuse est mieux perçue que la conduction aérienne.",
+            "justification": "Rinne positif correspond à une conduction aérienne mieux perçue que la conduction osseuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Rinne négatif oriente vers une surdité de transmission.",
+            "justification": "Un Rinne négatif (osseuse > aérienne) est en faveur d'une surdité de transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Rinne positif est compatible avec une audition normale ou une surdité de perception.",
+            "justification": "Rinne positif (aérienne > osseuse) est décrit comme normal ou compatible avec une surdité de perception."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755227011597_04",
+      "current_version_epoch_ms": 1755227011597,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Identifier les signes d'appel d'une surdité selon l'âge.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chez le nourrisson : dépistage néonatal et anomalies dans le calendrier du développement.",
+            "justification": "Chez le nourrisson, le dépistage néonatal et une anomalie du calendrier du développement constituent des signes d'appel."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez l'enfant en période pré-scolaire : retard d'acquisition du langage ou retard de parole.",
+            "justification": "En période pré-scolaire, un retard d'acquisition du langage ou de la parole est évocateur."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez l'enfant d'âge scolaire : retard scolaire et troubles de l'articulation.",
+            "justification": "À l'âge scolaire, un retard scolaire et des troubles de l'articulation sont rapportés."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez l'adulte : baisse de l'audibilité et/ou de l'intelligibilité, en particulier dans le bruit.",
+            "justification": "Chez l'adulte, la baisse de l'audibilité et/ou de l'intelligibilité, surtout dans le bruit, est un signe d'appel."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dépistage néonatal systématique des troubles auditifs participe à l'identification précoce chez le nourrisson.",
+            "justification": "Le dépistage néonatal est mentionné comme modalité systématique chez le nourrisson."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755227011597_05",
+      "current_version_epoch_ms": 1755227011597,
+      "topic": {
+        "subject": "mpr",
+        "item": "handicap"
+      },
+      "data": {
+        "statement": "Définir les principes de prise en charge d'un trouble de l'audition selon le type de surdité.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La prise en charge dépend du type de surdité et de l'étiologie.",
+            "justification": "Il est précisé que la prise en charge dépend du type de surdité et de l'étiologie."
+          },
+          {
+            "correct": true,
+            "proposition": "Les surdités de transmission peuvent être traitées chirurgicalement (chirurgie ossiculaire, prothèse implantée à ancrage osseux, traitement d'une OSM).",
+            "justification": "Les options chirurgicales et la prothèse à ancrage osseux, ainsi que le traitement d'une OSM, sont citées pour la transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Les surdités de perception relèvent le plus souvent d'un appareillage auditif dès 30 dB de perte moyenne.",
+            "justification": "Il est indiqué que l'appareillage auditif est le plus souvent proposé dès 30 dB de perte auditive moyenne."
+          },
+          {
+            "correct": true,
+            "proposition": "Dans les formes sévères de surdité de perception, un implant cochléaire peut être indiqué.",
+            "justification": "Les implants auditifs cochléaires sont mentionnés pour les formes sévères de perception."
+          },
+          {
+            "correct": false,
+            "proposition": "Un appareillage auditif n'est envisagé qu'au-delà de 50 dB de perte auditive moyenne.",
+            "justification": "L'appareillage est proposé dès 30 dB de perte auditive moyenne, et non seulement au-delà de 50 dB."
+          }
+        ]
+      }
+    }
+  ]
+}

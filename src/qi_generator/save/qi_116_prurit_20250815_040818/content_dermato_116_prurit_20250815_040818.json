@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "prurit",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755223905632_01",
+      "current_version_epoch_ms": 1755223905632,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Identifier les étiologies à connaître de prurit localisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mycoses",
+            "justification": "Fait partie des causes de prurit localisé à connaître : mycoses, pédiculose et gale, piqûres d'insecte, larva migrans cutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Pédiculose",
+            "justification": "Fait partie des causes de prurit localisé à connaître, aux côtés de la gale."
+          },
+          {
+            "correct": true,
+            "proposition": "Gale",
+            "justification": "Fait partie des causes de prurit localisé à connaître, associée à la pédiculose."
+          },
+          {
+            "correct": true,
+            "proposition": "Piqûres d'insecte",
+            "justification": "Fait partie des causes de prurit localisé à connaître ; évoquée dans le cadre « Voyage en pays tropical … pathologies du retour : … manifestations cutanées »."
+          },
+          {
+            "correct": false,
+            "proposition": "Urticaire généralisée",
+            "justification": "Ne fait pas partie de la liste ciblée (mycoses, pédiculose et gale, piqûres d'insecte, larva migrans cutanée)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223905632_02",
+      "current_version_epoch_ms": 1755223905632,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Au retour d'un pays tropical avec manifestations cutanées prurigineuses localisées, identifier les étiologies pertinentes à envisager.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Piqûres d'insecte",
+            "justification": "Explicitement citées dans le contexte « Voyage en pays tropical … pathologies du retour : … manifestations cutanées »."
+          },
+          {
+            "correct": true,
+            "proposition": "Larva migrans cutanée",
+            "justification": "Fait partie des causes de prurit localisé à connaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre du voyageur",
+            "justification": "Mentionnée comme autre pathologie du retour (fièvre), pas comme cause de prurit localisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée du voyageur",
+            "justification": "Mentionnée comme autre pathologie du retour (diarrhée), pas comme cause de prurit localisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Gale",
+            "justification": "Fait partie des causes de prurit localisé à connaître."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223905632_03",
+      "current_version_epoch_ms": 1755223905632,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Différencier les causes de prurit localisé des causes générales non listées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mycoses",
+            "justification": "Incluses parmi les causes de prurit localisé à connaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale chronique",
+            "justification": "Non citée parmi les causes à connaître (liste ciblée : mycoses, pédiculose et gale, piqûres d'insecte, larva migrans cutanée)."
+          },
+          {
+            "correct": true,
+            "proposition": "Pédiculose",
+            "justification": "Incluse avec la gale parmi les causes de prurit localisé à connaître."
+          },
+          {
+            "correct": false,
+            "proposition": "Cholestase hépatique",
+            "justification": "Non citée parmi les causes de prurit localisé à connaître."
+          },
+          {
+            "correct": true,
+            "proposition": "Larva migrans cutanée",
+            "justification": "Incluse parmi les causes de prurit localisé à connaître."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223905632_04",
+      "current_version_epoch_ms": 1755223905632,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "Classer les entités suivantes selon leur appartenance au binôme « pédiculose et gale » des causes de prurit localisé.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pédiculose",
+            "justification": "Appartient explicitement au groupe « pédiculose et gale » cité parmi les causes de prurit localisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Gale",
+            "justification": "Appartient explicitement au groupe « pédiculose et gale » cité parmi les causes de prurit localisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Mycoses",
+            "justification": "Figure parmi les causes de prurit localisé, mais n'appartient pas au binôme « pédiculose et gale »."
+          },
+          {
+            "correct": false,
+            "proposition": "Piqûres d'insecte",
+            "justification": "Figure parmi les causes de prurit localisé, mais n'appartient pas au binôme « pédiculose et gale »."
+          },
+          {
+            "correct": false,
+            "proposition": "Larva migrans cutanée",
+            "justification": "Figure parmi les causes de prurit localisé, mais n'appartient pas au binôme « pédiculose et gale »."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755223905632_05",
+      "current_version_epoch_ms": 1755223905632,
+      "topic": {
+        "subject": "dermato",
+        "item": "prurit"
+      },
+      "data": {
+        "statement": "En lien avec le « Voyage en pays tropical … pathologies du retour », reconnaître l'entité explicitement associée aux manifestations cutanées prurigineuses localisées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Piqûres d'insecte",
+            "justification": "Explicitement évoquées dans le cadre « Voyage en pays tropical … pathologies du retour : … manifestations cutanées »."
+          },
+          {
+            "correct": false,
+            "proposition": "Larva migrans cutanée",
+            "justification": "Cause de prurit localisé, mais non explicitement rattachée à ce cadre dans la formulation donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mycoses",
+            "justification": "Cause de prurit localisé, sans mention explicite dans la section sur le voyage et le retour."
+          },
+          {
+            "correct": false,
+            "proposition": "Pédiculose",
+            "justification": "Cause de prurit localisé, sans mention explicite dans la section sur le voyage et le retour."
+          },
+          {
+            "correct": false,
+            "proposition": "Gale",
+            "justification": "Cause de prurit localisé, sans mention explicite dans la section sur le voyage et le retour."
+          }
+        ]
+      }
+    }
+  ]
+}

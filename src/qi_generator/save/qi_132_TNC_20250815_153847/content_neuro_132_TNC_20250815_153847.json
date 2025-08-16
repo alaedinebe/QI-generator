@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "TNC",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755265334423_01",
+      "current_version_epoch_ms": 1755265334423,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Identifier les examens biologiques de première intention devant un trouble neuro-cognitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Numération-Formule sanguine",
+            "justification": "Fait partie des examens de première intention (recherche d'anémie)."
+          },
+          {
+            "correct": true,
+            "proposition": "TSH",
+            "justification": "Fait partie des examens de première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin avec calcémie et glycémie à jeun",
+            "justification": "Fait partie des examens de première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Albuminémie",
+            "justification": "Fait partie des examens de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des vitamines B12 et B9 systématique",
+            "justification": "Ces dosages sont à réaliser selon le contexte, pas systématiquement en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755265334423_02",
+      "current_version_epoch_ms": 1755265334423,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Classer les examens suivants comme « selon le contexte » dans l'évaluation biologique d'un trouble neuro-cognitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SGOT/SGPT et γGT",
+            "justification": "Mentionnés comme examens à réaliser selon le contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Sérologies TPHA-VDRL et HIV",
+            "justification": "Mentionnées comme examens à réaliser selon le contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Vitamines B12 et B9",
+            "justification": "Mentionnées comme examens à réaliser selon le contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "TSH",
+            "justification": "Fait partie des examens de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Albuminémie",
+            "justification": "Fait partie des examens de première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755265334423_03",
+      "current_version_epoch_ms": 1755265334423,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Reconnaître les indications d'une ponction lombaire (PL) dans l'exploration d'un trouble neuro-cognitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évolution rapide des troubles",
+            "justification": "Une PL peut être réalisée lorsque l'évolution est rapide."
+          },
+          {
+            "correct": true,
+            "proposition": "Tableau clinique atypique",
+            "justification": "Une PL peut être réalisée lorsque le tableau est atypique."
+          },
+          {
+            "correct": false,
+            "proposition": "Toujours réalisée d'emblée quel que soit le contexte",
+            "justification": "La PL est envisagée dans des situations particulières, pas systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Installation lente avec présentation typique",
+            "justification": "Cette situation n'est pas indiquée comme motif de PL."
+          },
+          {
+            "correct": false,
+            "proposition": "Jamais utile pour orienter les explorations complémentaires",
+            "justification": "La PL permet des analyses spécifiques (ex. biomarqueurs) lorsque indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755265334423_04",
+      "current_version_epoch_ms": 1755265334423,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Identifier les analyses possibles sur le LCR lors d'une ponction lombaire dans ce contexte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Biomarqueurs de la maladie d'Alzheimer",
+            "justification": "Listés parmi les analyses possibles sur le LCR."
+          },
+          {
+            "correct": true,
+            "proposition": "Anticorps anti-neuronaux",
+            "justification": "Listés parmi les analyses possibles sur le LCR."
+          },
+          {
+            "correct": true,
+            "proposition": "Protéine 14-3-3",
+            "justification": "Listée parmi les analyses possibles sur le LCR."
+          },
+          {
+            "correct": true,
+            "proposition": "Microbiologie ou virologie selon le contexte",
+            "justification": "Mentionnées comme analyses possibles sur le LCR selon le contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des vitamines B12 et B9 sur LCR",
+            "justification": "Ces dosages sont évoqués en biologie selon le contexte, pas comme analyses de LCR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755265334423_05",
+      "current_version_epoch_ms": 1755265334423,
+      "topic": {
+        "subject": "neuro",
+        "item": "TNC"
+      },
+      "data": {
+        "statement": "Définir l'objectif et le guidage du bilan biologique devant un trouble neuro-cognitif.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher des facteurs pouvant aggraver les troubles cognitifs",
+            "justification": "C'est l'objectif principal des examens biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépister systématiquement toutes les maladies neurologiques",
+            "justification": "Il n'est pas indiqué que le bilan vise un dépistage systématique généralisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Adapter les examens aux comorbidités associées",
+            "justification": "Les examens sont guidés par les comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser tous les examens listés de manière systématique",
+            "justification": "Certains examens sont de première intention, d'autres sont à réaliser selon le contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Écarter la CRP et la NFS car elles ne sont pas utiles",
+            "justification": "La CRP et la NFS figurent parmi les examens de première intention."
+          }
+        ]
+      }
+    }
+  ]
+}

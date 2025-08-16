@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "chocseptique",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755332863120_01",
+      "current_version_epoch_ms": 1755332863120,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quelle est la principale défaillance hémodynamique observée chez un patient à risque d'infection à évolution défavorable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle avec tachycardie",
+            "justification": "La chute de la pression artérielle associée à une augmentation de la fréquence cardiaque est un signe classique de défaillance hémodynamique dans le cadre d'une infection grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle isolée",
+            "justification": "L'hypotension seule n'est pas suffisante pour caractériser une défaillance hémodynamique sans la tachycardie associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie sans hypotension",
+            "justification": "La tachycardie sans hypotension n'est généralement pas signe de défaillance hémodynamique dans une infection grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Normalisation de la pression artérielle avec bradycardie",
+            "justification": "Une pression artérielle normale avec bradycardie n'est pas indicative de défaillance hémodynamique en cas d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Élévation de la pression artérielle avec bradycardie",
+            "justification": "L'élévation de la pression artérielle avec bradycardie est un signe peu fréquent dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332863120_02",
+      "current_version_epoch_ms": 1755332863120,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quel score est utilisé pour quantifier les défaillances d'organe chez un patient adulte en cas d'infection ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le score SOFA",
+            "justification": "Le score SOFA permet de quantifier les défaillances d'organe en fonction de la gravité des altérations observées dans différentes fonctions organiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score qSOFA",
+            "justification": "Le score qSOFA est un outil de dépistage rapide et non un score de quantification des défaillances d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score APACHE II",
+            "justification": "Le score APACHE II évalue la sévérité de l'état clinique d'un patient, mais il n'est pas spécifiquement conçu pour quantifier les défaillances d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score NEWS",
+            "justification": "Le score NEWS est un outil de surveillance clinique, mais il n'est pas dédié à la quantification des défaillances d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score Glasgow",
+            "justification": "Le score de Glasgow mesure le niveau de conscience, mais il ne permet pas d'évaluer la défaillance d'organes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332863120_03",
+      "current_version_epoch_ms": 1755332863120,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quel est le critère du score quick SOFA pour la fréquence respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "1 point si la fréquence respiratoire est ≥ 22/min",
+            "justification": "Une fréquence respiratoire élevée (≥ 22/min) est un critère majeur dans le score qSOFA pour identifier un risque de sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "1 point si la fréquence respiratoire est ≥ 20/min",
+            "justification": "Le seuil pour attribuer un point dans le score qSOFA est fixé à 22/min, pas 20/min."
+          },
+          {
+            "correct": false,
+            "proposition": "1 point si la fréquence respiratoire est ≤ 20/min",
+            "justification": "Une fréquence respiratoire inférieure à 22/min n'est pas un critère du score qSOFA pour l'attribution d'un point."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun point n'est attribué pour la fréquence respiratoire",
+            "justification": "Le score qSOFA attribue un point uniquement pour une fréquence respiratoire ≥ 22/min."
+          },
+          {
+            "correct": false,
+            "proposition": "2 points si la fréquence respiratoire est ≥ 30/min",
+            "justification": "Le score qSOFA ne prévoit qu'un seul point pour une fréquence respiratoire ≥ 22/min, pas deux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332863120_04",
+      "current_version_epoch_ms": 1755332863120,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quelle est la première démarche à suivre lorsque le score qSOFA est à 2 ou 3 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser un bilan complémentaire pour rechercher les défaillances d'organe",
+            "justification": "Un score qSOFA de 2 ou 3 indique un risque élevé de sepsis et justifie la réalisation d'un bilan complémentaire pour identifier et quantifier les défaillances d'organe."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer immédiatement des antibiotiques",
+            "justification": "Bien que le traitement antibiotique soit crucial dans le sepsis, il n'est pas la première démarche après un score qSOFA élevé. Un bilan complémentaire est nécessaire avant tout traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveiller uniquement la pression artérielle",
+            "justification": "Surveiller uniquement la pression artérielle ne suffit pas à évaluer la défaillance organique en cas de sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Réévaluer le score qSOFA après 24 heures",
+            "justification": "Le score qSOFA doit être utilisé pour dépister rapidement un sepsis, mais il n'est pas destiné à être réévalué après 24 heures sans un bilan complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Laisser le patient sous observation sans intervention immédiate",
+            "justification": "Un score qSOFA de 2 ou 3 indique un risque élevé de sepsis, ce qui nécessite un bilan complémentaire immédiat."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755332863120_05",
+      "current_version_epoch_ms": 1755332863120,
+      "topic": {
+        "subject": "sp",
+        "item": "chocseptique"
+      },
+      "data": {
+        "statement": "Quels signes cliniques sont caractéristiques d'une hypoperfusion périphérique dans le cadre d'une infection grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Marbrures étendues, temps de recoloration cutanée augmenté, extrémités froides",
+            "justification": "Ces signes sont typiques d'une hypoperfusion périphérique et indiquent souvent un risque élevé d'évolution défavorable dans une infection grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Edema généralisé sans signes de marbrures",
+            "justification": "L'œdème généralisé n'est pas un signe caractéristique de l'hypoperfusion périphérique, qui est définie par les marbrures et l'anomalie de recoloration cutanée."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose isolée des lèvres",
+            "justification": "La cyanose des lèvres seule ne suffit pas à caractériser une hypoperfusion périphérique. La cyanose est souvent accompagnée d'autres signes comme les marbrures."
+          },
+          {
+            "correct": false,
+            "proposition": "Pâleur de la peau sans changement de température",
+            "justification": "La pâleur seule, sans hypothermie ou signes de marbrures, n'est pas indicative d'hypoperfusion périphérique dans une infection grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Extrémités chaudes avec circulation périphérique normale",
+            "justification": "Les extrémités chaudes et une circulation normale ne sont pas compatibles avec une hypoperfusion périphérique."
+          }
+        ]
+      }
+    }
+  ]
+}

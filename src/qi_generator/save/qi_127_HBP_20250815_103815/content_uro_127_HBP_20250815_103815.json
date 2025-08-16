@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "HBP",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755247302586_01",
+      "current_version_epoch_ms": 1755247302586,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Identifier, chez un homme présentant des symptômes du bas appareil urinaire (SBAU), les éléments qui renforcent l'hypothèse d'une HBP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 50 ans",
+            "justification": "L'HBP est la cause la plus fréquente des SBAU chez l'homme de plus de 50 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'autre cause identifiée",
+            "justification": "Le diagnostic positif repose notamment sur l'absence d'autre cause retrouvée."
+          },
+          {
+            "correct": false,
+            "proposition": "Hématurie",
+            "justification": "La présence d'hématurie impose de rechercher une autre cause."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents d'urétrites",
+            "justification": "Ce sont des facteurs de risque de sténose de l'urètre, diagnostic différentiel des SBAU."
+          },
+          {
+            "correct": false,
+            "proposition": "Apnée du sommeil",
+            "justification": "Évoque une polyurie et donc une autre cause possible des symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247302586_02",
+      "current_version_epoch_ms": 1755247302586,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Reconnaître les composantes du diagnostic positif de l'hyperplasie bénigne de la prostate (HBP).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contexte clinique",
+            "justification": "Le diagnostic positif se fait à partir du contexte clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Interrogatoire",
+            "justification": "L'interrogatoire fait partie des éléments du diagnostic positif."
+          },
+          {
+            "correct": true,
+            "proposition": "Absence d'autre cause",
+            "justification": "L'absence d'autre cause est explicitement requise pour retenir le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Résultat du toucher rectal",
+            "justification": "Le toucher rectal contribue au diagnostic positif."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche d'une hématurie",
+            "justification": "L'hématurie oriente vers une autre cause et ne constitue pas un élément du diagnostic positif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247302586_03",
+      "current_version_epoch_ms": 1755247302586,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Différencier les situations qui imposent de rechercher une autre cause que l'HBP devant des SBAU.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hématurie",
+            "justification": "Toute hématurie doit faire rechercher une autre cause."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents d'urétrites",
+            "justification": "Facteur de risque de sténose de l'urètre, diagnostic différentiel des SBAU."
+          },
+          {
+            "correct": true,
+            "proposition": "Traumatismes de l'urètre",
+            "justification": "Également facteur de risque de sténose urétrale, alternative à l'HBP."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète sucré",
+            "justification": "Fait partie des causes évoquant une polyurie, donc une autre étiologie possible."
+          },
+          {
+            "correct": false,
+            "proposition": "SBAU chez un homme de plus de 50 ans",
+            "justification": "Cette situation oriente vers l'HBP, cause la plus fréquente dans cette tranche d'âge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247302586_04",
+      "current_version_epoch_ms": 1755247302586,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Classer les éléments suivants comme évocateurs d'une polyurie plutôt que d'une HBP.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diabète sucré",
+            "justification": "Cité parmi les signes évoquant une polyurie."
+          },
+          {
+            "correct": true,
+            "proposition": "Apnée du sommeil",
+            "justification": "Fait partie des situations évoquant une polyurie."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "Mentionnée comme cause pouvant évoquer une polyurie."
+          },
+          {
+            "correct": true,
+            "proposition": "Potomanie",
+            "justification": "Identifiée comme cause évocatrice de polyurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge supérieur à 50 ans",
+            "justification": "Oriente vers l'HBP, cause fréquente des SBAU à cet âge, et non vers une polyurie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755247302586_05",
+      "current_version_epoch_ms": 1755247302586,
+      "topic": {
+        "subject": "uro",
+        "item": "HBP"
+      },
+      "data": {
+        "statement": "Définir la cause la plus fréquente des symptômes du bas appareil urinaire (SBAU) chez l'homme de plus de 50 ans.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HBP",
+            "justification": "L'HBP est la cause la plus fréquente des SBAU chez l'homme de plus de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Sténose de l'urètre",
+            "justification": "Relève des diagnostics différentiels en présence de facteurs de risque (urétrites, traumatismes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Polyurie liée au diabète sucré",
+            "justification": "Évoque une polyurie, donc une autre étiologie que l'HBP."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "Évoque une polyurie; ce n'est pas la cause la plus fréquente des SBAU après 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Apnée du sommeil",
+            "justification": "Fait partie des causes évoquant une polyurie, pas la cause la plus fréquente des SBAU après 50 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

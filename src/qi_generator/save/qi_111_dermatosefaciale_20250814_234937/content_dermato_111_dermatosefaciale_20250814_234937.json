@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "dermatosefaciale",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755208384026_01",
+      "current_version_epoch_ms": 1755208384026,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Concernant le diagnostic d'acné, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic est clinique.",
+            "justification": "Le mode de diagnostic est explicitement indiqué comme clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de lésions rétentionnelles est indispensable pour porter le diagnostic.",
+            "justification": "Les lésions rétentionnelles sont dites obligatoires pour poser le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Une confirmation biologique est nécessaire pour confirmer l'acné.",
+            "justification": "Aucune confirmation biologique n'est requise puisque le diagnostic est clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La séborrhée excessive suffit, à elle seule, à poser le diagnostic.",
+            "justification": "La séborrhée est un élément à rechercher mais ne remplace pas la nécessité de lésions rétentionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Des lésions inflammatoires isolées permettent à elles seules d'affirmer l'acné sans comédons.",
+            "justification": "Les lésions rétentionnelles sont obligatoires ; des lésions inflammatoires seules ne suffisent pas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208384026_02",
+      "current_version_epoch_ms": 1755208384026,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Parmi les lésions suivantes, lesquelles relèvent des lésions rétentionnelles dans l'acné ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Comédons fermés (microkystes).",
+            "justification": "Les comédons fermés, encore appelés microkystes, sont listés comme lésions rétentionnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Comédons ouverts (« points noirs »).",
+            "justification": "Les comédons ouverts (« points noirs ») font partie des lésions rétentionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Pustules superficielles.",
+            "justification": "Les pustules superficielles sont des lésions inflammatoires issues de l'évolution des papules et des lésions rétentionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Nodules.",
+            "justification": "Les nodules sont rangés parmi les lésions inflammatoires et non rétentionnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Papules de petite taille, de couleur de peau normale ou blanchâtre, correspondant aux comédons fermés.",
+            "justification": "La description des comédons fermés inclut des papules de petite taille de couleur normale ou blanchâtre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208384026_03",
+      "current_version_epoch_ms": 1755208384026,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Reconnaître les mécanismes et évolutions lésionnelles dans l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les pustules superficielles résultent de l'évolution de papules et de lésions rétentionnelles.",
+            "justification": "Il est précisé que les pustules superficielles apparaissent par évolution des papules et des lésions rétentionnelles."
+          },
+          {
+            "correct": true,
+            "proposition": "Les comédons ouverts résultent de l'ouverture du canal et de l'oxydation de la kératine.",
+            "justification": "Les « points noirs » surviennent par ouverture du canal et oxydation de la kératine."
+          },
+          {
+            "correct": true,
+            "proposition": "Les comédons fermés peuvent devenir inflammatoires.",
+            "justification": "Il est indiqué que les comédons fermés peuvent devenir inflammatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Les nodules ne donnent jamais d'abcès ni de cicatrices.",
+            "justification": "Les nodules peuvent évoluer vers des abcès avec une rançon cicatricielle importante."
+          },
+          {
+            "correct": false,
+            "proposition": "Les « points noirs » correspondent à des comédons fermés.",
+            "justification": "Les « points noirs » sont des comédons ouverts, pas des comédons fermés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208384026_04",
+      "current_version_epoch_ms": 1755208384026,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Identifier les signes de séborrhée excessive et leurs localisations typiques dans l'acné.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peau grasse et brillante au niveau de la région médio-faciale.",
+            "justification": "La séborrhée se manifeste par une peau grasse et brillante au niveau médio-facial."
+          },
+          {
+            "correct": true,
+            "proposition": "Peau grasse et brillante au niveau du thorax.",
+            "justification": "La localisation thoracique est explicitement citée pour la séborrhée excessive."
+          },
+          {
+            "correct": false,
+            "proposition": "Peau sèche et mate au visage.",
+            "justification": "La séborrhée se définit à l'inverse par une peau grasse et brillante."
+          },
+          {
+            "correct": true,
+            "proposition": "Signe à rechercher lors de l'examen clinique de l'acné.",
+            "justification": "La séborrhée excessive fait partie des éléments cliniques à rechercher."
+          },
+          {
+            "correct": false,
+            "proposition": "La séborrhée excessive n'est pas un élément clinique de l'acné.",
+            "justification": "Elle est explicitement mentionnée parmi les éléments cliniques à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755208384026_05",
+      "current_version_epoch_ms": 1755208384026,
+      "topic": {
+        "subject": "dermato",
+        "item": "dermatosefaciale"
+      },
+      "data": {
+        "statement": "Concernant les cicatrices dans l'acné, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles sont fréquentes si l'acné n'est pas traitée.",
+            "justification": "Il est précisé que les cicatrices sont fréquentes en cas d'acné non traitée."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque cicatriciel est variable selon les formes.",
+            "justification": "Le risque cicatriciel est indiqué comme variable."
+          },
+          {
+            "correct": true,
+            "proposition": "Ce risque justifie une prise en charge adaptée.",
+            "justification": "La variabilité du risque cicatriciel justifie une prise en charge adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de traitement n'influence pas le risque cicatriciel.",
+            "justification": "L'absence de traitement est associée à une fréquence accrue des cicatrices."
+          },
+          {
+            "correct": true,
+            "proposition": "Les nodules peuvent évoluer vers des abcès avec une rançon cicatricielle importante.",
+            "justification": "Il est mentionné que les nodules peuvent évoluer vers des abcès avec rançon cicatricielle importante."
+          }
+        ]
+      }
+    }
+  ]
+}

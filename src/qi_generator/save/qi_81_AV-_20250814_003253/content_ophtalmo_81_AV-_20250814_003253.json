@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "AV-",
+    "subject": "ophtalmo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755124579716_01",
+      "current_version_epoch_ms": 1755124579716,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "AV-"
+      },
+      "data": {
+        "statement": "Que se passe-t-il lors de la stimulation lumineuse d'un œil dans le réflexe photomoteur (RPM) chez un sujet normal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un myosis se produit de manière réflexe du même côté (RPM direct) et du côté opposé (RPM consensuel).",
+            "justification": "Dans un sujet normal, la voie afférente et efférente du réflexe photomoteur sont intactes, produisant une constriction pupillaire bilatérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un myosis se produit uniquement du côté de l'œil stimulé.",
+            "justification": "Ce n'est pas un réflexe normal, car le RPM consensuel doit aussi être présent du côté opposé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le réflexe photomoteur est absent dans les deux yeux.",
+            "justification": "Ce n'est pas normal, sauf dans des situations pathologiques comme une cécité."
+          },
+          {
+            "correct": false,
+            "proposition": "Un mydriase se produit dans les deux yeux.",
+            "justification": "Une mydriase bilatérale serait pathologique et ne correspond pas à un réflexe photomoteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun changement pupillaire n'est observé.",
+            "justification": "C'est également une situation pathologique, ce qui pourrait signifier une paralysie ou une absence de réaction au stimulus lumineux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755124579716_02",
+      "current_version_epoch_ms": 1755124579716,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "AV-"
+      },
+      "data": {
+        "statement": "Que se passe-t-il dans le réflexe photomoteur direct et consensuel en cas de mydriase sensorielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les RPM direct et consensuel sont tous deux abolis à l'éclairement de l'œil atteint, mais conservés à l'éclairement de l'œil sain.",
+            "justification": "Dans la mydriase sensorielle, la voie afférente du réflexe est altérée, rendant les deux réflexes absents du côté affecté."
+          },
+          {
+            "correct": false,
+            "proposition": "Les RPM direct et consensuel sont absents des deux yeux.",
+            "justification": "Cela correspond à une situation pathologique plus complexe, comme une paralysie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM consensuel est conservé, mais le RPM direct est aboli.",
+            "justification": "Dans la mydriase sensorielle, le défaut de la voie afférente empêche la réponse des deux réflexes."
+          },
+          {
+            "correct": false,
+            "proposition": "Seul le RPM consensuel est conservé.",
+            "justification": "Ce n'est pas vrai, car la voie afférente est défectueuse, empêchant les deux réflexes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux réflexes sont conservés des deux côtés.",
+            "justification": "Cela n'est possible que si l'affection ne touche pas la voie afférente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755124579716_03",
+      "current_version_epoch_ms": 1755124579716,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "AV-"
+      },
+      "data": {
+        "statement": "Que se passe-t-il lors d'une mydriase paralytique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le RPM direct est aboli du côté affecté, tandis que le RPM consensuel est conservé, et inversement pour l'autre œil.",
+            "justification": "Dans une mydriase paralytique, la paralysie du III affecte le sphincter irien, mais les autres voies restent intactes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les RPM direct et consensuel sont abolis du côté affecté, mais conservés de l'autre côté.",
+            "justification": "Cette réponse ne correspond pas à une paralysie du III, car il n'y a pas de perte totale de la fonction."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux RPM, direct et consensuel, sont abolis de chaque côté.",
+            "justification": "Cela correspondrait plutôt à une lésion des deux voies afférentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM direct est conservé des deux côtés, mais le RPM consensuel est aboli.",
+            "justification": "Ce n'est pas correct, car la paralysie du III empêche le RPM consensuel du côté affecté."
+          },
+          {
+            "correct": false,
+            "proposition": "Le RPM est normal dans tous les cas.",
+            "justification": "Une paralysie du III perturbe toujours au moins l'un des réflexes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755124579716_04",
+      "current_version_epoch_ms": 1755124579716,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "AV-"
+      },
+      "data": {
+        "statement": "Dans quel cas observons-nous une mydriase accompagnée d'un ptosis du même côté ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lors d'un syndrome de Claude-Bernard-Horner.",
+            "justification": "Le syndrome de Claude-Bernard-Horner est causé par une lésion des voies sympathiques, entraînant une mydriase et un ptosis du même côté."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une paralysie du nerf optique.",
+            "justification": "La paralysie du nerf optique ne provoque pas une mydriase avec un ptosis du même côté."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une paralysie du III.",
+            "justification": "Bien que la paralysie du III puisse affecter le mouvement pupillaire, elle n'entraîne pas nécessairement un ptosis associé à un myosis."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une hémorragie cérébrale.",
+            "justification": "Une hémorragie cérébrale peut affecter plusieurs zones du cerveau, mais elle ne provoque pas spécifiquement cette combinaison de symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une occlusion de l'artère centrale de la rétine.",
+            "justification": "Une occlusion de l'artère centrale de la rétine entraîne une cécité soudaine, mais pas nécessairement une mydriase et un ptosis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755124579716_05",
+      "current_version_epoch_ms": 1755124579716,
+      "topic": {
+        "subject": "ophtalmo",
+        "item": "AV-"
+      },
+      "data": {
+        "statement": "Quelle est la fonction de la voie efférente sympathique dans le réflexe pupillaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est responsable de la dilatation pupillaire (mydriase).",
+            "justification": "La voie efférente sympathique contrôle la dilatation de la pupille en agissant sur le muscle dilatateur de l'iris."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est responsable de la constriction pupillaire (myosis).",
+            "justification": "La constriction pupillaire est le rôle de la voie parasympathique, non de la voie sympathique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle régule la quantité de lumière qui pénètre dans l'œil.",
+            "justification": "La régulation de la lumière est un effet indirect du réflexe pupillaire, mais le contrôle direct de l'ouverture de la pupille est assuré par la voie parasympathique et sympathique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est responsable du mouvement des paupières.",
+            "justification": "Le mouvement des paupières est contrôlé par le nerf III, pas par la voie sympathique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne joue aucun rôle dans le réflexe pupillaire.",
+            "justification": "La voie sympathique est indispensable au fonctionnement normal du réflexe pupillaire, notamment pour la dilatation de la pupille."
+          }
+        ]
+      }
+    }
+  ]
+}

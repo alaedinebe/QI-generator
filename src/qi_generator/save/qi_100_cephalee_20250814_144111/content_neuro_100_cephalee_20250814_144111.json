@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "cephalee",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755175478621_01",
+      "current_version_epoch_ms": 1755175478621,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Devant un patient présentant un syndrome méningé, identifier la conduite diagnostique immédiate selon les éléments associés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de fièvre : réaliser une ponction lombaire immédiate sans scanner préalable.",
+            "justification": "Syndrome méningé + fièvre = suspicion de méningite infectieuse → ponction lombaire immédiate sans scanner préalable."
+          },
+          {
+            "correct": true,
+            "proposition": "Température normale avec début brutal de la céphalée : réaliser un scanner cérébral immédiat puis ponction lombaire si le scanner est normal.",
+            "justification": "Syndrome méningé + température normale + début brutal = suspicion d'HSA → scanner cérébral immédiat puis PL si scanner normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de fièvre : toujours réaliser un scanner cérébral avant la ponction lombaire.",
+            "justification": "En cas de suspicion de méningite infectieuse, la conduite attendue est la ponction lombaire immédiate sans scanner préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Température normale avec début brutal : traiter comme une migraine habituelle sans imagerie.",
+            "justification": "Le début brutal avec température normale fait suspecter une HSA, imposant un scanner immédiat puis PL si normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Tout tableau de syndrome méningé contre-indique la ponction lombaire.",
+            "justification": "La ponction lombaire est indiquée d'emblée en cas de suspicion de méningite infectieuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175478621_02",
+      "current_version_epoch_ms": 1755175478621,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Identifier les éléments orientant vers un syndrome d'hypertension intracrânienne (HTIC) et la conduite à tenir.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalées en casque, diffuses, matinales, exacerbées par toux/effort/décubitus et résistantes aux antalgiques.",
+            "justification": "Ces caractéristiques décrivent la céphalée d'HTIC."
+          },
+          {
+            "correct": true,
+            "proposition": "Vomissements en jets, sans effort, pouvant soulager temporairement la céphalée.",
+            "justification": "Vomissements inconstants, en jets, soulagent temporairement la céphalée dans l'HTIC."
+          },
+          {
+            "correct": true,
+            "proposition": "Diplopie horizontale par atteinte du VI, éclipses visuelles et œdème papillaire bilatéral au fond d'œil.",
+            "justification": "Atteinte du VI, éclipses visuelles et œdème papillaire bilatéral sont des signes décrits dans l'HTIC."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser en urgence un scanner ou une IRM (sans et avec injection) ; la ponction lombaire est contre-indiquée avant l'imagerie.",
+            "justification": "Conduite à tenir : imagerie en urgence ; PL contre-indiquée avant imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer d'emblée une ponction lombaire si la vigilance est conservée.",
+            "justification": "La PL est contre-indiquée avant imagerie en cas de suspicion d'HTIC."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175478621_03",
+      "current_version_epoch_ms": 1755175478621,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Reconnaître les situations de céphalées imposant une orientation aux urgences.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalée en coup de tonnerre (intensité maximale en moins d'une minute) : HSA jusqu'à preuve du contraire.",
+            "justification": "Toute céphalée en coup de tonnerre doit faire suspecter une HSA."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée récente ou d'aggravation récente (< 7 jours) et inhabituelle : considérer une HTIC jusqu'à preuve du contraire.",
+            "justification": "Une céphalée récente/inhabituelle impose une orientation urgente pour HTIC jusqu'à preuve du contraire."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée associée à une fièvre hors cause générale évidente : suspecter une méningite infectieuse.",
+            "justification": "Association céphalée + fièvre (hors cause évidente) fait évoquer une méningite infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalée associée à des signes neurologiques (anisocorie, atteinte des nerfs crâniens, déficit neurologique central).",
+            "justification": "La présence de signes neurologiques impose une orientation aux urgences."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalée chez un patient migraineux reconnaissant sa crise habituelle : réaliser des explorations systématiques.",
+            "justification": "Si l'interrogatoire est fiable et la crise reconnue comme habituelle, des explorations ne sont pas nécessaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175478621_04",
+      "current_version_epoch_ms": 1755175478621,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Chez l'enfant présentant des céphalées, identifier les drapeaux rouges imposant une évaluation urgente.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Baisse des résultats scolaires ou troubles du comportement.",
+            "justification": "Ces éléments font partie des drapeaux rouges listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation rapide du périmètre crânien ou souffle à l'auscultation de la fontanelle.",
+            "justification": "Ces signes sont des drapeaux rouges pédiatriques."
+          },
+          {
+            "correct": true,
+            "proposition": "Âge < 3 ans, les céphalées primaires étant rares à cet âge.",
+            "justification": "Âge < 3 ans est cité comme drapeau rouge."
+          },
+          {
+            "correct": true,
+            "proposition": "Strabisme récent ou baisse d'acuité visuelle.",
+            "justification": "Ces anomalies visuelles sont des drapeaux rouges listés."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'inquiétude parentale : élément rassurant permettant de différer l'évaluation.",
+            "justification": "L'inquiétude parentale est un drapeau rouge ; son absence n'est pas un critère pour différer l'évaluation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755175478621_05",
+      "current_version_epoch_ms": 1755175478621,
+      "topic": {
+        "subject": "neuro",
+        "item": "cephalee"
+      },
+      "data": {
+        "statement": "Choisir la bonne stratégie face à une céphalée récente, inhabituelle et persistante chez l'adulte.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un examen clinique normal n'élimine pas une céphalée secondaire.",
+            "justification": "L'absence de symptômes associés et un examen normal n'éliminent pas une céphalée secondaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas différer les examens complémentaires si la céphalée est récente, inhabituelle et persistante.",
+            "justification": "Il ne faut pas différer la réalisation d'examens complémentaires dans cette situation."
+          },
+          {
+            "correct": true,
+            "proposition": "Évoquer une intoxication au monoxyde de carbone et adresser aux urgences si la situation s'y prête.",
+            "justification": "La céphalée faisant évoquer une intoxication au CO doit être adressée aux urgences."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez un patient migraineux reconnaissant sa crise habituelle et avec interrogatoire fiable, ne pas réaliser d'explorations et traiter la crise.",
+            "justification": "En cas de crise habituelle reconnue, des explorations ne sont pas nécessaires ; un traitement symptomatique est indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "En contexte d'immunodépression, une prise en charge ambulatoire sans orientation aux urgences est recommandée.",
+            "justification": "Une céphalée dans un contexte d'immunodépression doit être adressée aux urgences."
+          }
+        ]
+      }
+    }
+  ]
+}

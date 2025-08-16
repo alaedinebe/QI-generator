@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "epistaxis",
+    "subject": "ORL"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755141345429_01",
+      "current_version_epoch_ms": 1755141345429,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de la radio-embolisation dans le traitement de l'épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épistaxis récidivantes après tamponnement antéro-postérieur par sonde à double ballonnet",
+            "justification": "L'embolisation est indiquée en urgence après échec du tamponnement antéro-postérieur dans les cas d'épistaxis récidivantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Épistaxis aiguë sans antécédents de tamponnement",
+            "justification": "L'embolisation n'est pas utilisée en première intention pour une épistaxis aiguë sans antécédents de traitement préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Épistaxis après chirurgie nasale",
+            "justification": "La radio-embolisation est utilisée pour les épistaxis récidivantes, pas spécifiquement après chirurgie."
+          },
+          {
+            "correct": false,
+            "proposition": "Épistaxis avec anticoagulation active",
+            "justification": "Les anticoagulants doivent être interrompus avant l'embolisation. Ce n'est pas une indication en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Épistaxis avec fracture du nez",
+            "justification": "La radio-embolisation n'est pas utilisée dans le cadre de fractures traumatiques du nez, sauf en cas de récidive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755141345429_02",
+      "current_version_epoch_ms": 1755141345429,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quelle artère est principalement ciblée lors de l'embolisation dans le cadre du traitement de l'épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Artère sphénopalatine et ses branches terminales",
+            "justification": "L'artère sphénopalatine est l'artère principale alimentant les cavités nasales, elle est donc fréquemment ciblée dans le cadre de l'embolisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Artère ophtalmique",
+            "justification": "L'artère ophtalmique, bien qu'importante, n'est généralement pas ciblée en raison du risque ischémique ophtalmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Artère temporale superficielle",
+            "justification": "L'artère temporale superficielle ne joue pas un rôle direct dans la vascularisation des cavités nasales."
+          },
+          {
+            "correct": false,
+            "proposition": "Artère fémorale",
+            "justification": "L'artère fémorale est utilisée pour l'accès vasculaire, mais ce n'est pas l'artère ciblée pour l'embolisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Artère carotide interne",
+            "justification": "Bien que l'artère carotide interne soit une artère majeure, ce n'est pas celle ciblée pour l'embolisation des cavités nasales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755141345429_03",
+      "current_version_epoch_ms": 1755141345429,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Dans quel cas la radio-embolisation ne serait-elle pas réalisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le patient n'est pas stabilisé sur le plan hémodynamique",
+            "justification": "L'embolisation nécessite que le patient soit stabilisé hémodynamiquement avant d'être réalisé pour éviter les risques associés à la procédure."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le patient présente une intolérance à l'anesthésie générale",
+            "justification": "Bien que l'anesthésie générale soit requise, une intolérance n'est pas une contre-indication absolue si d'autres options anesthésiques sont disponibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'artère sphénopalatine est inaccessible",
+            "justification": "L'artère sphénopalatine est l'artère ciblée par l'embolisation, mais des alternatives comme l'accès par artères fémorales permettent de contourner certaines difficultés d'accès."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la cause de l'épistaxis est une infection",
+            "justification": "L'infection n'est pas une contre-indication à l'embolisation, sauf si elle compromet la stabilité du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'embolisation ne présente aucun bénéfice clinique apparent",
+            "justification": "L'embolisation est envisagée en situation d'urgence, même sans bénéfice clinique immédiat, pour contrôler l'épistaxis récidivante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755141345429_04",
+      "current_version_epoch_ms": 1755141345429,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel est le risque majeur associé à l'embolisation des artères ethmoïdales ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque ischémique ophtalmique et cérébral",
+            "justification": "L'embolisation des artères ethmoïdales comporte un risque d'ischémie des structures ophtalmiques et cérébrales, ce qui en fait une contre-indication dans la majorité des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'hémorragie excessive",
+            "justification": "L'embolisation est réalisée pour contrôler les hémorragies, donc ce risque est limité si la procédure est bien réalisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'infection grave",
+            "justification": "Le risque infectieux est faible, car la procédure est réalisée dans des conditions stériles."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de nécrose nasale",
+            "justification": "Le risque de nécrose nasale est minimal lorsqu'une embolisation sélective des artères terminales est réalisée correctement."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de thrombose systémique",
+            "justification": "La procédure est localisée et bien ciblée, donc le risque de thrombose systémique est faible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755141345429_05",
+      "current_version_epoch_ms": 1755141345429,
+      "topic": {
+        "subject": "ORL",
+        "item": "epistaxis"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'artériographie dans la procédure d'embolisation de l'épistaxis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet de rechercher une fuite de produit de contraste (blush)",
+            "justification": "L'artériographie est utilisée pour visualiser les vaisseaux et identifier les zones de fuite de produit de contraste, signalant les endroits à emboliser."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de visualiser la présence de tumeurs nasales",
+            "justification": "L'artériographie n'est pas utilisée pour diagnostiquer des tumeurs nasales, mais pour évaluer les vaisseaux sanguins impliqués dans l'épistaxis."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de contrôler la quantité de sang perdu",
+            "justification": "L'artériographie ne sert pas à estimer la perte sanguine, mais à localiser la source de l'hémorragie."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de diagnostiquer les causes structurelles de l'épistaxis",
+            "justification": "L'artériographie est principalement utilisée pour l'évaluation vasculaire, pas pour le diagnostic des causes structurelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de déterminer la nécessité d'une chirurgie complémentaire",
+            "justification": "L'artériographie guide l'embolisation, mais ne détermine pas la nécessité d'une chirurgie complémentaire, qui est une décision clinique séparée."
+          }
+        ]
+      }
+    }
+  ]
+}

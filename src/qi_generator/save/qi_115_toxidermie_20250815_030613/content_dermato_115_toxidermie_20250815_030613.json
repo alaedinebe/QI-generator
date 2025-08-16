@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "toxidermie",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755220179749_01",
+      "current_version_epoch_ms": 1755220179749,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques permettant d'évaluer l'imputabilité d'un médicament dans une manifestation cutanée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'imputabilité extrinsèque repose sur la notoriété du médicament et les accidents identiques connus pour ce médicament.",
+            "justification": "L'imputabilité extrinsèque se réfère à la notoriété du médicament, c'est-à-dire la connaissance d'accidents similaires rapportés pour ce médicament dans d'autres cas."
+          },
+          {
+            "correct": true,
+            "proposition": "L'imputabilité intrinsèque repose sur l'anamnèse du patient et la chronologie des événements.",
+            "justification": "L'imputabilité intrinsèque se base sur l'anamnèse du patient, en particulier la chronologie des événements, la sémiologie des lésions et l'évolution favorable après l'arrêt du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "L'imputabilité est exclusivement définie par des tests allergologiques.",
+            "justification": "L'imputabilité d'un médicament dans une manifestation cutanée repose sur l'anamnèse et la chronologie des événements cliniques, et non sur des tests allergologiques uniquement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'imputabilité est uniquement déterminée par des observations cliniques sans tenir compte de la chronologie.",
+            "justification": "La chronologie des événements est essentielle pour établir un lien de causalité entre la prise du médicament et la manifestation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'imputabilité d'un médicament peut être confirmée uniquement si le patient présente une réaction immédiate.",
+            "justification": "L'imputabilité peut être confirmée par une évolution favorable à l'arrêt du médicament, même si la réaction n'est pas immédiate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220179749_02",
+      "current_version_epoch_ms": 1755220179749,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quel est l'élément clé dans l'évaluation de l'imputabilité intrinsèque d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La chronologie des événements cliniques, c'est-à-dire la concordance entre la prise du médicament et l'apparition de la manifestation cutanée.",
+            "justification": "L'imputabilité intrinsèque repose sur la chronologie des événements et l'adéquation entre la prise du médicament et l'apparition des symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "L'évolution favorable après l'arrêt du médicament suspect.",
+            "justification": "L'évolution favorable après l'arrêt du médicament suspect est un critère central pour confirmer l'imputabilité intrinsèque."
+          },
+          {
+            "correct": false,
+            "proposition": "La connaissance d'accidents identiques pour ce médicament dans d'autres cas.",
+            "justification": "Cet élément relève de l'imputabilité extrinsèque, qui concerne la notoriété du médicament et la récurrence de réactions similaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de jours d'hospitalisation du patient.",
+            "justification": "Le nombre de jours d'hospitalisation n'est pas un critère direct dans l'évaluation de l'imputabilité intrinsèque, qui se base sur la chronologie des événements et l'évolution clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La réalisation d'un test allergologique spécifique.",
+            "justification": "Bien que des tests puissent être utiles, l'imputabilité intrinsèque est principalement évaluée par l'anamnèse et la chronologie des événements cliniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220179749_03",
+      "current_version_epoch_ms": 1755220179749,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Que permet d'établir un score d'imputabilité dans le cadre d'une manifestation cutanée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet d'évaluer le lien de causalité entre la prise d'un médicament et la manifestation cutanée observée.",
+            "justification": "Le score d'imputabilité est utilisé pour quantifier la probabilité que le médicament soit la cause de la manifestation cutanée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de déterminer immédiatement le traitement à administrer.",
+            "justification": "Le score d'imputabilité évalue le lien causal, mais le traitement dépend de la confirmation du diagnostic et de la prise en charge clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Il permet de discuter du rôle potentiel d'un médicament dans une réaction cutanée.",
+            "justification": "Le score d'imputabilité permet d'évaluer, sur la base de critères cliniques et de chronologie, si un médicament peut être impliqué dans la réaction cutanée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de diagnostiquer avec certitude la toxidermie.",
+            "justification": "Le score d'imputabilité n'est pas un outil diagnostique en soi, mais il aide à évaluer la plausibilité du lien entre un médicament et une toxidermie."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de déterminer de manière absolue le médicament responsable.",
+            "justification": "Le score d'imputabilité fournit une évaluation du lien causal, mais il ne permet pas toujours d'établir une certitude absolue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220179749_04",
+      "current_version_epoch_ms": 1755220179749,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quelles sont les actions à entreprendre une fois un médicament suspect identifié dans le cadre d'une manifestation cutanée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contre-indiquer le médicament suspect et remettre une carte d'allergie au patient.",
+            "justification": "Une fois le médicament suspect identifié, il est essentiel de l'arrêter et de remettre au patient une carte d'allergie pour éviter toute nouvelle exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "Informer le patient des risques potentiels d'une nouvelle prise du médicament suspect.",
+            "justification": "Il est important de sensibiliser le patient aux risques associés à la réintroduction du médicament suspect, notamment en cas de réactions allergiques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire immédiatement un traitement antibiotique pour prévenir toute infection secondaire.",
+            "justification": "Le traitement antibiotique n'est pas systématiquement nécessaire pour les manifestations cutanées induites par des médicaments, sauf en cas de surinfection."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter progressivement la dose du médicament suspect sous surveillance étroite.",
+            "justification": "L'augmentation de la dose du médicament suspect est contre-indiquée dans ce contexte, car cela pourrait aggraver la réaction cutanée."
+          },
+          {
+            "correct": false,
+            "proposition": "Réintroduire le médicament suspect sous forme d'un autre médicament de la même classe.",
+            "justification": "La réintroduction d'un médicament suspect, même sous une autre forme, est contre-indiquée si une réaction cutanée a été observée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755220179749_05",
+      "current_version_epoch_ms": 1755220179749,
+      "topic": {
+        "subject": "dermato",
+        "item": "toxidermie"
+      },
+      "data": {
+        "statement": "Quelles caractéristiques de la sémiologie clinique aident à établir un lien de causalité entre un médicament et une manifestation cutanée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La chronologie des événements et l'évolution favorable après l'arrêt du médicament suspect.",
+            "justification": "La chronologie des événements (prise du médicament et apparition des symptômes) et l'évolution favorable après l'arrêt du médicament sont des éléments clés pour établir un lien de causalité."
+          },
+          {
+            "correct": true,
+            "proposition": "Les antécédents de toxidermie au même médicament.",
+            "justification": "Les antécédents de toxidermie au même médicament augmentent la probabilité que la réaction cutanée soit liée au médicament en question."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une réaction immédiate après la prise du médicament.",
+            "justification": "Bien que des réactions immédiates puissent être indicatives, une manifestation cutanée peut survenir de manière plus retardée, ce qui ne permet pas toujours de conclure à une réaction immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "La réalisation d'un test allergologique spécifique.",
+            "justification": "Le lien de causalité est principalement évalué par la clinique et la chronologie, pas uniquement par des tests allergologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'intensité des symptômes cutanés.",
+            "justification": "L'intensité des symptômes n'est pas un critère déterminant pour établir la causalité ; la chronologie et l'évolution après l'arrêt du médicament sont des éléments plus significatifs."
+          }
+        ]
+      }
+    }
+  ]
+}

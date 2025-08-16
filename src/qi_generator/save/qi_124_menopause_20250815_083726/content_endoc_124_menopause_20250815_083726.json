@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "menopause",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755240053358_01",
+      "current_version_epoch_ms": 1755240053358,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Face à une métrorragie chez une femme ménopausée, quelles actions doivent être priorisées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éliminer en priorité un cancer de l'endomètre.",
+            "justification": "Tout saignement utérin anormal après la ménopause doit faire éliminer un cancer endométrial."
+          },
+          {
+            "correct": false,
+            "proposition": "Rassurer d'emblée si la patiente est sous THM, car les saignements sont fréquents.",
+            "justification": "Sous THM, les saignements sont peu fréquents (moins de 15 %) et doivent avant tout faire éliminer un cancer de l'endomètre."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser une échographie pelvienne pour mesurer l'épaisseur de l'endomètre.",
+            "justification": "L'échographie pelvienne est indiquée pour mesurer l'épaisseur endométriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Se limiter à l'interrogatoire si aucun facteur de risque n'est retrouvé.",
+            "justification": "Une exploration est requise chez toute femme ménopausée présentant un saignement, indépendamment des facteurs de risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher une cause vaginale ou cervicale à l'examen clinique.",
+            "justification": "Il faut éliminer une cause vaginale ou cervicale à l'examen clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755240053358_02",
+      "current_version_epoch_ms": 1755240053358,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Dans quelles situations des explorations utérines complémentaires (hystéroscopie et histologie) sont-elles nécessaires chez une femme ménopausée avec saignements ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de saignements utérins anormaux récidivants.",
+            "justification": "Des explorations complémentaires sont nécessaires en cas de récidive des saignements."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque l'épaisseur de l'endomètre est supérieure à 4 mm.",
+            "justification": "Une épaisseur endométriale > 4 mm impose des explorations complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'épaisseur de l'endomètre est inférieure ou égale à 4 mm d'emblée sans récidive.",
+            "justification": "L'indication d'explorations complémentaires est spécifiée pour > 4 mm ou en cas de récidive."
+          },
+          {
+            "correct": false,
+            "proposition": "En absence de facteurs de risque identifiés à l'interrogatoire.",
+            "justification": "L'indication mentionnée repose sur la récidive et l'épaisseur endométriale > 4 mm, pas sur l'absence de facteurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la patiente est sous THM avec suspicion de surdosage.",
+            "justification": "Même sous THM, la priorité est d'éliminer un cancer ; la nécessité d'explorations complémentaires est précisée pour la récidive et l'épaisseur > 4 mm."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755240053358_03",
+      "current_version_epoch_ms": 1755240053358,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Identifier les facteurs de risque de cancer de l'endomètre à rechercher à l'interrogatoire chez une femme ménopausée avec saignements.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obésité.",
+            "justification": "L'obésité fait partie des facteurs de risque à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypertension artérielle (HTA).",
+            "justification": "L'HTA est listée parmi les facteurs de risque à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète de type 2.",
+            "justification": "Le diabète de type 2 fait partie des facteurs de risque à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitement par tamoxifène.",
+            "justification": "Le traitement par tamoxifène est cité comme facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Tabagisme.",
+            "justification": "Le tabagisme n'est pas cité dans la liste des facteurs de risque à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755240053358_04",
+      "current_version_epoch_ms": 1755240053358,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Concernant les saignements utérins anormaux chez une femme ménopausée sous traitement hormonal de la ménopause (THM), quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils sont un phénomène peu fréquent, touchant moins de 15 % des utilisatrices.",
+            "justification": "Sous THM, les saignements sont décrits comme peu fréquents (moins de 15 %)."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils autorisent une simple surveillance car souvent liés à un surdosage.",
+            "justification": "Même s'ils peuvent être liés à un surdosage ou à une reprise ovarienne, ils doivent avant tout faire éliminer un cancer de l'endomètre."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils doivent faire éliminer un cancer de l'endomètre.",
+            "justification": "Tout saignement utérin anormal après la ménopause impose d'éliminer un cancer endométrial."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils traduisent en premier lieu une reprise de l'activité ovarienne et ne nécessitent pas d'exploration.",
+            "justification": "La priorité est l'élimination d'un cancer, avec explorations si nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Une épaisseur endométriale ≤ 4 mm impose une hystéroscopie systématique.",
+            "justification": "Les explorations complémentaires sont indiquées pour > 4 mm ou en cas de récidive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755240053358_05",
+      "current_version_epoch_ms": 1755240053358,
+      "topic": {
+        "subject": "endoc",
+        "item": "menopause"
+      },
+      "data": {
+        "statement": "Parmi les examens proposés dans l'exploration d'un saignement utérin anormal post-ménopausique, lesquels sont indiqués ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie pelvienne pour mesurer l'épaisseur de l'endomètre.",
+            "justification": "La réalisation d'une échographie pelvienne est indiquée pour mesurer l'épaisseur endométriale."
+          },
+          {
+            "correct": true,
+            "proposition": "Hystéroscopie diagnostique permettant une confirmation histologique.",
+            "justification": "L'hystéroscopie diagnostique permet une confirmation histologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Biopsie endométriale à la pipelle de Cornier, de valeur en cas de positivité.",
+            "justification": "La biopsie à la pipelle doit être réalisée, avec valeur diagnostique en cas de positivité."
+          },
+          {
+            "correct": true,
+            "proposition": "Examen clinique pour éliminer une cause vaginale ou cervicale.",
+            "justification": "Il faut éliminer une cause vaginale ou cervicale à l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM pelvienne en première intention systématique.",
+            "justification": "Cet examen n'est pas cité dans la stratégie d'exploration décrite."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "bacteriemie",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755331410441_01",
+      "current_version_epoch_ms": 1755331410441,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quelle est la cause la plus fréquente des infections liées aux cathéters ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les staphylocoques",
+            "justification": "Les staphylocoques représentent 50 à 60% des infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bacilles à Gram positif",
+            "justification": "Les bacilles à Gram positif ne sont pas mentionnés comme une cause majeure des infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Les entérobactéries",
+            "justification": "Bien que les entérobactéries soient responsables d'une partie des infections, elles ne constituent que 20 à 40% des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Les champignons du genre Aspergillus",
+            "justification": "Les infections fongiques sont peu fréquentes et variables en fonction du terrain, mais ne sont pas la cause principale."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bacilles à Gram négatif non spécifiques",
+            "justification": "Les bacilles à Gram négatif, tels que les entérobactéries et Pseudomonas aeruginosa, représentent une part moins importante (20 à 40%) des infections."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331410441_02",
+      "current_version_epoch_ms": 1755331410441,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques les plus évocateurs d'une infection liée au cathéter ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre, frissons, hypotension, signes de mauvaise perfusion périphérique",
+            "justification": "Ces signes sont fréquemment retrouvés chez les patients porteurs de cathéter présentant une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs thoraciques et toux persistante",
+            "justification": "Ces symptômes ne sont pas spécifiquement associés aux infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème local et érythème cutané autour du cathéter",
+            "justification": "Les signes cutanés locaux sont rares (10-20% des cas) et ne sont donc pas les principaux signes d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée et douleurs abdominales",
+            "justification": "Ces symptômes sont peu fréquents et non caractéristiques d'une infection liée au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie et hypertension",
+            "justification": "Ces symptômes ne sont pas en lien direct avec les infections liées aux cathéters, qui sont plutôt associées à une hypotension."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331410441_03",
+      "current_version_epoch_ms": 1755331410441,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Dans quel cas suspecte-t-on une infection liée au cathéter ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un patient porteur d'un cathéter présente des signes de mauvaise perfusion périphérique après manipulation du cathéter",
+            "justification": "L'apparition de signes d'hypoperfusion périphérique après manipulation du cathéter est un indicateur clinique fort d'une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient développe une douleur au site d'insertion du cathéter sans signes systémiques",
+            "justification": "La douleur locale sans signes systémiques n'est généralement pas évocatrice d'une infection liée au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente une hypothermie sévère non expliquée",
+            "justification": "L'hypothermie sévère n'est pas un signe spécifique d'infection liée au cathéter, bien que la fièvre soit plus courante."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente une hyperglycémie inexpliquée",
+            "justification": "L'hyperglycémie seule n'est pas un indicateur direct d'une infection liée au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente des céphalées sévères après pose du cathéter",
+            "justification": "Les céphalées ne sont pas un signe clinique pertinent d'infection liée au cathéter."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331410441_04",
+      "current_version_epoch_ms": 1755331410441,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur qui permet d'évoquer une amélioration de l'infection liée au cathéter ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'amélioration après ablation du cathéter",
+            "justification": "L'amélioration clinique après le retrait du cathéter est un signe évocateur d'infection liée au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "La disparition rapide de la douleur au site d'insertion",
+            "justification": "Bien que la douleur puisse diminuer après retrait, elle n'est pas un critère central de l'amélioration dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "La normalisation de la pression artérielle",
+            "justification": "Bien que la pression artérielle puisse se stabiliser, ce n'est pas suffisant pour conclure à une infection liée au cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "La réduction des signes cutanés autour du cathéter",
+            "justification": "Les signes cutanés sont rarement présents dans les infections liées au cathéter, ils ne sont pas un indicateur majeur de guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "La disparition de la température corporelle élevée sans traitement antibiotique",
+            "justification": "La fièvre peut être liée à d'autres causes et n'est pas un indicateur définitif de la résolution de l'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755331410441_05",
+      "current_version_epoch_ms": 1755331410441,
+      "topic": {
+        "subject": "infectio",
+        "item": "bacteriemie"
+      },
+      "data": {
+        "statement": "Quel est l'agent microbien le plus fréquemment impliqué dans les infections liées aux cathéters ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les staphylocoques",
+            "justification": "Les staphylocoques sont responsables de 50 à 60% des infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Les streptocoques",
+            "justification": "Les streptocoques ne sont pas spécifiquement mentionnés comme responsables des infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Les entérobactéries",
+            "justification": "Bien que responsables de 20 à 40% des infections, les entérobactéries ne sont pas l'agent principal."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mycobactéries",
+            "justification": "Les infections à mycobactéries sont rares dans le cadre des infections liées aux cathéters."
+          },
+          {
+            "correct": false,
+            "proposition": "Les Pseudomonas aeruginosa",
+            "justification": "Pseudomonas aeruginosa représente une part importante mais pas le principal agent infectieux."
+          }
+        ]
+      }
+    }
+  ]
+}

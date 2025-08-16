@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "reeducation",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755233843495_01",
+      "current_version_epoch_ms": 1755233843495,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Identifier, parmi les situations suivantes, celles qui constituent des indications d'un programme de kinésithérapie à visée antalgique (douleur) selon OIC-122-06-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur du rachis (cervical, dorsal ou lombaire)",
+            "justification": "Relève des douleurs prises en charge : douleur du rachis fait partie des indications listées."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleur chronique",
+            "justification": "Relève des douleurs prises en charge : douleur chronique fait partie des indications."
+          },
+          {
+            "correct": true,
+            "proposition": "Contracture musculaire localisée",
+            "justification": "Relève des douleurs prises en charge : contracture musculaire localisée est explicitement indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique d'allure ischémique",
+            "justification": "Ne correspond pas aux indications douloureuses mentionnées (contracture, chronique, articulaires, membre, rachis, évaluation/prise en charge de la douleur aiguë/chronique)."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation et prise en charge de la douleur aiguë",
+            "justification": "Relève des douleurs prises en charge : l'évaluation et la prise en charge de la douleur aiguë sont incluses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755233843495_02",
+      "current_version_epoch_ms": 1755233843495,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Classer les situations suivantes : cocher celles qui relèvent de la catégorie « gênes aux déplacements » dans le cadre du programme OIC-122-06-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte d'autonomie progressive",
+            "justification": "Relève des gênes aux déplacements : perte d'autonomie progressive est citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Apparition d'une difficulté à la marche",
+            "justification": "Relève des gênes aux déplacements : difficulté à la marche est citée."
+          },
+          {
+            "correct": false,
+            "proposition": "Instabilité du genou",
+            "justification": "Relève d'une autre indication (instabilité articulaire) et non spécifiquement des gênes aux déplacements."
+          },
+          {
+            "correct": false,
+            "proposition": "Gênes à la préhension",
+            "justification": "Relève d'une autre indication (gênes à la préhension) et non des gênes aux déplacements."
+          },
+          {
+            "correct": false,
+            "proposition": "Faiblesse musculaire",
+            "justification": "Relève d'une autre indication (faiblesse musculaire) et non des gênes aux déplacements."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755233843495_03",
+      "current_version_epoch_ms": 1755233843495,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Reconnaître les indications respiratoires : cocher les éléments qui relèvent de l'encombrement bronchique dans le programme OIC-122-06-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Expectoration",
+            "justification": "Relève de l'encombrement bronchique : expectoration est citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Dyspnée",
+            "justification": "Relève de l'encombrement bronchique : dyspnée est citée aux côtés de l'expectoration."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdèmes et troubles trophiques",
+            "justification": "Relève d'une autre indication (œdèmes et troubles trophiques), pas de l'encombrement bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Raideur articulaire",
+            "justification": "Relève d'une autre indication (raideur articulaire), pas de l'encombrement bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit neurologique sensitif et/ou moteur",
+            "justification": "Relève d'une autre indication (altération de la commande motrice/troubles sensitifs), pas de l'encombrement bronchique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755233843495_04",
+      "current_version_epoch_ms": 1755233843495,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Différencier les indications neurologiques : cocher celles qui relèvent des atteintes neurologiques dans le programme OIC-122-06-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Altération de la commande motrice (déficit neurologique sensitif et/ou moteur)",
+            "justification": "Relève des indications neurologiques : altération de la commande motrice est citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles du tonus musculaire",
+            "justification": "Relève des indications neurologiques : troubles du tonus musculaire sont cités."
+          },
+          {
+            "correct": true,
+            "proposition": "Troubles sensitifs",
+            "justification": "Relève des indications neurologiques : troubles sensitifs sont cités."
+          },
+          {
+            "correct": false,
+            "proposition": "Instabilité du genou",
+            "justification": "Relève d'une instabilité articulaire, pas d'une indication neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Incontinence urinaire à l'effort",
+            "justification": "Relève des troubles vésico-sphinctériens, pas d'une indication neurologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755233843495_05",
+      "current_version_epoch_ms": 1755233843495,
+      "topic": {
+        "subject": "rhumato",
+        "item": "reeducation"
+      },
+      "data": {
+        "statement": "Identifier les indications vésico-sphinctériennes : cocher les situations relevant du programme OIC-122-06-A.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Incontinence urinaire à l'effort",
+            "justification": "Relève des troubles vésico-sphinctériens : incontinence à l'effort est citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Incontinence urinaire",
+            "justification": "Relève des troubles vésico-sphinctériens : l'incontinence urinaire est citée."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdèmes et troubles trophiques",
+            "justification": "Relève d'une autre indication (œdèmes et troubles trophiques), pas d'un trouble vésico-sphinctérien."
+          },
+          {
+            "correct": false,
+            "proposition": "Faiblesse musculaire",
+            "justification": "Relève d'une autre indication (faiblesse musculaire), pas d'un trouble vésico-sphinctérien."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs articulaires",
+            "justification": "Relève des douleurs articulaires, pas d'un trouble vésico-sphinctérien."
+          }
+        ]
+      }
+    }
+  ]
+}

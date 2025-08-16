@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "meningite",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755304476192_01",
+      "current_version_epoch_ms": 1755304476192,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est l'examen de première intention à réaliser en cas de contre-indication clinique neurologique à la ponction lombaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner cérébral",
+            "justification": "Le scanner est l'examen de première intention dans ce contexte, permettant d'éliminer les complications et les diagnostics différentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale n'est pas l'examen de première intention en cas de contre-indication à la ponction lombaire, mais elle est essentielle dans la suspicion d'abcès cérébral ou de méningo-encéphalite."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie du thorax",
+            "justification": "Cet examen n'est pas pertinent dans le cadre d'une suspicion de méningite ou d'abcès cérébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie cérébrale",
+            "justification": "L'échographie n'est pas l'examen de choix pour cette pathologie, elle est surtout utilisée en pédiatrie ou pour le suivi des ventricules cérébraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Angioscanner cérébral",
+            "justification": "L'angioscanner n'est pas l'examen de première intention, bien qu'il puisse être utilisé dans des cas spécifiques pour évaluer des anomalies vasculaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755304476192_02",
+      "current_version_epoch_ms": 1755304476192,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quelle est la principale indication de l'IRM cérébrale en cas de suspicion d'abcès cérébral ou de méningo-encéphalite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détection de l'abcès cérébral",
+            "justification": "L'IRM cérébrale est l'examen clé pour détecter un abcès cérébral ou une méningo-encéphalite, en raison de sa meilleure résolution et de sa capacité à détecter des anomalies localisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation des signes d'engagement cérébral",
+            "justification": "L'évaluation des signes d'engagement cérébral nécessite un scanner cérébral, et non une IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Élimination des AVC",
+            "justification": "Les AVC sont mieux diagnostiqués par scanner en urgence, tandis que l'IRM est plus utile pour l'abcès cérébral et la méningo-encéphalite."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation de la thrombophlébite",
+            "justification": "La thrombophlébite est un diagnostic différentiel à éliminer par scanner, et non par IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une hémorragie sous-durale",
+            "justification": "Les hémorragies sous-durales sont mieux visualisées par scanner, pas par IRM, dans le cadre d'une suspicion de méningite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755304476192_03",
+      "current_version_epoch_ms": 1755304476192,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "En cas de suspicion d'encéphalite herpétique, quelle est la priorité dans la prise en charge du patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Débuter le traitement par aciclovir intraveineux sans attendre l'imagerie",
+            "justification": "Le traitement par aciclovir doit être administré sans délai en cas de suspicion d'encéphalite herpétique, car le retard dans le traitement peut entraîner des séquelles graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une IRM cérébrale avant de débuter le traitement",
+            "justification": "Bien que l'IRM cérébrale soit utile, le traitement par aciclovir ne doit pas être retardé pour attendre les résultats de l'imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un scanner cérébral d'abord",
+            "justification": "Le scanner cérébral n'est pas le premier examen en cas de suspicion d'encéphalite herpétique, une IRM étant plus pertinente."
+          },
+          {
+            "correct": false,
+            "proposition": "Pratiquer une ponction lombaire",
+            "justification": "La ponction lombaire est contre-indiquée si des signes neurologiques sont présents et nécessite l'imagerie préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre une confirmation microbiologique avant de traiter",
+            "justification": "Le traitement doit commencer immédiatement sans attendre la confirmation microbiologique en raison de la rapidité de progression de l'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755304476192_04",
+      "current_version_epoch_ms": 1755304476192,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de réaliser un scanner cérébral en cas de contre-indication à la ponction lombaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éliminer les complications graves et les diagnostics différentiels",
+            "justification": "Le scanner permet d'éliminer des pathologies graves comme l'abcès, l'empymème, ou des AVC, qui peuvent compliquer la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Prendre en charge une infection cérébrale",
+            "justification": "Le scanner ne permet pas de prendre en charge directement une infection cérébrale, mais de détecter des complications liées à cette infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Identifier la localisation exacte d'une tumeur",
+            "justification": "Bien que le scanner puisse visualiser une tumeur, ce n'est pas son objectif principal dans ce contexte, où l'on cherche plutôt à éliminer des complications aigües."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une hydrocéphalie",
+            "justification": "L'hydrocéphalie peut être observée dans certaines situations, mais l'examen n'est pas focalisé sur cette pathologie dans le cadre de suspicion d'abcès ou de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Observer des anomalies vasculaires",
+            "justification": "L'examen de l'anatomie vasculaire est plutôt réalisé par angiographie ou par IRM, plutôt que par un scanner standard."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755304476192_05",
+      "current_version_epoch_ms": 1755304476192,
+      "topic": {
+        "subject": "infectio",
+        "item": "meningite"
+      },
+      "data": {
+        "statement": "Dans quelle situation le scanner cérébral est-il contre-indiqué avant une ponction lombaire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de signes d'engagement cérébral",
+            "justification": "En cas de signes d'engagement cérébral, il est impératif de réaliser un scanner avant une ponction lombaire pour éviter des complications supplémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de Glasgow inférieur à 12",
+            "justification": "Un Glasgow inférieur à 12 nécessite également un scanner avant toute ponction lombaire pour évaluer les risques."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de crise convulsive persistante",
+            "justification": "Une crise convulsive persistante est une contre-indication à la ponction lombaire, nécessitant une imagerie préalable pour évaluer les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de douleur au niveau de la colonne vertébrale",
+            "justification": "La douleur à la colonne vertébrale n'est pas une contre-indication formelle à la ponction lombaire, bien que cela nécessite une évaluation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de signes de focalisation neurologique",
+            "justification": "Les signes de focalisation neurologique indiquent également qu'un scanner cérébral doit être réalisé avant la ponction lombaire."
+          }
+        ]
+      }
+    }
+  ]
+}

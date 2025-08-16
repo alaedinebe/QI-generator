@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "osteoporose",
+    "subject": "rhumato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755251034554_01",
+      "current_version_epoch_ms": 1755251034554,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Avant d'initier un traitement anti-ostéoporotique chez une femme post-ménopausée, identifier les actions nécessaires.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une ostéodensitométrie avant toute décision thérapeutique.",
+            "justification": "La réalisation d'une ostéodensitométrie est nécessaire avant toute décision thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Annoncer au patient le caractère chronique de la maladie.",
+            "justification": "L'annonce d'une maladie chronique doit être faite."
+          },
+          {
+            "correct": true,
+            "proposition": "Expliquer le rapport bénéfice/risque et informer des effets indésirables fréquents et graves.",
+            "justification": "Il faut expliquer le traitement, son bénéfice/risque, et informer des événements indésirables."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'observance thérapeutique avant toute initiation puis arrêter le suivi.",
+            "justification": "L'évaluation de l'observance se fait au cours des consultations de suivi d'une pathologie chronique, pas en remplacement du suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Initier systématiquement un bisphosphonate sans examen préalable.",
+            "justification": "Une décision thérapeutique nécessite au préalable une ostéodensitométrie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251034554_02",
+      "current_version_epoch_ms": 1755251034554,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Fracture sévère chez une femme post-ménopausée : définir la conduite thérapeutique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduire un traitement anti-ostéoporotique si le T-score est ≤ − 1, quel que soit l'âge.",
+            "justification": "Devant une fracture sévère, un traitement est impératif quel que soit l'âge si le T-score est ≤ − 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre un T-score ≤ − 2 avant tout traitement.",
+            "justification": "Le seuil d'indication en cas de fracture sévère est T-score ≤ − 1, pas ≤ − 2."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un bisphosphonate per os ou injectable parmi les options.",
+            "justification": "Le choix peut se porter sur un bisphosphonate per os ou injectable."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager le dénosumab en seconde intention en cas d'intolérance ou d'échec des bisphosphonates (pour une fracture non vertébrale).",
+            "justification": "En cas de fracture non vertébrale, le dénosumab est une option de seconde intention en cas d'intolérance/échec des bisphosphonates."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer d'emblée un traitement hormonal de la ménopause quel que soit l'âge.",
+            "justification": "Le THM est envisagé s'il y a des troubles climatériques et si la patiente a entre 50 et 60 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251034554_03",
+      "current_version_epoch_ms": 1755251034554,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Fracture non sévère : classer la conduite selon le T-score.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposer un traitement si le T-score est ≤ − 2.",
+            "justification": "Devant une fracture non sévère, on propose un traitement si T-score ≤ − 2."
+          },
+          {
+            "correct": true,
+            "proposition": "Demander un avis spécialisé si le T-score est > − 2 et ≤ − 1.",
+            "justification": "Dans cet intervalle, l'avis d'un spécialiste de pathologie osseuse est recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas traiter si le T-score est > − 1.",
+            "justification": "Si T-score > − 1, il n'y a pas d'indication de traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de traitement, réserver le raloxifène aux patientes avec un risque de fracture périphérique peu élevé.",
+            "justification": "Le raloxifène est à réserver aux patientes avec un risque de fracture périphérique peu élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "N'initier un traitement que si le T-score est ≤ − 3.",
+            "justification": "Le seuil de traitement pour une fracture non sévère est ≤ − 2, pas ≤ − 3."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251034554_04",
+      "current_version_epoch_ms": 1755251034554,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Fracture vertébrale : reconnaître les options thérapeutiques adaptées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bisphosphonate per os ou injectable.",
+            "justification": "En cas de fracture vertébrale, le choix peut se porter sur un bisphosphonate per os ou injectable."
+          },
+          {
+            "correct": true,
+            "proposition": "Dénosumab.",
+            "justification": "Le dénosumab fait partie des options possibles en cas de fracture vertébrale."
+          },
+          {
+            "correct": true,
+            "proposition": "Raloxifène chez une patiente avec risque de fracture périphérique peu élevé.",
+            "justification": "Le raloxifène est à réserver aux patientes avec un risque périphérique peu élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Tériparatide dès la première fracture vertébrale.",
+            "justification": "Le tériparatide est indiqué s'il existe ≥ 2 fractures vertébrales."
+          },
+          {
+            "correct": true,
+            "proposition": "THM si la patiente a 50–60 ans et présente des troubles climatériques.",
+            "justification": "Le THM est envisageable dans cette tranche d'âge en présence de troubles climatériques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755251034554_05",
+      "current_version_epoch_ms": 1755251034554,
+      "topic": {
+        "subject": "rhumato",
+        "item": "osteoporose"
+      },
+      "data": {
+        "statement": "Absence de fracture : classer la conduite thérapeutique selon le T-score et les options possibles.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Initier un traitement si le T-score est ≤ − 3.",
+            "justification": "S'il n'existe pas de fracture, un traitement est mis en route si T-score ≤ − 3."
+          },
+          {
+            "correct": true,
+            "proposition": "Demander un avis spécialisé si le T-score est > − 3 et ≤ − 2.",
+            "justification": "Dans cet intervalle, l'avis d'un spécialiste de pathologie osseuse est recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Ne pas recommander de traitement si le T-score est > − 2.",
+            "justification": "Au-delà de − 2, le traitement n'est pas recommandé en l'absence de fracture."
+          },
+          {
+            "correct": true,
+            "proposition": "Envisager un THM s'il existe des troubles climatériques et si la patiente a entre 50 et 60 ans.",
+            "justification": "Le THM est une option dans cette situation précise."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférer le raloxifène chez les patientes à haut risque de fracture périphérique.",
+            "justification": "Le raloxifène est à réserver aux patientes avec un risque de fracture périphérique peu élevé."
+          }
+        ]
+      }
+    }
+  ]
+}

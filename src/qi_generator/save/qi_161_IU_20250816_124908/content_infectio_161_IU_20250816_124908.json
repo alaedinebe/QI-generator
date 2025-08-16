@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "IU",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755341554962_01",
+      "current_version_epoch_ms": 1755341554962,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le seuil de leucocyturie significatif dans un deuxième jet urinaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 104 /mL",
+            "justification": "Le seuil admis pour considérer une leucocyturie significative est de ≥ 104 /mL, en dehors des cas de gestes sur les voies urinaires ou de présence de corps étrangers."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 105 /mL",
+            "justification": "Le seuil de 105 /mL n'est pas le seuil retenu pour définir une leucocyturie significative."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 102 /mL",
+            "justification": "Le seuil de leucocyturie significatif est plus élevé que 102 /mL, c'est ≥ 104 /mL."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 103 /mL",
+            "justification": "Le seuil de 103 /mL est trop bas pour être considéré comme significatif dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 100 /mL",
+            "justification": "Ce seuil est inférieur à la valeur seuil de 104 /mL, ce qui n'est pas suffisant pour définir une leucocyturie significative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341554962_02",
+      "current_version_epoch_ms": 1755341554962,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le seuil de bactériurie significative chez la femme pour E. coli ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "103 UFC/mL",
+            "justification": "Le seuil de bactériurie significative pour E. coli est de 103 UFC/mL chez la femme, contrairement aux autres bactéries où il est fixé à 104 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "104 UFC/mL",
+            "justification": "Le seuil de bactériurie significative pour E. coli chez la femme est plus bas, fixé à 103 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "105 UFC/mL",
+            "justification": "Le seuil de bactériurie significative pour E. coli chez la femme est inférieur à 105 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "102 UFC/mL",
+            "justification": "Le seuil de bactériurie significative est de 103 UFC/mL et non de 102 UFC/mL pour E. coli chez la femme."
+          },
+          {
+            "correct": false,
+            "proposition": "106 UFC/mL",
+            "justification": "Le seuil de 106 UFC/mL est trop élevé et ne correspond pas à la bactériurie significative pour E. coli chez la femme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341554962_03",
+      "current_version_epoch_ms": 1755341554962,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel seuil de bactériurie est significatif chez l'homme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "103 UFC/mL",
+            "justification": "Le seuil de bactériurie significative chez l'homme est fixé à 103 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "104 UFC/mL",
+            "justification": "Le seuil chez l'homme est de 103 UFC/mL, pas 104 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "105 UFC/mL",
+            "justification": "Le seuil de bactériurie significative chez l'homme est plus bas, fixé à 103 UFC/mL."
+          },
+          {
+            "correct": false,
+            "proposition": "106 UFC/mL",
+            "justification": "Le seuil de 106 UFC/mL est bien trop élevé pour être considéré comme significatif chez l'homme."
+          },
+          {
+            "correct": false,
+            "proposition": "102 UFC/mL",
+            "justification": "Le seuil de 102 UFC/mL est trop bas et ne correspond pas à la bactériurie significative chez l'homme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341554962_04",
+      "current_version_epoch_ms": 1755341554962,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Dans quel cas un ECBU peut-il être négatif alors que l'infection est prouvée cliniquement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de bactérie 'décapitée' par une antibiothérapie",
+            "justification": "Dans certains cas, une antibiothérapie préalable peut décapiter la bactérie, entraînant un ECBU négatif même si l'infection est présente cliniquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une mauvaise prise d'échantillon",
+            "justification": "La mauvaise prise d'échantillon peut aussi entraîner un résultat erroné, mais ce n'est pas une cause explicite mentionnée pour un ECBU négatif dans le contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une infection virale",
+            "justification": "L'ECBU est conçu pour détecter les infections bactériennes, pas virales, ce qui le rend moins pertinent pour les infections virales."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de leucocyturie négative",
+            "justification": "Une leucocyturie négative ne signifie pas nécessairement un ECBU négatif si l'infection bactérienne est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'absence de symptômes",
+            "justification": "L'absence de symptômes n'entraîne pas nécessairement un ECBU négatif, mais plutôt une absence de traitement à envisager."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755341554962_05",
+      "current_version_epoch_ms": 1755341554962,
+      "topic": {
+        "subject": "infectio",
+        "item": "IU"
+      },
+      "data": {
+        "statement": "Quel est le seuil de leucocyturie significatif en cas d'infection urinaire chez un patient ayant subi un geste récent sur les voies urinaires ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "≥ 104 /mL",
+            "justification": "Bien que ce soit le seuil standard, dans ce cas précis, la leucocyturie peut être élevée en raison du geste sur les voies urinaires, mais elle ne reflète pas forcément une infection."
+          },
+          {
+            "correct": true,
+            "proposition": "Aucun seuil fixe applicable",
+            "justification": "Lorsqu'un geste récent sur les voies urinaires a été effectué, les seuils classiques de leucocyturie ne sont pas applicables car d'autres facteurs peuvent influencer les résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 105 /mL",
+            "justification": "Ce seuil est trop élevé et n'est pas applicable dans le cas de gestes chirurgicaux récents sur les voies urinaires."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 103 /mL",
+            "justification": "Le seuil de 103 /mL ne tient pas compte des particularités liées aux gestes réalisés sur les voies urinaires."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 102 /mL",
+            "justification": "Le seuil de 102 /mL est trop bas et ne prend pas en compte les variations induites par les gestes sur les voies urinaires."
+          }
+        ]
+      }
+    }
+  ]
+}
