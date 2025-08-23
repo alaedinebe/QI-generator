@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755975579375_01",
+      "current_version_epoch_ms": 1755975579375,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le critère diagnostique du trouble ventilatoire obstructif en explorations fonctionnelles respiratoires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VEMS/CV < 0,7",
+            "justification": "Ce critère définit un trouble ventilatoire obstructif, car il reflète une diminution du volume expiratoire maximum par rapport à la capacité vitale."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV > 0,7",
+            "justification": "Ce critère n'est pas compatible avec un trouble ventilatoire obstructif, mais indique plutôt une fonction respiratoire normale."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS > 80% avant bronchodilatateur",
+            "justification": "Cela ne correspond pas au critère du trouble ventilatoire obstructif, mais peut faire partie de la réversibilité post-bronchodilatateur."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS < 80% avant bronchodilatateur",
+            "justification": "Ce critère n'est pas suffisant seul pour diagnostiquer un trouble ventilatoire obstructif sans l'analyse du rapport VEMS/CV."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV = 0,9",
+            "justification": "Un rapport VEMS/CV égal à 0,9 indique une fonction respiratoire normale, excluant ainsi un trouble ventilatoire obstructif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975579375_02",
+      "current_version_epoch_ms": 1755975579375,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques de la réversibilité dans un trouble ventilatoire obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation du VEMS post bronchodilatateur de plus de 200mL et ≥12% de la valeur avant bronchodilatateur",
+            "justification": "La réversibilité est définie par cette augmentation du VEMS, indiquant une amélioration de la fonction respiratoire après administration de bronchodilatateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution du VEMS après bronchodilatateur de plus de 200mL",
+            "justification": "Une diminution du VEMS post bronchodilatateur n'est pas un critère de réversibilité, mais pourrait suggérer un mauvais effet du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du VEMS de 10% seulement après bronchodilatateur",
+            "justification": "Une augmentation de 10% ne répond pas au critère minimum de 12% pour qualifier la réversibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS post bronchodilatateur supérieur à 80% de la valeur théorique",
+            "justification": "Ce critère indique une réversibilité complète, mais la réversibilité minimale est définie par une augmentation du VEMS avant toute mesure de pourcentage."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV supérieur à 0,7 après bronchodilatateur",
+            "justification": "Bien que cela indique une fonction respiratoire améliorée, il ne constitue pas le critère direct de réversibilité du trouble obstructif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975579375_03",
+      "current_version_epoch_ms": 1755975579375,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Comment définit-on une réversibilité complète dans un trouble ventilatoire obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VEMS/CV ≥ 0,7 et VEMS > 80% post bronchodilatateur",
+            "justification": "Cela indique une normalisation des paramètres ventilatoires, confirmant une réversibilité complète du trouble ventilatoire obstructif."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV < 0,7 après bronchodilatateur",
+            "justification": "Un rapport inférieur à 0,7 après bronchodilatateur indique toujours une obstruction, et non une réversibilité complète."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS > 80% avant bronchodilatateur",
+            "justification": "Un VEMS > 80% avant bronchodilatateur indique une fonction respiratoire normale, mais ne correspond pas à la réversibilité du trouble obstructif."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS < 200mL après bronchodilatateur",
+            "justification": "Une telle diminution post-bronchodilatateur indique une réponse inefficace, et non une réversibilité complète."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS < 80% après bronchodilatateur",
+            "justification": "Cela correspond à une obstruction persistante malgré le bronchodilatateur, ce qui exclut la réversibilité complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975579375_04",
+      "current_version_epoch_ms": 1755975579375,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelle est l'interprétation du débit expiratoire de pointe (DEP) dans le cadre d'un trouble obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un DEP diminué reflète une obstruction des voies aériennes",
+            "justification": "Le DEP est un indicateur de l'obstruction des voies respiratoires, souvent utilisé pour surveiller l'asthme ou d'autres troubles obstructifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Un DEP élevé indique un trouble ventilatoire obstructif léger",
+            "justification": "Un DEP élevé est incompatible avec un trouble obstructif, car il signale une fonction respiratoire normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DEP ne varie pas avec la gravité du trouble obstructif",
+            "justification": "Le DEP varie en fonction de la gravité de l'obstruction, plus il est bas, plus le trouble est sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Un DEP normal exclut un trouble ventilatoire obstructif",
+            "justification": "Un DEP normal ne permet pas d'exclure complètement un trouble ventilatoire obstructif, mais il réduit la probabilité d'une obstruction sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Un DEP supérieur à 500 L/min indique l'absence d'obstruction",
+            "justification": "Bien qu'un DEP supérieur à 500 L/min soit compatible avec une bonne fonction respiratoire, il n'élimine pas toujours de façon définitive un trouble obstructif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975579375_05",
+      "current_version_epoch_ms": 1755975579375,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est l'indicateur principal d'une réversibilité partielle dans un trouble ventilatoire obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation du VEMS post bronchodilatateur de 200mL et 12%",
+            "justification": "Cet indicateur définit la réversibilité partielle, montrant une amélioration, mais pas une normalisation complète de la fonction respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS supérieur à 80% post bronchodilatateur",
+            "justification": "Cela indique une réversibilité complète et non partielle."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS < 200mL après bronchodilatateur",
+            "justification": "Cela suggère une absence de réversibilité ou une réversibilité insuffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV ≥ 0,7 avant bronchodilatateur",
+            "justification": "Cela indique une fonction respiratoire normale, et non une réversibilité d'un trouble obstructif."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du VEMS de moins de 12%",
+            "justification": "Une augmentation du VEMS de moins de 12% ne répond pas au critère nécessaire pour établir une réversibilité partielle."
+          }
+        ]
+      }
+    }
+  ]
+}
