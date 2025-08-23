@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755972416267_01",
+      "current_version_epoch_ms": 1755972416267,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quels sont les critères diagnostiques permettant de poser un diagnostic d'asthme chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de symptômes caractéristiques : gêne respiratoire, dyspnée, sifflements, toux, oppression thoracique.",
+            "justification": "Ces symptômes sont caractéristiques de l'asthme et se manifestent souvent paroxystiquement, déclenchés par des facteurs tels que les infections ou les allergènes."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une obstruction des voies aériennes réversible sous bronchodilatateurs.",
+            "justification": "Le diagnostic d'asthme repose sur la mise en évidence d'une obstruction réversible à la spirométrie après administration de bronchodilatateurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes ne variant pas au cours du temps.",
+            "justification": "Les symptômes de l'asthme sont paroxystiques et leur intensité varie dans le temps, ce qui les distingue des symptômes d'autres pathologies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de symptômes uniquement lors d'efforts physiques.",
+            "justification": "L'asthme peut être déclenché par l'effort, mais il est également lié à d'autres facteurs comme les infections ou les allergènes."
+          },
+          {
+            "correct": false,
+            "proposition": "Un VEMS/CV supérieur à 0,7.",
+            "justification": "Un VEMS/CV inférieur à 0,7, avec réversibilité sous bronchodilatateur, est nécessaire pour poser un diagnostic d'asthme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755972416267_02",
+      "current_version_epoch_ms": 1755972416267,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Comment est confirmée l'obstruction des voies aériennes dans le cadre d'un diagnostic d'asthme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Par une spirométrie montrant un VEMS/CV < 0,7 et une réversibilité sous bronchodilatateur.",
+            "justification": "Une obstruction des voies aériennes est confirmée par un trouble ventilatoire obstructif avec un ratio VEMS/CV inférieur à 0,7, réversible sous bronchodilatateurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Par une radiographie thoracique montrant une hyperinflation.",
+            "justification": "La radiographie thoracique peut parfois montrer une hyperinflation, mais elle n'est pas suffisante pour confirmer un diagnostic d'asthme."
+          },
+          {
+            "correct": true,
+            "proposition": "Par un gain de plus de 200mL et >12% du VEMS après administration de bronchodilatateur.",
+            "justification": "Un gain significatif du VEMS après bronchodilatateur est un signe caractéristique de l'asthme, confirmant la réversibilité de l'obstruction."
+          },
+          {
+            "correct": false,
+            "proposition": "Par une mesure de la capacité vitale forcée sans test de réversibilité.",
+            "justification": "La mesure de la capacité vitale seule n'est pas suffisante pour diagnostiquer l'asthme ; la réversibilité sous bronchodilatateur est essentielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Par une test de la fonction pulmonaire normale.",
+            "justification": "Une spirométrie normale ne permet pas de poser un diagnostic d'asthme sans test de réversibilité (ex : test à la métacholine en cas de doute)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755972416267_03",
+      "current_version_epoch_ms": 1755972416267,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Dans quelle situation la recherche d'une hyper-réactivité bronchique est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de spirométrie normale.",
+            "justification": "Lorsque la spirométrie est normale mais que les symptômes d'asthme sont présents, un test de réactivité bronchique à la métacholine peut être effectué."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le VEMS est inférieur à 0,7 sans test de réversibilité.",
+            "justification": "La recherche de l'hyper-réactivité bronchique n'est pas nécessaire si l'obstruction est déjà confirmée par la spirométrie et la réversibilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque les symptômes sont paroxystiques et difficiles à différencier d'autres pathologies respiratoires.",
+            "justification": "La recherche d'hyper-réactivité bronchique permet de confirmer le diagnostic d'asthme lorsque les symptômes ne sont pas concluants par la spirométrie seule."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la symptomatologie est constamment présente et ne fluctue pas.",
+            "justification": "L'hyper-réactivité bronchique est surtout recherchée lorsque les symptômes sont intermittents ou paroxystiques, et non constants."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'on observe une toux isolée, sans dyspnée ni sifflements.",
+            "justification": "La toux seule n'est pas un critère suffisant pour la recherche d'hyper-réactivité bronchique dans le cadre du diagnostic de l'asthme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755972416267_04",
+      "current_version_epoch_ms": 1755972416267,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelle caractéristique de l'asthme chez l'enfant doit être prise en compte lors du diagnostic différentiel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La réversibilité de l'obstruction des voies aériennes sous bronchodilatateurs.",
+            "justification": "La réversibilité de l'obstruction est essentielle pour différencier l'asthme des autres pathologies respiratoires chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de symptômes uniquement la nuit.",
+            "justification": "Les symptômes de l'asthme peuvent s'aggraver la nuit, mais ce n'est pas un critère exclusif pour le diagnostic différentiel."
+          },
+          {
+            "correct": true,
+            "proposition": "La fluctuation des symptômes dans le temps, avec des épisodes aigus et des périodes sans symptômes.",
+            "justification": "L'asthme chez l'enfant présente souvent des symptômes paroxystiques qui varient avec le temps, ce qui le distingue d'autres pathologies chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une hyperinflation thoracique permanente.",
+            "justification": "L'hyperinflation thoracique n'est pas un critère diagnostique exclusif de l'asthme et peut se rencontrer dans d'autres pathologies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une toux persistante sans dyspnée.",
+            "justification": "La toux persistante peut être un signe d'asthme, mais elle doit être accompagnée de dyspnée et de symptômes typiques pour confirmer le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755972416267_05",
+      "current_version_epoch_ms": 1755972416267,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel test est utilisé pour confirmer l'hyper-réactivité bronchique en cas de spirométrie normale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test à la métacholine.",
+            "justification": "Le test à la métacholine est utilisé pour provoquer une hyper-réactivité bronchique en cas de spirométrie normale, permettant ainsi de confirmer le diagnostic d'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Test à l'oxygénothérapie.",
+            "justification": "L'oxygénothérapie n'est pas utilisée pour tester l'hyper-réactivité bronchique mais pour traiter les exacerbations d'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de mesure de la capacité vitale forcée.",
+            "justification": "La capacité vitale forcée peut être mesurée dans le cadre de la spirométrie, mais ce n'est pas un test de l'hyper-réactivité bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Test d'effort sur tapis roulant.",
+            "justification": "Un test d'effort est utile pour évaluer l'asthme induit par l'exercice, mais il ne permet pas de diagnostiquer une hyper-réactivité bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie pulmonaire.",
+            "justification": "L'échographie pulmonaire n'est pas utilisée pour diagnostiquer l'asthme ou l'hyper-réactivité bronchique."
+          }
+        ]
+      }
+    }
+  ]
+}
