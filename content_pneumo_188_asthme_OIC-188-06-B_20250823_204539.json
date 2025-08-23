@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755974946344_01",
+      "current_version_epoch_ms": 1755974946344,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est l'élément clé pour poser le diagnostic d'asthme professionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mise en évidence d'un asthme chez un patient avec ou sans antécédents allergiques.",
+            "justification": "Le diagnostic d'asthme professionnel repose sur l'identification d'un asthme chez un patient, même en l'absence d'antécédents allergiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence systématique de rhinite allergique antérieure.",
+            "justification": "Bien que la rhinite allergique puisse être un facteur de risque, elle n'est pas indispensable au diagnostic d'asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "La détection d'une hyperréactivité bronchique spécifique au produit incriminé.",
+            "justification": "La détection d'une hyperréactivité bronchique non spécifique (test à la métacholine) peut être nécessaire, mais elle n'est pas un critère unique pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "La disparition des symptômes pendant les vacances.",
+            "justification": "La rémission des symptômes pendant les congés est un indice, mais ce n'est pas un critère suffisant pour poser le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une éosinophilie dans les prélèvements respiratoires.",
+            "justification": "L'éosinophilie n'est pas spécifique à l'asthme professionnel et n'est pas un critère diagnostic essentiel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974946344_02",
+      "current_version_epoch_ms": 1755974946344,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel test est utilisé pour évaluer l'hyperréactivité bronchique dans le cadre d'un asthme professionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test de provocation à la métacholine.",
+            "justification": "Le test de provocation à la métacholine permet de détecter une hyperréactivité bronchique, ce qui peut être nécessaire lorsque les symptômes sont atypiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Spirométrie basale.",
+            "justification": "La spirométrie basale ne permet pas de mesurer l'hyperréactivité bronchique, mais peut être utile dans le cadre de l'évaluation fonctionnelle de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique.",
+            "justification": "La radiographie thoracique n'est pas utilisée pour évaluer l'hyperréactivité bronchique dans l'asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de réaction allergique cutanée.",
+            "justification": "Bien que les tests allergologiques soient utiles, ils ne sont pas destinés à évaluer l'hyperréactivité bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique complet.",
+            "justification": "L'examen clinique permet d'identifier les signes cliniques, mais ne permet pas de tester l'hyperréactivité bronchique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974946344_03",
+      "current_version_epoch_ms": 1755974946344,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Dans quelle situation est-il nécessaire d'effectuer un test de broncho-provocation pour diagnostiquer un asthme professionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque les symptômes sont cliniquement évocateurs mais que les tests fonctionnels initiaux sont normaux.",
+            "justification": "Le test de broncho-provocation est indiqué lorsque les symptômes sont présents, mais les EFR basales sont normales, permettant ainsi de confirmer la réaction bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe un antécédent d'asthme bien documenté.",
+            "justification": "Un antécédent d'asthme classique ne justifie pas systématiquement un test de broncho-provocation."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une exposition ponctuelle à un allergène.",
+            "justification": "Le test de broncho-provocation n'est pas utilisé après une simple exposition, mais plutôt dans un cadre diagnostique approfondi."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente une toux chronique isolée.",
+            "justification": "La toux chronique isolée ne justifie pas en soi un test de broncho-provocation, un contexte d'asthme professionnel est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de symptômes persistants sans amélioration avec un traitement standard.",
+            "justification": "Un échec thérapeutique ne justifie pas nécessairement un test de broncho-provocation, d'autres examens peuvent être requis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974946344_04",
+      "current_version_epoch_ms": 1755974946344,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Parmi les agents suivants, lequel est un exemple typique d'exposition professionnelle pouvant provoquer un asthme professionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Farine de blé chez un boulanger.",
+            "justification": "La farine de blé est un agent sensibilisant fréquent chez les boulangers, responsable d'asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Parfum de fleurs en milieu hospitalier.",
+            "justification": "Bien que les parfums puissent être irritants, ils ne sont pas typiquement associés à l'asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Fumées de soudage chez un serrurier.",
+            "justification": "Les fumées de soudage peuvent être irritantes, mais elles sont plus liées à un syndrome d'irritation bronchique qu'à un asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépoussiérage de bois dans un atelier de menuiserie.",
+            "justification": "Bien que le dépoussiérage puisse provoquer des irritations, ce n'est pas un agent sensibilisant spécifique pour l'asthme professionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Produits cosmétiques utilisés en parfumerie.",
+            "justification": "Les produits cosmétiques peuvent causer des irritations cutanées, mais ne sont pas des causes classiques d'asthme professionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974946344_05",
+      "current_version_epoch_ms": 1755974946344,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelle caractéristique clinique est suggestive d'un asthme professionnel en lien avec l'exposition professionnelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Des symptômes qui disparaissent lors des week-ends ou des congés.",
+            "justification": "Les symptômes d'asthme professionnel sont souvent liés à l'exposition professionnelle et s'améliorent pendant les périodes sans exposition, comme les week-ends ou les congés."
+          },
+          {
+            "correct": false,
+            "proposition": "Des symptômes présents uniquement lors d'efforts physiques intenses.",
+            "justification": "Les symptômes d'asthme professionnel ne sont pas limités aux efforts physiques intenses, mais dépendent de l'exposition à des agents sensibilisants."
+          },
+          {
+            "correct": false,
+            "proposition": "Des symptômes permanents, sans variation notable.",
+            "justification": "L'asthme professionnel présente souvent des symptômes fluctuants, en fonction des expositions, et non des symptômes constants."
+          },
+          {
+            "correct": false,
+            "proposition": "Des symptômes uniquement nocturnes, sans autre manifestation diurne.",
+            "justification": "L'asthme professionnel ne se limite pas aux symptômes nocturnes, bien que ceux-ci puissent être présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Une amélioration rapide avec l'administration d'antibiotiques.",
+            "justification": "L'asthme professionnel ne répond pas aux antibiotiques, car il est d'origine inflammatoire et non infectieuse."
+          }
+        ]
+      }
+    }
+  ]
+}
