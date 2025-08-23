@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "fievreimmunoD",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755980004094_01",
+      "current_version_epoch_ms": 1755980004094,
+      "rang": "A",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quelle est la définition de la neutropénie chez un patient fébrile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre de 38°C à deux reprises ou pendant plus d'une heure, avec un PNN < 0,5 G/L",
+            "justification": "La définition de la neutropénie fébrile repose sur la présence de fièvre et d'un PNN inférieur à 0,5 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre de 39°C à deux reprises ou pendant plus de 30 minutes, avec un PNN < 1 G/L",
+            "justification": "La température et le seuil de PNN sont incorrects dans cette proposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre supérieure à 38,3°C une seule fois, avec un PNN < 1 G/L",
+            "justification": "La définition exige une fièvre répétée ou prolongée, et un seuil de PNN < 0,5 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre de 37,5°C à deux reprises, avec un PNN < 0,5 G/L",
+            "justification": "La température de fièvre doit être égale ou supérieure à 38°C."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre avec une température ≥ 38°C et un PNN supérieur à 0,5 G/L",
+            "justification": "Un PNN supérieur à 0,5 G/L exclut la définition de la neutropénie fébrile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755980004094_02",
+      "current_version_epoch_ms": 1755980004094,
+      "rang": "A",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quel est le risque infectieux chez un patient présentant une neutropénie avec un PNN < 500/mm3 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque infectieux majeur, nécessitant une prise en charge urgente",
+            "justification": "Un PNN inférieur à 500/mm3 indique un risque infectieux majeur, justifiant une urgence thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque infectieux modéré, une surveillance est suffisante",
+            "justification": "Le risque infectieux est élevé en dessous de 500/mm3 et nécessite une intervention immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque infectieux faible, avec un traitement standard possible",
+            "justification": "Un PNN aussi bas indique un risque infectieux sévère et urgent, nécessitant une prise en charge rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun risque infectieux n'est associé à un PNN < 500/mm3",
+            "justification": "Un PNN inférieur à 500/mm3 est un facteur de risque infectieux très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque infectieux uniquement lié à d'autres pathologies sous-jacentes",
+            "justification": "Même en l'absence d'autres pathologies, un PNN bas seul entraîne un risque infectieux majeur."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755980004094_03",
+      "current_version_epoch_ms": 1755980004094,
+      "rang": "A",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quelle est la température minimale définissant une fièvre dans la neutropénie fébrile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "38°C, mesurée à deux reprises ou pendant plus d'une heure",
+            "justification": "La fièvre dans la neutropénie fébrile est définie par une température ≥ 38°C à deux reprises ou pendant plus d'une heure."
+          },
+          {
+            "correct": false,
+            "proposition": "37,5°C, mesurée à une seule reprise",
+            "justification": "La température doit être ≥ 38°C pour être considérée comme de la fièvre dans la neutropénie fébrile."
+          },
+          {
+            "correct": false,
+            "proposition": "38,5°C, mesurée une seule fois",
+            "justification": "La température définissant la fièvre peut être 38°C, mais il faut deux prises ou plus d'une heure ou 38,3°C une seule fois."
+          },
+          {
+            "correct": false,
+            "proposition": "37,8°C, mesurée deux fois",
+            "justification": "Le seuil minimal est de 38°C pour qu'on parle de fièvre dans la définition de la neutropénie fébrile."
+          },
+          {
+            "correct": false,
+            "proposition": "39°C, mesurée une seule fois",
+            "justification": "39°C est trop élevé pour correspondre à la définition de la fièvre dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755980004094_04",
+      "current_version_epoch_ms": 1755980004094,
+      "rang": "A",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quelles sont les conséquences d'une neutropénie fébrile non traitée chez un patient avec un PNN < 0,5 G/L ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infections graves pouvant évoluer vers des sepsis",
+            "justification": "La neutropénie fébrile non traitée entraîne un risque infectieux majeur, notamment des infections graves et des sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune conséquence si la température est contrôlée",
+            "justification": "Même avec une fièvre contrôlée, le risque infectieux persiste avec un PNN bas et nécessite une prise en charge urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Un risque d'hémorragies graves lié à la neutropénie",
+            "justification": "Les complications de la neutropénie fébrile sont principalement infectieuses, non hémorragiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun traitement n'est nécessaire si le patient est stable",
+            "justification": "La neutropénie fébrile doit toujours être traitée immédiatement, quel que soit l'état clinique du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Infections bénignes qui peuvent être surveillées sans traitement",
+            "justification": "Les infections liées à la neutropénie fébrile sont souvent graves et nécessitent une intervention thérapeutique immédiate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755980004094_05",
+      "current_version_epoch_ms": 1755980004094,
+      "rang": "A",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Pourquoi la neutropénie fébrile est-elle considérée comme une urgence thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En raison du risque infectieux majeur lié à un faible nombre de PNN",
+            "justification": "Un PNN inférieur à 0,5 G/L rend le patient très vulnérable aux infections graves, justifiant une prise en charge immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'elle conduit à une déshydratation sévère nécessitant un traitement d'urgence",
+            "justification": "La déshydratation n'est pas un facteur clé dans la définition de la neutropénie fébrile."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que la fièvre elle-même est systématiquement létale sans traitement",
+            "justification": "La fièvre seule n'est pas systématiquement létale, c'est le risque infectieux associé à la neutropénie qui nécessite un traitement immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Car elle est causée par une infection virale, toujours grave",
+            "justification": "La neutropénie fébrile peut être causée par une variété d'infections, pas uniquement virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que les symptômes sont rapidement réversibles avec des antibiotiques simples",
+            "justification": "Bien que les antibiotiques soient nécessaires, la neutropénie fébrile reste une urgence en raison du risque élevé d'infections graves."
+          }
+        ]
+      }
+    }
+  ]
+}
