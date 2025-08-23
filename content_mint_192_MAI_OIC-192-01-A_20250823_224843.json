@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MAI",
+    "subject": "mint"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755982330003_01",
+      "current_version_epoch_ms": 1755982330003,
+      "rang": "A",
+      "topic": {
+        "subject": "mint",
+        "item": "MAI"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme sous-jacent de la maladie auto-immune ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La rupture de la tolérance aux antigènes du soi entraîne une réponse immunitaire adaptative",
+            "justification": "La maladie auto-immune survient lorsque la tolérance aux antigènes du soi est rompue, ce qui déclenche une réponse immunitaire délétère contre ces antigènes."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie auto-immune résulte d'une activation excessive du système immunitaire contre des antigènes étrangers",
+            "justification": "Cette proposition confond la réaction immunitaire dirigée contre les antigènes du soi et celle contre les antigènes étrangers."
+          },
+          {
+            "correct": false,
+            "proposition": "Les maladies auto-immunes sont causées uniquement par des facteurs environnementaux",
+            "justification": "Les maladies auto-immunes sont liées à la rupture de la tolérance aux antigènes du soi, un phénomène complexe impliquant des facteurs génétiques et environnementaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Les maladies auto-immunes sont toujours limitées à un seul organe",
+            "justification": "Les maladies auto-immunes peuvent être soit spécifiques d'organe, soit systémiques, selon la localisation des autoantigènes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les autoantigènes sont toujours présents dans plusieurs organes et tissus",
+            "justification": "Les autoantigènes peuvent être spécifiques à un organe ou être largement distribués dans l'organisme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982330003_02",
+      "current_version_epoch_ms": 1755982330003,
+      "rang": "A",
+      "topic": {
+        "subject": "mint",
+        "item": "MAI"
+      },
+      "data": {
+        "statement": "Quelle est la différence entre une maladie auto-immune spécifique d'organe et une maladie auto-immune systémique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une maladie auto-immune spécifique d'organe affecte un seul tissu ou organe, tandis qu'une maladie systémique affecte plusieurs tissus",
+            "justification": "Une maladie auto-immune spécifique d'organe touche un organe particulier, alors qu'une maladie systémique implique plusieurs organes ou tissus."
+          },
+          {
+            "correct": false,
+            "proposition": "Les maladies spécifiques d'organe sont plus graves que les maladies systémiques",
+            "justification": "La gravité d'une maladie auto-immune n'est pas directement liée à sa spécificité d'organe, mais dépend de nombreux facteurs comme la réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Les maladies systémiques touchent exclusivement des organes internes, tandis que les maladies spécifiques d'organe affectent la peau",
+            "justification": "Les maladies systémiques peuvent toucher n'importe quel organe, tandis que les maladies spécifiques d'organe peuvent toucher aussi bien des organes internes que la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Les maladies spécifiques d'organe sont causées par une absence de tolérance aux antigènes du soi, tandis que les maladies systémiques n'impliquent pas la tolérance",
+            "justification": "Les deux types de maladies auto-immunes impliquent une rupture de la tolérance aux antigènes du soi, mais leur présentation clinique diffère."
+          },
+          {
+            "correct": false,
+            "proposition": "Une maladie systémique est toujours plus fréquente qu'une maladie spécifique d'organe",
+            "justification": "La fréquence des maladies auto-immunes spécifiques ou systémiques dépend de nombreux facteurs et ne peut pas être généralisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982330003_03",
+      "current_version_epoch_ms": 1755982330003,
+      "rang": "A",
+      "topic": {
+        "subject": "mint",
+        "item": "MAI"
+      },
+      "data": {
+        "statement": "Quel processus est responsable de la tolérance aux antigènes du soi ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La tolérance centrale se déroule dans les organes lymphoïdes primaires, et la tolérance périphérique dans les organes lymphoïdes secondaires",
+            "justification": "La tolérance aux antigènes du soi est maintenue par des mécanismes dans les organes lymphoïdes primaires (centrale) et secondaires (périphérique)."
+          },
+          {
+            "correct": false,
+            "proposition": "La tolérance aux antigènes du soi est uniquement régulée au niveau des organes lymphoïdes secondaires",
+            "justification": "La tolérance aux antigènes du soi dépend également des mécanismes dans les organes lymphoïdes primaires (centrale)."
+          },
+          {
+            "correct": false,
+            "proposition": "La tolérance est assurée par des cellules immunitaires qui inhibent l'activation des antigènes étrangers",
+            "justification": "La tolérance aux antigènes du soi est spécifique à la non-réponse à ces antigènes, tandis que l'activation des antigènes étrangers implique d'autres mécanismes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les processus de tolérance centrale et périphérique sont identiques dans leur mécanisme",
+            "justification": "Les mécanismes de tolérance centrale et périphérique diffèrent dans leur localisation et leurs processus spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La tolérance aux antigènes du soi dépend uniquement d'une absence d'activation des lymphocytes T",
+            "justification": "La tolérance implique aussi d'autres processus, notamment l'élimination de cellules autoréactives et la régulation au niveau des lymphocytes B."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982330003_04",
+      "current_version_epoch_ms": 1755982330003,
+      "rang": "A",
+      "topic": {
+        "subject": "mint",
+        "item": "MAI"
+      },
+      "data": {
+        "statement": "Quand une réponse auto-immune devient-elle délétère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La réponse auto-immune devient délétère lorsque la tolérance aux antigènes du soi est rompue",
+            "justification": "La réponse auto-immune devient délétère dès lors que la tolérance au soi est brisée, entraînant une réponse immunitaire anormale contre le soi."
+          },
+          {
+            "correct": false,
+            "proposition": "La réponse auto-immune est toujours délétère, même lorsqu'elle est dirigée contre des antigènes étrangers",
+            "justification": "Les réponses auto-immunes sont problématiques lorsqu'elles ciblent des antigènes du soi, mais pas lorsqu'elles sont dirigées contre des antigènes étrangers."
+          },
+          {
+            "correct": false,
+            "proposition": "La réponse auto-immune ne devient délétère que lorsque les symptômes cliniques apparaissent",
+            "justification": "Les lésions tissulaires et la symptomatologie surviennent indépendamment de l'apparition des symptômes cliniques, dès que la réponse auto-immune est activée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réponses auto-immunes sont toujours limitées à des réponses inflammatoires locales et ne deviennent jamais systémiques",
+            "justification": "Les réponses auto-immunes peuvent être à la fois locales et systémiques, selon la distribution des autoantigènes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réponses auto-immunes ne deviennent délétères que lorsqu'elles affectent un organe spécifique",
+            "justification": "Les réponses auto-immunes peuvent devenir délétères même lorsqu'elles affectent plusieurs organes, comme dans les maladies systémiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982330003_05",
+      "current_version_epoch_ms": 1755982330003,
+      "rang": "A",
+      "topic": {
+        "subject": "mint",
+        "item": "MAI"
+      },
+      "data": {
+        "statement": "Que se passe-t-il lorsque la tolérance aux antigènes du soi est rompue ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'organisme déclenche une réponse immunitaire adaptative contre les antigènes du soi, entraînant des lésions tissulaires",
+            "justification": "Lorsque la tolérance est rompue, une réponse immunitaire contre le soi se produit, ce qui peut entraîner des lésions tissulaires et des symptômes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'organisme produit uniquement des anticorps contre les antigènes étrangers",
+            "justification": "La rupture de la tolérance concerne spécifiquement les antigènes du soi, pas uniquement les antigènes étrangers."
+          },
+          {
+            "correct": false,
+            "proposition": "La réponse immunitaire activée est toujours rapidement contrôlée par des mécanismes inhibiteurs naturels",
+            "justification": "Lorsque la tolérance est rompue, la réponse auto-immune peut devenir dysrégulée et ne pas être contrôlée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les symptômes cliniques apparaissent uniquement après plusieurs années d'exposition aux antigènes du soi",
+            "justification": "Les symptômes peuvent apparaître rapidement après la rupture de la tolérance, en fonction de la nature et de la localisation de l'autoantigène."
+          },
+          {
+            "correct": false,
+            "proposition": "La réponse immunitaire adaptative entraîne la suppression immédiate des autoantigènes",
+            "justification": "La réponse immunitaire ne supprime pas les autoantigènes mais les cible, entraînant des lésions tissulaires."
+          }
+        ]
+      }
+    }
+  ]
+}
