@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755973049232_01",
+      "current_version_epoch_ms": 1755973049232,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Parmi les signes de gravité d'une exacerbation d'asthme chez l'adulte, quel est celui qui indique une défaillance respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parle avec des mots",
+            "justification": "Le fait de ne plus pouvoir parler en phrases complètes indique une défaillance respiratoire grave, avec un recours aux muscles respiratoires accessoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Parle avec des phrases courtes ou interrompues par l'inspiration",
+            "justification": "Ce signe est plutôt indicatif de signes de lutte, non de défaillance respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférence pour la position allongée",
+            "justification": "Une préférence pour la position allongée est un signe moins spécifique dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "FR > 25/min",
+            "justification": "Une fréquence respiratoire supérieure à 25/min peut être un signe de lutte, mais pas nécessairement de défaillance respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "FC > 100/min",
+            "justification": "Une fréquence cardiaque élevée peut être un signe de lutte, mais pas un critère suffisant pour diagnostiquer une défaillance respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755973049232_02",
+      "current_version_epoch_ms": 1755973049232,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel signe est typique d'une détresse respiratoire grave dans le cadre d'une exacerbation d'asthme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utilisation des muscles respiratoires accessoires",
+            "justification": "L'utilisation des muscles respiratoires accessoires est un signe clé de défaillance respiratoire grave."
+          },
+          {
+            "correct": false,
+            "proposition": "FR > 25/min",
+            "justification": "Un FR supérieur à 25/min est un signe de lutte, pas nécessairement de défaillance respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Débit Expiratoire de Pointe (DEP) > 50% de la meilleure valeur",
+            "justification": "Un DEP supérieur à 50% indique une forme moins sévère d'exacerbation, pas une défaillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Silence auscultatoire",
+            "justification": "Bien que le silence auscultatoire soit un signe inquiétant, il peut aussi correspondre à d'autres pathologies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles de la conscience",
+            "justification": "Les troubles de la conscience sont plus liés à un stade très avancé de défaillance, souvent associé à d'autres signes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755973049232_03",
+      "current_version_epoch_ms": 1755973049232,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Lors d'une exacerbation d'asthme, quel critère indique une défaillance respiratoire avancée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SpO2 < 90% en air",
+            "justification": "Une SpO2 inférieure à 90% en air ambiant est un critère de défaillance respiratoire avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "FC > 120/min",
+            "justification": "Une fréquence cardiaque élevée est un signe de lutte, mais pas nécessairement de défaillance respiratoire avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "FR > 30/min",
+            "justification": "Bien qu'une fréquence respiratoire supérieure à 30/min puisse être un signe de défaillance, elle n'indique pas nécessairement une défaillance avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Parle avec des phrases courtes",
+            "justification": "La capacité à parler avec des phrases courtes correspond plus à une phase de lutte qu'à une phase de défaillance avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Assis penché en avant",
+            "justification": "Cette position est un signe de lutte, pas de défaillance avancée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755973049232_04",
+      "current_version_epoch_ms": 1755973049232,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le critère de gravité lié au débit expiratoire de pointe (DEP) lors d'une exacerbation d'asthme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "DEP ≤ 50% de la meilleure valeur",
+            "justification": "Un DEP inférieur ou égal à 50% de la meilleure valeur est un critère de gravité, tant pour les signes de lutte que pour ceux de défaillance."
+          },
+          {
+            "correct": false,
+            "proposition": "DEP > 50% de la meilleure valeur",
+            "justification": "Un DEP supérieur à 50% indique une forme modérée d'exacerbation, mais pas une situation critique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DEP ne doit pas être utilisé dans l'évaluation de la gravité",
+            "justification": "Le DEP est un critère fondamental pour évaluer la gravité d'une exacerbation d'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DEP ne peut pas être mesuré chez les enfants",
+            "justification": "Le DEP peut être mesuré chez les enfants, bien qu'il puisse être moins fiable dans les formes sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Le DEP est secondaire par rapport à la fréquence respiratoire",
+            "justification": "Le DEP est un critère essentiel qui doit être pris en compte indépendamment de la fréquence respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755973049232_05",
+      "current_version_epoch_ms": 1755973049232,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Dans une exacerbation d'asthme, quel signe indique une défaillance respiratoire chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utilisation des muscles respiratoires accessoires",
+            "justification": "L'utilisation des muscles respiratoires accessoires est un signe clé de défaillance respiratoire, particulièrement chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Parle avec des phrases courtes ou interrompues",
+            "justification": "Ce signe reflète une phase de lutte, pas de défaillance respiratoire avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférence pour la position allongée",
+            "justification": "Chez l'enfant, la position allongée est moins significative par rapport à la position assise qu'un adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "SpO2 < 95% en air",
+            "justification": "Une SpO2 inférieure à 95% indique un problème respiratoire, mais elle ne suffit pas à diagnostiquer une défaillance respiratoire avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "FR > 30/min",
+            "justification": "Une fréquence respiratoire supérieure à 30/min est un signe de lutte, mais non nécessairement de défaillance avancée."
+          }
+        ]
+      }
+    }
+  ]
+}
