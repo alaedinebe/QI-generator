@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755974525460_01",
+      "current_version_epoch_ms": 1755974525460,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelle est la prévalence de l'asthme dans la population générale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "6%",
+            "justification": "La prévalence de l'asthme dans la population générale est de 6%, selon les données épidémiologiques disponibles."
+          },
+          {
+            "correct": false,
+            "proposition": "24%",
+            "justification": "La prévalence de la rhinite allergique dans la population générale est de 24%, mais non celle de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Ce pourcentage correspond à la probabilité pour un enfant de développer un asthme en l'absence d'antécédent parental."
+          },
+          {
+            "correct": false,
+            "proposition": "50%",
+            "justification": "Le pourcentage de 50% correspond à la probabilité de développement de l'asthme pour un enfant dont les deux parents sont asthmatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "80%",
+            "justification": "Ce pourcentage correspond à la fréquence de la rhinite allergique chez les asthmatiques, et non à la prévalence de l'asthme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974525460_02",
+      "current_version_epoch_ms": 1755974525460,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le risque pour un enfant de développer un asthme si un seul parent est asthmatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "25%",
+            "justification": "Le risque pour un enfant de développer un asthme est de 25% lorsque l'un des deux parents est asthmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Ce pourcentage correspond au risque de développer un asthme si aucun des parents n'est asthmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "50%",
+            "justification": "Le risque de 50% s'applique lorsque les deux parents sont asthmatiques, et non lorsqu'un seul parent est asthmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "80%",
+            "justification": "Ce chiffre correspond à la proportion de patients asthmatiques présentant une rhinite allergique, mais n'est pas lié au risque génétique de développement de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "40%",
+            "justification": "Ce chiffre n'est pas pertinent dans le cadre des facteurs génétiques du risque d'asthme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974525460_03",
+      "current_version_epoch_ms": 1755974525460,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel facteur environnemental favorise particulièrement le développement de l'asthme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exposition au tabac dès la conception",
+            "justification": "L'exposition au tabac dès la conception est un facteur environnemental majeur favorisant le développement de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Infections virales",
+            "justification": "Les infections virales peuvent jouer un rôle dans le développement de l'asthme, mais elles ne sont pas aussi déterminantes que l'exposition au tabac."
+          },
+          {
+            "correct": false,
+            "proposition": "Sensibilisation aux pneumallergènes",
+            "justification": "Bien que la sensibilisation aux pneumallergènes soit un facteur de risque, l'exposition au tabac reste plus prépondérante."
+          },
+          {
+            "correct": false,
+            "proposition": "Pollution de l'air intérieur",
+            "justification": "La pollution de l'air intérieur est un facteur contribuant au développement de l'asthme, mais l'exposition au tabac est un facteur plus critique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pollution de l'air extérieur",
+            "justification": "La pollution de l'air extérieur est également un facteur environnemental de risque, mais l'exposition au tabac est plus directement impliquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974525460_04",
+      "current_version_epoch_ms": 1755974525460,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le pourcentage de patients asthmatiques qui présentent également une rhinite allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "80%",
+            "justification": "Environ 80% des patients asthmatiques présentent également une rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "24%",
+            "justification": "24% représente la prévalence de la rhinite allergique dans la population générale, mais pas chez les asthmatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "50%",
+            "justification": "50% n'est pas représentatif du pourcentage de patients asthmatiques ayant une rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Ce pourcentage correspond au risque de développement de l'asthme chez un enfant dont aucun parent n'est asthmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "6%",
+            "justification": "6% correspond à la prévalence de l'asthme dans la population générale, pas à la co-occurrence avec la rhinite allergique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755974525460_05",
+      "current_version_epoch_ms": 1755974525460,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le risque pour un enfant de développer un asthme si les deux parents sont asthmatiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plus de 50%",
+            "justification": "Le risque pour un enfant de développer un asthme est supérieur à 50% lorsque les deux parents sont asthmatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Ce risque correspond à la probabilité d'un enfant de développer un asthme lorsque les parents n'ont pas d'antécédents asthmatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "25%",
+            "justification": "Le risque est de 25% lorsque l'un des deux parents est asthmatique, et non lorsque les deux parents le sont."
+          },
+          {
+            "correct": false,
+            "proposition": "80%",
+            "justification": "80% correspond à la fréquence de la rhinite allergique chez les asthmatiques, et non au risque de développement de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "50%",
+            "justification": "Bien que le risque soit élevé, il est supérieur à 50% lorsque les deux parents sont asthmatiques, mais ne correspond pas exactement à 50%."
+          }
+        ]
+      }
+    }
+  ]
+}
