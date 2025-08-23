@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755975789674_01",
+      "current_version_epoch_ms": 1755975789674,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il pertinent de réaliser un test immuno-allergique (prick-test et dosage des IgE spécifiques) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le diagnostic d'asthme est porté",
+            "justification": "Le test immuno-allergique est recommandé pour confirmer la présence d'une allergie chez un patient diagnostiqué asthmatique."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un diagnostic de rhinite chronique d'origine allergique est suspecté",
+            "justification": "Le test immuno-allergique permet de confirmer l'hypothèse d'une origine allergique dans le cadre de la rhinite chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la prise en charge d'une infection virale aiguë",
+            "justification": "Les tests immuno-allergiques ne sont pas indiqués dans le cadre d'infections virales aiguës, mais plutôt pour diagnostiquer des allergies."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient présente des symptômes gastro-intestinaux",
+            "justification": "Les symptômes gastro-intestinaux ne justifient pas l'indication des tests immuno-allergiques qui sont principalement utilisés pour diagnostiquer des allergies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les cas de dermatite atopique non suspecte d'origine allergique",
+            "justification": "Les tests immuno-allergiques ne sont pas nécessaires en l'absence de suspicion d'allergie dans les cas de dermatite atopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975789674_02",
+      "current_version_epoch_ms": 1755975789674,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt des tests immuno-allergiques dans le diagnostic de la rhinite chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils permettent de confirmer l'origine allergique de la rhinite chronique",
+            "justification": "Le test immuno-allergique est essentiel pour identifier les allergènes responsables dans les cas de rhinite chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont utilisés pour diagnostiquer les infections respiratoires bactériennes",
+            "justification": "Les tests immuno-allergiques ne sont pas utilisés pour diagnostiquer des infections, mais pour identifier des sensibilisations allergiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont réalisés uniquement lorsque la rhinite est aiguë",
+            "justification": "Les tests immuno-allergiques sont surtout utiles pour les rhinites chroniques d'origine allergique, et non en cas de rhinite aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils permettent d'identifier les allergènes spécifiques responsables des symptômes",
+            "justification": "Le dosage des IgE spécifiques permet de déterminer quels allergènes sont impliqués dans la rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils ne sont utiles que dans les formes sévères de rhinite",
+            "justification": "Les tests immuno-allergiques sont utiles pour tous les cas suspects de rhinite allergique, pas seulement les formes sévères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975789674_03",
+      "current_version_epoch_ms": 1755975789674,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Dans quelle situation un test immuno-allergique n'est-il pas recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la rhinite est d'origine virale",
+            "justification": "Les tests immuno-allergiques ne sont pas nécessaires pour une rhinite virale, car il n'y a pas d'allergie impliquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a suspicion d'asthme",
+            "justification": "Un test immuno-allergique est indiqué pour confirmer une origine allergique de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient présente une rhinite saisonnière",
+            "justification": "Les tests immuno-allergiques peuvent être utiles dans les rhinites saisonnières pour identifier les allergènes responsables."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une dermatite atopique est suspectée",
+            "justification": "Les tests immuno-allergiques peuvent être utilisés pour identifier des allergies dans le cadre d'une dermatite atopique."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque la rhinite est d'origine non allergique",
+            "justification": "Si la rhinite n'est pas d'origine allergique, les tests immuno-allergiques ne sont pas recommandés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975789674_04",
+      "current_version_epoch_ms": 1755975789674,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quels tests sont généralement utilisés pour diagnostiquer une allergie chez un patient asthmatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le prick-test et le dosage des IgE spécifiques",
+            "justification": "Le prick-test et le dosage des IgE spécifiques sont des tests de choix pour diagnostiquer les allergies responsables de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Le test de la fonction pulmonaire uniquement",
+            "justification": "Le test de la fonction pulmonaire peut aider à diagnostiquer l'asthme, mais il ne permet pas d'identifier l'origine allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie thoracique",
+            "justification": "La radiographie thoracique est utilisée pour d'autres pathologies pulmonaires, mais elle n'est pas utilisée pour diagnostiquer les allergies."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie cardiaque",
+            "justification": "L'échographie cardiaque est utilisée pour évaluer des pathologies cardiaques, et non pour diagnostiquer des allergies."
+          },
+          {
+            "correct": true,
+            "proposition": "Le test de provocation allergénique",
+            "justification": "Le test de provocation allergénique peut être réalisé dans certains cas pour confirmer l'allergie en reproduisant les symptômes sous contrôle médical."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755975789674_05",
+      "current_version_epoch_ms": 1755975789674,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Pourquoi les tests immuno-allergiques ne sont-ils pas systématiquement réalisés dans tous les cas d'asthme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parce que l'asthme peut être déclenché par d'autres facteurs que des allergènes",
+            "justification": "L'asthme peut être d'origine non allergique, et les tests immuno-allergiques sont indiqués seulement si l'origine allergique est suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que ces tests sont trop coûteux",
+            "justification": "Les tests immuno-allergiques ne sont pas réalisés en raison du coût, mais de l'absence de suspicion d'allergie dans certains cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'ils sont peu fiables",
+            "justification": "Les tests immuno-allergiques sont fiables lorsqu'ils sont correctement utilisés dans les cas appropriés."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que le diagnostic de l'asthme est basé uniquement sur les symptômes",
+            "justification": "Bien que les symptômes soient importants, le diagnostic d'asthme peut être complété par des tests pour évaluer l'origine allergique."
+          },
+          {
+            "correct": true,
+            "proposition": "Parce que l'asthme peut être d'origine non allergique",
+            "justification": "Lorsque l'asthme est non allergique, les tests immuno-allergiques ne sont pas nécessaires."
+          }
+        ]
+      }
+    }
+  ]
+}
