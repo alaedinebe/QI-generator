@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "fievreimmunoD",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755982119068_01",
+      "current_version_epoch_ms": 1755982119068,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quelles sont les contre-indications à l'administration d'un vaccin vivant atténué chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence d'un déficit immunitaire",
+            "justification": "Un déficit immunitaire est une contre-indication absolue à la vaccination avec un vaccin vivant atténué en raison du risque de maladie vaccinale."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise d'un antibiotique",
+            "justification": "La prise d'antibiotiques n'est pas une contre-indication à l'utilisation de vaccins vivants atténués."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge du patient supérieur à 65 ans",
+            "justification": "L'âge du patient n'est pas une contre-indication à l'administration de vaccins vivants atténués."
+          },
+          {
+            "correct": false,
+            "proposition": "Une maladie auto-immune sous traitement immunosuppresseur",
+            "justification": "Une maladie auto-immune sous traitement immunosuppresseur nécessite des précautions, mais n'est pas une contre-indication absolue à la vaccination vivante."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de vaccination antérieure",
+            "justification": "L'absence de vaccination antérieure n'est pas une contre-indication pour l'administration de vaccins vivants atténués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982119068_02",
+      "current_version_epoch_ms": 1755982119068,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Chez un patient immunodéprimé, quel vaccin est recommandé chaque année ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccination anti-grippale",
+            "justification": "La vaccination anti-grippale annuelle est fortement recommandée chez les patients immunodéprimés pour prévenir les complications graves liées à la grippe."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination contre la tuberculose",
+            "justification": "La vaccination contre la tuberculose (BCG) est contre-indiquée chez les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination contre la varicelle (VZV)",
+            "justification": "Le vaccin contre la varicelle, vivant atténué, est contre-indiqué chez les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination anti-pneumococcique",
+            "justification": "La vaccination anti-pneumococcique est recommandée, mais elle ne doit pas être effectuée chaque année comme l'anti-grippale."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination contre l'hépatite B",
+            "justification": "La vaccination contre l'hépatite B est recommandée chez les immunodéprimés, mais pas nécessairement chaque année."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982119068_03",
+      "current_version_epoch_ms": 1755982119068,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quelles sont les recommandations concernant la vaccination avant le début d'un traitement immunosuppresseur chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vacciner le patient au moins 2 semaines avant le début du traitement",
+            "justification": "Il est recommandé de vacciner le patient au moins deux semaines avant le début du traitement immunosuppresseur pour assurer une réponse immunitaire optimale."
+          },
+          {
+            "correct": false,
+            "proposition": "Vacciner immédiatement après le début du traitement",
+            "justification": "Vacciner immédiatement après le début du traitement peut réduire l'efficacité de la vaccination en raison de l'immunosuppression."
+          },
+          {
+            "correct": false,
+            "proposition": "La vaccination n'est pas nécessaire avant le traitement",
+            "justification": "Il est essentiel de vacciner avant le traitement immunosuppresseur pour réduire les risques d'infections graves pendant la période de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Vacciner dès la mise en place du traitement, sans délai",
+            "justification": "La vaccination doit être effectuée avant le traitement pour maximiser la réponse immunitaire et éviter les complications infectieuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Vacciner le patient deux mois après le début du traitement",
+            "justification": "La vaccination deux mois après le début du traitement est trop tardive et peut ne pas offrir la protection adéquate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982119068_04",
+      "current_version_epoch_ms": 1755982119068,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Quels sont les vaccins contre-indiqués chez un patient immunodéprimé avec un CD4 < 0.2G/L ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccins vivants atténués (ROR, VZV, Fièvre jaune)",
+            "justification": "Les vaccins vivants atténués, tels que le ROR, le VZV, et la fièvre jaune, sont contre-indiqués en cas de CD4 < 0.2G/L en raison du risque de maladie vaccinale."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin anti-grippal",
+            "justification": "Le vaccin anti-grippal est recommandé chaque année, même chez les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin antipneumococcique conjugué",
+            "justification": "Le vaccin antipneumococcique conjugué est recommandé chez les patients immunodéprimés et ne présente pas de contre-indication spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre l'hépatite B",
+            "justification": "Le vaccin contre l'hépatite B est recommandé chez les immunodéprimés et n'est pas contre-indiqué, même à faible niveau de CD4."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre la grippe H1N1",
+            "justification": "Le vaccin contre la grippe H1N1 fait partie de la vaccination anti-grippale recommandée et n'est pas contre-indiqué chez les immunodéprimés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755982119068_05",
+      "current_version_epoch_ms": 1755982119068,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "fievreimmunoD"
+      },
+      "data": {
+        "statement": "Que doit-on vérifier après la vaccination chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dosage des anticorps sériques protecteurs après 4 à 6 semaines",
+            "justification": "Il est recommandé de vérifier l'immunogénicité de la vaccination par dosage des anticorps sériques protecteurs après 4 à 6 semaines et de proposer des injections supplémentaires si nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La température corporelle immédiatement après la vaccination",
+            "justification": "La température corporelle n'est pas un indicateur direct de l'efficacité de la vaccination chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de symptômes de maladie infectieuse",
+            "justification": "L'absence de symptômes de maladie infectieuse ne garantit pas une réponse immunitaire adéquate chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'effets secondaires locaux",
+            "justification": "La présence d'effets secondaires locaux tels que des douleurs ou des rougeurs n'indique pas la réussite ou l'échec de la vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suivi clinique d'un mois après la vaccination",
+            "justification": "Le suivi clinique à un mois n'est pas suffisant pour évaluer l'efficacité de la vaccination, un dosage des anticorps sériques est nécessaire."
+          }
+        ]
+      }
+    }
+  ]
+}
