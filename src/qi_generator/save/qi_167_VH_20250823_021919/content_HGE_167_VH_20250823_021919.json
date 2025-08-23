@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VH",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755908565718_01",
+      "current_version_epoch_ms": 1755908565718,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Identifier les situations pour lesquelles la vaccination contre l'hépatite A est recommandée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Voyageurs en pays de forte endémie",
+            "justification": "La vaccination contre le VHA est recommandée pour les voyageurs en pays de forte endémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Sujets porteurs d'une maladie chronique du foie ou de mucoviscidose",
+            "justification": "Les sujets à risque de forme sévère, dont ceux avec hépatopathie chronique ou mucoviscidose, doivent être vaccinés."
+          },
+          {
+            "correct": true,
+            "proposition": "Personnes au contact d'un cas diagnostiqué de VHA",
+            "justification": "Le contact d'un cas diagnostiqué fait partie des indications de vaccination."
+          },
+          {
+            "correct": true,
+            "proposition": "Personnels exposés professionnellement",
+            "justification": "Les personnels exposés professionnellement sont inclus parmi les indications de vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Voyageurs en pays de faible endémie",
+            "justification": "Seuls les voyages en pays de forte endémie sont cités parmi les indications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908565718_02",
+      "current_version_epoch_ms": 1755908565718,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Reconnaître les populations devant recevoir une vaccination contre l'hépatite B.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nourrissons à partir du 2e mois (vaccination universelle obligatoire)",
+            "justification": "La vaccination universelle des nourrissons est obligatoire dès 2 mois (vaccin hexavalent)."
+          },
+          {
+            "correct": true,
+            "proposition": "Adolescents de 11 à 15 ans non vaccinés",
+            "justification": "La vaccination est recommandée pour les adolescents non vaccinés entre 11 et 15 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Personnes détenues",
+            "justification": "Les personnes détenues font partie des sujets à risque élevé devant être vaccinés."
+          },
+          {
+            "correct": true,
+            "proposition": "Professionnels et étudiants des professions de santé (vaccination obligatoire)",
+            "justification": "La vaccination est obligatoire pour les personnels et étudiants de santé afin de protéger soignants et soignés."
+          },
+          {
+            "correct": false,
+            "proposition": "Voyageurs en pays de forte endémie",
+            "justification": "Cette situation n'est pas mentionnée parmi les indications listées pour la vaccination contre le VHB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908565718_03",
+      "current_version_epoch_ms": 1755908565718,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Classer les mesures relevant de la « lutte contre la transmission » du VHB (hors vaccination).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utilisation de préservatifs",
+            "justification": "L'utilisation de préservatifs est citée comme mesure de lutte contre la transmission du VHB."
+          },
+          {
+            "correct": true,
+            "proposition": "Matériel à usage unique pour soins et toxicomanie",
+            "justification": "Le recours à du matériel à usage unique fait partie des mesures de prévention de la transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépistage des donneurs de sang et d'organes",
+            "justification": "Le dépistage des donneurs (sang, organes) est mentionné dans la lutte contre la transmission du VHB."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination par schéma à 3 injections",
+            "justification": "La vaccination constitue l'autre principe de prévention, distinct de la lutte contre la transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépistage des produits sanguins labiles délivrés aux patients immunodéprimés",
+            "justification": "Cette mesure est citée pour la prévention du VHE en France, pas pour la lutte contre la transmission du VHB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908565718_04",
+      "current_version_epoch_ms": 1755908565718,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "À propos des vaccins disponibles et des schémas pour les hépatites virales, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un vaccin contre l'hépatite A est disponible.",
+            "justification": "La disponibilité d'un vaccin contre le VHA est explicitement indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Il n'existe pas de vaccin contre l'hépatite C.",
+            "justification": "L'absence de vaccin contre le VHC est précisée ; la prévention repose sur la transmission et le dépistage."
+          },
+          {
+            "correct": true,
+            "proposition": "La vaccination contre l'hépatite B suit un schéma à 3 injections.",
+            "justification": "Le schéma vaccinal contre le VHB est décrit comme comportant 3 injections."
+          },
+          {
+            "correct": false,
+            "proposition": "Une vaccination contre l'hépatite E est recommandée en France.",
+            "justification": "La prévention du VHE repose sur des mesures d'hygiène, d'information et de dépistage des produits sanguins chez certains patients ; aucune vaccination n'est mentionnée."
+          },
+          {
+            "correct": true,
+            "proposition": "Les nouveau-nés de mère porteuse du VHB doivent recevoir une sérovaccination en salle de travail en plus de la vaccination.",
+            "justification": "La sérovaccination par immunoglobulines anti-HBs en salle de travail est indiquée et s'ajoute à la vaccination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908565718_05",
+      "current_version_epoch_ms": 1755908565718,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Conduite à tenir à la naissance pour un nouveau-né de mère infectée par le VHB.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Injection d'immunoglobulines anti-HBs en salle de travail",
+            "justification": "La sérovaccination est indiquée pour les nouveau-nés de mère infectée par le VHB."
+          },
+          {
+            "correct": true,
+            "proposition": "Première dose de vaccin avant la sortie de la maternité",
+            "justification": "La première injection vaccinale doit être réalisée avant la sortie de la maternité."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre 6 mois pour débuter la vaccination",
+            "justification": "Au contraire, la première injection doit être faite avant la sortie de la maternité."
+          },
+          {
+            "correct": false,
+            "proposition": "Seule la vaccination universelle à 2 mois suffit, sans autre mesure",
+            "justification": "Une sérovaccination en salle de travail est requise en plus de la vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure particulière si la mère est porteuse chronique",
+            "justification": "Des mesures spécifiques (sérovaccination et vaccination) sont prévues pour tout nouveau-né de mère infectée par le VHB."
+          }
+        ]
+      }
+    }
+  ]
+}

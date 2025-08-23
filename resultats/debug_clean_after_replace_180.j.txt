@@ -1,0 +1,173 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître la définition de l'information des patients OIC-180-06-A
+
+
+
+
+Cette information s'inscrit dans un contexte de 1) un faible niveau de connaissances de la population générale concernant les effets des rayonnements ionisants, en particulier le fait scientifique, 2) une image péjorative des radiations ionisantes dans la population générale.
+Ce contexte est important à prendre en compte car il induit des inquiétudes irrationnelles disproportionnées lors de situations rencontrées en imagerie médicale. La connaissance des doses efficaces moyennes délivrées par tel ou tel examen (tableau 1) permet de relativiser les doses utilisées en imagerie diagnostique par rapport aux niveaux d'exposition naturelle (2,9 mSv par an en moyenne) et ainsi de rassurer en resituant le risque d'irradiation dans une échelle globale.
+
+
+
+Tableau 1 : Ordres de grandeur de doses efficaces délivrées et seuils de tolérance : les doses efficaces varient en fonction des appareils et des réglages et sont donc susceptibles d'évoluer avec les progrès techniques (les données fournies datent de 2021).
+
+
+Radiographie thoracique
+
+20 µSv
+
+
+Vol Paris-New-York
+
+50 µSv
+
+
+Irradiation naturelle moyenne/an en France
+
+2,9 mSv
+
+
+Scintigraphie osseuse
+
+5 mSv
+
+
+TDM abdomino-pelvienne
+
+10 mSv
+
+
+Limite d'exposition des travailleurs/an
+
+20 mSv
+
+
+Seuil au-delà duquel les effets stochastiques sont  prouvés
+
+100 mSv
+
+
+Seuil de myélotoxicité
+
+1 Sv
+
+
+Seuil de toxicité digestive
+
+5 Sv
+
+
+Seuil de survenue des radiodermites
+
+10 Sv
+
+
+Seuil de neurotoxicité
+
+20 Sv
+
+
+Dose lors d'une radiothérapie ciblée sur une tumeur
+
+50 Sv
+
+·        Il faut rappeler dans le cadre d'une information au patient, qu'en imagerie médicale diagnostique, aucune procédure ne délivre des doses de plus de 100 mSv, et donc que les doses restent dans une zone pour laquelle aucun effet déterministe ne peut survenir et aucune augmentation de l'incidence de cancer n'a jamais été formellement prouvée. Il convient donc avant tout de rassurer les patients (et les parents) en centrant l'information sur la balance bénéfices/risques.
+·        En médecine nucléaire diagnostique, où le patient va émettre pendant quelque temps de très faibles doses de RI, il n'y a pas de mesure d'éviction particulière pour l'entourage et pour les sujets contacts, y compris pour les enfants en bas âge et les femmes enceintes car les doses cumulées sont toujours très inférieures à 1 mSv.
+·        En radiologie interventionnelle, les patients sont informés en aval de la procédure de la nécessité d'un éventuel suivi cutané, Lorsque le geste a délivré de fortes doses de RI (pouvant être supérieures 3 Gy à la peau), il existe un risque d'érythème, d'alopécie voire de lésions cutanées plus graves.
+·        En imagerie pédiatrique, la vigilance est accrue tant en ce qui concerne la justification des examens que l'optimisation des pratiques du fait de la plus forte radiosensibilité des enfants. Dans la mesure du possible, les possibilités de substitution par une échographie ou une IRM doivent être envisagées.
+·        La grossesse constitue un cas particulier du fait que la relation entre exposition médicale et grossesse est fortement empreinte d'angoisse et de subjectivité. Pourtant, comme dans les autres situations, une explication objective des risques et des effets possibles doit permettre d'éliminer toute forme d'angoisse. Les effets des rayonnements ionisants sur l'embryon et le fœtus sont de 2 ordres :
+o  les malformations (tératogénicité) sont du domaine des effets déterministes. Il existe donc des seuils de dose au-delà desquels ces effets apparaissent et au-delà desquels la gravité augmente avec la dose totale reçue. Ces seuils sont parfaitement connus et le plus faible d'entre eux est de 200 mGy quelle que soit la phase de la grossesse.
+o En pratique, une évaluation de la dose délivrée à l'utérus soit par le physicien médical de l'établissement ou par l'Institut de Radioprotection et de Sûreté Nucléaire (IRSN) en cas d'exposition aux rayonnements ionisants intéressant l'abdomen et le pelvis et de grossesse méconnue, permet dans l'immense majorité des situations d'être parfaitement rassurant.
+
+ Connaître la définition de l'information des patients OIC-180-06-ACette information s'inscrit dans un contexte de 1) un faible niveau de connaissances de la population générale concernant les effets des rayonnements ionisants, en particulier le fait scientifique, 2) une image péjorative des radiations ionisantes dans la population générale.Ce contexte est important à prendre en compte car il induit des inquiétudes irrationnelles disproportionnées lors de situations rencontrées en imagerie médicale.La connaissance des doses efficaces moyennes délivrées par tel ou tel examen (tableau 1)permet de relativiser les doses utilisées en imagerie diagnostique par rapport aux niveaux d'exposition naturelle (2,9 mSv par an en moyenne) et ainsi de rassurer en resituant le risque d'irradiation dans une échelle globale.Tableau 1: Ordres de grandeur de doses efficaces délivrées et seuils de tolérance : les doses efficaces varient en fonction des appareils et des réglages et sont donc susceptibles d'évoluer avec les progrès techniques (les données fournies datent de 2021).Radiographie thoracique20 µSvVol Paris-New-York50 µSvIrradiation naturelle moyenne/an en France2,9 mSvScintigraphie osseuse5 mSvTDM abdomino-pelvienne10 mSvLimite d'exposition des travailleurs/an20 mSvSeuil au-delà duquel les effets stochastiques sont  prouvés100 mSvSeuil de myélotoxicité1 SvSeuil de toxicité digestive5 SvSeuil de survenue des radiodermites10 SvSeuil de neurotoxicité20 SvDose lors d'une radiothérapie ciblée sur une tumeur50 Sv·Il faut rappeler dans le cadre d'une information au patient, qu'enimagerie médicale diagnostique, aucune procédure ne délivre des doses de plus de 100 mSv, et donc que les doses restent dans une zone pour laquelle aucun effet déterministe ne peut survenir et aucune augmentation de l'incidence de cancer n'a jamais été formellement prouvée. Il convient donc avant tout de rassurer les patients (et les parents) en centrant l'information sur la balance bénéfices/risques.·        Enmédecine nucléaire diagnostique, où le patient va émettre pendant quelque temps de très faibles doses de RI, il n'y a pas de mesure d'éviction particulière pour l'entourage et pour les sujets contacts, y compris pour les enfants en bas âge et les femmes enceintes car les doses cumulées sont toujours très inférieures à 1 mSv.·        Enradiologie interventionnelle, les patients sont informés en aval de la procédure de la nécessité d'un éventuel suivi cutané, Lorsque le geste a délivré de fortes doses de RI (pouvant être supérieures 3 Gy à la peau), il existe un risque d'érythème, d'alopécie voire de lésions cutanées plus graves.·        Enimagerie pédiatrique, la vigilance est accrue tant en ce qui concerne la justification des examens que l'optimisation des pratiques du fait de la plus forte radiosensibilité des enfants. Dans la mesure du possible, les possibilités de substitution par une échographie ou une IRM doivent être envisagées.·        Lagrossesseconstitue un cas particulier du fait que la relation entre exposition médicale et grossesse est fortement empreinte d'angoisse et de subjectivité. Pourtant, comme dans les autres situations, une explication objective des risques et des effets possibles doit permettre d'éliminer toute forme d'angoisse. Les effets des rayonnements ionisants sur l'embryon et le fœtus sont de 2 ordres :o  les malformations (tératogénicité) sont du domaine des effets déterministes. Il existe donc des seuils de dose au-delà desquels ces effets apparaissent et au-delà desquels la gravité augmente avec la dose totale reçue. Ces seuils sont parfaitement connus et le plus faible d'entre eux est de 200 mGy quelle que soit la phase de la grossesse.o En pratique, une évaluation de la dose délivrée à l'utérus soit par le physicien médical de l'établissement ou par l'Institut de Radioprotection et de Sûreté Nucléaire (IRSN) en cas d'exposition aux rayonnements ionisants intéressant l'abdomen et le pelvis et de grossesse méconnue, permet dans l'immense majorité des situations d'être parfaitement rassurant.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

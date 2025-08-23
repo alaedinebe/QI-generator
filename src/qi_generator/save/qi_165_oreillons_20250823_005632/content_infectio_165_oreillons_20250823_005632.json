@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "oreillons",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755903599565_01",
+      "current_version_epoch_ms": 1755903599565,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Identifier les situations où la confirmation des oreillons doit être priorisée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cas isolés",
+            "justification": "La confirmation est indiquée comme importante pour les cas isolés."
+          },
+          {
+            "correct": true,
+            "proposition": "Doutes diagnostiques",
+            "justification": "La confirmation est importante lorsqu'il existe un doute diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise en charge de l'entourage avec éventuelle 3e dose",
+            "justification": "La confirmation est signalée comme importante pour organiser la prise en charge de l'entourage (éventuellement 3e dose)."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement lors d'épisodes groupés",
+            "justification": "Les cas isolés sont explicitement cités ; la confirmation n'est pas restreinte aux épisodes groupés."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclusivement en cas de méningite",
+            "justification": "La confirmation est mise en avant pour plusieurs situations et pas uniquement la méningite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755903599565_02",
+      "current_version_epoch_ms": 1755903599565,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Choisir les prélèvements à privilégier pour un diagnostic moléculaire direct des oreillons par RT/PCR.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Salive",
+            "justification": "La RT/PCR dans la salive est mentionnée comme à privilégier."
+          },
+          {
+            "correct": true,
+            "proposition": "Prélèvement naso-pharyngé",
+            "justification": "Les prélèvements naso-pharyngés sont à privilégier pour la RT/PCR."
+          },
+          {
+            "correct": true,
+            "proposition": "Urinaire",
+            "justification": "Les prélèvements urinaires sont à privilégier pour la RT/PCR."
+          },
+          {
+            "correct": false,
+            "proposition": "LCR chez tous les cas suspects",
+            "justification": "Le LCR est indiqué en cas de méningite, pas en routine chez tous les suspects."
+          },
+          {
+            "correct": false,
+            "proposition": "Sang total",
+            "justification": "Le sang total n'est pas cité parmi les prélèvements à privilégier pour la RT/PCR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755903599565_03",
+      "current_version_epoch_ms": 1755903599565,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Reconnaître l'indication et la place du LCR dans la confirmation des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiqué en cas de méningite",
+            "justification": "Le LCR est mentionné en cas de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Doit remplacer les prélèvements salivaires et naso-pharyngés",
+            "justification": "Il n'est pas indiqué de remplacer les prélèvements à privilégier (salive, naso-pharyngé, urinaire)."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut être utilisé pour un diagnostic moléculaire par RT/PCR",
+            "justification": "Le diagnostic moléculaire direct par RT/PCR inclut le LCR en cas de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "À réaliser de routine chez tout patient suspect",
+            "justification": "Le recours au LCR est conditionné à la survenue d'une méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Sans utilité dans le diagnostic",
+            "justification": "Le LCR est explicitement cité comme possible support de RT/PCR en cas de méningite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755903599565_04",
+      "current_version_epoch_ms": 1755903599565,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Différencier le rôle de la sérologie dans la démarche diagnostique des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet de définir le statut d'immunisation",
+            "justification": "La sérologie est indiquée pour définir le statut d'immunisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Constitue la modalité prioritaire pour confirmer un cas",
+            "justification": "La confirmation repose sur le diagnostic moléculaire direct par RT/PCR à privilégier."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet le diagnostic moléculaire par RT/PCR",
+            "justification": "La sérologie n'est pas une RT/PCR ; elle sert à définir l'immunisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Est inutile",
+            "justification": "Elle a un rôle défini : préciser le statut d'immunisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Décide directement de l'administration d'une 3e dose",
+            "justification": "La sérologie est précisée pour l'immunisation ; la 3e dose relève de la prise en charge de l'entourage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755903599565_05",
+      "current_version_epoch_ms": 1755903599565,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Classer les éléments corrects concernant la confirmation des oreillons et l'évaluation associée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La RT/PCR est la modalité de diagnostic moléculaire direct à privilégier",
+            "justification": "Le diagnostic moléculaire direct par RT/PCR est à privilégier."
+          },
+          {
+            "correct": true,
+            "proposition": "Les prélèvements salivaires, naso-pharyngés et urinaires sont à privilégier pour la RT/PCR",
+            "justification": "Ces trois prélèvements sont explicitement cités comme à privilégier."
+          },
+          {
+            "correct": true,
+            "proposition": "La sérologie a pour objectif de définir le statut d'immunisation",
+            "justification": "Le rôle de la sérologie est de déterminer le statut d'immunisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Le LCR est indiqué en cas de méningite",
+            "justification": "Le LCR est mentionné spécifiquement en cas de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "La confirmation n'est utile que pour les clusters",
+            "justification": "La confirmation est importante pour les cas isolés, les doutes diagnostiques et la prise en charge de l'entourage."
+          }
+        ]
+      }
+    }
+  ]
+}

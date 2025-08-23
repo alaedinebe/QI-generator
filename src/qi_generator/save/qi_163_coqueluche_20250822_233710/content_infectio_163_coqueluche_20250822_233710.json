@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "coqueluche",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755898836758_01",
+      "current_version_epoch_ms": 1755898836758,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Identifier le seuil définissant un « cas groupé » en collectivité nécessitant une notification.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins 2 cas (≥ 2) survenant dans une collectivité",
+            "justification": "Le seuil indiqué pour un cas groupé est fixé à « ≥ 2 » en collectivité, entraînant une notification."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 3 cas",
+            "justification": "Le seuil requis n'est pas 3 ; il est explicitement fixé à ≥ 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins 5 cas",
+            "justification": "Le seuil requis n'est pas 5 ; il est explicitement fixé à ≥ 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Tout cas isolé (1 cas)",
+            "justification": "Un cas isolé ne correspond pas à la définition de cas groupé ; le seuil est ≥ 2."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 10 cas",
+            "justification": "Un tel seuil n'est pas retenu ; la notification s'applique dès ≥ 2 cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898836758_02",
+      "current_version_epoch_ms": 1755898836758,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Différencier les destinataires de la déclaration lors de cas nosocomiaux en maternité, hôpital ou EHPAD.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déclaration à l'Agence Régionale de Santé (ARS)",
+            "justification": "Pour des cas nosocomiaux en établissement (maternité, hôpital, EHPAD), une déclaration à l'ARS est requise."
+          },
+          {
+            "correct": true,
+            "proposition": "Déclaration au CLIN (comité de lutte contre les infections nosocomiales) de l'établissement",
+            "justification": "La déclaration doit également être faite au CLIN de l'établissement."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclaration uniquement au médecin traitant",
+            "justification": "Les modalités précisent une déclaration à l'ARS et au CLIN ; une déclaration limitée au médecin traitant n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclaration directement au ministère sans autre destinataire",
+            "justification": "Les destinataires indiqués sont l'ARS et le CLIN, sans mention d'un envoi direct au ministère."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune déclaration n'est nécessaire",
+            "justification": "Une déclaration est explicitement requise à l'ARS et au CLIN en cas de cas nosocomiaux en établissement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898836758_03",
+      "current_version_epoch_ms": 1755898836758,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Classer les contextes relevant des « collectivités » où des cas groupés (≥ 2) doivent être notifiés.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Écoles",
+            "justification": "Les écoles sont citées parmi les collectivités concernées par la notification des cas groupés (≥ 2)."
+          },
+          {
+            "correct": true,
+            "proposition": "Internats",
+            "justification": "Les internats figurent parmi les collectivités pour lesquelles la notification s'applique en cas de cas groupés (≥ 2)."
+          },
+          {
+            "correct": true,
+            "proposition": "Crèches",
+            "justification": "Les crèches sont explicitement mentionnées parmi les collectivités concernées."
+          },
+          {
+            "correct": false,
+            "proposition": "Domicile individuel",
+            "justification": "Le domicile individuel n'est pas une collectivité listée (exemples donnés : écoles, internats, crèches)."
+          },
+          {
+            "correct": false,
+            "proposition": "Cabinet médical individuel",
+            "justification": "Ce contexte n'est pas cité parmi les collectivités concernées par la notification des cas groupés (≥ 2)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898836758_04",
+      "current_version_epoch_ms": 1755898836758,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Reconnaître les situations qui imposent d'informer l'ARS.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue de cas groupés (≥ 2) en collectivité",
+            "justification": "Les cas groupés (≥ 2) en collectivité doivent être notifiés à l'ARS."
+          },
+          {
+            "correct": true,
+            "proposition": "Survenue de cas nosocomiaux en maternité, hôpital ou EHPAD",
+            "justification": "Les cas nosocomiaux en établissement nécessitent une déclaration à l'ARS."
+          },
+          {
+            "correct": false,
+            "proposition": "Cas sporadique isolé en ville",
+            "justification": "Aucune obligation n'est indiquée pour un cas isolé ; la notification vise les cas groupés en collectivité et les cas nosocomiaux en établissement."
+          },
+          {
+            "correct": false,
+            "proposition": "Cas nosocomial à déclarer uniquement au CLIN",
+            "justification": "La déclaration des cas nosocomiaux doit être faite à l'ARS et au CLIN, pas uniquement au CLIN."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun cas ne nécessite d'information à l'ARS",
+            "justification": "Deux situations imposent l'information de l'ARS : cas groupés (≥ 2) en collectivité et cas nosocomiaux en établissement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898836758_05",
+      "current_version_epoch_ms": 1755898836758,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Déterminer les exigences de déclaration pour des cas nosocomiaux survenant en maternité, hôpital ou EHPAD.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une déclaration au CLIN de l'établissement est requise",
+            "justification": "La déclaration des cas nosocomiaux doit être faite au CLIN de l'établissement."
+          },
+          {
+            "correct": true,
+            "proposition": "Une déclaration à l'ARS est requise",
+            "justification": "La déclaration des cas nosocomiaux doit être adressée à l'ARS."
+          },
+          {
+            "correct": false,
+            "proposition": "La déclaration au CLIN suffit sans l'ARS",
+            "justification": "Les modalités exigent une déclaration à l'ARS et au CLIN ; l'un sans l'autre n'est pas conforme."
+          },
+          {
+            "correct": false,
+            "proposition": "La déclaration à l'ARS suffit sans le CLIN",
+            "justification": "Les modalités exigent une déclaration conjointe à l'ARS et au CLIN."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune déclaration n'est requise",
+            "justification": "Une double déclaration (ARS et CLIN) est explicitement requise pour les cas nosocomiaux en établissement."
+          }
+        ]
+      }
+    }
+  ]
+}

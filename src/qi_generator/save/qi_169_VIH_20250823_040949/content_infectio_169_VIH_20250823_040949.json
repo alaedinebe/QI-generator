@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755915195768_01",
+      "current_version_epoch_ms": 1755915195768,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH+ présentant une dysphagie et odynophagie avec perte de poids et candidose buccale associée, quelle est la conduite à tenir la plus appropriée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prescrire un traitement antifongique par fluconazole pendant 14 jours",
+            "justification": "La candidose oesophagienne se manifeste par dysphagie et odynophagie, et le traitement de première intention est le fluconazole pendant 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire une antibiothérapie large pendant 7 jours",
+            "justification": "Les antibiotiques ne sont pas efficaces contre les champignons responsables de la candidose oesophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Réserver le traitement uniquement après confirmation par culture",
+            "justification": "Le diagnostic est principalement clinique, et le traitement ne doit pas attendre la confirmation microbiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un traitement antiviral",
+            "justification": "La candidose oesophagienne n'est pas d'origine virale, donc les antiviraux ne sont pas indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement une surveillance clinique sans traitement",
+            "justification": "Le traitement antifongique est nécessaire pour éviter la progression et la malnutrition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915195768_02",
+      "current_version_epoch_ms": 1755915195768,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel critère radiologique est le plus évocateur d'une pneumocystose pulmonaire chez un patient VIH+ immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Images en verre dépoli au scanner pulmonaire",
+            "justification": "La pneumocystose se manifeste typiquement par une pneumopathie interstitielle bilatérale avec des images en verre dépoli au scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "Consolidation lobaire unique",
+            "justification": "La consolidation lobaire unique est plus typique d'une pneumonie bactérienne classique, pas d'une pneumocystose."
+          },
+          {
+            "correct": false,
+            "proposition": "Nodule pulmonaire unique",
+            "justification": "Les nodules uniques ne sont pas caractéristiques de la pneumocystose, qui est diffuse et interstitielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural massif",
+            "justification": "La pneumocystose ne s'accompagne pas d'épanchement pleural massif de façon typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté pulmonaire unilatérale",
+            "justification": "L'hyperclarté unilatérale n'est pas une manifestation radiologique de la pneumocystose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915195768_03",
+      "current_version_epoch_ms": 1755915195768,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH+ présentant des signes neurologiques focaux et une hémiparésie, quelle approche diagnostique est prioritaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale pour mise en évidence d'abcès cérébraux",
+            "justification": "La toxoplasmose cérébrale se manifeste par des signes neurologiques focaux, et l'IRM permet de détecter les abcès cérébraux pour orienter le traitement d'épreuve."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire systématique avant traitement",
+            "justification": "La confirmation ne nécessite pas de ponction initiale systématique, le traitement d'épreuve est prioritaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique ne permet pas de diagnostiquer une toxoplasmose cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique de cryptococcus uniquement",
+            "justification": "Le dosage de Cryptococcus neoformans n'est pertinent qu'en cas de céphalées ou suspicion méningée, pas pour les signes focaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance clinique sans traitement",
+            "justification": "Le traitement d'épreuve est nécessaire pour confirmer le diagnostic et éviter la progression neurologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915195768_04",
+      "current_version_epoch_ms": 1755915195768,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Pour quel seuil de CD4 la prophylaxie primaire contre la pneumocystose est-elle recommandée chez un patient VIH+ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "CD4 < 200/mm3",
+            "justification": "Le seuil de risque pour les infections opportunistes, et notamment la pneumocystose, est un taux de CD4 inférieur à 200/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4 < 500/mm3",
+            "justification": "Un taux de CD4 < 500/mm3 n'est pas considéré comme un seuil pour initier la prophylaxie primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4 < 50/mm3",
+            "justification": "Le seuil est plus élevé, à 200/mm3, pour initier la prophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4 < 350/mm3",
+            "justification": "Ce seuil n'est pas utilisé spécifiquement pour la prophylaxie primaire de la pneumocystose."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4 < 1000/mm3",
+            "justification": "CD4 < 1000/mm3 n'est pas cliniquement pertinent pour initier une prophylaxie contre les infections opportunistes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915195768_05",
+      "current_version_epoch_ms": 1755915195768,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel traitement associe-t-on systématiquement à la corticothérapie chez un patient VIH+ avec pneumocystose pulmonaire et PaO2 < 70 mmHg ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cotrimoxazole à dose d'attaque pendant 21 jours",
+            "justification": "Le traitement de première intention de la pneumocystose est le cotrimoxazole à dose d'attaque, et une corticothérapie est ajoutée si PaO2 < 70 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "Fluconazole pendant 14 jours",
+            "justification": "Le fluconazole est utilisé pour la candidose oesophagienne, pas pour la pneumocystose pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Pyriméthamine + sulfadiazine",
+            "justification": "Cette association est utilisée pour la toxoplasmose cérébrale, pas pour la pneumocystose pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ivermectine seule",
+            "justification": "L'ivermectine n'est utilisée que pour le déparasitage si nécessaire, mais ne constitue pas le traitement principal de la pneumocystose."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie empirique classique",
+            "justification": "Les antibiotiques classiques ne sont pas efficaces contre Pneumocystis jiroveci."
+          }
+        ]
+      }
+    }
+  ]
+}

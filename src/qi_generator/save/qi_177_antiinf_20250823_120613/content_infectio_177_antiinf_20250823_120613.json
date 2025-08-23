@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antiinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755943780029_01",
+      "current_version_epoch_ms": 1755943780029,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quelle est la méthode utilisée pour déterminer la concentration minimale inhibitrice (CMI) d'un antibiotique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Microdilution sur plaques de microtitration",
+            "justification": "La microdilution sur plaques de microtitration permet de déterminer la CMI en mesurant la concentration la plus faible inhibant la croissance bactérienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Méthodes semi-automatisées en milieu liquide",
+            "justification": "Les méthodes semi-automatisées en milieu liquide mesurent la CMI à l'aide de systèmes automatisés pour déterminer la concentration minimale inhibitrice."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation de disques imprégnés d'antibiotiques",
+            "justification": "Cette méthode permet de mesurer les diamètres d'inhibition mais ne permet pas de déterminer directement la CMI."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation de bandelettes E-test",
+            "justification": "Les bandelettes E-test permettent de déterminer la CMI, mais elles sont utilisées pour un gradient de concentration, pas directement pour déterminer la CMI par diffusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode de biologie moléculaire",
+            "justification": "La biologie moléculaire sert à détecter des gènes de résistance mais ne permet pas de mesurer directement la CMI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943780029_02",
+      "current_version_epoch_ms": 1755943780029,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel test est utilisé pour rechercher une souche productrice de bêta-lactamase à spectre étendu ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherche de synergie entre disques imprégnés d'antibiotiques",
+            "justification": "La recherche de synergie entre disques permet de détecter une souche productrice de bêta-lactamase à spectre étendu, l'aspect en 'bouchon de champagne' étant caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Test chromogène pour la production de bêta-lactamase",
+            "justification": "Le test chromogène permet de détecter la présence de bêta-lactamase mais ne permet pas de spécifier le spectre étendu."
+          },
+          {
+            "correct": false,
+            "proposition": "Microdilution sur plaques de microtitration",
+            "justification": "La microdilution sert à déterminer la CMI et non à détecter des mécanismes de résistance spécifiques comme les bêta-lactamases."
+          },
+          {
+            "correct": false,
+            "proposition": "Biologie moléculaire pour la détection de gènes résistants",
+            "justification": "La biologie moléculaire détecte des gènes spécifiques de résistance mais n'est pas utilisée pour détecter des synergies entre antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Diffusion en gélose avec disques imprégnés d'antibiotiques",
+            "justification": "Cette méthode permet de mesurer les diamètres d'inhibition mais ne permet pas d'identifier spécifiquement une souche productrice de bêta-lactamase à spectre étendu."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943780029_03",
+      "current_version_epoch_ms": 1755943780029,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Comment est catégorisé un résultat de test où la CMI est supérieure aux concentrations de l'antibiotique obtenues dans l'organisme avec des posologies usuelles ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Sensible (S)",
+            "justification": "La catégorisation 'Sensible' indique que la CMI est inférieure aux concentrations de l'antibiotique obtenues dans l'organisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Intermédiaire (I)",
+            "justification": "L'intermédiaire (I) correspond à une CMI voisine des concentrations de l'antibiotique obtenues dans l'organisme, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": true,
+            "proposition": "Résistant (R)",
+            "justification": "Lorsque la CMI est supérieure aux concentrations de l'antibiotique obtenues dans l'organisme, le résultat est catégorisé comme 'Résistant'."
+          },
+          {
+            "correct": false,
+            "proposition": "Non interprétable",
+            "justification": "Un résultat avec une CMI supérieure aux concentrations de l'antibiotique est bien interprétable, il est classé 'Résistant'."
+          },
+          {
+            "correct": false,
+            "proposition": "Inconnu",
+            "justification": "L'évaluation des résultats des tests permet une catégorisation précise, ici le résultat est 'Résistant'."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943780029_04",
+      "current_version_epoch_ms": 1755943780029,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quelle méthode permet de détecter spécifiquement un gène codant pour une résistance comme le mecA pour S. aureus ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Biologie moléculaire",
+            "justification": "La biologie moléculaire permet de détecter des gènes spécifiques comme le mecA pour S. aureus, associés à des résistances particulières."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode de diffusion en gélose avec disques imprégnés d'antibiotiques",
+            "justification": "Cette méthode permet de mesurer les diamètres d'inhibition mais ne permet pas de détecter directement des gènes de résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Test chromogène",
+            "justification": "Le test chromogène permet de détecter la production de bêta-lactamase mais ne permet pas de détecter spécifiquement des gènes comme le mecA."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de synergie entre disques imprégnés d'antibiotiques",
+            "justification": "La recherche de synergie permet de détecter une souche productrice de bêta-lactamase à spectre étendu mais pas des gènes de résistance spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Microdilution sur plaques de microtitration",
+            "justification": "La microdilution permet de déterminer la CMI mais ne permet pas de détecter des gènes codant pour des résistances spécifiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943780029_05",
+      "current_version_epoch_ms": 1755943780029,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quelle méthode est utilisée pour déterminer les diamètres d'inhibition de la croissance bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diffusion en gélose avec utilisation de disques imprégnés d'antibiotiques",
+            "justification": "La méthode de diffusion en gélose avec des disques imprégnés d'antibiotiques est utilisée pour déterminer les diamètres d'inhibition de la croissance bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Microdilution sur plaques de microtitration",
+            "justification": "La microdilution est utilisée pour déterminer la CMI, pas les diamètres d'inhibition."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de synergie entre disques imprégnés d'antibiotiques",
+            "justification": "Cette méthode permet de détecter des souches productrices de bêta-lactamase, mais pas de mesurer directement les diamètres d'inhibition."
+          },
+          {
+            "correct": false,
+            "proposition": "Biologie moléculaire",
+            "justification": "La biologie moléculaire est utilisée pour détecter des gènes de résistance, mais ne mesure pas les diamètres d'inhibition."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthodes semi-automatisées en milieu liquide",
+            "justification": "Les méthodes semi-automatisées en milieu liquide permettent de déterminer la CMI et non les diamètres d'inhibition."
+          }
+        ]
+      }
+    }
+  ]
+}

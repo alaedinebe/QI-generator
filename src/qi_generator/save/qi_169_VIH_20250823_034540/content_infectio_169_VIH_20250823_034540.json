@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755913746921_01",
+      "current_version_epoch_ms": 1755913746921,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH positif avec un taux de CD4 < 50/mm³, quelle infection opportuniste est la plus fréquemment observée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumocystose pulmonaire",
+            "justification": "La pneumocystose survient préférentiellement lorsque le taux de CD4 est inférieur à 200/mm³, et sa fréquence augmente significativement en dessous de 50/mm³."
+          },
+          {
+            "correct": false,
+            "proposition": "Herpès simplex cutané",
+            "justification": "Les infections à HSV sont fréquentes mais ne sont pas corrélées spécifiquement à un taux de CD4 < 50/mm³."
+          },
+          {
+            "correct": false,
+            "proposition": "Tuberculose pulmonaire",
+            "justification": "La tuberculose peut survenir à tout stade, mais sa fréquence n'est pas spécifiquement maximale en dessous de 50/mm³ de CD4."
+          },
+          {
+            "correct": false,
+            "proposition": "Candidose buccale",
+            "justification": "La candidose orale peut apparaître dès que le CD4 est inférieur à 500/mm³, donc avant le stade critique <50/mm³."
+          },
+          {
+            "correct": true,
+            "proposition": "Mycobactériose atypique disséminée",
+            "justification": "Les mycobactérioses atypiques disséminées surviennent typiquement chez les patients avec un taux de CD4 < 50/mm³."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913746921_02",
+      "current_version_epoch_ms": 1755913746921,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les tumeurs classant SIDA, lesquelles sont le plus souvent associées à une étiologie virale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maladie de Kaposi",
+            "justification": "La maladie de Kaposi est induite par le HHV8 et constitue une tumeur classant SIDA."
+          },
+          {
+            "correct": true,
+            "proposition": "Lymphome",
+            "justification": "Les lymphomes associés au SIDA sont souvent liés à l'infection par EBV, justifiant leur classement comme tumeurs viro-induites."
+          },
+          {
+            "correct": true,
+            "proposition": "Cancer du col utérin",
+            "justification": "Le cancer du col utérin lié au HPV est considéré comme tumeur classant SIDA et viro-induite."
+          },
+          {
+            "correct": false,
+            "proposition": "Carcinome hépatocellulaire",
+            "justification": "Le carcinome hépatocellulaire n'est pas classant SIDA et n'est pas directement induit par un virus associé au VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Mélanome cutané",
+            "justification": "Le mélanome n'est pas classant SIDA et n'a pas d'étiologie virale reconnue dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913746921_03",
+      "current_version_epoch_ms": 1755913746921,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel critère clinique est le plus utile pour différencier les infections opportunistes survenant au stade SIDA selon la Figure 2 et 3 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fréquence décroissante des infections",
+            "justification": "Les Figures indiquent les infections opportunistes les plus fréquentes en premier, ce qui permet de hiérarchiser le risque selon la fréquence."
+          },
+          {
+            "correct": false,
+            "proposition": "Localisation géographique du patient",
+            "justification": "Les Figures se basent sur le tableau clinique et le taux de CD4, non sur la géographie."
+          },
+          {
+            "correct": true,
+            "proposition": "Tableaux cliniques caractéristiques",
+            "justification": "Chaque infection opportuniste présente des signes cliniques distinctifs détaillés dans les Figures 2 et 3."
+          },
+          {
+            "correct": false,
+            "proposition": "Durée d'infection VIH connue",
+            "justification": "La durée de l'infection n'est pas utilisée pour différencier les infections opportunistes selon les Figures."
+          },
+          {
+            "correct": true,
+            "proposition": "Association avec le taux de CD4",
+            "justification": "Les Figures montrent la corrélation entre certaines infections et le niveau de CD4, ce qui aide à identifier le risque selon l'immunodépression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913746921_04",
+      "current_version_epoch_ms": 1755913746921,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les infections opportunistes suivantes, lesquelles sont typiquement viro-induites ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maladie de Kaposi",
+            "justification": "La maladie de Kaposi est causée par HHV8, une infection virale classant SIDA."
+          },
+          {
+            "correct": true,
+            "proposition": "Lymphome lié à EBV",
+            "justification": "Les lymphomes associés au SIDA sont souvent induits par EBV, ce qui en fait des infections viro-induites."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumocystose pulmonaire",
+            "justification": "La pneumocystose est due à un champignon, donc non viro-induite."
+          },
+          {
+            "correct": false,
+            "proposition": "Tuberculose",
+            "justification": "La tuberculose est bactérienne, non virale."
+          },
+          {
+            "correct": true,
+            "proposition": "Cancer du col utérin lié à HPV",
+            "justification": "Le cancer du col utérin classant SIDA est induit par le HPV, une infection virale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913746921_05",
+      "current_version_epoch_ms": 1755913746921,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Lorsqu'un patient VIH présente un taux de CD4 compris entre 200 et 500/mm³, quelles manifestations infectieuses sont les plus probables ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Candidose buccale",
+            "justification": "La candidose orale apparaît souvent lorsque le CD4 descend en dessous de 500/mm³, ce qui correspond à cette tranche."
+          },
+          {
+            "correct": false,
+            "proposition": "Mycobactériose atypique disséminée",
+            "justification": "Cette infection survient typiquement en dessous de 50/mm³ de CD4, donc rare dans cette tranche."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumocystose pulmonaire",
+            "justification": "La pneumocystose survient plutôt sous 200/mm³ de CD4, donc moins probable ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie de Kaposi",
+            "justification": "La maladie de Kaposi peut apparaître à tout stade mais est plus fréquente en immunodépression sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Herpès simplex cutané",
+            "justification": "Les infections à HSV peuvent survenir dès une immunodépression modérée, correspondant à un CD4 entre 200 et 500/mm³."
+          }
+        ]
+      }
+    }
+  ]
+}

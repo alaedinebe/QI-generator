@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755918504525_01",
+      "current_version_epoch_ms": 1755918504525,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention d'un accès palustre grave chez l'adulte selon les recommandations OIC-170-10-B ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Artésunate IV",
+            "justification": "L'artésunate IV est recommandé en première intention pour un accès palustre grave, conformément aux directives OIC-170-10-B."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine orale",
+            "justification": "La quinine orale n'est pas adaptée aux accès palustres graves ; la quinine IV est réservée aux contre-indications à l'artésunate."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine IV",
+            "justification": "La chloroquine n'est pas indiquée pour le traitement d'un accès palustre grave selon OIC-170-10-B."
+          },
+          {
+            "correct": false,
+            "proposition": "ACT IV en première intention",
+            "justification": "Les ACT sont utilisés en relais per os, jamais en première intention IV pour un accès grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplissage seul sans antipaludéen",
+            "justification": "La prise en charge symptomatique seule n'est pas suffisante ; un traitement antipaludéen spécifique est obligatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755918504525_02",
+      "current_version_epoch_ms": 1755918504525,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quand doit-on relayer le traitement IV par artésunate vers un traitement oral ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dès que possible, quelle que soit la durée du traitement IV",
+            "justification": "Le relais per os doit toujours être réalisé dès que le patient peut avaler, indépendamment de la durée du traitement IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 7 jours de traitement IV",
+            "justification": "Il n'est pas nécessaire d'attendre 7 jours ; le relais se fait dès que possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement si la parasitémie est négative",
+            "justification": "Le relais ne dépend pas de la négativité de la parasitémie mais de la capacité du patient à recevoir un traitement oral."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement après amélioration clinique complète",
+            "justification": "L'amélioration clinique n'est pas un prérequis strict pour le relais, il est systématique dès que possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Après normalisation complète de la glycémie",
+            "justification": "La normalisation glycémique n'est pas une condition pour le relais per os ; le traitement oral est toujours indiqué dès que possible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755918504525_03",
+      "current_version_epoch_ms": 1755918504525,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quelle surveillance biologique est spécifiquement requise après traitement par artésunate IV pour détecter l'anémie hémolytique retardée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS, haptoglobine et LDH à 14-21 jours",
+            "justification": "Ces examens permettent de détecter une anémie hémolytique retardée, complication connue du traitement par artésunate."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie quotidienne",
+            "justification": "La surveillance glycémique est requise après traitement par quinine, pas par artésunate."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatinine et urée à J3 seulement",
+            "justification": "La surveillance rénale n'est pas spécifiquement mentionnée pour le suivi de l'artésunate dans OIC-170-10-B."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG uniquement avant traitement",
+            "justification": "L'ECG doit être réalisé avant et quotidiennement pendant le traitement par artésunate pour la surveillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie à J1 et J2",
+            "justification": "Le contrôle de la parasitémie se fait à J3, J7 et J28, pas à J1 et J2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755918504525_04",
+      "current_version_epoch_ms": 1755918504525,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quels examens doivent être réalisés pour surveiller un patient sous quinine IV ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie régulière",
+            "justification": "La quinine IV peut provoquer une hypoglycémie, nécessitant une surveillance glycémique systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS et LDH pour anémie hémolytique retardée",
+            "justification": "Ces examens sont spécifiquement requis pour le suivi après traitement par artésunate, pas par quinine."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation d'ECG uniquement si symptômes cardiaques",
+            "justification": "L'ECG doit être réalisé avant et quotidiennement, indépendamment de la présence de symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie de contrôle à J1 et J2",
+            "justification": "La parasitémie de contrôle se fait à J3, J7 et J28."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique systématique à J3",
+            "justification": "Le bilan hépatique n'est pas spécifiquement requis dans les recommandations OIC-170-10-B pour la quinine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755918504525_05",
+      "current_version_epoch_ms": 1755918504525,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quels sont les contrôles parasitologiques recommandés après un accès palustre grave traité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parasitémie de contrôle à J3, J7 et J28",
+            "justification": "Ces contrôles permettent de vérifier l'efficacité du traitement et la disparition du parasite dans le sang selon les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie quotidienne pendant 14 jours",
+            "justification": "Un suivi quotidien prolongé n'est pas recommandé ; les points de contrôle sont J3, J7 et J28."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie uniquement à J28",
+            "justification": "Les contrôles intermédiaires à J3 et J7 sont essentiels pour évaluer la réponse précoce au traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie avant traitement et J1",
+            "justification": "La parasitémie initiale est réalisée, mais le suivi recommandé après traitement est J3, J7 et J28."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas de contrôle parasitologique nécessaire si amélioration clinique",
+            "justification": "L'amélioration clinique ne remplace pas le contrôle parasitologique systématique recommandé."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755904839594_01",
+      "current_version_epoch_ms": 1755904839594,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier, parmi les propositions, celles qui appartiennent aux principaux diagnostics différentiels à connaître (OIC-166-07-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Virus avec syndrome grippal",
+            "justification": "Figure parmi les diagnostics différentiels à connaître : catégorie « virus avec syndrome grippal »."
+          },
+          {
+            "correct": true,
+            "proposition": "Virus respiratoire syncytial",
+            "justification": "Exemple cité au sein des virus responsables d'un syndrome grippal."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Mycoplasme",
+            "justification": "Mentionnée parmi les infections bactériennes à considérer."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Chlamydia",
+            "justification": "Mentionnée parmi les infections bactériennes à considérer."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Listeria",
+            "justification": "Mentionnée parmi les infections bactériennes à considérer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904839594_02",
+      "current_version_epoch_ms": 1755904839594,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Parmi ces entités, reconnaître celles qui relèvent d'une étiologie virale avec syndrome grippal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Virus avec syndrome grippal",
+            "justification": "Catégorie virale explicitement citée."
+          },
+          {
+            "correct": true,
+            "proposition": "Virus respiratoire syncytial",
+            "justification": "Exemple explicite d'un virus associé au syndrome grippal."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Mycoplasme",
+            "justification": "Classée dans les infections bactériennes, non virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Chlamydia",
+            "justification": "Classée dans les infections bactériennes, non virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Listeria",
+            "justification": "Classée dans les infections bactériennes, non virales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904839594_03",
+      "current_version_epoch_ms": 1755904839594,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les propositions relevant d'infections bactériennes parmi les diagnostics différentiels à connaître.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Virus avec syndrome grippal",
+            "justification": "Il s'agit d'une étiologie virale, pas bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Virus respiratoire syncytial",
+            "justification": "Exemple viral, non bactérien."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Mycoplasme",
+            "justification": "Listée parmi les infections bactériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Chlamydia",
+            "justification": "Listée parmi les infections bactériennes."
+          },
+          {
+            "correct": true,
+            "proposition": "Infection à Listeria",
+            "justification": "Listée parmi les infections bactériennes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904839594_04",
+      "current_version_epoch_ms": 1755904839594,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier virus et bactéries : sélectionner les éléments qui ne correspondent PAS aux infections bactériennes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Virus avec syndrome grippal",
+            "justification": "Relève de l'étiologie virale, donc ne correspond pas à une infection bactérienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Virus respiratoire syncytial",
+            "justification": "Exemple viral ; n'entre pas dans la catégorie des infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Mycoplasme",
+            "justification": "Fait partie des infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Chlamydia",
+            "justification": "Fait partie des infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Listeria",
+            "justification": "Fait partie des infections bactériennes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904839594_05",
+      "current_version_epoch_ms": 1755904839594,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier l'exemple explicitement cité de virus associé au syndrome grippal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Virus respiratoire syncytial",
+            "justification": "Mentionné explicitement comme exemple de virus avec syndrome grippal."
+          },
+          {
+            "correct": false,
+            "proposition": "Virus avec syndrome grippal",
+            "justification": "Il s'agit d'une catégorie d'étiologie virale, pas d'un exemple précis d'agent."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Mycoplasme",
+            "justification": "Classée parmi les infections bactériennes, non virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Chlamydia",
+            "justification": "Classée parmi les infections bactériennes, non virales."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection à Listeria",
+            "justification": "Classée parmi les infections bactériennes, non virales."
+          }
+        ]
+      }
+    }
+  ]
+}

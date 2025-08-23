@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755926382387_01",
+      "current_version_epoch_ms": 1755926382387,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel est le mode principal de transmission de la rage à l'homme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Morsure ou griffure avec effraction cutanée par un animal infecté",
+            "justification": "La contamination humaine survient principalement par morsure ou griffure avec effraction cutanée d'un animal porteur du virus dans sa salive."
+          },
+          {
+            "correct": false,
+            "proposition": "Contact avec des objets contaminés par l'animal",
+            "justification": "Le virus de la rage n'est pas transmis par les objets contaminés, seul le contact direct avec la salive infectée via effraction cutanée ou muqueuse est infectant."
+          },
+          {
+            "correct": false,
+            "proposition": "Ingestion de viande d'animal infecté",
+            "justification": "La transmission par ingestion n'est pas décrite pour la rage, qui nécessite un contact avec la salive infectée."
+          },
+          {
+            "correct": true,
+            "proposition": "Projection de gouttelettes salivaires sur les muqueuses",
+            "justification": "Le virus peut infecter par projection de salive sur muqueuses, en particulier conjonctives."
+          },
+          {
+            "correct": true,
+            "proposition": "Léchage sur une plaie préexistante",
+            "justification": "La salive d'un animal infecté sur une zone cutanée avec effraction peut transmettre le virus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926382387_02",
+      "current_version_epoch_ms": 1755926382387,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle situation présente un risque de contamination par la rage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un chien mord un humain à travers la peau intacte",
+            "justification": "Le risque existe si la morsure provoque une effraction cutanée, car la salive infectée pénètre alors dans l'organisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Un chat lèche la peau intacte d'une personne",
+            "justification": "La transmission nécessite une effraction cutanée, la peau intacte ne permet pas l'entrée du virus."
+          },
+          {
+            "correct": true,
+            "proposition": "Projection de salive sur la conjonctive",
+            "justification": "La conjonctive est une muqueuse vulnérable à la contamination par les gouttelettes salivaires infectées."
+          },
+          {
+            "correct": false,
+            "proposition": "Respiration à proximité d'un animal infecté",
+            "justification": "Le virus de la rage n'est pas transmis par voie respiratoire classique dans ce contexte."
+          },
+          {
+            "correct": true,
+            "proposition": "Léchage sur une plaie ou griffure préexistante",
+            "justification": "Tout contact de salive infectée avec une effraction cutanée constitue un risque de transmission."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926382387_03",
+      "current_version_epoch_ms": 1755926382387,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, laquelle décrit un mode indirect de transmission de la rage ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Morsure directe par un animal infecté",
+            "justification": "La morsure directe est un mode de transmission direct, pas indirect."
+          },
+          {
+            "correct": true,
+            "proposition": "Projection de gouttelettes salivaires sur une muqueuse",
+            "justification": "La projection sur les muqueuses représente une transmission indirecte car il n'y a pas de morsure ni de griffure."
+          },
+          {
+            "correct": false,
+            "proposition": "Contact avec de la salive sur une peau intacte",
+            "justification": "La peau intacte ne permet pas la pénétration du virus et donc n'est pas un mode de transmission efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Léchage sur la peau saine",
+            "justification": "Le virus nécessite une effraction cutanée pour pénétrer; la peau saine ne permet pas la transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation de lait d'animal infecté",
+            "justification": "La transmission par ingestion n'est pas décrite pour la rage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926382387_04",
+      "current_version_epoch_ms": 1755926382387,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quels éléments augmentent le risque de transmission de la rage lors d'un contact avec un animal infecté ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une plaie ou griffure sur la peau",
+            "justification": "La présence d'une effraction cutanée favorise la pénétration du virus contenu dans la salive de l'animal."
+          },
+          {
+            "correct": true,
+            "proposition": "Contact de salive avec les muqueuses (conjonctives, bouche, nez)",
+            "justification": "Les muqueuses sont perméables au virus, notamment la conjonctive."
+          },
+          {
+            "correct": false,
+            "proposition": "Contact avec la fourrure saine sans effraction",
+            "justification": "Le virus ne traverse pas la peau intacte et ne se transmet pas par simple contact avec le pelage."
+          },
+          {
+            "correct": false,
+            "proposition": "Distance d'un mètre de l'animal infecté sans morsure",
+            "justification": "Le virus n'est pas transmis par simple proximité, mais uniquement par salive sur effraction cutanée ou muqueuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhalation de l'air ambiant autour de l'animal",
+            "justification": "La transmission aérienne n'est pas décrite dans ce contexte de rage classique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926382387_05",
+      "current_version_epoch_ms": 1755926382387,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, lesquelles nécessitent une prophylaxie post-exposition contre la rage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Morsure par un chien inconnu dans une zone à risque",
+            "justification": "Une morsure avec effraction cutanée par un animal potentiellement infecté nécessite la prophylaxie post-exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "Projection de salive sur les yeux",
+            "justification": "La conjonctive est une muqueuse vulnérable; le contact avec salive infectée nécessite une prophylaxie."
+          },
+          {
+            "correct": true,
+            "proposition": "Léchage sur une plaie existante",
+            "justification": "Tout contact de salive sur une effraction cutanée est à risque de transmission et nécessite prophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Simple contact avec la fourrure de l'animal",
+            "justification": "Le simple contact avec la peau intacte ou la fourrure ne constitue pas une exposition à risque nécessitant prophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Passage à proximité d'un animal infecté sans contact",
+            "justification": "La proximité seule sans effraction cutanée ou contact muqueux n'est pas considérée à risque."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "oreillons",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755902148835_01",
+      "current_version_epoch_ms": 1755902148835,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Identifier la classification correcte de l'agent responsable des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il appartient à la famille des Paramyxoviridae.",
+            "justification": "L'agent des oreillons est explicitement rattaché à la famille des Paramyxoviridae."
+          },
+          {
+            "correct": true,
+            "proposition": "Il appartient au genre Rubulavirus.",
+            "justification": "L'agent des oreillons est classé dans le genre Rubulavirus."
+          },
+          {
+            "correct": false,
+            "proposition": "Il appartient à la famille des Herpesviridae.",
+            "justification": "L'agent est décrit dans la famille Paramyxoviridae, et non Herpesviridae."
+          },
+          {
+            "correct": false,
+            "proposition": "Il appartient au genre Enterovirus.",
+            "justification": "Le genre indiqué est Rubulavirus, pas Enterovirus."
+          },
+          {
+            "correct": false,
+            "proposition": "Il appartient à la famille des Retroviridae.",
+            "justification": "La famille mentionnée est Paramyxoviridae, pas Retroviridae."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902148835_02",
+      "current_version_epoch_ms": 1755902148835,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Reconnaître la nature de l'agent des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "C'est un virus à ARN.",
+            "justification": "L'agent causal est spécifié comme un virus ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est un virus à ADN.",
+            "justification": "Il est décrit comme un virus ARN, et non ADN."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est une bactérie.",
+            "justification": "Il s'agit d'un virus, pas d'un agent bactérien."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est un prion.",
+            "justification": "L'agent est un virus ARN, pas un prion."
+          },
+          {
+            "correct": false,
+            "proposition": "C'est un champignon.",
+            "justification": "L'agent étiologique est viral (ARN) et non fongique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902148835_03",
+      "current_version_epoch_ms": 1755902148835,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Qualifier correctement l'infection provoquée par le virus des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une infection aiguë.",
+            "justification": "L'infection est décrite comme aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Il s'agit d'une infection contagieuse.",
+            "justification": "L'infection est qualifiée de contagieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une infection chronique.",
+            "justification": "Elle est décrite comme aiguë, pas chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une affection non contagieuse.",
+            "justification": "Elle est explicitement dite contagieuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une maladie auto-immune.",
+            "justification": "La pathologie est d'origine virale (ARN), pas auto-immune."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902148835_04",
+      "current_version_epoch_ms": 1755902148835,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Identifier les populations principalement concernées par les oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les enfants font partie des populations principalement touchées.",
+            "justification": "La maladie est rapportée chez les enfants."
+          },
+          {
+            "correct": true,
+            "proposition": "Les jeunes adultes font partie des populations principalement touchées.",
+            "justification": "La maladie est rapportée chez les jeunes adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie concerne exclusivement les enfants.",
+            "justification": "Elle touche aussi les jeunes adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie concerne surtout les personnes âgées.",
+            "justification": "Les groupes mis en avant sont les enfants et les jeunes adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie concerne uniquement les nouveau-nés.",
+            "justification": "Les groupes indiqués sont les enfants et les jeunes adultes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902148835_05",
+      "current_version_epoch_ms": 1755902148835,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Sélectionner les affirmations exactes à propos de l'agent des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est également appelé virus ourlien.",
+            "justification": "Le virus ourlien est le nom de l'agent des oreillons."
+          },
+          {
+            "correct": true,
+            "proposition": "Il appartient à la famille des Paramyxoviridae.",
+            "justification": "La classification mentionne la famille Paramyxoviridae."
+          },
+          {
+            "correct": true,
+            "proposition": "Il appartient au genre Rubulavirus.",
+            "justification": "La classification mentionne le genre Rubulavirus."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est responsable d'une infection aiguë et contagieuse chez les enfants et les jeunes adultes.",
+            "justification": "La maladie est qualifiée d'aiguë et contagieuse et concerne ces groupes d'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'un agent bactérien.",
+            "justification": "L'agent étiologique est un virus ARN, pas une bactérie."
+          }
+        ]
+      }
+    }
+  ]
+}

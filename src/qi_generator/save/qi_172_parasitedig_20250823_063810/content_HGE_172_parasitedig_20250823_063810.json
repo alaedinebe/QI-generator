@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "parasitedig",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755924096843_01",
+      "current_version_epoch_ms": 1755924096843,
+      "topic": {
+        "subject": "HGE",
+        "item": "parasitedig"
+      },
+      "data": {
+        "statement": "Quel examen doit être prescrit pour rechercher spécifiquement les larves d'anguillule (Strongyloïdes stercoralis) chez un patient suspecté d'anguillulose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen parasitologique des selles avec recherche spécifique d'anguillules",
+            "justification": "L'examen parasitologique standard ne recherche pas les larves d'anguillule. La prescription doit donc spécifier cette recherche en cas de suspicion."
+          },
+          {
+            "correct": true,
+            "proposition": "Examen parasitologique des selles avec technique de Baermann",
+            "justification": "La technique de Baermann permet de détecter spécifiquement les larves de Strongyloïdes stercoralis et doit être demandée si suspicion clinique ou épidémiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen parasitologique standard des selles sans mention de Strongyloïdes",
+            "justification": "L'examen parasitologique standard ne comprend pas la recherche des larves d'anguillule et peut donc être négatif malgré une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie anti-Strongyloïdes seule",
+            "justification": "La sérologie manque de spécificité et ne remplace pas l'examen parasitologique spécifique, elle peut seulement compléter le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Coproculture standard",
+            "justification": "La coproculture standard ne permet pas la détection des larves d'anguillule et n'est pas indiquée pour ce diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755924096843_02",
+      "current_version_epoch_ms": 1755924096843,
+      "topic": {
+        "subject": "HGE",
+        "item": "parasitedig"
+      },
+      "data": {
+        "statement": "Pourquoi la recherche des larves d'anguillule doit-elle être répétée plusieurs fois dans l'examen parasitologique des selles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En raison de l'émission discontinue des larves",
+            "justification": "Les larves sont émises de façon intermittente, ce qui nécessite des examens répétés pour augmenter la sensibilité diagnostique."
+          },
+          {
+            "correct": true,
+            "proposition": "En raison de la fréquente pauci-infestation",
+            "justification": "Les infestations peuvent être faibles en nombre de larves, rendant un seul examen potentiellement négatif malgré l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour vérifier la résistance aux antiparasitaires",
+            "justification": "La répétition de l'examen vise la détection des larves et non l'évaluation de la résistance aux traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour identifier le sexe des larves",
+            "justification": "La répétition n'a pas pour but de déterminer le sexe des larves, mais d'augmenter les chances de détection."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la sévérité clinique",
+            "justification": "La gravité clinique n'est pas directement évaluée par le nombre d'examens, mais par l'état du patient et les symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755924096843_03",
+      "current_version_epoch_ms": 1755924096843,
+      "topic": {
+        "subject": "HGE",
+        "item": "parasitedig"
+      },
+      "data": {
+        "statement": "Dans quels contextes la sérologie pour l'anguillulose peut-elle être utilisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque l'examen parasitologique ne peut être répété",
+            "justification": "La sérologie peut être utile en complément lorsque les selles ne peuvent être examinées plusieurs fois, malgré sa spécificité limitée."
+          },
+          {
+            "correct": true,
+            "proposition": "Avant le début d'un traitement immunosuppresseur ou stéroïdien",
+            "justification": "La sérologie permet d'identifier une infection avant un traitement qui pourrait provoquer une hyperinfection si l'infection est méconnue."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour confirmer la pauci-infestation détectée par l'examen standard",
+            "justification": "La sérologie n'est pas spécifique et ne peut confirmer un faible nombre de larves détecté par un examen standard."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour remplacer totalement l'examen parasitologique",
+            "justification": "La sérologie ne remplace pas l'examen parasitologique spécifique et ne doit être utilisée qu'en complément."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour déterminer le traitement exact à prescrire",
+            "justification": "La sérologie n'indique pas le traitement spécifique mais aide au diagnostic en situation particulière."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755924096843_04",
+      "current_version_epoch_ms": 1755924096843,
+      "topic": {
+        "subject": "HGE",
+        "item": "parasitedig"
+      },
+      "data": {
+        "statement": "Quel critère est essentiel pour décider de prescrire une recherche spécifique d'anguillulose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Suspicion basée sur des critères épidémiologiques",
+            "justification": "La prescription doit être guidée par la suspicion liée à l'exposition géographique ou aux antécédents du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Suspicion basée sur des critères cliniques",
+            "justification": "Des symptômes évocateurs d'anguillulose justifient la demande d'un examen parasitologique spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une infection bactérienne concomitante",
+            "justification": "La décision de rechercher Strongyloïdes stercoralis n'est pas influencée par des infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Résultats positifs d'un examen parasitologique standard",
+            "justification": "L'examen standard ne détecte pas les larves d'anguillule et ne constitue pas un critère suffisant pour la recherche spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Résultats de la numération formule sanguine",
+            "justification": "Les anomalies hématologiques ne sont pas un critère direct pour prescrire la recherche spécifique d'anguillulose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755924096843_05",
+      "current_version_epoch_ms": 1755924096843,
+      "topic": {
+        "subject": "HGE",
+        "item": "parasitedig"
+      },
+      "data": {
+        "statement": "Quelle est la limitation principale de la sérologie pour l'anguillulose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Manque de spécificité due aux réactions croisées avec d'autres vers",
+            "justification": "La sérologie peut donner des résultats faussement positifs à cause de réactions croisées, limitant sa valeur diagnostique isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Émission discontinue des larves",
+            "justification": "Cette limitation concerne l'examen parasitologique et non la sérologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessité de répéter l'examen plusieurs fois",
+            "justification": "La répétition concerne la recherche parasitologique, pas la sérologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Incapacité à détecter l'infection chez les patients immunosupprimés",
+            "justification": "La sérologie peut encore être utilisée chez ces patients mais doit être interprétée avec prudence; ce n'est pas la principale limitation évoquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessité de la technique de Baermann",
+            "justification": "La technique de Baermann est spécifique à l'examen parasitologique et n'est pas une limitation de la sérologie."
+          }
+        ]
+      }
+    }
+  ]
+}

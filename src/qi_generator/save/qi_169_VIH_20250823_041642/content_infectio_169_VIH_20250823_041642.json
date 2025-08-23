@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755915609100_01",
+      "current_version_epoch_ms": 1755915609100,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle caractéristique radiologique est typiquement observée dans une toxoplasmose cérébrale chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lésions multiples avec aspect en cocarde et rehaussement périphérique",
+            "justification": "Les lésions multiples avec rehaussement périphérique en cocarde sont caractéristiques de la toxoplasmose cérébrale, surtout en contexte d'immunodépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion unique sans rehaussement périphérique",
+            "justification": "Les lésions uniques sans rehaussement périphérique ne correspondent pas à l'aspect typique de la toxoplasmose cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypersignal T1 central sans halo d'oedème",
+            "justification": "Le signal central T1 n'est pas la caractéristique typique ; l'hypersignal T2-Flair et le halo d'œdème péri-lésionnel sont essentiels pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésions bilatérales uniquement dans le cervelet",
+            "justification": "Les lésions de toxoplasmose ne se limitent pas spécifiquement au cervelet et peuvent être réparties dans différentes régions cérébrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcifications diffuses sans oedème périphérique",
+            "justification": "Les calcifications diffuses ne sont pas caractéristiques de la toxoplasmose cérébrale acquise chez l'adulte immunodéprimé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915609100_02",
+      "current_version_epoch_ms": 1755915609100,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Dans le contexte d'une immunodépression, quel élément radiologique augmente fortement la suspicion de toxoplasmose cérébrale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Multiplicité des lésions",
+            "justification": "La présence de lésions multiples est très évocatrice de toxoplasmose chez les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de rehaussement périphérique",
+            "justification": "Le rehaussement périphérique est typique et son absence rend le diagnostic moins probable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésions uniques corticales",
+            "justification": "Les lésions uniques ne sont pas typiques de la toxoplasmose cérébrale en immunodépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypodensité diffuse sans masse",
+            "justification": "L'hypodensité diffuse sans masse ne correspond pas à l'aspect en cocarde caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Atrophie cérébrale isolée",
+            "justification": "L'atrophie cérébrale seule n'est pas un signe évocateur de toxoplasmose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915609100_03",
+      "current_version_epoch_ms": 1755915609100,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel aspect de la lésion cérébrale en IRM T2-Flair est typique d'une toxoplasmose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypersignal entouré d'un halo d'œdème péri-lésionnel",
+            "justification": "L'hypersignal T2-Flair avec halo d'œdème péri-lésionnel est caractéristique des lésions toxoplasmiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyposignal sans oedème",
+            "justification": "Le hyposignal sans halo d'œdème ne correspond pas à l'aspect radiologique typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rehaussement homogène sans cocarde",
+            "justification": "Le rehaussement homogène ne reflète pas le rehaussement périphérique en cocarde typique de la toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Signal normal en T2-Flair",
+            "justification": "Les lésions toxoplasmiques apparaissent en hypersignal T2-Flair, pas normales."
+          },
+          {
+            "correct": false,
+            "proposition": "Oedème diffus sans lésion centrale",
+            "justification": "L'œdème diffus seul ne permet pas d'identifier spécifiquement une toxoplasmose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915609100_04",
+      "current_version_epoch_ms": 1755915609100,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est le rôle du halo d'œdème autour d'une lésion cérébrale en cocarde dans la toxoplasmose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il traduit un oedème péri-lésionnel inflammatoire",
+            "justification": "Le halo correspond à l'œdème périphérique induit par la réaction inflammatoire autour de l'abcès toxoplasmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il indique une hémorragie récente",
+            "justification": "Le halo n'indique pas une hémorragie mais un œdème péri-lésionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Il représente une calcification",
+            "justification": "Le halo d'œdème n'est pas une calcification, mais un signal inflammatoire autour de la lésion."
+          },
+          {
+            "correct": false,
+            "proposition": "Il correspond à un artefact de l'IRM",
+            "justification": "Le halo est un signe réel d'œdème, non un artefact d'imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est spécifique des tumeurs cérébrales malignes",
+            "justification": "Le halo n'est pas spécifique aux tumeurs ; ici il reflète l'œdème toxoplasmique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915609100_05",
+      "current_version_epoch_ms": 1755915609100,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel aspect en TDM est typique d'une toxoplasmose cérébrale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lésions hypodenses avec rehaussement périphérique",
+            "justification": "En scanner, les lésions apparaissent hypodenses et présentent un rehaussement périphérique en cocarde."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésions hyperdenses homogènes sans oedème",
+            "justification": "Les lésions toxoplasmiques ne sont pas hyperdenses homogènes ; elles présentent un halo d'œdème."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcifications multiples",
+            "justification": "Les calcifications ne sont pas un signe typique chez l'adulte immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Lésion unique sans rehaussement",
+            "justification": "Les lésions uniques sans rehaussement ne sont pas caractéristiques de la toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Atrophie cérébrale diffuse",
+            "justification": "L'atrophie diffuse n'est pas un signe spécifique de toxoplasmose."
+          }
+        ]
+      }
+    }
+  ]
+}

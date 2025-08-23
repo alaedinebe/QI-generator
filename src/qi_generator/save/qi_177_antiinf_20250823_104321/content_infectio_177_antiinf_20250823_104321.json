@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antiinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755938807761_01",
+      "current_version_epoch_ms": 1755938807761,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme d'action principal des bêta-lactamines ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhibition de la synthèse de la paroi bactérienne",
+            "justification": "Les bêta-lactamines empêchent la formation des liaisons croisées du peptidoglycane, perturbant ainsi la paroi bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la synthèse de l'ADN bactérien",
+            "justification": "Les bêta-lactamines n'agissent pas sur l'ADN ; ce mécanisme est celui des quinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la synthèse de l'ARN bactérien",
+            "justification": "Ce mécanisme correspond aux rifamycines et non aux bêta-lactamines."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la synthèse des protéines bactériennes",
+            "justification": "Les bêta-lactamines ne ciblent pas les ribosomes ; ce mécanisme est celui des aminosides, macrolides ou cyclines."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la synthèse de l'acide folique",
+            "justification": "Les bêta-lactamines n'agissent pas sur la synthèse de l'acide folique, ce rôle revient aux sulfamides."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755938807761_02",
+      "current_version_epoch_ms": 1755938807761,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel antibiotique agit en inhibant la synthèse de l'ADN bactérien ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Rifamycine",
+            "justification": "La rifamycine inhibe la synthèse de l'ARN, pas celle de l'ADN."
+          },
+          {
+            "correct": true,
+            "proposition": "Quinolone",
+            "justification": "Les quinolones ciblent l'ADN gyrase et la topoisomérase IV, bloquant ainsi la synthèse de l'ADN bactérien."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline est une bêta-lactamine qui inhibe la synthèse de la paroi, pas de l'ADN."
+          },
+          {
+            "correct": false,
+            "proposition": "Sulfamide",
+            "justification": "Les sulfamides inhibent la synthèse de l'acide folique, pas celle de l'ADN."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrolide",
+            "justification": "Les macrolides inhibent la synthèse protéique, pas celle de l'ADN."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755938807761_03",
+      "current_version_epoch_ms": 1755938807761,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel mécanisme est ciblé par les aminosides ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Synthèse de la paroi bactérienne",
+            "justification": "Les aminosides n'agissent pas sur la paroi, mais sur la synthèse protéique."
+          },
+          {
+            "correct": false,
+            "proposition": "Synthèse de l'ADN bactérien",
+            "justification": "Les aminosides n'interfèrent pas avec l'ADN ; ce rôle revient aux quinolones."
+          },
+          {
+            "correct": true,
+            "proposition": "Synthèse des protéines bactériennes",
+            "justification": "Les aminosides se fixent sur la sous-unité 30S du ribosome bactérien, inhibant la traduction protéique."
+          },
+          {
+            "correct": false,
+            "proposition": "Synthèse de l'ARN bactérien",
+            "justification": "Les aminosides n'agissent pas sur l'ARN ; les rifamycines ciblent ce mécanisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Synthèse de l'acide folique",
+            "justification": "Les aminosides ne perturbent pas la synthèse de l'acide folique, qui est l'effet des sulfamides."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755938807761_04",
+      "current_version_epoch_ms": 1755938807761,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, lesquelles inhibent la synthèse de l'ARN bactérien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rifamycine",
+            "justification": "La rifamycine bloque l'ARN polymérase bactérienne, empêchant la transcription de l'ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinolone",
+            "justification": "Les quinolones inhibent la synthèse de l'ADN et non celle de l'ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "Cycline",
+            "justification": "Les cyclines inhibent la synthèse protéique, pas la transcription de l'ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "Beta-lactamine",
+            "justification": "Les bêta-lactamines perturbent la paroi bactérienne, pas l'ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "Sulfamide",
+            "justification": "Les sulfamides bloquent la synthèse de l'acide folique, pas celle de l'ARN."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755938807761_05",
+      "current_version_epoch_ms": 1755938807761,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel antibiotique agit en inhibant la synthèse de l'acide folique bactérien ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Macrolide",
+            "justification": "Les macrolides ciblent la synthèse protéique et non la voie de l'acide folique."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinolone",
+            "justification": "Les quinolones inhibent la synthèse de l'ADN, pas celle de l'acide folique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rifamycine",
+            "justification": "La rifamycine bloque la transcription, pas la synthèse de l'acide folique."
+          },
+          {
+            "correct": true,
+            "proposition": "Sulfamide",
+            "justification": "Les sulfamides inhibent les enzymes impliquées dans la synthèse de l'acide folique, essentielle à la croissance bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Beta-lactamine",
+            "justification": "Les bêta-lactamines perturbent la paroi bactérienne, pas la synthèse de l'acide folique."
+          }
+        ]
+      }
+    }
+  ]
+}

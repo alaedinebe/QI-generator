@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755905252927_01",
+      "current_version_epoch_ms": 1755905252927,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier la recommandation générale concernant le recours aux examens paracliniques devant une suspicion de grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic de grippe est clinique : aucun examen paraclinique n'est nécessaire en première intention.",
+            "justification": "La recommandation générale est l'absence de nécessité d'examens complémentaires pour poser le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PCR Myxovirus influenzae doit être réalisée chez tout patient suspect, quel que soit le contexte.",
+            "justification": "La PCR n'est pas systématique ; elle est mentionnée pour le patient hospitalisé afin de guider la prise en charge et les mesures d'hygiène."
+          },
+          {
+            "correct": true,
+            "proposition": "Le recours à des examens est réservé à des finalités précises : hospitalisation ou visée épidémiologique.",
+            "justification": "Les indications citées sont l'hospitalisation (pour guider traitement et mesures d'hygiène) et la surveillance épidémiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le TROD est indiqué systématiquement pour confirmer toute suspicion individuelle.",
+            "justification": "Le TROD est cité pour le suivi épidémique/virologique et, chez l'enfant, pour réduire certains recours, pas pour confirmer chaque cas individuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun examen paraclinique n'a d'indication, y compris en contexte d'hospitalisation.",
+            "justification": "Chez un patient hospitalisé, sont indiqués un écouvillonnage nasopharyngé et une PCR Myxovirus influenzae."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905252927_02",
+      "current_version_epoch_ms": 1755905252927,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Chez un patient hospitalisé pour grippe suspectée, reconnaître les examens indiqués pour guider le traitement et les mesures d'hygiène.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Écouvillonnage nasopharyngé.",
+            "justification": "L'écouvillonnage nasopharyngé fait partie des examens indiqués à l'hôpital pour guider la prise en charge."
+          },
+          {
+            "correct": true,
+            "proposition": "PCR Myxovirus influenzae.",
+            "justification": "La PCR pour Myxovirus influenzae est explicitement indiquée chez le patient hospitalisé."
+          },
+          {
+            "correct": false,
+            "proposition": "TROD.",
+            "justification": "Le TROD est mentionné pour la surveillance épidémiologique et chez l'enfant pour réduire certains recours, pas comme examen à l'hôpital pour guider les mesures."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun examen paraclinique n'est nécessaire.",
+            "justification": "À l'hôpital, des examens sont prévus (écouvillonnage nasopharyngé et PCR)."
+          },
+          {
+            "correct": false,
+            "proposition": "Examens à visée exclusivement épidémiologique pour les réseaux de surveillance.",
+            "justification": "Dans ce contexte, l'objectif est de guider traitement et hygiène, non la surveillance des réseaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905252927_03",
+      "current_version_epoch_ms": 1755905252927,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "À visée épidémiologique, classer les examens en fonction de leur indication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TROD pour le suivi épidémique et virologique des réseaux de surveillance.",
+            "justification": "Le TROD est indiqué pour le suivi épidémique et virologique."
+          },
+          {
+            "correct": false,
+            "proposition": "PCR Myxovirus influenzae pour le suivi des réseaux de surveillance.",
+            "justification": "La PCR n'est pas citée comme outil de suivi des réseaux ; c'est le TROD qui est mentionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun examen n'est utile à visée épidémiologique.",
+            "justification": "Un examen est indiqué : le TROD pour le suivi épidémique/virologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Écouvillonnage nasopharyngé seul suffit pour la surveillance des réseaux.",
+            "justification": "La surveillance des réseaux s'appuie sur le TROD, pas sur l'écouvillonnage seul."
+          },
+          {
+            "correct": false,
+            "proposition": "TROD chez l'enfant pour diminuer hospitalisations et antibiothérapies relève de la visée épidémiologique.",
+            "justification": "Chez l'enfant, le TROD est mentionné pour réduire des recours (examens, hospitalisations, antibiothérapies), ce qui est distinct d'une visée épidémiologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905252927_04",
+      "current_version_epoch_ms": 1755905252927,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Chez l'enfant, reconnaître les effets attendus de l'utilisation du TROD dans la prise en charge de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution des examens complémentaires.",
+            "justification": "Le TROD chez l'enfant vise à diminuer les examens complémentaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Diminution des hospitalisations.",
+            "justification": "Le TROD chez l'enfant vise à diminuer les hospitalisations."
+          },
+          {
+            "correct": true,
+            "proposition": "Diminution des antibiothérapies.",
+            "justification": "Le TROD chez l'enfant vise à diminuer les antibiothérapies."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la surveillance épidémique des réseaux.",
+            "justification": "La surveillance des réseaux est une utilisation du TROD, pas un élément à « diminuer » chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution des mesures d'hygiène à l'hôpital.",
+            "justification": "Les mesures d'hygiène ne sont pas citées comme un élément réduit par le TROD chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905252927_05",
+      "current_version_epoch_ms": 1755905252927,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les propositions suivantes selon qu'elles constituent des indications ou des non-indications d'examens paracliniques dans la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "De manière générale, aucun examen paraclinique n'est nécessaire pour diagnostiquer la grippe.",
+            "justification": "Le diagnostic est clinique et ne nécessite pas d'examens complémentaires en règle générale."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez un patient hospitalisé, réaliser un écouvillonnage nasopharyngé et une PCR Myxovirus influenzae pour guider traitement et mesures d'hygiène.",
+            "justification": "Cette situation constitue une indication explicite d'examens."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser le TROD pour le suivi épidémique et virologique des réseaux de surveillance.",
+            "justification": "C'est une indication à visée épidémiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Employer le TROD pour confirmer systématiquement chaque cas individuel chez l'adulte.",
+            "justification": "Le TROD n'est pas indiqué comme confirmation systématique individuelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer la PCR Myxovirus influenzae comme un examen à visée épidémiologique de routine.",
+            "justification": "La visée épidémiologique mentionne le TROD, pas la PCR."
+          }
+        ]
+      }
+    }
+  ]
+}

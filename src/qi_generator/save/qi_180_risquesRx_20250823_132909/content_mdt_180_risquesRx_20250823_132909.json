@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risquesRx",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755948756366_01",
+      "current_version_epoch_ms": 1755948756366,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quelle est l'unité de mesure de l'activité d'une source radioactive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Becquerel (Bq)",
+            "justification": "Le becquerel (Bq) est l'unité internationale de mesure de l'activité radioactive, correspondant à une désintégration par seconde."
+          },
+          {
+            "correct": false,
+            "proposition": "Gray (Gy)",
+            "justification": "Le gray (Gy) est l'unité de la dose absorbée dans les tissus, et non l'activité d'une source radioactive."
+          },
+          {
+            "correct": false,
+            "proposition": "Sievert (Sv)",
+            "justification": "Le sievert (Sv) mesure la dose efficace, qui prend en compte les effets biologiques de l'irradiation, pas l'activité radioactive."
+          },
+          {
+            "correct": false,
+            "proposition": "Joule (J)",
+            "justification": "Le joule (J) mesure l'énergie, mais ne correspond pas à l'activité d'une source radioactive."
+          },
+          {
+            "correct": false,
+            "proposition": "Watt (W)",
+            "justification": "Le watt (W) mesure la puissance, et non l'activité radioactive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948756366_02",
+      "current_version_epoch_ms": 1755948756366,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Comment est définie la dose efficace en radioprotection ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La dose efficace est définie comme l'estimation du détriment biologique de l'irradiation sur l'organisme entier.",
+            "justification": "La dose efficace (Deff) prend en compte la pondération des doses locales par le facteur de dangerosité du rayonnement et le facteur de susceptibilité tissulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose efficace est équivalente à la dose déposée dans les tissus, sans tenir compte du type de rayonnement.",
+            "justification": "La dose efficace ne correspond pas simplement à la dose déposée, mais tient compte du type de rayonnement et de la sensibilité des tissus."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose efficace est mesurée en Gray (Gy).",
+            "justification": "Le Gray (Gy) est l'unité de mesure de la dose absorbée, mais la dose efficace se mesure en Sievert (Sv)."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose efficace est utilisée pour décrire l'irradiation locale dans un tissu spécifique.",
+            "justification": "La dose efficace est une estimation du danger global sur l'organisme entier, et non sur un tissu localisé."
+          },
+          {
+            "correct": false,
+            "proposition": "La dose efficace ne tient pas compte de la susceptibilité des tissus.",
+            "justification": "La dose efficace prend justement en compte la susceptibilité tissulaire, en utilisant un facteur Wt pour chaque organe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948756366_03",
+      "current_version_epoch_ms": 1755948756366,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quel est le rôle du facteur Wr dans le calcul de la dose efficace ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le facteur Wr correspond à la dangerosité du rayonnement et permet de pondérer la dose déposée.",
+            "justification": "Le facteur Wr reflète la capacité du rayonnement à causer des dommages biologiques, comme c'est le cas pour les particules alpha et les photons."
+          },
+          {
+            "correct": false,
+            "proposition": "Le facteur Wr correspond à la masse du tissu irradié.",
+            "justification": "Le facteur Wr n'est pas lié à la masse du tissu, mais à la dangerosité du type de rayonnement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le facteur Wr est utilisé pour estimer l'énergie absorbée par le tissu.",
+            "justification": "L'énergie absorbée par le tissu est mesurée en gray (Gy), pas par le facteur Wr qui intervient dans le calcul de la dose efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Le facteur Wr dépend uniquement du type de radiation alpha.",
+            "justification": "Le facteur Wr varie en fonction du type de rayonnement, pas uniquement des particules alpha."
+          },
+          {
+            "correct": false,
+            "proposition": "Le facteur Wr est constant, quel que soit le type de rayonnement.",
+            "justification": "Le facteur Wr varie selon le type de rayonnement, allant de 1 pour les photons à 20 pour les particules alpha."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948756366_04",
+      "current_version_epoch_ms": 1755948756366,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quel est le produit Dose × Surface (PDS) utilisé en imagerie de projection ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le produit Dose × Surface (PDS) s'exprime en mGy·cm2 et est utilisé pour décrire la dose d'irradiation en imagerie de projection.",
+            "justification": "Le PDS est utilisé pour estimer la dose reçue par la peau ou les organes exposés lors des examens radiographiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le PDS est utilisé uniquement pour mesurer la dose dans les tomodensitométries (scanner).",
+            "justification": "Le PDS est spécifique à l'imagerie de projection, et non à la tomodensitométrie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le PDS est une mesure de la dose efficace en mSv.",
+            "justification": "Le PDS ne mesure pas directement la dose efficace, mais la dose déposée sur une surface donnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le PDS est une mesure de la dose absorbée en Gray.",
+            "justification": "Le PDS est une mesure en mGy·cm2, pas en Gray (Gy) qui est l'unité de la dose absorbée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le PDS mesure la dose totale reçue par un organe spécifique.",
+            "justification": "Le PDS évalue la dose d'irradiation en fonction de la surface exposée, et non la dose reçue par un organe spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948756366_05",
+      "current_version_epoch_ms": 1755948756366,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Comment est exprimé l'index de dose scanographique volumique (IDSV) en tomodensitométrie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IDSV est exprimé en mGy·cm et reflète le profil de coupe en tomodensitométrie.",
+            "justification": "L'IDSV est une mesure de la dose d'irradiation par unité de surface, tenant compte du profil de coupe du scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IDSV est utilisé pour calculer la dose efficace totale reçue par le patient.",
+            "justification": "L'IDSV ne reflète pas la dose totale reçue, mais un aspect du profil de coupe en tomodensitométrie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IDSV est mesuré en Gray (Gy).",
+            "justification": "L'IDSV est exprimé en mGy·cm, et non en Gray (Gy), qui est une unité de la dose absorbée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IDSV est utilisé pour évaluer la dose en imagerie de projection.",
+            "justification": "L'IDSV est spécifique à la tomodensitométrie et ne s'applique pas à l'imagerie de projection."
+          },
+          {
+            "correct": false,
+            "proposition": "L'IDSV donne directement une estimation de la dose efficace (Deff).",
+            "justification": "L'IDSV n'est pas une estimation directe de la dose efficace, mais une mesure du profil de coupe du scanner."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755917264479_01",
+      "current_version_epoch_ms": 1755917264479,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention d'un accès palustre simple à Plasmodium falciparum chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association thérapeutique à base d'artémisinine (ACT)",
+            "justification": "L'ACT est la première ligne thérapeutique recommandée pour un accès palustre simple à P. falciparum, assurant efficacité et prévention de la résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine",
+            "justification": "La quinine est réservée à la troisième intention en cas d'échec ou d'intolérance aux traitements précédents."
+          },
+          {
+            "correct": false,
+            "proposition": "Atovaquone – proguanil",
+            "justification": "Cet antipaludique est une option de deuxième intention, pas de première ligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine adulte",
+            "justification": "La méfloquine peut être utilisée chez l'enfant mais uniquement en deuxième intention et selon le protocole spécifique pédiatrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine",
+            "justification": "La chloroquine n'est pas recommandée pour P. falciparum en raison de la résistance largement répandue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917264479_02",
+      "current_version_epoch_ms": 1755917264479,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Parmi les critères suivants, lequel nécessite une hospitalisation initiale d'un patient avec paludisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plaquettes < 50 G/L",
+            "justification": "Une thrombopénie sévère (<50 G/L) est un critère paraclinique justifiant l'hospitalisation initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Parasitémie < 0,5%",
+            "justification": "Une parasitémie faible n'est pas un critère d'hospitalisation ; le seuil est >2%."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque de mauvaise observance",
+            "justification": "Le risque de non-observance nécessite l'hospitalisation pour assurer un traitement efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre < 38°C",
+            "justification": "Une fièvre modérée seule n'impose pas d'hospitalisation selon les critères définis."
+          },
+          {
+            "correct": true,
+            "proposition": "Créatinine > 150 µmol/L",
+            "justification": "Une insuffisance rénale avec créatinine élevée est un critère paraclinique justifiant l'hospitalisation initiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917264479_03",
+      "current_version_epoch_ms": 1755917264479,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel traitement est indiqué pour prévenir les accès de reviviscence après un paludisme à P. vivax ou P. ovale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement spécifique préventif post-accès",
+            "justification": "Après un accès à P. vivax ou P. ovale, un traitement préventif est nécessaire pour éviter les récidives (reviviscence)."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine seule sans suivi",
+            "justification": "Le traitement préventif spécifique est nécessaire ; la chloroquine seule n'empêche pas la reviviscence."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune prévention n'est requise",
+            "justification": "Il est indispensable de prévenir les reviviscences pour P. vivax et P. ovale."
+          },
+          {
+            "correct": false,
+            "proposition": "ACT comme prophylaxie quotidienne",
+            "justification": "L'ACT est utilisée pour le traitement curatif, pas pour la prévention spécifique des reviviscences."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine en dose unique",
+            "justification": "La quinine n'a pas d'indication pour la prévention des reviviscences."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917264479_04",
+      "current_version_epoch_ms": 1755917264479,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Avant de démarrer un traitement curatif pour un paludisme, quelle précaution doit être systématiquement prise ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Arrêt de la chimioprophylaxie et recherche de contre-indications",
+            "justification": "Il est impératif de suspendre la prophylaxie et de vérifier les contre-indications avant de débuter le traitement curatif."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer immédiatement le traitement sans bilan",
+            "justification": "Le traitement doit être précédé de vérifications pour garantir sécurité et efficacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation systématique de tous les patients",
+            "justification": "L'hospitalisation dépend des critères spécifiques et n'est pas systématique pour tous les patients."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription de quinine en première intention",
+            "justification": "La quinine est réservée à la troisième intention et non systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Prophylaxie simultanée avec ACT",
+            "justification": "La prophylaxie n'est pas combinée au traitement curatif ; elle doit être arrêtée avant le traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917264479_05",
+      "current_version_epoch_ms": 1755917264479,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel antipaludique est considéré en deuxième intention chez l'enfant pour un accès simple à P. falciparum ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "ACT",
+            "justification": "L'ACT est la première intention, pas la deuxième."
+          },
+          {
+            "correct": true,
+            "proposition": "Atovaquone – proguanil",
+            "justification": "L'atovaquone-proguanil est un traitement de deuxième intention chez l'enfant en cas d'impossibilité d'utiliser l'ACT."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine",
+            "justification": "La quinine n'est indiquée qu'en troisième intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Méfloquine",
+            "justification": "La méfloquine est une alternative de deuxième intention chez l'enfant, selon le protocole pédiatrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine",
+            "justification": "La chloroquine n'est pas recommandée pour P. falciparum en raison de la résistance."
+          }
+        ]
+      }
+    }
+  ]
+}

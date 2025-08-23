@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755916851147_01",
+      "current_version_epoch_ms": 1755916851147,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel agent infectieux est responsable de la quasi-totalité des accès palustres graves ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plasmodium falciparum",
+            "justification": "Plasmodium falciparum est spécifiquement mentionné comme responsable de la quasi-totalité des accès palustres graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Plasmodium vivax",
+            "justification": "Plasmodium vivax n'est pas indiqué comme responsable de la majorité des accès graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Plasmodium ovale",
+            "justification": "Plasmodium ovale n'est pas mentionné comme cause d'accès palustre grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Plasmodium malariae",
+            "justification": "Plasmodium malariae n'est pas indiqué dans le contexte des accès graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Plasmodium knowlesi",
+            "justification": "Plasmodium knowlesi n'est pas cité comme responsable d'accès palustres graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916851147_02",
+      "current_version_epoch_ms": 1755916851147,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quels patients sont considérés à risque d'accès palustre grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les enfants et les personnes âgées",
+            "justification": "Les patients d'âges extrêmes sont identifiés comme terrains à risque d'accès grave."
+          },
+          {
+            "correct": true,
+            "proposition": "Les femmes enceintes",
+            "justification": "Les femmes enceintes font partie des terrains à risque d'accès grave."
+          },
+          {
+            "correct": true,
+            "proposition": "Les patients splénectomisés ou avec rate non fonctionnelle",
+            "justification": "Les patients sans rate fonctionnelle sont spécifiquement mentionnés comme à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Les adultes en bonne santé sans antécédent particulier",
+            "justification": "Les adultes en bonne santé ne sont pas listés parmi les terrains à risque d'accès grave."
+          },
+          {
+            "correct": true,
+            "proposition": "Les patients immunodéprimés ou avec comorbidités",
+            "justification": "Les patients immunodéprimés ou ayant des comorbidités sont inclus dans les terrains à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916851147_03",
+      "current_version_epoch_ms": 1755916851147,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quelle est la conduite à tenir lorsqu'un patient présente des signes de gravité d'un accès palustre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surveillance rapprochée et prise en charge adaptée en unité de soins continus",
+            "justification": "La présence de signes de gravité impose une surveillance rapprochée et une prise en charge adaptée, idéalement en unité de soins continus."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement ambulatoire avec contrôle quotidien par téléphone",
+            "justification": "Le traitement ambulatoire n'est pas indiqué face à des signes de gravité, qui nécessitent une surveillance rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun traitement spécifique si le patient est adulte",
+            "justification": "L'âge adulte ne protège pas d'un accès grave ; la prise en charge doit être adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance hebdomadaire en consultation externe",
+            "justification": "Une surveillance hebdomadaire est insuffisante pour des signes de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription d'antibiotiques systématiques",
+            "justification": "Les antibiotiques ne sont pas mentionnés comme traitement du paludisme grave."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916851147_04",
+      "current_version_epoch_ms": 1755916851147,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel énoncé est correct concernant l'évolution potentielle de tout accès palustre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tout accès palustre peut évoluer vers un accès grave et le décès du patient",
+            "justification": "Il est clairement indiqué que tout accès palustre peut évoluer vers un accès grave et entraîner le décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les accès palustres chez les enfants évoluent vers la gravité",
+            "justification": "La gravité n'est pas limitée aux enfants ; tous les patients sont concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les accès palustres importés ne peuvent pas être graves",
+            "justification": "La gravité s'applique également aux accès palustres d'importation."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accès palustre ne devient grave que chez les patients non traités",
+            "justification": "Le risque d'évolution vers la gravité existe indépendamment du traitement initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paludisme léger ne nécessite jamais de surveillance rapprochée",
+            "justification": "Même les cas initiaux peuvent évoluer vers la gravité et doivent être surveillés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916851147_05",
+      "current_version_epoch_ms": 1755916851147,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, lesquelles identifient correctement un terrain à risque d'accès palustre grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient splénectomisé",
+            "justification": "Les patients splénectomisés ou avec rate non fonctionnelle sont cités comme terrains à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Personne âgée",
+            "justification": "Les patients d'âges extrêmes, incluant les personnes âgées, sont à risque d'accès grave."
+          },
+          {
+            "correct": true,
+            "proposition": "Femme enceinte",
+            "justification": "Les femmes enceintes sont spécifiquement mentionnées comme terrain à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Adulte jeune sans comorbidité",
+            "justification": "Les adultes jeunes sans comorbidité ne font pas partie des terrains à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient immunodéprimé",
+            "justification": "Les patients immunodéprimés sont inclus dans les terrains à risque d'accès grave."
+          }
+        ]
+      }
+    }
+  ]
+}

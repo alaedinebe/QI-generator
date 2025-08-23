@@ -1,0 +1,147 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître les principaux vaccins à mettre à jour OIC-174-07-B
+
+1.1 Conduite à tenir
+1.2 Examens permettant d'ajuster les indications et la mise en œuvre du rattrapage en contexte de migration
+
+1.2.1 Sérologie de l'hépatite B
+1.2.2 Sérologie VZV
+1.2.3 Sérologie de l'hépatite A
+1.2.4 Sérologies de l'hépatite B et tétanos en post-vaccinal (4 à 8 semaines après)
+1.2.5 Dépistage de la tuberculose maladie et de l'ITL (2C-174-DP-A01)
+
+
+1.3 Vaccins à mettre à jour
+1.4 Principe généraux du rattrapage vaccinal chez les migrants primo-arrivants
+
+
+
+
+Connaître les principales pathologies à dépister chez les migrants OIC-174-05-A
+
+
+
+
+
+Infections bactériennes
+Tuberculose
+A dépister chez les primo-arrivants. Tuberculose pulmonaire par l'examen clinique et cliché thoracique. Infection tuberculeuse latente (ITL) par test interféron gamma
+
+Colonisation par des bactéries multi-résistantes (BMR) ou hautement résistantes (BHR)
+Dépistage par écouvillonnage rectal à l'entrée d'une hospitalisation en France si hospitalisation dans le pays d'origine dans l'année précédente.
+
+Infections virales
+VIH-VHB-VHC
+A dépister chez les primo-arrivants par sérologies
+
+Parasitoses
+Parasitoses intestinales
+A dépister chez les primo-arrivants par EPS. Diarrhée, anémie et hyperéosinophilie sont des points d'appel classiques de ces infections.
+
+Schistosomoses
+Dépistage chez les primo-arrivants par sérologie avec, en cas de positivité, EPS et EPU (examen parasitologique des selle et des urines) pour recherche des œufs
+
+Maladie de Chagas
+Femmes enceintes nées en Amérique latine. Par sérologie.
+
+Ectoparasitose
+En lien avec la précarité : gale
+
+Mycose
+Teignes microscopiques ou tricophytiques chez l'enfant
+
+Pathologies non infectieuses
+HTA-Diabète-Drépanocytose/hémoglobinopathies Sommaire1Connaître les principaux vaccins à mettre à jour OIC-174-07-B1.1Conduite à tenir1.2Examens permettant d'ajuster les indications et la mise en œuvre du rattrapage en contexte de migration1.2.1Sérologie de l'hépatite B1.2.2Sérologie VZV1.2.3Sérologie de l'hépatite A1.2.4Sérologies de l'hépatite B et tétanos en post-vaccinal (4 à 8 semaines après)1.2.5Dépistage de la tuberculose maladie et de l'ITL (2C-174-DP-A01)1.3Vaccins à mettre à jour1.4Principe généraux du rattrapage vaccinal chez les migrants primo-arrivantsConnaître les principales pathologies à dépister chez les migrants OIC-174-05-AInfections bactériennesTuberculoseA dépister chez les primo-arrivants. Tuberculose pulmonaire par l'examen clinique et cliché thoracique. Infection tuberculeuse latente (ITL) par test interféron gammaColonisation par des bactéries multi-résistantes (BMR) ou hautement résistantes (BHR)Dépistage par écouvillonnage rectal à l'entrée d'une hospitalisation en France si hospitalisation dans le pays d'origine dans l'année précédente.Infections viralesVIH-VHB-VHCA dépister chez les primo-arrivants par sérologiesParasitosesParasitoses intestinalesA dépister chez les primo-arrivants par EPS. Diarrhée, anémie et hyperéosinophilie sont des points d'appel classiques de ces infections.SchistosomosesDépistage chez les primo-arrivants par sérologie avec, en cas de positivité, EPS et EPU (examen parasitologique des selle et des urines) pour recherche des œufsMaladie de ChagasFemmes enceintes nées en Amérique latine. Par sérologie.EctoparasitoseEn lien avec la précarité : galeMycoseTeignesmicroscopiques ou tricophytiques chez l'enfantPathologies non infectieusesHTA-Diabète-Drépanocytose/hémoglobinopathies
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

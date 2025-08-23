@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "APMP",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755958492427_01",
+      "current_version_epoch_ms": 1755958492427,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel est le délai maximal pour qu'un salarié victime d'un accident de travail prévienne son employeur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans les 24 heures, sauf cas de force majeure",
+            "justification": "Le salarié doit prévenir son employeur dans un délai de 24 heures, sauf en cas de force majeure, pour garantir la prise en charge rapide de l'accident."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 48 heures",
+            "justification": "Le délai est de 24 heures, pas 48 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 72 heures",
+            "justification": "Le délai légal est de 24 heures, et non 72 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Immédiatement après l'accident",
+            "justification": "Bien qu'il soit recommandé de prévenir le plus tôt possible, la règle précise un délai de 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 7 jours",
+            "justification": "Le délai légal est de 24 heures, ce qui est beaucoup plus court que 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958492427_02",
+      "current_version_epoch_ms": 1755958492427,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel document doit être rédigé par le médecin après un accident de travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Certificat Médical Initial (CMI)",
+            "justification": "Le médecin doit remplir un certificat médical initial (CMI) pour décrire les lésions observées après un accident de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Attestation de salaire",
+            "justification": "L'attestation de salaire est fournie par l'employeur, pas par le médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Feuille de soins",
+            "justification": "La feuille de soins est délivrée par l'employeur, pas le médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Formulaire de déclaration de l'accident",
+            "justification": "Ce formulaire est à remplir par l'employeur, pas le médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Questionnaire d'exposition aux risques",
+            "justification": "Ce questionnaire est envoyé par la CPAM pour vérifier l'exposition aux risques, et non par le médecin."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958492427_03",
+      "current_version_epoch_ms": 1755958492427,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel est le délai maximal pour un employeur de déclarer un accident de travail à la CPAM ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans les 48 heures",
+            "justification": "L'employeur doit déclarer l'accident à la CPAM dans un délai de 48 heures après sa survenue."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 72 heures",
+            "justification": "Le délai maximal est de 48 heures, pas 72 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 7 jours",
+            "justification": "Le délai est de 48 heures, bien plus court que 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Immédiatement après l'accident",
+            "justification": "Le délai légal est de 48 heures, bien qu'une déclaration rapide soit fortement recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 1 mois",
+            "justification": "Le délai légal est de 48 heures, pas un mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958492427_04",
+      "current_version_epoch_ms": 1755958492427,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que doit faire un salarié s'il n'a pas vu son employeur déclarer un accident de travail à la CPAM ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déclarer l'accident à la CPAM lui-même dans un délai de 2 ans",
+            "justification": "Si l'employeur ne déclare pas l'accident, le salarié peut le faire lui-même dans les 2 ans suivant l'accident."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre 6 mois et vérifier avec l'employeur",
+            "justification": "Le salarié a jusqu'à 2 ans pour déclarer l'accident, pas 6 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Déclarer l'accident dans les 3 mois",
+            "justification": "Le délai pour déclarer un accident est de 2 ans, pas 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander un certificat médical avant de déclarer l'accident",
+            "justification": "Le salarié peut déclarer l'accident sans attendre un certificat médical supplémentaire si l'employeur ne l'a pas fait."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire une plainte auprès de la CPAM",
+            "justification": "La déclaration directe à la CPAM est l'option à suivre, sans passer par une plainte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958492427_05",
+      "current_version_epoch_ms": 1755958492427,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que doit faire un médecin lors de la déclaration d'une maladie professionnelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Remplir un certificat médical initial (CMI) et préciser la pathologie ainsi que la date de première constatation",
+            "justification": "Le médecin doit rédiger un certificat médical initial en précisant la pathologie, la date de première constatation, et l'éventuel arrêt de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplir une attestation de salaire",
+            "justification": "L'attestation de salaire est remplie par l'employeur, pas le médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplir un formulaire Cerfa de déclaration de la maladie",
+            "justification": "Le formulaire Cerfa pour la déclaration est à remplir par le salarié, pas par le médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander un bilan complémentaire sans justifications",
+            "justification": "Le médecin doit prescrire un bilan complémentaire si nécessaire, mais cela doit être justifié par l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réévaluer la pathologie sans la mentionner dans un CMI",
+            "justification": "Le médecin doit mentionner la pathologie dans le CMI, ainsi que la date de première constatation."
+          }
+        ]
+      }
+    }
+  ]
+}

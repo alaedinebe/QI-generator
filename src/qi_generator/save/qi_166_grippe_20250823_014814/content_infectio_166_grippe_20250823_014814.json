@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755906701605_01",
+      "current_version_epoch_ms": 1755906701605,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les situations relevant d'un traitement curatif par inhibiteur de la neuraminidase.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grippe chez une personne à risque.",
+            "justification": "Les indications curatives incluent les personnes à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Grippe grave d'emblée.",
+            "justification": "La prise en charge curative est indiquée en cas de gravité d'emblée."
+          },
+          {
+            "correct": true,
+            "proposition": "Hospitalisation pour grippe.",
+            "justification": "L'hospitalisation fait partie des indications curatives des inhibiteurs de la neuraminidase."
+          },
+          {
+            "correct": false,
+            "proposition": "Sujet jeune sans facteur de risque avec symptômes bénins en ambulatoire.",
+            "justification": "Cette situation ne fait pas partie des indications curatives listées (personnes à risque, gravité d'emblée, hospitalisation)."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévention en collectivité de personnes âgées institutionnalisées.",
+            "justification": "Il s'agit d'une indication préventive, non curative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906701605_02",
+      "current_version_epoch_ms": 1755906701605,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments concernant l'oseltamivir en contexte d'épidémie saisonnière.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Service médical rendu jugé insuffisant depuis mai 2020 en curatif.",
+            "justification": "Le service médical rendu de l'oseltamivir est indiqué comme insuffisant depuis mai 2020 en curatif en situation d'épidémie saisonnière."
+          },
+          {
+            "correct": true,
+            "proposition": "Service médical rendu jugé insuffisant depuis mai 2020 en préventif.",
+            "justification": "Le service médical rendu est aussi indiqué comme insuffisant depuis mai 2020 en préventif en situation d'épidémie saisonnière."
+          },
+          {
+            "correct": false,
+            "proposition": "La balance bénéfices-risques et le remboursement ne sont pas discutés.",
+            "justification": "La balance bénéfices-risques et le remboursement sont explicitement mentionnés comme discutés."
+          },
+          {
+            "correct": false,
+            "proposition": "Objectif thérapeutique principal : éradiquer le virus.",
+            "justification": "Les objectifs mentionnés sont de réduire la durée et l'intensité des symptômes, pas l'éradication virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Contre-indication chez l'enfant de plus de 1 an.",
+            "justification": "L'oseltamivir est utilisable en préventif ou curatif chez l'adulte et l'enfant de plus de 1 an."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906701605_03",
+      "current_version_epoch_ms": 1755906701605,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les indications préventives des inhibiteurs de la neuraminidase.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Immunodépressions.",
+            "justification": "Les immunodépressions figurent parmi les indications préventives."
+          },
+          {
+            "correct": true,
+            "proposition": "Comorbidités.",
+            "justification": "Les comorbidités font partie des indications préventives."
+          },
+          {
+            "correct": true,
+            "proposition": "Collectivité de personnes à risque (personnes âgées institutionnalisées).",
+            "justification": "Les collectivités de personnes à risque, dont les personnes âgées institutionnalisées, sont citées en prévention."
+          },
+          {
+            "correct": true,
+            "proposition": "Sujets à risque de complications.",
+            "justification": "Les personnes à risque de complications relèvent des indications préventives."
+          },
+          {
+            "correct": false,
+            "proposition": "Population générale sans facteur de risque.",
+            "justification": "La population sans facteur de risque n'est pas listée parmi les indications préventives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906701605_04",
+      "current_version_epoch_ms": 1755906701605,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier les conditions d'utilisation de l'oseltamivir et du zanamivir selon l'âge et l'indication.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oseltamivir utilisable en préventif ou curatif chez l'adulte et l'enfant > 1 an.",
+            "justification": "Il est indiqué que l'oseltamivir s'utilise en prévention ou en curatif chez l'adulte et l'enfant de plus de 1 an."
+          },
+          {
+            "correct": true,
+            "proposition": "Zanamivir utilisable en préventif ou curatif chez l'adulte et l'enfant > 5 ans.",
+            "justification": "Le zanamivir est indiqué en prévention ou curatif chez l'adulte et l'enfant de plus de 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux molécules sont utilisables dès la naissance.",
+            "justification": "Des seuils d'âge sont précisés : > 1 an pour l'oseltamivir et > 5 ans pour le zanamivir."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oseltamivir est interdit chez l'adulte.",
+            "justification": "L'oseltamivir est utilisable chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Le zanamivir n'a qu'une indication préventive.",
+            "justification": "Le zanamivir a des indications préventives et curatives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906701605_05",
+      "current_version_epoch_ms": 1755906701605,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les effets indésirables des inhibiteurs de la neuraminidase.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles neuropsychiatriques.",
+            "justification": "Les troubles neuropsychiatriques sont rapportés comme effets indésirables."
+          },
+          {
+            "correct": true,
+            "proposition": "Bronchospasmes pour la voie inhalée.",
+            "justification": "Des bronchospasmes sont mentionnés pour la voie inhalée."
+          },
+          {
+            "correct": true,
+            "proposition": "Allergies.",
+            "justification": "Les allergies figurent parmi les effets indésirables cités."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale aiguë systématique.",
+            "justification": "Cet effet n'est pas listé parmi les effets indésirables rapportés."
+          },
+          {
+            "correct": false,
+            "proposition": "Myocardite.",
+            "justification": "La myocardite n'est pas mentionnée parmi les effets indésirables rapportés."
+          }
+        ]
+      }
+    }
+  ]
+}

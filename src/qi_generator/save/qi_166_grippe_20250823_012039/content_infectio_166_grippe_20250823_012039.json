@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755905046260_01",
+      "current_version_epoch_ms": 1755905046260,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les situations qui constituent une indication d'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumonie",
+            "justification": "La présence de pneumonie est un signe de complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Immunodépression",
+            "justification": "L'immunodépression fait partie des groupes à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge de 45 ans sans comorbidité",
+            "justification": "Cet âge ne correspond pas aux âges à risque listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes neurologiques",
+            "justification": "Les signes neurologiques sont des signes de complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète",
+            "justification": "Le diabète fait partie des groupes à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905046260_02",
+      "current_version_epoch_ms": 1755905046260,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier les éléments qui participent à la décision partagée d'hospitaliser.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Expertise clinique",
+            "justification": "L'expertise clinique fait partie des éléments de décision partagée."
+          },
+          {
+            "correct": true,
+            "proposition": "État général",
+            "justification": "L'état général fait partie des éléments de décision partagée."
+          },
+          {
+            "correct": true,
+            "proposition": "Préférences et environnement social du patient",
+            "justification": "Les préférences et l'environnement social font partie des éléments de décision partagée."
+          },
+          {
+            "correct": false,
+            "proposition": "Disponibilité des lits",
+            "justification": "Cet élément n'est pas listé parmi les critères de décision partagée."
+          },
+          {
+            "correct": false,
+            "proposition": "Résultats d'un examen non spécifié",
+            "justification": "Les examens ne sont pas mentionnés parmi les éléments de décision partagée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905046260_03",
+      "current_version_epoch_ms": 1755905046260,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les patients appartenant à un groupe à risque justifiant l'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 65 ans",
+            "justification": "Plus de 65 ans fait partie des groupes à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Âge inférieur à 6 mois",
+            "justification": "Moins de 6 mois fait partie des groupes à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'insuffisance cardiaque fait partie des groupes à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme isolé",
+            "justification": "Cette situation n'est pas listée parmi les groupes à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Drépanocytose",
+            "justification": "La drépanocytose fait partie des groupes à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905046260_04",
+      "current_version_epoch_ms": 1755905046260,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître les signes de complication imposant l'hospitalisation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes cardiaques",
+            "justification": "Les signes cardiaques sont des signes de complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumonie",
+            "justification": "La pneumonie est un signe de complication."
+          },
+          {
+            "correct": true,
+            "proposition": "Signes neurologiques",
+            "justification": "Les signes neurologiques sont des signes de complication."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche isolée",
+            "justification": "Ce symptôme n'est pas listé parmi les signes de complication."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale isolée",
+            "justification": "Ce symptôme n'est pas listé parmi les signes de complication."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905046260_05",
+      "current_version_epoch_ms": 1755905046260,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Pour un patient de 72 ans diabétique vivant seul, identifier les éléments orientant la décision d'hospitaliser.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 65 ans",
+            "justification": "Plus de 65 ans correspond à un groupe à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Diabète",
+            "justification": "Le diabète correspond à un groupe à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Préférences et environnement social",
+            "justification": "Les préférences et l'environnement social participent à la décision partagée."
+          },
+          {
+            "correct": true,
+            "proposition": "Expertise clinique",
+            "justification": "L'expertise clinique participe à la décision partagée."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination récente",
+            "justification": "Cet élément n'est pas listé parmi les critères de décision ni les groupes à risque."
+          }
+        ]
+      }
+    }
+  ]
+}

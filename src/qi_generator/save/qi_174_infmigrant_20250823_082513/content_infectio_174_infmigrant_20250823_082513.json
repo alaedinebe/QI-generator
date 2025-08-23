@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "infmigrant",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755930519960_01",
+      "current_version_epoch_ms": 1755930519960,
+      "topic": {
+        "subject": "infectio",
+        "item": "infmigrant"
+      },
+      "data": {
+        "statement": "Chez un migrant primo-arrivant, comment doit-on adapter le rattrapage vaccinal en fonction des doses antérieures reçues et de l'âge ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toutes les doses reçues sont prises en compte si l'âge minimal et l'intervalle minimal entre les doses ont été respectés.",
+            "justification": "Le rattrapage vaccinal considère toutes les doses antérieures dès lors que l'âge minimal et l'intervalle minimal entre les doses sont respectés, indépendamment de l'ancienneté des doses."
+          },
+          {
+            "correct": false,
+            "proposition": "Seules les doses reçues dans l'année précédente sont considérées.",
+            "justification": "L'ancienneté des doses n'est pas un critère limitant pour le rattrapage ; toutes les doses sont prises en compte si les intervalles et l'âge minimal sont respectés."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rattrapage ne se fait que si le migrant n'a reçu aucune dose auparavant.",
+            "justification": "Même en cas de vaccination partielle ou inconnue, un rattrapage est indiqué pour assurer la couverture vaccinale complète."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est possible de réaliser jusqu'à quatre injections lors d'une même séance si la personne est d'accord.",
+            "justification": "Le principe général du rattrapage permet l'administration de plusieurs vaccins en une seule séance jusqu'à quatre injections avec le consentement de la personne."
+          },
+          {
+            "correct": false,
+            "proposition": "Les vaccins doivent toujours être espacés d'au moins 6 semaines entre chaque injection.",
+            "justification": "Seuls les vaccins vivants viraux nécessitent un intervalle de 4 semaines ou administration le même jour ; les autres vaccins peuvent être administrés le même jour ou à n'importe quel intervalle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755930519960_02",
+      "current_version_epoch_ms": 1755930519960,
+      "topic": {
+        "subject": "infectio",
+        "item": "infmigrant"
+      },
+      "data": {
+        "statement": "Quel est le geste approprié après une vaccination BCG chez un migrant primo-arrivant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ne pas vacciner sur le même membre pendant 3 mois.",
+            "justification": "Après une vaccination BCG, il est recommandé de ne pas administrer d'autres vaccins sur le même membre pendant 3 mois pour éviter les complications locales."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser immédiatement tous les autres vaccins vivants viraux sur le même membre.",
+            "justification": "Les vaccins vivants viraux doivent être administrés le même jour ou avec un intervalle minimum de 4 semaines, mais pas sur le même membre après BCG."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a aucune précaution particulière après la vaccination BCG.",
+            "justification": "Une précaution spécifique est nécessaire : ne pas vacciner sur le même membre pendant 3 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "La co-administration avec d'autres vaccins inactivés sur un membre différent est possible.",
+            "justification": "Les vaccins inactivés peuvent être administrés le même jour sur un membre différent sans risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser la vaccination ROR immédiatement après le BCG sur le même membre.",
+            "justification": "Les vaccins vivants viraux comme ROR ne doivent pas être administrés sur le même membre que le BCG et doivent respecter un intervalle d'au moins 4 semaines si non administrés le même jour."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755930519960_03",
+      "current_version_epoch_ms": 1755930519960,
+      "topic": {
+        "subject": "infectio",
+        "item": "infmigrant"
+      },
+      "data": {
+        "statement": "Comment interpréter une sérologie anti-HBs positive avec un titre compris entre 10 et 99 UI/l chez un migrant primo-arrivant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer une dose supplémentaire unique de vaccin contre l'hépatite B.",
+            "justification": "Un titre d'anticorps anti-HBs compris entre 10 et 99 UI/l nécessite une dose supplémentaire unique pour assurer l'immunité."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas vacciner car la personne est déjà protégée.",
+            "justification": "Le titre n'est pas suffisant pour garantir une protection complète ; une dose supplémentaire est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un rappel complet de trois doses.",
+            "justification": "Une seule dose supplémentaire est nécessaire pour un titre compris entre 10 et 99 UI/l."
+          },
+          {
+            "correct": false,
+            "proposition": "Considérer la personne comme non immunisée.",
+            "justification": "Seules les personnes avec un titre inférieur à 10 UI/l sont considérées comme non immunisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Un résultat avec Ac anti-HBs et Ac anti-HBc positifs ne nécessite pas de vaccination.",
+            "justification": "La présence simultanée d'Ac anti-HBs et Ac anti-HBc indique une immunité naturelle ou post-infection et ne nécessite pas de vaccination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755930519960_04",
+      "current_version_epoch_ms": 1755930519960,
+      "topic": {
+        "subject": "infectio",
+        "item": "infmigrant"
+      },
+      "data": {
+        "statement": "Parmi les enfants de 6 à 13 ans primo-arrivants, quels vaccins doivent être mis à jour si la sérologie est négative ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diphtérie, tétanos, coqueluche, polio, hépatite B, ROR, Méningocoque C, HPV, varicelle et BCG selon dépistage.",
+            "justification": "Ces valences sont celles prévues pour le rattrapage chez les enfants de 6 à 13 ans en tenant compte des résultats de dépistage et du calendrier vaccinal français."
+          },
+          {
+            "correct": false,
+            "proposition": "Seule la vaccination ROR est obligatoire.",
+            "justification": "Le rattrapage inclut plusieurs valences obligatoires au-delà de ROR."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination uniquement si l'enfant présente des symptômes cliniques.",
+            "justification": "Le rattrapage vaccinal est systématique et ne dépend pas de la présence de symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "La varicelle est vaccinée uniquement si la sérologie est négative.",
+            "justification": "Le rattrapage prévoit la vaccination contre la varicelle chez les enfants dont la sérologie est négative."
+          },
+          {
+            "correct": false,
+            "proposition": "Le BCG n'est jamais recommandé après l'âge de 6 ans.",
+            "justification": "Le BCG peut être administré selon le dépistage, même chez les enfants de 6 à 13 ans, si la tuberculose est négative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755930519960_05",
+      "current_version_epoch_ms": 1755930519960,
+      "topic": {
+        "subject": "infectio",
+        "item": "infmigrant"
+      },
+      "data": {
+        "statement": "Quelles précautions doivent être respectées pour la co-administration des vaccins vivants viraux chez un migrant primo-arrivant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les vaccins vivants viraux doivent être administrés le même jour ou à un intervalle minimum de 4 semaines.",
+            "justification": "Le principe général stipule que les vaccins vivants viraux nécessitent soit une administration le même jour, soit un intervalle de 4 semaines pour assurer l'efficacité."
+          },
+          {
+            "correct": true,
+            "proposition": "Éviter la co-administration du vaccin ROR avec le vaccin contre la fièvre jaune et respecter un délai de 4 semaines.",
+            "justification": "La co-administration entre ROR et fièvre jaune doit être évitée et un intervalle d'au moins 4 semaines est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les vaccins vivants peuvent être administrés sans restriction de délai.",
+            "justification": "Un délai minimum de 4 semaines ou administration le même jour est nécessaire pour les vaccins vivants viraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Les vaccins vivants viraux doivent toujours être espacés de 6 mois entre eux.",
+            "justification": "Aucun intervalle de 6 mois n'est requis ; l'intervalle correct est de 4 semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rattrapage vaccinal n'inclut jamais les vaccins vivants viraux.",
+            "justification": "Les vaccins vivants viraux comme ROR ou varicelle font partie intégrante du rattrapage selon l'âge et la sérologie."
+          }
+        ]
+      }
+    }
+  ]
+}

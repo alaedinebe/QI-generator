@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755927415784_01",
+      "current_version_epoch_ms": 1755927415784,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Parmi les zoonoses fréquentes en France Métropolitaine, laquelle est transmise par la piqûre de tique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Borréliose de Lyme",
+            "justification": "La borréliose de Lyme est transmise par la piqûre de tique, son épidémiologie dépendant de la présence du vecteur et du réservoir."
+          },
+          {
+            "correct": false,
+            "proposition": "Pasteurellose",
+            "justification": "La pasteurellose se transmet par morsure ou griffure d'animal, et non par piqûre de tique."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie des griffes du chat",
+            "justification": "La maladie des griffes du chat se transmet par griffure ou morsure d'animal, pas par piqûre de tique."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxoplasmose",
+            "justification": "La toxoplasmose se transmet par ingestion d'aliments contaminés, et non par piqûre de tique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rage",
+            "justification": "La rage se transmet par morsure d'animal infecté, et n'est pas endémique en France Métropolitaine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927415784_02",
+      "current_version_epoch_ms": 1755927415784,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel facteur influence l'épidémiologie de la borréliose de Lyme en France Métropolitaine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence du vecteur et du réservoir",
+            "justification": "L'épidémiologie de la borréliose de Lyme dépend de la présence du vecteur (tique) et du réservoir animal."
+          },
+          {
+            "correct": true,
+            "proposition": "Risque d'exposition lié aux activités de plein air",
+            "justification": "Le risque d'exposition des individus aux tiques influence directement l'incidence de la borréliose."
+          },
+          {
+            "correct": false,
+            "proposition": "Ingestion d'aliments contaminés",
+            "justification": "L'ingestion d'aliments contaminés concerne la toxoplasmose et non la borréliose de Lyme."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission par griffure de chat",
+            "justification": "La transmission par griffure de chat concerne la maladie des griffes du chat, pas la borréliose."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission par l'air",
+            "justification": "Aucune des zoonoses fréquentes en France n'est transmise par l'air."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927415784_03",
+      "current_version_epoch_ms": 1755927415784,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle zoonose fréquente en France Métropolitaine est principalement transmise par morsure ou griffure d'animal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pasteurellose",
+            "justification": "La pasteurellose se transmet par morsure ou griffure d'animal infecté."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie des griffes du chat",
+            "justification": "La maladie des griffes du chat se transmet par griffures ou morsures de chat."
+          },
+          {
+            "correct": false,
+            "proposition": "Borréliose de Lyme",
+            "justification": "La borréliose de Lyme est transmise par piqûre de tique, pas par morsure ou griffure."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxoplasmose",
+            "justification": "La toxoplasmose se transmet par ingestion d'aliments contaminés, pas par morsure ou griffure."
+          },
+          {
+            "correct": false,
+            "proposition": "Rage",
+            "justification": "La rage est rare en France Métropolitaine et n'est pas une zoonose fréquente locale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927415784_04",
+      "current_version_epoch_ms": 1755927415784,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Parmi les affirmations suivantes, laquelle décrit correctement l'épidémiologie de la toxoplasmose en France Métropolitaine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Transmission par ingestion d'aliments contaminés",
+            "justification": "La toxoplasmose se transmet par ingestion d'aliments contaminés, ce qui conditionne son épidémiologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission par piqûre de tique",
+            "justification": "La piqûre de tique concerne la borréliose de Lyme, pas la toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission par morsure ou griffure d'animal",
+            "justification": "La morsure ou griffure d'animal concerne la pasteurellose et la maladie des griffes du chat, pas la toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission aérienne",
+            "justification": "La toxoplasmose ne se transmet pas par voie aérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmission uniquement par contact avec des chauves-souris",
+            "justification": "La toxoplasmose n'est pas liée aux chauves-souris, cette mention concerne certains rares cas de rage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927415784_05",
+      "current_version_epoch_ms": 1755927415784,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle affirmation est correcte concernant la rage en France Métropolitaine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle n'est pas endémique et les cas sont rares chez l'animal importé",
+            "justification": "La rage n'est pas présente en France Métropolitaine, les rares cas concernent des animaux importés infectés ou des chauves-souris."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est transmise par piqûre de tique",
+            "justification": "La rage se transmet par morsure d'animal, pas par piqûre de tique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est la zoonose la plus fréquente en France",
+            "justification": "Les zoonoses fréquentes sont la borréliose de Lyme, la pasteurellose, la maladie des griffes du chat et la toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle se transmet par ingestion d'aliments contaminés",
+            "justification": "La rage ne se transmet pas par ingestion d'aliments contaminés."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle se transmet uniquement par griffure de chat",
+            "justification": "La rage ne se transmet pas exclusivement par griffure de chat, mais par morsure de tout animal infecté."
+          }
+        ]
+      }
+    }
+  ]
+}

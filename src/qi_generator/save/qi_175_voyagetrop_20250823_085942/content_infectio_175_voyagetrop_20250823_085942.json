@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755932588739_01",
+      "current_version_epoch_ms": 1755932588739,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Chez quel patient la recherche des anticorps IgG anti-VHA est-elle indiquée avant vaccination contre l'hépatite A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un patient né avant 1945",
+            "justification": "Les personnes nées avant 1945 présentent un risque significatif d'exposition antérieure au virus de l'hépatite A, justifiant la recherche d'anticorps IgG avant vaccination."
+          },
+          {
+            "correct": true,
+            "proposition": "Un patient ayant vécu en zone d'endémie",
+            "justification": "Les personnes ayant vécu en zone d'endémie ont un risque accru d'exposition passée au virus, indiquant la sérologie IgG avant vaccination."
+          },
+          {
+            "correct": true,
+            "proposition": "Un patient avec antécédent d'ictère",
+            "justification": "Un antécédent d'ictère suggère une infection hépatique antérieure pouvant conférer une immunité, donc la sérologie IgG est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Un patient sans facteur de risque ni antécédent hépatique",
+            "justification": "Chez ces patients, le risque d'exposition antérieure est faible, la sérologie IgG avant vaccination n'est pas nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Un patient déjà vacciné contre l'hépatite B",
+            "justification": "La vaccination contre l'hépatite B ne prévient pas l'hépatite A, mais ne nécessite pas la recherche systématique d'IgG anti-VHA avant vaccination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932588739_02",
+      "current_version_epoch_ms": 1755932588739,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels anticorps permettent de confirmer un diagnostic récent d'hépatite A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les anticorps IgM anti-VHA",
+            "justification": "Les IgM apparaissent dès la phase ictérique et disparaissent 8 à 12 semaines après, indiquant une infection récente."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps IgG anti-VHA",
+            "justification": "Les IgG persistent à vie et indiquent une immunité acquise, mais ne permettent pas de confirmer une infection récente."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps anti-HBs",
+            "justification": "Les anticorps anti-HBs concernent l'hépatite B, non l'hépatite A, et ne permettent pas de diagnostic récent."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps totaux anti-VHC",
+            "justification": "Les anticorps totaux anti-VHC sont spécifiques de l'hépatite C et n'indiquent pas une hépatite A récente."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps IgA anti-VHA",
+            "justification": "Les IgA anti-VHA ne sont pas utilisés pour le diagnostic de l'hépatite A."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932588739_03",
+      "current_version_epoch_ms": 1755932588739,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle affirmation décrit correctement la persistance des anticorps après infection ou vaccination contre l'hépatite A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les anticorps IgG anti-VHA persistent à vie",
+            "justification": "Les IgG confèrent une immunité durable après infection ou vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps IgM anti-VHA persistent à vie",
+            "justification": "Les IgM disparaissent 8 à 12 semaines après l'infection et ne confèrent pas d'immunité durable."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps totaux anti-VHA disparaissent après 3 mois",
+            "justification": "Les anticorps totaux incluent les IgG, qui persistent à vie, donc cette affirmation est incorrecte."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps IgA anti-VHA confèrent une immunité à vie",
+            "justification": "Les IgA ne sont pas utilisés pour déterminer l'immunité contre l'hépatite A."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps IgM anti-VHA confèrent une immunité durable",
+            "justification": "Les IgM indiquent une infection récente mais ne confèrent pas d'immunité durable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932588739_04",
+      "current_version_epoch_ms": 1755932588739,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle stratégie est correcte pour déterminer si une vaccination contre l'hépatite A est nécessaire chez un patient à risque d'exposition antérieure ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une sérologie IgG ou totale avant vaccination",
+            "justification": "Chez les patients à risque d'exposition passée, la sérologie IgG permet de vérifier l'immunité acquise et d'éviter une vaccination inutile."
+          },
+          {
+            "correct": false,
+            "proposition": "Vacciner systématiquement sans sérologie",
+            "justification": "Cette approche peut conduire à une vaccination inutile chez les patients déjà immunisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser uniquement une sérologie IgM",
+            "justification": "La recherche d'IgM ne renseigne pas sur l'immunité acquise et ne guide pas la vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre la survenue d'un ictère avant vaccination",
+            "justification": "Attendre les symptômes retarde la protection et n'est pas une stratégie préventive efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser uniquement une sérologie anti-HBs",
+            "justification": "Les anticorps anti-HBs concernent l'hépatite B et ne renseignent pas sur l'immunité contre l'hépatite A."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932588739_05",
+      "current_version_epoch_ms": 1755932588739,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, lesquelles justifient une recherche d'anticorps IgG anti-VHA avant vaccination ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient né en 1935",
+            "justification": "Les personnes nées avant 1945 présentent un risque élevé d'exposition antérieure, nécessitant la sérologie IgG."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient ayant vécu plusieurs années en zone d'endémie",
+            "justification": "L'exposition passée au virus dans une zone d'endémie justifie la recherche d'anticorps IgG avant vaccination."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient ayant présenté un ictère dans le passé",
+            "justification": "Un antécédent d'ictère peut correspondre à une infection hépatique antérieure, rendant la sérologie IgG pertinente."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient jeune sans antécédent ni exposition connue",
+            "justification": "Le risque d'exposition antérieure est faible, donc la sérologie IgG n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient déjà vacciné contre l'hépatite B",
+            "justification": "La vaccination contre l'hépatite B ne protège pas contre l'hépatite A et ne nécessite pas de sérologie IgG spécifique."
+          }
+        ]
+      }
+    }
+  ]
+}

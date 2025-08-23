@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "APMP",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755958285761_01",
+      "current_version_epoch_ms": 1755958285761,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelle est la condition nécessaire pour qu'une maladie soit présumée d'origine professionnelle selon les tableaux de maladies professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La maladie doit être désignée dans un des tableaux de MP avec les conditions médicales spécifiques à remplir.",
+            "justification": "Les maladies professionnelles sont définies dans les tableaux, qui précisent les conditions médicales nécessaires à leur reconnaissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Il suffit que la maladie soit survenue dans un environnement de travail similaire à celui mentionné dans le tableau.",
+            "justification": "La simple survenue dans un environnement similaire ne suffit pas à établir une présomption d'origine professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie doit être liée à un facteur externe au milieu professionnel.",
+            "justification": "La présomption d'origine professionnelle exclut les facteurs externes au milieu de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le lien entre la maladie et l'exposition professionnelle doit être démontré par un expert médical.",
+            "justification": "Dans le cadre des tableaux de MP, le lien entre la maladie et l'exposition professionnelle est présumé, il ne nécessite pas de preuve."
+          },
+          {
+            "correct": false,
+            "proposition": "Le délai entre l'exposition au risque et la constatation de la maladie doit être supérieur à 5 ans.",
+            "justification": "Le délai de prise en charge peut varier mais n'est pas nécessairement supérieur à 5 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958285761_02",
+      "current_version_epoch_ms": 1755958285761,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que désigne la colonne 'Délai de prise en charge' dans le tableau des maladies professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle indique le délai maximal entre la fin de l'exposition au risque et la première constatation médicale de la maladie.",
+            "justification": "Le délai de prise en charge précise le temps maximal écoulé pour qu'une maladie puisse être reconnue comme professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle représente la durée minimale d'exposition requise avant de pouvoir diagnostiquer la maladie.",
+            "justification": "Le délai de prise en charge ne spécifie pas la durée minimale d'exposition, mais le temps maximal après l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle définit le délai maximal pour le début du traitement médical de la maladie.",
+            "justification": "Le délai de prise en charge concerne la reconnaissance de la maladie comme professionnelle, et non le début du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle désigne la période durant laquelle le travailleur est couvert par l'assurance maladie.",
+            "justification": "La colonne 'Délai de prise en charge' concerne la reconnaissance de la maladie professionnelle et non la couverture par l'assurance."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle détermine la période durant laquelle une maladie est considérée comme bénigne et non professionnelle.",
+            "justification": "Le délai de prise en charge ne concerne pas l'évaluation de la gravité de la maladie mais le lien avec l'exposition professionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958285761_03",
+      "current_version_epoch_ms": 1755958285761,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que doit respecter une maladie pour être considérée comme professionnelle dans le système des tableaux de maladies professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La maladie doit répondre aux critères de la maladie, du délai de prise en charge, et de la profession exposée.",
+            "justification": "Pour qu'une maladie soit reconnue professionnelle, ces trois critères doivent être remplis selon les tableaux de MP."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie doit être diagnostiquée comme une affection rare n'ayant aucune cause externe à la profession.",
+            "justification": "La rareté de la maladie n'est pas un critère pour la reconnaissance en tant que maladie professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie doit être causée par un seul facteur externe à la profession.",
+            "justification": "La maladie professionnelle peut être causée par plusieurs facteurs dans le cadre du travail."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie doit être survenue dans un cadre professionnel mais ne nécessitant pas de lien avec l'exposition.",
+            "justification": "Le lien avec l'exposition professionnelle est essentiel pour que la maladie soit reconnue comme professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "La maladie doit être survenue sans aucune durée minimale d'exposition.",
+            "justification": "Certains tableaux de MP exigent une durée minimale d'exposition pour reconnaître la maladie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958285761_04",
+      "current_version_epoch_ms": 1755958285761,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que signifie la notion de présomption d'origine dans le cadre des maladies professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cela signifie que la maladie est systématiquement considérée comme liée à la profession sans preuve supplémentaire de lien.",
+            "justification": "La présomption d'origine permet de reconnaître la maladie comme professionnelle sans avoir à démontrer le lien direct entre l'exposition et la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie que la maladie doit obligatoirement être confirmée par une enquête détaillée avant d'être reconnue.",
+            "justification": "La présomption d'origine dispense de la nécessité de prouver le lien avec l'exposition professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela implique que la maladie est considérée professionnelle uniquement après une expertise indépendante.",
+            "justification": "La présomption d'origine ne nécessite pas une expertise indépendante, mais repose sur des critères définis dans les tableaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela concerne uniquement les maladies contractées en dehors du cadre professionnel.",
+            "justification": "La présomption d'origine s'applique spécifiquement aux maladies liées à l'exposition professionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie que la maladie peut être d'origine professionnelle si elle survient dans les 10 ans suivant la fin de l'exposition.",
+            "justification": "Le délai de prise en charge peut varier, mais la présomption d'origine est basée sur les critères du tableau, pas sur un délai spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958285761_05",
+      "current_version_epoch_ms": 1755958285761,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelle différence existe entre les colonnes de 'Délai de prise en charge' et de 'Liste limitative ou indicative de travaux' dans les tableaux de maladies professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La première colonne concerne les conditions médicales à remplir, tandis que la troisième colonne liste les situations professionnelles où la maladie peut survenir.",
+            "justification": "La première colonne précise les critères médicaux, tandis que la troisième définit les professions exposées, permettant de classifier les maladies professionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "La colonne du 'Délai de prise en charge' spécifie les travaux susceptibles de causer la maladie, et la colonne 'Liste limitative' décrit les symptômes.",
+            "justification": "Le délai de prise en charge concerne le temps maximal après l'exposition, tandis que la colonne des travaux énumère les professions associées à la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "La colonne 'Délai de prise en charge' spécifie les travaux dans lesquels la maladie peut survenir, tandis que la colonne 'Liste limitative' définit la durée d'exposition nécessaire.",
+            "justification": "Le délai de prise en charge est un critère temporel, tandis que la 'Liste limitative' se concentre sur les professions et travaux spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux colonnes concernent uniquement la durée minimale d'exposition, mais n'incluent pas les maladies.",
+            "justification": "Les colonnes abordent les critères médicaux et professionnels, pas seulement la durée d'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "La première colonne est réservée aux maladies graves, tandis que la troisième liste les travaux sans spécifier la maladie.",
+            "justification": "La première colonne ne se limite pas aux maladies graves mais définit les maladies professionnelles, tandis que la troisième colonne précise les travaux responsables."
+          }
+        ]
+      }
+    }
+  ]
+}

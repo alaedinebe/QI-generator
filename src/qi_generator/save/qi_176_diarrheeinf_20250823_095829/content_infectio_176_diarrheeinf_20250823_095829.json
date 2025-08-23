@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "diarrheeinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755936116400_01",
+      "current_version_epoch_ms": 1755936116400,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Chez l'adulte présentant une diarrhée aiguë sans signes de gravité, quelle est la prise en charge initiale recommandée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réhydratation orale avec apports d'eau, glucose et électrolytes et régime anti-diarrhéique",
+            "justification": "La prise en charge initiale repose sur la réhydratation orale et l'adaptation du régime alimentaire, en privilégiant aliments cuits, pauvres en fibres et évitant les produits laitiers."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion intraveineuse systématique",
+            "justification": "La réhydratation intraveineuse n'est indiquée qu'en cas de signes de gravité ou d'échec de la réhydratation orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lopéramide dès le début",
+            "justification": "Le lopéramide est contre-indiqué en cas de syndrome dysentérique et n'est pas utilisé en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt complet de l'alimentation",
+            "justification": "L'arrêt de l'alimentation n'est pas recommandé, car il peut aggraver la dénutrition."
+          },
+          {
+            "correct": true,
+            "proposition": "Utilisation d'anti-sécrétoires comme le racécadotril si nécessaire",
+            "justification": "Les anti-sécrétoires peuvent être utilisés en traitement symptomatique secondaire, mais ne remplacent pas la réhydratation orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936116400_02",
+      "current_version_epoch_ms": 1755936116400,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quels sont les critères justifiant une réhydratation intraveineuse chez l'enfant présentant une diarrhée aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids > 10% du poids corporel ou signes d'hypovolémie",
+            "justification": "La réhydratation intraveineuse est indiquée en cas de déshydratation sévère avec perte de poids significative ou signes d'hypovolémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée modérée sans vomissements",
+            "justification": "La réhydratation intraveineuse n'est pas nécessaire si l'enfant tolère la voie orale et ne présente pas de signes de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Échec de la réhydratation orale par SRO",
+            "justification": "Si la réhydratation orale échoue, la perfusion intraveineuse devient nécessaire pour corriger la déshydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée inférieure à 3 selles/j",
+            "justification": "Le faible nombre de selles ne justifie pas la réhydratation intraveineuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'anti-émétiques pour stopper les vomissements",
+            "justification": "Les anti-émétiques ne sont pas recommandés chez l'enfant et ne remplacent pas la réhydratation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936116400_03",
+      "current_version_epoch_ms": 1755936116400,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Concernant la réhydratation orale chez l'enfant, quelle affirmation est correcte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle doit être fractionnée en cas de vomissements",
+            "justification": "La fractionnement permet de maintenir l'apport hydrique malgré les vomissements et d'éviter l'échec de la réhydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est contre-indiquée si la perte de poids est inférieure à 10%",
+            "justification": "La réhydratation orale est possible dès que la perte de poids est inférieure à 10%, à condition d'absence de signes d'hypovolémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle nécessite systématiquement un relais par perfusion intraveineuse",
+            "justification": "Le relais intraveineux n'est indiqué qu'en cas d'échec ou de déshydratation sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit utiliser un soluté de réhydratation orale (SRO)",
+            "justification": "Le SRO fournit une composition équilibrée en eau, glucose et électrolytes adaptée à la réhydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être associée immédiatement à l'arrêt de l'alimentation lactée",
+            "justification": "Il est recommandé de poursuivre l'alimentation lactée, sauf en cas de diarrhée sévère persistante nécessitant un régime sans lactose temporaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936116400_04",
+      "current_version_epoch_ms": 1755936116400,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quel traitement symptomatique peut être envisagé chez l'adulte présentant une diarrhée aiguë sans syndrome dysentérique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anti-sécrétoires comme le racécadotril",
+            "justification": "Les anti-sécrétoires peuvent réduire la sécrétion intestinale et sont utilisés en traitement symptomatique secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lopéramide systématique",
+            "justification": "Le lopéramide est contre-indiqué en présence d'un syndrome dysentérique et ne doit pas être utilisé systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Anti-émétiques comme traitement de première intention",
+            "justification": "Les anti-émétiques ne sont pas recommandés, surtout chez l'enfant, et ne remplacent pas la réhydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt complet de l'alimentation",
+            "justification": "Suspendre l'alimentation n'est pas recommandé, car cela favorise la dénutrition."
+          },
+          {
+            "correct": true,
+            "proposition": "Maintien d'une alimentation adaptée",
+            "justification": "Poursuivre une alimentation adaptée permet de prévenir la dénutrition tout en traitant la diarrhée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936116400_05",
+      "current_version_epoch_ms": 1755936116400,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Lors de la réhydratation intraveineuse chez l'enfant, quelle précaution est essentielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contrôler la natrémie pour éviter un œdème cérébral",
+            "justification": "La correction trop rapide d'une hypernatrémie peut entraîner un œdème cérébral, d'où l'importance du suivi de la natrémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer systématiquement un diurétique pour prévenir la surcharge",
+            "justification": "Les diurétiques ne sont pas systématiquement indiqués et peuvent aggraver la déshydratation si mal utilisés."
+          },
+          {
+            "correct": true,
+            "proposition": "Utiliser un soluté glucosé polyionique isotonique contenant au moins 4g/L de NaCl",
+            "justification": "Cette composition assure un apport équilibré en électrolytes et glucose adapté aux besoins de l'enfant déshydraté."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas adapter le débit aux pertes et à l'évolution clinique",
+            "justification": "Le débit doit être ajusté selon le poids, la diurèse et l'évolution clinique pour une réhydratation efficace et sûre."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer systématiquement la réhydratation orale par la voie intraveineuse",
+            "justification": "La réhydratation orale reste la voie de choix si possible, la voie intraveineuse étant réservée aux situations graves ou échec de la voie orale."
+          }
+        ]
+      }
+    }
+  ]
+}

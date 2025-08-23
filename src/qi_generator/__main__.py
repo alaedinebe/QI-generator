@@ -1,3 +1,4 @@
+import subprocess
 import os
 import csv
 import time
@@ -20,6 +21,7 @@ def clean_quotes(s: str) -> str:
     })
 
 def write_debug(name: str, content: str):
+    save_dir = 'resultats'
     try:
         p = os.path.join(save_dir, name)
         with open(p, "w", encoding="utf-8") as df:
@@ -27,6 +29,25 @@ def write_debug(name: str, content: str):
     except Exception:
         # on ne fait pas planter le script pour un log
         pass
+
+def git_commit_push(file_path: str, slug: str):
+    """
+    Fonction pour effectuer un git add, commit, et push après la création d'un fichier.
+    """
+    try:
+        # Ajout du fichier à Git
+        subprocess.run(["git", "add", "."], check=True)
+        
+        # Commit du fichier avec un message personnalisé
+        commit_message = f"new item {slug}"
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        
+        # Pousser les modifications vers le dépôt distant
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        
+        print(f"Git commit et push effectués pour le fichier {file_path}.")
+    except subprocess.CalledProcessError as e:
+        print(f"Erreur Git : {e}")
 
 def main():
 
@@ -247,8 +268,8 @@ def main():
                             time.sleep(0.2)
 
                         # appuyer sur le bouton de copie. sur petit ecran = 568, 522. sur grand écran externe = 886,879
-                        # mouse.position = (886, 879)
-                        mouse.position = (568, 522)
+                        mouse.position = (861, 916)
+                        # mouse.position = (568, 522)
                         time.sleep(0.5)
                         mouse.click(Button.left)
                         time.sleep(0.5)  
@@ -312,6 +333,7 @@ def main():
                                 "published": False,
                                 "id": f"{base_id}_{idx:02d}",  # ex: AIgenerated_1723298765123_01
                                 "current_version_epoch_ms": now_ms,
+                                "rang": data[j]["rang"],
                                 "topic": {
                                     "subject": subject.strip(),
                                     "item": slug.strip()
@@ -331,11 +353,14 @@ def main():
                         }
 
                         # 5) Sauvegarder joliment
-                        file_path = os.path.join(save_dir, f"content_{subject}_{numero_item}_{slug}_{timestamp}.json")
+                        file_path = os.path.join(f"content_{subject}_{numero_item}_{slug}_{data[j]['identifiant']}_{timestamp}.json")
                         with open(file_path, "w", encoding="utf-8") as f:
                             json.dump(payload, f, ensure_ascii=False, indent=2)
 
                         print(f"Contenu sauvegardé dans : {file_path}")
+
+                        # Git add, commit, et push après la création du fichier
+                        git_commit_push(file_path, slug)
 
                     else:
                         print(f"Aucun contenu trouvé dans le fichier {file_name}.")

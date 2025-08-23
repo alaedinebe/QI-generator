@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "coqueluche",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755898423426_01",
+      "current_version_epoch_ms": 1755898423426,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Identifier l'antibiothérapie de première intention et ses modalités recommandées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les macrolides constituent le traitement de première intention.",
+            "justification": "En première intention = macrolides."
+          },
+          {
+            "correct": true,
+            "proposition": "La clarithromycine pendant 7 jours est un schéma possible de première intention.",
+            "justification": "Clarithromycine 7 jours est listée parmi les macrolides recommandés."
+          },
+          {
+            "correct": true,
+            "proposition": "L'azithromycine pendant 3 jours est un schéma possible de première intention.",
+            "justification": "Azithromycine 3 jours est listée parmi les macrolides recommandés."
+          },
+          {
+            "correct": false,
+            "proposition": "Le cotrimoxazole 14 jours est recommandé en première intention.",
+            "justification": "Le cotrimoxazole est proposé en alternative en cas de contre-indication aux macrolides."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bêta-lactamines sont efficaces en première intention.",
+            "justification": "Les bêta-lactamines sont indiquées comme inefficaces."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898423426_02",
+      "current_version_epoch_ms": 1755898423426,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "En cas de contre-indication aux macrolides, reconnaître l'alternative appropriée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le cotrimoxazole 14 jours est l'alternative recommandée.",
+            "justification": "Alternative si contre-indication aux macrolides = cotrimoxazole 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "L'azithromycine est l'alternative recommandée.",
+            "justification": "L'azithromycine est un macrolide et n'est pas une alternative en cas de contre-indication à cette classe."
+          },
+          {
+            "correct": false,
+            "proposition": "La clarithromycine est l'alternative recommandée.",
+            "justification": "La clarithromycine est un macrolide et n'est pas une alternative en cas de contre-indication à cette classe."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe pas d'alternative en cas de contre-indication aux macrolides.",
+            "justification": "Une alternative est précisée : cotrimoxazole 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bêta-lactamines doivent être choisies en alternative.",
+            "justification": "Les bêta-lactamines sont inefficaces."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898423426_03",
+      "current_version_epoch_ms": 1755898423426,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Reconnaître les objectifs et limites du traitement selon la phase clinique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réduire la contagiosité fait partie des objectifs du traitement.",
+            "justification": "Réduire la contagiosité est explicitement cité comme but."
+          },
+          {
+            "correct": true,
+            "proposition": "Le traitement peut écourter la symptomatologie s'il est administré précocement à la phase catarrhale.",
+            "justification": "Effet possible seulement en cas d'administration précoce à la phase catarrhale."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement améliore les symptômes même s'il est prescrit à la phase des quintes.",
+            "justification": "Il n'a pas d'effet sur les symptômes s'il est prescrit à la phase des quintes."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement n'a pas d'effet sur la contagiosité.",
+            "justification": "Réduire la contagiosité est un objectif déclaré."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement n'a aucun intérêt s'il est administré à la phase catarrhale.",
+            "justification": "Administré précocement à la phase catarrhale, il peut écourter la symptomatologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898423426_04",
+      "current_version_epoch_ms": 1755898423426,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Associer chaque antibiotique à la durée de traitement recommandée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Clarithromycine : 7 jours.",
+            "justification": "Durée indiquée : clarithromycine 7 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Azithromycine : 3 jours.",
+            "justification": "Durée indiquée : azithromycine 3 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Cotrimoxazole : 14 jours.",
+            "justification": "Durée indiquée : cotrimoxazole 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Azithromycine : 7 jours.",
+            "justification": "La durée recommandée pour l'azithromycine est de 3 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Clarithromycine : 3 jours.",
+            "justification": "La durée recommandée pour la clarithromycine est de 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898423426_05",
+      "current_version_epoch_ms": 1755898423426,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Identifier les modalités d'antibiothérapie chez la femme enceinte et durant l'allaitement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'azithromycine peut être utilisée pendant la grossesse quel qu'en soit le terme et durant l'allaitement.",
+            "justification": "Azithromycine utilisable pendant la grossesse à tout terme et pendant l'allaitement."
+          },
+          {
+            "correct": true,
+            "proposition": "La clarithromycine peut être utilisée pendant la grossesse quel qu'en soit le terme et durant l'allaitement.",
+            "justification": "Clarithromycine utilisable pendant la grossesse à tout terme et pendant l'allaitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les macrolides sont proscrits pendant la grossesse.",
+            "justification": "Azithromycine et clarithromycine, qui sont des macrolides, sont utilisables pendant la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bêta-lactamines sont recommandées pour cette indication pendant la grossesse.",
+            "justification": "Les bêta-lactamines sont indiquées comme inefficaces."
+          },
+          {
+            "correct": false,
+            "proposition": "Le cotrimoxazole est recommandé en première intention pendant la grossesse.",
+            "justification": "La première intention repose sur les macrolides ; le cotrimoxazole est une alternative en cas de contre-indication."
+          }
+        ]
+      }
+    }
+  ]
+}

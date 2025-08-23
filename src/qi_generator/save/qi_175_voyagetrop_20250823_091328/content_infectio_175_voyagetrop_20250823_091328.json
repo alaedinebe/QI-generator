@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755933415458_01",
+      "current_version_epoch_ms": 1755933415458,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel est le premier diagnostic à envisager devant une fièvre avec signes hémorragiques chez un patient de retour d'une zone d'endémie palustre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher un paludisme",
+            "justification": "La priorité devant une fièvre hémorragique après un séjour en zone d'endémie palustre est de rechercher un paludisme, car il peut présenter des formes graves avec hémorragies."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une leptospirose",
+            "justification": "La leptospirose ictéro-hémorragique est une cause possible de fièvre hémorragique, mais elle n'est pas la première à suspecter après un séjour en zone palustre."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une fièvre jaune",
+            "justification": "La fièvre jaune est une arbovirose hémorragique possible, mais elle n'est pas le premier diagnostic à envisager sans éléments épidémiologiques précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une hépatite fulminante",
+            "justification": "Une hépatite virale fulminante peut causer des hémorragies, mais elle est moins probable que le paludisme dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Rechercher une fièvre hémorragique virale",
+            "justification": "Une fièvre hémorragique virale doit être suspectée seulement en cas de séjour en zone de circulation virale spécifique ou contact avec une personne malade."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933415458_02",
+      "current_version_epoch_ms": 1755933415458,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels critères permettent de suspecter une fièvre hémorragique virale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptomatologie évocatrice et séjour en zone de circulation virale",
+            "justification": "La suspicion repose sur la présence de signes évocateurs et d'un séjour en zone où le virus circule ou d'un contact avec un malade."
+          },
+          {
+            "correct": true,
+            "proposition": "Contact avec une personne malade suspectée de fièvre hémorragique",
+            "justification": "Un contact avec une personne malade est un critère important pour suspecter une fièvre hémorragique virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre simple sans autres symptômes",
+            "justification": "La fièvre isolée n'est pas suffisante pour suspecter une fièvre hémorragique virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Retour d'une zone endémique palustre uniquement",
+            "justification": "Le retour d'une zone palustre n'est pas spécifique pour les fièvres hémorragiques virales sans symptômes évocateurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de purpura sans fièvre",
+            "justification": "La présence de purpura seule sans fièvre et contexte épidémiologique ne suffit pas à suspecter une fièvre hémorragique virale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933415458_03",
+      "current_version_epoch_ms": 1755933415458,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelles mesures doivent être mises en œuvre en cas de suspicion de fièvre hémorragique virale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mettre en place des mesures de protection pour le personnel, les patients et la population",
+            "justification": "Des mesures de protection immédiates sont nécessaires pour limiter la propagation du virus et protéger tous les individus exposés."
+          },
+          {
+            "correct": true,
+            "proposition": "Consulter le Centre National de Référence des Fièvres Hémorragiques Virales",
+            "justification": "La concertation avec le CNR est essentielle pour la confirmation diagnostique et la prise en charge adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer systématiquement un traitement antiviral",
+            "justification": "Le traitement antiviral n'est pas systématique et dépend du virus; la priorité est la protection et le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Évacuer immédiatement tous les patients du centre",
+            "justification": "L'évacuation générale n'est pas recommandée; il faut appliquer des mesures de protection ciblées et contrôler la propagation."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre la confirmation biologique avant toute mesure",
+            "justification": "Les mesures de protection doivent être mises en œuvre sans attendre la confirmation biologique, pour éviter la contamination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933415458_04",
+      "current_version_epoch_ms": 1755933415458,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Parmi les causes possibles d'une fièvre avec signes hémorragiques, lesquelles sont pertinentes à considérer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hépatite virale fulminante",
+            "justification": "L'hépatite virale fulminante peut provoquer des hémorragies et doit être envisagée comme cause possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Leptospirose ictéro-hémorragique",
+            "justification": "La leptospirose peut provoquer des hémorragies et doit être considérée dans le diagnostic différentiel."
+          },
+          {
+            "correct": true,
+            "proposition": "Dengue et autres arboviroses hémorragiques",
+            "justification": "Les arboviroses hémorragiques comme la dengue peuvent provoquer des signes hémorragiques et doivent être envisagées."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvres hémorragiques virales (Ebola, Marburg, Lassa)",
+            "justification": "Ces fièvres virales sont une cause possible de fièvre hémorragique et doivent être suspectées selon le contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection urinaire simple",
+            "justification": "Une infection urinaire simple ne provoque pas de fièvre hémorragique et n'est pas pertinente dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933415458_05",
+      "current_version_epoch_ms": 1755933415458,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels signes hémorragiques peuvent être observés lors d'une fièvre hémorragique virale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémorragie digestive haute ou basse",
+            "justification": "Les fièvres hémorragiques virales peuvent se manifester par des hémorragies digestives, hautes ou basses."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémoptysie",
+            "justification": "L'hémoptysie est un signe hémorragique possible dans les fièvres hémorragiques virales."
+          },
+          {
+            "correct": true,
+            "proposition": "Hématurie",
+            "justification": "L'hématurie peut survenir lors de fièvres hémorragiques virales et fait partie des signes à rechercher."
+          },
+          {
+            "correct": true,
+            "proposition": "Purpura pétéchial ou ecchymotique",
+            "justification": "Le purpura pétéchial ou ecchymotique est un signe classique d'atteinte hémorragique dans ces infections."
+          },
+          {
+            "correct": true,
+            "proposition": "Saignements aux points de ponction",
+            "justification": "Les saignements aux points de ponction indiquent une atteinte hémorragique et doivent alerter sur une fièvre hémorragique virale."
+          }
+        ]
+      }
+    }
+  ]
+}

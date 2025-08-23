@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antiinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755943986712_01",
+      "current_version_epoch_ms": 1755943986712,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quels sont les principaux mécanismes responsables de la résistance aux antibiotiques dans les entérobactéries ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation des mécanismes d'efflux d'antibiotiques, comme la pompe AcrAB-TolC.",
+            "justification": "Les entérobactéries peuvent développer des résistances par l'activation de pompes d'efflux qui expulsent les antibiotiques de la cellule."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la perméabilité membranaire par mutation d'une porine.",
+            "justification": "Bien que ce mécanisme soit connu pour certaines bactéries, il est moins associé aux entérobactéries par rapport aux autres mécanismes de résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Inactivation enzymatique des antibiotiques par les béta-lactamases.",
+            "justification": "Bien que les béta-lactamases soient un mécanisme important de résistance, elles ne sont pas spécifiques aux entérobactéries."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification des gyrases bactériennes entraînant une résistance aux quinolones.",
+            "justification": "Ce mécanisme est typique de certaines autres bactéries, mais pas des entérobactéries."
+          },
+          {
+            "correct": false,
+            "proposition": "Apparition d'une nouvelle PLP (PLP2a) chez S. aureus.",
+            "justification": "Ce mécanisme est spécifique à S. aureus et non aux entérobactéries."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943986712_02",
+      "current_version_epoch_ms": 1755943986712,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel mécanisme est responsable de la résistance aux pénicillines et céphalosporines chez les bactéries productrices de béta-lactamases ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inactivation enzymatique de l'antibiotique par les béta-lactamases.",
+            "justification": "Les béta-lactamases dégradent la structure de la pénicilline et des céphalosporines, rendant ces antibiotiques inefficaces."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la cible des antibiotiques.",
+            "justification": "La résistance par modification de la cible concerne davantage les quinolones et les bêta-lactamines chez certains autres pathogènes."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la perméabilité membranaire.",
+            "justification": "Ce mécanisme n'est pas spécifique aux béta-lactamines, bien qu'il puisse être impliqué dans la résistance à d'autres antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des mécanismes d'efflux.",
+            "justification": "Les mécanismes d'efflux sont moins impliqués dans la résistance aux bêta-lactamines, contrairement à d'autres classes d'antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutations dans les porines bactériennes.",
+            "justification": "Les mutations des porines peuvent affecter la perméabilité aux antibiotiques, mais ce n'est pas un mécanisme majeur dans la résistance aux bêta-lactamines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943986712_03",
+      "current_version_epoch_ms": 1755943986712,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Parmi les mécanismes suivants, lequel est spécifiquement responsable de la résistance aux quinolones chez certaines bactéries ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Modification des gyrases bactériennes.",
+            "justification": "Les bactéries peuvent développer une résistance aux quinolones en modifiant leurs gyrases, empêchant ainsi l'action de ces antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Inactivation des antibiotiques par des béta-lactamases.",
+            "justification": "Ce mécanisme est spécifique à la résistance aux bêta-lactamines et n'affecte pas les quinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la perméabilité membranaire.",
+            "justification": "Bien que la diminution de la perméabilité puisse influencer la résistance, ce n'est pas le mécanisme principal pour les quinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la cible par une nouvelle PLP (PLP2a).",
+            "justification": "Ce mécanisme concerne principalement la résistance aux béta-lactamines et non aux quinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des mécanismes d'efflux.",
+            "justification": "Bien que l'efflux soit un mécanisme général de résistance, il n'est pas aussi pertinent pour les quinolones que la modification des gyrases."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943986712_04",
+      "current_version_epoch_ms": 1755943986712,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quelle est la principale conséquence de l'apparition de la PLP2a chez S. aureus ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Résistance à toutes les bêta-lactamines.",
+            "justification": "La PLP2a modifie la cible des bêta-lactamines, conférant ainsi une résistance totale à cette classe d'antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Resistance uniquement aux pénicillines.",
+            "justification": "La PLP2a confère une résistance à l'ensemble des bêta-lactamines, et non seulement aux pénicillines."
+          },
+          {
+            "correct": false,
+            "proposition": "Resistance uniquement aux céphalosporines.",
+            "justification": "La résistance induite par la PLP2a touche l'ensemble des bêta-lactamines, y compris les céphalosporines."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la perméabilité membranaire.",
+            "justification": "La PLP2a ne concerne pas la perméabilité membranaire mais la modification de la cible des bêta-lactamines."
+          },
+          {
+            "correct": false,
+            "proposition": "Inactivation des bêta-lactamines par des béta-lactamases.",
+            "justification": "La PLP2a agit par modification de la cible, et non par l'inactivation enzymatique des antibiotiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943986712_05",
+      "current_version_epoch_ms": 1755943986712,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel mécanisme de résistance est commun à la plupart des bactéries résistantes aux antibiotiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inactivation enzymatique des antibiotiques.",
+            "justification": "Les béta-lactamases et d'autres enzymes sont souvent responsables de la dégradation des antibiotiques et de la résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification des gyrases.",
+            "justification": "Ce mécanisme est spécifique aux quinolones et ne s'applique pas à tous les antibiotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la perméabilité membranaire.",
+            "justification": "Ce mécanisme est observé chez certaines bactéries mais n'est pas présent chez toutes les bactéries résistantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la cible des antibiotiques.",
+            "justification": "Bien que ce mécanisme soit courant, il n'est pas aussi universel que l'inactivation enzymatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des mécanismes d'efflux.",
+            "justification": "L'efflux est un mécanisme important mais ne s'applique pas à toutes les bactéries résistantes aux antibiotiques."
+          }
+        ]
+      }
+    }
+  ]
+}

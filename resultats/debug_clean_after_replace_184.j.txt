@@ -1,0 +1,113 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître le rôle du médecin du travail et les modalités de communication avec le médecin du travail OIC-184-07-A
+
+
+
+Rôle exclusivement préventif : 
+éviter toute altération de la santé des travailleurs du fait de leur travail, en surveillant leurs conditions d'hygiène au travail, les risques de contagion et leur état de santé, ainsi que tout risque manifeste d'atteinte à la sécurité des tiers évoluant dans l'environnement immédiat de travail. Code du travail Article L4622-3
+Rôle de conseiller du chef d'entreprise, des salariés et de leurs représentants : intervient sur les conditions de travail dans l'entreprise, l'adaptation des postes de travail, des rythmes de travail, la protection des salariés contre l'ensemble des nuisances physiques ou chimiques.
+Son activité s'articule entre les visites médicales et l'action sur le milieu de travail en entreprise.
+Le médecin du travail :
+
+Ne dispense pas de soins, sauf urgence.
+Il prescrit des examens complémentaires justifiés par le suivi médical des salariés exposés à des nuisances particulières ou pour se prononcer sur l'aptitude au poste de travail.
+Seul le médecin du travail peut préconiser les adaptions du poste de travail.
+Il a accès au lieu de travail et peut mener ou faire mener toute étude de poste qu'il lui semble nécessaire.
+La communication entre médecin du travail et médecin traitant obéissent à deux règles :
+1-     Le respect du secret médical qui implique la transmission des informations par l'intermédiaire du patient.
+2-     La nécessité de communiquer : le médecin du travail connaît les conditions de travail et le médecin traitant connaît et suit son patient.
+La communication entre le médecin du travail et le médecin conseil de la caisse d'assurance maladie :
+
+Le médecin du travail peut être interrogé par le médecin conseil sur la possibilité de reprise du travail d'un salarié à la suite d'un arrêt de travail.
+Dans le cadre de l'enquête suite à une déclaration de maladie professionnelle, le médecin du travail est interrogé sur les conditions d'exposition et le lien avec la pathologie déclarée. Connaître le rôle du médecin du travail et les modalités de communication avec le médecin du travail OIC-184-07-ARôle exclusivement préventif:éviter toute altération de la santé des travailleurs du fait de leur travail, en surveillant leurs conditions d'hygiène au travail, les risques de contagion et leur état de santé, ainsi que tout risque manifeste d'atteinte à la sécurité des tiers évoluant dans l'environnement immédiat de travail.Code du travail Article L4622-3Rôle de conseiller du chef d'entreprise, des salariés et de leurs représentants: intervient sur les conditions de travail dans l'entreprise, l'adaptation des postes de travail, des rythmes de travail, la protection des salariés contre l'ensemble des nuisances physiques ou chimiques.Son activité s'articule entreles visites médicalesetl'action sur le milieu de travailen entreprise.Le médecin du travail :Ne dispense pas de soins, sauf urgence.Il prescrit des examens complémentaires justifiés par le suivi médical des salariés exposés à des nuisances particulières ou pour se prononcer sur l'aptitude au poste de travail.Seul le médecin du travail peut préconiser les adaptions du poste de travail.Il a accès au lieu de travail et peut mener ou faire mener toute étude de poste qu'il lui semble nécessaire.La communication entre médecin du travail et médecin traitant obéissent à deux règles :1-     Le respect du secret médical qui implique la transmission des informations par l'intermédiaire du patient.2-     La nécessité de communiquer : le médecin du travail connaît les conditions de travail et le médecin traitant connaît et suit son patient.La communication entre le médecin du travail et le médecin conseil de la caisse d'assurance maladie :Le médecin du travail peut être interrogé par le médecin conseil sur la possibilité de reprise du travail d'un salarié à la suite d'un arrêt de travail.Dans le cadre de l'enquête suite à une déclaration de maladie professionnelle, le médecin du travail est interrogé sur les conditions d'exposition et le lien avec la pathologie déclarée.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755969171256_01",
+      "current_version_epoch_ms": 1755969171256,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quels sont les symptômes caractéristiques de la rhinite allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prurit, anosmie, rhinorrhée, éternuements, obstruction nasale",
+            "justification": "Ces symptômes regroupés sous l'acronyme PAREO sont caractéristiques de la rhinite allergique, pouvant être accompagnés de symptômes oculaires comme la conjonctivite."
+          },
+          {
+            "correct": false,
+            "proposition": "Maux de tête, douleurs faciales, écoulement nasal épais",
+            "justification": "Bien que certains de ces symptômes puissent être présents dans des rhinites inflammatoires, ils ne sont pas caractéristiques d'une rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre, toux, dyspnée",
+            "justification": "La fièvre, la toux et la dyspnée ne sont pas des symptômes typiques de la rhinite allergique, qui est une inflammation de la muqueuse nasale."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur sinusienne et congestion nasale persistante",
+            "justification": "Ces symptômes sont plus souvent associés à une sinusite, pas à une rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rhinorrhée purulente, fièvre, douleur à la pression nasale",
+            "justification": "Ces symptômes sont plus caractéristiques d'une infection bactérienne des sinus et non d'une rhinite allergique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755969171256_02",
+      "current_version_epoch_ms": 1755969171256,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel examen est le plus utile pour diagnostiquer une rhinite allergique chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen des fosses nasales au spéculum nasal",
+            "justification": "L'examen au spéculum nasal permet de visualiser l'inflammation de la muqueuse nasale et d'éventuels polypes, caractéristiques de la rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie des sinus",
+            "justification": "La radiographie des sinus n'est pas utile dans le diagnostic d'une rhinite allergique, car elle ne permet pas d'évaluer directement la muqueuse nasale."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie nasale",
+            "justification": "La fibroscopie nasale est utilisée pour d'autres pathologies mais pas pour un diagnostic de rhinite allergique, qui peut être posé par l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen ophtalmologique",
+            "justification": "L'examen ophtalmologique n'est pas systématiquement requis pour diagnostiquer une rhinite allergique, bien qu'une conjonctivite puisse accompagner les symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de provocation nasale à l'allergène",
+            "justification": "Le test de provocation est rarement utilisé en première intention. Il peut être réservé aux cas difficiles ou aux bilans allergologiques approfondis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755969171256_03",
+      "current_version_epoch_ms": 1755969171256,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel critère clinique suggère le caractère allergique de la rhinite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association forte entre l'exposition à un allergène et la survenue des symptômes",
+            "justification": "La relation forte entre l'exposition à un allergène et l'apparition des symptômes, associée à un test cutané positif ou des IgE spécifiques, est un argument clé du diagnostic de rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes permanents sans lien avec des facteurs environnementaux",
+            "justification": "Les symptômes permanents sans lien avec des allergènes sont plus caractéristiques des rhinites non allergiques, comme la rhinite vasomotrice."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen des fosses nasales montrant uniquement une muqueuse enflammée",
+            "justification": "Une muqueuse enflammée sans autres éléments diagnostiques ne permet pas de confirmer le caractère allergique de la rhinite."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de réponse aux traitements antihistaminiques",
+            "justification": "Bien qu'une réponse aux antihistaminiques puisse suggérer une rhinite allergique, cela ne constitue pas un critère exclusif."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes seulement en hiver",
+            "justification": "Les symptômes d'une rhinite allergique peuvent survenir toute l'année, en fonction des allergènes présents dans l'environnement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755969171256_04",
+      "current_version_epoch_ms": 1755969171256,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire peut confirmer la sensibilisation à un allergène chez un patient souffrant de rhinite allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test cutané positif",
+            "justification": "Un test cutané positif à un allergène est un examen classique pour confirmer la sensibilisation allergique chez un patient suspect de rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie des fosses nasales",
+            "justification": "La radiographie des fosses nasales n'est pas utilisée pour détecter la sensibilisation à un allergène."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse sanguine de la vitesse de sédimentation des érythrocytes",
+            "justification": "La vitesse de sédimentation des érythrocytes peut être élevée dans les infections ou inflammations mais ne permet pas de confirmer une allergie."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse des gaz du sang",
+            "justification": "L'analyse des gaz du sang n'est pas utile dans le diagnostic d'une rhinite allergique, qui repose sur des tests allergologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen du nez à la lampe à fente",
+            "justification": "Bien qu'utilisé pour certaines pathologies oculaires, cet examen ne permet pas de diagnostiquer une rhinite allergique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755969171256_05",
+      "current_version_epoch_ms": 1755969171256,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelles sont les principales rhinites à différencier de la rhinite allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rhinite non-allergique inflammatoire et rhinite vasomotrice",
+            "justification": "Les rhinites non-allergiques inflammatoires et vasomotrices sont les principaux diagnostics différentiels de la rhinite allergique, car elles peuvent présenter des symptômes similaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Sinusite aiguë et rhume de cerveau",
+            "justification": "Bien que la sinusite aiguë et le rhume de cerveau puissent partager des symptômes respiratoires, ce ne sont pas des rhinites et leur pathophysiologie est différente."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme et bronchite chronique",
+            "justification": "L'asthme et la bronchite chronique sont des affections respiratoires distinctes qui ne sont pas classées parmi les rhinites."
+          },
+          {
+            "correct": false,
+            "proposition": "Infections virales des voies respiratoires supérieures",
+            "justification": "Bien que certaines infections virales puissent provoquer des symptômes nasaux, elles sont de nature infectieuse et non allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rhinite chronique de type infectieux",
+            "justification": "La rhinite chronique infectieuse présente des signes de surinfection et ne correspond pas à une rhinite allergique, qui est d'origine immunologique."
+          }
+        ]
+      }
+    }
+  ]
+}

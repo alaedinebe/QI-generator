@@ -1,0 +1,152 @@
+[
+{
+"statement": "Identifier les éléments définissant une forme classique complète de maladie de Kawasaki.",
+"propositions": [
+{
+"correct": true,
+"proposition": "La présence d'une fièvre depuis \u2265 5 jours associée à 4 critères majeurs permet de définir la forme complète.",
+"justification": "La forme classique complète associe une fièvre prolongée (au moins 5 jours) et 4 critères majeurs."
+},
+{
+"correct": true,
+"proposition": "Une conjonctivite bulbaire bilatérale non suppurative constitue un critère majeur.",
+"justification": "La conjonctivite bulbaire bilatérale non suppurative fait partie des critères majeurs."
+},
+{
+"correct": false,
+"proposition": "Des adénopathies cervicales > 1,5 cm doivent être obligatoirement bilatérales et strictement symétriques.",
+"justification": "Les adénopathies sont classiquement > 1,5 cm et bilatérales, mais une localisation unilatérale ou asymétrique est possible."
+},
+{
+"correct": true,
+"proposition": "L'atteinte des extrémités (érythème des paumes/plantes, œdèmes, desquamation fine) est un critère majeur.",
+"justification": "L'atteinte des extrémités, incluant érythème, œdèmes et desquamation fine subaiguë, figure parmi les critères majeurs."
+},
+{
+"correct": false,
+"proposition": "Les critères majeurs doivent être tous contemporains lors de l'examen clinique initial.",
+"justification": "Les critères majeurs ne sont pas nécessairement contemporains ; il faut les rechercher dans l'anamnèse."
+}
+]
+},
+{
+"statement": "Reconnaître la conduite à tenir et les pièges diagnostiques devant une forme incomplète.",
+"propositions": [
+{
+"correct": true,
+"proposition": "Devant une fièvre inexpliquée > 5 jours avec altération de l'état général, il faut envisager un bilan biologique et une échographie cardiaque.",
+"justification": "En cas de fièvre prolongée inexpliquée, il est important d'investiguer la maladie de Kawasaki par des examens biologiques et une échographie cardiaque."
+},
+{
+"correct": false,
+"proposition": "Une échographie cardiaque normale élimine le diagnostic.",
+"justification": "Une échographie normale n'élimine pas le diagnostic."
+},
+{
+"correct": true,
+"proposition": "La mise en évidence d'une dilatation coronaire à l'échographie permet de retenir le diagnostic même s'il y a < 4 critères majeurs (hors fièvre).",
+"justification": "Une dilatation des coronaires permet de retenir le diagnostic malgré un nombre de critères majeurs insuffisant."
+},
+{
+"correct": false,
+"proposition": "Les formes incomplètes exposent à un moindre risque de complications cardiaques.",
+"justification": "Les formes incomplètes exposent au contraire à un risque plus élevé de complications cardiaques."
+},
+{
+"correct": false,
+"proposition": "Le diagnostic repose sur la documentation bactérienne d'un adénophlegmon cervical.",
+"justification": "Une localisation unilatérale peut faire évoquer un phlegmon, mais l'absence de documentation bactérienne et l'évolution atypique doivent faire discuter la maladie de Kawasaki."
+}
+]
+},
+{
+"statement": "Classer les anomalies biologiques évocatrices.",
+"propositions": [
+{
+"correct": true,
+"proposition": "Syndrome inflammatoire avec CRP et VS élevées, hyperleucocytose et hypoalbuminémie.",
+"justification": "Ces éléments sont fréquemment observés."
+},
+{
+"correct": true,
+"proposition": "Thrombocytose apparaissant plus tardivement, vers J10.",
+"justification": "La thrombocytose survient plus tardivement par rapport aux autres paramètres, vers J10."
+},
+{
+"correct": true,
+"proposition": "Cytolyse hépatique modérée fréquente.",
+"justification": "Une cytolyse modérée est fréquente."
+},
+{
+"correct": false,
+"proposition": "Élévation de la bilirubine fréquente et constante.",
+"justification": "L'élévation de la bilirubine est plus rare."
+},
+{
+"correct": true,
+"proposition": "Leucocyturie aseptique très fréquente.",
+"justification": "La leucocyturie aseptique est très fréquente."
+}
+]
+},
+{
+"statement": "Identifier les complications et l'urgence diagnostique.",
+"propositions": [
+{
+"correct": true,
+"proposition": "Le risque de dilatation des coronaires augmente au-delà de 10 jours d'évolution sans traitement.",
+"justification": "Le risque de dilatation est majoré après 10 jours sans traitement."
+},
+{
+"correct": true,
+"proposition": "Le diagnostic des atteintes coronaires se fait par échographie cardiaque transthoracique.",
+"justification": "L'échographie cardiaque transthoracique est l'examen de référence pour la dilatation coronaire."
+},
+{
+"correct": true,
+"proposition": "Le "Kawasaki shock" peut associer myocardite et atteinte multiviscérale.",
+"justification": "La forme multisystémique "Kawasaki shock" comprend myocardite et atteinte multiviscérale."
+},
+{
+"correct": false,
+"proposition": "Le syndrome d'activation macrophagique n'est pas décrit dans cette maladie.",
+"justification": "Le syndrome d'activation macrophagique est mentionné parmi les complications aiguës."
+},
+{
+"correct": false,
+"proposition": "Le diagnostic n'est pas urgent car les complications coronaires surviennent précocement et inéluctablement.",
+"justification": "Le diagnostic est urgent précisément pour prévenir la dilatation coronaire dont le risque augmente après 10 jours sans traitement."
+}
+]
+},
+{
+"statement": "Différencier les éléments clés de la prise en charge et de l'orientation.",
+"propositions": [
+{
+"correct": true,
+"proposition": "Toute suspicion justifie un bilan hospitalier.",
+"justification": "Une suspicion de maladie de Kawasaki motive une évaluation à l'hôpital."
+},
+{
+"correct": true,
+"proposition": "Le traitement associe perfusion d'immunoglobulines intraveineuses et aspirine à dose anti-inflammatoire puis anti-agrégante.",
+"justification": "La prise en charge thérapeutique hospitalière combine immunoglobulines IV et aspirine avec séquence anti-inflammatoire puis anti-agrégante."
+},
+{
+"correct": true,
+"proposition": "La durée totale du traitement par aspirine est de 6 à 8 semaines.",
+"justification": "La durée indiquée pour l'aspirine est de 6 à 8 semaines."
+},
+{
+"correct": true,
+"proposition": "Une surveillance cardiologique avec échographies doit être mise en place.",
+"justification": "Une surveillance cardiologique échographique est requise."
+},
+{
+"correct": false,
+"proposition": "Un traitement ambulatoire d'emblée est recommandé en première intention.",
+"justification": "Le traitement est toujours hospitalier une fois le diagnostic posé."
+}
+]
+}
+]

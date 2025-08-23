@@ -1,0 +1,17 @@
+2025-08-22 22:11:40,655 | INFO | Logs: C:\Users\alaeb\QI-generator\resultats\run_20250822_221140.log
+2025-08-22 22:11:40,889 | INFO | Système: Windows-11-10.0.26100-SP0 | Python 3.13.5
+2025-08-22 22:11:40,890 | INFO | Chemins: lisa=C:\Users\alaeb\QI-generator\lisa | dbo=C:\Users\alaeb\QI-generator\dbo.csv | out=C:\Users\alaeb\QI-generator\resultats
+2025-08-22 22:11:41,140 | INFO | Taille écran détectée: 1920x1080
+2025-08-22 22:11:41,140 | INFO | Coordonnée bouton Copier utilisée: (568, 522)
+2025-08-22 22:11:41,146 | ERROR | Échec critique: type object 'Key' has no attribute 'windows'
+Traceback (most recent call last):
+  File "C:\Users\alaeb\QI-generator\src\qi_generator\__main__.py", line 573, in main
+    stats = run(paths, ui)
+  File "C:\Users\alaeb\QI-generator\src\qi_generator\__main__.py", line 431, in run
+    maybe_alt_tab(kb, ui.use_alt_tab)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alaeb\QI-generator\src\qi_generator\__main__.py", line 183, in maybe_alt_tab
+    with kb.pressed(Key.windows):
+                    ^^^^^^^^^^^
+AttributeError: type object 'Key' has no attribute 'windows'
+

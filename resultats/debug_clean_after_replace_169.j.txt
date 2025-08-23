@@ -1,0 +1,110 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les principaux tests de dépistage du VIH OIC-169-12-A
+
+
+
+
+Différents tests de dépistage
+•       Test de dépistage : test combiné (ELISA de 4ème génération) met en évidence les Ac anti-VIH 1 et 2 sans en déterminer la spécificité et permet également la détection d'antigène p24. Positif 15 jours après le contage. Un résultat négatif signe l'absence d'infection par le VIH, sauf dans le cas d'une exposition supposée datant de moins de 6 semaines.
+•       Test de confirmation : permet de préciser la spécificité des Ac anti-VIH présents dans le sérum (Western blot, immunoblot) et différencier VIH-1 et VIH-2
+•       Antigène p24 (capside du VIH-1) recherché dans le sérum seul ou par la technique ELISA combinée à la détection d'anticorps. Positif 15 jours après le contage et se négative quand les anticorps apparaissent.
+•       ARN du VIH (génome du VIH) détecté par PCR dans le plasma. Positif 10 j après le contage. 
+•       Test rapide d'orientation diagnostique (TROD). Ne détecte que les anticorps anti-VIH sur une goutte de sang . Un résultat négatif ne peut être interprété dans le cas d'une prise de risque datant de moins de 3 mois.
+
+Stratégie diagnostique de l'infection par le VIH : en deux temps
+1/ test de dépistage ELISA de 4ème génération positif, à confirmer par un test de confirmation par Western-Blot sur le même prélèvement.
+2/ en cas de positivité du Western-Blot, un second prélèvement (ELISA de 4ème génération) devra obligatoirement être réalisé afin d'éliminer une erreur d'identité.
+
+ 
+ Connaître les principaux tests de dépistage du VIH OIC-169-12-ADifférents tests de dépistage•Test de dépistage : test combiné (ELISA de 4èmegénération)met en évidence les Ac anti-VIH 1 et 2 sans en déterminer la spécificité et permet également la détection d'antigène p24. Positif 15 jours après le contage. Un résultat négatif signe l'absence d'infection par le VIH, sauf dans le cas d'une exposition supposée datant de moins de 6 semaines.•Test de confirmation :permet de préciser la spécificité des Ac anti-VIH présents dans le sérum (Western blot, immunoblot) et différencier VIH-1 et VIH-2•Antigène p24(capside du VIH-1) recherché dans le sérum seul ou par la technique ELISA combinée à la détection d'anticorps. Positif 15 jours après le contage et se négative quand les anticorps apparaissent.•ARN du VIH(génome du VIH) détecté par PCR dans le plasma. Positif 10 j après le contage.•Test rapide d'orientation diagnostique (TROD). Ne détecte que les anticorps anti-VIH sur une goutte de sang . Un résultat négatif ne peut être interprété dans le cas d'une prise de risque datant de moins de 3 mois.Stratégie diagnostique de l'infection par le VIH : en deux temps1/ test de dépistage ELISA de 4èmegénération positif, à confirmer par un test de confirmation par Western-Blot sur le même prélèvement.2/ en cas de positivité du Western-Blot, un second prélèvement (ELISA de 4èmegénération) devra obligatoirement être réalisé afin d'éliminer une erreur d'identité.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

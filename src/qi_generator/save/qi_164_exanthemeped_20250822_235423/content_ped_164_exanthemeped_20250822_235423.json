@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exanthemeped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755899870107_01",
+      "current_version_epoch_ms": 1755899870107,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Définir un exanthème chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une éruption cutanée aiguë et transitoire.",
+            "justification": "Un exanthème est défini comme une éruption cutanée aiguë et transitoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Une affection cutanée chronique durant plusieurs mois.",
+            "justification": "La définition insiste sur le caractère aigu et transitoire, à l'opposé d'une évolution chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une atteinte cutanée exclusivement vésiculo-pustuleuse.",
+            "justification": "Les exanthèmes peuvent être vésiculo-pustuleux ou érythémateux ; ils ne se limitent pas à un seul type."
+          },
+          {
+            "correct": false,
+            "proposition": "Une rougeur due à une vasodilatation cutanée quel qu'en soit le contexte.",
+            "justification": "La rougeur par vasodilatation décrit spécifiquement les exanthèmes érythémateux, pas la définition générale d'un exanthème."
+          },
+          {
+            "correct": false,
+            "proposition": "Une éruption non cutanée touchant uniquement les muqueuses.",
+            "justification": "Un exanthème est par définition une éruption cutanée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899870107_02",
+      "current_version_epoch_ms": 1755899870107,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Identifier la base de la classification d'un exanthème.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de macules fait partie des lésions élémentaires utilisées.",
+            "justification": "La classification repose sur la caractérisation des lésions élémentaires, notamment les macules."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de papules fait partie des lésions élémentaires utilisées.",
+            "justification": "Les papules sont listées parmi les lésions élémentaires de référence."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de vésicules fait partie des lésions élémentaires utilisées.",
+            "justification": "Les vésicules figurent explicitement dans les lésions élémentaires."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence de pustules fait partie des lésions élémentaires utilisées.",
+            "justification": "Les pustules font partie des lésions élémentaires retenues."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge de l'enfant est l'élément central de la classification.",
+            "justification": "La classification est fondée sur macule, papule, vésicule, pustule, et non sur l'âge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899870107_03",
+      "current_version_epoch_ms": 1755899870107,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "À propos des exanthèmes érythémateux, reconnaître les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils correspondent à une rougeur liée à une vasodilatation cutanée.",
+            "justification": "Les exanthèmes érythémateux sont définis par une rougeur due à la vasodilatation cutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils comprennent un type maculeux sans intervalle de peau saine, dit scarlatiniforme.",
+            "justification": "Un des deux types cliniques d'exanthèmes érythémateux est le maculeux sans intervalle de peau saine (scarlatiniforme)."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils comprennent un type maculo-papuleux avec intervalles de peau saine, dit morbilliforme.",
+            "justification": "L'autre type clinique est maculo-papuleux avec intervalles de peau saine (morbilliforme)."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils se définissent par des vésicules et des pustules.",
+            "justification": "Les vésicules et pustules caractérisent les exanthèmes vésiculo-pustuleux, pas les érythémateux."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils prennent pour prototype la varicelle.",
+            "justification": "La varicelle illustre un exanthème vésiculo-pustuleux, non un érythémateux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899870107_04",
+      "current_version_epoch_ms": 1755899870107,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Associer maladie et type d'exanthème selon les exemples fournis.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Varicelle = exanthème vésiculo-pustuleux.",
+            "justification": "La varicelle est citée comme exemple d'exanthème vésiculo-pustuleux."
+          },
+          {
+            "correct": true,
+            "proposition": "Scarlatine = exanthème maculeux sans intervalle de peau saine (scarlatiniforme).",
+            "justification": "La scarlatine illustre l'exanthème scarlatiniforme."
+          },
+          {
+            "correct": true,
+            "proposition": "Rougeole = exanthème maculo-papuleux avec intervalles de peau saine (morbilliforme).",
+            "justification": "La rougeole illustre l'exanthème morbilliforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Rougeole = exanthème vésiculo-pustuleux.",
+            "justification": "Le type morbilliforme (maculo-papuleux avec intervalles) est associé à la rougeole, pas le vésiculo-pustuleux."
+          },
+          {
+            "correct": false,
+            "proposition": "Varicelle = exanthème érythémateux morbilliforme.",
+            "justification": "La varicelle n'est pas un érythémateux morbilliforme mais un vésiculo-pustuleux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899870107_05",
+      "current_version_epoch_ms": 1755899870107,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Classer l'éruption suivante : éruption maculeuse diffuse sans intervalle de peau saine chez un enfant fébrile.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exanthème érythémateux de type scarlatiniforme.",
+            "justification": "Le type scarlatiniforme est maculeux sans intervalle de peau saine."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème érythémateux de type morbilliforme.",
+            "justification": "Le morbilliforme est maculo-papuleux avec intervalles de peau saine, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème vésiculo-pustuleux.",
+            "justification": "La description ne mentionne ni vésicules ni pustules ; elle correspond à un érythémateux."
+          },
+          {
+            "correct": true,
+            "proposition": "Relève des exanthèmes érythémateux.",
+            "justification": "Les types scarlatiniforme et morbilliforme sont des exanthèmes érythémateux."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'intervalles de peau saine entre les lésions.",
+            "justification": "L'énoncé précise l'absence d'intervalles de peau saine, caractéristique du scarlatiniforme."
+          }
+        ]
+      }
+    }
+  ]
+}

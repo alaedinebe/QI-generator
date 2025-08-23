@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ectoparasitose",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755921193252_01",
+      "current_version_epoch_ms": 1755921193252,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quelle est une cause fréquente d'échec du traitement de la gale et des pédiculoses liée au comportement du patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mauvaise observance du traitement",
+            "justification": "Une mauvaise observance, due à l'incompréhension, l'ignorance ou la négligence, empêche le traitement d'être efficace et constitue une cause majeure d'échec."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'un traitement trop coûteux",
+            "justification": "Bien que le coût puisse limiter l'accès au traitement, il n'est pas directement lié au comportement ou à l'observance du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Ré-infestation à partir de l'environnement",
+            "justification": "La ré-infestation concerne l'exposition externe et non le comportement du patient lors de l'administration du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de deuxième dose d'ivermectine",
+            "justification": "L'absence de la seconde prise relève du schéma thérapeutique et non directement du comportement général du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Application correcte de la quantité de produit",
+            "justification": "L'application correcte n'est pas une cause d'échec, mais au contraire un facteur de succès du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755921193252_02",
+      "current_version_epoch_ms": 1755921193252,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quel facteur contribue spécifiquement à l'échec du traitement de la gale mais pas nécessairement des pédiculoses ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Absence de la seconde prise d'ivermectine entre J7 et J14",
+            "justification": "La gale nécessite souvent une seconde dose d'ivermectine pour éliminer les parasites restants, ce qui n'est pas requis pour toutes les pédiculoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Application insuffisante de produit",
+            "justification": "Cette cause concerne à la fois la gale et les pédiculoses, elle n'est donc pas spécifique à la gale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ré-infestation par contacts non traités",
+            "justification": "La ré-infestation peut affecter tant la gale que les pédiculoses, elle n'est pas spécifique à l'une des deux."
+          },
+          {
+            "correct": false,
+            "proposition": "Mauvaise observance",
+            "justification": "La mauvaise observance peut affecter le traitement de la gale comme celui des pédiculoses, elle n'est pas spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coût du traitement",
+            "justification": "Le coût peut limiter l'accès au traitement mais n'est pas spécifique à la gale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755921193252_03",
+      "current_version_epoch_ms": 1755921193252,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quelle est une cause d'échec commune au traitement de la gale et des pédiculoses liée à l'administration du produit ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Application d'une quantité insuffisante de produit",
+            "justification": "Une quantité insuffisante de produit ne permet pas d'atteindre l'efficacité thérapeutique et constitue une cause d'échec dans les deux affections."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de traitement de l'environnement",
+            "justification": "L'environnement est une source de ré-infestation mais n'est pas directement lié à l'administration du produit."
+          },
+          {
+            "correct": false,
+            "proposition": "Mauvaise observance du patient",
+            "justification": "La mauvaise observance relève du comportement, pas de l'administration correcte du produit."
+          },
+          {
+            "correct": false,
+            "proposition": "Coût du traitement",
+            "justification": "Le coût affecte l'accès au traitement mais n'est pas lié à l'administration de la quantité de produit."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de seconde dose d'ivermectine",
+            "justification": "Cette cause est spécifique à la gale et concerne le schéma thérapeutique, pas l'administration initiale du produit."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755921193252_04",
+      "current_version_epoch_ms": 1755921193252,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Parmi les causes suivantes, laquelle est liée à la ré-infestation dans l'échec du traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exposition à des sujets contacts non traités",
+            "justification": "Les parasites peuvent provenir de contacts non traités, entraînant une ré-infestation et donc un échec du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Application correcte de la quantité de produit",
+            "justification": "L'application correcte du produit n'entraîne pas de ré-infestation et favorise le succès du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Mauvaise observance du patient",
+            "justification": "Bien que la mauvaise observance soit une cause d'échec, elle n'est pas directement liée à la ré-infestation par d'autres sujets."
+          },
+          {
+            "correct": false,
+            "proposition": "Coût du traitement",
+            "justification": "Le coût peut limiter l'accès mais ne provoque pas de ré-infestation."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de seconde dose d'ivermectine",
+            "justification": "Cette cause concerne le schéma thérapeutique et non la ré-infestation par l'environnement ou contacts non traités."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755921193252_05",
+      "current_version_epoch_ms": 1755921193252,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quel facteur économique peut contribuer à l'échec du traitement des pédiculoses et de la gale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coût élevé de certains traitements",
+            "justification": "Un traitement trop coûteux peut limiter l'accès aux patients et entraîner un échec thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Application correcte de la dose",
+            "justification": "L'application correcte favorise le succès du traitement et n'est pas une cause d'échec."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de traitement des contacts",
+            "justification": "La ré-infestation par contacts non traités est une cause mais n'est pas directement économique."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'ivermectine entre J7 et J14",
+            "justification": "La prise correcte de la seconde dose est une mesure thérapeutique, non un facteur économique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mauvaise observance due à négligence",
+            "justification": "La mauvaise observance est comportementale, pas un facteur économique direct."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755914369063_01",
+      "current_version_epoch_ms": 1755914369063,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez une personne vivant avec le VIH, quel vaccin est contre-indiqué quel que soit le statut immunologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BCG",
+            "justification": "Le BCG est contre-indiqué chez toutes les personnes vivant avec le VIH, indépendamment du taux de LT CD4."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe",
+            "justification": "Le vaccin antigrippal est recommandé tous les ans pour toutes les personnes vivant avec le VIH, quel que soit l'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "VHB",
+            "justification": "Le vaccin contre l'hépatite B est indiqué chez les personnes non immunisées vivant avec le VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumocoque",
+            "justification": "Le vaccin pneumococcique est indiqué pour toutes les personnes vivant avec le VIH, sans contre-indication spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "HPV",
+            "justification": "Le vaccin HPV est recommandé chez les personnes vivant avec le VIH, selon l'âge et le groupe à risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914369063_02",
+      "current_version_epoch_ms": 1755914369063,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est le critère principal pour contre-indiquer les vaccins vivants atténués chez les personnes vivant avec le VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Taux de LT CD4 inférieur à 200/mm3",
+            "justification": "Les vaccins vivants atténués sont contre-indiqués tant que le taux de LT CD4 est inférieur à 200/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de co-infection VIH/VHC",
+            "justification": "La co-infection VIH/VHC est une indication pour certains vaccins mais n'est pas une contre-indication aux vaccins vivants."
+          },
+          {
+            "correct": false,
+            "proposition": "Age supérieur à 50 ans",
+            "justification": "L'âge n'est pas un critère de contre-indication des vaccins vivants chez les personnes vivant avec le VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Statut immunologique normal",
+            "justification": "Un statut immunologique normal ne contre-indique pas les vaccins vivants."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection chronique par le VHB",
+            "justification": "La présence d'une infection chronique par le VHB n'est pas une contre-indication aux vaccins vivants atténués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914369063_03",
+      "current_version_epoch_ms": 1755914369063,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les personnes vivant avec le VIH, qui doit recevoir le vaccin contre l'hépatite A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les HSH, ou en cas de co-infection VIH/VHB ou VIH/VHC, ou en cas d'hépatopathie chronique",
+            "justification": "Le vaccin VHA est indiqué chez les HSH, en présence d'une co-infection VIH/VHB ou VIH/VHC, ou en cas d'hépatopathie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les personnes vivant avec le VIH, quel que soit le statut",
+            "justification": "Le vaccin VHA n'est pas recommandé pour toutes les personnes vivant avec le VIH, mais selon les critères de risque précisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement les jeunes filles jusqu'à 19 ans",
+            "justification": "Cette indication concerne le vaccin HPV, pas le vaccin VHA."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement les patients avec LT CD4 > 500/mm3",
+            "justification": "Le statut immunitaire n'est pas une condition pour la vaccination VHA, contrairement aux vaccins vivants atténués."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun patient VIH n'est éligible",
+            "justification": "Les personnes vivant avec le VIH peuvent être vaccinées contre l'hépatite A selon les critères de risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914369063_04",
+      "current_version_epoch_ms": 1755914369063,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel schéma vaccinal est recommandé pour la vaccination pneumococcique chez les personnes vivant avec le VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une dose de vaccin conjugué 13-valent suivie, deux mois plus tard, d'une dose de vaccin polysaccharidique 23-valent",
+            "justification": "Toutes les personnes vivant avec le VIH doivent recevoir une dose de vaccin conjugué 13-valent puis, deux mois après, une dose de vaccin polysaccharidique 23-valent."
+          },
+          {
+            "correct": false,
+            "proposition": "Deux doses de vaccin polysaccharidique 23-valent à un mois d'intervalle",
+            "justification": "Le schéma recommandé inclut d'abord le vaccin conjugué 13-valent avant le polysaccharidique 23-valent."
+          },
+          {
+            "correct": false,
+            "proposition": "Une seule dose de vaccin conjugué 13-valent",
+            "justification": "Une seule dose de vaccin conjugué n'est pas suffisante, il faut compléter par le polysaccharidique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin polysaccharidique 23-valent seul, sans intervalle",
+            "justification": "Le schéma correct nécessite d'abord le vaccin conjugué 13-valent avant le polysaccharidique 23-valent."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination non recommandée chez les patients VIH",
+            "justification": "La vaccination pneumococcique est recommandée chez toutes les personnes vivant avec le VIH."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914369063_05",
+      "current_version_epoch_ms": 1755914369063,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Pour quelles populations vivant avec le VIH le vaccin HPV est-il recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Jeunes hommes et jeunes filles jusqu'à 19 ans, et tous les HSH jusqu'à 26 ans",
+            "justification": "Le vaccin HPV est recommandé pour toutes les personnes vivant avec le VIH selon l'âge et le groupe à risque : jeunes hommes et jeunes filles jusqu'à 19 ans, et tous les HSH jusqu'à 26 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Toutes les personnes vivant avec le VIH quel que soit l'âge",
+            "justification": "La vaccination HPV n'est pas indiquée pour toutes les personnes vivant avec le VIH, mais selon les critères d'âge et de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement les femmes de plus de 25 ans",
+            "justification": "Le vaccin HPV est recommandé jusqu'à 19 ans pour les jeunes filles, et jusqu'à 26 ans pour les HSH."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement les patients avec LT CD4 > 200/mm3",
+            "justification": "Le niveau de LT CD4 n'est pas un critère pour la vaccination HPV."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination non recommandée chez les HSH",
+            "justification": "Au contraire, la vaccination HPV est recommandée chez tous les HSH, infectés ou non par le VIH."
+          }
+        ]
+      }
+    }
+  ]
+}

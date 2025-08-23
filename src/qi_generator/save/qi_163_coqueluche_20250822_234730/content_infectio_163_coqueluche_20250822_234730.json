@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "coqueluche",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755899456756_01",
+      "current_version_epoch_ms": 1755899456756,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Identifier les modalités de confirmation d'une suspicion clinique de coqueluche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une confirmation biologique si le prélèvement est faisable dans les temps.",
+            "justification": "La confirmation doit être biologique lorsque le prélèvement est réalisable dans les délais."
+          },
+          {
+            "correct": true,
+            "proposition": "Confirmer sur un critère épidémiologique si un cas est confirmé au sein de l'entourage.",
+            "justification": "La confirmation peut être épidémiologique en cas de cas confirmé dans l'entourage."
+          },
+          {
+            "correct": false,
+            "proposition": "Se contenter d'une confirmation clinique sans autre élément.",
+            "justification": "Une confirmation est requise et doit être biologique ou épidémiologique, pas uniquement clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Considérer la confirmation comme obligatoire si une personne à risque a été exposée.",
+            "justification": "La confirmation est obligatoire en cas d'exposition d'une personne à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser la sérologie comme modalité de confirmation.",
+            "justification": "La sérologie n'a pas sa place dans le diagnostic de la coqueluche."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899456756_02",
+      "current_version_epoch_ms": 1755899456756,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Différencier les situations qui justifient un prélèvement pour diagnostic de coqueluche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient symptomatique depuis moins de 21 jours : indication de prélèvement.",
+            "justification": "Le prélèvement est indiqué chez un patient symptomatique depuis moins de 21 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Individu contact d'un cas index symptomatique depuis plus de 21 jours : indication de prélèvement.",
+            "justification": "Le prélèvement est indiqué pour un contact d'un cas index symptomatique depuis plus de 21 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient symptomatique depuis 30 jours : indication systématique de prélèvement.",
+            "justification": "Seule la situation de symptômes depuis moins de 21 jours est mentionnée comme indication."
+          },
+          {
+            "correct": false,
+            "proposition": "Personne asymptomatique sans notion de contact : indication de prélèvement.",
+            "justification": "Aucune indication n'est décrite pour une personne asymptomatique sans contact."
+          },
+          {
+            "correct": false,
+            "proposition": "Contact récent (5 jours) : prélèvement uniquement via sérologie.",
+            "justification": "La sérologie n'est pas indiquée pour le diagnostic et n'est pas proposée comme modalité de prélèvement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899456756_03",
+      "current_version_epoch_ms": 1755899456756,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Choisir le meilleur type de prélèvement pour le diagnostic de coqueluche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aspiration nasopharyngée.",
+            "justification": "C'est le meilleur prélèvement pour le diagnostic de la coqueluche."
+          },
+          {
+            "correct": true,
+            "proposition": "Écouvillonnage nasopharyngé en cas d'absence de sécrétions à l'aspiration.",
+            "justification": "Il est possible de réaliser un écouvillonnage nasopharyngé si l'aspiration ne récupère pas de sécrétions."
+          },
+          {
+            "correct": true,
+            "proposition": "Recueil de mucus de quinte.",
+            "justification": "Le recueil de mucus de quinte est mentionné comme option de prélèvement."
+          },
+          {
+            "correct": false,
+            "proposition": "Salive au crachat spontané.",
+            "justification": "Ce type d'échantillon n'est pas indiqué parmi les prélèvements recommandés."
+          },
+          {
+            "correct": false,
+            "proposition": "Prélèvement sanguin.",
+            "justification": "Aucun prélèvement sanguin n'est indiqué pour le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899456756_04",
+      "current_version_epoch_ms": 1755899456756,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Reconnaître la méthode d'identification de choix et les performances de la culture.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La PCR Bordetella est la méthode de choix pour le diagnostic.",
+            "justification": "La PCR est décrite comme la méthode de choix, avec bonne sensibilité et spécificité."
+          },
+          {
+            "correct": true,
+            "proposition": "La culture sur milieux Bordet-Gengou ou Regan-Lowe est une alternative mais délicate.",
+            "justification": "La culture est possible sur milieux spécifiques mais délicate en raison de la fragilité et des exigences nutritives de B. pertussis."
+          },
+          {
+            "correct": false,
+            "proposition": "La sensibilité de la culture dépasse 80 % en phase catarrhale.",
+            "justification": "La sensibilité de la culture n'excède pas 60 % en phase catarrhale."
+          },
+          {
+            "correct": true,
+            "proposition": "La sensibilité de la culture est d'environ 10 % en phase de quintes.",
+            "justification": "La sensibilité de la culture est indiquée à 10 % en phase de quintes."
+          },
+          {
+            "correct": false,
+            "proposition": "La sérologie a une place dans le diagnostic de la coqueluche.",
+            "justification": "La sérologie n'a pas sa place dans le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899456756_05",
+      "current_version_epoch_ms": 1755899456756,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Déterminer la conduite diagnostique face à une suspicion clinique selon la faisabilité du prélèvement.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le prélèvement est réalisable dans les temps, privilégier une confirmation biologique.",
+            "justification": "La confirmation doit être biologique lorsque le prélèvement est réalisable dans les délais."
+          },
+          {
+            "correct": true,
+            "proposition": "Si aucun prélèvement n'est réalisable, une confirmation épidémiologique est possible via un cas confirmé dans l'entourage.",
+            "justification": "La confirmation peut être épidémiologique lorsqu'un cas est confirmé dans l'entourage."
+          },
+          {
+            "correct": false,
+            "proposition": "Sans cas confirmé dans l'entourage, aucune confirmation n'est envisageable.",
+            "justification": "La confirmation reste possible par voie biologique si un prélèvement peut être réalisé."
+          },
+          {
+            "correct": false,
+            "proposition": "En l'absence de prélèvement, la sérologie remplace la PCR.",
+            "justification": "La sérologie n'a pas sa place dans le diagnostic et ne remplace pas la PCR."
+          },
+          {
+            "correct": false,
+            "proposition": "Une confirmation n'est pas nécessaire lorsque la clinique est évocatrice.",
+            "justification": "Une confirmation est requise devant toute suspicion clinique."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "coqueluche",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755899250091_01",
+      "current_version_epoch_ms": 1755899250091,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "À propos de la nature de la coqueluche, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La coqueluche est une toxi-infection.",
+            "justification": "Elle est explicitement qualifiée de toxi-infection."
+          },
+          {
+            "correct": false,
+            "proposition": "La coqueluche n'implique pas de toxines.",
+            "justification": "Des toxines font partie des facteurs de virulence importants."
+          },
+          {
+            "correct": false,
+            "proposition": "La coqueluche est uniquement une maladie d'adhérence sans toxines.",
+            "justification": "Les facteurs majeurs sont des toxines et/ou des adhésines, pas uniquement des adhésines."
+          },
+          {
+            "correct": true,
+            "proposition": "Les facteurs clés de virulence sont des toxines et/ou des adhésines.",
+            "justification": "Les facteurs de virulence les plus importants appartiennent à ces deux catégories."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune adhésine n'est impliquée dans l'infection.",
+            "justification": "L'hémagglutinine filamenteuse est une adhésine impliquée dans l'interaction avec l'hôte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899250091_02",
+      "current_version_epoch_ms": 1755899250091,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Concernant la toxine pertussique, reconnaître les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La toxine pertussique est un facteur de virulence majeur.",
+            "justification": "Elle est présentée comme la principale toxine de virulence."
+          },
+          {
+            "correct": true,
+            "proposition": "La toxine pertussique est exclusivement synthétisée par Bordetella pertussis.",
+            "justification": "Elle est le seul facteur de virulence exclusivement synthétisé par B. pertussis."
+          },
+          {
+            "correct": false,
+            "proposition": "La toxine pertussique est synthétisée par Bordetella parapertussis.",
+            "justification": "B. parapertussis possède les gènes de la toxine mais ne l'exprime pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Bordetella parapertussis possède les gènes codant la toxine pertussique mais ne l'exprime pas.",
+            "justification": "La présence génique est mentionnée sans expression de la toxine."
+          },
+          {
+            "correct": false,
+            "proposition": "La toxine pertussique ne relève pas des facteurs de virulence.",
+            "justification": "Elle est explicitement citée comme un facteur de virulence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899250091_03",
+      "current_version_epoch_ms": 1755899250091,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "À propos de l'hémagglutinine filamenteuse, identifier les propositions exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'hémagglutinine filamenteuse est une adhésine.",
+            "justification": "Elle est décrite comme une adhésine."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est impliquée dans l'interaction avec les cellules de l'hôte.",
+            "justification": "Son rôle d'interaction avec les cellules de l'hôte est précisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une toxine.",
+            "justification": "Elle est catégorisée comme adhésine, pas comme toxine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'intervient pas dans l'adhérence à l'hôte.",
+            "justification": "Elle participe justement à l'interaction avec les cellules de l'hôte."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle fait partie des facteurs de virulence de Bordetella pertussis.",
+            "justification": "Les adhésines comptent parmi les facteurs de virulence et l'hémagglutinine filamenteuse est citée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899250091_04",
+      "current_version_epoch_ms": 1755899250091,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Différencier Bordetella pertussis de Bordetella parapertussis au regard de la toxine pertussique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Seule Bordetella pertussis synthétise la toxine pertussique.",
+            "justification": "La synthèse de cette toxine est exclusive à B. pertussis."
+          },
+          {
+            "correct": false,
+            "proposition": "Bordetella parapertussis exprime la toxine pertussique.",
+            "justification": "Elle possède les gènes mais ne l'exprime pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Bordetella parapertussis possède les gènes de la toxine pertussique.",
+            "justification": "La présence des gènes est mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'expression de la toxine pertussique est partagée entre les deux espèces.",
+            "justification": "L'expression est exclusive à B. pertussis."
+          },
+          {
+            "correct": true,
+            "proposition": "Chez Bordetella parapertussis, la présence des gènes n'entraîne pas l'expression de la toxine.",
+            "justification": "Il est précisé que ces gènes ne sont pas exprimés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755899250091_05",
+      "current_version_epoch_ms": 1755899250091,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Classer les catégories de facteurs de virulence impliqués dans la coqueluche et illustrer leur représentation.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les facteurs de virulence majeurs relèvent de toxines et/ou d'adhésines.",
+            "justification": "Les catégories majeures sont précisées comme toxines et/ou adhésines."
+          },
+          {
+            "correct": true,
+            "proposition": "Les adhésines comptent parmi les facteurs de virulence importants dans la coqueluche.",
+            "justification": "Les adhésines sont citées parmi les catégories importantes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les facteurs de virulence se limitent aux adhésines, sans toxines.",
+            "justification": "Les deux catégories, toxines et adhésines, sont impliquées."
+          },
+          {
+            "correct": false,
+            "proposition": "La catégorie des toxines n'est pas concernée par la coqueluche.",
+            "justification": "Les toxines font partie des facteurs de virulence majeurs."
+          },
+          {
+            "correct": true,
+            "proposition": "La toxine pertussique illustre la catégorie « toxine » parmi ces facteurs.",
+            "justification": "La toxine pertussique est explicitement désignée comme toxine majeure."
+          }
+        ]
+      }
+    }
+  ]
+}

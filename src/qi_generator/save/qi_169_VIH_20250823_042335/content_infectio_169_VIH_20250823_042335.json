@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755916022432_01",
+      "current_version_epoch_ms": 1755916022432,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Au cours de l'infection chronique par le VIH, quel marqueur virologique est le plus utile pour suivre la réplication virale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La charge virale plasmique (ARN VIH)",
+            "justification": "La charge virale plasmique mesure directement la quantité de virus circulant et permet de suivre l'évolution de l'infection chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le comptage des lymphocytes B",
+            "justification": "Le comptage des lymphocytes B n'est pas utilisé pour suivre la réplication virale du VIH, car le virus infecte principalement les lymphocytes T CD4+."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de CRP",
+            "justification": "La CRP est un marqueur inflammatoire général et n'indique pas l'activité virale spécifique du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "La vitesse de sédimentation des globules rouges",
+            "justification": "La vitesse de sédimentation est un indicateur non spécifique d'inflammation et ne permet pas de suivre l'évolution virologique du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dosage de la procalcitonine",
+            "justification": "La procalcitonine est un marqueur de surinfection bactérienne et n'est pas pertinente pour le suivi de l'infection chronique par le VIH."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916022432_02",
+      "current_version_epoch_ms": 1755916022432,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Dans l'infection chronique par le VIH, quel paramètre immunologique est le plus utilisé pour évaluer l'état du système immunitaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre de lymphocytes T CD4+",
+            "justification": "Le comptage des lymphocytes T CD4+ permet d'évaluer l'immunodépression liée au VIH et est essentiel pour guider la prise en charge clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de lymphocytes T CD8+",
+            "justification": "Les lymphocytes T CD8+ augmentent souvent en réponse au VIH mais ne sont pas le principal indicateur de l'état immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux d'immunoglobulines totales",
+            "justification": "Les immunoglobulines totales peuvent être modifiées mais ne reflètent pas spécifiquement la progression de l'immunodépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de monocytes circulants",
+            "justification": "Le comptage des monocytes n'est pas utilisé pour évaluer l'état immunitaire spécifique dans l'infection chronique par le VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de neutrophiles",
+            "justification": "Les neutrophiles ne sont pas un marqueur spécifique de l'état immunitaire chez les patients VIH positifs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916022432_03",
+      "current_version_epoch_ms": 1755916022432,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel scénario est typique de l'évolution de la charge virale au cours de l'infection chronique non traitée par antirétroviraux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La charge virale reste relativement stable à un niveau élevé après la phase aiguë",
+            "justification": "Après la phase aiguë, la charge virale se stabilise à un plateau élevé, reflétant la réplication virale continue sans traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale diminue progressivement jusqu'à devenir indétectable",
+            "justification": "Sans traitement, la charge virale ne devient pas indétectable et reste élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale fluctue de manière aléatoire sans relation avec la phase de l'infection",
+            "justification": "La charge virale suit un schéma prévisible avec un pic aigu suivi d'un plateau, et non des fluctuations aléatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale chute immédiatement après l'infection aiguë",
+            "justification": "Il y a une diminution initiale après le pic aigu, mais elle se stabilise ensuite à un plateau élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale devient indétectable dans tous les cas",
+            "justification": "Sans traitement antirétroviral, la charge virale ne devient pas indétectable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916022432_04",
+      "current_version_epoch_ms": 1755916022432,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Lors du suivi d'un patient en infection chronique par le VIH sous traitement efficace, quelle évolution des marqueurs est attendue ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution de la charge virale jusqu'à devenir indétectable",
+            "justification": "Un traitement antirétroviral efficace entraîne une suppression de la réplication virale avec une charge virale indétectable."
+          },
+          {
+            "correct": true,
+            "proposition": "Augmentation progressive du nombre de lymphocytes T CD4+",
+            "justification": "La récupération immunitaire se traduit par une augmentation des lymphocytes T CD4+ sous traitement efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la charge virale",
+            "justification": "La charge virale n'augmente pas sous traitement efficace ; une hausse serait un signe d'échec thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution du nombre de lymphocytes T CD4+",
+            "justification": "Une diminution des CD4+ sous traitement efficace n'est pas attendue et indique un problème de prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des lymphocytes B uniquement",
+            "justification": "L'évolution des lymphocytes B n'est pas le marqueur principal de la réponse au traitement antirétroviral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916022432_05",
+      "current_version_epoch_ms": 1755916022432,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel énoncé décrit correctement la cinétique des marqueurs virologiques et immunologiques au cours de l'infection chronique par le VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après la phase aiguë, la charge virale atteint un plateau et les lymphocytes T CD4+ diminuent progressivement",
+            "justification": "La cinétique typique montre un pic de charge virale pendant la phase aiguë, suivi d'un plateau avec une baisse progressive des CD4+ en l'absence de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les lymphocytes T CD4+ restent stables et la charge virale diminue spontanément",
+            "justification": "Sans traitement, les CD4+ diminuent progressivement et la charge virale reste élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale et les CD4+ fluctuent de manière imprévisible",
+            "justification": "La cinétique suit un schéma prévisible : pic, plateau et diminution des CD4+."
+          },
+          {
+            "correct": false,
+            "proposition": "Les marqueurs virologiques et immunologiques ne permettent pas de suivre l'évolution",
+            "justification": "Les marqueurs tels que la charge virale et les CD4+ sont essentiels pour le suivi clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La charge virale devient indétectable sans traitement",
+            "justification": "La suppression de la charge virale n'est atteinte qu'avec un traitement antirétroviral efficace."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "oreillons",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755902768834_01",
+      "current_version_epoch_ms": 1755902768834,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Identifier les éléments exacts de l'obligation vaccinale ROR dans la prévention des oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obligatoire depuis janvier 2018 chez les moins de 2 ans.",
+            "justification": "La vaccination ROR est indiquée comme obligatoire depuis janvier 2018 pour les moins de 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Obligatoire depuis janvier 2016 chez les moins de 2 ans.",
+            "justification": "La date mentionnée est janvier 2018, pas 2016."
+          },
+          {
+            "correct": false,
+            "proposition": "Obligatoire depuis janvier 2018 chez tous les âges.",
+            "justification": "L'obligation est précisée pour les moins de 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Non obligatoire, seulement recommandée.",
+            "justification": "Il est explicitement indiqué que la vaccination est obligatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Obligatoire uniquement à 6 ans.",
+            "justification": "Les âges précisés sont 12 mois puis 16–18 mois chez les moins de 2 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902768834_02",
+      "current_version_epoch_ms": 1755902768834,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Concernant le schéma vaccinal ROR obligatoire chez les moins de 2 ans, cocher les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une première dose est prévue à 12 mois.",
+            "justification": "Le schéma mentionne une dose à 12 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "Une deuxième dose est prévue entre 16 et 18 mois.",
+            "justification": "Le schéma mentionne une seconde dose à 16–18 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Une dose unique suffit avant 2 ans.",
+            "justification": "Deux doses sont indiquées (12 mois et 16–18 mois)."
+          },
+          {
+            "correct": false,
+            "proposition": "La deuxième dose est prévue à 24 mois.",
+            "justification": "La fenêtre indiquée pour la seconde dose est 16–18 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux doses sont prévues à 12 et 15 mois.",
+            "justification": "Les âges indiqués sont 12 mois et 16–18 mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902768834_03",
+      "current_version_epoch_ms": 1755902768834,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Classer les indications de rattrapage vaccinal contre les oreillons.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rattrapage pour les sujets nés après 1980 s'ils ne sont pas immuns (2 doses).",
+            "justification": "Le rattrapage vise les sujets nés après 1980 non immuns, avec 2 doses."
+          },
+          {
+            "correct": true,
+            "proposition": "Rattrapage pour les sujets nés après 1980 avec vaccination incomplète (2 doses).",
+            "justification": "Le rattrapage est prévu en cas de vaccination incomplète chez les sujets nés après 1980, avec 2 doses."
+          },
+          {
+            "correct": false,
+            "proposition": "Rattrapage pour les sujets nés après 1990, quelle que soit l'immunité (2 doses).",
+            "justification": "L'année de référence est 1980, et le rattrapage cible les non immuns ou vaccination incomplète."
+          },
+          {
+            "correct": false,
+            "proposition": "Rattrapage des sujets nés après 1980 en une seule dose.",
+            "justification": "Le nombre de doses indiqué pour le rattrapage est 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Rattrapage à prévoir pour tous, indépendamment de l'année de naissance.",
+            "justification": "Le rattrapage est spécifié pour les sujets nés après 1980."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902768834_04",
+      "current_version_epoch_ms": 1755902768834,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "Reconnaître les mesures d'hygiène et d'isolement utiles pour limiter la transmission lors d'une parotidite.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lavage des mains.",
+            "justification": "Les mesures d'hygiène comprennent le lavage des mains."
+          },
+          {
+            "correct": true,
+            "proposition": "Isolement pendant 9 jours après le début de la parotidite.",
+            "justification": "Un isolement de 9 jours après le début de la parotidite est indiqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement de 9 jours après la guérison.",
+            "justification": "Le repère précisé est le début de la parotidite, pas la guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "Isolement limité aux premières 24 heures.",
+            "justification": "La durée indiquée est de 9 jours, pas 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure d'isolement n'est nécessaire.",
+            "justification": "Un isolement de 9 jours est explicitement indiqué."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755902768834_05",
+      "current_version_epoch_ms": 1755902768834,
+      "topic": {
+        "subject": "infectio",
+        "item": "oreillons"
+      },
+      "data": {
+        "statement": "À propos des moyens de prévention des oreillons, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La vaccination ROR est un vaccin trivalent.",
+            "justification": "Il est précisé que le ROR est trivalent."
+          },
+          {
+            "correct": true,
+            "proposition": "Les mesures d'hygiène comprennent le lavage des mains.",
+            "justification": "Le lavage des mains est cité parmi les mesures d'hygiène."
+          },
+          {
+            "correct": false,
+            "proposition": "La prévention repose uniquement sur l'isolement.",
+            "justification": "La prévention associe vaccination ROR, mesures d'hygiène et isolement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'isolement doit débuter 9 jours avant la parotidite.",
+            "justification": "La durée d'isolement est précisée après le début de la parotidite."
+          },
+          {
+            "correct": true,
+            "proposition": "Un isolement de 9 jours après le début de la parotidite est indiqué.",
+            "justification": "La durée et le point de départ de l'isolement sont précisés ainsi."
+          }
+        ]
+      }
+    }
+  ]
+}

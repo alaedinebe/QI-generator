@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755927002435_01",
+      "current_version_epoch_ms": 1755927002435,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Chez un patient immunocompétent avec primo-infection toxoplasmique, quels signes cliniques sont les plus fréquemment observés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asthénie, fièvre modérée, polyadénopathie cervicale et occipitale",
+            "justification": "Le tableau clinique habituel associe ces trois signes, présents dans la majorité des cas symptomatiques chez l'immunocompétent."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalées et arthromyalgies",
+            "justification": "Ces signes peuvent être présents, contribuant au syndrome mononucléosique associé à la primo-infection toxoplasmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale aiguë",
+            "justification": "L'insuffisance rénale n'est pas un signe habituel de la primo-infection toxoplasmique chez l'immunocompétent."
+          },
+          {
+            "correct": true,
+            "proposition": "Éruption maculopapuleuse",
+            "justification": "Une éruption maculopapuleuse peut apparaître dans certains cas, faisant partie du spectre clinique décrit."
+          },
+          {
+            "correct": false,
+            "proposition": "Paralysie flasque des membres",
+            "justification": "La paralysie flasque n'est pas associée à la primo-infection toxoplasmique chez l'immunocompétent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927002435_02",
+      "current_version_epoch_ms": 1755927002435,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel examen biologique est nécessaire pour confirmer une primo-infection toxoplasmique chez l'immunocompétent ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Hémoculture",
+            "justification": "Les hémocultures ne permettent pas de diagnostiquer la toxoplasmose, qui repose sur la sérologie."
+          },
+          {
+            "correct": true,
+            "proposition": "Sérologie Toxoplasma IgM et IgG spécifiques",
+            "justification": "La confirmation diagnostique repose sur le dosage des IgM et IgG spécifiques, permettant d'identifier une infection récente ou passée."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS avec formule leucocytaire",
+            "justification": "La NFS seule ne permet pas de confirmer la toxoplasmose, elle peut seulement montrer une hyperéosinophilie modérée."
+          },
+          {
+            "correct": true,
+            "proposition": "Test d'avidité des IgG en cas de détection simultanée d'IgM et IgG",
+            "justification": "L'avidité des IgG permet de déterminer si l'infection est récente lorsque IgM et IgG sont détectées dès la première sérologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des anticorps anti-nucléaires",
+            "justification": "Les anticorps anti-nucléaires ne sont pas pertinents pour le diagnostic de toxoplasmose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927002435_03",
+      "current_version_epoch_ms": 1755927002435,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Concernant la sérologie dans la primo-infection toxoplasmique, quelle affirmation est correcte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les IgM apparaissent précocement après infection",
+            "justification": "Les IgM spécifiques sont détectables dès la phase initiale de l'infection, contrairement aux IgG qui apparaissent plus tard."
+          },
+          {
+            "correct": false,
+            "proposition": "Les IgG apparaissent immédiatement après infection",
+            "justification": "Les IgG apparaissent au minimum 2 semaines après l'infection, donc pas immédiatement."
+          },
+          {
+            "correct": true,
+            "proposition": "Si seules les IgM sont détectées, la sérologie doit être contrôlée 2 semaines plus tard",
+            "justification": "Un contrôle sérologique est nécessaire pour confirmer l'infection récente car IgM peut apparaître avant IgG."
+          },
+          {
+            "correct": false,
+            "proposition": "La persistance des IgM au-delà d'un an exclut la primo-infection récente",
+            "justification": "Les IgM peuvent persister plus d'un an, donc leur présence seule ne permet pas de dater l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Les IgM et IgG ne sont jamais détectées simultanément",
+            "justification": "Il est fréquent de détecter IgM et IgG en même temps, nécessitant le test d'avidité pour dater l'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927002435_04",
+      "current_version_epoch_ms": 1755927002435,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle complication oculaire peut survenir lors d'une primo-infection toxoplasmique chez l'immunocompétent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Choriorétinite",
+            "justification": "La choriorétinite est présente dans 5 à 10 % des cas, correspondant à la manifestation oculaire classique."
+          },
+          {
+            "correct": false,
+            "proposition": "Glaucome aigu",
+            "justification": "Le glaucome aigu n'est pas une complication typique de la toxoplasmose primaire chez l'immunocompétent."
+          },
+          {
+            "correct": false,
+            "proposition": "Décollement de rétine",
+            "justification": "Le décollement de rétine n'est pas associé à la primo-infection toxoplasmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Uvéite antérieure isolée",
+            "justification": "L'uvéite antérieure seule n'est pas une manifestation fréquente, la choriorétinite étant plus caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cataracte",
+            "justification": "La cataracte n'est pas une manifestation de la primo-infection toxoplasmique chez l'immunocompétent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927002435_05",
+      "current_version_epoch_ms": 1755927002435,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle forme clinique grave de toxoplasmose peut exceptionnellement survenir chez l'immunocompétent en Guyane ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Formes multiviscérales avec atteinte du poumon, cœur, cerveau, peau et œil",
+            "justification": "Des souches hypervirulentes peuvent provoquer des atteintes multiviscérales rares mais graves chez l'immunocompétent."
+          },
+          {
+            "correct": false,
+            "proposition": "Simple fièvre modérée avec polyadénopathie",
+            "justification": "Ceci correspond au tableau clinique habituel, non grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome néphrotique isolé",
+            "justification": "Le syndrome néphrotique n'est pas décrit dans la primo-infection toxoplasmique."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées légères sans autres manifestations",
+            "justification": "Les céphalées légères sont fréquentes mais ne caractérisent pas les formes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperéosinophilie massive dépassant 10 000/mm3",
+            "justification": "L'hyperéosinophilie est modérée et non massive dans les formes classiques."
+          }
+        ]
+      }
+    }
+  ]
+}

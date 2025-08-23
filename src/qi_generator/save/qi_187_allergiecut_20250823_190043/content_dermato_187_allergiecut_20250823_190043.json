@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "allergiecut",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755968650055_01",
+      "current_version_epoch_ms": 1755968650055,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques de la phase de sensibilisation de l'eczéma de contact allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'allergène pénètre dans l'épiderme et est capté par les cellules dendritiques cutanées qui migrent dans les ganglions.",
+            "justification": "Cette phase est caractérisée par la captation de l'allergène par les cellules dendritiques cutanées et leur migration vers les ganglions lymphatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les lymphocytes T CD8+ réagissent immédiatement contre l'allergène.",
+            "justification": "Les lymphocytes T CD8+ ne réagissent pas immédiatement, car cette phase est asymptomatique et concerne la sensibilisation."
+          },
+          {
+            "correct": false,
+            "proposition": "L'eczéma se manifeste immédiatement après le premier contact avec l'allergène.",
+            "justification": "L'eczéma ne se manifeste qu'après un second contact avec l'allergène chez un individu déjà sensibilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a pas de réaction immunitaire spécifique au cours de la phase de sensibilisation.",
+            "justification": "Il y a bien une réponse immunitaire spécifique, avec la production de lymphocytes T CD8+ spécifiques de l'allergène."
+          },
+          {
+            "correct": false,
+            "proposition": "Les cellules dendritiques migrent vers les ganglions mais ne présentent pas l'allergène.",
+            "justification": "Les cellules dendritiques présentent l'allergène aux lymphocytes T CD8+ naïfs, initiant ainsi la sensibilisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968650055_02",
+      "current_version_epoch_ms": 1755968650055,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quelles sont les principales cellules impliquées dans l'eczéma de contact allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les lymphocytes T CD8+ (LTCD8+).",
+            "justification": "Les lymphocytes T CD8+ sont les cellules principales de la réaction inflammatoire dans l'eczéma de contact allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les lymphocytes B.",
+            "justification": "Les lymphocytes B ne sont pas directement impliqués dans la réaction d'hypersensibilité retardée de type IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mastocytes.",
+            "justification": "Les mastocytes ne jouent pas un rôle central dans l'eczéma de contact allergique, contrairement aux lymphocytes T CD8+."
+          },
+          {
+            "correct": false,
+            "proposition": "Les neutrophiles.",
+            "justification": "Les neutrophiles sont impliqués dans d'autres types de réponses inflammatoires, mais pas dans l'eczéma de contact allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les macrophages.",
+            "justification": "Bien que les macrophages participent à l'inflammation, ce sont principalement les lymphocytes T CD8+ qui médiatisent la réponse allergique dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968650055_03",
+      "current_version_epoch_ms": 1755968650055,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme d'apparition de l'eczéma dans la phase de révélation symptomatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les lymphocytes T CD8+ mémoires réagissent contre les cellules épithéliales recouvertes d'allergène.",
+            "justification": "Les LTCD8+ mémoires spécifiques de l'allergène réagissent contre les cellules épithéliales qui portent l'allergène, déclenchant l'inflammation."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps produits par les lymphocytes B attaquent les cellules épithéliales.",
+            "justification": "L'eczéma de contact allergique est médié par les lymphocytes T CD8+, et non par des anticorps."
+          },
+          {
+            "correct": false,
+            "proposition": "L'eczéma est une réponse immédiate de type I avec production d'IgE.",
+            "justification": "L'eczéma de contact allergique est une réaction de type IV (hypersensibilité retardée), pas de type I."
+          },
+          {
+            "correct": false,
+            "proposition": "L'eczéma est provoqué par un oedème immédiat des vaisseaux sanguins.",
+            "justification": "L'inflammation se développe lentement en réponse à la reconnaissance de l'allergène par les lymphocytes T CD8+, avec un oedème épidermique observé après 24 à 48h."
+          },
+          {
+            "correct": false,
+            "proposition": "L'eczéma est déclenché par des réactions auto-immunes contre les tissus cutanés.",
+            "justification": "Il s'agit d'une réaction allergique médiée par des lymphocytes T, non d'une réaction auto-immune."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968650055_04",
+      "current_version_epoch_ms": 1755968650055,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quelle est la durée minimale nécessaire pour que l'eczéma de contact se manifeste après un deuxième contact avec l'allergène ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "24 à 48 heures.",
+            "justification": "L'eczéma de contact allergique apparaît généralement entre 24 et 48 heures après le deuxième contact avec l'allergène chez un individu sensibilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Immédiatement après le contact.",
+            "justification": "L'eczéma de contact allergique ne se manifeste pas immédiatement, mais après un délai de 24 à 48 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Une semaine après le contact.",
+            "justification": "L'eczéma de contact allergique apparaît dans les 48 heures suivant le contact, pas après une semaine."
+          },
+          {
+            "correct": false,
+            "proposition": "15 jours après le contact.",
+            "justification": "L'apparition de l'eczéma est beaucoup plus rapide, survenant dans un délai de 48 heures après le contact."
+          },
+          {
+            "correct": false,
+            "proposition": "Une heure après le contact.",
+            "justification": "L'eczéma de contact allergique est une réaction retardée, pas immédiate."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968650055_05",
+      "current_version_epoch_ms": 1755968650055,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quel est le rôle des cellules dendritiques dans l'eczéma de contact allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles captent l'allergène et migrent vers les ganglions lymphatiques pour présenter l'allergène aux lymphocytes T.",
+            "justification": "Les cellules dendritiques jouent un rôle crucial dans la phase de sensibilisation, en captant l'allergène et en le présentant aux lymphocytes T CD8+."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles produisent des anticorps contre l'allergène.",
+            "justification": "Les cellules dendritiques ne produisent pas d'anticorps, mais présentent l'allergène aux lymphocytes T pour initier la réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles produisent des cytokines pour activer la production d'IgE.",
+            "justification": "Les cytokines produites par les cellules dendritiques ne sont pas impliquées dans la production d'IgE dans l'eczéma de contact allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles provoquent immédiatement l'inflammation en réponse à l'allergène.",
+            "justification": "Les cellules dendritiques ne provoquent pas l'inflammation immédiatement, mais préparent les lymphocytes T à la réponse inflammatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles forment un infiltrat dans l'épiderme après l'exposition à l'allergène.",
+            "justification": "L'infiltrat de lymphocytes dans l'épiderme est dû aux lymphocytes T CD8+ et non aux cellules dendritiques."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755914782435_01",
+      "current_version_epoch_ms": 1755914782435,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle enzyme virale du VIH est responsable de la conversion de l'ARN viral en ADN double brin ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Transcriptase inverse",
+            "justification": "La transcriptase inverse est l'enzyme du VIH qui rétrotranscrit l'ARN viral en ADN double brin, étape clé du cycle de réplication."
+          },
+          {
+            "correct": false,
+            "proposition": "Intégrase",
+            "justification": "L'intégrase permet l'insertion de l'ADN viral dans le génome cellulaire, mais ne rétrotranscrit pas l'ARN."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéase",
+            "justification": "La protéase clive la polyprotéine virale pour former des protéines virales fonctionnelles, elle ne transforme pas l'ARN en ADN."
+          },
+          {
+            "correct": false,
+            "proposition": "Reverse transcriptase humaine",
+            "justification": "Il n'existe pas de reverse transcriptase humaine intervenant dans le cycle du VIH ; seule la transcriptase inverse virale effectue cette fonction."
+          },
+          {
+            "correct": false,
+            "proposition": "ARN polymérase",
+            "justification": "L'ARN polymérase transcrit l'ADN en ARN messager, ce n'est pas l'enzyme qui convertit l'ARN viral en ADN."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914782435_02",
+      "current_version_epoch_ms": 1755914782435,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel critère définit cliniquement le SIDA chez un patient infecté par le VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue d'infections opportunistes",
+            "justification": "Le SIDA est défini cliniquement par l'apparition d'infections opportunistes chez un patient VIH positif, indépendamment du nombre absolu de LT CD4."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de LT CD4 inférieur à 200/mm3",
+            "justification": "Un taux de LT CD4 <200/mm3 est un facteur de risque pour SIDA mais ne suffit pas pour le diagnostiquer en l'absence d'infections opportunistes."
+          },
+          {
+            "correct": false,
+            "proposition": "Charge virale détectable",
+            "justification": "La charge virale reflète l'activité virale mais n'est pas un critère clinique de SIDA."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre persistante",
+            "justification": "La fièvre peut accompagner l'infection mais n'est pas spécifique ni suffisante pour définir le SIDA."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'anticorps anti-VIH",
+            "justification": "La séropositivité indique une infection mais ne permet pas de diagnostiquer le SIDA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914782435_03",
+      "current_version_epoch_ms": 1755914782435,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle étape du cycle viral correspond à l'intégration de l'ADN viral dans le génome cellulaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Action de l'intégrase",
+            "justification": "L'intégrase est l'enzyme virale qui insère l'ADN viral double brin dans le génome du lymphocyte T CD4, assurant la persistance du virus."
+          },
+          {
+            "correct": false,
+            "proposition": "Décapsidation",
+            "justification": "La décapsidation correspond à la libération de l'ARN viral dans la cellule, avant l'intégration."
+          },
+          {
+            "correct": false,
+            "proposition": "Fusion membranaire",
+            "justification": "La fusion des membranes virale et cellulaire précède la décapsidation et l'intégration, elle n'insère pas l'ADN viral."
+          },
+          {
+            "correct": false,
+            "proposition": "Clivage de la polyprotéine",
+            "justification": "Le clivage de la polyprotéine par la protéase est nécessaire pour assembler de nouvelles particules virales, mais n'intègre pas l'ADN viral."
+          },
+          {
+            "correct": false,
+            "proposition": "Transcription de l'ARN messager viral",
+            "justification": "La transcription de l'ARN messager se produit après l'intégration de l'ADN viral, ce n'est pas l'étape d'intégration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914782435_04",
+      "current_version_epoch_ms": 1755914782435,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle cellule est la principale cible du VIH et permet la pérennité du virus dans l'organisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lymphocyte T CD4",
+            "justification": "Le lymphocyte T CD4 est la cellule cible principale du VIH ; sa longue demi-vie et sa capacité à se diviser permettent au virus de se maintenir dans l'organisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Lymphocyte B",
+            "justification": "Les lymphocytes B produisent des anticorps mais ne constituent pas le réservoir principal du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Macrophage",
+            "justification": "Les macrophages peuvent être infectés mais le réservoir principal et la réplication active se produisent dans les LT CD4."
+          },
+          {
+            "correct": false,
+            "proposition": "Cellule NK",
+            "justification": "Les cellules NK participent à l'immunité innée mais ne sont pas la cible principale du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Cellule dendritique",
+            "justification": "Les cellules dendritiques peuvent transporter le virus mais ne constituent pas le réservoir principal du VIH."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914782435_05",
+      "current_version_epoch_ms": 1755914782435,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle glycoprotéine virale est impliquée dans la reconnaissance du lymphocyte T CD4 et du co-récepteur CCR5 ou CXCR4 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycoprotéine de surface gp120",
+            "justification": "La gp120 est la glycoprotéine du VIH qui se lie au CD4 et au co-récepteur CCR5 ou CXCR4, initiant l'attachement viral."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycoprotéine gp41",
+            "justification": "La gp41 intervient dans la fusion membranaire mais ne reconnaît pas directement le CD4 et les co-récepteurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéase",
+            "justification": "La protéase clive la polyprotéine virale, elle n'est pas impliquée dans la reconnaissance cellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Transcriptase inverse",
+            "justification": "La transcriptase inverse rétrotranscrit l'ARN viral en ADN, elle n'est pas une glycoprotéine de surface."
+          },
+          {
+            "correct": false,
+            "proposition": "Integrase",
+            "justification": "L'intégrase insère l'ADN viral dans le génome cellulaire, elle ne participe pas à la reconnaissance du LT CD4."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les parasitoses transmises par la consommation d'eau OIC-179-01-B
+
+
+
+Amoebose
+L'amoebose est une protozoonose à réservoir strictement humain, cosmopolite, mais prédominant dans les zones à hygiène pauvre. La transmission se fait par ingestion d'eau ou d'aliments contaminés par des kystes, très résistants dans le milieu extérieur. Une fois ingérés, les kystes donnent lieu à une amoebose infestation (formes végétatives) et/ou une amoebose maladie à tropisme intestinal +/- hépatique, par invasion des tissus (par les formes végétatives d'Entamoeba histolytica histolytica).
+Cryptosporidiose
+La cryptosporidiose est une protozoonose, de transmission féco-orale ou manuportée, également cosmopolite. Les signes cliniques sont une diarrhée aiguë cholériforme ou chronique, et une malabsorption chez les patients immunodéprimés.
+Giardiose
+La giardiose est une protozoonose cosmopolite, à réservoir humain strict. La transmission est féco-orale ou lors de relations sexuelles entre hommes. La transmission se fait par ingestion de kystes, qui se transforment dans la lumière intestinale en formes végétatives. La clinique est souvent asymptomatique, chez l'enfant une diarrhée chronique peut être présente, source d'un syndrome de malabsorption ou une malnutrition dans les pays à faibles ressources.
+Toxoplasmose
+
+La toxoplasmose est une zoonose, cosmopolite. L'agent responsable est un protozoaire dont l'hôte définitif est le chat (seul hôte excrétant des oocystes), l'humain ainsi que les autres mammifères étant des hôtes intermédiaires. L'humain ingère les oocytes via des aliments ou de l'eau contaminés par les excréments des chats, il peut aussi se contaminer par ingestion des kystes présents dans la viande d'autres hôtes intermédiaires infestés par des kystes. La clinique de la primo-infection est symptomatique dans 20% des cas seulement, et est aspécifique (fièvre, polyadénopathies, odynophagie…). La gravité est liée à une immunodépression (primo-infection ou réactivation) ou dans les formes congénitales. Connaître les parasitoses transmises par la consommation d'eau OIC-179-01-BAmoeboseL'amoebose est une protozoonose à réservoir strictement humain, cosmopolite, mais prédominant dans les zones à hygiène pauvre. La transmission se fait par ingestion d'eau ou d'aliments contaminés par des kystes, très résistants dans le milieu extérieur. Une fois ingérés, les kystes donnent lieu à une amoebose infestation (formes végétatives) et/ou une amoebose maladie à tropisme intestinal +/- hépatique, par invasion des tissus (par les formes végétatives d'Entamoeba histolytica histolytica).CryptosporidioseLa cryptosporidiose est une protozoonose, de transmission féco-orale ou manuportée, également cosmopolite. Les signes cliniques sont une diarrhée aiguë cholériforme ou chronique, et une malabsorption chez les patients immunodéprimés.GiardioseLa giardiose est une protozoonose cosmopolite, à réservoir humain strict. La transmission est féco-orale ou lors de relations sexuelles entre hommes. La transmission se fait par ingestion de kystes, qui se transforment dans la lumière intestinale en formes végétatives. La clinique est souvent asymptomatique, chez l'enfant une diarrhée chronique peut être présente, source d'un syndrome de malabsorption ou une malnutrition dans les pays à faibles ressources.ToxoplasmoseLa toxoplasmose est une zoonose, cosmopolite. L'agent responsable est un protozoaire dont l'hôte définitif est le chat (seul hôte excrétant des oocystes), l'humain ainsi que les autres mammifères étant des hôtes intermédiaires. L'humain ingère les oocytes via des aliments ou de l'eau contaminés par les excréments des chats, il peut aussi se contaminer par ingestion des kystes présents dans la viande d'autres hôtes intermédiaires infestés par des kystes. La clinique de la primo-infection est symptomatique dans 20% des cas seulement, et est aspécifique (fièvre, polyadénopathies, odynophagie…). La gravité est liée à une immunodépression (primo-infection ou réactivation) ou dans les formes congénitales.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755904219581_01",
+      "current_version_epoch_ms": 1755904219581,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les affirmations concernant les phases cliniques de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La phase d'incubation dure 24 à 72 heures.",
+            "justification": "La durée de l'incubation est brève, comprise entre 24 et 72 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "La phase d'invasion débute de façon brutale.",
+            "justification": "La phase d'invasion est décrite comme brutale avec malaise, fièvre et frissons intenses."
+          },
+          {
+            "correct": true,
+            "proposition": "La phase d'état associe des signes généraux intenses à une pauvreté des signes physiques.",
+            "justification": "Il existe un contraste entre des signes généraux intenses et la pauvreté de l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La phase d'invasion se caractérise par une éruption cutanée.",
+            "justification": "Les signes de l'invasion sont malaise, fièvre/frissons, céphalées et myalgies ; l'éruption n'est pas mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "La phase d'incubation dépasse habituellement 7 jours.",
+            "justification": "L'incubation est brève (24–72 h), et non supérieure à une semaine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904219581_02",
+      "current_version_epoch_ms": 1755904219581,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les motifs de consultation évocateurs d'une grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue brutale en moins de 12 heures.",
+            "justification": "La survenue brutale < 12 heures est un motif de consultation rapporté."
+          },
+          {
+            "correct": true,
+            "proposition": "Asthénie.",
+            "justification": "L'asthénie fait partie des motifs de consultation listés."
+          },
+          {
+            "correct": true,
+            "proposition": "Contexte hivernal et/ou d'épidémie grippale.",
+            "justification": "Le contexte hivernal/épidémique est un élément évocateur mentionné."
+          },
+          {
+            "correct": true,
+            "proposition": "Notion de grippe dans l'entourage.",
+            "justification": "La présence de cas dans l'entourage est un motif à retenir."
+          },
+          {
+            "correct": false,
+            "proposition": "Éruption prurigineuse diffuse inaugurale.",
+            "justification": "Non citée parmi les motifs de consultation (fièvre/frissons, céphalées, toux, maux de gorge, essoufflement, arthralgies/myalgies, contexte/entourage)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904219581_03",
+      "current_version_epoch_ms": 1755904219581,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître les éléments de l'atteinte respiratoire et de l'examen physique au cours de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toux sèche et douloureuse.",
+            "justification": "La toux est décrite comme douloureuse et sèche."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs pharyngées, dysphagie, dysphonie.",
+            "justification": "Ces signes appartiennent à l'atteinte respiratoire décrite."
+          },
+          {
+            "correct": true,
+            "proposition": "Douleurs rétrosternales.",
+            "justification": "Les douleurs rétrosternales sont rapportées dans l'atteinte respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Râles sous-crépitants et énanthème pharyngé possibles à l'examen.",
+            "justification": "L'examen est pauvre mais peut retrouver des râles sous-crépitants et un énanthème pharyngé."
+          },
+          {
+            "correct": false,
+            "proposition": "Expectoration purulente d'emblée constante.",
+            "justification": "Non mentionnée ; l'atteinte est surtout fonctionnelle avec toux sèche et examen pauvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904219581_04",
+      "current_version_epoch_ms": 1755904219581,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "À propos de l'évolution naturelle d'une grippe non compliquée, cocher la/les affirmation(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'évolution est le plus souvent spontanément favorable.",
+            "justification": "L'évolution naturelle est décrite comme spontanée et favorable."
+          },
+          {
+            "correct": true,
+            "proposition": "Le malaise général dure 3 à 5 jours.",
+            "justification": "La durée du malaise général est indiquée entre 3 et 5 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "La courbe thermique peut suivre un « V grippal » avec remontée au 4e–5e jour.",
+            "justification": "Après 2–3 jours de baisse, la fièvre peut remonter au 4e–5e jour (courbe en V)."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre s'interrompt définitivement au bout de 48 heures sans nouvelle ascension.",
+            "justification": "Une remontée fébrile au 4e–5e jour est possible."
+          },
+          {
+            "correct": true,
+            "proposition": "Une fièvre au-delà de 6 jours doit faire évoquer une complication, souvent une surinfection bactérienne.",
+            "justification": "La persistance fébrile > 6 jours oriente vers une complication, la surinfection bactérienne étant la plus probable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904219581_05",
+      "current_version_epoch_ms": 1755904219581,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les grandes catégories de complications de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Complications respiratoires hautes.",
+            "justification": "La classification distingue des complications respiratoires hautes."
+          },
+          {
+            "correct": true,
+            "proposition": "Complications respiratoires basses.",
+            "justification": "La classification mentionne aussi des complications respiratoires basses."
+          },
+          {
+            "correct": true,
+            "proposition": "Complications extrarespiratoires.",
+            "justification": "Des complications extrarespiratoires sont indiquées."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement des complications respiratoires.",
+            "justification": "Il existe également des complications extrarespiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune distinction n'est faite entre voies respiratoires hautes et basses.",
+            "justification": "La distinction hautes/basses est explicitement précisée."
+          }
+        ]
+      }
+    }
+  ]
+}

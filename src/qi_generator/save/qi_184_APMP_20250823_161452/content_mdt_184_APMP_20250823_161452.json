@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "APMP",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755958699094_01",
+      "current_version_epoch_ms": 1755958699094,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique de l'ITT (incapacité totale de travail) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est fixée par tout médecin, qu'il soit légiste ou non.",
+            "justification": "L'ITT est une notion pénale et est fixée par tout médecin lors d'un accident de la voie publique ou d'une agression."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est fixée uniquement par un médecin conseil de l'organisme de protection sociale.",
+            "justification": "L'ITT est une notion pénale, elle n'est pas fixée par un médecin conseil de l'organisme de protection sociale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle prend la forme d'un pourcentage de séquelles après consolidation de la pathologie.",
+            "justification": "L'ITT ne prend pas en compte les séquelles après consolidation, elle se fixe sous forme de durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle donne droit à une indemnisation sous forme de rente à vie.",
+            "justification": "L'ITT n'est pas liée à une indemnisation sous forme de rente à vie, mais elle conditionne les conséquences pénales."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est révisable en cas d'aggravation de la pathologie.",
+            "justification": "L'ITT n'est pas révisable, elle est fixée à un moment donné, en fonction de l'accident ou de l'agression."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958699094_02",
+      "current_version_epoch_ms": 1755958699094,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Comment est fixée l'IP (incapacité permanente) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est fixée par un médecin conseil de l'organisme de protection sociale à partir d'un barème basé sur les séquelles.",
+            "justification": "L'IP est fixée par un médecin conseil de l'organisme de protection sociale en fonction des séquelles après consolidation de la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est fixée par le médecin traitant du patient.",
+            "justification": "L'IP n'est pas fixée par le médecin traitant, mais par un médecin conseil de l'organisme de protection sociale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est fixée uniquement après l'aggravation de la pathologie.",
+            "justification": "L'IP est fixée après la consolidation de la pathologie, pas nécessairement après une aggravation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle donne droit à une indemnisation sous forme de capital, indépendamment du taux d'IP.",
+            "justification": "L'indemnisation sous forme de capital intervient si le taux d'IP est inférieur à 10%, sinon c'est une rente à vie."
+          },
+          {
+            "correct": true,
+            "proposition": "L'IP peut être révisée en cas d'aggravation ou de rechute de la pathologie.",
+            "justification": "L'IP est révisable si la pathologie s'aggrave ou si une rechute survient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958699094_03",
+      "current_version_epoch_ms": 1755958699094,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelles sont les conséquences pénales liées à l'ITT ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ITT conditionne les conséquences pénales pour l'auteur de l'accident ou des coups et blessures.",
+            "justification": "L'ITT est une notion pénale et détermine les conséquences légales pour l'auteur de l'incident."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT permet une indemnisation sous forme de rente ou de capital.",
+            "justification": "L'ITT n'est pas liée à une indemnisation, mais aux conséquences pénales de l'incident."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT est fixée uniquement par un médecin légiste.",
+            "justification": "L'ITT peut être fixée par tout médecin, qu'il soit légiste ou non."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT permet de fixer un taux de séquelles médicales.",
+            "justification": "L'ITT n'évalue pas les séquelles médicales, elle se fixe en fonction de la durée d'incapacité de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT est révisable en fonction de l'évolution de l'état de santé du patient.",
+            "justification": "L'ITT n'est pas révisable, elle est fixée en fonction de la durée de l'incapacité de travail à un moment donné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958699094_04",
+      "current_version_epoch_ms": 1755958699094,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre l'ITT et l'IP ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ITT est une notion pénale, tandis que l'IP est une notion sociale fixée par un médecin conseil.",
+            "justification": "L'ITT est liée aux conséquences pénales d'un incident, tandis que l'IP est liée à la protection sociale et fixée par un médecin conseil."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT est fixée après la consolidation de la pathologie, alors que l'IP est fixée immédiatement après un accident.",
+            "justification": "L'ITT est fixée immédiatement après un incident, alors que l'IP est fixée après consolidation de la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT donne droit à une indemnisation sous forme de rente à vie, tandis que l'IP ne le permet pas.",
+            "justification": "C'est l'IP qui donne droit à une rente à vie si le taux est supérieur ou égal à 10%, et non l'ITT."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT est révisable en cas de rechute, alors que l'IP ne l'est pas.",
+            "justification": "L'ITT n'est pas révisable, alors que l'IP peut l'être en cas d'aggravation ou de rechute."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ITT est une incapacité permanente, tandis que l'IP est temporaire.",
+            "justification": "L'ITT est une incapacité temporaire, tandis que l'IP est permanente une fois fixée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958699094_05",
+      "current_version_epoch_ms": 1755958699094,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Dans quel cas l'IP peut-elle donner droit à une rente à vie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le taux d'IP est supérieur ou égal à 10%.",
+            "justification": "L'IP permet une indemnisation sous forme de rente à vie si le taux est supérieur ou égal à 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'incapacité concerne un accident de travail.",
+            "justification": "L'indemnisation sous forme de rente à vie est conditionnée par le taux d'IP, pas par la nature de l'incident."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'IP est fixée après la consolidation de la pathologie.",
+            "justification": "L'indemnisation sous forme de rente à vie dépend du taux d'IP, pas du moment où elle est fixée."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'IP est révisée en cas d'aggravation de la pathologie.",
+            "justification": "La révision de l'IP ne conditionne pas l'indemnisation sous forme de rente à vie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'IP est fixée par le médecin traitant du patient.",
+            "justification": "L'IP est fixée par un médecin conseil de l'organisme de protection sociale, pas par le médecin traitant."
+          }
+        ]
+      }
+    }
+  ]
+}

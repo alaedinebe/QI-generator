@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "APMP",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755957872413_01",
+      "current_version_epoch_ms": 1755957872413,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions nécessaires pour qu'un accident soit considéré comme un accident du travail (AT) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il doit y avoir un fait accidentel, une lésion et un lien entre le fait accidentel, la lésion, et le travail.",
+            "justification": "Cette définition est donnée par le Code du Travail, qui précise qu'un accident du travail implique un fait accidentel, une lésion et un lien avec le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Il suffit qu'un accident survienne pendant les horaires de travail.",
+            "justification": "Bien que l'accident se produise pendant le travail, il est également nécessaire de démontrer le lien entre le fait accidentel, la lésion, et le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Il doit y avoir une blessure uniquement, sans nécessiter de lien avec l'activité professionnelle.",
+            "justification": "La blessure seule ne suffit pas, le lien avec le travail doit être prouvé."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident peut être considéré comme un AT sans preuve de lésion, si l'accident se produit sur le lieu de travail.",
+            "justification": "Il faut une lésion pour que l'accident soit qualifié d'accident du travail, même s'il se produit sur le lieu de travail."
+          },
+          {
+            "correct": true,
+            "proposition": "L'employeur doit démontrer que l'activité réalisée au moment de l'accident était totalement étrangère au travail.",
+            "justification": "Dans le cadre de la présomption d'imputabilité, l'employeur a la charge de prouver que l'accident n'a pas de lien avec le travail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957872413_02",
+      "current_version_epoch_ms": 1755957872413,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Que faut-il démontrer pour qu'un accident survenu pendant le temps de travail et sur le lieu de travail ne soit pas un accident du travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il faut prouver que la lésion est totalement étrangère au travail.",
+            "justification": "Si l'accident survient sur le lieu de travail et pendant le temps de travail, la présomption d'imputabilité s'applique, et il revient à la CPAM de prouver l'absence de lien avec le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Il suffit que la victime ait commis une négligence.",
+            "justification": "La négligence de la victime ne suffit pas à prouver l'absence de lien avec le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'employeur doit prouver que l'accident a eu lieu en dehors des heures de travail.",
+            "justification": "L'accident doit se produire pendant le temps de travail pour être présumé être un accident du travail, et l'employeur doit prouver le contraire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident peut être exclu si la victime n'était pas en mission à ce moment-là.",
+            "justification": "Même en dehors d'une mission, si l'accident survient sur le lieu de travail pendant le temps de travail, il reste un accident du travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de témoins suffit à invalider la présomption d'imputabilité.",
+            "justification": "L'absence de témoins n'invalide pas la présomption d'imputabilité si l'accident est survenu pendant le travail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957872413_03",
+      "current_version_epoch_ms": 1755957872413,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Dans quel cas un accident survenu pendant la pause repas peut-il être considéré comme un accident du travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la pause repas se déroule dans les locaux de l'entreprise affectés à cet effet.",
+            "justification": "La présomption d'imputabilité s'applique aux accidents survenus pendant la pause repas dans des locaux de l'entreprise destinés à cet usage."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'accident survient dans un restaurant extérieur à l'entreprise.",
+            "justification": "Un accident survenu en dehors des locaux de l'entreprise n'est pas présumé être un accident du travail, même pendant la pause repas."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident ne peut jamais être un accident du travail pendant la pause repas.",
+            "justification": "Les accidents survenant pendant la pause repas peuvent être qualifiés d'accidents du travail si la pause se déroule dans un lieu affecté à cet usage."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la pause est prise à l'extérieur de l'entreprise, l'accident n'est pas pris en compte.",
+            "justification": "Un accident survenu en dehors de l'entreprise pendant la pause repas ne relève pas de la présomption d'imputabilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il survient dans un lieu de travail lié à l'activité de l'entreprise, comme un parking ou un vestiaire.",
+            "justification": "L'accident peut être présumé être un accident du travail s'il survient dans des lieux liés à l'entreprise, même pendant la pause repas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957872413_04",
+      "current_version_epoch_ms": 1755957872413,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel est le rôle du médecin dans la qualification d'un accident du travail ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le médecin doit décider si l'accident est un accident du travail ou non.",
+            "justification": "Le rôle du médecin est limité à la rédaction d'un certificat médical descriptif des lésions, sans qualifier l'accident comme étant un accident du travail."
+          },
+          {
+            "correct": true,
+            "proposition": "Le médecin doit fournir un certificat médical descriptif des lésions observées.",
+            "justification": "Le médecin doit décrire les lésions mais ne doit pas prendre position sur la qualification de l'accident en tant qu'accident du travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin doit collecter les témoignages des témoins de l'accident.",
+            "justification": "La collecte des témoignages n'est pas dans le rôle du médecin pour qualifier l'accident."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin doit prouver que l'accident est en lien direct avec le travail.",
+            "justification": "La preuve du lien entre l'accident et le travail revient à l'employeur ou à la CPAM, et non au médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin doit autoriser le salarié à reprendre le travail après un accident.",
+            "justification": "Le médecin ne décide pas de la reprise du travail, mais peut proposer des arrêts de travail selon l'état de santé de la victime."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957872413_05",
+      "current_version_epoch_ms": 1755957872413,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel principe s'applique lorsqu'un accident survient sur le lieu de travail et pendant le temps de travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présomption d'imputabilité est établie, et il revient à l'employeur ou à la CPAM de prouver l'absence de lien avec le travail.",
+            "justification": "Le principe de présomption d'imputabilité signifie que l'accident est présumé être un accident du travail si ces conditions sont réunies."
+          },
+          {
+            "correct": false,
+            "proposition": "Le salarié doit prouver que l'accident est lié au travail.",
+            "justification": "Dans ce cas, la présomption d'imputabilité fait que le salarié n'a pas à prouver le lien entre l'accident et le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "La présomption d'imputabilité est rejetée, même si l'accident a lieu pendant les heures de travail.",
+            "justification": "La présomption d'imputabilité s'applique bien si l'accident survient sur le lieu et pendant le temps de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'employeur n'est pas responsable du lien entre l'accident et le travail.",
+            "justification": "L'employeur doit prouver que l'accident n'a pas de lien avec le travail, ce qui est la base de la présomption d'imputabilité."
+          },
+          {
+            "correct": true,
+            "proposition": "Il n'est pas nécessaire de prouver le lien entre l'accident et le travail, sauf si l'employeur ou la CPAM contestent.",
+            "justification": "La présomption d'imputabilité s'applique tant que l'accident se produit sur le lieu de travail et pendant le temps de travail, sauf contestation."
+          }
+        ]
+      }
+    }
+  ]
+}

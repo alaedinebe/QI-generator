@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "allergie",
+    "subject": "immuno"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755963049399_01",
+      "current_version_epoch_ms": 1755963049399,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est l'âge recommandé pour prescrire un test 'fx5' afin de dépister les allergies alimentaires chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Avant 1 an",
+            "justification": "Le test 'fx5' est prescrit avant 1 an pour dépister les allergies alimentaires courantes telles que le lait, l'œuf, le poisson, l'arachide, le soja et le blé."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 1 an",
+            "justification": "Le test 'fx5' est prescrit spécifiquement avant 1 an. Après 1 an, un test plus étendu ('Trophatop® enfant') est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 3 ans",
+            "justification": "Ce test n'est pas recommandé spécifiquement pour les enfants de 3 ans. À cet âge, un test plus large est envisagé."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 6 ans",
+            "justification": "Le test 'fx5' est utilisé avant 1 an, et à partir de 6 ans, un test spécifique comme le 'Trophatop® enfant' est utilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "À partir de 10 ans",
+            "justification": "Le test 'fx5' n'est pas utilisé à partir de 10 ans. Un test plus spécifique et plus large est envisagé pour les enfants plus âgés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755963049399_02",
+      "current_version_epoch_ms": 1755963049399,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Qu'est-ce qu'un test de dépistage IgE multiallergénique positif sans réaction clinique chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Cela signifie que l'enfant a une allergie avérée.",
+            "justification": "Un test positif ne signifie pas nécessairement une allergie si l'exposition à l'allergène ne provoque aucune réaction clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Cela signifie une sensibilisation à l'allergène, mais pas une allergie.",
+            "justification": "Un test IgE positif montre une sensibilisation à un allergène mais n'indique pas une allergie tant qu'il n'y a pas de réaction clinique à l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie que l'éviction de l'allergène est nécessaire.",
+            "justification": "L'éviction n'est pas nécessaire si l'enfant tolère l'allergène, car l'éviction peut augmenter le risque de développer une allergie à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie qu'il faut immédiatement consulter un allergologue.",
+            "justification": "Une consultation allergologique n'est pas nécessaire immédiatement si l'enfant tolère l'aliment testé."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie qu'une allergie alimentaire est peu probable.",
+            "justification": "Un test positif sans symptômes cliniques indique une sensibilisation et non l'absence d'une allergie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755963049399_03",
+      "current_version_epoch_ms": 1755963049399,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel test de dépistage IgE multiallergénique est recommandé pour un enfant après 1 an présentant des symptômes d'allergie alimentaire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Test 'fx5'",
+            "justification": "Le test 'fx5' est utilisé avant 1 an, pas après. Après 1 an, un test plus étendu est recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "'Trophatop® enfant'",
+            "justification": "Le test 'Trophatop® enfant' est recommandé après 1 an et inclut des allergènes supplémentaires pour mieux identifier les allergies alimentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Test 'fx8'",
+            "justification": "Le test 'fx8' n'est pas mentionné comme un test recommandé dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Test IgE total",
+            "justification": "Le test IgE total ne permet pas de dépister de manière spécifique les allergies alimentaires, contrairement au 'Trophatop® enfant'."
+          },
+          {
+            "correct": false,
+            "proposition": "Test cutané",
+            "justification": "Bien que les tests cutanés puissent être utilisés pour certaines allergies, ce n'est pas l'option de dépistage principale après 1 an dans ce cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755963049399_04",
+      "current_version_epoch_ms": 1755963049399,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est le taux de dépistage des allergies alimentaires par le test 'Trophatop® enfant' avant 6 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Plus de 90%",
+            "justification": "Le test 'Trophatop® enfant' permet de dépister plus de 90% des allergies alimentaires avant 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus de 80%",
+            "justification": "Le test dépiste plus de 90% des allergies avant 6 ans, et non 80%."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus de 70%",
+            "justification": "Le taux de dépistage avant 6 ans est supérieur à 90%, et non à 70%."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 50%",
+            "justification": "Le taux de dépistage du test est bien plus élevé que 50%, avec plus de 90% avant 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus de 95%",
+            "justification": "Le taux de dépistage est supérieur à 90% avant 6 ans, mais pas à 95%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755963049399_05",
+      "current_version_epoch_ms": 1755963049399,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel allergène n'est PAS inclus dans le test 'fx5' prescrit avant 1 an ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Noisette",
+            "justification": "Le test 'fx5' inclut les allergènes lait, œuf, poisson, arachide, soja et blé, mais pas la noisette."
+          },
+          {
+            "correct": false,
+            "proposition": "Arachide",
+            "justification": "L'arachide est inclus dans le test 'fx5', qui dépiste les principales allergies alimentaires avant 1 an."
+          },
+          {
+            "correct": false,
+            "proposition": "Lait",
+            "justification": "Le lait est inclus dans le test 'fx5', un des principaux allergènes alimentaires testés avant 1 an."
+          },
+          {
+            "correct": false,
+            "proposition": "Blé",
+            "justification": "Le blé fait partie du test 'fx5', utilisé avant 1 an pour dépister les allergies alimentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Œuf",
+            "justification": "L'œuf est également inclus dans le test 'fx5', destiné à détecter les allergies alimentaires courantes."
+          }
+        ]
+      }
+    }
+  ]
+}

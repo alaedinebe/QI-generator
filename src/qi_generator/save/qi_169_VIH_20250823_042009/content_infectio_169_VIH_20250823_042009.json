@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755915815766_01",
+      "current_version_epoch_ms": 1755915815766,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient immunodéprimé sans prophylaxie par cotrimoxazole, quelle est la première hypothèse à envisager devant une dyspnée fébrile subaiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumocystose pulmonaire",
+            "justification": "Une dyspnée fébrile subaiguë chez un patient immunodéprimé non protégé par cotrimoxazole doit faire évoquer une pneumocystose pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie pulmonaire",
+            "justification": "L'embolie pulmonaire n'est pas directement évoquée par l'association dyspnée fébrile subaiguë et immunodépression sans autres signes spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie bactérienne communautaire",
+            "justification": "La pneumonie bactérienne peut survenir, mais le contexte de dyspnée subaiguë fébrile chez un immunodéprimé non protégé est plus spécifique de la pneumocystose."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque aiguë",
+            "justification": "L'insuffisance cardiaque aiguë n'est pas la première hypothèse devant une dyspnée fébrile subaiguë chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Tuberculose pulmonaire active",
+            "justification": "La tuberculose peut être présente, mais l'apparition subaiguë de dyspnée fébrile chez un patient immunodéprimé sans prophylaxie par cotrimoxazole oriente davantage vers la pneumocystose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915815766_02",
+      "current_version_epoch_ms": 1755915815766,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est le signe radiologique typique de la pneumocystose pulmonaire au scanner thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacités en verre dépoli bilatérales diffuses",
+            "justification": "Le scanner thoracique montre typiquement des opacités en verre dépoli bilatérales diffuses, parfois épargnant la périphérie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Condensations lobaires segmentaires",
+            "justification": "Les condensations lobaires segmentaires ne sont pas caractéristiques de la pneumocystose, qui montre un aspect en verre dépoli diffus."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural massif",
+            "justification": "La pneumocystose ne se manifeste pas par un épanchement pleural massif dans la majorité des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Nodule solitaire central",
+            "justification": "Les nodules isolés sont rares et non caractéristiques ; l'image typique est diffuse et bilatérale."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence possible de kystes ou de nodules associés",
+            "justification": "Parfois, le scanner peut montrer des kystes ou des nodules en plus des opacités en verre dépoli."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915815766_03",
+      "current_version_epoch_ms": 1755915815766,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle évolution radiographique peut-on observer sur la radiographie thoracique d'une pneumocystose pulmonaire débutante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographie initialement quasi normale",
+            "justification": "Au tout début des symptômes, la radiographie peut être quasi normale avant l'apparition d'un syndrome interstitiel diffus bilatéral."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité lobaire unique dès le départ",
+            "justification": "La pneumocystose débutante ne se présente pas par une opacité lobaire unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural bilatéral immédiat",
+            "justification": "L'épanchement pleural n'est pas un signe précoce de pneumocystose."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome interstitiel diffus bilatéral secondaire",
+            "justification": "Après la phase initiale, la radiographie montre un syndrome interstitiel diffus bilatéral caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcifications pulmonaires précoces",
+            "justification": "Les calcifications ne sont pas observées dans la pneumocystose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915815766_04",
+      "current_version_epoch_ms": 1755915815766,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les caractéristiques suivantes, lesquelles peuvent être observées au scanner thoracique dans la pneumocystose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacités en verre dépoli bilatérales",
+            "justification": "Le scanner montre typiquement des opacités en verre dépoli bilatérales diffuses."
+          },
+          {
+            "correct": true,
+            "proposition": "Épargnement parfois de la périphérie pulmonaire",
+            "justification": "Certaines zones périphériques peuvent être épargnées par les opacités en verre dépoli."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence possible de kystes ou nodules",
+            "justification": "Des kystes ou nodules peuvent être présents en association avec les opacités."
+          },
+          {
+            "correct": false,
+            "proposition": "Consolidation lobaire unique prédominante",
+            "justification": "La consolidation lobaire unique n'est pas caractéristique de la pneumocystose."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement pleural massif",
+            "justification": "L'épanchement pleural massif n'est pas observé dans la pneumocystose typique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755915815766_05",
+      "current_version_epoch_ms": 1755915815766,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle est l'utilité clinique de la radiographie et du scanner dans la pneumocystose pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier le syndrome interstitiel diffus bilatéral",
+            "justification": "La radiographie et le scanner permettent de reconnaître un syndrome interstitiel diffus bilatéral caractéristique."
+          },
+          {
+            "correct": true,
+            "proposition": "Détecter des opacités en verre dépoli",
+            "justification": "Le scanner thoracique est particulièrement sensible pour visualiser les opacités en verre dépoli."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer une infection bactérienne spécifique",
+            "justification": "Ces examens ne permettent pas de confirmer une infection bactérienne spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction ventilatoire",
+            "justification": "La fonction ventilatoire ne peut pas être évaluée par l'imagerie thoracique."
+          },
+          {
+            "correct": true,
+            "proposition": "Surveiller l'évolution et détecter kystes ou nodules associés",
+            "justification": "L'imagerie permet également de suivre l'évolution et d'identifier la présence éventuelle de kystes ou nodules."
+          }
+        ]
+      }
+    }
+  ]
+}

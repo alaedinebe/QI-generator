@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755913126908_01",
+      "current_version_epoch_ms": 1755913126908,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est le risque relatif de transmission sexuelle du VIH selon le type de rapport ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport anal réceptif présente le risque le plus élevé de transmission",
+            "justification": "Le risque de transmission sexuelle décroît selon le type de rapport : anal réceptif > anal insertif > vaginal réceptif > vaginal insertif > fellation réceptive."
+          },
+          {
+            "correct": false,
+            "proposition": "La fellation réceptive présente le risque le plus élevé",
+            "justification": "La fellation réceptive a le risque le plus faible de transmission sexuelle du VIH par rapport aux autres types de rapports."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les rapports ont un risque équivalent",
+            "justification": "Le risque varie selon le type de rapport et n'est pas équivalent pour tous."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport vaginal insertif présente le risque le plus élevé",
+            "justification": "Le rapport vaginal insertif a un risque plus faible que le rapport anal réceptif et anal insertif."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seul rapport protégé suffit à transmettre l'infection",
+            "justification": "Un seul rapport non protégé peut suffire à transmettre le VIH, pas un rapport protégé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913126908_02",
+      "current_version_epoch_ms": 1755913126908,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel principe de prévention du VIH est appliqué lorsqu'une personne séropositive sous traitement efficace avec charge virale indétectable ne transmet pas le virus à ses partenaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TasP (Treatment as Prevention)",
+            "justification": "Le TasP repose sur le fait qu'une charge virale indétectable depuis au moins 6 mois empêche la transmission sexuelle du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "PrEP (prophylaxie pré-exposition)",
+            "justification": "La PrEP concerne les personnes séronégatives exposées au risque de VIH, pas les personnes séropositives."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesures de précaution universelles",
+            "justification": "Les mesures universelles concernent le risque professionnel d'exposition au sang et non la prévention sexuelle chez une personne séropositive traitée."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement post-exposition",
+            "justification": "Le traitement post-exposition s'applique après une exposition potentielle, pas dans le cadre du TasP."
+          },
+          {
+            "correct": false,
+            "proposition": "Allaitement maternel proscrit",
+            "justification": "Cette mesure concerne la prévention de la transmission mère-enfant, pas la prévention sexuelle entre adultes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913126908_03",
+      "current_version_epoch_ms": 1755913126908,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les situations suivantes, lesquelles justifient la prescription d'une sérologie VIH ciblée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Suspicion ou diagnostic d'IST ou d'infection par le VHC",
+            "justification": "Le dépistage ciblé inclut la suspicion ou le diagnostic d'IST ou d'infection par le VHC."
+          },
+          {
+            "correct": true,
+            "proposition": "Projet de grossesse ou grossesse en cours",
+            "justification": "La sérologie VIH est indiquée pour toute femme ayant un projet de grossesse ou enceinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Population générale sans facteur de risque avant 15 ans",
+            "justification": "Le dépistage de la population générale est recommandé entre 15 et 70 ans au moins une fois dans la vie, pas avant 15 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Entrée en détention ou en cours d'incarcération",
+            "justification": "Le dépistage ciblé inclut l'entrée en détention ou l'incarcération."
+          },
+          {
+            "correct": false,
+            "proposition": "Exercice professionnel en milieu non exposé",
+            "justification": "Le dépistage ciblé ne concerne pas les professions sans risque particulier."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913126908_04",
+      "current_version_epoch_ms": 1755913126908,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle mesure préventive est essentielle pour réduire le risque de transmission verticale du VIH de la mère à l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Charge virale maternelle indétectable au moment de l'accouchement",
+            "justification": "Le risque de transmission verticale est quasi nul si la charge virale est indétectable au moment de l'accouchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Allaitement maternel exclusif",
+            "justification": "L'allaitement maternel est proscrit pour prévenir la transmission verticale du VIH."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitement prophylactique systématique du nouveau-né",
+            "justification": "Le nouveau-né reçoit un traitement prophylactique par anti-rétroviraux pendant 2 à 4 semaines pour prévenir la transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie VIH uniquement après l'accouchement",
+            "justification": "La sérologie doit être proposée avant et pendant la grossesse, pas uniquement après l'accouchement."
+          },
+          {
+            "correct": true,
+            "proposition": "Dépistage du partenaire de la mère",
+            "justification": "Dépister le partenaire fait partie de la prévention de la transmission mère-enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755913126908_05",
+      "current_version_epoch_ms": 1755913126908,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle(s) méthode(s) comportementale(s) contribue(nt) à la prévention combinée du VIH chez les utilisateurs de drogues injectables (UDIV) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mise à disposition de matériel stérile à usage unique",
+            "justification": "La prévention combinée inclut la mise à disposition de matériel stérile pour limiter le risque de transmission par le sang."
+          },
+          {
+            "correct": true,
+            "proposition": "Promotion des traitements de substitution aux opiacés",
+            "justification": "La promotion des traitements de substitution contribue à réduire le partage de matériel et donc le risque de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise d'antibiotiques prophylactiques",
+            "justification": "Les antibiotiques prophylactiques ne font pas partie des méthodes comportementales de prévention du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination contre le VHB et VHA uniquement",
+            "justification": "La vaccination fait partie de la prise en charge globale mais n'est pas une mesure comportementale."
+          },
+          {
+            "correct": false,
+            "proposition": "TasP chez les personnes séropositives",
+            "justification": "Le TasP est une mesure de traitement efficace, pas une méthode comportementale pour les UDIV."
+          }
+        ]
+      }
+    }
+  ]
+}

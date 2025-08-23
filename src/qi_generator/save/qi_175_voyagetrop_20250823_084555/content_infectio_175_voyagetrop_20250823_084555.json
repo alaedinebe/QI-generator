@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755931762055_01",
+      "current_version_epoch_ms": 1755931762055,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Un patient revient d'une zone d'endémie palustre et présente de la fièvre. Quelle est la conduite à tenir immédiate ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher en urgence un paludisme, quels que soient les autres diagnostics possibles",
+            "justification": "Toute fièvre survenant dans les 3 mois après le retour d'une zone d'endémie palustre nécessite de rechercher un paludisme en urgence, car c'est la première cause de fièvre dans ce contexte et tout retard augmente le risque de décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre l'apparition de signes spécifiques avant de réaliser des examens",
+            "justification": "Il ne faut pas attendre de signes spécifiques, car le paludisme peut être sévère et la prise en charge doit être immédiate indépendamment de la présentation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Traiter d'abord la dengue, car c'est la cause la plus fréquente",
+            "justification": "La dengue est la deuxième cause de fièvre au retour de zone tropicale, mais le paludisme est prioritaire car il peut être mortel si non traité rapidement."
+          },
+          {
+            "correct": false,
+            "proposition": "Chercher uniquement des maladies cosmopolites comme la grippe ou la pyélonéphrite",
+            "justification": "Bien que les maladies cosmopolites soient possibles, elles ne constituent pas la priorité diagnostique face à une fièvre post-voyage dans une zone d'endémie palustre."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer uniquement un examen physique avant tout examen biologique",
+            "justification": "L'examen physique est nécessaire pour identifier la présentation clinique syndromique, mais la recherche du paludisme doit rester urgente et concomitante aux investigations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931762055_02",
+      "current_version_epoch_ms": 1755931762055,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel élément de l'interrogatoire est crucial pour la démarche diagnostique d'une fièvre au retour d'un voyage tropical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Préciser le pays et les localités visitées ainsi que les dates du séjour",
+            "justification": "L'interrogatoire doit systématiquement préciser les conditions du séjour pour orienter vers les maladies tropicales pertinentes selon l'épidémiologie régionale."
+          },
+          {
+            "correct": false,
+            "proposition": "Connaître uniquement le statut vaccinal du patient",
+            "justification": "Le statut vaccinal est important mais ne suffit pas à lui seul pour orienter le diagnostic étiologique d'une fièvre post-voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier les activités exposant à un risque infectieux",
+            "justification": "Les activités telles que contact avec eaux douces, animaux ou relations sexuelles permettent d'évaluer l'exposition aux agents pathogènes spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Se concentrer uniquement sur les antécédents médicaux chroniques",
+            "justification": "Les antécédents chroniques sont utiles mais n'apportent pas l'information principale pour les infections liées au voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer la prise de chimioprophylaxie antipaludique si séjour en zone d'endémie",
+            "justification": "La prise éventuelle de prophylaxie antipaludique est essentielle pour interpréter le risque de paludisme et orienter la conduite diagnostique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931762055_03",
+      "current_version_epoch_ms": 1755931762055,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle est la durée d'incubation typique de la dengue après un séjour en zone intertropicale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Généralement moins de 7 jours",
+            "justification": "La durée d'incubation de la dengue n'excède généralement pas 7 jours après exposition dans la zone intertropicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 2 et 3 semaines",
+            "justification": "Cette durée dépasse largement la période d'incubation typique de la dengue."
+          },
+          {
+            "correct": false,
+            "proposition": "Plusieurs mois",
+            "justification": "L'incubation de la dengue est beaucoup plus courte, plusieurs mois sont incompatibles avec la physiopathologie virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Exactement 10 jours",
+            "justification": "Il n'existe pas de durée fixe, mais la durée habituelle est inférieure à 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Variable selon le continent visité mais toujours supérieure à 7 jours",
+            "justification": "La durée d'incubation de la dengue est courte (<7 jours) quel que soit le pays ou la zone tropicale visitée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931762055_04",
+      "current_version_epoch_ms": 1755931762055,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, quelles sont des maladies cosmopolites pouvant provoquer une fièvre après un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pyélonéphrite",
+            "justification": "Les maladies infectieuses cosmopolites telles que la pyélonéphrite sont possibles même après un voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Grippe",
+            "justification": "La grippe est une maladie infectieuse cosmopolite pouvant se manifester après un retour de voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Leptospirose",
+            "justification": "La leptospirose est une infection cosmopolite qui peut être à l'origine de fièvre post-voyage."
+          },
+          {
+            "correct": false,
+            "proposition": "Chikungunya",
+            "justification": "Le chikungunya est une maladie tropicale et non cosmopolite, son épidémiologie dépend de la zone visitée."
+          },
+          {
+            "correct": false,
+            "proposition": "Paludisme",
+            "justification": "Le paludisme est spécifique aux zones d'endémie tropicale et ne fait pas partie des maladies cosmopolites."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931762055_05",
+      "current_version_epoch_ms": 1755931762055,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel rôle joue l'examen physique dans la démarche diagnostique d'une fièvre au retour d'un voyage tropical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier la présentation clinique syndromique préalable au diagnostic étiologique",
+            "justification": "L'examen physique permet de préciser le syndrome clinique, étape indispensable avant de rechercher l'étiologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer entièrement l'interrogatoire sur le séjour et les expositions",
+            "justification": "L'examen physique complète l'interrogatoire mais ne peut le remplacer, car l'histoire du voyage est essentielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer la nécessité de tests biologiques",
+            "justification": "L'examen physique seul ne suffit pas pour confirmer le paludisme ou d'autres infections, des tests biologiques sont indispensables."
+          },
+          {
+            "correct": false,
+            "proposition": "Identifier uniquement les maladies cosmopolites",
+            "justification": "L'examen physique permet d'identifier tout type de présentation clinique syndromique, pas seulement les maladies cosmopolites."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer le diagnostic de dengue sans test spécifique",
+            "justification": "La dengue nécessite des tests spécifiques pour confirmation; l'examen physique ne permet pas de diagnostic définitif."
+          }
+        ]
+      }
+    }
+  ]
+}

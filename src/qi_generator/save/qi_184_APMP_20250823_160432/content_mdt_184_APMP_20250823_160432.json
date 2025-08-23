@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "APMP",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755958079078_01",
+      "current_version_epoch_ms": 1755958079078,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Qu'est-ce qu'un accident de trajet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un accident survenant pendant le trajet entre la résidence et le lieu de travail.",
+            "justification": "L'accident de trajet se définit par un accident survenant lors du trajet d'aller et de retour entre la résidence et le lieu de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Un accident survenant uniquement lors de l'exercice des tâches professionnelles.",
+            "justification": "Cette définition correspond à un accident du travail, et non à un accident de trajet."
+          },
+          {
+            "correct": false,
+            "proposition": "Un accident survenant en dehors des heures de travail.",
+            "justification": "L'accident de trajet survient pendant les trajets entre la résidence et le lieu de travail, même si celui-ci est en dehors des heures de travail."
+          },
+          {
+            "correct": true,
+            "proposition": "Un accident survenant entre le lieu de travail et le restaurant ou la cantine.",
+            "justification": "L'accident de trajet inclut aussi les accidents survenant entre le lieu de travail et le lieu où le travailleur prend habituellement ses repas."
+          },
+          {
+            "correct": false,
+            "proposition": "Un accident survenant pendant un trajet personnel, non lié au travail.",
+            "justification": "Les accidents personnels ne sont pas considérés comme des accidents de trajet, qui doivent être liés au travail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958079078_02",
+      "current_version_epoch_ms": 1755958079078,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quels sont les lieux pris en compte pour la présomption d'imputabilité d'un accident de trajet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La résidence principale ou secondaire et le lieu de travail.",
+            "justification": "L'accident de trajet bénéficie d'une présomption d'imputabilité lorsqu'il survient entre la résidence et le lieu de travail."
+          },
+          {
+            "correct": true,
+            "proposition": "Le lieu de travail et le restaurant ou la cantine.",
+            "justification": "L'accident de trajet est également présumé imputable lorsqu'il survient entre le lieu de travail et le restaurant ou cantine."
+          },
+          {
+            "correct": false,
+            "proposition": "Les déplacements personnels à des fins privées.",
+            "justification": "Les déplacements privés ne sont pas couverts par la présomption d'imputabilité d'un accident de trajet."
+          },
+          {
+            "correct": false,
+            "proposition": "Tout trajet effectué sur le lieu de travail.",
+            "justification": "La présomption d'imputabilité ne concerne pas les accidents survenant directement sur le lieu de travail, mais lors du trajet entre la résidence et le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le trajet entre le domicile et un site privé.",
+            "justification": "Seuls les trajets entre la résidence et le lieu de travail sont considérés, pas les trajets vers des sites privés non liés au travail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958079078_03",
+      "current_version_epoch_ms": 1755958079078,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions d'imputabilité d'un accident de trajet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'accident doit survenir pendant le trajet d'aller et retour entre la résidence et le lieu de travail.",
+            "justification": "La condition d'imputabilité est remplie si l'accident survient pendant le trajet entre la résidence et le lieu de travail ou entre le lieu de travail et le restaurant/cantine."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit survenir pendant les heures de travail.",
+            "justification": "L'imputabilité n'est pas conditionnée par les heures de travail, mais par le trajet entre le domicile et le lieu de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit être causé par une faute du travailleur.",
+            "justification": "L'imputabilité est présumée, sans que la faute du travailleur ne soit un critère déterminant."
+          },
+          {
+            "correct": true,
+            "proposition": "L'accident bénéficie d'une présomption d'imputabilité en l'absence de faute manifeste.",
+            "justification": "En cas d'accident de trajet, une présomption d'imputabilité s'applique, sauf en cas de faute manifeste."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit survenir uniquement pendant les jours de travail.",
+            "justification": "L'accident de trajet peut survenir pendant n'importe quel jour, tant que le trajet est effectué entre la résidence et le lieu de travail."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958079078_04",
+      "current_version_epoch_ms": 1755958079078,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quels trajets sont spécifiquement considérés comme des accidents de trajet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le trajet entre la résidence principale et le lieu de travail.",
+            "justification": "Ce trajet fait partie des trajets pris en compte pour l'accident de trajet, à savoir entre la résidence et le lieu de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le trajet entre le domicile et un site personnel.",
+            "justification": "Les trajets privés ne sont pas couverts par l'accident de trajet, qui concerne uniquement les trajets professionnels."
+          },
+          {
+            "correct": true,
+            "proposition": "Le trajet entre le lieu de travail et le restaurant ou la cantine.",
+            "justification": "Les trajets entre le lieu de travail et le lieu de repas sont également couverts par la définition d'un accident de trajet."
+          },
+          {
+            "correct": false,
+            "proposition": "Le trajet entre deux lieux de travail.",
+            "justification": "Ce trajet ne constitue pas un accident de trajet, qui doit concerner le trajet entre la résidence et le travail."
+          },
+          {
+            "correct": false,
+            "proposition": "Le trajet effectué pendant les vacances.",
+            "justification": "Les trajets effectués pendant les vacances ne sont pas pris en compte dans la définition d'un accident de trajet."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755958079078_05",
+      "current_version_epoch_ms": 1755958079078,
+      "topic": {
+        "subject": "mdt",
+        "item": "APMP"
+      },
+      "data": {
+        "statement": "Quel élément est indispensable pour qu'un accident soit considéré comme un accident de trajet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le trajet doit être effectué entre la résidence et le lieu de travail ou entre le lieu de travail et le restaurant/cantine.",
+            "justification": "L'accident de trajet est défini par un accident survenant pendant ces trajets."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit survenir uniquement en dehors du temps de travail.",
+            "justification": "L'accident de trajet peut survenir pendant le temps de travail ou hors des heures de travail, tant qu'il concerne le trajet vers le lieu de travail."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit être causé par un défaut de l'équipement de transport.",
+            "justification": "L'imputabilité d'un accident de trajet n'est pas liée à la cause, mais au trajet effectué."
+          },
+          {
+            "correct": false,
+            "proposition": "L'accident doit être signalé immédiatement à l'employeur.",
+            "justification": "Bien que l'accident de trajet doive être signalé, cela n'est pas une condition indispensable pour qu'il soit considéré comme tel."
+          },
+          {
+            "correct": true,
+            "proposition": "L'accident doit survenir lors du trajet entre les lieux définis comme pertinents pour l'accident de trajet.",
+            "justification": "C'est cette condition géographique et temporelle qui définit l'accident comme un accident de trajet."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755914989101_01",
+      "current_version_epoch_ms": 1755914989101,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH+ au stade SIDA présentant un syndrome neurologique focal, quelle est l'hypothèse principale à évoquer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toxoplasmose cérébrale",
+            "justification": "La toxoplasmose cérébrale est l'étiologie principale d'un syndrome neurologique focal chez un patient très immunodéprimé, confirmée par IRM et sérologie sanguine positive."
+          },
+          {
+            "correct": false,
+            "proposition": "Méningite tuberculeuse",
+            "justification": "La méningite tuberculeuse provoque généralement des signes d'encéphalite diffuse plutôt qu'un syndrome neurologique focal."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalite à CMV",
+            "justification": "L'encéphalite à CMV se présente plus souvent comme une encéphalite diffuse chez un patient très immunodéprimé, pas comme un syndrome focal unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lymphome cérébral primitif",
+            "justification": "Le lymphome cérébral doit être suspecté uniquement en cas d'absence de réponse au traitement anti-infectieux, donc ce n'est pas l'hypothèse principale initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Leucoencéphalopathie multifocale progressive",
+            "justification": "La LEMP liée au virus JC se manifeste par une atteinte diffuse de la substance blanche et non par un syndrome neurologique focal classique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914989101_02",
+      "current_version_epoch_ms": 1755914989101,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel examen est le plus utile pour confirmer le diagnostic de toxoplasmose cérébrale chez un patient SIDA avec syndrome neurologique focal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale montrant des lésions abcédées multiples",
+            "justification": "L'IRM permet d'identifier les lésions caractéristiques de la toxoplasmose cérébrale, ce qui guide le diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Sérologie sanguine positive pour Toxoplasma gondii",
+            "justification": "Une sérologie positive suggère une réactivation de toxoplasmose et complète l'orientation diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire avec recherche de levures",
+            "justification": "La PL avec recherche de levures est utilisée pour diagnostiquer la cryptococcose, pas la toxoplasmose cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Test antigénique CMV dans le sang",
+            "justification": "Le dosage de l'antigène CMV permet de suspecter une encéphalite à CMV, non une toxoplasmose."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique à la recherche de lésions pulmonaires",
+            "justification": "L'imagerie thoracique n'est pas pertinente pour le diagnostic d'un syndrome neurologique focal cérébral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914989101_03",
+      "current_version_epoch_ms": 1755914989101,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient SIDA très immunodéprimé présentant des signes d'encéphalite diffuse, quelles étiologies doivent être envisagées en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Méningo-encéphalite tuberculeuse",
+            "justification": "La méningo-encéphalite tuberculeuse est une cause fréquente d'encéphalite diffuse chez le patient très immunodéprimé."
+          },
+          {
+            "correct": true,
+            "proposition": "Leuco-encéphalite multifocale progressive (LEMP)",
+            "justification": "La LEMP survient chez les patients avec CD4 < 100/mm3 et se manifeste par une atteinte diffuse de la substance blanche."
+          },
+          {
+            "correct": true,
+            "proposition": "Encéphalite à CMV",
+            "justification": "L'encéphalite à CMV est une cause d'encéphalite diffuse chez le patient très immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxoplasmose cérébrale",
+            "justification": "La toxoplasmose provoque typiquement des lésions focales et non une encéphalite diffuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Lymphome cérébral",
+            "justification": "Le lymphome cérébral provoque des masses focales et doit être évoqué seulement en absence de réponse au traitement anti-infectieux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914989101_04",
+      "current_version_epoch_ms": 1755914989101,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel examen est prioritaire pour orienter le diagnostic d'encéphalite chez un patient SIDA très immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction lombaire avec analyse du LCR",
+            "justification": "La ponction lombaire permet d'identifier des infections opportunistes (CMV, tuberculose) et guide le diagnostic de l'encéphalite."
+          },
+          {
+            "correct": true,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale identifie les lésions caractéristiques et aide à différencier les causes infectieuses et non infectieuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie thoracique ne permet pas d'évaluer l'encéphalite cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG n'est pas utile pour le diagnostic d'encéphalite chez le patient SIDA."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse d'urine",
+            "justification": "L'analyse d'urine ne contribue pas au diagnostic d'encéphalite cérébrale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914989101_05",
+      "current_version_epoch_ms": 1755914989101,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH+ avec CD4 < 100/mm3 et céphalées persistantes, quelle infection neuro-méningée doit être suspectée en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cryptococcose",
+            "justification": "La cryptococcose neuro-méningée est fréquente en immunodépression profonde et doit être suspectée devant des céphalées rebelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Méningite à pneumocoque",
+            "justification": "La méningite à pneumocoque est rare chez le patient très immunodéprimé et n'est pas la cause prioritaire des céphalées."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalite à virus JC",
+            "justification": "Le virus JC provoque une leuco-encéphalite multifocale progressive plutôt que des symptômes de méningite avec HTIC."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxoplasmose cérébrale",
+            "justification": "La toxoplasmose provoque surtout un syndrome neurologique focal, pas des céphalées diffuses liées à une HTIC."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalite à VIH",
+            "justification": "L'encéphalite à VIH se manifeste de façon diffuse mais ne provoque pas spécifiquement une hyperpression du LCR comme dans la cryptococcose."
+          }
+        ]
+      }
+    }
+  ]
+}

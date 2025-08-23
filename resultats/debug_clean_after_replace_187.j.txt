@@ -1,0 +1,161 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître les grands principes du traitement de la dermatite atopique OIC-187-12-A
+
+1.1 1)      Soins d'hygiène non agressifs pour la toilette et éviction des facteurs aggravants :
+1.2 2)      Le traitement anti- inflammatoire local : les dermocorticoïdes.
+1.3 3)      Les émollients
+1.4 4) Education thérapeutique
+
+
+
+
+Connaître les grands principes du traitement de la dermatite atopique OIC-187-12-A
+
+
+
+4 axes: 1) les soins d'hygiène, 2) le traitement anti-inflamamtoire local, 3) les émollients 4) l'éducation thérapeutique,.
+
+
+1)      Soins d'hygiène non agressifs pour la toilette et éviction des facteurs aggravants :
+-         Éviter le savon mais utiliser un gel sans savon doux non parfumé
+-         Réduire la fréquence des lavages de la peau (1 fois tous les 2 jours ou une fois par jour)
+-         Éviter les bains chauds prolongés
+-         Utiliser un émollient après la toilette sur une peau non inflammatoire (cf infra)
+-         Privilégier les textiles vestimentaires doux (éviter la laine)
+-         Ne pas surchauffer l'habitation et ne pas « sur couvrir » les enfants (rôle aggravant probable du chauffage domestique).
+
+2)      Le traitement anti- inflammatoire local : les dermocorticoïdes.
+Les dermocorticoïdes (DC) ont une triple action: anti-inflammatoire, immunosuppressive et antimitotique. Les DC sont habituellement très efficaces à court terme sur les poussées de DA. Les études d'efficacité au long cours sont très rares. Les DC sont classés selon leur puissance (activité très forte, forte, modérée, faible) et leur forme galénique  (crème, pommade, lotion et gel)
+
+Le choix d'un DC dépend de quatre critères: l'âge, la localisation des lésions, l'étendue à traiter et le caractère suintant des lésions.
+
+choix de la galénique :      
+-pommade pour les zones cutanées lichénifiées et sèches
+-crème pour les zones suintantes, les plis et les grandes surfaces cutanées
+-lotion pour les zones pileuses et les plis (très peu utilisée chez l'enfant)
+- gel pour le cuir chevelu (peu utilisé chez l'enfant)
+Le choix du niveau d'activité
+-les DC d'activité très forte sont contre-indiqués chez le nourrisson et l'enfant jeune, le visage, les plis et le siège.
+-les DC d'activité forte en cure courte (4 à 7 jours) sont indiqués chez l'enfant sur les lésions lichénifiées, sur les extrémités et sur les lésions résistantes aux DC d'activité modérée.      
+-les DC d'activité modérée sont utilisés chez le nourrisson et l'enfant sur le visage et le corps.
+-les DC d'activité faible n'ont pas d'intérêt car sont peu ou pas efficaces.
+nombre d'applications par jour
+une seule application par jour est aussi efficace que plusieurs applications et  facilite l'adhésion thérapeutique.  
+quantité à appliquer
+Il n'y a pas de quantité maximale recommandée au cours du traitement d'attaque                               
+La quantité nécessaire au maintien de la rémission en traitement d'entretien ne doit pas habituellement dépasser 30 g/ mois de DC d'activité modérée pour un enfant et 60 g/ mois de DC d'activité forte pour un adulte. 
+En période d'entretien, il a été montré chez l'enfant et l'adulte que l'utilisation systématique d'un dermocorticoïde d'activité forte 2 fois par semaine sur les zones cutanées habituellement atteintes pendant 4 mois permettait de réduire le nombre de poussées sans effet secondaire. Cette modalité d'utilisation des DC (traitement pro actif) est particulièrement adapté dans les DA chroniques avec poussés fréquentes, récidivantes rapidement à l'arrêt des DC  
+
+
+3)      Les émollients
+Les émollients améliorent les signes fonctionnels dus à la sécheresse cutanée et certains d'entre eux restaurent transitoirement la fonction barrière cutanée. 
+L'utilisation des émollients est recommandée par accord professionnel dès les premiers symptômes de sécheresse cutanée et en traitement de maintenance pendant toute la durée de la DA quel que soit sa gravité. 
+précautions d'emploi: 
+-interruption quelques jours en période de poussée très inflammatoire (mauvaise tolérance  fréquente) 
+-galéniques à adapter aux préférences du patient 
+-produits sans parfums et sans conservateur pour éviter les sensibilisations de contact. ATTENTION: les émollients ne sont pas remboursés par l'assurance maladie à l'exception de l'atopiclair® , des génériques du dexeryl© (remboursable à 15%) et des préparations magistrales remboursées en l'absence d'équivalent disponible. 
+
+
+4) Education thérapeutique
+L'éducation thérapeutique  a pour objectif d'apprendre au patient à vivre de manière optimale avec une maladie chronique. C'est un processus intégré au soin, adapté aux demandes du patients, qui comprend un ensemble d'informations et de techniques d'apprentissage réalisées avec un ou des soignants (médecins, infirmières, psychologue, …..) au cours de programmes comprenant une/des consultation et/ou des reunions en petits groupes. La finalité est l'autonomie du patient et/ou de sa famille, l'adhésion thérapeutique, la lutte contre la corticophobie qui es tune situation fréquente.
+
+Autres traitements :
+-les antihistaminiques oraux (anti-H1) : pas d' efficacité démontrée sur le prurit à la phase aigue en dehors d'une étude ancienne / intérêt de l'hydroxyzine , anti-H1 sédatif , en période de poussée chez le jeune enfant avec troubles du sommeil
+
+-immunomodulateur topique : tacrolimus (en France)- indiqué pour les poussées de dermatite atopique modérée à sévère de l'enfant et de l'adulte en cas de résistance ou de contre-indication aux dermocorticoïdes (lésions du visage++)
+
+
+-traitements systémiques : traitement des formes sévères: photothérapie, ciclosporine, dupilumab, JAK inhibiteurs. La corticothérapie générale n'est pas indiquée (risque de rebond à l'arrêt).   Sommaire1Connaître les grands principes du traitement de la dermatite atopique OIC-187-12-A1.11)      Soins d'hygiène non agressifs pour la toilette et éviction des facteurs aggravants :1.22)      Le traitement anti- inflammatoire local : les dermocorticoïdes.1.33)      Les émollients1.44) Education thérapeutiqueConnaître les grands principes du traitement de la dermatite atopique OIC-187-12-A4 axes: 1) les soins d'hygiène, 2) le traitement anti-inflamamtoire local, 3) les émollients 4) l'éducation thérapeutique,.1)      Soins d'hygiène non agressifs pour la toilette et éviction des facteurs aggravants :-         Éviter le savon mais utiliser un gel sans savon doux non parfumé-         Réduire la fréquence des lavages de la peau (1 fois tous les 2 jours ou une fois par jour)-         Éviter les bains chauds prolongés-         Utiliser un émollient après la toilette sur une peau non inflammatoire (cf infra)-         Privilégier les textiles vestimentaires doux (éviter la laine)-         Ne pas surchauffer l'habitation et ne pas « sur couvrir » les enfants (rôle aggravant probable du chauffage domestique).2)      Le traitement anti- inflammatoire local : les dermocorticoïdes.Les dermocorticoïdes (DC) ont une triple action: anti-inflammatoire, immunosuppressive et antimitotique. Les DC sont habituellement très efficaces à court terme sur les poussées de DA. Les études d'efficacité au long cours sont très rares. Les DC sont classés selon leur puissance (activité très forte, forte, modérée, faible) et leur forme galénique  (crème, pommade, lotion et gel)Le choix d'un DC dépend de quatre critères: l'âge, la localisation des lésions, l'étendue à traiter et le caractère suintant des lésions.choix de la galénique:-pommade pour les zones cutanées lichénifiées et sèches-crème pour les zones suintantes, les plis et les grandes surfaces cutanées-lotion pour les zones pileuses et les plis (très peu utilisée chez l'enfant)- gel pour le cuir chevelu (peu utilisé chez l'enfant)Le choix du niveau d'activité-les DC d'activité très forte sont contre-indiqués chez le nourrisson et l'enfant jeune, le visage, les plis et le siège.-les DC d'activité forte en cure courte (4 à 7 jours) sont indiqués chez l'enfant sur les lésions lichénifiées, sur les extrémités et sur les lésions résistantes aux DC d'activité modérée.-les DC d'activité modérée sont utilisés chez le nourrisson et l'enfant sur le visage et le corps.-les DC d'activité faible n'ont pas d'intérêt car sont peu ou pas efficaces.nombre d'applications par jourune seule application par jour est aussi efficace que plusieurs applications et  facilite l'adhésion thérapeutique.quantité à appliquerIl n'y a pas de quantité maximale recommandée au cours du traitement d'attaqueLa quantité nécessaire au maintien de la rémission en traitement d'entretien ne doit pas habituellement dépasser 30 g/ mois de DC d'activité modérée pour un enfant et 60 g/ mois de DC d'activité forte pour un adulte.En période d'entretien, il a été montré chez l'enfant et l'adulte que l'utilisation systématique d'un dermocorticoïde d'activité forte 2 fois par semaine sur les zones cutanées habituellement atteintes pendant 4 mois permettait de réduire le nombre de poussées sans effet secondaire. Cette modalité d'utilisation des DC (traitement pro actif) est particulièrement adapté dans les DA chroniques avec poussés fréquentes, récidivantes rapidement à l'arrêt des DC3)      Les émollientsLes émollients améliorent les signes fonctionnels dus à la sécheresse cutanée et certains d'entre eux restaurent transitoirement la fonction barrière cutanée.L'utilisation des émollients est recommandée par accord professionnel dès les premiers symptômes de sécheresse cutanée et en traitement de maintenance pendant toute la durée de la DA quel que soit sa gravité.précautions d'emploi:-interruption quelques jours en période de poussée très inflammatoire (mauvaise tolérance  fréquente)-galéniques à adapter aux préférences du patient-produits sans parfums et sans conservateur pour éviter les sensibilisations de contact. ATTENTION: les émollients ne sont pas remboursés par l'assurance maladie à l'exception de l'atopiclair® , des génériques du dexeryl© (remboursable à 15%) et des préparations magistrales remboursées en l'absence d'équivalent disponible.4) Education thérapeutiqueL'éducation thérapeutique  a pour objectif d'apprendre au patient à vivre de manière optimale avec une maladie chronique. C'est un processus intégré au soin, adapté aux demandes du patients, qui comprend un ensemble d'informations et de techniques d'apprentissage réalisées avec un ou des soignants (médecins, infirmières, psychologue, …..) au cours de programmes comprenant une/des consultation et/ou des reunions en petits groupes. La finalité est l'autonomie du patient et/ou de sa famille, l'adhésion thérapeutique, la lutte contre la corticophobie qui es tune situation fréquente.Autres traitements :-les antihistaminiques oraux (anti-H1) : pas d' efficacité démontrée sur le prurit à la phase aigue en dehors d'une étude ancienne / intérêt de l'hydroxyzine , anti-H1 sédatif , en période de poussée chez le jeune enfant avec troubles du sommeil-immunomodulateur topique : tacrolimus (en France)- indiqué pour les poussées de dermatite atopique modérée à sévère de l'enfant et de l'adulte en cas de résistance ou de contre-indication aux dermocorticoïdes (lésions du visage++)-traitements systémiques : traitement des formes sévères: photothérapie, ciclosporine, dupilumab, JAK inhibiteurs. La corticothérapie générale n'est pas indiquée (risque de rebond à l'arrêt).
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

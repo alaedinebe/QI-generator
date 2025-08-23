@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "asthme",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755968964570_01",
+      "current_version_epoch_ms": 1755968964570,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique principale de l'asthme?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obstruction des voies aériennes réversible sous bronchodilatateurs",
+            "justification": "L'asthme est une maladie inflammatoire chronique des voies respiratoires inférieures, caractérisée par une obstruction réversible, totalement ou partiellement, sous l'effet des bronchodilatateurs d'action rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction des voies aériennes irréversible",
+            "justification": "L'obstruction dans l'asthme est variable dans le temps et réversible, ce qui exclut l'irréversibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes uniquement la nuit",
+            "justification": "Les symptômes de l'asthme, tels que la dyspnée, la toux et les sifflements, peuvent survenir à tout moment, pas uniquement la nuit."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une hypersensibilité nasale permanente",
+            "justification": "L'asthme concerne principalement les voies respiratoires inférieures, tandis que la rhinite allergique affecte les voies respiratoires supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Rhinorrhée persistante sans obstruction",
+            "justification": "L'asthme se manifeste par des symptômes respiratoires comme la dyspnée, mais l'obstruction des voies aériennes est réversible et non une rhinite persistante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968964570_02",
+      "current_version_epoch_ms": 1755968964570,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quels sont les symptômes caractéristiques de la rhinite allergique?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prurit, Anosmie, Rhinorrhée, Éternuements, Obstruction nasale",
+            "justification": "La rhinite allergique se caractérise par des symptômes PAREO : prurit, anosmie, rhinorrhée, éternuements et obstruction nasale, tous liés à une inflammation IgE-dépendante des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux, dyspnée, oppression thoracique",
+            "justification": "Ces symptômes sont caractéristiques de l'asthme, une maladie des voies respiratoires inférieures, et non de la rhinite allergique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sifflements et crépitements respiratoires",
+            "justification": "Les sifflements et crépitements sont associés à l'asthme, et non à la rhinite allergique, qui affecte les voies nasales."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs thoraciques et hémoptysie",
+            "justification": "La rhinite allergique ne provoque pas de douleurs thoraciques ou d'hémoptysie, symptômes plus associés à des affections pulmonaires graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et courbatures",
+            "justification": "La rhinite allergique est une maladie inflammatoire chronique non infectieuse, donc les symptômes de fièvre et courbatures ne sont pas caractéristiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968964570_03",
+      "current_version_epoch_ms": 1755968964570,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le lien immunologique entre la rhinite allergique et l'exposition allergénique?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infection IgE-dépendante",
+            "justification": "La rhinite allergique est une manifestation clinique d'une inflammation IgE-dépendante, liée à une exposition aux allergènes."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypersensibilité de type IV uniquement",
+            "justification": "La rhinite allergique est médiée par les IgE et non par une hypersensibilité de type IV, qui est liée à des mécanismes cellulaires retardés."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction de type immédiat mais non IgE-dépendante",
+            "justification": "La rhinite allergique repose spécifiquement sur une réponse immunitaire IgE-dépendante, et non sur une réaction immédiate non IgE-dépendante."
+          },
+          {
+            "correct": false,
+            "proposition": "Causée par une infection virale répétée",
+            "justification": "La rhinite allergique est une réaction inflammatoire à des allergènes et non une réponse à une infection virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Réponse inflammatoire sans rôle des allergènes",
+            "justification": "Les allergènes jouent un rôle central dans la rhinite allergique, déclenchant la réponse inflammatoire IgE-dépendante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968964570_04",
+      "current_version_epoch_ms": 1755968964570,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le rôle des bronchodilatateurs d'action rapide dans le traitement de l'asthme?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réversibilité partielle ou totale de l'obstruction des voies aériennes",
+            "justification": "Les bronchodilatateurs d'action rapide permettent de soulager l'obstruction des voies aériennes, qui est réversible dans l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement préventif de l'inflammation des voies aériennes",
+            "justification": "Les bronchodilatateurs d'action rapide ne sont pas utilisés pour traiter l'inflammation, mais pour soulager rapidement les symptômes d'obstruction."
+          },
+          {
+            "correct": false,
+            "proposition": "Effet à long terme sur la réduction de l'hyperréactivité bronchique",
+            "justification": "Les bronchodilatateurs d'action rapide n'ont pas d'effet à long terme sur l'hyperréactivité bronchique, qui nécessite d'autres traitements comme les corticostéroïdes."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des symptômes allergiques dans la rhinite",
+            "justification": "Les bronchodilatateurs d'action rapide sont utilisés pour traiter l'asthme et non la rhinite allergique, qui nécessite des antihistaminiques et des décongestionnants."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement curatif de l'asthme",
+            "justification": "Les bronchodilatateurs d'action rapide soulagent les symptômes aigus, mais ne traitent pas l'asthme de manière curative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755968964570_05",
+      "current_version_epoch_ms": 1755968964570,
+      "topic": {
+        "subject": "pneumo",
+        "item": "asthme"
+      },
+      "data": {
+        "statement": "Quel est le critère qui distingue l'asthme de la rhinite allergique chez l'enfant?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'asthme touche les voies aériennes inférieures, tandis que la rhinite allergique affecte les voies aériennes supérieures",
+            "justification": "L'asthme se manifeste par une obstruction réversible des voies respiratoires inférieures (bronches), tandis que la rhinite allergique affecte principalement les voies nasales supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "L'asthme provoque de l'anosmie, la rhinite allergique cause de la dyspnée",
+            "justification": "L'anosmie est un symptôme de la rhinite allergique, tandis que la dyspnée est caractéristique de l'asthme."
+          },
+          {
+            "correct": false,
+            "proposition": "L'asthme se manifeste par une obstruction nasale, la rhinite allergique par des difficultés respiratoires",
+            "justification": "L'asthme touche les bronches, provoquant une dyspnée, tandis que la rhinite allergique affecte les fosses nasales avec une obstruction nasale."
+          },
+          {
+            "correct": false,
+            "proposition": "La rhinite allergique est réversible sous bronchodilatateurs, l'asthme ne l'est pas",
+            "justification": "L'asthme est réversible sous bronchodilatateurs, tandis que la rhinite allergique ne répond pas à ces traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "L'asthme provoque des éternuements, la rhinite allergique provoque de la toux",
+            "justification": "Les éternuements sont caractéristiques de la rhinite allergique, tandis que la toux est plus fréquente dans l'asthme."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755914162288_01",
+      "current_version_epoch_ms": 1755914162288,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quelle est la composition standard d'une trithérapie antirétrovirale initiale pour un patient séropositif VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trois médicaments appartenant à deux classes différentes d'antirétroviraux",
+            "justification": "La trithérapie antirétrovirale associe trois molécules issues d'au moins deux classes différentes afin d'assurer l'efficacité virologique et de prévenir les résistances."
+          },
+          {
+            "correct": false,
+            "proposition": "Deux médicaments de la même classe",
+            "justification": "Utiliser deux molécules de la même classe ne constitue pas une trithérapie efficace et ne correspond pas aux recommandations actuelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seul médicament à haute dose",
+            "justification": "Le traitement antirétroviral doit être combiné pour être efficace; un monomédicament à haute dose n'assure pas la suppression virale durable."
+          },
+          {
+            "correct": false,
+            "proposition": "Quatre médicaments appartenant à trois classes",
+            "justification": "La recommandation standard est une trithérapie, pas une quadrithérapie initiale, sauf situations spécifiques de résistances multiples."
+          },
+          {
+            "correct": false,
+            "proposition": "Une monothérapie par inhibiteur de protéase",
+            "justification": "Les inhibiteurs de protéase ne sont jamais utilisés seuls; la monothérapie n'assure pas la suppression virale et favorise les résistances."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914162288_02",
+      "current_version_epoch_ms": 1755914162288,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du traitement antirétroviral chez un patient VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rendre la charge virale VIH plasmatique indétectable",
+            "justification": "L'objectif principal est de supprimer la réplication virale afin de réduire le risque de complications cliniques et de transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer complètement le virus du corps",
+            "justification": "Le traitement est virustatique et non virucide; il ne permet pas l'éradication totale du VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la charge virale pour stimuler le système immunitaire",
+            "justification": "Augmenter la charge virale est contre-indiqué; le but est la suppression virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer les lymphocytes T CD4 par des lymphocytes T CD8",
+            "justification": "Le traitement vise à restaurer les LT CD4, pas à les remplacer par des LT CD8."
+          },
+          {
+            "correct": false,
+            "proposition": "Traiter uniquement les symptômes",
+            "justification": "Le traitement antirétroviral a pour objectif principal la suppression virale, pas seulement la gestion symptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914162288_03",
+      "current_version_epoch_ms": 1755914162288,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, quels antirétroviraux sont des inhibiteurs nucléosidiques de la transcriptase inverse (INTI) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tenofovir DF",
+            "justification": "Tenofovir DF est un inhibiteur nucléosidique de la transcriptase inverse, souvent utilisé en association avec d'autres INTI et INNTI."
+          },
+          {
+            "correct": true,
+            "proposition": "Lamivudine",
+            "justification": "Lamivudine est un INTI fréquemment utilisé dans les trithérapies combinées."
+          },
+          {
+            "correct": true,
+            "proposition": "Abacavir",
+            "justification": "Abacavir est un INTI utilisé seul ou en association fixe avec la lamivudine."
+          },
+          {
+            "correct": false,
+            "proposition": "Darunavir",
+            "justification": "Darunavir est un inhibiteur de protéase (IP) et non un INTI."
+          },
+          {
+            "correct": false,
+            "proposition": "Rilpivirine",
+            "justification": "Rilpivirine est un inhibiteur non nucléosidique de la transcriptase inverse (INNTI) et non un INTI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914162288_04",
+      "current_version_epoch_ms": 1755914162288,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel suivi thérapeutique est recommandé après l'instauration d'un traitement antirétroviral ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consultations médicales et infirmières rapprochées initiales à J15-M1, M3, M6",
+            "justification": "Ces consultations permettent d'évaluer l'efficacité, l'observance et la tolérance du TARV et d'atteindre l'indétectabilité virale à M6."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun suivi jusqu'à un an après le traitement",
+            "justification": "Le suivi rapproché est essentiel; attendre un an compromet l'efficacité et la sécurité du traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Consultations tous les 6 mois après stabilisation immuno-virologique",
+            "justification": "Après stabilisation, un suivi semestriel permet de maintenir l'efficacité, surveiller l'observance et dépister les co-infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivi uniquement par le patient à domicile",
+            "justification": "Le suivi doit être médical et infirmier; un suivi autonome n'est pas recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt du traitement après 6 mois si la charge virale est indétectable",
+            "justification": "Le TARV doit être maintenu à vie; l'arrêt entraîne une reprise immédiate de la réplication virale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914162288_05",
+      "current_version_epoch_ms": 1755914162288,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel rôle joue le ritonavir dans la prise en charge antirétrovirale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Agit comme booster pharmacologique d'autres inhibiteurs de protéase",
+            "justification": "Le ritonavir n'est pas utilisé comme antirétroviral mais pour augmenter l'efficacité et la concentration plasmatiques d'un autre IP."
+          },
+          {
+            "correct": false,
+            "proposition": "Est un INTI de première intention",
+            "justification": "Le ritonavir n'est pas un inhibiteur nucléosidique de la transcriptase inverse."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplace le dolutégravir dans les associations fixes",
+            "justification": "Le ritonavir ne remplace pas les inhibiteurs d'intégrase; il sert uniquement de booster pour les IP."
+          },
+          {
+            "correct": false,
+            "proposition": "Élimine complètement le VIH",
+            "justification": "Le ritonavir ne permet pas l'éradication du virus; le traitement est virustatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Traite les infections opportunistes",
+            "justification": "Le ritonavir n'a pas d'action prophylactique ou curative contre les infections opportunistes."
+          }
+        ]
+      }
+    }
+  ]
+}

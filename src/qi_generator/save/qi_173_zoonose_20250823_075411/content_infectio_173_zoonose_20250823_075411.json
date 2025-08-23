@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755928657830_01",
+      "current_version_epoch_ms": 1755928657830,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Identifier l'espèce responsable de l'hydatidose (échinococcose kystique).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Echinococcus granulosus",
+            "justification": "L'hydatidose, également appelée échinococcose kystique, est causée par Echinococcus granulosus."
+          },
+          {
+            "correct": false,
+            "proposition": "Echinococcus multilocularis",
+            "justification": "Echinococcus multilocularis est responsable de l'échinococcose alvéolaire, et non de l'hydatidose."
+          },
+          {
+            "correct": false,
+            "proposition": "Taenia solium",
+            "justification": "Taenia solium est responsable de la cysticercose, ce n'est pas un agent des échinococcoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Echinococcus vogeli",
+            "justification": "Echinococcus vogeli peut provoquer une échinococcose polycystique, différente de l'hydatidose."
+          },
+          {
+            "correct": false,
+            "proposition": "Echinococcus oligarthrus",
+            "justification": "Echinococcus oligarthrus est une autre espèce d'échinocoque mais n'est pas en cause dans l'hydatidose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755928657830_02",
+      "current_version_epoch_ms": 1755928657830,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Identifier l'espèce responsable de l'échinococcose alvéolaire.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Echinococcus granulosus",
+            "justification": "Echinococcus granulosus est responsable de l'hydatidose, pas de l'échinococcose alvéolaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Echinococcus multilocularis",
+            "justification": "Echinococcus multilocularis est l'espèce à l'origine de l'échinococcose alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Echinococcus vogeli",
+            "justification": "Echinococcus vogeli est associé à l'échinococcose polycystique, et non à la forme alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Taenia saginata",
+            "justification": "Taenia saginata provoque la téniase, sans rapport avec les échinococcoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Diphyllobothrium latum",
+            "justification": "Diphyllobothrium latum est responsable de la diphyllobothriase, non d'une échinococcose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755928657830_03",
+      "current_version_epoch_ms": 1755928657830,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Classer les deux principales formes d'échinococcose selon leur agent causal.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hydatidose : Echinococcus granulosus",
+            "justification": "L'hydatidose, ou échinococcose kystique, est due à Echinococcus granulosus."
+          },
+          {
+            "correct": true,
+            "proposition": "Échinococcose alvéolaire : Echinococcus multilocularis",
+            "justification": "L'échinococcose alvéolaire est due à Echinococcus multilocularis."
+          },
+          {
+            "correct": false,
+            "proposition": "Hydatidose : Echinococcus multilocularis",
+            "justification": "Echinococcus multilocularis n'est pas responsable de l'hydatidose mais de l'échinococcose alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Échinococcose alvéolaire : Echinococcus granulosus",
+            "justification": "Echinococcus granulosus est à l'origine de l'hydatidose, pas de la forme alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hydatidose : Taenia solium",
+            "justification": "Taenia solium provoque une cysticercose, sans rapport avec les échinococcoses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755928657830_04",
+      "current_version_epoch_ms": 1755928657830,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Reconnaître la nature parasitaire commune aux échinococcoses humaine.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ce sont des cestodoses larvaires",
+            "justification": "Les échinococcoses humaines sont dues au développement de larves de cestodes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce sont des nématodoses larvaires",
+            "justification": "Les échinococcoses ne sont pas causées par des nématodes mais par des cestodes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce sont des protozooses tissulaires",
+            "justification": "Les échinococcoses ne sont pas des protozooses mais des cestodoses."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce sont des infections bactériennes",
+            "justification": "Les échinococcoses sont des parasitoses et non des infections bactériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce sont des mycoses systémiques",
+            "justification": "Les échinococcoses ne sont pas fongiques mais parasitaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755928657830_05",
+      "current_version_epoch_ms": 1755928657830,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Différencier les échinococcoses humaines par leur forme évolutive.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'hydatidose se développe sous forme de kystes hydatiques",
+            "justification": "L'hydatidose, ou échinococcose kystique, est caractérisée par la formation de kystes."
+          },
+          {
+            "correct": true,
+            "proposition": "L'échinococcose alvéolaire se développe sous forme de structures infiltrantes",
+            "justification": "L'échinococcose alvéolaire est caractérisée par une prolifération infiltrante ressemblant à une tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hydatidose se développe sous forme alvéolaire",
+            "justification": "La forme alvéolaire est spécifique d'Echinococcus multilocularis, pas de l'hydatidose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échinococcose alvéolaire se présente toujours sous forme de kyste unique",
+            "justification": "Contrairement à l'hydatidose, l'échinococcose alvéolaire n'est pas limitée à un kyste unique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les deux formes sont causées par le même agent",
+            "justification": "Les deux formes sont dues à deux espèces distinctes : E. granulosus et E. multilocularis."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "antiinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755943157998_01",
+      "current_version_epoch_ms": 1755943157998,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Parmi les médicaments suivants, lesquels sont actifs contre les virus du groupe HSV et VVZ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aciclovir (ACV)",
+            "justification": "L'aciclovir est un médicament de référence contre les virus du groupe HSV et VVZ, disponible en per os, IV et local."
+          },
+          {
+            "correct": true,
+            "proposition": "Valaciclovir (VACV)",
+            "justification": "Le valaciclovir, prodrogue de l'aciclovir, est également actif contre HSV et VVZ, principalement en administration per os."
+          },
+          {
+            "correct": true,
+            "proposition": "Famciclovir (FCV)",
+            "justification": "Le famciclovir, prodrogue du Penciclovir, est aussi efficace contre les virus HSV et VVZ en per os."
+          },
+          {
+            "correct": false,
+            "proposition": "Ganciclovir (IV)",
+            "justification": "Bien que ganciclovir puisse agir contre certains virus, il est principalement utilisé contre le CMV et HHV-6, pas HSV et VVZ."
+          },
+          {
+            "correct": false,
+            "proposition": "Cidofovir (IV)",
+            "justification": "Le cidofovir est actif contre certains virus, mais son indication principale n'est pas contre les virus HSV et VVZ."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943157998_02",
+      "current_version_epoch_ms": 1755943157998,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel médicament est spécifiquement utilisé sous forme de collyre pour traiter les infections à HSV et VVZ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trifluridine",
+            "justification": "La trifluridine est un médicament antiviral utilisé sous forme de collyre pour traiter les infections oculaires à HSV."
+          },
+          {
+            "correct": false,
+            "proposition": "Aciclovir",
+            "justification": "L'aciclovir peut être utilisé localement mais n'est pas disponible sous forme de collyre."
+          },
+          {
+            "correct": false,
+            "proposition": "Valaciclovir",
+            "justification": "Le valaciclovir est administré par voie orale et non sous forme de collyre."
+          },
+          {
+            "correct": false,
+            "proposition": "Famciclovir",
+            "justification": "Le famciclovir est administré par voie orale et n'est pas disponible sous forme de collyre."
+          },
+          {
+            "correct": false,
+            "proposition": "Cidofovir",
+            "justification": "Le cidofovir est administré par voie intraveineuse et non sous forme de collyre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943157998_03",
+      "current_version_epoch_ms": 1755943157998,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Parmi les médicaments suivants, lesquels sont administrés par voie intraveineuse pour traiter les infections à HSV et VVZ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cidofovir",
+            "justification": "Le cidofovir est un antiviral administré par voie intraveineuse, utilisé dans le traitement des infections graves à HSV."
+          },
+          {
+            "correct": true,
+            "proposition": "Foscarnet",
+            "justification": "Le foscarnet est administré par voie intraveineuse pour traiter les infections sévères à HSV et VVZ."
+          },
+          {
+            "correct": false,
+            "proposition": "Valaciclovir",
+            "justification": "Le valaciclovir est pris par voie orale et non par voie intraveineuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Famciclovir",
+            "justification": "Le famciclovir est administré par voie orale et non par voie intraveineuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Aciclovir",
+            "justification": "L'aciclovir peut être administré par voie IV, mais ce n'est pas sa principale voie d'administration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943157998_04",
+      "current_version_epoch_ms": 1755943157998,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'aciclovir dans le traitement des infections à HSV et VVZ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhiber la réplication du virus en bloquant l'ADN polymérase virale",
+            "justification": "L'aciclovir agit en inhibant l'ADN polymérase virale, empêchant ainsi la réplication du virus HSV et VVZ."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la production d'anticorps contre les virus",
+            "justification": "L'aciclovir n'agit pas en stimulant le système immunitaire mais en bloquant la réplication virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Stimuler la production de cytokines antivirales",
+            "justification": "L'aciclovir n'intervient pas directement sur la production de cytokines mais sur l'inhibition de la réplication virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhiber la fusion du virus avec les cellules hôtes",
+            "justification": "L'aciclovir ne bloque pas la fusion virale, mais l'ADN polymérase virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Agir comme un vaccin antivirale",
+            "justification": "L'aciclovir n'est pas un vaccin, mais un antiviral utilisé pour traiter les infections virales actives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755943157998_05",
+      "current_version_epoch_ms": 1755943157998,
+      "topic": {
+        "subject": "infectio",
+        "item": "antiinf"
+      },
+      "data": {
+        "statement": "Quels sont les médicaments principalement utilisés pour traiter les infections à HSV et VVZ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aciclovir, Valaciclovir, Famciclovir",
+            "justification": "Ces trois médicaments sont couramment utilisés pour traiter les infections à HSV et VVZ, via différentes voies d'administration."
+          },
+          {
+            "correct": true,
+            "proposition": "Cidofovir, Foscarnet",
+            "justification": "Le cidofovir et le foscarnet sont utilisés principalement pour les infections graves à HSV, administrés par voie intraveineuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Ganciclovir, Valganciclovir",
+            "justification": "Ces médicaments sont plus utilisés pour le traitement du CMV et HHV-6, pas pour HSV et VVZ."
+          },
+          {
+            "correct": false,
+            "proposition": "Trifluridine, Famciclovir",
+            "justification": "La trifluridine est un collyre, mais elle n'est pas un traitement de première ligne, tandis que le famciclovir est une option orale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ganciclovir, Aciclovir",
+            "justification": "Le ganciclovir est plus utilisé pour les infections à CMV, et non pour les infections à HSV et VVZ."
+          }
+        ]
+      }
+    }
+  ]
+}

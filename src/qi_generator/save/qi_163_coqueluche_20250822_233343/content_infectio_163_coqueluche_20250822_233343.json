@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "coqueluche",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755898630092_01",
+      "current_version_epoch_ms": 1755898630092,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Concernant l'éviction en cas de coqueluche, identifier les affirmations exactes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Seul le patient cas index doit respecter une éviction.",
+            "justification": "Il est explicitement indiqué que seul le cas index est concerné par l'éviction."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les sujets contacts proches doivent être évincés de la collectivité.",
+            "justification": "Il n'est pas prévu d'éviction pour l'entourage ; l'éviction ne concerne que le cas index."
+          },
+          {
+            "correct": true,
+            "proposition": "À domicile, la durée d'isolement dépend du traitement antibiotique reçu.",
+            "justification": "Sans antibiothérapie: 21 jours; azithromycine: 3 jours; clarithromycine ou cotrimoxazole: 5 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un cas survient, aucune mesure n'est recommandée pour les contacts.",
+            "justification": "Une antibioprophylaxie des sujets contacts est recommandée en raison de la très haute contagiosité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'entourage doit obligatoirement associer une éviction à l'antibioprophylaxie.",
+            "justification": "Aucune éviction n'est exigée pour l'entourage ; seule l'antibioprophylaxie est recommandée pour les contacts."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898630092_02",
+      "current_version_epoch_ms": 1755898630092,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "À domicile, reconnaître les bonnes correspondances entre traitement et durée d'isolement en cas de coqueluche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En l'absence d'antibiothérapie, l'isolement est de 21 jours.",
+            "justification": "La durée d'isolement sans antibiothérapie est précisée à 21 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous azithromycine, l'isolement est de 3 jours.",
+            "justification": "La durée d'isolement avec azithromycine est de 3 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous clarithromycine, l'isolement est de 5 jours.",
+            "justification": "La durée d'isolement avec clarithromycine est de 5 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous cotrimoxazole, l'isolement est de 5 jours.",
+            "justification": "La durée d'isolement avec cotrimoxazole est de 5 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Toute antibiothérapie permet de réduire l'isolement à 3 jours.",
+            "justification": "Seule l'azithromycine ramène l'isolement à 3 jours; clarithromycine et cotrimoxazole nécessitent 5 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898630092_03",
+      "current_version_epoch_ms": 1755898630092,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Pour un patient hospitalisé atteint de coqueluche, classer les mesures d'isolement appropriées.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chambre individuelle.",
+            "justification": "Une chambre individuelle est requise."
+          },
+          {
+            "correct": true,
+            "proposition": "Précautions complémentaires gouttelettes (masque chirurgical).",
+            "justification": "Les précautions gouttelettes avec masque chirurgical sont indiquées."
+          },
+          {
+            "correct": true,
+            "proposition": "Durée d'isolement similaire à celle du patient à domicile.",
+            "justification": "La durée d'isolement en hospitalisation est précisée comme similaire à celle à domicile."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune précaution complémentaire n'est nécessaire.",
+            "justification": "Des précautions gouttelettes sont explicitement requises."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée d'isolement est plus courte à l'hôpital qu'à domicile.",
+            "justification": "Il est indiqué que la durée est similaire, pas plus courte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898630092_04",
+      "current_version_epoch_ms": 1755898630092,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "À propos de l'antibioprophylaxie des sujets contacts lors d'un cas de coqueluche, sélectionner les propositions correctes.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle suit le même schéma antibiotique que le schéma curatif.",
+            "justification": "Le schéma prophylactique est indiqué comme identique au schéma curatif."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit être prescrite le plus tôt possible après le contage.",
+            "justification": "La prescription précoce après le contage est recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle doit être prescrite au maximum 21 jours après le dernier contage avec le cas index.",
+            "justification": "La fenêtre maximale de prescription est de 21 jours après le dernier contage."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas recommandée car la contagiosité est faible.",
+            "justification": "Elle est recommandée en raison de la très haute contagiosité."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est indiquée que si une éviction de l'entourage est décidée.",
+            "justification": "L'indication de prophylaxie est indépendante d'une éviction de l'entourage, qui n'est pas prévue."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755898630092_05",
+      "current_version_epoch_ms": 1755898630092,
+      "topic": {
+        "subject": "infectio",
+        "item": "coqueluche"
+      },
+      "data": {
+        "statement": "Différencier les indications d'antibioprophylaxie selon le type de contact (proche vs occasionnel) en cas de coqueluche.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour un contact proche (même toit, crèche), elle est indiquée sauf si le sujet est complètement vacciné depuis moins de 5 ans.",
+            "justification": "L'exception pour contact proche concerne un sujet complètement vacciné depuis moins de 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour un contact proche, elle n'est indiquée que si le sujet est à risque.",
+            "justification": "La restriction aux sujets à risque concerne les contacts occasionnels, pas les contacts proches."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour un contact occasionnel (scolaire/professionnel), elle est indiquée uniquement si le sujet est à risque et non ou incomplètement vacciné.",
+            "justification": "La condition 'à risque' et le statut vaccinal non ou incomplet s'appliquent aux contacts occasionnels."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est indiquée chez les sujets en contact avec des nourrissons (maternité, pédiatrie).",
+            "justification": "Les sujets en contact avec des nourrissons sont explicitement concernés."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est jamais indiquée chez les contacts de nourrissons.",
+            "justification": "Les sujets en contact avec des nourrissons font partie des indications."
+          }
+        ]
+      }
+    }
+  ]
+}

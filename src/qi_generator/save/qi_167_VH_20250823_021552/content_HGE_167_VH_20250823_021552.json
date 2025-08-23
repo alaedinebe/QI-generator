@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VH",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755908359035_01",
+      "current_version_epoch_ms": 1755908359035,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Identifier les couples virus – délai d'incubation corrects.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VHA : 10–45 jours",
+            "justification": "Le délai d'incubation du virus A est de 10 à 45 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "VHB : 60–150 jours",
+            "justification": "Le délai d'incubation du virus B est de 60 à 150 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "VHC : 30–45 jours",
+            "justification": "Le virus C a une incubation de 15 à 90 jours, et non 30–45 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "VHD : 30–45 jours",
+            "justification": "Le délai d'incubation du virus D est de 30 à 45 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "VHE : 10–40 jours",
+            "justification": "Le délai d'incubation du virus E est de 10 à 40 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908359035_02",
+      "current_version_epoch_ms": 1755908359035,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "À propos des hépatites virales aiguës, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles sont majoritairement asymptomatiques (≈ 90 % des cas) et bénignes.",
+            "justification": "La majorité des hépatites aiguës virales sont asymptomatiques dans 90 % des cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Le risque d'hépatite fulminante est de 0,5 % pour l'hépatite A (parmi les formes symptomatiques).",
+            "justification": "Pour le VHA, la fulminance est de 0,5 % des formes symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le risque d'hépatite fulminante est d'environ 10 % pour l'hépatite B.",
+            "justification": "Pour le VHB, la fulminance est d'environ 1 % des formes symptomatiques, pas 10 %."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hépatite E peut donner des formes fulminantes < 5 %, surtout en cas d'hépatopathie chronique sous-jacente en France.",
+            "justification": "La fulminance du VHE est < 5 %, principalement sur terrain d'hépatopathie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hépatite C donne fréquemment des hépatites fulminantes.",
+            "justification": "Pour le VHC, l'hépatite fulminante est exceptionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908359035_03",
+      "current_version_epoch_ms": 1755908359035,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Reconnaître les profils sérologiques du VHB.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ag HBs +, anti-HBc IgM +, anti-HBs − → hépatite aiguë B.",
+            "justification": "Présence d'Ag HBs et d'IgM anti-HBc avec absence d'anti-HBs caractérise la phase aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Ag HBs +, anti-HBc IgG +, anti-HBs − → portage chronique.",
+            "justification": "Ag HBs persistant avec IgG anti-HBc et absence d'anti-HBs correspond au portage chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "Ag HBs −, anti-HBc +, anti-HBs +/− → infection B « guérie ».",
+            "justification": "La résolution de l'infection associe anti-HBc positifs et anti-HBs souvent positifs (parfois ±)."
+          },
+          {
+            "correct": true,
+            "proposition": "Ag HBs −, anti-HBc −, anti-HBs + → vaccination efficace.",
+            "justification": "La vaccination induit des anti-HBs isolés sans anti-HBc."
+          },
+          {
+            "correct": false,
+            "proposition": "Ag HBs −, anti-HBc +, anti-HBs − → patients à vacciner.",
+            "justification": "Les patients à vacciner ont des marqueurs tous négatifs ; la présence d'anti-HBc les exclut."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908359035_04",
+      "current_version_epoch_ms": 1755908359035,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Concernant l'évolution naturelle de l'infection chronique par le VHB, quelles affirmations sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'infection chronique est définie par un portage de l'Ag HBs > 6 mois.",
+            "justification": "La chronicité repose sur la persistance de l'Ag HBs au-delà de 6 mois."
+          },
+          {
+            "correct": true,
+            "proposition": "La contamination néonatale expose à un risque élevé d'infection chronique en l'absence de séro-vaccination.",
+            "justification": "À la naissance, le risque de chronicité est élevé sans séro-vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez l'adulte, 50–60 % évoluent vers la chronicité.",
+            "justification": "Chez l'adulte, seuls 5–10 % développent une infection chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "La disparition de l'Ag HBs diminue nettement les complications mais un risque de réactivation persiste, notamment sous immunosuppression.",
+            "justification": "La clairance de l'Ag HBs réduit les complications mais une réactivation reste possible en cas d'immunosuppression."
+          },
+          {
+            "correct": false,
+            "proposition": "L'évolution est linéaire et prévisible au cours du temps.",
+            "justification": "L'évolution n'est pas linéaire ; elle fluctue selon le statut immunitaire et les phases virologiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908359035_05",
+      "current_version_epoch_ms": 1755908359035,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "À propos de l'évolution de l'infection par le VHC, quelles propositions sont exactes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Environ 20 % des patients guérissent spontanément après une phase aiguë.",
+            "justification": "Une proportion d'environ 20 % guérit spontanément."
+          },
+          {
+            "correct": true,
+            "proposition": "Environ 80 % évoluent vers une infection chronique.",
+            "justification": "La chronicité survient chez environ 80 %."
+          },
+          {
+            "correct": true,
+            "proposition": "En cas de chronicité, le risque de cirrhose est de 10 à 20 % après 20 ans d'évolution.",
+            "justification": "Après 20 ans, la cirrhose survient dans 10–20 % des cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Des cofacteurs (co-infection VHB/VIH, alcool chronique, syndrome métabolique) majorent et accélèrent la progression.",
+            "justification": "Ces cofacteurs augmentent et accélèrent le risque de progression fibrosante."
+          },
+          {
+            "correct": false,
+            "proposition": "Parmi les hépatites chroniques virales, l'hépatite C est celle qui expose le plus au risque de cirrhose et de cancer du foie.",
+            "justification": "Le risque le plus élevé de cirrhose et de cancer du foie concerne l'hépatite D."
+          }
+        ]
+      }
+    }
+  ]
+}

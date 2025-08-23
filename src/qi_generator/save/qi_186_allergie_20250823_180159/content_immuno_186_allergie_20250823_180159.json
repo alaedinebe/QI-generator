@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "allergie",
+    "subject": "immuno"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755965126295_01",
+      "current_version_epoch_ms": 1755965126295,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est le principal objectif des tests cutanés en allergologie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Explorer les réactions allergiques immédiates et retardées.",
+            "justification": "Les tests cutanés permettent d'évaluer les réactions immédiates de type I (IgE) et retardées de type IV (lymphocytes T), en fonction de la réponse de la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer uniquement les réactions immédiates de type I.",
+            "justification": "Les tests cutanés incluent aussi l'exploration des réactions retardées de type IV, ce qui les rend plus complets."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser les anticorps IgM présents dans la peau.",
+            "justification": "Les tests cutanés sont centrés sur les IgE spécifiques et non sur les IgM, qui ne sont pas directement impliqués dans les allergies de type I."
+          },
+          {
+            "correct": false,
+            "proposition": "Tester uniquement les allergies alimentaires.",
+            "justification": "Les tests cutanés peuvent explorer diverses allergies, y compris respiratoires et médicamenteuses, pas seulement alimentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclure toutes les formes d'allergie médicamenteuse.",
+            "justification": "Certains tests cutanés, notamment l'IDR, peuvent être utilisés pour explorer les allergies médicamenteuses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755965126295_02",
+      "current_version_epoch_ms": 1755965126295,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Dans quel cas un test de prick est-il considéré comme négatif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aucune papule n'apparait sur le test et une papule urticarienne est présente sur le test à l'histamine.",
+            "justification": "Un test de prick est négatif si aucune réaction n'apparaît avec l'allergène testé, et une réaction à l'histamine est nécessaire pour valider ce résultat."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune papule n'apparait sur le test, mais aucune papule n'est présente sur le test à l'histamine.",
+            "justification": "L'absence de réaction à l'histamine rend le test ininterprétable, il ne peut donc pas être déclaré négatif."
+          },
+          {
+            "correct": false,
+            "proposition": "Une papule d'urticaires apparait mais est inférieure à 3mm.",
+            "justification": "La papule d'urticaires doit être supérieure de 3 mm par rapport au contrôle négatif pour être considérée comme positive."
+          },
+          {
+            "correct": false,
+            "proposition": "Une réaction d'eczéma apparait sur le test.",
+            "justification": "L'eczéma est une réaction retardée (type IV), ce qui n'est pas observé dans les tests de prick, qui évaluent les réactions immédiates."
+          },
+          {
+            "correct": false,
+            "proposition": "Une réaction anaphylactique se produit après le test.",
+            "justification": "Les réactions anaphylactiques sont rares mais peuvent survenir, toutefois elles ne sont pas nécessaires pour déterminer la validité d'un test."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755965126295_03",
+      "current_version_epoch_ms": 1755965126295,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel type de réaction est exploré par le test de patch ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les réactions retardées de type IV (hypersensibilité retardée).",
+            "justification": "Le test de patch explore spécifiquement les réactions retardées de type IV, souvent sous forme d'eczéma."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réactions immédiates de type I (IgE).",
+            "justification": "Les réactions immédiates sont explorées par les tests de prick, et non par le test de patch, qui évalue les réactions retardées."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réactions anaphylactiques immédiates.",
+            "justification": "Les tests de patch n'explorent pas les réactions anaphylactiques, qui sont généralement rares et observées lors de tests intradermiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réactions de type III (complexes immuns).",
+            "justification": "Les réactions de type III ne sont pas explorées par les tests cutanés, qui sont principalement focalisés sur les types I et IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réactions médicamenteuses immédiates.",
+            "justification": "Les tests de patch peuvent inclure des tests médicamenteux, mais ils n'explorent pas les réactions immédiates."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755965126295_04",
+      "current_version_epoch_ms": 1755965126295,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quels sont les effets secondaires possibles du test de prick ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaction locale étendue, urticaire généralisée, rhinopharyngite ou asthme.",
+            "justification": "Les effets secondaires du test de prick incluent des réactions locales bénignes mais peuvent aussi causer une urticaire généralisée ou des symptômes respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Réactions anaphylactiques systématiques.",
+            "justification": "Les réactions anaphylactiques sont exceptionnelles et ne font pas partie des effets secondaires courants des tests de prick."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et douleurs articulaires.",
+            "justification": "Les tests cutanés ne provoquent généralement pas de symptômes systémiques comme la fièvre ou les douleurs articulaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées et troubles digestifs.",
+            "justification": "Ces symptômes ne sont pas typiques des tests cutanés, qui se concentrent sur des réactions locales et cutanées."
+          },
+          {
+            "correct": false,
+            "proposition": "Infections cutanées graves.",
+            "justification": "Les infections graves sont extrêmement rares, car les tests de prick sont réalisés dans des conditions stériles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755965126295_05",
+      "current_version_epoch_ms": 1755965126295,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Que permet l'intra dermo-réaction (IDR) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Explorer les réactions de type I (IgE) et type IV (lymphocytes T).",
+            "justification": "L'IDR permet d'explorer à la fois les réactions immédiates de type I et les réactions retardées de type IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer uniquement les réactions de type I avec une lecture à 48h.",
+            "justification": "Les tests IDR incluent également une lecture immédiate à 15 minutes pour les réactions de type I."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer uniquement les réactions de type IV à 15 minutes.",
+            "justification": "Les réactions de type IV sont évaluées avec une lecture retardée à 48h, et non à 15 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer les réactions d'hypersensibilité de type III.",
+            "justification": "Les tests IDR n'explorent pas les réactions de type III, mais uniquement les types I et IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer uniquement les allergies alimentaires.",
+            "justification": "L'IDR explore plusieurs types d'allergies, dont respiratoires, médicamenteuses et autres, et non uniquement alimentaires."
+          }
+        ]
+      }
+    }
+  ]
+}

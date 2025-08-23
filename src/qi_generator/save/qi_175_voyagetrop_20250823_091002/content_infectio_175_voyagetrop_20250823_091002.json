@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755933208775_01",
+      "current_version_epoch_ms": 1755933208775,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle caractéristique de la fièvre oriente vers un paludisme ou une borréliose des fièvres récurrentes au retour d'un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fièvre récurrente, de type tierce ou quarte",
+            "justification": "La fièvre récurrente est typique du paludisme (tierce ou quarte) et des borrélioses des fièvres récurrentes, permettant d'orienter le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre en plateau",
+            "justification": "La fièvre en plateau est plutôt caractéristique des viroses (arboviroses) et de la fièvre typhoïde, et non des paludismes ou borrélioses récurrentes."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hypothermie intermittente",
+            "justification": "L'hypothermie intermittente n'est pas décrite comme un critère d'orientation dans ces infections."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre continue avec pics quotidiens",
+            "justification": "La fièvre continue avec pics quotidiens est typique d'autres infections comme la fièvre typhoïde, mais pas du paludisme ou des borrélioses récurrentes."
+          },
+          {
+            "correct": false,
+            "proposition": "La fièvre uniquement nocturne",
+            "justification": "La fièvre exclusivement nocturne n'est pas une caractéristique des paludismes ou des borrélioses des fièvres récurrentes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933208775_02",
+      "current_version_epoch_ms": 1755933208775,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle forme de fièvre est typiquement observée lors des arboviroses comme dengue, chikungunya ou zika ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Fièvre récurrente, tierce ou quarte",
+            "justification": "La fièvre récurrente est caractéristique du paludisme ou des borrélioses des fièvres récurrentes, et non des arboviroses."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre en plateau",
+            "justification": "Les arboviroses et la fièvre typhoïde se manifestent par une fièvre en plateau, ce qui aide à orienter le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre avec frissons nocturnes seulement",
+            "justification": "Cette caractéristique n'est pas décrite pour les arboviroses ou la fièvre typhoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre intermittente avec pics toutes les 48h",
+            "justification": "Une fièvre intermittente toutes les 48h est typique du paludisme, pas des arboviroses."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre continue avec aggravation progressive",
+            "justification": "Cette présentation ne correspond pas spécifiquement aux arboviroses selon l'analyse de la courbe thermique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933208775_03",
+      "current_version_epoch_ms": 1755933208775,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Pour quelles infections la courbe thermique montre-t-elle une valeur d'orientation diagnostique significative ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Paludisme et borrélioses des fièvres récurrentes",
+            "justification": "La courbe thermique est utile pour identifier le paludisme et les borrélioses récurrentes grâce à la fièvre récurrente caractéristique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rhinopharyngites virales",
+            "justification": "Les infections respiratoires virales ne présentent pas de fièvre récurrente typique, donc la courbe thermique n'a pas de valeur diagnostique spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Angines bactériennes",
+            "justification": "La fièvre associée aux angines bactériennes n'a pas de forme récurrente spécifique orientant le diagnostic selon la courbe thermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe saisonnière",
+            "justification": "La grippe présente une fièvre généralement en plateau ou continue, pas récurrente, ce qui limite la valeur d'orientation de la courbe thermique."
+          },
+          {
+            "correct": false,
+            "proposition": "Infections urinaires simples",
+            "justification": "Les infections urinaires ne sont pas associées à une fièvre récurrente typique et ne sont donc pas orientées par la courbe thermique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933208775_04",
+      "current_version_epoch_ms": 1755933208775,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel type de fièvre est caractéristique de la fièvre typhoïde ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre en plateau du 3ème septénaire",
+            "justification": "La fièvre typhoïde se manifeste par une fièvre en plateau, souvent au 3ème septénaire, ce qui est un élément d'orientation diagnostique important."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre récurrente tierce ou quarte",
+            "justification": "La fièvre récurrente tierce ou quarte est typique du paludisme, pas de la fièvre typhoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre avec pics nocturnes seulement",
+            "justification": "Cette présentation n'est pas associée à la fièvre typhoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre oscillante de type arbovirose",
+            "justification": "Les arboviroses se caractérisent par une fièvre en plateau, mais pas spécifiquement par un 3ème septénaire comme dans la fièvre typhoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothermie intermittente",
+            "justification": "L'hypothermie intermittente n'est pas une manifestation de la fièvre typhoïde."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933208775_05",
+      "current_version_epoch_ms": 1755933208775,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Pourquoi l'analyse de la courbe thermique est-elle utile au retour d'un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de différencier la fièvre récurrente de la fièvre en plateau, orientant vers certaines infections",
+            "justification": "La courbe thermique aide à distinguer les fièvres récurrentes (paludisme, borrélioses) des fièvres en plateau (arboviroses, fièvre typhoïde), ce qui oriente le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de confirmer le virus exact responsable",
+            "justification": "La courbe thermique n'identifie pas le virus précis mais seulement le type de fièvre, utile pour l'orientation diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle remplace les analyses biologiques pour confirmer l'infection",
+            "justification": "L'analyse de la courbe thermique n'a qu'une valeur d'orientation et ne remplace pas les examens biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle évalue la gravité des infections bactériennes uniquement",
+            "justification": "La courbe thermique n'est pas spécifique aux infections bactériennes et ne mesure pas la gravité, seulement le type de fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de prédire le traitement le plus efficace",
+            "justification": "La courbe thermique n'indique pas le traitement approprié mais aide à orienter le diagnostic."
+          }
+        ]
+      }
+    }
+  ]
+}

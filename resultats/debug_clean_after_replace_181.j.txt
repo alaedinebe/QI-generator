@@ -1,0 +1,103 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître Santé Publique France, les centres nationaux de référence et leurs missions OIC-181-26-B
+
+
+
+Santé Publique France est l'agence nationale de santé publique française. Ses missions sont les suivantes :
+•       Détecter les risques sanitaires par la surveillance et l'observation continue de l'état de santé de la population dans différents domaines (maladies infectieuses, santé environnementale, santé professionnelle, etc.) ;
+•       Améliorer la connaissance sur l'état de santé de la population, les comportements et les risques sanitaires par la veille et la vigilance sanitaires et la conception de stratégies d'intervention en prévention et promotion de la santé ;
+•       Agir pour la santé publique par la mise en œuvre d'actions de promotion et de prévention de la santé et par la réponse aux crises sanitaires, notamment en alertant le ministre chargé de la Santé en cas de menace pour la santé de la population.
+
+
+Santé Publique France a la charge de coordonner l'infectiovigilance et la surveillance des maladies à déclaration obligatoire. Pour la surveillance des maladies transmissibles, Santé Publique France s'appuie notamment sur le réseau des Centres nationaux de référence (CNR). Les CNR sont des laboratoires publics ou privés de santé, d'enseignement et de recherche qui portent des missions d'expertise, de conseil, de surveillance et d'alerte spécifiques à certains micro-organismes pathogènes. Ils sont nommés pour une durée de 5 ans par le ministre en charge de la Santé sur proposition de Santé Publique France. Connaître Santé Publique France, les centres nationaux de référence et leurs missions OIC-181-26-BSanté Publique France est l'agence nationale de santé publique française. Ses missions sont les suivantes :•       Détecter les risques sanitaires par la surveillance et l'observation continue de l'état de santé de la population dans différents domaines (maladies infectieuses, santé environnementale, santé professionnelle, etc.) ;•       Améliorer la connaissance sur l'état de santé de la population, les comportements et les risques sanitaires par la veille et la vigilance sanitaires et la conception de stratégies d'intervention en prévention et promotion de la santé ;•       Agir pour la santé publique par la mise en œuvre d'actions de promotion et de prévention de la santé et par la réponse aux crises sanitaires, notamment en alertant le ministre chargé de la Santé en cas de menace pour la santé de la population.Santé Publique France a la charge de coordonner l'infectiovigilance et la surveillance des maladies à déclaration obligatoire. Pour la surveillance des maladies transmissibles, Santé Publique France s'appuie notamment sur le réseau des Centres nationaux de référence (CNR). Les CNR sont des laboratoires publics ou privés de santé, d'enseignement et de recherche qui portent des missions d'expertise, de conseil, de surveillance et d'alerte spécifiques à certains micro-organismes pathogènes. Ils sont nommés pour une durée de 5 ans par le ministre en charge de la Santé sur proposition de Santé Publique France.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

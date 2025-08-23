@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "risquesRx",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755948963033_01",
+      "current_version_epoch_ms": 1755948963033,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Les effets des rayonnements ionisants dépendent de plusieurs facteurs. Lequel de ces éléments influence la gravité des effets déterministes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La dose en Gy",
+            "justification": "Les effets déterministes surviennent lorsque la dose dépasse un seuil spécifique propre à chaque tissu, et leur gravité augmente avec la dose administrée."
+          },
+          {
+            "correct": false,
+            "proposition": "La nature des rayonnements",
+            "justification": "La nature des rayonnements n'affecte pas directement la gravité des effets déterministes, mais plutôt leur capacité à provoquer des dommages."
+          },
+          {
+            "correct": false,
+            "proposition": "Le volume irradié",
+            "justification": "Le volume irradié n'influence pas directement la gravité des effets déterministes, bien qu'il puisse jouer un rôle dans la probabilité de survenue de ces effets."
+          },
+          {
+            "correct": false,
+            "proposition": "La nature des tissus",
+            "justification": "La nature des tissus peut affecter la survenue d'effets déterministes, mais la gravité est directement liée à la dose reçue, pas au type de tissu."
+          },
+          {
+            "correct": false,
+            "proposition": "Le débit de dose",
+            "justification": "Bien que le débit de dose influence la rapidité des effets, la gravité des effets déterministes dépend principalement de la dose en Gy."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948963033_02",
+      "current_version_epoch_ms": 1755948963033,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quelle caractéristique est propre aux effets stochastiques des rayonnements ionisants ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "La gravité est proportionnelle à la dose reçue",
+            "justification": "Les effets stochastiques n'ont pas de relation dose-effet directe. La gravité reste indépendante de la dose, c'est la fréquence qui augmente avec la dose."
+          },
+          {
+            "correct": true,
+            "proposition": "La survenue est aléatoire et responsable d'une surincidence de cancers",
+            "justification": "Les effets stochastiques, tels que le cancer, se produisent de manière aléatoire, avec une fréquence qui augmente en fonction de la dose."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets apparaissent immédiatement après l'exposition",
+            "justification": "Les effets stochastiques, en particulier les cancers, apparaissent plusieurs années après l'exposition, et non de manière précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils nécessitent des doses supérieures à 100 mSv pour être observés",
+            "justification": "Les effets stochastiques sont difficiles à démontrer à faibles doses (< 100 mSv), mais leur fréquence augmente au fur et à mesure de l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils entraînent des séquelles visibles dans un court délai",
+            "justification": "Les effets stochastiques se manifestent souvent après plusieurs années et ne présentent pas de séquelles immédiates."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948963033_03",
+      "current_version_epoch_ms": 1755948963033,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quel est l'impact principal du débit de dose sur les effets des rayonnements ionisants ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Il augmente la gravité des effets stochastiques",
+            "justification": "Les effets stochastiques sont indépendants du débit de dose, mais augmentent avec la dose totale."
+          },
+          {
+            "correct": true,
+            "proposition": "Il influence la survenue des effets déterministes",
+            "justification": "Un débit de dose élevé accélère l'apparition des effets déterministes, qui dépendent d'un seuil spécifique de dose et de débit."
+          },
+          {
+            "correct": false,
+            "proposition": "Il modifie la probabilité de survenue d'effets génétiques",
+            "justification": "Les effets génétiques n'existent pas dans le cadre des effets stochastiques liés aux irradiations, et le débit de dose n'y est pas impliqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'a aucun impact sur les effets biologiques des rayonnements",
+            "justification": "Le débit de dose a un impact direct sur la rapidité avec laquelle les effets apparaissent, particulièrement pour les effets déterministes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il détermine si un effet sera déterministe ou stochastique",
+            "justification": "Le débit de dose ne détermine pas le type d'effet, mais influence la rapidité de survenue des effets déterministes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948963033_04",
+      "current_version_epoch_ms": 1755948963033,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Dans le cadre de la radioprotection, quel est l'effet des doses inférieures à 100 mSv ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le risque est considéré comme insignifiant pour les patients",
+            "justification": "Les risques stochastiques à des doses inférieures à 100 mSv sont jugés insignifiants en radioprotection des patients."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets déterministes deviennent probables à ces doses",
+            "justification": "Les effets déterministes nécessitent des doses plus élevées (100 à 1000 mGy) pour se manifester."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets stochastiques ne se manifestent jamais en dessous de cette dose",
+            "justification": "Les effets stochastiques peuvent se produire même à faibles doses, mais leur fréquence est difficile à démontrer sous 100 mSv."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'existe pas de relation entre la dose et le risque en dessous de 100 mSv",
+            "justification": "Bien que difficile à démontrer à faibles doses, il existe une relation entre la dose et l'augmentation de la fréquence des effets stochastiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets génétiques deviennent significatifs sous cette dose",
+            "justification": "Les effets génétiques n'existent pas dans les effets stochastiques des rayonnements ionisants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755948963033_05",
+      "current_version_epoch_ms": 1755948963033,
+      "topic": {
+        "subject": "mdt",
+        "item": "risquesRx"
+      },
+      "data": {
+        "statement": "Quel est le seuil nécessaire pour la survenue des effets déterministes ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Supérieur à 100 mSv",
+            "justification": "Les effets déterministes se manifestent à des doses plus faibles, à partir de 100 mGy, pas nécessairement à 100 mSv."
+          },
+          {
+            "correct": true,
+            "proposition": "Supérieur à 100 mGy",
+            "justification": "Les effets déterministes se produisent à partir de 100 mGy, avec un seuil propre à chaque tissu."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 10 mSv",
+            "justification": "Les effets déterministes nécessitent des doses bien plus élevées, généralement à partir de 100 mGy."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 10 mGy",
+            "justification": "Le seuil pour les effets déterministes commence à 100 mGy, pas 10 mGy."
+          },
+          {
+            "correct": false,
+            "proposition": "Indépendant de la dose",
+            "justification": "Les effets déterministes sont dépendants de la dose reçue, et leur gravité augmente avec celle-ci."
+          }
+        ]
+      }
+    }
+  ]
+}

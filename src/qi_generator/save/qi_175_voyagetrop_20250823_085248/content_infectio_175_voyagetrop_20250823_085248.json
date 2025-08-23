@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755932175389_01",
+      "current_version_epoch_ms": 1755932175389,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel élément de l'interrogatoire est essentiel pour évaluer une diarrhée au retour d'un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Préciser le lieu de séjour et la durée du voyage",
+            "justification": "Le lieu et la durée du séjour permettent d'identifier les agents infectieux potentiels liés à la zone géographique et à la durée d'exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "Recueillir les conditions de vie pendant le voyage",
+            "justification": "Les conditions de vie influencent le risque de contamination alimentaire ou hydrique, essentiel pour orienter le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander uniquement les habitudes alimentaires actuelles",
+            "justification": "Les habitudes alimentaires après le retour ne permettent pas de cibler l'agent responsable de la diarrhée survenue pendant le voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Identifier la date de retour et la chronologie des symptômes",
+            "justification": "La date de retour et le début des symptômes aident à définir la période d'incubation et à suspecter certaines infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer uniquement les traitements à domicile après le retour",
+            "justification": "Se concentrer uniquement sur les traitements post-retour ne permet pas de comprendre le contexte d'exposition et la pathogenèse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932175389_02",
+      "current_version_epoch_ms": 1755932175389,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel examen est nécessaire pour détecter les bactéries responsables de diarrhée après un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coproculture standard",
+            "justification": "La coproculture standard permet d'identifier les bactéries pathogènes dans les selles, essentielles pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen sérologique sanguin uniquement",
+            "justification": "Les sérologies sanguines ne détectent pas directement les bactéries présentes dans les selles responsables de diarrhée."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie abdominale",
+            "justification": "La radiographie n'identifie pas les agents infectieux responsables de diarrhée."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie ne permet pas de détecter les bactéries intestinales responsables de diarrhée."
+          },
+          {
+            "correct": false,
+            "proposition": "Test respiratoire à l'hélium",
+            "justification": "Les tests respiratoires n'ont pas d'utilité pour identifier les bactéries intestinales après un voyage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932175389_03",
+      "current_version_epoch_ms": 1755932175389,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle est la démarche correcte pour un examen parasitologique des selles après un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser 3 prélèvements à 3-4 jours d'intervalle minimum",
+            "justification": "La répétition des prélèvements permet d'augmenter la sensibilité de la recherche parasitologique et de ne pas manquer les parasites intermittents."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un seul prélèvement unique",
+            "justification": "Un seul prélèvement peut ne pas détecter les parasites, leur excrétion étant parfois intermittente."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire des prélèvements uniquement si la diarrhée dure plus de 4 semaines",
+            "justification": "L'examen parasitologique doit être réalisé dès la suspicion clinique, indépendamment de la durée prolongée de la diarrhée."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas préciser l'intervalle entre les prélèvements",
+            "justification": "L'intervalle de 3-4 jours entre les prélèvements est nécessaire pour augmenter la probabilité de détection des parasites."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire uniquement un examen microscopique immédiat",
+            "justification": "Un examen unique immédiat peut manquer certains parasites, nécessitant des prélèvements répétés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932175389_04",
+      "current_version_epoch_ms": 1755932175389,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels examens spécifiques sont indiqués pour certaines diarrhées au retour de voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherches de cryptosporidies",
+            "justification": "Certaines diarrhées post-voyage peuvent être dues à Cryptosporidium, nécessitant une recherche spécifique en plus de la coproculture et de l'examen parasitologique standard."
+          },
+          {
+            "correct": true,
+            "proposition": "Recherches d'anguillules",
+            "justification": "L'anguillulose est un parasite intestinal pouvant provoquer une diarrhée prolongée, justifiant une recherche spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des anticorps anti-HSV",
+            "justification": "L'herpès simplex ne cause pas de diarrhée digestive et n'est pas recherché dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM abdominale",
+            "justification": "L'IRM n'a pas de rôle dans la recherche d'agents infectieux responsables de diarrhée post-voyage."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie VIH systématique",
+            "justification": "La sérologie VIH n'est pas directement pertinente pour l'évaluation d'une diarrhée récente au retour de voyage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755932175389_05",
+      "current_version_epoch_ms": 1755932175389,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels aspects de l'interrogatoire permettent d'orienter le diagnostic de diarrhée après un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptomatologie exacte",
+            "justification": "Connaître les symptômes précis (fréquence, aspect, douleur associée) aide à orienter vers un agent infectieux spécifique."
+          },
+          {
+            "correct": true,
+            "proposition": "Traitements en cours",
+            "justification": "Les traitements pris peuvent modifier la flore intestinale ou masquer certains signes, influençant l'interprétation des examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Historique vaccinal antérieur uniquement",
+            "justification": "Bien que utile pour certaines infections, l'historique vaccinal n'oriente pas directement le diagnostic de diarrhée récente."
+          },
+          {
+            "correct": false,
+            "proposition": "Niveau d'éducation",
+            "justification": "Le niveau d'éducation n'a pas de lien direct avec le diagnostic étiologique de diarrhée au retour de voyage."
+          },
+          {
+            "correct": false,
+            "proposition": "Situation financière du patient",
+            "justification": "La situation financière ne fournit pas d'information utile pour le diagnostic clinique de diarrhée post-voyage."
+          }
+        ]
+      }
+    }
+  ]
+}

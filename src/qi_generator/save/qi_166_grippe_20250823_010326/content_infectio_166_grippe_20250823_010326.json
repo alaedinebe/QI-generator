@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755904012914_01",
+      "current_version_epoch_ms": 1755904012914,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les modes de transmission majeurs de la grippe et leurs caractéristiques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La contagion est essentiellement interhumaine et saisonnière, surtout de novembre à février.",
+            "justification": "Il est précisé que la contagion est principalement interhumaine et saisonnière (novembre à février)."
+          },
+          {
+            "correct": true,
+            "proposition": "La transmission interhumaine est directe par voie aérienne via des gouttelettes expulsées lors de la toux ou d'un éternuement.",
+            "justification": "La transmission est décrite comme directe, par gouttelettes de Pflüge émises à la toux/éternuement."
+          },
+          {
+            "correct": false,
+            "proposition": "La période de contagiosité s'étend de 3 jours avant à 10 jours après le début des symptômes.",
+            "justification": "La période indiquée est de 1 jour avant à 6 jours après le début des symptômes, et non 3 à 10 jours."
+          },
+          {
+            "correct": true,
+            "proposition": "Les oiseaux aquatiques, réservoirs du virus influenza A, peuvent transmettre le virus via leurs déjections.",
+            "justification": "Il est mentionné que les oiseaux aquatiques sont réservoirs d'influenza A et transmettent via leurs déjections."
+          },
+          {
+            "correct": false,
+            "proposition": "La transmission est principalement vectorielle par des moustiques.",
+            "justification": "Seules sont indiquées la transmission directe par gouttelettes et celle via déjections d'oiseaux aquatiques ; une transmission vectorielle n'en fait pas partie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904012914_02",
+      "current_version_epoch_ms": 1755904012914,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître la période de contagiosité d'un sujet atteint de grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La contagiosité débute 1 jour avant l'apparition des symptômes.",
+            "justification": "Il est précisé que le sujet est contagieux 1 jour avant le début des symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "La contagiosité peut persister jusqu'à 6 jours après le début des symptômes.",
+            "justification": "La durée maximale indiquée est de 6 jours après le début des symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "La contagiosité commence au moment de l'apparition de la fièvre.",
+            "justification": "Elle commence avant les symptômes, 1 jour auparavant, et ne dépend pas de la seule fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les sujets symptomatiques sont contagieux.",
+            "justification": "La contagiosité précède les symptômes d'un jour, donc elle n'est pas limitée aux sujets symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La période de contagiosité va de 2 jours avant à 7 jours après le début des symptômes.",
+            "justification": "Les bornes indiquées sont 1 jour avant et 6 jours après, pas 2 et 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904012914_03",
+      "current_version_epoch_ms": 1755904012914,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier réservoir et voies de transmission dans la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les oiseaux aquatiques constituent un réservoir du virus influenza A.",
+            "justification": "Il est explicitement indiqué que les oiseaux aquatiques sont réservoirs d'influenza A."
+          },
+          {
+            "correct": false,
+            "proposition": "Le passage du virus des oiseaux à l'homme se fait principalement par contact avec la salive d'oiseaux.",
+            "justification": "Le mode évoqué pour cette source est la transmission via les déjections, pas la salive."
+          },
+          {
+            "correct": true,
+            "proposition": "La transmission depuis les oiseaux aquatiques peut se faire via leurs déjections.",
+            "justification": "Il est indiqué que les déjections d'oiseaux aquatiques peuvent transmettre le virus."
+          },
+          {
+            "correct": true,
+            "proposition": "La contagion est essentiellement interhumaine.",
+            "justification": "Il est précisé que la contagion est principalement interhumaine."
+          },
+          {
+            "correct": true,
+            "proposition": "La transmission interhumaine implique l'émission de gouttelettes lors de la toux ou de l'éternuement.",
+            "justification": "La voie décrite est directe par gouttelettes de Pflüge expulsées à la toux/éternuement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904012914_04",
+      "current_version_epoch_ms": 1755904012914,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les affirmations relatives à la saisonnalité de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La contagion est décrite comme saisonnière.",
+            "justification": "Il est précisé qu'elle est saisonnière."
+          },
+          {
+            "correct": true,
+            "proposition": "La période saisonnière mentionnée s'étend de novembre à février.",
+            "justification": "La fenêtre saisonnière citée est novembre à février."
+          },
+          {
+            "correct": false,
+            "proposition": "La période saisonnière principale se situe au printemps (mars à mai).",
+            "justification": "La période indiquée est novembre à février, pas mars à mai."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune variation saisonnière n'est observée.",
+            "justification": "Une saisonnalité est explicitement mentionnée."
+          },
+          {
+            "correct": false,
+            "proposition": "La période saisonnière typique s'étend d'août à octobre.",
+            "justification": "La période citée est novembre à février, différente d'août à octobre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904012914_05",
+      "current_version_epoch_ms": 1755904012914,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les affirmations exactes sur les circonstances de transmission.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La transmission interhumaine est directe par voie aérienne via des gouttelettes de Pflüge.",
+            "justification": "Ce mode est décrit comme la voie de transmission interhumaine."
+          },
+          {
+            "correct": false,
+            "proposition": "La transmission est exclusivement indirecte par des surfaces inertes.",
+            "justification": "Les voies indiquées sont les gouttelettes respiratoires et les déjections d'oiseaux aquatiques ; une transmission exclusivement par surfaces n'en fait pas partie."
+          },
+          {
+            "correct": true,
+            "proposition": "Une personne peut transmettre la grippe avant l'apparition des symptômes.",
+            "justification": "La contagiosité commence 1 jour avant les symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "La transmission est uniquement animale vers l'homme.",
+            "justification": "Il est précisé que la contagion est essentiellement interhumaine."
+          },
+          {
+            "correct": true,
+            "proposition": "L'éternuement fait partie des situations favorisant l'émission de gouttelettes responsables de la transmission.",
+            "justification": "L'expulsion de gouttelettes lors d'un éternuement est mentionnée comme vecteur de transmission."
+          }
+        ]
+      }
+    }
+  ]
+}

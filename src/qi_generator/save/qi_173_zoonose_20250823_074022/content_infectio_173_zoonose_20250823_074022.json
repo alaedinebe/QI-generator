@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755927829134_01",
+      "current_version_epoch_ms": 1755927829134,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour un adulte présentant un érythème migrant évocateur de la phase primaire de la maladie de Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Doxycycline per os pendant 14 jours",
+            "justification": "Chez l'adulte, la phase primaire de la maladie de Lyme se traite par doxycycline orale pendant 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline per os pendant 14 jours",
+            "justification": "L'amoxicilline est recommandée pour les enfants de moins de 8 ans, pas pour l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Azithromycine per os pendant 7 jours",
+            "justification": "L'azithromycine n'est pas indiquée dans la phase primaire selon les recommandations citées."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas d'antibiothérapie, uniquement surveillance",
+            "justification": "Le constat d'un érythème migrant nécessite un traitement immédiat, sans attendre la surveillance seule."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie avant toute prescription d'antibiotique",
+            "justification": "La sérologie n'est pas indiquée dans la phase primaire en présence d'un érythème migrant à cause de sa mauvaise sensibilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927829134_02",
+      "current_version_epoch_ms": 1755927829134,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle proposition décrit correctement la phase primaire de la maladie de Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Phase localisée précoce caractérisée par un érythème migrant",
+            "justification": "La phase primaire correspond à la phase localisée précoce et se manifeste par un érythème migrant."
+          },
+          {
+            "correct": false,
+            "proposition": "Phase secondaire avec atteinte cardiaque",
+            "justification": "L'atteinte cardiaque survient dans les phases secondaires ou disséminées, pas dans la phase primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Phase chronique avec arthrite",
+            "justification": "L'arthrite est une manifestation tardive et non caractéristique de la phase primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Phase primaire asymptomatique",
+            "justification": "La phase primaire se caractérise par l'apparition d'un érythème migrant, donc elle est symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Phase secondaire précoce avec neuropathie périphérique",
+            "justification": "La neuropathie périphérique correspond à des manifestations tardives et ne définit pas la phase primaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927829134_03",
+      "current_version_epoch_ms": 1755927829134,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Chez quel patient la prescription de sérologie pour la maladie de Lyme est-elle indiquée en phase primaire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Chez l'adulte avec érythème migrant typique",
+            "justification": "La sérologie n'est pas nécessaire en présence d'un érythème migrant à cause de sa faible sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez l'enfant avec érythème migrant typique",
+            "justification": "Même chez l'enfant, la sérologie n'est pas indiquée si l'érythème migrant est présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez un patient asymptomatique exposé à une piqûre de tique",
+            "justification": "La sérologie n'est pas indiquée de manière systématique après exposition, surtout en l'absence de signes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez tout patient avec fièvre isolée",
+            "justification": "La fièvre isolée ne justifie pas la sérologie en phase primaire de la maladie de Lyme."
+          },
+          {
+            "correct": true,
+            "proposition": "La sérologie n'est jamais indiquée en présence d'un érythème migrant",
+            "justification": "En phase primaire avec érythème migrant, la sérologie n'est pas recommandée en raison de sa faible sensibilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927829134_04",
+      "current_version_epoch_ms": 1755927829134,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel antibiotique est recommandé chez un enfant de moins de 8 ans présentant un érythème migrant évocateur de Lyme ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Doxycycline per os pendant 14 jours",
+            "justification": "La doxycycline est réservée aux adultes, et non aux enfants de moins de 8 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Amoxicilline per os pendant 14 jours",
+            "justification": "Chez l'enfant de moins de 8 ans, le traitement de la phase primaire repose sur l'amoxicilline orale pendant 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Ceftriaxone intraveineuse",
+            "justification": "La ceftriaxone IV n'est pas indiquée pour la phase primaire localisée, elle est réservée aux formes disséminées."
+          },
+          {
+            "correct": false,
+            "proposition": "Azithromycine per os pendant 7 jours",
+            "justification": "L'azithromycine n'est pas recommandée dans la phase primaire selon les recommandations citées."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas d'antibiothérapie, uniquement surveillance",
+            "justification": "La présence d'un érythème migrant nécessite un traitement immédiat, la simple surveillance est insuffisante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755927829134_05",
+      "current_version_epoch_ms": 1755927829134,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle affirmation est correcte concernant la prise en charge d'un érythème migrant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un traitement antibiotique doit être initié immédiatement sans examens complémentaires",
+            "justification": "La constatation d'un érythème migrant nécessite la prescription immédiate d'antibiotiques, sans nécessité d'examens complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Une sérologie doit être réalisée avant toute prescription",
+            "justification": "La sérologie n'est pas indiquée en phase primaire avec érythème migrant en raison de sa faible sensibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hospitalisation est systématique",
+            "justification": "L'hospitalisation n'est pas nécessaire pour la phase primaire localisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Seul le repos est recommandé",
+            "justification": "Le traitement repose sur l'antibiothérapie, le repos seul est insuffisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement est différent chez l'adulte et l'enfant de plus de 8 ans",
+            "justification": "Chez l'adulte et l'enfant de plus de 8 ans, le traitement recommandé est la doxycycline, ce n'est pas spécifique à l'âge supérieur à 8 ans."
+          }
+        ]
+      }
+    }
+  ]
+}

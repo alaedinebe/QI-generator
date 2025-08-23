@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755931346690_01",
+      "current_version_epoch_ms": 1755931346690,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quel vaccin est obligatoire pour un séjour en Afrique inter-tropicale ou dans le bassin amazonien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vaccin anti-amaril (fièvre jaune)",
+            "justification": "Le vaccin anti-amaril est obligatoire ou recommandé pour tout séjour en Afrique inter-tropicale ou dans le bassin amazonien afin de prévenir la fièvre jaune."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre l'hépatite A",
+            "justification": "Le vaccin contre l'hépatite A est recommandé dans les zones à bas niveau d'hygiène, mais n'est pas obligatoire pour ces zones."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin typhoïdique",
+            "justification": "Le vaccin typhoïdique est indiqué en cas de séjour prolongé dans des zones à bas niveau d'hygiène, comme le sous-continent indien, mais n'est pas obligatoire pour l'Afrique inter-tropicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin antirabique",
+            "justification": "Le vaccin antirabique est recommandé pour les zones à haut risque de rage et les séjours prolongés, mais n'est pas obligatoire pour l'Afrique inter-tropicale ou le bassin amazonien."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccin contre le méningocoque B",
+            "justification": "Le vaccin méningococcique est obligatoire pour les pèlerinages en Arabie Saoudite et recommandé dans certaines zones d'Afrique, mais pas spécifiquement pour l'Afrique inter-tropicale en général."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931346690_02",
+      "current_version_epoch_ms": 1755931346690,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Pour quel type de voyage le vaccin méningococcique A,B,C,Y,W135 est-il obligatoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pèlerinages en Arabie Saoudite",
+            "justification": "Le vaccin méningococcique est obligatoire pour les pèlerinages en Arabie Saoudite afin de prévenir la propagation de la méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour en Europe de l'Ouest",
+            "justification": "Le vaccin méningococcique n'est pas obligatoire pour un séjour en Europe de l'Ouest, car il n'existe pas de risque épidémique spécifique."
+          },
+          {
+            "correct": true,
+            "proposition": "Séjour dans la ceinture de la méningite en Afrique pendant la saison sèche",
+            "justification": "Le vaccin est recommandé pour tout contact prolongé avec la population locale dans cette zone épidémique, notamment pendant la saison sèche."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour en Amérique du Sud",
+            "justification": "La vaccination contre le méningocoque n'est pas spécifiquement recommandée ou obligatoire pour l'Amérique du Sud."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour touristique en Asie du Sud-Est",
+            "justification": "Le vaccin méningococcique n'est pas recommandé de manière systématique pour cette région."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931346690_03",
+      "current_version_epoch_ms": 1755931346690,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Dans quelle situation le vaccin typhoïdique est-il recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Séjour prolongé en zone à bas niveau d'hygiène",
+            "justification": "Le vaccin typhoïdique est recommandé pour les séjours prolongés dans des zones où l'hygiène est insuffisante, afin de prévenir la fièvre typhoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Court séjour touristique en Europe",
+            "justification": "Le risque de fièvre typhoïde est très faible dans cette situation, donc la vaccination n'est pas recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Sous-continent indien",
+            "justification": "Le sous-continent indien est une zone à risque pour la fièvre typhoïde, justifiant la vaccination surtout pour les séjours prolongés."
+          },
+          {
+            "correct": false,
+            "proposition": "Pèlerinage en Arabie Saoudite",
+            "justification": "Le vaccin typhoïdique n'est pas obligatoire pour les pèlerinages en Arabie Saoudite, qui nécessitent plutôt le vaccin méningococcique."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour en Afrique inter-tropicale",
+            "justification": "Le vaccin typhoïdique n'est pas spécifiquement recommandé pour l'Afrique inter-tropicale, sauf si le séjour est prolongé et à bas niveau d'hygiène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931346690_04",
+      "current_version_epoch_ms": 1755931346690,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Pour quel type de voyage le vaccin antirabique est particulièrement recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Zones à haut risque pour la rage, pays en voie de développement",
+            "justification": "Le vaccin antirabique est recommandé dans ces zones en pré-exposition pour prévenir la rage, particulièrement en cas de morsure à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Enfants en bas âge et séjour prolongé",
+            "justification": "Les enfants en bas âge et les séjours prolongés augmentent le risque de morsure par des animaux porteurs de la rage, justifiant la vaccination préventive."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour court en Europe de l'Ouest",
+            "justification": "Le risque de rage est très faible dans cette région, donc la vaccination n'est pas recommandée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pèlerinage en Arabie Saoudite",
+            "justification": "Le vaccin antirabique n'est pas obligatoire ni spécifiquement recommandé pour les pèlerinages en Arabie Saoudite."
+          },
+          {
+            "correct": false,
+            "proposition": "Séjour dans la ceinture de la méningite en Afrique",
+            "justification": "Le vaccin antirabique n'est pas pertinent pour cette zone ; la vaccination concerne plutôt le méningocoque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755931346690_05",
+      "current_version_epoch_ms": 1755931346690,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quels critères doivent être pris en compte pour décider des vaccins spécifiques du voyageur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lieu de séjour et conditions sanitaires",
+            "justification": "Le lieu de séjour et les conditions sanitaires déterminent les risques infectieux et les vaccins nécessaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Durée du séjour et obligations administratives",
+            "justification": "La durée du séjour et les obligations administratives influencent l'indication de certains vaccins comme la fièvre jaune ou le méningocoque."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents médicaux et statut vaccinal antérieur",
+            "justification": "Les antécédents médicaux et le statut vaccinal antérieur sont essentiels pour éviter les contre-indications et adapter la vaccination."
+          },
+          {
+            "correct": false,
+            "proposition": "Météo locale uniquement",
+            "justification": "La météo n'est pas un critère direct pour la vaccination du voyageur selon les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Préférences personnelles sans rapport médical",
+            "justification": "Les préférences personnelles seules ne suffisent pas à indiquer un vaccin, qui doit être basé sur le risque et les critères médicaux."
+          }
+        ]
+      }
+    }
+  ]
+}

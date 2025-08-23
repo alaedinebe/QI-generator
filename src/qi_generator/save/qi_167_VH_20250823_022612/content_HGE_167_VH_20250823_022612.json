@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VH",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755908979050_01",
+      "current_version_epoch_ms": 1755908979050,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Identifier les mesures initiales à mettre en œuvre devant une hépatite aiguë non compliquée.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contre-indiquer les médicaments potentiellement hépatotoxiques comme le paracétamol.",
+            "justification": "La prise en charge est d'abord symptomatique et impose d'éviter les facteurs aggravants, notamment le paracétamol."
+          },
+          {
+            "correct": true,
+            "proposition": "Éviter les médicaments potentiellement sédatifs, y compris certains antiémétiques.",
+            "justification": "Il est recommandé de contre-indiquer les médicaments sédatifs dont les antiémétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Instaurer d'emblée un antiviral à action directe.",
+            "justification": "Aucune indication d'antiviral n'est mentionnée en première intention dans l'hépatite aiguë, dont le traitement est symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser systématiquement une vaccination VHA/VHB dès le diagnostic.",
+            "justification": "La vaccination VHA/VHB est citée parmi les mesures générales de l'hépatite virale chronique, pas comme mesure initiale de l'hépatite aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Adresser sans délai en centre de transplantation si le TP est inférieur à 50 %.",
+            "justification": "Un TP < 50 % définit une forme sévère imposant une orientation immédiate vers un centre de transplantation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908979050_02",
+      "current_version_epoch_ms": 1755908979050,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Reconnaître les situations imposant une prise en charge spécialisée en cas d'hépatite aiguë sévère/fulminante.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La transplantation hépatique est le seul traitement de l'hépatite fulminante.",
+            "justification": "Il est précisé que la transplantation est le seul traitement dans l'hépatite fulminante."
+          },
+          {
+            "correct": true,
+            "proposition": "Un TP < 50 % justifie une orientation immédiate dans un centre de transplantation.",
+            "justification": "Un taux de prothrombine < 50 % impose un adressage sans délai."
+          },
+          {
+            "correct": false,
+            "proposition": "Une surveillance ambulatoire est suffisante si l'état général est conservé.",
+            "justification": "La sévérité biologique (TP < 50 %) nécessite une orientation spécialisée, indépendamment d'une apparente stabilité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'utilisation d'antiémétiques sédatifs est recommandée pour contrôler les vomissements.",
+            "justification": "Les médicaments sédatifs, dont des antiémétiques, doivent être contre-indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Un antiviral à action directe doit être initié immédiatement.",
+            "justification": "Aucune indication d'antiviral n'est donnée pour l'hépatite fulminante ; la prise en charge spécifique est la transplantation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908979050_03",
+      "current_version_epoch_ms": 1755908979050,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Classer les mesures générales communes à toutes les hépatites virales chroniques.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éliminer les facteurs aggravants, dont la consommation d'alcool, et prendre en charge le syndrome métabolique.",
+            "justification": "Ces mesures générales sont explicitement recommandées quel que soit le virus en cause."
+          },
+          {
+            "correct": true,
+            "proposition": "Rechercher, prévenir et traiter les complications chez les patients ayant une cirrhose.",
+            "justification": "La gestion des complications de la cirrhose fait partie des mesures générales."
+          },
+          {
+            "correct": true,
+            "proposition": "Vacciner contre le VHA et le VHB en l'absence de marqueurs d'immunité acquise.",
+            "justification": "La vaccination VHA/VHB est indiquée parmi les principes de prise en charge chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "Mettre en place la prise en charge à 100 % dans le cadre de l'ALD.",
+            "justification": "L'inscription en ALD fait partie des mesures générales à instaurer."
+          },
+          {
+            "correct": false,
+            "proposition": "Introduire systématiquement un antiviral quel que soit le virus et le stade lésionnel.",
+            "justification": "L'indication d'antiviral n'est pas systématique ; elle dépend de critères précisés pour certaines infections."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908979050_04",
+      "current_version_epoch_ms": 1755908979050,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Différencier les principes thérapeutiques du VHB et du VHD.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il n'y a généralement pas d'indication de traitement des hépatites B et D aiguës.",
+            "justification": "Il est indiqué qu'en aigu, VHB et VHD n'ont généralement pas d'indication de traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Le traitement d'une infection chronique par le VHB repose sur la prise quotidienne d'un antiviral à action directe.",
+            "justification": "La stratégie pour le VHB chronique repose sur un antiviral à action directe pris quotidiennement."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hépatite chronique delta repose sur de nouveaux antiviraux ayant récemment obtenu l'AMM.",
+            "justification": "Des antiviraux récents disposant d'une AMM sont mentionnés pour le VHD chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'indication d'un traitement antiviral est systématique, indépendamment des lésions hépatiques et de la charge virale.",
+            "justification": "L'indication n'est pas systématique et dépend des lésions (inflammation/fibrose) et de la charge virale."
+          },
+          {
+            "correct": true,
+            "proposition": "Une virosuppression durable améliore les lésions hépatiques et réduit fortement les complications.",
+            "justification": "Il est précisé qu'une virosuppression durable s'associe à une amélioration lésionnelle et à une forte réduction des complications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755908979050_05",
+      "current_version_epoch_ms": 1755908979050,
+      "topic": {
+        "subject": "HGE",
+        "item": "VH"
+      },
+      "data": {
+        "statement": "Reconnaître les principes du traitement de l'infection par le VHC.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une guérison virologique est obtenue dans plus de 95 % des cas grâce à des combinaisons d'antiviraux à action directe.",
+            "justification": "Une efficacité >95 % est rapportée avec les combinaisons d'antiviraux à action directe."
+          },
+          {
+            "correct": true,
+            "proposition": "Les patients guéris conservent une sérologie positive (anticorps).",
+            "justification": "Il est indiqué que la sérologie (Ac) reste positive après guérison."
+          },
+          {
+            "correct": false,
+            "proposition": "Les patients guéris sont protégés contre une nouvelle infection.",
+            "justification": "Il est stipulé qu'ils ne sont pas protégés contre une réinfection."
+          },
+          {
+            "correct": true,
+            "proposition": "Ces principes s'appliquent aux infections aiguës et chroniques.",
+            "justification": "La guérison virologique >95 % est indiquée pour l'infection aiguë ou chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour le VHC, l'indication d'antiviral dépend principalement de la sévérité des lésions et de la charge virale.",
+            "justification": "Cette dépendance est précisée pour le VHB/VHD ; elle n'est pas mentionnée comme principe pour le VHC."
+          }
+        ]
+      }
+    }
+  ]
+}

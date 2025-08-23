@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755904426263_01",
+      "current_version_epoch_ms": 1755904426263,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les complications respiratoires basses de la grippe : identifier les entités qui en font partie.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bronchite aiguë",
+            "justification": "Répertoriée parmi les complications respiratoires basses."
+          },
+          {
+            "correct": true,
+            "proposition": "Exacerbations de BPCO",
+            "justification": "Mentionnées comme complications respiratoires basses."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumonie virale primaire (grippe maligne primaire) : pneumopathie alvéolo-interstitielle hypoxémiante (SDRA)",
+            "justification": "Décrite comme une complication respiratoire basse, de type pneumopathie alvéolo-interstitielle hypoxémiante (SDRA)."
+          },
+          {
+            "correct": true,
+            "proposition": "Pneumonie bactérienne secondaire",
+            "justification": "Listée parmi les complications respiratoires basses, avec un contexte évolutif typique."
+          },
+          {
+            "correct": false,
+            "proposition": "Otite",
+            "justification": "Classée dans les complications respiratoires hautes, pas basses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904426263_02",
+      "current_version_epoch_ms": 1755904426263,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les complications respiratoires hautes liées à la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Otites",
+            "justification": "Énoncées parmi les complications respiratoires hautes."
+          },
+          {
+            "correct": true,
+            "proposition": "Sinusites",
+            "justification": "Citées comme complications respiratoires hautes."
+          },
+          {
+            "correct": true,
+            "proposition": "Laryngites",
+            "justification": "Incluses dans les complications respiratoires hautes."
+          },
+          {
+            "correct": true,
+            "proposition": "Surinfections bactériennes possibles",
+            "justification": "Mentionnées au chapitre des complications respiratoires hautes."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie bactérienne secondaire",
+            "justification": "Relève des complications respiratoires basses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904426263_03",
+      "current_version_epoch_ms": 1755904426263,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître la présentation typique d'une pneumonie bactérienne secondaire post-grippale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survient en moyenne entre J5 et J7",
+            "justification": "Temporalité précisée : en moyenne entre J5 et J7."
+          },
+          {
+            "correct": true,
+            "proposition": "S'accompagne d'une réapparition de symptômes respiratoires",
+            "justification": "Décrite avec réapparition de symptômes respiratoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut se manifester par une toux productive",
+            "justification": "La réapparition des symptômes comprend une toux productive."
+          },
+          {
+            "correct": false,
+            "proposition": "Correspond à une pneumopathie alvéolo-interstitielle hypoxémiante (SDRA)",
+            "justification": "Cette description renvoie à la pneumonie virale primaire (grippe maligne), pas à la forme bactérienne secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Constitue une complication respiratoire haute",
+            "justification": "La pneumonie bactérienne secondaire est une complication respiratoire basse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904426263_04",
+      "current_version_epoch_ms": 1755904426263,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer les complications extrarespiratoires de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Troubles digestifs (diarrhée)",
+            "justification": "Répertoriés parmi les complications extrarespiratoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Méningite lymphocytaire avec ou sans encéphalite",
+            "justification": "Explicitement listée comme complication extrarespiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Péricardite",
+            "justification": "Fait partie des complications extrarespiratoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Myocardite",
+            "justification": "Mentionnée comme complication extrarespiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Laryngite",
+            "justification": "Relève des complications respiratoires hautes, non extrarespiratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755904426263_05",
+      "current_version_epoch_ms": 1755904426263,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Caractériser le syndrome de Reye dans le contexte de la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survient chez l'enfant avec grippe B traitée par aspirine",
+            "justification": "Précisé comme association : grippe B, enfant, traitement par aspirine."
+          },
+          {
+            "correct": true,
+            "proposition": "Associe une encéphalite",
+            "justification": "Décrit avec une encéphalite."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut entraîner une hépatite aiguë fulminante",
+            "justification": "Hépatite aiguë fulminante rapportée."
+          },
+          {
+            "correct": true,
+            "proposition": "Évolution létale une fois sur deux",
+            "justification": "Taux de décès indiqué : une fois sur deux."
+          },
+          {
+            "correct": false,
+            "proposition": "Appartient aux complications respiratoires",
+            "justification": "Relève des complications extrarespiratoires."
+          }
+        ]
+      }
+    }
+  ]
+}

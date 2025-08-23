@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755916435781_01",
+      "current_version_epoch_ms": 1755916435781,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Chez un patient présentant une fièvre dans les semaines suivant un retour d'une zone d'endémie palustre, quelle attitude est recommandée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher systématiquement un paludisme jusqu'à preuve du contraire",
+            "justification": "Toute fièvre au retour d'une zone d'endémie doit être considérée comme un paludisme jusqu'à preuve du contraire, même si une autre infection est identifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Attribuer la fièvre uniquement à une infection bactérienne fréquente",
+            "justification": "Même en présence d'une autre infection, le risque de paludisme persiste et doit être recherché systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre 48 heures avant de réaliser un test palustre",
+            "justification": "Le diagnostic ne doit pas être retardé ; toute fièvre doit faire rechercher un paludisme immédiatement après le retour d'une zone d'endémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rechercher un paludisme que si le patient n'a pas pris de prophylaxie",
+            "justification": "Le risque de paludisme existe même en cas de prophylaxie antipalustre correctement suivie."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter la recherche aux patients avec antécédent de paludisme",
+            "justification": "Tous les voyageurs revenant d'une zone d'endémie présentant de la fièvre doivent être évalués, indépendamment des antécédents."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916435781_02",
+      "current_version_epoch_ms": 1755916435781,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel facteur biologique doit inciter à rechercher un paludisme chez un patient de retour d'une zone d'endémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Thrombopénie",
+            "justification": "Une thrombopénie doit faire rechercher un séjour en zone d'endémie palustre et un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperleucocytose",
+            "justification": "L'hyperleucocytose n'est pas spécifiquement mentionnée comme critère incitant à rechercher un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperglycémie",
+            "justification": "L'hyperglycémie n'est pas un facteur biologique indiquant un paludisme chez les voyageurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie ferriprive chronique",
+            "justification": "Bien que l'anémie puisse être présente, le critère biologique spécifique mentionné est la thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercalcémie",
+            "justification": "La hypercalcémie n'est pas liée à la suspicion de paludisme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916435781_03",
+      "current_version_epoch_ms": 1755916435781,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel critère clinique justifie la recherche d'un paludisme après un voyage dans une zone endémique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Toute fièvre survenant après le retour",
+            "justification": "Toute fièvre au retour (jours à mois) d'une zone d'endémie doit être considérée comme un paludisme jusqu'à preuve du contraire."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale isolée",
+            "justification": "La douleur abdominale seule n'est pas mentionnée comme critère imposant la recherche d'un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Rash cutané post-voyage",
+            "justification": "Un rash cutané n'est pas indiqué comme déclencheur systématique pour rechercher un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue légère sans fièvre",
+            "justification": "La fatigue seule n'est pas un critère suffisant pour suspecter un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche persistante",
+            "justification": "La toux sèche n'est pas spécifiquement un signe nécessitant la recherche d'un paludisme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916435781_04",
+      "current_version_epoch_ms": 1755916435781,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "La prophylaxie antipalustre correctement suivie garantit-elle l'absence de paludisme ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Oui, elle élimine totalement le risque",
+            "justification": "Le risque existe même en cas de prise correcte d'une prophylaxie antipalustre adaptée."
+          },
+          {
+            "correct": true,
+            "proposition": "Non, le risque de paludisme persiste malgré la prophylaxie",
+            "justification": "Même avec une prophylaxie correctement suivie, toute fièvre après un séjour en zone d'endémie doit faire rechercher un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, mais uniquement si le patient est asymptomatique",
+            "justification": "La prophylaxie ne garantit pas l'absence de paludisme ; les symptômes peuvent survenir malgré la prophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, sauf si le patient a une thrombopénie",
+            "justification": "La thrombopénie n'élimine pas le risque ; elle est un facteur incitant à rechercher un paludisme, indépendamment de la prophylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, sauf si la fièvre est inférieure à 38°C",
+            "justification": "La température exacte n'exclut pas la nécessité de rechercher un paludisme après un séjour en zone d'endémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755916435781_05",
+      "current_version_epoch_ms": 1755916435781,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quels éléments doivent systématiquement être recherchés dans l'histoire clinique pour suspecter un paludisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Séjour en zone d'endémie palustre",
+            "justification": "Toute fièvre doit faire rechercher un séjour en zone d'endémie palustre."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédent de grippe",
+            "justification": "Un antécédent de grippe n'est pas un critère imposant la recherche d'un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination récente contre la typhoïde",
+            "justification": "La vaccination contre la typhoïde ne modifie pas l'indication de rechercher un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation de fruits exotiques",
+            "justification": "La consommation de fruits exotiques n'est pas un élément déclencheur pour rechercher un paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie saisonnière",
+            "justification": "Une allergie saisonnière ne justifie pas la recherche systématique d'un paludisme."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "VIH",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755914575769_01",
+      "current_version_epoch_ms": 1755914575769,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Chez un patient VIH positif présentant des dépôts blanchâtres sur la langue et le palais, quel est le seuil de CD4 à partir duquel une candidose buccale peut apparaître ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le taux de CD4 est inférieur à 500/mm3",
+            "justification": "La candidose buccale peut apparaître dès que le taux de CD4 est inférieur à 500/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le taux de CD4 est inférieur à 800/mm3",
+            "justification": "Le seuil pertinent pour l'apparition de la candidose buccale est de 500/mm3 et non 800/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le taux de CD4 est inférieur à 200/mm3",
+            "justification": "200/mm3 correspond au seuil pour évoquer une candidose oesophagienne, pas la candidose buccale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le taux de CD4 est supérieur à 500/mm3",
+            "justification": "Une candidose buccale n'apparaît pas lorsque le taux de CD4 est supérieur à 500/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Indépendamment du taux de CD4",
+            "justification": "Le risque de candidose buccale est corrélé au taux de CD4 et n'est pas indépendant de celui-ci."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914575769_02",
+      "current_version_epoch_ms": 1755914575769,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quel est le traitement initial recommandé pour une candidose oesophagienne chez un patient VIH avec dysphagie et CD4 < 200/mm3 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fluconazole sans examen complémentaire préalable",
+            "justification": "Le traitement par fluconazole doit être mis en place rapidement sans autres examens lorsque la dysphagie est associée à CD4 < 200/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoxicilline",
+            "justification": "L'amoxicilline n'est pas indiquée pour le traitement des candidoses oesophagiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie oeso-gastro-duodénale systématique avant traitement",
+            "justification": "La fibroscopie n'est indiquée qu'en cas d'échec du fluconazole, pas avant traitement initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Prednisone orale",
+            "justification": "La prednisone n'a aucun rôle dans le traitement des candidoses oesophagiennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Clarithromycine",
+            "justification": "La clarithromycine n'est pas un traitement antifongique et n'est pas adaptée pour une candidose oesophagienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914575769_03",
+      "current_version_epoch_ms": 1755914575769,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Dans quelle situation une fibroscopie oeso-gastro-duodénale devient-elle nécessaire chez un patient VIH traité pour candidose oesophagienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si le traitement par fluconazole n'améliore pas la dysphagie",
+            "justification": "La fibroscopie est indiquée pour rechercher une autre étiologie en cas d'échec du traitement antifongique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dès l'apparition de dépôts blanchâtres dans la bouche",
+            "justification": "Les dépôts buccaux seuls ne justifient pas de fibroscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour tout patient VIH indépendamment des symptômes",
+            "justification": "La fibroscopie n'est pas systématique, elle est guidée par l'absence d'amélioration de la dysphagie."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le taux de CD4 est supérieur à 500/mm3",
+            "justification": "Un CD4 > 500/mm3 n'est pas une indication pour la fibroscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Après traitement prophylactique par fluconazole",
+            "justification": "La fibroscopie n'est pas réalisée à titre prophylactique mais en cas d'échec thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914575769_04",
+      "current_version_epoch_ms": 1755914575769,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quels signes doivent faire évoquer une candidose oesophagienne plutôt qu'une candidose buccale simple chez un patient VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dysphagie associée à CD4 < 200/mm3",
+            "justification": "La présence de dysphagie avec un CD4 inférieur à 200/mm3 est caractéristique d'une candidose oesophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Dépôts blanchâtres sur la langue avec CD4 > 500/mm3",
+            "justification": "Cela correspond à une candidose buccale et non oesophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée sans dépôts buccaux",
+            "justification": "La fièvre seule n'est pas un signe spécifique de candidose oesophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4 < 500/mm3 sans dysphagie",
+            "justification": "Un CD4 < 500/mm3 peut provoquer une candidose buccale, mais sans dysphagie ce n'est pas une candidose oesophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche avec dépôts buccaux",
+            "justification": "La toux sèche n'est pas un critère pour différencier candidose buccale et oesophagienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755914575769_05",
+      "current_version_epoch_ms": 1755914575769,
+      "topic": {
+        "subject": "infectio",
+        "item": "VIH"
+      },
+      "data": {
+        "statement": "Quels diagnostics doivent être envisagés si la dysphagie persiste malgré un traitement par fluconazole chez un patient VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oesophagite à CMV ou Kaposi digestif",
+            "justification": "En cas d'échec du traitement antifongique, il faut rechercher d'autres étiologies telles que l'oesophagite à CMV ou le Kaposi digestif."
+          },
+          {
+            "correct": false,
+            "proposition": "Angine streptococcique",
+            "justification": "Une angine streptococcique ne provoque pas de dysphagie persistante chez un patient VIH sous fluconazole."
+          },
+          {
+            "correct": false,
+            "proposition": "Sinusite bactérienne",
+            "justification": "La sinusite n'explique pas la dysphagie persistante dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Candidose buccale simple",
+            "justification": "La candidose buccale simple est traitée efficacement par fluconazole, donc elle ne cause pas de dysphagie persistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Grippe saisonnière",
+            "justification": "La grippe ne provoque pas de dysphagie prolongée après traitement antifongique."
+          }
+        ]
+      }
+    }
+  ]
+}

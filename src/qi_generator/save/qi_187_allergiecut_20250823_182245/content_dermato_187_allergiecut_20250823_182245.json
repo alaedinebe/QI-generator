@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "allergiecut",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755966372440_01",
+      "current_version_epoch_ms": 1755966372440,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention pour l'urticaire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antihistaminiques anti H1 de 2ème génération 1 à 2 cpés/jour.",
+            "justification": "Les antihistaminiques anti H1 de 2ème génération sont utilisés en première intention pour traiter l'urticaire aiguë, car ils sont efficaces et bien tolérés."
+          },
+          {
+            "correct": false,
+            "proposition": "Antihistaminiques de 1ère génération à forte dose.",
+            "justification": "Les antihistaminiques de 1ère génération peuvent entraîner plus d'effets secondaires, notamment de la somnolence, ce qui les rend moins recommandés en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticostéroïdes par voie orale.",
+            "justification": "Les corticostéroïdes ne sont pas recommandés en première intention pour l'urticaire aiguë, sauf en cas de forme sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhalation de béta-2 mimétiques.",
+            "justification": "Les béta-2 mimétiques sont utilisés pour traiter le bronchospasme et non l'urticaire aiguë en général."
+          },
+          {
+            "correct": false,
+            "proposition": "Adrénaline par voie intramusculaire.",
+            "justification": "L'adrénaline est utilisée en cas de choc anaphylactique ou d'angio-œdème asphyxiant, et non en traitement de routine pour l'urticaire aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755966372440_02",
+      "current_version_epoch_ms": 1755966372440,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Que faire en cas de chronicisation de l'urticaire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmenter la dose d'antihistaminiques anti H1 de 2ème génération à 4 cpés/jour.",
+            "justification": "En cas de chronicisation de l'urticaire aiguë ou de mauvaise réponse au traitement initial, la posologie des antihistaminiques peut être augmentée à 4 cpés/jour."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer un traitement par corticostéroïdes systématiques.",
+            "justification": "Les corticostéroïdes ne sont pas la première option pour traiter l'urticaire aiguë ou sa chronicisation. Ils peuvent être envisagés dans les formes sévères mais ne sont pas de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre en place un traitement par immunosuppresseurs.",
+            "justification": "Les immunosuppresseurs ne sont pas utilisés dans la gestion de l'urticaire aiguë ou de sa chronicisation à moins d'une forme spécifique et sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter les antihistaminiques de 1ère génération.",
+            "justification": "Les antihistaminiques de 1ère génération sont moins recommandés en raison de leurs effets secondaires, comme la somnolence."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer des antibiotiques.",
+            "justification": "Les antibiotiques ne sont pas indiqués dans le traitement de l'urticaire aiguë ou chronique, sauf en cas de surinfection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755966372440_03",
+      "current_version_epoch_ms": 1755966372440,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Que faire en cas de signes d'anaphylaxie associés à une urticaire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administer de l'adrénaline par voie parentérale en cas de choc anaphylactique.",
+            "justification": "L'adrénaline par voie parentérale est le traitement de choix en cas de choc anaphylactique associé à une urticaire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire des antihistaminiques par voie intraveineuse.",
+            "justification": "Les antihistaminiques ne sont pas suffisants pour traiter une anaphylaxie sévère et doivent être associés à d'autres traitements comme l'adrénaline."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'oxygène uniquement si la saturation est inférieure à 90%.",
+            "justification": "L'oxygénothérapie est indiquée dès la désaturation, pas uniquement quand elle atteint 90%."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer des bêta-bloquants pour contrôler la réaction.",
+            "justification": "Les bêta-bloquants ne sont pas recommandés en cas d'anaphylaxie, car ils peuvent aggraver la situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une perfusion d'antibiotiques.",
+            "justification": "Les antibiotiques ne sont pas indiqués dans le cadre d'une anaphylaxie, sauf en cas d'infection associée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755966372440_04",
+      "current_version_epoch_ms": 1755966372440,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'oxygénothérapie dans le traitement de l'urticaire aiguë avec anaphylaxie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'oxygénothérapie est indiquée si la désaturation en oxygène est présente.",
+            "justification": "L'oxygénothérapie est utilisée pour corriger la désaturation en oxygène, qui peut survenir lors de réactions anaphylactiques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie doit être administrée systématiquement, même sans signes de désaturation.",
+            "justification": "L'oxygénothérapie n'est administrée que si la désaturation est présente. Une utilisation systématique sans indications spécifiques n'est pas justifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie n'est pas nécessaire, car elle ne traite pas l'anaphylaxie.",
+            "justification": "L'oxygénothérapie est un traitement important pour l'anaphylaxie, surtout si la désaturation est présente, elle permet de prévenir les complications respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie doit être administrée uniquement par voie orale.",
+            "justification": "L'oxygénothérapie est administrée par voie intranasale ou en masque, et non par voie orale."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie est utilisée uniquement pour les cas d'urticaires sévères sans anaphylaxie.",
+            "justification": "L'oxygénothérapie est particulièrement importante en cas d'anaphylaxie, où il peut y avoir des problèmes respiratoires graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755966372440_05",
+      "current_version_epoch_ms": 1755966372440,
+      "topic": {
+        "subject": "dermato",
+        "item": "allergiecut"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé en cas de bronchospasme associé à l'urticaire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administration de béta-2 mimétiques inhalés.",
+            "justification": "Les béta-2 mimétiques inhalés sont utilisés pour traiter le bronchospasme en cas de réaction anaphylactique associée à l'urticaire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Antihistaminiques par voie intraveineuse.",
+            "justification": "Les antihistaminiques ne traitent pas directement le bronchospasme et ne sont pas suffisants dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticostéroïdes par voie orale.",
+            "justification": "Les corticostéroïdes peuvent être utilisés dans certains cas sévères, mais ne sont pas le traitement de choix pour le bronchospasme aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'adrénaline par voie intramusculaire.",
+            "justification": "L'adrénaline est utilisée pour traiter les chocs anaphylactiques, mais le bronchospasme est spécifiquement traité par les béta-2 mimétiques inhalés."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiotiques à large spectre.",
+            "justification": "Les antibiotiques ne sont pas utilisés pour traiter le bronchospasme, sauf en cas d'infection secondaire."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître le traitement d'un accès palustre simple OIC-170-08-A
+
+1.1 Antipaludiques disponibles
+1.2 Traitement d'un accès simple à P. falciparum
+
+1.2.1 1ère intention : Association thérapeutique à base d'artémisinine (ACT : Artemisinine-based combination therapy)
+1.2.2 2ème intention : Atovaquone – proguanil ou méfloquine chez l'enfant
+1.2.3 3ème intention : Quinine
+
+
+1.3 Traitement d'un accès simple à non falciparum
+
+1.3.1 1ère intention
+1.3.2 Prévention des accès de reviviscence (suite à un accès à P. vivax ou P. ovale)
+
+
+
+
+
+
+Connaître les modalités du diagnostic d'un accès palustre chez l'adulte et chez l'enfant OIC-170-03-A
+
+
+
+
+La suspicion de paludisme est une URGENCE diagnostique
+La suspicion s'appuie sur des arguments cliniques, épidémiologiques (clinique compatible et notion de séjour en zone d'endémie) et/ou des signes biologiques d'orientation.
+
+Délai d'apparition des symptômes
+Primo-invasion (toutes les espèces)
+Incubation de 1 à 3 semaines en moyenne
+Survenue des accès palustres à P. falciparum : très majoritairement dans les 3 mois qui suivent le début du séjour en zone d'endémie
+Reviviscence (P. vivax ou P. ovale)
+Jusqu'à 3 à 5 ans après le séjour en zone d'endémie
+Recrudescence tardive (P. malariae)
+Jusqu'à plus de 10 ans après le séjour en zone d'endémie
+Clinique de l'accès palustre simple
+Fièvre, frissons, sueurs évoluant par accès avec des intervalles libres
+± Troubles digestifs (nausée, vomissements, diarrhée)
+± Céphalée
+± Splénomégalie
+Clinique de l'accès palustre grave (cf Intitulé : Savoir identifier un accès palustre grave)
+Signes biologiques d'orientation
+NFS
+Thrombopénie (très fréquente)
+Anémie
+Absence d'hyperleucocytose ou lymphopénie
+Bilan biochimique
+Syndrome inflammatoire biologique (CRP élevée)
+Syndrome hémolytique :  LDH (augmentée), Bilirubine libre (augmentée), Haptoglobine (diminuée, examen le plus sensible pour diagnostiquer une hémolyse)
+Cytolyse hépatique, < 10N (ALAT surtout) Sommaire1Connaître le traitement d'un accès palustre simple OIC-170-08-A1.1Antipaludiques disponibles1.2Traitement d'un accès simple àP. falciparum1.2.11èreintention : Association thérapeutique à base d'artémisinine (ACT : Artemisinine-based combination therapy)1.2.22èmeintention : Atovaquone – proguanil ou méfloquine chez l'enfant1.2.33èmeintention : Quinine1.3Traitement d'un accès simple à nonfalciparum1.3.11èreintention1.3.2Prévention des accès de reviviscence (suite à un accès àP. vivaxouP. ovale)Connaître les modalités du diagnostic d'un accès palustre chez l'adulte et chez l'enfant OIC-170-03-ALa suspicion de paludisme est une URGENCE diagnostiqueLa suspicion s'appuie sur des arguments cliniques, épidémiologiques (clinique compatible et notion de séjour en zone d'endémie) et/ou des signes biologiques d'orientation.Délai d'apparition des symptômesPrimo-invasion (toutes les espèces)Incubation de 1 à 3 semaines en moyenneSurvenue des accès palustres àP. falciparum: très majoritairement dans les 3 mois qui suivent le début du séjour en zone d'endémieReviviscence (P. vivaxouP. ovale)Jusqu'à 3 à 5 ans après le séjour en zone d'endémieRecrudescence tardive (P. malariae)Jusqu'à plus de 10 ans après le séjour en zone d'endémieClinique de l'accès palustre simpleFièvre, frissons, sueurs évoluant par accès avec des intervalles libres± Troubles digestifs (nausée, vomissements, diarrhée)± Céphalée± SplénomégalieClinique de l'accès palustre grave (cfIntitulé : Savoir identifier un accès palustre grave)Signes biologiques d'orientationNFSThrombopénie (très fréquente)AnémieAbsence d'hyperleucocytose ou lymphopénieBilan biochimiqueSyndrome inflammatoire biologique (CRP élevée)Syndrome hémolytique :  LDH (augmentée), Bilirubine libre (augmentée), Haptoglobine (diminuée, examen le plus sensible pour diagnostiquer une hémolyse)Cytolyse hépatique, < 10N (ALAT surtout)
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

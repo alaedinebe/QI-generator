@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755906494940_01",
+      "current_version_epoch_ms": 1755906494940,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les examens pertinents pour documenter une infection grippale.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PCR Myxovirus influenzae sur prélèvement nasopharyngé",
+            "justification": "Fait partie des techniques de recherche de la grippe et se réalise sur prélèvement nasopharyngé."
+          },
+          {
+            "correct": true,
+            "proposition": "PCR Myxovirus influenzae sur prélèvements respiratoires profonds",
+            "justification": "La PCR peut être effectuée sur des prélèvements profonds pour rechercher la grippe."
+          },
+          {
+            "correct": true,
+            "proposition": "Détection d'antigènes viraux (ELISA, immunofluorescence) en alternative",
+            "justification": "Constitue une alternative aux techniques moléculaires pour la recherche de la grippe."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologies utiles au diagnostic de grippe",
+            "justification": "Les sérologies sont sans intérêt dans cette recherche."
+          },
+          {
+            "correct": false,
+            "proposition": "Tests antigéniques rapides recommandés pour leur haute sensibilité",
+            "justification": "Ces tests présentent une sensibilité médiocre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906494940_02",
+      "current_version_epoch_ms": 1755906494940,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier les sites de prélèvement adaptés à la PCR Myxovirus influenzae.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Écouvillonnage nasopharyngé",
+            "justification": "Le prélèvement nasopharyngé est indiqué pour la PCR."
+          },
+          {
+            "correct": true,
+            "proposition": "Prélèvements respiratoires profonds",
+            "justification": "Les prélèvements profonds sont possibles pour la PCR."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement prélèvement nasopharyngé, les prélèvements profonds sont contre-indiqués",
+            "justification": "Les prélèvements profonds sont également admis pour la PCR."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucun prélèvement respiratoire n'est nécessaire pour la PCR",
+            "justification": "La PCR s'effectue précisément sur des prélèvements respiratoires nasopharyngés ou profonds."
+          },
+          {
+            "correct": false,
+            "proposition": "La PCR ne s'applique pas aux prélèvements profonds",
+            "justification": "La PCR peut être réalisée sur des prélèvements profonds."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906494940_03",
+      "current_version_epoch_ms": 1755906494940,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer l'intérêt des tests antigéniques rapides (ELISA, immunofluorescence) dans la recherche de grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peuvent être utilisés en alternative à la PCR",
+            "justification": "Ces tests constituent une alternative aux techniques moléculaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Présentent une sensibilité médiocre",
+            "justification": "La sensibilité de ces tests est indiquée comme médiocre."
+          },
+          {
+            "correct": false,
+            "proposition": "Méthode de choix grâce à une sensibilité élevée",
+            "justification": "La sensibilité est mentionnée comme médiocre, pas élevée."
+          },
+          {
+            "correct": true,
+            "proposition": "Peuvent être réalisés par ELISA ou immunofluorescence",
+            "justification": "Les modalités citées sont ELISA et immunofluorescence."
+          },
+          {
+            "correct": false,
+            "proposition": "Sont inutiles dans la recherche de grippe",
+            "justification": "Ils sont une alternative, même si leur sensibilité est médiocre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906494940_04",
+      "current_version_epoch_ms": 1755906494940,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître la place des sérologies dans la recherche de grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sans intérêt",
+            "justification": "Les sérologies sont explicitement indiquées comme sans intérêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Utile pour confirmer le diagnostic",
+            "justification": "Les sérologies ne sont pas utiles dans cette recherche."
+          },
+          {
+            "correct": false,
+            "proposition": "À privilégier en première intention",
+            "justification": "Elles sont sans intérêt et ne doivent pas être privilégiées."
+          },
+          {
+            "correct": false,
+            "proposition": "Peuvent remplacer la PCR",
+            "justification": "Elles n'ont pas d'intérêt et ne remplacent pas la PCR."
+          },
+          {
+            "correct": true,
+            "proposition": "À écarter pour la recherche de grippe",
+            "justification": "Étant sans intérêt, elles doivent être écartées dans cette indication."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906494940_05",
+      "current_version_epoch_ms": 1755906494940,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Choisir la stratégie adaptée de prélèvements/examens chez un patient suspect de grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une PCR Myxovirus influenzae sur prélèvement nasopharyngé",
+            "justification": "La PCR sur prélèvement nasopharyngé fait partie des techniques de recherche."
+          },
+          {
+            "correct": true,
+            "proposition": "Réaliser une PCR Myxovirus influenzae sur prélèvement profond si disponible",
+            "justification": "La PCR peut aussi être conduite sur des prélèvements profonds."
+          },
+          {
+            "correct": true,
+            "proposition": "Proposer un test antigénique rapide (ELISA, immunofluorescence) en alternative en tenant compte de sa sensibilité médiocre",
+            "justification": "Les tests antigéniques sont une alternative mais avec une sensibilité médiocre."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander des sérologies pour confirmer l'infection",
+            "justification": "Les sérologies sont sans intérêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter la PCR sur prélèvements profonds car non adaptée",
+            "justification": "Les prélèvements profonds sont adaptés à la PCR."
+          }
+        ]
+      }
+    }
+  ]
+}

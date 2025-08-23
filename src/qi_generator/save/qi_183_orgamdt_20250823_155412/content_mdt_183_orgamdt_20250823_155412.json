@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "orgamdt",
+    "subject": "mdt"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755957459063_01",
+      "current_version_epoch_ms": 1755957459063,
+      "topic": {
+        "subject": "mdt",
+        "item": "orgamdt"
+      },
+      "data": {
+        "statement": "Quelle est la principale fonction de la fiche d'entreprise rédigée par le médecin du travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consigner les risques professionnels et proposer des mesures pour réduire l'exposition à ces risques.",
+            "justification": "La fiche d'entreprise est destinée à informer l'employeur des risques existants dans l'entreprise et des mesures pour les réduire."
+          },
+          {
+            "correct": false,
+            "proposition": "Recueillir les données médicales détaillées du salarié.",
+            "justification": "Les données médicales spécifiques au salarié sont retracées dans le dossier médical, et non dans la fiche d'entreprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Transmettre l'avis médical sur l'aptitude du salarié à son poste de travail.",
+            "justification": "L'avis d'aptitude est consigné dans la fiche d'aptitude et non dans la fiche d'entreprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Informer le salarié des risques de santé liés à son travail.",
+            "justification": "La fiche d'entreprise s'adresse principalement à l'employeur, et non directement au salarié."
+          },
+          {
+            "correct": false,
+            "proposition": "Détailler la pathologie du salarié pour son suivi médical.",
+            "justification": "Les informations médicales personnelles du salarié sont soumises au secret médical et ne figurent pas dans la fiche d'entreprise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957459063_02",
+      "current_version_epoch_ms": 1755957459063,
+      "topic": {
+        "subject": "mdt",
+        "item": "orgamdt"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de la fiche d'aptitude rédigée par le médecin du travail ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Indiquer l'aptitude ou l'inaptitude du salarié à son poste de travail.",
+            "justification": "La fiche d'aptitude évalue si le salarié est apte ou inapte à son poste, sans mentionner la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Recueillir les antécédents médicaux du salarié.",
+            "justification": "La fiche d'aptitude ne contient pas d'informations sur les antécédents médicaux du salarié."
+          },
+          {
+            "correct": false,
+            "proposition": "Dresser un bilan médical complet du salarié.",
+            "justification": "Le bilan médical complet fait partie du dossier médical, et non de la fiche d'aptitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Fournir des recommandations sur les mesures de sécurité à appliquer dans l'entreprise.",
+            "justification": "Les recommandations en matière de sécurité figurent dans la fiche d'entreprise, non dans la fiche d'aptitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer les risques professionnels auxquels le salarié est exposé.",
+            "justification": "Les risques professionnels sont détaillés dans la fiche d'entreprise et non dans la fiche d'aptitude."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957459063_03",
+      "current_version_epoch_ms": 1755957459063,
+      "topic": {
+        "subject": "mdt",
+        "item": "orgamdt"
+      },
+      "data": {
+        "statement": "Dans quel document est consignée l'état de santé du salarié ainsi que ses expositions professionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dossier médical en santé au travail.",
+            "justification": "Le dossier médical retrace l'état de santé du salarié ainsi que ses expositions professionnelles, en respectant le secret médical."
+          },
+          {
+            "correct": false,
+            "proposition": "La fiche d'entreprise.",
+            "justification": "La fiche d'entreprise contient des informations sur les risques professionnels mais ne retrace pas l'état de santé du salarié."
+          },
+          {
+            "correct": false,
+            "proposition": "La fiche d'aptitude.",
+            "justification": "La fiche d'aptitude indique l'aptitude du salarié à son poste, sans mentionner ses expositions professionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport annuel du médecin du travail.",
+            "justification": "Le rapport annuel est un document de synthèse, mais l'état de santé et les expositions sont principalement dans le dossier médical."
+          },
+          {
+            "correct": false,
+            "proposition": "Le plan de prévention des risques professionnels.",
+            "justification": "Le plan de prévention détaille les mesures à prendre pour limiter les risques, mais ne contient pas l'état de santé du salarié."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957459063_04",
+      "current_version_epoch_ms": 1755957459063,
+      "topic": {
+        "subject": "mdt",
+        "item": "orgamdt"
+      },
+      "data": {
+        "statement": "Que doit contenir la fiche d'entreprise pour être conforme aux obligations légales ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les risques professionnels et les préconisations pour réduire l'exposition à ces risques.",
+            "justification": "La fiche d'entreprise doit inclure les risques professionnels et les mesures pour les atténuer, afin de garantir un environnement de travail sécurisé."
+          },
+          {
+            "correct": false,
+            "proposition": "L'avis sur l'aptitude des salariés à leur poste de travail.",
+            "justification": "L'avis d'aptitude est spécifié dans la fiche d'aptitude, pas dans la fiche d'entreprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Le détail des pathologies des salariés.",
+            "justification": "Les informations médicales sur les salariés sont confidentielles et ne doivent pas figurer dans la fiche d'entreprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Les résultats des examens médicaux réalisés par le médecin du travail.",
+            "justification": "Les résultats des examens médicaux font partie du dossier médical, et non de la fiche d'entreprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Un plan d'urgence en cas de risques majeurs.",
+            "justification": "Bien que les mesures de sécurité puissent être abordées, un plan d'urgence détaillé relève d'autres documents spécifiques à la sécurité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755957459063_05",
+      "current_version_epoch_ms": 1755957459063,
+      "topic": {
+        "subject": "mdt",
+        "item": "orgamdt"
+      },
+      "data": {
+        "statement": "Quelle information n'est pas mentionnée dans la fiche d'aptitude ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La pathologie du salarié.",
+            "justification": "La fiche d'aptitude ne mentionne pas la pathologie du salarié afin de respecter le secret médical."
+          },
+          {
+            "correct": false,
+            "proposition": "L'aptitude du salarié à son poste.",
+            "justification": "L'aptitude à son poste de travail est le but principal de la fiche d'aptitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Les préconisations pour l'adaptation du poste de travail.",
+            "justification": "La fiche d'aptitude peut inclure des recommandations concernant l'adaptation du poste de travail en fonction de l'aptitude."
+          },
+          {
+            "correct": false,
+            "proposition": "L'avis du médecin sur les risques professionnels.",
+            "justification": "L'avis sur les risques professionnels est consigné dans la fiche d'entreprise, mais peut être mentionné indirectement dans la fiche d'aptitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Les résultats des examens médicaux réalisés.",
+            "justification": "Bien que les résultats spécifiques puissent être consignés, ils ne sont pas détaillés dans la fiche d'aptitude."
+          }
+        ]
+      }
+    }
+  ]
+}

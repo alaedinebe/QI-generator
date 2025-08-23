@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755917057813_01",
+      "current_version_epoch_ms": 1755917057813,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel traitement est recommandé en première intention pour un accès palustre simple à Plasmodium falciparum chez un adulte non allergique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association thérapeutique à base d'artémisinine (ACT)",
+            "justification": "L'ACT est la première intention pour traiter un accès palustre simple à P. falciparum selon les recommandations actuelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Atovaquone-proguanil",
+            "justification": "Ceci constitue une alternative de deuxième intention, notamment chez l'enfant, et non la première intention chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine chez l'adulte",
+            "justification": "La méfloquine est recommandée en deuxième intention, surtout chez l'enfant, et non en première intention pour l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine",
+            "justification": "La quinine est une option de troisième intention et n'est pas utilisée en première intention pour un accès simple."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine",
+            "justification": "La chloroquine n'est pas recommandée pour le traitement des accès à P. falciparum en raison de la résistance généralisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917057813_02",
+      "current_version_epoch_ms": 1755917057813,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel examen permet de confirmer de manière urgente le diagnostic de paludisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Frottis sanguin montrant des formes asexuées intra-érythrocytaires de Plasmodium",
+            "justification": "Le frottis sanguin permet d'identifier l'espèce de Plasmodium et de déterminer la parasitémie, constituant le diagnostic de certitude."
+          },
+          {
+            "correct": true,
+            "proposition": "Goutte épaisse (GE)",
+            "justification": "La GE est plus sensible que le frottis et permet le diagnostic même en cas de parasitémie faible, constituant un examen de confirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS",
+            "justification": "La NFS sert à rechercher des critères biologiques de gravité mais ne permet pas de confirmer le diagnostic de paludisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique évalue la gravité mais n'est pas utilisé pour le diagnostic de certitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche d'antigènes non spécifiques",
+            "justification": "Seule la détection d'antigènes spécifiques, notamment de P. falciparum, peut aider au diagnostic mais n'a pas la sensibilité du frottis ou de la GE."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917057813_03",
+      "current_version_epoch_ms": 1755917057813,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quelle mesure est recommandée pour prévenir les accès de reviviscence après un accès à Plasmodium vivax ou P. ovale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement spécifique pour éliminer les formes hypnozoïtes",
+            "justification": "Après un accès à P. vivax ou P. ovale, la prévention des reviviscences repose sur un traitement visant les formes dormantes dans le foie."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement par ACT uniquement",
+            "justification": "L'ACT traite l'accès sanguin initial mais ne prévient pas les reviviscences liées aux hypnozoïtes."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine en monothérapie",
+            "justification": "La quinine traite l'accès sanguin mais ne prévient pas la réapparition due aux hypnozoïtes."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance clinique sans traitement",
+            "justification": "La simple surveillance ne prévient pas les accès de reviviscence et expose à des récidives."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique répété",
+            "justification": "Le bilan hépatique évalue la gravité mais ne constitue pas une prévention des reviviscences."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917057813_04",
+      "current_version_epoch_ms": 1755917057813,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quels examens biologiques font partie de la recherche de critères de gravité du paludisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Créatinine et urée",
+            "justification": "Ces examens permettent d'évaluer une atteinte rénale, critère de gravité du paludisme."
+          },
+          {
+            "correct": true,
+            "proposition": "Gaz du sang et lactatémie",
+            "justification": "Ils aident à identifier une acidose métabolique ou une hypoxie, critère de gravité du paludisme."
+          },
+          {
+            "correct": true,
+            "proposition": "Glycémie",
+            "justification": "L'hypoglycémie est un critère de gravité, d'où l'intérêt de mesurer la glycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche d'antigènes de P. falciparum",
+            "justification": "La détection d'antigènes sert au diagnostic mais ne permet pas d'évaluer la gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique de la peau",
+            "justification": "L'examen cutané n'est pas un examen biologique et ne fait pas partie des critères biologiques de gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917057813_05",
+      "current_version_epoch_ms": 1755917057813,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quelle technique diagnostique est la plus rapide et utilisable dans un laboratoire non spécialisé pour le paludisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test de diagnostic rapide basé sur la détection d'antigènes",
+            "justification": "Les tests rapides permettent d'obtenir un résultat en moins de 30 minutes, utilisables même sans accès à la biologie moléculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Biologie moléculaire",
+            "justification": "Bien que très sensible, la biologie moléculaire nécessite un laboratoire spécialisé et n'est pas rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottis sanguin",
+            "justification": "Le frottis permet le diagnostic de certitude mais prend plus de temps et nécessite un personnel formé."
+          },
+          {
+            "correct": false,
+            "proposition": "Goutte épaisse",
+            "justification": "La GE est sensible mais moins rapide et nécessite une technique de concentration spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS",
+            "justification": "La NFS ne sert pas au diagnostic de paludisme et ne permet pas une détection rapide de l'infection."
+          }
+        ]
+      }
+    }
+  ]
+}

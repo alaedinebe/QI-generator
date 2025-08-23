@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "diarrheeinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755935909717_01",
+      "current_version_epoch_ms": 1755935909717,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quels examens sont essentiels pour évaluer le retentissement d'une déshydratation chez un patient adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Permet d'identifier les déséquilibres électrolytiques fréquents lors d'une déshydratation et d'ajuster la réhydratation."
+          },
+          {
+            "correct": true,
+            "proposition": "Créatininémie",
+            "justification": "Évalue la fonction rénale qui peut être altérée en cas de déshydratation sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Numération formule sanguine (NFS)",
+            "justification": "Permet de détecter une hémoconcentration ou une augmentation des globules blancs en réponse à la déshydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang avec lactates",
+            "justification": "Principalement indiqué pour évaluer le retentissement du sepsis, pas spécifiquement la déshydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie",
+            "justification": "Non mentionnée comme examen de bilan de retentissement dans le contexte de la déshydratation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935909717_02",
+      "current_version_epoch_ms": 1755935909717,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire est prioritaire pour évaluer le retentissement d'un sepsis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Gaz du sang avec lactates",
+            "justification": "Permet de détecter une hypoperfusion tissulaire et un état de choc septique."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation des dysfonctionnements d'organes",
+            "justification": "Important pour identifier l'atteinte multi-organique fréquente lors du sepsis sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Essentiel pour la déshydratation mais moins prioritaire dans l'évaluation initiale du sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS",
+            "justification": "Peut fournir des informations complémentaires mais n'est pas prioritaire pour le retentissement septique."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatininémie",
+            "justification": "Bien qu'elle puisse indiquer une atteinte rénale, elle n'est pas l'examen central pour le bilan de sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935909717_03",
+      "current_version_epoch_ms": 1755935909717,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Dans quelle situation le bilan de retentissement inclut-il l'ionogramme sanguin, la créatininémie et la NFS ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déshydratation",
+            "justification": "Ces examens permettent d'évaluer les conséquences physiologiques de la déshydratation, incluant les désordres électrolytiques et la fonction rénale."
+          },
+          {
+            "correct": false,
+            "proposition": "Sepsis sévère",
+            "justification": "Le sepsis nécessite principalement une évaluation des dysfonctionnements d'organes et des lactates, pas systématiquement ces trois examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoglycémie",
+            "justification": "Le bilan mentionné n'est pas spécifique pour l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie ferriprive",
+            "justification": "La NFS pourrait être utile, mais l'ionogramme et la créatininémie ne sont pas pertinents pour le bilan principal."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "Ces examens ne sont pas indiqués pour évaluer le retentissement de l'hypertension."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935909717_04",
+      "current_version_epoch_ms": 1755935909717,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quels examens permettent de détecter un état de choc septique chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Gaz du sang avec lactates",
+            "justification": "Un taux élevé de lactates sanguins reflète une hypoperfusion tissulaire, indicatrice d'un choc septique."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation des dysfonctionnements d'organes",
+            "justification": "Permet de détecter l'atteinte multi-organique associée au sepsis sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Utile pour la déshydratation mais ne permet pas d'identifier directement un état de choc septique."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS",
+            "justification": "Ne permet pas de confirmer le choc septique, bien qu'elle puisse montrer une réponse inflammatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "Non mentionné comme examen de bilan de retentissement dans le sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935909717_05",
+      "current_version_epoch_ms": 1755935909717,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Parmi les examens suivants, lesquels font partie du bilan de retentissement dans la déshydratation et le sepsis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Créatininémie",
+            "justification": "Évalue la fonction rénale compromise dans la déshydratation et peut être affectée lors du sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Indispensable pour identifier les déséquilibres électrolytiques dans la déshydratation et les perturbations métaboliques du sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "NFS",
+            "justification": "Permet de détecter hémoconcentration, leucocytose ou thrombopénie dans les deux contextes."
+          },
+          {
+            "correct": true,
+            "proposition": "Gaz du sang avec lactates",
+            "justification": "Indique une hypoperfusion et un retentissement métabolique, particulièrement en cas de sepsis."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluation des dysfonctionnements d'organes",
+            "justification": "Permet d'apprécier le retentissement systémique dans les deux situations, surtout pour le sepsis."
+          }
+        ]
+      }
+    }
+  ]
+}

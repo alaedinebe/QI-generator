@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "herpes",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755912298209_01",
+      "current_version_epoch_ms": 1755912298209,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Quel traitement topique est recommandé pour une kératite herpétique liée à HSV selon OIC-168-16-B ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pommade aciclovir 5 fois par jour pendant 5 à 10 jours",
+            "justification": "La prise en charge topique des manifestations ophtalmologiques de l'HSV consiste en l'application d'aciclovir 5 fois par jour pendant 5 à 10 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Corticothérapie locale",
+            "justification": "La corticothérapie est absolument contre-indiquée dans la prise en charge de l'HSV oculaire en raison du risque de perforation cornéenne."
+          },
+          {
+            "correct": false,
+            "proposition": "Anesthésiques locaux",
+            "justification": "Les anesthésiques locaux sont contre-indiqués car ils peuvent masquer une évolution péjorative de la lésion."
+          },
+          {
+            "correct": true,
+            "proposition": "Aciclovir intraveineux en cas de kératite profonde",
+            "justification": "Un traitement par voie intraveineuse est recommandé si la kératite est profonde, en présence d'uvéite ou de nécrose rétinienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiotiques topiques à large spectre",
+            "justification": "Les antibiotiques topiques ne sont pas indiqués dans la prise en charge des manifestations ophtalmologiques de l'HSV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912298209_02",
+      "current_version_epoch_ms": 1755912298209,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, lesquelles constituent des contre-indications absolues dans la prise en charge de l'HSV oculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Corticothérapie",
+            "justification": "La corticothérapie locale est absolument contre-indiquée car elle peut entraîner la perforation de la cornée."
+          },
+          {
+            "correct": true,
+            "proposition": "Anesthésiques locaux",
+            "justification": "Les anesthésiques locaux sont contre-indiqués car ils peuvent masquer l'évolution péjorative de l'atteinte herpétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Aciclovir topique",
+            "justification": "L'aciclovir topique est recommandé et constitue le traitement de choix pour les manifestations ophtalmologiques de l'HSV."
+          },
+          {
+            "correct": false,
+            "proposition": "Aciclovir oral",
+            "justification": "Le traitement oral n'est pas mentionné comme contre-indication mais peut être utilisé dans certains cas spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hygiène oculaire stricte",
+            "justification": "L'hygiène oculaire n'est pas contre-indiquée et peut être recommandée dans la prise en charge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912298209_03",
+      "current_version_epoch_ms": 1755912298209,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Quel examen est indispensable avant de débuter le traitement de l'HSV oculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen ophtalmologique spécialisé",
+            "justification": "La prise en charge spécialisée avec examen ophtalmologique est nécessaire pour évaluer la profondeur et la gravité des lésions herpétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Test sérologique HSV sanguin",
+            "justification": "Le test sérologique sanguin n'est pas requis pour la prise en charge initiale des manifestations ophtalmologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure de la pression intraoculaire sans examen",
+            "justification": "La simple mesure de la pression sans examen spécialisé ne suffit pas à guider le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Fond d'œil en routine chez tout patient",
+            "justification": "Le fond d'œil n'est indiqué que si l'atteinte rétinienne est suspectée, et non systématiquement."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen dermatologique associé",
+            "justification": "L'examen dermatologique n'est pas nécessaire pour la prise en charge ophtalmologique spécifique de l'HSV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912298209_04",
+      "current_version_epoch_ms": 1755912298209,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Dans quelles situations un traitement intraveineux est-il indiqué pour l'HSV oculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Kératite profonde",
+            "justification": "Le traitement intraveineux est indiqué en cas de kératite profonde afin de prévenir des complications sévères."
+          },
+          {
+            "correct": true,
+            "proposition": "Uvée ou nécrose rétinienne",
+            "justification": "La présence d'uvéite ou de nécrose rétinienne justifie l'utilisation d'aciclovir intraveineux."
+          },
+          {
+            "correct": false,
+            "proposition": "Conjonctivite superficielle",
+            "justification": "La conjonctivite superficielle ne nécessite pas de traitement intraveineux."
+          },
+          {
+            "correct": false,
+            "proposition": "Kératite légère sans uvéite",
+            "justification": "Une kératite légère peut être traitée uniquement par aciclovir topique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de lésion cutanée labiale",
+            "justification": "Les lésions labiales n'impliquent pas automatiquement un traitement intraveineux oculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912298209_05",
+      "current_version_epoch_ms": 1755912298209,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Quel est le risque principal associé à l'utilisation de corticothérapie locale dans l'HSV oculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perforation de la cornée",
+            "justification": "La corticothérapie locale peut entraîner jusqu'à la perforation de la cornée et aggraver l'évolution de la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "L'hypertension artérielle n'est pas le risque principal lié à la corticothérapie locale dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétinite herpétique",
+            "justification": "La rétinite herpétique nécessite un traitement intraveineux mais n'est pas causée par la corticothérapie locale."
+          },
+          {
+            "correct": false,
+            "proposition": "Conjonctivite bactérienne",
+            "justification": "La conjonctivite bactérienne n'est pas une complication directe de la corticothérapie dans l'HSV oculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Kératite superficielle",
+            "justification": "La kératite superficielle ne résulte pas de la corticothérapie locale et est généralement traitée par aciclovir topique."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755905459593_01",
+      "current_version_epoch_ms": 1755905459593,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les mesures de première intention du traitement symptomatique (OIC-166-11-A).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Repos",
+            "justification": "Fait partie des mesures de traitement symptomatique (repos, arrêt de travail 5 jours, hydratation, alimentation normale, antalgiques/antipyrétiques)."
+          },
+          {
+            "correct": true,
+            "proposition": "Hydratation",
+            "justification": "Mentionnée explicitement parmi les mesures recommandées du traitement symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Jeûne total",
+            "justification": "Non retenu : l'alimentation normale est recommandée parmi les mesures indiquées."
+          },
+          {
+            "correct": true,
+            "proposition": "Antalgiques et antipyrétiques",
+            "justification": "Indiqués comme éléments du traitement symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie systématique",
+            "justification": "Ne fait pas partie des mesures listées pour le traitement symptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905459593_02",
+      "current_version_epoch_ms": 1755905459593,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître la conduite à tenir concernant l'aspirine chez l'enfant dans le cadre du traitement symptomatique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ne pas prescrire l'aspirine chez les enfants en raison du risque de syndrome de Reye",
+            "justification": "Instruction explicitement indiquée : ne pas prescrire chez l'enfant en raison du risque de syndrome de Reye."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser l'aspirine comme antipyrétique chez l'enfant",
+            "justification": "À l'inverse, il est précisé de ne pas la prescrire chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Autoriser l'aspirine chez l'enfant à faible dose",
+            "justification": "Aucune exception de dose n'est indiquée ; la conduite à tenir est de ne pas prescrire."
+          },
+          {
+            "correct": false,
+            "proposition": "Contre-indication non mentionnée chez l'enfant",
+            "justification": "La contre-indication est explicitement mentionnée en lien avec le syndrome de Reye."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire l'aspirine uniquement si la fièvre dépasse 40 °C",
+            "justification": "Aucune condition de température n'est prévue ; la recommandation est de ne pas prescrire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905459593_03",
+      "current_version_epoch_ms": 1755905459593,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Définir la durée d'arrêt de travail recommandée dans le traitement symptomatique.",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Aucun arrêt de travail n'est recommandé",
+            "justification": "Un arrêt de travail est prévu."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt de travail 3 jours",
+            "justification": "Ne correspond pas à la durée indiquée."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt de travail 5 jours",
+            "justification": "Durée précisée parmi les mesures du traitement symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt de travail 7 jours",
+            "justification": "Ne correspond pas à la durée précisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt de travail 10 jours",
+            "justification": "Ne correspond pas à la durée précisée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905459593_04",
+      "current_version_epoch_ms": 1755905459593,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer la conduite à tenir vis-à-vis du traitement de fond d'une maladie chronique lors d'un épisode nécessitant un traitement symptomatique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Adapter le traitement de fond d'une maladie chronique",
+            "justification": "Fait partie des mesures prévues : adaptation du traitement de fond d'une maladie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêter systématiquement tous les traitements chroniques",
+            "justification": "Aucun arrêt systématique n'est indiqué ; la recommandation porte sur l'adaptation."
+          },
+          {
+            "correct": false,
+            "proposition": "Maintenir strictement le traitement de fond sans aucune modification",
+            "justification": "L'orientation donnée est l'adaptation du traitement de fond."
+          },
+          {
+            "correct": false,
+            "proposition": "Intensifier automatiquement tous les traitements de fond",
+            "justification": "Aucune intensification systématique n'est indiquée ; il est question d'adaptation."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspendre le traitement de fond uniquement la nuit",
+            "justification": "Cette modalité n'est pas indiquée ; la mesure retenue est l'adaptation du traitement de fond."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755905459593_05",
+      "current_version_epoch_ms": 1755905459593,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier les recommandations relatives à l'alimentation et à l'hydratation dans le traitement symptomatique.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alimentation normale",
+            "justification": "Figure parmi les mesures recommandées."
+          },
+          {
+            "correct": false,
+            "proposition": "Restriction hydrique",
+            "justification": "Non prévue ; l'hydratation est au contraire recommandée."
+          },
+          {
+            "correct": true,
+            "proposition": "Hydratation",
+            "justification": "Indiquée explicitement dans les mesures du traitement symptomatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Régime d'éviction généralisée",
+            "justification": "Non mentionné ; l'option retenue est une alimentation normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Jeûne",
+            "justification": "Ne fait pas partie des mesures ; il est précisé de maintenir une alimentation normale."
+          }
+        ]
+      }
+    }
+  ]
+}

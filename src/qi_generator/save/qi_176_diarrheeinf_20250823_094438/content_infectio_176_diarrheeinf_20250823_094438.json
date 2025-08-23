@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "diarrheeinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755935285654_01",
+      "current_version_epoch_ms": 1755935285654,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Chez un enfant présentant une diarrhée liquidienne sans fièvre, quel agent infectieux est le plus probable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rotavirus",
+            "justification": "Chez l'enfant, une diarrhée liquidienne doit en premier lieu orienter vers une cause virale, le rotavirus étant le plus fréquent."
+          },
+          {
+            "correct": false,
+            "proposition": "Shigella spp",
+            "justification": "Shigella spp est associé à des diarrhées glairo-sanglantes avec signes généraux, pas à des diarrhées liquidiennes sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Campylobacter jejuni",
+            "justification": "Campylobacter est typiquement responsable de diarrhées invasives glairo-sanglantes, non de diarrhées liquidiennes sans fièvre chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "EHEC",
+            "justification": "EHEC provoque des diarrhées glairo-sanglantes et peut entraîner un SHU, rarement des diarrhées liquidiennes simples sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Vibrio cholerae",
+            "justification": "Vibrio cholerae est associé à des diarrhées cholériformes et survient généralement dans des contextes humanitaires, pas dans la diarrhée liquidienne isolée de l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935285654_02",
+      "current_version_epoch_ms": 1755935285654,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique typique d'une diarrhée cholériforme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diarrhée liquidienne sans fièvre",
+            "justification": "La diarrhée cholériforme est liquidienne, due à une interaction avec les mécanismes de sécrétion H2O et électrolytes, et n'est pas accompagnée de fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Selles glairo-sanglantes avec ténesmes",
+            "justification": "Les selles glairo-sanglantes avec ténesmes correspondent à une diarrhée dysentérique, non cholériforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée aspécifique avec vomissements",
+            "justification": "La diarrhée aspécifique correspond à une gastro-entérite virale avec vomissements et parfois fièvre, pas à une diarrhée cholériforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée avec sepsis et colite",
+            "justification": "Le sepsis et la colite sont des risques évolutifs d'une diarrhée dysentérique, pas cholériforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée liée à ingestion de volaille contaminée",
+            "justification": "La consommation de volaille est typiquement associée à Campylobacter et à une diarrhée dysentérique, pas cholériforme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935285654_03",
+      "current_version_epoch_ms": 1755935285654,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Dans le contexte d'une TIAC avec plus de deux cas groupés après exposition au même aliment, quels agents sont les plus probables ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bacillus cereus",
+            "justification": "Dans un contexte de TIAC avec plusieurs cas groupés, Bacillus cereus est un agent fréquent."
+          },
+          {
+            "correct": true,
+            "proposition": "Staphylococcus aureus",
+            "justification": "Staphylococcus aureus est également associé à des TIAC avec plusieurs cas groupés après consommation d'aliments contaminés."
+          },
+          {
+            "correct": false,
+            "proposition": "Salmonella typhi",
+            "justification": "Salmonella typhi a une incubation plus longue et n'est pas typiquement responsable de TIAC avec plusieurs cas groupés sur un même aliment."
+          },
+          {
+            "correct": false,
+            "proposition": "Rotavirus",
+            "justification": "Rotavirus provoque des diarrhées virales et n'est pas directement lié à des TIAC alimentaires groupés."
+          },
+          {
+            "correct": false,
+            "proposition": "Yersinia enterocolitica",
+            "justification": "Yersinia spp est associée à des diarrhées invasives mais rarement à des TIAC avec exposition au même aliment."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935285654_04",
+      "current_version_epoch_ms": 1755935285654,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quel agent infectieux est le plus probable chez un adulte présentant une diarrhée après un traitement antibiotique récent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Clostridioides difficile",
+            "justification": "Une diarrhée post-antibiotique est typiquement associée à une infection à Clostridioides difficile."
+          },
+          {
+            "correct": false,
+            "proposition": "Salmonella non Typhi",
+            "justification": "Salmonella non Typhi est plutôt associé à une diarrhée invasive après exposition alimentaire, pas spécifiquement post-antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Rotavirus",
+            "justification": "Le rotavirus est fréquent chez l'enfant, pas chez l'adulte après antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Vibrio cholerae",
+            "justification": "Vibrio cholerae survient dans des contextes humanitaires et n'est pas lié à une diarrhée post-antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Campylobacter jejuni",
+            "justification": "Campylobacter provoque une diarrhée invasive liée à la volaille, non spécifiquement après antibiothérapie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755935285654_05",
+      "current_version_epoch_ms": 1755935285654,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quel agent est suspecté après consommation de viande hachée insuffisamment cuite, pouvant entraîner un SHU ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "E. coli entero-hémorragique (EHEC)",
+            "justification": "La consommation de viande hachée insuffisamment cuite est pourvoyeuse d'infection à EHEC, notamment O157H7, responsable de Syndrome Hémolytique et Urémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Salmonella typhi",
+            "justification": "Salmonella typhi est associée à un retour de zone tropicale et non spécifiquement à la viande hachée insuffisamment cuite."
+          },
+          {
+            "correct": false,
+            "proposition": "Campylobacter jejuni",
+            "justification": "Campylobacter est associé à la volaille et non à la viande hachée de boeuf insuffisamment cuite."
+          },
+          {
+            "correct": false,
+            "proposition": "Staphylococcus aureus",
+            "justification": "Staphylococcus aureus provoque des TIAC, mais pas le SHU lié à la viande hachée insuffisamment cuite."
+          },
+          {
+            "correct": false,
+            "proposition": "Rotavirus",
+            "justification": "Rotavirus provoque une diarrhée virale chez l'enfant, non liée à la viande hachée ou au SHU."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+2025-08-22 22:17:55,009 | INFO | Logs: C:\Users\alaeb\QI-generator\resultats\run_20250822_221755.log
+2025-08-22 22:17:55,239 | INFO | Système: Windows-11-10.0.26100-SP0 | Python 3.13.5
+2025-08-22 22:17:55,240 | INFO | Chemins: lisa=C:\Users\alaeb\QI-generator\lisa | dbo=C:\Users\alaeb\QI-generator\dbo.csv | out=C:\Users\alaeb\QI-generator\resultats
+2025-08-22 22:17:55,244 | ERROR | Échec critique: cannot access local variable 'ms' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\alaeb\QI-generator\src\qi_generator\__main__.py", line 592, in main
+    stats = run(paths, ui)
+  File "C:\Users\alaeb\QI-generator\src\qi_generator\__main__.py", line 435, in run
+    logging.debug("Position souris avant clic: %s", ms.position)
+                                                    ^^
+UnboundLocalError: cannot access local variable 'ms' where it is not associated with a value
+

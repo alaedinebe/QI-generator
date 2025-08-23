@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "exanthemeped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755900283454_01",
+      "current_version_epoch_ms": 1755900283454,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Identifier les situations imposant une prise en charge urgente devant un exanthème fébrile chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Purpura fulminans avec défaillance hémodynamique",
+            "justification": "La défaillance hémodynamique fait rechercher en urgence un purpura fulminans."
+          },
+          {
+            "correct": true,
+            "proposition": "Ulcérations muqueuses avec +/- décollements épidermiques (Stevens–Johnson, Lyell, érythème polymorphe majeur, épidermolyse)",
+            "justification": "La présence d'ulcérations muqueuses et/ou de décollements épidermiques constitue une urgence."
+          },
+          {
+            "correct": true,
+            "proposition": "Érythème et œdème de la face avec adénopathies, altération de l'état général et atteinte multiviscérale (+ hyperéosinophilie) évoquant un DRESS",
+            "justification": "Ce tableau est listé parmi les situations d'urgence à identifier."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre ≥ 5 jours + adénopathies cervicales + atteinte muqueuse (conjonctivite, glossite) + pharyngite + œdèmes des extrémités (Kawasaki)",
+            "justification": "La maladie de Kawasaki (même incomplète) relève d'une évaluation urgente sur un faisceau clinico-biologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Exanthème vésiculo-pustuleux typique de varicelle non compliquée",
+            "justification": "La varicelle fait partie des diagnostics reposant sur la clinique et ne justifie pas d'examen complémentaire en l'absence de situation à risque ; elle n'est pas listée parmi les urgences."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755900283454_02",
+      "current_version_epoch_ms": 1755900283454,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Classer les étiologies associées à un exanthème maculeux sans intervalle de peau saine (scarlatiniforme).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scarlatine",
+            "justification": "Un exanthème scarlatiniforme est associé à la scarlatine."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome de choc toxique staphylococcique",
+            "justification": "Le scarlatiniforme peut s'observer dans le choc toxique staphylococcique."
+          },
+          {
+            "correct": true,
+            "proposition": "Épidermolyse staphylococcique",
+            "justification": "L'épidermolyse staphylococcique figure parmi les causes d'exanthème scarlatiniforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Varicelle",
+            "justification": "La varicelle donne un exanthème vésiculo-pustuleux, pas scarlatiniforme."
+          },
+          {
+            "correct": false,
+            "proposition": "Rougeole",
+            "justification": "La rougeole est classée parmi les exanthèmes maculo-papuleux morbilliformes, pas scarlatiniformes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755900283454_03",
+      "current_version_epoch_ms": 1755900283454,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Reconnaître les causes possibles d'un exanthème maculo-papuleux (morbilliforme) chez l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rougeole",
+            "justification": "La rougeole fait partie des étiologies des exanthèmes maculo-papuleux morbilliformes."
+          },
+          {
+            "correct": true,
+            "proposition": "Rubéole",
+            "justification": "La rubéole est listée parmi les causes de l'exanthème morbilliforme."
+          },
+          {
+            "correct": true,
+            "proposition": "Parvovirus B19 (mégalérythème épidémique)",
+            "justification": "Le Parvovirus B19 est inclus dans les causes d'exanthème maculo-papuleux."
+          },
+          {
+            "correct": true,
+            "proposition": "Roséole (HHV-6)",
+            "justification": "La roséole (HHV-6) est mentionnée parmi les étiologies morbilliformes."
+          },
+          {
+            "correct": false,
+            "proposition": "Scarlatine",
+            "justification": "La scarlatine donne un exanthème scarlatiniforme (maculeux sans intervalle de peau saine), non morbilliforme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755900283454_04",
+      "current_version_epoch_ms": 1755900283454,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Identifier les éléments anamnestiques essentiels à rechercher devant un exanthème fébrile de l'enfant.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antécédents d'immunosuppression et comorbidités",
+            "justification": "Les antécédents, notamment immunosuppression et comorbidités, doivent être recherchés."
+          },
+          {
+            "correct": true,
+            "proposition": "Contage en collectivité et statut vaccinal",
+            "justification": "Le contage (collectivité) et les vaccinations font partie des éléments à explorer."
+          },
+          {
+            "correct": true,
+            "proposition": "Prise de médicaments avec datation précise par rapport au début des signes",
+            "justification": "La prise médicamenteuse et sa chronologie sont explicitement à documenter."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge exact de l'enfant comme unique donnée déterminante",
+            "justification": "L'âge n'est pas listé parmi les éléments anamnestiques à rechercher ; l'accent est mis sur immunosuppression/comorbidités, contage/vaccins et médicaments avec datation."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents familiaux d'atopie comme critère systématique",
+            "justification": "Les antécédents familiaux d'atopie ne sont pas mentionnés parmi les éléments à rechercher."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755900283454_05",
+      "current_version_epoch_ms": 1755900283454,
+      "topic": {
+        "subject": "ped",
+        "item": "exanthemeped"
+      },
+      "data": {
+        "statement": "Déterminer, parmi les situations suivantes, celles qui peuvent être confirmées cliniquement sans examens complémentaires en l'absence de situation à risque.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Varicelle",
+            "justification": "La varicelle peut reposer sur la clinique sans examen complémentaire en l'absence de situation à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Mégalérythème épidémique (Parvovirus B19)",
+            "justification": "Le mégalérythème épidémique fait partie des diagnostics cliniques possibles sans examens en l'absence de risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Exanthème subit (HHV-6)",
+            "justification": "L'exanthème subit peut être diagnostiqué cliniquement sans explorations complémentaires en l'absence de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Mononucléose infectieuse (MNI)",
+            "justification": "La MNI fait partie des diagnostics reposant sur la microbiologie (PCR salive et/ou sang selon le virus ou sérologies avec IgM)."
+          },
+          {
+            "correct": false,
+            "proposition": "Rougeole",
+            "justification": "La rougeole nécessite une confirmation microbiologique (PCR salive et/ou sang selon le virus ou sérologies avec mise en évidence d'IgM)."
+          }
+        ]
+      }
+    }
+  ]
+}

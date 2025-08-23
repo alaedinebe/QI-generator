@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755926589070_01",
+      "current_version_epoch_ms": 1755926589070,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Chez quelle population la sérologie toxoplasmose est-elle systématiquement réalisée au 1er trimestre de grossesse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Femme enceinte",
+            "justification": "La sérologie toxoplasmose est obligatoire au 1er trimestre pour établir le statut immunitaire et prévenir la transmission congénitale."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient infecté par le VIH",
+            "justification": "Bien que la sérologie soit utile chez les patients VIH, le dépistage systématique au 1er trimestre concerne spécifiquement les femmes enceintes."
+          },
+          {
+            "correct": false,
+            "proposition": "Greffé de cellules souches hématopoïétiques",
+            "justification": "Les greffés nécessitent un dépistage sérologique, mais pas dans le cadre systématique du 1er trimestre de grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Immunocompétent asymptomatique",
+            "justification": "Chez les sujets immunocompétents sans symptômes, la recherche systématique n'est pas indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Donneur d'organes mineur",
+            "justification": "Les donneurs d'organes sont dépistés pour des raisons réglementaires, mais cela n'implique pas la grossesse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926589070_02",
+      "current_version_epoch_ms": 1755926589070,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel est le suivi recommandé pour une femme enceinte séronégative pour la toxoplasmose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contrôle mensuel pendant la grossesse et 2-3 semaines après l'accouchement",
+            "justification": "En l'absence d'immunisation, la sérologie est répétée mensuellement et après l'accouchement pour prévenir et détecter une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie uniquement au 3e trimestre",
+            "justification": "Le suivi mensuel débute dès le 1er trimestre, pas uniquement au 3e trimestre."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas de contrôle si la patiente est asymptomatique",
+            "justification": "Le suivi est obligatoire même en l'absence de symptômes pour prévenir la transmission congénitale."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôle uniquement après l'accouchement",
+            "justification": "Le contrôle post-natal seul ne permet pas de détecter une infection fœtale précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie tous les 6 mois",
+            "justification": "La fréquence mensuelle est recommandée, pas tous les 6 mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926589070_03",
+      "current_version_epoch_ms": 1755926589070,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Chez quel patient immunodéprimé la toxoplasmose peut-elle se réactiver principalement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Patient infecté par le VIH avec CD4 < 200/mm3",
+            "justification": "La réactivation survient principalement chez les patients VIH avec lymphocytes CD4 inférieurs à 200/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "Immunocompétent avec polyadénopathies",
+            "justification": "Chez l'immunocompétent, la toxoplasmose est rarement symptomatique et ne se réactive pas."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient greffé de cellules souches hématopoïétiques",
+            "justification": "Ces patients sont à risque de toxoplasmose évolutive et nécessitent un dépistage sérologique."
+          },
+          {
+            "correct": true,
+            "proposition": "Patient transplanté d'organe solide",
+            "justification": "Les transplantés d'organes solides présentent un risque de primo-infection ou réactivation nécessitant un suivi sérologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Femme enceinte immunisée",
+            "justification": "Une femme enceinte immunisée ne présente pas de risque de réactivation de toxoplasmose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926589070_04",
+      "current_version_epoch_ms": 1755926589070,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quels symptômes chez un sujet immunocompétent peuvent évoquer une infection toxoplasmique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asthénie",
+            "justification": "L'asthénie fait partie des principaux symptômes évocateurs chez le sujet immunocompétent."
+          },
+          {
+            "correct": true,
+            "proposition": "Fièvre",
+            "justification": "La fièvre est fréquente dans les infections toxoplasmiques symptomatiques chez l'immunocompétent."
+          },
+          {
+            "correct": true,
+            "proposition": "Polyadénopathies cervico-occipitales",
+            "justification": "Les polyadénopathies, en particulier cervico-occipitales, sont un signe clinique évocateur."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes neurologiques sévères",
+            "justification": "Les signes neurologiques graves sont typiques de l'infection chez l'immunodéprimé, pas l'immunocompétent."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles respiratoires majeurs",
+            "justification": "Les manifestations pulmonaires graves sont rares chez les sujets immunocompétents."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755926589070_05",
+      "current_version_epoch_ms": 1755926589070,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Dans quelles situations le dépistage de la toxoplasmose est-il obligatoire selon la réglementation française ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Femme enceinte",
+            "justification": "La loi impose la sérologie toxoplasmose durant la grossesse pour prévenir la transmission congénitale."
+          },
+          {
+            "correct": true,
+            "proposition": "Donneur d'organes",
+            "justification": "Le dépistage est réglementaire chez les donneurs d'organes pour prévenir les transmissions à risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Patients greffés de cellules souches hématopoïétiques",
+            "justification": "La sérologie est obligatoire pour identifier les schémas sérologiques à risque de toxoplasmose grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Immunocompétent asymptomatique",
+            "justification": "Aucune obligation réglementaire n'existe pour les sujets immunocompétents sans symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Patient VIH avec CD4 > 500/mm3",
+            "justification": "Le dépistage est prioritaire chez les patients VIH à risque élevé (CD4 < 200/mm3), pas ceux avec CD4 élevés."
+          }
+        ]
+      }
+    }
+  ]
+}

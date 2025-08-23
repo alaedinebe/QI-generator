@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "herpes",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755912713574_01",
+      "current_version_epoch_ms": 1755912713574,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Chez quel patient le vaccin contre la varicelle est-il indiqué si l'immunisation n'a pas été réalisée dans l'enfance ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Adolescent sans antécédent de varicelle et sérologie négative",
+            "justification": "Le vaccin est indiqué chez l'adolescent non immunisé pour prévenir la varicelle."
+          },
+          {
+            "correct": true,
+            "proposition": "Femme en âge de procréer sans grossesse et avec contraception efficace",
+            "justification": "Le vaccin est indiqué pour protéger la femme en âge de procréer non immunisée, sous contraception efficace 1 mois après l'injection."
+          },
+          {
+            "correct": false,
+            "proposition": "Enfant déjà immunisé par la varicelle naturelle",
+            "justification": "L'immunisation naturelle rend le vaccin inutile."
+          },
+          {
+            "correct": true,
+            "proposition": "Professionnel de santé non immunisé",
+            "justification": "Les professionnels de santé non immunisés sont une population cible pour le vaccin."
+          },
+          {
+            "correct": true,
+            "proposition": "Adulte exposé à un cas de varicelle depuis moins de 72 heures",
+            "justification": "Le vaccin peut être administré à un adulte exposé à un cas récent pour prévenir la varicelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912713574_02",
+      "current_version_epoch_ms": 1755912713574,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du vaccin contre le zona chez les sujets âgés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éviter la réactivation du virus varicelle-zona",
+            "justification": "Le vaccin vise à prévenir la réactivation du virus responsable du zona chez les sujets âgés."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer complètement le virus de l'organisme",
+            "justification": "Le vaccin ne supprime pas le virus latent mais réduit le risque de réactivation."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéger les enfants contre la varicelle",
+            "justification": "Le vaccin contre le zona n'a pas pour objectif de protéger les enfants."
+          },
+          {
+            "correct": true,
+            "proposition": "Réduire l'incidence du zona de 50 % dans les 3 ans post-vaccination",
+            "justification": "L'efficacité modeste du vaccin se traduit par une réduction d'environ 50 % de l'incidence du zona dans les 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévenir la varicelle chez l'adulte exposé",
+            "justification": "Cet objectif correspond au vaccin contre la varicelle, pas au vaccin contre le zona."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912713574_03",
+      "current_version_epoch_ms": 1755912713574,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Quel est l'âge recommandé pour recevoir le vaccin contre le zona selon le HCSP ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "65-74 ans",
+            "justification": "Le HCSP recommande la vaccination contre le zona chez les sujets âgés de 65 à 74 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "50-60 ans",
+            "justification": "Cette tranche d'âge n'est pas celle recommandée par le HCSP pour le vaccin contre le zona."
+          },
+          {
+            "correct": false,
+            "proposition": "15-18 ans",
+            "justification": "Cette tranche correspond aux adolescents pour le vaccin contre la varicelle, pas le zona."
+          },
+          {
+            "correct": false,
+            "proposition": "75-85 ans",
+            "justification": "Après 70 ans, l'efficacité du vaccin contre le zona est moindre et cette tranche n'est pas recommandée en routine."
+          },
+          {
+            "correct": false,
+            "proposition": "30-40 ans",
+            "justification": "Cette tranche d'âge ne fait pas partie des recommandations pour le vaccin contre le zona."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912713574_04",
+      "current_version_epoch_ms": 1755912713574,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Pour prévenir une névralgie post-zostérienne, combien de personnes doivent être vaccinées contre le zona pour éviter un cas supplémentaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "364 personnes",
+            "justification": "Il faut vacciner 364 personnes pour prévenir un cas supplémentaire de névralgie post-zostérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "100 personnes",
+            "justification": "Le nombre correct pour prévenir un cas supplémentaire est bien supérieur à 100."
+          },
+          {
+            "correct": false,
+            "proposition": "50 personnes",
+            "justification": "La prévention d'un cas supplémentaire nécessite plus de 50 vaccinations."
+          },
+          {
+            "correct": false,
+            "proposition": "1 000 personnes",
+            "justification": "Le chiffre exact donné est 364, pas 1 000."
+          },
+          {
+            "correct": false,
+            "proposition": "10 personnes",
+            "justification": "La prévention d'un cas supplémentaire nécessite beaucoup plus que 10 vaccinations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755912713574_05",
+      "current_version_epoch_ms": 1755912713574,
+      "topic": {
+        "subject": "dermato",
+        "item": "herpes"
+      },
+      "data": {
+        "statement": "Chez quelles populations le vaccin contre la varicelle est-il prioritairement recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Professionnels au contact de la petite enfance",
+            "justification": "Les professionnels exposés aux enfants non immunisés sont des candidats prioritaires pour le vaccin."
+          },
+          {
+            "correct": true,
+            "proposition": "Femmes en âge de procréer sans immunisation",
+            "justification": "La vaccination est indiquée chez les femmes en âge de procréer non immunisées pour prévenir des complications lors d'une grossesse future."
+          },
+          {
+            "correct": false,
+            "proposition": "Enfants ayant déjà eu la varicelle",
+            "justification": "Les enfants immunisés naturellement n'ont pas besoin du vaccin."
+          },
+          {
+            "correct": true,
+            "proposition": "Professionnels de santé non immunisés",
+            "justification": "Les professionnels de santé non immunisés sont à risque d'exposition et doivent être vaccinés."
+          },
+          {
+            "correct": false,
+            "proposition": "Adultes âgés de 80 ans",
+            "justification": "Le vaccin contre la varicelle n'est pas recommandé pour les adultes âgés déjà immunisés ou pour le risque de zona, qui concerne le vaccin spécifique zona."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "voyagetrop",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755933002092_01",
+      "current_version_epoch_ms": 1755933002092,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Un patient revient d'une zone tropicale avec une fièvre, des céphalées, myalgies et un exanthème maculo-papuleux survenu 5 jours après son retour. Quelle est l'étiologie la plus probable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dengue",
+            "justification": "La survenue de la fièvre et du syndrome algo-éruptif moins de 7 jours après le retour est très évocatrice d'une arbovirose telle que la dengue."
+          },
+          {
+            "correct": false,
+            "proposition": "Paludisme",
+            "justification": "Le paludisme a une incubation généralement supérieure à 7 jours, surtout après un séjour en Afrique subsaharienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatite virale A",
+            "justification": "L'hépatite virale A a une incubation longue supérieure à 14 jours, donc moins probable dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoebose intestinale",
+            "justification": "L'amoebose intestinale se manifeste typiquement plusieurs mois après le retour, souvent sans fièvre initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Typhoïde",
+            "justification": "La typhoïde a une incubation de 7 à 14 jours, ce qui ne correspond pas à une apparition des symptômes à 5 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933002092_02",
+      "current_version_epoch_ms": 1755933002092,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Un patient présente une fièvre avec céphalées, myalgies, arthralgies, nausées, diarrhée et ictère deux semaines après un voyage en Afrique subsaharienne. Quel diagnostic doit être évoqué en priorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Paludisme",
+            "justification": "Une fièvre associée à un syndrome algique, des troubles digestifs et un ictère survenant plus de 14 jours après le retour évoque prioritairement le paludisme."
+          },
+          {
+            "correct": true,
+            "proposition": "Hépatite virale A",
+            "justification": "Chez un sujet non vacciné, une hépatite virale A aiguë peut également se manifester après plus de deux semaines, surtout en présence d'ictère."
+          },
+          {
+            "correct": false,
+            "proposition": "Dengue",
+            "justification": "La dengue se manifeste généralement moins de 7 jours après le retour et est associée à un syndrome algo-éruptif, sans troubles digestifs majeurs ni ictère."
+          },
+          {
+            "correct": false,
+            "proposition": "Chikungunya",
+            "justification": "Chikungunya a une incubation courte (<7 jours) et ne provoque pas d'ictère, ce qui ne correspond pas au tableau clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoebose intestinale",
+            "justification": "L'amoebose intestinale survient plusieurs mois après le retour, souvent sans fièvre initiale, donc improbable ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933002092_03",
+      "current_version_epoch_ms": 1755933002092,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Un patient revient d'un voyage tropical et présente un syndrome dysentérique sans fièvre plusieurs mois après son retour. Quelle est l'étiologie la plus probable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amoebose intestinale aiguë (colite amibienne)",
+            "justification": "Un syndrome dysentérique sans fièvre survenant plusieurs mois après le retour évoque en priorité une amoebose intestinale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Paludisme",
+            "justification": "Le paludisme se manifeste généralement dans les 7 à 14 jours ou après plus de deux semaines, mais pas plusieurs mois après, et n'est pas dysentérique sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Typhoïde",
+            "justification": "La typhoïde apparaît dans les 7 à 14 jours après l'exposition, et n'est pas caractérisée par un syndrome dysentérique tardif sans fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Dengue",
+            "justification": "La dengue se manifeste précocement, moins de 7 jours après l'exposition, et n'induit pas de syndrome dysentérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatite virale B",
+            "justification": "L'hépatite B a une incubation longue mais n'entraîne pas typiquement un syndrome dysentérique isolé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933002092_04",
+      "current_version_epoch_ms": 1755933002092,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Parmi les infections suivantes, lesquelles peuvent présenter une incubation comprise entre 7 et 14 jours ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Paludisme",
+            "justification": "Le paludisme peut avoir une incubation intermédiaire de 7 à 14 jours, en fonction du type de Plasmodium et de l'exposition."
+          },
+          {
+            "correct": true,
+            "proposition": "Typhoïde",
+            "justification": "La typhoïde a typiquement une incubation de 7 à 14 jours, permettant d'orienter le diagnostic selon la chronologie des symptômes."
+          },
+          {
+            "correct": true,
+            "proposition": "Borrélioses",
+            "justification": "Certaines borrélioses présentent une incubation intermédiaire de 7 à 14 jours, compatible avec l'exposition et la survenue des symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Choléra",
+            "justification": "Le choléra a une incubation courte (<7 jours), donc ne correspond pas à une incubation de 7 à 14 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Amoebose",
+            "justification": "L'amoebose a une incubation longue (>14 jours), souvent plusieurs semaines ou mois après l'exposition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755933002092_05",
+      "current_version_epoch_ms": 1755933002092,
+      "topic": {
+        "subject": "infectio",
+        "item": "voyagetrop"
+      },
+      "data": {
+        "statement": "Quelle infection est la plus probable si la diarrhée apparaît moins de 7 jours après le retour d'un voyage tropical ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Shigellose",
+            "justification": "Une diarrhée infectieuse survenant moins de 7 jours après le retour est typiquement due à une infection à Shigella."
+          },
+          {
+            "correct": true,
+            "proposition": "Salmonellose mineure",
+            "justification": "Les salmonelloses mineures apparaissent dans les 7 jours suivant l'exposition, correspondant à une incubation courte."
+          },
+          {
+            "correct": true,
+            "proposition": "Choléra",
+            "justification": "Le choléra a une incubation courte (<7 jours), souvent responsable de diarrhée aiguë après le retour d'un voyage tropical."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatite virale A",
+            "justification": "L'hépatite virale A a une incubation longue (>14 jours) et n'entraîne pas de diarrhée immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Typhoïde",
+            "justification": "La typhoïde se manifeste plutôt après 7 à 14 jours, donc n'explique pas une diarrhée survenue avant 7 jours."
+          }
+        ]
+      }
+    }
+  ]
+}

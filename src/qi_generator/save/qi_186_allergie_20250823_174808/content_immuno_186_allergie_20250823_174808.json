@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "allergie",
+    "subject": "immuno"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755964295546_01",
+      "current_version_epoch_ms": 1755964295546,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est l'aliment le plus fréquemment impliqué dans l'allergie alimentaire anaphylactique sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'arachide",
+            "justification": "L'arachide est l'aliment le plus fréquemment impliqué dans l'allergie alimentaire anaphylactique sévère et responsable de décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Le lait",
+            "justification": "Le lait peut provoquer des réactions allergiques mais il est moins fréquemment responsable d'anaphylaxie sévère comparé à l'arachide."
+          },
+          {
+            "correct": false,
+            "proposition": "L'œuf",
+            "justification": "L'œuf est une cause fréquente d'allergie alimentaire, mais l'arachide est plus impliqué dans les cas d'anaphylaxie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Le poisson",
+            "justification": "Bien que le poisson puisse provoquer des réactions allergiques graves, il est moins souvent responsable de décès que l'arachide."
+          },
+          {
+            "correct": false,
+            "proposition": "La viande",
+            "justification": "La viande peut être un allergène, mais elle est rarement responsable d'anaphylaxie sévère comparé à l'arachide."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755964295546_02",
+      "current_version_epoch_ms": 1755964295546,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quelle est la méthode diagnostique la plus fiable pour confirmer une allergie à l'arachide ou aux fruits à coque ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "La radiographie thoracique",
+            "justification": "La radiographie thoracique n'est pas un test diagnostique pour les allergies alimentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise de sang pour la numération formule sanguine",
+            "justification": "La numération formule sanguine n'apporte pas d'information spécifique concernant les allergies alimentaires."
+          },
+          {
+            "correct": true,
+            "proposition": "Le test de provocation",
+            "justification": "Le test de provocation est le gold standard pour confirmer la responsabilité de l'aliment suspecté dans une allergie alimentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen clinique seul",
+            "justification": "L'examen clinique permet d'évaluer les symptômes mais ne peut confirmer l'allergie sans tests complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Le test cutané (prick) avec des extraits standardisés",
+            "justification": "Le test cutané est utile pour diagnostiquer une allergie, mais un test de provocation est nécessaire pour confirmer la responsabilité de l'aliment."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755964295546_03",
+      "current_version_epoch_ms": 1755964295546,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est le traitement principal lors du premier accident allergique anaphylactique dû à l'arachide ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'adrénaline",
+            "justification": "L'adrénaline est le traitement de première intention pour traiter l'anaphylaxie, réduisant les symptômes de manière efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Les antihistaminiques",
+            "justification": "Les antihistaminiques sont utiles dans les réactions allergiques bénignes, mais ne sont pas suffisants pour traiter une anaphylaxie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Les corticoïdes",
+            "justification": "Les corticoïdes peuvent être utilisés en complément, mais l'adrénaline reste le traitement de référence pour l'anaphylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les bronchodilatateurs",
+            "justification": "Les bronchodilatateurs peuvent être utiles en cas de bronchospasme, mais ne traitent pas l'anaphylaxie dans son ensemble."
+          },
+          {
+            "correct": false,
+            "proposition": "La désensibilisation",
+            "justification": "La désensibilisation est une approche à long terme, pas un traitement immédiat lors du premier accident."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755964295546_04",
+      "current_version_epoch_ms": 1755964295546,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel test est généralement utilisé pour confirmer une allergie à l'arachide ou aux fruits à coque en l'absence d'avis allergologique immédiat ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "L'électromyogramme",
+            "justification": "L'électromyogramme est un test pour évaluer l'activité musculaire, pas pour diagnostiquer une allergie alimentaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dosage des IgE spécifiques",
+            "justification": "Le dosage des IgE spécifiques (arachide et fruits à coque) est utilisé pour diagnostiquer les allergies alimentaires lorsque l'avis allergologique est retardé."
+          },
+          {
+            "correct": false,
+            "proposition": "La scintigraphie",
+            "justification": "La scintigraphie n'est pas un test utilisé pour diagnostiquer les allergies alimentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "La biopsie cutanée",
+            "justification": "La biopsie cutanée est un test invasif utilisé pour d'autres pathologies et non pour diagnostiquer une allergie alimentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen microscopique des selles",
+            "justification": "L'examen des selles n'est pas pertinent pour diagnostiquer une allergie alimentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755964295546_05",
+      "current_version_epoch_ms": 1755964295546,
+      "topic": {
+        "subject": "immuno",
+        "item": "allergie"
+      },
+      "data": {
+        "statement": "Quel est le risque associé à l'allergie à l'arachide dans la population générale ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Un risque faible de réactiver l'allergie à d'autres légumineuses",
+            "justification": "L'allergie à l'arachide est rarement associée à une allergie aux autres légumineuses."
+          },
+          {
+            "correct": true,
+            "proposition": "Un risque élevé de réaction anaphylactique sévère",
+            "justification": "L'arachide est fréquemment responsable de réactions anaphylactiques sévères et potentiellement fatales."
+          },
+          {
+            "correct": false,
+            "proposition": "Un risque de développement de tolérance avec l'âge",
+            "justification": "L'allergie à l'arachide est généralement persistante tout au long de la vie du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Un risque de développement de symptômes bénins uniquement",
+            "justification": "Les symptômes de l'allergie à l'arachide sont souvent graves et peuvent entraîner la mort si non traités."
+          },
+          {
+            "correct": false,
+            "proposition": "Un risque limité aux jeunes enfants",
+            "justification": "L'allergie à l'arachide peut persister tout au long de la vie et n'est pas limitée aux jeunes enfants."
+          }
+        ]
+      }
+    }
+  ]
+}

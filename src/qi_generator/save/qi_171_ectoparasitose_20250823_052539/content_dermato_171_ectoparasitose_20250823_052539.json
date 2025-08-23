@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "ectoparasitose",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755919746572_01",
+      "current_version_epoch_ms": 1755919746572,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Qui doit être traité simultanément en cas de gale diagnostiquée chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le patient parasité et tous les sujets contacts, même asymptomatiques",
+            "justification": "Le traitement doit concerner le patient parasité et tous les contacts, même s'ils ne présentent pas de symptômes, afin d'éviter la propagation de la gale."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement le patient parasité",
+            "justification": "Traiter seulement le patient parasité ne prévient pas la transmission aux contacts proches."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement les partenaires sexuels du patient",
+            "justification": "Se limiter aux partenaires sexuels ignore les autres contacts intimes ou personnes vivant sous le même toit."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement le personnel soignant",
+            "justification": "Le personnel soignant fait partie des contacts mais le traitement doit inclure tous les sujets contacts définis."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement les visiteurs occasionnels",
+            "justification": "Les visiteurs sont considérés contacts uniquement dans le 3ème cercle, après évaluation de l'épidémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755919746572_02",
+      "current_version_epoch_ms": 1755919746572,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quels contacts appartiennent au 1er cercle à traiter en cas de gale commune ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Partenaires sexuels, personnes vivant sous le même toit et personnel de nursing",
+            "justification": "Le 1er cercle inclut les contacts intimes et les personnes en contact rapproché quotidien avec le patient, nécessitant un traitement simultané."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les membres de la collectivité",
+            "justification": "L'élargissement à toute la collectivité n'est nécessaire qu'en cas de gale hyperkératosique ou d'épidémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Visiteurs occasionnels",
+            "justification": "Les visiteurs sont dans le 3ème cercle, traités seulement après évaluation de l'étendue de l'épidémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement les enfants du patient",
+            "justification": "Tous les contacts intimes doivent être traités, pas seulement les enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Personnes ayant croisé le patient dans la rue",
+            "justification": "Les contacts sporadiques ne sont pas inclus dans le traitement systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755919746572_03",
+      "current_version_epoch_ms": 1755919746572,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quand est-il nécessaire d'élargir le traitement aux membres de la collectivité en cas de gale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de gale hyperkératosique, profuse ou lors d'épidémie en collectivité",
+            "justification": "Le traitement étendu du 1er et 2ème cercle est recommandé pour contrôler la propagation dans les formes sévères ou en collectivité."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas de gale commune isolée",
+            "justification": "La gale commune n'exige pas le traitement de l'ensemble de la collectivité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour tous les contacts, même éloignés, systématiquement",
+            "justification": "Les contacts éloignés sont traités seulement après évaluation de l'épidémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement pour les partenaires sexuels",
+            "justification": "L'élargissement concerne toute la collectivité, pas seulement les partenaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement si le patient présente des symptômes graves",
+            "justification": "Le critère est la forme clinique et la propagation, pas la gravité individuelle des symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755919746572_04",
+      "current_version_epoch_ms": 1755919746572,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Quels contacts peuvent faire partie du 3ème cercle à traiter en cas d'épidémie de gale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Visiteurs encore plus éloignés du cas index après évaluation de l'épidémie",
+            "justification": "Le 3ème cercle inclut les contacts distants traités uniquement après évaluation de l'étendue de l'épidémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Personnes vivant sous le même toit",
+            "justification": "Ces personnes appartiennent au 1er cercle et sont traitées systématiquement, pas après évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Personnel de nursing directement impliqué",
+            "justification": "Le personnel soignant fait partie du 1er cercle, traité immédiatement avec le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Partenaires sexuels uniquement",
+            "justification": "Ils sont également dans le 1er cercle et traités sans évaluation préalable."
+          },
+          {
+            "correct": false,
+            "proposition": "Tout contact non défini",
+            "justification": "Les contacts non identifiés ne sont pas automatiquement inclus dans le traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755919746572_05",
+      "current_version_epoch_ms": 1755919746572,
+      "topic": {
+        "subject": "dermato",
+        "item": "ectoparasitose"
+      },
+      "data": {
+        "statement": "Comment illustre-t-on l'étendue des sujets contacts en cas de gale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Par des cercles concentriques centrés sur le cas index selon la forme clinique",
+            "justification": "La représentation en cercles concentriques permet de visualiser le périmètre des contacts à traiter selon la gravité et la forme de la gale."
+          },
+          {
+            "correct": false,
+            "proposition": "Par une liste alphabétique des noms des contacts",
+            "justification": "Une liste alphabétique ne reflète pas le risque relatif et la proximité avec le cas index."
+          },
+          {
+            "correct": false,
+            "proposition": "Par une échelle de température corporelle",
+            "justification": "La température corporelle n'est pas utilisée pour définir les cercles de contacts."
+          },
+          {
+            "correct": false,
+            "proposition": "Par le nombre de lésions cutanées observées",
+            "justification": "Le nombre de lésions ne détermine pas l'étendue des sujets contacts."
+          },
+          {
+            "correct": false,
+            "proposition": "Par le temps écoulé depuis le dernier contact",
+            "justification": "Le critère principal est la proximité et le type de contact, pas la durée depuis le contact."
+          }
+        ]
+      }
+    }
+  ]
+}

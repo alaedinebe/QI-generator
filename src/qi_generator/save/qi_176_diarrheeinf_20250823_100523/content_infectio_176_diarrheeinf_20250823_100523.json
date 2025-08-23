@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "diarrheeinf",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755936529769_01",
+      "current_version_epoch_ms": 1755936529769,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Chez l'adulte présentant une diarrhée cholériforme non sévère sans facteur de risque, quelle est l'indication d'antibiothérapie ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Traitement systématique par azithromycine",
+            "justification": "L'antibiothérapie n'est pas indiquée en cas de diarrhée cholériforme non sévère chez un adulte sans facteur de risque."
+          },
+          {
+            "correct": true,
+            "proposition": "Aucune antibiothérapie nécessaire",
+            "justification": "En l'absence de syndrome sévère et de terrain à risque, le traitement antibiotique n'est pas recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciprofloxacine pendant 7 jours",
+            "justification": "La ciprofloxacine est réservée aux diarrhées sévères ou à risque ; durée de 1-3 jours pour la majorité des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine orale",
+            "justification": "La vancomycine orale est réservée aux infections à Clostridioides difficile, pas aux diarrhées cholériformes non sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Ceftriaxone IV en première intention",
+            "justification": "La ceftriaxone IV est une alternative chez les enfants sévères ou immunodéprimés, pas chez l'adulte sans risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936529769_02",
+      "current_version_epoch_ms": 1755936529769,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quelle durée de traitement antibiotique est recommandée chez l'adulte pour une diarrhée sévère causée par Yersinia spp ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "1-3 jours avec azithromycine",
+            "justification": "Cette durée est pour les diarrhées sévères non spécifiques chez l'adulte, pas pour Yersinia spp."
+          },
+          {
+            "correct": true,
+            "proposition": "7 jours",
+            "justification": "Le traitement des infections à Yersinia spp chez l'adulte sévère est recommandé pendant 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours avec ciprofloxacine",
+            "justification": "10 jours concernent Clostridioides difficile, pas Yersinia spp."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours avec cotrimoxazole",
+            "justification": "Le cotrimoxazole est réservé aux enfants pour Yersinia spp, pas aux adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement IV systématique avec ceftriaxone",
+            "justification": "L'antibiothérapie IV n'est pas systématique chez l'adulte sauf terrain fragile ou sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936529769_03",
+      "current_version_epoch_ms": 1755936529769,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Chez l'enfant avec une diarrhée invasive due à Campylobacter spp, quelle est la conduite thérapeutique préférentielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Azithromycine orale pendant 3 jours",
+            "justification": "Chez l'enfant, le traitement des diarrhées invasives à Campylobacter spp repose sur l'azithromycine orale 3 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "Cotrimoxazole IV pendant 5 jours",
+            "justification": "Le cotrimoxazole est utilisé pour Yersinia spp et le traitement IV n'est réservé qu'aux cas sévères ou sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Ceftriaxone orale pendant 7 jours",
+            "justification": "La ceftriaxone est une alternative IV, pas orale, et uniquement en cas de sepsis ou terrain fragile."
+          },
+          {
+            "correct": false,
+            "proposition": "Vancomycine orale",
+            "justification": "La vancomycine orale est réservée aux infections à C. difficile, pas aux diarrhées invasives à Campylobacter spp."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas d'antibiothérapie systématique",
+            "justification": "Bien que l'évolution soit souvent favorable, la diarrhée invasive à Campylobacter spp nécessite un traitement spécifique par azithromycine chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936529769_04",
+      "current_version_epoch_ms": 1755936529769,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Quels sont les critères indiquant un traitement antibiotique avant les résultats bactériologiques chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge < 3 mois, retour de voyage, sepsis, terrain fragile",
+            "justification": "Ces situations justifient un traitement antibiotique précoce avant confirmation bactériologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée cholériforme non sévère chez un enfant de 5 ans",
+            "justification": "L'antibiothérapie n'est pas indiquée pour une diarrhée non sévère sans facteurs de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre isolée sans diarrhée",
+            "justification": "La fièvre seule n'est pas une indication d'antibiothérapie avant résultats bactériologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Ingestion récente d'eau du robinet",
+            "justification": "Une exposition environnementale n'est pas une indication systématique d'antibiothérapie précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée aiguë avec évolution favorable en 24 heures",
+            "justification": "Une évolution spontanément favorable ne nécessite pas de traitement antibiotique précoce."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755936529769_05",
+      "current_version_epoch_ms": 1755936529769,
+      "topic": {
+        "subject": "infectio",
+        "item": "diarrheeinf"
+      },
+      "data": {
+        "statement": "Pour quelles bactéries spécifiques chez l'enfant un traitement antibiotique est-il indiqué après confirmation bactériologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Shigella spp, Salmonella Typhi et Paratyphi",
+            "justification": "Ces bactéries justifient un traitement antibiotique après confirmation bactériologique chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Salmonella non Typhi, évolution spontanée",
+            "justification": "Un traitement n'est pas systématique si l'évolution est favorable ; seul un tableau trainant peut le justifier."
+          },
+          {
+            "correct": false,
+            "proposition": "Virus entériques",
+            "justification": "Les infections virales n'ont pas d'indication d'antibiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Clostridioides difficile chez l'enfant sans symptômes graves",
+            "justification": "L'antibiothérapie est réservée aux cas sévères ou persistants, pas systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée cholériforme légère",
+            "justification": "Les diarrhées légères n'ont pas d'indication d'antibiothérapie spécifique."
+          }
+        ]
+      }
+    }
+  ]
+}

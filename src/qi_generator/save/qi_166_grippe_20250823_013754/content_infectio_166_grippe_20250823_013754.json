@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "grippe",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755906081608_01",
+      "current_version_epoch_ms": 1755906081608,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Parmi les affirmations suivantes concernant la classification des complications de la grippe, cocher la/les proposition(s) exacte(s).",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les complications respiratoires de la grippe se subdivisent en formes hautes et basses.",
+            "justification": "Les complications sont classées en respiratoires hautes, respiratoires basses et extrarespiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Les complications respiratoires ne concernent que les voies aériennes hautes.",
+            "justification": "La classification inclut explicitement des complications respiratoires hautes ET basses."
+          },
+          {
+            "correct": true,
+            "proposition": "Les complications extrarespiratoires constituent une catégorie distincte.",
+            "justification": "Outre les complications respiratoires, une catégorie extrarespiratoire est identifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "La distinction hautes/basses s'applique aux complications extrarespiratoires.",
+            "justification": "La subdivision hautes/basses concerne les complications respiratoires, pas les extrarespiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "La grippe ne comporte pas de complications respiratoires.",
+            "justification": "Des complications respiratoires sont clairement mentionnées et subdivisées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906081608_02",
+      "current_version_epoch_ms": 1755906081608,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Différencier les dispositifs de surveillance épidémiologique de la grippe selon leur périmètre et leurs données.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Santé publique France publie des données internationales et nationales incluant les passages aux urgences et les cas groupés.",
+            "justification": "Santé publique France met à disposition ces indicateurs à l'échelle populationnelle."
+          },
+          {
+            "correct": true,
+            "proposition": "GrippeNet.fr recueille anonymement en ligne auprès de la population des données épidémiologiques sur la grippe.",
+            "justification": "Le recueil se fait par internet, de manière anonyme, directement auprès de la population."
+          },
+          {
+            "correct": false,
+            "proposition": "CepiDC et l'INSEE publient les passages aux urgences liés à la grippe.",
+            "justification": "Ces organismes collectent des données de décès, pas les passages aux urgences."
+          },
+          {
+            "correct": false,
+            "proposition": "Le réseau Sentinelle est un dispositif hospitalier d'urgences.",
+            "justification": "Le réseau Sentinelle assure une surveillance clinique et virologique en médecine ambulatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le réseau Oscour suit les passages et les hospitalisations pour grippe à partir des services d'urgences hospitaliers.",
+            "justification": "Oscour est adossé au réseau hospitalier des urgences et suit ces indicateurs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906081608_03",
+      "current_version_epoch_ms": 1755906081608,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Classer chaque dispositif/indicateur selon le niveau de soins (ambulatoire vs hôpital) et la nature du suivi.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réseau Sentinelle — médecine ambulatoire ; surveillance clinique et virologique des syndromes grippaux.",
+            "justification": "Le périmètre du réseau Sentinelle est l'ambulatoire avec un suivi clinique et virologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réseau Oscour — médecine ambulatoire ; suivi des passages pour grippe.",
+            "justification": "Oscour relève du milieu hospitalier via les services d'urgences."
+          },
+          {
+            "correct": true,
+            "proposition": "Réseau Renal-CNR — hôpital ; surveillance virologique.",
+            "justification": "La surveillance virologique du Renal-CNR est mentionnée en milieu hospitalier."
+          },
+          {
+            "correct": true,
+            "proposition": "Nombre d'admissions en services de réanimation — hôpital ; indicateur de suivi.",
+            "justification": "Les admissions en réanimation sont citées parmi les indicateurs hospitaliers."
+          },
+          {
+            "correct": false,
+            "proposition": "GrippeNet.fr — hôpital ; recueil des données auprès des patients hospitalisés.",
+            "justification": "GrippeNet.fr recueille des données anonymes en ligne au niveau de la population, pas spécifiquement à l'hôpital."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906081608_04",
+      "current_version_epoch_ms": 1755906081608,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Reconnaître le rôle de CepiDC et de l'INSEE dans la surveillance nationale liée à la grippe.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ces organismes collectent des données concernant les décès liés à la grippe.",
+            "justification": "Il est précisé qu'ils collectent des données de mortalité en lien avec la grippe."
+          },
+          {
+            "correct": false,
+            "proposition": "L'attribution des décès à la grippe est toujours simple et fiable.",
+            "justification": "La validité de ces chiffres est difficile à établir selon le motif de décès."
+          },
+          {
+            "correct": true,
+            "proposition": "La difficulté d'interprétation tient au motif de décès (grippe, complications, décompensation d'une pathologie sous-jacente).",
+            "justification": "Ces éléments sont cités comme source d'incertitude pour l'attribution des décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Ces organismes assurent la surveillance virologique en médecine ambulatoire.",
+            "justification": "La surveillance virologique ambulatoire relève du réseau Sentinelle, pas de CepiDC/INSEE."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils suivent les passages aux urgences et les hospitalisations pour grippe.",
+            "justification": "Le suivi des passages/hospitalisations relève d'Oscour et de la publication par Santé publique France."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755906081608_05",
+      "current_version_epoch_ms": 1755906081608,
+      "topic": {
+        "subject": "infectio",
+        "item": "grippe"
+      },
+      "data": {
+        "statement": "Identifier les indicateurs suivis dans la surveillance de la grippe aux différents niveaux.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les passages aux urgences font partie des indicateurs suivis et publiés.",
+            "justification": "Ils sont suivis par Oscour et publiés par Santé publique France."
+          },
+          {
+            "correct": true,
+            "proposition": "Les cas groupés figurent parmi les informations publiées au niveau populationnel.",
+            "justification": "Santé publique France publie notamment les cas groupés."
+          },
+          {
+            "correct": true,
+            "proposition": "Le nombre d'admissions en services de réanimation est utilisé comme indicateur hospitalier.",
+            "justification": "Les admissions en réanimation sont explicitement mentionnées."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance clinique et virologique en médecine ambulatoire n'est pas intégrée aux dispositifs.",
+            "justification": "Le réseau Sentinelle assure précisément cette surveillance en ambulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance virologique est limitée au seul milieu hospitalier.",
+            "justification": "Elle existe à l'hôpital (Renal-CNR) et aussi en ambulatoire via le réseau Sentinelle."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les examens biologiques de première intention devant une hépatite aiguë OIC-167-05-A
+
+
+
+Le diagnostic étiologique d'une hépatite aiguë n'est pas que biologique+++
+
+Comment faire le diagnostic d'une hépatite aiguë ?
+
+La grande majorité des hépatites aiguës sont asymptomatiques.
+Le diagnostic positif d'une hépatite aiguë repose sur des symptômes aspécifiques : asthénie, céphalée, nausée, douleur abdominale et articulaire. Certains symptômes ou signes cliniques comme la fièvre, un syndrome pseudo-grippal, des adénopathies, une éruption cutanée orientent vers une cause virale. Peut survenir ensuite un ictère.
+
+En l'absence de signe spécifique, tout tableau clinique compatible doit conduire à la prescription d'un bilan sanguin hépatique au moindre doute comprenant bilirubine, transaminases (ASAT, ALAT), GGT et phosphatases alcalines (PAL).
+
+Le diagnostic positif est posé en cas d'élévation des enzymes hépatiques, en particulier transaminases à plus de 10 fois la limite supérieure de la normale. Un ictère cutanéo-muqueux traduisant une élévation de la bilirubine peut apparaître secondairement sans qu'il n'y ait de signes d'insuffisance hépatique, plusieurs jours après le début des symptômes mais il n'est pas si fréquent.
+
+Une échographie-doppler hépatique doit être systématiquement réalisée pour éliminer une hépatopathie chronique sous-jacente et rechercher certaines causes.
+
+Symptômes généraux + élévation des transaminases = hépatite aiguë jusqu'à preuve du contraire
+Une fois le diagnostic positif établi, il faudra dans le même temps déterminer la cause et la gravité de l'hépatite aiguë. 
+Quelles causes doit-on rechercher ? Quels sont les principaux diagnostics différentiels des hépatites virales ?
+
+Les causes les plus fréquentes sont virales et médicamenteuses (xénobiotique). Une démarche systématique à la recherche de la cause permet d'obtenir un diagnostic étiologique dans la majorité des cas. 
+Un interrogatoire méticuleux est essentiel.
+
+1-   Il faut toujours rechercher la prise d'un xénobiotique.
+
+C'est la cause la plus fréquente, au premier rang les médicaments. La toxicité d'un médicament peut être directe (dose-dépendante comme pour le paracétamol, cf. Item 337) ou indirecte (réaction immuno-allergique). Il faut mener un interrogatoire policier sur les médicaments pris au long cours, introduits récemment ou pris de façon ponctuelle. En cas de doute, une déclaration au service de pharmacovigilance doit être faite.
+Les médicaments ne sont pas les seuls toxiques à rechercher : drogues (ectasy, cocaïne), champignons (lépiotes, amanites phalloïdes), compléments alimentaires, phytothérapie.
+L'alcool seul ne donne pas d'hépatite aiguë fortement cytolytique (transaminases < 10 fois la limite supérieure de la normale). Il faut tout de même rechercher une prise d'alcool chronique comme cofacteur. L'hépatite alcoolique aiguë est un terme qui prête à confusion mais qui traduit une décompensation aiguë d'une maladie chronique du foie liée à l'alcool.
+
+2-   La recherche des infections virales doit être systématique
+L'interrogatoire doit rechercher un facteur de risque de contamination. 
+Les VHA, VHB, VHC et VHE doivent être recherchés de façon systématique. En cas d'hépatite B, le VHD doit être recherché.
+Le tableau résume les marqueurs sanguins nécessaires utilisés pour les hépatites aiguës virales.
+
+
+
+
+
+
+Marqueurs d'une hépatite aiguë de l'immunocompétent
+
+Marqueurs supplémentaires d'une hépatite aiguë de l'immunodéprimé
+
+Marqueurs d'une infection résolutive ou guérie
+
+Marqueurs d'une vaccination
+
+
+A
+
+IgM anti-VHA +
+
+Charge virale +
+(ARN VHA)
+
+
+IgG ou anticorps totaux anti-VHA +
+
+IgG ou anticorps totaux anti-VHA +
+
+
+B
+
+Ag HBs +
+IgM anti-HBc +
+
+
+Charge virale +
+(ADN VHB)
+
+
+Ag HBs –
+Anticorps anti-HBs+
+IgG anti-HBc +
+
+
+Ag HBs –
+Anticorps anti-HBs+
+IgG anti-HBc -
+
+
+
+C
+
+Anticorps anti-VHC +
+Charge virale + 
+(ARN VHC)
+
+
+Aucun
+
+Anticorps totaux anti-VHC + et
+Charge virale -
+
+
+
+
+
+D
+
+IgM anti-VHD +
+
+Charge virale +
+(ARN VHD)
+
+
+IgG ou anticorps totaux anti-VHD + et charge virale
+
+
+
+
+E
+
+IgM anti-VHE +
+
+Charge virale +
+(ARN VHE)
+
+
+IgG ou anticorps totaux anti-VHE +
+
+
+
+Commentaires 
+
+l'ARN VHA est exceptionnellement demandé en pratique
+En cas d'hépatite aiguë, la sérologie virale C et la recherche d'ARN VHC sont demandées simultanément. En revanche, en cas d'hépatite chronique, la sérologie C est demandée en 1ère intention et, si la sérologie C est positive, la recherche d'ARN VHC est alors demandée en 2ème intention.
+NB: Une confusion est possible entre une infection virale B aiguë et une réactivation virale B pouvant survenir chez n'importe quel individu ayant été en contact avec le VHB. La prise en charge est différente.
+
+La recherche d'autres virus doit se faire en seconde intention sauf contexte évocateur ou contact dans l'entourage.
+
+1-   Il faut éliminer une cause vasculaire ou biliaire par une échographie couplée à un doppler
+-       Une migration lithiasique (dans la voie biliaire principale), lorsque le diagnostic est fait précocement, peut conduire à une élévation importante des transaminases, qui souvent prédomine sur les ASAT (cf. item 277)
+-       Thrombose vasculaire veineuse : veine porte, veines hépatiques (rare syndrome de Budd-Chiari)
+-       Hépatite hypoxémique lors d'une hypovolémie, un état de choc, une insuffisance cardiaque aiguë : cytolyse très importante prédominant sur les ASAT avec atteinte d'autres organes notamment le rein. Il s'agit dans ce cas d'une inadéquation entre les apports et les besoins en oxygène du foie.
+
+2-   Il faut rechercher les maladies plus rares
+Lorsque le bilan étiologique de première intention reste négatif, il faut rechercher des causes plus rares mais dont le contexte et les outils diagnostiques permettent souvent de poser le diagnostic.
+-      Une hépatite auto-immune : il faut l'évoquer rapidement en particulier chez les femmes. Les marqueurs sont une forte augmentation des immunoglobulines G et la positivité des anticorps anti-nucléaires et anti-tissus (anti-muscle lisse, anti-LKM).
+-      La maladie de Wilson (surcharge génétique en cuivre) : exceptionnelle, mais qui doit être évoquée en cas de maladie familiale faisant suspecter une cause génétique, d'une consanguinité des parents, d'une atteinte neurologique associée chez un adulte jeune. 
+-      Les hépatites aiguës survenant en cours de grossesse qui doivent faire rechercher un syndrome HELLP ou une stéatose aiguë gravidique.
+
+-      Les infiltrations tumorales du foie (principalement hémopathies malignes) qui miment parfois une hépatite aiguë. Connaître les examens biologiques de première intention devant une hépatite aiguë OIC-167-05-ALe diagnostic étiologique d'une hépatite aiguë n'est pas que biologique+++Comment faire le diagnostic d'une hépatite aiguë ?La grande majorité des hépatites aiguës sont asymptomatiques.Le diagnostic positif d'une hépatite aiguë repose sur des symptômes aspécifiques : asthénie, céphalée, nausée, douleur abdominale et articulaire. Certains symptômes ou signes cliniques comme la fièvre, un syndrome pseudo-grippal, des adénopathies, une éruption cutanée orientent vers une cause virale. Peut survenir ensuite un ictère.En l'absence de signe spécifique, tout tableau clinique compatible doit conduire à la prescription d'un bilan sanguin hépatique au moindre doute comprenant bilirubine, transaminases (ASAT, ALAT), GGT et phosphatases alcalines (PAL).Le diagnostic positif est posé en cas d'élévation des enzymes hépatiques, en particuliertransaminases à plus de 10 fois la limite supérieure de la normale. Un ictère cutanéo-muqueux traduisant une élévation de la bilirubine peut apparaître secondairement sans qu'il n'y ait de signes d'insuffisance hépatique, plusieurs jours après le début des symptômes mais il n'est pas si fréquent.Uneéchographie-doppler hépatiquedoit être systématiquement réalisée pour éliminer une hépatopathie chronique sous-jacente et rechercher certaines causes.Symptômes généraux + élévation des transaminases = hépatite aiguë jusqu'à preuve du contraireUne fois le diagnostic positif établi, il faudra dans le même temps déterminer la cause et la gravité de l'hépatite aiguë.Quelles causes doit-on rechercher ? Quels sont les principaux diagnostics différentiels des hépatites virales ?Les causes les plus fréquentes sont virales et médicamenteuses (xénobiotique). Une démarche systématique à la recherche de la cause permet d'obtenir un diagnostic étiologique dans la majorité des cas. 
+Un interrogatoire méticuleux est essentiel.1-   Il faut toujours rechercher la prise d'un xénobiotique.C'est la cause la plus fréquente, au premier rangles médicaments. La toxicité d'un médicament peut être directe (dose-dépendante comme pour le paracétamol, cf. Item 337) ou indirecte (réaction immuno-allergique). Il faut mener un interrogatoire policier sur les médicaments pris au long cours, introduits récemment ou pris de façon ponctuelle. En cas de doute, une déclaration au service de pharmacovigilance doit être faite.Les médicaments ne sont pas les seuls toxiques à rechercher :drogues(ectasy, cocaïne),champignons(lépiotes, amanites phalloïdes),compléments alimentaires,phytothérapie.L'alcool seul ne donne pas d'hépatite aiguë fortement cytolytique (transaminases < 10 fois la limite supérieure de la normale). Il faut tout de même rechercher une prise d'alcool chronique comme cofacteur. L'hépatite alcoolique aiguë est un terme qui prête à confusion mais qui traduit une décompensation aiguë d'une maladie chronique du foie liée à l'alcool.2-   La recherche des infections virales doit être systématiqueL'interrogatoire doit rechercher un facteur de risque de contamination. 
+Les VHA, VHB, VHC et VHE doivent être recherchés de façon systématique. En cas d'hépatite B, le VHD doit être recherché.Le tableau résume les marqueurs sanguins nécessaires utilisés pour les hépatites aiguës virales.Marqueurs d'une hépatite aiguë de l'immunocompétentMarqueurs supplémentaires d'une hépatite aiguë de l'immunodépriméMarqueurs d'une infection résolutive ou guérieMarqueurs d'une vaccinationAIgM anti-VHA +Charge virale +(ARN VHA)IgG ou anticorps totaux anti-VHA +IgG ou anticorps totaux anti-VHA +BAg HBs +IgM anti-HBc +Charge virale +(ADN VHB)Ag HBs –Anticorps anti-HBs+IgG anti-HBc +Ag HBs –Anticorps anti-HBs+IgG anti-HBc -CAnticorps anti-VHC +Charge virale + 
+(ARN VHC)AucunAnticorps totaux anti-VHC + etCharge virale -DIgM anti-VHD +Charge virale +(ARN VHD)IgG ou anticorps totaux anti-VHD + et charge viraleEIgM anti-VHE +Charge virale +(ARN VHE)IgG ou anticorps totaux anti-VHE +Commentairesl'ARN VHA est exceptionnellement demandé en pratiqueEn cas d'hépatite aiguë, la sérologie virale C et la recherche d'ARN VHC sont demandées simultanément. En revanche, en cas d'hépatite chronique, la sérologie C est demandée en 1ère intention et, si la sérologie C est positive, la recherche d'ARN VHC est alors demandée en 2ème intention.NB: Une confusion est possible entreune infection virale B aiguë et une réactivation virale Bpouvant survenir chez n'importe quel individu ayant été en contact avec le VHB. La prise en charge est différente.La recherche d'autres virus doit se faire en seconde intention sauf contexte évocateur ou contact dans l'entourage.1-   Il faut éliminer une cause vasculaire ou biliaire par une échographie couplée à un doppler-       Unemigration lithiasique(dans la voie biliaire principale), lorsque le diagnostic est fait précocement, peut conduire à une élévation importante des transaminases, qui souvent prédomine sur les ASAT (cf. item 277)-Thrombose vasculaire veineuse: veine porte, veines hépatiques (rare syndrome de Budd-Chiari)-Hépatite hypoxémiquelors d'une hypovolémie, un état de choc, une insuffisance cardiaque aiguë : cytolyse très importante prédominant sur les ASAT avec atteinte d'autres organes notamment le rein. Il s'agit dans ce cas d'une inadéquation entre les apports et les besoins en oxygène du foie.2-   Il faut rechercher les maladies plus raresLorsque le bilan étiologique de première intention reste négatif, il faut rechercher des causes plus rares mais dont le contexte et les outils diagnostiques permettent souvent de poser le diagnostic.-Une hépatite auto-immune: il faut l'évoquer rapidement en particulier chez les femmes. Les marqueurs sont une forte augmentation des immunoglobulines G et la positivité des anticorps anti-nucléaires et anti-tissus (anti-muscle lisse, anti-LKM).-La maladie de Wilson(surcharge génétique en cuivre) : exceptionnelle, mais qui doit être évoquée en cas de maladie familiale faisant suspecter une cause génétique, d'une consanguinité des parents, d'une atteinte neurologique associée chez un adulte jeune.-Les hépatites aiguës survenant en cours de grossessequi doivent faire rechercher un syndrome HELLP ou une stéatose aiguë gravidique.-Les infiltrations tumorales du foie(principalement hémopathies malignes) qui miment parfois une hépatite aiguë.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

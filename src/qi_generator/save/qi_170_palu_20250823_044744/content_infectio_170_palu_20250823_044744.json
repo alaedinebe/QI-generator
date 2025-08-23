@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "palu",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755917471148_01",
+      "current_version_epoch_ms": 1755917471148,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel traitement est recommandé en première intention pour un accès simple à Plasmodium falciparum chez l'enfant sans contre-indication ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Association thérapeutique à base d'artémisinine (ACT)",
+            "justification": "L'ACT, telle que artéméther-luméfantrine ou dihydroartémisinine-pipéraquine, constitue le traitement de première intention pour un accès simple à P. falciparum."
+          },
+          {
+            "correct": false,
+            "proposition": "Atovaquone – proguanil",
+            "justification": "L'atovaquone-proguanil est indiqué en deuxième intention, notamment chez l'enfant, et non en première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine",
+            "justification": "La quinine est réservée à la troisième intention et n'est pas utilisée en première ligne pour un accès simple."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine",
+            "justification": "La chloroquine n'est pas recommandée pour un accès simple à P. falciparum, elle est utilisée pour certaines infections non falciparum."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine",
+            "justification": "La méfloquine est utilisée en deuxième intention chez l'enfant, pas en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917471148_02",
+      "current_version_epoch_ms": 1755917471148,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Pour un accès simple à Plasmodium vivax, quelle prophylaxie est recommandée pour prévenir les accès de reviviscence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Primaquine pendant 14 jours après vérification de l'absence de déficit en G6PD",
+            "justification": "La primaquine est prescrite pour prévenir les accès de reviviscence de P. vivax ou P. ovale, uniquement après confirmation de l'absence de déficit en G6PD."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine pendant 3 jours",
+            "justification": "La chloroquine est utilisée pour traiter l'accès initial, mais ne prévient pas les reviviscences."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine IV",
+            "justification": "La quinine est réservée à un accès simple à P. falciparum en troisième intention et ne sert pas à la prévention des reviviscences."
+          },
+          {
+            "correct": false,
+            "proposition": "Atovaquone – proguanil",
+            "justification": "Atovaquone-proguanil est indiqué en deuxième intention pour P. falciparum et n'a pas de rôle préventif contre les reviviscences de P. vivax."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine PO",
+            "justification": "La méfloquine est utilisée pour P. falciparum en deuxième intention et ne prévient pas les reviviscences de P. vivax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917471148_03",
+      "current_version_epoch_ms": 1755917471148,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel antipaludique peut être administré par voie IV en cas d'accès simple à P. falciparum lorsque l'administration orale n'est pas possible ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Quinine",
+            "justification": "La quinine peut être administrée par voie orale ou intraveineuse, ce qui la rend adaptée lorsque l'administration orale est impossible."
+          },
+          {
+            "correct": false,
+            "proposition": "Artéméther – luméfantrine",
+            "justification": "Cette association est uniquement administrée par voie orale et n'est pas disponible en IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Dihydroartémisinine – pipéraquine",
+            "justification": "Cette combinaison est exclusivement orale et ne peut pas être utilisée en IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Atovaquone – proguanil",
+            "justification": "Atovaquone-proguanil est administré par voie orale seulement."
+          },
+          {
+            "correct": false,
+            "proposition": "Méfloquine",
+            "justification": "La méfloquine n'est disponible que par voie orale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917471148_04",
+      "current_version_epoch_ms": 1755917471148,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quelle est la durée habituelle du traitement par association à base d'artémisinine pour un accès simple à Plasmodium non falciparum ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "3 jours",
+            "justification": "Le traitement d'un accès simple à Plasmodium non falciparum par combinaison à base d'artémisinine dure 3 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "7 jours",
+            "justification": "La durée recommandée pour l'ACT ou la chloroquine pour un accès simple à Plasmodium non falciparum est de 3 jours, pas 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "14 jours",
+            "justification": "14 jours correspond à la durée du traitement par primaquine pour prévenir les reviviscences, pas pour l'accès simple initial."
+          },
+          {
+            "correct": false,
+            "proposition": "1 jour",
+            "justification": "Un traitement d'un jour est insuffisant pour éliminer le parasite dans un accès simple à Plasmodium non falciparum."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours",
+            "justification": "Le traitement recommandé est de 3 jours, pas 5 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755917471148_05",
+      "current_version_epoch_ms": 1755917471148,
+      "topic": {
+        "subject": "infectio",
+        "item": "palu"
+      },
+      "data": {
+        "statement": "Quel antipaludique est indiqué en deuxième intention pour un accès simple à P. falciparum chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atovaquone – proguanil ou méfloquine",
+            "justification": "Ces antipaludiques sont indiqués en deuxième intention chez l'enfant si l'ACT n'est pas possible."
+          },
+          {
+            "correct": false,
+            "proposition": "Artéméther – luméfantrine",
+            "justification": "Cette association est utilisée en première intention, pas en deuxième."
+          },
+          {
+            "correct": false,
+            "proposition": "Dihydroartémisinine – pipéraquine",
+            "justification": "Cette combinaison fait partie de la première intention, pas de la deuxième."
+          },
+          {
+            "correct": false,
+            "proposition": "Quinine",
+            "justification": "La quinine est réservée à la troisième intention, pas à la deuxième."
+          },
+          {
+            "correct": false,
+            "proposition": "Chloroquine",
+            "justification": "La chloroquine n'est pas recommandée pour P. falciparum, uniquement pour certaines infections non falciparum."
+          }
+        ]
+      }
+    }
+  ]
+}

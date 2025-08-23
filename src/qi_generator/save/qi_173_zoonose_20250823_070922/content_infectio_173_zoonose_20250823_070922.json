@@ -1,0 +1,206 @@
+{
+  "topic": {
+    "item": "zoonose",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1755925969055_01",
+      "current_version_epoch_ms": 1755925969055,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quel signe clinique est considéré pathognomonique à la phase localisée précoce de la maladie de Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Erythème migrant",
+            "justification": "L'erythème migrant apparaît 3 à 30 jours après la piqûre de tique et constitue le signe pathognomonique de la phase précoce localisée de Lyme."
+          },
+          {
+            "correct": false,
+            "proposition": "Arthrite de Lyme",
+            "justification": "L'arthrite de Lyme survient lors des phases disséminées précoces ou tardives, et n'est pas pathognomonique de la phase précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Paralysie faciale",
+            "justification": "La paralysie faciale peut apparaître lors des phases disséminées, mais n'est pas spécifique de la phase localisée précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Méningo-radiculonévrite",
+            "justification": "La méningo-radiculonévrite se manifeste dans les phases disséminées et n'est pas un signe pathognomonique de la phase précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Manifestations oculaires",
+            "justification": "Les manifestations oculaires sont rares et apparaissent lors des phases disséminées, non pathognomoniques de la phase précoce."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755925969055_02",
+      "current_version_epoch_ms": 1755925969055,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quels critères cliniques définissent l'erythème migrant dans la maladie de Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Macule érythémateuse centrée par le point de piqûre de tique",
+            "justification": "L'erythème migrant peut présenter une macule centrée sur le point de piqûre, bien que ce ne soit pas systématique."
+          },
+          {
+            "correct": true,
+            "proposition": "Bordure annulaire érythémateuse centrifuge avec centre plus clair",
+            "justification": "L'extension centrifuge avec un centre plus clair est caractéristique de l'erythème migrant."
+          },
+          {
+            "correct": true,
+            "proposition": "Indolore et non prurigineux",
+            "justification": "Classiquement, l'erythème migrant est indolore et non prurigineux, ce qui aide à le différencier d'autres lésions cutanées."
+          },
+          {
+            "correct": true,
+            "proposition": "Diamètre ≥ 5 cm",
+            "justification": "Un diamètre d'au moins 5 cm contribue à la spécificité du diagnostic clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence systématique de fièvre",
+            "justification": "La fièvre n'est pas un critère nécessaire pour diagnostiquer l'erythème migrant à la phase précoce."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755925969055_03",
+      "current_version_epoch_ms": 1755925969055,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Lors des phases disséminées précoces ou tardives de la maladie de Lyme, quels signes cliniques peuvent apparaître ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Manifestations neurologiques telles que paralysie faciale",
+            "justification": "Les phases disséminées peuvent provoquer des manifestations neurologiques, dont la paralysie faciale."
+          },
+          {
+            "correct": true,
+            "proposition": "Arthrite de Lyme",
+            "justification": "L'arthrite de Lyme est typique des phases disséminées précoces et tardives."
+          },
+          {
+            "correct": true,
+            "proposition": "Manifestations dermatologiques",
+            "justification": "Des lésions dermatologiques peuvent survenir à ces phases, bien qu'elles soient moins spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Erythème migrant",
+            "justification": "L'erythème migrant est caractéristique de la phase localisée précoce, non des phases disséminées."
+          },
+          {
+            "correct": true,
+            "proposition": "Manifestations oculaires ou cardiaques rares",
+            "justification": "À ces phases, des manifestations oculaires ou cardiaques peuvent survenir mais sont rares."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755925969055_04",
+      "current_version_epoch_ms": 1755925969055,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Quelle approche sérologique est utilisée pour confirmer une infection par Borrelia dans la maladie de Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diagnostic indirect en deux temps : ELISA puis Western Blot",
+            "justification": "Le diagnostic sérologique repose sur un test sensible (ELISA) suivi d'une confirmation par Western Blot pour conjuguer sensibilité et spécificité."
+          },
+          {
+            "correct": false,
+            "proposition": "ELISA seul suffit",
+            "justification": "Un test ELISA seul n'est pas suffisant pour confirmer le diagnostic à cause du risque de faux positifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Western Blot seul suffit",
+            "justification": "Le Western Blot seul ne permet pas d'assurer la sensibilité initiale, il doit confirmer un test ELISA positif."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie négative si absence de signes cliniques",
+            "justification": "La sérologie peut être positive même en l'absence de signes cliniques ; le contexte clinique reste crucial pour interprétation."
+          },
+          {
+            "correct": false,
+            "proposition": "PCR sanguine standard pour tous les cas",
+            "justification": "La PCR sanguine n'est pas utilisée systématiquement pour le diagnostic de Lyme, contrairement à la sérologie en deux temps."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1755925969055_05",
+      "current_version_epoch_ms": 1755925969055,
+      "topic": {
+        "subject": "infectio",
+        "item": "zoonose"
+      },
+      "data": {
+        "statement": "Pourquoi la présence de signes cliniques est-elle indispensable même si la sérologie est positive pour Lyme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La sérologie ne distingue pas entre infection active et cicatrice sérologique",
+            "justification": "Même si ELISA et Western Blot sont positifs, ils ne permettent pas de différencier une infection en cours d'une ancienne infection immunisée."
+          },
+          {
+            "correct": false,
+            "proposition": "La sérologie est toujours fausse",
+            "justification": "La sérologie n'est pas fausse systématiquement, elle nécessite simplement la présence de signes cliniques pour confirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "Les signes cliniques permettent de prédire la sévérité",
+            "justification": "Les signes cliniques servent au diagnostic et non à prédire directement la sévérité de l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Les signes cliniques remplacent la sérologie",
+            "justification": "Le diagnostic sérologique reste nécessaire pour confirmation même en présence de signes cliniques compatibles."
+          },
+          {
+            "correct": false,
+            "proposition": "La sérologie n'est pas spécifique",
+            "justification": "La sérologie combinée ELISA et Western Blot est spécifique ; la présence de signes cliniques est importante pour interprétation."
+          }
+        ]
+      }
+    }
+  ]
+}
