@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PID",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756028876991_01",
+      "current_version_epoch_ms": 1756028876991,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quelle est la principale méthode diagnostique pour confirmer une pneumopathie d'hypersensibilité (PHS) après une exposition à des antigènes ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Analyse des gaz du sang artériel",
+            "justification": "L'analyse des gaz du sang ne permet pas de confirmer le diagnostic de PHS, bien qu'elle puisse être utile pour évaluer la fonction respiratoire dans certains cas."
+          },
+          {
+            "correct": true,
+            "proposition": "Précipitines sériques (IgG) dirigées contre l'antigène inhalé",
+            "justification": "La positivité des précipitines sériques (IgG) dirigées contre l'antigène inhalé confirme l'exposition à l'antigène, bien que cela ne prouve pas à elle seule la présence de la PHS."
+          },
+          {
+            "correct": false,
+            "proposition": "Test cutané d'allergie",
+            "justification": "Le test cutané d'allergie n'est pas utilisé pour diagnostiquer la PHS, car il ne permet pas de déterminer l'exposition spécifique à des antigènes inhalés."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "La radiographie pulmonaire peut suggérer une pneumopathie mais ne permet pas de confirmer un diagnostic de PHS. L'imagerie tomodensitométrique est plus précise."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de la fonction respiratoire",
+            "justification": "Le test de la fonction respiratoire peut évaluer la capacité pulmonaire, mais il ne permet pas de poser un diagnostic de PHS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028876991_02",
+      "current_version_epoch_ms": 1756028876991,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel signe clinique est le plus évocateur de l'atteinte bronchiolaire dans une pneumopathie d'hypersensibilité ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Crépitants à l'auscultation",
+            "justification": "Les crépitants sont plus souvent associés à des pathologies pulmonaires de type oedème pulmonaire ou fibrose, et non spécifiquement à une atteinte bronchiolaire dans la PHS."
+          },
+          {
+            "correct": true,
+            "proposition": "Squeaks à l'auscultation",
+            "justification": "Les squeaks sont un signe clinique caractéristique de l'atteinte bronchiolaire dans la PHS et aident à orienter le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution des bruits respiratoires",
+            "justification": "Bien que la diminution des bruits respiratoires puisse survenir dans des pathologies pulmonaires, elle n'est pas spécifique à la PHS et n'indique pas nécessairement une atteinte bronchiolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperrésonance à la percussion",
+            "justification": "L'hyperrésonance à la percussion est plus indicative de la présence de pneumothorax ou d'asthme que de PHS."
+          },
+          {
+            "correct": false,
+            "proposition": "Murmures vésiculaires ronflants",
+            "justification": "Les murmures vésiculaires ronflants ne sont pas caractéristiques de l'atteinte bronchiolaire spécifique à la PHS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028876991_03",
+      "current_version_epoch_ms": 1756028876991,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quelle caractéristique tomodensitométrique est suggestive de la forme non fibrosante de la pneumopathie d'hypersensibilité ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Fibrose pulmonaire prédominante aux bases",
+            "justification": "La fibrose pulmonaire prédominante aux bases est plus souvent observée dans les formes fibrosantes et non dans la forme non fibrosante de la PHS."
+          },
+          {
+            "correct": true,
+            "proposition": "Opacité en verre dépoli, atténuations en mosaïque et micronodules centrolobulaires",
+            "justification": "Les lésions typiques de la forme non fibrosante de la PHS incluent l'opacité en verre dépoli, les atténuations en mosaïque et les micronodules centrolobulaires, souvent dans les parties supérieures du poumon."
+          },
+          {
+            "correct": false,
+            "proposition": "Prédominance des micronodules aux bases",
+            "justification": "Les micronodules dans la forme non fibrosante de la PHS prédominent généralement dans les parties supérieures du poumon, et non aux bases."
+          },
+          {
+            "correct": false,
+            "proposition": "Trappage aérien uniquement dans les parties inférieures",
+            "justification": "Le trappage aérien est un signe commun dans la PHS, mais il n'est pas limité aux parties inférieures du poumon dans la forme non fibrosante."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibrose avec micronodules dans les parties supérieures",
+            "justification": "La fibrose pulmonaire avec micronodules est plutôt un signe de forme fibrosante de la PHS, et non de la forme non fibrosante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028876991_04",
+      "current_version_epoch_ms": 1756028876991,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel élément biologique est un indicateur clé dans le diagnostic de la pneumopathie d'hypersensibilité chronique fibrosante ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Le taux élevé de protéine C-réactive",
+            "justification": "Bien que la protéine C-réactive puisse être élevée dans diverses inflammations, elle n'est pas spécifique de la PHS, en particulier dans sa forme fibrosante."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'éosinophiles au lavage broncho-alvéolaire (LBA)",
+            "justification": "L'hyperéosinophilie au LBA est plus indicative d'autres pathologies comme l'asthme ou certaines formes de pneumopathies interstitielles, mais pas de la PHS fibrosante."
+          },
+          {
+            "correct": true,
+            "proposition": "Hyperlymphocytose franche au LBA",
+            "justification": "L'hyperlymphocytose franche au LBA est un signe d'orientation spécifique vers une pneumopathie d'hypersensibilité, particulièrement dans sa forme chronique fibrosante."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des neutrophiles dans le LBA",
+            "justification": "Une augmentation des neutrophiles peut être observée dans d'autres pathologies inflammatoires, mais elle n'est pas un critère spécifique pour la PHS fibrosante."
+          },
+          {
+            "correct": false,
+            "proposition": "Niveau élevé de D-dimères",
+            "justification": "Les D-dimères peuvent être élevés dans de nombreuses conditions pathologiques, mais ce n'est pas un marqueur spécifique de la PHS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028876991_05",
+      "current_version_epoch_ms": 1756028876991,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quand la biopsie pulmonaire est-elle indiquée dans le diagnostic de pneumopathie d'hypersensibilité ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une hyperréaction allergique systémique sévère",
+            "justification": "Une hyperréaction allergique systémique n'est pas un critère pour réaliser une biopsie pulmonaire, qui est plutôt réservée à la différenciation des formes fibrosantes."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour différencier la PHS chronique fibrosante d'autres formes de pneumopathies interstitielles (PID) fibrosantes",
+            "justification": "La biopsie pulmonaire est utile pour différencier la PHS chronique fibrosante des autres pneumopathies interstitielles fibrosantes, comme la FPI ou le PINS."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une suspicion de cancer du poumon",
+            "justification": "La biopsie pulmonaire n'est pas utilisée systématiquement pour diagnostiquer un cancer du poumon, sauf si une tumeur est suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour confirmer une infection bactérienne des voies respiratoires",
+            "justification": "Une biopsie pulmonaire n'est pas réalisée pour confirmer une infection bactérienne, qui peut être diagnostiquée par d'autres moyens (examen cytobactériologique des expectorations, par exemple)."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les symptômes persistent malgré un traitement adéquat",
+            "justification": "La biopsie pulmonaire est réservée à des cas diagnostiques spécifiques et ne se justifie pas uniquement en cas de persistance des symptômes malgré un traitement."
+          }
+        ]
+      }
+    }
+  ]
+}
