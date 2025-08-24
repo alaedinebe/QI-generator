@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "IRespiC",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756025183542_01",
+      "current_version_epoch_ms": 1756025183542,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la cible de saturation en oxygénothérapie chez un patient hypercapnique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "88% < Saturation < 92%",
+            "justification": "La cible de saturation recommandée chez un patient hypercapnique est comprise entre 88% et 92% pour éviter les effets délétères de l'hyperoxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Saturation > 92%",
+            "justification": "Une saturation supérieure à 92% peut entraîner une décompensation respiratoire en cas d'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Saturation < 85%",
+            "justification": "Une saturation inférieure à 85% est généralement trop basse et pourrait mener à des complications d'hypoxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Saturation > 95%",
+            "justification": "Une saturation au-dessus de 95% peut être dangereuse chez un patient hypercapnique, provoquant un risque de décompensation."
+          },
+          {
+            "correct": false,
+            "proposition": "Saturation entre 85% et 90%",
+            "justification": "Cette plage de saturation est trop basse et pourrait nuire au patient en augmentant le risque de complications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756025183542_02",
+      "current_version_epoch_ms": 1756025183542,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quel est l'impact de l'oxygénothérapie sur la PaCO2 chez un patient hypercapnique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'oxygénothérapie doit être surveillée par gazométrie rapprochée pour évaluer son impact sur la PaCO2.",
+            "justification": "Une surveillance gazométrique est nécessaire pour ajuster l'oxygénothérapie et éviter l'hypercapnie secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie n'affecte pas la PaCO2.",
+            "justification": "L'oxygénothérapie peut affecter la PaCO2, d'où la nécessité d'une surveillance rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie réduit systématiquement la PaCO2.",
+            "justification": "L'oxygénothérapie peut parfois augmenter la PaCO2, notamment en cas d'hypoventilation alvéolaire."
+          },
+          {
+            "correct": false,
+            "proposition": "L'oxygénothérapie doit être suspendue en cas de PaCO2 élevée.",
+            "justification": "La suspension de l'oxygénothérapie n'est pas systématique et doit être guidée par une surveillance et un ajustement précautionneux."
+          },
+          {
+            "correct": false,
+            "proposition": "La PaCO2 ne nécessite aucune surveillance pendant l'oxygénothérapie.",
+            "justification": "La PaCO2 doit être suivie de près, car une hypoventilation peut aggraver l'hypercapnie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756025183542_03",
+      "current_version_epoch_ms": 1756025183542,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Dans quel cas peut-on envisager la ventilation non invasive (VNI) chez un patient hypercapnique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lors d'une hypoventilation alvéolaire significative, la VNI peut être envisagée en complément de l'oxygénothérapie.",
+            "justification": "La VNI permet d'améliorer l'échange gazeux en cas de troubles ventilatoires associés à l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI est systématiquement indiquée en cas d'hypercapnie sévère.",
+            "justification": "La VNI est à envisager uniquement en cas d'hypoventilation alvéolaire significative, pas systématiquement en cas d'hypercapnie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI n'est jamais indiquée en cas d'hypercapnie.",
+            "justification": "La VNI est une option thérapeutique dans certaines conditions, notamment pour l'hypoventilation alvéolaire significative."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI doit être commencée dès l'apparition de l'hypercapnie.",
+            "justification": "La VNI est débutée après évaluation clinique et gazométrique, selon les critères spécifiques à chaque pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI est contre-indiquée chez un patient hypercapnique.",
+            "justification": "La VNI peut être bénéfique pour certains patients hypercapniques, mais elle doit être utilisée selon des critères bien définis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756025183542_04",
+      "current_version_epoch_ms": 1756025183542,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quels critères sont utilisés pour décider de la mise en route d'une ventilation non invasive (VNI) à long terme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les critères de mise en route de la VNI au long cours sont variables selon les pathologies sous-jacentes.",
+            "justification": "Les critères de mise en place de la VNI sont personnalisés et dépendent de l'évolution clinique et des pathologies spécifiques du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI est systématiquement initiée en cas d'hypercapnie chronique.",
+            "justification": "La VNI n'est pas systématiquement indiquée ; elle est réservée aux patients avec une hypoventilation alvéolaire significative."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI peut être décidée uniquement en fonction de la saturation en oxygène.",
+            "justification": "La VNI nécessite une évaluation clinique complète, incluant des critères gazométriques, et pas uniquement la saturation en oxygène."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI est indiquée uniquement pour les patients présentant une PaCO2 > 50 mmHg.",
+            "justification": "Le seuil de PaCO2 n'est pas un critère unique ; la décision repose sur l'ensemble de la situation clinique et gazométrique."
+          },
+          {
+            "correct": false,
+            "proposition": "La VNI est initiée sans tenir compte des pathologies sous-jacentes.",
+            "justification": "Les pathologies sous-jacentes influencent directement la décision de mettre en place une VNI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756025183542_05",
+      "current_version_epoch_ms": 1756025183542,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Pourquoi la surveillance gazométrique est-elle cruciale lors de l'oxygénothérapie chez un patient hypercapnique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La surveillance gazométrique permet d'évaluer l'impact de l'oxygénothérapie sur la PaCO2 et d'ajuster le traitement en conséquence.",
+            "justification": "L'ajustement de l'oxygénothérapie nécessite une surveillance pour éviter une aggravation de l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance gazométrique est inutile car l'oxygénothérapie ne modifie pas la PaCO2.",
+            "justification": "L'oxygénothérapie peut modifier la PaCO2, d'où la nécessité d'une surveillance continue."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance gazométrique permet uniquement de suivre la saturation en oxygène.",
+            "justification": "La surveillance gazométrique permet également d'évaluer la PaCO2, qui peut être affectée par l'oxygénothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance gazométrique doit être réalisée uniquement en cas d'hypercapnie sévère.",
+            "justification": "Même une hypercapnie modérée nécessite une surveillance pour éviter les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "La surveillance gazométrique est effectuée uniquement après l'initiation de la VNI.",
+            "justification": "La surveillance gazométrique est essentielle dès le début de l'oxygénothérapie, même avant l'initiation de la VNI."
+          }
+        ]
+      }
+    }
+  ]
+}
