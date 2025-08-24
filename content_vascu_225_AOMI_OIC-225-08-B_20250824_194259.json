@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "AOMI",
+    "subject": "vascu"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756057526463_01",
+      "current_version_epoch_ms": 1756057526463,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique clinique la plus fréquente d'une ischémie aiguë par embolie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Début très brutal des symptômes avec une ischémie sensitivo-motrice rapide.",
+            "justification": "L'embolie se manifeste par un début brutal des symptômes, avec une ischémie qui devient rapidement sensitivo-motrice, et les pouls périphériques controlatéraux restent présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Début progressif des symptômes avec une ischémie moins sévère.",
+            "justification": "Un début progressif et une ischémie moins sévère sont plus caractéristiques d'une thrombose, non d'une embolie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une artériopathie connue.",
+            "justification": "L'artériopathie est généralement absente dans le cadre d'une embolie, contrairement à la thrombose où elle peut être présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme cardiaque sinusal.",
+            "justification": "Un rythme sinusal est typique de la thrombose, tandis que l'embolie peut être associée à une arythmie cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'atteinte d'un autre territoire artériel.",
+            "justification": "L'embolie peut entraîner une atteinte d'autres territoires artériels, comme le mésentérique, ce qui n'est pas le cas pour une thrombose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756057526463_02",
+      "current_version_epoch_ms": 1756057526463,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique clinique d'une ischémie aiguë par thrombose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Début progressif des symptômes avec des antécédents d'artériopathie.",
+            "justification": "La thrombose se caractérise par un début plus progressif des symptômes, et elle est souvent associée à des antécédents d'artériopathie des membres inférieurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Ischémie rapidement sensitivo-motrice et pouls périphériques controlatéraux présents.",
+            "justification": "Cette description est plus typique d'une embolie, où l'ischémie est plus aiguë et les pouls controlatéraux restent palpables."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une arythmie cardiaque.",
+            "justification": "L'arythmie cardiaque est généralement retrouvée dans le cadre d'une embolie, pas dans une thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signes d'artériopathie.",
+            "justification": "Contrairement à l'embolie, la thrombose est souvent liée à des antécédents d'artériopathie, rendant l'absence de signes artériopathiques peu probable."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte d'autres territoires artériels, comme le mésentérique.",
+            "justification": "L'atteinte d'autres territoires artériels est plus fréquente en cas d'embolie, notamment mésentérique, ce qui est moins commun en cas de thrombose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756057526463_03",
+      "current_version_epoch_ms": 1756057526463,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quel est le rôle des antécédents d'artériopathie dans le diagnostic de l'ischémie aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils orientent vers une thrombose en cas de symptômes d'ischémie aiguë.",
+            "justification": "Les antécédents d'artériopathie des membres inférieurs sont caractéristiques d'une thrombose, car cette pathologie est souvent liée à des antécédents vasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont uniquement associés à l'embolie aiguë.",
+            "justification": "Les antécédents d'artériopathie sont plus associés à la thrombose qu'à l'embolie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils ne sont pas pris en compte dans le diagnostic d'ischémie aiguë.",
+            "justification": "Les antécédents sont un élément crucial pour suspecter une thrombose et orienter la prise en charge clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils permettent de différencier une embolie d'une thrombose par l'examen physique.",
+            "justification": "L'examen physique permet de suspecter une embolie ou une thrombose, mais les antécédents d'artériopathie sont plus pertinents dans le cadre de la thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils ont une influence uniquement sur la prise en charge thérapeutique, pas sur le diagnostic.",
+            "justification": "Les antécédents influencent à la fois le diagnostic et la prise en charge, car ils aident à orienter le mécanisme de l'ischémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756057526463_04",
+      "current_version_epoch_ms": 1756057526463,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre l'ischémie aiguë par embolie et par thrombose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le début des symptômes : très brutal pour l'embolie, progressif pour la thrombose.",
+            "justification": "L'ischémie par embolie débute brutalement, tandis que l'ischémie par thrombose a un début plus progressif."
+          },
+          {
+            "correct": false,
+            "proposition": "La gravité de l'ischémie est toujours plus sévère en cas d'embolie.",
+            "justification": "Bien que l'ischémie par embolie soit souvent plus aiguë, la gravité dépend du territoire atteint et de l'évolution clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'atteinte d'autres territoires artériels est plus fréquente dans la thrombose.",
+            "justification": "L'atteinte d'autres territoires artériels, comme le mésentérique, est plus fréquemment associée à l'embolie qu'à la thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ischémie par embolie est toujours plus réversible que celle par thrombose.",
+            "justification": "La réversibilité dépend de la rapidité de la prise en charge et de la localisation de l'obstruction, pas seulement du mécanisme."
+          },
+          {
+            "correct": false,
+            "proposition": "L'embolie entraîne systématiquement un pouls périphérique absent.",
+            "justification": "En cas d'embolie, les pouls périphériques peuvent être absents, mais ce n'est pas une règle systématique, et dans certains cas, ils restent présents."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756057526463_05",
+      "current_version_epoch_ms": 1756057526463,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quel est l'examen clinique le plus pertinent pour différencier une embolie d'une thrombose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'examen comparatif des membres inférieurs.",
+            "justification": "L'examen comparatif des membres inférieurs permet d'identifier les différences de pouls et d'ischémie, crucial pour différencier une embolie d'une thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'électrocardiogramme (ECG).",
+            "justification": "L'ECG peut révéler une arythmie cardiaque, particulièrement en cas d'embolie, mais il ne permet pas de différencier de manière décisive entre embolie et thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "La mesure de la pression artérielle systémique.",
+            "justification": "La pression artérielle systémique n'apporte pas d'éléments suffisants pour différencier une embolie d'une thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'auscultation cardiaque.",
+            "justification": "L'auscultation cardiaque peut aider à déceler des anomalies cardiaques, mais elle ne permet pas de différencier directement une embolie d'une thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen neurologique.",
+            "justification": "L'examen neurologique n'est pas un élément différenciateur clé entre embolie et thrombose dans le cadre de l'ischémie aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}
