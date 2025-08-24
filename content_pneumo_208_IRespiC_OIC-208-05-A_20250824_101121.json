@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "IRespiC",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756023287859_01",
+      "current_version_epoch_ms": 1756023287859,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle exploration fonctionnelle est la plus spécifique pour diagnostiquer une IRC obstructive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Spirométrie avec courbe débit-volume (TVO : VEMS/CV < 0,7)",
+            "justification": "La spirométrie permet de mesurer la capacité respiratoire et est utilisée pour diagnostiquer l'IRC obstructive, un rapport VEMS/CV inférieur à 0,7 indique une obstruction des voies respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Pléthysmographie avec CPT > 120% des valeurs prédites",
+            "justification": "La pléthysmographie est utilisée pour évaluer la distension thoracique, mais elle est plus spécifique de l'IRC obstructive avancée, et non du diagnostic initial."
+          },
+          {
+            "correct": false,
+            "proposition": "Altération de la diffusion (TLCO < 0,7)",
+            "justification": "Une altération de la diffusion est plus indicative de pneumopathies infiltrantes diffuses que d'une IRC obstructive."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang",
+            "justification": "Les gaz du sang permettent d'évaluer la sévérité de l'IRC, mais ne sont pas spécifiques du diagnostic de l'IRC obstructive."
+          },
+          {
+            "correct": false,
+            "proposition": "Pression maximale inspiratoire",
+            "justification": "La pression maximale inspiratoire mesure la force des muscles respiratoires, mais elle ne permet pas de diagnostiquer directement l'IRC obstructive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756023287859_02",
+      "current_version_epoch_ms": 1756023287859,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique d'une IRC restrictive observée à la pléthysmographie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "CPT < 80% des valeurs prédites",
+            "justification": "La pléthysmographie permet de mesurer la capacité pulmonaire totale (CPT). Un CPT inférieur à 80% des valeurs prédites est un signe classique d'IRC restrictive."
+          },
+          {
+            "correct": false,
+            "proposition": "CPT > 120% des valeurs prédites",
+            "justification": "Un CPT supérieur à 120% des valeurs prédites est un signe de distension thoracique, typique des IRC obstructives et non des IRC restrictives."
+          },
+          {
+            "correct": false,
+            "proposition": "VEMS/CV < 0,7",
+            "justification": "Un rapport VEMS/CV inférieur à 0,7 est caractéristique des IRC obstructives et non des IRC restrictives."
+          },
+          {
+            "correct": false,
+            "proposition": "TLCO < 0,7",
+            "justification": "L'altération de la diffusion (TLCO < 0,7) est plutôt suggestive d'une pneumopathie infiltrante diffuse, et non d'une IRC restrictive."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang",
+            "justification": "Bien que les gaz du sang soient utilisés pour évaluer la sévérité, ils ne permettent pas de distinguer directement entre IRC restrictive et obstructive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756023287859_03",
+      "current_version_epoch_ms": 1756023287859,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Une altération de la diffusion (TLCO < 0,7) est indicative de quelle pathologie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumopathie infiltrante diffuse",
+            "justification": "Une altération de la diffusion (TLCO < 0,7) est caractéristique des pneumopathies infiltrantes diffuses, où l'échange gazeux est compromis."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie neuromusculaire",
+            "justification": "Bien que les maladies neuromusculaires affectent la fonction ventilatoire, elles ne provoquent généralement pas une altération de la diffusion aussi marquée."
+          },
+          {
+            "correct": false,
+            "proposition": "IRC obstructive",
+            "justification": "L'IRC obstructive se caractérise par un VEMS/CV < 0,7, et non par une altération de la diffusion."
+          },
+          {
+            "correct": false,
+            "proposition": "IRC restrictive",
+            "justification": "L'IRC restrictive est plus associée à une réduction de la capacité pulmonaire totale (CPT), et non à une altération de la diffusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoventilation alvéolaire",
+            "justification": "L'hypoventilation alvéolaire peut être observée dans des pathologies de la pompe ventilatoire, mais n'entraîne pas nécessairement une altération de la diffusion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756023287859_04",
+      "current_version_epoch_ms": 1756023287859,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Que permet de détecter l'examen de la diffusion des gaz pulmonaires (TLCO) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une pneumopathie infiltrante diffuse",
+            "justification": "Une altération de la diffusion (TLCO < 0,7) est un signe classique de pneumopathie infiltrante diffuse, où l'échange gazeux est altéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Une obstruction des voies respiratoires",
+            "justification": "Les obstructions des voies respiratoires sont mieux détectées par la spirométrie, et non par l'examen de la diffusion des gaz."
+          },
+          {
+            "correct": false,
+            "proposition": "Une maladie neuromusculaire",
+            "justification": "Les maladies neuromusculaires affectent la fonction ventilatoire, mais n'altèrent généralement pas la diffusion des gaz."
+          },
+          {
+            "correct": false,
+            "proposition": "Une hypoventilation alvéolaire",
+            "justification": "L'hypoventilation alvéolaire est plus souvent associée à des pathologies de la pompe ventilatoire et non à une altération de la diffusion des gaz."
+          },
+          {
+            "correct": false,
+            "proposition": "Une altération de la capacité pulmonaire totale",
+            "justification": "L'altération de la capacité pulmonaire totale est caractéristique de l'IRC restrictive et non d'une altération de la diffusion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756023287859_05",
+      "current_version_epoch_ms": 1756023287859,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quel test permet d'évaluer directement la force des muscles respiratoires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pression maximale inspiratoire",
+            "justification": "La pression maximale inspiratoire mesure directement la force des muscles respiratoires en évaluant leur capacité à inspirer contre une résistance."
+          },
+          {
+            "correct": false,
+            "proposition": "Pléthysmographie",
+            "justification": "La pléthysmographie évalue la capacité pulmonaire totale (CPT) et la distension thoracique, mais elle ne mesure pas directement la force des muscles respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Spirométrie",
+            "justification": "La spirométrie mesure les volumes et débits pulmonaires, mais ne permet pas d'évaluer la force des muscles respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Gaz du sang",
+            "justification": "Les gaz du sang permettent d'évaluer la ventilation et les échanges gazeux, mais ne mesurent pas la force musculaire respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "TLCO",
+            "justification": "Le TLCO mesure l'efficacité de la diffusion des gaz, mais ne fournit pas d'information sur la force des muscles respiratoires."
+          }
+        ]
+      }
+    }
+  ]
+}
