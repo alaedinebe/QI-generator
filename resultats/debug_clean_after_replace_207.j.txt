@@ -1,0 +1,159 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les modalités du diagnostic d'un épanchement pleural gazeux chez l'enfant et l'adulte OIC-207-04-A
+
+
+
+
+La radiographie du thorax debout de face en inspiration pose le diagnostic de pneumothorax et précise le retentissement médiastinal. Le diagnostic radiographique est plus difficile chez un malade couché. La radiographie en expiration n'est pas recommandée car elle peut majorer le pneumothorax.
+L'échographie pleurale est un examen non invasif, qui peut être fait au lit du malade (couché ou assis). Dans des mains entrainées elle pourrait être plus sensible que la radiographie pour la détection des PNO de petite taille.
+Le scanner thoracique est l'examen le plus sensible (un scanner normal élimine la présence d'un PNO) mais n'est pas indispensable au diagnostic. Ses indications principales sont :
+
+Radiographie thoracique d'interprétation difficile
+Récidive de pneumothorax spontané à la recherche bulles apicales ou d'une maladie pulmonaire sous-jacente
+Bilan pour certains professionnels « à risque » (plongeurs, pilotes)
+Pneumothorax d'origine traumatique à la recherche d'autres anomalies traumatiques associées.
+L'IRM et la TEP-TDM au FDG n'ont pas de place dans le bilan de PNO.
+
+Sémiologie :
+Radiographie thoracique de face debout
+
+Hyperclarté pulmonaire apico-latérale avasculaire en forme de croissant, délimitée en bas et en dedans par une fine ligne oblique correspondant à la plèvre viscérale (Figure 1)
+Niveau hydro-aérique si hydropneumothorax (Figure 2)
+
+
+
+
+Figure 1. Pneumothorax droit. Hyperclarté pulmonaire (flèche orange) limitée par la ligne pleurale viscérale (flèches bleues).
+
+
+
+
+
+
+Figure 2. Hydropneumothorax droit avec niveau hydro-aérique bien visible de face et visible en antérieur de profil.
+
+
+
+
+
+Signes de pneumothorax sous-tension (Figure 3) :
+
+Déplacement médiastinal vers le côté opposé
+Abaissement de la coupole diaphragmatique homolatérale
+Expansion de l'hémithorax homolatéral
+Elargissement des espaces intercostaux
+Rétraction pulmonaire totale avec opacité pulmonaire collabé au hile (collapsus complet du poumon)
+
+
+
+
+Figure 3. Pneumothorax complet gauche avec rétraction du poumon sur son hile.
+
+
+
+
+
+Scanner
+
+Air entre les feuillets pleuraux
+Recherche étiologique : lésions pulmonaires sous-jacentes (emphysème, maladies pulmonaires kystiques, mésothéliome…) (Figure 4)
+
+
+
+
+Figure 4. Pneumothorax bilatéral prédominant à gauche (flèches blanches) survenant sur un poumon pathologique.
+
+
+
+ Connaître les modalités du diagnostic d'un épanchement pleural gazeux chez l'enfant et l'adulte OIC-207-04-ALa radiographie du thorax debout de face en inspirationpose le diagnostic de pneumothorax et précise le retentissement médiastinal. Le diagnostic radiographique est plus difficile chez un malade couché. La radiographie en expiration n'est pas recommandée car elle peut majorer le pneumothorax.L'échographie pleurale est un examen non invasif, qui peut être fait au lit du malade (couché ou assis). Dans des mains entrainées elle pourrait être plus sensible que la radiographie pour la détection des PNO de petite taille.Le scanner thoracique est l'examen le plus sensible (un scanner normal élimine la présence d'un PNO) mais n'est pas indispensable au diagnostic. Ses indications principales sont :Radiographie thoracique d'interprétation difficileRécidive de pneumothorax spontané à la recherche bulles apicales ou d'une maladie pulmonaire sous-jacenteBilan pour certains professionnels « à risque » (plongeurs, pilotes)Pneumothorax d'origine traumatique à la recherche d'autres anomalies traumatiques associées.L'IRM et la TEP-TDM au FDG n'ont pas de place dans le bilan de PNO.Sémiologie :Radiographie thoracique de face deboutHyperclarté pulmonaireapico-latérale avasculaire en forme de croissant, délimitée en bas et en dedans par une fine ligne oblique correspondant à la plèvre viscérale (Figure 1)Niveau hydro-aérique si hydropneumothorax (Figure 2)Figure 1.Pneumothorax droit. Hyperclarté pulmonaire (flèche orange) limitée par la ligne pleurale viscérale (flèches bleues).Figure 2.Hydropneumothorax droit avec niveau hydro-aérique bien visible de face et visible en antérieur de profil.Signes de pneumothorax sous-tension (Figure 3) :Déplacement médiastinal vers le côté opposéAbaissement de la coupole diaphragmatique homolatéraleExpansion de l'hémithorax homolatéralElargissement des espaces intercostauxRétraction pulmonaire totale avec opacité pulmonaire collabé au hile (collapsus complet du poumon)Figure 3.Pneumothorax complet gauche avec rétraction du poumon sur son hile.ScannerAir entre les feuillets pleurauxRecherche étiologique : lésions pulmonaires sous-jacentes (emphysème, maladies pulmonaires kystiques, mésothéliome…) (Figure 4)Figure 4.Pneumothorax bilatéral prédominant à gauche (flèches blanches) survenant sur un poumon pathologique.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
