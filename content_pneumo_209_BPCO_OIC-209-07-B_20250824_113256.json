@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "BPCO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756028123126_01",
+      "current_version_epoch_ms": 1756028123126,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de la radiographie thoracique dans la BPCO en état stable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Révéler des comorbidités telles que la cardiopathie ou le cancer.",
+            "justification": "La radiographie thoracique n'a pas d'intérêt dans le diagnostic positif de BPCO, mais elle peut montrer des comorbidités telles que la cardiopathie ou le cancer."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer le type d'emphysème présent.",
+            "justification": "La radiographie thoracique ne permet pas de préciser le type d'emphysème, rôle réservé à la TDM thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Montrer la sévérité de l'atteinte pulmonaire.",
+            "justification": "La radiographie peut montrer des signes de distension en cas d'atteinte sévère, mais ce n'est pas son rôle principal dans la BPCO stable."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer un cancer broncho-pulmonaire.",
+            "justification": "La radiographie ne permet pas de diagnostiquer le cancer broncho-pulmonaire, mais elle peut révéler des comorbidités telles que le cancer."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter des bronchectasies.",
+            "justification": "Les bronchectasies sont mieux évaluées par la TDM thoracique et non par la radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028123126_02",
+      "current_version_epoch_ms": 1756028123126,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Dans quelles situations une TDM thoracique est-elle indiquée chez un patient atteint de BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans les formes sévères de BPCO pour préciser l'étendue des lésions.",
+            "justification": "La TDM thoracique est indiquée dans les formes sévères pour préciser le type et l'étendue des lésions d'emphysème."
+          },
+          {
+            "correct": false,
+            "proposition": "En routine pour tous les patients présentant une BPCO.",
+            "justification": "La TDM thoracique n'est pas systématique et est réservée aux formes sévères."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour rechercher des bronchectasies.",
+            "justification": "La TDM thoracique permet de rechercher des bronchectasies, un signe fréquent dans la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour diagnostiquer un cancer broncho-pulmonaire.",
+            "justification": "Bien que la TDM puisse aider à dépister un cancer broncho-pulmonaire, ce n'est pas son rôle principal dans la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour tous les patients en état stable.",
+            "justification": "La TDM n'est pas systématique dans la BPCO stable, elle est réservée aux formes sévères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028123126_03",
+      "current_version_epoch_ms": 1756028123126,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quel est l'examen systématique en cas d'exacerbation grave de la BPCO nécessitant une hospitalisation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une radiographie thoracique.",
+            "justification": "Une radiographie thoracique est systématique en cas d'exacerbation grave avec hospitalisation ou de doute diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une TDM thoracique.",
+            "justification": "La TDM thoracique n'est pas systématique en cas d'exacerbation grave, elle peut être indiquée dans les formes sévères mais pas en routine."
+          },
+          {
+            "correct": false,
+            "proposition": "Un examen de spirométrie.",
+            "justification": "La spirométrie est utile pour le suivi de la BPCO mais n'est pas systématique dans l'exacerbation grave nécessitant une hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Une angio-TDM.",
+            "justification": "Une angio-TDM est discutée en fonction des éléments cliniques orientant vers une suspicion d'embolie pulmonaire, mais ce n'est pas systématique pour une exacerbation grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Une analyse des gaz du sang.",
+            "justification": "Bien que l'analyse des gaz du sang soit courante dans la prise en charge de l'exacerbation, ce n'est pas un examen d'imagerie systématique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028123126_04",
+      "current_version_epoch_ms": 1756028123126,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Dans quel cas une angio-TDM est-elle envisagée lors d'une exacerbation de BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion d'embolie pulmonaire.",
+            "justification": "Une angio-TDM peut être envisagée en cas de suspicion d'embolie pulmonaire, en fonction des premiers éléments cliniques d'orientation."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de doute sur l'étendue de l'emphysème.",
+            "justification": "La TDM thoracique est l'examen indiqué pour évaluer l'emphysème, mais l'angio-TDM est spécifiquement utilisée pour l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'infection pulmonaire suspectée.",
+            "justification": "L'angio-TDM n'est pas l'examen de choix pour diagnostiquer une infection pulmonaire, une radiographie ou une TDM thoracique peuvent être plus appropriées."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de comorbidité cardiaque associée.",
+            "justification": "Une angio-TDM ne sert pas à diagnostiquer une comorbidité cardiaque. Elle est utilisée pour suspecter une embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de suspicion de cancer broncho-pulmonaire.",
+            "justification": "La recherche de cancer broncho-pulmonaire nécessite une TDM thoracique, pas une angio-TDM."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756028123126_05",
+      "current_version_epoch_ms": 1756028123126,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Pourquoi la radiographie thoracique est-elle réalisée lors du diagnostic de la BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour détecter des comorbidités comme la cardiopathie ou le cancer.",
+            "justification": "La radiographie thoracique est réalisée au moment du diagnostic pour détecter des comorbidités, comme la cardiopathie ou le cancer, mais pas pour diagnostiquer la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la gravité de l'emphysème.",
+            "justification": "La radiographie ne permet pas d'évaluer la gravité de l'emphysème, un rôle réservé à la TDM thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour confirmer le diagnostic de BPCO.",
+            "justification": "La radiographie n'est pas utilisée pour confirmer le diagnostic de BPCO, mais pour identifier des comorbidités."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher des bronchectasies.",
+            "justification": "Les bronchectasies sont mieux identifiées par la TDM thoracique que par la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour diagnostiquer une embolie pulmonaire.",
+            "justification": "La radiographie thoracique n'est pas utilisée pour diagnostiquer une embolie pulmonaire, une angio-TDM serait plus appropriée."
+          }
+        ]
+      }
+    }
+  ]
+}
