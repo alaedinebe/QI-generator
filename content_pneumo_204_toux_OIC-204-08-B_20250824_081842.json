@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "toux",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756016528927_01",
+      "current_version_epoch_ms": 1756016528927,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "toux"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de la radiographie thoracique dans le cadre d'une toux chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est demandée systématiquement dans ce contexte.",
+            "justification": "La radiographie thoracique est demandée systématiquement dans un contexte de toux chronique pour évaluer d'éventuelles anomalies pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est indiquée uniquement lorsque la toux est accompagnée de dyspnée.",
+            "justification": "La radiographie de thorax est systématique dans le cadre de toux chronique, quelle que soit la présence de dyspnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est réservée aux cas de toux aiguë seulement.",
+            "justification": "La radiographie de thorax est utilisée dans le cadre de la toux chronique, et non pour la toux aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'est pas nécessaire dans le cadre d'une toux chronique.",
+            "justification": "La radiographie de thorax est systématique pour toute toux chronique afin d'exclure d'éventuelles pathologies sous-jacentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être faite après un examen clinique normal et une radiographie de thorax normale.",
+            "justification": "La radiographie thoracique est réalisée de manière systématique en cas de toux chronique, indépendamment de l'examen clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756016528927_02",
+      "current_version_epoch_ms": 1756016528927,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "toux"
+      },
+      "data": {
+        "statement": "Quand faut-il réaliser un scanner thoracique dans le cadre d'une suspicion de cancer bronchique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lors de toute suspicion de cancer bronchique.",
+            "justification": "La suspicion de cancer bronchique justifie systématiquement la réalisation d'un scanner thoracique pour évaluer l'étendue et la nature de la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en présence de métastases pulmonaires.",
+            "justification": "Un scanner thoracique est recommandé dès la suspicion de cancer bronchique, même en l'absence de métastases."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la radiographie de thorax est normale.",
+            "justification": "La radiographie de thorax ne suffit pas à exclure un cancer bronchique, un scanner est requis pour une évaluation complète."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans tous les cas de toux chronique.",
+            "justification": "Un scanner thoracique n'est pas indiqué pour tous les cas de toux chronique, seulement en cas de suspicion de cancer bronchique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de signes d'alarme comme la perte de poids.",
+            "justification": "Bien que les signes d'alarme soient importants, la suspicion de cancer bronchique reste l'indication principale pour un scanner thoracique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756016528927_03",
+      "current_version_epoch_ms": 1756016528927,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "toux"
+      },
+      "data": {
+        "statement": "Quelle est l'indication d'un scanner thoracique dans le cadre d'une toux chronique ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Il est indiqué si l'examen clinique et la radiographie de thorax sont normaux et sans signes d'alarme.",
+            "justification": "Le scanner thoracique n'est pas indiqué si la radiographie de thorax est normale et qu'il n'y a pas de signes d'alarme."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est indiqué en cas de suspicion de cancer bronchique.",
+            "justification": "La suspicion de cancer bronchique est l'une des principales indications pour la réalisation d'un scanner thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il doit être effectué dans tous les cas de toux persistante.",
+            "justification": "Un scanner thoracique n'est pas systématique pour toutes les toux persistantes, il est réservé aux cas avec des signes cliniques inquiétants."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est recommandé après un examen clinique et une radiographie thoracique normaux.",
+            "justification": "Si l'examen clinique et la radiographie thoracique sont normaux, il n'y a pas d'indication à réaliser un scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est pas nécessaire si la radiographie de thorax est normale.",
+            "justification": "Un scanner thoracique est réalisé en cas de suspicion clinique de pathologie grave, même si la radiographie est normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756016528927_04",
+      "current_version_epoch_ms": 1756016528927,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "toux"
+      },
+      "data": {
+        "statement": "Quand peut-on se passer d'un scanner thoracique dans un contexte de toux chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il n'y a ni signe d'alarme ni anomalie à la radiographie de thorax.",
+            "justification": "En l'absence de signes d'alarme et d'anomalies radiologiques, un scanner thoracique n'est pas nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un traitement antibiotique est en cours.",
+            "justification": "Un traitement antibiotique ne justifie pas la réalisation d'un scanner thoracique, sauf si des signes d'alarme apparaissent."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le patient ne présente aucune douleur thoracique.",
+            "justification": "La douleur thoracique n'est pas un critère déterminant pour réaliser un scanner thoracique dans le cadre d'une toux chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'examen clinique est normal.",
+            "justification": "Un examen clinique normal ne suffit pas à exclure la nécessité d'un scanner thoracique en cas de suspicion clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la toux a duré moins de trois semaines.",
+            "justification": "La durée de la toux n'est pas le critère principal pour réaliser un scanner thoracique, l'examen clinique et les signes d'alarme sont plus importants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756016528927_05",
+      "current_version_epoch_ms": 1756016528927,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "toux"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la radiographie thoracique dans l'évaluation d'une toux chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de détecter des anomalies pulmonaires et de guider la prise en charge.",
+            "justification": "La radiographie thoracique permet de repérer des pathologies sous-jacentes dans le cadre de toux chronique, orientant ainsi le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de poser un diagnostic de cancer bronchique de manière définitive.",
+            "justification": "La radiographie thoracique peut suggérer un cancer bronchique, mais ce diagnostic doit être confirmé par un scanner thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée uniquement pour évaluer la fonction pulmonaire.",
+            "justification": "La radiographie thoracique ne sert pas à évaluer directement la fonction pulmonaire, mais plutôt à repérer des anomalies structurelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée pour exclure une pneumonie.",
+            "justification": "La radiographie thoracique peut détecter des infections pulmonaires, mais elle n'est pas spécifiquement utilisée pour exclure une pneumonie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utile uniquement en cas de toux aiguë.",
+            "justification": "La radiographie thoracique est systématique dans le cadre de la toux chronique, pas uniquement en cas de toux aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}
