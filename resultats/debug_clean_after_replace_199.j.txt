@@ -1,0 +1,171 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître la démarche diagnostique devant une suspicion de SDRC OIC-199-04-A
+
+
+
+Rang A
+Rubrique : Diagnostic positif
+Intitulé : Connaitre la démarche diagnostique devant une suspicion de SDRC
+Descriptif : Diagnostic clinique
+
+·       Le diagnostic de SDRC est un diagnostic clinique sans qu'aucun autre diagnostic  ne puisse expliquer les symptômes. 
+·       Les symptômes associent une douleur, des troubles sensoriels, vasomoteurs, et trophiques/moteurs.  
+.        La symptomatologie du SDRC est fluctuante (chez un même patient).  
+1-La douleur
+·       La douleur est permanente, en particulier au début de l'évolution. Elle est continue, superficielle ou profonde, aggravée par l'orthostatisme, souvent disproportionnée . 
+. La qualité de la douleur doit être définie : lancements, brûlures, picotements, fourmillements, etc. Elle peut être augmentée par des facteurs somatosensoriels. 
+Les douleurs sont souvent plurifactorielles : séquelles de fracture (douleurs mécaniques), oedème, douleurs neuropathiques, douleurs continues, paroxystiques, nocturnes, diurnes, etc. 
+. La douleur peut entraîner une impotence fonctionnelle allant jusqu'à l'exclusion du membre concerné du schéma corporel. 
+2-Troubles sensoriels
+·            Il peut exister des modifications de la sensibilité tactile, douloureuse, thermique, à la pression :   hypoesthésie, hyperesthésie, hyperalgésie.
+·            Il est important de rechercher des douleurs provoquées : allodynie mécanique statique ou dynamique, allodynie thermique au froid ou au chaud, hyperalgésie.
+·            Certains patients vont présenter une pseudo-négligence motrice avec des modifications de perception de la taille d'un segment de membre (augmentation de volume), de l'orientation du membre, de la reconnaissance du membre. Il peut exister une perte des mouvements spontanés, une bradykinésie, une asomatognosie, etc.
+3-Troubles vaso-moteurs
+·            Les troubles vasomoteurs sont à type d'érythrocyanose, œdème, modification de la température cutanée (peau froide, le plus souvent ou chaude).
+·            L'hypersudation peut être importante.
+4-Troubles moteurs et trophiques
+·     On peut observer une amyotrophie par sous-utilisation, une diminution de la force musculaire et des mouvements complexes, un tremblement fin des extrémités, une dystonie.
+·     Les troubles trophiques sont les plus tardifs. Ils peuvent concerner la peau, les phanères (ongles striés, cassants, peau fine ou hyperkératosique), mais ce sont les rétractions capsulaires articulaires, tendineuses, aponévrotiques, pouvant s'installer très rapidement, qui font le pronostic fonctionnel de l'affection.
+
+Le diagnostic de SDCR repose sur les critères de Budapest (Tableau 1)
+
+
+
+Tableau 1. CRITÈRES DIAGNOSTIQUES DE BUDAPEST
+
+OUI
+
+NON
+
+
+1.  Douleur permanente, disproportionnée par rapport à la cause
+
+
+
+
+
+
+2. Survenue initiale d'au moins 1 symptôme dans 3 des 4 paramètres suivants :
+- Sensoriel : hyperalgésie et/ou  allodynie 
+- Vasomotrice : asymétrie de la température et/ou  changement/asymétrie de la coloration de la peau
+- Sudation/oedème : modifications de la  sudation et/ou apparition d'un œdème.
+- Moteur/trophique : faiblesse,  tremblement ou dystonie et/ou troubles trophiques 
+(poils, ongles, peau)
+
+
+
+
+
+
+
+
+3. Persistance lors de l'évaluation d'au moins 1 signe dans au moins 2 des paramètres suivants:
+- Sensoriel : hyperalgésie et/ou allodynie
+- Vasomoteur : modifications de couleur et/ou de température  cutanée
+- Sudation/oedème : modifications de la sudation et/ou apparition d'un œdème 
+- Moteur/Trophique : faiblesse, tremblement ou dystonie et/ou troubles trophiques 
+(poils, ongles, peau)
+
+
+
+
+
+
+
+4. Aucun autre diagnostic expliquant ces symptômes
+
+
+
+
+ Connaître la démarche diagnostique devant une suspicion de SDRC OIC-199-04-ARang ARubrique : Diagnostic positifIntitulé : Connaitre la démarche diagnostique devant une suspicion de SDRCDescriptif : Diagnostic clinique·       Le diagnostic de SDRC est undiagnostic cliniquesans qu'aucun autre diagnostic  ne puisse expliquer les symptômes.·       Les symptômes associent une douleur, des troubles sensoriels, vasomoteurs, et trophiques/moteurs..        La symptomatologie du SDRC est fluctuante (chez un même patient).1-La douleur·La douleur est permanente, en particulier au début de l'évolution. Elle est continue, superficielle ou profonde, aggravée par l'orthostatisme, souventdisproportionnée.. La qualité de la douleur doit être définie : lancements, brûlures, picotements, fourmillements, etc. Elle peut être augmentée par des facteurs somatosensoriels.Les douleurs sont souvent plurifactorielles : séquelles de fracture (douleurs mécaniques), oedème, douleurs neuropathiques, douleurs continues, paroxystiques, nocturnes, diurnes, etc.. La douleur peut entraîner une impotence fonctionnelle allant jusqu'à l'exclusion du membre concerné du schéma corporel.2-Troubles sensoriels·            Il peut exister desmodifications de la sensibilitétactile, douloureuse, thermique, à la pression :   hypoesthésie, hyperesthésie, hyperalgésie.·            Il est important de rechercherdes douleurs provoquées: allodynie mécanique statique ou dynamique, allodynie thermique au froid ou au chaud, hyperalgésie.·            Certains patients vont présenter une pseudo-négligence motrice avec des modifications de perception de la taille d'un segment de membre (augmentation de volume), de l'orientation du membre, de la reconnaissance du membre. Il peut exister une perte des mouvements spontanés, une bradykinésie, une asomatognosie, etc.3-Troubles vaso-moteurs·            Les troubles vasomoteurs sont à typed'érythrocyanose, œdème, modification de la température cutanée(peau froide, le plus souvent ou chaude).·            L'hypersudation peut être importante.4-Troubles moteurs et trophiques·     On peut observer une amyotrophie par sous-utilisation, une diminution de la force musculaire et des mouvements complexes, untremblement fin des extrémités, une dystonie.·Les troubles trophiquessont les plus tardifs. Ils peuvent concernerla peau, les phanères(ongles striés, cassants, peau fine ou hyperkératosique), mais ce sont lesrétractions capsulaires articulaires, tendineuses, aponévrotiques, pouvant s'installer très rapidement, qui font le pronostic fonctionnel de l'affection.Le diagnostic de SDCR repose sur les critères de Budapest (Tableau 1)Tableau 1. CRITÈRES DIAGNOSTIQUES DE BUDAPESTOUINON1.  Douleur permanente, disproportionnée par rapport à la cause2. Survenue initiale d'au moins 1 symptôme dans 3 des 4 paramètres suivants :- Sensoriel :hyperalgésie et/ou  allodynie- Vasomotrice :asymétrie de la température et/ou  changement/asymétrie de la coloration de la peau- Sudation/oedème :modifications de la  sudation et/ou apparition d'un œdème.- Moteur/trophique :faiblesse,  tremblement ou dystonie et/ou troubles trophiques(poils, ongles, peau)3. Persistance lors de l'évaluation d'au moins 1 signe dans au moins 2 des paramètres suivants:- Sensoriel :hyperalgésie et/ou allodynie- Vasomoteur :modifications de couleur et/ou de température  cutanée- Sudation/oedème :modifications de la sudation et/ou apparition d'un œdème- Moteur/Trophique :faiblesse, tremblement ou dystonie et/ou troubles trophiques(poils, ongles, peau)4. Aucun autre diagnostic expliquant ces symptômes
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
