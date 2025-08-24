@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hemorragie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756038386881_01",
+      "current_version_epoch_ms": 1756038386881,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est l'examen à réaliser devant une thrombopénie sans syndrome hémorragique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contrôle de la numération plaquettaire sur tube citraté",
+            "justification": "En cas de thrombopénie sans syndrome hémorragique, un contrôle sur tube citraté permet de différencier une fausse thrombopénie due à l'agrégation des plaquettes en présence d'EDTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôle de la numération plaquettaire sur tube à hémogramme",
+            "justification": "Le tube à hémogramme contenant de l'EDTA peut induire une fausse thrombopénie en raison de l'agrégation des plaquettes, ce qui ne permet pas un comptage exact."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôle de la numération plaquettaire sur tube hépariné",
+            "justification": "Bien que le tube hépariné soit utilisé pour prévenir l'agrégation des plaquettes, il n'est pas recommandé dans ce contexte spécifique pour confirmer une thrombopénie fausse."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôle capillaire direct",
+            "justification": "Le contrôle capillaire est moins précis et n'est pas utilisé pour vérifier une fausse thrombopénie due à l'agrégation des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure n'est nécessaire",
+            "justification": "La vérification de l'agrégation des plaquettes est essentielle pour exclure une fausse thrombopénie avant de conclure à une thrombopénie véritable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038386881_02",
+      "current_version_epoch_ms": 1756038386881,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Pourquoi faut-il vérifier l'absence d'agrégats in vitro en cas de thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour éviter une fausse thrombopénie induite par l'agrégation des plaquettes en présence d'EDTA",
+            "justification": "L'EDTA dans les tubes d'hémogramme peut entraîner une agrégation des plaquettes, menant à une fausse thrombopénie, ce qui ne reflète pas le nombre réel de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour confirmer que la thrombopénie est accompagnée d'un syndrome hémorragique",
+            "justification": "Le contrôle sur citrate ne sert pas à confirmer la présence d'un syndrome hémorragique, mais à identifier une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour corriger les facteurs de dilution dans l'échantillon de sang",
+            "justification": "Bien que la correction des facteurs de dilution soit importante, l'objectif principal du contrôle sur citrate est d'exclure une fausse thrombopénie due à l'agrégation plaquettaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour déterminer si la thrombopénie est due à une carence en vitamine B12",
+            "justification": "La vérification sur tube citraté ne permet pas de diagnostiquer des carences en vitamine B12, mais d'exclure une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la réponse de la moelle osseuse à une thrombopénie",
+            "justification": "Le contrôle sur citrate sert à exclure une fausse thrombopénie et non à évaluer la réponse de la moelle osseuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038386881_03",
+      "current_version_epoch_ms": 1756038386881,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quels sont les anticoagulants qui peuvent induire une fausse thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "EDTA",
+            "justification": "L'EDTA, utilisé dans les tubes à hémogramme, peut induire une agrégation des plaquettes, entraînant une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Heparine",
+            "justification": "L'héparine est utilisée dans certains tubes pour prévenir l'agrégation des plaquettes et ne cause pas de fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Citrate",
+            "justification": "Le citrate est utilisé pour vérifier l'absence d'agrégation plaquettaire et ne provoque pas de fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Warfarine",
+            "justification": "La warfarine est un anticoagulant oral, mais elle ne provoque pas d'agrégation des plaquettes et n'est pas associée à une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Aspirine",
+            "justification": "L'aspirine inhibe l'agrégation plaquettaire mais ne provoque pas de fausse thrombopénie en laboratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038386881_04",
+      "current_version_epoch_ms": 1756038386881,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Dans quel cas un contrôle sur tube citraté est essentiel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de thrombopénie asymptomatique, surtout si profonde",
+            "justification": "Un contrôle sur tube citraté est indispensable pour vérifier une fausse thrombopénie, notamment lorsque la thrombopénie est profonde mais sans signes de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la thrombopénie est sévère et accompagnée de saignements",
+            "justification": "Un contrôle sur tube citraté est nécessaire dans les cas asymptomatiques ou sans syndrome hémorragique, mais pas dans les cas où des saignements sont déjà présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient a des antécédents de thrombopénie immunologique",
+            "justification": "Le contrôle sur tube citraté est principalement utilisé pour exclure une fausse thrombopénie due à l'agrégation des plaquettes, et non pour diagnostiquer une thrombopénie immunologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une transfusion de plaquettes",
+            "justification": "Le contrôle sur tube citraté est lié à la vérification de la thrombopénie et non aux complications d'une transfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de thrombopénie liée à une leucémie",
+            "justification": "La leucémie ne justifie pas un contrôle sur tube citraté, car il ne s'agit pas d'un artefact de laboratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038386881_05",
+      "current_version_epoch_ms": 1756038386881,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de demander un contrôle sur tube citraté en cas de thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exclure une fausse thrombopénie due à l'agrégation des plaquettes",
+            "justification": "Le contrôle sur tube citraté permet d'exclure une fausse thrombopénie causée par l'agrégation plaquettaire induite par l'EDTA, et ainsi obtenir un comptage précis des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier la cause sous-jacente de la thrombopénie",
+            "justification": "Le contrôle sur tube citraté ne permet pas de diagnostiquer la cause sous-jacente de la thrombopénie, mais seulement de différencier une thrombopénie réelle d'une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôler l'efficacité du traitement anticoagulant",
+            "justification": "Le contrôle sur tube citraté n'est pas utilisé pour évaluer l'efficacité d'un traitement anticoagulant, mais pour vérifier une éventuelle fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction plaquettaire",
+            "justification": "Le contrôle sur tube citraté permet de comptabiliser les plaquettes, mais ne permet pas d'évaluer leur fonction."
+          },
+          {
+            "correct": false,
+            "proposition": "Prendre une décision concernant une éventuelle transfusion",
+            "justification": "Le contrôle sur tube citraté est utilisé pour évaluer la thrombopénie et non pour décider de la nécessité d'une transfusion."
+          }
+        ]
+      }
+    }
+  ]
+}
