@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "thromboP",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756035366507_01",
+      "current_version_epoch_ms": 1756035366507,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "En cas de thrombopénie sans signes hémorragiques cutanéo-muqueux, quelle démarche est à suivre pour éliminer une fausse thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vérifier la numération plaquettaire sur lame au microscope.",
+            "justification": "La recherche d'agrégats plaquettaires sur un frottis sanguin permet d'éliminer l'artéfact de laboratoire responsable de la fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un test de coagulation pour évaluer la gravité de la thrombopénie.",
+            "justification": "Le test de coagulation n'est pas nécessaire en l'absence de signes hémorragiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une échographie abdominale pour rechercher une splénomégalie.",
+            "justification": "L'échographie abdominale n'est pas indiquée pour explorer une thrombopénie sans signes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un dosage de la vitamine B12 et de l'acide folique.",
+            "justification": "Ce test est non pertinent pour une thrombopénie isolée sans signes cliniques."
+          },
+          {
+            "correct": true,
+            "proposition": "Contrôler la numération plaquettaire sur un tube citraté.",
+            "justification": "L'utilisation d'un tube citraté permet de vérifier si l'agrégat plaquettaire était dû à l'anticoagulant EDTA et éliminer l'artéfact."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035366507_02",
+      "current_version_epoch_ms": 1756035366507,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle est la principale cause d'une fausse thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Agrégats plaquettaires en présence d'EDTA.",
+            "justification": "Les agrégats plaquettaires formés en présence d'EDTA conduisent à une sous-estimation du nombre de plaquettes, créant une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en vitamine B12.",
+            "justification": "Un déficit en vitamine B12 n'est pas responsable d'une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble de la fonction plaquettaire.",
+            "justification": "Les troubles de la fonction plaquettaire ne causent pas une sous-évaluation du nombre de plaquettes sur un hémogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypersplénisme.",
+            "justification": "L'hypersplénisme peut diminuer la numération plaquettaire, mais ne cause pas d'artéfact de laboratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en acide folique.",
+            "justification": "Le déficit en acide folique n'entraîne pas une fausse thrombopénie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035366507_03",
+      "current_version_epoch_ms": 1756035366507,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "En cas de fausse thrombopénie, que faut-il faire après avoir éliminé les agrégats plaquettaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Aucune exploration complémentaire n'est nécessaire.",
+            "justification": "Une fois l'artéfact éliminé, et l'absence de signes hémorragiques confirmée, aucune exploration supplémentaire n'est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un contrôle de la fonction rénale.",
+            "justification": "Le contrôle de la fonction rénale n'est pas pertinent en cas de fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un traitement anticoagulant pour éviter les risques de thrombose.",
+            "justification": "Il n'y a pas d'indication thérapeutique en cas de fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveiller la numération plaquettaire tous les jours.",
+            "justification": "La numération plaquettaire ne nécessite pas de surveillance répétée une fois la fausse thrombopénie éliminée."
+          },
+          {
+            "correct": false,
+            "proposition": "Consulter un hématologue pour un avis spécialisé.",
+            "justification": "Un avis spécialisé n'est pas nécessaire si la fausse thrombopénie est confirmée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035366507_04",
+      "current_version_epoch_ms": 1756035366507,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Pourquoi les agrégats plaquettaires provoquent-ils une fausse thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils conduisent à une sous-évaluation du nombre de plaquettes sur l'hémogramme.",
+            "justification": "L'agglutination des plaquettes entraîne une sous-estimation de leur nombre en raison de l'effet de l'EDTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils inhibent la production de plaquettes dans la moelle osseuse.",
+            "justification": "Les agrégats plaquettaires n'inhibent pas la production de plaquettes, ils affectent seulement leur comptage."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils détruisent directement les plaquettes dans la circulation.",
+            "justification": "Les agrégats ne détruisent pas les plaquettes, mais modifient leur comptage."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils empêchent l'adhésion des plaquettes aux parois vasculaires.",
+            "justification": "L'agglutination plaquettaire n'affecte pas leur adhésion aux parois vasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils augmentent la viscosité du sang et provoquent des thromboses.",
+            "justification": "Les agrégats plaquettaires ne provoquent pas d'augmentation de la viscosité sanguine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035366507_05",
+      "current_version_epoch_ms": 1756035366507,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle méthode permet de confirmer qu'une thrombopénie est due à un artéfact de laboratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vérification de la numération plaquettaire sur tube citraté.",
+            "justification": "L'utilisation d'un tube citraté élimine l'effet de l'EDTA et permet de confirmer la numération plaquettaire correcte."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen de la fonction plaquettaire par un test fonctionnel.",
+            "justification": "Un test fonctionnel des plaquettes n'est pas nécessaire pour diagnostiquer un artéfact de laboratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation du temps de saignement.",
+            "justification": "Le temps de saignement ne permet pas de diagnostiquer une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de la répartition des plaquettes par cytométrie de flux.",
+            "justification": "La cytométrie de flux n'est pas nécessaire pour confirmer une fausse thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du volume plaquettaire moyen.",
+            "justification": "La mesure du volume plaquettaire moyen ne permet pas de diagnostiquer une fausse thrombopénie."
+          }
+        ]
+      }
+    }
+  ]
+}
