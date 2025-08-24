@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "HTA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756052242261_01",
+      "current_version_epoch_ms": 1756052242261,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quel est le profil de pression artérielle chez un patient avec une mesure clinique normale et une mesure ambulatoire élevée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Hypertension vraie",
+            "justification": "Le profil décrit une HTA masquée, car l'HTA est présente uniquement lors de la mesure ambulatoire."
+          },
+          {
+            "correct": true,
+            "proposition": "HTA masquée (ou HTA ambulatoire isolée)",
+            "justification": "Ce profil se caractérise par une mesure clinique normale et une mesure ambulatoire élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Normotension",
+            "justification": "La normotension serait caractérisée par des mesures normales en clinique et en ambulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "HTA blouse blanche (ou HTA de consultation)",
+            "justification": "Ce profil correspond à une pression artérielle élevée uniquement en consultation, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension vraie",
+            "justification": "L'hypertension vraie se caractérise par une élévation de la pression artérielle en clinique et en ambulatoire, ce qui n'est pas le cas ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756052242261_02",
+      "current_version_epoch_ms": 1756052242261,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quel est le type de mesure de pression artérielle qui nécessite des mesures systématiques pendant 24 heures, à la fois en période diurne et nocturne ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Automesure tensionnelle (AMT)",
+            "justification": "L'automesure tensionnelle est effectuée par le patient lui-même, avec des mesures à différents moments de la journée, mais ce n'est pas une mesure continue sur 24 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure ambulatoire de pression artérielle (MAPA)",
+            "justification": "La MAPA consiste en une mesure de pression artérielle systématique sur 24 heures, incluant des mesures diurnes et nocturnes."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique",
+            "justification": "La mesure clinique de la pression artérielle se fait lors de consultations ponctuelles, sans suivi continu sur 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique élevée",
+            "justification": "Ce terme désigne une pression artérielle élevée mesurée en consultation et non une mesure continue sur 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "HTA blouse blanche",
+            "justification": "Ce profil est associé à une mesure élevée en consultation, sans prise en compte d'une surveillance sur 24 heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756052242261_03",
+      "current_version_epoch_ms": 1756052242261,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quels sont les critères requis pour mesurer la pression artérielle en consultation chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesure effectuée chez un patient au repos depuis au moins 5 minutes",
+            "justification": "Les recommandations stipulent qu'il faut que le patient soit au repos depuis au moins 5 minutes avant la mesure de la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure effectuée après l'exercice physique",
+            "justification": "L'exercice physique altère les valeurs de la pression artérielle et ne permet pas d'obtenir des mesures précises."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure effectuée uniquement au bras gauche",
+            "justification": "Les mesures doivent être effectuées sur les deux bras lors de la première prise, puis sur le bras avec la pression la plus élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure effectuée après une prise de médicaments antihypertenseurs",
+            "justification": "Les médicaments peuvent influencer les résultats de la mesure de la pression artérielle, il est donc recommandé de ne pas les prendre avant la mesure."
+          },
+          {
+            "correct": true,
+            "proposition": "Mesure effectuée à l'aide d'un tensiomètre validé, de préférence électronique",
+            "justification": "Il est important d'utiliser un tensiomètre validé et de préférence électronique pour garantir des résultats fiables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756052242261_04",
+      "current_version_epoch_ms": 1756052242261,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Dans quel cas doit-on utiliser une mesure ambulatoire de pression artérielle (MAPA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion d'HTA de consultation ou d'HTA blanche",
+            "justification": "La MAPA est indiquée pour différencier l'HTA de consultation (ou HTA blouse blanche) de l'HTA vraie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la mesure clinique est élevée",
+            "justification": "La MAPA est utilisée pour compléter les mesures cliniques, surtout en cas de doute sur l'HTA de consultation ou pour les mesures ambulatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient a des symptômes aigus comme des douleurs thoraciques",
+            "justification": "Les douleurs thoraciques nécessitent une évaluation clinique immédiate, mais la MAPA n'est pas adaptée pour des symptômes aigus."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de mesure normale mais avec des antécédents familiaux d'hypertension",
+            "justification": "La MAPA est principalement utilisée lorsque les mesures cliniques sont élevées ou pour diagnostiquer des profils spécifiques, comme l'HTA blanche."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient est en bonne santé et ne présente aucun facteur de risque",
+            "justification": "La MAPA est utilisée en cas de doute diagnostique, pas pour des patients sans facteurs de risque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756052242261_05",
+      "current_version_epoch_ms": 1756052242261,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle est la définition de l'HTA masquée (ou HTA ambulatoire isolée) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesure clinique normale avec une pression artérielle élevée en ambulatoire",
+            "justification": "L'HTA masquée est caractérisée par des mesures normales en clinique et une pression artérielle élevée lors des mesures ambulatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique élevée avec une pression artérielle normale en ambulatoire",
+            "justification": "Ce profil correspond à l'HTA blouse blanche, et non à l'HTA masquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique normale et normale en ambulatoire",
+            "justification": "C'est un profil de normotension, non de HTA masquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique élevée et élevée en ambulatoire",
+            "justification": "Cela correspond à une hypertension vraie, pas à une HTA masquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure clinique normale avec une pression artérielle basse en ambulatoire",
+            "justification": "Cela correspond à un profil de normotension, non de HTA masquée."
+          }
+        ]
+      }
+    }
+  ]
+}
