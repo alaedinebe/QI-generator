@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "IRespiC",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756022654910_01",
+      "current_version_epoch_ms": 1756022654910,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la valeur seuil de PaO2 en air ambiant au repos et à l'état stable, au-dessous de laquelle on parle d'insuffisance respiratoire chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "70 mmHg",
+            "justification": "La définition de l'insuffisance respiratoire chronique repose sur un seuil de PaO2 < 70 mmHg mesurée en air ambiant au repos et à l'état stable."
+          },
+          {
+            "correct": false,
+            "proposition": "60 mmHg",
+            "justification": "La PaO2 < 60 mmHg définit une IRC grave, mais ce n'est pas la valeur seuil pour diagnostiquer une insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "80 mmHg",
+            "justification": "La PaO2 de 80 mmHg est considérée comme une valeur normale et non indicative d'une insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "90 mmHg",
+            "justification": "Une PaO2 de 90 mmHg est bien supérieure au seuil diagnostique de l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "100 mmHg",
+            "justification": "La valeur de 100 mmHg correspond à une bonne oxygénation, bien au-delà du seuil d'insuffisance respiratoire chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756022654910_02",
+      "current_version_epoch_ms": 1756022654910,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Comment peut-on définir une insuffisance respiratoire chronique grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2 < 60 mmHg",
+            "justification": "Une IRC grave est définie par une PaO2 inférieure à 60 mmHg, ce qui indique une défaillance importante de l'oxygénation sanguine."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 70 mmHg",
+            "justification": "Bien que ce seuil marque l'insuffisance respiratoire chronique, il ne définit pas la gravité de la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 50 mmHg",
+            "justification": "Une PaO2 inférieure à 50 mmHg serait excessivement grave et pourrait être associée à une décompensation aiguë plutôt qu'à une insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 80 mmHg",
+            "justification": "Une PaO2 inférieure à 80 mmHg ne définit pas une IRC grave, mais pourrait signaler un état pré-critique."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 > 45 mmHg",
+            "justification": "Le taux de PaCO2 est un critère pour évaluer l'hypercapnie, mais il ne définit pas à lui seul la gravité de l'insuffisance respiratoire chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756022654910_03",
+      "current_version_epoch_ms": 1756022654910,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Parmi les signes cliniques suivants, lequel est souvent retrouvé chez un patient atteint d'insuffisance respiratoire chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée",
+            "justification": "La dyspnée est un symptôme fréquent des patients souffrant d'insuffisance respiratoire chronique en raison de la difficulté à maintenir une oxygénation adéquate."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension",
+            "justification": "L'hypotension n'est pas spécifiquement associée à l'insuffisance respiratoire chronique, bien qu'elle puisse survenir dans des cas graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre",
+            "justification": "La fièvre est plus indicative d'une infection pulmonaire que d'une insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoptysie",
+            "justification": "L'hémoptysie est généralement liée à des pathologies pulmonaires aiguës comme les infections ou les cancers, pas directement à l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Syncope",
+            "justification": "La syncope peut être un signe de décompensation cardiaque ou neurologique, mais n'est pas un signe spécifique d'insuffisance respiratoire chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756022654910_04",
+      "current_version_epoch_ms": 1756022654910,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Lors de la consultation pour suivi d'une pathologie chronique, quel examen est essentiel pour surveiller un patient avec insuffisance respiratoire chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse des gaz du sang",
+            "justification": "L'analyse des gaz du sang est un examen clé pour surveiller l'oxygénation sanguine et ajuster le traitement des patients souffrant d'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "Bien que la radiographie pulmonaire puisse être utile pour évaluer l'état pulmonaire, elle ne permet pas de suivre directement l'oxygénation dans les cas d'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme",
+            "justification": "Un électrocardiogramme est essentiel pour évaluer la fonction cardiaque, mais pas spécifiquement pour surveiller l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie cardiaque",
+            "justification": "L'échographie cardiaque est utilisée pour évaluer les fonctions cardiaques, mais n'est pas un examen de routine pour le suivi d'une insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Spirométrie",
+            "justification": "La spirométrie peut être utile pour évaluer la fonction pulmonaire, mais elle n'est pas aussi précise que l'analyse des gaz du sang pour évaluer l'oxygénation dans l'insuffisance respiratoire chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756022654910_05",
+      "current_version_epoch_ms": 1756022654910,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quels sont les facteurs de risque importants pour l'insuffisance respiratoire chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tabagisme",
+            "justification": "Le tabagisme est un facteur de risque majeur pour le développement d'une insuffisance respiratoire chronique, notamment dans le cadre de la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Alimentation riche en graisses",
+            "justification": "Bien que l'alimentation puisse influencer la santé générale, elle n'est pas directement un facteur de risque pour l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "L'hypertension artérielle peut affecter la fonction cardiaque, mais elle n'est pas un facteur de risque direct pour l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sédentarité",
+            "justification": "La sédentarité peut être un facteur de risque pour plusieurs pathologies, mais elle n'est pas un facteur majeur de risque spécifique pour l'insuffisance respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Exposition au froid",
+            "justification": "Bien que l'exposition au froid puisse aggraver certaines pathologies respiratoires, elle n'est pas un facteur de risque principal pour l'insuffisance respiratoire chronique."
+          }
+        ]
+      }
+    }
+  ]
+}
