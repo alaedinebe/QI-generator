@@ -255,8 +255,8 @@ def main():
                         keyboard.press(Key.enter)
                         keyboard.release(Key.enter)
 
-                        # Étape 3 : Attendre 3 minutes 
-                        time.sleep(180)
+                        # Étape 3 : Attendre 2 minutes 
+                        time.sleep(120)
                         
                         # Étape 3.5 : Positionner la souris au milieu de l'écran et scroller
                         mouse.position = (screen_width // 2, screen_height // 2)
@@ -303,22 +303,26 @@ def main():
                             except json.JSONDecodeError:
                                 write_debug(f"debug_clean_after_replace_{file_name[:-3]}.txt", txt)
                                 # Dernier recours : faire un coontrole A controle C controle V
-                                mouse.position = (screen_width // 2, screen_height // 2)
-                                time.sleep(0.5)
-                                mouse.click(Button.left)
-                                time.sleep(0.5) 
+                                # mouse.position = (screen_width // 2, screen_height // 2)
+                                # time.sleep(0.5)
+                                # mouse.click(Button.left)
+                                # time.sleep(0.5) 
 
-                                with keyboard.pressed(Key.ctrl):
-                                    keyboard.press('a')
-                                    keyboard.release('a')
-                                time.sleep(0.5) 
+                                # with keyboard.pressed(Key.ctrl):
+                                #     keyboard.press('a')
+                                #     keyboard.release('a')
+                                # time.sleep(0.5) 
 
-                                with keyboard.pressed(Key.ctrl):
-                                    keyboard.press('c')
-                                    keyboard.release('c')
-                                time.sleep(0.5) 
+                                # with keyboard.pressed(Key.ctrl):
+                                #     keyboard.press('c')
+                                #     keyboard.release('c')
+                                # time.sleep(0.5) 
 
-                                content_obj = pyperclip.paste()
+                                # content_obj = pyperclip.paste()
+
+                                print("echec")
+
+                                pass
 
                         # 4) Construire la charge utile propre (1 question par objet de content_obj)
                         now_ms = int(time.time() * 1000)
