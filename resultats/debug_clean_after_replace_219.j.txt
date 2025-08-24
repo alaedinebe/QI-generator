@@ -1,0 +1,109 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les paramètres biologiques permettant d'affirmer une surcharge en fer OIC-219-11-A
+
+
+
+
+Le diagnostic de surcharge en fer repose sur le dosage plasmatique de la ferritine couplé au coefficient de saturation de la transferrine.
+Le coefficient de saturation de la transferrine doit être systématiquement dosé en cas d'hyperferritinémie après avoir éliminé les causes fréquentes d'hyperferritinémie (en particulier cytolyse hépatique ou musculaire, hémolyse, inflammation, intoxication éthylique chronique), et ces deux dosages doivent être couplés en 1ère intention en cas de suspicion de surcharge en fer.
+Le coefficient de saturation de la transferrine peut être élevé en cas d'insuffisance hépatique sévère (exemple cirrhose décompensée, responsable d'une baisse de la synthèse de transferrine), même en l'absence de surcharge en fer.
+-       L'absence d'hyperferritinémie permet d'écarter le diagnostic de surcharge en fer, alors qu'une hyperferritinémie associée à une augmentation du coefficient de saturation de la transferrine oriente vers le diagnostic. 
+(Attention aux faux positifs, par exemple l'insuffisance hépatique / cirrhose, cf ci-dessus).
+-       Une hyperferritinémie associée à un coefficient de saturation de la transferrine normal n'écarte pas le diagnostic de surcharge en fer, mais il existe de nombreuses causes d'hyperferritinémie non liées à une surcharge en fer. Des explorations complémentaires peuvent être nécessaires telles que l'IRM hépatique, détaillée plus loin.
+-       Une ferritinémie normale associée à une augmentation du coefficient de saturation de la transferrine peut être en lien avec un stade précoce d'hémochromatose ou rarement avec une cytolyse hépatique.
+
+
+ Connaître les paramètres biologiques permettant d'affirmer une surcharge en fer OIC-219-11-ALe diagnostic de surcharge en fer repose surle dosage plasmatique de la ferritine couplé au coefficient de saturation de la transferrine.Le coefficient de saturation de la transferrine doit être systématiquement dosé en cas d'hyperferritinémie après avoir éliminé les causes fréquentes d'hyperferritinémie (en particulier cytolyse hépatique ou musculaire, hémolyse, inflammation, intoxication éthylique chronique), et ces deux dosages doivent être couplés en 1èreintention en cas de suspicion de surcharge en fer.
+Le coefficient de saturation de la transferrine peut être élevé en cas d'insuffisance hépatique sévère (exemple cirrhose décompensée, responsable d'une baisse de la synthèse de transferrine), même en l'absence de surcharge en fer.-       L'absence d'hyperferritinémie permet d'écarter le diagnostic de surcharge en fer, alors qu'une hyperferritinémie associée à une augmentation du coefficient de saturation de la transferrine oriente vers le diagnostic. 
+(Attention aux faux positifs, par exemple l'insuffisance hépatique / cirrhose, cf ci-dessus).-       Une hyperferritinémie associée à un coefficient de saturation de la transferrine normal n'écarte pas le diagnostic de surcharge en fer, mais il existe de nombreuses causes d'hyperferritinémie non liées à une surcharge en fer. Des explorations complémentaires peuvent être nécessaires telles que l'IRM hépatique, détaillée plus loin.-       Une ferritinémie normale associée à une augmentation du coefficient de saturation de la transferrine peut être en lien avec un stade précoce d'hémochromatose ou rarement avec une cytolyse hépatique.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
