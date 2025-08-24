@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "HTA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756053905074_01",
+      "current_version_epoch_ms": 1756053905074,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle est la définition de l'hypertension artérielle (HTA) chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une pression artérielle (PA) supérieure ou égale au 95e percentile, en fonction de l'âge, de la taille et du sexe.",
+            "justification": "L'HTA chez l'enfant est définie par une PA ≥ 95e percentile, calculée selon des abaques adaptés à l'âge, la taille et le sexe."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PA supérieure à 140/90 mmHg en une seule mesure.",
+            "justification": "Une mesure unique ne suffit pas pour poser le diagnostic. L'HTA chez l'enfant nécessite plusieurs mesures sur différentes consultations."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PA supérieure ou égale à 90e percentile pendant 3 consultations consécutives.",
+            "justification": "La définition exige une PA ≥ 95e percentile, et non 90e percentile."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PA supérieure au 80e percentile mais uniquement chez les enfants âgés de 3 à 6 ans.",
+            "justification": "Les abaques sont spécifiques à l'âge, la taille et le sexe, mais l'HTA est définie par le 95e percentile, pas le 80e."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PA supérieure à 95e percentile mesurée une seule fois est suffisante pour poser le diagnostic.",
+            "justification": "L'HTA doit être confirmée par plusieurs mesures sur différentes consultations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053905074_02",
+      "current_version_epoch_ms": 1756053905074,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Que faire en cas d'hypertension artérielle chez l'enfant lors de la première consultation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Contrôler la mesure lors de la prochaine consultation avec des conseils hygiéno-diététiques.",
+            "justification": "En cas de mesure supérieure, il est recommandé de contrôler la PA lors de la consultation suivante et d'appliquer des conseils hygiéno-diététiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire immédiatement des médicaments antihypertenseurs sans attendre la prochaine consultation.",
+            "justification": "La prescription d'antihypertenseurs n'est pas la première ligne de traitement, surtout en l'absence de confirmation du diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une mesure ambulatoire de la pression artérielle sans attendre.",
+            "justification": "Bien que des mesures ambulatoires puissent être utilisées, le contrôle de la PA lors de la consultation suivante est prioritaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Renvoi immédiat en urgence pour traitement spécialisé.",
+            "justification": "Une consultation spécialisée n'est pas nécessaire immédiatement, sauf en cas de signes cliniques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure supplémentaire n'est nécessaire avant un contrôle à six mois.",
+            "justification": "Un contrôle plus rapide est recommandé, généralement à la consultation suivante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053905074_03",
+      "current_version_epoch_ms": 1756053905074,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle est la recommandation concernant la prescription d'inhibiteurs calciques pour l'HTA chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un inhibiteur calcique peut être prescrit en urgence, sauf sous forme sublinguale.",
+            "justification": "Les inhibiteurs calciques peuvent être prescrits dans l'urgence, mais la forme sublinguale est contre-indiquée chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Les inhibiteurs calciques sont contre-indiqués chez l'enfant en toutes circonstances.",
+            "justification": "Les inhibiteurs calciques peuvent être utilisés en urgence, mais sous forme orale et non sublinguale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un inhibiteur calcique doit toujours être prescrit de manière préventive, même sans signes d'urgence.",
+            "justification": "L'inhibiteur calcique n'est prescrit que dans l'urgence, en attendant un avis spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Un inhibiteur calcique est indiqué uniquement après un traitement diététique et hygiénique insuffisant.",
+            "justification": "L'inhibiteur calcique peut être utilisé dans l'urgence, mais ce n'est pas systématique après un échec des conseils hygiéno-diététiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'inhibiteur calcique peut être prescrit à vie sans consultation spécialisée.",
+            "justification": "L'inhibiteur calcique est prescrit en urgence, en attendant un avis de spécialiste, mais pas de manière permanente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053905074_04",
+      "current_version_epoch_ms": 1756053905074,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quel est le rôle des abaques de pression artérielle dans le diagnostic de l'HTA chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les abaques permettent de comparer la PA de l'enfant avec les valeurs correspondant à son âge, taille et sexe.",
+            "justification": "Les abaques de PA sont utilisés pour déterminer si la pression artérielle de l'enfant est supérieure ou égale au 95e percentile, selon des critères adaptés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les abaques de PA sont utilisés pour calculer directement le traitement antihypertenseur adapté.",
+            "justification": "Les abaques servent à évaluer la PA par rapport aux percentiles, mais ne sont pas utilisés pour déterminer directement un traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les abaques sont utilisés uniquement pour diagnostiquer l'hypertension chez les enfants de moins de 3 ans.",
+            "justification": "Les abaques sont adaptés à tous les enfants, indépendamment de l'âge, tant que les données sont comparées selon les critères appropriés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les abaques permettent de fixer des objectifs de traitement à long terme.",
+            "justification": "Les abaques sont utilisés pour diagnostiquer l'HTA, pas pour fixer des objectifs thérapeutiques à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Les abaques de PA ne tiennent pas compte du sexe de l'enfant.",
+            "justification": "Les abaques de PA sont spécifiques à l'âge, à la taille et au sexe de l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053905074_05",
+      "current_version_epoch_ms": 1756053905074,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quand un enfant a-t-il besoin d'un avis spécialisé pour son hypertension artérielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un avis spécialisé est nécessaire si l'HTA persiste malgré un traitement hygiéno-diététique et une prescription d'inhibiteur calcique en urgence.",
+            "justification": "L'avis spécialisé est requis si l'HTA persiste après des mesures de première ligne, comme les conseils hygiéno-diététiques et l'utilisation d'inhibiteurs calciques en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Un avis spécialisé est nécessaire dès qu'une mesure de PA est supérieure au 90e percentile.",
+            "justification": "Un avis spécialisé n'est requis que si l'HTA persiste malgré les mesures initiales."
+          },
+          {
+            "correct": false,
+            "proposition": "Un avis spécialisé est uniquement nécessaire si l'HTA est associée à des symptômes cliniques graves.",
+            "justification": "Un avis spécialisé est recommandé si l'HTA persiste après des traitements de première ligne, pas uniquement en cas de symptômes graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Un avis spécialisé est requis après chaque consultation, même si la PA reste inférieure au 95e percentile.",
+            "justification": "L'avis spécialisé n'est requis qu'en cas de persistance de l'HTA malgré les premières mesures."
+          },
+          {
+            "correct": false,
+            "proposition": "Un avis spécialisé est nécessaire uniquement pour les enfants de moins de 3 ans.",
+            "justification": "L'avis spécialisé est recommandé en cas de persistance de l'HTA, peu importe l'âge de l'enfant."
+          }
+        ]
+      }
+    }
+  ]
+}
