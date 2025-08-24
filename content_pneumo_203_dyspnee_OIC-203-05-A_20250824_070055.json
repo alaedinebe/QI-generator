@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756011862373_01",
+      "current_version_epoch_ms": 1756011862373,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quelle est l'orientation diagnostique la plus probable chez un patient jeune, atopique, avec des symptômes respiratoires nocturnes et une variabilité des symptômes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asthme",
+            "justification": "L'asthme se caractérise par des symptômes respiratoires variables, souvent nocturnes, et une association fréquente avec une atopie."
+          },
+          {
+            "correct": false,
+            "proposition": "BPCO",
+            "justification": "La BPCO est plus fréquente chez les fumeurs et n'est pas caractérisée par une variabilité des symptômes ni des symptômes nocturnes."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'insuffisance cardiaque est plus fréquente chez les patients avec des antécédents cardiovasculaires et des symptômes comme l'orthopnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie infiltrante diffuse",
+            "justification": "Les pneumopathies infiltrantes diffuses sont associées à une toux sèche et à des symptômes respiratoires constants, non variables."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie",
+            "justification": "L'anémie peut entraîner une dyspnée, mais ce n'est pas une cause primaire de dyspnée nocturne ou de variabilité des symptômes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756011862373_02",
+      "current_version_epoch_ms": 1756011862373,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le facteur de risque principal associé à la BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tabagisme",
+            "justification": "Le tabagisme est le facteur de risque majeur de la BPCO, favorisant les lésions pulmonaires chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Atopie",
+            "justification": "L'atopie est plus souvent associée à l'asthme qu'à la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents d'insuffisance cardiaque",
+            "justification": "Les antécédents d'insuffisance cardiaque ne sont pas un facteur de risque principal pour la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Obésité",
+            "justification": "L'obésité peut aggraver les symptômes respiratoires, mais ce n'est pas un facteur de risque direct de la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladies vasculaires pulmonaires",
+            "justification": "Les maladies vasculaires pulmonaires comme l'hypertension artérielle pulmonaire ne sont pas directement liées à la BPCO."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756011862373_03",
+      "current_version_epoch_ms": 1756011862373,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Un patient présente une dyspnée avec des crépitants télé-inspiratoires, quelle pathologie devrait être envisagée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumopathies infiltrantes diffuses",
+            "justification": "Les pneumopathies infiltrantes diffuses se manifestent par des crépitants télé-inspiratoires, associés à une toux sèche."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme",
+            "justification": "L'asthme n'est généralement pas associé à des crépitants, mais plutôt à des sibilants."
+          },
+          {
+            "correct": false,
+            "proposition": "BPCO",
+            "justification": "La BPCO est plutôt associée à des râles bronchiques et non à des crépitants télé-inspiratoires."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'insuffisance cardiaque peut également être associée à des crépitants télé-inspiratoires, souvent en raison de l'œdème pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie",
+            "justification": "L'anémie peut causer une dyspnée, mais ne provoque pas de crépitants télé-inspiratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756011862373_04",
+      "current_version_epoch_ms": 1756011862373,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Lorsqu'une auscultation pulmonaire est normale, quelles pathologies doivent être envisagées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maladies de la pompe ventilatoire (neuromusculaires, squelettiques, obésité)",
+            "justification": "Les maladies de la pompe ventilatoire peuvent entraîner une dyspnée sans modification à l'auscultation pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Maladie vasculaire pulmonaire (HTAP)",
+            "justification": "L'hypertension artérielle pulmonaire peut provoquer une dyspnée sans bruits anormaux à l'auscultation."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie infiltrante diffuse",
+            "justification": "Les pneumopathies infiltrantes diffuses sont souvent associées à des bruits anormaux à l'auscultation (crépitants, râles)."
+          },
+          {
+            "correct": false,
+            "proposition": "BPCO",
+            "justification": "La BPCO est généralement associée à des râles bronchiques et des signes auscultatoires de obstruction."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'insuffisance cardiaque présente souvent des bruits cardiaques anormaux ou des crépitants à l'auscultation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756011862373_05",
+      "current_version_epoch_ms": 1756011862373,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels signes cliniques peuvent orienter vers une pathologie pleurale chez un patient avec dyspnée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Auscultation asymétrique",
+            "justification": "Une auscultation pulmonaire asymétrique est un signe classique de pathologie pleurale, comme un épanchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Sibilants",
+            "justification": "Les sibilants sont plus caractéristiques de l'asthme ou de la BPCO, pas d'une pathologie pleurale."
+          },
+          {
+            "correct": false,
+            "proposition": "Crépitants télé-inspiratoires",
+            "justification": "Les crépitants télé-inspiratoires sont plutôt associés à des pneumopathies infiltrantes ou à une insuffisance cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Râles bronchiques",
+            "justification": "Les râles bronchiques sont associés à des pathologies comme la BPCO, pas à des pathologies pleurales."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique non spécifique",
+            "justification": "Bien que la douleur thoracique puisse être présente, elle n'est pas suffisante pour orienter spécifiquement vers une pathologie pleurale."
+          }
+        ]
+      }
+    }
+  ]
+}
