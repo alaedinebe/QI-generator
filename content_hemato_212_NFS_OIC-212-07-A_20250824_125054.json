@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "NFS",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756032801163_01",
+      "current_version_epoch_ms": 1756032801163,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Chez un nouveau-né, quel est le seuil d'anémie basé sur le taux d'hémoglobine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anémie si Hb < 14 g/dL",
+            "justification": "La norme pour le taux d'hémoglobine chez le nouveau-né est de 14 à 23 g/dL. Un taux inférieur à 14 g/dL indique une anémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 11 g/dL",
+            "justification": "Cette valeur est incorrecte pour un nouveau-né. Elle correspond à la norme de l'anémie chez les enfants de 6 mois à 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 12 g/dL",
+            "justification": "Ce seuil correspond à l'anémie chez les enfants âgés de 6 à 12 ans, pas chez les nouveau-nés."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 15 g/dL",
+            "justification": "Ce seuil est trop élevé pour le nouveau-né. La norme de l'Hb est entre 14 et 23 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 13 g/dL",
+            "justification": "Ce seuil est incorrect pour un nouveau-né, la limite inférieure est 14 g/dL."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032801163_02",
+      "current_version_epoch_ms": 1756032801163,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Quelle est la norme du VGM (volume globulaire moyen) chez un enfant de 6 mois à 2 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "73-79 fl",
+            "justification": "La norme du VGM chez un enfant de 6 mois à 2 ans est de 73 à 79 fl."
+          },
+          {
+            "correct": false,
+            "proposition": "100-120 fl",
+            "justification": "Cette plage est la norme du VGM pour les nouveau-nés, pas pour les enfants de 6 mois à 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "75-81 fl",
+            "justification": "Cette norme correspond aux enfants de 2 à 6 ans et non à ceux de 6 mois à 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "77-84 fl",
+            "justification": "Ce seuil est adapté aux enfants de 6 à 12 ans, et non à ceux de 6 mois à 2 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "80-88 fl",
+            "justification": "Cette norme est valide pour les enfants de 12 à 16 ans, pas pour les 6 mois à 2 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032801163_03",
+      "current_version_epoch_ms": 1756032801163,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Quelle est la valeur normale du CCMH (concentration corpusculaire moyenne en hémoglobine) chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "32-36 g/dL",
+            "justification": "Le CCMH normal pour tous les enfants, quel que soit l'âge ou le sexe, est de 32 à 36 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "28-32 g/dL",
+            "justification": "Cette valeur est trop basse et indique une hypochromie, avec un CCMH inférieur à 32 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "36-40 g/dL",
+            "justification": "Cette valeur est trop élevée et correspond à une hyperchromie, avec un CCMH supérieur à 36 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "30-35 g/dL",
+            "justification": "Bien que proche, cette plage est incorrecte. La norme est entre 32 et 36 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "29-33 g/dL",
+            "justification": "Cette plage ne correspond pas à la norme exacte du CCMH, qui est de 32-36 g/dL."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032801163_04",
+      "current_version_epoch_ms": 1756032801163,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Chez un enfant de 6 à 12 ans, quel seuil de VGM est utilisé pour diagnostiquer la macrocytose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "VGM > 92 fl",
+            "justification": "Pour les enfants de 6 à 12 ans, un VGM supérieur à 92 fl indique une macrocytose."
+          },
+          {
+            "correct": false,
+            "proposition": "VGM > 125 fl",
+            "justification": "Cette plage est utilisée pour les nouveau-nés et non pour les enfants de 6 à 12 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "VGM > 84 fl",
+            "justification": "Cette norme est utilisée pour les enfants de 2 à 6 ans, et non pour ceux de 6 à 12 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "VGM > 80 fl",
+            "justification": "Cette plage est utilisée pour les enfants de 12 à 16 ans, pas pour ceux de 6 à 12 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "VGM > 78 fl",
+            "justification": "Cette plage est adaptée aux enfants de 12 à 16 ans, et non pour les 6 à 12 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032801163_05",
+      "current_version_epoch_ms": 1756032801163,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Chez un enfant de 2 à 6 ans, quel est le seuil d'anémie basé sur le taux d'hémoglobine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anémie si Hb < 11,5 g/dL",
+            "justification": "Chez un enfant de 2 à 6 ans, l'anémie est définie par un taux d'hémoglobine inférieur à 11,5 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 14 g/dL",
+            "justification": "Cette norme est spécifique aux nouveau-nés, pas aux enfants de 2 à 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 11,1 g/dL",
+            "justification": "Ce seuil correspond à l'anémie chez les enfants de 6 mois à 2 ans, et non à ceux de 2 à 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 12,4 g/dL",
+            "justification": "Ce seuil correspond aux enfants de 12 à 16 ans, et non à ceux de 2 à 6 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie si Hb < 10 g/dL",
+            "justification": "Ce seuil est trop bas. La norme d'anémie chez les enfants de 2 à 6 ans est < 11,5 g/dL."
+          }
+        ]
+      }
+    }
+  ]
+}
