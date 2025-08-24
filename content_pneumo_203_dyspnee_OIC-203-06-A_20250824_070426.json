@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756012072707_01",
+      "current_version_epoch_ms": 1756012072707,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques pouvant orienter vers une étiologie infectieuse chez un patient fébrile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de frissons accompagnés de sueurs profuses.",
+            "justification": "Les frissons et les sueurs profuses sont des signes évocateurs d'une réaction fébrile à une infection, souvent associés à des infections bactériennes sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique non irradiée.",
+            "justification": "La douleur thoracique non irradiée peut être liée à des causes cardiaques ou musculosquelettiques, mais n'est pas directement liée à une étiologie infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de symptômes respiratoires comme une toux productive.",
+            "justification": "Les symptômes respiratoires tels qu'une toux productive peuvent indiquer une infection pulmonaire, comme une pneumonie, qui est une étiologie infectieuse fréquente."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de douleur abdominale non spécifique.",
+            "justification": "La douleur abdominale non spécifique peut avoir diverses causes, et n'est pas nécessairement un signe d'infection systémique."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence de signes de septicémie comme une hypotension et une tachycardie.",
+            "justification": "L'hypotension et la tachycardie sont des signes cliniques de septicémie, une réponse systémique à une infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012072707_02",
+      "current_version_epoch_ms": 1756012072707,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels éléments permettent de classer une péritonite aiguë comme étant d'origine infectieuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de signes de choc septique.",
+            "justification": "Le choc septique est un critère de gravité indiquant une péritonite infectieuse avancée nécessitant un traitement urgent."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur localisée à un seul quadran abdominal.",
+            "justification": "La douleur localisée à un seul quadrant peut être associée à une péritonite mais n'est pas spécifiquement liée à une étiologie infectieuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une fièvre élevée accompagnée de frissons.",
+            "justification": "La fièvre avec frissons est un signe classique d'infection, notamment en cas de péritonite d'origine bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de symptômes digestifs.",
+            "justification": "L'absence de symptômes digestifs ne permet pas d'éliminer une étiologie infectieuse, car certains cas peuvent être peu symptomatiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Confirmation microbiologique d'une infection intra-abdominale.",
+            "justification": "La culture de liquide ascitique ou d'autres échantillons permet de confirmer l'origine infectieuse de la péritonite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012072707_03",
+      "current_version_epoch_ms": 1756012072707,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels sont les principaux signes cliniques d'une méningite bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Raideur de la nuque associée à une céphalée intense.",
+            "justification": "La raideur de la nuque et la céphalée sont des signes caractéristiques de la méningite bactérienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique exacerbée lors de la respiration profonde.",
+            "justification": "La douleur thoracique exacerbée par la respiration est plus évocatrice de pathologies pulmonaires que de méningite."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion mentale ou altération de la conscience.",
+            "justification": "Une altération de la conscience, allant de la confusion à un coma, est fréquente dans la méningite bactérienne due à l'atteinte des méninges."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de fièvre.",
+            "justification": "La fièvre est un signe précoce et constant dans la majorité des cas de méningite bactérienne."
+          },
+          {
+            "correct": true,
+            "proposition": "Vomissements sans autre cause apparente.",
+            "justification": "Les vomissements sont fréquents dans les méningites bactériennes, souvent associés à une hypertension intracrânienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012072707_04",
+      "current_version_epoch_ms": 1756012072707,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels critères permettent de différencier une pneumonie communautaire d'une pneumonie nosocomiale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le délai d'apparition des symptômes après l'hospitalisation.",
+            "justification": "La pneumonie nosocomiale apparaît généralement plus de 48 heures après l'admission à l'hôpital, tandis que la pneumonie communautaire survient avant."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de douleur thoracique localisée.",
+            "justification": "La douleur thoracique est fréquente dans les deux types de pneumonie et ne permet pas de les différencier."
+          },
+          {
+            "correct": true,
+            "proposition": "La résistance aux antibiotiques dans la pneumonie nosocomiale.",
+            "justification": "Les pneumonies nosocomiales sont souvent causées par des bactéries résistantes aux antibiotiques, contrairement aux pneumonies communautaires."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de la toux productive.",
+            "justification": "La durée de la toux productive ne permet pas de distinguer ces deux types de pneumonies."
+          },
+          {
+            "correct": true,
+            "proposition": "Les facteurs de risque associés à l'hospitalisation prolongée ou à l'utilisation de dispositifs invasifs.",
+            "justification": "Les facteurs de risque liés à l'hospitalisation prolongée, comme les sondes et respirateurs, sont caractéristiques des pneumonies nosocomiales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012072707_05",
+      "current_version_epoch_ms": 1756012072707,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels signes cliniques doivent alerter sur une possibilité d'embolie pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée aiguë et douleur thoracique pleurétique.",
+            "justification": "La dyspnée aiguë et la douleur thoracique pleurétique sont des signes classiques d'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de toux persistante sans expectoration.",
+            "justification": "La toux persistante sans expectoration est plus évocatrice de troubles respiratoires bénins que d'une embolie pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Syncope ou lipothymie.",
+            "justification": "La syncope ou la lipothymie peut être observée dans les embolies pulmonaires massives, en raison de la chute du débit cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de bradycardie.",
+            "justification": "La bradycardie n'est pas un signe typique d'embolie pulmonaire, où l'on attend plutôt une tachycardie."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents de thrombose veineuse profonde.",
+            "justification": "Les antécédents de thrombose veineuse profonde (TVP) sont un facteur de risque majeur pour le développement d'une embolie pulmonaire."
+          }
+        ]
+      }
+    }
+  ]
+}
