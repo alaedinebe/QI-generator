@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hemorragie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756038688296_01",
+      "current_version_epoch_ms": 1756038688296,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Parmi les acteurs de l'hémostase primaire, lequel est responsable de l'adhésion des plaquettes au sous-endothélium ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le facteur Willebrand (vWF)",
+            "justification": "Le vWF se fixe à GPIb des plaquettes, facilitant leur adhésion au sous-endothélium."
+          },
+          {
+            "correct": false,
+            "proposition": "Le fibrinogène",
+            "justification": "Bien que le fibrinogène soit impliqué dans l'agrégation plaquettaire, il ne participe pas à l'adhésion au sous-endothélium."
+          },
+          {
+            "correct": false,
+            "proposition": "Le facteur tissulaire (FT)",
+            "justification": "Le facteur tissulaire déclenche la coagulation, mais ne joue pas de rôle direct dans l'adhésion des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les phospholipides",
+            "justification": "Les phospholipides sont nécessaires à l'activation des facteurs de coagulation, mais non à l'adhésion des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "La thrombine",
+            "justification": "La thrombine intervient dans la formation du caillot, mais ne joue pas de rôle dans l'adhésion des plaquettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038688296_02",
+      "current_version_epoch_ms": 1756038688296,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du facteur tissulaire (FT) dans la coagulation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il active le facteur VIIa, déclenchant ainsi la cascade de coagulation.",
+            "justification": "Le facteur tissulaire permet l'activation du FVIIa, essentiel pour démarrer la cascade de coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il active la thrombine directement.",
+            "justification": "Le facteur tissulaire n'active pas directement la thrombine, mais le facteur VIIa, qui à son tour participe à la génération de thrombine."
+          },
+          {
+            "correct": false,
+            "proposition": "Il active les plaquettes.",
+            "justification": "Le facteur tissulaire n'a pas de rôle direct dans l'activation des plaquettes, il est impliqué dans la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il transforme le fibrinogène en fibrine.",
+            "justification": "Le facteur tissulaire n'est pas impliqué dans la transformation du fibrinogène en fibrine, c'est la thrombine qui joue ce rôle."
+          },
+          {
+            "correct": false,
+            "proposition": "Il inhibe l'activation du facteur X.",
+            "justification": "Le facteur tissulaire n'inhibe pas l'activation du facteur X, il participe au contraire à son activation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038688296_03",
+      "current_version_epoch_ms": 1756038688296,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Comment se forme un caillot de fibrine stable au cours de la coagulation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Par l'action du facteur XIIIa, qui stabilise les monomères de fibrine.",
+            "justification": "Le facteur XIIIa est responsable de la stabilisation du caillot en catalysant la formation de liaisons covalentes entre les monomères de fibrine."
+          },
+          {
+            "correct": false,
+            "proposition": "Par l'activation du facteur VIII.",
+            "justification": "Le facteur VIII est impliqué dans l'amplification de la coagulation, mais ne stabilise pas directement le caillot de fibrine."
+          },
+          {
+            "correct": false,
+            "proposition": "Par l'inhibition du facteur V.",
+            "justification": "L'inhibition du facteur V ralentirait la coagulation, mais n'est pas responsable de la stabilisation du caillot de fibrine."
+          },
+          {
+            "correct": false,
+            "proposition": "Par l'activation du plasminogène.",
+            "justification": "L'activation du plasminogène participe à la fibrinolyse, pas à la stabilisation du caillot."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la formation de l'activation du facteur XII.",
+            "justification": "Le facteur XII est impliqué dans la phase initiale de la coagulation, mais ne stabilise pas le caillot de fibrine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038688296_04",
+      "current_version_epoch_ms": 1756038688296,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'antithrombine dans la régulation de la coagulation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle inhibe principalement les facteurs Xa et IIa en présence de molécules héparine-like.",
+            "justification": "L'antithrombine, en présence d'héparine-like, inhibe efficacement les facteurs Xa et IIa, régulant ainsi la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle active le facteur V.",
+            "justification": "L'antithrombine n'active pas le facteur V, elle est impliquée dans l'inhibition des facteurs de coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle active la plasmine.",
+            "justification": "La plasmine est activée par le t-PA et l'u-PA, pas par l'antithrombine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle inhibe la formation de thrombine en activant la protéine C.",
+            "justification": "La protéine C est activée par l'activation de l'antithrombine, mais l'antithrombine elle-même n'active pas directement la protéine C."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle dégrade les dimères de fibrine.",
+            "justification": "Les dimères de fibrine sont dégradés par la plasmine, non par l'antithrombine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038688296_05",
+      "current_version_epoch_ms": 1756038688296,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de la fibrinolyse dans l'hémostase ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet la dégradation du caillot de fibrine après l'arrêt du saignement.",
+            "justification": "La fibrinolyse, via la plasmine, dégrade les caillots de fibrine, contribuant à la résorption du caillot une fois la coagulation terminée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle active la coagulation en libérant des produits de dégradation de la fibrine.",
+            "justification": "La fibrinolyse n'active pas la coagulation, mais elle permet au contraire de la réguler en éliminant les caillots de fibrine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle inhibe l'activation du facteur VII.",
+            "justification": "La fibrinolyse ne joue pas de rôle dans l'inhibition du facteur VII, qui est impliqué dans la phase initiale de la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle transforme le plasminogène en thrombine.",
+            "justification": "La fibrinolyse active le plasminogène en plasmine, mais ne transforme pas le plasminogène en thrombine."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet la formation de monomères de fibrine.",
+            "justification": "La formation de monomères de fibrine est un processus de la coagulation, pas de la fibrinolyse."
+          }
+        ]
+      }
+    }
+  ]
+}
