@@ -1,0 +1,133 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les étiologies fréquentes de l'adénopathie superficielle de l'enfant OIC-220-08-A
+
+
+
+La découverte d'adénopathies chez l'enfant est fréquente, en particulier une poly-adénopathie cervicale, notamment l'hiver, dans un contexte d'épisodes rhinopharyngés.
+Les étiologies les plus fréquentes sont infectieuses.
+La crainte d'une cause maligne ou liée à une maladie de système doit cependant imposer une démarche rigoureuse et la consultation de spécialistes, notamment en cas d'adénopathie isolée, de tableau d'évolution chronique ou de symptômes généraux associés. Ne pas hésiter à revoir l'enfant en consultation
+Parmi les causes, on retrouve principalement :
+Les causes infectieuses :
+
+
+
+Adénite isolée
+
+Polyadénite
+
+
+•          Pyogènes (strepto, staph)
+
+Avec éruption
+•          Rubéole, VIH, adénovirose, rougeole, varicelle
+
+
+
+•          Maladies des griffes du chat, BCGite, Zona,  Toxoplasmose, BK, mycobactéries atypiques
+
+Avec splénomégalie
+•          Kala-Azar, trypanosomiase, leishmaniose
+
+
+
+•          Pasteurellose, tularémie, leishmaniose
+
+Avec sd mononucléosique
+•          MNI, VIH, CMV, toxoplasmose
+
+
+•        le syndrome de Kawasaki ou une arthrite chronique juvénile (maladie de Still)  parmi les causes inflammatoires
+•        Les pathologies malignes hématologiques plus rares mais à évoquer systématiquement : leucémies aiguës lymphoblastiques et lymphomes
+
+ Connaître les étiologies fréquentes de l'adénopathie superficielle de l'enfant OIC-220-08-ALa découverte d'adénopathies chez l'enfant est fréquente,en particulier une poly-adénopathie cervicale, notamment l'hiver, dans un contexte d'épisodes rhinopharyngés.Les étiologies les plus fréquentes sont infectieuses.La crainte d'une cause maligne ou liée à une maladie de systèmedoit cependant imposer une démarche rigoureuse et laconsultation de spécialistes, notamment en cas d'adénopathie isolée, de tableau d'évolution chronique ou de symptômes généraux associés. Ne pas hésiter à revoir l'enfant en consultationParmi les causes, on retrouve principalement :Les causes infectieuses :Adénite isoléePolyadénite•          Pyogènes (strepto, staph)Avec éruption•          Rubéole, VIH, adénovirose, rougeole, varicelle•          Maladies des griffes du chat, BCGite, Zona,  Toxoplasmose, BK, mycobactéries atypiquesAvec splénomégalie•          Kala-Azar, trypanosomiase, leishmaniose•          Pasteurellose, tularémie, leishmanioseAvec sd mononucléosique•          MNI, VIH, CMV, toxoplasmose•        le syndrome deKawasaki ou une arthrite chronique juvénile (maladie de Still)parmi les causes inflammatoires•        Les pathologies malignes hématologiques plus rares mais à évoquer systématiquement: leucémies aiguës lymphoblastiquesetlymphomes
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
