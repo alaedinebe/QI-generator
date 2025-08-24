@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "BPCO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756027520211_01",
+      "current_version_epoch_ms": 1756027520211,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quel est le grade GOLD de la BPCO pour un VEMS inférieur à 30 % des valeurs prédites ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grade GOLD 4 - Obstruction bronchique très sévère",
+            "justification": "Un VEMS inférieur à 30 % des valeurs prédites correspond à une obstruction bronchique très sévère, selon la classification GOLD."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 1 - Obstruction bronchique légère",
+            "justification": "Un VEMS inférieur à 30 % ne correspond pas à une obstruction légère, mais à une obstruction très sévère (Grade GOLD 4)."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 2 - Obstruction bronchique modérée",
+            "justification": "Un VEMS inférieur à 30 % est bien au-dessous du seuil de 50 %, ce qui correspond à un grade GOLD 4."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 3 - Obstruction bronchique sévère",
+            "justification": "Le grade GOLD 3 correspond à un VEMS entre 30 % et 49 %, et non à un VEMS inférieur à 30 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 5 - Obstruction bronchique extrêmement sévère",
+            "justification": "La classification GOLD ne prévoit pas un grade 5. Le grade maximal est GOLD 4."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756027520211_02",
+      "current_version_epoch_ms": 1756027520211,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quels sont les signes de gravité d'une exacerbation de BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acidose respiratoire (pH < 7,35 ; PaCO2 > 45 mmHg)",
+            "justification": "L'acidose respiratoire est un signe de gravité paraclinique majeur d'une exacerbation de BPCO, indiquant une décompensation respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypoxémie sévère (PaO2 < 60 mmHg)",
+            "justification": "L'hypoxémie sévère (PaO2 < 60 mmHg) est un critère important pour la gravité d'une exacerbation de BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du VEMS",
+            "justification": "Une augmentation du VEMS n'est pas un signe de gravité. Au contraire, une diminution du VEMS indique une exacerbation plus grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de crépitants à l'auscultation pulmonaire",
+            "justification": "Bien que des crépitants puissent être présents, ils ne sont pas un signe de gravité spécifique d'une exacerbation de BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercapnie modérée (PaCO2 entre 40 et 45 mmHg)",
+            "justification": "Une hypercapnie modérée n'est pas un signe de gravité suffisant pour une exacerbation de BPCO, contrairement à une PaCO2 > 45 mmHg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756027520211_03",
+      "current_version_epoch_ms": 1756027520211,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quel est le grade GOLD pour une obstruction bronchique modérée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 1 - Obstruction bronchique légère",
+            "justification": "Le grade GOLD 1 correspond à une obstruction légère, ce qui est différent de l'obstruction modérée."
+          },
+          {
+            "correct": true,
+            "proposition": "Grade GOLD 2 - Obstruction bronchique modérée",
+            "justification": "Une obstruction bronchique modérée est classée grade GOLD 2, avec un VEMS supérieur ou égal à 80 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 3 - Obstruction bronchique sévère",
+            "justification": "Le grade GOLD 3 correspond à une obstruction sévère, et non à une obstruction modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 4 - Obstruction bronchique très sévère",
+            "justification": "Le grade GOLD 4 est réservé aux cas de très sévère obstruction bronchique, avec un VEMS inférieur à 30 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Grade GOLD 5 - Obstruction bronchique extrême",
+            "justification": "La classification GOLD ne prévoit pas un grade 5."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756027520211_04",
+      "current_version_epoch_ms": 1756027520211,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Que représente un VEMS inférieur à 50 % des valeurs prédites dans la classification GOLD ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obstruction bronchique sévère (Grade GOLD 3)",
+            "justification": "Un VEMS compris entre 50 % et 80 % des valeurs prédites correspond à une obstruction sévère, soit le grade GOLD 3."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction bronchique très sévère (Grade GOLD 4)",
+            "justification": "Un VEMS inférieur à 50 % correspond à une obstruction sévère (Grade GOLD 3), et non à une obstruction très sévère (Grade GOLD 4)."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction bronchique modérée (Grade GOLD 2)",
+            "justification": "Le grade GOLD 2 correspond à un VEMS supérieur ou égal à 80 % des valeurs prédites."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction bronchique légère (Grade GOLD 1)",
+            "justification": "Le grade GOLD 1 correspond à un VEMS supérieur à 70 % des valeurs prédites."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune obstruction bronchique (Grade GOLD 0)",
+            "justification": "Un VEMS inférieur à 50 % des valeurs prédites indique une obstruction sévère, pas une absence d'obstruction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756027520211_05",
+      "current_version_epoch_ms": 1756027520211,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "BPCO"
+      },
+      "data": {
+        "statement": "Quel est le seuil de PaO2 associé à une hypoxémie sévère dans une exacerbation de BPCO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2 < 60 mmHg",
+            "justification": "Une PaO2 inférieure à 60 mmHg est un critère d'hypoxémie sévère, signe de gravité d'une exacerbation de BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 80 mmHg",
+            "justification": "Une PaO2 inférieure à 80 mmHg correspond à une hypoxémie modérée, et non sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 90 mmHg",
+            "justification": "Une PaO2 inférieure à 90 mmHg peut indiquer une hypoxémie légère, mais pas sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 100 mmHg",
+            "justification": "Une PaO2 inférieure à 100 mmHg n'est pas suffisamment basse pour être considérée comme une hypoxémie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 70 mmHg",
+            "justification": "Bien que PaO2 < 70 mmHg soit pathologique, le seuil pour une hypoxémie sévère est fixé à moins de 60 mmHg."
+          }
+        ]
+      }
+    }
+  ]
+}
