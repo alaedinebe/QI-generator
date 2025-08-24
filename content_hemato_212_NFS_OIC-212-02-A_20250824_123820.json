@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "NFS",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756032046999_01",
+      "current_version_epoch_ms": 1756032046999,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Quelle est la valeur normale de la myélémie chez un nouveau-né durant la première semaine de vie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0-1,5 x10^9/L",
+            "justification": "La myélémie est physiologique durant la première semaine de vie avec une valeur comprise entre 0 et 1,5 x10^9/L."
+          },
+          {
+            "correct": false,
+            "proposition": "2-4 x10^9/L",
+            "justification": "Cette valeur est trop élevée pour être considérée comme physiologique durant la première semaine de vie."
+          },
+          {
+            "correct": false,
+            "proposition": "1-2 x10^9/L",
+            "justification": "Bien que proche de la normale, cette valeur dépasse la plage physiologique pour un nouveau-né."
+          },
+          {
+            "correct": false,
+            "proposition": "3-5 x10^9/L",
+            "justification": "Une myélémie supérieure à 2 % est pathologique, ce qui inclut une valeur de 3-5 x10^9/L."
+          },
+          {
+            "correct": false,
+            "proposition": "0-0,5 x10^9/L",
+            "justification": "Cette plage est inférieure à la valeur normale de myélémie chez le nouveau-né durant la première semaine de vie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032046999_02",
+      "current_version_epoch_ms": 1756032046999,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Qu'est-ce que l'érythroblastose sanguine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le passage dans le sang des érythroblastes, précurseurs des globules rouges.",
+            "justification": "L'érythroblastose sanguine correspond au passage des érythroblastes dans le sang, ce qui est physiologique durant la première semaine de vie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le passage dans le sang de globules rouges matures.",
+            "justification": "Ce n'est pas la définition de l'érythroblastose sanguine, qui implique des érythroblastes, précurseurs des globules rouges."
+          },
+          {
+            "correct": false,
+            "proposition": "Le passage dans le sang de leucocytes immatures.",
+            "justification": "Cette description fait référence à la myélémie, pas à l'érythroblastose."
+          },
+          {
+            "correct": false,
+            "proposition": "L'augmentation du nombre de plaquettes dans le sang.",
+            "justification": "Cette proposition concerne une autre anomalie de l'hémogramme, pas l'érythroblastose."
+          },
+          {
+            "correct": false,
+            "proposition": "Le passage dans le sang de cellules médullaires immatures.",
+            "justification": "Cette définition est plus proche de la myélémie, mais ne correspond pas spécifiquement à l'érythroblastose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032046999_03",
+      "current_version_epoch_ms": 1756032046999,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Qu'est-ce que l'érythromyélémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'association d'une myélémie et d'une érythroblastose sanguine.",
+            "justification": "L'érythromyélémie est la combinaison de la myélémie (passage de formes immatures granuleuses) et de l'érythroblastose (passage d'érythroblastes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le passage dans le sang de globules rouges matures et de leucocytes.",
+            "justification": "Cela ne correspond pas à l'érythromyélémie, qui inclut seulement des précurseurs des globules rouges et des formes immatures granuleuses."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de cellules médullaires dans le sang sans érythroblastes.",
+            "justification": "L'érythromyélémie inclut des érythroblastes, donc cette proposition est incorrecte."
+          },
+          {
+            "correct": false,
+            "proposition": "L'augmentation du nombre de plaquettes et de globules rouges dans le sang.",
+            "justification": "L'érythromyélémie n'inclut pas l'augmentation des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pathologie rare impliquant uniquement des formes immatures de leucocytes.",
+            "justification": "Cette définition correspond davantage à une autre pathologie de l'hémogramme, non à l'érythromyélémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032046999_04",
+      "current_version_epoch_ms": 1756032046999,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "À quel moment l'érythroblastose devient-elle pathologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le nombre d'érythroblastes dans le sang dépasse 1 x10^9/L après la première semaine de vie.",
+            "justification": "L'érythroblastose est physiologique durant la première semaine de vie, mais devient pathologique au-delà de cette période."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le nombre d'érythroblastes dépasse 2 x10^9/L, peu importe l'âge.",
+            "justification": "L'érythroblastose devient pathologique uniquement après la première semaine de vie, pas en fonction du seuil de 2 x10^9/L à n'importe quel âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque des érythroblastes matures sont observés dans le sang.",
+            "justification": "Les érythroblastes dans le sang sont des précurseurs des globules rouges, et non des cellules matures, même dans les conditions pathologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Quand les érythroblastes sont accompagnés de leucocytes immatures.",
+            "justification": "L'association d'érythroblastes et de leucocytes immatures constitue l'érythromyélémie, et non une simple érythroblastose pathologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une augmentation significative des plaquettes dans le sang.",
+            "justification": "Les plaquettes n'ont pas de lien direct avec l'érythroblastose, qui concerne uniquement les précurseurs des globules rouges."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756032046999_05",
+      "current_version_epoch_ms": 1756032046999,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "NFS"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'examen du frottis sanguin dans l'analyse des anomalies morphologiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet d'identifier les anomalies morphologiques des globules rouges, des plaquettes et des leucocytes.",
+            "justification": "L'examen du frottis sanguin est essentiel pour observer les anomalies morphologiques des cellules sanguines."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de quantifier le nombre de globules blancs dans le sang.",
+            "justification": "Le frottis sanguin n'est pas destiné à une quantification précise, mais à l'identification morphologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet uniquement d'observer la présence de globules rouges matures.",
+            "justification": "Le frottis sanguin permet d'observer des anomalies dans tous les types de cellules sanguines, pas seulement les globules rouges."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé pour calculer la vitesse de sédimentation des érythrocytes.",
+            "justification": "La vitesse de sédimentation des érythrocytes est mesurée par un test spécifique, et non par frottis sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de détecter uniquement des infections bactériennes.",
+            "justification": "Le frottis sanguin est plus large en termes de diagnostic, il permet d'identifier des anomalies cellulaires, pas seulement des infections."
+          }
+        ]
+      }
+    }
+  ]
+}
