@@ -1,109 +1,152 @@
-### 🧠 Contexte
-
-                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
-
-                        ---
-
-                        ### 🎯 Objectif de la tâche
-
-                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
-
-                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
-
-                        ---
-
-                        ### 🧾 Contraintes techniques *strictes*
-
-                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
-
-                        json
-                        {
-                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
-                            "propositions": [
-                            {
-                                "correct": true | false,
-                                "proposition": "Proposition A",
-                                "justification": "Justification pédagogique, claire et précise"
-                            },
-                            {
-                                "correct": true | false,
-                                "proposition": "Proposition B",
-                                "justification": "Justification pédagogique, claire et précise"
-                            },
-                            {
-                                "correct": true | false,
-                                "proposition": "Proposition C",
-                                "justification": "Justification pédagogique, claire et précise"
-                            },
-                            {
-                                "correct": true | false,
-                                "proposition": "Proposition D",
-                                "justification": "Justification pédagogique, claire et précise"
-                            },
-                            {
-                                "correct": true | false,
-                                "proposition": "Proposition E",
-                                "justification": "Justification pédagogique, claire et précise"
-                            }
-                            ]
-                        }
-
-
-                        ---
-
-                        ### 📚 Contraintes pédagogiques *avancées*
-
-                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
-                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
-
-                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
-                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
-                        * *catégorisation* (ex : éléments de la MVTE).
-                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
-                        * Il doit y avoir au moins *une proposition correcte* par question.
-                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
-                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
-                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
-                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
-
-                        ---
-
-                        ### 📄 Contenu médical sur lequel s'appuyer
-
-                        
-Connaître les paramètres biologiques permettant d'affirmer une surcharge en fer OIC-219-11-A
-
-
-
-
-Le diagnostic de surcharge en fer repose sur le dosage plasmatique de la ferritine couplé au coefficient de saturation de la transferrine.
-Le coefficient de saturation de la transferrine doit être systématiquement dosé en cas d'hyperferritinémie après avoir éliminé les causes fréquentes d'hyperferritinémie (en particulier cytolyse hépatique ou musculaire, hémolyse, inflammation, intoxication éthylique chronique), et ces deux dosages doivent être couplés en 1ère intention en cas de suspicion de surcharge en fer.
-Le coefficient de saturation de la transferrine peut être élevé en cas d'insuffisance hépatique sévère (exemple cirrhose décompensée, responsable d'une baisse de la synthèse de transferrine), même en l'absence de surcharge en fer.
--       L'absence d'hyperferritinémie permet d'écarter le diagnostic de surcharge en fer, alors qu'une hyperferritinémie associée à une augmentation du coefficient de saturation de la transferrine oriente vers le diagnostic. 
-(Attention aux faux positifs, par exemple l'insuffisance hépatique / cirrhose, cf ci-dessus).
--       Une hyperferritinémie associée à un coefficient de saturation de la transferrine normal n'écarte pas le diagnostic de surcharge en fer, mais il existe de nombreuses causes d'hyperferritinémie non liées à une surcharge en fer. Des explorations complémentaires peuvent être nécessaires telles que l'IRM hépatique, détaillée plus loin.
--       Une ferritinémie normale associée à une augmentation du coefficient de saturation de la transferrine peut être en lien avec un stade précoce d'hémochromatose ou rarement avec une cytolyse hépatique.
-
-
- Connaître les paramètres biologiques permettant d'affirmer une surcharge en fer OIC-219-11-ALe diagnostic de surcharge en fer repose surle dosage plasmatique de la ferritine couplé au coefficient de saturation de la transferrine.Le coefficient de saturation de la transferrine doit être systématiquement dosé en cas d'hyperferritinémie après avoir éliminé les causes fréquentes d'hyperferritinémie (en particulier cytolyse hépatique ou musculaire, hémolyse, inflammation, intoxication éthylique chronique), et ces deux dosages doivent être couplés en 1èreintention en cas de suspicion de surcharge en fer.
-Le coefficient de saturation de la transferrine peut être élevé en cas d'insuffisance hépatique sévère (exemple cirrhose décompensée, responsable d'une baisse de la synthèse de transferrine), même en l'absence de surcharge en fer.-       L'absence d'hyperferritinémie permet d'écarter le diagnostic de surcharge en fer, alors qu'une hyperferritinémie associée à une augmentation du coefficient de saturation de la transferrine oriente vers le diagnostic. 
-(Attention aux faux positifs, par exemple l'insuffisance hépatique / cirrhose, cf ci-dessus).-       Une hyperferritinémie associée à un coefficient de saturation de la transferrine normal n'écarte pas le diagnostic de surcharge en fer, mais il existe de nombreuses causes d'hyperferritinémie non liées à une surcharge en fer. Des explorations complémentaires peuvent être nécessaires telles que l'IRM hépatique, détaillée plus loin.-       Une ferritinémie normale associée à une augmentation du coefficient de saturation de la transferrine peut être en lien avec un stade précoce d'hémochromatose ou rarement avec une cytolyse hépatique.
-
-
-                        ---
-
-                        ### ❌ Ne fais surtout pas
-
-                        * Ne produis pas de contenu hors de ce champ médical.
-                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
-                        * Ne mélange pas les champs ou formats.
-                        * Ne propose pas plus ou moins de 5 propositions par question.
-                        * Ne fais pas de paraphrase du contenu ou de gloses.
-
-                        ---
-
-                        ### ✅ Tu peux maintenant commencer
-
-                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
-
-                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
+[
+    {
+        "statement": "Quelle est la caractéristique principale de la mélanodermie observée dans cet exemple clinique ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Présence de taches hyperpigmentées bien délimitées sur la peau",
+                "justification": "La mélanodermie se caractérise par une hyperpigmentation de la peau, souvent en forme de taches, avec des bords nets."
+            },
+            {
+                "correct": false,
+                "proposition": "Présence de lésions de type érythème ou éruption cutanée",
+                "justification": "L'érythème et les éruptions cutanées ne sont pas typiques de la mélanodermie, qui est une condition caractérisée par des taches pigmentées."
+            },
+            {
+                "correct": false,
+                "proposition": "Présence de plaques squameuses et épaissies sur la peau",
+                "justification": "Les plaques squameuses et épaissies sont caractéristiques d'autres troubles dermatologiques, comme le psoriasis, et non de la mélanodermie."
+            },
+            {
+                "correct": false,
+                "proposition": "Répartition symétrique des lésions sur le visage",
+                "justification": "Bien que la mélanodermie puisse affecter diverses parties du corps, sa distribution symétrique sur le visage n'est pas une caractéristique distinctive."
+            },
+            {
+                "correct": false,
+                "proposition": "Formation de vésicules remplies de liquide clair",
+                "justification": "Les vésicules remplies de liquide clair sont caractéristiques de certaines dermatites, mais pas de la mélanodermie."
+            }
+        ]
+    },
+    {
+        "statement": "Comment peut-on différencier la mélanodermie d'autres affections pigmentaires ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Par la présence de taches hyperpigmentées qui sont généralement plus foncées que le teint de base",
+                "justification": "La mélanodermie est caractérisée par des taches de pigmentation qui sont souvent plus foncées que la peau environnante."
+            },
+            {
+                "correct": false,
+                "proposition": "Par la texture rugueuse de la peau à l'endroit des taches",
+                "justification": "La texture rugueuse n'est pas un critère spécifique de la mélanodermie, mais peut être vue dans d'autres pathologies cutanées."
+            },
+            {
+                "correct": false,
+                "proposition": "Par l'apparition de squames au centre des taches pigmentées",
+                "justification": "Les squames ne sont pas une caractéristique de la mélanodermie, mais plutôt d'autres conditions comme le psoriasis."
+            },
+            {
+                "correct": false,
+                "proposition": "Par la présence de démangeaisons accompagnant les taches pigmentées",
+                "justification": "La mélanodermie ne s'accompagne généralement pas de démangeaisons, contrairement à d'autres affections cutanées comme l'eczéma."
+            },
+            {
+                "correct": false,
+                "proposition": "Par la réversibilité des taches sous traitement"
+                "justification": "Les taches de mélanodermie sont souvent persistantes et ne disparaissent pas facilement sous traitement."
+            }
+        ]
+    },
+    {
+        "statement": "Dans quel cas clinique la mélanodermie est-elle le plus fréquemment rencontrée ?",
+        "propositions": [
+            {
+                "correct": false,
+                "proposition": "Lors de maladies infectieuses aiguës",
+                "justification": "La mélanodermie n'est pas généralement associée aux maladies infectieuses aiguës, mais plutôt à des troubles pigmentaires chroniques."
+            },
+            {
+                "correct": false,
+                "proposition": "Lors d'expositions prolongées au soleil sans protection",
+                "justification": "L'exposition au soleil peut entraîner d'autres types de troubles pigmentaires, mais la mélanodermie n'est pas directement liée à une exposition solaire prolongée."
+            },
+            {
+                "correct": true,
+                "proposition": "Dans le cadre de certains troubles hormonaux, comme la grossesse",
+                "justification": "La mélanodermie est fréquemment rencontrée chez les femmes enceintes, en raison des changements hormonaux influençant la pigmentation cutanée."
+            },
+            {
+                "correct": false,
+                "proposition": "Lors de troubles alimentaires graves",
+                "justification": "Les troubles alimentaires graves n'ont pas de lien direct avec la mélanodermie, bien que d'autres problèmes cutanés puissent se manifester dans ces contextes."
+            },
+            {
+                "correct": false,
+                "proposition": "Lors de réactions allergiques cutanées aigües",
+                "justification": "Les réactions allergiques cutanées aigües ne sont généralement pas associées à des taches pigmentées, mais plutôt à des éruptions inflammatoires."
+            }
+        ]
+    },
+    {
+        "statement": "Quelles sont les caractéristiques de la mélanodermie typique chez un patient ?",
+        "propositions": [
+            {
+                "correct": true,
+                "proposition": "Présence de taches pigmentées symétriques et bien délimitées, souvent sur le visage",
+                "justification": "Les taches pigmentées dans la mélanodermie sont bien délimitées et souvent symétriques, avec une préférence pour le visage."
+            },
+            {
+                "correct": false,
+                "proposition": "Les taches pigmentées sont généralement surélevées et squameuses",
+                "justification": "Les taches de mélanodermie sont plates et non squameuses. L'élévation et la desquamation sont plus caractéristiques de conditions comme le psoriasis."
+            },
+            {
+                "correct": false,
+                "proposition": "Les taches sont souvent accompagnées de démangeaisons intenses",
+                "justification": "La mélanodermie est généralement asymptomatique, sans démangeaisons. Les démangeaisons sont plus typiques de l'eczéma."
+            },
+            {
+                "correct": false,
+                "proposition": "Les taches disparaissent après quelques semaines de traitement",
+                "justification": "La mélanodermie est une condition pigmentaire persistante, et les taches ne disparaissent pas rapidement sous traitement."
+            },
+            {
+                "correct": false,
+                "proposition": "Les taches sont réparties de manière irrégulière sur le corps",
+                "justification": "La mélanodermie se caractérise généralement par des taches pigmentées bien délimitées et symétriques, en particulier sur le visage."
+            }
+        ]
+    },
+    {
+        "statement": "Quel est le mécanisme physiopathologique principal de la mélanodermie ?",
+        "propositions": [
+            {
+                "correct": false,
+                "proposition": "Augmentation de la production de sébum et obstruction des follicules pileux",
+                "justification": "La production excessive de sébum et l'obstruction des follicules ne sont pas impliquées dans la mélanodermie, qui est liée à un excès de pigmentation."
+            },
+            {
+                "correct": true,
+                "proposition": "Stimulation excessive des mélanocytes par les hormones ou la grossesse",
+                "justification": "La mélanodermie est principalement causée par une hyperstimulation des mélanocytes, souvent en raison de changements hormonaux, comme ceux observés pendant la grossesse."
+            },
+            {
+                "correct": false,
+                "proposition": "Accumulation de kératine dans la peau due à une hyperactivité des kératinocytes",
+                "justification": "La kératinisation excessive est associée à des affections comme le psoriasis, mais non à la mélanodermie."
+            },
+            {
+                "correct": false,
+                "proposition": "Dégénérescence des cellules cutanées sous l'effet de rayons UV",
+                "justification": "Les rayons UV peuvent causer des dommages à la peau, mais la mélanodermie n'est pas causée par des lésions cellulaires induites par les UV."
+            },
+            {
+                "correct": false,
+                "proposition": "Réaction inflammatoire aiguë provoquée par un agent pathogène",
+                "justification": "La mélanodermie n'est pas liée à une réaction inflammatoire, mais plutôt à des modifications pigmentaires causées par des changements hormonaux."
+            }
+        ]
+    }
+]
