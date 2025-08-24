@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MTEV",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756058735496_01",
+      "current_version_epoch_ms": 1756058735496,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le seuil de D-dimères à partir duquel le diagnostic d'une EP non grave peut être exclu chez un patient âgé de moins de 50 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "< 500 µg/L",
+            "justification": "Chez les patients de moins de 50 ans, un seuil de D-dimères inférieur à 500 µg/L permet d'éliminer une EP non grave en l'absence de probabilité clinique forte."
+          },
+          {
+            "correct": false,
+            "proposition": "< 1000 µg/L",
+            "justification": "Le seuil de 1000 µg/L est trop élevé pour exclure une EP non grave chez un patient de moins de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< 200 µg/L",
+            "justification": "Un seuil de 200 µg/L est trop bas pour exclure une EP non grave, même pour un patient de moins de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< [âge × 10] µg/L",
+            "justification": "Ce seuil est réservé aux patients de plus de 50 ans, et non aux moins de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< 800 µg/L",
+            "justification": "Ce seuil est trop élevé pour exclure une EP non grave chez un patient de moins de 50 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058735496_02",
+      "current_version_epoch_ms": 1756058735496,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le seuil de D-dimères utilisé pour exclure une EP non grave chez un patient de plus de 50 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "< [âge × 10] µg/L",
+            "justification": "Le seuil de D-dimères est ajusté en fonction de l'âge du patient et se calcule comme [âge × 10] µg/L pour les patients de plus de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< 500 µg/L",
+            "justification": "Ce seuil est spécifiquement destiné aux patients de moins de 50 ans, et non aux plus de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< 1000 µg/L",
+            "justification": "Un seuil de 1000 µg/L ne permet pas d'exclure de manière fiable une EP non grave, même pour un patient plus âgé."
+          },
+          {
+            "correct": false,
+            "proposition": "< 200 µg/L",
+            "justification": "Un seuil de 200 µg/L est trop bas pour exclure une EP non grave, même chez les patients plus âgés."
+          },
+          {
+            "correct": false,
+            "proposition": "< 800 µg/L",
+            "justification": "Ce seuil est trop élevé pour exclure une EP non grave chez un patient plus âgé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058735496_03",
+      "current_version_epoch_ms": 1756058735496,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est l'impact d'un résultat de D-dimères inférieur au seuil diagnostique chez un patient avec une faible probabilité clinique de TVP ou d'EP ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet d'éliminer le diagnostic de TVP ou d'EP",
+            "justification": "Si les D-dimères sont inférieurs au seuil diagnostique et si la probabilité clinique est faible, cela permet d'éliminer le diagnostic de TVP ou d'EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirme le diagnostic de TVP ou d'EP",
+            "justification": "Les D-dimères ne permettent pas à eux seuls de confirmer un diagnostic de TVP ou d'EP, ils sont utilisés pour éliminer ces diagnostics en cas de probabilité faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmente la probabilité de TVP ou d'EP",
+            "justification": "Un résultat inférieur au seuil diagnostique réduit la probabilité de TVP ou d'EP, notamment en cas de probabilité clinique faible."
+          },
+          {
+            "correct": false,
+            "proposition": "N'a aucun impact sur le diagnostic",
+            "justification": "Les D-dimères ont une forte valeur prédictive négative, et un résultat inférieur au seuil permet bien d'exclure un diagnostic de TVP ou d'EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Doit être suivi d'une autre investigation systématique",
+            "justification": "Si les D-dimères sont inférieurs au seuil et que la probabilité clinique est faible, d'autres investigations ne sont généralement pas nécessaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058735496_04",
+      "current_version_epoch_ms": 1756058735496,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Pour quel type d'EP l'ajustement du seuil des D-dimères en fonction de l'âge ne s'applique-t-il pas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "EP grave ou de probabilité forte",
+            "justification": "L'ajustement des D-dimères à l'âge ne s'applique pas en cas d'EP grave ou de probabilité clinique forte, où des investigations supplémentaires sont nécessaires indépendamment des D-dimères."
+          },
+          {
+            "correct": false,
+            "proposition": "EP non grave",
+            "justification": "L'ajustement des D-dimères à l'âge s'applique spécifiquement pour les EP non graves et lorsque la probabilité clinique est faible."
+          },
+          {
+            "correct": false,
+            "proposition": "TVP grave",
+            "justification": "L'ajustement des D-dimères n'est pas lié à la gravité de la TVP, mais s'applique uniquement pour l'EP non grave et les patients de moins de 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "TVP non grave",
+            "justification": "L'ajustement des D-dimères ne s'applique pas à la TVP, mais uniquement à l'EP non grave."
+          },
+          {
+            "correct": false,
+            "proposition": "EP de probabilité faible",
+            "justification": "L'ajustement des D-dimères à l'âge s'applique bien aux EP de probabilité faible, mais ne concerne pas les cas graves ou de probabilité forte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058735496_05",
+      "current_version_epoch_ms": 1756058735496,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le seuil de D-dimères recommandé pour exclure une EP non grave chez un patient de 70 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "< 700 µg/L",
+            "justification": "Pour un patient de 70 ans, le seuil de D-dimères se calcule comme 70 × 10 = 700 µg/L pour exclure une EP non grave."
+          },
+          {
+            "correct": false,
+            "proposition": "< 500 µg/L",
+            "justification": "Le seuil de 500 µg/L est trop bas pour un patient de 70 ans, le seuil correct étant ajusté à l'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "< 1000 µg/L",
+            "justification": "Le seuil de 1000 µg/L est trop élevé pour exclure une EP non grave, même chez un patient plus âgé."
+          },
+          {
+            "correct": false,
+            "proposition": "< 800 µg/L",
+            "justification": "Le seuil de 800 µg/L est trop élevé pour exclure une EP non grave chez un patient de 70 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "< 600 µg/L",
+            "justification": "Un seuil de 600 µg/L est trop bas et ne correspond pas à l'ajustement spécifique en fonction de l'âge pour un patient de 70 ans."
+          }
+        ]
+      }
+    }
+  ]
+}
