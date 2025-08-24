@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "thromboP",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756034612342_01",
+      "current_version_epoch_ms": 1756034612342,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quel est le seuil du nombre de plaquettes dans le sang pour qu'on parle de thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inférieur à 150 G/L",
+            "justification": "La thrombopénie est définie par un nombre de plaquettes inférieur à 150 G/L, soit 150 000/mm3 ou 150 x109/L selon les unités utilisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 100 G/L",
+            "justification": "Un nombre de plaquettes inférieur à 100 G/L correspond à une forme plus sévère de thrombopénie, mais n'est pas la limite de la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 200 G/L",
+            "justification": "Un seuil inférieur à 200 G/L ne définit pas la thrombopénie, car ce seuil est trop élevé par rapport à la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 50 G/L",
+            "justification": "Un nombre de plaquettes inférieur à 50 G/L correspond à une forme très sévère de thrombopénie, mais cela n'est pas la limite de la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 75 G/L",
+            "justification": "Ce seuil est trop bas pour la définition de la thrombopénie, qui commence à 150 G/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034612342_02",
+      "current_version_epoch_ms": 1756034612342,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Comment interpréter l'hémogramme en cas de thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il montre un nombre de plaquettes inférieur à 150 G/L",
+            "justification": "L'hémogramme est l'examen de référence pour diagnostiquer une thrombopénie, en montrant un nombre de plaquettes inférieur à 150 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Il montre une concentration anormale de globules rouges",
+            "justification": "La thrombopénie ne concerne pas les globules rouges, mais les plaquettes, comme indiqué dans la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Il montre une augmentation du nombre de globules blancs",
+            "justification": "Les globules blancs sont indépendants de la définition de la thrombopénie qui concerne uniquement les plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne montre aucune anomalie significative",
+            "justification": "En cas de thrombopénie, l'hémogramme présente une anomalie évidente concernant le nombre de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il montre une baisse du nombre de globules rouges",
+            "justification": "La thrombopénie ne concerne pas le nombre de globules rouges, mais spécifiquement celui des plaquettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034612342_03",
+      "current_version_epoch_ms": 1756034612342,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quel est le seuil de plaquettes pour considérer qu'il n'y a pas de thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Supérieur à 150 G/L",
+            "justification": "Lorsque le nombre de plaquettes est supérieur à 150 G/L, il n'y a pas de thrombopénie selon la définition classique."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 200 G/L",
+            "justification": "Bien que les plaquettes puissent être supérieures à 200 G/L, ce n'est pas le seuil minimal de normalité pour exclure la thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 100 G/L",
+            "justification": "Un nombre de plaquettes supérieur à 100 G/L ne suffit pas à exclure la thrombopénie, car le seuil normal est de 150 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 50 G/L",
+            "justification": "Un nombre de plaquettes supérieur à 50 G/L ne permet pas d'exclure la thrombopénie. Le seuil pour ne pas considérer une thrombopénie est 150 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 75 G/L",
+            "justification": "Le seuil de 75 G/L est trop bas pour exclure la thrombopénie qui est définie comme étant au-dessus de 150 G/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034612342_04",
+      "current_version_epoch_ms": 1756034612342,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelles unités peuvent être utilisées pour mesurer les plaquettes sanguines dans l'hémogramme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "G/L, 1000/mm3, 10^9/L",
+            "justification": "Les unités usuelles pour mesurer le nombre de plaquettes sanguines sont G/L, 1000/mm3, et 10^9/L, selon les standards internationaux."
+          },
+          {
+            "correct": false,
+            "proposition": "G/ml, 100/mm3",
+            "justification": "Les unités mentionnées ici ne sont pas appropriées pour mesurer le nombre de plaquettes dans un hémogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "mm3, 1000/L",
+            "justification": "Les unités mm3 et 1000/L ne sont pas conventionnelles pour mesurer les plaquettes sanguines."
+          },
+          {
+            "correct": false,
+            "proposition": "G/kg, 10000/mm3",
+            "justification": "Ces unités ne sont pas correctes et ne sont pas utilisées pour quantifier le nombre de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "mg/L, 10^3/mm3",
+            "justification": "Les unités proposées ne sont pas adaptées à la mesure des plaquettes sanguines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034612342_05",
+      "current_version_epoch_ms": 1756034612342,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle est la définition de la thrombopénie selon les seuils de plaquettes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un nombre de plaquettes inférieur à 150 G/L",
+            "justification": "La thrombopénie est définie comme un nombre de plaquettes inférieur à 150 G/L, une unité standard de mesure des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Un nombre de plaquettes inférieur à 100 G/L",
+            "justification": "Un nombre inférieur à 100 G/L représente une forme plus grave de thrombopénie, mais ce n'est pas la définition générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Un nombre de plaquettes supérieur à 150 G/L",
+            "justification": "Un nombre de plaquettes supérieur à 150 G/L n'est pas une thrombopénie, c'est un taux normal ou élevé de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Un nombre de plaquettes supérieur à 50 G/L",
+            "justification": "Un nombre de plaquettes supérieur à 50 G/L ne correspond pas à la définition de la thrombopénie, qui commence à 150 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Un nombre de plaquettes compris entre 150 et 200 G/L",
+            "justification": "Un nombre compris entre 150 et 200 G/L est normal et ne constitue pas une thrombopénie."
+          }
+        ]
+      }
+    }
+  ]
+}
