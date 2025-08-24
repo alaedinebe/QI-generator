@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "anemie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756033857627_01",
+      "current_version_epoch_ms": 1756033857627,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel est l'examen de première intention à réaliser pour une anémie microcytaire suspectée d'origine carentielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage de la ferritine",
+            "justification": "La ferritine est un marqueur clé pour évaluer les réserves en fer, qui est souvent diminué dans les anémies carentielles en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéine C-réactive (CRP)",
+            "justification": "La CRP est un marqueur de l'inflammation et non spécifique de la carence en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophorèse de l'Hb",
+            "justification": "L'électrophorèse de l'Hb est utile pour les thalassémies, mais ce n'est pas un test de première intention pour une anémie microcytaire carentielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des vitamines B12 et B9",
+            "justification": "Les carences en vitamines B12 et B9 provoquent des anémies macrocytaires et non microcytaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen du myélogramme",
+            "justification": "Le myélogramme est réservé aux cas où l'on suspecte une cause médullaire, comme dans les anémies normocytaires arégénératives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756033857627_02",
+      "current_version_epoch_ms": 1756033857627,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quelle est la principale cause d'une anémie normocytaire arégénérative ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale chronique",
+            "justification": "L'insuffisance rénale chronique entraîne une diminution de la production d'érythropoïétine, ce qui provoque une anémie normocytaire arégénérative."
+          },
+          {
+            "correct": false,
+            "proposition": "Carence en vitamine B12",
+            "justification": "La carence en vitamine B12 entraîne une anémie macrocytaire et non normocytaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome inflammatoire aigu",
+            "justification": "Le syndrome inflammatoire aigu peut initialement produire une anémie normocytaire, mais s'il persiste, l'anémie devient microcytaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothyroïdie",
+            "justification": "L'hypothyroïdie peut entraîner une anémie normocytaire, mais c'est généralement une cause moins fréquente comparée à l'insuffisance rénale."
+          },
+          {
+            "correct": false,
+            "proposition": "Myélodysplasie",
+            "justification": "La myélodysplasie entraîne souvent une anémie normocytique mais avec des anomalies médullaires et est classée parmi les anémies arégénératives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756033857627_03",
+      "current_version_epoch_ms": 1756033857627,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel est l'examen de première intention dans l'évaluation d'une anémie macrocytaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage des vitamines B9 et B12",
+            "justification": "Les carences en vitamines B9 et B12 sont des causes fréquentes d'anémie macrocytaire, et leur dosage est essentiel pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophorèse de l'Hb",
+            "justification": "L'électrophorèse de l'Hb est utile dans les thalassémies et autres troubles hématologiques, mais pas pour une anémie macrocytaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de la ferritine",
+            "justification": "La ferritine est utilisée pour diagnostiquer les anémies microcytaires liées à une carence en fer, pas pour les anémies macrocytaires."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP (Protéine C-réactive)",
+            "justification": "La CRP est un marqueur inflammatoire, mais elle n'est pas un examen de première intention pour l'anémie macrocytaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Myélogramme",
+            "justification": "Le myélogramme est réservé aux cas complexes, souvent dans le cadre de troubles médullaires suspects."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756033857627_04",
+      "current_version_epoch_ms": 1756033857627,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quelles sont les principales causes d'anémie régénérative chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémorragie aiguë",
+            "justification": "L'hémorragie aiguë entraîne une anémie régénérative par augmentation de la production de réticulocytes après 48 heures."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémolyse",
+            "justification": "L'hémolyse, qu'elle soit corpusculaire ou extra-corpusculaire, génère une anémie régénérative en raison de la destruction des globules rouges et de la libération accrue de réticulocytes."
+          },
+          {
+            "correct": false,
+            "proposition": "Carence en vitamine B9",
+            "justification": "La carence en vitamine B9 provoque une anémie macrocytaire, pas une anémie régénérative."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome inflammatoire prolongé",
+            "justification": "Le syndrome inflammatoire prolongé entraîne une anémie arégénérative, pas régénérative."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothyroïdie",
+            "justification": "L'hypothyroïdie est une cause d'anémie normocytaire arégénérative, pas régénérative."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756033857627_05",
+      "current_version_epoch_ms": 1756033857627,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel test est le plus sensible pour diagnostiquer une anémie hémolytique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage de l'haptoglobine",
+            "justification": "L'haptoglobine est un marqueur de l'hémolyse; elle est souvent indosable dans les anémies hémolytiques, et sa baisse est un signe clinique de cette pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophorèse de l'Hb",
+            "justification": "L'électrophorèse de l'Hb permet de diagnostiquer certaines anomalies de l'Hb, mais elle n'est pas spécifique à l'anémie hémolytique."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de Coombs direct",
+            "justification": "Le test de Coombs direct est utile pour diagnostiquer l'anémie hémolytique auto-immune, mais il n'est pas aussi sensible que le dosage de l'haptoglobine pour les causes hémolytiques non immunologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottis sanguin",
+            "justification": "Le frottis sanguin peut montrer des signes d'hémolyse, mais il est moins sensible que le dosage de l'haptoglobine pour diagnostiquer l'anémie hémolytique."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP",
+            "justification": "La CRP est un marqueur d'inflammation, et bien qu'il puisse être élevé dans certaines anémies, il n'est pas spécifique à l'anémie hémolytique."
+          }
+        ]
+      }
+    }
+  ]
+}
