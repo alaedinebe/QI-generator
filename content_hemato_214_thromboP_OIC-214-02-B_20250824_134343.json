@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "thromboP",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756035969840_01",
+      "current_version_epoch_ms": 1756035969840,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Parmi les mécanismes de la thrombopénie, lequel correspond à une insuffisance médullaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Défaut de production des plaquettes par la moelle osseuse",
+            "justification": "Le défaut de production des plaquettes par la moelle osseuse est une cause centrale de thrombopénie due à une insuffisance médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Destruction des plaquettes dans la circulation périphérique",
+            "justification": "La destruction des plaquettes dans la circulation périphérique est une cause périphérique de thrombopénie, et non centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquestration des plaquettes dans la rate",
+            "justification": "La séquestration des plaquettes dans la rate est liée à un mécanisme de thrombopénie périphérique, non central."
+          },
+          {
+            "correct": false,
+            "proposition": "Coagulation intra-vasculaire disséminée (CIVD)",
+            "justification": "La CIVD entraîne une consommation des plaquettes, ce qui est un mécanisme périphérique de thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Microangiopathies thrombotiques",
+            "justification": "Les microangiopathies thrombotiques sont une cause périphérique de thrombopénie due à la consommation des plaquettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035969840_02",
+      "current_version_epoch_ms": 1756035969840,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quel mécanisme explique la thrombopénie associée à une splénomégalie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Séquestration des plaquettes dans la rate",
+            "justification": "L'hypersplénisme lié à la splénomégalie entraîne la séquestration des plaquettes dans la rate, ce qui provoque une thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Défaut de production des plaquettes par la moelle osseuse",
+            "justification": "Le défaut de production des plaquettes par la moelle osseuse est une cause centrale de thrombopénie, mais il n'est pas associé spécifiquement à la splénomégalie."
+          },
+          {
+            "correct": false,
+            "proposition": "Destruction des plaquettes dans la circulation périphérique",
+            "justification": "La destruction des plaquettes dans la circulation périphérique est un mécanisme périphérique, mais il n'est pas directement lié à la splénomégalie."
+          },
+          {
+            "correct": false,
+            "proposition": "Coagulation intra-vasculaire disséminée (CIVD)",
+            "justification": "La CIVD entraîne une consommation des plaquettes, mais elle n'est pas spécifiquement liée à une splénomégalie."
+          },
+          {
+            "correct": false,
+            "proposition": "Microangiopathies thrombotiques",
+            "justification": "Les microangiopathies thrombotiques entraînent une consommation des plaquettes, mais ce n'est pas en lien direct avec une splénomégalie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035969840_03",
+      "current_version_epoch_ms": 1756035969840,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle est une conséquence de la CIVD dans le cadre de la thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Consommation des plaquettes en périphérie",
+            "justification": "La CIVD est une cause de thrombopénie périphérique où les plaquettes sont consommées en raison d'une activation excessive de la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Défaut de production des plaquettes par la moelle osseuse",
+            "justification": "Le défaut de production des plaquettes est une cause centrale de thrombopénie, distincte de la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquestration des plaquettes dans la rate",
+            "justification": "La séquestration des plaquettes dans la rate est un mécanisme lié à la splénomégalie et non à la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Destruction des plaquettes dans la circulation périphérique",
+            "justification": "Bien que la destruction des plaquettes dans la circulation périphérique soit un mécanisme périphérique, ce n'est pas spécifiquement la conséquence de la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Microangiopathies thrombotiques",
+            "justification": "Les microangiopathies thrombotiques sont une cause différente de consommation des plaquettes, mais elles ne sont pas la conséquence directe de la CIVD."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035969840_04",
+      "current_version_epoch_ms": 1756035969840,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Dans quel cas la moelle osseuse continue-t-elle de produire des plaquettes malgré la thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la consommation des plaquettes en périphérie est excessive",
+            "justification": "La moelle osseuse peut continuer à produire des plaquettes dans des cas de thrombopénie périphérique, comme dans la CIVD ou les microangiopathies thrombotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la production de plaquettes est altérée par un envahissement médullaire",
+            "justification": "Dans ce cas, la production des plaquettes est diminuée ou inhibée, ce qui empêche la moelle osseuse de produire suffisamment de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les plaquettes sont séquestrées dans la rate",
+            "justification": "La séquestration des plaquettes dans la rate entraîne une thrombopénie par diminution du nombre de plaquettes circulantes, mais la production médullaire reste intacte."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'insuffisance médullaire affecte la production des plaquettes",
+            "justification": "L'insuffisance médullaire entraîne une diminution de la production des plaquettes, ce qui conduit à une thrombopénie centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la destruction des plaquettes dans la circulation est due à des mécanismes immunologiques",
+            "justification": "Les mécanismes immunologiques entraînent la destruction des plaquettes en périphérie, sans altérer la production médullaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756035969840_05",
+      "current_version_epoch_ms": 1756035969840,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Parmi les mécanismes suivants, lequel n'est pas associé à la thrombopénie périphérique ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Destruction des plaquettes dans la circulation périphérique",
+            "justification": "La destruction des plaquettes en périphérie est bien un mécanisme de thrombopénie périphérique, comme dans les réactions immunologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Coagulation intra-vasculaire disséminée (CIVD)",
+            "justification": "La CIVD est une cause de thrombopénie périphérique par la consommation des plaquettes dans la circulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Microangiopathies thrombotiques",
+            "justification": "Les microangiopathies thrombotiques provoquent une consommation des plaquettes en périphérie, ce qui en fait une cause périphérique de thrombopénie."
+          },
+          {
+            "correct": true,
+            "proposition": "Défaut de production des plaquettes par la moelle osseuse",
+            "justification": "Le défaut de production des plaquettes est un mécanisme de thrombopénie centrale, pas périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquestration des plaquettes dans la rate",
+            "justification": "La séquestration des plaquettes dans la rate est liée à un mécanisme périphérique lorsque la rate est volumineuse."
+          }
+        ]
+      }
+    }
+  ]
+}
