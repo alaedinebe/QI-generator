@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PID",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756029781405_01",
+      "current_version_epoch_ms": 1756029781405,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel examen est indispensable pour éliminer une infection en cas de PID aiguë chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures permettent de rechercher des infections bactériennes dans le sang, particulièrement chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie",
+            "justification": "L'échocardiographie est utile dans le diagnostic de l'insuffisance cardiaque mais non pour les infections."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est essentiel pour évaluer l'activité cardiaque mais ne permet pas d'éliminer une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des D-dimères",
+            "justification": "Les D-dimères sont utilisés pour diagnostiquer une embolie pulmonaire et non une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de BNP",
+            "justification": "Le BNP est un marqueur de l'insuffisance cardiaque et n'est pas utile pour le diagnostic d'infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756029781405_02",
+      "current_version_epoch_ms": 1756029781405,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel examen biologique est recommandé pour évaluer le degré d'hypoxémie en cas de PID ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Gazométrie artérielle",
+            "justification": "La gazométrie artérielle permet d'évaluer précisément le degré d'hypoxémie et d'hypercapnie chez un patient en détresse respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique évalue la fonction hépatique mais ne permet pas de mesurer l'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS-plaquettes",
+            "justification": "La NFS est utile pour détecter une anémie ou des anomalies sanguines, mais ne renseigne pas sur l'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Electrophorèse des protides plasmatiques",
+            "justification": "L'électrophorèse des protides est utilisée pour analyser les protéines sanguines et non pour évaluer l'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des anticorps anti-ADN",
+            "justification": "Le dosage des anticorps anti-ADN est spécifique aux maladies auto-immunes et non à l'hypoxémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756029781405_03",
+      "current_version_epoch_ms": 1756029781405,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel examen permet de rechercher une embolie pulmonaire dans le cadre de PID ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage des D-dimères",
+            "justification": "Les D-dimères sont des fragments de fibrine qui augmentent en cas de thromboembolie, ce qui en fait un test utile pour l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Test thérapeutique aux diurétiques",
+            "justification": "Le test aux diurétiques est destiné à évaluer la réponse cardiaque et n'est pas spécifique à l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme sanguin permet de mesurer les électrolytes, mais il ne permet pas de diagnostiquer une embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Échocardiographie",
+            "justification": "Bien que l'échocardiographie soit utile pour détecter l'insuffisance cardiaque, elle n'est pas spécifique pour l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont utilisées pour rechercher des infections, mais non pour diagnostiquer une embolie pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756029781405_04",
+      "current_version_epoch_ms": 1756029781405,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel examen est indiqué pour rechercher une infection chez un patient PID présentant des expectorations ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "LBA (lavage broncho-alvéolaire)",
+            "justification": "Le LBA permet de prélever du liquide des voies respiratoires pour détecter des infections, notamment chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des précipitines sériques",
+            "justification": "Le dosage des précipitines sériques est utilisé pour certaines infections fongiques, mais il n'est pas spécifiquement indiqué pour les expectorations."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie VIH",
+            "justification": "La sérologie VIH est importante pour le dépistage du VIH, mais elle n'est pas utilisée pour diagnostiquer une infection pulmonaire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique analyse la fonction du foie, mais n'est pas pertinent pour une infection respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence respiratoire",
+            "justification": "La fréquence respiratoire permet d'évaluer la détresse respiratoire mais ne permet pas de diagnostiquer directement une infection."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756029781405_05",
+      "current_version_epoch_ms": 1756029781405,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PID"
+      },
+      "data": {
+        "statement": "Quel examen biologique permet de diagnostiquer une insuffisance cardiaque dans le cadre de PID ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dosage de BNP",
+            "justification": "Le BNP est un marqueur spécifique de l'insuffisance cardiaque et aide au diagnostic en cas de PID."
+          },
+          {
+            "correct": false,
+            "proposition": "Test thérapeutique aux diurétiques",
+            "justification": "Le test thérapeutique aux diurétiques permet d'évaluer la réponse clinique, mais n'est pas un test biologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatininémie",
+            "justification": "La créatininémie évalue la fonction rénale, mais elle n'est pas spécifique à l'insuffisance cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Electrophorèse des protides plasmatiques",
+            "justification": "L'électrophorèse des protides analyse les protéines sanguines, mais elle ne permet pas de diagnostiquer l'insuffisance cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS-plaquettes",
+            "justification": "La NFS est utile pour évaluer les cellules sanguines, mais ne permet pas de diagnostiquer une insuffisance cardiaque."
+          }
+        ]
+      }
+    }
+  ]
+}
