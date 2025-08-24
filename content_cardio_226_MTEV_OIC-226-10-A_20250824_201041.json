@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MTEV",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756059188008_01",
+      "current_version_epoch_ms": 1756059188008,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé en première intention pour une embolie pulmonaire non grave à risque faible ou intermédiaire bas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anticoagulants oraux directs (AODs)",
+            "justification": "Les AODs (rivaroxaban, apixaban) sont recommandés en première intention sauf en cas d'EP à risque élevé ou intermédiaire haut, sans nécessité de phase héparinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Héparine de bas poids moléculaire (HBPM)",
+            "justification": "Bien que l'HBPM puisse être utilisée en relais, ce n'est pas la stratégie recommandée en première intention pour une EP non grave à faible risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Fondaparinux",
+            "justification": "Le fondaparinux n'est pas recommandé en première intention pour une EP à faible risque, il est plutôt utilisé en relais avec les AVK."
+          },
+          {
+            "correct": false,
+            "proposition": "Héparine non fractionnée (HNF)",
+            "justification": "L'HNF est réservée aux cas graves d'EP et ne doit pas être utilisée pour une EP non grave."
+          },
+          {
+            "correct": false,
+            "proposition": "AVK (Antivitamines K)",
+            "justification": "Les AVK ne sont pas recommandés en première intention pour une EP non grave à faible risque, ils sont utilisés après une phase de traitement parentéral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756059188008_02",
+      "current_version_epoch_ms": 1756059188008,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge initiale recommandée pour une thrombose veineuse profonde (TVP) sans facteur de risque grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prise en charge ambulatoire",
+            "justification": "Les patients sans facteur de risque grave de TVP sont généralement traités en ambulatoire, sauf exceptions liées à l'insuffisance rénale sévère ou à des risques hémorragiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation systématique",
+            "justification": "L'hospitalisation n'est pas systématique sauf en cas de TVP proximale avec syndrome obstructif sévère ou d'autres risques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Alitement strict",
+            "justification": "Un alitement n'est pas indiqué dans la prise en charge de la TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie",
+            "justification": "L'antibiothérapie n'est pas indiquée pour une TVP non infectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie d'urgence",
+            "justification": "La chirurgie d'urgence n'est pas indiquée pour une TVP non compliquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756059188008_03",
+      "current_version_epoch_ms": 1756059188008,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour une TVP survenant pendant la grossesse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Héparine de bas poids moléculaire (HBPM)",
+            "justification": "L'HBPM est la seule option thérapeutique recommandée durant la grossesse, car les AODs sont contre-indiqués et l'AVK ne doit pas être utilisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Anticoagulants oraux directs (AODs)",
+            "justification": "Les AODs sont contre-indiqués pendant la grossesse en raison de leur risque pour le fœtus."
+          },
+          {
+            "correct": false,
+            "proposition": "Fondaparinux",
+            "justification": "Le fondaparinux n'est pas recommandé pendant la grossesse en raison du manque de données sur son efficacité et sa sécurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Héparine non fractionnée (HNF)",
+            "justification": "Bien que l'HNF puisse être utilisée dans certaines situations spécifiques, l'HBPM est préférée en raison de son profil de sécurité plus favorable durant la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Warfarine",
+            "justification": "La warfarine est contre-indiquée pendant la grossesse en raison de son potentiel tératogène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756059188008_04",
+      "current_version_epoch_ms": 1756059188008,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quand faut-il hospitaliser un patient pour une TVP ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de TVP proximale avec syndrome obstructif sévère ou de localisation ilio-cave",
+            "justification": "Une TVP proximale avec obstruction sévère ou localisation ilio-cave nécessite une hospitalisation pour une surveillance étroite."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de toutes les TVP sans exception",
+            "justification": "La majorité des patients avec TVP peuvent être traités en ambulatoire, sauf en cas de complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la TVP est survenue malgré un traitement anticoagulant bien conduit",
+            "justification": "Bien que cela puisse suggérer un besoin d'hospitalisation, ce n'est pas une règle générale pour tous les patients."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de TVP distale isolée",
+            "justification": "La TVP distale isolée peut généralement être traitée en ambulatoire, sauf en présence de facteurs de risque supplémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de douleur sévère sans signe clinique grave",
+            "justification": "La douleur seule sans signes graves ne justifie pas une hospitalisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756059188008_05",
+      "current_version_epoch_ms": 1756059188008,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quelle est la durée minimale du traitement anticoagulant pour une MTEV survenant durant une grossesse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "3 mois incluant les 6 premières semaines de post-partum",
+            "justification": "Une MTEV survenant pendant la grossesse nécessite un traitement anticoagulant pendant au moins 3 mois, dont les 6 premières semaines après l'accouchement."
+          },
+          {
+            "correct": false,
+            "proposition": "6 semaines après l'accouchement seulement",
+            "justification": "Le traitement doit être poursuivi pendant 3 mois, pas seulement pendant 6 semaines après l'accouchement."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mois après l'accouchement",
+            "justification": "La durée minimale du traitement pour une MTEV gravidique est de 3 mois, pas seulement 1 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "6 mois",
+            "justification": "Bien que le traitement puisse être prolongé dans certaines circonstances, la durée minimale est de 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Durée illimitée si la patiente allaite",
+            "justification": "Le traitement peut être poursuivi pendant l'allaitement mais la durée minimale est de 3 mois, et non illimitée."
+          }
+        ]
+      }
+    }
+  ]
+}
