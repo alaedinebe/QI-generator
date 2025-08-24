@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756013341370_01",
+      "current_version_epoch_ms": 1756013341370,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le diagnostic clinique le plus probable en cas de dyspnée aiguë avec une obstruction des voies aériennes supérieures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obstruction des voies aériennes supérieures",
+            "justification": "Une obstruction des voies aériennes supérieures est une urgence extrême et doit être prise en charge immédiatement. Le diagnostic est avant tout clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Le pneumothorax est une pathologie pleurale, et bien qu'elle puisse entraîner une dyspnée, elle ne correspond pas à une obstruction des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie infectieuse",
+            "justification": "La pneumopathie infectieuse peut provoquer une dyspnée, mais elle ne correspond pas à une obstruction des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie pulmonaire",
+            "justification": "Bien que l'embolie pulmonaire puisse entraîner une dyspnée aiguë, elle ne résulte pas d'une obstruction des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthme aigu grave",
+            "justification": "L'asthme aigu grave peut provoquer une dyspnée sévère, mais il s'agit d'une pathologie des bronches, non d'une obstruction des voies aériennes supérieures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013341370_02",
+      "current_version_epoch_ms": 1756013341370,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "En cas de dyspnée aiguë avec radiographie thoracique normale ou sub-normale, quelle est l'étiologie la plus probable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asthme aigu grave",
+            "justification": "L'asthme aigu grave peut présenter une radiographie thoracique normale ou sub-normale, tout en causant une dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie infectieuse",
+            "justification": "Les pneumopathies infectieuses sont généralement associées à des opacités parenchymateuses sur la radiographie thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Le pneumothorax est généralement visible sur une radiographie thoracique comme une opacité ou un vide dans le thorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème pulmonaire",
+            "justification": "L'œdème pulmonaire présente typiquement des opacités bilatérales diffuses sur la radiographie thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie pulmonaire",
+            "justification": "L'embolie pulmonaire peut ne pas être visible directement sur la radiographie thoracique, mais elle se manifeste souvent par un aspect normal ou sub-normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013341370_03",
+      "current_version_epoch_ms": 1756013341370,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels sont les éléments permettant de diagnostiquer une décompensation de pathologie respiratoire chronique chez un patient en dyspnée aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation de la PaCO2 et des bicarbonates",
+            "justification": "Une augmentation de la PaCO2 et des bicarbonates oriente vers une décompensation de pathologies respiratoires chroniques telles que la BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacités parenchymateuses sur la radiographie",
+            "justification": "Les opacités parenchymateuses sont plus suggestives d'infections pulmonaires ou d'œdème pulmonaire, mais ne permettent pas de diagnostiquer une décompensation de pathologie respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique normale",
+            "justification": "Une radiographie thoracique normale ou sub-normale est plus fréquemment retrouvée dans des pathologies comme l'asthme aigu grave ou l'embolie pulmonaire, mais pas pour la décompensation de pathologies chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Le pneumothorax peut entraîner une dyspnée aiguë, mais il est une pathologie aiguë et ne se présente pas sous forme de décompensation d'une pathologie respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pleurésie",
+            "justification": "La pleurésie peut être associée à des douleurs thoraciques, mais elle ne correspond pas à une décompensation de pathologies respiratoires chroniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013341370_04",
+      "current_version_epoch_ms": 1756013341370,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est l'examen de première intention pour diagnostiquer une dyspnée aiguë liée à une obstruction des voies aériennes supérieures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen clinique",
+            "justification": "L'obstruction des voies aériennes supérieures est un diagnostic clinique avant tout, sans besoin d'examen complémentaire immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie thoracique n'est pas l'examen de première intention pour un diagnostic d'obstruction des voies aériennes supérieures, qui est basé sur l'examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Gazométrie",
+            "justification": "Bien que la gazométrie soit utile dans certaines dyspnées aiguës, elle n'est pas nécessaire pour le diagnostic initial d'une obstruction des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "CT-scan thoracique",
+            "justification": "Le CT-scan thoracique est réservé pour les situations plus complexes et n'est pas nécessaire pour le diagnostic d'une obstruction des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG ne permet pas de diagnostiquer une obstruction des voies aériennes supérieures, qui est avant tout un diagnostic clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013341370_05",
+      "current_version_epoch_ms": 1756013341370,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Dans quel cas une radiographie thoracique normale ou sub-normale peut-elle être compatible avec une dyspnée aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Asthme aigu grave",
+            "justification": "L'asthme aigu grave peut être associé à une radiographie thoracique normale ou sub-normale, tout en provoquant une dyspnée aiguë sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathie infectieuse",
+            "justification": "La pneumopathie infectieuse est souvent caractérisée par des opacités parenchymateuses sur la radiographie thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Embolie pulmonaire",
+            "justification": "L'embolie pulmonaire peut ne pas être visible immédiatement sur une radiographie thoracique, mais elle est plus fréquemment associée à des signes visibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème pulmonaire",
+            "justification": "L'œdème pulmonaire est souvent accompagné de signes radiologiques typiques, tels que des opacités diffuses bilatérales."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax",
+            "justification": "Le pneumothorax est généralement visible sur une radiographie thoracique et ne présente pas une image normale ou sub-normale."
+          }
+        ]
+      }
+    }
+  ]
+}
