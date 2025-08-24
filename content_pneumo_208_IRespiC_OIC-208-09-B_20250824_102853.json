@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "IRespiC",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756024339822_01",
+      "current_version_epoch_ms": 1756024339822,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la principale cause d'insuffisance respiratoire chronique liée à une anomalie du rapport ventilation/perfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BPCO",
+            "justification": "La BPCO (bronchopneumopathie chronique obstructive) entraîne une anomalie du rapport ventilation/perfusion en raison de l'obstruction bronchique et de la destruction des alvéoles."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome d'obésité-hypoventilation",
+            "justification": "Le syndrome d'obésité-hypoventilation entraîne une altération de la pompe ventilatoire, pas une anomalie du rapport ventilation/perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du tronc cérébral",
+            "justification": "Les atteintes du tronc cérébral affectent la commande centrale de la ventilation, mais ne modifient pas directement le rapport ventilation/perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathies infiltrantes diffuses",
+            "justification": "Les pneumopathies infiltrantes diffuses affectent la diffusion alvéolo-capillaire, pas le rapport ventilation/perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Dilatation des bronches",
+            "justification": "La dilatation des bronches peut altérer la ventilation, mais la cause principale de l'IRC est liée à la BPCO dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024339822_02",
+      "current_version_epoch_ms": 1756024339822,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Parmi les maladies affectant la pompe ventilatoire, laquelle est caractérisée par une diminution de la compliance thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déformations squelettiques",
+            "justification": "Les déformations squelettiques, telles que les scolioses sévères, réduisent la compliance thoracique, perturbant ainsi la ventilation."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathies infiltrantes diffuses",
+            "justification": "Les pneumopathies infiltrantes diffuses affectent la diffusion alvéolo-capillaire et non la compliance thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "BPCO",
+            "justification": "La BPCO est une maladie de l'échangeur pulmonaire, liée à une anomalie du rapport ventilation/perfusion, et non à la compliance thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome d'obésité-hypoventilation",
+            "justification": "Le syndrome d'obésité-hypoventilation concerne la pompe ventilatoire, mais il est principalement dû à une altération de la fonction musculaire thoracique, et non à une réduction de la compliance."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du tronc cérébral",
+            "justification": "Les atteintes du tronc cérébral affectent la commande centrale de la ventilation, mais n'ont pas d'impact direct sur la compliance thoracique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024339822_03",
+      "current_version_epoch_ms": 1756024339822,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique principale des maladies neuromusculaires entraînant une insuffisance respiratoire chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Altération de la fonction de la pompe ventilatoire",
+            "justification": "Les maladies neuromusculaires altèrent la fonction des muscles respiratoires, ce qui perturbe la pompe ventilatoire et peut entraîner une IRC."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalie du rapport ventilation/perfusion",
+            "justification": "Les maladies neuromusculaires ne sont pas liées à un dysfonctionnement de l'échangeur pulmonaire mais à un défaut de la pompe ventilatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte de la diffusion alvéolo-capillaire",
+            "justification": "L'atteinte de la diffusion alvéolo-capillaire concerne principalement des pathologies comme les pneumopathies infiltrantes, mais pas les maladies neuromusculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la compliance thoracique",
+            "justification": "Les maladies neuromusculaires affectent la fonction musculaire, pas la compliance thoracique directement."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du tronc cérébral",
+            "justification": "L'atteinte du tronc cérébral peut affecter la commande respiratoire, mais cela n'est pas caractéristique des maladies neuromusculaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024339822_04",
+      "current_version_epoch_ms": 1756024339822,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle cause d'insuffisance respiratoire chronique est directement liée à une atteinte de la commande centrale respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteintes rares du tronc cérébral",
+            "justification": "Les atteintes du tronc cérébral affectent directement la commande centrale de la respiration, entraînant des troubles respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumopathies infiltrantes diffuses",
+            "justification": "Les pneumopathies infiltrantes affectent la diffusion alvéolo-capillaire, pas la commande centrale de la respiration."
+          },
+          {
+            "correct": false,
+            "proposition": "BPCO",
+            "justification": "La BPCO est liée à une anomalie du rapport ventilation/perfusion, non à une atteinte de la commande centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome d'obésité-hypoventilation",
+            "justification": "Le syndrome d'obésité-hypoventilation est lié à une altération mécanique de la ventilation, pas à une défaillance de la commande centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Dilatation des bronches",
+            "justification": "La dilatation des bronches perturbe l'échangeur pulmonaire mais ne touche pas directement la commande centrale respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024339822_05",
+      "current_version_epoch_ms": 1756024339822,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quel mécanisme physiopathologique prédominant est associé aux maladies de l'échangeur pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalie du rapport ventilation/perfusion",
+            "justification": "Les maladies de l'échangeur pulmonaire, comme la BPCO ou la dilatation des bronches, sont caractérisées par une anomalie du rapport ventilation/perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la compliance thoracique",
+            "justification": "La diminution de la compliance thoracique est une caractéristique des maladies de la pompe ventilatoire, pas des maladies de l'échangeur pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte de la diffusion alvéolo-capillaire",
+            "justification": "L'atteinte de la diffusion alvéolo-capillaire, comme dans les pneumopathies infiltrantes diffuses, est spécifique d'une autre catégorie de maladies."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte du tronc cérébral",
+            "justification": "Les atteintes du tronc cérébral concernent la commande centrale et non l'échangeur pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladies neuromusculaires",
+            "justification": "Les maladies neuromusculaires affectent la pompe ventilatoire, pas l'échangeur pulmonaire."
+          }
+        ]
+      }
+    }
+  ]
+}
