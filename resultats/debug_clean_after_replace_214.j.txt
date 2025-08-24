@@ -1,152 +1,107 @@
-[
-    {
-        "statement": "Le purpura thrombopénique se caractérise par une lésion rouge/violacée. Quelle est la particularité clinique de cette lésion ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "La lésion ne s'affaisse pas à la vitropression, le plus souvent pétéchial.",
-                "justification": "Le purpura thrombopénique se caractérise par des lésions qui ne s'effacent pas sous la pression (vitropression) et sont généralement de type pétéchial."
-            },
-            {
-                "correct": false,
-                "proposition": "La lésion disparaît sous la vitropression.",
-                "justification": "Cette caractéristique est propre au purpura vasculaire, non au purpura thrombopénique."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont généralement de couleur rose pâle.",
-                "justification": "Les lésions du purpura thrombopénique sont rouge/violacées et non roses."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont principalement de type ecchymotique.",
-                "justification": "Les lésions du purpura thrombopénique sont de type pétéchial et non ecchymotiques."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont souvent présentes sous forme de plaques."
-                "justification": "Le purpura thrombopénique se manifeste principalement par des lésions pétéchiales, et non sous forme de plaques."
-            }
-        ]
-    },
-    {
-        "statement": "Quelle est la principale différence entre le purpura thrombopénique et le purpura vasculaire ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "Le purpura thrombopénique ne s'affaisse pas à la vitropression, contrairement au purpura vasculaire.",
-                "justification": "Cette différence est fondamentale pour distinguer les deux types de purpura."
-            },
-            {
-                "correct": false,
-                "proposition": "Le purpura vasculaire est généralement plus douloureux que le purpura thrombopénique.",
-                "justification": "La douleur n'est pas un critère discriminant entre purpura thrombopénique et purpura vasculaire."
-            },
-            {
-                "correct": false,
-                "proposition": "Le purpura thrombopénique présente toujours des plaques plus grandes que le purpura vasculaire.",
-                "justification": "Les lésions du purpura thrombopénique sont de type pétéchial et non des plaques."
-            },
-            {
-                "correct": false,
-                "proposition": "Le purpura vasculaire ne présente pas de lésion violacée.",
-                "justification": "Le purpura vasculaire peut aussi présenter des lésions de couleur rouge/violacée."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions du purpura vasculaire sont plus fréquentes sur les membres inférieurs.",
-                "justification": "Les lésions peuvent apparaître sur diverses zones corporelles, sans préférence pour les membres inférieurs."
-            }
-        ]
-    },
-    {
-        "statement": "Comment identifie-t-on un purpura thrombopénique à l'examen clinique ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "En observant des lésions pétéchiales rouges/violacées ne s'affaissant pas sous la pression.",
-                "justification": "Les lésions caractéristiques du purpura thrombopénique sont de couleur rouge/violacée et ne disparaissent pas sous la pression."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont de couleur jaune et ne sont pas sensibles au toucher.",
-                "justification": "Cette description ne correspond pas au purpura thrombopénique, qui se manifeste par des lésions rouges/violacées."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont de type ecchymotique et s'affaissent sous la pression.",
-                "justification": "Les lésions écchymotiques sont associées à un autre type de purpura, et le purpura thrombopénique ne s'affaisse pas sous la pression."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont souvent visibles uniquement sur la face.",
-                "justification": "Les lésions du purpura thrombopénique peuvent apparaître sur différentes parties du corps, pas uniquement sur la face."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions se présentent sous forme de plaques plus grandes que 1 cm.",
-                "justification": "Les lésions du purpura thrombopénique sont de petites tailles et de type pétéchial."
-            }
-        ]
-    },
-    {
-        "statement": "Quel est le principal critère permettant de distinguer un purpura thrombopénique d'une autre pathologie vasculaire ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "L'absence de disparition des lésions sous la vitropression.",
-                "justification": "La non disparition des lésions sous la pression est un signe spécifique du purpura thrombopénique par rapport aux autres pathologies vasculaires."
-            },
-            {
-                "correct": false,
-                "proposition": "La taille des lésions est plus petite que 1 cm.",
-                "justification": "La taille des lésions n'est pas un critère discriminant majeur."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions du purpura thrombopénique sont souvent visibles uniquement après un traumatisme.",
-                "justification": "Les lésions du purpura thrombopénique ne dépendent pas d'un traumatisme préalable."
-            },
-            {
-                "correct": false,
-                "proposition": "Le purpura thrombopénique se manifeste uniquement chez les enfants.",
-                "justification": "Le purpura thrombopénique peut se manifester à tout âge."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions sont plus fréquentes sur la partie haute du tronc.",
-                "justification": "Les lésions du purpura thrombopénique peuvent apparaître sur différentes zones corporelles."
-            }
-        ]
-    },
-    {
-        "statement": "Quels éléments permettent de confirmer un diagnostic de purpura thrombopénique ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "L'observation de lésions pétéchiales non effaçables à la vitropression.",
-                "justification": "Les lésions pétéchiales et non effaçables sont les critères cliniques caractéristiques du purpura thrombopénique."
-            },
-            {
-                "correct": false,
-                "proposition": "La présence de plaques rouges qui s'effacent sous la pression.",
-                "justification": "Les plaques rouges qui disparaissent sous la pression sont caractéristiques d'autres pathologies vasculaires, pas du purpura thrombopénique."
-            },
-            {
-                "correct": false,
-                "proposition": "La présence d'hémorragies internes palpables sous la peau.",
-                "justification": "Les hémorragies internes ne sont pas typiques du purpura thrombopénique, qui se manifeste par des lésions pétéchiales."
-            },
-            {
-                "correct": false,
-                "proposition": "Les lésions violacées qui deviennent jaunes après quelques jours.",
-                "justification": "Les lésions du purpura thrombopénique ne présentent pas de changement de couleur aussi marqué."
-            },
-            {
-                "correct": false,
-                "proposition": "Des ecchymoses étendues sur tout le corps.",
-                "justification": "Les ecchymoses ne sont pas typiques du purpura thrombopénique, qui se caractérise par des lésions pétéchiales."
-            }
-        ]
-    }
-]
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les examens à prescrire devant une thrombopénie de l'enfant et de l'adulte OIC-214-12-A
+
+
+
+o  hémogramme (interprétation d'un hémogramme) : avec analyse des autres lignées (une thrombopénie isolée orientant vers une cause périphérique ; l'association à une anémie (baisse de l'hémoglobine) et/ou une leuco-neutropénie (anomalie des leucocytes) orientant vers une cause centrale ou un hypersplénisme). L'analyse de la formule leucocytaire (anomalie des leucocytes) constitue également un élément d'orientation (hyperleucocytose à neutrophiles dans un contexte de sepsis bactérien ; lymphocytose au cours d'infections virales ou au cours de la leucémie lymphoïde chronique ; lymphopénie au cours d'une infection par le VIH ou au cours du lupus systémique…). L'analyse du volume globulaire moyen (VGM) peut également constituer un élément d'orientation (macrocytose avec VGM > 100 fl au cours des syndromes myélodysplasiques ou des carences vitaminiques).
+o  frottis sanguin (prescription et analyse du frottis sanguin). L'analyse du frottis sanguin par le médecin biologiste est indispensable, en particulier à la recherche :
+·     d'une fausse thrombopénie (agglutination plaquettaire en présence d'EDTA) ;
+·     de cellules anormales circulantes (blastes au cours d'une leucémie aigüe, lymphocytes hyperbasophiles dans le cadre d'un syndrome mononucléosique au cours d'une primo-infection virale à EBV, CMV ou VIH) ;
+·      de schizocytes (au cours des micro-angiopathies thrombotiques).
+o  bilan d'hémostase : TP / TCA / fibrinogène : anormaux (allongement du TCA, diminution du TP) dans le cadre d'une CIVD.
+o  bilan hépatique : ASAT/ALAT/gGT/phosphatases alcalines/bilirubine (perturbations du bilan hépatique en cas d'hépatopathie chronique, d'hépatite aigüe au cours de certaines hépatites virales…) et échographie abdominale (hépatopathie ? hépatomégalie ? splénomégalie ?).
+o  sérologies du VIH, du VHB, du VHC : devant toute thrombopénie isolée non expliquée, à la recherche d'une infection virale chronique. D'autres sérologies virales (EBV, CMV…) ne seront réalisées qu'en cas de point d'appel clinique ou biologique évocateur.
+o   électrophorèse des protéines sériques (analyse de l'électrophorèse des protéines sériques): à la recherche d'un éventuel pic monoclonal (myélomes, lymphomes), d'une hypergammaglobulinémie polyclonale (infections virales chroniques, lupus systémique) ou d'une hypogammaglobulinémie (DICV). 
+
+o  anticorps anti-nucléaires : dépistage d'un éventuel lupus systémique associé à une thrombopénie immunologique, la présence d'anticorps anti-nucléaires positifs isolés ne signant pas à elle seule l'existence d'un lupus (Pathologies auto-immunes) Connaître les examens à prescrire devant une thrombopénie de l'enfant et de l'adulte OIC-214-12-Aohémogramme(interprétation d'un hémogramme) : avec analyse des autres lignées (une thrombopénie isolée orientant vers une cause périphérique ; l'association à une anémie (baisse de l'hémoglobine) et/ou une leuco-neutropénie (anomalie des leucocytes) orientant vers une cause centrale ou un hypersplénisme). L'analyse de la formule leucocytaire (anomalie des leucocytes) constitue également un élément d'orientation (hyperleucocytose à neutrophiles dans un contexte de sepsis bactérien ; lymphocytose au cours d'infections virales ou au cours de la leucémie lymphoïde chronique ; lymphopénie au cours d'une infection par le VIH ou au cours du lupus systémique…). L'analyse du volume globulaire moyen (VGM) peut également constituer un élément d'orientation (macrocytose avec VGM > 100 fl au cours des syndromes myélodysplasiques ou des carences vitaminiques).ofrottis sanguin(prescription et analyse du frottis sanguin). L'analyse du frottis sanguin par le médecin biologiste est indispensable, en particulier à la recherche :·     d'une fausse thrombopénie (agglutination plaquettaire en présence d'EDTA) ;·     de cellules anormales circulantes (blastes au cours d'une leucémie aigüe, lymphocytes hyperbasophiles dans le cadre d'un syndrome mononucléosique au cours d'une primo-infection virale à EBV, CMV ou VIH) ;·      de schizocytes (au cours des micro-angiopathies thrombotiques).obilan d'hémostase: TP / TCA / fibrinogène : anormaux (allongement du TCA,diminution du TP) dans le cadre d'une CIVD.obilan hépatique: ASAT/ALAT/gGT/phosphatases alcalines/bilirubine (perturbations du bilan hépatique en cas d'hépatopathie chronique, d'hépatite aigüe au cours de certaines hépatites virales…) etéchographie abdominale(hépatopathie ?hépatomégalie?splénomégalie?).osérologies du VIH,du VHB, du VHC: devant toute thrombopénie isolée non expliquée, à la recherche d'une infection virale chronique. D'autres sérologies virales (EBV, CMV…) ne seront réalisées qu'en cas de point d'appel clinique ou biologique évocateur.oélectrophorèse des protéines sériques(analyse de l'électrophorèse des protéines sériques): à la recherche d'un éventuel pic monoclonal (myélomes, lymphomes), d'une hypergammaglobulinémie polyclonale (infections virales chroniques, lupus systémique) ou d'une hypogammaglobulinémie (DICV).oanticorps anti-nucléaires: dépistage d'un éventuel lupus systémique associé à une thrombopénie immunologique, la présence d'anticorps anti-nucléaires positifs isolés ne signant pas à elle seule l'existence d'un lupus (Pathologies auto-immunes)
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
