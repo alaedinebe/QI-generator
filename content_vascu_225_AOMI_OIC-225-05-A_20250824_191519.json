@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "AOMI",
+    "subject": "vascu"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756055866134_01",
+      "current_version_epoch_ms": 1756055866134,
+      "rang": "A",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du traitement médical de l'AOMI chez le patient symptomatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Freiner l'évolution de la maladie athéromateuse par la correction des facteurs de risque, en particulier le tabac.",
+            "justification": "Le traitement vise à ralentir l'évolution de la maladie athéromateuse, avec une attention particulière à la réduction des facteurs de risque comme le tabac."
+          },
+          {
+            "correct": false,
+            "proposition": "Instaurer uniquement un traitement antiplaquettaire.",
+            "justification": "Un traitement antiplaquettaire est nécessaire mais ne suffit pas à lui seul, il doit être accompagné d'autres médicaments comme la statine et l'IEC."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre en place un traitement exclusivement chirurgical.",
+            "justification": "Le traitement chirurgical n'est envisagé que dans des cas spécifiques, notamment en cas de claudication persistante malgré un traitement médical optimal."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire uniquement le cholestérol LDL.",
+            "justification": "Bien que la réduction du cholestérol LDL soit un objectif, le traitement inclut également d'autres mesures comme la prise en charge du tabac et l'IEC."
+          },
+          {
+            "correct": false,
+            "proposition": "Favoriser la revascularisation chirurgicale dès la détection des premiers symptômes.",
+            "justification": "La revascularisation chirurgicale n'est envisagée qu'après l'échec du traitement médical ou dans des cas spécifiques de lésions menaçantes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756055866134_02",
+      "current_version_epoch_ms": 1756055866134,
+      "rang": "A",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quel traitement médicamenteux est systématiquement prescrit chez le patient asymptomatique atteint d'AOMI ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une statine même en l'absence de dyslipidémie et un IEC même en l'absence d'HTA.",
+            "justification": "Les statines et les IEC sont prescrits systématiquement chez les patients asymptomatiques pour limiter l'évolution de l'athérosclérose, même en l'absence de dyslipidémie ou d'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement antiplaquettaire est toujours prescrit.",
+            "justification": "Le traitement antiplaquettaire n'est prescrit que chez certains patients en fonction de leur risque global cardiovasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement anticoagulant est recommandé.",
+            "justification": "Les anticoagulants ne sont pas systématiquement indiqués pour les patients asymptomatiques souffrant d'AOMI, contrairement aux statines et IEC."
+          },
+          {
+            "correct": false,
+            "proposition": "Une intervention chirurgicale est systématique.",
+            "justification": "Les traitements chirurgicaux sont réservés aux cas où la prise en charge médicale a échoué ou en présence de lésions menaçant le pronostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement par bêta-bloquants est systématique.",
+            "justification": "Les bêta-bloquants ne font pas partie des traitements systématiques dans la gestion de l'AOMI asymptomatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756055866134_03",
+      "current_version_epoch_ms": 1756055866134,
+      "rang": "A",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "En cas de claudication persistante malgré un traitement médical optimal, quelle est la stratégie thérapeutique recommandée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La revascularisation chirurgicale, parfois ciblée sur la lésion la plus significative.",
+            "justification": "La revascularisation chirurgicale peut être nécessaire pour améliorer la perfusion du territoire affecté, même sans objectif de revascularisation complète."
+          },
+          {
+            "correct": false,
+            "proposition": "L'amputation d'emblée.",
+            "justification": "L'amputation d'emblée n'est envisagée que lorsque la revascularisation est impossible ou en cas de nécrose extensive, pas après échec d'un traitement médical optimal."
+          },
+          {
+            "correct": false,
+            "proposition": "Le seul recours à un traitement médicamenteux plus intensif.",
+            "justification": "Si la claudication est persistante et invalidante malgré un traitement médical optimal, un traitement médicamenteux intensifié ne suffira pas ; une revascularisation chirurgicale est souvent nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en place immédiate d'un entraînement à la marche.",
+            "justification": "L'entraînement à la marche est recommandé mais il n'est pas une solution de première ligne en cas de claudication persistante invalidante."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement par anticoagulants.",
+            "justification": "Les anticoagulants ne sont pas indiqués spécifiquement pour traiter la claudication persistante invalidante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756055866134_04",
+      "current_version_epoch_ms": 1756055866134,
+      "rang": "A",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quels sont les objectifs thérapeutiques du traitement de l'AOMI pour un patient symptomatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obtenir un cholestérol LDL inférieur à 1,4 mmol/L et une réduction de 50 % par rapport à la valeur de base.",
+            "justification": "Le contrôle du cholestérol LDL est essentiel pour ralentir l'évolution de la maladie athéromateuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Maintenir une pression artérielle inférieure à 120/70 mmHg, si bien tolérée.",
+            "justification": "Le contrôle de la pression artérielle est crucial pour prévenir l'aggravation de la maladie vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Maintenir une glycémie aussi basse que possible.",
+            "justification": "Le contrôle de la glycémie est important, mais il ne doit pas être trop agressif, en particulier chez les patients fragiles."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter le sevrage tabagique à un sevrage partiel.",
+            "justification": "Le sevrage tabagique complet est essentiel pour la gestion de l'AOMI et ne doit pas être partiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Privilégier une pression artérielle plus élevée chez les patients âgés.",
+            "justification": "Chez les patients âgés ou fragiles, des chiffres de pression plus élevés peuvent être tolérés, mais la cible reste en général < 120/70 mmHg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756055866134_05",
+      "current_version_epoch_ms": 1756055866134,
+      "rang": "A",
+      "topic": {
+        "subject": "vascu",
+        "item": "AOMI"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la revascularisation chirurgicale dans le traitement de l'AOMI ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Améliorer la perfusion du territoire atteint et traiter la lésion la plus significative.",
+            "justification": "La revascularisation chirurgicale vise à restaurer le flux sanguin vers les territoires affectés, en ciblant souvent les lésions les plus critiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Prolonger la vie sans changer le pronostic vasculaire du patient.",
+            "justification": "La revascularisation a un impact direct sur le pronostic en améliorant la perfusion et en prévenant des complications sévères comme l'amputation."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter le recours à la prise en charge médicamenteuse.",
+            "justification": "La revascularisation est une option lorsque le traitement médical est insuffisant, mais elle ne remplace pas le traitement médicamenteux de fond."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer une chirurgie immédiate dès la détection de symptômes.",
+            "justification": "La chirurgie n'est indiquée qu'après un échec du traitement médical ou en cas de lésions menaçant le pronostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Traiter uniquement les lésions distales.",
+            "justification": "La chirurgie peut traiter des lésions distales ou proximales en fonction des besoins cliniques et de l'atteinte vasculaire."
+          }
+        ]
+      }
+    }
+  ]
+}
