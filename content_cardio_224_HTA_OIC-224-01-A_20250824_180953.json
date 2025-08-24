@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "HTA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756051940362_01",
+      "current_version_epoch_ms": 1756051940362,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle est la définition de l'hypertension artérielle (HTA) en consultation clinique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La PAS ≥ 140 mmHg ou la PAD ≥ 90 mmHg, mesurées à plusieurs minutes d'intervalle dans la même consultation et répétées sur plusieurs consultations.",
+            "justification": "Cette définition correspond aux critères de l'HTA en consultation clinique, incluant les mesures répétées et persistantes dans le temps."
+          },
+          {
+            "correct": false,
+            "proposition": "La PAS ≥ 160 mmHg ou la PAD ≥ 95 mmHg, mesurées à une seule consultation.",
+            "justification": "Les critères ne sont pas corrects en termes de seuils et de répétition des mesures dans le temps."
+          },
+          {
+            "correct": false,
+            "proposition": "La PAS ≥ 140 mmHg ou la PAD ≥ 100 mmHg, mesurées à plusieurs minutes d'intervalle dans la même consultation.",
+            "justification": "Le seuil de PAD doit être de 90 mmHg et non de 100 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "La PAS ≥ 130 mmHg ou la PAD ≥ 85 mmHg, mesurées en une seule consultation.",
+            "justification": "Les seuils sont inférieurs à ceux définis pour l'HTA clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La PAS ≥ 150 mmHg ou la PAD ≥ 95 mmHg, mesurées en consultation clinique.",
+            "justification": "Les seuils ne sont pas conformes aux critères cliniques de l'HTA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756051940362_02",
+      "current_version_epoch_ms": 1756051940362,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quand l'hypertension artérielle est-elle considérée comme sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la PAS > 180 mmHg et/ou la PAD > 110 mmHg.",
+            "justification": "Une HTA sévère est définie par des valeurs de PAS et/ou PAD dépassant ces seuils."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PAS > 160 mmHg et/ou la PAD > 100 mmHg.",
+            "justification": "Les seuils pour l'HTA sévère sont plus élevés que ceux indiqués."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PAS > 140 mmHg et la PAD > 90 mmHg.",
+            "justification": "Les seuils de 140 mmHg/90 mmHg définissent l'HTA et non une HTA sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PAS > 170 mmHg et/ou la PAD > 105 mmHg.",
+            "justification": "Les seuils doivent être au moins 180 mmHg pour la PAS ou 110 mmHg pour la PAD."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PAS > 200 mmHg et la PAD > 120 mmHg.",
+            "justification": "Bien que cela soit critique, l'HTA sévère est définie avant ces valeurs extrêmes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756051940362_03",
+      "current_version_epoch_ms": 1756051940362,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques d'une mesure de pression artérielle ambulatoire (MAPA) qui confirme une hypertension artérielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La moyenne des mesures sur 24 heures ≥ 130/80 mmHg.",
+            "justification": "Ce critère définit l'HTA confirmée par MAPA sur 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des mesures diurnes ≥ 140/90 mmHg.",
+            "justification": "Les critères sont plus stricts pour les valeurs de la MAPA, 135/85 mmHg étant le seuil pour les mesures diurnes."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des mesures nocturnes ≥ 130/80 mmHg.",
+            "justification": "Les mesures nocturnes doivent être ≥ 120/70 mmHg pour confirmer l'HTA nocturne."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des mesures en AMT ≥ 140/90 mmHg.",
+            "justification": "La moyenne d'au moins 18 mesures en AMT doit être ≥ 135/85 mmHg pour confirmer l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des mesures sur 24 heures ≥ 125/75 mmHg.",
+            "justification": "Les critères sont plus stricts et fixent le seuil à 130/80 mmHg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756051940362_04",
+      "current_version_epoch_ms": 1756051940362,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Que permet la mesure ambulatoire de la pression artérielle (MAPA) pour le diagnostic de l'hypertension artérielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Confirmer l'hypertension artérielle en prenant en compte les moyennes des mesures diurnes, nocturnes ou sur 24 heures.",
+            "justification": "La MAPA permet de confirmer l'HTA en mesurant la pression artérielle dans différentes conditions, diurnes et nocturnes."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer complètement la mesure clinique de la pression artérielle.",
+            "justification": "La MAPA complète la mesure clinique mais ne la remplace pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter la nécessité de répéter les mesures de pression artérielle dans la consultation.",
+            "justification": "Les mesures de consultation sont toujours nécessaires pour une première évaluation de l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer uniquement la pression artérielle nocturne pour évaluer l'HTA.",
+            "justification": "La MAPA évalue à la fois les périodes diurnes et nocturnes pour un diagnostic complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Obtenir une mesure unique de la pression artérielle sur 24 heures.",
+            "justification": "La MAPA prend en compte plusieurs mesures tout au long de la journée pour évaluer l'HTA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756051940362_05",
+      "current_version_epoch_ms": 1756051940362,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelles sont les valeurs seuils en automesure tensionnelle (AMT) pour confirmer une hypertension artérielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La moyenne des valeurs d'AMT ≥ 135/85 mmHg.",
+            "justification": "Une moyenne d'au moins 18 valeurs supérieures ou égales à 135/85 mmHg confirme l'HTA en AMT."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des valeurs d'AMT ≥ 140/90 mmHg.",
+            "justification": "Le seuil correct est 135/85 mmHg et non 140/90 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des valeurs d'AMT ≥ 130/80 mmHg.",
+            "justification": "Le seuil est trop bas pour confirmer l'HTA, qui nécessite 135/85 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des valeurs d'AMT ≥ 120/70 mmHg.",
+            "justification": "Le seuil correct est de 135/85 mmHg, et non 120/70 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "La moyenne des valeurs d'AMT ≥ 125/75 mmHg.",
+            "justification": "Le seuil doit être supérieur ou égal à 135/85 mmHg."
+          }
+        ]
+      }
+    }
+  ]
+}
