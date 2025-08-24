@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "anemie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756034310442_01",
+      "current_version_epoch_ms": 1756034310442,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel est le seuil d'hémoglobine à partir duquel une anémie sévère est suspectée chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hb < 7 g/dL",
+            "justification": "L'anémie sévère est définie par un taux d'hémoglobine inférieur à 7 g/dL, ce qui correspond à un risque hémodynamique important."
+          },
+          {
+            "correct": false,
+            "proposition": "Hb < 10 g/dL",
+            "justification": "Un taux d'Hb inférieur à 10 g/dL peut suggérer une anémie modérée, mais ce n'est pas suffisant pour qualifier l'anémie de sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Hb < 8 g/dL",
+            "justification": "Ce seuil est trop élevé pour qualifier une anémie de sévère. Un seuil inférieur à 7 g/dL est requis."
+          },
+          {
+            "correct": false,
+            "proposition": "Hb < 5 g/dL",
+            "justification": "Bien que l'anémie à ce seuil soit extrêmement sévère, la classification généralement utilisée pour l'anémie sévère est Hb < 7 g/dL."
+          },
+          {
+            "correct": false,
+            "proposition": "Hb < 12 g/dL",
+            "justification": "Ce seuil correspond à une anémie légère à modérée chez l'adulte et ne s'applique pas à la classification de l'anémie sévère chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034310442_02",
+      "current_version_epoch_ms": 1756034310442,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel est le signe clinique souvent associé à une anémie chronique chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Infléchissement pondéral",
+            "justification": "L'anémie chronique peut entraîner une perte de poids progressive, liée à une hypoxie chronique et une mauvaise absorption des nutriments."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre persistante",
+            "justification": "La fièvre persistante n'est pas un signe typique d'anémie chronique, mais peut être observée dans des infections ou maladies inflammatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperhidrose",
+            "justification": "L'hyperhidrose est rarement associée à l'anémie chronique et doit faire suspecter une autre pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prurit",
+            "justification": "Le prurit est plus souvent lié à des affections dermatologiques ou allergiques qu'à une anémie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère",
+            "justification": "L'ictère est plus caractéristique des formes aiguës d'hémolyse et non de l'anémie chronique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034310442_03",
+      "current_version_epoch_ms": 1756034310442,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quelle est la principale cause d'anémie chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Carence martiale",
+            "justification": "La carence en fer est la cause la plus fréquente d'anémie chez l'enfant, due à une insuffisance d'apport alimentaire ou à une absorption insuffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "Drépanocytose",
+            "justification": "Bien que la drépanocytose soit une cause d'anémie chez certains enfants, elle reste moins fréquente que la carence martiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie hémolytique auto-immune",
+            "justification": "Cette cause est rare et moins fréquente que la carence martiale dans le cadre des anémies infantiles."
+          },
+          {
+            "correct": false,
+            "proposition": "Thalassémie",
+            "justification": "La thalassémie est une cause génétique d'anémie, mais elle est moins fréquente que la carence en fer, qui est la cause principale."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie par malabsorption",
+            "justification": "Bien que la malabsorption puisse entraîner une anémie, elle est moins fréquente que la carence martiale dans la population pédiatrique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034310442_04",
+      "current_version_epoch_ms": 1756034310442,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quels antécédents doivent être recherchés lors de l'enquête étiologique d'une anémie chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prématurité, hypotrophie, anémie maternelle pendant la grossesse",
+            "justification": "Ces antécédents sont importants pour identifier les facteurs de risque d'anémie chez les nourrissons."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents d'asthme",
+            "justification": "L'asthme n'est pas un facteur de risque principal pour l'anémie et ne nécessite pas d'investigation spécifique dans ce cadre."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de diabète",
+            "justification": "Le diabète n'est pas directement lié à la cause de l'anémie chez l'enfant, sauf en cas de complications métaboliques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de rhumatismes",
+            "justification": "Bien que certaines maladies inflammatoires puissent entraîner une anémie, les rhumatismes ne sont pas spécifiquement associés à l'anémie chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de dyslipidémie",
+            "justification": "La dyslipidémie est une pathologie métabolique qui n'a pas de lien direct avec l'anémie chez l'enfant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756034310442_05",
+      "current_version_epoch_ms": 1756034310442,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "anemie"
+      },
+      "data": {
+        "statement": "Quel signe physique peut orienter vers une anémie par carence martiale chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes de carence en fer (ex : langue lisse, ongles concaves)",
+            "justification": "Les signes typiques de carence martiale incluent des anomalies des ongles et de la langue, qui sont des manifestations directes de la déplétion en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère",
+            "justification": "L'ictère est plus souvent associé à des pathologies hémolytiques qu'à une anémie par carence martiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatosplénomégalie",
+            "justification": "Bien que l'hépatosplénomégalie puisse être liée à des anémies de causes diverses, elle est généralement plus associée à des causes hématologiques comme la thalassémie ou la drépanocytose."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome tumoral",
+            "justification": "Un syndrome tumoral est peu probable en cas d'anémie par carence martiale et oriente plus souvent vers une pathologie maligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Purpura",
+            "justification": "Le purpura est un signe de plaies ou de troubles de la coagulation, non directement associé à l'anémie par carence martiale."
+          }
+        ]
+      }
+    }
+  ]
+}
