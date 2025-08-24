@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "HTA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756053452892_01",
+      "current_version_epoch_ms": 1756053452892,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quel est l'objectif tensionnel en cas d'hypertension artérielle modérée à sévère chez un patient de moins de 65 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une PAS < 130 mmHg et une PAD < 80 mmHg",
+            "justification": "L'objectif de traitement est d'obtenir une PAS inférieure à 130 mmHg et une PAD inférieure à 80 mmHg, selon les recommandations pour l'HTA modérée à sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PAS < 140 mmHg et une PAD < 80 mmHg",
+            "justification": "Cet objectif est indiqué pour les patients de plus de 65 ans, mais non pour les moins de 65 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PAS < 120 mmHg et une PAD < 80 mmHg",
+            "justification": "Bien que souhaitable pour certains patients, cet objectif est trop strict et n'est pas recommandé de façon générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PAS < 135 mmHg et une PAD < 85 mmHg",
+            "justification": "Cet objectif est destiné aux patients âgés de plus de 65 ans et ne s'applique pas aux moins de 65 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Une PAS < 140 mmHg et une PAD < 90 mmHg",
+            "justification": "Cet objectif est trop élevé et ne correspond pas aux recommandations actuelles pour une prise en charge de l'HTA modérée à sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053452892_02",
+      "current_version_epoch_ms": 1756053452892,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle est la première ligne de traitement médicamenteux recommandée pour l'hypertension artérielle modérée à sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bithérapie avec un IEC ou ARA2 + inhibiteur calcique + diurétique thiazidique",
+            "justification": "La bithérapie à faible dose incluant un IEC ou ARA2, un inhibiteur calcique et un diurétique thiazidique est recommandée pour traiter l'HTA modérée à sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Monothérapie avec un bêta-bloquant",
+            "justification": "Les bêta-bloquants ne sont pas recommandés en première ligne pour traiter l'HTA modérée à sévère, mais plutôt dans des situations spécifiques comme la fibrillation auriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Trithérapie avec un diurétique thiazidique, un inhibiteur de l'enzyme de conversion (IEC) et un bêta-bloquant",
+            "justification": "La trithérapie avec bêta-bloquant n'est pas recommandée de manière générale comme traitement initial pour l'HTA modérée à sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Bithérapie avec un antagoniste des récepteurs de l'angiotensine 2 (ARA2) et un diurétique thiazidique",
+            "justification": "Bien que l'ARA2 soit recommandé, l'ajout d'un inhibiteur calcique en plus du diurétique thiazidique est essentiel pour la prise en charge optimale de l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Monothérapie avec un inhibiteur calcique",
+            "justification": "Bien que les inhibiteurs calciques soient efficaces, la monothérapie n'est pas suffisante pour traiter l'HTA modérée à sévère en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053452892_03",
+      "current_version_epoch_ms": 1756053452892,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "En cas de résistance au traitement antihypertenseur, quelle combinaison médicamenteuse est recommandée pour la prise en charge de l'HTA résistante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Quadrithérapie avec IEC ou ARA2 + inhibiteurs calciques + diurétique thiazidique ou thiazidique-like + spironolactone ou bêta-bloquant",
+            "justification": "La quadrithérapie est recommandée en cas d'HTA résistante, incluant un IEC ou ARA2, un inhibiteur calcique, un diurétique thiazidique ou thiazidique-like, et de la spironolactone ou un bêta-bloquant selon les contre-indications."
+          },
+          {
+            "correct": false,
+            "proposition": "Trithérapie avec IEC + inhibiteurs calciques + bêta-bloquant",
+            "justification": "Bien que la trithérapie soit parfois nécessaire, l'absence de diurétique thiazidique ou thiazidique-like empêche d'atteindre les objectifs thérapeutiques dans l'HTA résistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Bithérapie avec un ARA2 et un inhibiteur calcique",
+            "justification": "Cette combinaison ne suffit pas pour traiter une HTA résistante, car elle ne prend pas en compte l'ajout de diurétiques et d'autres agents comme la spironolactone."
+          },
+          {
+            "correct": false,
+            "proposition": "Trithérapie avec ARA2 + inhibiteur calcique + spironolactone",
+            "justification": "Bien que la spironolactone soit importante, cette combinaison n'inclut pas tous les éléments nécessaires à une prise en charge complète de l'HTA résistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Quadrithérapie avec diurétique thiazidique, ARA2, spironolactone et bêta-bloquant",
+            "justification": "Cette quadrithérapie manque l'inclusion des inhibiteurs calciques, ce qui la rend insuffisante pour une prise en charge optimale de l'HTA résistante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053452892_04",
+      "current_version_epoch_ms": 1756053452892,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la réduction de la consommation de sel dans la prise en charge de l'hypertension artérielle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réduire l'apport en sel permet de diminuer la pression artérielle et d'améliorer la gestion de l'HTA",
+            "justification": "La réduction de la consommation de sel a un effet direct sur la pression artérielle en diminuant la rétention hydrosodée et en améliorant la gestion de l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "La réduction de sel n'a aucun effet sur la pression artérielle",
+            "justification": "Cette affirmation est incorrecte, car il existe une forte corrélation entre la réduction de la consommation de sel et la baisse de la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire l'apport en sel n'est recommandé que chez les patients hypertendus sévères",
+            "justification": "La réduction de sel est bénéfique pour tous les patients hypertendus, qu'ils aient une HTA légère, modérée ou sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "La réduction de sel doit être évitée chez les personnes âgées",
+            "justification": "Il n'existe pas de contre-indication à la réduction du sel chez les personnes âgées. Au contraire, cela est recommandé pour prévenir les complications liées à l'hypertension."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire l'apport en sel entraîne une baisse immédiate et importante de la pression artérielle",
+            "justification": "La réduction de sel contribue à une diminution progressive de la pression artérielle, mais les effets ne sont pas immédiats et peuvent être modérés selon les individus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756053452892_05",
+      "current_version_epoch_ms": 1756053452892,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "HTA"
+      },
+      "data": {
+        "statement": "Quelle mesure est systématiquement recommandée pour tous les patients hypertendus en complément du traitement médicamenteux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La pratique d'une activité physique régulière et la perte de poids en cas de surcharge pondérale",
+            "justification": "Les recommandations générales pour la prise en charge de l'HTA incluent l'exercice physique et la gestion du poids, car ces mesures ont des effets bénéfiques sur la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "L'abstinence totale de toute forme d'activité physique",
+            "justification": "L'abstinence d'exercice physique est contre-productive et n'est pas recommandée dans la gestion de l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Une réduction stricte de la consommation d'aliments riches en protéines",
+            "justification": "Bien qu'une alimentation équilibrée soit importante, la réduction excessive de protéines n'est pas spécifiquement recommandée pour le traitement de l'HTA."
+          },
+          {
+            "correct": false,
+            "proposition": "Une restriction calorique sévère sans contrôle de la qualité des aliments",
+            "justification": "Il est important de contrôler la qualité des aliments, pas seulement la quantité. Une restriction excessive des calories peut avoir des effets négatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "L'évitement de toute forme de traitement médicamenteux",
+            "justification": "L'arrêt des médicaments est contre-indiqué sans avis médical, car les traitements médicamenteux sont essentiels dans la gestion de l'HTA."
+          }
+        ]
+      }
+    }
+  ]
+}
