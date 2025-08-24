@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "IRespiC",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756024760488_01",
+      "current_version_epoch_ms": 1756024760488,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est l'indication de l'oxygénothérapie de longue durée (OLD) dans l'IRC obstructive en état stable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2 < 55 mmHg",
+            "justification": "L'indication de l'oxygénothérapie de longue durée dans l'IRC obstructive en état stable est clairement définie lorsque la PaO2 est inférieure à 55 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 > 60 mmHg",
+            "justification": "Une PaO2 supérieure à 60 mmHg ne justifie pas l'oxygénothérapie de longue durée, car cela indique une oxygénation suffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "SpO2 nocturne moyenne > 90 %",
+            "justification": "L'indication de l'oxygénothérapie de longue durée repose sur des SpO2 nocturnes faibles, inférieures à 88 %, et non supérieures à 90 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de dyspnée à l'effort",
+            "justification": "L'oxygénothérapie de longue durée ne constitue pas un traitement symptomatique de la dyspnée, mais vise à corriger l'hypoxémie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de polyglobulie",
+            "justification": "La polyglobulie (hématocrite > 55%) est un des critères indiquant l'oxygénothérapie, donc son absence n'est pas un critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024760488_02",
+      "current_version_epoch_ms": 1756024760488,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quels sont les objectifs de l'oxygénothérapie de longue durée (OLD) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Corriger les conséquences de l'hypoxémie chronique",
+            "justification": "L'oxygénothérapie de longue durée a pour objectif de corriger les conséquences de l'hypoxémie chronique, comme la polyglobulie et l'hypertension pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer la dyspnée",
+            "justification": "L'oxygénothérapie de longue durée n'est pas destinée à traiter la dyspnée, mais à corriger l'hypoxémie chronique."
+          },
+          {
+            "correct": true,
+            "proposition": "Diminuer la mortalité",
+            "justification": "L'oxygénothérapie de longue durée a pour but de réduire la mortalité chez les patients souffrant d'hypoxémie chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter l'efficacité cardiaque",
+            "justification": "L'oxygénothérapie ne vise pas directement à améliorer l'efficacité cardiaque, mais à traiter l'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire les signes cliniques d'hypoxie tissulaire",
+            "justification": "L'objectif de l'oxygénothérapie est de traiter l'hypoxémie et ses conséquences, mais pas directement les signes cliniques d'hypoxie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024760488_03",
+      "current_version_epoch_ms": 1756024760488,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Dans quel cas l'oxygénothérapie de longue durée est-elle indiquée en IRC restrictive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2 < 60 mmHg",
+            "justification": "Dans l'IRC restrictive, l'oxygénothérapie de longue durée est indiquée lorsque la PaO2 est inférieure à 60 mmHg."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 > 60 mmHg",
+            "justification": "Une PaO2 supérieure à 60 mmHg ne justifie pas l'oxygénothérapie de longue durée dans l'IRC restrictive."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'hypertension pulmonaire",
+            "justification": "L'indication de l'oxygénothérapie de longue durée en IRC restrictive ne repose pas sur l'hypertension pulmonaire, mais sur la PaO2."
+          },
+          {
+            "correct": false,
+            "proposition": "Polyglobulie",
+            "justification": "La polyglobulie est un critère d'indication pour l'IRC obstructive, mais pas pour l'IRC restrictive."
+          },
+          {
+            "correct": false,
+            "proposition": "SpO2 nocturne moyenne > 88 %",
+            "justification": "L'oxygénothérapie est indiquée en IRC restrictive lorsque la SpO2 nocturne est inférieure à 88 %, et non supérieure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024760488_04",
+      "current_version_epoch_ms": 1756024760488,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quel est le débit nécessaire pour une oxygénothérapie de longue durée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Débit nécessaire pour obtenir une PaO2 > 60 mmHg",
+            "justification": "L'objectif de l'oxygénothérapie est de maintenir une PaO2 supérieure à 60 mmHg, ce qui guide le débit d'oxygène."
+          },
+          {
+            "correct": false,
+            "proposition": "Débit nécessaire pour obtenir une SpO2 > 80 %",
+            "justification": "L'objectif de l'oxygénothérapie est d'atteindre une SpO2 ou SaO2 supérieure à 90 % au repos et à l'effort, pas seulement 80 %."
+          },
+          {
+            "correct": false,
+            "proposition": "Débit constant sans ajustement",
+            "justification": "Le débit doit être ajusté en fonction de la PaO2 ou de la SpO2 mesurées, et ne doit pas être constant."
+          },
+          {
+            "correct": false,
+            "proposition": "Débit maximal de 10 L/min",
+            "justification": "Le débit d'oxygène est ajusté en fonction des besoins du patient et des objectifs cliniques, et n'est pas fixé à 10 L/min."
+          },
+          {
+            "correct": true,
+            "proposition": "Débit nécessaire pour obtenir une SpO2 ou une SaO2 > 90 %",
+            "justification": "L'oxygénothérapie doit être administrée pour maintenir une SpO2 ou SaO2 supérieure à 90 % au repos et à l'effort."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756024760488_05",
+      "current_version_epoch_ms": 1756024760488,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "IRespiC"
+      },
+      "data": {
+        "statement": "Quelle est la modalité d'administration la plus adaptée de l'oxygénothérapie de longue durée à domicile ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lunettes nasales pour débits modérés",
+            "justification": "Les lunettes nasales sont adaptées pour une administration d'oxygène à domicile avec des débits modérés, ce qui est le plus courant pour l'oxygénothérapie de longue durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Masques pour débits élevés",
+            "justification": "Les masques sont plus adaptés pour délivrer des quantités d'oxygène plus importantes, mais ne sont pas la modalité préférée à domicile pour les débits modérés."
+          },
+          {
+            "correct": false,
+            "proposition": "Oxygénothérapie uniquement la nuit",
+            "justification": "L'oxygénothérapie de longue durée est idéale 24h/24 et au minimum 15 h/j, y compris la nuit."
+          },
+          {
+            "correct": false,
+            "proposition": "Oxygénothérapie par concentrateur d'oxygène uniquement",
+            "justification": "Bien que le concentrateur d'oxygène soit une option, l'oxygène gazeux sous forme de cylindres est également utilisé pour la déambulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Oxygénothérapie par voie intraveineuse",
+            "justification": "L'oxygénothérapie de longue durée ne s'effectue pas par voie intraveineuse, mais par voie respiratoire (lunettes nasales, masques)."
+          }
+        ]
+      }
+    }
+  ]
+}
