@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "purpura",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756037481077_01",
+      "current_version_epoch_ms": 1756037481077,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Parmi les examens biologiques à prescrire en urgence en cas de purpura thrombopénique, lequel est inutile pour confirmer une thrombopénie?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Hémogramme",
+            "justification": "L'hémogramme est nécessaire pour évaluer la présence de thrombopénie, bien que son contrôle sur tube citraté ne soit pas pertinent en raison des signes cliniques déjà observés."
+          },
+          {
+            "correct": true,
+            "proposition": "Contrôle de la thrombopénie sur tube citraté",
+            "justification": "Le contrôle de la thrombopénie sur tube citraté est inutile car les signes cliniques de la thrombopénie sont déjà présents et ne nécessitent pas cette analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de prothrombine",
+            "justification": "La recherche du taux de prothrombine est pertinente pour évaluer une possible coagulation intravasculaire disséminée (CIVD)."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottis sanguin",
+            "justification": "Le frottis sanguin est essentiel pour l'analyse des anomalies des plaquettes et de la morphologie des cellules sanguines."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique est prescrit pour vérifier des anomalies de la fonction hépatique dans le cadre de troubles de la coagulation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037481077_02",
+      "current_version_epoch_ms": 1756037481077,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quel examen biologique est systématiquement prescrit en cas de purpura vasculaire?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Protéine C réactive (CRP)",
+            "justification": "L'élévation de la protéine C-réactive (CRP) est un marqueur inflammatoire clé dans les purpuras vasculaires, utilisé pour évaluer l'inflammation systémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupage sanguin",
+            "justification": "Le groupage sanguin est essentiel pour la transfusion mais n'est pas directement impliqué dans le diagnostic d'un purpura vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Bien que l'ionogramme soit un examen utile pour évaluer l'état électrolytique du patient, il n'est pas spécifique du purpura vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoculture",
+            "justification": "L'hémoculture est indiquée en cas de fièvre ou d'anomalies cardiaques, mais pas systématiquement pour les purpuras vasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéinurie",
+            "justification": "La protéinurie peut être observée en cas d'atteinte rénale, mais ce n'est pas un examen systématique dans le purpura vasculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037481077_03",
+      "current_version_epoch_ms": 1756037481077,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quel examen est recommandé en urgence en cas de purpura associé à une fièvre?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont nécessaires pour identifier une infection bactérienne potentielle, surtout en cas de fièvre associée au purpura."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottis sanguin",
+            "justification": "Le frottis sanguin est important pour analyser les plaquettes, mais il n'est pas directement indiqué pour l'évaluation de la fièvre associée au purpura."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéine C réactive (CRP)",
+            "justification": "La CRP peut être élevée en cas d'inflammation, mais elle n'est pas spécifique d'une infection nécessitant une hémoculture."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique est utile dans le contexte d'une CIVD mais pas systématique pour une fièvre liée à un purpura."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "Bien que l'ionogramme soit important pour évaluer l'état du patient, il n'est pas spécifiquement utile pour la gestion d'une fièvre associée à un purpura."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037481077_04",
+      "current_version_epoch_ms": 1756037481077,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quel examen est prescrit pour évaluer une possible CIVD dans le cas d'un purpura thrombopénique?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Recherche de la protéine C réactive",
+            "justification": "La CRP est un marqueur inflammatoire mais elle ne permet pas de diagnostiquer une CIVD."
+          },
+          {
+            "correct": true,
+            "proposition": "Taux de prothrombine et TCA",
+            "justification": "La diminution du taux de prothrombine et l'allongement du temps de céphaline activée (TCA) sont des indicateurs cruciaux de la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Frottis sanguin",
+            "justification": "Le frottis sanguin permet d'analyser les plaquettes et les cellules, mais il ne permet pas directement de diagnostiquer la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique est important pour analyser les fonctions du foie, mais il n'est pas un test spécifique pour la CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche d'agglutinines irrégulières",
+            "justification": "Les agglutinines irrégulières sont importantes en cas de nécessité de transfusion mais ne sont pas pertinentes pour diagnostiquer la CIVD."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037481077_05",
+      "current_version_epoch_ms": 1756037481077,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quelles sont les principales causes de purpura vasculaire?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Infections virales uniquement",
+            "justification": "Bien que les infections virales puissent causer un purpura, le purpura vasculaire a des causes variées, y compris les vascularites et la fragilité capillaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Vascularites des vaisseaux de petit et moyen calibre",
+            "justification": "Les vascularites affectent les vaisseaux de petit et moyen calibre et sont des causes importantes de purpura vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Coagulation intravasculaire disséminée",
+            "justification": "La CIVD est plus associée à des troubles de la coagulation, ce qui n'est pas directement responsable du purpura vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombopénie sévère",
+            "justification": "La thrombopénie peut entraîner un purpura thrombopénique, mais elle n'est pas une cause de purpura vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Fragilité capillaire",
+            "justification": "Bien que la fragilité capillaire soit une cause de purpura, elle n'est pas aussi fréquente que les vascularites dans le purpura vasculaire."
+          }
+        ]
+      }
+    }
+  ]
+}

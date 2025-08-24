@@ -1,0 +1,144 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître les principales étiologies de purpura dont les causes infectieuses OIC-215-08-A
+2 Principales causes de purpura vasculaire
+
+2.1 Causes infectieuses
+2.2 Vascularites
+
+2.2.1 Vascularites des vaisseaux petit calibre
+2.2.2 Vascularites des vaisseaux de moyen calibre
+
+
+2.3 Fragilité capillaire
+
+
+3 Principales causes de purpura thrombopénique
+
+
+Connaître les principales étiologies de purpura dont les causes infectieuses OIC-215-08-A
+
+
+
+
+
+Principales causes de purpura vasculaire
+Causes infectieuses
+-      Purpura fulminans
+-       Endocardite infectieuse
+
+Vascularites
+Vascularites des vaisseaux petit calibre
+·     Vascularites associés aux ANCA (granulomatose avec polyangéite, granulomatose éosinophilique avec polyangéite, polyangéite microscopique) (vascularites systémiques)
+·     Vascularite à dépôt de complexes immuns (vascularite de cryoglobulinémie, vascularite à IgA (anciennement purpura rhumatoïde), vascularites post-infectieuses)
+·     Vascularites cutanées (souvent médicamenteuses)
+
+Vascularites des vaisseaux de moyen calibre
+Périartérite noueuse
+
+NB : Il n'y a jamais de purpura dans les vascularites des gros vaisseaux.
+
+Fragilité capillaire
+-      Purpura sénile de Bateman (purpura secondaire à la fragilité capillaire du sujet âgé)
+-       Hypercorticisme endogène ou iatrogène
+-       Scorbut (carence en vitamine C) (dénutrition/malnutrition)
+
+Principales causes de purpura thrombopénique
+Les principales causes sont : 
+-       Défaut de production des plaquettes dans la moelle osseuse :  thrombopénie centrale 
+-       Immunologique : purpura thrombopénique immunologique (PTI) (Thrombopénie chez l'adulte et l'enfant)
+-       Consommation des plaquettes : trouble de l'hémostase associé (CIVD) ou microangiopathie thrombotique (syndrome hémolytique et urémique, purpura thrombotique thrombocytopénique). Ces 2 causes constituent une urgence. 
+
+-       Dysfonction plaquettaire (thrombopathie) sans thrombopénie (exemple : secondaire à la prise de médicament antiagrégant plaquettaire). Sommaire1Connaître les principales étiologies de purpura dont les causes infectieuses OIC-215-08-A2Principales causes de purpura vasculaire2.1Causes infectieuses2.2Vascularites2.2.1Vascularites des vaisseaux petit calibre2.2.2Vascularites des vaisseaux de moyen calibre2.3Fragilité capillaire3Principales causes de purpura thrombopéniqueConnaître les principales étiologies de purpura dont les causes infectieuses OIC-215-08-APrincipales causes de purpura vasculaireCauses infectieuses-      Purpurafulminans-       Endocardite infectieuseVascularitesVascularites des vaisseaux petit calibre·     Vascularites associés aux ANCA (granulomatose avec polyangéite, granulomatose éosinophilique avec polyangéite, polyangéite microscopique)(vascularites systémiques)·     Vascularite à dépôt de complexes immuns (vascularite de cryoglobulinémie, vascularite à IgA (anciennement purpura rhumatoïde), vascularites post-infectieuses)·     Vascularites cutanées (souvent médicamenteuses)Vascularites des vaisseaux de moyen calibrePériartérite noueuseNB : Il n'y a jamais de purpura dans les vascularites des gros vaisseaux.Fragilité capillaire-      Purpura sénile de Bateman (purpura secondaire à la fragilité capillaire du sujet âgé)-       Hypercorticisme endogène ou iatrogène-       Scorbut (carence en vitamine C) (dénutrition/malnutrition)Principales causes de purpura thrombopéniqueLes principales causes sont :-       Défaut de production des plaquettes dans la moelle osseuse :  thrombopénie centrale-       Immunologique : purpura thrombopénique immunologique (PTI) (Thrombopénie chez l'adulte et l'enfant)-       Consommation des plaquettes : trouble de l'hémostase associé (CIVD) ou microangiopathie thrombotique (syndrome hémolytique et urémique, purpura thrombotique thrombocytopénique). Ces 2 causes constituent une urgence.-       Dysfonction plaquettaire (thrombopathie) sans thrombopénie (exemple : secondaire à la prise de médicament antiagrégant plaquettaire).
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
