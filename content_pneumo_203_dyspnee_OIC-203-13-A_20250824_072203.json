@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756013130337_01",
+      "current_version_epoch_ms": 1756013130337,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Lorsqu'un patient présente une dyspnée aiguë, quelle est la première étape essentielle à réaliser dans la gestion de la détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Éliminer une obstruction des voies aériennes supérieures.",
+            "justification": "L'élimination d'une obstruction des voies aériennes supérieures est primordiale, car ces obstructions représentent une urgence extrême et leur prise en charge diffère radicalement de celle des autres étiologies de détresse respiratoire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'oxygène pour améliorer la saturation.",
+            "justification": "Bien que l'oxygénation soit cruciale, elle n'est pas la première étape dans la gestion de la dyspnée aiguë, surtout si une obstruction des voies aériennes supérieures n'a pas été exclue."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une radiographie thoracique systématique.",
+            "justification": "La radiographie thoracique est importante mais intervient après l'élimination de l'obstruction des voies aériennes et l'orientation du diagnostic étiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une analyse des gaz du sang immédiatement.",
+            "justification": "Les perturbations gazométriques peuvent orienter vers des pathologies respiratoires chroniques mais ne sont pas la première étape dans la gestion de la dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un bronchodilatateur immédiatement.",
+            "justification": "L'administration de bronchodilatateurs est réservée aux pathologies spécifiques comme l'asthme aigu grave et ne doit pas être la première étape dans tous les cas de dyspnée aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013130337_02",
+      "current_version_epoch_ms": 1756013130337,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "En cas de dyspnée aiguë, quel élément retrouvé à l'imagerie thoracique orienterait le plus directement vers une pathologie pleurale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de pneumothorax ou pleurésie.",
+            "justification": "Les pathologies pleurales telles que le pneumothorax ou la pleurésie sont directement visibles à l'imagerie thoracique et doivent être prises en compte dans le diagnostic de dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacités parenchymateuses évoquant une pneumopathie infectieuse.",
+            "justification": "Les opacités parenchymateuses, comme celles observées dans une pneumopathie infectieuse, sont un indicateur de pathologies respiratoires différemment gérées par rapport aux pathologies pleurales."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'œdème pulmonaire.",
+            "justification": "L'œdème pulmonaire peut causer une dyspnée aiguë, mais il ne fait pas partie des pathologies pleurales. Son identification nécessite une évaluation clinique et radiologique spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Normalité de la radiographie thoracique.",
+            "justification": "Une radiographie thoracique normale ou sub-normale pourrait orienter vers des causes comme l'asthme aigu grave ou l'embolie pulmonaire, mais pas directement vers une pathologie pleurale."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une pneumopathie infiltrante diffuse.",
+            "justification": "Les pneumopathies infiltrantes diffuses peuvent être visualisées sur une radiographie thoracique, mais ne correspondent pas à des pathologies pleurales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013130337_03",
+      "current_version_epoch_ms": 1756013130337,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels paramètres gazométriques sont les plus suggestifs d'une décompensation de pathologie respiratoire chronique chez un patient dyspnéique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation de la PaCO2 et/ou des bicarbonates.",
+            "justification": "Une augmentation de la PaCO2 et/ou des bicarbonates peut indiquer une décompensation d'une pathologie respiratoire chronique, comme la BPCO, et est un critère clé dans la gestion de la dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la PaO2 avec une saturation en oxygène normale.",
+            "justification": "Une diminution de la PaO2 accompagnée d'une saturation normale ne signe pas forcément une décompensation d'une pathologie respiratoire chronique. Les gaz sanguins doivent être interprétés dans leur ensemble."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution des bicarbonates sans modification de la PaCO2.",
+            "justification": "Les anomalies dans les bicarbonates doivent être interprétées avec la PaCO2, et une simple diminution des bicarbonates ne permet pas de conclure à une décompensation respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperventilation avec réduction de la PaCO2.",
+            "justification": "L'hyperventilation est souvent un signe d'acidose respiratoire aiguë et non d'une décompensation de pathologie respiratoire chronique."
+          },
+          {
+            "correct": false,
+            "proposition": "Normalisation des gaz sanguins.",
+            "justification": "Une normalisation des gaz sanguins indique une absence de décompensation, ce qui est incompatible avec l'hypothèse d'une pathologie respiratoire chronique décompensée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013130337_04",
+      "current_version_epoch_ms": 1756013130337,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la radiographie thoracique dans la gestion d'une dyspnée aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet d'orienter vers un diagnostic étiologique spécifique.",
+            "justification": "La radiographie thoracique est essentielle pour identifier les pathologies pleurales, les pneumopathies infectieuses et les autres causes respiratoires de la dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle remplace l'évaluation clinique du patient.",
+            "justification": "Bien que la radiographie soit un outil diagnostique clé, l'évaluation clinique reste primordiale pour guider la gestion initiale de la dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est inutile en cas de dyspnée aiguë sans signes cliniques évidents.",
+            "justification": "Même en l'absence de signes cliniques évidents, la radiographie thoracique peut fournir des informations cruciales sur l'étiologie de la dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée uniquement pour détecter un œdème pulmonaire.",
+            "justification": "L'œdème pulmonaire est une des pathologies observables, mais la radiographie est également utile pour d'autres étiologies comme les pneumopathies ou les pathologies pleurales."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être réalisée avant toute autre investigation.",
+            "justification": "La radiographie n'est pas toujours la première étape dans la gestion de la dyspnée aiguë. Il faut d'abord éliminer des obstructions des voies aériennes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756013130337_05",
+      "current_version_epoch_ms": 1756013130337,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Dans le cadre de la dyspnée aiguë, quel est l'impact de la présence d'une radiographie thoracique normale ou sub-normale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut orienter vers des causes telles que l'asthme aigu grave ou l'embolie pulmonaire.",
+            "justification": "Une radiographie thoracique normale ou sub-normale est typique des cas d'asthme aigu grave ou d'embolie pulmonaire, ce qui oriente la gestion vers ces pathologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle exclut la possibilité de pathologies respiratoires graves.",
+            "justification": "Une radiographie thoracique normale ou sub-normale ne permet pas d'exclure des pathologies graves comme une décompensation de BPCO ou un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle indique que la dyspnée est d'origine psychologique.",
+            "justification": "Une radiographie normale ou sub-normale ne permet pas de conclure à une étiologie psychologique, surtout en cas de dyspnée aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle suggère systématiquement un traitement antibiotique.",
+            "justification": "La radiographie thoracique normale ou sub-normale ne justifie pas l'instauration d'un traitement antibiotique sans éléments cliniques orientant vers une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne fournit aucune information utile pour le diagnostic.",
+            "justification": "Même une radiographie thoracique sub-normale peut apporter des informations importantes pour évaluer l'étiologie de la dyspnée aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}
