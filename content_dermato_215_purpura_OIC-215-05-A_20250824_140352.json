@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "purpura",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756037179485_01",
+      "current_version_epoch_ms": 1756037179485,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques en faveur d'une vascularite dans le cadre d'un purpura vasculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre, signes ORL, neuropathie périphérique, protéinurie, hémoptysie",
+            "justification": "Les signes cliniques comme la fièvre, les symptômes ORL, la neuropathie périphérique, la protéinurie et l'hémoptysie sont caractéristiques d'une vascularite."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et souffle cardiaque",
+            "justification": "Le souffle cardiaque est plus spécifique de l'endocardite et non d'une vascularite."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de dénutrition",
+            "justification": "Les signes de dénutrition sont plus caractéristiques du scorbut, pas de la vascularite."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise de médicaments",
+            "justification": "La prise de médicaments est plus liée au purpura thrombopénique qu'à une vascularite."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatomégalie et splénomégalie",
+            "justification": "L'hépatomégalie et la splénomégalie sont plus liées à un syndrome tumoral et non à une vascularite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037179485_02",
+      "current_version_epoch_ms": 1756037179485,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quel signe clinique oriente vers un purpura d'origine infectieuse, comme une endocardite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre et souffle cardiaque",
+            "justification": "La fièvre associée à la présence d'un souffle cardiaque orientent vers une endocardite, un type d'infection liée au purpura."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et signes neurologiques",
+            "justification": "Les signes neurologiques sont plus caractéristiques du purpura fulminans et non d'une endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Protéinurie et hémoptysie",
+            "justification": "La protéinurie et l'hémoptysie sont des signes de vascularite, pas d'endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de dénutrition",
+            "justification": "Les signes de dénutrition sont plus caractéristiques du scorbut, non de l'endocardite."
+          },
+          {
+            "correct": false,
+            "proposition": "Neuropathie périphérique et signes ORL",
+            "justification": "La neuropathie périphérique et les signes ORL sont des signes de vascularite et non d'endocardite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037179485_03",
+      "current_version_epoch_ms": 1756037179485,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quelles sont les causes possibles de purpura dans le cadre d'un purpura thrombopénique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prise de médicaments",
+            "justification": "La prise de médicaments est une cause fréquente de purpura thrombopénique en raison de la suppression des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et signes ORL",
+            "justification": "La fièvre et les signes ORL sont plus associés aux vascularites qu'au purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatomégalie et splénomégalie",
+            "justification": "L'hépatomégalie et la splénomégalie sont des signes de syndrome tumoral qui nécessitent la réalisation d'un myélogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome méningé",
+            "justification": "Le syndrome méningé est plus associé au purpura fulminans qu'au purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Signes de dénutrition",
+            "justification": "Les signes de dénutrition sont caractéristiques du scorbut, non du purpura thrombopénique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037179485_04",
+      "current_version_epoch_ms": 1756037179485,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quelles investigations sont nécessaires en cas de purpura thrombopénique avec hépatomégalie et splénomégalie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation d'un myélogramme",
+            "justification": "La présence d'hépatomégalie et de splénomégalie nécessite la réalisation d'un myélogramme pour rechercher un syndrome tumoral."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de la bandelette urinaire",
+            "justification": "L'analyse de la bandelette urinaire est plus pertinente pour évaluer une vascularite, pas un purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie cardiaque",
+            "justification": "L'échographie cardiaque est utile dans le cadre d'une endocardite, mais non dans un purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "La radiographie pulmonaire est davantage utilisée pour évaluer des complications pulmonaires, mais pas pour un purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Test PCR pour le scorbut",
+            "justification": "Le scorbut est une carence en vitamine C et non une cause de purpura thrombopénique. Le test PCR n'est pas utile dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756037179485_05",
+      "current_version_epoch_ms": 1756037179485,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "purpura"
+      },
+      "data": {
+        "statement": "Quels signes orientent vers un purpura d'origine carentielle, comme un scorbut ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Signes de dénutrition",
+            "justification": "Les signes de dénutrition, tels que les carences nutritionnelles, sont caractéristiques du scorbut, une cause possible de purpura."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et signes ORL",
+            "justification": "Les signes ORL et la fièvre sont plus associés à une vascularite qu'au scorbut."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome tumoral",
+            "justification": "Le syndrome tumoral, avec hépatomégalie et splénomégalie, est plus lié à un purpura thrombopénique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoptysie et neuropathie périphérique",
+            "justification": "L'hémoptysie et la neuropathie périphérique sont des signes de vascularite, non de scorbut."
+          },
+          {
+            "correct": false,
+            "proposition": "Souffle cardiaque",
+            "justification": "Le souffle cardiaque est typique de l'endocardite, pas du scorbut."
+          }
+        ]
+      }
+    }
+  ]
+}
