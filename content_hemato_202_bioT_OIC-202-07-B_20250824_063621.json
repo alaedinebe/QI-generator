@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "bioT",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756010387779_01",
+      "current_version_epoch_ms": 1756010387779,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "bioT"
+      },
+      "data": {
+        "statement": "Dans quelle situation est-il nécessaire d'ajuster les traitements de fond biologique ou ciblé en raison de l'insuffisance d'efficacité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Persistance de signes cliniques, biologiques ou d'imagerie après un délai suffisant depuis l'instauration du traitement",
+            "justification": "L'insuffisance d'efficacité se caractérise par la persistance de signes cliniques, biologiques ou d'imagerie après un délai suffisant depuis le début du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signes cliniques, biologiques ou d'imagerie",
+            "justification": "L'absence de signes cliniques ou biologiques ne justifie pas un ajustement des traitements. L'ajustement est lié à la persistance des signes malgré le traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Réapparition de signes cliniques, biologiques ou d'imagerie liés à une activité de la maladie inflammatoire sous traitement",
+            "justification": "La réapparition des signes de la maladie sous traitement indique une insuffisance d'efficacité et nécessite un ajustement thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration significative des symptômes",
+            "justification": "L'amélioration des symptômes ne justifie pas un ajustement du traitement, sauf en cas de réponse complète et prolongée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une réponse rapide aux traitements initiaux",
+            "justification": "Une réponse rapide n'implique pas de modification du traitement, sauf si d'autres critères, comme la persistance ou la réapparition des symptômes, sont observés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756010387779_02",
+      "current_version_epoch_ms": 1756010387779,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "bioT"
+      },
+      "data": {
+        "statement": "Quelle situation peut entraîner un ajustement des traitements de fond en raison de l'apparition d'effets secondaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Apparition d'un ou plusieurs effets secondaires liés au traitement de fond",
+            "justification": "La survenue d'effets secondaires nécessite un ajustement du traitement, comme la réduction de la posologie ou l'espacement des prises."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'effets secondaires observés",
+            "justification": "L'absence d'effets secondaires ne justifie pas un ajustement du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la dose de traitement sans effets secondaires",
+            "justification": "Une augmentation de la dose sans effets secondaires n'indique pas la nécessité d'un ajustement thérapeutique."
+          },
+          {
+            "correct": true,
+            "proposition": "Apparition d'une contre-indication au maintien du traitement de fond",
+            "justification": "L'apparition d'une contre-indication, comme une infection ou une insuffisance rénale, peut justifier l'arrêt ou le remplacement du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Réponse favorable au traitement sans effets secondaires",
+            "justification": "Une réponse favorable sans effets secondaires ne nécessite pas un ajustement thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756010387779_03",
+      "current_version_epoch_ms": 1756010387779,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "bioT"
+      },
+      "data": {
+        "statement": "Quel ajustement thérapeutique est approprié en cas de réponse complète et prolongée au traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution de posologie",
+            "justification": "Lorsqu'une réponse complète et prolongée est obtenue, il peut être justifié de réduire la posologie ou d'espacer les prises."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la posologie",
+            "justification": "Une augmentation de la posologie n'est pas nécessaire si une réponse complète et prolongée est déjà observée."
+          },
+          {
+            "correct": true,
+            "proposition": "Espacement des prises",
+            "justification": "L'espacement des prises est une option valide pour les patients ayant une réponse complète et prolongée."
+          },
+          {
+            "correct": false,
+            "proposition": "Maintien de la posologie inchangée",
+            "justification": "Si une réponse complète est obtenue, une réduction de la posologie ou un espacement des prises peut être envisagé pour éviter les effets secondaires à long terme."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt du traitement",
+            "justification": "Dans certains cas, un arrêt du traitement peut être envisagé, surtout si une réponse complète est obtenue et que les objectifs thérapeutiques sont atteints."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756010387779_04",
+      "current_version_epoch_ms": 1756010387779,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "bioT"
+      },
+      "data": {
+        "statement": "Dans quel cas l'ajustement d'un traitement de fond doit-il être envisagé pendant une grossesse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une contre-indication au traitement en raison de la grossesse",
+            "justification": "Certaines situations, comme la grossesse, peuvent entraîner des contre-indications pour certains traitements de fond. Un ajustement est nécessaire pour garantir la sécurité de la mère et de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration des symptômes pendant la grossesse",
+            "justification": "L'amélioration des symptômes ne justifie pas automatiquement un ajustement du traitement pendant la grossesse, sauf si des effets secondaires ou des risques apparaissent."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signes cliniques d'inflammation",
+            "justification": "L'absence de signes cliniques ne justifie pas un ajustement du traitement en l'absence de contre-indication spécifique à la grossesse."
+          },
+          {
+            "correct": true,
+            "proposition": "Développement d'effets secondaires liés au traitement en grossesse",
+            "justification": "Le développement d'effets secondaires pendant la grossesse justifie un ajustement du traitement de fond pour protéger la mère et le fœtus."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'une nouvelle pathologie non liée à la grossesse",
+            "justification": "Une pathologie non liée à la grossesse peut nécessiter un ajustement, mais cela ne justifie pas une modification des traitements de fond en l'absence d'une contre-indication spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756010387779_05",
+      "current_version_epoch_ms": 1756010387779,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "bioT"
+      },
+      "data": {
+        "statement": "Quels ajustements thérapeutiques peuvent être envisagés lors d'un voyage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ajustement transitoire du traitement en fonction du lieu et de la durée du voyage",
+            "justification": "Lors d'un voyage, un ajustement transitoire du traitement peut être nécessaire en fonction des conditions spécifiques du voyage, telles que l'accès aux soins ou les conditions environnementales."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation permanente de la posologie",
+            "justification": "L'augmentation permanente de la posologie n'est pas justifiée par un voyage, sauf en cas de changement de la situation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification permanente du traitement sans évaluation clinique",
+            "justification": "Une modification permanente du traitement nécessite une évaluation clinique appropriée, et non un simple ajustement pour un voyage."
+          },
+          {
+            "correct": true,
+            "proposition": "Ajustement transitoire pour adapter les prises en fonction des horaires de voyage",
+            "justification": "L'adaptation des horaires de prise de médicaments peut être nécessaire pour s'ajuster aux changements d'horaires liés au voyage."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspension totale du traitement pendant le voyage",
+            "justification": "La suspension totale du traitement est généralement déconseillée, sauf en cas de contre-indication médicale avérée."
+          }
+        ]
+      }
+    }
+  ]
+}
