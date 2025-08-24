@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hemorragie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756038537632_01",
+      "current_version_epoch_ms": 1756038537632,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le seuil de plaquettes en dessous duquel il existe un risque hémorragique important ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Moins de 150 G/L",
+            "justification": "Une valeur de plaquettes inférieure à 150 G/L est un indicateur d'anomalie de l'hémostase, avec un risque de saignement augmenté."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 100 G/L",
+            "justification": "Ce seuil n'est pas spécifiquement associé à un risque hémorragique majeur selon les valeurs fournies."
+          },
+          {
+            "correct": true,
+            "proposition": "Moins de 50-70 G/L",
+            "justification": "Un seuil inférieur à 50-70 G/L est clairement associé à un risque hémorragique élevé, nécessitant une attention particulière."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 200 G/L",
+            "justification": "Ce seuil est bien au-dessus de la valeur seuil de risque hémorragique selon les critères donnés."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 250 G/L",
+            "justification": "Les valeurs de plaquettes inférieures à 250 G/L ne sont pas un critère pertinent pour un risque hémorragique élevé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038537632_02",
+      "current_version_epoch_ms": 1756038537632,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "À partir de quelle valeur de TCA (rapport M/T) doit-on considérer un risque hémorragique important ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Supérieur à 1,2 (ou 1,3 chez l'enfant)",
+            "justification": "Un TCA supérieur à 1,2 (ou 1,3 chez l'enfant) est un critère de risque hémorragique, car il indique une anomalie de la coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 1,0",
+            "justification": "Ce seuil n'est pas suffisant pour qualifier un risque hémorragique élevé selon les critères fournis."
+          },
+          {
+            "correct": true,
+            "proposition": "Supérieur à 1,2, dépendant de la cause",
+            "justification": "Le TCA supérieur à 1,2 est à interpréter selon la cause sous-jacente de l'anomalie hémostatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 2,0",
+            "justification": "Un TCA supérieur à 2,0 n'est pas une valeur spécifiée dans les critères pour un risque hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 0,8",
+            "justification": "Un TCA supérieur à 0,8 ne constitue pas un seuil de risque hémorragique selon les indications données."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038537632_03",
+      "current_version_epoch_ms": 1756038537632,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "À partir de quelle valeur de fibrinogène un risque hémorragique élevé est-il envisagé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inférieur à 2 g/L",
+            "justification": "Lorsque le fibrinogène est inférieur à 2 g/L, cela peut entraîner une altération significative de l'hémostase, augmentant le risque hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 3 g/L",
+            "justification": "Le seuil de fibrinogène pour un risque hémorragique important est clairement fixé à moins de 2 g/L, et non à 3 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "Inférieur à 0,5-0,8 g/L",
+            "justification": "Des valeurs de fibrinogène aussi basses que 0,5-0,8 g/L sont associées à un risque hémorragique majeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 5 g/L",
+            "justification": "Une valeur de fibrinogène inférieure à 5 g/L ne correspond pas à un seuil critique pour un risque hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 1 g/L",
+            "justification": "Bien que cette valeur soit faible, elle ne représente pas le seuil de risque hémorragique important d'après les critères indiqués."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038537632_04",
+      "current_version_epoch_ms": 1756038537632,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le seuil de TP (ou Temps de Quick) associé à un risque hémorragique élevé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inférieur à 70%",
+            "justification": "Un TP inférieur à 70% est une valeur qui signale un risque accru de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 90%",
+            "justification": "Un TP inférieur à 90% n'indique pas un risque hémorragique important selon les critères de risque établis."
+          },
+          {
+            "correct": true,
+            "proposition": "Inférieur à 30%",
+            "justification": "Un TP inférieur à 30% est fortement associé à un risque majeur de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 50%",
+            "justification": "Ce seuil n'est pas spécifié comme étant un indicateur de risque hémorragique élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieur à 60%",
+            "justification": "Une valeur de TP inférieure à 60% ne correspond pas à un seuil de risque hémorragique important selon les critères fournis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038537632_05",
+      "current_version_epoch_ms": 1756038537632,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel facteur de coagulation doit être inférieur à 30% pour être associé à un risque hémorragique important ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Facteurs II, V, VII, IX, X, XI",
+            "justification": "Des niveaux inférieurs à 30% pour ces facteurs de coagulation augmentent de manière significative le risque de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Facteurs I, III, V, X",
+            "justification": "Ce groupe de facteurs ne correspond pas aux facteurs spécifiquement liés à un risque hémorragique important."
+          },
+          {
+            "correct": false,
+            "proposition": "Facteur XIII",
+            "justification": "Le facteur XIII n'est pas celui qui est lié à un risque hémorragique significatif selon les critères fournis."
+          },
+          {
+            "correct": true,
+            "proposition": "Facteur Willebrand et F VIII",
+            "justification": "Les facteurs Willebrand et VIII, lorsqu'ils sont inférieurs à 30%, sont aussi associés à un risque hémorragique élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Facteurs I, II, V",
+            "justification": "Ces facteurs ne sont pas spécifiquement associés à un seuil de risque hémorragique aussi bas que 30%."
+          }
+        ]
+      }
+    }
+  ]
+}
