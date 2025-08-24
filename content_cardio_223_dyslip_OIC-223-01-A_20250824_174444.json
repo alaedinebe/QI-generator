@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyslip",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756050431399_01",
+      "current_version_epoch_ms": 1756050431399,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "dyslip"
+      },
+      "data": {
+        "statement": "Quel est le risque cardiovasculaire à 10 ans pour un patient de 45 ans, sans antécédents familiaux de maladies cardiovasculaires et ayant une pression artérielle systolique de 130 mmHg, un cholestérol non-HDL de 2 g/L et étant non-fumeur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque faible à modéré, inférieur à 2,5%",
+            "justification": "Le patient est jeune (moins de 50 ans), avec des facteurs de risque modérés. Selon SCORE2, le risque est faible si ces facteurs sont bien maîtrisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque élevé, entre 2,5% et 7,5%",
+            "justification": "Le patient présente un risque faible, étant donné son âge et l'absence d'autres facteurs de risque significatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque très élevé, supérieur à 7,5%",
+            "justification": "Un risque très élevé serait attribué à des patients plus âgés ou avec des antécédents familiaux significatifs ou d'autres facteurs de risque non contrôlés."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque faible, inférieur à 5%",
+            "justification": "Le risque est bien inférieur à 5%, mais il correspond à la catégorie de risque faible à modéré dans ce cas précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque élevé, entre 7,5% et 10%",
+            "justification": "Le patient ne présente pas suffisamment de facteurs de risque pour atteindre un niveau élevé de risque cardiovasculaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756050431399_02",
+      "current_version_epoch_ms": 1756050431399,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "dyslip"
+      },
+      "data": {
+        "statement": "Quel est le critère principal qui permet de classer un patient dans la catégorie de risque très élevé pour une maladie cardiovasculaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une maladie cardiovasculaire avérée, comme un infarctus du myocarde",
+            "justification": "Les patients avec une maladie cardiovasculaire avérée, comme un infarctus, sont systématiquement classés dans la catégorie à risque très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle non contrôlée",
+            "justification": "Bien que l'hypertension artérielle soit un facteur de risque majeur, elle ne suffit pas seule à classer un patient dans la catégorie de risque très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Cholestérol LDL supérieur à 2 g/L",
+            "justification": "Un cholestérol LDL élevé est un facteur de risque, mais ne détermine pas à lui seul un risque très élevé sans la présence d'autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge supérieur à 70 ans",
+            "justification": "Bien que l'âge soit un facteur de risque, un patient de plus de 70 ans peut être dans un risque modéré ou élevé, sans être nécessairement classé à risque très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Tabagisme actuel",
+            "justification": "Le tabagisme est un facteur de risque, mais il n'est pas suffisant pour classer un patient dans la catégorie de risque très élevé sans d'autres conditions médicales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756050431399_03",
+      "current_version_epoch_ms": 1756050431399,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "dyslip"
+      },
+      "data": {
+        "statement": "Quelle est la principale limitation des équations SCORE2 et SCORE2-OP ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles ne s'appliquent pas aux patients avec diabète, insuffisance rénale chronique ou pathologie athéromateuse avérée.",
+            "justification": "Les équations SCORE2 et SCORE2-OP ne sont pas validées pour les patients présentant ces conditions médicales, car leur risque cardiovasculaire peut être sous-estimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne prennent pas en compte l'âge du patient",
+            "justification": "Au contraire, l'âge est un des facteurs clés dans le calcul du risque cardiovasculaire selon ces équations."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles ne sont valables que pour les patients âgés de 40 à 50 ans",
+            "justification": "Les équations SCORE2 et SCORE2-OP sont valides pour des groupes d'âge plus larges, de 40 à 70 ans pour SCORE2 et ≥70 ans pour SCORE2-OP."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont inadaptées aux hommes et aux femmes",
+            "justification": "Les équations SCORE2 et SCORE2-OP tiennent compte du sexe, ce qui permet une évaluation adaptée du risque pour chaque genre."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles sont uniquement destinées aux patients présentant une hypertension",
+            "justification": "Les équations incluent plusieurs facteurs de risque cardiovasculaire, pas seulement l'hypertension."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756050431399_04",
+      "current_version_epoch_ms": 1756050431399,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "dyslip"
+      },
+      "data": {
+        "statement": "Quel est le risque cardiovasculaire pour un patient de 72 ans ayant une pression artérielle de 155/90 mmHg et un cholestérol non-HDL de 3,5 g/L ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque élevé, entre 7,5% et 15%",
+            "justification": "Le patient est âgé de plus de 70 ans, avec des facteurs de risque élevés (hypertension et cholestérol élevé), ce qui place son risque dans la catégorie élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque très élevé, supérieur à 15%",
+            "justification": "Bien que le patient présente des facteurs de risque, son âge et ses conditions ne justifient pas un risque aussi élevé que celui de plus de 15%."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque modéré, entre 5% et 7,5%",
+            "justification": "Le patient présente des facteurs de risque importants, mais ne répond pas aux critères de risque modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque faible, inférieur à 2,5%",
+            "justification": "Le risque est trop élevé pour être classé comme faible, compte tenu de la pression artérielle élevée et du cholestérol non-HDL élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque faible à modéré, inférieur à 5%",
+            "justification": "Le risque est supérieur à 5%, en raison des facteurs de risque cardiovasculaire du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756050431399_05",
+      "current_version_epoch_ms": 1756050431399,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "dyslip"
+      },
+      "data": {
+        "statement": "Quel facteur contribue directement à classer un patient dans la catégorie à risque très élevé de maladies cardiovasculaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de maladies cardiovasculaires avérées ou de pathologies athéromateuses symptomatiques",
+            "justification": "La présence de maladies cardiovasculaires documentées, telles qu'un infarctus du myocarde ou une revascularisation coronaire, détermine un risque très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pression artérielle systolique élevée mais contrôlée",
+            "justification": "Bien que la pression artérielle élevée soit un facteur de risque, elle ne classe pas à elle seule un patient dans la catégorie à risque très élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Un cholestérol LDL supérieur à 1,9 g/L sous traitement",
+            "justification": "Bien que l'hypercholestérolémie soit un facteur important, elle n'est pas suffisante seule pour classer un patient dans un risque très élevé sans autres facteurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tabagisme actif",
+            "justification": "Le tabagisme est un facteur de risque majeur, mais il n'est pas suffisant pour classer un patient dans la catégorie de risque très élevé sans d'autres conditions cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'antécédents familiaux de maladies cardiovasculaires",
+            "justification": "L'absence d'antécédents familiaux ne diminue pas un risque déjà élevé dû à d'autres facteurs comme une maladie cardiovasculaire avérée."
+          }
+        ]
+      }
+    }
+  ]
+}
