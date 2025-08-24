@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756014395268_01",
+      "current_version_epoch_ms": 1756014395268,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quelle est l'étiologie la plus probable d'une dyspnée aiguë chez un enfant ou un sujet âgé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Corps étranger",
+            "justification": "Le corps étranger est une étiologie fréquente de dyspnée aiguë, notamment chez l'enfant et le sujet âgé, où l'aspiration accidentelle est plus courante."
+          },
+          {
+            "correct": false,
+            "proposition": "Cancer bronchopulmonaire",
+            "justification": "Le cancer bronchopulmonaire provoque rarement une dyspnée aiguë, sauf en cas de complication telle qu'une pleurésie ou une atteinte proximale."
+          },
+          {
+            "correct": false,
+            "proposition": "Acidose métabolique (acidocétose diabétique)",
+            "justification": "L'acidose métabolique peut entraîner une dyspnée, mais elle se manifeste sans hypoxémie et sans anomalies pulmonaires à la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Laryngite",
+            "justification": "La laryngite est un diagnostic rare pour une dyspnée aiguë, surtout chez l'adulte, et plus fréquent chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie",
+            "justification": "La pneumonie est généralement accompagnée de signes radiologiques et d'hypoxémie, ce qui ne correspond pas au cas d'une dyspnée aiguë sans anomalies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756014395268_02",
+      "current_version_epoch_ms": 1756014395268,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quelle est l'étiologie la moins fréquente de dyspnée aiguë chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Cancer bronchopulmonaire",
+            "justification": "Bien que le cancer bronchopulmonaire puisse provoquer de la dyspnée, il est peu fréquent que cela soit la cause principale de dyspnée aiguë chez l'adulte, sauf en cas d'atteinte proximale."
+          },
+          {
+            "correct": true,
+            "proposition": "Laryngite",
+            "justification": "La laryngite est une cause rare de dyspnée aiguë chez l'adulte, étant plus fréquente chez les enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Acidose métabolique (acidocétose diabétique)",
+            "justification": "L'acidocétose diabétique peut provoquer une dyspnée, mais il s'agit d'une forme de dyspnée non associée à une hypoxémie ou à une anomalie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Corps étranger",
+            "justification": "L'aspiration de corps étrangers est plus courante chez les jeunes enfants et les sujets âgés, mais moins fréquente chez les adultes."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumonie",
+            "justification": "La pneumonie provoque une dyspnée aiguë associée à des signes radiologiques et cliniques, mais elle est plus courante que la laryngite chez l'adulte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756014395268_03",
+      "current_version_epoch_ms": 1756014395268,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme de la dyspnée observée dans l'acidocétose diabétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée sans hypoxémie et sans anomalies radiologiques pulmonaires",
+            "justification": "Dans l'acidocétose diabétique, la dyspnée est causée par une acidose métabolique, sans hypoxémie ni anomalies pulmonaires visibles à la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée avec hypoxémie et anomalies pulmonaires radiologiques",
+            "justification": "La dyspnée dans l'acidocétose diabétique ne s'accompagne pas de signes radiologiques ni d'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée due à une obstruction des voies respiratoires supérieures",
+            "justification": "L'acidocétose diabétique ne cause pas d'obstruction des voies respiratoires supérieures, contrairement à d'autres étiologies de dyspnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée due à une pleurésie",
+            "justification": "La pleurésie n'est pas impliquée dans la dyspnée de l'acidocétose diabétique, qui est liée à un métabolisme acide."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée liée à une infection pulmonaire",
+            "justification": "L'infection pulmonaire ne cause pas de dyspnée dans l'acidocétose diabétique, où la dyspnée est principalement liée à l'acidose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756014395268_04",
+      "current_version_epoch_ms": 1756014395268,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Chez un enfant, quel signe clinique peut faire suspecter la présence d'un corps étranger dans les voies respiratoires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée aiguë, surtout après un épisode de toux ou de suffocation",
+            "justification": "La présence d'un corps étranger dans les voies respiratoires est souvent suspectée en cas de dyspnée aiguë survenant après un épisode de toux ou de suffocation."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée et signes de pneumonie",
+            "justification": "La pneumonie peut provoquer une dyspnée, mais elle ne doit pas être confondue avec la dyspnée aiguë liée à un corps étranger, qui est plus spécifique d'un événement d'aspiration."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique et hémoptysie",
+            "justification": "La douleur thoracique et l'hémoptysie sont généralement associés à des conditions comme une pneumonie ou une pleurésie, pas à un corps étranger."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie persistante malgré un traitement",
+            "justification": "L'hypoxémie peut résulter de diverses pathologies pulmonaires, mais elle n'est pas spécifique à l'aspiration de corps étrangers, surtout si un traitement rapide est administré."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de râles crépitants bilatéraux",
+            "justification": "Les râles crépitants bilatéraux sont plus évocateurs d'une pneumonie ou d'un œdème pulmonaire, et non d'une obstruction due à un corps étranger."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756014395268_05",
+      "current_version_epoch_ms": 1756014395268,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la radiographie pulmonaire dans le diagnostic des causes rares de dyspnée aiguë ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Permet de confirmer la présence d'un corps étranger dans les voies respiratoires",
+            "justification": "Bien que la radiographie puisse parfois montrer des corps étrangers, ce n'est pas toujours le cas, notamment si le corps étranger est radiotransparent ou difficilement visible."
+          },
+          {
+            "correct": true,
+            "proposition": "Permet de détecter des complications comme une pleurésie ou une obstruction proximale",
+            "justification": "La radiographie permet de détecter des complications liées à des pathologies telles que le cancer bronchopulmonaire, la pleurésie ou l'obstruction des voies respiratoires proximales."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de diagnostiquer une acidocétose diabétique",
+            "justification": "La radiographie ne permet pas de diagnostiquer une acidocétose diabétique, qui nécessite des tests biologiques spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de différencier les causes infectieuses des causes mécaniques de dyspnée",
+            "justification": "Bien que la radiographie soit utile pour observer des signes d'infection, elle n'est pas suffisante pour distinguer toutes les causes mécaniques de dyspnée."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de visualiser les signes cliniques de laryngite",
+            "justification": "La radiographie ne permet pas de visualiser les signes cliniques de la laryngite, qui est une pathologie principalement diagnostiquée par la clinique."
+          }
+        ]
+      }
+    }
+  ]
+}
