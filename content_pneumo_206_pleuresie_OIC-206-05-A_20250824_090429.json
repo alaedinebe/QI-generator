@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "pleuresie",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756019275821_01",
+      "current_version_epoch_ms": 1756019275821,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quels éléments cliniques doivent faire suspecter une pleurésie au cours d'une infection respiratoire basse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une douleur intense de type pleurale.",
+            "justification": "La douleur pleurale est caractéristique d'une pleurésie, souvent décrite comme une douleur aigüe, exacerbée par la respiration profonde ou la toux."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome pleural à l'examen clinique.",
+            "justification": "Le syndrome pleural inclut la douleur pleurale, un bruit pleural à la percussion et des frottements pleuraux, éléments caractéristiques de la pleurésie."
+          },
+          {
+            "correct": true,
+            "proposition": "Découverte d'anomalies sur la radiographie thoracique.",
+            "justification": "Les anomalies radiographiques, telles que l'épanchement pleural ou la consolidation, sont des signes cliniques importants dans le diagnostic de pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de crépitants à l'auscultation pulmonaire.",
+            "justification": "Les crépitants peuvent être observés dans les pneumopathies, mais ne sont pas spécifiques à la pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de toux productive.",
+            "justification": "L'absence de toux productive ne permet pas d'écarter une pleurésie, car la douleur pleurale et les autres signes peuvent exister sans toux productive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019275821_02",
+      "current_version_epoch_ms": 1756019275821,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quelles sont les anomalies radiographiques évocatrices d'une pleurésie dans le cadre d'une pneumopathie bactérienne aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épanchement pleural.",
+            "justification": "L'épanchement pleural est un signe radiographique typique de la pleurésie, souvent visible comme une opacité en forme de concave dans la base pulmonaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Consolidation parenchymateuse.",
+            "justification": "La consolidation peut être observée dans la pneumopathie bactérienne, et lorsqu'elle est associée à un épanchement pleural, elle peut être évocatrice de pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Atélectasie.",
+            "justification": "L'atelectasie peut être présente dans certaines affections pulmonaires, mais elle n'est pas un signe spécifique de pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperinflation pulmonaire.",
+            "justification": "L'hyperinflation est plutôt associée à des pathologies obstructives comme la BPCO, et non à la pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement du médiastin.",
+            "justification": "L'élargissement du médiastin est typiquement observé dans les pathologies cardiaques ou vasculaires, et non dans la pleurésie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019275821_03",
+      "current_version_epoch_ms": 1756019275821,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Lors d'une infection respiratoire basse, quels sont les signes cliniques les plus suggestifs d'une pleurésie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur pleurale accentuée par la respiration.",
+            "justification": "La douleur pleurale est un signe clinique majeur, souvent intensifiée par la respiration ou la toux, ce qui est évocateur d'une pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Rales crépitants à l'auscultation pulmonaire.",
+            "justification": "Les rales crépitants peuvent être observés dans les pneumopathies, mais ne sont pas spécifiques à la pleurésie."
+          },
+          {
+            "correct": true,
+            "proposition": "Syndrome pleural à la percussion.",
+            "justification": "La percussion peut révéler un matité dans les zones de l'épanchement pleural, contribuant au diagnostic de la pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée sévère sans douleur thoracique.",
+            "justification": "La dyspnée peut être observée dans diverses pathologies respiratoires, mais elle n'est pas spécifique à la pleurésie, surtout en l'absence de douleur thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche.",
+            "justification": "La toux sèche peut être présente dans les infections respiratoires mais n'est pas un signe distinctif de la pleurésie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019275821_04",
+      "current_version_epoch_ms": 1756019275821,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'échographie thoracique dans le diagnostic de la pleurésie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet de visualiser l'épanchement pleural.",
+            "justification": "L'échographie thoracique est un excellent moyen de visualiser l'épanchement pleural, notamment pour guider la ponction ou pour évaluer la quantité d'épanchement."
+          },
+          {
+            "correct": true,
+            "proposition": "Évalue l'extension de l'infection pleurale.",
+            "justification": "L'échographie peut aider à évaluer l'étendue de l'épanchement et à déterminer s'il existe une infection associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de diagnostiquer une pneumonie interstitielle.",
+            "justification": "L'échographie n'est pas adaptée au diagnostic de pneumonie interstitielle, qui nécessite des examens comme la tomodensitométrie."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de diagnostiquer une embolie pulmonaire.",
+            "justification": "L'échographie thoracique ne permet pas de diagnostiquer une embolie pulmonaire, qui est mieux évaluée par un scanner thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet de visualiser les bronches.",
+            "justification": "L'échographie thoracique n'est pas un outil pour visualiser les bronches, qui nécessite une imagerie plus spécifique comme la radiographie ou la bronchoscopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019275821_05",
+      "current_version_epoch_ms": 1756019275821,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel est l'élément clé du diagnostic de la pleurésie en cas de pneumopathie bactérienne aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La douleur pleurale intense et les anomalies radiographiques.",
+            "justification": "La douleur pleurale et les anomalies radiographiques, telles que l'épanchement pleural, sont des éléments déterminants pour suspecter et diagnostiquer une pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'auscultation pulmonaire normale.",
+            "justification": "L'auscultation pulmonaire normale n'est pas compatible avec une pleurésie, qui se caractérise par des signes cliniques comme les frottements pleuraux."
+          },
+          {
+            "correct": true,
+            "proposition": "La présence d'un syndrome pleural à l'examen clinique.",
+            "justification": "Le syndrome pleural à l'examen clinique, incluant douleur pleurale et signes d'épanchement, est une indication majeure de pleurésie."
+          },
+          {
+            "correct": false,
+            "proposition": "La toux non productive.",
+            "justification": "La toux non productive n'est pas un critère spécifique pour la pleurésie, bien que présente dans certaines infections respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie thoracique sans anomalies.",
+            "justification": "L'absence d'anomalies sur la radiographie exclut le diagnostic de pleurésie, car ce dernier se manifeste souvent par un épanchement visible."
+          }
+        ]
+      }
+    }
+  ]
+}
