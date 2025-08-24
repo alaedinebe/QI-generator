@@ -1,152 +1,107 @@
-[
-    {
-        "statement": "Quelle est la définition de la dyspnée ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "La perception d'une respiration inconfortable ou pénible ressentie au cours de situations diverses, sans entraîner de gêne.",
-                "justification": "La dyspnée se définit par la sensation de respiration pénible, sans gêne significative, pendant des périodes de repos ou d'exercice."
-            },
-            {
-                "correct": false,
-                "proposition": "La difficulté à respirer provoquée uniquement par l'effort physique.",
-                "justification": "La dyspnée ne se limite pas à l'effort physique, elle peut survenir au repos."
-            },
-            {
-                "correct": false,
-                "proposition": "L'arrêt complet de la respiration pendant une période prolongée.",
-                "justification": "Cela correspond à une autre pathologie, telle que l'apnée, et non à la dyspnée."
-            },
-            {
-                "correct": false,
-                "proposition": "Une condition uniquement rencontrée lors d'un exercice physique intense.",
-                "justification": "La dyspnée peut survenir aussi bien au repos qu'à l'effort."
-            },
-            {
-                "correct": false,
-                "proposition": "Une respiration rapide et superficielle sans aucune gêne."
-                "justification": "Ce n'est pas une dyspnée, mais plutôt une hyperventilation."
-            }
-        ]
-    },
-    {
-        "statement": "Que suggère une dyspnée inspiratoire ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "Une pathologie des voies aériennes supérieures (supra-carènaire).",
-                "justification": "La dyspnée inspiratoire est typiquement associée à des troubles des voies aériennes supérieures, comme les obstructions supra-laryngées."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie bronchique (BPCO, asthme).",
-                "justification": "Les pathologies bronchiques sont généralement associées à une dyspnée expiratoire, pas inspiratoire."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie cardiaque.",
-                "justification": "Les pathologies cardiaques peuvent entraîner une dyspnée, mais généralement pas de manière spécifique inspiratoire."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie vasculaire.",
-                "justification": "Les troubles vasculaires entraînent des dyspnées à d'autres types de présentation, mais pas typiquement inspiratoires."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie alvéolaire.",
-                "justification": "Les pathologies alvéolaires sont associées à des dyspnées aux deux temps (inspiratoire et expiratoire)."
-            }
-        ]
-    },
-    {
-        "statement": "Que suggère une dyspnée expiratoire ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "Une pathologie bronchique (BPCO, asthme).",
-                "justification": "La dyspnée expiratoire est typique des pathologies bronchiques, comme la BPCO ou l'asthme."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie des voies aériennes supérieures.",
-                "justification": "Les pathologies des voies aériennes supérieures sont plus souvent associées à une dyspnée inspiratoire."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie alvéolaire.",
-                "justification": "Les pathologies alvéolaires entraînent une dyspnée aux deux temps, inspiratoire et expiratoire."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie vasculaire.",
-                "justification": "Les pathologies vasculaires provoquent des dyspnées d'autres types, mais pas spécifiquement expiratoires."
-            },
-            {
-                "correct": false,
-                "proposition": "Une pathologie neuromusculaire.",
-                "justification": "Les pathologies neuromusculaires provoquent également des dyspnées aux deux temps."
-            }
-        ]
-    },
-    {
-        "statement": "Quelle est la signification d'une dyspnée aux deux temps (inspiratoire et expiratoire) ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "Elle oriente vers de nombreux autres diagnostics tels que les pathologies alvéolaires, vasculaires ou neuromusculaires.",
-                "justification": "Une dyspnée aux deux temps est indicative de plusieurs pathologies, telles que les affections alvéolaires, vasculaires ou neuromusculaires."
-            },
-            {
-                "correct": false,
-                "proposition": "Elle indique uniquement une pathologie broncho-pulmonaire.",
-                "justification": "Les pathologies bronchiques sont généralement associées à une dyspnée expiratoire, pas aux deux temps."
-            },
-            {
-                "correct": false,
-                "proposition": "Elle indique une pathologie cardiaque grave.",
-                "justification": "Les pathologies cardiaques peuvent entraîner une dyspnée, mais pas forcément aux deux temps."
-            },
-            {
-                "correct": false,
-                "proposition": "Elle oriente vers une infection pulmonaire aiguë.",
-                "justification": "Une infection pulmonaire aiguë peut causer une dyspnée, mais pas nécessairement aux deux temps."
-            },
-            {
-                "correct": false,
-                "proposition": "Elle est indicative d'une obstruction des voies respiratoires supérieures.",
-                "justification": "Une obstruction des voies respiratoires supérieures serait plutôt responsable d'une dyspnée inspiratoire."
-            }
-        ]
-    },
-    {
-        "statement": "Comment différencier la dyspnée inspiratoire de la dyspnée expiratoire ?",
-        "propositions": [
-            {
-                "correct": true,
-                "proposition": "La dyspnée inspiratoire est souvent liée à une pathologie des voies aériennes supérieures, tandis que la dyspnée expiratoire est plus souvent associée à des pathologies bronchiques.",
-                "justification": "La localisation de la dyspnée permet de différencier les deux types : la dyspnée inspiratoire est liée aux voies aériennes supérieures et la dyspnée expiratoire aux bronches."
-            },
-            {
-                "correct": false,
-                "proposition": "La dyspnée inspiratoire est plus grave que la dyspnée expiratoire.",
-                "justification": "La gravité d'une dyspnée dépend de la pathologie sous-jacente, pas uniquement du type inspiratoire ou expiratoire."
-            },
-            {
-                "correct": false,
-                "proposition": "La dyspnée expiratoire est toujours plus facile à traiter que la dyspnée inspiratoire.",
-                "justification": "Le traitement varie selon la pathologie sous-jacente, et il n'y a pas de règle générale concernant la facilité de traitement."
-            },
-            {
-                "correct": false,
-                "proposition": "La dyspnée inspiratoire est causée par des pathologies bronchiques.",
-                "justification": "La dyspnée inspiratoire est liée à des pathologies des voies respiratoires supérieures, pas des bronches."
-            },
-            {
-                "correct": false,
-                "proposition": "Les deux types de dyspnée sont causés par des pathologies cardiaques.",
-                "justification": "Les pathologies cardiaques peuvent entraîner une dyspnée, mais cela ne distingue pas entre dyspnée inspiratoire et expiratoire."
-            }
-        ]
-    }
-]
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les examens complémentaires de première intention en fonction du caractère aigu ou chronique OIC-203-07-A
+
+
+
+Demande/prescription raisonnée et choix d'un examen diagnostique
+Dyspnée aiguë :
+·        La radiographie thoracique de face permet de rechercher la majorité des causes de dyspnée aiguë (pneumothorax, pleurésie, pneumonie, OAP). Une radiographie thoracique normale ou sans anomalie notable devra faire évoquer le diagnostic d'embolie pulmonaire, de BPCO, d'asthme ou d'anémie.
+·        ECG : recherche d'arguments en faveur d'une pathologie cardiaque et d'une embolie pulmonaire.
+·        Biologie : NFS, BNP ou NT-proBNP, gaz du sang (recherche d'éléments de gravité principalement : hypoxémie profonde, acidose respiratoire).
+Dyspnée chronique :
+·        NFS, afin d'éliminer une anémie,
+·        BNP ou NT-proBNP en cas de suspicion de cardiopathie
+·        ECG à la recherche d'une cardiopathie
+
+·        Radiographie thoracique d'orientation étiologique (distension, syndrome interstitiel, cardiomégalie). Connaître les examens complémentaires de première intention en fonction du caractère aigu ou chronique OIC-203-07-ADemande/prescription raisonnée et choix d'un examen diagnostiqueDyspnée aiguë :·        La radiographie thoracique de face permet de rechercher la majorité des causes de dyspnée aiguë (pneumothorax, pleurésie, pneumonie, OAP). Une radiographie thoracique normale ou sans anomalie notable devra faire évoquer le diagnostic d'embolie pulmonaire, de BPCO, d'asthme ou d'anémie.·        ECG : recherche d'arguments en faveur d'une pathologie cardiaque et d'une embolie pulmonaire.·        Biologie : NFS, BNP ou NT-proBNP, gaz du sang (recherche d'éléments de gravité principalement : hypoxémie profonde, acidose respiratoire).Dyspnée chronique :·        NFS, afin d'éliminer une anémie,·        BNP ou NT-proBNP en cas de suspicion de cardiopathie·        ECG à la recherche d'une cardiopathie·        Radiographie thoracique d'orientation étiologique (distension, syndrome interstitiel, cardiomégalie).
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.
