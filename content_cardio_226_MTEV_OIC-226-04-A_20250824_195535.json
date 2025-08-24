@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MTEV",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756058282561_01",
+      "current_version_epoch_ms": 1756058282561,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quelle est la principale présentation clinique d'une thrombose veineuse profonde (TVP) du membre inférieur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur spontanée du membre inférieur associée à un œdème unilatéral",
+            "justification": "Ces signes sont caractéristiques de la TVP, en particulier lorsqu'ils sont unilatéraux et d'apparition brutale."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique bilatérale et dyspnée",
+            "justification": "Ces signes sont plus évocateurs d'une embolie pulmonaire (EP) que d'une TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée et toux productive",
+            "justification": "Ces symptômes sont typiques d'une infection pulmonaire et non d'une TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Œdème bilatéral des membres inférieurs",
+            "justification": "Un œdème bilatéral est moins spécifique d'une TVP, qui est généralement unilatérale."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur musculaire à la palpation de la jambe",
+            "justification": "Cela pourrait évoquer une déchirure musculaire ou un hématome intramusculaire, mais pas une TVP."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058282561_02",
+      "current_version_epoch_ms": 1756058282561,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Parmi les propositions suivantes, laquelle est un critère de suspicion clinique d'embolie pulmonaire (EP) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dyspnée sans cause évidente",
+            "justification": "La dyspnée sans cause évidente, en particulier lorsqu'il n'y a pas de pneumopathie ou d'œdème aigu du poumon, est un signe important de l'EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur et œdème unilatéral d'un membre inférieur",
+            "justification": "Cela est plutôt évocateur d'une TVP, et non d'une EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée persistante",
+            "justification": "Bien que présente dans certaines infections, la fièvre persistante n'est pas typique d'une EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension bilatérale",
+            "justification": "L'hypotension bilatérale n'est pas un signe spécifique de l'EP, qui peut se manifester par une défaillance hémodynamique, mais ce n'est pas systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Expectorations hémoptoïques non répétées",
+            "justification": "Les expectorations hémoptoïques peuvent être présentes dans d'autres affections pulmonaires mais ne sont pas spécifiques à l'EP."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058282561_03",
+      "current_version_epoch_ms": 1756058282561,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel est le rôle du dosage des D-dimères dans le diagnostic de la MTEV ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les D-dimères ont une forte valeur prédictive négative",
+            "justification": "Un taux de D-dimères faible exclut pratiquement la MTEV, en particulier en cas de probabilité clinique faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Les D-dimères sont spécifiques à la MTEV",
+            "justification": "Les D-dimères peuvent être élevés dans d'autres conditions (âge, grossesse, infections, etc.), donc ils ne sont pas spécifiques à la MTEV."
+          },
+          {
+            "correct": false,
+            "proposition": "Un taux élevé de D-dimères confirme toujours une MTEV",
+            "justification": "Un taux élevé de D-dimères peut être retrouvé dans de nombreuses conditions et ne permet pas à lui seul de poser le diagnostic de MTEV."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dosage des D-dimères est inutile dans le diagnostic de l'EP",
+            "justification": "Bien que non spécifique, le dosage des D-dimères peut aider dans l'évaluation initiale du risque d'EP, en particulier avec un score de probabilité faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Les D-dimères sont indiqués uniquement pour les cas graves de MTEV",
+            "justification": "Les D-dimères sont utilisés pour évaluer le risque de MTEV, indépendamment de la gravité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058282561_04",
+      "current_version_epoch_ms": 1756058282561,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Quel examen est principalement utilisé pour le diagnostic d'une thrombose veineuse profonde (TVP) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Écho-Doppler veineux réalisé en décubitus",
+            "justification": "L'écho-Doppler veineux est l'examen de référence pour diagnostiquer la TVP, permettant de visualiser la présence de thrombus dans les veines."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique est utilisé pour l'EP, mais pas pour la TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Scintigraphie pulmonaire de ventilation/perfusion",
+            "justification": "La scintigraphie pulmonaire est utilisée pour l'EP, mais non pour la TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie du thorax",
+            "justification": "La radiographie du thorax est utile pour diagnostiquer d'autres pathologies thoraciques, mais pas la TVP."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme",
+            "justification": "L'ECG peut être utile pour détecter une arythmie, mais ne permet pas de diagnostiquer une TVP."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756058282561_05",
+      "current_version_epoch_ms": 1756058282561,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "MTEV"
+      },
+      "data": {
+        "statement": "Dans quelle situation un traitement anticoagulant peut-il être débuté avant la réalisation d'examens d'imagerie dans le cadre d'une suspicion d'embolie pulmonaire (EP) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un score de probabilité clinique d'EP est fort",
+            "justification": "Un score de probabilité clinique élevé justifie le début du traitement anticoagulant en attendant les résultats des examens d'imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une contre-indication formelle à l'imagerie",
+            "justification": "Une contre-indication à l'imagerie ne justifie pas nécessairement l'instauration immédiate d'un anticoagulant sans autres éléments cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les D-dimères sont normaux",
+            "justification": "Les D-dimères normaux sont plus utilisés pour exclure l'EP, et non pour justifier un traitement anticoagulant."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un écho-Doppler veineux est négatif",
+            "justification": "Un écho-Doppler veineux négatif permet de diagnostiquer la TVP, mais ne permet pas de débuter un traitement pour une suspicion d'EP."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les signes cliniques de l'EP sont faibles",
+            "justification": "Un faible score de probabilité clinique d'EP ne justifie pas l'instauration d'un traitement anticoagulant sans confirmation diagnostique."
+          }
+        ]
+      }
+    }
+  ]
+}
