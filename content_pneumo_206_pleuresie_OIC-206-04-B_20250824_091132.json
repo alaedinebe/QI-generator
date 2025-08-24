@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "pleuresie",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756019699218_01",
+      "current_version_epoch_ms": 1756019699218,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel est l'aspect macroscopique du liquide pleural évoquant un épanchement parapneumonique compliqué ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Purulent",
+            "justification": "Un aspect purulent du liquide pleural est typique d'un épanchement parapneumonique compliqué, souvent associé à une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémorragique",
+            "justification": "L'aspect hémorragique évoque plutôt une néoplasie ou un hémothorax, pas un épanchement parapneumonique compliqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Lactescent",
+            "justification": "L'aspect lactescent est associé à un chylothorax, et non à un épanchement parapneumonique compliqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Citrin",
+            "justification": "L'aspect citrin n'oriente que peu le diagnostic et n'est pas spécifique d'une étiologie particulière."
+          },
+          {
+            "correct": false,
+            "proposition": "Transparent",
+            "justification": "Un liquide transparent n'est pas évocateur d'un épanchement parapneumonique compliqué."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019699218_02",
+      "current_version_epoch_ms": 1756019699218,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Comment distinguer un épanchement pleural transsudatif d'un épanchement exsudatif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dosage des protides",
+            "justification": "Le dosage des protides permet de distinguer les épanchements transsudatifs (moins de 25 g/L) des épanchements exsudatifs (plus de 35 g/L)."
+          },
+          {
+            "correct": false,
+            "proposition": "L'aspect macroscopique du liquide",
+            "justification": "L'aspect macroscopique du liquide (purulent, hémorragique, etc.) peut orienter le diagnostic, mais ne permet pas de différencier les épanchements transsudatifs des exsudatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "La formule cellulaire",
+            "justification": "La formule cellulaire peut être utile, mais elle n'est pas suffisante pour distinguer un épanchement transsudatif d'un exsudatif."
+          },
+          {
+            "correct": false,
+            "proposition": "La biopsie pleurale",
+            "justification": "La biopsie pleurale est utilisée pour des diagnostics spécifiques comme la tuberculose ou la néoplasie, mais pas pour distinguer les épanchements transsudatifs des exsudatifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Les LDH uniquement",
+            "justification": "Les LDH peuvent être mesurées, mais le critère principal pour la distinction reste le dosage des protides."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019699218_03",
+      "current_version_epoch_ms": 1756019699218,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel type de liquide pleural est évoqué par un aspect lactescent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chylothorax",
+            "justification": "L'aspect lactescent est caractéristique du chylothorax, qui résulte d'une accumulation de lymphe dans la cavité pleurale."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement parapneumonique compliqué",
+            "justification": "L'aspect lactescent ne correspond pas à un épanchement parapneumonique compliqué, qui est purulent."
+          },
+          {
+            "correct": false,
+            "proposition": "Néoplasie",
+            "justification": "Un aspect lactescent n'évoque pas une néoplasie, mais plutôt un chylothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémothorax",
+            "justification": "L'aspect lactescent ne correspond pas à un hémothorax, qui est hémorragique."
+          },
+          {
+            "correct": false,
+            "proposition": "Épanchement transsudatif",
+            "justification": "L'aspect lactescent est très spécifique du chylothorax, et non d'un épanchement transsudatif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019699218_04",
+      "current_version_epoch_ms": 1756019699218,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel examen permet de faire la différence entre la tuberculose pleurale et l'atteinte néoplasique dans le cas d'un épanchement pleural exsudatif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Biopsie pleurale",
+            "justification": "La biopsie pleurale est nécessaire pour poser un diagnostic précis entre la tuberculose pleurale et l'atteinte néoplasique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des protides",
+            "justification": "Le dosage des protides permet de différencier un épanchement transsudatif d'un exsudatif, mais ne permet pas de poser un diagnostic entre tuberculose et néoplasie."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de la formule cellulaire",
+            "justification": "La formule cellulaire peut fournir des informations utiles, mais ne permet pas de distinguer définitivement la tuberculose pleurale d'une atteinte néoplasique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction pleurale",
+            "justification": "La ponction pleurale est indiquée, mais pour un diagnostic définitif, la biopsie pleurale est plus appropriée."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse des LDH",
+            "justification": "Les LDH peuvent être mesurées, mais elles ne sont pas spécifiques pour différencier la tuberculose pleurale de l'atteinte néoplasique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756019699218_05",
+      "current_version_epoch_ms": 1756019699218,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "pleuresie"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt principal de la ponction pleurale dans un épanchement pleural ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Enquête étiologique",
+            "justification": "La ponction pleurale est réalisée avant tout pour identifier l'étiologie de l'épanchement pleural."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter le risque de ponction traumatique",
+            "justification": "Bien que la ponction présente un risque de traumatisme, elle est indiquée principalement pour l'enquête étiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement de l'épanchement",
+            "justification": "La ponction pleurale n'est pas principalement utilisée pour traiter l'épanchement, mais pour en déterminer l'origine."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration immédiate de la respiration",
+            "justification": "La ponction pleurale ne vise pas directement à améliorer la respiration, mais à diagnostiquer l'épanchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérification de la présence d'une infection",
+            "justification": "Bien que la ponction puisse détecter une infection, son objectif principal est d'identifier l'étiologie générale de l'épanchement pleural."
+          }
+        ]
+      }
+    }
+  ]
+}
