@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hemorragie",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756038989780_01",
+      "current_version_epoch_ms": 1756038989780,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques évocateurs d'une thrombopathie acquise ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Saignements cutanéomuqueux inexpliqués associés à une numération plaquettaire normale.",
+            "justification": "Les thrombopathies acquises se manifestent principalement par des saignements cutanéomuqueux sans anomalie des plaquettes ni des tests de coagulation de base (TCA, TP normaux)."
+          },
+          {
+            "correct": false,
+            "proposition": "Saignements intramusculaires fréquents.",
+            "justification": "Les saignements intramusculaires sont plus caractéristiques des troubles de la coagulation, comme les déficits en facteurs de coagulation, et non des thrombopathies."
+          },
+          {
+            "correct": false,
+            "proposition": "Numération plaquettaire inférieure à 150 000/mm³.",
+            "justification": "Les thrombopathies sont définies par une numération plaquettaire normale, contrairement aux troubles plaquettaires causant une thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Temps de céphaline activée prolongé (TCA) et Temps de Quick (TP) allongés.",
+            "justification": "Les thrombopathies ne modifient pas les paramètres classiques de coagulation, tels que le TCA ou le TP, qui restent normaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de gammapathie monoclonale dans le bilan biologique.",
+            "justification": "Bien que les thrombopathies puissent être associées à des gammapathies monoclonales, la gammapathie monoclonale n'est pas un signe direct d'une thrombopathie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038989780_02",
+      "current_version_epoch_ms": 1756038989780,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme principal des thrombopathies constitutionnelles ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Anomalie quantitative ou qualitative de la GPIIb-IIIa.",
+            "justification": "La thrombopathie constitutionnelle la plus fréquente, la thrombasthénie de Glanzmann, est due à des anomalies de la glycoprotéine GPIIb-IIIa sur les plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en facteur de coagulation.",
+            "justification": "Les thrombopathies ne sont pas liées à un déficit en facteur de coagulation, mais à un dysfonctionnement des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalie dans la production de fibrinogène.",
+            "justification": "Les anomalies du fibrinogène affectent la coagulation mais pas la fonction plaquettaire, qui est la principale perturbée dans les thrombopathies."
+          },
+          {
+            "correct": false,
+            "proposition": "Surcharge en plaquettes circulantes.",
+            "justification": "Les thrombopathies n'entraînent pas une surproduction de plaquettes, mais plutôt une défaillance de leur fonction."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de l'agrégation plaquettaire due à des antiplaquettaires.",
+            "justification": "Bien que certains médicaments puissent inhiber l'agrégation plaquettaire, les thrombopathies constitutionnelles sont causées par des anomalies intrinsèques des plaquettes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038989780_03",
+      "current_version_epoch_ms": 1756038989780,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Dans quel contexte clinique suspecter une thrombopathie acquise ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de prise de médicaments comme les antiplaquettaires ou les anti-inflammatoires.",
+            "justification": "Les thrombopathies acquises sont fréquemment associées à des médicaments, notamment les antiplaquettaires et les anti-inflammatoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Après une exposition à un traumatisme sévère.",
+            "justification": "Les traumatismes sévères peuvent entraîner des troubles de la coagulation, mais pas spécifiquement des thrombopathies fonctionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de troubles de l'hémostase congénitaux.",
+            "justification": "Les thrombopathies sont généralement acquises et non liées à des troubles de l'hémostase congénitaux qui affectent d'autres mécanismes de coagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une infection virale aiguë.",
+            "justification": "Les infections virales aiguës peuvent affecter les plaquettes, mais elles ne causent pas directement des thrombopathies fonctionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "En présence de leucémie aiguë.",
+            "justification": "La leucémie aiguë peut entraîner des troubles de la coagulation, mais ce n'est pas une cause directe de thrombopathie fonctionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038989780_04",
+      "current_version_epoch_ms": 1756038989780,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Comment se distingue une thrombopathie d'un trouble de la coagulation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La thrombopathie se caractérise par des saignements cutanéomuqueux et une numération plaquettaire normale.",
+            "justification": "Dans les thrombopathies, les plaquettes sont présentes en nombre normal mais leur fonction est altérée, contrairement aux troubles de la coagulation qui affectent d'autres éléments de l'hémostase."
+          },
+          {
+            "correct": false,
+            "proposition": "Les troubles de la coagulation entraînent des saignements uniquement au niveau des muqueuses.",
+            "justification": "Les troubles de la coagulation peuvent entraîner des saignements dans plusieurs tissus, pas uniquement les muqueuses."
+          },
+          {
+            "correct": false,
+            "proposition": "La numération plaquettaire est toujours anormale dans les troubles de la coagulation.",
+            "justification": "Les troubles de la coagulation n'affectent pas directement la numération plaquettaire, contrairement aux thrombopathies qui peuvent avoir une numération plaquettaire normale mais des plaquettes dysfonctionnelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Les troubles de la coagulation se manifestent souvent par des saignements cutanés uniquement.",
+            "justification": "Les troubles de la coagulation peuvent causer une variété de saignements, y compris internes, pas seulement cutanés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les thrombopathies entraînent toujours un allongement du Temps de Quick.",
+            "justification": "Les thrombopathies n'affectent pas les tests de coagulation comme le Temps de Quick, qui reste normal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756038989780_05",
+      "current_version_epoch_ms": 1756038989780,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "hemorragie"
+      },
+      "data": {
+        "statement": "Quelles sont les causes possibles de thrombopathies acquises ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médicaments tels que les antiplaquettaires, anti-inflammatoires, et antibiotiques.",
+            "justification": "Les médicaments, en particulier les antiplaquettaires et anti-inflammatoires, sont des causes fréquentes de thrombopathies acquises en altérant la fonction plaquettaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation excessive de vitamine K.",
+            "justification": "L'excès de vitamine K affecte les facteurs de coagulation, mais pas directement la fonction des plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en facteur VIII.",
+            "justification": "Un déficit en facteur VIII est associé à l'hémophilie, un trouble de la coagulation, et non à une thrombopathie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypocalcémie sévère.",
+            "justification": "L'hypocalcémie peut affecter la coagulation mais ne provoque pas de thrombopathie fonctionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Exposition à des toxines environnementales.",
+            "justification": "Les toxines environnementales peuvent affecter diverses fonctions corporelles, mais elles ne sont pas une cause spécifique de thrombopathie."
+          }
+        ]
+      }
+    }
+  ]
+}
