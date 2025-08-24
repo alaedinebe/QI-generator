@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "thromboP",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756036272638_01",
+      "current_version_epoch_ms": 1756036272638,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle est l'indication systématique d'un myélogramme chez un patient présentant une thrombopénie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'un syndrome tumoral clinique (adénopathie, hépatomégalie, splénomégalie)",
+            "justification": "Un myélogramme doit être réalisé systématiquement en présence d'un syndrome tumoral clinique, car cela peut suggérer une pathologie hématologique sous-jacente."
+          },
+          {
+            "correct": true,
+            "proposition": "Âge supérieur à 60 ans",
+            "justification": "L'âge supérieur à 60 ans justifie un myélogramme pour exclure une myélodysplasie, une pathologie fréquente dans cette tranche d'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombopénie isolée sans anomalies associées",
+            "justification": "En l'absence de signes cliniques ou biologiques associés, la réalisation d'un myélogramme n'est pas systématique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une anémie sans autres anomalies",
+            "justification": "Une anémie seule ne justifie pas un myélogramme, sauf si elle est associée à d'autres anomalies hématologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de carence en vitamine B12",
+            "justification": "Une carence en vitamine B12 ne nécessite pas un myélogramme, un traitement substitutif est généralement suffisant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756036272638_02",
+      "current_version_epoch_ms": 1756036272638,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quelle est l'indication d'un myélogramme devant une thrombopénie chez un patient de moins de 60 ans ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "S'il n'y a pas d'autres anomalies cliniques ou biologiques",
+            "justification": "Si le patient de moins de 60 ans présente une thrombopénie isolée sans anomalies supplémentaires, le myélogramme n'est pas systématiquement recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Présence d'une anomalie d'une autre lignée sur l'hémogramme",
+            "justification": "La présence d'une anomalie d'une autre lignée, comme une anémie ou une neutropénie, justifie la réalisation d'un myélogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un syndrome hémorragique isolé",
+            "justification": "Un syndrome hémorragique seul ne justifie pas la réalisation d'un myélogramme sans autres signes cliniques ou biologiques associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de symptômes cliniques",
+            "justification": "La réalisation d'un myélogramme n'est pas systématique en l'absence de symptômes cliniques ou biologiques associés à la thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de signes d'hypersplénisme",
+            "justification": "L'hypersplénisme dans le cadre d'une hépatopathie est une cause évidente de thrombopénie, et ne nécessite pas un myélogramme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756036272638_03",
+      "current_version_epoch_ms": 1756036272638,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il recommandé de réaliser systématiquement un myélogramme chez un patient âgé de plus de 60 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il existe un syndrome tumoral clinique (adénopathie, hépatomégalie, splénomégalie)",
+            "justification": "Le syndrome tumoral clinique doit alerter sur la possibilité d'une pathologie hématologique, justifiant ainsi la réalisation d'un myélogramme."
+          },
+          {
+            "correct": true,
+            "proposition": "En présence d'une anomalie d'une autre lignée sur l'hémogramme",
+            "justification": "Une anomalie d'une autre lignée, telle qu'une anémie ou une neutropénie, peut indiquer une pathologie sous-jacente nécessitant un myélogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'examen clinique est normal",
+            "justification": "L'absence d'anomalies cliniques ne justifie pas un myélogramme, sauf si d'autres signes biologiques ou cliniques sont présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la thrombopénie est isolée sans autres signes",
+            "justification": "Une thrombopénie isolée chez un patient âgé de plus de 60 ans sans signes associés ne justifie pas systématiquement un myélogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de carence en vitamine B12",
+            "justification": "Une carence en vitamine B12 peut expliquer une thrombopénie, mais elle ne nécessite pas un myélogramme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756036272638_04",
+      "current_version_epoch_ms": 1756036272638,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quel est le rôle du myélogramme en cas de thrombopénie non expliquée par une pathologie évidente ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Permet de rechercher une pathologie hématologique sous-jacente, comme une myélodysplasie",
+            "justification": "Le myélogramme est essentiel pour identifier des pathologies hématologiques sous-jacentes, comme la myélodysplasie, surtout chez les patients âgés."
+          },
+          {
+            "correct": true,
+            "proposition": "Évalue la production médullaire des plaquettes",
+            "justification": "Le myélogramme permet d'évaluer l'activité médullaire et la production des plaquettes, ce qui est crucial en cas de thrombopénie inexpliquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclut une cause virale de la thrombopénie",
+            "justification": "Le myélogramme n'est pas utilisé pour diagnostiquer directement une cause virale, qui est plutôt recherchée par d'autres examens biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet d'identifier des carences en vitamines",
+            "justification": "Les carences en vitamines ne nécessitent pas un myélogramme, elles sont diagnostiquées par des tests spécifiques, comme la mesure des taux de vitamine B12."
+          },
+          {
+            "correct": false,
+            "proposition": "Peut évaluer la présence de cellules anormales dans le sang",
+            "justification": "Le myélogramme analyse la moelle osseuse, pas directement les cellules circulantes, bien que des cellules anormales puissent y être retrouvées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756036272638_05",
+      "current_version_epoch_ms": 1756036272638,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "thromboP"
+      },
+      "data": {
+        "statement": "Quel est le rôle des anomalies sur l'hémogramme dans la décision de réaliser un myélogramme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les anomalies de l'hémogramme, comme l'anémie ou la neutropénie, justifient la réalisation d'un myélogramme",
+            "justification": "Les anomalies d'autres lignées sanguines, comme l'anémie ou la neutropénie, peuvent être des signes de pathologies hématologiques nécessitant un myélogramme."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies isolées d'une lignée ne justifient pas un myélogramme",
+            "justification": "Les anomalies isolées ne justifient pas un myélogramme à moins qu'elles ne soient accompagnées d'autres signes cliniques ou biologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies des plaquettes dans l'hémogramme nécessitent toujours un myélogramme",
+            "justification": "Les anomalies plaquettaires seules ne nécessitent pas un myélogramme, sauf si elles sont associées à d'autres anomalies."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies mineures sur l'hémogramme sont toujours insignifiantes",
+            "justification": "Les anomalies mineures doivent être interprétées dans le contexte clinique et ne justifient pas systématiquement un myélogramme."
+          },
+          {
+            "correct": true,
+            "proposition": "Les anomalies d'une lignée, associées à un syndrome tumoral, justifient un myélogramme",
+            "justification": "Lorsqu'une anomalie de l'hémogramme est accompagnée d'un syndrome tumoral, un myélogramme est nécessaire pour évaluer une pathologie hématologique."
+          }
+        ]
+      }
+    }
+  ]
+}
