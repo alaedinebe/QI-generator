@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dyspnee",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756012920072_01",
+      "current_version_epoch_ms": 1756012920072,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques de gravité d'une détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachypnée >25/min et recrutement des muscles inspiratoires et expiratoires",
+            "justification": "La tachypnée et le recrutement des muscles inspiratoires et expiratoires sont des signes de lutte respiratoire, indicatifs d'une dégradation de l'état respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle isolée",
+            "justification": "L'hypotension artérielle seule ne suffit pas à caractériser une détresse respiratoire grave, elle doit être associée à d'autres signes de défaillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose sans autre manifestation clinique",
+            "justification": "La cyanose isolée peut être un signe de gravité, mais elle doit être accompagnée d'autres signes de lutte ou de faillite respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Bradypnée extrême et altération de la vigilance",
+            "justification": "La bradypnée extrême et l'altération de la vigilance sont des signes de faillite respiratoire et de retentissement neurologique, nécessitant une intervention immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Respiration abdominale normale",
+            "justification": "La respiration abdominale normale ne constitue pas un signe de gravité, au contraire la respiration abdominale paradoxale est un signe de détresse respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012920072_02",
+      "current_version_epoch_ms": 1756012920072,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, quel est le signe gazométrique de gravité dans la détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acidose respiratoire non compensée (PaCO2 ≥ 45 mmHg et pH < 7,35)",
+            "justification": "L'acidose respiratoire non compensée, caractérisée par une PaCO2 ≥ 45 mmHg et un pH < 7,35, est un signe de défaillance respiratoire nécessitant une prise en charge immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxie isolée sans acidose",
+            "justification": "L'hypoxie seule, sans acidose respiratoire, ne constitue pas un critère de gravité suffisant pour la prise en charge immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 normale et pH légèrement élevé",
+            "justification": "Un pH légèrement élevé et une PaCO2 normale ne sont pas des signes de détresse respiratoire grave, contrairement à l'acidose respiratoire non compensée."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypocapnie légère (PaCO2 < 35 mmHg)",
+            "justification": "L'hypocapnie légère n'est pas un signe de gravité dans la détresse respiratoire, contrairement à une hypercapnie sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "PaCO2 ≥ 45 mmHg et pH < 7,35",
+            "justification": "Ce profil gazométrique indique une décompensation respiratoire grave, souvent associée à une acidose respiratoire non compensée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012920072_03",
+      "current_version_epoch_ms": 1756012920072,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels sont les signes cliniques de défaillance hémodynamique dans la détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle, marbrures, peau froide",
+            "justification": "Ces signes indiquent une défaillance hémodynamique, souvent observée dans les situations graves de détresse respiratoire avec hypoperfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle avec pâleur",
+            "justification": "L'hypertension artérielle n'est pas un signe de défaillance hémodynamique dans la détresse respiratoire, mais plutôt un signe de compensation."
+          },
+          {
+            "correct": true,
+            "proposition": "Oligurie et cœur pulmonaire aigu",
+            "justification": "L'oligurie et l'apparition d'un cœur pulmonaire aigu sont des signes de défaillance hémodynamique grave, indiquant une altération du débit cardiaque et une mauvaise perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthermie et sueurs abondantes",
+            "justification": "L'hyperthermie et les sueurs ne sont pas des signes caractéristiques de défaillance hémodynamique dans ce contexte. La peau froide et marbrée est plus indicative."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie isolée",
+            "justification": "La tachycardie seule n'est pas un signe de défaillance hémodynamique, mais plutôt une réponse compensatoire à la détresse respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012920072_04",
+      "current_version_epoch_ms": 1756012920072,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quels signes sont évocateurs d'un signe de lutte respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachypnée et battement des ailes du nez",
+            "justification": "La tachypnée et les battements des ailes du nez sont des signes de lutte respiratoire, reflétant l'effort compensatoire de l'organisme face à une détresse respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle et bradycardie",
+            "justification": "L'hypotension artérielle et la bradycardie ne sont pas des signes de lutte, mais plutôt des signes de défaillance circulatoire ou de choc."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose persistante sans autre signe",
+            "justification": "La cyanose persistante seule ne correspond pas à un signe de lutte respiratoire, bien qu'elle puisse être un signe de gravité."
+          },
+          {
+            "correct": true,
+            "proposition": "Recrutement des groupes musculaires inspiratoires et expiratoires",
+            "justification": "Le recrutement musculaire respiratoire est un signe de lutte intense contre l'insuffisance respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradypnée et respiration abdominale normale",
+            "justification": "La bradypnée et la respiration abdominale normale sont des signes de défaillance respiratoire, non de lutte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756012920072_05",
+      "current_version_epoch_ms": 1756012920072,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "dyspnee"
+      },
+      "data": {
+        "statement": "Quel est le critère gazométrique pour diagnostiquer une acidose respiratoire non compensée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaCO2 ≥ 45 mmHg et pH < 7,35",
+            "justification": "Ce critère est essentiel pour diagnostiquer une acidose respiratoire non compensée, indiquant une mauvaise élimination du CO2 par les poumons."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 < 35 mmHg et pH > 7,45",
+            "justification": "Ce profil est caractéristique d'une alcalose respiratoire, et non d'une acidose respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 entre 35 et 45 mmHg avec pH normal",
+            "justification": "Ce profil correspond à une situation stable, sans acidose respiratoire non compensée."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 ≥ 45 mmHg avec pH normal",
+            "justification": "Un pH normal avec une PaCO2 élevée n'indique pas nécessairement une acidose respiratoire non compensée, mais plutôt une compensation partielle."
+          },
+          {
+            "correct": false,
+            "proposition": "PaCO2 ≥ 45 mmHg avec pH > 7,45",
+            "justification": "Un pH supérieur à 7,45 exclut une acidose, en dépit d'une PaCO2 élevée."
+          }
+        ]
+      }
+    }
+  ]
+}
