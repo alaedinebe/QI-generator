@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hypoGly",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756107397856_01",
+      "current_version_epoch_ms": 1756107397856,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge d'une hypoglycémie modérée chez un patient conscient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Resucrage per os par le patient de 15 g de sucre (3 morceaux)",
+            "justification": "En cas d'hypoglycémie modérée, le patient est conscient et peut ingérer lui-même les glucides nécessaires pour corriger l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Injection de glucagon IM ou SC",
+            "justification": "L'injection de glucagon est réservée aux hypoglycémies très sévères, où le patient est inconscient ou en convulsions."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum G30% en IV 10 mL/20 kg de poids",
+            "justification": "Le sérum glucosé G30% est administré en cas d'hypoglycémie sévère ou très sévère, lorsque le patient est inconscient."
+          },
+          {
+            "correct": false,
+            "proposition": "Resucrage per os par un tiers de 15 g de sucre (3 morceaux)",
+            "justification": "Le resucrage par un tiers est indiqué en cas de conscience altérée mais où le patient peut encore avaler."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune mesure n'est nécessaire",
+            "justification": "Il est impératif d'intervenir en cas d'hypoglycémie, même modérée, pour éviter la progression vers une forme plus sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107397856_02",
+      "current_version_epoch_ms": 1756107397856,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quel est le traitement de choix en cas d'hypoglycémie sévère chez un patient qui ne peut pas s'administrer de sucre par voie orale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Injection de glucagon IM ou SC, puis resucrage per os",
+            "justification": "En cas d'hypoglycémie sévère avec inconscience, l'injection de glucagon permet de corriger rapidement la glycémie. Une fois le patient conscient, le resucrage per os peut être effectué."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum G30% en IV 10 mL/20 kg de poids, puis relais par G10%",
+            "justification": "Le sérum G30% est indiqué lorsque le glucagon n'est pas disponible, mais il est préférable d'administrer d'abord le glucagon."
+          },
+          {
+            "correct": false,
+            "proposition": "Resucrage per os par un tiers de 15 g de sucre (3 morceaux)",
+            "justification": "Cette mesure est adaptée aux hypoglycémies modérées où le patient peut avaler par lui-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Injections multiples de sérum G10% en IV",
+            "justification": "Le sérum G10% est administré après une première injection de G30% en cas de hypoglycémie sévère, mais l'option initiale est le glucagon."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune intervention n'est nécessaire tant que la personne est en vie",
+            "justification": "Un traitement est toujours nécessaire pour éviter la décompensation, en particulier avec des hypoglycémies sévères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107397856_03",
+      "current_version_epoch_ms": 1756107397856,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quel est le principal signe d'une hypoglycémie très sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coma et convulsions",
+            "justification": "En cas d'hypoglycémie très sévère, le patient est inconscient, avec un risque de coma ou de convulsions."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue et somnolence",
+            "justification": "Les signes de fatigue et de somnolence sont plus caractéristiques des hypoglycémies modérées, pas des formes très sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale et nausée",
+            "justification": "Ces symptômes peuvent être associés à d'autres conditions, mais ne sont pas des signes de gravité dans les hypoglycémies sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperactivité et agitation",
+            "justification": "Les hypoglycémies sévères sont associées à des symptômes neurologiques graves tels que coma et convulsions, pas à de l'agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthermie et sudation excessive",
+            "justification": "Ces symptômes sont plutôt liés à d'autres troubles neurologiques, et non à une hypoglycémie très sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107397856_04",
+      "current_version_epoch_ms": 1756107397856,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Que faire si le glucagon est indisponible pour traiter une hypoglycémie sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer du sérum G30% en IV 10 mL/20 kg de poids, puis relais par G10%",
+            "justification": "Si le glucagon est indisponible, la prise en charge consiste à administrer du sérum glucosé G30% par voie intraveineuse, suivi d'un relais par du G10%."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre l'amélioration spontanée",
+            "justification": "Attendre ne permet pas de traiter efficacement l'hypoglycémie sévère, ce qui pourrait mettre la vie du patient en danger."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer une dose plus élevée de sucre per os",
+            "justification": "Lorsque le patient est inconscient, il est impossible d'administrer du sucre per os. Une administration IV est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser de la kétamine pour stimuler la réponse glycémique",
+            "justification": "La kétamine n'est pas utilisée dans le traitement de l'hypoglycémie sévère. Le traitement repose sur l'administration de glucagon ou de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "Transférer immédiatement le patient en soins intensifs",
+            "justification": "Le transfert en soins intensifs peut être nécessaire dans certains cas graves, mais avant cela, un traitement urgent doit être administré pour stabiliser le patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107397856_05",
+      "current_version_epoch_ms": 1756107397856,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Comment évaluer la sévérité d'une hypoglycémie chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En fonction de l'état de conscience du patient",
+            "justification": "La sévérité de l'hypoglycémie est évaluée en fonction de l'état neurologique du patient, comme la conscience, la capacité à avaler et la présence de convulsions."
+          },
+          {
+            "correct": false,
+            "proposition": "En mesurant la glycémie uniquement",
+            "justification": "La mesure de la glycémie permet de confirmer l'hypoglycémie, mais l'état clinique du patient doit aussi être pris en compte pour évaluer la sévérité."
+          },
+          {
+            "correct": false,
+            "proposition": "En fonction de la vitesse de chute de la glycémie",
+            "justification": "Bien que la vitesse de chute puisse influencer les symptômes, la sévérité est d'abord déterminée par l'état clinique et neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "En évaluant la durée de l'hypoglycémie",
+            "justification": "La durée est moins importante que l'état clinique immédiat du patient dans la gestion de l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "En observant des signes externes comme la peau moite",
+            "justification": "Les signes externes comme la peau moite ne sont pas suffisants pour évaluer la sévérité d'une hypoglycémie."
+          }
+        ]
+      }
+    }
+  ]
+}
