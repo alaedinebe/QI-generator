@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "denutrition",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756127360918_01",
+      "current_version_epoch_ms": 1756127360918,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "denutrition"
+      },
+      "data": {
+        "statement": "Quel critère diagnostique permet de poser le diagnostic de dénutrition chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids ≥ 5% en 1 mois",
+            "justification": "La perte de poids rapide, surtout supérieure à 5% en 1 mois, est un critère clé pour diagnostiquer la dénutrition chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de poids ≥ 1% en 6 mois",
+            "justification": "Une perte de poids de seulement 1% en 6 mois n'est pas un critère suffisant pour le diagnostic de dénutrition."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC < courbe IOTF 20",
+            "justification": "Un IMC inférieur à 20 ne suffit pas à poser un diagnostic de dénutrition, selon les critères définis pour les enfants."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'agression nutritionnelle",
+            "justification": "Un manque d'agression nutritionnelle n'est pas un critère diagnostic en soi pour la dénutrition."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des apports alimentaires de 20% pendant une semaine",
+            "justification": "La réduction des apports alimentaires doit être ≥ 50% pendant plus d'une semaine pour répondre aux critères étiologiques de la dénutrition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756127360918_02",
+      "current_version_epoch_ms": 1756127360918,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "denutrition"
+      },
+      "data": {
+        "statement": "Quel est le critère qui définit une dénutrition modérée chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids ≥ 5% et ≤ 10% en 1 mois",
+            "justification": "Une perte de poids comprise entre 5% et 10% en 1 mois est un critère de dénutrition modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC ≤ courbe IOTF 17",
+            "justification": "Un IMC inférieur à la courbe IOTF 17 est un critère de dénutrition sévère, pas modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Stagnation pondérale avec un poids situé entre 2 et 3 couloirs en dessous du couloir habituel",
+            "justification": "La stagnation pondérale dans ce cas correspond à une dénutrition sévère, pas modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de poids > 15% en 6 mois",
+            "justification": "Une perte de poids supérieure à 15% en 6 mois définit une dénutrition sévère, pas modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Absorption réduite sans malnutrition sévère",
+            "justification": "La simple absorption réduite ne détermine pas à elle seule la sévérité de la dénutrition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756127360918_03",
+      "current_version_epoch_ms": 1756127360918,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "denutrition"
+      },
+      "data": {
+        "statement": "Quels critères permettent de qualifier une dénutrition comme sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de poids > 10% en 1 mois",
+            "justification": "Une perte de poids supérieure à 10% en 1 mois est un critère déterminant pour une dénutrition sévère."
+          },
+          {
+            "correct": true,
+            "proposition": "Stagnation pondérale aboutissant à un poids situé au moins 3 couloirs en dessous du couloir habituel",
+            "justification": "Cette stagnation pondérale excessive est un critère majeur de dénutrition sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de poids ≥ 5% en 1 mois",
+            "justification": "Une perte de poids inférieure à 10% en 1 mois correspond à une dénutrition modérée, pas sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Courbe IOTF17 < IMC < courbe IOTF18.5",
+            "justification": "Cet IMC définit une dénutrition modérée, pas sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'infléchissement statural",
+            "justification": "L'infléchissement statural (perte de taille) est un critère de dénutrition sévère, mais son absence n'exclut pas la sévérité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756127360918_04",
+      "current_version_epoch_ms": 1756127360918,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "denutrition"
+      },
+      "data": {
+        "statement": "Quelles sont les causes étiologiques principales de la dénutrition chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réduction de la prise alimentaire ≥ 50% pendant plus d'1 semaine",
+            "justification": "La réduction importante de la prise alimentaire est une cause étiologique majeure de la dénutrition."
+          },
+          {
+            "correct": false,
+            "proposition": "Inflammation aiguë isolée",
+            "justification": "L'inflammation aiguë seule ne justifie pas la dénutrition ; un hypercatabolisme protéique est nécessaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Absorption réduite (maldigestion/malabsorption)",
+            "justification": "La malabsorption ou la maldigestion contribue directement à la dénutrition par réduction des apports en nutriments."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des apports alimentaires",
+            "justification": "Une augmentation des apports alimentaires n'est pas une cause de dénutrition, au contraire."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des apports alimentaires de 10% pendant plus d'une semaine",
+            "justification": "Une réduction des apports alimentaires inférieure à 50% pendant une semaine ne correspond pas aux critères étiologiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756127360918_05",
+      "current_version_epoch_ms": 1756127360918,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "denutrition"
+      },
+      "data": {
+        "statement": "Quel critère est utilisé pour la classification de la dénutrition selon l'IMC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IMC < courbe IOTF 18,5",
+            "justification": "Un IMC inférieur à la courbe IOTF 18,5 est un critère pour la dénutrition modérée chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC ≤ courbe IOTF 17",
+            "justification": "Un IMC inférieur à la courbe IOTF 17 définit une dénutrition sévère, pas modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC entre 18,5 et 20",
+            "justification": "Un IMC entre 18,5 et 20 ne correspond pas aux critères de dénutrition définis."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC entre 20 et 25",
+            "justification": "Un IMC dans cette plage est compatible avec une nutrition normale, et non avec une dénutrition."
+          },
+          {
+            "correct": false,
+            "proposition": "IMC ≥ 25",
+            "justification": "Un IMC supérieur à 25 est considéré comme un surpoids ou une obésité, et non une dénutrition."
+          }
+        ]
+      }
+    }
+  ]
+}
