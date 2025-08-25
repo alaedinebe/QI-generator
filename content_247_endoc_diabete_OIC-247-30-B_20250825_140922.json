@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756123909593_01",
+      "current_version_epoch_ms": 1756123909593,
+      "rang": "B",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle est la méthode de réhydratation recommandée dans le traitement du coma hyperosmolaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sérum salé NaCl 0.9% à 10% du poids du corps, de façon lente et prudente",
+            "justification": "La réhydratation doit être effectuée lentement pour éviter les risques de myélinose centropontique et d'insuffisance cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum glucosé à 5% à haute vitesse",
+            "justification": "Le sérum glucosé n'est pas indiqué dans ce traitement, car il peut aggraver l'hyperosmolarité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum salé NaCl 0.9% à 20% du poids du corps",
+            "justification": "Un excès de réhydratation rapide augmente les risques de complications cardiaques et de myélinose."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum physiologique à 0.5% de NaCl",
+            "justification": "La concentration de NaCl à 0.5% est trop faible pour corriger efficacement l'hyperosmolarité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum NaCl 0.9% administré très rapidement",
+            "justification": "L'administration rapide peut provoquer des complications comme la myélinose centropontique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756123909593_02",
+      "current_version_epoch_ms": 1756123909593,
+      "rang": "B",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quand doit-on débuter l'insulinothérapie dans le coma hyperosmolaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la glycémie est supérieure à 2.5 g/l, avec un débit de 0.5 à 1 UI/kg/h",
+            "justification": "L'insulinothérapie est initiée à ces doses pour abaisser la glycémie et éviter les complications, sans dépasser 7 UI/h."
+          },
+          {
+            "correct": false,
+            "proposition": "Dès l'admission, indépendamment du taux de glycémie",
+            "justification": "L'insulinothérapie ne doit être débutée qu'une fois la glycémie supérieure à 2.5 g/l pour éviter une hypoglycémie trop rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement si la kaliémie est inférieure à 3 mmol/l",
+            "justification": "L'insulinothérapie ne dépend pas directement du niveau de kaliémie, mais de la glycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fois que la réhydratation est complète",
+            "justification": "L'insulinothérapie doit débuter dès que la glycémie dépasse 2.5 g/l, indépendamment de la réhydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient est stabilisé sous traitement antidiabétique oral",
+            "justification": "Le coma hyperosmolaire nécessite une insulinothérapie spécifique et intensive, pas un traitement oral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756123909593_03",
+      "current_version_epoch_ms": 1756123909593,
+      "rang": "B",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est le seuil de kaliémie qui justifie l'administration d'apports potassiques dans le coma hyperosmolaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la kaliémie est inférieure à 5 mmol/l",
+            "justification": "Des apports potassiques sont nécessaires dès que la kaliémie chute sous 5 mmol/l pour éviter des troubles cardiaques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la kaliémie est inférieure à 3 mmol/l",
+            "justification": "La kaliémie doit être inférieure à 5 mmol/l pour commencer les apports, et non 3 mmol/l."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la kaliémie est supérieure à 5 mmol/l",
+            "justification": "Une kaliémie supérieure à 5 mmol/l n'indique pas la nécessité d'apports potassiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la kaliémie est inférieure à 4 mmol/l",
+            "justification": "Le seuil clinique de 5 mmol/l est plus pertinent pour les apports en potassium."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la kaliémie est supérieure à 6 mmol/l",
+            "justification": "Un excès de potassium peut être dangereux, et ce n'est pas le seuil pour débuter les apports."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756123909593_04",
+      "current_version_epoch_ms": 1756123909593,
+      "rang": "B",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle surveillance clinique est essentielle dans la gestion du coma hyperosmolaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surveillance clinique du pouls, de la tension artérielle, de la température, de la diurèse et de la conscience",
+            "justification": "Cette surveillance permet de suivre l'évolution de l'état clinique du patient et de détecter les complications éventuelles."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance uniquement de la tension artérielle et de la température",
+            "justification": "La surveillance doit être plus complète, incluant la diurèse et la conscience."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance uniquement de la glycémie",
+            "justification": "Bien que la glycémie soit un paramètre important, la surveillance clinique doit couvrir d'autres aspects vitaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance uniquement de la diurèse et du pouls",
+            "justification": "D'autres paramètres, tels que la tension artérielle et la température, sont également essentiels."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de la glycémie et de l'ECG uniquement",
+            "justification": "L'ECG n'est pas une priorité pour cette surveillance clinique complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756123909593_05",
+      "current_version_epoch_ms": 1756123909593,
+      "rang": "B",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle mesure est préventive pour éviter la récidive du coma hyperosmolaire chez les personnes âgées ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Reprise du traitement hypoglycémiant oral ou insulinothérapie simplifiée, comme une insuline basale",
+            "justification": "Une insulinothérapie simplifiée permet un contrôle glycémique et une transition efficace à domicile pour éviter la récidive."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration systématique d'insuline à haute dose à domicile",
+            "justification": "L'insulinothérapie à haute dose n'est pas nécessaire dans la gestion à domicile, et elle peut comporter des risques."
+          },
+          {
+            "correct": false,
+            "proposition": "Arrêt complet du traitement antidiabétique à la sortie de l'hôpital",
+            "justification": "L'arrêt complet du traitement augmente le risque de récidive et doit être évité."
+          },
+          {
+            "correct": false,
+            "proposition": "Contrôle strict de la pression artérielle sans ajustement du traitement",
+            "justification": "Bien que le contrôle de la pression artérielle soit important, l'ajustement du traitement antidiabétique est essentiel pour prévenir la récidive."
+          },
+          {
+            "correct": false,
+            "proposition": "Repos au lit prolongé après la sortie de l'hôpital",
+            "justification": "Le repos au lit n'est pas une stratégie préventive recommandée pour la récidive du coma hyperosmolaire."
+          }
+        ]
+      }
+    }
+  ]
+}
