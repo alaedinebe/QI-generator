@@ -1,0 +1,117 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Savoir promouvoir l'activité physique OIC-249-06-B
+
+
+
+L'activité physique est recommandée en prévention secondaire et tertiaire de nombreuses maladies chroniques. Sa promotion et sa prescription adaptée sont un nouvel élément dans l'arsenal thérapeutique à disposition du médecin.
+
+L'activité physique (AP) recommandée est :
+-      Plus de 150 minutes par semaine d'AP d'intensité modérée (par exemple marche rapide : essoufflement modéré en aérobie)
+-      OU plus de 75 minutes par semaine d'AP d'intensité soutenue (par exemple course à pied)
+-       ET au moins 2 fois par semaine d'AP de renforcement musculaire
+-      Limiter la station assise prolongée
+-      +/- exercices d'équilibre chez la personne âgée à risque de chutes.
+
+Pour pouvoir en retirer des bénéfices supplémentaires sur le plan de la santé et en l'absence de contre-indications, les adultes devraient augmenter la durée de leur activité d'endurance d'intensité modérée de façon à atteindre 300 minutes par semaine ou pratiquer 150 minutes par semaine d'activité d'endurance d'intensité soutenue, ou une combinaison équivalente d'activité d'intensité modérée et soutenue.
+
+Conseils pour l'activité physique
+•       Présenter l'activité physique à la fois comme un enjeu pour la santé (diminution du risque cardiovasculaire, amélioration de la condition physique…) mais aussi pour la qualité de vie (exutoire des tensions, lien social, reprise de conscience du corps, amélioration du sommeil, etc…). Les bénéfices potentiels sont à énoncer en fonction des besoins de la personne, et mieux encore, à lui faire énoncer.
+•       Questionner les activités physiques et sportives antérieures pour déterminer le niveau de pratique (compétition) et le niveau habituel de sédentarité, le vécu de la personne face à ses activités et les raisons de leur interruption éventuelle.
+•       Les conseils doivent être replacés dans une perspective de progression individuelle, par étapes et à long terme, au plus près du quotidien et milieu de vie de la personne pour favoriser la mise en place et la pérennité.
+•       Dans certains cas l'activité physique sera prioritaire en première intention. Dans d'autres cas, les conseils viendront dans un second temps (ex : après mise en place d'un soutien psychosocial ou traitement d'un syndrome d'apnées du sommeil).
+
+Adultes souffrant de ces maladies chroniques : pratiquer des activités de renforcement musculaire d'intensité modérée ou supérieure (après programme de réadaptation en cas de pathologies cardiovasculaires ou BPCO), impliquant tous les principaux groupes musculaires, au moins deux jours par semaine, car elles apportent des bénéfices supplémentaires.
+Personnes âgées : également pratiquer une activité physique variée et multicomposante qui met l'accent sur l'équilibre fonctionnel et l'entraînement de la force à une intensité modérée ou supérieure, au moins trois jours par semaine, afin d'améliorer la capacité fonctionnelle et de prévenir les chutes.
+
+Cf Fiche LISA Item 248 Savoir promouvoir l'activité physique OIC-249-06-BL'activité physique est recommandée en prévention secondaire et tertiaire de nombreuses maladies chroniques. Sa promotion et sa prescription adaptée sont un nouvel élément dans l'arsenal thérapeutique à disposition du médecin.L'activité physique (AP) recommandée est :-Plus de 150 minutes par semained'AP d'intensité modérée(par exemple marche rapide : essoufflement modéré en aérobie)-OUplus de 75 minutes par semaine d'AP d'intensité soutenue(par exemple course à pied)-ET au moins 2 fois par semaine d'AP de renforcement musculaire-      Limiter la station assise prolongée-      +/- exercices d'équilibre chez la personne âgée à risque de chutes.Pour pouvoir en retirer des bénéfices supplémentaires sur le plan de la santé et en l'absence de contre-indications, les adultes devraient augmenter la durée de leur activité d'endurance d'intensité modérée de façon à atteindre 300 minutes par semaine ou pratiquer 150 minutes par semaine d'activité d'endurance d'intensité soutenue, ou une combinaison équivalente d'activité d'intensité modérée et soutenue.Conseils pour l'activité physique•       Présenter l'activité physique à la fois comme un enjeu pour la santé (diminution du risque cardiovasculaire, amélioration de la condition physique…) mais aussi pour la qualité de vie (exutoire des tensions, lien social, reprise de conscience du corps, amélioration du sommeil, etc…). Les bénéfices potentiels sont à énoncer en fonction des besoins de la personne, et mieux encore, à lui faire énoncer.•       Questionner les activités physiques et sportives antérieures pour déterminer le niveau de pratique (compétition) et le niveau habituel de sédentarité, le vécu de la personne face à ses activités et les raisons de leur interruption éventuelle.•       Les conseils doivent être replacés dans une perspective de progression individuelle, par étapes et à long terme, au plus près du quotidien et milieu de vie de la personne pour favoriser la mise en place et la pérennité.•       Dans certains cas l'activité physique sera prioritaire en première intention. Dans d'autres cas, les conseils viendront dans un second temps (ex : après mise en place d'un soutien psychosocial ou traitement d'un syndrome d'apnées du sommeil).Adultes souffrant de ces maladies chroniques : pratiquer des activités de renforcement musculaire d'intensité modérée ou supérieure (après programme de réadaptation en cas de pathologies cardiovasculaires ou BPCO), impliquant tous les principaux groupes musculaires, au moins deux jours par semaine, car elles apportent des bénéfices supplémentaires.Personnes âgées : également pratiquer une activité physique variée et multicomposante qui met l'accent sur l'équilibre fonctionnel et l'entraînement de la force à une intensité modérée ou supérieure, au moins trois jours par semaine, afin d'améliorer la capacité fonctionnelle et de prévenir les chutes.Cf Fiche LISA Item 248
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

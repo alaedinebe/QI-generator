@@ -1,0 +1,123 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les principes de la prise en charge du goitre et des nodules (à l'exception du cancer) OIC-241-13-B
+
+
+
+
+
+ Prise en charge des goitres et nodules thyroïdiens en fonction des situations cliniques
+Les possibilités de prise en charge du goitre et des nodules sont discutés avec le patient afin de lui proposer une conduite à tenir adaptée selon son cas.[1]
+
+1. Goitre :
+- Une surveillance peut être proposée en cas des goitres multinodulaires en euthyroïdie, sans effet compressif et sans suspicion de malignité 
+- Un traitement radical est discuté en cas de présence des signes clinique (gêne cervicale), en cas d'évolution vers une hyperthyroïdie, devant un nodule suspect ou un goitre endothoracique. 
+- L'administration d'une dose thérapeutique d'iode 131 peut être proposée en cas d'hyperthyroïdie, chez un sujet âgé ou en mauvais état général 
+
+2. Nodules thyroïdiens hyperfonctionnels responsables d'une hyperthyroïdie :
+- une chirurgie (lobectomie) 
+- le traitement par l'iode radioactif (iode 131) - chez les patients âgés ou fragiles Hyperthyroïdie
+
+3. Nodules thyroïdiens non fonctionnels :
+-  une surveillance clinique et échographique en cas de nodules bénins
+-  une sanction chirurgicale est proposée dans les situations suivantes:
+
+nodule bénin est volumineux (> 40 mm) et responsable d'une gêne fonctionnelle, ou progresse de taille
+nodule suspect ou malin
+nodule indéterminé (selon la classification cytologique Bethesda), la prise en charge est discutée avec le patient au cas par cas suivant le contexte.
+
+
+
+↑ Polycopié du Collège des Enseignants d'Endocrinologie, Diabète et Maladies Métaboliques (4ème édition, 2019)
+
+ Connaître les principes de la prise en charge du goitre et des nodules (à l'exception du cancer) OIC-241-13-BPrise en charge des goitres et nodules thyroïdiens en fonction des situations cliniquesLes possibilités de prise en charge du goitre et des nodules sont discutés avec le patient afin de lui proposer une conduite à tenir adaptée selon son cas.[1]1. Goitre :- Une surveillance peut être proposée en cas des goitres multinodulaires en euthyroïdie, sans effet compressif et sans suspicion de malignité- Un traitement radical est discuté en cas de présence des signes clinique (gêne cervicale), en cas d'évolution vers une hyperthyroïdie, devant un nodule suspect ou un goitre endothoracique.- L'administration d'une dose thérapeutique d'iode 131 peut être proposée en cas d'hyperthyroïdie, chez un sujet âgé ou en mauvais état général2. Nodules thyroïdiens hyperfonctionnelsresponsables d'une hyperthyroïdie :- une chirurgie (lobectomie)- le traitement par l'iode radioactif (iode 131) - chez les patients âgés ou fragilesHyperthyroïdie3. Nodules thyroïdiens non fonctionnels :-  une surveillance clinique et échographique en cas de nodules bénins-  une sanction chirurgicale est proposée dans les situations suivantes:nodule bénin est volumineux (> 40 mm) et responsable d'une gêne fonctionnelle, ou progresse de taillenodule suspect ou malinnodule indéterminé (selon la classification cytologique Bethesda), la prise en charge est discutée avec le patient au cas par cas suivant le contexte.↑Polycopié du Collège des Enseignants d'Endocrinologie, Diabète et Maladies Métaboliques (4ème édition, 2019)
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

@@ -1,0 +1,230 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître les principes de prise en charge thérapeutiques de l'IVC OIC-227-10-B
+2 Hygiène de vie
+3 Compression élastique
+4 Traitement médicamenteux
+5 Sclérothérapie, techniques thermiques endoveineuses et chirurgie
+
+5.1 Sclérothérapie
+5.2 Techniques thermiques endoveineuses
+5.3 Chirurgie
+5.4 Crénothérapie ou cure thermale
+
+
+
+
+Connaître les principes de prise en charge thérapeutiques de l'IVC OIC-227-10-B
+
+
+
+
+
+Hygiène de vie
+Les modifications thérapeutiques du mode de vie consistent à favoriser le retour veineux afin de diminuer l'hyperpression veineuse et s'appliquent à tous les stades de l'insuffisance veineuse et des varices :
+
+surélévation des jambes, surélévation des pieds du lit de 7-10 cm,
+lutte contre la sédentarité,
+marche régulière quotidienne,
+éviter de croiser les jambes en position assise,
+éviter les stations debout et immobile prolongées,
+lutte contre le surpoids et l'obésité,
+éviter le chauffage par le sol, les bains chauds et l'exposition prolongée au soleil,
+prise en charge de la constipation.
+Compression élastique
+Il s'agit d'appliquer sur un segment de membre une pression par un matériel élastique (bandes, chaussettes, bas auto-fixants, collants). Cette pression sera naturellement dégressive de la cheville à la cuisse en raison de la morphologie du membre. Son action passe par un effet hémodynamique (troncs veineux) et microcirculatoire. Son efficacité est maximale lorsque la pose se fait le matin dans l'heure qui suit le lever. Sa pose nécessite parfois l'utilisation de dispositifs d'aide à l'enfilage ou le recours à une tierce personne.
+Pour les chaussettes, bas et collants de compression élastique, il existe 4 classes en fonction de la pression exercée au niveau de la cheville (entre 10 et 15 mmHg : classe I ; entre 15,1 et 20 mmHg : classe II ; entre 20,1 et 36 mmHg : classe III ; > 36 mmHg : classe IV). Les indications sont résumées dans le tableau construit à partir des recommandations de l'HAS de 2010 (tableau ci-dessous). L'IVC fonctionnelle est une indication de compression de classe I. L' insuffisance lymphatique est une indication de compression de classe IV.
+Les contre-indications à une compression élastique sont : artériopathie oblitérante avec IPS < 0,60 ; thrombose veineuse septique ; phlegmatia caerulae ; microangiopathie diabétique avec TcPO2 < 30 mmHg.
+Une réévaluation régulière du rapport bénéfice/risque de la compression s'impose en cas de : AOMI avec IPS entre 0,60 et 0,90 ; neuropathie périphérique évoluée ; dermatose suintante ou eczématisée ; intolérance aux fibres utilisées.
+
+
+
+Situation clinique
+
+Dispositifs
+
+Modalités
+
+
+Varices >  3 mm
+
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe II ou III
+
+
+Au long cours
+
+
+Après sclérothérapie, traitement thermique ou stripping (variable selon les équipes)
+
+- Bas-cuisse
+- Classe II ou III
+
+
+4 à 6 semaines (variable selon les équipes)
+
+
+Œdème chronique d'origine veineuse
+
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe III
+
+
+Au long cours
+Ré-évaluation régulière
+du rapport bénéfices/risques
+
+
+
+Pigmentation, eczéma
+veineux
+
+
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe III
+
+
+
+Lipodermatosclérose,
+hypodermite veineuse,
+atrophie blanche
+
+
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe III
+
+
+
+Ulcère cicatrisé
+
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe III ou IV
+
+
+
+Ulcère ouvert
+
+- Bandages multitypes en première intention
+- Bas-jarret (chaussettes), bas-cuisse, collant
+- Classe III ou IV (maximum toléré)
+
+
+Jusqu'à cicatrisation
+complète
+
+
+Traitement médicamenteux
+Les médicaments veinotoniques ne sont prescrits qu'en cas de symptomatologie fonctionnelle (gêne, lourdeur des jambes) et à titre adjuvant d'une hygiène de vie adaptée et d'une compression élastique. Ils sont prescrits de manière séquentielle pendant de courtes durées.
+
+Sclérothérapie, techniques thermiques endoveineuses et chirurgie
+Ces traitements sont indiqués en cas de varices symptomatiques et ont pour objectif de « détruire » les veines pathologiques. L'indication doit tenir compte aussi du terrain. Chez les patients présentant des facteurs de risque cardio-vasculaires ou une maladie athéromateuse (coronaropathie, artériopathie oblitérante...), il faut, dans la mesure du possible, préserver le capital veineux pouvant servir ultérieurement, en l'absence de varice importante, à un pontage artériel. Les varices secondaires à un syndrome post-thrombotique doivent habituellement être respectées car elles peuvent suppléer l'obstruction veineuse profonde; le traitement se fait au cas par cas si une insuffisance veineuse superficielle aggrave une insuffisance veineuse profonde.
+Le choix de la technique dépend de la localisation, de l'aspect et du diamètre des varices.
+
+Sclérothérapie
+Elle consiste à injecter par voie percutanée un produit sclérosant (produit liquide ou produit sous forme de mousse) dans une varice. L'injection peut se faire sous contrôle échographique (= échosclérothérapie). Elle peut être réalisée seule ou en complément d'une autre technique.
+L'inflammation endothéliale générée va évoluer vers une cicatrisation fibreuse et rétractile de la veine traitée.
+Ses indications sont larges à partir du stade C2 de la CEAP.
+Les possibles complications ne doivent néanmoins pas faire banaliser ce traitement (hématome, pigmentation séquellaire et injection intra-artérielle particulièrement grave mais exceptionnelle). La balance bénéfice/risque doit donc être particulièrement évaluée dans les formes peu sévères d'IVC et l'information éclairée au patient est obligatoire.
+
+Techniques thermiques endoveineuses
+Les techniques thermiques endoveineuses (laser ou radiofréquence) ont supplanté les techniques chirurgicales classiques. Elles représentent, quand elles sont réalisables, le traitement de première intention en l'absence d'indication de sclérothérapie. Elles peuvent être réalisées sans anesthésie générale et permettent une reprise rapide de l'activité physique et professionnelle. Elles consistent en une destruction pariétale veineuse par effet thermique après réalisation d'une anesthésie tout autour de la veine à traiter.
+
+Chirurgie
+Ses indications sont de plus en plus réduites. Les techniques les plus fréquentes sont l'éveinage par stripping et les phlébectomies.
+Le stripping est indiqué dans les formes étendues et tortueuses, nécessite une anesthésie générale ou loco-régionale et un arrêt de travail.
+Les phlébectomies consistent en une ablation de segments de veines variqueuses superficielles par micro-incisions cutanées sous anesthésie locale. Les phlébectomies peuvent être réalisées de façon étagée en respectant le tronc saphène.
+
+Crénothérapie ou cure thermale
+La crénothérapie peut être proposée comme traitement adjuvant dans quelques cas ciblés restant symptomatiques après une prise en charge médicale ou interventionnelle (IVC avec retentissement cutané important, syndrome post-thrombotique invalidant, lymphœdème invalidant). Sommaire1Connaître les principes de prise en charge thérapeutiques de l'IVC OIC-227-10-B2Hygiène de vie3Compression élastique4Traitement médicamenteux5Sclérothérapie, techniques thermiques endoveineuses et chirurgie5.1Sclérothérapie5.2Techniques thermiques endoveineuses5.3Chirurgie5.4Crénothérapie ou cure thermaleConnaître les principes de prise en charge thérapeutiques de l'IVC OIC-227-10-BHygiène de vieLesmodifications thérapeutiques du mode de vieconsistent à favoriser le retour veineux afin de diminuer l'hyperpression veineuse et s'appliquent à tous les stades de l'insuffisance veineuse et des varices :surélévation des jambes, surélévation des pieds du lit de 7-10 cm,lutte contre la sédentarité,marche régulière quotidienne,éviter de croiser les jambes en position assise,éviter les stations debout et immobile prolongées,lutte contre lesurpoids et l'obésité,éviter le chauffage par le sol, les bains chauds et l'exposition prolongée au soleil,prise en charge de la constipation.Compression élastiqueIl s'agit d'appliquer sur un segment de membre une pression par un matériel élastique (bandes, chaussettes, bas auto-fixants, collants). Cette pression sera naturellement dégressive de la cheville à la cuisse en raison de la morphologie du membre. Son action passe par un effet hémodynamique (troncs veineux) et microcirculatoire. Son efficacité est maximale lorsque la pose se fait le matin dans l'heure qui suit le lever. Sa pose nécessite parfois l'utilisation de dispositifs d'aide à l'enfilage ou le recours à une tierce personne.Pour les chaussettes, bas et collants de compression élastique, il existe 4 classes en fonction de la pression exercée au niveau de la cheville (entre 10 et 15 mmHg : classe I ; entre 15,1 et 20 mmHg : classe II ; entre 20,1 et 36 mmHg : classe III ; > 36 mmHg : classe IV). Les indications sont résumées dans le tableau construit à partir des recommandations de l'HAS de 2010 (tableau ci-dessous). L'IVC fonctionnelle est une indication de compression de classe I. L' insuffisance lymphatique est une indication de compression de classe IV.Les contre-indications à une compression élastique sont : artériopathie oblitérante avec IPS < 0,60 ; thrombose veineuse septique ; phlegmatia caerulae ; microangiopathie diabétique avec TcPO2 < 30 mmHg.Une réévaluation régulière du rapport bénéfice/risque de la compression s'impose en cas de : AOMI avec IPS entre 0,60 et 0,90 ; neuropathie périphérique évoluée ; dermatose suintante ou eczématisée ; intolérance aux fibres utilisées.Situation cliniqueDispositifsModalitésVarices >  3 mm- Bas-jarret (chaussettes), bas-cuisse, collant- Classe II ou IIIAu long coursAprès sclérothérapie, traitement thermique ou stripping (variable selon les équipes)- Bas-cuisse- Classe II ou III4 à 6 semaines (variable selon les équipes)Œdème chronique d'origine veineuse- Bas-jarret (chaussettes), bas-cuisse, collant- Classe IIIAu long coursRé-évaluation régulièredu rapport bénéfices/risquesPigmentation, eczémaveineux- Bas-jarret (chaussettes), bas-cuisse, collant- Classe IIILipodermatosclérose,hypodermite veineuse,atrophie blanche- Bas-jarret (chaussettes), bas-cuisse, collant- Classe IIIUlcère cicatrisé- Bas-jarret (chaussettes), bas-cuisse, collant- Classe III ou IVUlcère ouvert- Bandages multitypes en première intention- Bas-jarret (chaussettes), bas-cuisse, collant- Classe III ou IV (maximum toléré)Jusqu'à cicatrisationcomplèteTraitement médicamenteuxLes médicaments veinotoniques ne sont prescrits qu'en cas de symptomatologie fonctionnelle (gêne, lourdeur des jambes) et à titre adjuvant d'une hygiène de vie adaptée et d'une compression élastique. Ils sont prescrits de manière séquentielle pendant de courtes durées.Sclérothérapie, techniques thermiques endoveineuses et chirurgieCes traitements sont indiqués en cas de varices symptomatiques et ont pour objectif de « détruire » les veines pathologiques. L'indication doit tenir compte aussi du terrain. Chez les patients présentant des facteurs de risque cardio-vasculaires ou une maladie athéromateuse (coronaropathie, artériopathie oblitérante...), il faut, dans la mesure du possible, préserver le capital veineux pouvant servir ultérieurement, en l'absence de varice importante, à un pontage artériel. Les varices secondaires à un syndrome post-thrombotique doivent habituellement être respectées car elles peuvent suppléer l'obstruction veineuse profonde; le traitement se fait au cas par cas si une insuffisance veineuse superficielle aggrave une insuffisance veineuse profonde.Le choix de la technique dépend de la localisation, de l'aspect et du diamètre des varices.SclérothérapieElle consiste à injecter par voie percutanée un produit sclérosant (produit liquide ou produit sous forme de mousse) dans une varice. L'injection peut se faire sous contrôle échographique (= échosclérothérapie). Elle peut être réalisée seule ou en complément d'une autre technique.L'inflammation endothéliale générée va évoluer vers une cicatrisation fibreuse et rétractile de la veine traitée.Ses indications sont larges à partir du stade C2 de la CEAP.Les possibles complications ne doivent néanmoins pas faire banaliser ce traitement (hématome, pigmentation séquellaire et injection intra-artérielle particulièrement grave mais exceptionnelle). La balance bénéfice/risque doit donc être particulièrement évaluée dans les formes peu sévères d'IVC et l'information éclairée au patient est obligatoire.Techniques thermiques endoveineusesLes techniques thermiques endoveineuses (laser ou radiofréquence) ont supplanté les techniques chirurgicales classiques. Elles représentent, quand elles sont réalisables, le traitement de première intention en l'absence d'indication de sclérothérapie. Elles peuvent être réalisées sans anesthésie générale et permettent une reprise rapide de l'activité physique et professionnelle. Elles consistent en une destruction pariétale veineuse par effet thermique après réalisation d'une anesthésie tout autour de la veine à traiter.ChirurgieSes indications sont de plus en plus réduites. Les techniques les plus fréquentes sont l'éveinage par stripping et les phlébectomies.Le stripping est indiqué dans les formes étendues et tortueuses, nécessite une anesthésie générale ou loco-régionale et un arrêt de travail.Les phlébectomies consistent en une ablation de segments de veines variqueuses superficielles par micro-incisions cutanées sous anesthésie locale. Les phlébectomies peuvent être réalisées de façon étagée en respectant le tronc saphène.Crénothérapie ou cure thermaleLa crénothérapie peut être proposée comme traitement adjuvant dans quelques cas ciblés restant symptomatiques après une prise en charge médicale ou interventionnelle (IVC avec retentissement cutané important, syndrome post-thrombotique invalidant, lymphœdème invalidant).
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

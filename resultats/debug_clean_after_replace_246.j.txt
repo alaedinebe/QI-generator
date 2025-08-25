@@ -1,0 +1,120 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les causes endocriniennes de gynécomastie OIC-246-08-B
+
+
+
+
+Nous rappelons que l'exploration hormonale minimale indispensable comporte les dosages sanguins de T4 libre, TSH, hCG, testostérone totale, LH, FSH, prolactine et œstradiol. Cette exploration hormonale doit être complétée systématiquement par une échographie testiculaire.
+
+L'insuffisance testiculaire, ou hypogonadisme périphérique est responsable de 8 % des gynécomasties. Cliniquement peuvent s'associer des signes d'insuffisance gonadique et une diminution de volume des gonades à la palpation testiculaire Anomalie des bourses SD-108 . La gynécomastie peut être le premier signe d'un hypogonadisme périphérique.
+Le diagnostic repose sur l'élévation des gonadotrophines avec testostérone basse (ou parfois encore normale).
+Le syndrome de Klinefelter (caryotype 47,XXY) en est l'étiologie la plus fréquente (40 % des patients porteurs d'un syndrome de Klinefelter ont une gynécomastie). Le diagnostic est fait par le caryotype.
+
+L'Hypogonadisme d'origine hypothalamique ou hypophysaire, ou hypogonadisme hypogonadotrope, associe cliniquement à la gynécomastie des signes d'hypogonadisme. En fonction de l'étiologie, peuvent s'associer cliniquement d'autres signes d'insuffisance antéhypophysaire ou d'autres signes cliniques en rapport avec l'étiologie (adénome hypophysaire, tumeur de la région hypothalamo-hypophysaire, hypercortisolisme…) (Adénome hypophysaire 244)
+Le diagnostic repose sur une testostérone basse associée à une non-élévation des gonadotrophines (FSH et LH abaissées ou normales)
+Une imagerie de la région hypophysaire par scanner ou IRM est alors indispensable, de même qu'un dosage de prolactine. L'hyperprolactinémie freine la sécrétion des gonadotrophines et donc de la testostérone et stimule le développement mammaire, quelle que soit la cause de l'hyperprolactinémie. 
+
+L'hyperthyroïdie : La gynécomastie est rarement signe révélateur d'une hyperthyroïdie (Hyperthyroïdie 242) (cf intitulé physiologie)
+
+Les autres causes tumorales sont plus rares :
+
+Tumeur sécrétant des œstrogènes (concentration élevée (> 40 pg/ml) d'œstradiol, associée ou non à une testostéronémie basse) testiculaire le plus souvent (leydigome) ou surrénalienne (tumeur maligne : corticosurrénalome)). L'échographie testiculaire constitue l'examen clé. Elle permet même parfois de visualiser des tumeurs non palpables. (Tumeurs testiculaires 313)
+Tumeurs sécrétant hCG : Un dosage d'hCG est indispensable. En cas d'élévation, ceci justifie la réalisation d'abord d'une échographie testiculaire à la recherche d'une tumeur maligne germinale (choriocarcinome testiculaire) (Tumeurs testiculaires 313) et d'une IRM cérébrale (germinome hypothalamique) (Tumeurs intracrâniennes 299) Ces tumeurs sécrétant de l'hCG peuvent intéresser les bronches, le foie. Un scanner est toujours indiqué lors du bilan d'extension de ces tumeurs malignes
+
+
+
+Stratégie diagnostique en cas de gynécomastie
+
+ Arbre diagnostique d'une gynécomastie
+ Connaître les causes endocriniennes de gynécomastie OIC-246-08-BNous rappelons que l'exploration hormonale minimale indispensable comporte les dosages sanguins de T4 libre, TSH, hCG, testostérone totale, LH, FSH, prolactine et œstradiol. Cette exploration hormonale doit être complétée systématiquement par une échographie testiculaire.L'insuffisance testiculaire, ou hypogonadisme périphériqueest responsable de 8 % des gynécomasties. Cliniquement peuvent s'associer des signes d'insuffisance gonadique et une diminution de volume des gonades à la palpation testiculaireAnomalie des bourses SD-108. La gynécomastie peut être le premier signe d'un hypogonadisme périphérique.Le diagnostic repose sur l'élévation des gonadotrophines avec testostérone basse (ou parfois encore normale).Lesyndrome de Klinefelter(caryotype 47,XXY) en est l'étiologie la plus fréquente (40 % des patients porteurs d'un syndrome de Klinefelter ont une gynécomastie). Le diagnostic est fait par le caryotype.L'Hypogonadisme d'origine hypothalamique ou hypophysaire, ou hypogonadisme hypogonadotrope,associe cliniquement à la gynécomastie des signes d'hypogonadisme. En fonction de l'étiologie, peuvent s'associer cliniquement d'autres signes d'insuffisance antéhypophysaire ou d'autres signes cliniques en rapport avec l'étiologie (adénome hypophysaire, tumeur de la région hypothalamo-hypophysaire, hypercortisolisme…) (Adénome hypophysaire 244)Le diagnostic repose sur une testostérone basse associée à une non-élévation des gonadotrophines (FSH et LH abaissées ou normales)Une imagerie de la région hypophysaire par scanner ou IRM est alors indispensable, de même qu'undosage de prolactine.L'hyperprolactinémie freine la sécrétion des gonadotrophines et donc de la testostérone et stimule le développement mammaire, quelle que soit la cause de l'hyperprolactinémie.L'hyperthyroïdie: La gynécomastie est rarement signe révélateur d'une hyperthyroïdie (Hyperthyroïdie 242) (cf intitulé physiologie)Les autres causes tumorales sont plus rares :Tumeur sécrétant des œstrogènes (concentration élevée (> 40 pg/ml) d'œstradiol, associée ou non à une testostéronémie basse)testiculaire le plus souvent (leydigome)ou surrénalienne (tumeur maligne : corticosurrénalome)).L'échographie testiculaire constitue l'examen clé. Elle permet même parfois de visualiser des tumeurs non palpables. (Tumeurs testiculaires 313)Tumeurs sécrétant hCG :Un dosage d'hCG est indispensable. En cas d'élévation, ceci justifie la réalisation d'abord d'uneéchographie testiculaireà la recherche d'une tumeur maligne germinale (choriocarcinome testiculaire) (Tumeurs testiculaires 313) et d'uneIRM cérébrale(germinome hypothalamique) (Tumeurs intracrâniennes 299) Ces tumeurs sécrétant de l'hCG peuvent intéresser les bronches, le foie. Un scanner est toujours indiqué lors du bilan d'extension de ces tumeurs malignesStratégie diagnostique en cas de gynécomastieArbre diagnostique d'une gynécomastie
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

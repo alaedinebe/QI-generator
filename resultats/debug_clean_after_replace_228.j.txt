@@ -1,0 +1,160 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Sommaire
+
+1 Connaître les complications des ulcères : allergies cutanées (eczéma de contact), infection et transformation maligne OIC-228-15-A
+2 Allergies cutanées
+3 Infection
+4 Transformation maligne
+5 Tétanos
+
+
+Savoir diagnostiquer un ulcère veineux, artériel, mixte OIC-228-02-A
+
+
+
+
+La distinction entre l'origine veineuse, artérielle ou artériolaire (angiodermite nécrotique) se fait en fonction de :
+
+l'extension (superficie et profondeur),
+la douleur,
+la localisation,
+les signes associés,
+les comorbidités.
+Dans certains cas, l'origine peut être mixte artérielle et veineuse.
+
+L'ulcère veineux
+ Ulcères veineux
+L'origine veineuse de l'ulcère est évoquée devant :
+localisation péri-malléolaire ;
+caractère peu ou pas douloureux ;
+extension superficielle (non creusant, pas d'exposition articulaire ou tendineuse) ;
+caractère exsudatif ;
+souvent étendu, parfois circonférentiel ;
+bords irréguliers, peu nets.
+En présence d'un ulcère d'origine veineuse on recherche :
+des antécédents de thrombose veineuse profonde (TVP) ou thrombose veineuse superficielle (TVS)
+des varices;
+des complications cutanées de l'insuffisance veineuse (œdème, eczéma, atrophie blanche, dermite ocre, lipodermatosclérose) ;
+Les pouls sont présents et les indices de pression systolique de cheville (IPS) normaux.    
+Un écho doppler veineux profond et superficiel confirmera l'origine veineuse et pourra guider le traitement étiologique.     
+
+L'ulcère artériel
+ Ulcères artériels
+L'origine artérielle de l'ulcère est évoquée devant :
+ douloureux (douleur chronique ; douleur d'un membre) ;
+ souvent récent ;
+de petite taille ;
+ siégeant typiquement au niveau du pied ;
+ creusant avec risque d'exposition des articulations et des tendons ;
+ à fond atone;
+à bords nets et réguliers.
+En présence d'un ulcère d'origine artérielle on recherche :
+ des facteurs de risque cardiovasculaire ;
+ un antécédent d'ischémie d'effort (claudication intermittente) ;
+ des douleurs de décubitus ;
+ une diminution de la chaleur cutanée ;
+ un allongement du temps de recoloration pulpaire ;
+ une déshabitation des pulpes digitales et des coques talonnières et des coques talonnières (syndrome de la pulpe vide, aspect de fruit flétri) ;
+ une érythrocyanose de déclivité ;
+une abolition des pouls périphériques.
+Devant un ulcère artériel on demande : 
+- un indice de pression systolique de cheville (IPS) < 0,90 permet de confirmer la présence d'une artériopathie oblitérante des membres inférieurs et justifie la réalisation d'un écho-Doppler. En cas de médiacalcose la pression de cheville peut etre faussement normale ou elevée (diabète, insuffisance rénale, grand âge). Dans ce cas il faut mesurer la pression d'orteil. 
+- Une mesure hémodynamique est indispensable pour attribuer le trouble trophique à l'AOMI : pression de cheville < 50 mmHg ; pression d'orteil < 30 mmHg ; TcPO2 < 30 mmHg. 
+- Un écho-Doppler de l'aorte et des artères de membres inférieurs : cet examen permet de localiser les lésions artérielles significatives.
+- On complète, en cas d'indication de revascularisation, par une imagerie artérielle en coupes (angiosanner ou angioIRM) (rédaction de la demande d'un examen d'imagerie ).
+
+L'ulcère mixte
+Il s'agit d'un ulcère associant plusieurs composantes étiologiques (par exemple veineuse et artérielle) qui survient chez un patient ayant une artériopathie avec ischémie de repos. Il est souvent nécessaire d'envisager un geste de revascularisation artérielle. Cliniquement, il s'agit le plus souvent d'un ulcère d'allure veineuse, peu sensible au traitement local, avec pouls abolis et pression d'orteil abaissée. On recherche les facteurs de risque cardiovasculaire, une abolition des pouls, une dermite ocre. On mesure les IPS ou la pression d'orteil chez les sujets à risque de médiacalcose.
+
+Un écho-Doppler veineux et artériel est réalisé voire une imagerie artérielle en coupes (par angioscanner ou angioIRM) lorsqu'une revascularisation artérielle est envisagée. Sommaire1Connaître les complications des ulcères : allergies cutanées (eczéma de contact), infection et transformation maligne OIC-228-15-A2Allergies cutanées3Infection4Transformation maligne5TétanosSavoir diagnostiquer un ulcère veineux, artériel, mixte OIC-228-02-ALa distinction entre l'origine veineuse, artérielle ou artériolaire (angiodermite nécrotique) se fait en fonction de :l'extension (superficie et profondeur),la douleur,la localisation,les signes associés,les comorbidités.Dans certains cas, l'origine peut être mixte artérielle et veineuse.L'ulcère veineuxUlcères veineuxL'origine veineuse de l'ulcère est évoquée devant :localisation péri-malléolaire ;caractère peu ou pas douloureux ;extension superficielle (non creusant, pas d'exposition articulaire ou tendineuse) ;caractère exsudatif ;souvent étendu, parfois circonférentiel ;bords irréguliers, peu nets.En présence d'un ulcère d'origine veineuse on recherche :des antécédents dethrombose veineuse profonde(TVP) ou thrombose veineuse superficielle (TVS)desvarices;des complications cutanées de l'insuffisance veineuse (œdème, eczéma, atrophie blanche, dermite ocre, lipodermatosclérose) ;Les pouls sont présents et lesindices de pression systolique de cheville(IPS) normaux.Un écho doppler veineux profond et superficiel confirmera l'origine veineuse et pourra guider le traitement étiologique.L'ulcère artérielUlcères artérielsL'origine artérielle de l'ulcère est évoquée devant :douloureux (douleur chronique;douleur d'un membre) ;souvent récent ;de petite taille ;siégeant typiquement au niveau du pied ;creusant avec risque d'exposition des articulations et des tendons ;à fond atone;à bords nets et réguliers.En présence d'un ulcère d'origine artérielle on recherche :desfacteurs de risque cardiovasculaire;unantécédent d'ischémie d'effort(claudication intermittente) ;des douleurs de décubitus ;une diminution de la chaleur cutanée ;un allongement du temps de recoloration pulpaire ;une déshabitation des pulpes digitales et des coques talonnières et des coques talonnières (syndrome de la pulpe vide, aspect de fruit flétri) ;une érythrocyanose de déclivité ;une abolition des pouls périphériques.Devant un ulcère artériel on demande :- un indice de pression systolique de cheville (IPS) < 0,90 permet de confirmer la présence d'une artériopathie oblitérante des membres inférieurs et justifie la réalisation d'un écho-Doppler. En cas de médiacalcose la pression de cheville peut etre faussement normale ou elevée (diabète, insuffisance rénale, grand âge). Dans ce cas il faut mesurer la pression d'orteil.- Une mesure hémodynamique est indispensable pour attribuer le trouble trophique à l'AOMI : pression de cheville < 50 mmHg ; pression d'orteil < 30 mmHg ; TcPO2 < 30 mmHg.- Un écho-Doppler de l'aorte et des artères de membres inférieurs : cet examen permet de localiser les lésions artérielles significatives.- On complète, en cas d'indication de revascularisation, par une imagerie artérielle en coupes (angiosanner ou angioIRM) (rédaction de la demande d'un examen d'imagerie).L'ulcère mixteIl s'agit d'un ulcère associant plusieurs composantes étiologiques (par exemple veineuse et artérielle) qui survient chez un patient ayant une artériopathie avec ischémie de repos. Il est souvent nécessaire d'envisager un geste de revascularisation artérielle. Cliniquement, il s'agit le plus souvent d'un ulcère d'allure veineuse, peu sensible au traitement local, avec pouls abolis et pression d'orteil abaissée. On recherche les facteurs de risque cardiovasculaire, une abolition des pouls, une dermite ocre. On mesure les IPS ou la pression d'orteil chez les sujets à risque de médiacalcose.Un écho-Doppler veineux et artériel est réalisé voire une imagerie artérielle en coupes (par angioscanner ou angioIRM) lorsqu'une revascularisation artérielle est envisagée.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

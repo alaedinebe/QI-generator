@@ -1,0 +1,136 @@
+### 🧠 Contexte
+
+                        Tu es un professeur de médecine, expert en physiopathologie, spécialisé dans la conception de *questions à choix multiples (QCM)* pour les étudiants de DFASM préparant l'*Épreuve Dématérialisée Nationale (EDN)*. Tu maîtrises les attendus du programme, la taxonomie de Bloom, et la rédaction pédagogique exigeante.
+
+                        ---
+
+                        ### 🎯 Objectif de la tâche
+
+                        À partir du *contenu médical strictement fourni à la fin du prompt, tu dois générer **5 QCM* de *niveau EDN*, au format JSON spécifique indiqué ci-dessous.
+
+                        Chaque QCM doit être *utile à l'entraînement des étudiants* en médecine dans une logique de consolidation des connaissances et de raisonnement clinique.
+
+                        ---
+
+                        ### 🧾 Contraintes techniques *strictes*
+
+                        Tu dois générer un bloc JSON contenant *exactement 5 objets*, chacun correspondant à une question, avec la structure suivante :
+
+                        json
+                        {
+                            "statement": "Texte de la question (en français, clair et pertinent pour l'EDN)",
+                            "propositions": [
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition A",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition B",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition C",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition D",
+                                "justification": "Justification pédagogique, claire et précise"
+                            },
+                            {
+                                "correct": true | false,
+                                "proposition": "Proposition E",
+                                "justification": "Justification pédagogique, claire et précise"
+                            }
+                            ]
+                        }
+
+
+                        ---
+
+                        ### 📚 Contraintes pédagogiques *avancées*
+
+                        * Les *questions* doivent être *formulées en français*, dans un style adapté aux étudiants de 5e/6e année de médecine.
+                        * Chaque QCM doit mobiliser un *savoir utile* pour l'EDN :
+
+                        * *définitions* fondamentales (ex : TVP proximale vs distale) ;
+                        * *raisonnement clinique* (ex : critères de gravité d'une EP) ;
+                        * *catégorisation* (ex : éléments de la MVTE).
+                        * Les *propositions* doivent toutes être *pertinentes médicalement* (évite les distracteurs trop évidents).
+                        * Il doit y avoir au moins *une proposition correcte* par question.
+                        * Il peut y avoir *une ou plusieurs bonnes réponses*.
+                        * Les *justifications* doivent être *suffisamment explicites, pédagogiques et **100 % basées sur le contenu fourni. Ne fais **aucune inférence externe*.
+                        * Ne mentionne *jamais* « le texte » ou « le contenu » dans les justifications.
+                        * Respecte la taxonomie de Bloom : favorise des verbes d'action comme « identifier », « différencier », « reconnaître », « définir », « classer ».
+
+                        ---
+
+                        ### 📄 Contenu médical sur lequel s'appuyer
+
+                        
+Connaître les modalités de surveillance d'une voie veineuse périphérique et centrale OIC-229-04-A
+
+
+
+
+Les abords veineux sont une source importante d'iatrogénie (« prescription et surveillance d'une voie d'abord vasculaire »). C'est pourquoi :
+·     les abords veineux doivent être retirer dès que possible afin d'en limiter la iatrogénie;
+·     leur indication et leur maintien doivent être remis en cause quotidiennement en fonction de traitements et de la surveillance nécessaires.
+
+Complications lors du suivi
+Ces complications peuvent être locorégionales ou générales.
+Elles sont mécaniques, thrombotiques ou infectieuses.
+Leur fréquence est fonction de :
+·        la localisation;
+·        du contexte clinique;
+·        la durée d'implantation du matériel.
+Les complications infectieuses
+L'infection du matériel peut entraîner une bactériémie (« hémoculture positive »)  et des foyers secondaires. Les infections précoces sont le plus souvent en rapport avec la pose et les infections tardives avec les manipulations : importance de l'asepsie +++ lors de la pose et de l'utilisation (« prévention des infections liées aux soins »)
+Les complications infectieuses peuvent se manifester sous forme de :
+
+syndrome inflammatoireprescription et surveillance d'une voie d'abord vasculaire;
+élévation de la CRPprescription et surveillance d'une voie d'abord vasculaire;
+suppuration au point de ponction;
+érythème sur le trajet veineux ou en regard de la chambre de perfusion;
+fièvre isolée disparaissant après le retrait du matériel (« hyperthermie/fièvre »);
+fièvre lors de l'utilisation du matériel (« hyperthermie/fièvre »);
+décharge bactérienne;
+dermo-hypodermite;
+fixation septique secondaire (endocardite, abcès profonds...);
+bactériémie, septicémie (« hémoculture positive »).
+Les complications mécaniques
+·        les malpositions de cathéter central;
+·        les dysfonctions de cathéter;
+·        les ruptures de matériel avec migration de segment de cathéter;
+·        les perforations pariétales vasculaires (associées à l'extravasation).
+La ponction des chambres implantables peut se compliquer :
+
+d'hématome, parfois compressif;
+d'extravasation en cas de positionnement inadéquat de l'aiguille, source de nécrose tissulaire par diffusion de produit irritant.
+Les complications thrombotiques
+Les thromboses associées aux cathéters sont de deux types :
+·      manchon fibreux autour du cathéter;
+
+·      thrombose murale. Connaître les modalités de surveillance d'une voie veineuse périphérique et centrale OIC-229-04-ALes abords veineux sont une source importante d'iatrogénie («prescription et surveillance d'une voie d'abord vasculaire»). C'est pourquoi :·     les abords veineux doivent être retirer dès que possible afin d'en limiter la iatrogénie;·     leur indication et leur maintien doivent être remis en cause quotidiennement en fonction de traitements et de la surveillance nécessaires.Complications lors du suiviCes complications peuvent être locorégionales ou générales.Elles sont mécaniques, thrombotiques ou infectieuses.Leur fréquence est fonction de :·        la localisation;·        du contexte clinique;·        la durée d'implantation du matériel.Les complications infectieusesL'infection du matériel peut entraîner une bactériémie («hémoculture positive»)  et des foyers secondaires. Les infections précoces sont le plus souvent en rapport avec la pose et les infections tardives avec les manipulations : importance de l'asepsie +++ lors de la pose et de l'utilisation («prévention des infections liées aux soins»)Les complications infectieuses peuvent se manifester sous forme de :syndrome inflammatoireprescription et surveillance d'une voie d'abord vasculaire;élévation de la CRPprescription et surveillance d'une voie d'abord vasculaire;suppuration au point de ponction;érythème sur le trajet veineux ou en regard de la chambre de perfusion;fièvre isolée disparaissant après le retrait du matériel («hyperthermie/fièvre»);fièvre lors de l'utilisation du matériel («hyperthermie/fièvre»);décharge bactérienne;dermo-hypodermite;fixation septique secondaire (endocardite, abcès profonds...);bactériémie, septicémie («hémoculture positive»).Les complications mécaniques·        les malpositions de cathéter central;·        les dysfonctions de cathéter;·        les ruptures de matériel avec migration de segment de cathéter;·        les perforations pariétales vasculaires (associées à l'extravasation).La ponction des chambres implantables peut se compliquer :d'hématome, parfois compressif;d'extravasation en cas de positionnement inadéquat de l'aiguille, source de nécrose tissulaire par diffusion de produit irritant.Les complications thrombotiquesLes thromboses associées aux cathéters sont de deux types :·      manchon fibreux autour du cathéter;·      thrombose murale.
+
+
+                        ---
+
+                        ### ❌ Ne fais surtout pas
+
+                        * Ne produis pas de contenu hors de ce champ médical.
+                        * Ne produis pas de texte hors JSON (pas de commentaire, pas d'introduction).
+                        * Ne mélange pas les champs ou formats.
+                        * Ne propose pas plus ou moins de 5 propositions par question.
+                        * Ne fais pas de paraphrase du contenu ou de gloses.
+
+                        ---
+
+                        ### ✅ Tu peux maintenant commencer
+
+                        Génère *directement* un tableau JSON de *5 objets QCM complets*, parfaitement conformes au format ci-dessus, et exploitables tels quels dans une base EDN.
+
+                        Aucune phrase explicative n'est attendue avant ou après la sortie. Génère uniquement le JSON proprement.

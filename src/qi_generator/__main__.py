@@ -35,16 +35,17 @@ def git_commit_push(file_path: str, slug: str):
     Fonction pour effectuer un git add, commit, et push après la création d'un fichier.
     """
     try:
-        # Ajout du fichier à Git
-        subprocess.run(["git", "add", "."], check=True)
+        # Ajout du fichier à Git (sans sortie dans le terminal)
+        subprocess.run(["git", "add", "."], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
-        # Commit du fichier avec un message personnalisé
+        # Commit du fichier avec un message personnalisé (sans sortie dans le terminal)
         commit_message = f"new item {slug}"
-        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        subprocess.run(["git", "commit", "-m", commit_message], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
-        # Pousser les modifications vers le dépôt distant
-        subprocess.run(["git", "push", "origin", "main"], check=True)
+        # Pousser les modifications vers le dépôt distant (sans sortie dans le terminal)
+        subprocess.run(["git", "push", "origin", "main"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
+        # Optionnel : afficher un message sans sortie Git
         print(f"Git commit et push effectués pour le fichier {file_path}.")
     except subprocess.CalledProcessError as e:
         print(f"Erreur Git : {e}")
@@ -289,82 +290,51 @@ def main():
                         # 3) Parser (avec une 2e passe si virgules pendantes)
                         try:
                             content_obj = json.loads(txt)
-                        except json.JSONDecodeError as e:
-                            print(f"[direct] JSONDecodeError: {e.msg} (line {e.lineno}, col {e.colno})")
-                            lines = txt.splitlines()
-                            if 1 <= e.lineno <= len(lines):
-                                bad = lines[e.lineno - 1]
-                                print(">> " + bad)
-                                print("   " + " " * (e.colno - 1) + "^")
-                            # 2e passe : retire les trailing commas
-                            txt2 = re.sub(r',(\s*[\]}])', r'\1', txt)
-                            try:
-                                content_obj = json.loads(txt2)
-                            except json.JSONDecodeError:
-                                write_debug(f"debug_clean_after_replace_{file_name[:-3]}.txt", txt)
-                                # Dernier recours : faire un coontrole A controle C controle V
-                                # mouse.position = (screen_width // 2, screen_height // 2)
-                                # time.sleep(0.5)
-                                # mouse.click(Button.left)
-                                # time.sleep(0.5) 
 
-                                # with keyboard.pressed(Key.ctrl):
-                                #     keyboard.press('a')
-                                #     keyboard.release('a')
-                                # time.sleep(0.5) 
+                            # 4) Construire la charge utile propre (1 question par objet de content_obj)
+                            now_ms = int(time.time() * 1000)
 
-                                # with keyboard.pressed(Key.ctrl):
-                                #     keyboard.press('c')
-                                #     keyboard.release('c')
-                                # time.sleep(0.5) 
+                            # S'assurer d'avoir une liste d'objets QCM
+                            items = content_obj if isinstance(content_obj, list) else [content_obj]
 
-                                # content_obj = pyperclip.paste()
+                            questions = []
+                            base_id = f"AIgenerated_{now_ms}"
+                            for idx, item in enumerate(items, start=1):
+                                questions.append({
+                                    "published": False,
+                                    "id": f"{base_id}_{idx:02d}",  # ex: AIgenerated_1723298765123_01
+                                    "current_version_epoch_ms": now_ms,
+                                    "rang": data[j]["rang"],
+                                    "topic": {
+                                        "subject": subject.strip(),
+                                        "item": slug.strip()
+                                    },
+                                    "data": item  # <-- un seul objet ici
+                                })
 
-                                print("echec")
-
-                                pass
-
-                        # 4) Construire la charge utile propre (1 question par objet de content_obj)
-                        now_ms = int(time.time() * 1000)
-
-                        # S'assurer d'avoir une liste d'objets QCM
-                        items = content_obj if isinstance(content_obj, list) else [content_obj]
-
-                        questions = []
-                        base_id = f"AIgenerated_{now_ms}"
-                        for idx, item in enumerate(items, start=1):
-                            questions.append({
-                                "published": False,
-                                "id": f"{base_id}_{idx:02d}",  # ex: AIgenerated_1723298765123_01
-                                "current_version_epoch_ms": now_ms,
-                                "rang": data[j]["rang"],
+                            payload = {
                                 "topic": {
-                                    "subject": subject.strip(),
-                                    "item": slug.strip()
+                                    "item": slug.strip(),
+                                    "subject": subject.strip()
                                 },
-                                "data": item  # <-- un seul objet ici
-                            })
+                                "metadata": {
+                                    "batch": "IA_aout"
+                                },
+                                "question": questions  # <-- liste d'objets
+                            }
 
-                        payload = {
-                            "topic": {
-                                "item": slug.strip(),
-                                "subject": subject.strip()
-                            },
-                            "metadata": {
-                                "batch": "IA_aout"
-                            },
-                            "question": questions  # <-- liste d'objets
-                        }
+                            # 5) Sauvegarder joliment
+                            file_path = os.path.join(f"content_{subject}_{numero_item}_{slug}_{data[j]['identifiant']}_{timestamp}.json")
+                            with open(file_path, "w", encoding="utf-8") as f:
+                                json.dump(payload, f, ensure_ascii=False, indent=2)
 
-                        # 5) Sauvegarder joliment
-                        file_path = os.path.join(f"content_{subject}_{numero_item}_{slug}_{data[j]['identifiant']}_{timestamp}.json")
-                        with open(file_path, "w", encoding="utf-8") as f:
-                            json.dump(payload, f, ensure_ascii=False, indent=2)
+                            print(f"Contenu sauvegardé dans : {file_path}")
 
-                        print(f"Contenu sauvegardé dans : {file_path}")
+                            # Git add, commit, et push après la création du fichier
+                            git_commit_push(file_path, slug)
 
-                        # Git add, commit, et push après la création du fichier
-                        git_commit_push(file_path, slug)
+                        except json.JSONDecodeError as e:
+                            print(f"[direct] JSONDecodeError: {e.msg} (line {e.lineno}, col {e.colno})")                            
 
                     else:
                         print(f"Aucun contenu trouvé dans le fichier {file_name}.")
