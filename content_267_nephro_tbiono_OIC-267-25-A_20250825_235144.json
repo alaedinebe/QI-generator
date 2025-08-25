@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "tbiono",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756158851593_01",
+      "current_version_epoch_ms": 1756158851593,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quels sont les symptômes d'hyponatrémie modérément sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nausées (sans vomissements)",
+            "justification": "Les nausées sans vomissements sont un symptôme fréquent dans les formes modérément sévères d'hyponatrémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion",
+            "justification": "La confusion est un symptôme courant dans les formes modérément sévères d'hyponatrémie, résultant de l'effet de l'hyponatrémie sur le système nerveux central."
+          },
+          {
+            "correct": true,
+            "proposition": "Céphalées",
+            "justification": "Les céphalées sont fréquemment observées en cas d'hyponatrémie modérée, en raison de l'altération du volume intracrânien."
+          },
+          {
+            "correct": false,
+            "proposition": "Détresse cardio-respiratoire",
+            "justification": "La détresse cardio-respiratoire est plus typique des formes sévères d'hyponatrémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma (Glasgow ≤ 8)",
+            "justification": "Le coma est un symptôme des formes sévères d'hyponatrémie et non des formes modérément sévères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756158851593_02",
+      "current_version_epoch_ms": 1756158851593,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quels signes sont associés à une hyponatrémie sévère ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Nausées (sans vomissements)",
+            "justification": "Les nausées sans vomissements sont caractéristiques des formes modérément sévères d'hyponatrémie, mais non des formes sévères."
+          },
+          {
+            "correct": true,
+            "proposition": "Vomissements",
+            "justification": "Les vomissements sont un signe clinique associé à l'hyponatrémie sévère et à son impact sur le système gastro-intestinal."
+          },
+          {
+            "correct": true,
+            "proposition": "Détresse cardio-respiratoire",
+            "justification": "La détresse cardio-respiratoire est une conséquence des troubles graves de l'hyponatrémie sévère affectant le système cardiorespiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Somnolence (anormale et profonde)",
+            "justification": "La somnolence anormale est un signe d'hyponatrémie sévère, souvent causée par un œdème cérébral."
+          },
+          {
+            "correct": true,
+            "proposition": "Coma (Glasgow ≤ 8)",
+            "justification": "Le coma avec un score de Glasgow ≤ 8 est un symptôme grave et évocateur d'une hyponatrémie sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756158851593_03",
+      "current_version_epoch_ms": 1756158851593,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel est le seuil de natriémie définissant une hyponatrémie sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "< 120 mmol/L",
+            "justification": "Une hyponatrémie sévère est définie par un taux de sodium sanguin inférieur à 120 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "< 130 mmol/L",
+            "justification": "Un taux de sodium sanguin inférieur à 130 mmol/L correspond à une hyponatrémie modérée et non sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "< 100 mmol/L",
+            "justification": "Un taux inférieur à 100 mmol/L serait une forme extrêmement sévère d'hyponatrémie, mais la définition de sévère commence à 120 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "≤ 130 mmol/L",
+            "justification": "Un seuil de 130 mmol/L définit une hyponatrémie modérée, pas sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 120 mmol/L",
+            "justification": "Un taux de sodium supérieur ou égal à 120 mmol/L ne correspond pas à une hyponatrémie sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756158851593_04",
+      "current_version_epoch_ms": 1756158851593,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quelle est la principale conséquence neurologique observée dans les formes sévères d'hyponatrémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coma",
+            "justification": "Le coma est l'une des conséquences neurologiques graves et typiques des formes sévères d'hyponatrémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées",
+            "justification": "Les céphalées sont plus souvent observées dans des formes modérément sévères d'hyponatrémie, pas dans les formes sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Confusion",
+            "justification": "La confusion est également un symptôme des formes modérément sévères et non des formes sévères avancées."
+          },
+          {
+            "correct": false,
+            "proposition": "Délirium",
+            "justification": "Le délirium n'est pas spécifiquement associé aux formes sévères d'hyponatrémie, contrairement au coma."
+          },
+          {
+            "correct": false,
+            "proposition": "Somnolence légère",
+            "justification": "La somnolence dans les formes sévères d'hyponatrémie est généralement plus profonde et anormale, pas légère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756158851593_05",
+      "current_version_epoch_ms": 1756158851593,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quels symptômes peuvent être associés à une hyponatrémie modérée, mais qui ne sont pas spécifiques à cette pathologie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalées",
+            "justification": "Les céphalées sont un symptôme fréquent mais non spécifique de l'hyponatrémie, pouvant être observées dans d'autres pathologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma",
+            "justification": "Le coma est un symptôme grave et spécifique aux formes sévères d'hyponatrémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Confusion",
+            "justification": "La confusion peut être présente dans diverses conditions et n'est pas spécifique de l'hyponatrémie modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Comitialité",
+            "justification": "Les crises comitiales sont un signe des formes sévères d'hyponatrémie et non des formes modérées."
+          },
+          {
+            "correct": false,
+            "proposition": "Détresse cardio-respiratoire",
+            "justification": "La détresse cardio-respiratoire est plus typique des formes sévères d'hyponatrémie, et non des formes modérées."
+          }
+        ]
+      }
+    }
+  ]
+}
