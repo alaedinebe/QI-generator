@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Creat+",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756139067836_01",
+      "current_version_epoch_ms": 1756139067836,
+      "rang": "B",
+      "topic": {
+        "subject": "nephro",
+        "item": "Creat+"
+      },
+      "data": {
+        "statement": "Quelle est la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ccr = [(140 - âge) × poids (kg)] × k / créatininémie (µmol/L)",
+            "justification": "Cette formule permet d'estimer la clairance de créatinine en ml/min en prenant en compte l'âge, le poids, et la créatininémie. Le coefficient 'k' varie selon le sexe (1,23 chez l'homme et 1,04 chez la femme)."
+          },
+          {
+            "correct": false,
+            "proposition": "Ccr = (âge × poids (kg)) × k / créatininémie (µmol/L)",
+            "justification": "Cette proposition ne respecte pas la structure correcte de la formule de Cockcroft et Gault, en particulier l'ordre des termes."
+          },
+          {
+            "correct": false,
+            "proposition": "Ccr = (140 - poids) × âge (années) × k / créatininémie (µmol/L)",
+            "justification": "Les variables sont mal disposées, et la formule ne correspond pas à la méthode utilisée pour estimer la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "Ccr = [(âge + 140) × poids (kg)] × k / créatininémie (µmol/L)",
+            "justification": "Le terme '140' est ajouté incorrectement à l'âge, ce qui modifie la valeur estimée de la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "Ccr = [(140 - âge) × créatininémie (µmol/L)] × k / poids (kg)",
+            "justification": "Le poids doit être dans le numérateur, pas dans le dénominateur. Cette proposition ne respecte pas la structure de la formule."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756139067836_02",
+      "current_version_epoch_ms": 1756139067836,
+      "rang": "B",
+      "topic": {
+        "subject": "nephro",
+        "item": "Creat+"
+      },
+      "data": {
+        "statement": "Quel est le coefficient 'k' dans la formule de Cockcroft et Gault chez une femme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "k = 1,04",
+            "justification": "Chez la femme, le coefficient 'k' est fixé à 1,04 dans la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "k = 1,23",
+            "justification": "Ce coefficient est applicable aux hommes, et non aux femmes. La valeur pour les femmes est 1,04."
+          },
+          {
+            "correct": false,
+            "proposition": "k = 1,10",
+            "justification": "Ce coefficient n'est pas utilisé dans la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "k = 1,20",
+            "justification": "Cette valeur n'est pas correcte pour les femmes. Le coefficient pour les femmes est spécifiquement 1,04."
+          },
+          {
+            "correct": false,
+            "proposition": "k = 1,00",
+            "justification": "Ce coefficient n'est pas utilisé dans la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756139067836_03",
+      "current_version_epoch_ms": 1756139067836,
+      "rang": "B",
+      "topic": {
+        "subject": "nephro",
+        "item": "Creat+"
+      },
+      "data": {
+        "statement": "Quelle formule est utilisée pour estimer le DFG chez l'enfant de moins de 18 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "DFG = taille (cm) × 36,5 / créatininémie (µmol/L)",
+            "justification": "Chez l'enfant de moins de 18 ans, le DFG est estimé avec la formule de Schwartz, qui dépend de la taille et de la créatininémie."
+          },
+          {
+            "correct": false,
+            "proposition": "DFG = poids (kg) × 36,5 / créatininémie (µmol/L)",
+            "justification": "La formule de Schwartz ne repose pas sur le poids, mais sur la taille de l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "DFG = taille (cm) × créatininémie (µmol/L)",
+            "justification": "Cette proposition omet le facteur multiplicatif de 36,5 nécessaire pour estimer le DFG chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "DFG = taille (cm) × créatininémie (µmol/L) / 36,5",
+            "justification": "La formule est inversée par rapport à la version correcte."
+          },
+          {
+            "correct": false,
+            "proposition": "DFG = taille (cm) × 100 / créatininémie (µmol/L)",
+            "justification": "Le facteur multiplicatif correct est 36,5, pas 100."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756139067836_04",
+      "current_version_epoch_ms": 1756139067836,
+      "rang": "B",
+      "topic": {
+        "subject": "nephro",
+        "item": "Creat+"
+      },
+      "data": {
+        "statement": "Les valeurs normales de créatininémie chez l'enfant sont généralement inférieures à :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "35 µmol/L",
+            "justification": "Chez les enfants, les valeurs normales de créatininémie sont plus basses que chez les adultes, et elles sont généralement inférieures à 35 µmol/L jusqu'à 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "50 µmol/L",
+            "justification": "Cette valeur est trop élevée pour un enfant. Les valeurs normales de créatininémie sont généralement inférieures à 35 µmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "70 µmol/L",
+            "justification": "Les valeurs normales de créatininémie chez les enfants ne dépassent généralement pas 35 µmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "25 µmol/L",
+            "justification": "Bien que proche, 25 µmol/L est trop bas. Les valeurs normales sont plutôt autour de 35 µmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "40 µmol/L",
+            "justification": "Cette valeur est au-dessus de la normale pour les enfants de moins de 5 ans. Les créatininémies normales sont généralement inférieures à 35 µmol/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756139067836_05",
+      "current_version_epoch_ms": 1756139067836,
+      "rang": "B",
+      "topic": {
+        "subject": "nephro",
+        "item": "Creat+"
+      },
+      "data": {
+        "statement": "Quel est l'un des éléments fondamentaux pour estimer la clairance de créatinine selon la formule de Cockcroft et Gault ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'âge",
+            "justification": "L'âge est un facteur clé dans la formule de Cockcroft et Gault pour estimer la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "La taille",
+            "justification": "La taille n'est pas incluse dans la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sexe",
+            "justification": "Bien que le sexe affecte le coefficient 'k', il ne constitue pas un facteur principal dans la formule de Cockcroft et Gault."
+          },
+          {
+            "correct": false,
+            "proposition": "Le BMI",
+            "justification": "Le BMI (indice de masse corporelle) n'est pas un facteur inclus dans la formule de Cockcroft et Gault pour estimer la clairance de créatinine."
+          },
+          {
+            "correct": false,
+            "proposition": "La température corporelle",
+            "justification": "La température corporelle n'a pas d'impact direct sur la formule de Cockcroft et Gault pour l'estimation de la clairance de créatinine."
+          }
+        ]
+      }
+    }
+  ]
+}
