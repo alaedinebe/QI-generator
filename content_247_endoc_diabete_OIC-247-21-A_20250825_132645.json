@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756121351685_01",
+      "current_version_epoch_ms": 1756121351685,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quels sont les objectifs de l'autosurveillance glycémique pour un patient diabétique de type 1 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Suivre l'évolution du diabète",
+            "justification": "L'autosurveillance glycémique permet de suivre l'évolution du diabète afin d'ajuster les traitements et d'éviter les complications."
+          },
+          {
+            "correct": true,
+            "proposition": "Adapter les doses d'insuline",
+            "justification": "L'autosurveillance permet de mesurer la glycémie et ainsi d'ajuster précisément les doses d'insuline en fonction des résultats obtenus."
+          },
+          {
+            "correct": true,
+            "proposition": "Avoir une idée de l'équilibre glycémique moyen",
+            "justification": "Les mesures régulières permettent d'avoir une estimation de l'équilibre glycémique moyen, notamment via la surveillance de l'HbA1c."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter les hypoglycémies",
+            "justification": "L'autosurveillance glycémique permet de prévenir l'hyperglycémie et d'adapter le traitement, mais ne prévient pas directement les hypoglycémies."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculer les besoins en glucides",
+            "justification": "L'autosurveillance ne permet pas directement de calculer les besoins en glucides, mais aide à ajuster les doses d'insuline."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121351685_02",
+      "current_version_epoch_ms": 1756121351685,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Combien de fois par jour un patient diabétique de type 1 doit-il réaliser son autosurveillance glycémique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "4 à 6 fois par jour",
+            "justification": "Il est recommandé de réaliser l'autosurveillance glycémique 4 à 6 fois par jour afin de suivre correctement l'évolution de la glycémie et adapter les doses d'insuline."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 2 fois par jour",
+            "justification": "1 à 2 fois par jour ne permet pas de suivre de manière suffisamment précise les fluctuations de la glycémie pour un diabétique insulino-traité."
+          },
+          {
+            "correct": false,
+            "proposition": "2 à 3 fois par semaine",
+            "justification": "Une surveillance glycémique aussi espacée n'est pas suffisante pour un suivi adapté au diabète de type 1."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fois par mois",
+            "justification": "Une fréquence aussi faible est insuffisante pour garantir un suivi adéquat du diabète de type 1."
+          },
+          {
+            "correct": false,
+            "proposition": "2 à 4 fois par mois",
+            "justification": "La surveillance doit être quotidienne pour être efficace et permettre une gestion optimale du diabète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121351685_03",
+      "current_version_epoch_ms": 1756121351685,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Qu'est-ce que l'HbA1c permet d'estimer pour un patient diabétique de type 1 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'équilibre glycémique des 2 à 3 mois précédant le prélèvement",
+            "justification": "L'HbA1c reflète la moyenne des taux de glucose dans le sang au cours des 2 à 3 derniers mois, offrant ainsi une évaluation de l'équilibre glycémique sur cette période."
+          },
+          {
+            "correct": false,
+            "proposition": "La glycémie instantanée au moment du prélèvement",
+            "justification": "L'HbA1c ne mesure pas la glycémie instantanée, mais plutôt la moyenne des glycémies passées sur plusieurs mois."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de corps cétoniques",
+            "justification": "Les corps cétoniques sont mesurés séparément, par exemple dans les urines ou le sang, et non via l'HbA1c."
+          },
+          {
+            "correct": false,
+            "proposition": "L'état d'hyperglycémie aiguë",
+            "justification": "L'HbA1c ne peut pas refléter une hyperglycémie aiguë, mais seulement l'équilibre glycémique global sur plusieurs mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Le type d'insulinothérapie nécessaire",
+            "justification": "L'HbA1c ne permet pas de déterminer le type d'insulinothérapie, mais indique seulement l'efficacité du traitement sur la régulation du glucose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121351685_04",
+      "current_version_epoch_ms": 1756121351685,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Que doit faire un patient diabétique de type 1 en cas d'hyperglycémie inexpliquée et prolongée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher la présence de corps cétoniques",
+            "justification": "En cas d'hyperglycémie prolongée et inexpliquée, le patient doit vérifier la présence de corps cétoniques pour éviter une décompensation cétosique."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter immédiatement les doses d'insuline sans consultation",
+            "justification": "L'augmentation des doses d'insuline doit être effectuée sous suivi médical, notamment pour éviter des hypoglycémies ou des erreurs de dosage."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la consommation de glucides au maximum",
+            "justification": "Réduire la consommation de glucides de manière excessive peut entraîner des hypoglycémies et n'est pas la réponse recommandée en cas d'hyperglycémie prolongée."
+          },
+          {
+            "correct": false,
+            "proposition": "Consulter un médecin uniquement en cas de symptômes digestifs graves",
+            "justification": "L'hyperglycémie prolongée nécessite un suivi régulier et ne doit pas attendre l'apparition de symptômes digestifs graves pour consulter."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne rien faire et attendre que la glycémie se stabilise d'elle-même",
+            "justification": "L'attente sans intervention active peut entraîner des complications, en particulier la décompensation cétosique, ce qui justifie la surveillance des corps cétoniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121351685_05",
+      "current_version_epoch_ms": 1756121351685,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal des capteurs de glucose dans l'autosurveillance glycémique du diabète de type 1 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesurer le taux de glucose en continu",
+            "justification": "Les capteurs de glucose permettent de mesurer en continu le taux de glucose dans le sang, offrant ainsi un suivi plus précis et moins invasif que les tests par piqûre au doigt."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer complètement les injections d'insuline",
+            "justification": "Les capteurs de glucose ne remplacent pas les injections d'insuline, mais aident à mieux réguler les doses en fonction des variations de la glycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer uniquement la glycémie après les repas",
+            "justification": "Les capteurs mesurent la glycémie en continu, non seulement après les repas, mais tout au long de la journée pour un suivi optimal."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser la composition des corps cétoniques",
+            "justification": "Les capteurs de glucose ne mesurent pas les corps cétoniques, qui nécessitent un test séparé pour leur détection dans les urines ou le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Calculer la dose d'insuline nécessaire",
+            "justification": "Les capteurs de glucose ne calculent pas directement la dose d'insuline, mais fournissent des données permettant d'ajuster cette dose en fonction des variations glycémique."
+          }
+        ]
+      }
+    }
+  ]
+}
