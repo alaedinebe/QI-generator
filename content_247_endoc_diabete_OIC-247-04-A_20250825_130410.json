@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756119997405_01",
+      "current_version_epoch_ms": 1756119997405,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est le seuil diagnostique de la glycémie veineuse à jeun pour définir le diabète de type 2 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie > 1.26 g/l à 2 reprises",
+            "justification": "Le seuil diagnostique de la glycémie veineuse à jeun pour le diabète de type 2 est > 1.26 g/l, et ce critère doit être confirmé par deux mesures distinctes."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie > 1.10 g/l à 1 reprise",
+            "justification": "Un seuil de 1.10 g/l ne correspond pas à la définition du diabète de type 2, qui nécessite une glycémie veineuse > 1.26 g/l à 2 reprises."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie > 1.50 g/l à 2 reprises",
+            "justification": "Bien que supérieur, un seuil de 1.50 g/l n'est pas utilisé pour diagnostiquer le diabète de type 2 ; le seuil exact est de 1.26 g/l."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie > 1.26 g/l à 1 reprise",
+            "justification": "Le diabète de type 2 est diagnostiqué si la glycémie dépasse 1.26 g/l, mais cela doit être confirmé par deux mesures distinctes."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie > 1.50 g/l à 1 reprise",
+            "justification": "Une glycémie > 1.50 g/l à 1 reprise ne permet pas de poser un diagnostic de diabète de type 2, il faut deux mesures de glycémie > 1.26 g/l."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119997405_02",
+      "current_version_epoch_ms": 1756119997405,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est l'âge de début recommandé pour le dépistage du diabète de type 2 chez un patient sans facteur de risque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "45 ans, tous les 3 ans",
+            "justification": "Le dépistage du diabète de type 2 chez les patients asymptomatiques et sans facteur de risque commence à 45 ans, tous les 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "50 ans, tous les 5 ans",
+            "justification": "Le dépistage débute à 45 ans et non à 50 ans, et la fréquence est de tous les 3 ans, non tous les 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "40 ans, tous les 3 ans",
+            "justification": "Le début du dépistage du diabète de type 2 se fait à 45 ans et non à 40 ans chez les patients sans facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "50 ans, tous les 3 ans",
+            "justification": "Le dépistage commence à 45 ans, et non à 50 ans, chez les patients sans facteur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "40 ans, tous les 5 ans",
+            "justification": "Le dépistage commence à 45 ans, et la fréquence est tous les 3 ans, non tous les 5 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119997405_03",
+      "current_version_epoch_ms": 1756119997405,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Parmi les facteurs de risque (FDR) suivants, lequel est un facteur de risque reconnu pour le diabète de type 2 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Syndrome métabolique",
+            "justification": "Le syndrome métabolique est un facteur de risque important pour le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle seule",
+            "justification": "L'hypertension artérielle, bien qu'elle soit un facteur de risque pour de nombreuses maladies cardiovasculaires, n'est pas un facteur de risque isolé pour le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperlipidémie isolée",
+            "justification": "L'hyperlipidémie seule n'est pas un facteur de risque suffisant pour le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédent de fracture",
+            "justification": "Un antécédent de fracture ne constitue pas un facteur de risque pour le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Tabagisme isolé",
+            "justification": "Le tabagisme est un facteur de risque pour plusieurs pathologies, mais ce n'est pas un facteur de risque isolé pour le diabète de type 2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119997405_04",
+      "current_version_epoch_ms": 1756119997405,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quand un patient présente un diabète gestationnel, quel est le risque qu'il développe un diabète de type 2 dans le futur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque élevé de développer un diabète de type 2",
+            "justification": "Les patients ayant eu un diabète gestationnel présentent un risque élevé de développer un diabète de type 2 plus tard dans leur vie."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque nul de développer un diabète de type 2",
+            "justification": "Un diabète gestationnel augmente le risque de diabète de type 2, il n'existe pas de risque nul."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque modéré de développer un diabète de type 2",
+            "justification": "Le risque d'évolution vers le diabète de type 2 est plutôt élevé, ce n'est pas simplement modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque faible de développer un diabète de type 2",
+            "justification": "Le risque de diabète de type 2 chez les patients ayant un diabète gestationnel est élevé, et non faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque annulé après 5 ans",
+            "justification": "Le risque de diabète de type 2 reste élevé bien après 5 ans suivant un diabète gestationnel, il ne disparaît pas après cette période."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119997405_05",
+      "current_version_epoch_ms": 1756119997405,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est l'examen recommandé pour le dépistage du diabète de type 2 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie veineuse à jeun",
+            "justification": "La glycémie veineuse à jeun est le test principal utilisé pour dépister le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de tolérance au glucose (OGTT) systématique",
+            "justification": "Bien que l'OGTT soit utilisé dans certains cas, la glycémie veineuse à jeun est l'examen principal recommandé pour le dépistage."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen de l'HbA1c pour tous les patients",
+            "justification": "L'HbA1c peut être utilisée pour diagnostiquer le diabète, mais ce n'est pas systématiquement recommandé pour le dépistage de toutes les populations."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de l'urine",
+            "justification": "L'analyse de l'urine n'est pas utilisée pour dépister le diabète de type 2, car elle n'est pas suffisamment précise."
+          },
+          {
+            "correct": false,
+            "proposition": "Echographie abdominale",
+            "justification": "L'échographie abdominale n'est pas utilisée pour le dépistage du diabète de type 2, elle n'est pas un examen diagnostique adapté pour cette pathologie."
+          }
+        ]
+      }
+    }
+  ]
+}
