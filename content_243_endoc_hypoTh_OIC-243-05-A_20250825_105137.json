@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hypoTh",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756112043977_01",
+      "current_version_epoch_ms": 1756112043977,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoTh"
+      },
+      "data": {
+        "statement": "Quelle est la principale anomalie observée dans le diagnostic d'hypothyroïdie périphérique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation de la TSH",
+            "justification": "Le diagnostic d'hypothyroïdie périphérique repose sur l'augmentation de la TSH."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de la T4 libre",
+            "justification": "La T4 libre est mesurée après une augmentation de la TSH, mais une baisse de T4 libre est associée à une hypothyroïdie plus avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de la TSH",
+            "justification": "Une baisse de la TSH n'est pas un indicateur de l'hypothyroïdie périphérique, mais plutôt d'une insuffisance thyréotrope."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la T4 libre",
+            "justification": "L'augmentation de la T4 libre n'est pas associée à l'hypothyroïdie périphérique mais plutôt à une hyperthyroïdie."
+          },
+          {
+            "correct": false,
+            "proposition": "Niveau normal de TSH",
+            "justification": "Un niveau normal de TSH n'indique pas d'hypothyroïdie périphérique, car une élévation de la TSH est nécessaire pour le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756112043977_02",
+      "current_version_epoch_ms": 1756112043977,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoTh"
+      },
+      "data": {
+        "statement": "Que signifie une T4 libre normale avec une TSH élevée entre 4 et 10 mUI/l ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypothyroïdie fruste ou infraclinique",
+            "justification": "Une T4 libre normale avec une TSH légèrement élevée entre 4 et 10 mUI/l est caractéristique d'une hypothyroïdie fruste ou infraclinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothyroïdie sévère",
+            "justification": "Une hypothyroïdie sévère est associée à une baisse de la T4 libre, et non à une T4 libre normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperthyroïdie",
+            "justification": "L'hyperthyroïdie est caractérisée par une baisse de la TSH et une augmentation de la T4 libre, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance thyréotrope",
+            "justification": "L'insuffisance thyréotrope est associée à une T4 libre basse et une TSH normale ou basse, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Thyroïdite subaiguë",
+            "justification": "La thyroïdite subaiguë est une inflammation de la glande thyroïde, souvent avec une diminution de la T4 libre et une TSH plus basse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756112043977_03",
+      "current_version_epoch_ms": 1756112043977,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoTh"
+      },
+      "data": {
+        "statement": "Quel est l'indicateur principal pour diagnostiquer une insuffisance thyréotrope ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Baisse de la T4 libre et TSH normale ou basse",
+            "justification": "L'insuffisance thyréotrope se caractérise par une T4 libre basse avec une TSH normale ou basse, inadaptée à la valeur de T4."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la TSH",
+            "justification": "Une augmentation de la TSH n'est pas caractéristique de l'insuffisance thyréotrope, mais plutôt d'une hypothyroïdie périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de la TSH",
+            "justification": "La baisse de la TSH n'est pas un indicateur de l'insuffisance thyréotrope mais plutôt d'une hyperthyroïdie ou d'un problème hypophysaire."
+          },
+          {
+            "correct": false,
+            "proposition": "T4 libre normale et TSH faible",
+            "justification": "Une T4 libre normale avec une TSH faible peut indiquer un dysfonctionnement hypophysaire, mais cela ne correspond pas à l'insuffisance thyréotrope."
+          },
+          {
+            "correct": false,
+            "proposition": "T4 libre élevée et TSH basse",
+            "justification": "Une T4 libre élevée et une TSH basse indiquent plutôt une hyperthyroïdie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756112043977_04",
+      "current_version_epoch_ms": 1756112043977,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoTh"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la TSH dans le diagnostic des troubles thyroïdiens ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer la fonction thyroïdienne et guider le dosage de la T4 libre",
+            "justification": "La TSH permet de dépister les troubles thyroïdiens en guidant l'interprétation du dosage de la T4 libre."
+          },
+          {
+            "correct": false,
+            "proposition": "Indiquer la présence d'un adénome hypophysaire",
+            "justification": "La TSH seule n'est pas suffisante pour diagnostiquer un adénome hypophysaire, un autre bilan hormonal est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer uniquement l'hypothyroïdie périphérique",
+            "justification": "La TSH peut être élevée dans plusieurs conditions et n'est pas spécifique à l'hypothyroïdie périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "Remplacer le dosage de la T4 libre",
+            "justification": "La TSH n'est pas un substitut au dosage de la T4 libre, elle complète l'analyse des troubles thyroïdiens."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer l'hyperthyroïdie uniquement",
+            "justification": "La TSH est également utilisée pour diagnostiquer l'hypothyroïdie, pas uniquement l'hyperthyroïdie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756112043977_05",
+      "current_version_epoch_ms": 1756112043977,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoTh"
+      },
+      "data": {
+        "statement": "Quelles anomalies hormonales sont caractéristiques d'un adénome hypophysaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TSH normale ou basse avec une T4 libre basse",
+            "justification": "Dans un adénome hypophysaire, la TSH est souvent normale ou basse, inadaptée à une T4 libre basse."
+          },
+          {
+            "correct": false,
+            "proposition": "TSH élevée et T4 libre normale",
+            "justification": "Un adénome hypophysaire ne cause pas d'élévation de la TSH avec une T4 libre normale, ce qui serait plus typique d'une hypothyroïdie périphérique."
+          },
+          {
+            "correct": false,
+            "proposition": "T4 libre élevée et TSH normale",
+            "justification": "La T4 libre élevée et la TSH normale indiquent plutôt une hyperthyroïdie centrale, pas un adénome hypophysaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de la TSH et de la T4 libre",
+            "justification": "Bien que la TSH soit basse, la T4 libre peut rester dans des niveaux normaux dans un adénome hypophysaire, mais elle est généralement basse."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation simultanée de la TSH et de la T4 libre",
+            "justification": "Une augmentation simultanée de la TSH et de la T4 libre n'est pas associée à un adénome hypophysaire."
+          }
+        ]
+      }
+    }
+  ]
+}
