@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Hu",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756141476979_01",
+      "current_version_epoch_ms": 1756141476979,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quel est le seuil minimal de hématies/mm3 pour diagnostiquer une hématurie microscopique sur une bandelette urinaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 5 hématies/mm3",
+            "justification": "La bandelette urinaire est un test rapide avec une sensibilité de 90 % pour détecter une hématurie microscopique à partir de 5 hématies/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 10 hématies/mm3",
+            "justification": "Le seuil diagnostic pour une hématurie microscopique est plus bas, fixé à 5 hématies/mm3 et non 10."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 2 hématies/mm3",
+            "justification": "Le seuil de 2 hématies/mm3 est trop bas pour diagnostiquer une hématurie microscopique selon la norme."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 100 hématies/mm3",
+            "justification": "Ce seuil est beaucoup trop élevé pour la détection de l'hématurie microscopique, qui doit être diagnostiquée à partir de 5 hématies/mm3."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 50 hématies/mm3",
+            "justification": "Bien que supérieur au seuil diagnostique de 5 hématies/mm3, ce chiffre est incorrect pour la bandelette urinaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141476979_02",
+      "current_version_epoch_ms": 1756141476979,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique de l'hématurie macroscopique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de sang visible à l'œil nu",
+            "justification": "L'hématurie macroscopique se définit par la présence de sang visible à l'œil nu, donnant une couleur rosée, rouge ou brunâtre aux urines."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de sang uniquement détectée par un test urinaire",
+            "justification": "Ceci correspond à l'hématurie microscopique, qui est détectée par bandelette urinaire, et non à l'hématurie macroscopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Apparition de caillots uniquement",
+            "justification": "Bien que les caillots soient un symptôme possible, ils ne définissent pas l'hématurie macroscopique, qui est caractérisée par la présence de sang visible à l'œil nu."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes urologiques sans présence de sang visible",
+            "justification": "Les symptômes urologiques sont présents dans certaines causes de l'hématurie, mais ce n'est pas suffisant pour définir une hématurie macroscopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de douleur associée",
+            "justification": "La présence ou l'absence de douleur n'est pas une caractéristique de l'hématurie macroscopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141476979_03",
+      "current_version_epoch_ms": 1756141476979,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quelle est la relation entre l'intensité du saignement et la gravité de la maladie causale dans l'hématurie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il n'y a pas de corrélation",
+            "justification": "Il n'existe aucune corrélation entre le type d'hématurie ou l'intensité du saignement et la gravité de la maladie causale."
+          },
+          {
+            "correct": false,
+            "proposition": "Une hématurie macroscopique est toujours plus grave qu'une hématurie microscopique",
+            "justification": "L'intensité de l'hématurie ne reflète pas nécessairement la gravité de la pathologie sous-jacente."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hématurie macroscopique indique toujours une pathologie sévère",
+            "justification": "L'hématurie macroscopique n'indique pas nécessairement une pathologie grave. Son intensité ne doit pas être utilisée comme critère de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hématurie microscopique est généralement bénigne",
+            "justification": "L'hématurie microscopique, tout comme l'hématurie macroscopique, peut être liée à des pathologies bénignes ou graves, indépendamment de son intensité."
+          },
+          {
+            "correct": false,
+            "proposition": "Une hématurie avec caillots est toujours associée à une infection urinaire sévère",
+            "justification": "Les caillots peuvent être présents dans plusieurs contextes, et leur présence ne signifie pas nécessairement une infection urinaire sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141476979_04",
+      "current_version_epoch_ms": 1756141476979,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quels symptômes orientent vers une origine urologique de l'hématurie macroscopique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptômes du bas appareil urinaire, douleurs lombaires ou pelviennes",
+            "justification": "Les symptômes urologiques comme les douleurs lombaires ou pelviennes, et les symptômes du bas appareil urinaire, orientent souvent vers une origine urologique de l'hématurie macroscopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée et frissons",
+            "justification": "La fièvre et les frissons sont souvent associés à des infections, mais ne sont pas des signes spécifiques d'une origine urologique pour l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de nausées et vomissements",
+            "justification": "Les nausées et vomissements peuvent être présents dans diverses pathologies, mais ne sont pas des signes cliniques directs d'une origine urologique pour l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique et dyspnée",
+            "justification": "La douleur thoracique et la dyspnée sont plus caractéristiques d'une pathologie cardiaque ou respiratoire et non d'une origine urologique de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'éruption cutanée",
+            "justification": "Une éruption cutanée n'est pas un symptôme typique d'une origine urologique pour l'hématurie macroscopique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141476979_05",
+      "current_version_epoch_ms": 1756141476979,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques de l'hématurie macroscopique liée à une origine urologique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de caillots et symptômes urologiques associés",
+            "justification": "L'hématurie macroscopique d'origine urologique est souvent accompagnée de caillots et de symptômes comme des douleurs lombaires ou pelviennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Saignement sans douleur associée",
+            "justification": "Les hématuries d'origine urologique sont généralement accompagnées de douleurs, notamment lombaires ou pelviennes, et non de saignements isolés sans douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de leucocyturie",
+            "justification": "La leucocyturie, bien qu'indicative d'infection, n'est pas spécifique à l'origine urologique de l'hématurie macroscopique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs thoraciques et dyspnée",
+            "justification": "Les douleurs thoraciques et la dyspnée ne sont pas caractéristiques d'une origine urologique de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de symptômes cliniques associés",
+            "justification": "Une origine urologique de l'hématurie macroscopique est souvent associée à des symptômes cliniques comme des douleurs lombaires ou pelviennes, et non à une absence totale de symptômes."
+          }
+        ]
+      }
+    }
+  ]
+}
