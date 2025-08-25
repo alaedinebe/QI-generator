@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ISurR",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756115053785_01",
+      "current_version_epoch_ms": 1756115053785,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel est le dosage du cortisol à 8h qui permet de diagnostiquer une insuffisance surrénalienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cortisolémie < 50 ng/ml (138 nmol/l)",
+            "justification": "Une cortisolémie inférieure à 50 ng/ml (138 nmol/l) permet de diagnostiquer une insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisolémie > 180 ng/ml (500 nmol/l)",
+            "justification": "Une cortisolémie supérieure à 180 ng/ml (500 nmol/l) permet d'éliminer l'insuffisance surrénalienne, et non de la diagnostiquer."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisolémie entre 50 et 180 ng/ml",
+            "justification": "Un cortisol entre 50 et 180 ng/ml nécessite un test de stimulation pour confirmer l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisolémie > 50 ng/ml et < 100 ng/ml",
+            "justification": "Une cortisolémie de cette plage n'est pas suffisante pour diagnostiquer l'insuffisance surrénalienne, un test de stimulation est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisolémie = 180 ng/ml",
+            "justification": "Un cortisol de 180 ng/ml est considéré comme normal, excluant l'insuffisance surrénalienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115053785_02",
+      "current_version_epoch_ms": 1756115053785,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel est le test de stimulation utilisé pour confirmer une insuffisance surrénalienne lorsqu'une cortisolémie est comprise entre 50 et 180 ng/ml ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test au synACTHène",
+            "justification": "Le test au synACTHène est utilisé pour évaluer la réponse du cortisol après une injection d'ACTH et confirmer l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de cortisolémie après 24h",
+            "justification": "Le test de cortisolémie après 24h n'est pas couramment utilisé pour confirmer l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de stimulation à l'adrénaline",
+            "justification": "L'adrénaline n'est pas utilisée pour le test de stimulation diagnostique de l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de stimulation à l'insuline",
+            "justification": "Le test de stimulation à l'insuline est utilisé pour d'autres pathologies, mais pas pour l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de stimulation à la cortisone",
+            "justification": "La cortisone est un traitement, pas un test diagnostique de stimulation pour l'insuffisance surrénalienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115053785_03",
+      "current_version_epoch_ms": 1756115053785,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Que signifie une cortisolémie à 8h > 180 ng/ml (500 nmol/l) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cortisol normal, insuffisance surrénalienne éliminée",
+            "justification": "Une cortisolémie supérieure à 180 ng/ml (500 nmol/l) est considérée comme normale et permet d'éliminer l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance surrénalienne diagnostiquée",
+            "justification": "Une cortisolémie > 180 ng/ml exclut le diagnostic d'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessité d'un test de stimulation",
+            "justification": "Un cortisol > 180 ng/ml ne nécessite pas de test de stimulation, car l'insuffisance surrénalienne est exclue."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisolémie faible mais non pathologique",
+            "justification": "Un cortisol > 180 ng/ml est considéré comme normal, excluant toute insuffisance."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisol normal mais pathologie surrénalienne possible",
+            "justification": "Un cortisol > 180 ng/ml élimine l'insuffisance surrénalienne, il ne s'agit pas d'une pathologie surrénalienne."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115053785_04",
+      "current_version_epoch_ms": 1756115053785,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Que faire si le cortisol après injection de synACTHène est < 180 ng/ml 60 minutes après l'injection ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance surrénalienne confirmée",
+            "justification": "Si le cortisol est inférieur à 180 ng/ml après le test au synACTHène, cela confirme une insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Pas d'insuffisance surrénalienne",
+            "justification": "Si le cortisol est inférieur à 180 ng/ml après le test, cela confirme l'insuffisance surrénalienne, pas son absence."
+          },
+          {
+            "correct": false,
+            "proposition": "Répéter le test après 24h",
+            "justification": "Il n'est pas nécessaire de répéter le test, un cortisol < 180 ng/ml est suffisant pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la dose de synACTHène",
+            "justification": "Si le cortisol reste bas après l'injection, cela indique déjà une insuffisance, il n'est pas nécessaire d'augmenter la dose."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire une analyse d'urine",
+            "justification": "L'analyse d'urine n'est pas utilisée pour confirmer l'insuffisance surrénalienne après un test au synACTHène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115053785_05",
+      "current_version_epoch_ms": 1756115053785,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Que signifie une cortisolémie à 8h entre 50 ng/ml et 180 ng/ml ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Nécessité d'un test de stimulation au synACTHène",
+            "justification": "Lorsque la cortisolémie est entre 50 ng/ml et 180 ng/ml, un test de stimulation au synACTHène est nécessaire pour confirmer l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance surrénalienne exclue",
+            "justification": "La cortisolémie entre 50 et 180 ng/ml nécessite un test de stimulation, l'insuffisance n'est pas exclue."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance surrénalienne confirmée",
+            "justification": "Une cortisolémie entre 50 et 180 ng/ml ne permet pas à elle seule de confirmer une insuffisance surrénalienne, un test est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisol normal",
+            "justification": "Une cortisolémie entre 50 et 180 ng/ml ne peut être considérée comme normale, car elle nécessite un test de stimulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Nécessité de réévaluer dans 24h",
+            "justification": "Une cortisolémie entre 50 et 180 ng/ml nécessite immédiatement un test de stimulation, sans délai de 24h."
+          }
+        ]
+      }
+    }
+  ]
+}
