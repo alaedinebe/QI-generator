@@ -324,7 +324,7 @@ def main():
                             }
 
                             # 5) Sauvegarder joliment
-                            file_path = os.path.join(f"content_{subject}_{numero_item}_{slug}_{data[j]['identifiant']}_{timestamp}.json")
+                            file_path = os.path.join(f"content_{numero_item}_{subject}_{slug}_{data[j]['identifiant']}_{timestamp}.json")
                             with open(file_path, "w", encoding="utf-8") as f:
                                 json.dump(payload, f, ensure_ascii=False, indent=2)
 
