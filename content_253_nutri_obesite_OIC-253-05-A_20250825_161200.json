@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "obesite",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756131267007_01",
+      "current_version_epoch_ms": 1756131267007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quelle est la méthode correcte pour mesurer le tour de taille chez un adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mesurer en position debout, à mi-distance entre le rebord costal inférieur et les épines iliaques antéro-supérieures après expiration douce et les bras ballants.",
+            "justification": "Cette méthode permet d'obtenir une mesure fiable du tour de taille, corrélée à la graisse intra-abdominale."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer en position assise avec un mètre ruban autour de la taille.",
+            "justification": "La mesure en position assise ne correspond pas aux normes de l'examen clinique recommandé pour évaluer le tour de taille."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer en inspirant profondément et avec les bras en l'air.",
+            "justification": "La mesure doit se faire après une expiration douce et les bras ballants, et non pendant l'inspiration."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer en position couchée avec les bras le long du corps.",
+            "justification": "La position couchée n'est pas recommandée pour la mesure du tour de taille chez l'adulte."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer en position debout, à mi-distance entre le sternum et le nombril.",
+            "justification": "Le tour de taille doit être mesuré à mi-distance entre le rebord costal inférieur et les épines iliaques antéro-supérieures, et non près du sternum."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131267007_02",
+      "current_version_epoch_ms": 1756131267007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quel critère de tour de taille est associé à un risque cardio-métabolique accru chez l'homme selon le critère IDF ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 94 cm",
+            "justification": "Selon le critère IDF, un tour de taille supérieur ou égal à 94 cm chez l'homme est associé à un risque accru de pathologies cardio-métaboliques."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 88 cm",
+            "justification": "Ce seuil est associé aux critères NCEP-ATPIII et non au critère IDF pour les hommes."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 80 cm",
+            "justification": "Ce seuil est trop faible pour être considéré comme un indicateur de risque cardio-métabolique chez l'homme selon le critère IDF."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 102 cm",
+            "justification": "Ce seuil est correct pour les hommes selon les critères NCEP-ATPIII, mais non selon l'IDF."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 110 cm",
+            "justification": "Ce seuil est au-delà de ce qui est considéré par l'IDF comme un risque accru de pathologies cardio-métaboliques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131267007_03",
+      "current_version_epoch_ms": 1756131267007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quel seuil de tour de taille est associé à un risque cardio-métabolique accru chez la femme selon le critère NCEP-ATPIII ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 88 cm",
+            "justification": "Selon le critère NCEP-ATPIII, un tour de taille supérieur ou égal à 88 cm chez la femme est associé à un risque accru de pathologies cardio-métaboliques."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 80 cm",
+            "justification": "Ce seuil est plus bas que celui recommandé par le critère NCEP-ATPIII pour les femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 102 cm",
+            "justification": "Ce seuil est correct pour les hommes selon les critères NCEP-ATPIII, mais non pour les femmes."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 90 cm",
+            "justification": "Ce seuil n'est pas défini comme critère dans les recommandations du NCEP-ATPIII pour la femme."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 75 cm",
+            "justification": "Ce seuil est trop bas pour être associé à un risque accru de pathologies cardio-métaboliques chez la femme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131267007_04",
+      "current_version_epoch_ms": 1756131267007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Pourquoi la mesure du tour de taille est-elle importante dans l'examen clinique du sujet obèse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de corréler la quantité de graisse intra-abdominale et d'évaluer le risque cardio-métabolique.",
+            "justification": "Le tour de taille est un indicateur clé de la graisse viscérale, qui est directement liée à un risque accru de pathologies métaboliques et cardiovasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de mesurer l'excès de graisse sous-cutanée uniquement.",
+            "justification": "La mesure du tour de taille reflète principalement la graisse intra-abdominale, et non seulement la graisse sous-cutanée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet d'évaluer l'indice de masse corporelle (IMC).",
+            "justification": "L'IMC est une mesure distincte qui ne se base pas uniquement sur le tour de taille, mais sur la relation entre le poids et la taille."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de mesurer l'impact de l'obésité sur les articulations.",
+            "justification": "Bien que l'obésité puisse affecter les articulations, la mesure du tour de taille est davantage liée aux risques cardio-métaboliques qu'à l'impact articulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet d'évaluer l'état de nutrition du patient.",
+            "justification": "La mesure du tour de taille ne permet pas directement d'évaluer l'état nutritionnel, mais est plutôt un indicateur du risque métabolique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131267007_05",
+      "current_version_epoch_ms": 1756131267007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quel est le rôle du tour de taille dans la prévention des pathologies cardiovasculaires ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet d'identifier les individus à risque élevé en fonction de la distribution de la graisse abdominale.",
+            "justification": "Un tour de taille élevé indique une accumulation de graisse viscérale, facteur de risque majeur pour les maladies cardiovasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de déterminer le poids idéal de l'individu.",
+            "justification": "Le tour de taille ne permet pas de déterminer le poids idéal, mais évalue plutôt la répartition de la graisse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de diagnostiquer l'hypertension artérielle.",
+            "justification": "Le tour de taille est lié aux risques métaboliques et cardiovasculaires, mais ne permet pas directement de diagnostiquer l'hypertension artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de mesurer la fonction cardiaque.",
+            "justification": "Le tour de taille est un indicateur indirect des risques cardio-métaboliques, mais ne permet pas de mesurer directement la fonction cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de diagnostiquer l'insuffisance veineuse.",
+            "justification": "Bien que lié aux risques métaboliques, le tour de taille ne permet pas de diagnostiquer l'insuffisance veineuse."
+          }
+        ]
+      }
+    }
+  ]
+}
