@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ISurR",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756115204203_01",
+      "current_version_epoch_ms": 1756115204203,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel est le seuil de cortisolémie à 1h permettant d'éliminer le diagnostic d'insuffisance surrénale après un test au synacthène ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 180 ng/ml (500 nmol/l)",
+            "justification": "Un pic de cortisol supérieur ou égal à 180 ng/ml (500 nmol/l) après un test au synacthène indique une réponse normale, éliminant ainsi le diagnostic d'insuffisance surrénale, sauf en cas d'insuffisance corticotrope partielle ou récente."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 200 ng/ml (555 nmol/l)",
+            "justification": "Le seuil critique pour éliminer l'insuffisance surrénale est de 180 ng/ml (500 nmol/l) et non de 200 ng/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "≤ 180 ng/ml (500 nmol/l)",
+            "justification": "Un pic de cortisol inférieur à 180 ng/ml (500 nmol/l) signifie une absence de réponse au test, confirmant l'insuffisance surrénale."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 250 ng/ml (700 nmol/l)",
+            "justification": "Le seuil de 250 ng/ml (700 nmol/l) n'est pas utilisé pour déterminer la réponse au test au synacthène."
+          },
+          {
+            "correct": false,
+            "proposition": "≤ 250 ng/ml (700 nmol/l)",
+            "justification": "Un pic de cortisol inférieur à 250 ng/ml (700 nmol/l) ne correspond pas à un seuil diagnostique dans le test au synacthène."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115204203_02",
+      "current_version_epoch_ms": 1756115204203,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du test au synacthène dans le diagnostic des insuffisances surrénaliennes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Explorer l'insuffisance surrénale primaire et corticotrope",
+            "justification": "Le test au synacthène explore à la fois l'insuffisance surrénale primaire et la possibilité d'une insuffisance corticotrope en analysant la réponse du cortex surrénalien à une forte dose d'ACTH exogène."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la concentration en aldostérone",
+            "justification": "Le test au synacthène n'évalue pas la concentration en aldostérone, il est centré sur la réponse du cortisol."
+          },
+          {
+            "correct": false,
+            "proposition": "Explorer l'insuffisance thyroïdienne",
+            "justification": "Le test au synacthène ne concerne pas l'insuffisance thyroïdienne, mais l'insuffisance surrénalienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser la fonction de l'hypothalamus",
+            "justification": "Le test au synacthène explore la réponse corticosurrénalienne à l'ACTH et non la fonction hypothalamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer une hyperplasie congénitale des surrénales",
+            "justification": "Le test au synacthène est utilisé pour diagnostiquer une insuffisance surrénalienne, mais pas pour l'hyperplasie congénitale des surrénales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115204203_03",
+      "current_version_epoch_ms": 1756115204203,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel est le seuil de cortisol pré-test (avant administration du synacthène) permettant de diagnostiquer directement une insuffisance surrénale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "< 5 ng/ml (138 nmol/l)",
+            "justification": "Si la cortisolémie avant test est inférieure à 5 ng/ml (138 nmol/l), le diagnostic d'insuffisance surrénale est confirmé sans nécessité de test de stimulation au synacthène."
+          },
+          {
+            "correct": false,
+            "proposition": "< 10 ng/ml (276 nmol/l)",
+            "justification": "Le seuil pour diagnostiquer une insuffisance surrénale sans test de stimulation est de < 5 ng/ml (138 nmol/l), et non < 10 ng/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "< 15 ng/ml (414 nmol/l)",
+            "justification": "Le seuil diagnostique de l'insuffisance surrénale est < 5 ng/ml (138 nmol/l) et non < 15 ng/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 5 ng/ml (138 nmol/l)",
+            "justification": "Un cortisol pré-test supérieur à 5 ng/ml (138 nmol/l) n'implique pas un diagnostic d'insuffisance surrénale sans test de stimulation."
+          },
+          {
+            "correct": false,
+            "proposition": "< 3 ng/ml (83 nmol/l)",
+            "justification": "Le seuil diagnostique est de < 5 ng/ml (138 nmol/l), et non de < 3 ng/ml."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115204203_04",
+      "current_version_epoch_ms": 1756115204203,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Dans quel cas un test de stimulation au synacthène peut-il être inutile même si l'insuffisance surrénale est suspectée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cortisol pré-test > 500 nmol/l",
+            "justification": "Si la cortisolémie avant le test est supérieure à 500 nmol/l en l'absence de stress physique majeur, le diagnostic d'insuffisance surrénale est écarté et le test de stimulation n'est pas nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisol pré-test < 10 ng/ml",
+            "justification": "Un cortisol pré-test inférieur à 10 ng/ml (276 nmol/l) indique une insuffisance surrénale et justifie un test de stimulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge supérieur à 70 ans",
+            "justification": "L'âge n'est pas un critère pour écarter la nécessité du test de stimulation au synacthène si l'insuffisance surrénale est suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisol pré-test entre 5 et 10 ng/ml",
+            "justification": "Un cortisol pré-test entre 5 et 10 ng/ml nécessite une évaluation supplémentaire, le test de stimulation est donc pertinent dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Cortisol pré-test > 250 nmol/l",
+            "justification": "Le seuil critique est de 500 nmol/l, pas de 250 nmol/l, pour écarter l'insuffisance surrénale sans test de stimulation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756115204203_05",
+      "current_version_epoch_ms": 1756115204203,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "ISurR"
+      },
+      "data": {
+        "statement": "Quel facteur peut rendre la réponse au test au synacthène normale malgré une insuffisance corticotrope ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance corticotrope d'installation récente ou partielle",
+            "justification": "Dans le cas d'une insuffisance corticotrope d'installation récente ou partielle, le cortex surrénalien n'est pas atrophié et peut répondre normalement à une forte dose d'ACTH exogène."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance corticotrope aiguë et sévère",
+            "justification": "Une insuffisance corticotrope aiguë et sévère entraînerait une absence de réponse au test au synacthène, indiquant un dysfonctionnement surrénalien."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance surrénale primaire",
+            "justification": "Une insuffisance surrénale primaire entraînerait une absence de réponse au test au synacthène, et non une réponse normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperplasie congénitale des surrénales",
+            "justification": "L'hyperplasie congénitale des surrénales n'est pas liée à la capacité de réponse au test au synacthène dans ces conditions."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de Cushing",
+            "justification": "Le syndrome de Cushing entraînerait une suppression de la production de cortisol, et non une réponse normale au test."
+          }
+        ]
+      }
+    }
+  ]
+}
