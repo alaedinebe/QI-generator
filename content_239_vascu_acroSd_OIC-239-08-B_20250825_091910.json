@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "acroSd",
+    "subject": "vascu"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756106497027_01",
+      "current_version_epoch_ms": 1756106497027,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "acroSd"
+      },
+      "data": {
+        "statement": "Quelle est la principale indication de la manœuvre d'Allen ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer la perfusion sanguine des doigts après une compression des artères",
+            "justification": "La manœuvre d'Allen permet de tester la perfusion des doigts après une compression des artères, en particulier pour évaluer la fonction des artères radiale et ulnaire avant un prélèvement artériel."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la pression artérielle systémique",
+            "justification": "Cette proposition est incorrecte car la manœuvre d'Allen n'est pas utilisée pour mesurer la pression artérielle mais pour tester la circulation sanguine locale des doigts."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'influx nerveux dans le membre supérieur",
+            "justification": "La manœuvre d'Allen ne permet pas d'évaluer l'influx nerveux mais la perfusion artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'état de l'artère subclavière",
+            "justification": "La manœuvre d'Allen évalue les artères radiale et ulnaire, pas l'artère subclavière."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer le débit cardiaque",
+            "justification": "Cette proposition est incorrecte car la manœuvre d'Allen ne permet pas de mesurer le débit cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106497027_02",
+      "current_version_epoch_ms": 1756106497027,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "acroSd"
+      },
+      "data": {
+        "statement": "Lors de la manœuvre d'Allen, quel résultat indique une bonne perfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le retour de la couleur dans les doigts après la relâchement de la compression de l'artère ulnar",
+            "justification": "Un retour rapide de la couleur dans les doigts après la relâchement de la compression indique une perfusion adéquate."
+          },
+          {
+            "correct": false,
+            "proposition": "Le blanchiment des doigts après la relâchement de la compression",
+            "justification": "Un blanchiment des doigts après la manœuvre indique une mauvaise perfusion sanguine et non une bonne circulation."
+          },
+          {
+            "correct": false,
+            "proposition": "La douleur dans les doigts après relâchement de la compression",
+            "justification": "La douleur après la manœuvre est un signe d'ischémie et non d'une perfusion correcte."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de changement de couleur dans les doigts",
+            "justification": "L'absence de changement de couleur dans les doigts suggère une mauvaise perfusion et un dysfonctionnement artériel."
+          },
+          {
+            "correct": false,
+            "proposition": "La perte de la sensibilité des doigts",
+            "justification": "La perte de la sensibilité peut indiquer un problème nerveux, mais pas nécessairement une mauvaise perfusion sanguine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106497027_03",
+      "current_version_epoch_ms": 1756106497027,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "acroSd"
+      },
+      "data": {
+        "statement": "Quelle est la principale contre-indication de la manœuvre d'Allen ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'une obstruction artérielle significative au niveau des artères radiale ou ulnaire",
+            "justification": "Une obstruction artérielle significative rend la manœuvre d'Allen dangereuse, car elle pourrait aggraver l'ischémie des doigts."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une infection cutanée au niveau du poignet",
+            "justification": "Bien qu'une infection cutanée puisse être une contre-indication pour des procédures invasives, elle n'empêche pas l'exécution de la manœuvre d'Allen."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de douleur aiguë dans le poignet",
+            "justification": "La douleur aiguë dans le poignet n'est pas une contre-indication stricte à la manœuvre d'Allen, bien que cette dernière puisse être inconfortable."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de chirurgie de la main",
+            "justification": "Les antécédents de chirurgie de la main ne constituent pas une contre-indication à la manœuvre d'Allen, sauf si la chirurgie a affecté les artères principales."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une fracture du radius",
+            "justification": "Une fracture du radius n'est pas une contre-indication à la manœuvre d'Allen si la circulation sanguine n'est pas compromise."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106497027_04",
+      "current_version_epoch_ms": 1756106497027,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "acroSd"
+      },
+      "data": {
+        "statement": "Que peut-on conclure si, après avoir effectué la manœuvre d'Allen, il n'y a pas de retour de couleur dans les doigts ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il y a probablement une obstruction dans l'artère ulnar ou radiale, compromettant la perfusion des doigts.",
+            "justification": "Un retour insuffisant ou absent de la couleur dans les doigts suggère une obstruction significative dans l'une des artères, ce qui empêche la circulation sanguine adéquate."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a pas de problème vasculaire, mais la manœuvre a été mal réalisée.",
+            "justification": "Si la manœuvre est bien réalisée, l'absence de retour de couleur est généralement un signe d'obstruction vasculaire et non d'erreur technique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les artères radiale et ulnaire sont trop dilatées pour permettre un bon retour sanguin.",
+            "justification": "Les artères radiale et ulnaire ne se dilatent normalement pas de manière significative pour interférer avec la circulation sanguine dans cette manœuvre."
+          },
+          {
+            "correct": false,
+            "proposition": "L'artère brachiale est bloquée, ce qui affecte la circulation dans la main.",
+            "justification": "La manœuvre d'Allen évalue la circulation dans les artères radiale et ulnaire, pas dans l'artère brachiale."
+          },
+          {
+            "correct": false,
+            "proposition": "La compression a été relâchée trop rapidement, ce qui a faussé les résultats.",
+            "justification": "Une compression trop rapide pourrait affecter la manœuvre, mais l'absence de retour de couleur est un signe plus direct d'une obstruction artérielle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106497027_05",
+      "current_version_epoch_ms": 1756106497027,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "acroSd"
+      },
+      "data": {
+        "statement": "Dans quel cas la manœuvre d'Allen est particulièrement utile avant une procédure médicale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Avant un prélèvement artériel pour une gazométrie",
+            "justification": "La manœuvre d'Allen permet de s'assurer que la perfusion sanguine est suffisante avant de prélever du sang dans l'artère radiale ou ulnaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant un prélèvement de cellules pour une biopsie musculaire",
+            "justification": "La manœuvre d'Allen n'a pas d'indication dans le cadre d'une biopsie musculaire, car elle évalue la circulation sanguine et non la santé des tissus musculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant une intervention chirurgicale sur les tendons de la main",
+            "justification": "La manœuvre d'Allen ne concerne pas la préparation à une chirurgie des tendons mais sert à évaluer la perfusion des doigts."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant une insertion de cathéter central dans la veine jugulaire",
+            "justification": "La manœuvre d'Allen est utilisée pour évaluer la circulation périphérique des doigts, pas pour les procédures liées aux veines centrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Avant une radiographie des articulations de la main",
+            "justification": "La manœuvre d'Allen ne s'applique pas aux radiographies, mais à la vérification de la perfusion artérielle."
+          }
+        ]
+      }
+    }
+  ]
+}
