@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756121050636_01",
+      "current_version_epoch_ms": 1756121050636,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Lorsqu'une hyperglycémie est suspectée, quel examen est réalisé en urgence pour évaluer l'acidose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cétonémie capillaire",
+            "justification": "La cétonémie capillaire permet de détecter la présence de cétones dans le sang, un indicateur clé d'acidose dans les déséquilibres hyperglycémiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique pour rechercher une plaie de pied",
+            "justification": "Bien que l'examen clinique à la recherche de plaies soit important, il n'est pas directement utile pour évaluer l'acidose dans une hyperglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure de la pression artérielle",
+            "justification": "La pression artérielle n'est pas un examen spécifique pour évaluer l'acidose ou la cause de l'hyperglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de foyer infectieux par hémoculture",
+            "justification": "Bien qu'indispensable pour identifier une infection, l'hémoculture ne sert pas à évaluer directement l'acidose liée à une hyperglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation du pH sanguin",
+            "justification": "Bien que le pH veineux soit important, il n'est pas spécifiquement un examen en urgence pour diagnostiquer l'acidose d'une hyperglycémie, la cétonémie est prioritaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121050636_02",
+      "current_version_epoch_ms": 1756121050636,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel calcul est nécessaire lorsqu'une hyperglycémie est associée à une cétonémie positive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Calcul du trou anionique",
+            "justification": "Le calcul du trou anionique est essentiel pour évaluer l'acidose métabolique dans les cas d'hyperglycémie accompagnée de cétonémie positive."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcul de l'osmolarité",
+            "justification": "Le calcul de l'osmolarité est utilisé lorsque la cétonémie est négative, et non dans les cas de cétonémie positive."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du taux de créatinine",
+            "justification": "Bien que la créatinine soit mesurée dans l'évaluation des fonctions rénales, elle n'est pas spécifiquement utilisée pour le calcul du trou anionique."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de l'ECG",
+            "justification": "L'ECG est utile pour détecter des anomalies cardiaques mais n'est pas utilisé pour le calcul du trou anionique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du pH veineux",
+            "justification": "Bien que le pH veineux soit utile pour évaluer l'acidose, il ne remplace pas le calcul du trou anionique dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121050636_03",
+      "current_version_epoch_ms": 1756121050636,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une hyperglycémie, quel calcul est effectué en cas de cétonémie négative ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Calcul de l'osmolarité",
+            "justification": "Le calcul de l'osmolarité est crucial pour évaluer l'hyperglycémie en l'absence de cétonémie, permettant d'identifier une hyperosmolarité."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcul du trou anionique",
+            "justification": "Le trou anionique est réservé aux cas où la cétonémie est positive et n'est pas utilisé en cas de cétonémie négative."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du pH sanguin",
+            "justification": "Bien que la mesure du pH soit pertinente pour évaluer l'acidose, l'osmolarité est plus spécifique en cas de cétonémie négative."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation du taux d'urée",
+            "justification": "L'urée est un examen pertinent pour évaluer la fonction rénale, mais elle ne remplace pas le calcul de l'osmolarité dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique de recherche de foyer infectieux",
+            "justification": "La recherche d'un foyer infectieux, bien que cruciale, ne permet pas d'évaluer directement l'osmolarité dans ce cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121050636_04",
+      "current_version_epoch_ms": 1756121050636,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle analyse est réalisée pour rechercher un foyer infectieux en cas d'hyperglycémie suspecte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémoculture",
+            "justification": "L'hémoculture est un test clé pour identifier une infection systémique potentiellement à l'origine de la décompensation hyperglycémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du pH veineux",
+            "justification": "Bien que le pH soit utile pour évaluer l'acidose, il n'est pas utilisé pour détecter un foyer infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcul du trou anionique",
+            "justification": "Le trou anionique aide à évaluer l'acidose mais n'est pas un examen destiné à identifier un foyer infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est utile pour détecter des anomalies cardiaques mais n'est pas destiné à diagnostiquer une infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse de la créatinine sanguine",
+            "justification": "La créatinine est utilisée pour évaluer la fonction rénale mais n'est pas utile pour diagnostiquer un foyer infectieux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121050636_05",
+      "current_version_epoch_ms": 1756121050636,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "En cas de suspicion de déséquilibre hyperglycémique, quel est l'examen clinique essentiel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen clinique à la recherche de plaie de pied",
+            "justification": "Les plaies de pied sont un facteur important à rechercher car elles peuvent être à l'origine de la décompensation hyperglycémique, en particulier dans le cadre du diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure du taux de créatinine",
+            "justification": "Bien que l'évaluation de la créatinine soit importante pour la fonction rénale, elle n'est pas spécifiquement destinée à identifier une plaie de pied."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcul du trou anionique",
+            "justification": "Le calcul du trou anionique est un examen diagnostique de l'acidose, pas un examen clinique pour rechercher une plaie de pied."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation du pH sanguin",
+            "justification": "Bien que le pH sanguin soit un test diagnostique important, il ne remplace pas un examen clinique pour rechercher des plaies de pied."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de foyer infectieux par PCR COVID",
+            "justification": "La PCR COVID est un test utile pour diagnostiquer le COVID-19, mais il n'est pas un examen clinique destiné à rechercher une plaie de pied."
+          }
+        ]
+      }
+    }
+  ]
+}
