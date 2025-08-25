@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756119846822_01",
+      "current_version_epoch_ms": 1756119846822,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle est la première étape dans le diagnostic du diabète chez un patient asymptomatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dépistage",
+            "justification": "Le dépistage du diabète est la première étape dans la prise en charge des patients asymptomatiques à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie veineuse à jeun ≥ 1,26 g/l à deux reprises",
+            "justification": "Bien que ce critère soit utilisé pour poser le diagnostic, il ne constitue pas la première étape dans la démarche diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperglycémie provoquée par voie orale",
+            "justification": "L'hyperglycémie provoquée par voie orale est réservée aux cas où la glycémie à jeun est dans une zone de doute (1,10 à 1,26 g/l)."
+          },
+          {
+            "correct": false,
+            "proposition": "Situations d'urgence chez un patient symptomatique",
+            "justification": "Ce critère est utilisé en cas de symptômes aigus, ce qui fait partie d'une approche d'urgence et non de dépistage."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie à jeun, entre 1,10 et 1,26 g/l",
+            "justification": "Ce critère ne permet pas seul de poser le diagnostic de diabète. Il nécessite une confirmation par l'HGPO ou la glycémie à jeun répétée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119846822_02",
+      "current_version_epoch_ms": 1756119846822,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Dans quel cas l'hyperglycémie provoquée par voie orale (HGPO) est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Grossesse",
+            "justification": "L'HGPO est recommandé dans le cadre du dépistage du diabète gestationnel chez la femme enceinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète déjà diagnostiqué",
+            "justification": "L'HGPO n'est pas utilisé pour diagnostiquer un diabète déjà confirmé. Il est utilisé en cas de doute diagnostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Glycémie à jeun entre 1,10 et 1,26 g/l",
+            "justification": "Lorsque la glycémie à jeun est borderline, entre 1,10 et 1,26 g/l, l'HGPO est utilisé pour confirmer ou infirmer le diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de symptomatologie clinique aigüe",
+            "justification": "Les situations d'urgence ne nécessitent pas l'HGPO, mais un dosage direct de la glycémie à jeun."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'acidocétose",
+            "justification": "L'acidocétose nécessite un diagnostic clinique et biologique immédiat, l'HGPO n'est pas utilisé dans ce cadre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119846822_03",
+      "current_version_epoch_ms": 1756119846822,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelles sont les particularités du diabète chez l'enfant de moins de 5 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'acidocétose est souvent présente au diagnostic",
+            "justification": "Chez les enfants de moins de 5 ans, l'acidocétose est fréquemment présente au moment du diagnostic de diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "Le diabète est facilement reconnu grâce à des symptômes classiques",
+            "justification": "Chez les jeunes enfants, les symptômes classiques du diabète (polyurie, polydipsie) sont plus difficiles à identifier."
+          },
+          {
+            "correct": false,
+            "proposition": "La glycémie veineuse à jeun est rarement supérieure à 1,26 g/l",
+            "justification": "Chez l'enfant, la glycémie peut souvent être élevée, mais l'acidocétose est souvent un signe précoce du diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "Le dépistage est systématiquement réalisé dès l'âge de 3 ans",
+            "justification": "Le dépistage n'est pas systématique à cet âge, sauf en cas de facteurs de risque particuliers."
+          },
+          {
+            "correct": false,
+            "proposition": "Les enfants sont rarement symptomatiques au moment du diagnostic",
+            "justification": "Les symptômes sont souvent présents mais peuvent être difficiles à reconnaître chez les jeunes enfants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119846822_04",
+      "current_version_epoch_ms": 1756119846822,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est le critère diagnostique principal pour poser le diagnostic de diabète dans une situation d'urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie ≥ 2 g/l chez un patient symptomatique",
+            "justification": "Dans les situations d'urgence, une glycémie supérieure ou égale à 2 g/l chez un patient symptomatique permet de poser le diagnostic de diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de polyurie et polydipsie",
+            "justification": "Bien que ces symptômes soient fréquents, ils ne sont pas suffisants pour diagnostiquer un diabète dans une situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie veineuse à jeun > 1,26 g/l",
+            "justification": "Ce critère n'est pas spécifique aux situations d'urgence, où la glycémie mesurée doit être supérieure à 2 g/l."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperglycémie provoquée par voie orale",
+            "justification": "L'HGPO n'est pas utilisé dans des situations d'urgence, mais pour un diagnostic plus précoce ou de confirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une acidocétose",
+            "justification": "L'acidocétose est un signe associé au diabète, mais elle ne permet pas à elle seule de poser le diagnostic de diabète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756119846822_05",
+      "current_version_epoch_ms": 1756119846822,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Dans quelle situation la glycémie à jeun doit être mesurée deux fois pour confirmer le diabète ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie veineuse à jeun ≥ 1,26 g/l à deux reprises",
+            "justification": "Pour diagnostiquer le diabète, il est nécessaire de mesurer la glycémie veineuse à jeun à deux reprises, si elle est supérieure ou égale à 1,26 g/l."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie à jeun entre 1,10 et 1,26 g/l",
+            "justification": "Dans cette plage, l'HGPO est recommandé, pas un simple contrôle de la glycémie à jeun."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie après un repas riche en glucides",
+            "justification": "La glycémie postprandiale n'est pas suffisante pour confirmer un diabète, une mesure à jeun est requise."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie 2 heures après la charge orale",
+            "justification": "Ce critère fait partie de l'HGPO et non d'une mesure de glycémie à jeun."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie à jeun après une hypoglycémie sévère",
+            "justification": "La mesure de la glycémie à jeun n'est pas pertinente immédiatement après une hypoglycémie sévère."
+          }
+        ]
+      }
+    }
+  ]
+}
