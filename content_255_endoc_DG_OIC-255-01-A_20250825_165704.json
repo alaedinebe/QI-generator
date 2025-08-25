@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DG",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756133970766_01",
+      "current_version_epoch_ms": 1756133970766,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "DG"
+      },
+      "data": {
+        "statement": "Quel est le critère de dépistage du diabète gestationnel chez une femme enceinte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Âge ≥ 35 ans",
+            "justification": "L'âge supérieur ou égal à 35 ans est un critère de dépistage sélectif du diabète gestationnel."
+          },
+          {
+            "correct": true,
+            "proposition": "IMC ≥ 25 kg/m2",
+            "justification": "Un indice de masse corporelle (IMC) supérieur ou égal à 25 kg/m2 est un critère de dépistage pour le diabète gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie à jeun > 1,50 g/L",
+            "justification": "Ce seuil glycémique ne correspond pas aux critères de dépistage. Les critères sont basés sur l'IMC, l'âge, et l'historique familial."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédent d'enfant macrosome",
+            "justification": "Un antécédent d'enfant macrosome est un critère important de dépistage du diabète gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Régime alimentaire à risque",
+            "justification": "Le régime alimentaire n'est pas un critère de dépistage pour le diabète gestationnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756133970766_02",
+      "current_version_epoch_ms": 1756133970766,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "DG"
+      },
+      "data": {
+        "statement": "Quelle est la valeur seuil de la glycémie à jeun pour diagnostiquer un diabète gestationnel en début de grossesse ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "≥ 1,45 g/L",
+            "justification": "La valeur seuil de la glycémie à jeun pour diagnostiquer un diabète gestationnel en début de grossesse est ≥ 1,26 g/L."
+          },
+          {
+            "correct": true,
+            "proposition": "≥ 1,26 g/L",
+            "justification": "Un seuil de glycémie à jeun supérieur ou égal à 1,26 g/L est nécessaire pour diagnostiquer un diabète gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 1,80 g/L",
+            "justification": "Ce seuil correspond à la glycémie à 1 heure après la charge de glucose, pas à la glycémie à jeun."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 2,00 g/L",
+            "justification": "Ce seuil est trop élevé pour être utilisé comme critère diagnostique à jeun. Il correspond à la glycémie à 2 heures après la charge de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 1,35 g/L",
+            "justification": "Ce seuil ne correspond à aucune des valeurs définies pour le diagnostic du diabète gestationnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756133970766_03",
+      "current_version_epoch_ms": 1756133970766,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "DG"
+      },
+      "data": {
+        "statement": "À quel moment de la grossesse est-il recommandé de réaliser une charge orale de 75g de glucose pour le dépistage du diabète gestationnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Entre 24 et 28 SA",
+            "justification": "La charge orale de 75g de glucose est réalisée entre 24 et 28 semaines d'aménorrhée pour le dépistage du diabète gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 12 et 16 SA",
+            "justification": "Le dépistage par charge orale de glucose ne se fait pas à ce moment de la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "En début de grossesse",
+            "justification": "En début de grossesse, le dépistage se fait par une glycémie à jeun, et non par la charge de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 30 SA",
+            "justification": "Le dépistage par charge orale de 75g de glucose n'est pas recommandé après 30 semaines d'aménorrhée."
+          },
+          {
+            "correct": false,
+            "proposition": "À 36 SA",
+            "justification": "Le dépistage du diabète gestationnel n'est pas réalisé à ce moment de la grossesse, mais plutôt entre 24 et 28 SA."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756133970766_04",
+      "current_version_epoch_ms": 1756133970766,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "DG"
+      },
+      "data": {
+        "statement": "Quel est le critère diagnostique du diabète gestationnel à 1 heure après la charge orale de glucose de 75g ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "≥ 1,80 g/L",
+            "justification": "La glycémie à 1 heure après la charge de 75g de glucose doit être supérieure ou égale à 1,80 g/L pour diagnostiquer un diabète gestationnel."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 2,00 g/L",
+            "justification": "Le seuil de 2,00 g/L correspond à la glycémie à 2 heures après la charge orale de glucose, et non à 1 heure."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 1,26 g/L",
+            "justification": "Ce seuil est pour la glycémie à jeun, et non pour la glycémie à 1 heure après la charge de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 1,53 g/L",
+            "justification": "Ce seuil est pour la glycémie à 2 heures, et non pour 1 heure."
+          },
+          {
+            "correct": false,
+            "proposition": "≥ 2,50 g/L",
+            "justification": "Ce seuil est trop élevé et ne correspond pas aux critères diagnostiques pour la glycémie à 1 heure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756133970766_05",
+      "current_version_epoch_ms": 1756133970766,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "DG"
+      },
+      "data": {
+        "statement": "Que signifie un diagnostic de diabète gestationnel pendant la grossesse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Trouble de la tolérance glucidique débutant pendant la grossesse",
+            "justification": "Le diabète gestationnel est un trouble de la tolérance glucidique qui débute ou est diagnostiqué pour la première fois pendant la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Maladie préexistante avant la grossesse",
+            "justification": "Le diabète gestationnel est spécifique à la grossesse et ne doit pas être préexistant."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperglycémie chronique non liée à la grossesse",
+            "justification": "Le diabète gestationnel est un trouble de la tolérance glucidique survenant spécifiquement pendant la grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Trouble transitoire non nécessitant de suivi post-partum",
+            "justification": "Bien que le diabète gestationnel puisse se résoudre après la grossesse, un suivi post-partum est nécessaire pour évaluer le risque de diabète de type 2."
+          },
+          {
+            "correct": true,
+            "proposition": "Peut évoluer vers un diabète de type 2 post-partum",
+            "justification": "Les femmes ayant eu un diabète gestationnel présentent un risque accru de développer un diabète de type 2 après la grossesse."
+          }
+        ]
+      }
+    }
+  ]
+}
