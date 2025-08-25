@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "tbiono",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756159904472_01",
+      "current_version_epoch_ms": 1756159904472,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel est le traitement initial de l'hypernatrémie aiguë symptomatique chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Corriger la natrémie à une vitesse de 2 mmol/L/h.",
+            "justification": "La vitesse de correction initiale recommandée pour l'hypernatrémie aiguë symptomatique est de 2 mmol/L/h, sans dépasser 10-12 mmol/L/jour."
+          },
+          {
+            "correct": false,
+            "proposition": "Corriger la natrémie à une vitesse de 0,5 mmol/L/h.",
+            "justification": "Cette vitesse de correction est trop lente pour l'hypernatrémie aiguë symptomatique, elle s'applique plutôt pour les hypernatrémies anciennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'eau pure par voie intraveineuse.",
+            "justification": "L'eau pure ne doit jamais être administrée par voie intraveineuse, car cela peut entraîner une hémolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter l'apport en eau sans correction de la natrémie.",
+            "justification": "Une hypernatrémie aiguë nécessite une correction de la natrémie et un apport en eau adapté, pas seulement une restriction."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas traiter l'hypernatrémie si la symptomatologie est légère.",
+            "justification": "L'hypernatrémie symptomatique nécessite toujours un traitement, quel que soit le degré de la symptomatologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756159904472_02",
+      "current_version_epoch_ms": 1756159904472,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quelle est la vitesse maximale de correction de l'hypernatrémie ancienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ne pas dépasser 0,5 mmol/L/h.",
+            "justification": "Pour les hypernatrémies anciennes, la vitesse de correction ne doit pas dépasser 0,5 mmol/L/h afin d'éviter les risques d'œdème cérébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Corriger à une vitesse de 2 mmol/L/h.",
+            "justification": "Cette vitesse est recommandée pour les hypernatrémies aiguës, mais pas pour les hypernatrémies anciennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la correction à 10-12 mmol/L/j.",
+            "justification": "Il est recommandé de ne pas dépasser 10-12 mmol/L/24h pour éviter des complications neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne pas corriger du tout.",
+            "justification": "L'hypernatrémie ancienne nécessite une correction, mais à un rythme plus lent pour prévenir les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Corriger à une vitesse de 1 mmol/L/h.",
+            "justification": "Bien que cette vitesse soit plus lente, elle reste supérieure à la limite recommandée de 0,5 mmol/L/h."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756159904472_03",
+      "current_version_epoch_ms": 1756159904472,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Comment calculer le déficit en eau chez un patient présentant une hypernatrémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déficit en eau = 60% × poids × ([Natrémie/140] – 1).",
+            "justification": "La formule précise pour estimer le déficit en eau est basée sur le poids du patient et le ratio de la natrémie par rapport à 140 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en eau = poids × ([Natrémie/140] – 1).",
+            "justification": "Il manque le facteur de 60% qui est nécessaire pour estimer correctement le déficit en eau."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en eau = 50% × poids × ([Natrémie/140] – 1).",
+            "justification": "La formule correcte utilise un facteur de 60%, pas 50%."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en eau = poids × Natrémie.",
+            "justification": "Cette formule est incorrecte et ne tient pas compte de la différence entre la natrémie mesurée et le seuil normal de 140 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en eau = poids × (1 – Natrémie/140).",
+            "justification": "Cette formule ne correspond pas à la méthode correcte de calcul du déficit en eau."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756159904472_04",
+      "current_version_epoch_ms": 1756159904472,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quelle est la forme d'hydratation recommandée en cas de déshydratation intracellulaire pure ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Eau de boisson (pas d'eau pure intraveineuse).",
+            "justification": "En cas de déshydratation intracellulaire, l'hydratation se fait avec de l'eau de boisson, car l'administration d'eau pure par voie intraveineuse induirait une hémolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Soluté salé hypertonique.",
+            "justification": "Un soluté salé hypertonique est adapté pour des cas de déshydratation extracellulaire, pas pour une déshydratation intracellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Soluté glucosé à 5%.",
+            "justification": "Le soluté glucosé est utile pour certaines indications, mais n'est pas adapté en cas de déshydratation intracellulaire pure."
+          },
+          {
+            "correct": false,
+            "proposition": "Eau pure intraveineuse.",
+            "justification": "L'eau pure ne doit jamais être administrée par voie intraveineuse, cela risquerait de provoquer une hémolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Soluté de chlorure de sodium hypertonique.",
+            "justification": "Ce type de solution est utilisé pour d'autres types de déshydratation, mais pas pour la déshydratation intracellulaire pure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756159904472_05",
+      "current_version_epoch_ms": 1756159904472,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Dans quel cas faut-il privilégier l'administration de soluté salé hypotonique à 4,5 g/L ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déshydratation globale.",
+            "justification": "En cas de déshydratation globale, il est recommandé de corriger la volémie avec un soluté salé hypotonique à 4,5 g/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Déshydratation intracellulaire pure.",
+            "justification": "La déshydratation intracellulaire pure nécessite de l'eau de boisson, et non un soluté salé hypotonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperhydratation extracellulaire associée.",
+            "justification": "Dans ce cas, il est préférable d'utiliser un diurétique avec de l'eau pure ou un soluté hypotonique, pas un soluté salé hypotonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypernatrémie aiguë.",
+            "justification": "La correction d'une hypernatrémie aiguë nécessite de l'eau, pas seulement un soluté salé hypotonique."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de l'ADH inappropriée.",
+            "justification": "Ce syndrome nécessite une gestion spécifique, souvent avec des diurétiques ou d'autres traitements, mais pas l'administration de soluté salé hypotonique."
+          }
+        ]
+      }
+    }
+  ]
+}
