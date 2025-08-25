@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diabete",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756121652534_01",
+      "current_version_epoch_ms": 1756121652534,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est le principal mécanisme d'action des Biguanides, en particulier de la metformine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle réduit la production hépatique de glucose.",
+            "justification": "Les Biguanides, notamment la metformine, agissent principalement en diminuant la néoglucogenèse hépatique, ce qui réduit la production de glucose par le foie."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle stimule la production d'insuline par le pancréas.",
+            "justification": "La metformine ne stimule pas directement la sécrétion d'insuline, elle agit sur la production de glucose hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle inhibe l'absorption intestinale des glucides.",
+            "justification": "L'action principale de la metformine n'est pas de réduire l'absorption intestinale des glucides, mais de diminuer la production hépatique de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle augmente la sensibilité à l'insuline au niveau du foie.",
+            "justification": "Bien que la metformine améliore la sensibilité à l'insuline, son mécanisme principal est de réduire la production hépatique de glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle augmente la production d'insuline de manière indépendante de la fonction pancréatique.",
+            "justification": "La metformine ne stimule pas la production d'insuline, elle n'a pas d'effet direct sur les cellules bêta du pancréas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121652534_02",
+      "current_version_epoch_ms": 1756121652534,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quelle est la principale contre-indication à l'utilisation de la metformine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuffisance rénale avec un DFG <30 ml/min.",
+            "justification": "La metformine est contre-indiquée en cas d'insuffisance rénale sévère (DFG <30 ml/min), car elle peut s'accumuler et induire une acidose lactique."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension non contrôlée.",
+            "justification": "L'hypertension non contrôlée n'est pas une contre-indication à l'utilisation de la metformine."
+          },
+          {
+            "correct": false,
+            "proposition": "Pathologie cardiovasculaire aiguë.",
+            "justification": "Bien que la metformine soit prudente dans les situations cardiovasculaires aiguës, ce n'est pas une contre-indication formelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Diabète de type 1.",
+            "justification": "Le diabète de type 1 n'est pas une contre-indication à la metformine, bien qu'elle soit plus indiquée pour le diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents d'hypoglycémie sévère.",
+            "justification": "L'hypoglycémie sévère n'est pas une contre-indication à la metformine, mais la prudence est de mise en cas de traitement combiné avec d'autres antidiabétiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121652534_03",
+      "current_version_epoch_ms": 1756121652534,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quels sont les principaux effets indésirables des sulfamides hypoglycémiants ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoglycémie et prise de poids.",
+            "justification": "Les sulfamides hypoglycémiants, comme le gliclazide et le glimépiride, peuvent entraîner une hypoglycémie et une prise de poids, ce qui sont des effets indésirables majeurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Effets secondaires rares, sans risque d'hypoglycémie.",
+            "justification": "Les sulfamides hypoglycémiants sont associés à un risque important d'hypoglycémie, en particulier en cas de surdosage."
+          },
+          {
+            "correct": false,
+            "proposition": "Troubles digestifs fréquents.",
+            "justification": "Les sulfamides hypoglycémiants ne sont pas particulièrement associés à des troubles digestifs fréquents, contrairement à d'autres classes de médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'acidose lactique.",
+            "justification": "L'acidose lactique est un effet indésirable propre à la metformine, pas aux sulfamides hypoglycémiants."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque d'infection génitale.",
+            "justification": "Le risque d'infection génitale est plus lié aux inhibiteurs de SGLT2, et non aux sulfamides hypoglycémiants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121652534_04",
+      "current_version_epoch_ms": 1756121652534,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quels sont les principaux effets des inhibiteurs de SGLT2 sur le métabolisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glucosurie et natriurèse.",
+            "justification": "Les inhibiteurs de SGLT2, comme le dapagliflozine, induisent une glucosurie (excrétion de glucose dans les urines) et une natriurèse, ce qui aide à réduire la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Stimulation de la production d'insuline.",
+            "justification": "Les inhibiteurs de SGLT2 n'agissent pas en stimulant la production d'insuline mais en inhibant la réabsorption du glucose dans le rein."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du poids corporel.",
+            "justification": "Les inhibiteurs de SGLT2 entraînent généralement une perte de poids, et non une prise de poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Accélération de la vidange gastrique.",
+            "justification": "L'action principale des inhibiteurs de SGLT2 est sur le glucose rénal, pas sur la vidange gastrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la sécrétion de glucagon.",
+            "justification": "Les inhibiteurs de SGLT2 n'ont pas d'impact direct sur la sécrétion de glucagon, contrairement à d'autres classes comme les agonistes GLP1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756121652534_05",
+      "current_version_epoch_ms": 1756121652534,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "diabete"
+      },
+      "data": {
+        "statement": "Quel est l'effet principal des agonistes du récepteur GLP1 sur le métabolisme ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amélioration de la sécrétion d'insuline et réduction de la sécrétion de glucagon.",
+            "justification": "Les agonistes du récepteur GLP1, comme le liraglutide et le semaglutide, augmentent la sécrétion d'insuline et inhibent la sécrétion de glucagon, aidant ainsi à réguler la glycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la production hépatique de glucose.",
+            "justification": "Les agonistes GLP1 n'augmentent pas la production hépatique de glucose, leur action est plutôt de stimuler l'insuline et d'inhiber le glucagon."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de poids sans effet sur la sécrétion d'insuline.",
+            "justification": "La perte de poids est un effet secondaire bénéfique des agonistes GLP1, mais ils agissent aussi sur la sécrétion d'insuline."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la digestion des glucides complexes.",
+            "justification": "Les agonistes GLP1 n'inhibent pas la digestion des glucides complexes, contrairement à l'acarbose, un inhibiteur des alphaglucosidases."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la réabsorption du glucose au niveau rénal.",
+            "justification": "Cet effet est spécifique des inhibiteurs de SGLT2, pas des agonistes GLP1."
+          }
+        ]
+      }
+    }
+  ]
+}
