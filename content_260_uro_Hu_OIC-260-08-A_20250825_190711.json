@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Hu",
+    "subject": "uro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756141778062_01",
+      "current_version_epoch_ms": 1756141778062,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique d'une bandelette urinaire témoignant d'une hématurie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence de trois croix (+++) dans la zone de détection",
+            "justification": "L'hématurie est confirmée par la présence de trois croix (++) sur la bandelette urinaire, ce qui reflète une concentration élevée de globules rouges dans l'urine."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de croix dans la zone de détection",
+            "justification": "L'absence de croix ne correspond pas à une hématurie, mais plutôt à un échantillon d'urine normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une seule croix (+) dans la zone de détection",
+            "justification": "Une seule croix (+) indique une hématurie légère, mais ce n'est pas représentatif d'une hématurie marquée comme dans ce cas avec trois croix (+++)."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de deux croix (++) dans la zone de détection",
+            "justification": "Deux croix (++) peuvent indiquer une hématurie modérée, mais trois croix (+++) sont nécessaires pour qualifier l'hématurie comme sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une croix (++++) dans la zone de détection",
+            "justification": "La bandelette urinaire ne prévoit pas de notation à quatre croix, la notation maximale étant de trois croix (+++)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141778062_02",
+      "current_version_epoch_ms": 1756141778062,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal d'une bandelette urinaire dans l'évaluation clinique de l'hématurie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier la présence et la gravité de l'hématurie",
+            "justification": "La bandelette urinaire permet de détecter la présence de globules rouges dans l'urine et d'évaluer leur concentration, ce qui est essentiel pour l'évaluation de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la densité urinaire",
+            "justification": "La bandelette urinaire n'est pas conçue pour mesurer la densité urinaire, un test spécifique est nécessaire pour cela."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les niveaux de glucose dans l'urine",
+            "justification": "Bien que certaines bandelettes puissent mesurer le glucose, ce n'est pas l'objectif principal dans le cadre de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter les infections urinaires",
+            "justification": "Bien que des infections urinaires puissent provoquer une hématurie, la bandelette urinaire n'est pas spécifique à la détection des infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction rénale à long terme",
+            "justification": "La bandelette urinaire permet une évaluation rapide, mais elle n'est pas conçue pour une analyse approfondie de la fonction rénale à long terme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141778062_03",
+      "current_version_epoch_ms": 1756141778062,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quel est le degré d'hématurie lorsque trois croix (+++) apparaissent sur la bandelette urinaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hématurie sévère",
+            "justification": "La présence de trois croix (+++) indique une hématurie sévère, avec une concentration élevée de globules rouges dans l'urine."
+          },
+          {
+            "correct": false,
+            "proposition": "Hématurie légère",
+            "justification": "Une hématurie légère correspond généralement à une ou deux croix (+ ou ++) et non à trois croix (+++)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hématurie modérée",
+            "justification": "L'hématurie modérée est souvent indiquée par deux croix (++), mais non trois croix (+++)."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'hématurie",
+            "justification": "L'absence d'hématurie correspond à l'absence de croix dans la bandelette, pas à trois croix (+++)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hématurie microscopique",
+            "justification": "L'hématurie microscopique fait référence à une hématurie non visible à l'œil nu, généralement détectée sous microscope, mais non liée à la bandelette urinaire avec trois croix."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141778062_04",
+      "current_version_epoch_ms": 1756141778062,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Quel test complémentaire est nécessaire si une bandelette urinaire indique une hématurie sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse cytologique de l'urine",
+            "justification": "Une analyse cytologique permet de rechercher des anomalies dans les cellules urinaires, ce qui est essentiel après une détection d'hématurie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesure de la créatinine sérique",
+            "justification": "Bien que la créatinine soit un indicateur de la fonction rénale, elle n'est pas un test complémentaire immédiat après la détection d'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise de la tension artérielle",
+            "justification": "La tension artérielle n'est pas directement liée à l'évaluation de l'hématurie, bien qu'une hypertension puisse être une comorbidité."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen échographique rénal",
+            "justification": "Bien que l'échographie rénale puisse être utile pour détecter des anomalies anatomiques, elle n'est pas spécifiquement requise immédiatement après une hématurie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de grossesse",
+            "justification": "Le test de grossesse n'est pas pertinent pour l'évaluation de l'hématurie, sauf dans des cas très spécifiques de femmes enceintes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756141778062_05",
+      "current_version_epoch_ms": 1756141778062,
+      "rang": "A",
+      "topic": {
+        "subject": "uro",
+        "item": "Hu"
+      },
+      "data": {
+        "statement": "Comment peut-on différencier une hématurie d'origine rénale d'une hématurie d'origine urinaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Par la présence d'autres anomalies urinaires comme des protéines ou des cylindres",
+            "justification": "Les anomalies urinaires associées à une hématurie rénale incluent souvent des protéines et des cylindres, ce qui permet de différencier les deux origines."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la couleur de l'urine",
+            "justification": "La couleur de l'urine, bien qu'indicative, n'est pas un critère suffisant pour différencier l'origine rénale ou urinaire de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la quantité d'hématurie",
+            "justification": "La quantité d'hématurie seule ne permet pas de différencier l'origine rénale ou urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la mesure du pH urinaire",
+            "justification": "Le pH urinaire peut varier en fonction de différents facteurs, mais il ne permet pas de différencier directement les origines rénale ou urinaire de l'hématurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la présence de leucocytes dans l'urine",
+            "justification": "La présence de leucocytes peut indiquer une infection urinaire, mais elle ne permet pas de déterminer l'origine rénale ou urinaire de l'hématurie."
+          }
+        ]
+      }
+    }
+  ]
+}
