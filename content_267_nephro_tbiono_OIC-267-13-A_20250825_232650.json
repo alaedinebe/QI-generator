@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "tbiono",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756157357030_01",
+      "current_version_epoch_ms": 1756157357030,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quelle est la première anomalie ECG associée à l'hyperkaliémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Repolarisation accélérée avec des ondes T pointues et symétriques",
+            "justification": "La repolarisation accélérée avec une augmentation de l'amplitude des ondes T est le premier signe de l'hyperkaliémie. Ces ondes T sont typiquement pointues et symétriques, et elles sont bien visibles dans les dérivations V2 à V4 et DII, DIII."
+          },
+          {
+            "correct": false,
+            "proposition": "Disparition de l'onde P",
+            "justification": "La disparition de l'onde P est un signe plus tardif, indiquant des anomalies de conduction auriculaire qui surviennent après la repolarisation accélérée."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement des complexes QRS",
+            "justification": "L'élargissement des complexes QRS est une anomalie plus grave qui se produit après les anomalies auriculaires et auriculo-ventriculaires, mais n'est pas la première."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie avec QRS large",
+            "justification": "La bradycardie à QRS large, aussi appelée 'sine wave pattern', est une manifestation avancée qui précède l'asystolie, bien après les anomalies de repolarisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Arythmies ventriculaires",
+            "justification": "Les arythmies ventriculaires, comme la fibrillation ventriculaire, surviennent lorsque l'hyperkaliémie est associée à des facteurs comme une ischémie myocardique, mais elles sont plus tardives et plus graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756157357030_02",
+      "current_version_epoch_ms": 1756157357030,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Dans quel ordre les anomalies ECG apparaissent-elles en cas d'hyperkaliémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Repolarisation accélérée, anomalies auriculaires, conduction intraventriculaire, bradycardie, arythmies ventriculaires",
+            "justification": "Les anomalies ECG apparaissent dans cet ordre de gravité. La repolarisation accélérée est la première, suivie des anomalies de conduction, puis des anomalies intraventriculaires, suivies de la bradycardie et des arythmies ventriculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Anomalies de conduction, repolarisation accélérée, bradycardie, arythmies ventriculaires",
+            "justification": "L'ordre décrit ici n'est pas correct. La repolarisation accélérée apparaît avant les anomalies de conduction et les bradycardies."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie, arythmies ventriculaires, repolarisation accélérée, anomalies de conduction",
+            "justification": "La bradycardie et les arythmies ventriculaires sont des manifestations tardives qui suivent les anomalies de repolarisation et de conduction."
+          },
+          {
+            "correct": false,
+            "proposition": "Repolarisation accélérée, bradycardie, anomalies auriculaires, arythmies ventriculaires",
+            "justification": "Les anomalies auriculaires surviennent après la repolarisation accélérée et avant la bradycardie."
+          },
+          {
+            "correct": false,
+            "proposition": "Arythmies ventriculaires, bradycardie, repolarisation accélérée",
+            "justification": "Les arythmies ventriculaires sont les dernières anomalies à apparaître, et non les premières."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756157357030_03",
+      "current_version_epoch_ms": 1756157357030,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel est le signe ECG d'une bradycardie sévère liée à l'hyperkaliémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "QRS large avec 'sine wave pattern'",
+            "justification": "La bradycardie sévère dans l'hyperkaliémie est marquée par un QRS large et un 'sine wave pattern', qui est une anomalie précurseur de l'asystolie."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement des ondes T",
+            "justification": "L'élargissement des ondes T est un signe précoce de l'hyperkaliémie, mais n'indique pas spécifiquement la bradycardie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Disparition de l'onde P",
+            "justification": "La disparition de l'onde P est un signe de la conduction auriculaire altérée, qui se manifeste avant la bradycardie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Prolongation de l'intervalle PR",
+            "justification": "La prolongation de l'intervalle PR peut survenir dans certains cas d'hyperkaliémie, mais elle n'est pas spécifique à la bradycardie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie ventriculaire",
+            "justification": "La tachycardie ventriculaire est un type d'arythmie qui survient dans des cas graves, mais elle n'est pas directement liée à la bradycardie à QRS large."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756157357030_04",
+      "current_version_epoch_ms": 1756157357030,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel facteur peut augmenter le risque d'arythmies ventriculaires en cas d'hyperkaliémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ischémie myocardique",
+            "justification": "L'ischémie myocardique, en association avec l'hyperkaliémie, augmente le risque d'arythmies ventriculaires, telles que la tachycardie ventriculaire ou la fibrillation ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle",
+            "justification": "Bien que l'hypertension puisse être un facteur de risque pour diverses affections cardiaques, elle ne contribue pas directement à l'augmentation des arythmies ventriculaires en cas d'hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoglycémie sévère",
+            "justification": "L'hypoglycémie sévère n'est pas un facteur directement impliqué dans l'apparition d'arythmies ventriculaires en cas d'hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercalcémie",
+            "justification": "L'hypercalcémie est un facteur qui peut provoquer des anomalies cardiaques, mais elle ne joue pas un rôle principal dans l'apparition des arythmies ventriculaires liées à l'hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypothermie",
+            "justification": "Bien que l'hypothermie puisse influencer le rythme cardiaque, elle n'est pas directement liée aux arythmies ventriculaires dans le cadre de l'hyperkaliémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756157357030_05",
+      "current_version_epoch_ms": 1756157357030,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel type d'arythmie ventriculaire peut survenir en cas d'hyperkaliémie associée à des conditions graves ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fibrillation ventriculaire",
+            "justification": "La fibrillation ventriculaire peut survenir en cas d'hyperkaliémie sévère, notamment lorsque l'hyperkaliémie est associée à des facteurs comme l'ischémie myocardique, l'hypocalcémie sévère, ou une intoxication aux digitaliques."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie sinusale",
+            "justification": "La tachycardie sinusale est généralement observée dans d'autres conditions cardiaques, mais pas spécifiquement en cas d'hyperkaliémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Extrasystole auriculaire",
+            "justification": "Les extrasystoles auriculaires sont des anomalies de rythme plus bénignes qui ne sont pas typiquement associées à l'hyperkaliémie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie sinusale",
+            "justification": "La bradycardie sinusale peut survenir dans certaines situations, mais elle n'est pas une caractéristique dominante de l'hyperkaliémie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Flutter auriculaire",
+            "justification": "Le flutter auriculaire n'est pas directement lié à l'hyperkaliémie et est plus fréquemment associé à d'autres pathologies cardiaques."
+          }
+        ]
+      }
+    }
+  ]
+}
