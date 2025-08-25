@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hypoGly",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756107245624_01",
+      "current_version_epoch_ms": 1756107245624,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelle est l'étiologie la plus fréquente d'hypoglycémie chez le sujet diabétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Traitement par insuline mal adapté",
+            "justification": "Une insuline mal ajustée par rapport aux besoins du patient peut entraîner des hypoglycémies, notamment en cas de dose trop élevée ou mal répartie."
+          },
+          {
+            "correct": false,
+            "proposition": "Inadéquation entre dose d'insuline et repas ou prise de médicament hypoglycémiant et absence de repas",
+            "justification": "Bien que cette situation puisse mener à des hypoglycémies, elle n'est pas aussi fréquente que l'insulinothérapie mal adaptée."
+          },
+          {
+            "correct": false,
+            "proposition": "Gastroparésie",
+            "justification": "Bien que la gastroparésie puisse affecter l'absorption des aliments et influencer le contrôle glycémique, ce n'est pas la cause la plus courante d'hypoglycémie chez les diabétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La metformine",
+            "justification": "La metformine, contrairement aux autres traitements, n'entraîne pas d'hypoglycémies seules."
+          },
+          {
+            "correct": false,
+            "proposition": "Les inhibiteurs des dipeptidyl peptidase 4 (DPP4)",
+            "justification": "Les inhibiteurs de DPP4 ne causent pas d'hypoglycémie directement, ils agissent principalement en augmentant la sécrétion d'insuline après les repas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107245624_02",
+      "current_version_epoch_ms": 1756107245624,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelles sont les causes principales d'hypoglycémie chez un sujet non diabétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alcool, surtout en cas d'alcoolisation aiguë et sévère",
+            "justification": "L'alcool inhibe la production de glucose par le foie, ce qui peut entraîner des hypoglycémies, surtout en cas de consommation excessive."
+          },
+          {
+            "correct": true,
+            "proposition": "Insulinome",
+            "justification": "L'insulinome est une tumeur des cellules bêta des îlots de Langerhans qui produit de l'insuline de manière autonome, conduisant à des hypoglycémies."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "Bien que l'insuffisance cardiaque puisse affecter la perfusion des organes, elle n'est pas une cause directe d'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Déficit en vitamines",
+            "justification": "Les déficits vitaminiques, bien que pouvant affecter divers métabolismes, ne sont pas une cause fréquente d'hypoglycémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Insuffisance hépatique sévère",
+            "justification": "L'insuffisance hépatique sévère réduit la capacité du foie à produire du glucose, ce qui peut entraîner des hypoglycémies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107245624_03",
+      "current_version_epoch_ms": 1756107245624,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quel examen est considéré comme la référence pour le diagnostic d'hypoglycémie chez le sujet non diabétique lorsque l'étiologie est floue ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'épreuve de jeûne de 72 heures",
+            "justification": "L'épreuve de jeûne de 72 heures est l'examen de référence, permettant de différencier les étiologies de l'hypoglycémie, notamment l'insulinome et l'hypoglycémie due à une prise cachée d'insuline."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de tolérance au glucose",
+            "justification": "Le test de tolérance au glucose est utilisé pour diagnostiquer le diabète, mais ne permet pas de différencier les causes d'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de l'hémoglobine glyquée",
+            "justification": "Ce test permet de suivre le contrôle glycémique chez les diabétiques, mais il n'est pas pertinent pour diagnostiquer une hypoglycémie chez un sujet non diabétique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale peut être utile pour explorer d'autres causes d'hypoglycémie, mais elle n'est pas un examen spécifique pour cette pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des acides gras libres",
+            "justification": "Le dosage des acides gras libres n'est pas pertinent pour le diagnostic des causes d'hypoglycémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107245624_04",
+      "current_version_epoch_ms": 1756107245624,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quel est le profil biochimique observé en cas d'insulinome lors d'une hypoglycémie veineuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuline et C-peptide élevés",
+            "justification": "L'insulinome sécrète de l'insuline de manière autonome, ce qui augmente les niveaux d'insuline et de C-peptide, même en dehors des repas."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline élevée, C-peptide bas",
+            "justification": "Ce profil est observé en cas d'injection d'insuline exogène, pas d'insulinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline et C-peptide bas",
+            "justification": "Ce profil est observé dans des situations de dénutrition sévère, insuffisance viscérale, alcoolisme ou insuffisance surrénalienne, mais pas dans le cadre d'un insulinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline élevée, C-peptide élevé mais moins que l'insuline",
+            "justification": "Un tel profil n'est pas caractéristique d'une hypoglycémie due à un insulinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline basse, C-peptide élevé",
+            "justification": "Ce profil est peu probable dans le cas d'un insulinome, où l'insuline est élevée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756107245624_05",
+      "current_version_epoch_ms": 1756107245624,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quels sont les résultats attendus en cas d'insuffisance viscérale ou dénutrition sévère lors d'une hypoglycémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Insuline et C-peptide bas",
+            "justification": "Dans l'insuffisance viscérale ou la dénutrition sévère, la production d'insuline est diminuée, tout comme la production de C-peptide, entraînant des hypoglycémies."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline élevée, C-peptide bas",
+            "justification": "Un tel profil est plus observé en cas de prise d'insuline exogène non reconnue par la trousse de dosage."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline élevée, C-peptide élevé",
+            "justification": "Ce profil est typiquement observé dans des situations d'insulinome ou de prise cachée d'insulinosécrétagogues."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline et C-peptide normaux",
+            "justification": "Une hypoglycémie associée à des taux d'insuline et de C-peptide normaux serait plus indicative d'autres étiologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline et C-peptide élevés mais sans corrélation évidente",
+            "justification": "Ce profil biochimique ne correspond pas à l'insuffisance viscérale ou à la dénutrition sévère."
+          }
+        ]
+      }
+    }
+  ]
+}
