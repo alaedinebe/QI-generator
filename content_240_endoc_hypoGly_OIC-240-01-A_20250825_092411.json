@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hypoGly",
+    "subject": "endoc"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756106797992_01",
+      "current_version_epoch_ms": 1756106797992,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelle est la définition clinique et biologique de l'hypoglycémie chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Triade de Whipple : symptômes de neuroglucopénie, glycémie veineuse basse, correction des symptômes lors de normalisation de la glycémie.",
+            "justification": "La triade de Whipple est la définition clé de l'hypoglycémie, incluant des symptômes de neuroglucopénie et une glycémie veineuse basse simultanée, avec correction des symptômes après normalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie capillaire inférieure à 0,50 g/l accompagnée de symptômes adrénaliniques.",
+            "justification": "L'hypoglycémie se définit par une glycémie veineuse basse et non capillaire, et les symptômes doivent être de neuroglucopénie, non adrénaliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes de neuroglucopénie avec glycémie capillaire inférieure à 0,70 g/l.",
+            "justification": "Le diagnostic d'hypoglycémie se fait sur glycémie veineuse basse, et la glycémie capillaire n'est pas prise en compte dans la définition."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes de neuroglucopénie avec correction des symptômes sans mesure de glycémie.",
+            "justification": "Il faut absolument mesurer la glycémie veineuse basse pour diagnostiquer l'hypoglycémie, les symptômes seuls ne suffisent pas."
+          },
+          {
+            "correct": false,
+            "proposition": "Glycémie veineuse basse sans symptômes cliniques.",
+            "justification": "Le diagnostic d'hypoglycémie nécessite à la fois une glycémie basse et des symptômes cliniques, et non une glycémie isolée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106797992_02",
+      "current_version_epoch_ms": 1756106797992,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelle est la valeur seuil de la glycémie veineuse pour diagnostiquer l'hypoglycémie chez un patient diabétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "GV < 0,70 g/l (3,85 mmol/l).",
+            "justification": "Chez les patients diabétiques, l'hypoglycémie est diagnostiquée lorsque la glycémie veineuse est inférieure à 0,70 g/l."
+          },
+          {
+            "correct": false,
+            "proposition": "GV < 0,50 g/l (2,75 mmol/l).",
+            "justification": "Cette valeur est applicable aux patients non diabétiques, mais les diabétiques ont une valeur seuil plus élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "GV < 1,00 g/l (5,55 mmol/l).",
+            "justification": "Cette valeur est trop élevée pour diagnostiquer une hypoglycémie. La limite est de 0,70 g/l pour les diabétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "GV < 0,80 g/l (4,44 mmol/l).",
+            "justification": "La limite pour diagnostiquer l'hypoglycémie chez un diabétique est de 0,70 g/l, et non 0,80 g/l."
+          },
+          {
+            "correct": false,
+            "proposition": "GV < 1,50 g/l (8,33 mmol/l).",
+            "justification": "Cette valeur est bien au-dessus du seuil de glycémie pour l'hypoglycémie, et n'est pas compatible avec la définition clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106797992_03",
+      "current_version_epoch_ms": 1756106797992,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques des symptômes neuroglucopéniques dans le cadre de l'hypoglycémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ce sont des symptômes précoces et inconstants, liés à un manque de glucose dans le cerveau.",
+            "justification": "Les symptômes neuroglucopéniques sont dus à une diminution de la glycémie et sont souvent précoces et inconstants."
+          },
+          {
+            "correct": false,
+            "proposition": "Ce sont des symptômes liés à la libération d'adrénaline, comme des tremblements et une transpiration excessive.",
+            "justification": "Les symptômes liés à l'adrénaline sont plus tardifs et ne sont pas caractérisés par une neuroglucopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les symptômes neuroglucopéniques sont plus fréquents que les symptômes adrénaliniques.",
+            "justification": "Les symptômes adrénaliniques, liés à la libération d'adrénaline, sont en fait plus fréquents dans les hypoglycémies sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Les symptômes neuroglucopéniques sont constants et prédictifs de l'hypoglycémie.",
+            "justification": "Les symptômes neuroglucopéniques sont inconstants, ce qui rend leur identification parfois difficile."
+          },
+          {
+            "correct": false,
+            "proposition": "Les symptômes neuroglucopéniques sont rares et spécifiques des diabétiques.",
+            "justification": "Les symptômes neuroglucopéniques ne sont pas spécifiques aux diabétiques et peuvent survenir chez tout patient avec une hypoglycémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106797992_04",
+      "current_version_epoch_ms": 1756106797992,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quand peut-on diagnostiquer une hypoglycémie biologique sans symptômes cliniques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Uniquement chez les patients diabétiques.",
+            "justification": "Les diabétiques peuvent présenter une hypoglycémie biologique sans symptômes cliniques, contrairement aux autres patients."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez tous les patients, même sans diabète.",
+            "justification": "Le diagnostic d'hypoglycémie sans symptômes cliniques n'est possible que chez les diabétiques, qui peuvent avoir des hypoglycémies asymptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la glycémie capillaire est inférieure à 0,50 g/l.",
+            "justification": "L'hypoglycémie est diagnostiquée sur la glycémie veineuse et non capillaire, et uniquement chez les diabétiques en l'absence de symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la glycémie veineuse est inférieure à 1,00 g/l.",
+            "justification": "La glycémie veineuse inférieure à 1,00 g/l n'indique pas nécessairement une hypoglycémie, surtout si elle n'est pas accompagnée de symptômes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Chez les patients ayant des symptômes d'hypoglycémie mais sans documentation de glycémie basse.",
+            "justification": "Un diagnostic d'hypoglycémie nécessite à la fois des symptômes et une glycémie basse confirmée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756106797992_05",
+      "current_version_epoch_ms": 1756106797992,
+      "rang": "A",
+      "topic": {
+        "subject": "endoc",
+        "item": "hypoGly"
+      },
+      "data": {
+        "statement": "Quel est le principal critère pour diagnostiquer une hypoglycémie selon la triade de Whipple ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptômes de neuroglucopénie avec glycémie veineuse basse simultanée.",
+            "justification": "La triade de Whipple inclut des symptômes de neuroglucopénie et une glycémie veineuse basse, avec correction des symptômes après normalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes adrénaliniques avec glycémie capillaire inférieure à 0,50 g/l.",
+            "justification": "Les symptômes adrénaliniques ne sont pas les plus caractéristiques de l'hypoglycémie, et la glycémie doit être veineuse, pas capillaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes de neuroglucopénie sans mesure de glycémie.",
+            "justification": "La glycémie basse doit être mesurée simultanément avec les symptômes pour diagnostiquer une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes neuroglucopéniques avec glycémie veineuse basse mais sans correction des symptômes.",
+            "justification": "Les symptômes doivent disparaître lors de la correction de la glycémie pour confirmer le diagnostic d'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes d'hypoglycémie sans documentation glycémique.",
+            "justification": "Il est essentiel d'avoir une glycémie basse documentée pour poser le diagnostic d'hypoglycémie."
+          }
+        ]
+      }
+    }
+  ]
+}
