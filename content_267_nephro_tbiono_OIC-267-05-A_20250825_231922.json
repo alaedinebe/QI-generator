@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "tbiono",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756156908816_01",
+      "current_version_epoch_ms": 1756156908816,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel est le critère permettant d'affirmer une acidose métabolique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un pH sanguin artériel inférieur à 7,38 et un HCO3– inférieur à 22 mmol/L",
+            "justification": "Le diagnostic d'acidose métabolique repose sur un pH sanguin inférieur à 7,38 (artériel) et une baisse de HCO3– en dessous de 22 mmol/L, avec une compensation ventilatoire associée."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pH sanguin veineux inférieur à 7,32 et un HCO3– supérieur à 22 mmol/L",
+            "justification": "Cette proposition est incorrecte car l'acidose métabolique nécessite un HCO3– inférieur à 22 mmol/L et un pH sanguin artériel inférieur à 7,38."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pH sanguin artériel inférieur à 7,32 et un HCO3– supérieur à 22 mmol/L",
+            "justification": "Cette proposition est incorrecte, car un HCO3– supérieur à 22 mmol/L exclut le diagnostic d'acidose métabolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pH sanguin artériel supérieur à 7,38 et un HCO3– inférieur à 22 mmol/L",
+            "justification": "Le pH artériel doit être inférieur à 7,38 pour affirmer une acidose métabolique. Ici, le pH est supérieur à 7,38, ce qui exclut l'acidose."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pH sanguin artériel supérieur à 7,38 et un HCO3– supérieur à 22 mmol/L",
+            "justification": "Cette proposition exclut une acidose métabolique, car le pH est trop élevé et le HCO3– est supérieur à 22 mmol/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756156908816_02",
+      "current_version_epoch_ms": 1756156908816,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Comment caractériser une acidose métabolique mixte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la PaCO2 est supérieure à la PaCO2 attendue",
+            "justification": "Une acidose métabolique mixte se caractérise par une PaCO2 supérieure à la PaCO2 attendue, ce qui suggère une composante respiratoire ajoutée à l'acidose métabolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PaCO2 est inférieure à la PaCO2 attendue",
+            "justification": "Cela correspond à une acidose métabolique complexe, et non à une acidose mixte."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PaCO2 est égale à la PaCO2 attendue",
+            "justification": "Cela correspond à une acidose métabolique simple, sans composante respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PaCO2 est normale sans compensation ventilatoire",
+            "justification": "Cela ne correspond pas à une acidose métabolique mixte. Une compensation ventilatoire doit être présente pour ajuster la PaCO2."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la PaCO2 est totalement compensée par la ventilation",
+            "justification": "Une compensation complète de la PaCO2 indique une acidose métabolique simple, et non mixte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756156908816_03",
+      "current_version_epoch_ms": 1756156908816,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quel est le calcul du trou anionique plasmatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "TA = [Na+] + [K+] – ([Cl– + HCO3–])",
+            "justification": "Le trou anionique plasmatique est calculé selon la formule : TA = [Na+] + [K+] – ([Cl– + HCO3–]), permettant d'évaluer l'équilibre acido-basique."
+          },
+          {
+            "correct": false,
+            "proposition": "TA = [Na+] – ([Cl– + HCO3–])",
+            "justification": "Cette formule est incomplète, car elle ne prend pas en compte la concentration en K+, ce qui est essentiel pour le calcul du trou anionique."
+          },
+          {
+            "correct": false,
+            "proposition": "TA = [Na+] + [Cl–] – [HCO3–]",
+            "justification": "La formule est incorrecte, car elle mélange incorrectement les ions et ne tient pas compte de la concentration en K+."
+          },
+          {
+            "correct": false,
+            "proposition": "TA = [Na+] + [K+] + [Cl–] – [HCO3–]",
+            "justification": "Cette formule est erronée, car elle ajoute [Cl–] au lieu de le soustraire dans le calcul du trou anionique."
+          },
+          {
+            "correct": false,
+            "proposition": "TA = [Na+] – [K+] + [Cl–] – [HCO3–]",
+            "justification": "Cette formule est incorrecte car elle n'inclut pas correctement la contribution des ions K+ et ne correspond pas au calcul du trou anionique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756156908816_04",
+      "current_version_epoch_ms": 1756156908816,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Quelles sont les causes d'une acidose métabolique avec trou anionique élevé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acidose lactique, acidocétose, insuffisance rénale sévère, intoxication avec acides exogènes",
+            "justification": "L'acidose métabolique avec un trou anionique élevé peut être causée par une accumulation d'H+ associés à des anions non mesurés comme le lactate, les cétones, ou d'autres acides comme ceux produits en cas d'intoxication."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte digestive de bicarbonate, acidose tubulaire rénale",
+            "justification": "Ces conditions provoquent une acidose métabolique avec un trou anionique normal, et non élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Diarrhée chronique, iléostomie",
+            "justification": "Ces causes entraînent une acidose métabolique hyperchlorémique avec un trou anionique normal, pas un trou anionique élevé."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension et déshydratation sévère",
+            "justification": "Cette situation n'est pas une cause directe d'acidose métabolique avec un trou anionique élevé. Elle pourrait aggraver une acidose existante, mais ce n'est pas une cause primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ingestion excessive de sel de table",
+            "justification": "Cela pourrait augmenter la concentration de Cl–, mais ne causerait pas une acidose métabolique avec un trou anionique élevé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756156908816_05",
+      "current_version_epoch_ms": 1756156908816,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "tbiono"
+      },
+      "data": {
+        "statement": "Dans quel cas l'acidose métabolique est-elle accompagnée d'un trou anionique normal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte rénale ou digestive de bicarbonate",
+            "justification": "Une perte de bicarbonate par voie rénale ou digestive entraîne une baisse de [HCO3–], compensée par une augmentation proportionnelle du Cl–, conduisant à une acidose métabolique hyperchlorémique avec un trou anionique normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Accroissement du lactate dans le sang",
+            "justification": "Cela entraîne un trou anionique élevé, non normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Accumulation d'acides cétoniques",
+            "justification": "Cela crée une acidose avec un trou anionique élevé, dû à l'accumulation de cétones."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance rénale aiguë avec accumulation d'acides organiques",
+            "justification": "Cela génère un trou anionique élevé en raison de l'accumulation d'anions non mesurés."
+          },
+          {
+            "correct": false,
+            "proposition": "Intoxication au méthanol ou éthylène glycol",
+            "justification": "Cela entraîne également un trou anionique élevé en raison de l'accumulation des acides exogènes."
+          }
+        ]
+      }
+    }
+  ]
+}
