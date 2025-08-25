@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "hyperCa",
+    "subject": "nephro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756162905965_01",
+      "current_version_epoch_ms": 1756162905965,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "hyperCa"
+      },
+      "data": {
+        "statement": "Quelle est la calcémie totale corrigée seuil au-delà de laquelle on évoque un diagnostic positif d'hypercalcémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Supérieure à 2,60 mmol/L",
+            "justification": "Une calcémie totale corrigée supérieure à 2,60 mmol/L est le seuil diagnostique pour l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieure à 3,00 mmol/L",
+            "justification": "Le seuil diagnostique de l'hypercalcémie est fixé à 2,60 mmol/L et non 3,00 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieure à 2,60 mmol/L",
+            "justification": "Une calcémie totale corrigée inférieure à 2,60 mmol/L ne permet pas d'évoquer un diagnostic d'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieure à 1,30 mmol/L",
+            "justification": "La calcémie ionisée au-delà de 1,30 mmol/L peut être un critère d'hypercalcémie, mais ce n'est pas le seuil pour la calcémie totale corrigée."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieure à 2,00 mmol/L",
+            "justification": "Le seuil de 2,00 mmol/L est inférieur au seuil diagnostique pour l'hypercalcémie qui est 2,60 mmol/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756162905965_02",
+      "current_version_epoch_ms": 1756162905965,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "hyperCa"
+      },
+      "data": {
+        "statement": "Quelle est la valeur de PTH indicative d'une hyperparathyroïdie primaire dans le cadre d'une hypercalcémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PTH > 65 pg/ml, associée à une hypophosphatémie",
+            "justification": "Une PTH supérieure à 65 pg/ml, associée à une hypophosphatémie (Ph < 0,84 mmol/L), est caractéristique d'une hyperparathyroïdie primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "PTH < 10 pg/ml",
+            "justification": "Une PTH inférieure à 10 pg/ml évoque un mécanisme extra-parathyroïdien, et non une hyperparathyroïdie primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "PTH normale",
+            "justification": "La PTH normale, sans hypophosphatémie, ne permet pas de poser le diagnostic d'hyperparathyroïdie primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "PTH > 10 pg/ml sans hypophosphatémie",
+            "justification": "Une PTH > 10 pg/ml sans hypophosphatémie ne correspond pas à une hyperparathyroïdie primaire, mais à un mécanisme parathyroïdien différent."
+          },
+          {
+            "correct": false,
+            "proposition": "PTH < 65 pg/ml sans hypophosphatémie",
+            "justification": "Une PTH < 65 pg/ml associée à une phosphatémie normale n'évoque pas une hyperparathyroïdie primaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756162905965_03",
+      "current_version_epoch_ms": 1756162905965,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "hyperCa"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la calciurie des 24 heures dans l'évaluation de l'hypercalcémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer la cause de l'hypercalcémie et l'impact rénal",
+            "justification": "La calciurie des 24 heures permet d'évaluer l'impact rénal et de mieux orienter le diagnostic étiologique de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer uniquement l'ostéoporose",
+            "justification": "La calciurie des 24 heures n'est pas utilisée pour évaluer l'ostéoporose mais pour explorer les causes d'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la calcémie corrigée",
+            "justification": "La calciurie des 24 heures ne sert pas à mesurer la calcémie corrigée, mais à déterminer l'étiologie de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction cardiaque",
+            "justification": "La calciurie des 24 heures n'évalue pas la fonction cardiaque, mais elle aide à identifier la cause de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la PTH",
+            "justification": "La PTH est mesurée séparément et ne dépend pas de la calciurie des 24 heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756162905965_04",
+      "current_version_epoch_ms": 1756162905965,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "hyperCa"
+      },
+      "data": {
+        "statement": "Quel examen est de première intention pour évaluer le retentissement rénal d'une hypercalcémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Créatininémie",
+            "justification": "La créatininémie est un examen de première intention pour évaluer le retentissement rénal de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est utile pour évaluer le retentissement cardiaque, mais pas pour le retentissement rénal."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "La radiographie pulmonaire n'est pas un examen pertinent pour évaluer le retentissement rénal dans l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan de la fonction hépatique",
+            "justification": "Le bilan de la fonction hépatique n'est pas nécessaire pour évaluer le retentissement rénal d'une hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage de la vitamine D",
+            "justification": "Le dosage de la vitamine D n'est pas destiné à évaluer le retentissement rénal mais à orienter vers une étiologie de l'hypercalcémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756162905965_05",
+      "current_version_epoch_ms": 1756162905965,
+      "rang": "A",
+      "topic": {
+        "subject": "nephro",
+        "item": "hyperCa"
+      },
+      "data": {
+        "statement": "Quelles sont les valeurs de calcémie ionisée indiquant une hypercalcémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Supérieure à 1,30 mmol/L",
+            "justification": "Une calcémie ionisée supérieure à 1,30 mmol/L est un critère de diagnostic de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieure à 1,30 mmol/L",
+            "justification": "Une calcémie ionisée inférieure à 1,30 mmol/L n'évoque pas une hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Inférieure à 2,60 mmol/L",
+            "justification": "La calcémie ionisée est un critère spécifique au-delà de 1,30 mmol/L et non en fonction de la calcémie totale corrigée."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 2,00 et 2,60 mmol/L",
+            "justification": "Une calcémie ionisée dans cette plage ne permet pas d'évoquer une hypercalcémie, le seuil étant fixé à 1,30 mmol/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieure à 2,60 mmol/L",
+            "justification": "Le seuil de 2,60 mmol/L s'applique à la calcémie totale corrigée, et non à la calcémie ionisée."
+          }
+        ]
+      }
+    }
+  ]
+}
