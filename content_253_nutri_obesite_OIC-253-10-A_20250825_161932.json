@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "obesite",
+    "subject": "nutri"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756131719007_01",
+      "current_version_epoch_ms": 1756131719007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quel est l'élément clé pour évaluer la vitesse d'ingestion des aliments chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Utiliser une échelle analogique de 1 à 10.",
+            "justification": "L'échelle analogique permet de quantifier la vitesse d'ingestion de manière objective, une note de 7 ou plus indiquant une tachyphagie."
+          },
+          {
+            "correct": false,
+            "proposition": "Observer le temps total de chaque repas.",
+            "justification": "La durée du repas ne permet pas de mesurer la vitesse d'ingestion, qui est davantage reliée à la perception du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la quantité d'aliments ingérés.",
+            "justification": "La quantité ingérée ne donne pas d'indication directe sur la vitesse d'ingestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander au patient d'estimer la durée du repas.",
+            "justification": "Une estimation subjective du patient peut être influencée par des biais et ne reflète pas précisément la vitesse d'ingestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Comparer la vitesse d'ingestion à celle d'autres patients.",
+            "justification": "La comparaison entre patients n'est pas une méthode objective et peut mener à des erreurs de jugement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131719007_02",
+      "current_version_epoch_ms": 1756131719007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Parmi les comportements alimentaires suivants, lequel est associé à un contrôle mental excessif sur l'alimentation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La restriction cognitive.",
+            "justification": "La restriction cognitive est un comportement où le patient impose des limites strictes à ses prises alimentaires, souvent pour contrôler son poids ou sa forme physique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les compulsions alimentaires (craving).",
+            "justification": "Les compulsions alimentaires sont des envies irrépressibles de manger, mais elles ne sont pas directement liées à un contrôle mental excessif."
+          },
+          {
+            "correct": false,
+            "proposition": "Les boulimies avec purge.",
+            "justification": "Les boulimies avec purge sont liées à une perte de contrôle alimentaire, pas à une restriction mentale."
+          },
+          {
+            "correct": false,
+            "proposition": "Les grignotages fréquents.",
+            "justification": "Les grignotages représentent une consommation alimentaire impulsive et non un contrôle mental excessif."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hyperphagie boulimique.",
+            "justification": "L'hyperphagie boulimique implique une consommation excessive d'aliments en grande quantité, sans contrôle mental sur l'alimentation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131719007_03",
+      "current_version_epoch_ms": 1756131719007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quelle est la fréquence minimale des accès de boulimie pour poser le diagnostic d'hyperphagie boulimique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins une fois par semaine pendant trois mois.",
+            "justification": "Le diagnostic d'hyperphagie boulimique requiert une fréquence d'au moins un épisode par semaine pendant trois mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins une fois par mois pendant six mois.",
+            "justification": "La fréquence des accès doit être hebdomadaire et non mensuelle pour correspondre à l'hyperphagie boulimique."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins une fois tous les trois jours pendant un mois.",
+            "justification": "Les critères diagnostiques exigent une fréquence hebdomadaire, pas aussi rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "Au moins deux fois par mois pendant trois mois.",
+            "justification": "Une fréquence de deux fois par mois n'est pas suffisante pour poser ce diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fois tous les deux jours pendant trois mois.",
+            "justification": "La fréquence doit être d'une fois par semaine, pas tous les deux jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131719007_04",
+      "current_version_epoch_ms": 1756131719007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quelle caractéristique distingue un accès de boulimie d'une compulsion alimentaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La perte de contrôle totale pendant l'acte alimentaire.",
+            "justification": "L'accès de boulimie est caractérisé par une perte de contrôle, alors que la compulsion alimentaire se manifeste par un désir irrépressible mais sans perte de contrôle totale."
+          },
+          {
+            "correct": false,
+            "proposition": "La quantité d'aliments consommée.",
+            "justification": "La quantité d'aliments ne distingue pas un accès de boulimie d'une compulsion alimentaire, car les deux peuvent être associés à une consommation excessive."
+          },
+          {
+            "correct": false,
+            "proposition": "Le choix des aliments consommés.",
+            "justification": "Le choix des aliments n'est pas un critère discriminant entre boulimie et compulsion alimentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La fréquence des épisodes.",
+            "justification": "La fréquence des épisodes ne différencie pas nécessairement la boulimie de la compulsion alimentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de l'épisode alimentaire.",
+            "justification": "La durée de l'épisode alimentaire n'est pas un critère différentiel entre boulimie et compulsion alimentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756131719007_05",
+      "current_version_epoch_ms": 1756131719007,
+      "rang": "A",
+      "topic": {
+        "subject": "nutri",
+        "item": "obesite"
+      },
+      "data": {
+        "statement": "Quel est l'impact des fritures sur l'alimentation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elles augmentent la teneur en graisses saturées et trans.",
+            "justification": "Les fritures contribuent à une augmentation des graisses saturées et trans, qui sont liées à des risques cardiovasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles augmentent la teneur en fibres alimentaires.",
+            "justification": "Les fritures n'augmentent pas la teneur en fibres, au contraire, elles diminuent la qualité nutritionnelle des aliments."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles réduisent la teneur en sel.",
+            "justification": "Les fritures n'ont pas d'impact direct sur la teneur en sel des aliments."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles augmentent la teneur en vitamines.",
+            "justification": "Les fritures ne contribuent pas à une augmentation des vitamines, au contraire, elles peuvent en détruire certaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Elles augmentent la teneur en protéines.",
+            "justification": "Les fritures n'augmentent pas la teneur en protéines, car elles modifient principalement la composition en graisses."
+          }
+        ]
+      }
+    }
+  ]
+}
