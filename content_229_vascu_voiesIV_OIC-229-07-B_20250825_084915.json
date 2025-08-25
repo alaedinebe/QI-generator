@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "voiesIV",
+    "subject": "vascu"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756104701929_01",
+      "current_version_epoch_ms": 1756104701929,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "voiesIV"
+      },
+      "data": {
+        "statement": "Quel est le traitement initial recommandé en cas d'infection du matériel veineux central avec signes généraux de sepsis ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduire une antibiothérapie ciblant les staphylocoques aureus et epidermidis.",
+            "justification": "L'antibiothérapie doit être initiée en cas de signes généraux de sepsis, et elle cible principalement les staphylocoques aureus et epidermidis."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un antifongique à large spectre.",
+            "justification": "L'infection liée au matériel veineux central implique une antibiothérapie et non un antifongique, sauf en cas de suspicion de mycose."
+          },
+          {
+            "correct": false,
+            "proposition": "Retirer immédiatement le cathéter sans antibiothérapie.",
+            "justification": "Le cathéter doit être retiré, mais l'antibiothérapie doit aussi être instaurée en cas de signes généraux de sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Administer un traitement uniquement local à base de désinfectant.",
+            "justification": "Le traitement local n'est pas suffisant dans un cas de sepsis ; une antibiothérapie systémique est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ne prescrire aucun traitement tant que les hémocultures n'ont pas donné de résultats.",
+            "justification": "L'initiation d'une antibiothérapie est urgente dans le contexte de sepsis, même avant les résultats des hémocultures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756104701929_02",
+      "current_version_epoch_ms": 1756104701929,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "voiesIV"
+      },
+      "data": {
+        "statement": "Lors d'une thrombose veineuse centrale associée à un cathéter fonctionnel, quel est le traitement recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Laisser le cathéter en place et prescrire une anticoagulation curative adaptée.",
+            "justification": "En cas de thrombose veineuse centrale avec cathéter fonctionnel, le cathéter peut être conservé avec une anticoagulation curative appropriée."
+          },
+          {
+            "correct": false,
+            "proposition": "Retirer immédiatement le cathéter et ne pas traiter la thrombose.",
+            "justification": "Le retrait du cathéter n'est pas systématique si celui-ci est fonctionnel. Un traitement de la thrombose avec anticoagulation est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer uniquement un anti-inflammatoire non stéroïdien (AINS).",
+            "justification": "Les AINS ne sont pas suffisants pour traiter une thrombose veineuse centrale, qui nécessite une anticoagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser une thrombolyse systémique sans anticoagulation.",
+            "justification": "La thrombolyse systémique n'est pas indiquée en première intention dans la thrombose veineuse centrale sans complications majeures."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une chirurgie pour retirer la thrombose.",
+            "justification": "La chirurgie n'est pas indiquée en cas de thrombose veineuse centrale si le cathéter peut être conservé et que l'anticoagulation est adaptée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756104701929_03",
+      "current_version_epoch_ms": 1756104701929,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "voiesIV"
+      },
+      "data": {
+        "statement": "Quelles sont les indications de l'antibiothérapie en cas de complications infectieuses liées à un cathéter veineux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En présence de signes généraux de sepsis, comme la fièvre et le choc septique.",
+            "justification": "L'antibiothérapie doit être initiée en cas de signes généraux de sepsis, y compris fièvre et choc septique, pour traiter l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement en cas d'infection localisée sans signes généraux.",
+            "justification": "L'antibiothérapie est surtout recommandée en cas de sepsis généralisé, et non uniquement pour des infections localisées."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de résultats positifs d'hémoculture uniquement.",
+            "justification": "L'antibiothérapie doit être initiée en urgence en cas de sepsis, même avant les résultats des hémocultures."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de présence de staphylocoques dans les cultures locales seulement.",
+            "justification": "La présence de staphylocoques dans les cultures locales n'est pas suffisante pour justifier l'antibiothérapie en l'absence de sepsis."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement après consultation d'un spécialiste en infectiologie.",
+            "justification": "Bien que la consultation soit utile, l'antibiothérapie doit être commencée immédiatement en cas de signes de sepsis."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756104701929_04",
+      "current_version_epoch_ms": 1756104701929,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "voiesIV"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé en cas d'infection du cathéter veineux et de fièvre chez un patient immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Introduire une antibiothérapie étendue aux bacilles Gram négatif.",
+            "justification": "Chez un patient immunodéprimé, l'antibiothérapie doit être étendue aux bacilles Gram négatif en plus des staphylocoques."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser un traitement antifongique uniquement.",
+            "justification": "L'infection du cathéter nécessite une antibiothérapie ciblant les bactéries, pas un antifongique."
+          },
+          {
+            "correct": false,
+            "proposition": "Laisser l'infection se résoudre d'elle-même sans antibiothérapie.",
+            "justification": "En cas de signes de sepsis ou de fièvre, l'antibiothérapie est impérative, surtout chez un patient immunodéprimé."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer des corticostéroïdes pour réduire l'inflammation.",
+            "justification": "Les corticostéroïdes ne sont pas indiqués pour traiter l'infection du cathéter. Seule une antibiothérapie est appropriée."
+          },
+          {
+            "correct": false,
+            "proposition": "Retirer immédiatement le cathéter sans traitement antibiotique.",
+            "justification": "Le cathéter doit être retiré, mais une antibiothérapie est essentielle pour traiter l'infection, notamment chez les patients immunodéprimés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756104701929_05",
+      "current_version_epoch_ms": 1756104701929,
+      "rang": "B",
+      "topic": {
+        "subject": "vascu",
+        "item": "voiesIV"
+      },
+      "data": {
+        "statement": "Quelles sont les recommandations pour la gestion d'une thrombose veineuse centrale lorsque le cathéter est non fonctionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Retirer le cathéter et instaurer un traitement anticoagulant adapté.",
+            "justification": "Lorsque le cathéter est non fonctionnel, il doit être retiré et un traitement anticoagulant est nécessaire pour gérer la thrombose."
+          },
+          {
+            "correct": false,
+            "proposition": "Laisser le cathéter en place et administrer des anticoagulants uniquement.",
+            "justification": "Le cathéter doit être retiré s'il est non fonctionnel. L'anticoagulation seule n'est pas suffisante en l'absence de cathéter fonctionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Retirer le cathéter sans traitement anticoagulant.",
+            "justification": "Un traitement anticoagulant est nécessaire pour gérer la thrombose veineuse centrale après le retrait du cathéter."
+          },
+          {
+            "correct": false,
+            "proposition": "Retirer le cathéter et administrer des anti-inflammatoires non stéroïdiens.",
+            "justification": "Les anti-inflammatoires ne sont pas suffisants pour traiter une thrombose veineuse centrale. Un traitement anticoagulant est impératif."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une intervention chirurgicale pour retirer la thrombose.",
+            "justification": "La chirurgie n'est pas indiquée pour une thrombose veineuse centrale simple ; l'anticoagulation est le traitement de choix."
+          }
+        ]
+      }
+    }
+  ]
+}
