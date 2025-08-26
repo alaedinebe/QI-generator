@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTperso",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756251294723_01",
+      "current_version_epoch_ms": 1756251294723,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel mécanisme pharmacocinétique peut diminuer l'absorption des fluoroquinolones ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Chélation avec des ions tels que le calcium, le fer, ou le magnésium",
+            "justification": "La chélation avec des ions comme le calcium, le fer ou le magnésium diminue l'absorption des fluoroquinolones, entraînant une perte d'efficacité de l'antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition de la P-gp par la rifampicine",
+            "justification": "La rifampicine induit la P-gp, ce qui diminue l'absorption de certains médicaments comme la digoxine, mais n'affecte pas les fluoroquinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification du pH gastrique par les inhibiteurs de la pompe à protons",
+            "justification": "Les inhibiteurs de la pompe à protons augmentent le pH gastrique et peuvent augmenter l'absorption de certains médicaments, comme le raltégravir, mais n'affectent pas directement les fluoroquinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Activation des transporteurs intestinaux par la rifampicine",
+            "justification": "L'activation de la P-gp par la rifampicine diminue l'absorption d'autres médicaments, mais cela ne concerne pas les fluoroquinolones."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la motilité intestinale par les laxatifs stimulants",
+            "justification": "Les laxatifs stimulants augmentent la motilité intestinale, réduisant l'absorption des médicaments, mais n'ont pas d'effet sur les fluoroquinolones."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251294723_02",
+      "current_version_epoch_ms": 1756251294723,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le principal risque d'interaction médicamenteuse entre les anticoagulants oraux et les AINS ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Saignements muqueuses gastriques",
+            "justification": "Les AINS, pris à dose anti-inflammatoire, augmentent le risque de saignement, notamment au niveau des muqueuses gastriques, en association avec les anticoagulants oraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de l'efficacité des anticoagulants oraux",
+            "justification": "Les AINS n'affectent pas directement l'efficacité des anticoagulants oraux, mais augmentent le risque de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibition du métabolisme des anticoagulants oraux",
+            "justification": "Les AINS n'inhibent pas le métabolisme des anticoagulants oraux. Le risque principal est lié à l'augmentation des saignements."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation des concentrations de la warfarine",
+            "justification": "Les AINS ne modifient pas les concentrations de warfarine, mais augmentent le risque de saignements."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de thrombose",
+            "justification": "L'association des AINS et des anticoagulants oraux n'entraîne pas un risque de thrombose, mais plutôt un risque hémorragique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251294723_03",
+      "current_version_epoch_ms": 1756251294723,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel médicament est un pourvoyeur de risque pour les statines ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ritonavir",
+            "justification": "Le ritonavir est un inhibiteur du cytochrome CYP3A4 et d'OATP1B1, augmentant les concentrations de statines et augmentant le risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Phénytoïne",
+            "justification": "La phénytoïne induit le métabolisme des statines, réduisant leurs concentrations, mais n'est pas un pourvoyeur de risque pour leur toxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Rifampicine",
+            "justification": "La rifampicine est un inducteur enzymatique, ce qui peut diminuer les concentrations des statines, mais elle n'augmente pas leur toxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Gemfibrozil",
+            "justification": "Gemfibrozil peut interagir avec les statines en diminuant leur métabolisme, mais ce n'est pas un médicament à effet de pourvoyeur de risque direct pour les statines."
+          },
+          {
+            "correct": false,
+            "proposition": "Ciclosporine",
+            "justification": "La ciclosporine inhibe le métabolisme des statines via OATP1B1, augmentant leur effet, mais elle n'est pas un pourvoyeur de risque direct pour leur toxicité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251294723_04",
+      "current_version_epoch_ms": 1756251294723,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le principal risque d'une interaction entre la colchicine et les inhibiteurs du CYP3A4 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surdosage potentiellement fatal",
+            "justification": "La colchicine est métabolisée par le CYP3A4, et son inhibition par des médicaments comme les macrolides peut entraîner un surdosage, potentiellement fatal."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de l'efficacité de la colchicine",
+            "justification": "L'inhibition du CYP3A4 ne réduit pas l'efficacité de la colchicine, mais augmente plutôt le risque de toxicité par surdosage."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de l'effet antalgique de la colchicine",
+            "justification": "Les inhibiteurs du CYP3A4 ne majorent pas l'effet antalgique de la colchicine, mais augmentent son risque de toxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Interaction avec des agents anticoagulants",
+            "justification": "L'interaction entre la colchicine et les inhibiteurs du CYP3A4 n'affecte pas les anticoagulants, mais augmente le risque de toxicité de la colchicine."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution du métabolisme des inhibiteurs du CYP3A4",
+            "justification": "L'inhibition du CYP3A4 augmente la concentration de la colchicine mais ne diminue pas le métabolisme des inhibiteurs eux-mêmes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251294723_05",
+      "current_version_epoch_ms": 1756251294723,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le principal risque d'interaction entre les triptans et les inhibiteurs de la monoamine oxydase (IMAO) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque cardio-vasculaire accru",
+            "justification": "Les triptans, associés aux IMAO, présentent un risque cardiaque accru en raison de l'augmentation des concentrations plasmatiques des triptans, augmentant ainsi le risque de complications cardio-vasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de surdosage des triptans",
+            "justification": "L'association des triptans avec les IMAO augmente le risque cardio-vasculaire, mais elle ne conduit pas nécessairement à un surdosage des triptans."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de l'efficacité des triptans",
+            "justification": "Les inhibiteurs de la monoamine oxydase ne diminuent pas l'efficacité des triptans, mais augmentent leur risque d'effets indésirables graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Effet vasoconstricteur diminué",
+            "justification": "Les triptans sont des vasoconstricteurs, et leur effet vasoconstricteur n'est pas diminué par les IMAO ; au contraire, les IMAO peuvent amplifier les effets des triptans."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de torsades de pointe",
+            "justification": "Les triptans et les IMAO augmentent le risque cardiovasculaire, mais ne sont pas spécifiquement liés au risque de torsades de pointe."
+          }
+        ]
+      }
+    }
+  ]
+}
