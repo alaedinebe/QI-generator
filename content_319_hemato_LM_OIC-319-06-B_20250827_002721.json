@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LM",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756247388135_01",
+      "current_version_epoch_ms": 1756247388135,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LM"
+      },
+      "data": {
+        "statement": "Quel est le rôle de la fixation en formol dans le diagnostic histopathologique des lymphomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La fixation en formol permet la conservation des tissus pour l'analyse histologique.",
+            "justification": "La fixation en formol permet de conserver les structures cellulaires et tissulaires pour l'analyse histologique."
+          },
+          {
+            "correct": false,
+            "proposition": "La fixation en formol permet l'analyse moléculaire des tissus.",
+            "justification": "La fixation en formol est utilisée pour la conservation histologique, mais l'analyse moléculaire nécessite une congélation."
+          },
+          {
+            "correct": false,
+            "proposition": "La fixation en formol est utilisée pour la culture cellulaire.",
+            "justification": "La culture cellulaire nécessite un processus distinct et ne repose pas sur la fixation en formol."
+          },
+          {
+            "correct": false,
+            "proposition": "La fixation en formol est utilisée uniquement pour l'analyse cytologique.",
+            "justification": "L'analyse cytologique se fait sur lame, tandis que la fixation en formol est destinée à l'analyse histologique."
+          },
+          {
+            "correct": false,
+            "proposition": "La fixation en formol sert à la conservation pour la tumorothèque.",
+            "justification": "La conservation en tumorothèque se fait après analyse histologique, et non uniquement par fixation en formol."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247388135_02",
+      "current_version_epoch_ms": 1756247388135,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LM"
+      },
+      "data": {
+        "statement": "Pourquoi la congélation d'un fragment est-elle essentielle dans le diagnostic des lymphomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La congélation permet de réaliser l'analyse moléculaire du tissu.",
+            "justification": "La congélation est nécessaire pour préserver l'ADN et l'ARN dans le but d'effectuer des analyses moléculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "La congélation permet l'analyse histologique du tissu.",
+            "justification": "L'analyse histologique nécessite la fixation en formol et l'inclusion en paraffine, non la congélation."
+          },
+          {
+            "correct": false,
+            "proposition": "La congélation est utilisée pour la mise en culture des cellules.",
+            "justification": "La culture cellulaire nécessite un environnement spécifique, et non la congélation."
+          },
+          {
+            "correct": false,
+            "proposition": "La congélation est utilisée pour l'analyse cytologique.",
+            "justification": "L'analyse cytologique nécessite une préparation sur lame et non la congélation du tissu."
+          },
+          {
+            "correct": false,
+            "proposition": "La congélation est effectuée pour préserver les cellules pour la tumorothèque.",
+            "justification": "La tumorothèque conserve les échantillons après l'analyse histopathologique, pas après congélation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247388135_03",
+      "current_version_epoch_ms": 1756247388135,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LM"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la mise en culture dans le diagnostic des lymphomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mise en culture permet l'analyse cytogénétique des cellules.",
+            "justification": "La mise en culture est utilisée pour l'analyse cytogénétique, qui nécessite la croissance des cellules."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en culture sert à l'analyse moléculaire des tissus.",
+            "justification": "L'analyse moléculaire nécessite la congélation des tissus, et non la culture cellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en culture est utilisée pour la conservation des échantillons en tumorothèque.",
+            "justification": "La tumorothèque conserve les échantillons après les analyses, mais la mise en culture ne concerne que l'analyse cytogénétique."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en culture permet d'analyser l'histologie du tissu.",
+            "justification": "L'analyse histologique se fait après fixation et inclusion en paraffine, et non par culture cellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La mise en culture permet l'analyse cytologique des cellules.",
+            "justification": "L'analyse cytologique se fait sur lame et ne nécessite pas la mise en culture des cellules."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247388135_04",
+      "current_version_epoch_ms": 1756247388135,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LM"
+      },
+      "data": {
+        "statement": "Quels sont les principaux examens réalisés sur une biopsie dans le cadre du diagnostic des lymphomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les examens incluent la cytologie, l'histologie, et l'analyse moléculaire.",
+            "justification": "Les examens classiques sont la cytologie sur lame, l'histologie après fixation et inclusion, et l'analyse moléculaire via congélation."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens incluent uniquement l'analyse histologique et cytologique.",
+            "justification": "Il est nécessaire d'effectuer également des analyses moléculaires et cytogénétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens incluent seulement l'analyse cytologique et la culture cellulaire.",
+            "justification": "L'analyse moléculaire et histologique sont des examens incontournables dans le diagnostic des lymphomes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens incluent l'analyse histologique et la mise en culture pour des tests viraux.",
+            "justification": "Les tests viraux ne font pas partie des examens systématiques pour le diagnostic des lymphomes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens incluent l'analyse cytogénétique et la fixation en paraffine.",
+            "justification": "La fixation en paraffine est utilisée pour l'histologie, mais l'analyse cytogénétique nécessite la culture des cellules."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247388135_05",
+      "current_version_epoch_ms": 1756247388135,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LM"
+      },
+      "data": {
+        "statement": "Que doit-on faire pour préserver un ganglion pour d'éventuelles analyses ultérieures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le ganglion doit être conservé en tumorothèque après analyse.",
+            "justification": "La tumorothèque permet la conservation des échantillons pour des analyses futures ou de recherche."
+          },
+          {
+            "correct": false,
+            "proposition": "Le ganglion doit être congelé pour une conservation à long terme.",
+            "justification": "La congélation est utilisée pour l'analyse moléculaire, mais la conservation en tumorothèque est spécifiquement pour les analyses futures."
+          },
+          {
+            "correct": false,
+            "proposition": "Le ganglion doit être mis en culture pour une conservation ultérieure.",
+            "justification": "La mise en culture est utilisée pour l'analyse cytogénétique, mais non pour la conservation à long terme des échantillons."
+          },
+          {
+            "correct": false,
+            "proposition": "Le ganglion doit être analysé immédiatement pour éviter toute conservation.",
+            "justification": "Il est essentiel de conserver les échantillons après analyse pour des études futures, dans une tumorothèque."
+          },
+          {
+            "correct": false,
+            "proposition": "Le ganglion doit être placé dans un environnement cryogénique pour une analyse future.",
+            "justification": "La conservation en tumorothèque est préférable pour les analyses ultérieures, et non un environnement cryogénique."
+          }
+        ]
+      }
+    }
+  ]
+}
