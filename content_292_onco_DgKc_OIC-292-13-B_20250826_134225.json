@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DgKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756208691985_01",
+      "current_version_epoch_ms": 1756208691985,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Quel est le statut du patient ayant un PS de 1 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le patient est capable de se déplacer seul et d'assurer un travail léger ou sédentaire.",
+            "justification": "Un PS de 1 indique que le patient est symptomatique, mais capable de mener des activités légères comme un travail de bureau ou ménager."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient est totalement alité et dépendant pour ses activités de la vie quotidienne.",
+            "justification": "Ce description correspond à un PS de 4, où le patient est grabataire et totalement dépendant."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient est incapable de se déplacer mais peut s'occuper de lui-même.",
+            "justification": "Cela correspond à un PS de 3, où le patient est alité plus de 50 % de la journée mais peut prendre soin de lui-même de manière limitée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient est symptomatique et confiné au fauteuil plus de 50 % de la journée.",
+            "justification": "Cela correspond à un PS de 3, où le patient est alité ou confiné au fauteuil plus de 50 % du temps."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient est totalement asymptomatique et mène une activité normale.",
+            "justification": "Cela correspond à un PS de 0, où le patient est totalement asymptomatique et mène une activité normale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756208691985_02",
+      "current_version_epoch_ms": 1756208691985,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Quel est le rôle du score G8 dans l'évaluation préthérapeutique d'un patient âgé atteint de cancer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il évalue la fragilité du patient et détermine s'il doit être référé à un oncogériatre pour une évaluation supplémentaire.",
+            "justification": "Le score G8 permet d'évaluer la fragilité des patients âgés et, selon le score, de déterminer si une référence à un oncogériatre est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de diagnostiquer la présence de cancer chez un patient âgé.",
+            "justification": "Le score G8 n'est pas destiné à diagnostiquer un cancer, mais à évaluer la fragilité du patient avant de décider des traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "Il évalue les comorbidités d'un patient atteint de cancer.",
+            "justification": "Bien qu'il prenne en compte les comorbidités, le score G8 évalue principalement la fragilité générale et la capacité du patient à supporter les traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "Il sert à déterminer le type de traitement chimiothérapeutique à administrer.",
+            "justification": "Le score G8 n'est pas utilisé pour choisir un traitement chimiothérapeutique spécifique, mais pour évaluer la capacité du patient à supporter un traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de prédire la survie à court terme des patients âgés atteints de cancer.",
+            "justification": "Le score G8 n'est pas un outil de prédiction de la survie, mais un indicateur de fragilité pour guider la gestion thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756208691985_03",
+      "current_version_epoch_ms": 1756208691985,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Que doit-on considérer lorsqu'un patient âgé atteint de cancer présente un PS supérieur à 2 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les traitements spécifiques sont souvent arrêtés en raison du risque de toxicité et de décès à court ou moyen terme.",
+            "justification": "Un PS supérieur à 2 indique un état général trop altéré pour supporter les traitements, notamment dans les cancers incurables."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements spécifiques sont généralement maintenus pour améliorer la qualité de vie, même en cas de PS élevé.",
+            "justification": "Dans les cas de PS élevé (supérieur à 2), les traitements sont généralement arrêtés à cause du risque de toxicité accrue et du pronostic défavorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements radiochimiothérapeutiques sont augmentés pour essayer de contrôler la maladie.",
+            "justification": "Augmenter les traitements dans un état général très altéré présente des risques importants. Les traitements sont souvent suspendus."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements chirurgicaux sont toujours proposés, quel que soit l'état du patient.",
+            "justification": "Les traitements chirurgicaux sont souvent exclus en cas de PS élevé en raison de l'incapacité du patient à tolérer l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Les traitements sont adaptés mais intensifiés pour tenter de prolonger la survie.",
+            "justification": "Le PS supérieur à 2 indique une mauvaise tolérance aux traitements, et l'intensification des traitements est généralement évitée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756208691985_04",
+      "current_version_epoch_ms": 1756208691985,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Quel est le principal critère permettant d'évaluer la capacité fonctionnelle d'un patient avant un traitement anti-cancer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le performance status (PS), qui évalue l'état général du patient et son aptitude à mener des activités physiques.",
+            "justification": "Le PS est l'outil principal pour évaluer la capacité fonctionnelle d'un patient avant un traitement oncologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score de comorbidité, qui analyse uniquement les maladies associées au cancer.",
+            "justification": "Bien que les comorbidités soient importantes, le PS est l'outil principal pour évaluer la capacité fonctionnelle globale d'un patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score G8, qui évalue uniquement la fragilité des patients âgés.",
+            "justification": "Le score G8 est utilisé principalement pour les patients âgés afin d'évaluer leur fragilité, mais le PS est utilisé pour tous les patients, indépendamment de l'âge."
+          },
+          {
+            "correct": false,
+            "proposition": "Le niveau de douleur, qui est mesuré de manière systématique avant chaque traitement.",
+            "justification": "Bien que la douleur soit un facteur important, elle ne constitue pas le principal critère de capacité fonctionnelle avant un traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'évaluation psychologique, qui permet de déterminer si le patient est apte mentalement à subir un traitement.",
+            "justification": "L'évaluation psychologique peut être complémentaire, mais ce n'est pas le critère principal pour évaluer la capacité fonctionnelle avant un traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756208691985_05",
+      "current_version_epoch_ms": 1756208691985,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Pourquoi est-il important de consulter un gériatre spécialisé avant de proposer un traitement anticancéreux à un patient de plus de 70 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Afin d'adapter les traitements en fonction de la fragilité du patient et de ses comorbidités, et de garantir une meilleure tolérance.",
+            "justification": "Les patients âgés ont souvent des comorbidités et une fragilité accrue, nécessitant un avis gériatrique pour adapter les traitements et améliorer la tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour vérifier si le patient est apte à recevoir des traitements chirurgicaux complexes.",
+            "justification": "La consultation gériatrique ne vise pas uniquement la chirurgie, mais plutôt une évaluation globale de la tolérance aux traitements anticancéreux."
+          },
+          {
+            "correct": false,
+            "proposition": "Afin d'évaluer les risques de dépendance suite aux traitements.",
+            "justification": "Bien que la dépendance soit un facteur pris en compte, le but de la consultation gériatrique est d'adapter les traitements anticancéreux en fonction de la fragilité du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour déterminer si le patient peut participer à des essais cliniques de traitement anticancéreux.",
+            "justification": "Les essais cliniques sont une option mais ne sont pas l'objectif principal de la consultation gériatrique qui se concentre sur l'adaptation du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer les possibilités d'assistance psychologique avant le traitement.",
+            "justification": "L'objectif principal de la consultation gériatrique est d'évaluer la capacité à tolérer le traitement, et non l'assistance psychologique."
+          }
+        ]
+      }
+    }
+  ]
+}
