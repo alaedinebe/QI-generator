@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "CCR",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756223388195_01",
+      "current_version_epoch_ms": 1756223388195,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est le critère principal de suspicion du syndrome de Lynch après un diagnostic d'adénocarcinome du côlon ou du rectum ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte d'expression d'une des 4 protéines du système MMR ou statut MSI dans la tumeur.",
+            "justification": "La perte d'expression d'une des 4 protéines du système MMR ou un statut MSI dans la tumeur est un critère déterminant de suspicion du syndrome de Lynch."
+          },
+          {
+            "correct": false,
+            "proposition": "Polypose en endoscopie.",
+            "justification": "La polypose n'est pas un critère de suspicion pour le syndrome de Lynch sans autre preuve de modification génétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence d'antécédents familiaux d'adénocarcinome colorectal.",
+            "justification": "L'absence d'antécédents familiaux d'adénocarcinome colorectal ne constitue pas un critère de suspicion pour le syndrome de Lynch."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de métastases dans la tumeur.",
+            "justification": "La présence de métastases dans la tumeur n'est pas liée spécifiquement à un diagnostic du syndrome de Lynch."
+          },
+          {
+            "correct": false,
+            "proposition": "Âge supérieur à 50 ans.",
+            "justification": "L'âge seul n'est pas un critère suffisant pour suspecter le syndrome de Lynch."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223388195_02",
+      "current_version_epoch_ms": 1756223388195,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'indication d'un test génétique somatique est-elle systématique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sur un prélèvement tumoral en situation métastatique.",
+            "justification": "Le test génétique somatique est systématique en situation métastatique car il influence les décisions thérapeutiques, notamment pour les tests MSI, RAS et BRAF."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un diagnostic précoce d'adénocarcinome colorectal.",
+            "justification": "Le test génétique somatique n'est pas systématique à ce stade, sauf en situation métastatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 40 ans, sans antécédents familiaux.",
+            "justification": "L'indication du test génétique somatique n'est pas liée à l'âge ou aux antécédents familiaux dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de polypose détectée lors de l'endoscopie.",
+            "justification": "La polypose seule ne justifie pas l'indication systématique d'un test génétique somatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la recherche de polypose en fonction des antécédents familiaux.",
+            "justification": "Le test génétique somatique ne dépend pas directement des antécédents familiaux dans ce cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223388195_03",
+      "current_version_epoch_ms": 1756223388195,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est l'âge limite pour réaliser systématiquement un test génétique avant 40 ans dans le cadre du cancer colorectal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Systématique avant 40 ans.",
+            "justification": "Le test génétique est systématique avant 40 ans, même sans antécédents familiaux ou polypose."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique après 50 ans uniquement.",
+            "justification": "L'indication du test génétique n'est pas systématique après 50 ans sans critères familiaux spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique après 60 ans avec antécédents familiaux.",
+            "justification": "L'indication du test génétique n'est pas systématique à cet âge sans les critères stricts des antécédents familiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique après 40 ans avec un antécédent d'adénocarcinome colorectal.",
+            "justification": "Le test génétique n'est pas systématique après 40 ans sans antécédents familiaux et selon d'autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématique à partir de 30 ans seulement.",
+            "justification": "Le test génétique systématique commence avant 40 ans, pas avant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223388195_04",
+      "current_version_epoch_ms": 1756223388195,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel critère fait partie des critères d'Amsterdam II pour la réalisation d'un test génétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Au moins 2 générations atteintes, 3 cas familiaux dont l'un avant 50 ans.",
+            "justification": "Les critères d'Amsterdam II incluent la présence de 2 générations atteintes et 3 cas familiaux, dont un avant 50 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Polypose endoscopique confirmée.",
+            "justification": "La polypose endoscopique n'est pas un critère des critères d'Amsterdam II."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de tout antécédent familial.",
+            "justification": "L'absence d'antécédents familiaux ne répond pas aux critères d'Amsterdam II."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de métastases tumorales.",
+            "justification": "La présence de métastases tumorales n'est pas un critère pour le test génétique selon les critères d'Amsterdam II."
+          },
+          {
+            "correct": false,
+            "proposition": "Référence à l'histoire clinique sans critères familiaux.",
+            "justification": "Les critères d'Amsterdam II reposent sur les antécédents familiaux et non sur l'histoire clinique seule."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223388195_05",
+      "current_version_epoch_ms": 1756223388195,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt principal du test génétique en situation de métastase tumorale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il influence les indications thérapeutiques (MSI, RAS, BRAF).",
+            "justification": "Le test génétique somatique en situation métastatique permet d'ajuster les choix thérapeutiques en fonction des résultats des tests MSI, RAS et BRAF."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de confirmer le stade de la maladie.",
+            "justification": "Le test génétique n'est pas utilisé pour déterminer le stade de la maladie mais pour ajuster les traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "Il détecte uniquement les mutations génétiques héréditaires.",
+            "justification": "Le test génétique somatique se concentre sur les modifications génétiques du tissu tumoral, non sur les mutations héréditaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de déterminer le pronostic à long terme.",
+            "justification": "Le test génétique en situation métastatique n'évalue pas le pronostic à long terme mais oriente le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de diagnostiquer les types de polypose.",
+            "justification": "Le test génétique ne permet pas de diagnostiquer une polypose mais ajuste les décisions thérapeutiques pour les cancers métastatiques."
+          }
+        ]
+      }
+    }
+  ]
+}
