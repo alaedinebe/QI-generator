@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MM",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756248593648_01",
+      "current_version_epoch_ms": 1756248593648,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quel est le critère de gravité de l'hypercalcémie selon les symptômes CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "> 2.75 mmol/L ou > 0.25 mmol/L au-dessus de la normale",
+            "justification": "Ce critère correspond à la définition d'une hypercalcémie grave, en particulier dans le cadre des symptômes CRAB associés à des pathologies comme le myélome."
+          },
+          {
+            "correct": false,
+            "proposition": "> 3.5 mmol/L",
+            "justification": "Bien que l'hypercalcémie au-dessus de 3.5 mmol/L soit préoccupante, ce n'est pas la limite définie par le critère CRAB pour caractériser la gravité de l'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "> 3.0 mmol/L",
+            "justification": "Cette valeur n'est pas le seuil précis mentionné dans le critère CRAB pour définir une hypercalcémie grave."
+          },
+          {
+            "correct": false,
+            "proposition": "> 2.50 mmol/L",
+            "justification": "Cette valeur est inférieure au seuil de gravité selon le critère CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "> 1.75 mmol/L",
+            "justification": "Ce seuil est trop bas pour être pertinent dans le cadre des critères de gravité d'une hypercalcémie associée à un myélome."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756248593648_02",
+      "current_version_epoch_ms": 1756248593648,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Parmi les symptômes suivants, lequel n'est pas typique de l'hypercalcémie liée à un myélome ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale",
+            "justification": "La douleur abdominale fait partie des symptômes fréquents de l'hypercalcémie, due à la perturbation du métabolisme minéral."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthénie",
+            "justification": "L'asthénie est un symptôme courant de l'hypercalcémie, souvent lié à la déshydratation et aux effets systémiques de la maladie."
+          },
+          {
+            "correct": true,
+            "proposition": "Rash cutané",
+            "justification": "Le rash cutané n'est pas un symptôme typique de l'hypercalcémie liée au myélome, qui se manifeste plutôt par des symptômes tels que la soif intense ou la constipation."
+          },
+          {
+            "correct": false,
+            "proposition": "Constipation",
+            "justification": "La constipation fait partie des symptômes fréquemment rencontrés dans l'hypercalcémie, liée à la perturbation du métabolisme calcique."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome polyuro-polydipsique",
+            "justification": "Ce syndrome est souvent associé à une hypercalcémie et se manifeste par une soif excessive et des urines fréquentes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756248593648_03",
+      "current_version_epoch_ms": 1756248593648,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quelles sont les premières étapes de la prise en charge d'une hypercalcémie aiguë sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hospitalisation et hyperhydratation au sérum physiologique",
+            "justification": "L'hyperhydratation au sérum physiologique est essentielle pour favoriser l'excrétion du calcium et prévenir la déshydratation liée à la polyurie."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de corticoïdes sans prise en charge hydrique",
+            "justification": "Bien que les corticoïdes soient utilisés dans le traitement de l'hypercalcémie, l'hyperhydratation est prioritaire pour la gestion initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de biphosphonates oraux",
+            "justification": "Les biphosphonates doivent être administrés par voie intraveineuse, surtout si une insuffisance rénale est présente."
+          },
+          {
+            "correct": false,
+            "proposition": "Épuration extra-rénale dès le début",
+            "justification": "L'épuration extra-rénale n'est indiquée qu'en cas de décompensation sévère avec insuffisance rénale aiguë et/ou anomalies ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance clinique sans intervention médicale",
+            "justification": "L'hypercalcémie grave nécessite une intervention médicale immédiate, notamment l'hyperhydratation et la gestion de l'insuffisance rénale si présente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756248593648_04",
+      "current_version_epoch_ms": 1756248593648,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la surveillance d'un patient en hypercalcémie grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Surveillance du poids et de la diurèse",
+            "justification": "La surveillance du poids et de la diurèse permet de suivre l'efficacité de l'hyperhydratation et de prévenir les complications liées à la rétention hydrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de la fréquence cardiaque uniquement",
+            "justification": "Bien que la fréquence cardiaque puisse être modifiée par les troubles du rythme, la surveillance du poids et de la diurèse est plus pertinente dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de la température corporelle",
+            "justification": "La température corporelle n'est pas un paramètre crucial dans la gestion de l'hypercalcémie grave, sauf en cas de complications infectieuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de la glycémie",
+            "justification": "La surveillance de la glycémie n'est pas directement liée à la gestion de l'hypercalcémie aiguë, sauf en cas de pathologies associées."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance des signes neurologiques uniquement",
+            "justification": "Les signes neurologiques sont importants, mais une surveillance plus large incluant le poids et la diurèse est nécessaire pour une prise en charge complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756248593648_05",
+      "current_version_epoch_ms": 1756248593648,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quel examen est particulièrement crucial pour le diagnostic d'hypercalcémie grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ECG",
+            "justification": "L'ECG permet de détecter des troubles de la conduction tels que le BAV ou des anomalies du segment ST, ce qui est crucial dans le diagnostic et la gestion de l'hypercalcémie grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Radio thoracique",
+            "justification": "La radio thoracique n'est pas pertinente dans le cadre d'une hypercalcémie aiguë, bien qu'elle soit utile pour évaluer d'autres complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Un scanner abdominal peut être utile pour rechercher des complications comme des calculs rénaux, mais il n'est pas spécifique pour le diagnostic d'hypercalcémie."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale n'est pas utile dans le cadre de l'hypercalcémie grave, sauf en cas de suspicion de complications neurologiques spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan d'extension tumoral",
+            "justification": "Le bilan d'extension tumoral peut être pertinent dans certains cas, mais il n'est pas l'examen clé pour évaluer la gravité de l'hypercalcémie."
+          }
+        ]
+      }
+    }
+  ]
+}
