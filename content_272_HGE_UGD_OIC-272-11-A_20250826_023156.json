@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "UGD",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756168463367_01",
+      "current_version_epoch_ms": 1756168463367,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "UGD"
+      },
+      "data": {
+        "statement": "Quel est l'examen de première intention à réaliser devant une contracture abdominale évoquant une irritation péritonéale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner abdominopelvien",
+            "justification": "Le scanner abdominopelvien permet de rechercher un pneumopéritoine et/ou un épanchement abdominal, signes évocateurs de perforation péritonéale."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie est contre-indiquée en cas de contracture abdominale car elle peut aggraver la perforation péritonéale."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie est moins sensible que le scanner pour détecter un pneumopéritoine ou un épanchement abdominal."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie simple de l'abdomen",
+            "justification": "La radiographie abdominale peut être utile dans certains cas mais est moins sensible que le scanner pour détecter le pneumopéritoine."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM abdominale",
+            "justification": "L'IRM n'est pas de première intention dans ce contexte, le scanner est préférable pour visualiser les signes de perforation péritonéale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756168463367_02",
+      "current_version_epoch_ms": 1756168463367,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "UGD"
+      },
+      "data": {
+        "statement": "Pourquoi l'endoscopie digestive est-elle contre-indiquée en cas de contracture abdominale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle peut aggraver la perforation péritonéale",
+            "justification": "L'endoscopie peut entraîner une exacerbation de la perforation en exerçant une pression sur la paroi abdominale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne permet pas d'analyser le contenu abdominal",
+            "justification": "Bien que l'endoscopie ne permette pas d'analyser directement l'abdomen, elle n'est pas contre-indiquée pour cette raison, mais pour les risques associés à la perforation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle expose à un risque d'infection",
+            "justification": "Le principal risque est la perforation supplémentaire, pas spécifiquement l'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne permet pas de visualiser le pneumopéritoine",
+            "justification": "L'endoscopie n'est pas utile pour visualiser le pneumopéritoine, mais elle peut aggraver l'état du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est trop coûteuse en situation d'urgence",
+            "justification": "Le coût n'est pas la principale raison pour laquelle l'endoscopie est contre-indiquée, mais bien les risques de perforation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756168463367_03",
+      "current_version_epoch_ms": 1756168463367,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "UGD"
+      },
+      "data": {
+        "statement": "Quel est le but du scanner abdominopelvien en cas de contracture abdominale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher un pneumopéritoine et/ou un épanchement abdominal",
+            "justification": "Le scanner permet de détecter ces signes spécifiques de perforation péritonéale, ce qui est essentiel pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Observer les parois intestinales",
+            "justification": "Le scanner n'est pas utilisé pour observer les parois intestinales mais pour rechercher des signes de perforation péritonéale."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les mouvements intestinaux",
+            "justification": "L'objectif du scanner n'est pas d'évaluer la motilité intestinale, mais d'identifier des signes de perforation."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier l'état de la vessie",
+            "justification": "La vessie n'est pas un organe clé à examiner en cas de contracture abdominale dans ce contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la pression intra-abdominale",
+            "justification": "Le scanner ne sert pas à mesurer la pression intra-abdominale, il est utilisé pour diagnostiquer la perforation péritonéale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756168463367_04",
+      "current_version_epoch_ms": 1756168463367,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "UGD"
+      },
+      "data": {
+        "statement": "Quelle complication peut survenir si l'examen n'est pas réalisé en urgence devant une contracture abdominale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Péritonite septique",
+            "justification": "L'absence de prise en charge rapide peut conduire à une péritonite septique, menaçant le pronostic vital du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Occlusion intestinale",
+            "justification": "Bien que l'occlusion intestinale puisse être une conséquence d'une pathologie abdominale, elle n'est pas directement liée à l'absence d'examen dans le cas d'une contracture abdominale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémorragie abdominale",
+            "justification": "Une hémorragie abdominale n'est pas une complication directe de la contracture abdominale en cas de perforation."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte rénale",
+            "justification": "L'atteinte rénale n'est pas une complication immédiate dans le cadre d'une contracture abdominale non explorée."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance cardiaque",
+            "justification": "L'insuffisance cardiaque n'est pas liée à l'absence de réalisation du scanner dans le cadre de cette pathologie abdominale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756168463367_05",
+      "current_version_epoch_ms": 1756168463367,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "UGD"
+      },
+      "data": {
+        "statement": "Quand doit-on évoquer une contracture abdominale comme cause d'irritation péritonéale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la douleur abdominale est associée à une raideur abdominale",
+            "justification": "La contracture abdominale est caractérisée par une douleur intense et une raideur abdominale, signes d'irritation péritonéale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe des douleurs lombaires",
+            "justification": "Les douleurs lombaires ne sont pas spécifiques d'une contracture abdominale, qui est caractérisée par des douleurs abdominales."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une légère douleur abdominale sans raideur",
+            "justification": "Une douleur sans raideur abdominale ne correspond pas à une contracture abdominale, qui implique une raideur visible ou palpable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une fièvre sans douleur abdominale",
+            "justification": "La fièvre sans douleur abdominale n'évoque pas une contracture abdominale, qui est une douleur intense accompagnée de raideur."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une douleur localisée au niveau du flanc gauche",
+            "justification": "La localisation de la douleur n'est pas déterminante dans le diagnostic de la contracture abdominale, qui se caractérise par une douleur diffuse et une raideur abdominale."
+          }
+        ]
+      }
+    }
+  ]
+}
