@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "cirrhose",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756183170244_01",
+      "current_version_epoch_ms": 1756183170244,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention de l'ascite tendue ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponctions évacuatrices avec perfusion d'albumine selon le volume d'ascite ponctionné.",
+            "justification": "Le traitement initial de l'ascite tendue repose sur la réalisation de ponctions évacuatrices et sur des perfusions d'albumine, en fonction du volume d'ascite ponctionné."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement diurétique par furosémide seul.",
+            "justification": "Le furosémide peut être ajouté si nécessaire, mais il n'est pas suffisant seul pour traiter l'ascite tendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de corticoïdes pour diminuer l'inflammation.",
+            "justification": "Les corticoïdes ne sont pas utilisés dans le traitement de l'ascite tendue."
+          },
+          {
+            "correct": false,
+            "proposition": "Transplantation hépatique immédiate.",
+            "justification": "La transplantation hépatique n'est pas un traitement immédiat de l'ascite tendue, mais plutôt une solution pour l'ascite réfractaire en cas de décompensation sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'antibiotiques pour prévenir les infections.",
+            "justification": "Les antibiotiques sont utilisés pour traiter les infections liées à l'ascite, mais ne sont pas un traitement de première intention pour l'ascite elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756183170244_02",
+      "current_version_epoch_ms": 1756183170244,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quels sont les effets secondaires possibles des diurétiques dans le traitement de l'ascite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hyperkaliémie (spironolactone) et hypokaliémie (furosémide).",
+            "justification": "Les diurétiques comme la spironolactone peuvent provoquer une hyperkaliémie, tandis que le furosémide est associé à une hypokaliémie."
+          },
+          {
+            "correct": true,
+            "proposition": "Gynécomastie (spironolactone).",
+            "justification": "La spironolactone peut provoquer des effets secondaires hormonaux tels que la gynécomastie."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du périmètre abdominal.",
+            "justification": "L'augmentation du périmètre abdominal est un signe de non-contrôle de l'ascite et non un effet secondaire des diurétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration de la fonction rénale.",
+            "justification": "Les diurétiques peuvent induire une insuffisance rénale fonctionnelle en cas de déplétion excessive en fluides."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension sévère.",
+            "justification": "L'hypotension peut survenir mais n'est pas un effet secondaire direct du traitement diurétique de l'ascite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756183170244_03",
+      "current_version_epoch_ms": 1756183170244,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est l'objectif thérapeutique du traitement antibiotique dans l'infection spontanée du liquide d'ascite (ISLA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution d'au moins 25% du nombre de leucocytes dans l'ascite après 48 heures.",
+            "justification": "L'objectif du traitement antibiotique est de réduire d'au moins 25% le nombre de leucocytes dans l'ascite après 48 heures de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Éradication complète de la bactérie dans l'ascite en 24 heures.",
+            "justification": "L'objectif n'est pas une éradication totale en 24 heures, mais une réduction significative des leucocytes après 48 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction immédiate des symptômes cliniques.",
+            "justification": "Bien que la réponse clinique soit un indicateur d'efficacité, l'objectif précis est la diminution des leucocytes dans l'ascite."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des niveaux de créatinine dans le sang.",
+            "justification": "La réduction des niveaux de créatinine n'est pas l'objectif principal du traitement antibiotique dans l'ISLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Élimination complète de l'ascite.",
+            "justification": "L'objectif des antibiotiques est de traiter l'infection, et non de guérir l'ascite elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756183170244_04",
+      "current_version_epoch_ms": 1756183170244,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'albumine dans le traitement de l'infection spontanée du liquide d'ascite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prévenir le syndrome hépato-rénal et réduire la mortalité.",
+            "justification": "L'albumine est administrée pour diminuer le risque de syndrome hépato-rénal et réduire la mortalité dans le cadre du traitement de l'ISLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter la pression artérielle systolique.",
+            "justification": "L'albumine n'est pas administrée pour augmenter la pression artérielle systolique mais pour améliorer la perfusion rénale et hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer l'inflammation systémique.",
+            "justification": "L'albumine n'agit pas directement sur l'inflammation systémique mais sur la régulation de l'équilibre volumique."
+          },
+          {
+            "correct": false,
+            "proposition": "Favoriser la résorption de l'ascite.",
+            "justification": "Bien que l'albumine soit utilisée dans le traitement de l'ascite, son rôle est principalement d'éviter la décompensation rénale et de réduire la mortalité, non de favoriser la résorption."
+          },
+          {
+            "correct": false,
+            "proposition": "Accélérer la guérison des infections.",
+            "justification": "L'albumine n'est pas un agent antimicrobien et n'a pas d'impact direct sur la guérison des infections."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756183170244_05",
+      "current_version_epoch_ms": 1756183170244,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est l'indicateur principal de l'efficacité du traitement de l'ascite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diminution du périmètre abdominal et perte de poids.",
+            "justification": "L'efficacité du traitement de l'ascite est évaluée par la diminution du périmètre abdominal et la perte de poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la diurèse.",
+            "justification": "L'augmentation de la diurèse n'est qu'un facteur contributif à l'efficacité, mais le critère principal reste la diminution du périmètre abdominal."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution des leucocytes dans l'ascite.",
+            "justification": "La diminution des leucocytes est un indicateur de l'efficacité du traitement des infections, mais pas du traitement de l'ascite elle-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la créatinine sérique.",
+            "justification": "Bien que la fonction rénale soit surveillée, la créatinine sérique n'est pas un indicateur direct de l'efficacité du traitement de l'ascite."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration de la fonction hépatique.",
+            "justification": "L'amélioration de la fonction hépatique est indirecte et ne mesure pas directement l'efficacité du traitement de l'ascite."
+          }
+        ]
+      }
+    }
+  ]
+}
