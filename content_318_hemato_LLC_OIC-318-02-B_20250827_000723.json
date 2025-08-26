@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LLC",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756246190071_01",
+      "current_version_epoch_ms": 1756246190071,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LLC"
+      },
+      "data": {
+        "statement": "Quel est le moyen simple de prouver le caractère clonal d'une leucémie lymphoïde?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation d'un immunophénotypage des lymphocytes sanguins par cytométrie en flux.",
+            "justification": "L'immunophénotypage des lymphocytes par cytométrie en flux permet de démontrer le caractère clonal des lymphocytes grâce à l'analyse des chaînes légères des immunoglobulines."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyse génétique par PCR.",
+            "justification": "Bien que l'analyse génétique par PCR soit utile pour d'autres types de pathologies, ce n'est pas la méthode de référence pour démontrer la clonalité dans la leucémie lymphoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Biopsie médullaire avec analyse histologique.",
+            "justification": "La biopsie médullaire et l'analyse histologique peuvent apporter des informations supplémentaires, mais la cytométrie en flux reste l'examen de référence pour prouver la clonalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérologie spécifique des cellules leucémiques.",
+            "justification": "La sérologie n'est pas utilisée pour prouver la clonalité dans la leucémie lymphoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrophorèse des protéines plasmatiques.",
+            "justification": "L'électrophorèse des protéines plasmatiques ne permet pas de démontrer la clonalité des lymphocytes dans la leucémie lymphoïde."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756246190071_02",
+      "current_version_epoch_ms": 1756246190071,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LLC"
+      },
+      "data": {
+        "statement": "Comment la cytométrie en flux aide-t-elle à prouver la clonalité dans la leucémie lymphoïde?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle analyse l'expression des chaînes légères des immunoglobulines et leur distribution.",
+            "justification": "La cytométrie en flux permet de montrer que la répartition des chaînes légères est monotypique, signe d'une prolifération monoclonale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet d'observer la morphologie des cellules leucémiques.",
+            "justification": "La cytométrie en flux analyse les antigènes et non la morphologie des cellules."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle détecte uniquement la présence de CD5 à la surface des lymphocytes B.",
+            "justification": "Bien que l'expression de CD5 soit évocatrice, ce n'est pas la seule information fournie par la cytométrie en flux."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle analyse la concentration de protéines intracellulaires spécifiques.",
+            "justification": "La cytométrie en flux analyse les antigènes de surface et non la concentration de protéines intracellulaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle mesure le taux de prolifération cellulaire.",
+            "justification": "La cytométrie en flux ne mesure pas directement le taux de prolifération, mais analyse l'expression des antigènes et des chaînes légères."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756246190071_03",
+      "current_version_epoch_ms": 1756246190071,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LLC"
+      },
+      "data": {
+        "statement": "Quelle est la répartition normale des chaînes légères des immunoglobulines dans une population B?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2/3 kappa, 1/3 lambda.",
+            "justification": "La répartition normale des chaînes légères des immunoglobulines dans une population B est de 2/3 kappa et 1/3 lambda."
+          },
+          {
+            "correct": false,
+            "proposition": "1/3 kappa, 2/3 lambda.",
+            "justification": "Cette répartition est incorrecte. La répartition normale est de 2/3 kappa et 1/3 lambda."
+          },
+          {
+            "correct": false,
+            "proposition": "50% kappa, 50% lambda.",
+            "justification": "Cette répartition est incorrecte. La répartition normale n'est pas égale entre kappa et lambda."
+          },
+          {
+            "correct": false,
+            "proposition": "2/3 lambda, 1/3 kappa.",
+            "justification": "Cette répartition est inversée par rapport à la répartition normale des chaînes légères."
+          },
+          {
+            "correct": false,
+            "proposition": "3/4 kappa, 1/4 lambda.",
+            "justification": "La répartition normale n'est pas de 3/4 kappa et 1/4 lambda, mais de 2/3 kappa et 1/3 lambda."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756246190071_04",
+      "current_version_epoch_ms": 1756246190071,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LLC"
+      },
+      "data": {
+        "statement": "Quel marqueur est habituellement exprimé par les lymphocytes T, mais présent à la surface des lymphocytes B dans la leucémie lymphoïde?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "CD5.",
+            "justification": "Le CD5 est un marqueur typiquement exprimé par les lymphocytes T, mais sa présence à la surface des lymphocytes B est évocatrice d'une leucémie lymphoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "CD4.",
+            "justification": "CD4 est un marqueur des lymphocytes T auxiliaires, mais il n'est pas spécifiquement impliqué dans la leucémie lymphoïde B."
+          },
+          {
+            "correct": false,
+            "proposition": "CD19.",
+            "justification": "CD19 est un marqueur classique des lymphocytes B, mais il n'est pas évocateur de leucémie lymphoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "CD8.",
+            "justification": "CD8 est un marqueur des lymphocytes T cytotoxiques, mais il n'est pas lié à la leucémie lymphoïde B."
+          },
+          {
+            "correct": false,
+            "proposition": "CD10.",
+            "justification": "CD10 est un marqueur de certains lymphocytes B immatures, mais il n'est pas spécifiquement associé à la leucémie lymphoïde."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756246190071_05",
+      "current_version_epoch_ms": 1756246190071,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "LLC"
+      },
+      "data": {
+        "statement": "Pourquoi l'expression monotypique des chaînes légères des immunoglobulines est-elle un critère diagnostique de la leucémie lymphoïde?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle montre que toutes les cellules B expriment la même chaîne légère, signe de clonalité.",
+            "justification": "L'expression monotypique des chaînes légères indique que toutes les cellules B proviennent d'un seul clone, caractéristique de la leucémie lymphoïde."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est le signe d'une activation normale des cellules B.",
+            "justification": "L'expression monotypique est un signe de clonalité pathologique, et non d'activation normale des cellules B."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est causée par une mutation génétique affectant les lymphocytes B.",
+            "justification": "L'expression monotypique est un phénomène clonale, mais il ne s'agit pas directement d'une mutation génétique affectant toutes les cellules B."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle indique une réponse immune efficace des lymphocytes B.",
+            "justification": "Une réponse immune efficace n'est pas associée à l'expression monotypique des chaînes légères, qui est un signe de clonalité anormale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle résulte d'une production excessive d'immunoglobulines.",
+            "justification": "L'expression monotypique n'est pas le résultat d'une production excessive d'immunoglobulines, mais d'une prolifération clonale des cellules B."
+          }
+        ]
+      }
+    }
+  ]
+}
