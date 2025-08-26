@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "MM",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756247990750_01",
+      "current_version_epoch_ms": 1756247990750,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quel est le critère clinique de l'hypercalcémie dans le cadre des critères CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Calcémie > 2.75 mmol/L ou >0.25 mmol/L au-dessus de la limite de la normale",
+            "justification": "L'hypercalcémie est définie par une calcémie supérieure à 2.75 mmol/L ou une augmentation de 0.25 mmol/L par rapport à la limite supérieure de la norme."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie > 3.00 mmol/L",
+            "justification": "La valeur seuil de 3.00 mmol/L dépasse la limite définie pour l'hypercalcémie dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie > 2.50 mmol/L",
+            "justification": "Cette valeur est inférieure au seuil de 2.75 mmol/L requis pour l'hypercalcémie dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie > 2.00 mmol/L",
+            "justification": "Une calcémie de 2.00 mmol/L est trop basse pour être considérée comme hypercalcémie selon les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcémie > 2.60 mmol/L",
+            "justification": "La valeur de 2.60 mmol/L n'atteint pas le seuil de 2.75 mmol/L requis pour définir l'hypercalcémie dans les critères CRAB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247990750_02",
+      "current_version_epoch_ms": 1756247990750,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quelle est la valeur seuil de la créatininémie pour qualifier une insuffisance rénale selon les critères CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Créatininémie > 177 µmol/L ou clairance < 40 mL/mn",
+            "justification": "L'insuffisance rénale est définie par une créatininémie supérieure à 177 µmol/L ou une clairance inférieure à 40 mL/min selon les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatininémie > 150 µmol/L",
+            "justification": "Ce seuil est inférieur à la limite des 177 µmol/L fixée pour l'insuffisance rénale dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatininémie > 200 µmol/L",
+            "justification": "Bien que cette valeur soit élevée, elle dépasse le seuil fixé pour l'insuffisance rénale dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Clairance < 50 mL/mn",
+            "justification": "Le seuil de clairance pour qualifier l'insuffisance rénale est fixé à 40 mL/mn et non à 50 mL/mn dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatininémie > 120 µmol/L",
+            "justification": "Ce seuil est trop bas pour être considéré comme insuffisance rénale selon les critères CRAB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247990750_03",
+      "current_version_epoch_ms": 1756247990750,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quelle valeur de l'hémoglobine définit une anémie dans le cadre des critères CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémoglobine < 10 g/dL ou >2 g/dL en dessous de la limite de la normale",
+            "justification": "L'anémie est définie par une hémoglobine inférieure à 10 g/dL ou une réduction de plus de 2 g/dL par rapport à la limite inférieure de la norme dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine < 12 g/dL",
+            "justification": "Ce seuil est trop élevé pour définir une anémie selon les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine < 11 g/dL",
+            "justification": "Ce seuil n'est pas suffisant pour qualifier une anémie dans le cadre des critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine < 9 g/dL",
+            "justification": "Ce seuil est trop bas pour être considéré comme la définition d'anémie dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine < 10.5 g/dL",
+            "justification": "Bien que proche, ce seuil est trop élevé pour correspondre à la définition d'anémie selon les critères CRAB."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247990750_04",
+      "current_version_epoch_ms": 1756247990750,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quelle caractéristique définit une lésion osseuse ostéolytique dans les critères CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "> 1 lésion ostéolytique (> 5 mm) sur radiographies, scanner ou PET-CT",
+            "justification": "Les lésions ostéolytiques sont définies comme étant supérieures à 5 mm sur les examens d'imagerie comme les radiographies, scanner ou PET-CT, et doivent être présentes en nombre supérieur à une."
+          },
+          {
+            "correct": false,
+            "proposition": "> 1 lésion ostéolytique (> 3 mm) sur radiographies, scanner ou PET-CT",
+            "justification": "Le seuil minimal pour la taille des lésions ostéolytiques est fixé à 5 mm et non 3 mm dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "> 2 lésions ostéolytiques (> 5 mm) sur radiographies, scanner ou PET-CT",
+            "justification": "Une seule lésion ostéolytique de taille suffisante (> 5 mm) est déjà suffisante pour satisfaire ce critère dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "1 lésion ostéolytique (> 10 mm) sur radiographies, scanner ou PET-CT",
+            "justification": "Bien que cette taille soit suffisante, le critère nécessite simplement des lésions > 5 mm, pas spécifiquement > 10 mm."
+          },
+          {
+            "correct": false,
+            "proposition": "1 lésion ostéolytique (> 5 mm) uniquement sur radiographies",
+            "justification": "Le critère CRAB inclut toutes les modalités d'imagerie (radiographies, scanner, PET-CT), pas seulement les radiographies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756247990750_05",
+      "current_version_epoch_ms": 1756247990750,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "MM"
+      },
+      "data": {
+        "statement": "Quelles sont les manifestations cliniques correspondant aux critères CRAB ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypercalcémie, insuffisance rénale, anémie et lésions osseuses",
+            "justification": "Les critères CRAB définissent la présence d'hypercalcémie, insuffisance rénale, anémie et lésions osseuses comme des manifestations cliniques associées."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension, hyperglycémie, anémie et lésions osseuses",
+            "justification": "L'hypertension et l'hyperglycémie ne sont pas des critères définis dans les critères CRAB."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercalcémie, insuffisance rénale, hypertension et lésions osseuses",
+            "justification": "L'hypertension ne fait pas partie des critères CRAB, qui incluent l'anémie et non l'hypertension."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercalcémie, anémie, lésions osseuses et hypoalbuminémie",
+            "justification": "La hypoalbuminémie n'est pas un critère dans les critères CRAB, qui incluent l'insuffisance rénale plutôt."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypercalcémie, insuffisance rénale, anémie et inflammation",
+            "justification": "L'inflammation n'est pas un critère des CRAB, qui incluent des lésions osseuses."
+          }
+        ]
+      }
+    }
+  ]
+}
