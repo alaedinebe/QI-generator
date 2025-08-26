@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "cirrhose",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756181820446_01",
+      "current_version_epoch_ms": 1756181820446,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est le score de Child-Pugh d'une cirrhose avec une albumine de 30 g/L, une bilirubine totale de 40 µmol/L, une encéphalopathie modérée (stade 2), une ascite modérée et un taux de prothrombine de 45% ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Score de Child-Pugh A",
+            "justification": "L'albumine est comprise entre 28 et 35 g/L (2 points), la bilirubine est entre 35 et 50 µmol/L (2 points), l'encéphalopathie est modérée (2 points), l'ascite est modérée (2 points) et le taux de prothrombine est entre 40 et 50% (2 points). Le total est 8 points, ce qui correspond à un score de Child-Pugh B."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh B",
+            "justification": "Le total des points est de 8, ce qui correspond bien au score de Child-Pugh B, et non au score A."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh C",
+            "justification": "Le score de Child-Pugh C nécessite un total de 10 à 15 points. Le score de 8 points ne correspond pas à cette classification."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de MELD",
+            "justification": "Le score MELD est calculé avec la bilirubine, l'INR et la créatininémie. Cette question se réfère au score de Child-Pugh, pas au score MELD."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh D",
+            "justification": "Il n'existe pas de score de Child-Pugh D. Les catégories sont A, B et C."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756181820446_02",
+      "current_version_epoch_ms": 1756181820446,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Lequel des éléments suivants est un facteur pronostique du score de MELD dans la cirrhose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bilirubinémie",
+            "justification": "La bilirubine est une des trois variables utilisées pour calculer le score MELD, avec l'INR et la créatininémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Albumine",
+            "justification": "L'albumine fait partie du calcul du score de Child-Pugh, mais pas du score MELD."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalopathie",
+            "justification": "L'encéphalopathie est incluse dans le score de Child-Pugh, mais elle n'est pas prise en compte dans le calcul du score MELD."
+          },
+          {
+            "correct": false,
+            "proposition": "Ascite",
+            "justification": "L'ascite est une des variables du score de Child-Pugh, mais pas du score MELD."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de prothrombine",
+            "justification": "Le taux de prothrombine est une variable du score de Child-Pugh, mais il ne fait pas partie du calcul du score MELD."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756181820446_03",
+      "current_version_epoch_ms": 1756181820446,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel score de Child-Pugh correspond à un pronostic de survie à un an de 45% ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Score de Child-Pugh C",
+            "justification": "Le score de Child-Pugh C correspond à un total de 10 à 15 points, avec une survie à un an de 45%."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh B",
+            "justification": "Le score de Child-Pugh B correspond à un total de 7 à 9 points, avec une survie à un an de 80%, pas 45%."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh A",
+            "justification": "Le score de Child-Pugh A correspond à un total de 5 à 6 points, avec une survie à un an de 100%, bien au-dessus de 45%."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de MELD",
+            "justification": "Le score de MELD est différent du score de Child-Pugh et n'est pas lié à la survie à un an dans les mêmes termes."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Child-Pugh D",
+            "justification": "Il n'existe pas de score de Child-Pugh D. La classification s'arrête à C."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756181820446_04",
+      "current_version_epoch_ms": 1756181820446,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quelle est la principale complication associée à la cirrhose dans les stades décompensés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ascite",
+            "justification": "L'ascite est l'une des complications les plus fréquentes de la cirrhose décompensée, souvent associée à une décompensation hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Carcinome hépatocellulaire",
+            "justification": "Bien que le carcinome hépatocellulaire soit une complication de la cirrhose, il survient souvent avant le stade décompensé dans certaines maladies chroniques du foie, mais ce n'est pas la principale complication dans les stades décompensés."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalopathie hépatique",
+            "justification": "L'encéphalopathie hépatique est également une complication courante des stades décompensés, mais l'ascite reste souvent la complication la plus visible et la plus traitée."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère",
+            "justification": "L'ictère peut survenir dans les stades décompensés, mais l'ascite est plus représentative des complications dans ces stades."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémorragie digestive",
+            "justification": "Bien que l'hémorragie digestive soit une complication fréquente de la cirrhose décompensée, l'ascite est généralement plus courante."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756181820446_05",
+      "current_version_epoch_ms": 1756181820446,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "cirrhose"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur pris en compte pour la classification du score de Child-Pugh ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Albumine",
+            "justification": "L'albumine est l'une des cinq variables principales utilisées dans le calcul du score de Child-Pugh, reflétant l'état nutritionnel et la fonction hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "INR",
+            "justification": "L'INR fait partie du score MELD, mais pas du score de Child-Pugh."
+          },
+          {
+            "correct": false,
+            "proposition": "Encéphalopathie",
+            "justification": "L'encéphalopathie est une autre variable importante du score de Child-Pugh, mais l'albumine est également un facteur clé."
+          },
+          {
+            "correct": false,
+            "proposition": "Ascite",
+            "justification": "L'ascite est un facteur du score de Child-Pugh, mais n'est pas le principal critère de classification."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilirubine",
+            "justification": "Bien que la bilirubine fasse partie du calcul du score de Child-Pugh, elle n'est pas le principal facteur dans la classification."
+          }
+        ]
+      }
+    }
+  ]
+}
