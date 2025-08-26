@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SMD",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756244386276_01",
+      "current_version_epoch_ms": 1756244386276,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "SMD"
+      },
+      "data": {
+        "statement": "Quel examen permet de confirmer le diagnostic d'aplasie médullaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Myélogramme",
+            "justification": "Le myélogramme permet de diagnostiquer l'aplasie médullaire en montrant une moelle pauvre en cellules hématopoïétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique de vitamine B9",
+            "justification": "Le dosage de la vitamine B9 permet de diagnostiquer une anémie carentielle, mais non une aplasie médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Biopsie ostéomédullaire (BOM)",
+            "justification": "La BOM peut être utile dans certains diagnostics, mais elle est surtout utilisée pour des infiltrations médullaires et non pour confirmer une aplasie médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal est utile pour détecter des métastases ou des infiltrations, mais il n'est pas utilisé pour diagnostiquer une aplasie médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie abdominale est utile pour observer des anomalies organiques, mais ne permet pas d'évaluer la moelle osseuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756244386276_02",
+      "current_version_epoch_ms": 1756244386276,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "SMD"
+      },
+      "data": {
+        "statement": "Quel examen est crucial pour diagnostiquer une anémie carentielle ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Myélogramme",
+            "justification": "Le myélogramme est utilisé pour les diagnostics de troubles médullaires, pas pour les anémies carentielles."
+          },
+          {
+            "correct": true,
+            "proposition": "Dosage sérique de vitamines B9 et B12",
+            "justification": "Les dosages des vitamines B9 et B12 sont essentiels pour diagnostiquer une anémie carentielle en cas de déficit en ces vitamines."
+          },
+          {
+            "correct": false,
+            "proposition": "BOM",
+            "justification": "La biopsie ostéomédullaire est plus adaptée aux infiltrations médullaires et aux hémopathies malignes, non pour les anémies carentielles."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie abdominale peut être utilisée pour évaluer des organes internes, mais n'est pas utile dans le cadre d'une anémie carentielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique est utilisé pour des pathologies pulmonaires, mais n'aide pas au diagnostic des anémies carentielles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756244386276_03",
+      "current_version_epoch_ms": 1756244386276,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "SMD"
+      },
+      "data": {
+        "statement": "Dans quel cas le myélogramme révèle plus de 19% de blastes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Leucémie aiguë",
+            "justification": "La présence de plus de 19% de blastes au myélogramme est un critère diagnostique majeur de la leucémie aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie carentielle",
+            "justification": "L'anémie carentielle est associée à un déficit en vitamines, mais ne se manifeste pas par une augmentation des blastes."
+          },
+          {
+            "correct": false,
+            "proposition": "Myélofibrose",
+            "justification": "La myélofibrose présente généralement une moelle pauvre, mais pas un nombre élevé de blastes comme dans la leucémie aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Aplasie médullaire",
+            "justification": "L'aplasie médullaire se caractérise par une absence de cellules hématopoïétiques, pas par une prolifération de blastes."
+          },
+          {
+            "correct": false,
+            "proposition": "Infiltration médullaire par une autre hémopathie",
+            "justification": "Les infiltrations médullaires ne se traduisent pas systématiquement par une hyperplasie de blastes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756244386276_04",
+      "current_version_epoch_ms": 1756244386276,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "SMD"
+      },
+      "data": {
+        "statement": "Quel est l'examen de choix pour diagnostiquer une infiltration médullaire par une tumeur solide ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Myélogramme et/ou BOM",
+            "justification": "Le myélogramme et la biopsie ostéomédullaire (BOM) permettent d'identifier des infiltrations médullaires par des hémopathies malignes ou des métastases."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique des vitamines B9 et B12",
+            "justification": "Les dosages des vitamines B9 et B12 servent à diagnostiquer une anémie carentielle et ne sont pas utilisés pour les infiltrations médullaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal peut montrer des métastases solides mais n'est pas l'examen principal pour évaluer l'infiltration médullaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie est moins précise que le scanner pour détecter des tumeurs solides et ne permet pas d'analyser la moelle osseuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie thoracique est utile pour les pathologies pulmonaires, mais elle ne permet pas de visualiser des infiltrations médullaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756244386276_05",
+      "current_version_epoch_ms": 1756244386276,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "SMD"
+      },
+      "data": {
+        "statement": "Quel est l'examen permettant d'évoquer une myélofibrose ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Myélogramme",
+            "justification": "Le myélogramme montre une moelle pauvre et est l'examen clé pour suspecter une myélofibrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage sérique de vitamine B9",
+            "justification": "Le dosage de vitamine B9 est utile pour diagnostiquer une anémie carentielle, mais pas pour la myélofibrose."
+          },
+          {
+            "correct": false,
+            "proposition": "BOM",
+            "justification": "La biopsie ostéomédullaire peut être utile pour confirmer une myélofibrose, mais ce n'est pas le premier examen diagnostique."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique est principalement utilisé pour les pathologies pulmonaires et ne permet pas d'évaluer directement une myélofibrose."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie abdominale",
+            "justification": "L'échographie abdominale ne permet pas d'évaluer directement les caractéristiques de la moelle osseuse et ne sert pas au diagnostic de la myélofibrose."
+          }
+        ]
+      }
+    }
+  ]
+}
