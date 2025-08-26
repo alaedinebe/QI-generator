@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTperso",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756250695959_01",
+      "current_version_epoch_ms": 1756250695959,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quels sont les critères importants à prendre en compte lors de la prescription médicamenteuse, liés au patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'âge, le sexe, l'IMC et les comorbidités du patient",
+            "justification": "Ces facteurs influencent directement la tolérance et l'efficacité des médicaments chez un patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Les goûts alimentaires et les préférences du patient",
+            "justification": "Bien que l'observance soit un facteur important, les préférences alimentaires ne sont pas directement liées à la prescription médicamenteuse."
+          },
+          {
+            "correct": true,
+            "proposition": "La fonction rénale et hépatique du patient",
+            "justification": "La fonction rénale et hépatique influence la pharmacocinétique des médicaments, notamment leur élimination."
+          },
+          {
+            "correct": false,
+            "proposition": "Les antécédents familiaux de maladies cardiaques",
+            "justification": "Les antécédents familiaux peuvent être un facteur de risque, mais ne sont pas directement pris en compte dans la prescription médicamenteuse."
+          },
+          {
+            "correct": true,
+            "proposition": "Les allergies et le risque d'automédication",
+            "justification": "Les allergies et l'automédication peuvent entraîner des effets indésirables graves et doivent être systématiquement vérifiés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250695959_02",
+      "current_version_epoch_ms": 1756250695959,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quels éléments doivent être pris en compte concernant le médicament choisi pour la prescription ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'AMM, la balance bénéfice-risque et les contre-indications",
+            "justification": "L'AMM garantit l'usage sécurisé du médicament, et la balance bénéfice-risque ainsi que les contre-indications assurent la pertinence du choix thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prix du médicament dans les pharmacies locales",
+            "justification": "Le prix n'est pas un facteur à considérer dans le choix thérapeutique initial, bien qu'il puisse influencer la décision si le médicament est coûteux."
+          },
+          {
+            "correct": true,
+            "proposition": "La biodisponibilité, la demi-vie et les voies d'élimination",
+            "justification": "Ces propriétés pharmacocinétiques déterminent l'efficacité et la sécurité du médicament, en particulier en fonction des caractéristiques du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La popularité du médicament auprès des patients",
+            "justification": "La popularité n'est pas un critère médicalement pertinent pour choisir un médicament."
+          },
+          {
+            "correct": true,
+            "proposition": "Les interactions médicamenteuses et avec l'alimentation",
+            "justification": "Les interactions médicamenteuses et alimentaires peuvent modifier l'efficacité ou la sécurité du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250695959_03",
+      "current_version_epoch_ms": 1756250695959,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Lors de la prescription médicamenteuse, quel facteur lié à la maladie doit être pris en compte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'objectif thérapeutique (symptomatique, curatif, préventif)",
+            "justification": "L'objectif thérapeutique détermine le choix du médicament, qu'il soit utilisé pour traiter les symptômes, guérir la maladie ou prévenir une pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de la maladie",
+            "justification": "La durée de la maladie n'est pas un critère de prescription, mais l'objectif thérapeutique et l'évolution de la maladie le sont."
+          },
+          {
+            "correct": true,
+            "proposition": "La certitude ou incertitude quant au problème de santé",
+            "justification": "La certitude diagnostique influence le choix du traitement, notamment s'il s'agit d'un traitement préventif ou curatif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sexe du patient uniquement",
+            "justification": "Bien que le sexe soit un facteur pertinent, il n'est pas suffisant à lui seul pour définir le traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Le type de traitement recherché (substitutif, diagnostique)",
+            "justification": "Le type de traitement (substitutif ou diagnostique) conditionne le choix du médicament à prescrire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250695959_04",
+      "current_version_epoch_ms": 1756250695959,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quelles informations doivent être fournies au patient lors de la prescription d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La nature de la pathologie et l'objectif du traitement",
+            "justification": "Le patient doit comprendre la maladie qu'il traite ainsi que les objectifs visés par le traitement, qu'ils soient symptomatiques, curatifs ou préventifs."
+          },
+          {
+            "correct": false,
+            "proposition": "La liste complète des médicaments prescrits par le médecin",
+            "justification": "Seule la prescription pertinente doit être discutée avec le patient, sans entrer dans des détails non pertinents."
+          },
+          {
+            "correct": true,
+            "proposition": "La durée du traitement et la possibilité d'arrêt sans avis médical",
+            "justification": "Le patient doit savoir s'il peut arrêter le traitement de façon autonome ou s'il doit consulter avant toute modification."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets secondaires rares et improbables du médicament",
+            "justification": "Seuls les effets secondaires courants et potentiellement graves doivent être discutés avec le patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Les modalités de prise et les mesures associées éventuelles",
+            "justification": "Les instructions claires sur la posologie et les mesures complémentaires (ex : régime sans sel) sont essentielles pour l'observance du traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250695959_05",
+      "current_version_epoch_ms": 1756250695959,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel facteur est essentiel à prendre en compte lors de la prescription pour assurer une bonne observance du traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le fardeau du traitement et le niveau de littératie du patient",
+            "justification": "Un traitement trop complexe ou mal compris par le patient risque de compromettre son observance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prix élevé des médicaments",
+            "justification": "Bien que le prix puisse être un facteur externe, il ne fait pas partie des facteurs directement liés à l'observance du traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Les habitudes du patient, comme l'alimentation et la consommation de toxiques",
+            "justification": "Les habitudes de vie peuvent interagir avec le traitement et affecter l'efficacité ou la tolérance du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "La quantité de médicaments prescrits",
+            "justification": "La quantité prescrite ne doit pas être un facteur déterminant pour l'observance, mais la facilité de suivi du traitement l'est."
+          },
+          {
+            "correct": true,
+            "proposition": "Les comorbidités et traitements en cours",
+            "justification": "Les comorbidités peuvent modifier l'efficacité du traitement ou augmenter le risque d'effets indésirables."
+          }
+        ]
+      }
+    }
+  ]
+}
