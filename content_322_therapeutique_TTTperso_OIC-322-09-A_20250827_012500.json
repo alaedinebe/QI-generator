@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTperso",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756250846708_01",
+      "current_version_epoch_ms": 1756250846708,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le délai minimal avant une intervention programmée pour réaliser une consultation pré-anesthésique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "48 heures",
+            "justification": "La consultation pré-anesthésique doit être réalisée au moins 48 heures avant une intervention programmée, conformément au décret du 5 décembre 1994."
+          },
+          {
+            "correct": false,
+            "proposition": "24 heures",
+            "justification": "Le délai de 24 heures n'est pas suffisant selon la législation actuelle, qui impose un minimum de 48 heures pour les interventions programmées."
+          },
+          {
+            "correct": false,
+            "proposition": "72 heures",
+            "justification": "Le délai de 72 heures est trop long, la consultation devant être réalisée 48 heures avant l'intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "1 semaine",
+            "justification": "Une consultation pré-anesthésique ne nécessite pas un délai d'une semaine avant l'intervention, un délai de 48 heures suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "15 jours",
+            "justification": "15 jours est un délai excessif. La consultation pré-anesthésique doit être réalisée dans les 48 heures avant l'intervention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250846708_02",
+      "current_version_epoch_ms": 1756250846708,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de la consultation pré-anesthésique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer les risques péri- et post-opératoires",
+            "justification": "La consultation pré-anesthésique permet d'évaluer les risques associés à l'anesthésie et à l'intervention chirurgicale, ce qui est essentiel pour la gestion du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Établir le diagnostic de l'indication chirurgicale",
+            "justification": "Le diagnostic de l'indication chirurgicale relève de la consultation chirurgicale, pas de la consultation pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser l'anesthésie",
+            "justification": "L'anesthésie est réalisée lors de l'intervention chirurgicale, pas durant la consultation pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer les médicaments pré-anesthésiques",
+            "justification": "L'administration des médicaments pré-anesthésiques se fait le jour de l'intervention, pas lors de la consultation pré-anesthésique."
+          },
+          {
+            "correct": false,
+            "proposition": "Décider du type d'intervention chirurgicale",
+            "justification": "Le type d'intervention chirurgicale est décidé par le chirurgien, pas par l'anesthésiste lors de la consultation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250846708_03",
+      "current_version_epoch_ms": 1756250846708,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quels éléments sont regroupés dans le dossier d'anesthésie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ensemble des informations sur la stratégie anesthésique et les risques éventuels",
+            "justification": "Le dossier d'anesthésie regroupe toutes les informations liées à la stratégie anesthésique envisagée ainsi que les risques associés, permettant une prise en charge éclairée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les prescriptions médicamenteuses pour l'analgésie post-opératoire",
+            "justification": "Les prescriptions pour l'analgésie sont spécifiques au moment de l'intervention et ne sont pas directement incluses dans le dossier d'anesthésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le bilan biologique complet du patient",
+            "justification": "Le bilan biologique peut être prescrit pendant la consultation pré-anesthésique, mais il n'est pas systématiquement inclus dans le dossier d'anesthésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport des avis spécialisés demandés",
+            "justification": "Les avis spécialisés peuvent être notés dans le dossier, mais ne sont pas l'élément principal du dossier d'anesthésie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le compte-rendu de la consultation chirurgicale",
+            "justification": "Le compte-rendu de la consultation chirurgicale n'est pas inclus dans le dossier d'anesthésie, bien qu'il puisse être pertinent pour le médecin anesthésiste."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250846708_04",
+      "current_version_epoch_ms": 1756250846708,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "La consultation pré-anesthésique permet-elle de dispenser de la visite pré-anesthésique dans les heures précédant l'intervention ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Non, la consultation pré-anesthésique ne dispense pas de la visite pré-anesthésique",
+            "justification": "La consultation pré-anesthésique et la visite pré-anesthésique sont distinctes. La visite permet de vérifier les modifications thérapeutiques avant l'intervention."
+          },
+          {
+            "correct": true,
+            "proposition": "Oui, la consultation pré-anesthésique suffit pour confirmer les préparations",
+            "justification": "La consultation pré-anesthésique permet de préparer le patient, mais la visite pré-anesthésique permet de vérifier la mise en œuvre des modifications thérapeutiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Non, la visite pré-anesthésique peut être remplacée par un examen clinique",
+            "justification": "La visite pré-anesthésique est une étape légale et nécessaire qui ne peut être remplacée par un simple examen clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, la visite pré-anesthésique n'est pas obligatoire si la consultation est bien faite",
+            "justification": "La visite pré-anesthésique est obligatoire, même après une consultation pré-anesthésique, selon la législation actuelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Non, la consultation d'anesthésie remplace entièrement la visite pré-anesthésique",
+            "justification": "La consultation d'anesthésie et la visite pré-anesthésique sont deux étapes complémentaires et distinctes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250846708_05",
+      "current_version_epoch_ms": 1756250846708,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Que doit inclure la consultation pré-anesthésique pour évaluer la gestion des allergies ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une évaluation détaillée des antécédents allergiques et des traitements en cours",
+            "justification": "L'évaluation des antécédents allergiques et des traitements est essentielle pour prévenir les risques d'allergies pendant l'anesthésie."
+          },
+          {
+            "correct": false,
+            "proposition": "La réalisation d'un test allergologique systématique",
+            "justification": "Les tests allergologiques ne sont pas systématiques lors de la consultation pré-anesthésique, sauf indication spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "La prescription systématique d'antihistaminiques",
+            "justification": "La prescription d'antihistaminiques n'est pas systématique lors de la consultation pré-anesthésique, mais peut être indiquée en cas d'allergie avérée."
+          },
+          {
+            "correct": false,
+            "proposition": "La vérification des antécédents chirurgicaux du patient",
+            "justification": "Bien que les antécédents chirurgicaux puissent être utiles, ils ne sont pas directement liés à l'évaluation des allergies."
+          },
+          {
+            "correct": false,
+            "proposition": "Un test cutané pour identifier des allergies médicamenteuses",
+            "justification": "Les tests cutanés ne sont pas réalisés systématiquement lors de la consultation pré-anesthésique, sauf en cas de doute clinique."
+          }
+        ]
+      }
+    }
+  ]
+}
