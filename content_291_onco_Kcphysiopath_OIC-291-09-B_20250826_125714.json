@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcphysiopath",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756205980827_01",
+      "current_version_epoch_ms": 1756205980827,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Dans quelles situations cliniques ou anamnestiques faut-il suspecter un syndrome de Lynch ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cancer colorectal chez un patient de moins de 60 ans",
+            "justification": "Le cancer colorectal avant 60 ans est un des critères principaux de suspicion du syndrome de Lynch, nécessitant une analyse du statut MMR de la tumeur."
+          },
+          {
+            "correct": true,
+            "proposition": "Cancers multiples du spectre du syndrome de Lynch chez un même patient",
+            "justification": "La présence de cancers multiples synchrones ou métachrones, issus du spectre du syndrome de Lynch, chez un même patient est un facteur déterminant pour la suspicion du syndrome."
+          },
+          {
+            "correct": false,
+            "proposition": "Cancer de la peau chez un patient de moins de 50 ans",
+            "justification": "Le cancer de la peau ne fait pas partie des cancers associés au syndrome de Lynch, qui touche principalement le colorectal, l'endomètre et les voies urinaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Cancer colorectal chez un patient de plus de 70 ans",
+            "justification": "L'âge avancé ne correspond pas aux critères pour suspecter un syndrome de Lynch, qui privilégie les jeunes patients, généralement de moins de 60 ans."
+          },
+          {
+            "correct": true,
+            "proposition": "Antécédents familiaux de cancers du spectre du syndrome de Lynch (1 parent au premier degré avant 50 ans)",
+            "justification": "Les antécédents familiaux de cancers du spectre du syndrome de Lynch, notamment chez un parent de premier degré avant 50 ans, sont un critère fort de suspicion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756205980827_02",
+      "current_version_epoch_ms": 1756205980827,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quelle est la conséquence de l'inactivation biallélique d'un gène de réparation des mésappariements de l'ADN dans le syndrome de Lynch ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Phénotype tumoral d-MMR détecté par instabilité des microsatellites (MSI)",
+            "justification": "L'inactivation biallélique d'un gène MMR entraîne une instabilité des microsatellites, caractéristique du phénotype d-MMR, qui peut être détectée par analyse moléculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Surproduction de protéines MMR",
+            "justification": "L'inactivation biallélique des gènes MMR entraîne une perte d'expression des protéines MMR, et non une surproduction."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte d'expression des protéines MMR en immunohistochimie",
+            "justification": "La perte d'expression des protéines MMR en immunohistochimie est un autre signe caractéristique du phénotype d-MMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de réponse à l'immunothérapie",
+            "justification": "Au contraire, le phénotype d-MMR est un facteur pronostique de bonne réponse à l'immunothérapie, ce qui rend cette proposition incorrecte."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutation somatique de MLH1 uniquement dans les cancers sporadiques",
+            "justification": "Les cancers sporadiques peuvent aussi présenter un phénotype d-MMR, mais celui-ci est dû à une hyperméthylation du promoteur de MLH1, et non à une mutation somatique spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756205980827_03",
+      "current_version_epoch_ms": 1756205980827,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel est le rôle du phénotype d-MMR dans la gestion des cancers ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Facteur pronostique majeur de bonne réponse à l'immunothérapie",
+            "justification": "Le phénotype d-MMR, détecté par l'instabilité des microsatellites ou la perte d'expression des protéines MMR, est un facteur pronostique majeur pour une bonne réponse à l'immunothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Indicateur de mauvais pronostic et de faible efficacité des traitements",
+            "justification": "Ce phénotype est au contraire associé à une meilleure réponse aux traitements, notamment à l'immunothérapie, et non à un mauvais pronostic."
+          },
+          {
+            "correct": true,
+            "proposition": "Permet de guider la stratégie thérapeutique en oncologie",
+            "justification": "La détection du phénotype d-MMR est cruciale pour la sélection des patients éligibles à l'immunothérapie, influençant ainsi la stratégie thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Prédictif de l'agressivité de la tumeur sans influence sur le traitement",
+            "justification": "Bien qu'il soit un indicateur du pronostic, le phénotype d-MMR est surtout important pour guider les choix de traitement, notamment en matière d'immunothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Permet d'exclure toute option thérapeutique",
+            "justification": "Le phénotype d-MMR n'exclut pas d'options thérapeutiques, mais guide au contraire l'utilisation d'immunothérapies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756205980827_04",
+      "current_version_epoch_ms": 1756205980827,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel est le test recommandé pour confirmer la présence d'un phénotype d-MMR dans une tumeur colorectale ou endométriale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse moléculaire de l'instabilité des microsatellites (MSI)",
+            "justification": "L'analyse moléculaire MSI est un test recommandé pour identifier le phénotype d-MMR dans une tumeur colorectale ou endométriale."
+          },
+          {
+            "correct": false,
+            "proposition": "Immunohistochimie de la perte d'expression des protéines MMR",
+            "justification": "Bien que l'immunohistochimie soit utilisée pour détecter la perte d'expression des protéines MMR, l'analyse moléculaire MSI est aussi une méthode de référence dans ce cadre."
+          },
+          {
+            "correct": true,
+            "proposition": "Immunohistochimie pour la perte d'expression des protéines MMR",
+            "justification": "L'immunohistochimie est une méthode de choix pour détecter la perte d'expression des protéines MMR et ainsi identifier le phénotype d-MMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Test sanguin de détection des mutations somatiques de MLH1",
+            "justification": "Les mutations somatiques de MLH1 ne sont pas systématiquement recherchées dans les tumeurs pour le diagnostic de syndrome de Lynch, sauf après confirmation du phénotype d-MMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Biopsie liquide pour analyse génétique",
+            "justification": "La biopsie liquide n'est pas utilisée dans ce cadre pour identifier directement le phénotype d-MMR, bien que des recherches génétiques puissent être faites à partir de cette analyse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756205980827_05",
+      "current_version_epoch_ms": 1756205980827,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel test est effectué pour exclure une inactivation somatique de MLH1 avant de rechercher une mutation germinale d'un gène MMR ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Analyse de l'hyperméthylation du promoteur de MLH1",
+            "justification": "L'analyse de l'hyperméthylation du promoteur de MLH1 permet d'exclure une inactivation somatique avant de rechercher une mutation germinale d'un gène MMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Séquençage complet du gène MLH1",
+            "justification": "Le séquençage complet du gène MLH1 est utilisé pour identifier des mutations germinales, mais l'analyse de l'hyperméthylation est prioritaire pour exclure une inactivation somatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de la microscopie à fluorescence pour détecter des anomalies génétiques",
+            "justification": "La microscopie à fluorescence n'est pas utilisée pour l'analyse des gènes MMR ou de l'hyperméthylation dans le contexte du syndrome de Lynch."
+          },
+          {
+            "correct": true,
+            "proposition": "Test d'instabilité des microsatellites (MSI)",
+            "justification": "Le test MSI permet d'identifier l'instabilité génomique et est utilisé pour confirmer la présence d'un phénotype d-MMR, ce qui guide la recherche de mutations germinales."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique des antécédents familiaux de cancer",
+            "justification": "L'examen clinique des antécédents familiaux n'est pas suffisant pour exclure une inactivation somatique de MLH1, car des tests moléculaires sont nécessaires."
+          }
+        ]
+      }
+    }
+  ]
+}
