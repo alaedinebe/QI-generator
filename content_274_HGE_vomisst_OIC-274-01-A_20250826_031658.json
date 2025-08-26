@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "vomisst",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756171165593_01",
+      "current_version_epoch_ms": 1756171165593,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "vomisst"
+      },
+      "data": {
+        "statement": "Quel est le premier élément à éliminer dans la démarche diagnostique devant des vomissements chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les urgences chirurgicales",
+            "justification": "Les vomissements peuvent être le signe d'urgences chirurgicales, telles que la sténose du pylore ou l'invagination intestinale aiguë, qu'il est essentiel d'éliminer rapidement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'infection virale bénigne",
+            "justification": "Bien que fréquentes, les infections virales bénignes ne sont pas prioritaires dans l'exploration, car elles peuvent être considérées après avoir écarté les urgences."
+          },
+          {
+            "correct": false,
+            "proposition": "Le reflux gastro-œsophagien",
+            "justification": "Le RGO est un diagnostic d'élimination, mais il n'est pas la cause principale des vomissements graves et nécessite un examen clinique complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Les infections bactériennes digestives",
+            "justification": "Les infections bactériennes digestives doivent être prises en compte, mais elles ne sont pas l'urgence principale, étant donné la fréquence plus élevée des infections virales."
+          },
+          {
+            "correct": false,
+            "proposition": "La torsion testiculaire",
+            "justification": "La torsion testiculaire concerne les adolescents pubères et est rarement un diagnostic différentiel chez les nourrissons ou jeunes enfants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171165593_02",
+      "current_version_epoch_ms": 1756171165593,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "vomisst"
+      },
+      "data": {
+        "statement": "Quels sont les symptômes caractéristiques d'une invagination intestinale aiguë chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur abdominale intense suivie d'un malaise et d'un arrêt du transit",
+            "justification": "Les symptômes de l'invagination intestinale aiguë incluent une douleur abdominale sévère, un malaise et un arrêt du transit, pouvant conduire à des rectorragies."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements de lait caillé après l'alimentation",
+            "justification": "Les vomissements de lait caillé en jets sont caractéristiques de la sténose du pylore, pas de l'invagination intestinale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ictère et hépatomégalie",
+            "justification": "L'ictère et l'hépatalgie sont associés à l'hépatite, et non à l'invagination intestinale."
+          },
+          {
+            "correct": false,
+            "proposition": "Convulsions et pâleur",
+            "justification": "Les convulsions et la pâleur peuvent être des signes d'hémorragie intracrânienne, mais ne sont pas spécifiques à l'invagination intestinale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées intenses",
+            "justification": "Les céphalées intenses sont liées à des hémorragies méningées ou des malformations artério-veineuses, non à l'invagination intestinale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171165593_03",
+      "current_version_epoch_ms": 1756171165593,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "vomisst"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques de la sténose du pylore chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vomissements en jets après l'alimentation, de lait caillé, après un intervalle libre de 3 à 5 semaines",
+            "justification": "La sténose du pylore se manifeste par des vomissements en jets de lait caillé, souvent après un intervalle libre de 3 à 5 semaines."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale intense avec rectorragies",
+            "justification": "Ce symptôme est plus caractéristique de l'invagination intestinale aiguë, pas de la sténose du pylore."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements associés à une hépatomégalie et un ictère",
+            "justification": "L'ictère et l'hépatalgie sont associés à l'hépatite, et non à la sténose du pylore."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements avec malaises et pâleur",
+            "justification": "Les malaises et la pâleur sont plus caractéristiques d'une hémorragie intracrânienne que d'une sténose du pylore."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements accompagnés de convulsions",
+            "justification": "Les convulsions sont un signe d'hémorragie intracrânienne et non de sténose du pylore."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171165593_04",
+      "current_version_epoch_ms": 1756171165593,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "vomisst"
+      },
+      "data": {
+        "statement": "Dans quel contexte clinique suspecteriez-vous une hépatite comme cause de vomissements chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'ictère, hépatalgie, et facteurs de risque comme un voyage ou une alimentation douteuse",
+            "justification": "L'ictère, l'hépatalgie, et les facteurs de risque tels qu'un voyage ou une alimentation suspecte sont des signes clés d'une hépatite."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale sévère et rectorragies",
+            "justification": "La douleur abdominale intense et les rectorragies sont plus caractéristiques de l'invagination intestinale aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Vomissements de lait caillé en jets",
+            "justification": "Les vomissements en jets de lait caillé sont caractéristiques de la sténose du pylore, et non de l'hépatite."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées et malaises avec convulsions",
+            "justification": "Les céphalées, les malaises et les convulsions sont des signes d'hémorragie intracrânienne, pas d'hépatite."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de reflux gastro-œsophagien",
+            "justification": "Le RGO est un diagnostic d'élimination, mais il ne correspond pas à la cause principale des vomissements graves associés à l'hépatite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171165593_05",
+      "current_version_epoch_ms": 1756171165593,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "vomisst"
+      },
+      "data": {
+        "statement": "Quelle est la principale urgence diagnostique à éliminer en cas de vomissements chez un enfant présentant des signes neurologiques associés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'hémorragie intracrânienne",
+            "justification": "Les vomissements associés à des signes neurologiques, tels que la pâleur, les convulsions et les traumatismes, doivent faire suspecter une hémorragie intracrânienne."
+          },
+          {
+            "correct": false,
+            "proposition": "L'invagination intestinale aiguë",
+            "justification": "L'invagination intestinale aiguë se manifeste par des douleurs abdominales et des vomissements, mais ne provoque généralement pas de signes neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La sténose du pylore",
+            "justification": "La sténose du pylore ne présente pas de signes neurologiques associés aux vomissements, elle se manifeste par des vomissements en jets."
+          },
+          {
+            "correct": false,
+            "proposition": "Le reflux gastro-œsophagien",
+            "justification": "Le RGO n'est pas associé à des signes neurologiques et se manifeste principalement par des régurgitations fréquentes, pas des vomissements avec symptômes neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hépatite",
+            "justification": "L'hépatite peut provoquer des vomissements, mais les signes neurologiques comme les convulsions ne sont pas caractéristiques de cette pathologie."
+          }
+        ]
+      }
+    }
+  ]
+}
