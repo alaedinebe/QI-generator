@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTperso",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756250398594_01",
+      "current_version_epoch_ms": 1756250398594,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "En cas d'insuffisance hépatique aiguë, que faut-il faire concernant les médicaments non vitaux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il convient d'interrompre tout médicament non vital.",
+            "justification": "L'insuffisance hépatique aiguë nécessite d'interrompre tous les médicaments non vitaux afin de limiter les risques pour le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut réduire la posologie de tous les médicaments.",
+            "justification": "La réduction de la posologie n'est pas recommandée pour tous les médicaments, mais uniquement pour ceux dont le métabolisme hépatique est impliqué."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est nécessaire d'administrer des médicaments par voie rénale uniquement.",
+            "justification": "L'administration par voie rénale dépend du métabolisme des médicaments, mais tous les médicaments ne peuvent pas être adaptés de cette manière."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est nécessaire d'augmenter la posologie des médicaments.",
+            "justification": "Augmenter la posologie dans un contexte d'insuffisance hépatique aiguë serait dangereux et non recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut administrer uniquement des médicaments à fort effet de premier passage.",
+            "justification": "Les médicaments à fort effet de premier passage doivent être évités en cas d'insuffisance hépatique aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250398594_02",
+      "current_version_epoch_ms": 1756250398594,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique des médicaments à éviter en cas d'insuffisance hépatique modérée à sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les médicaments à fort effet de premier passage ou pro-médicaments.",
+            "justification": "Ces médicaments peuvent voir leurs concentrations augmenter de manière incontrôlée en cas de présence d'anastomoses porto-caves ou d'altération du métabolisme hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les médicaments éliminés par voie rénale.",
+            "justification": "Les médicaments éliminés par voie rénale ne sont généralement pas affectés par l'insuffisance hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les médicaments avec faible marge thérapeutique.",
+            "justification": "Les médicaments à faible marge thérapeutique peuvent nécessiter un suivi thérapeutique, mais ne sont pas spécifiquement à éviter dans l'insuffisance hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les médicaments à faible effet de premier passage.",
+            "justification": "Les médicaments à faible effet de premier passage sont généralement préférés, car leur métabolisme n'est pas aussi affecté par l'insuffisance hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les médicaments lipophiles.",
+            "justification": "La lipophilie d'un médicament n'est pas directement liée à sa toxicité hépatique dans le cadre d'une insuffisance hépatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250398594_03",
+      "current_version_epoch_ms": 1756250398594,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel score est utilisé pour évaluer le stade de l'insuffisance hépatique et adapter les posologies des médicaments ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le score de cirrhose Child-Pugh.",
+            "justification": "Le score Child-Pugh est utilisé pour évaluer la gravité de l'insuffisance hépatique et adapter le traitement en fonction du stade de la pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score de MELD.",
+            "justification": "Le score MELD est utilisé pour l'évaluation du risque de transplantation hépatique, mais n'est pas directement utilisé pour l'adaptation des posologies des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score de Glasgow.",
+            "justification": "Le score de Glasgow est utilisé en traumatologie et n'est pas adapté pour l'évaluation de l'insuffisance hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score de Bristol.",
+            "justification": "Le score de Bristol n'est pas un outil d'évaluation de l'insuffisance hépatique, mais il est utilisé dans d'autres contextes cliniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le score de Keldall.",
+            "justification": "Le score de Keldall est utilisé pour d'autres pathologies et ne concerne pas directement l'insuffisance hépatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250398594_04",
+      "current_version_epoch_ms": 1756250398594,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est l'impact principal du shunt porto-cave chez un patient insuffisant hépatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Augmentation des concentrations de médicaments à fort effet de premier passage.",
+            "justification": "Le shunt porto-cave permet à une partie du sang d'éviter le métabolisme hépatique, ce qui peut entraîner une augmentation des concentrations de médicaments métabolisés par le foie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction des concentrations des médicaments à faible effet de premier passage.",
+            "justification": "Le shunt porto-cave n'affecte pas les médicaments à faible effet de premier passage de manière significative."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de la biodisponibilité des médicaments.",
+            "justification": "Le shunt porto-cave n'entraîne pas nécessairement une diminution de la biodisponibilité, mais plutôt une modification de la façon dont le médicament est métabolisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Accélération de l'élimination des médicaments.",
+            "justification": "Le shunt porto-cave ne favorise pas l'élimination accélérée des médicaments, mais peut au contraire entraîner leur accumulation."
+          },
+          {
+            "correct": false,
+            "proposition": "Amélioration de la clairance hépatique des médicaments.",
+            "justification": "Le shunt porto-cave diminue la clairance hépatique, ce qui peut provoquer une accumulation de certains médicaments."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756250398594_05",
+      "current_version_epoch_ms": 1756250398594,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel type de médicaments doit-on préférer chez un patient insuffisant hépatique chronique modéré à sévère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médicaments éliminés principalement par voie rénale.",
+            "justification": "Les médicaments principalement éliminés par voie rénale sont moins affectés par les altérations du métabolisme hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Médicaments à forte demi-vie.",
+            "justification": "Les médicaments à forte demi-vie ne sont pas nécessairement adaptés à un patient insuffisant hépatique, car leur accumulation peut être dangereuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Médicaments à fort effet de premier passage.",
+            "justification": "Les médicaments à fort effet de premier passage doivent être évités chez les patients insuffisants hépatiques en raison de leur métabolisme altéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Médicaments hépatotoxiques.",
+            "justification": "Les médicaments hépatotoxiques doivent être évités ou utilisés avec une grande prudence chez les patients insuffisants hépatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Pro-médicaments.",
+            "justification": "Les pro-médicaments doivent être évités car leur activation dépend du métabolisme hépatique qui peut être compromis."
+          }
+        ]
+      }
+    }
+  ]
+}
