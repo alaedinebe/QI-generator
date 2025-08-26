@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcpulm",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756234774669_01",
+      "current_version_epoch_ms": 1756234774669,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpulm"
+      },
+      "data": {
+        "statement": "Quel est le signe radiologique caractéristique de l'adénocarcinome pulmonaire lobaire inférieur gauche sur cette radiographie de thorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacité arrondie polylobée dans le champ pulmonaire inférieur gauche",
+            "justification": "L'opacité arrondie polylobée dans le champ pulmonaire inférieur gauche est caractéristique d'une tumeur pulmonaire, ici un adénocarcinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité linéaire en regard de la trachée",
+            "justification": "Une opacité linéaire n'est pas typique d'un adénocarcinome, qui se présente généralement sous forme de masse arrondie ou irrégulière."
+          },
+          {
+            "correct": false,
+            "proposition": "Élargissement des médiastins",
+            "justification": "Un élargissement des médiastins est plus souvent associé à une pathologie lymphomateuse ou à une propagation tumorale, pas spécifiquement à un adénocarcinome pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Signe de la silhouette effaçant le bord droit du cœur",
+            "justification": "Le signe de la silhouette évoque généralement une opacité pulmonaire qui efface le bord d'un cœur, ce qui n'est pas observé ici, où l'opacité n'affecte pas le bord gauche du cœur."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax du côté droit",
+            "justification": "Le pneumothorax n'est pas indiqué par la radiographie, cette dernière montrant une masse pulmonaire, pas une déviation du médiastin."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234774669_02",
+      "current_version_epoch_ms": 1756234774669,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpulm"
+      },
+      "data": {
+        "statement": "Le signe de la silhouette sur cette radiographie de thorax est-il présent ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Oui, il efface le bord du cœur",
+            "justification": "Le signe de la silhouette est absent ici, car la masse pulmonaire n'efface pas le bord gauche du cœur."
+          },
+          {
+            "correct": true,
+            "proposition": "Non, il n'efface pas le bord gauche du cœur",
+            "justification": "Le signe de la silhouette n'est pas présent car l'opacité ne modifie pas l'aspect du bord gauche du cœur."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, il efface l'ombre du diaphragme",
+            "justification": "Le signe de la silhouette concerne typiquement les structures cardiaques et non le diaphragme dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Non, il efface l'arc pulmonaire",
+            "justification": "Le signe de la silhouette concerne spécifiquement l'effacement des contours cardiaques, pas de l'arc pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, il efface l'ensemble du médiastin",
+            "justification": "Le signe de la silhouette n'affecte pas l'ensemble du médiastin, mais plutôt le contour cardiaque lorsqu'il y a une opacité pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234774669_03",
+      "current_version_epoch_ms": 1756234774669,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpulm"
+      },
+      "data": {
+        "statement": "Quel aspect radiologique est associé à un adénocarcinome pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Masse pulmonaire polylobée",
+            "justification": "L'adénocarcinome pulmonaire se présente souvent sous la forme d'une masse polylobée, comme indiqué par la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan d'œdème pulmonaire avec lignes B de Kerley",
+            "justification": "Les lignes B de Kerley sont caractéristiques d'un œdème pulmonaire, pas d'un adénocarcinome pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Consolidation alvéolaire avec bronchogramme aéré",
+            "justification": "La consolidation alvéolaire est plus associée à des infections pulmonaires ou à des inflammations, non à des tumeurs comme l'adénocarcinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaississement parenchymateux diffus",
+            "justification": "L'épaississement diffus du parenchyme pulmonaire est davantage lié à des pathologies comme la fibrose pulmonaire, non à un adénocarcinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Cicatrice pulmonaire post-tuberculeuse",
+            "justification": "Une cicatrice pulmonaire est associée à des antécédents de tuberculose et non à un adénocarcinome pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234774669_04",
+      "current_version_epoch_ms": 1756234774669,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpulm"
+      },
+      "data": {
+        "statement": "Quel est le rôle du signe de la silhouette dans l'interprétation de la radiographie de thorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il aide à localiser l'opacité dans le poumon en identifiant les structures qu'elle efface",
+            "justification": "Le signe de la silhouette permet de localiser l'opacité pulmonaire en fonction de l'effacement des contours des structures cardiaques ou médiastinales."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de distinguer une tumeur bénigne d'une tumeur maligne",
+            "justification": "Le signe de la silhouette n'est pas spécifique pour différencier une tumeur bénigne d'une tumeur maligne."
+          },
+          {
+            "correct": false,
+            "proposition": "Il aide à évaluer la taille du cœur",
+            "justification": "Le signe de la silhouette est lié aux opacités pulmonaires et non à l'évaluation de la taille du cœur."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est un indicateur de pneumothorax",
+            "justification": "Le signe de la silhouette n'est pas utilisé pour diagnostiquer un pneumothorax, mais pour repérer des opacités pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de détecter une pleurésie",
+            "justification": "Le signe de la silhouette est plus spécifique des opacités pulmonaires et non de la pleurésie, qui se manifeste par un épanchement pleural."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234774669_05",
+      "current_version_epoch_ms": 1756234774669,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpulm"
+      },
+      "data": {
+        "statement": "Quelle caractéristique est présente sur la radiographie d'un adénocarcinome pulmonaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacité qui n'efface pas le bord gauche du cœur",
+            "justification": "L'opacité ne modifie pas le contour du cœur, ce qui permet de différencier l'adénocarcinome d'autres pathologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité effaçant le diaphragme",
+            "justification": "L'opacité ne touche pas le diaphragme, ce qui serait plus évocateur d'une pathologie pleurale ou d'un épanchement."
+          },
+          {
+            "correct": false,
+            "proposition": "Image en forme de papillon au niveau du médiastin",
+            "justification": "Une image en forme de papillon est plus associée à un œdème pulmonaire aigu qu'à un adénocarcinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Masse pulmonaire centromérique",
+            "justification": "Les masses pulmonaires centromériques sont plus caractéristiques d'une tuberculose pulmonaire ou d'une infection bactérienne, non d'un adénocarcinome."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation du médiastin vers le côté sain",
+            "justification": "La déviation du médiastin est généralement observée en cas de pneumothorax ou de grande tumeur, ce qui n'est pas indiqué dans cette radiographie."
+          }
+        ]
+      }
+    }
+  ]
+}
