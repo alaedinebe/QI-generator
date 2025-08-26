@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTperso",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756251445474_01",
+      "current_version_epoch_ms": 1756251445474,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Parmi les médicaments suivants, lequel est un pourvoyeur de risque pour les anticoagulants oraux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhibiteurs du CYP2C9 comme le fluconazole",
+            "justification": "Les inhibiteurs du CYP2C9, tels que le fluconazole, augmentent les concentrations plasmatiques des anticoagulants oraux, augmentant ainsi le risque de saignement."
+          },
+          {
+            "correct": false,
+            "proposition": "Anti-histaminiques H1",
+            "justification": "Les anti-histaminiques H1 n'interfèrent pas directement avec le métabolisme des anticoagulants oraux et ne constituent pas un pourvoyeur de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Bêta-bloquants",
+            "justification": "Les bêta-bloquants n'affectent pas significativement le métabolisme des anticoagulants oraux et ne sont donc pas des pourvoyeurs de risque pour eux."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibiteurs de la pompe à protons",
+            "justification": "Bien que les inhibiteurs de la pompe à protons modifient l'acidité gastrique, ils n'interfèrent pas directement avec le métabolisme des anticoagulants oraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Antagonistes de la vitamine K",
+            "justification": "Les antagonistes de la vitamine K, comme la warfarine, sont eux-mêmes des anticoagulants oraux et non des médicaments qui génèrent un risque pour ces derniers."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251445474_02",
+      "current_version_epoch_ms": 1756251445474,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel médicament, lorsqu'il est administré avec des statines, augmente le risque de rhabdomyolyse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acide fusidique",
+            "justification": "L'acide fusidique peut augmenter le risque de rhabdomyolyse en association avec les statines, en raison de la toxicité musculaire commune."
+          },
+          {
+            "correct": false,
+            "proposition": "Paracétamol",
+            "justification": "Le paracétamol n'interfère pas avec le métabolisme des statines et ne provoque pas de rhabdomyolyse lorsqu'il est administré avec ces médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Ibuprofène",
+            "justification": "L'ibuprofène, un anti-inflammatoire non stéroïdien, n'interagit pas avec les statines de manière significative pour provoquer une rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhibiteurs de la pompe à protons",
+            "justification": "Les inhibiteurs de la pompe à protons ne sont pas connus pour interagir avec les statines de manière à augmenter le risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Médicaments antihypertenseurs",
+            "justification": "Les médicaments antihypertenseurs comme les bêta-bloquants ou les inhibiteurs de l'enzyme de conversion n'augmentent pas le risque de rhabdomyolyse avec les statines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251445474_03",
+      "current_version_epoch_ms": 1756251445474,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quels sont les médicaments connus pour inhiber l'enzyme CYP3A4, augmentant ainsi la concentration de certains médicaments ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Amiodarone",
+            "justification": "L'amiodarone inhibe le cytochrome CYP3A4, ce qui peut entraîner une augmentation des concentrations des médicaments métabolisés par cette enzyme, augmentant ainsi le risque de toxicité."
+          },
+          {
+            "correct": false,
+            "proposition": "Rifampicine",
+            "justification": "La rifampicine est un inducteur du cytochrome CYP3A4, ce qui entraîne une diminution des concentrations de médicaments métabolisés par cette enzyme, contrairement à l'inhibition."
+          },
+          {
+            "correct": false,
+            "proposition": "Millepertuis",
+            "justification": "Le millepertuis est un inducteur enzymatique et diminue les concentrations de médicaments métabolisés par le CYP3A4, il n'inhibe pas cette enzyme."
+          },
+          {
+            "correct": false,
+            "proposition": "Clarithromycine",
+            "justification": "La clarithromycine est un inhibiteur du CYP3A4, mais elle n'est pas aussi puissante que d'autres inhibiteurs comme l'amiodarone."
+          },
+          {
+            "correct": false,
+            "proposition": "Carbamazépine",
+            "justification": "La carbamazépine est un inducteur du CYP3A4, augmentant le métabolisme des médicaments et réduisant ainsi leurs concentrations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251445474_04",
+      "current_version_epoch_ms": 1756251445474,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le principal effet indésirable lorsque les triptans sont associés aux inhibiteurs de la monoamine oxydase (IMAO) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque cardio-vasculaire accru",
+            "justification": "L'association des triptans et des IMAO augmente le risque de complications cardio-vasculaires en raison de l'augmentation des concentrations des triptans dans le sang."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de surdosage des triptans",
+            "justification": "L'augmentation des concentrations des triptans dans le sang en raison de l'inhibition des IMAO peut entraîner des effets cardio-vasculaires graves, mais pas nécessairement un surdosage."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminution de l'efficacité des triptans",
+            "justification": "Les IMAO n'ont pas pour effet de diminuer l'efficacité des triptans, mais augmentent leur risque d'effets secondaires graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de syndrome sérotoninergique",
+            "justification": "Le risque de syndrome sérotoninergique n'est pas directement associé à l'association des triptans et des IMAO, mais plutôt à une utilisation combinée avec d'autres médicaments sérotoninergiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Risque de baisse de pression artérielle",
+            "justification": "L'association des triptans et des IMAO n'entraîne pas de baisse significative de la pression artérielle, mais plutôt un risque cardio-vasculaire augmenté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756251445474_05",
+      "current_version_epoch_ms": 1756251445474,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTperso"
+      },
+      "data": {
+        "statement": "Quel est le mécanisme par lequel les médicaments peuvent interagir avec les statines pour augmenter le risque de rhabdomyolyse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inhibition du métabolisme des statines",
+            "justification": "L'inhibition des enzymes responsables du métabolisme des statines, notamment le CYP3A4, conduit à une accumulation de ces médicaments dans l'organisme, augmentant ainsi le risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Induction du métabolisme des statines",
+            "justification": "L'induction des enzymes responsables du métabolisme des statines diminue leurs concentrations plasmatiques, réduisant ainsi le risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de l'excrétion rénale des statines",
+            "justification": "L'augmentation de l'excrétion rénale des statines réduirait les concentrations plasmatiques et non leur accumulation, diminuant ainsi le risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification de la motilité intestinale",
+            "justification": "La modification de la motilité intestinale par certains médicaments n'affecte pas directement le métabolisme des statines ni leur risque de rhabdomyolyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Modification du pH gastrique",
+            "justification": "La modification du pH gastrique peut affecter l'absorption de certains médicaments, mais ne modifie pas directement le risque de rhabdomyolyse lié aux statines."
+          }
+        ]
+      }
+    }
+  ]
+}
