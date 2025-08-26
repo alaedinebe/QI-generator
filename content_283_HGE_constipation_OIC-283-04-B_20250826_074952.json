@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "constipation",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756187539558_01",
+      "current_version_epoch_ms": 1756187539558,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "constipation"
+      },
+      "data": {
+        "statement": "Quel est l'examen de choix en cas de constipation chronique avec signes d'alarme chez un patient de plus de 50 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coloscopie",
+            "justification": "La coloscopie est indiquée si les symptômes apparaissent ou s'aggravent après 50 ans ou en cas de signes d'alarme, comme une rectorragie."
+          },
+          {
+            "correct": false,
+            "proposition": "Manométrie ano-rectale",
+            "justification": "La manométrie ano-rectale est utilisée pour identifier des troubles fonctionnels de l'exonération mais n'est pas l'examen de choix dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Déféco-IRM",
+            "justification": "L'IRM pelvienne dynamique est une alternative à la défécographie, mais elle n'est pas la première ligne dans le cadre d'une constipation avec signes d'alarme."
+          },
+          {
+            "correct": false,
+            "proposition": "Lavement opaque",
+            "justification": "Le lavement opaque est réservé aux enfants en cas de suspicion de maladie de Hirschprung, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan biologique",
+            "justification": "Il n'y a pas de bilan biologique systématique pour la constipation chronique, sauf en présence de signes d'alarme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756187539558_02",
+      "current_version_epoch_ms": 1756187539558,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "constipation"
+      },
+      "data": {
+        "statement": "Dans quel cas la manométrie ano-rectale est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour identifier un trouble fonctionnel de l'exonération",
+            "justification": "La manométrie ano-rectale permet d'identifier des troubles fonctionnels comme la dyschésie, caractérisée par une asynergie abdomino-périnéale."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de rectorragie",
+            "justification": "La rectorragie nécessite une coloscopie, pas une manométrie ano-rectale."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher un trouble anatomique du rectum",
+            "justification": "Les troubles anatomiques du rectum sont recherchés par une défécographie, pas par la manométrie ano-rectale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un bilan biologique",
+            "justification": "Le bilan biologique n'est pas utilisé pour évaluer un trouble fonctionnel de l'exonération."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une suspicion de cancer du côlon",
+            "justification": "La suspicion de cancer du côlon nécessite une coloscopie, et non une manométrie ano-rectale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756187539558_03",
+      "current_version_epoch_ms": 1756187539558,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "constipation"
+      },
+      "data": {
+        "statement": "Quel est l'examen recommandé pour évaluer le temps de transit colique chez un patient constipé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Temps de transit colique aux marqueurs radio-opaques",
+            "justification": "Cet examen consiste en un cliché radiologique après ingestion de marqueurs radio-opaques et permet d'évaluer le temps de transit colique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coloscopie",
+            "justification": "La coloscopie est un examen endoscopique, non utilisé pour mesurer le temps de transit colique."
+          },
+          {
+            "correct": false,
+            "proposition": "Manométrie ano-rectale",
+            "justification": "La manométrie ano-rectale évalue la fonction de l'exonération, pas le temps de transit colique."
+          },
+          {
+            "correct": false,
+            "proposition": "Déféco-IRM",
+            "justification": "L'IRM pelvienne dynamique est utilisée pour évaluer la statique pelvienne, pas pour mesurer le temps de transit colique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lavement opaque",
+            "justification": "Le lavement opaque est utilisé chez les enfants en cas de suspicion de maladie de Hirschprung, et non pour évaluer le transit colique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756187539558_04",
+      "current_version_epoch_ms": 1756187539558,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "constipation"
+      },
+      "data": {
+        "statement": "Quand l'examen de la défécographie est-il recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'échec des traitements conservateurs et de chirurgie envisagée",
+            "justification": "La défécographie est réalisée pour rechercher un trouble anatomique dans les cas où les traitements conservateurs échouent et une chirurgie est envisagée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer le temps de transit colique",
+            "justification": "La défécographie ne permet pas d'évaluer le temps de transit colique, elle est utilisée pour examiner la statique pelvienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la suspicion d'une maladie de Hirschprung",
+            "justification": "La maladie de Hirschprung est évaluée par un lavement opaque chez l'enfant, pas par une défécographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour diagnostiquer une dyschésie",
+            "justification": "La dyschésie est une dysfonction de l'exonération, elle est évaluée par la manométrie ano-rectale, pas par la défécographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher un trouble fonctionnel de l'exonération",
+            "justification": "Les troubles fonctionnels sont évalués par la manométrie ano-rectale, pas par la défécographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756187539558_05",
+      "current_version_epoch_ms": 1756187539558,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "constipation"
+      },
+      "data": {
+        "statement": "Quel examen est recommandé en cas de suspicion de maladie de Hirschprung chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lavement opaque",
+            "justification": "Le lavement opaque est l'examen de choix pour suspecter une maladie de Hirschprung chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "Manométrie ano-rectale",
+            "justification": "La manométrie ano-rectale n'est pas utilisée pour diagnostiquer la maladie de Hirschprung."
+          },
+          {
+            "correct": false,
+            "proposition": "Coloscopie",
+            "justification": "La coloscopie n'est pas l'examen de première intention chez les enfants pour la maladie de Hirschprung."
+          },
+          {
+            "correct": false,
+            "proposition": "Temps de transit colique",
+            "justification": "Le temps de transit colique ne permet pas de diagnostiquer la maladie de Hirschprung."
+          },
+          {
+            "correct": false,
+            "proposition": "Déféco-IRM",
+            "justification": "L'IRM pelvienne dynamique n'est pas indiquée dans la suspicion de la maladie de Hirschprung chez l'enfant."
+          }
+        ]
+      }
+    }
+  ]
+}
