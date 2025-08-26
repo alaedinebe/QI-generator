@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "epidemioKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756204005698_01",
+      "current_version_epoch_ms": 1756204005698,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Quel est le pourcentage estimé de cancers attribuables à une prédisposition génétique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Entre 5 et 10%",
+            "justification": "Le taux de cancers attribuable à une prédisposition génétique est estimé entre 5 et 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 1 et 5%",
+            "justification": "Cette estimation sous-évalue le risque génétique pour les cancers, qui est plutôt entre 5 et 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 10 et 20%",
+            "justification": "Le risque génétique est inférieur à 10%, et non dans la fourchette de 10 à 20%."
+          },
+          {
+            "correct": false,
+            "proposition": "Entre 20 et 30%",
+            "justification": "Ce pourcentage est trop élevé pour le taux de cancers attribuables à une prédisposition génétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 30%",
+            "justification": "Une telle estimation dépasse largement le taux estimé de cancers génétiquement prédisposés, qui est entre 5 et 10%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204005698_02",
+      "current_version_epoch_ms": 1756204005698,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Quels gènes sont associés au cancer du sein ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "BRCA1 et BRCA2",
+            "justification": "Les gènes BRCA1 et BRCA2 sont directement associés à un risque accru de cancer du sein."
+          },
+          {
+            "correct": false,
+            "proposition": "TP53 et PTEN",
+            "justification": "Bien que ces gènes soient impliqués dans d'autres types de cancers, ils ne sont pas directement liés au cancer du sein dans le cadre de la prédisposition génétique."
+          },
+          {
+            "correct": false,
+            "proposition": "MLH1 et MSH2",
+            "justification": "Ces gènes sont associés au syndrome de Lynch, principalement au risque de cancers colorectaux, mais pas au cancer du sein."
+          },
+          {
+            "correct": false,
+            "proposition": "APC et KRAS",
+            "justification": "Ces gènes sont associés au cancer colorectal, mais pas spécifiquement au cancer du sein."
+          },
+          {
+            "correct": false,
+            "proposition": "EGFR et HER2",
+            "justification": "EGFR et HER2 sont des récepteurs impliqués dans le cancer du sein, mais ils ne sont pas des gènes de susceptibilité génétique comme BRCA1 et BRCA2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204005698_03",
+      "current_version_epoch_ms": 1756204005698,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Quel est le rôle des gènes du Syndrome de Lynch dans le risque de cancer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils augmentent le risque de cancers colorectaux.",
+            "justification": "Les gènes du Syndrome de Lynch sont bien associés à un risque accru de cancers colorectaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils augmentent le risque de cancer du sein.",
+            "justification": "Le Syndrome de Lynch est principalement lié au cancer colorectal, pas au cancer du sein."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont responsables de la majorité des cancers du foie.",
+            "justification": "Les gènes du Syndrome de Lynch ne sont pas associés à un risque majeur de cancer du foie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils augmentent le risque de cancer des poumons.",
+            "justification": "Le Syndrome de Lynch ne prédispose pas spécifiquement aux cancers des poumons."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont associés à un risque accru de cancer de la prostate.",
+            "justification": "Bien que des gènes liés à la prostate existent, le Syndrome de Lynch n'est pas directement impliqué dans ce cancer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204005698_04",
+      "current_version_epoch_ms": 1756204005698,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Parmi les gènes suivants, lequel est associé à un risque accru de cancer colorectal dans le Syndrome de Lynch ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "MLH1",
+            "justification": "Le gène MLH1 fait partie des gènes associés au Syndrome de Lynch et au risque accru de cancers colorectaux."
+          },
+          {
+            "correct": false,
+            "proposition": "BRCA1",
+            "justification": "Le gène BRCA1 est lié au cancer du sein, mais pas au cancer colorectal dans le cadre du Syndrome de Lynch."
+          },
+          {
+            "correct": false,
+            "proposition": "TP53",
+            "justification": "TP53 est un gène impliqué dans divers cancers, mais il n'est pas spécifique au Syndrome de Lynch pour le cancer colorectal."
+          },
+          {
+            "correct": false,
+            "proposition": "APC",
+            "justification": "APC est un gène important dans les cancers colorectaux, mais il n'est pas directement lié au Syndrome de Lynch."
+          },
+          {
+            "correct": false,
+            "proposition": "KRAS",
+            "justification": "KRAS est un gène impliqué dans la progression du cancer, mais pas spécifiquement dans le cadre du Syndrome de Lynch."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204005698_05",
+      "current_version_epoch_ms": 1756204005698,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Quel est le pourcentage de cancers liés à des prédispositions génétiques parmi tous les cancers ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "5 à 10%",
+            "justification": "Le taux de cancers attribuable à une prédisposition génétique est estimé entre 5 et 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "10 à 20%",
+            "justification": "Le taux estimé est inférieur à 10%, et non dans cette fourchette."
+          },
+          {
+            "correct": false,
+            "proposition": "20 à 30%",
+            "justification": "Le taux génétique de cancers est inférieur à cette estimation, entre 5 et 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 5%",
+            "justification": "Le pourcentage estimé est plus élevé, entre 5 et 10%."
+          },
+          {
+            "correct": false,
+            "proposition": "Supérieur à 30%",
+            "justification": "Le taux de cancers liés à la génétique ne dépasse pas 10%."
+          }
+        ]
+      }
+    }
+  ]
+}
