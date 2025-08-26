@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "diarrheeaigue",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756192942195_01",
+      "current_version_epoch_ms": 1756192942195,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "diarrheeaigue"
+      },
+      "data": {
+        "statement": "Parmi les examens complémentaires proposés dans le cadre de la gestion d'une diarrhée aiguë chez l'adulte, lequel est indiqué en cas de fièvre supérieure à 38,5°C ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont indiquées en cas de fièvre pour suspecter une infection systémique, comme une typhoïde due à Salmonella typhi."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen parasitologique des selles (EPS)",
+            "justification": "L'EPS n'est pas indiqué en cas de fièvre sans contexte épidémique spécifique, surtout en l'absence de séjour en zone endémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de virus entériques",
+            "justification": "La recherche de virus entériques n'est pas réalisée en routine, sauf dans des centres spécialisés et pour certains patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie digestive n'est réalisée que dans des contextes spécifiques, comme une suspicion d'origine inflammatoire ou une iléite suspectée."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme sanguin est utile en cas de déshydratation sévère, mais non spécifiquement pour la gestion de la fièvre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756192942195_02",
+      "current_version_epoch_ms": 1756192942195,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "diarrheeaigue"
+      },
+      "data": {
+        "statement": "Quel examen est spécifiquement recommandé en cas de séjour en zone endémique et de symptômes de diarrhée aiguë chez un adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen parasitologique des selles (EPS)",
+            "justification": "L'EPS est indiqué uniquement en cas de séjour récent dans une zone endémique, permettant d'identifier des parasites comme Giardia intestinalis."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de virus entériques",
+            "justification": "La recherche de virus entériques n'est pas réalisée systématiquement, sauf pour les patients immunodéprimés dans des centres de référence."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont indiquées en cas de fièvre, mais pas spécifiquement pour une diarrhée aiguë avec séjour en zone endémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie digestive est réservée aux cas de symptômes persistants ou de suspicion d'origine inflammatoire, non à une diarrhée aiguë après séjour en zone endémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme sanguin est nécessaire en cas de déshydratation, mais pas spécifiquement pour une suspicion parasitaire après séjour en zone endémique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756192942195_03",
+      "current_version_epoch_ms": 1756192942195,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "diarrheeaigue"
+      },
+      "data": {
+        "statement": "En cas de diarrhée aiguë avec déshydratation importante, quel examen est indispensable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme sanguin est indispensable pour évaluer l'hypokaliémie, dysnatrémie et l'impact de la déshydratation sur le métabolisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont utilisées en cas de fièvre, mais non spécifiquement pour évaluer la déshydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen parasitologique des selles (EPS)",
+            "justification": "L'EPS n'est pas nécessaire en cas de déshydratation sauf dans un contexte de séjour en zone endémique."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de virus entériques",
+            "justification": "La recherche de virus entériques n'est pas réalisée de façon systématique et ne concerne pas directement l'évaluation de la déshydratation."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie digestive est réservée à des situations spécifiques comme une suspicion de colite sévère, et non à une simple déshydratation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756192942195_04",
+      "current_version_epoch_ms": 1756192942195,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "diarrheeaigue"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire doit être effectué chez un patient adulte avec diarrhée aiguë et contexte épidémique nosocomial ou post-antibiotique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Recherche de Clostridioides difficile et ses toxines",
+            "justification": "La recherche de Clostridioides difficile et ses toxines est indiquée en cas de contexte épidémique nosocomial ou post-antibiotique, pour suspecter une infection à C. difficile."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont nécessaires en cas de fièvre, mais pas spécifiquement dans le cadre d'une diarrhée post-antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen parasitologique des selles (EPS)",
+            "justification": "L'EPS est réservé aux séjours en zone endémique, et non dans un contexte de diarrhée aiguë nosocomiale ou post-antibiotique."
+          },
+          {
+            "correct": false,
+            "proposition": "Recherche de virus entériques",
+            "justification": "La recherche de virus entériques est réalisée uniquement pour des patients immunodéprimés dans des centres spécialisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie digestive est réservée aux cas avec symptômes persistants ou suspicion d'origine inflammatoire, et non spécifiquement pour un contexte nosocomial ou post-antibiotique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756192942195_05",
+      "current_version_epoch_ms": 1756192942195,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "diarrheeaigue"
+      },
+      "data": {
+        "statement": "En cas de diarrhée aiguë avec fièvre et défense abdominale, quel examen est recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner abdominopelvien injecté",
+            "justification": "Le scanner abdominopelvien est recommandé pour rechercher une colite sévère compliquée de perforation ou de colectasie en cas de fièvre et défense abdominale."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémocultures",
+            "justification": "Les hémocultures sont utiles en cas de suspicion d'infection systémique, mais ne permettent pas d'évaluer les complications abdominales sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen parasitologique des selles (EPS)",
+            "justification": "L'EPS n'est pas utile pour évaluer la colite sévère avec défense abdominale et fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme sanguin est nécessaire en cas de déshydratation, mais ne permet pas de diagnostiquer une colite sévère avec perforation."
+          },
+          {
+            "correct": false,
+            "proposition": "Endoscopie digestive",
+            "justification": "L'endoscopie digestive est utilisée pour des symptômes persistants ou inflammatoires, mais un scanner est plus adapté pour évaluer une colite compliquée."
+          }
+        ]
+      }
+    }
+  ]
+}
