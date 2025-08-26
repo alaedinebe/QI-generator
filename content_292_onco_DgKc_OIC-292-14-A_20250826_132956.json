@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DgKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756207942788_01",
+      "current_version_epoch_ms": 1756207942788,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "La classification TNM permet de classer les tumeurs selon trois critères principaux. Quel est le rôle du paramètre 'T' dans cette classification ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le paramètre 'T' correspond à la taille de la tumeur primitive et à son envahissement des tissus sous-jacents.",
+            "justification": "Le paramètre 'T' évalue l'extension locale de la tumeur en termes de taille et d'envahissement des tissus voisins, ce qui permet d'adapter la stratégie thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'T' représente le nombre de ganglions lymphatiques atteints.",
+            "justification": "Cette proposition est incorrecte car le paramètre 'T' se réfère uniquement à la tumeur primitive et non aux ganglions lymphatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'T' évalue l'atteinte métastatique à distance.",
+            "justification": "Le paramètre 'T' ne concerne pas les métastases, mais l'extension locale de la tumeur. L'évaluation des métastases est faite par le paramètre 'M'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'T' se rapporte exclusivement à l'atteinte des ganglions lymphatiques régionaux.",
+            "justification": "Le paramètre 'T' concerne l'extension locale de la tumeur, et non l'envahissement ganglionnaire. Celui-ci est évalué par le paramètre 'N'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'T' permet d'évaluer la résection chirurgicale de la tumeur.",
+            "justification": "Le paramètre 'T' évalue la taille et l'envahissement local de la tumeur, mais il ne définit pas la résection chirurgicale, qui est déterminée par d'autres critères cliniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756207942788_02",
+      "current_version_epoch_ms": 1756207942788,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Dans la classification TNM, quelle est la signification du paramètre 'N' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le paramètre 'N' correspond au degré d'envahissement des ganglions lymphatiques locorégionaux.",
+            "justification": "Le paramètre 'N' évalue l'envahissement des ganglions lymphatiques voisins de la tumeur, ce qui permet d'évaluer l'extension de la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'N' correspond au nombre de métastases à distance.",
+            "justification": "Cette proposition est incorrecte, car l'évaluation des métastases à distance est effectuée par le paramètre 'M', et non 'N'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'N' fait référence à l'évaluation de la taille de la tumeur primitive.",
+            "justification": "Le paramètre 'N' ne concerne pas la taille de la tumeur, mais l'atteinte des ganglions lymphatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'N' est utilisé uniquement en classification pathologique.",
+            "justification": "Le paramètre 'N' est utilisé dans les classifications TNM cliniques, pathologiques, échographiques et post-chirurgicales, et non exclusivement en pathologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'N' permet d'évaluer la résection des ganglions lymphatiques.",
+            "justification": "Bien que le paramètre 'N' évalue l'envahissement ganglionnaire, la résection des ganglions est une décision chirurgicale indépendante de ce paramètre."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756207942788_03",
+      "current_version_epoch_ms": 1756207942788,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "La lettre 'M' dans la classification TNM est utilisée pour définir quel critère ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le paramètre 'M' correspond à la présence ou l'absence de métastases à distance.",
+            "justification": "Le paramètre 'M' permet d'évaluer l'extension de la tumeur par la présence de métastases, ce qui est essentiel pour le pronostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'M' évalue l'envahissement ganglionnaire.",
+            "justification": "Cette proposition est incorrecte, car l'envahissement ganglionnaire est évalué par le paramètre 'N', pas 'M'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'M' évalue uniquement la taille de la tumeur.",
+            "justification": "Le paramètre 'M' n'évalue pas la taille de la tumeur, mais plutôt la présence de métastases à distance, ce qui est un critère distinct."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'M' indique les marges de résection de la tumeur.",
+            "justification": "Les marges de résection sont indiquées par la lettre 'R' après le paramètre 'pTN', et non par le paramètre 'M'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le paramètre 'M' sert à évaluer l'atteinte des tissus sous-jacents.",
+            "justification": "L'atteinte des tissus sous-jacents est prise en compte par le paramètre 'T', et non 'M', qui concerne les métastases."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756207942788_04",
+      "current_version_epoch_ms": 1756207942788,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Que signifie le suffixe 'R' dans la classification pathologique TNM ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le suffixe 'R' indique l'état des marges de résection tumorale.",
+            "justification": "Le suffixe 'R' évalue la qualité des marges de résection, avec des catégories R0 (marges saines), R1 (marges microscopiquement atteintes) et R2 (marges macroscopiquement atteintes)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suffixe 'R' évalue l'envahissement ganglionnaire.",
+            "justification": "L'envahissement ganglionnaire est évalué par le paramètre 'N', pas par le suffixe 'R'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suffixe 'R' correspond à la taille de la tumeur après résection.",
+            "justification": "La taille de la tumeur est évaluée par le paramètre 'T', et non par le suffixe 'R'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suffixe 'R' correspond à la présence de métastases après traitement.",
+            "justification": "Les métastases sont évaluées par le paramètre 'M', pas par le suffixe 'R', qui concerne les marges de résection."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suffixe 'R' indique la méthode d'évaluation de la tumeur.",
+            "justification": "La méthode d'évaluation est indiquée par les préfixes comme 'c' ou 'p' et non par le suffixe 'R'."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756207942788_05",
+      "current_version_epoch_ms": 1756207942788,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "DgKc"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la classification TNM dans le cadre du traitement des tumeurs ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Adapter la stratégie thérapeutique en fonction de l'extension tumorale.",
+            "justification": "La classification TNM permet de définir l'étendue de la tumeur et d'adapter ainsi les traitements (chirurgie, radiothérapie, chimiothérapie) en fonction de l'extension de la maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "Comparer les résultats thérapeutiques entre différents types de tumeurs.",
+            "justification": "Bien que la classification TNM soit utile pour comparer les résultats dans des études cliniques, son objectif principal est d'adapter le traitement en fonction de l'extension tumorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Prédire exclusivement la survie à long terme du patient.",
+            "justification": "Bien que la classification TNM fournisse des informations importantes pour le pronostic, elle n'est pas uniquement destinée à prédire la survie à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer uniquement la possibilité d'une résection chirurgicale complète.",
+            "justification": "La classification TNM n'évalue pas uniquement la résection chirurgicale, mais prend en compte l'ensemble de l'extension tumorale pour choisir la stratégie thérapeutique globale."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire le coût du traitement en limitant les examens nécessaires.",
+            "justification": "L'objectif de la classification TNM n'est pas de réduire les coûts mais de guider la stratégie thérapeutique et d'étudier le pronostic."
+          }
+        ]
+      }
+    }
+  ]
+}
