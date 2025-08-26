@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756212534592_01",
+      "current_version_epoch_ms": 1756212534592,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "TTTKc"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal des inhibiteurs de points de contrôle en immunothérapie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils déverrouillent le système immunitaire pour permettre l'attaque des cellules cancéreuses.",
+            "justification": "Les inhibiteurs de points de contrôle, tels que les anti-PD-1 et anti-CTLA-4, agissent en bloquant les protéines qui inhibent normalement l'activation des lymphocytes T, permettant ainsi une réponse immunitaire dirigée contre les cellules tumorales."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils stimulent directement les cellules tumorales pour accroître leur croissance.",
+            "justification": "Les inhibiteurs de points de contrôle ne stimulent pas la croissance tumorale, mais plutôt la réponse immunitaire contre la tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils augmentent la prolifération des cellules tumorales en inhibant la réponse immunitaire.",
+            "justification": "Ces inhibiteurs bloquent l'inactivation des lymphocytes T, ce qui permet une réponse immunitaire contre la tumeur, et non une stimulation de la prolifération tumorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils réduisent la réponse immunitaire pour éviter les réactions auto-immunes.",
+            "justification": "Les inhibiteurs de points de contrôle agissent pour activer le système immunitaire contre la tumeur, ce qui est l'inverse d'une réduction de la réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils bloquent directement la prolifération des cellules cancéreuses.",
+            "justification": "Les inhibiteurs de points de contrôle ne bloquent pas directement la prolifération des cellules cancéreuses, mais modulent la réponse immunitaire du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756212534592_02",
+      "current_version_epoch_ms": 1756212534592,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "TTTKc"
+      },
+      "data": {
+        "statement": "Quel est le principal effet indésirable des inhibiteurs de points de contrôle ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Ils provoquent une réponse immunitaire diminuée contre les cellules tumorales.",
+            "justification": "Les inhibiteurs de points de contrôle augmentent la réponse immunitaire contre les cellules tumorales, et non l'inverse."
+          },
+          {
+            "correct": true,
+            "proposition": "Ils peuvent provoquer une réponse immunitaire excessive contre les tissus sains du patient.",
+            "justification": "Les effets indésirables des inhibiteurs de points de contrôle sont dus à une activation excessive du système immunitaire, pouvant toucher divers organes et systèmes du corps, comme le système gastro-intestinal, hépatique, et endocrinien."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils entraînent une résistance des cellules tumorales aux traitements.",
+            "justification": "Les inhibiteurs de points de contrôle visent à renforcer la réponse immunitaire contre la tumeur et ne causent pas directement de résistance aux traitements."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils diminuent l'efficacité du système immunitaire contre les infections.",
+            "justification": "Bien que les inhibiteurs de points de contrôle augmentent l'activation du système immunitaire contre les cellules cancéreuses, ils ne réduisent pas spécifiquement l'efficacité du système immunitaire contre les infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils entraînent des réactions allergiques contre les cellules tumorales.",
+            "justification": "Les effets indésirables sont dus à une réponse immunitaire accrue, et non à une allergie spécifiquement dirigée contre les cellules tumorales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756212534592_03",
+      "current_version_epoch_ms": 1756212534592,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "TTTKc"
+      },
+      "data": {
+        "statement": "Quelle est la cible des inhibiteurs anti-PD-1 comme le nivolumab et pembrolizumab ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le récepteur PD-1 des lymphocytes T.",
+            "justification": "Les inhibiteurs anti-PD-1 ciblent le récepteur PD-1 sur les lymphocytes T, permettant de lever l'inactivation de ces lymphocytes et d'améliorer la réponse immunitaire contre la tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les cellules tumorales directement.",
+            "justification": "Les inhibiteurs anti-PD-1 ne ciblent pas directement les cellules tumorales mais modulent l'activité des lymphocytes T qui attaquent la tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps monoclonaux présents sur la surface tumorale.",
+            "justification": "Les inhibiteurs anti-PD-1 agissent en bloquant la voie de signalisation PD-1, et non en ciblant les anticorps monoclonaux sur la tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Les protéines PD-L1 présentes dans le cytoplasme des cellules tumorales.",
+            "justification": "Les inhibiteurs anti-PD-1 bloquent la liaison de la protéine PD-L1 à son récepteur sur les lymphocytes T, mais ne ciblent pas directement la protéine PD-L1 dans le cytoplasme."
+          },
+          {
+            "correct": false,
+            "proposition": "Les récepteurs CTLA-4 des lymphocytes T.",
+            "justification": "Les inhibiteurs anti-PD-1 ciblent spécifiquement PD-1, tandis que les inhibiteurs anti-CTLA-4 (comme l'ipilimumab) ciblent une autre voie de contrôle immunitaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756212534592_04",
+      "current_version_epoch_ms": 1756212534592,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "TTTKc"
+      },
+      "data": {
+        "statement": "Dans quel contexte les inhibiteurs anti-CTLA-4 comme l'ipilimumab sont-ils utilisés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans le traitement des mélanomes métastatiques.",
+            "justification": "L'ipilimumab est utilisé principalement pour traiter les mélanomes métastatiques en restaurant l'activité lymphocytaire anti-tumorale par inhibition de la voie CTLA-4."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le traitement des leucémies aiguës.",
+            "justification": "L'ipilimumab n'est pas utilisé pour traiter les leucémies aiguës, mais pour les cancers comme les mélanomes."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le traitement des infections virales.",
+            "justification": "Les inhibiteurs de points de contrôle, tels que l'ipilimumab, ne sont pas utilisés pour traiter les infections virales mais plutôt pour traiter certains cancers."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le traitement du cancer du sein.",
+            "justification": "Bien que certains inhibiteurs de points de contrôle puissent être utilisés dans certains cancers, l'ipilimumab est principalement utilisé dans le traitement du mélanome, pas dans le cancer du sein."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans le traitement du cancer colorectal.",
+            "justification": "L'ipilimumab est utilisé dans le mélanome métastatique et non dans le traitement du cancer colorectal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756212534592_05",
+      "current_version_epoch_ms": 1756212534592,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "TTTKc"
+      },
+      "data": {
+        "statement": "Quel est le principal mécanisme par lequel les tumeurs échappent à l'immunité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'expression de PD-L1/2 à la surface des cellules tumorales.",
+            "justification": "Les tumeurs peuvent exprimer des protéines comme PD-L1/2, qui se lient à PD-1 sur les lymphocytes T, inhibant ainsi leur activation et permettant à la tumeur d'échapper à la réponse immunitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "La production d'anticorps contre les lymphocytes T.",
+            "justification": "Les tumeurs n'échappent pas à l'immunité en produisant des anticorps contre les lymphocytes T, mais en utilisant des mécanismes comme l'expression de PD-L1/2."
+          },
+          {
+            "correct": false,
+            "proposition": "La suppression de la production de cytokines.",
+            "justification": "Bien que les cytokines jouent un rôle important dans la réponse immunitaire, l'évasion tumorale est surtout médiée par l'expression de PD-L1/2, qui inhibe directement les lymphocytes T."
+          },
+          {
+            "correct": false,
+            "proposition": "L'inhibition de l'activité des macrophages.",
+            "justification": "L'évasion tumorale se fait principalement par l'interaction entre PD-1 et PD-L1, et non par l'inhibition des macrophages."
+          },
+          {
+            "correct": false,
+            "proposition": "La production de molécules inhibitrices de la réponse inflammatoire.",
+            "justification": "Les tumeurs échappent à l'immunité par des mécanismes de signalisation, principalement via PD-1/PD-L1, plutôt que par la simple production de molécules inhibitrices."
+          }
+        ]
+      }
+    }
+  ]
+}
