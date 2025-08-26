@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "dysphagie",
+    "subject": "ORL"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756171014992_01",
+      "current_version_epoch_ms": 1756171014992,
+      "rang": "B",
+      "topic": {
+        "subject": "ORL",
+        "item": "dysphagie"
+      },
+      "data": {
+        "statement": "Quel est le diagnostic radiologique d'un corps étranger pharyngo-œsophagien dans ce cas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Boîtier de montre impacté en intra-œsophagien.",
+            "justification": "La radiographie montre clairement un boîtier de montre impacté dans l'œsophage."
+          },
+          {
+            "correct": false,
+            "proposition": "Corps étranger situé dans l'estomac.",
+            "justification": "Le corps étranger est localisé dans l'œsophage, pas dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Corps étranger visible dans la trachée.",
+            "justification": "Aucun corps étranger n'est visualisé dans la trachée sur cette radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'un corps étranger dans l'intestin grêle.",
+            "justification": "Le corps étranger est encore au niveau de l'œsophage et non dans l'intestin grêle."
+          },
+          {
+            "correct": false,
+            "proposition": "Corps étranger visible sous la coupole diaphragmatique.",
+            "justification": "Le corps étranger sous la coupole diaphragmatique représente un briquet passé dans l'estomac, et non un corps étranger œsophagien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171014992_02",
+      "current_version_epoch_ms": 1756171014992,
+      "rang": "B",
+      "topic": {
+        "subject": "ORL",
+        "item": "dysphagie"
+      },
+      "data": {
+        "statement": "Que montre la radiographie en plus du boîtier de montre impacté dans l'œsophage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un briquet ingéré passant dans l'estomac.",
+            "justification": "La radiographie montre un briquet ingéré situé sous la coupole diaphragmatique, ce qui indique qu'il a traversé l'œsophage et est maintenant dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Un autre boîtier de montre dans l'estomac.",
+            "justification": "Il n'y a qu'un seul boîtier de montre visible et il est impacté dans l'œsophage, pas dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Un corps étranger coincé dans le duodénum.",
+            "justification": "Le corps étranger est visible dans l'estomac et non dans le duodénum."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune autre structure n'est visible.",
+            "justification": "Le briquet est clairement visible en dessous de la coupole diaphragmatique, indiquant sa position dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'air sous-diaphragmatique.",
+            "justification": "Il n'y a pas de signe de pneumopéritoine visible sur la radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171014992_03",
+      "current_version_epoch_ms": 1756171014992,
+      "rang": "B",
+      "topic": {
+        "subject": "ORL",
+        "item": "dysphagie"
+      },
+      "data": {
+        "statement": "Quel est l'ordre de progression du corps étranger décrit dans cette radiographie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Impact dans l'œsophage, suivi de passage dans l'estomac.",
+            "justification": "La radiographie montre un corps étranger d'abord bloqué dans l'œsophage, puis passant dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Impact dans l'œsophage, suivi de migration dans le duodénum.",
+            "justification": "Le corps étranger est visible dans l'estomac et non dans le duodénum."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger reste coincé dans l'œsophage.",
+            "justification": "Le corps étranger a déjà traversé l'œsophage et est passé dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger se déplace immédiatement vers l'intestin grêle.",
+            "justification": "Le corps étranger se trouve dans l'estomac, et non dans l'intestin grêle."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger est expulsé par la bouche.",
+            "justification": "Le corps étranger n'a pas été expulsé et reste visible dans l'estomac."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171014992_04",
+      "current_version_epoch_ms": 1756171014992,
+      "rang": "B",
+      "topic": {
+        "subject": "ORL",
+        "item": "dysphagie"
+      },
+      "data": {
+        "statement": "Pourquoi le briquet est-il situé sous la coupole diaphragmatique sur la radiographie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il a passé dans l'estomac après avoir traversé l'œsophage.",
+            "justification": "Le briquet a traversé l'œsophage et est visible dans l'estomac sous la coupole diaphragmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il s'agit d'une localisation anormale dans l'intestin grêle.",
+            "justification": "Le briquet est situé dans l'estomac, et non dans l'intestin grêle."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est coincé au niveau du pylore.",
+            "justification": "Il n'est pas situé au pylore, mais dans l'estomac sous la coupole diaphragmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il a migré directement dans l'intestin.",
+            "justification": "Il n'est pas localisé dans l'intestin, mais dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est resté bloqué sous la coupole diaphragmatique.",
+            "justification": "Le briquet est bien dans l'estomac, en dessous de la coupole diaphragmatique, mais pas bloqué."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756171014992_05",
+      "current_version_epoch_ms": 1756171014992,
+      "rang": "B",
+      "topic": {
+        "subject": "ORL",
+        "item": "dysphagie"
+      },
+      "data": {
+        "statement": "Quelle est la conclusion la plus probable concernant la radiographie d'un corps étranger dans l'œsophage ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le corps étranger est partiellement traversé dans l'œsophage et a progressé vers l'estomac.",
+            "justification": "La radiographie montre un corps étranger dans l'œsophage, puis un briquet visible dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger est bloqué dans l'estomac.",
+            "justification": "Le corps étranger est visible dans l'œsophage et non dans l'estomac."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger est coincé dans le duodénum.",
+            "justification": "Le corps étranger n'est pas localisé dans le duodénum sur cette radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger a été expulsé par voie orale.",
+            "justification": "Aucune expulsion du corps étranger n'est mentionnée sur cette radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Le corps étranger est visible dans l'intestin grêle.",
+            "justification": "Le corps étranger n'est pas visible dans l'intestin grêle sur cette radiographie."
+          }
+        ]
+      }
+    }
+  ]
+}
