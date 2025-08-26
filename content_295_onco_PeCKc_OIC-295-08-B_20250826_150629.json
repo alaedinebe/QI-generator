@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PeCKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756213735956_01",
+      "current_version_epoch_ms": 1756213735956,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "PeCKc"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre les nausées et vomissements chimiothérapiques aigus et retardés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les NVCI aigus sont liés à l'activation des récepteurs 5HT3, tandis que les NVCI retardés sont liés aux récepteurs NK1.",
+            "justification": "Les NVCI aigus sont causés par l'activation de la voie sérotoninergique, tandis que les NVCI retardés sont dues à l'activation des récepteurs NK1, ce qui nécessite un traitement spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les NVCI aigus surviennent après 24 heures de chimiothérapie et sont liés aux récepteurs NK1.",
+            "justification": "Les NVCI aigus surviennent dans les 24 heures suivant la chimiothérapie, et sont associés aux récepteurs 5HT3, non aux récepteurs NK1."
+          },
+          {
+            "correct": false,
+            "proposition": "Les NVCI retardés ne peuvent être traités que par des sétrons.",
+            "justification": "Les sétrons ont une efficacité limitée dans les NVCI retardés, et c'est plutôt les anti-NK1 qui sont utilisés."
+          },
+          {
+            "correct": true,
+            "proposition": "Les corticoïdes peuvent potentialiser l'efficacité des antiémétiques dans la prévention des NVCI.",
+            "justification": "Les corticoïdes renforcent l'action des autres antiémétiques dans la gestion des nausées et vomissements chimiothérapiques, notamment les sétrons et les anti-NK1."
+          },
+          {
+            "correct": false,
+            "proposition": "Les NVCI retardés ne nécessitent pas de traitement préventif spécifique.",
+            "justification": "Les NVCI retardés nécessitent un traitement spécifique, notamment par des anti-NK1."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756213735956_02",
+      "current_version_epoch_ms": 1756213735956,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "PeCKc"
+      },
+      "data": {
+        "statement": "Dans la prise en charge de la neutropénie, quelle est la principale indication du G-CSF ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le G-CSF est indiqué en prophylaxie primaire si le risque de neutropénie sévère est supérieur à 20%.",
+            "justification": "Le G-CSF est recommandé en prophylaxie primaire en cas de risque élevé de neutropénie sévère, c'est-à-dire si le risque dépasse 20%."
+          },
+          {
+            "correct": false,
+            "proposition": "Le G-CSF est utilisé systématiquement après chaque cycle de chimiothérapie.",
+            "justification": "L'utilisation du G-CSF n'est pas systématique, elle dépend du risque de neutropénie sévère, au-delà de 20%."
+          },
+          {
+            "correct": true,
+            "proposition": "Le G-CSF peut être administré en prophylaxie secondaire pour prévenir la neutropénie fébrile.",
+            "justification": "En cas de neutropénie fébrile ou de neutropénie sévère dans un cycle précédent, le G-CSF peut être administré en prophylaxie secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le G-CSF est réservé aux patients dont le nombre de neutrophiles est déjà inférieur à 500/mm3.",
+            "justification": "Le G-CSF est utilisé en prévention dans les cas à risque élevé avant que la neutropénie ne soit sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Le G-CSF est plus efficace dans les situations de thrombopénie que dans celles de neutropénie.",
+            "justification": "Le G-CSF est spécifiquement utilisé pour la neutropénie et non pour la thrombopénie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756213735956_03",
+      "current_version_epoch_ms": 1756213735956,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "PeCKc"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour les nausées et vomissements induits par une chimiothérapie de faible potentiel émétogène ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les antiémétiques dopaminergiques comme le métoclopramide ou les anti-5HT3 peuvent être utilisés seuls.",
+            "justification": "Dans le cas de chimiothérapies à faible potentiel émétogène, un antiémétique dopaminergique comme le métoclopramide ou un anti-5HT3 seul est suffisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement préventif combinant anti-5HT3, anti-NK1 et corticoïdes est toujours nécessaire.",
+            "justification": "Ce traitement est réservé aux chimiothérapies à haut potentiel émétogène, et non à faible potentiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anti-5HT3 seuls sont inefficaces dans les chimiothérapies à faible potentiel émétogène.",
+            "justification": "Les anti-5HT3 peuvent être efficaces même dans les chimiothérapies à faible potentiel émétogène, selon les situations."
+          },
+          {
+            "correct": true,
+            "proposition": "Les corticoïdes peuvent être utilisés en complément des anti-5HT3 dans certains cas.",
+            "justification": "Les corticoïdes peuvent renforcer l'efficacité des anti-5HT3 dans certaines situations, même avec un potentiel émétogène faible."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anti-NK1 sont recommandés uniquement pour les chimiothérapies à faible potentiel émétogène.",
+            "justification": "Les anti-NK1 sont principalement utilisés pour les chimiothérapies à potentiel émétogène élevé, pas faible."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756213735956_04",
+      "current_version_epoch_ms": 1756213735956,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "PeCKc"
+      },
+      "data": {
+        "statement": "Comment doit-on corriger une anémie chez un patient cancéreux en cas de carence martiale et d'inflammation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La correction de la carence martiale se fait par du fer intraveineux (carboxymaltose ferrique).",
+            "justification": "En cas de carence martiale et d'inflammation, le fer intraveineux est préféré car il est mieux toléré et plus efficace que le fer oral."
+          },
+          {
+            "correct": false,
+            "proposition": "Le fer oral est recommandé car il est mieux toléré chez les patients cancéreux.",
+            "justification": "Le fer oral peut être mal toléré chez ces patients, et le fer intraveineux est plus efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Les réserves en fer doivent être complètement corrigées avant d'envisager un traitement par érythropoïétine.",
+            "justification": "L'érythropoïétine peut être utilisée même en présence d'une carence martiale partielle, mais elle doit être utilisée après correction des niveaux d'hémoglobine."
+          },
+          {
+            "correct": true,
+            "proposition": "La ferritinémie élevée peut indiquer une carence martiale avec une mauvaise mobilisation des réserves en fer.",
+            "justification": "Chez les patients cancéreux, la ferritinémie élevée associée à un coefficient de saturation de la transferrine bas indique un défaut de mobilisation des réserves en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inutile de traiter la carence martiale avant d'administrer de l'érythropoïétine chez les patients cancéreux.",
+            "justification": "Il est essentiel de traiter la carence martiale avant d'envisager l'utilisation d'érythropoïétine, surtout en cas d'anémie sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756213735956_05",
+      "current_version_epoch_ms": 1756213735956,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "PeCKc"
+      },
+      "data": {
+        "statement": "Quelles sont les recommandations de prise en charge des mucites sévères induites par la chimiothérapie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une hygiène bucco-dentaire rigoureuse et des bains de bouche bicarbonatés sont nécessaires pour prévenir les mucites.",
+            "justification": "L'hygiène bucco-dentaire rigoureuse et les bains de bouche bicarbonatés aident à prévenir les mucites, particulièrement en cas de chimiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mucites peuvent être traitées uniquement par des antifongiques locaux.",
+            "justification": "Les mucites nécessitent un traitement combiné, incluant une bonne hygiène et des soins antifongiques en cas d'infection secondaire, mais pas uniquement des antifongiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les mucites ne nécessitent pas de traitement spécifique si elles sont modérées.",
+            "justification": "Même les mucites modérées nécessitent un traitement de soutien pour prévenir leur aggravation, surtout en cas de chimiothérapie."
+          },
+          {
+            "correct": true,
+            "proposition": "Les aphtes secondaires à une surinfection fongique doivent être traités par des antifongiques locaux.",
+            "justification": "Les aphtes causés par une surinfection fongique doivent être traités par des antifongiques locaux pour éviter les complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Le port d'une prothèse dentaire est recommandé en cas de mucites sévères.",
+            "justification": "Le port de prothèses dentaires n'est pas recommandé dans le cadre des mucites sévères, car cela pourrait aggraver l'irritation des muqueuses."
+          }
+        ]
+      }
+    }
+  ]
+}
