@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcprostate",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756236287816_01",
+      "current_version_epoch_ms": 1756236287816,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcprostate"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du dosage du PSA dans le diagnostic du cancer de la prostate ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet d'orienter la démarche diagnostique en cas de taux élevé.",
+            "justification": "Le PSA est un marqueur sérique utilisé pour évaluer la probabilité de cancer de la prostate, avec un taux supérieur à 4 ng/ml nécessitant des investigations supplémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est spécifique du cancer de la prostate.",
+            "justification": "Le PSA est spécifique de l'épithélium prostatique mais pas spécifiquement du cancer, car il peut être élevé dans d'autres conditions comme l'hyperplasie bénigne ou la prostatite."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé pour déterminer le volume prostatique.",
+            "justification": "Le PSA dépend du volume prostatique, mais il n'est pas directement utilisé pour déterminer ce volume."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est inutile en cas de PSA inférieur à 4 ng/ml.",
+            "justification": "Un PSA inférieur à 4 ng/ml n'élimine pas le cancer, mais il doit être interprété dans le contexte clinique, avec des contrôles réguliers en cas de doute."
+          },
+          {
+            "correct": false,
+            "proposition": "Il remplace systématiquement la biopsie prostatique.",
+            "justification": "Le dosage du PSA est une étape de dépistage, mais une biopsie prostatique est nécessaire pour confirmer le diagnostic en cas d'anomalie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756236287816_02",
+      "current_version_epoch_ms": 1756236287816,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcprostate"
+      },
+      "data": {
+        "statement": "Quel est l'examen paraclinique de première intention après un PSA anormal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'IRM prostatique multiparamétrique.",
+            "justification": "L'IRM prostatique est systématique après un PSA anormal et permet de localiser les lésions suspectes avant une biopsie."
+          },
+          {
+            "correct": false,
+            "proposition": "La scintigraphie osseuse.",
+            "justification": "La scintigraphie osseuse est utilisée pour détecter des métastases osseuses, mais ce n'est pas le premier examen après un PSA anormal."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie abdominale.",
+            "justification": "L'échographie abdominale n'est pas utilisée comme première intention dans l'évaluation du cancer de la prostate après un PSA anormal."
+          },
+          {
+            "correct": false,
+            "proposition": "La biopsie prostatique systématique.",
+            "justification": "La biopsie prostatique n'est réalisée qu'après une IRM prostatique multiparamétrique et selon la classification PI-RADS des lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie thoracique.",
+            "justification": "La radiographie thoracique n'est pas une première intention dans l'évaluation d'un cancer de la prostate suspecté."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756236287816_03",
+      "current_version_epoch_ms": 1756236287816,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcprostate"
+      },
+      "data": {
+        "statement": "Quelle est la valeur seuil du PSA qui doit alerter le clinicien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "4 ng/ml.",
+            "justification": "Un PSA supérieur à 4 ng/ml est considéré comme une valeur seuil qui nécessite un dosage de confirmation et une investigation plus poussée."
+          },
+          {
+            "correct": false,
+            "proposition": "2 ng/ml.",
+            "justification": "La valeur seuil du PSA est généralement de 4 ng/ml, mais elle peut varier selon l'âge et le volume prostatique."
+          },
+          {
+            "correct": false,
+            "proposition": "6 ng/ml.",
+            "justification": "Un PSA de 6 ng/ml nécessite une enquête, mais la valeur seuil classique reste de 4 ng/ml."
+          },
+          {
+            "correct": false,
+            "proposition": "10 ng/ml.",
+            "justification": "Une valeur de 10 ng/ml est trop élevée pour être considérée comme une première alerte, bien que cela puisse indiquer un cancer avancé."
+          },
+          {
+            "correct": false,
+            "proposition": "8 ng/ml.",
+            "justification": "La valeur seuil standard pour un PSA est de 4 ng/ml, et 8 ng/ml est déjà un signe d'alerte avancée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756236287816_04",
+      "current_version_epoch_ms": 1756236287816,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcprostate"
+      },
+      "data": {
+        "statement": "Que signifie un score PI-RADS de 4 ou 5 lors de l'IRM prostatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il indique un risque significatif de cancer de la prostate.",
+            "justification": "Les scores PI-RADS 4 et 5 indiquent un risque élevé de cancer, et des biopsies ciblées doivent être effectuées pour confirmer le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a aucun risque de cancer.",
+            "justification": "Un score PI-RADS de 4 ou 5 est associé à un risque élevé de cancer et nécessite une biopsie."
+          },
+          {
+            "correct": false,
+            "proposition": "Il signifie qu'il n'y a pas besoin de biopsie.",
+            "justification": "Un score PI-RADS 4 ou 5 nécessite une biopsie ciblée pour confirmer ou infirmer la présence de cancer."
+          },
+          {
+            "correct": false,
+            "proposition": "Il indique que la tumeur est bénigne.",
+            "justification": "Un score PI-RADS élevé (4-5) indique un risque significatif de cancer, pas une tumeur bénigne."
+          },
+          {
+            "correct": false,
+            "proposition": "Il signifie qu'il faut commencer un traitement immédiat.",
+            "justification": "Le score PI-RADS indique un risque de cancer, mais le traitement ne commence qu'après confirmation diagnostique par biopsie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756236287816_05",
+      "current_version_epoch_ms": 1756236287816,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcprostate"
+      },
+      "data": {
+        "statement": "Pourquoi un second dosage du PSA est-il recommandé après un premier résultat élevé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour confirmer la mesure et éliminer un éventuel artefact.",
+            "justification": "Un premier dosage élevé du PSA doit être confirmé par un second dosage dans les 3 mois pour éliminer toute erreur technique ou toute fluctuation non significative."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que le PSA varie de manière significative au fil du temps.",
+            "justification": "Le PSA peut varier, mais un second dosage est principalement destiné à confirmer un taux anormal et à guider l'investigation."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que le premier dosage est généralement inexploitable.",
+            "justification": "Le premier dosage est utile, mais il doit être confirmé par un second dosage pour évaluer la tendance du PSA."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'un seul dosage ne suffit jamais à diagnostiquer un cancer.",
+            "justification": "Un seul dosage peut déjà alerter le clinicien, mais un second dosage est important pour confirmer une tendance régulière avant de procéder à d'autres examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'un second dosage est plus sensible que le premier.",
+            "justification": "Le second dosage n'est pas plus sensible, mais il permet de confirmer la tendance du PSA et son rôle dans le diagnostic."
+          }
+        ]
+      }
+    }
+  ]
+}
