@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcpancreas",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756234025331_01",
+      "current_version_epoch_ms": 1756234025331,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quel examen est de première intention pour évoquer une tumeur du pancréas en cas de suspicion d'ictère nu avec altération de l'état général ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner thoraco-abdomino-pelvien avec injection de produit de contraste",
+            "justification": "Le scanner thoraco-abdomino-pelvien avec injection de produit de contraste est l'examen de 1re intention lorsqu'une tumeur pancréatique est fortement suspectée, notamment en cas d'ictère nu associé à une altération de l'état général."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo-endoscopie",
+            "justification": "L'écho-endoscopie est utilisée pour le diagnostic anatomopathologique en cas de tumeur localisée au pancréas, mais n'est pas de première intention en présence d'un ictère cholestatique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM abdominale",
+            "justification": "L'IRM peut être utilisée en cas de doute diagnostique ou si une lésion est isodense au scanner, mais ce n'est pas l'examen de première intention pour suspecter une tumeur du pancréas."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo-endoscopie avec ponction biopsique",
+            "justification": "L'écho-endoscopie avec ponction biopsique est une méthode diagnostique qui peut être utilisée en cas de doute persistant, mais elle n'est pas de première intention en présence de symptômes graves comme l'ictère nu."
+          },
+          {
+            "correct": false,
+            "proposition": "Cholangiopancréatographie rétrograde par voie endoscopique (CPRE)",
+            "justification": "La CPRE est indiquée en cas d'ictère cholestatique, mais elle n'est pas utilisée pour évoquer le diagnostic de tumeur pancréatique en première intention."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234025331_02",
+      "current_version_epoch_ms": 1756234025331,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il recommandé de réaliser une IRM hépatique pour un patient atteint d'adénocarcinome du pancréas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour éliminer la présence de métastases hépatiques en cas de tumeur résécable",
+            "justification": "L'IRM hépatique est recommandée en 2ème intention afin d'éliminer les métastases hépatiques dans le cadre d'un adénocarcinome du pancréas localisé et résécable."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour diagnostiquer directement la tumeur pancréatique",
+            "justification": "L'IRM n'est pas le premier examen pour diagnostiquer une tumeur du pancréas, un scanner thoraco-abdomino-pelvien est l'examen de 1re intention."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de suspicion de métastases pulmonaires",
+            "justification": "L'IRM hépatique est spécifiquement utilisée pour évaluer les métastases hépatiques et non les métastases pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une biopsie hépatique est nécessaire pour confirmation histologique",
+            "justification": "Une biopsie hépatique est réalisée pour confirmer le diagnostic d'une lésion hépatique métastatique, mais cela ne remplace pas une IRM hépatique pour l'évaluation des métastases."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de tumeur pancréatique localisée sans suspicion de métastases",
+            "justification": "L'IRM hépatique est utilisée principalement pour exclure des métastases hépatiques, ce qui n'est pas nécessaire dans le cadre d'une tumeur pancréatique localisée sans suspicion de métastases."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234025331_03",
+      "current_version_epoch_ms": 1756234025331,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quelle est la principale indication de la cholangiopancréatographie rétrograde par voie endoscopique (CPRE) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compression de la voie biliaire principale par un adénocarcinome de la tête du pancréas",
+            "justification": "La CPRE est indiquée en cas d'ictère cholestatique causé par la compression de la voie biliaire principale par un adénocarcinome de la tête du pancréas."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion de métastases hépatiques",
+            "justification": "La CPRE n'est pas utilisée pour diagnostiquer les métastases hépatiques, qui nécessitent des examens comme le scanner ou l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Observation de lésions pancréatiques bénignes",
+            "justification": "La CPRE n'est pas indiquée pour l'observation des lésions bénignes du pancréas, elle est plutôt utilisée dans le cadre de l'ictère causé par une compression de la voie biliaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostic direct d'une tumeur pancréatique",
+            "justification": "La CPRE n'est pas utilisée comme examen de première intention pour le diagnostic d'une tumeur pancréatique, le scanner est l'examen de 1re intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation de l'extension locale d'une tumeur pancréatique",
+            "justification": "La CPRE ne permet pas d'évaluer l'extension locale de la tumeur pancréatique, cela est réalisé par le scanner thoraco-abdomino-pelvien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234025331_04",
+      "current_version_epoch_ms": 1756234025331,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quel examen est recommandé en cas de doute diagnostique après un scanner thoraco-abdomino-pelvien normal dans une tumeur pancréatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "IRM abdominale",
+            "justification": "En cas de doute diagnostique après un scanner thoraco-abdomino-pelvien normal, l'IRM abdominale peut fournir une meilleure visibilité de la tumeur."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo-endoscopie",
+            "justification": "L'écho-endoscopie est utile pour réaliser des biopsies en cas de doute persistant, mais elle n'est pas la première option après un scanner normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo-endoscopie avec ponction biopsique",
+            "justification": "L'écho-endoscopie avec ponction biopsique est envisagée lorsque l'examen clinique reste suspect malgré les autres examens, mais pas immédiatement après un scanner normal."
+          },
+          {
+            "correct": false,
+            "proposition": "CPRE",
+            "justification": "La CPRE est indiquée pour le traitement des obstructions biliaires mais pas pour clarifier un doute diagnostique après un scanner normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction biopsique hépatique",
+            "justification": "La ponction biopsique hépatique est utilisée dans le cadre de la suspicion de métastases hépatiques et non pour résoudre un doute sur une tumeur pancréatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756234025331_05",
+      "current_version_epoch_ms": 1756234025331,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quelle est la principale indication de l'écho-endoscopie dans le diagnostic des tumeurs du pancréas ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Obtenir un diagnostic anatomopathologique en cas de tumeur localisée",
+            "justification": "L'écho-endoscopie avec ponction permet d'obtenir un diagnostic anatomopathologique avec une sensibilité de 80 % pour les tumeurs localisées au pancréas."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer les métastases hépatiques",
+            "justification": "L'écho-endoscopie n'est pas utilisée pour diagnostiquer les métastases hépatiques, qui sont évaluées par un scanner ou une IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'extension locale des tumeurs",
+            "justification": "L'évaluation de l'extension locale des tumeurs pancréatiques est principalement réalisée par un scanner thoraco-abdomino-pelvien."
+          },
+          {
+            "correct": false,
+            "proposition": "Éliminer la présence de métastases pulmonaires",
+            "justification": "L'écho-endoscopie ne permet pas d'éliminer les métastases pulmonaires, cet examen est plus adapté à l'évaluation des lésions locales du pancréas."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la douleur abdominale liée à la tumeur",
+            "justification": "L'écho-endoscopie ne sert pas à réduire la douleur, elle est utilisée pour le diagnostic anatomopathologique."
+          }
+        ]
+      }
+    }
+  ]
+}
