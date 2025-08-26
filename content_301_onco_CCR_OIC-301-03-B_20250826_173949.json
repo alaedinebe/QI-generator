@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "CCR",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756222936313_01",
+      "current_version_epoch_ms": 1756222936313,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est le degré de différenciation d'un adénocarcinome lieberkühnien ayant un pronostic défavorable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Peu différencié",
+            "justification": "Le pronostic est moins bon lorsque la tumeur est peu différenciée."
+          },
+          {
+            "correct": false,
+            "proposition": "Bien différencié",
+            "justification": "Un adénocarcinome bien différencié a un pronostic favorable, contrairement à un adénocarcinome peu différencié."
+          },
+          {
+            "correct": false,
+            "proposition": "Moyennement différencié",
+            "justification": "Le pronostic est moins favorable pour un adénocarcinome peu différencié, pas moyennement différencié."
+          },
+          {
+            "correct": false,
+            "proposition": "Indifférencié",
+            "justification": "L'indifférenciation n'est pas spécifiée, mais un faible degré de différenciation est associé à un pronostic moins favorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Differenciation incertaine",
+            "justification": "Le terme 'differenciation incertaine' n'est pas mentionné, et le pronostic se dégrade avec la perte de différenciation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756222936313_02",
+      "current_version_epoch_ms": 1756222936313,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est le stade clinique d'une tumeur de type T3, N0, M0 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Stade II",
+            "justification": "Le stade II correspond à une tumeur de type T3-4 sans envahissement ganglionnaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade I",
+            "justification": "Le stade I correspond à une petite tumeur sans envahissement ganglionnaire, généralement de type T1-2."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade III",
+            "justification": "Le stade III est caractérisé par la présence d'envahissement ganglionnaire (N+)."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade IV",
+            "justification": "Le stade IV implique la présence de métastases à distance (M+)."
+          },
+          {
+            "correct": false,
+            "proposition": "Stade 0",
+            "justification": "Le stade 0 correspond à une tumeur en stade précoce, sans infiltration dans la paroi."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756222936313_03",
+      "current_version_epoch_ms": 1756222936313,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel critère permet de classer une tumeur comme T4 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Franchissement de la séreuse",
+            "justification": "Le stade T4 est défini par le franchissement de la séreuse, indiquant une invasion plus avancée."
+          },
+          {
+            "correct": false,
+            "proposition": "Infiltration de la musculeuse",
+            "justification": "L'infiltration de la musculeuse correspond à un stade T2, pas à T4."
+          },
+          {
+            "correct": false,
+            "proposition": "Infiltration de la sous-muqueuse",
+            "justification": "L'infiltration sous-muqueuse correspond au stade T1."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'emboles tumoraux veineux",
+            "justification": "Les emboles tumoraux veineux sont un facteur pronostique mais ne définissent pas le stade T4."
+          },
+          {
+            "correct": false,
+            "proposition": "Tumeur de type Tis",
+            "justification": "Le stade Tis correspond à une tumeur in situ, sans infiltration, donc pas de stade T4."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756222936313_04",
+      "current_version_epoch_ms": 1756222936313,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est l'impact de l'envahissement ganglionnaire dans la classification TNM ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'envahissement ganglionnaire est un facteur pronostique clé.",
+            "justification": "L'envahissement ganglionnaire (N+) est un facteur de pronostic majeur dans la classification TNM."
+          },
+          {
+            "correct": false,
+            "proposition": "L'envahissement ganglionnaire n'a pas d'impact pronostique.",
+            "justification": "Au contraire, l'envahissement ganglionnaire a un impact pronostique important et modifie le stade."
+          },
+          {
+            "correct": false,
+            "proposition": "L'envahissement ganglionnaire est seulement lié à la taille de la tumeur.",
+            "justification": "L'envahissement ganglionnaire est indépendant de la taille de la tumeur, il affecte le stade et le pronostic."
+          },
+          {
+            "correct": false,
+            "proposition": "L'envahissement ganglionnaire est secondaire à la présence de métastases.",
+            "justification": "Les métastases sont un critère différent dans le stade IV, alors que l'envahissement ganglionnaire concerne le stade III."
+          },
+          {
+            "correct": false,
+            "proposition": "L'envahissement ganglionnaire est une caractéristique d'un stade I.",
+            "justification": "Le stade I ne comporte pas d'envahissement ganglionnaire. L'envahissement ganglionnaire est un critère du stade III."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756222936313_05",
+      "current_version_epoch_ms": 1756222936313,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel critère de classification TNM indique la présence de métastases à distance ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "M+",
+            "justification": "La présence de métastases à distance est indiquée par M+ dans la classification TNM, correspondant au stade IV."
+          },
+          {
+            "correct": false,
+            "proposition": "N+",
+            "justification": "N+ indique un envahissement ganglionnaire, mais pas des métastases à distance."
+          },
+          {
+            "correct": false,
+            "proposition": "T4",
+            "justification": "T4 indique l'infiltration de la séreuse, mais pas la présence de métastases à distance."
+          },
+          {
+            "correct": false,
+            "proposition": "Tis",
+            "justification": "Tis correspond à un stade in situ sans invasion, sans métastases."
+          },
+          {
+            "correct": false,
+            "proposition": "M0",
+            "justification": "M0 signifie l'absence de métastases à distance."
+          }
+        ]
+      }
+    }
+  ]
+}
