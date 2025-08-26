@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "CCR",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756223086913_01",
+      "current_version_epoch_ms": 1756223086913,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quel est le rythme de surveillance recommandé après la résection endoscopique d'adénomes de moins de 3, inférieurs à 1 cm, sans dysplasie et si la coloscopie a été de bonne qualité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les 3 mois",
+            "justification": "La surveillance tous les 3 mois n'est pas recommandée dans ce cas. Le suivi est généralement plus espacé."
+          },
+          {
+            "correct": true,
+            "proposition": "Tous les 5 ans",
+            "justification": "C'est la recommandation la plus fréquente si les critères de bonne qualité sont remplis."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 2 ans",
+            "justification": "Le suivi tous les 2 ans est trop rapproché pour ce type de situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 10 ans",
+            "justification": "Un suivi tous les 10 ans serait trop espacé pour cette situation clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 12 mois",
+            "justification": "Le suivi tous les 12 mois n'est pas nécessaire pour ce type de cas sans dysplasie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223086913_02",
+      "current_version_epoch_ms": 1756223086913,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quels critères influencent la fréquence de la surveillance après la résection endoscopique d'adénomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le nombre d'adénomes",
+            "justification": "Le nombre d'adénomes est un facteur déterminant pour la fréquence de la surveillance."
+          },
+          {
+            "correct": true,
+            "proposition": "La taille des adénomes",
+            "justification": "La taille des adénomes impacte directement la décision sur la fréquence de la surveillance."
+          },
+          {
+            "correct": true,
+            "proposition": "La qualité de la préparation du côlon",
+            "justification": "Une préparation du côlon de bonne qualité permet un meilleur suivi et influence la fréquence des examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Le sexe du patient",
+            "justification": "Le sexe du patient n'est pas un facteur pertinent dans la détermination de la fréquence du suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge du patient",
+            "justification": "L'âge du patient n'est pas un critère direct pour déterminer la fréquence de la surveillance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223086913_03",
+      "current_version_epoch_ms": 1756223086913,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Dans quelle situation la surveillance par coloscopie est-elle programmée tous les 3 mois ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Si les adénomes sont inférieurs à 1 cm et sans dysplasie",
+            "justification": "Cela ne justifie pas un suivi aussi rapproché. Les cas sans dysplasie et avec des adénomes de petite taille sont suivis moins fréquemment."
+          },
+          {
+            "correct": true,
+            "proposition": "Si les adénomes présentent une dysplasie de haut grade",
+            "justification": "La présence de dysplasie de haut grade justifie une surveillance rapprochée à 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la coloscopie a été de mauvaise qualité",
+            "justification": "Une mauvaise qualité de la coloscopie peut entraîner un suivi rapproché, mais pas nécessairement à 3 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le patient présente des symptômes cliniques",
+            "justification": "La surveillance ne dépend pas uniquement des symptômes mais des caractéristiques endoscopiques des adénomes."
+          },
+          {
+            "correct": false,
+            "proposition": "Si les adénomes sont festonnés",
+            "justification": "La nature des adénomes influence la surveillance, mais pas à ce point pour justifier un suivi à 3 mois."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223086913_04",
+      "current_version_epoch_ms": 1756223086913,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Quels facteurs influencent la durée de la surveillance après la résection endoscopique des adénomes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La présence de dysplasie et son grade",
+            "justification": "La dysplasie et son grade sont des critères essentiels dans la décision du suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "La consommation d'alcool du patient",
+            "justification": "La consommation d'alcool n'affecte pas directement la fréquence du suivi post-résection."
+          },
+          {
+            "correct": true,
+            "proposition": "La taille des adénomes",
+            "justification": "La taille des adénomes est un facteur clé dans la détermination du rythme de surveillance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre d'adénomes uniquement",
+            "justification": "Le nombre d'adénomes est important, mais ce n'est pas le seul critère pris en compte pour la surveillance."
+          },
+          {
+            "correct": true,
+            "proposition": "La qualité de la préparation du côlon",
+            "justification": "Une préparation du côlon de bonne qualité est nécessaire pour une surveillance efficace."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756223086913_05",
+      "current_version_epoch_ms": 1756223086913,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "CCR"
+      },
+      "data": {
+        "statement": "Que recommanderait-on pour une surveillance après la résection d'adénomes villeux de taille supérieure à 1 cm avec dysplasie de bas grade ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les 3 ans",
+            "justification": "Les adénomes villeux avec dysplasie de bas grade nécessitent un suivi tous les 3 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 5 ans",
+            "justification": "Un suivi tous les 5 ans est trop espacé pour les adénomes villeux avec dysplasie, un suivi plus rapproché est recommandé."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 6 mois",
+            "justification": "Un suivi tous les 6 mois est trop rapproché pour des adénomes villeux avec dysplasie de bas grade."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 12 mois",
+            "justification": "Un suivi tous les 12 mois est trop fréquent pour ce type de cas, un suivi tous les 3 ans est préférable."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les 2 ans",
+            "justification": "Le suivi tous les 2 ans serait trop rapproché et ne correspond pas aux recommandations pour ces adénomes."
+          }
+        ]
+      }
+    }
+  ]
+}
