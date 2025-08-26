@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SII",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756189046272_01",
+      "current_version_epoch_ms": 1756189046272,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "SII"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur de risque nécessitant la coloscopie chez un patient de plus de 50 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Survenue des symptômes après l'âge de 50 ans",
+            "justification": "La survenue des symptômes après l'âge de 50 ans est un signe clinique d'alarme, justifiant la réalisation d'une coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents personnels de maladie inflammatoire chronique de l'intestin",
+            "justification": "Bien que les antécédents de maladie inflammatoire chronique augmentent le risque, ce n'est pas un critère d'indication direct pour une coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale localisée",
+            "justification": "La douleur abdominale localisée n'est pas un critère d'alarme pour la coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre persistante sans autre signe clinique",
+            "justification": "La fièvre seule ne justifie pas une coloscopie, sauf si elle est associée à d'autres symptômes d'alarme."
+          },
+          {
+            "correct": false,
+            "proposition": "Antécédents de chirurgie abdominale récente",
+            "justification": "Les antécédents de chirurgie abdominale ne constituent pas un critère d'indication pour une coloscopie, sauf s'ils sont accompagnés de symptômes suspects."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756189046272_02",
+      "current_version_epoch_ms": 1756189046272,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "SII"
+      },
+      "data": {
+        "statement": "Quels sont les risques majeurs associés à la réalisation d'une coloscopie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perforation",
+            "justification": "La perforation est un risque majeur de la coloscopie, bien qu'il soit rare."
+          },
+          {
+            "correct": true,
+            "proposition": "Saignement",
+            "justification": "Le saignement est un autre risque majeur, surtout en cas de biopsies ou de polypes retirés."
+          },
+          {
+            "correct": false,
+            "proposition": "Infection systémique grave",
+            "justification": "L'infection systémique est un risque très rare dans la coloscopie bien réalisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Déshydratation sévère",
+            "justification": "Bien que la préparation colique puisse provoquer une déshydratation modérée, elle est généralement bien contrôlée."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale post-procédure",
+            "justification": "Bien que légère gêne ou douleur puisse survenir, elle n'est pas un risque majeur en coloscopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756189046272_03",
+      "current_version_epoch_ms": 1756189046272,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "SII"
+      },
+      "data": {
+        "statement": "Quelles sont les indications de la coloscopie en cas de symptomatologie diarrhéique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Faire des biopsies étagées dans tous les segments coliques à la recherche d'une colite microscopique",
+            "justification": "Les biopsies étagées sont recommandées pour diagnostiquer une colite microscopique dans le cadre de symptômes diarrhéiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Explorer l'iléon pour éliminer une maladie de Crohn",
+            "justification": "L'exploration de l'iléon permet d'éliminer une maladie de Crohn iléale, ce qui est crucial pour un diagnostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de l'impact sur les symptômes cliniques",
+            "justification": "Bien que la surveillance soit importante, ce n'est pas une indication principale pour la coloscopie dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen des glandes salivaires pour détecter une parotidite",
+            "justification": "L'examen des glandes salivaires n'a aucun lien direct avec la symptomatologie diarrhéique et n'est pas une indication de coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation du statut nutritionnel",
+            "justification": "L'évaluation nutritionnelle ne justifie pas une coloscopie sauf en cas de suspicion de malabsorption sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756189046272_04",
+      "current_version_epoch_ms": 1756189046272,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "SII"
+      },
+      "data": {
+        "statement": "Quels éléments peuvent justifier une coloscopie en cas de symptômes cliniques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Masse abdominale",
+            "justification": "La présence d'une masse abdominale peut indiquer une pathologie colique ou abdominale nécessitant une coloscopie pour investigation."
+          },
+          {
+            "correct": true,
+            "proposition": "Perte de poids non expliquée",
+            "justification": "La perte de poids non expliquée est un symptôme alarmant qui nécessite un bilan, dont la coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique isolée",
+            "justification": "La douleur thoracique n'est pas liée à une indication de coloscopie, sauf si elle est associée à des symptômes digestifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue musculaire",
+            "justification": "La fatigue musculaire isolée ne justifie pas une coloscopie."
+          },
+          {
+            "correct": false,
+            "proposition": "Polydipsie et polyurie",
+            "justification": "Ces symptômes sont plus suggestifs de troubles endocriniens ou rénaux, pas d'indication pour une coloscopie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756189046272_05",
+      "current_version_epoch_ms": 1756189046272,
+      "rang": "B",
+      "topic": {
+        "subject": "HGE",
+        "item": "SII"
+      },
+      "data": {
+        "statement": "En cas d'anomalie biologique (anémie, inflammation), quelle procédure complémentaire est recommandée lors de la coloscopie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaliser une endoscopie œsogastroduodénale avec des biopsies à la recherche d'Helicobacter pylori et/ou d'atrophie duodénale",
+            "justification": "En cas d'anémie ferriprive ou de symptômes digestifs associés, cette procédure permet d'identifier d'éventuelles causes sous-jacentes comme l'Helicobacter pylori ou une atrophie duodénale."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer une échographie abdominale",
+            "justification": "L'échographie abdominale peut être utile, mais elle n'est pas un complément direct à la coloscopie pour ces symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire une tomodensitométrie abdominale",
+            "justification": "La TDM abdominale n'est pas systématiquement requise en cas d'anémie ou d'inflammation, sauf suspicion d'anomalie structurelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire un scanner thoracique",
+            "justification": "Le scanner thoracique n'est pas pertinent dans ce contexte biologique spécifique de l'anémie et de l'inflammation."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction rénale par un test de filtration glomérulaire",
+            "justification": "Ce test n'est pas lié à l'indication de la coloscopie en cas d'anomalie biologique digestive."
+          }
+        ]
+      }
+    }
+  ]
+}
