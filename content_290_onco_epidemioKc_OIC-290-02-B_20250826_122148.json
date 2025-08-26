@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "epidemioKc",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756203855080_01",
+      "current_version_epoch_ms": 1756203855080,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Identifier les caractéristiques essentielles des données d'incidence des cancers en France.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les données d'incidence sont extraites de la base commune des registres du réseau Francim.",
+            "justification": "La source citée pour l'incidence est la base commune des registres des cancers du réseau Francim."
+          },
+          {
+            "correct": true,
+            "proposition": "Les dernières données d'incidence disponibles datent de 2015.",
+            "justification": "Il est précisé que les dernières données sont celles de l'année 2015."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données d'incidence sont codées selon la CIM-10.",
+            "justification": "Le codage de l'incidence utilise la classification internationale des maladies en oncologie, CIM-O3, et non la CIM-10."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données d'incidence couvrent la période 1975-2015.",
+            "justification": "La période 1975-2015 concerne les données de mortalité, pas l'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données d'incidence 2015 proviennent de 14 registres spécialisés et 9 registres généraux.",
+            "justification": "La répartition donnée est inverse : 14 registres généraux et 9 registres spécialisés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756203855080_02",
+      "current_version_epoch_ms": 1756203855080,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Différencier les sources et les codages des données d'incidence et de mortalité par cancer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les données de mortalité proviennent du CépiDc de l'Inserm.",
+            "justification": "La mortalité est issue du Centre d'épidémiologie sur les causes médicales de décès (CépiDc) de l'Inserm."
+          },
+          {
+            "correct": true,
+            "proposition": "La série temporelle de mortalité s'étend de 1975 à 2015.",
+            "justification": "La période indiquée pour les données de mortalité est 1975-2015."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données de mortalité sont codées selon la CIM-O3.",
+            "justification": "Le codage de mortalité utilise la CIM 8, 9 et 10 ; la CIM-O3 est utilisée pour l'incidence."
+          },
+          {
+            "correct": true,
+            "proposition": "Les données d'incidence sont codées selon la CIM-O3.",
+            "justification": "Le codage des données d'incidence est celui de la classification internationale des maladies en oncologie, CIM-O3."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données d'incidence proviennent du CépiDc.",
+            "justification": "L'incidence provient du réseau Francim ; le CépiDc est la source des données de mortalité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756203855080_03",
+      "current_version_epoch_ms": 1756203855080,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Classer les registres ayant contribué aux données d'incidence 2015.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les registres métropolitains ont contribué aux données d'incidence 2015.",
+            "justification": "Il est précisé que les données 2015 sont issues de tous les registres métropolitains."
+          },
+          {
+            "correct": true,
+            "proposition": "Ces données incluent 14 registres généraux.",
+            "justification": "Le nombre de registres généraux mentionné est de 14."
+          },
+          {
+            "correct": true,
+            "proposition": "Ces données incluent 9 registres spécialisés.",
+            "justification": "Le nombre de registres spécialisés mentionné est de 9."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données 2015 proviennent uniquement de registres spécialisés.",
+            "justification": "La contribution concerne à la fois des registres généraux et spécialisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données 2015 proviennent de 10 registres spécialisés.",
+            "justification": "Le chiffre exact donné est 9 registres spécialisés, pas 10."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756203855080_04",
+      "current_version_epoch_ms": 1756203855080,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Reconnaître le schéma de codage des données de mortalité par cancer.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mortalité par cancer est codée avec les versions CIM-8, CIM-9 et CIM-10.",
+            "justification": "Il est indiqué que la mortalité est codée selon la CIM 8, 9 et 10."
+          },
+          {
+            "correct": false,
+            "proposition": "La mortalité par cancer est codée avec la CIM-O3.",
+            "justification": "La CIM-O3 concerne la classification en oncologie pour l'incidence, pas la mortalité."
+          },
+          {
+            "correct": true,
+            "proposition": "Le codage de mortalité s'applique aux données de 1975 à 2015.",
+            "justification": "La période 1975-2015 est spécifiée pour les données de mortalité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le codage de mortalité est fourni par le réseau Francim.",
+            "justification": "Les données de mortalité proviennent du CépiDc de l'Inserm ; Francim est cité pour l'incidence."
+          },
+          {
+            "correct": false,
+            "proposition": "Une seule version de la CIM a été utilisée pour toute la période 1975-2015.",
+            "justification": "Plusieurs versions sont mentionnées : CIM 8, 9 et 10."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756203855080_05",
+      "current_version_epoch_ms": 1756203855080,
+      "rang": "B",
+      "topic": {
+        "subject": "onco",
+        "item": "epidemioKc"
+      },
+      "data": {
+        "statement": "Définir les rôles respectifs du réseau Francim et du CépiDc dans la surveillance des cancers.",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le réseau Francim regroupe des registres de cancers utilisés pour produire des données d'incidence.",
+            "justification": "Les données d'incidence sont extraites de la base commune des registres des cancers du réseau Francim."
+          },
+          {
+            "correct": true,
+            "proposition": "Le CépiDc est le Centre d'épidémiologie sur les causes médicales de décès de l'Inserm.",
+            "justification": "L'intitulé exact du producteur des données de mortalité est précisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Le CépiDc fournit des données de mortalité codées selon les CIM 8, 9 et 10.",
+            "justification": "Le codage des données de mortalité est indiqué comme CIM 8, 9 et 10."
+          },
+          {
+            "correct": false,
+            "proposition": "Francim fournit des données de mortalité sur la période 1975-2015.",
+            "justification": "La période 1975-2015 est associée aux données de mortalité du CépiDc, pas au réseau Francim."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données d'incidence 2015 n'incluent pas les registres généraux.",
+            "justification": "Elles incluent 14 registres généraux ainsi que 9 registres spécialisés."
+          }
+        ]
+      }
+    }
+  ]
+}
