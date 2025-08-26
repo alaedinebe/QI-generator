@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcphysiopath",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756204608130_01",
+      "current_version_epoch_ms": 1756204608130,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel est le pourcentage de cancers qui survient dans le cadre de syndromes de prédisposition génétique aux cancers ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "5 à 10%",
+            "justification": "Les syndromes de prédisposition génétique représentent 5 à 10% de l'ensemble des cancers."
+          },
+          {
+            "correct": false,
+            "proposition": "20 à 30%",
+            "justification": "Ce pourcentage est trop élevé par rapport à la réalité des cancers génétiques prédisposés."
+          },
+          {
+            "correct": false,
+            "proposition": "30 à 40%",
+            "justification": "Les syndromes génétiques de prédisposition au cancer représentent une proportion bien plus faible."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 2%",
+            "justification": "Cette estimation est trop basse pour être en adéquation avec les chiffres observés."
+          },
+          {
+            "correct": false,
+            "proposition": "10 à 15%",
+            "justification": "Bien que proche, ce chiffre reste supérieur à la réalité qui est de 5 à 10%."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204608130_02",
+      "current_version_epoch_ms": 1756204608130,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel facteur est le plus souvent responsable des syndromes de prédisposition génétique au cancer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inactivation de gènes suppresseurs de tumeurs impliqués dans la réparation de l'ADN",
+            "justification": "Les syndromes de prédisposition génétique sont principalement liés à des mutations dans des gènes impliqués dans la réparation de l'ADN, comme BRCA1/2 ou MMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutation de gènes de croissance tumorale",
+            "justification": "Les mutations dans des gènes de croissance tumorale ne sont pas typiquement responsables des syndromes de prédisposition génétique."
+          },
+          {
+            "correct": false,
+            "proposition": "Mutations dans les gènes oncogènes",
+            "justification": "Les oncogènes ne sont pas responsables des syndromes génétiques mais des mutations somatiques dans les cancers sporadiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Altérations du microenvironnement tumoral",
+            "justification": "Bien que le microenvironnement tumoral puisse influencer le développement du cancer, il n'est pas responsable des syndromes génétiques de prédisposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la surveillance génétique",
+            "justification": "La surveillance génétique n'est pas un facteur responsable des syndromes de prédisposition génétique au cancer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204608130_03",
+      "current_version_epoch_ms": 1756204608130,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Dans quelle situation la recherche d'une mutation génétique chez un membre de la famille du cas index est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le cas index présente une mutation constitutionnelle",
+            "justification": "La détection d'une mutation génétique chez le cas index permet d'identifier les membres de la famille porteurs de la mutation, permettant un suivi adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la famille n'a pas d'antécédents de cancer",
+            "justification": "L'absence d'antécédents familiaux de cancer n'indique pas la nécessité de rechercher des mutations génétiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le cas index est âgé de plus de 60 ans",
+            "justification": "L'âge du cas index ne justifie pas à lui seul la recherche de mutations génétiques, surtout en l'absence de cancer à un âge précoce."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'on ne connaît pas l'historique génétique de la famille",
+            "justification": "Même en l'absence d'historique génétique connu, la recherche de mutation chez un cas index doit être basée sur l'âge précoce du cancer."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le cancer survient après 50 ans",
+            "justification": "L'âge supérieur à 50 ans n'est pas un critère majeur pour rechercher une mutation génétique, sauf en cas de cancer à un âge précoce."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204608130_04",
+      "current_version_epoch_ms": 1756204608130,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt de l'identification d'une mutation génétique chez un cas index ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Proposer un test prédictif aux apparentés asymptomatiques",
+            "justification": "La mutation génétique chez le cas index permet de proposer un test aux membres de la famille afin d'évaluer leur risque et de leur offrir un suivi adapté."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre la guérison du cancer chez le cas index",
+            "justification": "Bien que l'identification de mutations génétiques permette un suivi adapté, elle ne permet pas la guérison immédiate du cancer."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter tout traitement pour les apparentés porteurs de la mutation",
+            "justification": "Le test génétique n'est pas destiné à éviter le traitement, mais à proposer une surveillance spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Proposer un traitement chimio-préventif pour les membres de la famille",
+            "justification": "Le test génétique n'implique pas systématiquement un traitement préventif comme la chimiothérapie."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre une analyse des facteurs environnementaux chez les membres de la famille",
+            "justification": "La recherche de mutation génétique se concentre sur les altérations moléculaires et non sur les facteurs environnementaux."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756204608130_05",
+      "current_version_epoch_ms": 1756204608130,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcphysiopath"
+      },
+      "data": {
+        "statement": "Quel est le facteur clé suggérant la nécessité d'une consultation d'oncogénétique dans un cas de cancer solide chez un adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le diagnostic d'un cancer à un âge précoce, généralement avant 40 ans",
+            "justification": "Le diagnostic d'un cancer solide chez un adulte avant 40 ans est un critère majeur indiquant la nécessité d'une consultation spécialisée en oncogénétique."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence de symptômes généraux sans antécédents familiaux",
+            "justification": "Les symptômes généraux seuls ne justifient pas la consultation d'oncogénétique sans un âge précoce ou des antécédents familiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Une histoire familiale lointaine de cancer",
+            "justification": "Une histoire familiale lointaine, sans lien direct avec le cas index, ne justifie pas à elle seule une consultation oncogénétique."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de réponse au traitement initial",
+            "justification": "L'absence de réponse au traitement n'indique pas nécessairement un syndrome génétique de prédisposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Le cancer est localisé dans un organe rare",
+            "justification": "Le fait que le cancer se localise dans un organe rare n'est pas suffisant pour justifier une consultation d'oncogénétique sans autres critères."
+          }
+        ]
+      }
+    }
+  ]
+}
