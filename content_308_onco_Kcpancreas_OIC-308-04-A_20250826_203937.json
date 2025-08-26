@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Kcpancreas",
+    "subject": "onco"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756233724049_01",
+      "current_version_epoch_ms": 1756233724049,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quel est le rôle du marqueur CA 19.9 dans le diagnostic des tumeurs du pancréas ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Il est utilisé comme outil diagnostique de première intention.",
+            "justification": "Le marqueur CA 19.9 n'est pas un outil diagnostique, sauf dans des situations spécifiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut être utile pour le diagnostic dans certains cas de masse pancréatique dont l'histologie ne peut être obtenue.",
+            "justification": "CA 19.9 peut être un indicateur dans des cas où l'histologie ne peut être obtenue, en particulier lorsque la valeur est supérieure à 10 fois la norme sans cholestase."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utile pour suivre l'évolution de la maladie pendant le traitement.",
+            "justification": "CA 19.9 n'est pas spécifiquement utilisé pour suivre l'évolution du traitement dans la tumeur pancréatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est recommandé dans tous les cas de suspicion de cancer pancréatique.",
+            "justification": "CA 19.9 n'est pas utilisé systématiquement pour diagnostiquer un cancer pancréatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est nécessaire pour confirmer le diagnostic d'adénocarcinome.",
+            "justification": "CA 19.9 peut être utile, mais n'est pas suffisant pour confirmer un adénocarcinome sans histologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756233724049_02",
+      "current_version_epoch_ms": 1756233724049,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Lors du bilan biologique pré-thérapeutique d'une tumeur pancréatique, quel examen n'est pas nécessaire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "NFS (numération de la formule sanguine)",
+            "justification": "La NFS est un examen de base nécessaire pour évaluer l'état général du patient avant traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Ionogramme sanguin",
+            "justification": "L'ionogramme est essentiel pour évaluer l'équilibre électrolytique avant tout traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatinine",
+            "justification": "Le bilan rénal est essentiel pour évaluer la fonction rénale du patient avant de débuter un traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "CA 19.9",
+            "justification": "Le CA 19.9 n'est pas un examen de bilan pré-thérapeutique, il est utilisé dans des situations spécifiques de diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique (transaminases, phosphatases alcalines, GGT)",
+            "justification": "Le bilan hépatique est crucial pour évaluer l'impact de la tumeur sur la fonction hépatique avant traitement."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756233724049_03",
+      "current_version_epoch_ms": 1756233724049,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quel est le critère biologique permettant de retenir le diagnostic d'adénocarcinome pancréatique dans une masse dont l'histologie est non obtenue ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Un taux de CA 19.9 supérieur à la valeur supérieure normale avec cholestase associée.",
+            "justification": "Un taux élevé de CA 19.9 sans cholestase est un critère diagnostic, mais avec cholestase, ce n'est pas fiable."
+          },
+          {
+            "correct": true,
+            "proposition": "Un taux de CA 19.9 supérieur à 10 fois la valeur supérieure normale sans cholestase associée.",
+            "justification": "Un taux de CA 19.9 plus de 10 fois la valeur supérieure normale sans cholestase est un critère diagnostique en l'absence d'histologie."
+          },
+          {
+            "correct": false,
+            "proposition": "Un taux de créatinine supérieur à la normale.",
+            "justification": "La créatinine ne joue pas un rôle direct dans le diagnostic de l'adénocarcinome pancréatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une élévation des transaminases.",
+            "justification": "Les transaminases peuvent être élevées dans de nombreuses affections, mais ne sont pas spécifiques à l'adénocarcinome pancréatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Une élévation des phosphatases alcalines.",
+            "justification": "Les phosphatases alcalines peuvent être augmentées dans diverses pathologies hépatiques ou osseuses, mais ne sont pas diagnostiques du cancer pancréatique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756233724049_04",
+      "current_version_epoch_ms": 1756233724049,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du bilan biologique dans le cadre d'une tumeur du pancréas avant traitement ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Définir le type histologique de la tumeur.",
+            "justification": "Le bilan biologique ne permet pas de définir le type histologique, c'est l'histologie qui le fait."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer l'état général et la fonction des organes avant le traitement.",
+            "justification": "Le bilan biologique pré-thérapeutique a pour but d'évaluer la fonction hépatique, rénale et nutritionnelle pour adapter le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer l'efficacité de la chimiothérapie.",
+            "justification": "Le bilan biologique avant traitement sert à évaluer l'état du patient, mais pas à mesurer l'efficacité du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer l'impact psychologique de la tumeur sur le patient.",
+            "justification": "Le bilan biologique se concentre sur l'état physique, pas sur l'impact psychologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Confirmer la présence de métastases.",
+            "justification": "Les métastases sont diagnostiquées par imagerie, pas par bilan biologique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756233724049_05",
+      "current_version_epoch_ms": 1756233724049,
+      "rang": "A",
+      "topic": {
+        "subject": "onco",
+        "item": "Kcpancreas"
+      },
+      "data": {
+        "statement": "Le CA 19.9 est principalement utilisé dans quel cas clinique en relation avec une tumeur pancréatique ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Lors de la détection précoce d'un cancer pancréatique.",
+            "justification": "Le CA 19.9 n'est pas utilisé pour la détection précoce, mais dans des cas spécifiques lorsque l'histologie est difficile à obtenir."
+          },
+          {
+            "correct": true,
+            "proposition": "Lors du diagnostic d'un adénocarcinome pancréatique en l'absence d'histologie obtenue.",
+            "justification": "CA 19.9 est utile dans des cas où l'histologie ne peut être obtenue et où la valeur est significativement élevée sans cholestase."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la réponse au traitement du cancer pancréatique.",
+            "justification": "CA 19.9 n'est pas utilisé pour suivre la réponse au traitement, il est davantage utile pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour établir un pronostic de survie.",
+            "justification": "CA 19.9 ne permet pas de déterminer directement le pronostic de survie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la prévention du cancer pancréatique.",
+            "justification": "Le CA 19.9 n'a aucun rôle préventif, il est plutôt utilisé dans le diagnostic lorsque l'histologie n'est pas possible."
+          }
+        ]
+      }
+    }
+  ]
+}
