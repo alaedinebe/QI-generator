@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756266454650_01",
+      "current_version_epoch_ms": 1756266454650,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le seuil transfusionnel recommandé pour une numération plaquettaire (NP) de 20 G/L chez un patient présentant des facteurs hémorragiques associés ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "20 G/L, aucun facteur de risque",
+            "justification": "Il s'agit du seuil transfusionnel pour une NP de 20 G/L, en l'absence de facteurs hémorragiques associés."
+          },
+          {
+            "correct": false,
+            "proposition": "10 G/L, aucun facteur de risque",
+            "justification": "Le seuil transfusionnel pour une NP de 10 G/L sans facteurs de risque est de 10 G/L, et non 20 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "20 G/L avec fièvre ou traitement anti-plaquettaire",
+            "justification": "La NP de 20 G/L est associée à des facteurs hémorragiques, mais non à des symptômes comme la fièvre ou l'anticoagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "50 G/L avec geste invasif",
+            "justification": "La NP de 50 G/L est appropriée pour des gestes invasifs, mais cela ne correspond pas à 20 G/L."
+          },
+          {
+            "correct": false,
+            "proposition": "100 G/L pour chirurgie neurochirurgicale",
+            "justification": "Le seuil de 100 G/L est réservé aux interventions neurochirurgicales, non applicable ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266454650_02",
+      "current_version_epoch_ms": 1756266454650,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il recommandé de transfuser des concentrés de plaquettes pour une thrombopénie périphérique ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de thrombopénie périphérique isolée sans syndrome hémorragique",
+            "justification": "Les transfusions de concentrés de plaquettes pour thrombopénie périphérique ne sont indiquées que s'il y a un syndrome hémorragique mettant en jeu le pronostic vital."
+          },
+          {
+            "correct": true,
+            "proposition": "Uniquement si syndrome hémorragique mettant en jeu le pronostic vital",
+            "justification": "Les transfusions de concentrés de plaquettes en cas de thrombopénie périphérique sont indiquées seulement en urgence vitale."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour toute thrombopénie périphérique quel que soit le niveau de NP",
+            "justification": "Les transfusions pour thrombopénie périphérique ne sont nécessaires que dans les cas urgents, et non en présence de thrombopénie isolée."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de leucémies aiguës sans signes cliniques graves",
+            "justification": "Dans les leucémies aiguës, la transfusion est indiquée seulement lorsque la NP est inférieure à 50 G/L et en présence de CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un purpura thrombopénique auto-immun avec NP > 50 G/L",
+            "justification": "Dans le purpura thrombopénique auto-immun, la transfusion n'est recommandée que si urgence vitale, même avec NP > 50 G/L."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266454650_03",
+      "current_version_epoch_ms": 1756266454650,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Comment est évalué le rendement transfusionnel des plaquettes en prophylaxie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Par l'augmentation de la NP de plus de 10 G/L à 24 heures",
+            "justification": "En prophylaxie, le rendement est évalué par l'augmentation de la numération plaquettaire, qui doit être supérieure à 10 G/L après 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la normalisation immédiate de la numération plaquettaire",
+            "justification": "La normalisation immédiate de la NP n'est pas un critère de rendement transfusionnel, il s'agit d'une mesure à 24 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la formule du CCI, sans tenir compte de la surface corporelle",
+            "justification": "La formule du CCI prend en compte la surface corporelle, ce qui n'est pas omis dans l'évaluation du rendement."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la diminution de la NP après transfusion",
+            "justification": "Le rendement transfusionnel est évalué par une augmentation de la NP, non par sa diminution."
+          },
+          {
+            "correct": false,
+            "proposition": "Par la disparition du syndrome hémorragique",
+            "justification": "La disparition du syndrome hémorragique peut être un objectif thérapeutique mais n'est pas la mesure directe du rendement transfusionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266454650_04",
+      "current_version_epoch_ms": 1756266454650,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelle est la cause la plus fréquente d'un état réfractaire aux plaquettes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'anticorps anti-HLA ou anti-HPA chez le receveur",
+            "justification": "L'origine immunologique liée aux anticorps anti-HLA ou anti-HPA est la cause la plus fréquente d'un état réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Consommation excessive de plaquettes due à un hypersplénisme",
+            "justification": "L'hypersplénisme peut causer une consommation excessive de plaquettes, mais ce n'est pas la cause principale d'un état réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de fièvre et traitement médicamenteux comme l'amphotéricine B",
+            "justification": "La fièvre et les interférences médicamenteuses peuvent affecter le rendement transfusionnel, mais ce n'est pas la principale cause d'un état réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de compatibilité ABO",
+            "justification": "La compatibilité ABO n'affecte pas directement le rendement des plaquettes dans le cadre d'un état réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Transfusion de plaquettes trop anciennes",
+            "justification": "La fraicheur des plaquettes est importante, mais elle ne constitue pas la cause principale d'un état réfractaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266454650_05",
+      "current_version_epoch_ms": 1756266454650,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quels tests sont nécessaires avant de délivrer des concentrés de plaquettes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Seul le groupe ABO est nécessaire",
+            "justification": "Seul le groupe ABO est nécessaire, car les plaquettes portent les antigènes ABO."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe ABO et Rhésus",
+            "justification": "Le Rhésus n'est pas nécessaire pour les plaquettes, contrairement aux groupes ABO qui doivent être vérifiés."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe ABO et test de compatibilité croisée",
+            "justification": "La compatibilité ABO est recommandée, mais la compatibilité croisée n'est pas systématiquement réalisée pour les plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe ABO et tests anti-HLA",
+            "justification": "Les tests anti-HLA ne sont réalisés que dans des cas particuliers, tels que des transfusions chez des patients ayant des anticorps anti-HLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Groupe ABO, Rhésus et tests de compatibilité HPA",
+            "justification": "Les tests de compatibilité HPA sont rarement nécessaires, sauf dans des cas d'immunisation spécifique."
+          }
+        ]
+      }
+    }
+  ]
+}
