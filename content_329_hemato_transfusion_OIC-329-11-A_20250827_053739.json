@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756266006616_01",
+      "current_version_epoch_ms": 1756266006616,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le signe clinique évocateur d'une hémolyse aiguë lors d'une transfusion sanguine incompatible ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre, douleurs abdomino-lombaires, hémoglobinurie",
+            "justification": "Ces signes sont caractéristiques d'une incompatibilité érythrocytaire, entraînant une hémolyse aiguë et peuvent être associés à un choc et une CIVD."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre légère et éruption cutanée",
+            "justification": "Ce n'est pas un signe spécifique de l'hémolyse aiguë. Ces symptômes sont plus typiques d'une réaction allergique mineure."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée sévère et hypotension",
+            "justification": "La dyspnée et hypotension sont plus associées à un TRALI (Transfusion Related Lung Injury) qu'à une hémolyse aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre > 39°C avec troubles digestifs",
+            "justification": "Ce tableau clinique évoque plus une contamination bactérienne du produit transfusé (pousse bactérienne) qu'une hémolyse aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Surcharge circulatoire et œdème pulmonaire",
+            "justification": "Ces signes sont plus associés à un TACO (Transfusion Associated Circulatory Overload), une complication liée à un excès de volume transfusé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266006616_02",
+      "current_version_epoch_ms": 1756266006616,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le principal mécanisme physiopathologique du TRALI (Transfusion Related Lung Injury) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Activation des granulocytes et relargage enzymatique au niveau pulmonaire",
+            "justification": "TRALI est causé par l'agglutination et l'activation des granulocytes dans les poumons, entraînant des lésions de la paroi alvéolo-capillaire et un œdème pulmonaire aigu."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction immunitaire due à une incompatibilité ABO",
+            "justification": "Cette description correspond à une hémolyse aiguë, pas à TRALI, qui est spécifique à l'activation des granulocytes dans le poumon."
+          },
+          {
+            "correct": false,
+            "proposition": "Surcharge de volume sanguin liée à une transfusion trop rapide",
+            "justification": "Cela correspond à un TACO, pas au TRALI. Le TACO résulte d'une surcharge volumique causée par une transfusion excessive."
+          },
+          {
+            "correct": false,
+            "proposition": "Accumulation de cytokines dues à la déleucocytation des PSL",
+            "justification": "Les cytokines sont responsables des réactions fébriles non hémolytiques, mais ne sont pas le mécanisme principal du TRALI."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie aux protéines humaines des produits sanguins",
+            "justification": "Cela correspond plutôt à une réaction allergique ou anaphylactique, pas à un TRALI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266006616_03",
+      "current_version_epoch_ms": 1756266006616,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques d'une réaction fébrile non hémolytique (RFNH) survenant après une transfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Décalage de la température de 1°C, généralement < 39°C, dans les 4h suivant la transfusion",
+            "justification": "Cette réaction est caractérisée par une élévation modérée de la température liée à la présence de cytokines dans le produit sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre > 39°C et frissons dans les 15 minutes suivant la transfusion",
+            "justification": "Ce tableau clinique est plus évocateur d'une transmission bactérienne ou d'un accident hémolytique."
+          },
+          {
+            "correct": false,
+            "proposition": "Dyspnée sévère associée à une hypotension dans les 6h suivant la transfusion",
+            "justification": "Cela correspond à un TRALI, pas à une RFNH. Le TRALI se manifeste principalement par des troubles respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Surcharge de volume sanguin avec œdème pulmonaire",
+            "justification": "Ce tableau clinique évoque un TACO, non une RFNH."
+          },
+          {
+            "correct": false,
+            "proposition": "Allergie grave, avec choc anaphylactique",
+            "justification": "Cela correspond à une réaction allergique grave, et non à une RFNH qui est une réaction modérée liée aux cytokines."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266006616_04",
+      "current_version_epoch_ms": 1756266006616,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur de risque pour développer un TRALI lors d'une transfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Présence d'anticorps anti-HLA dans les produits sanguins",
+            "justification": "Les anticorps anti-HLA présents dans certains produits sanguins, comme le plasma et les plaquettes, peuvent être responsables de l'activation des granulocytes et du développement du TRALI."
+          },
+          {
+            "correct": false,
+            "proposition": "Transfusion trop rapide de produit sanguin",
+            "justification": "Cela est associé à un TACO, pas à un TRALI. Le TACO est causé par une surcharge circulatoire, pas par l'activation des granulocytes."
+          },
+          {
+            "correct": false,
+            "proposition": "Surcharge d'érythrocytes dans le sang",
+            "justification": "Cela correspond à un accident hémolytique et non à un TRALI. Le TRALI est lié à l'activation des granulocytes dans les poumons."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de déleucocytation des produits sanguins",
+            "justification": "La déleucocytation réduit les risques de RFNH mais n'a pas d'impact direct sur le développement du TRALI, qui est dû aux anticorps anti-HLA."
+          },
+          {
+            "correct": false,
+            "proposition": "Incompatibilité ABO",
+            "justification": "L'incompatibilité ABO est responsable d'une hémolyse aiguë, pas d'un TRALI."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266006616_05",
+      "current_version_epoch_ms": 1756266006616,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel signe clinique distingue principalement une réaction anaphylactique d'une allergie mineure après une transfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Choc avec dyspnée sévère et hypotension",
+            "justification": "Le choc anaphylactique se manifeste par une chute de la pression artérielle et une dyspnée aiguë, caractéristiques d'une réaction anaphylactique grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Rash cutané limité à 2/3 du corps",
+            "justification": "Cela correspond à une allergie sévère, mais sans la gravité d'un choc anaphylactique, qui est plus associé à une réaction immédiate grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre supérieure à 39°C avec frissons",
+            "justification": "Ce tableau clinique est plus évocateur d'une contamination bactérienne du produit transfusé, pas d'une anaphylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobinurie et douleurs abdomino-lombaires",
+            "justification": "Ce sont des signes d'une hémolyse aiguë due à une incompatibilité érythrocytaire, et non d'une anaphylaxie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre légère avec éruption cutanée localisée",
+            "justification": "Ce sont des symptômes d'une allergie mineure, pas d'une anaphylaxie."
+          }
+        ]
+      }
+    }
+  ]
+}
