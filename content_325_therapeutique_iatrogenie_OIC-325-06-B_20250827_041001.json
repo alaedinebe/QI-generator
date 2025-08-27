@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "iatrogenie",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756260748198_01",
+      "current_version_epoch_ms": 1756260748198,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "iatrogenie"
+      },
+      "data": {
+        "statement": "Quel est le pourcentage d'admissions en médecine ou en chirurgie dues à un événement indésirable grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "3 à 5%",
+            "justification": "Les événements indésirables graves représentent 3 à 5% des admissions en médecine ou en chirurgie."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 2%",
+            "justification": "Cette proposition sous-estime le pourcentage des admissions liées aux événements indésirables graves."
+          },
+          {
+            "correct": false,
+            "proposition": "5 à 7%",
+            "justification": "Cette valeur dépasse le pourcentage observé dans les résultats de l'étude ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "10 à 12%",
+            "justification": "Cette proposition est trop élevée par rapport aux résultats observés dans l'étude ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "2 à 3%",
+            "justification": "Cette estimation est inférieure à la donnée réelle de l'étude."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756260748198_02",
+      "current_version_epoch_ms": 1756260748198,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "iatrogenie"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur associé aux événements indésirables graves ayant motivé une hospitalisation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Produits de santé",
+            "justification": "50% des événements indésirables graves sont associés à des produits de santé, un facteur clé dans ces événements."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgies complexes",
+            "justification": "Bien que les chirurgies complexes puissent être risquées, les produits de santé sont le facteur majeur des événements graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Problèmes liés à l'hygiène",
+            "justification": "Les événements indésirables liés à l'hygiène ne constituent pas le facteur principal dans les résultats d'ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "Complications post-chirurgicales",
+            "justification": "Les complications post-chirurgicales font partie des événements, mais les produits de santé sont plus fréquemment en cause."
+          },
+          {
+            "correct": false,
+            "proposition": "Erreurs humaines",
+            "justification": "Les erreurs humaines peuvent être impliquées, mais le principal facteur est l'utilisation de produits de santé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756260748198_03",
+      "current_version_epoch_ms": 1756260748198,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "iatrogenie"
+      },
+      "data": {
+        "statement": "Quel pourcentage des événements indésirables graves survenant en cours d'hospitalisation sont considérés comme évitables ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "50%",
+            "justification": "Environ 50% des événements indésirables graves sont considérés comme évitables selon l'étude ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "25%",
+            "justification": "Ce pourcentage est inférieur à la proportion observée des événements évitables."
+          },
+          {
+            "correct": false,
+            "proposition": "75%",
+            "justification": "Cette estimation est trop élevée par rapport aux données d'ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Un pourcentage aussi bas ne correspond pas aux résultats observés dans l'étude."
+          },
+          {
+            "correct": false,
+            "proposition": "90%",
+            "justification": "Ce pourcentage est bien trop élevé comparé aux données rapportées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756260748198_04",
+      "current_version_epoch_ms": 1756260748198,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "iatrogenie"
+      },
+      "data": {
+        "statement": "Quel est l'impact des événements indésirables graves sur la durée de l'hospitalisation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils entraînent souvent une prolongation d'hospitalisation.",
+            "justification": "Selon l'étude ENEIS, dans 2 cas sur 5, les événements indésirables graves entraînent une prolongation de l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils réduisent généralement la durée de l'hospitalisation.",
+            "justification": "Cette affirmation est incorrecte, car les événements graves tendent à allonger la durée de l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils n'ont aucun impact sur la durée de l'hospitalisation.",
+            "justification": "Les événements graves ont un impact direct, prolongeant souvent l'hospitalisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils raccourcissent la durée de l'hospitalisation.",
+            "justification": "Cette proposition est erronée car un événement grave entraîne généralement des complications nécessitant un séjour plus long."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont sans conséquence sur la durée de l'hospitalisation.",
+            "justification": "Les événements graves sont un facteur de prolongation de l'hospitalisation, non sans conséquence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756260748198_05",
+      "current_version_epoch_ms": 1756260748198,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "iatrogenie"
+      },
+      "data": {
+        "statement": "Quel est le taux d'incidence des événements indésirables graves en cours d'hospitalisation en médecine ou chirurgie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "7%",
+            "justification": "L'incidence des événements indésirables graves pendant l'hospitalisation en médecine ou chirurgie est d'environ 7%."
+          },
+          {
+            "correct": false,
+            "proposition": "10%",
+            "justification": "Cette valeur est trop élevée par rapport à l'incidence rapportée dans l'étude ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "5%",
+            "justification": "Un taux de 5% est inférieur à celui observé dans l'étude ENEIS."
+          },
+          {
+            "correct": false,
+            "proposition": "12%",
+            "justification": "Cette estimation dépasse le taux d'incidence observé dans l'étude."
+          },
+          {
+            "correct": false,
+            "proposition": "15%",
+            "justification": "Ce taux est trop élevé par rapport aux résultats d'ENEIS."
+          }
+        ]
+      }
+    }
+  ]
+}
