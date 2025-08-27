@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "recomedic",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756261949830_01",
+      "current_version_epoch_ms": 1756261949830,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques essentielles d'un médicament générique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il doit avoir la même composition qualitative et quantitative en principe actif que le médicament princeps.",
+            "justification": "Un médicament générique doit être identique au médicament princeps en termes de principe actif, pour garantir son efficacité."
+          },
+          {
+            "correct": false,
+            "proposition": "Il peut avoir une composition différente en principe actif, mais doit être identique en termes d'excipients.",
+            "justification": "Les excipients peuvent différer, mais la composition en principe actif doit être identique au médicament princeps."
+          },
+          {
+            "correct": true,
+            "proposition": "Il doit démontrer une bioéquivalence avec le médicament princeps.",
+            "justification": "La bioéquivalence est un critère essentiel pour valider qu'un générique présente des caractéristiques pharmacocinétiques identiques au princeps."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament générique peut contenir des excipients différents et de manière illimitée.",
+            "justification": "Les excipients peuvent varier, mais des excipients à effets notoires doivent être pris en compte lors de la substitution."
+          },
+          {
+            "correct": true,
+            "proposition": "Il peut avoir un aspect, une couleur et un goût différents du médicament princeps.",
+            "justification": "Les différences de couleur et de goût ne remettent pas en cause la bioéquivalence entre le générique et le princeps."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261949830_02",
+      "current_version_epoch_ms": 1756261949830,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions de substitution d'un médicament princeps par un générique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La substitution peut se faire entre médicaments génériques d'un même groupe.",
+            "justification": "La substitution doit se faire dans le cadre d'un groupe générique, incluant le médicament princeps et ses génériques."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pharmacien peut substituer un médicament princeps par un générique sans aucune restriction.",
+            "justification": "La substitution nécessite que le médicament princeps ne soit pas marqué comme 'non substituable' et qu'il n'y ait pas d'excipient à effet notoire."
+          },
+          {
+            "correct": true,
+            "proposition": "La substitution peut être faite entre le médicament princeps et un médicament générique du même groupe.",
+            "justification": "Les médicaments d'un même groupe générique sont considérés comme substituables."
+          },
+          {
+            "correct": false,
+            "proposition": "Les substitutions sont possibles même si le médicament princeps présente un excipient à effet notoire.",
+            "justification": "Dans ce cas, il est essentiel de choisir un générique avec le même excipient ou sans excipient à effet notoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Le prescripteur peut inscrire 'non substituable' pour éviter la substitution.",
+            "justification": "Le prescripteur peut spécifier cette mention dans des cas particuliers comme les médicaments à marge thérapeutique étroite ou avec contre-indication à un excipient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261949830_03",
+      "current_version_epoch_ms": 1756261949830,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quelle est la différence principale entre un médicament générique et un médicament biosimilaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un médicament biosimilaire est un produit biologique ayant une structure complexe, alors qu'un générique est une copie exacte d'un médicament chimique.",
+            "justification": "Les médicaments biosimilaires sont biologiques, ce qui implique des différences subtiles par rapport au médicament de référence, contrairement aux médicaments génériques."
+          },
+          {
+            "correct": false,
+            "proposition": "Un médicament biosimilaire a une composition identique en principe actif et excipients à un médicament générique.",
+            "justification": "Les biosimilaires et les génériques diffèrent, notamment par leur nature (biologique pour les biosimilaires et chimique pour les génériques)."
+          },
+          {
+            "correct": true,
+            "proposition": "Les médicaments biosimilaires nécessitent des études supplémentaires pour prouver leur comparabilité avec le médicament de référence.",
+            "justification": "Les biosimilaires requièrent des études précliniques et cliniques supplémentaires pour démontrer leur efficacité et sécurité, contrairement aux génériques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les médicaments biosimilaires peuvent être substitués directement aux médicaments biologiques de référence sans surveillance.",
+            "justification": "La substitution de médicaments biosimilaires doit être surveillée et nécessite l'accord du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Les médicaments biosimilaires ne peuvent pas être substitués comme des génériques.",
+            "justification": "Les médicaments biosimilaires ne sont pas des copies exactes et leur substitution nécessite l'accord du prescripteur et du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261949830_04",
+      "current_version_epoch_ms": 1756261949830,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Dans quel cas un médecin peut-il s'opposer à la substitution d'un médicament générique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le médicament a une marge thérapeutique étroite et que le traitement est équilibré.",
+            "justification": "Les médicaments à marge thérapeutique étroite sont sensibles aux variations de dosage, justifiant un refus de substitution."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un patient souhaite changer son traitement sans raison médicale.",
+            "justification": "La décision médicale doit se baser sur des critères cliniques, non sur une préférence du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque le médicament prescrit contient un excipient à effet notoire et qu'aucun générique n'est disponible sans cet excipient.",
+            "justification": "Dans ce cas, un médecin peut refuser la substitution si l'excipient est contre-indiqué pour le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un médicament générique présente un prix plus élevé que le princeps.",
+            "justification": "Le prix n'est pas un critère pour justifier le refus de substitution, la décision doit être clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Lors de la prescription chez un enfant de moins de 6 ans quand il n'existe pas de forme galénique adaptée.",
+            "justification": "Les enfants de moins de 6 ans peuvent avoir des besoins spécifiques non couverts par les formes galéniques des génériques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261949830_05",
+      "current_version_epoch_ms": 1756261949830,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quelles études sont nécessaires pour valider la bioéquivalence d'un médicament générique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une étude de bioéquivalence randomisée en cross-over et en dose unique.",
+            "justification": "Ces études permettent de comparer de manière rigoureuse les caractéristiques pharmacocinétiques du générique et du princeps."
+          },
+          {
+            "correct": false,
+            "proposition": "Une étude de bioéquivalence est requise uniquement pour les médicaments à marge thérapeutique étroite.",
+            "justification": "Toutes les études de bioéquivalence doivent respecter les critères standard, quelle que soit la marge thérapeutique du médicament."
+          },
+          {
+            "correct": true,
+            "proposition": "Les intervalles de confiance des concentrations maximales (Cmax) et de l'aire sous la courbe (AUC) doivent être contenus dans l'intervalle 80-125%.",
+            "justification": "Ces critères garantissent que la pharmacocinétique du générique est comparable à celle du princeps."
+          },
+          {
+            "correct": false,
+            "proposition": "Les tests de bioéquivalence peuvent se faire sur des patients présentant des maladies chroniques.",
+            "justification": "Les études de bioéquivalence sont menées sur des volontaires sains, pas sur des patients malades."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour les médicaments à marge thérapeutique étroite, la bioéquivalence est acceptée dans un intervalle de 90-111%.",
+            "justification": "Les médicaments à marge thérapeutique étroite requièrent des critères plus stricts pour garantir leur sécurité."
+          }
+        ]
+      }
+    }
+  ]
+}
