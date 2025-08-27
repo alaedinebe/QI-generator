@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ETP",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756257292725_01",
+      "current_version_epoch_ms": 1756257292725,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quel facteur favorise la bonne observance thérapeutique chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un traitement d'administration simple.",
+            "justification": "Un traitement d'administration simple est plus facilement suivi par le patient, réduisant ainsi le risque d'oublis ou d'erreurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement de longue durée.",
+            "justification": "Les traitements de longue durée peuvent augmenter le risque de non observance en raison de la fatigue ou de l'oubli."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement avec des effets secondaires importants.",
+            "justification": "Les effets secondaires importants peuvent dissuader le patient de poursuivre le traitement, ce qui nuit à l'observance."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement peu toléré.",
+            "justification": "Une mauvaise tolérance d'un traitement peut entraîner une diminution de l'observance, car le patient choisit de ne pas suivre le traitement en raison de son inconfort."
+          },
+          {
+            "correct": false,
+            "proposition": "Un traitement mal compris par le patient.",
+            "justification": "Si le patient ne comprend pas les bénéfices et modalités du traitement, il peut ne pas suivre les recommandations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257292725_02",
+      "current_version_epoch_ms": 1756257292725,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quel est le principal facteur de non-observance thérapeutique pour les traitements des maladies non symptomatiques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La nature de l'affection traitée.",
+            "justification": "Lorsque la maladie est non symptomatique, le patient ne ressent pas de besoins urgents, ce qui peut l'amener à négliger le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "La complexité de la stratégie thérapeutique.",
+            "justification": "Bien que la complexité de la stratégie thérapeutique puisse influencer l'observance, ce n'est pas spécifique aux maladies non symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La mauvaise tolérance du traitement.",
+            "justification": "La mauvaise tolérance est un facteur général de non-observance, mais elle ne s'applique pas spécifiquement aux maladies non symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le stress du patient.",
+            "justification": "Le stress peut jouer un rôle, mais n'est pas directement lié aux maladies non symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise en charge des soins par les assurances.",
+            "justification": "La prise en charge des soins par les assurances n'est pas un facteur spécifique à l'observance pour les maladies non symptomatiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257292725_03",
+      "current_version_epoch_ms": 1756257292725,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quel modèle de décision thérapeutique permet au patient d'être acteur de sa propre décision de traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le modèle de décision partagée.",
+            "justification": "Dans ce modèle, le patient et le médecin échangent leurs informations et prennent ensemble la décision thérapeutique, impliquant activement le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Le modèle paternaliste.",
+            "justification": "Le modèle paternaliste est un modèle descendant où le médecin décide sans impliquer activement le patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Le modèle de patient autonome.",
+            "justification": "Le modèle de patient autonome laisse le patient décider seul sans l'implication active du médecin."
+          },
+          {
+            "correct": false,
+            "proposition": "Le modèle de décision imposée.",
+            "justification": "Ce modèle n'existe pas dans la pratique thérapeutique, et est donc erroné."
+          },
+          {
+            "correct": false,
+            "proposition": "Le modèle de prescription immédiate.",
+            "justification": "Ce modèle ne correspond pas à une réelle prise en compte des attentes et du rôle actif du patient dans le processus de décision."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257292725_04",
+      "current_version_epoch_ms": 1756257292725,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quelles sont les conséquences d'un traitement mal compris par le patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un risque accru de non-observance.",
+            "justification": "Si le patient ne comprend pas le traitement, ses bénéfices, ou les modalités de prise, il est moins susceptible de suivre correctement les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "Une meilleure tolérance au traitement.",
+            "justification": "La compréhension ne garantit pas une meilleure tolérance, ce qui est plutôt lié à la nature du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Un risque diminué d'effets secondaires.",
+            "justification": "La compréhension du traitement n'influence pas directement l'apparition des effets secondaires, qui dépendent des caractéristiques du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Une meilleure relation médecin-patient.",
+            "justification": "Bien que la communication soit importante, la compréhension du traitement seul n'améliore pas directement la relation médecin-patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Un allongement de la durée du traitement.",
+            "justification": "La durée du traitement dépend principalement de la pathologie traitée et non de la compréhension du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257292725_05",
+      "current_version_epoch_ms": 1756257292725,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Parmi les facteurs de non-observance, quel élément est souvent lié à des problèmes physiologiques du patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les problèmes physiologiques du patient.",
+            "justification": "Les problèmes physiologiques peuvent rendre le traitement plus difficile, par exemple en raison de douleurs, effets secondaires, ou difficultés à gérer la prise des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "La complexité de la stratégie thérapeutique.",
+            "justification": "Bien que la complexité de la stratégie thérapeutique puisse jouer un rôle, elle n'est pas directement liée aux problèmes physiologiques spécifiques du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Le stress du patient.",
+            "justification": "Bien que le stress soit un facteur contribuant à la non-observance, il n'est pas directement lié aux problèmes physiologiques du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La mauvaise tolérance du traitement.",
+            "justification": "La tolérance au traitement dépend de nombreux facteurs, y compris physiologiques, mais elle n'est pas un facteur unique et universel."
+          },
+          {
+            "correct": false,
+            "proposition": "La prise en charge des soins par les assurances.",
+            "justification": "La prise en charge des soins par les assurances n'est pas un problème physiologique, mais un problème administratif ou financier."
+          }
+        ]
+      }
+    }
+  ]
+}
