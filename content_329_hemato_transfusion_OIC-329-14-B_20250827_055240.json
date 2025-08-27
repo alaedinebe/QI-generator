@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756266906831_01",
+      "current_version_epoch_ms": 1756266906831,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Le purpura post-transfusionnel survient généralement dans quel délai après une transfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "5 à 12 jours",
+            "justification": "Le purpura post-transfusionnel se manifeste entre 5 et 12 jours après la transfusion, souvent après la transfusion de CGR ou de plaquettes."
+          },
+          {
+            "correct": false,
+            "proposition": "24 à 48 heures",
+            "justification": "Les symptômes du purpura post-transfusionnel apparaissent bien après 24 à 48 heures, généralement entre 5 et 12 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "1 à 3 jours",
+            "justification": "Le purpura post-transfusionnel survient plus tardivement, entre 5 et 12 jours après la transfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Plus de 12 jours",
+            "justification": "Les symptômes apparaissent généralement entre 5 et 12 jours après la transfusion, donc au-delà de 12 jours serait trop tardif."
+          },
+          {
+            "correct": false,
+            "proposition": "Immédiatement après la transfusion",
+            "justification": "Le purpura post-transfusionnel ne survient pas immédiatement après la transfusion mais dans une période de 5 à 12 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266906831_02",
+      "current_version_epoch_ms": 1756266906831,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelle est la principale conséquence clinique de la surcharge en fer chez un patient polytransfusé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hémosidérose",
+            "justification": "La surcharge en fer chez un patient polytransfusé peut mener à une hémosidérose, une accumulation anormale de fer dans les tissus."
+          },
+          {
+            "correct": false,
+            "proposition": "Anémie ferriprive",
+            "justification": "L'anémie ferriprive est liée à une carence en fer, et non à une surcharge."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension",
+            "justification": "La surcharge en fer entraîne généralement des complications liées à l'accumulation de fer, pas de l'hypotension."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombopénie",
+            "justification": "La surcharge en fer n'est pas directement responsable d'une thrombopénie, mais plutôt des problèmes liés à l'accumulation du fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction allergique",
+            "justification": "La surcharge en fer n'entraîne pas une réaction allergique, mais des conséquences comme l'hémosidérose."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266906831_03",
+      "current_version_epoch_ms": 1756266906831,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel facteur infectieux est le plus susceptible d'être transmis par transfusion sanguine ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "HIV",
+            "justification": "Le VIH est un virus majeur à risque, bien que les mesures préventives minimisent sa transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Parvovirus B19",
+            "justification": "Bien que le parvovirus B19 soit transmis par transfusion, son risque est moins élevé que celui des virus majeurs comme le VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Zika",
+            "justification": "Le virus Zika, bien que transmissible par transfusion, est beaucoup plus rare comparé au VIH."
+          },
+          {
+            "correct": false,
+            "proposition": "Hépatite A",
+            "justification": "L'hépatite A peut être transmise, mais son risque est mieux maîtrisé par des tests et des précautions dans les transfusions."
+          },
+          {
+            "correct": false,
+            "proposition": "Tuberculose",
+            "justification": "La tuberculose n'est pas généralement transmise par transfusion sanguine."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266906831_04",
+      "current_version_epoch_ms": 1756266906831,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Que devrait-on surveiller chez un patient polytransfusé pour prévenir la surcharge en fer ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ferritinémie",
+            "justification": "La ferritinémie est un indicateur clé de l'accumulation de fer dans le corps. Il est recommandé de surveiller la ferritinémie chez les patients polytransfusés."
+          },
+          {
+            "correct": false,
+            "proposition": "Numération des globules blancs",
+            "justification": "La numération des globules blancs ne permet pas de suivre la surcharge en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Taux de plaquettes",
+            "justification": "Le taux de plaquettes ne sert pas à surveiller la surcharge en fer, mais plutôt à évaluer les risques de thrombopénie."
+          },
+          {
+            "correct": false,
+            "proposition": "Créatinine",
+            "justification": "La créatinine est un indicateur de la fonction rénale, et non de la surcharge en fer."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoglobine",
+            "justification": "L'hémoglobine est un indicateur de l'état sanguin, mais pas spécifiquement de la surcharge en fer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266906831_05",
+      "current_version_epoch_ms": 1756266906831,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles sont les mesures préventives pour limiter le risque de transmission du CMV lors des transfusions ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déleucocytation active",
+            "justification": "La déleucocytation active des produits sanguins permet de réduire la transmission du CMV, un virus intracellulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Filtration du plasma",
+            "justification": "Bien que le plasma soit filtré, ce n'est pas spécifiquement pour le CMV, mais pour d'autres agents infectieux."
+          },
+          {
+            "correct": false,
+            "proposition": "Vaccination des donneurs",
+            "justification": "La vaccination des donneurs de sang contre le CMV n'est pas une pratique courante pour prévenir la transmission."
+          },
+          {
+            "correct": false,
+            "proposition": "Inactivation des pathogènes",
+            "justification": "L'inactivation des pathogènes concerne surtout les agents non conventionnels comme le prion, et non spécifiquement le CMV."
+          },
+          {
+            "correct": false,
+            "proposition": "Test systématique de tous les donneurs",
+            "justification": "Les donneurs sont sélectionnés selon des critères de risque, mais le test systématique du CMV n'est pas toujours pratiqué."
+          }
+        ]
+      }
+    }
+  ]
+}
