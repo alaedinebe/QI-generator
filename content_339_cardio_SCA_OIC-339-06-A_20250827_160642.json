@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SCA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756303748963_01",
+      "current_version_epoch_ms": 1756303748963,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelle est la localisation du SCA ST+ dans le territoire antérieur ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "V1-V4",
+            "justification": "Le territoire antérieur correspond aux dérivations V1 à V4 dans un SCA ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "V5-V6",
+            "justification": "Les dérivations V5-V6 correspondent à un SCA ST+ dans le territoire latéral bas."
+          },
+          {
+            "correct": false,
+            "proposition": "DII, DIII, aVF",
+            "justification": "Le territoire inférieur est représenté par les dérivations DII, DIII, aVF, et non le territoire antérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "V7, V8, V9",
+            "justification": "Les dérivations V7, V8, V9 correspondent à la localisation postérieure, et non antérieure."
+          },
+          {
+            "correct": false,
+            "proposition": "V1-V6",
+            "justification": "V1-V6 est un territoire étendu de l'antérieur et non spécifique à la zone antérieure pure."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303748963_02",
+      "current_version_epoch_ms": 1756303748963,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est le signe ECG caractéristique d'un SCA ST+ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sus-décalage du segment ST d'au moins 1mm dans deux dérivations contiguës",
+            "justification": "Le sus-décalage du segment ST est un signe clé dans un SCA ST+, notamment lorsqu'il dépasse 1mm dans deux dérivations contiguës."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde T inversée",
+            "justification": "L'onde T inversée peut être présente dans un SCA ST-, mais pas typiquement dans un SCA ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P bifide",
+            "justification": "Une onde P bifide n'est pas un signe électrocardiographique associé spécifiquement à un SCA ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation du segment ST à l'horizontale",
+            "justification": "Le sous-décalage ou sous-décalage horizontal n'est pas caractéristique du SCA ST+, mais plutôt du SCA ST-."
+          },
+          {
+            "correct": false,
+            "proposition": "Rythme sinusal rapide",
+            "justification": "Un rythme sinusal rapide n'est pas un signe distinctif du SCA ST+, bien qu'il puisse être observé dans certaines situations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303748963_03",
+      "current_version_epoch_ms": 1756303748963,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelle anomalie est souvent associée au sus-décalage dans un SCA ST+ ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Miroir sous-décalage du segment ST dans les dérivations opposées",
+            "justification": "Le sus-décalage est souvent accompagné d'un miroir sous-décalage du segment ST dans les dérivations opposées."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde T positive dans toutes les dérivations",
+            "justification": "Une onde T positive dans toutes les dérivations n'est pas un signe typique d'un SCA ST+, où l'onde T peut être ample et symétrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde Q de nécrose uniquement dans les dérivations antérieures",
+            "justification": "L'onde Q de nécrose peut apparaître dans plusieurs territoires, pas uniquement dans les dérivations antérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc de branche droit",
+            "justification": "Le bloc de branche gauche est souvent plus significatif dans le cadre d'un SCA ST+ que le bloc de branche droit."
+          },
+          {
+            "correct": false,
+            "proposition": "Inversion de l'onde P",
+            "justification": "L'inversion de l'onde P n'est pas une caractéristique spécifique du SCA ST+."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303748963_04",
+      "current_version_epoch_ms": 1756303748963,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelles anomalies peuvent être observées dans un SCA ST- sur un ECG ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sous-décalage du segment ST et onde T négative ou biphasique",
+            "justification": "Le SCA ST- peut se manifester par un sous-décalage du segment ST, avec des ondes T négatives ou biphasiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Sus-décalage du segment ST dans plusieurs dérivations",
+            "justification": "Le sus-décalage du segment ST est caractéristique du SCA ST+, pas du SCA ST-."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde P déformée",
+            "justification": "L'onde P déformée n'est pas typique du SCA ST-, où les anomalies concernent principalement les segments ST et T."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde Q de nécrose dans toutes les dérivations",
+            "justification": "Les ondes Q de nécrose ne sont pas systématiques dans le SCA ST-, qui se caractérise plutôt par des anomalies du segment ST et des ondes T."
+          },
+          {
+            "correct": false,
+            "proposition": "Allongement du QT",
+            "justification": "L'allongement du QT n'est pas un signe prédominant du SCA ST-, qui est caractérisé par des anomalies du segment ST et des ondes T."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303748963_05",
+      "current_version_epoch_ms": 1756303748963,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est le territoire d'un SCA ST+ dans les dérivations DII, DIII, aVF ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Inférieur",
+            "justification": "Les dérivations DII, DIII, et aVF correspondent au territoire inférieur dans un SCA ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "Latéral bas",
+            "justification": "Les dérivations V5 et V6 correspondent au territoire latéral bas, pas DII, DIII, aVF."
+          },
+          {
+            "correct": false,
+            "proposition": "Antérieur étendu",
+            "justification": "Le territoire antérieur étendu est représenté par V1-V6 et non par DII, DIII, aVF."
+          },
+          {
+            "correct": false,
+            "proposition": "Postérieur",
+            "justification": "Les dérivations V7, V8, V9 correspondent au territoire postérieur, pas DII, DIII, aVF."
+          },
+          {
+            "correct": false,
+            "proposition": "Latéral haut",
+            "justification": "Le territoire latéral haut est représenté par D1 et aVL, pas par DII, DIII, aVF."
+          }
+        ]
+      }
+    }
+  ]
+}
