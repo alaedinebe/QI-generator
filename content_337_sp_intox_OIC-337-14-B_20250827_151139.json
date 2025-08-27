@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "intox",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756300445987_01",
+      "current_version_epoch_ms": 1756300445987,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "intox"
+      },
+      "data": {
+        "statement": "Quel est le traitement de première intention d'une intoxication aiguë au paracétamol chez l'adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administration de charbon actif",
+            "justification": "Le charbon actif peut être utilisé dans les premières heures suivant l'ingestion pour limiter l'absorption du paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration d'un antidote spécifique dès la prise en charge",
+            "justification": "L'antidote spécifique n'est administré que si le seuil toxique a été atteint, après évaluation clinique et dosage sanguin."
+          },
+          {
+            "correct": false,
+            "proposition": "Induction du vomissement",
+            "justification": "L'induction du vomissement est contre-indiquée car elle ne permet pas d'éliminer efficacement le paracétamol et peut entraîner des complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion intraveineuse d'une solution glucosée",
+            "justification": "La perfusion intraveineuse de glucose n'est pas un traitement de première intention dans une intoxication au paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémodialyse",
+            "justification": "L'hémodialyse est rarement indiquée dans l'intoxication aiguë au paracétamol, sauf en cas d'insuffisance hépatique sévère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756300445987_02",
+      "current_version_epoch_ms": 1756300445987,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "intox"
+      },
+      "data": {
+        "statement": "Quel est l'antidote recommandé en cas d'intoxication aiguë au paracétamol chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Acétylcystéine",
+            "justification": "L'acétylcystéine est l'antidote de référence, administré par voie intraveineuse ou orale, pour prévenir les effets toxiques hépatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Charbon actif",
+            "justification": "Le charbon actif peut être utilisé en complément dans les premières heures, mais ce n'est pas l'antidote spécifique au paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "N-acétylcystéine par voie intraveineuse uniquement",
+            "justification": "Bien que l'acétylcystéine soit l'antidote, elle peut aussi être administrée par voie orale, ce qui n'est pas limité à la voie intraveineuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Vitamines K et E",
+            "justification": "Les vitamines K et E ne sont pas utilisées dans le traitement de l'intoxication au paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "Bicarbonate de sodium",
+            "justification": "Le bicarbonate de sodium n'est pas indiqué dans le traitement de l'intoxication aiguë au paracétamol."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756300445987_03",
+      "current_version_epoch_ms": 1756300445987,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "intox"
+      },
+      "data": {
+        "statement": "Quelles sont les indications pour l'administration de N-acétylcystéine dans une intoxication aiguë au paracétamol ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si la concentration plasmatique de paracétamol est supérieure à la valeur seuil",
+            "justification": "L'administration de N-acétylcystéine est indiquée lorsque la concentration plasmatique dépasse la valeur seuil déterminée en fonction du temps écoulé depuis l'ingestion."
+          },
+          {
+            "correct": false,
+            "proposition": "Si les symptômes cliniques d'intoxication sont déjà apparus",
+            "justification": "L'administration de N-acétylcystéine doit se faire même en l'absence de symptômes, en se basant sur la concentration plasmatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 24 heures d'intoxication",
+            "justification": "L'efficacité de N-acétylcystéine est optimale dans les 8 heures suivant l'ingestion, et elle peut être administrée jusqu'à 24 heures, mais moins efficace au-delà."
+          },
+          {
+            "correct": true,
+            "proposition": "Si le patient a des antécédents de maladie hépatique",
+            "justification": "Les antécédents de maladie hépatique constituent un facteur de risque supplémentaire, nécessitant un traitement précoce avec N-acétylcystéine."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de doute sur l'ingestion du paracétamol",
+            "justification": "L'indication de N-acétylcystéine ne repose pas sur le doute mais sur des éléments cliniques et biologiques (concentration plasmatique)."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756300445987_04",
+      "current_version_epoch_ms": 1756300445987,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "intox"
+      },
+      "data": {
+        "statement": "Quel est le rôle du traitement par N-acétylcystéine dans l'intoxication au paracétamol ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prévenir ou limiter les lésions hépatiques liées à l'accumulation de métabolites toxiques",
+            "justification": "L'acétylcystéine permet de rétablir le stock de glutathion, essentiel pour neutraliser les métabolites toxiques du paracétamol et éviter la nécrose hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter l'élimination rénale du paracétamol",
+            "justification": "L'acétylcystéine n'augmente pas l'élimination rénale, mais agit en neutralisant les métabolites toxiques au niveau hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Stimuler la production de bile",
+            "justification": "L'acétylcystéine n'a pas d'effet sur la production de bile mais agit directement sur les métabolites toxiques du paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "Accélérer l'absorption du paracétamol dans le tractus gastro-intestinal",
+            "justification": "L'acétylcystéine n'a pas d'effet sur l'absorption du paracétamol mais sur les métabolites toxiques produits après absorption."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer la concentration plasmatique de paracétamol",
+            "justification": "L'acétylcystéine ne diminue pas directement la concentration plasmatique du paracétamol, mais neutralise les métabolites hépatotoxiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756300445987_05",
+      "current_version_epoch_ms": 1756300445987,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "intox"
+      },
+      "data": {
+        "statement": "Dans quelles conditions l'hémodialyse peut-elle être envisagée en cas d'intoxication aiguë au paracétamol ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'insuffisance hépatique sévère",
+            "justification": "L'hémodialyse est indiquée uniquement dans les cas d'insuffisance hépatique sévère où les autres traitements ne sont plus efficaces."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'absorption massive de paracétamol, quel que soit le délai",
+            "justification": "L'hémodialyse n'est pas une méthode standard de traitement sauf en cas d'insuffisance hépatique ou autres complications sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 12 heures d'intoxication, quelle que soit la concentration plasmatique",
+            "justification": "L'hémodialyse n'est pas indiquée systématiquement après 12 heures sauf en cas de complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de défaillance rénale aiguë isolée",
+            "justification": "L'hémodialyse est principalement utilisée pour l'insuffisance hépatique et non pour la défaillance rénale isolée dans l'intoxication au paracétamol."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de faible suspicion d'intoxication au paracétamol",
+            "justification": "L'hémodialyse n'est envisagée que dans les formes graves d'intoxication et non en cas de faible intoxication."
+          }
+        ]
+      }
+    }
+  ]
+}
