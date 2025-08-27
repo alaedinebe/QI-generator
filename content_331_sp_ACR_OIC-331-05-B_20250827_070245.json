@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ACR",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756271111758_01",
+      "current_version_epoch_ms": 1756271111758,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Qu'est-ce que la période de 'no-flow' dans le cadre de l'arrêt cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Période entre l'effondrement et le début du massage cardiaque.",
+            "justification": "La période de 'no-flow' désigne le temps entre l'effondrement de la circulation (arrêt cardiaque) et le début des manœuvres de réanimation (massage cardiaque). C'est une phase critique, sans aucun flux sanguin, qui sert de marqueur pronostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Période après la reprise d'un flux sanguin normal.",
+            "justification": "Cette définition correspond à la période de 'low-flow', pas à la période de 'no-flow'."
+          },
+          {
+            "correct": false,
+            "proposition": "Période entre le début du massage cardiaque et l'activation de l'ECMO.",
+            "justification": "Cette description correspond à la période de 'low-flow', non à la période de 'no-flow'."
+          },
+          {
+            "correct": false,
+            "proposition": "Période durant laquelle le massage cardiaque est inefficace.",
+            "justification": "Le 'no-flow' est une période avant l'initiation du massage cardiaque, pas une période où le massage est inefficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Période où le flux sanguin est rétabli grâce à un traitement médicamenteux.",
+            "justification": "Le rétablissement du flux sanguin est associé à la période de 'low-flow', où des interventions comme l'ECMO ou la reprise de la circulation peuvent intervenir."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756271111758_02",
+      "current_version_epoch_ms": 1756271111758,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quelle est la définition de la période de 'low-flow' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Période entre le début du massage cardiaque et la reprise d'une activité circulatoire normale ou la mise en place d'un support circulatoire mécanique (ECMO).",
+            "justification": "La période de 'low-flow' se situe après le début du massage cardiaque, où un flux sanguin réduit existe jusqu'à la reprise d'une circulation suffisante, que ce soit par une récupération naturelle ou un soutien mécanique comme l'ECMO."
+          },
+          {
+            "correct": false,
+            "proposition": "Période avant l'effondrement circulatoire.",
+            "justification": "Cette description fait référence à la période de 'no-flow', avant le début des interventions de réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Période après la reprise d'un flux sanguin normal.",
+            "justification": "Après la reprise d'un flux sanguin normal, il n'y a plus de 'low-flow', mais une activité circulatoire normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Période où les manœuvres de réanimation sont inefficaces.",
+            "justification": "La période de 'low-flow' correspond à une circulation diminuée, mais les manœuvres de réanimation sont toujours en cours et peuvent être efficaces."
+          },
+          {
+            "correct": false,
+            "proposition": "Période pendant laquelle la circulation est rétablie par des médicaments.",
+            "justification": "Le rétablissement de la circulation par des médicaments n'est pas un critère de la période de 'low-flow', qui implique la poursuite du massage cardiaque ou un soutien mécanique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756271111758_03",
+      "current_version_epoch_ms": 1756271111758,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quel est le rôle pronostique de la période de 'no-flow' ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle est un indicateur important de la gravité de l'arrêt cardiaque et influence le pronostic.",
+            "justification": "La durée de la période de 'no-flow' est un marqueur pronostique essentiel, un plus long délai avant le début de la réanimation est associé à un pronostic moins favorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle n'a aucune influence sur l'issue de l'arrêt cardiaque.",
+            "justification": "La période de 'no-flow' a une grande influence sur le pronostic, car chaque minute sans circulation sanguine augmente les risques de dommages irréversibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle marque la fin de la réanimation, signifiant la perte irréversible de la fonction cardiaque.",
+            "justification": "La période de 'no-flow' marque le début de l'arrêt cardiaque, mais la réanimation peut continuer après cette phase."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est un indicateur du type de traitement utilisé.",
+            "justification": "La période de 'no-flow' est un indicateur de la durée sans circulation, non du type de traitement administré."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle indique la durée optimale de massage cardiaque.",
+            "justification": "La période de 'no-flow' est le temps sans circulation avant la réanimation, elle ne détermine pas la durée optimale du massage cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756271111758_04",
+      "current_version_epoch_ms": 1756271111758,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Pourquoi la période de 'low-flow' est-elle importante dans la gestion de l'arrêt cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle détermine la fenêtre dans laquelle des interventions comme l'ECMO peuvent être nécessaires pour rétablir une circulation suffisante.",
+            "justification": "La période de 'low-flow' est cruciale car elle correspond à une circulation insuffisante mais présente, et des interventions comme l'ECMO sont souvent requises pour soutenir la circulation avant un rétablissement complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle indique une récupération immédiate de la circulation sans traitement.",
+            "justification": "La période de 'low-flow' implique une circulation partiellement insuffisante, et ne correspond pas à une récupération immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle marque le moment où les manœuvres de réanimation doivent être interrompues.",
+            "justification": "La période de 'low-flow' ne marque pas l'arrêt des manœuvres, au contraire, elle persiste jusqu'à la reprise d'une circulation suffisante."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle indique la phase terminale de l'arrêt cardiaque.",
+            "justification": "La période de 'low-flow' n'indique pas la fin de l'arrêt cardiaque, mais une phase de faible circulation avant une éventuelle reprise."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est uniquement liée à l'efficacité du massage cardiaque.",
+            "justification": "La période de 'low-flow' est plus large et inclut d'autres interventions, comme l'ECMO, en plus du massage cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756271111758_05",
+      "current_version_epoch_ms": 1756271111758,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Dans quel cas la période de 'no-flow' peut-elle être prolongée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la réanimation n'est pas commencée immédiatement après l'arrêt cardiaque.",
+            "justification": "La période de 'no-flow' peut être prolongée si les secours ou la réanimation ne débutent pas rapidement après l'effondrement, augmentant ainsi le risque de lésions cérébrales irréversibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un traitement médicamenteux est administré avant le massage cardiaque.",
+            "justification": "Le traitement médicamenteux n'affecte pas la durée de la période de 'no-flow', qui est liée au temps entre l'effondrement et le début du massage cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'ECMO est immédiatement mis en place.",
+            "justification": "L'ECMO est une intervention qui intervient en phase de 'low-flow', après le début du massage cardiaque, pas pendant la phase de 'no-flow'."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la circulation est rétablie spontanément.",
+            "justification": "Si la circulation est rétablie spontanément, il n'y a plus de période de 'no-flow', mais plutôt une reprise de la circulation normale."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un choc électrique est administré avant le massage cardiaque.",
+            "justification": "Un choc électrique avant le massage cardiaque peut rétablir la circulation, mais cela n'affecte pas la durée de la période de 'no-flow' qui dépend de la réanimation rapide après l'effondrement."
+          }
+        ]
+      }
+    }
+  ]
+}
