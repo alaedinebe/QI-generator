@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756265114319_01",
+      "current_version_epoch_ms": 1756265114319,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le rôle des anticorps du système ABO dans la transfusion de concentrés de globules rouges (CGR) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils permettent de garantir la compatibilité immunologique en évitant un conflit entre les anticorps du receveur et les antigènes du donneur.",
+            "justification": "Les anticorps ABO sont des anticorps naturels et réguliers qui se forment en réponse à des antigènes étrangers et sont essentiels pour la compatibilité des transfusions."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont responsables de l'agglutination des globules rouges donneur et receveur uniquement dans les cas d'allo-immunisation.",
+            "justification": "Les anticorps ABO sont réguliers et naturels et ne sont pas liés à l'allo-immunisation mais à la reconnaissance immédiate des antigènes ABO."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils n'ont pas d'importance pour la transfusion de CGR si le groupe ABO du donneur et du receveur sont compatibles.",
+            "justification": "Même en cas de compatibilité ABO, les anticorps ABO sont toujours nécessaires pour éviter un conflit immunologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils permettent de déterminer la compatibilité pour la transfusion de plaquettes et de plasma.",
+            "justification": "Les anticorps ABO jouent un rôle important dans les transfusions de CGR mais ne sont pas utilisés pour la transfusion de plaquettes ou de plasma."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps ABO ne sont pas testés avant une transfusion de CGR.",
+            "justification": "La détermination du groupe ABO est essentielle pour prévenir un conflit immunologique immédiat lors de la transfusion."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265114319_02",
+      "current_version_epoch_ms": 1756265114319,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Pourquoi les donneurs de sang de groupe O sont considérés comme universels pour la transfusion de globules rouges ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les globules rouges du groupe O ne possèdent pas d'antigènes A ou B, ce qui les rend compatibles avec tous les groupes ABO.",
+            "justification": "Le groupe O est dépourvu d'antigènes A et B, ce qui permet aux globules rouges O de pouvoir être transfusés à tous les groupes ABO sans provoquer de rejet."
+          },
+          {
+            "correct": false,
+            "proposition": "Les globules rouges du groupe O sont compatibles uniquement avec les groupes A et B.",
+            "justification": "Le groupe O est compatible avec tous les groupes ABO, pas seulement A et B."
+          },
+          {
+            "correct": false,
+            "proposition": "Les donneurs de groupe O sont universels seulement pour les transfusions de plasma.",
+            "justification": "Les donneurs de groupe O sont universels pour la transfusion de CGR, pas seulement pour le plasma."
+          },
+          {
+            "correct": false,
+            "proposition": "Les donneurs de groupe O ne doivent être utilisés que pour des transfusions dans leur propre groupe ABO.",
+            "justification": "Le groupe O peut être utilisé pour tous les groupes ABO, et non uniquement pour les transfusions internes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les donneurs de groupe O sont universels uniquement dans les situations d'urgence.",
+            "justification": "Le groupe O est universel dans toutes les situations de transfusion, pas seulement en urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265114319_03",
+      "current_version_epoch_ms": 1756265114319,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le rôle des anticorps irréguliers dans le cadre de la transfusion ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ils sont produits après une exposition à un antigène étranger (par exemple lors d'une transfusion ou grossesse) et peuvent causer des réactions immunologiques.",
+            "justification": "Les anticorps irréguliers, qui résultent de l'allo-immunisation, sont produits après une exposition à des antigènes non présents chez l'individu et peuvent entraîner des réactions lors de transfusions ultérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils sont les mêmes que les anticorps du système ABO et ne nécessitent pas de tests spécifiques avant transfusion.",
+            "justification": "Les anticorps irréguliers sont distincts des anticorps ABO et nécessitent des tests spécifiques pour éviter un conflit immunologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils ne sont détectés que chez les individus ayant déjà subi une transfusion récente.",
+            "justification": "Les anticorps irréguliers peuvent aussi être produits après une grossesse, pas seulement après une transfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Ils ne sont jamais responsables d'un conflit immunologique si le groupe ABO est compatible.",
+            "justification": "Même en cas de compatibilité ABO, la présence d'anticorps irréguliers peut provoquer un conflit immunologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anticorps irréguliers ne sont testés qu'après la transfusion de CGR.",
+            "justification": "Les anticorps irréguliers doivent être testés avant toute transfusion pour prévenir les réactions immunologiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265114319_04",
+      "current_version_epoch_ms": 1756265114319,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelle est la principale mesure à prendre pour éviter la production d'anticorps immuns vis-à-vis des antigènes du groupe Rh ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est impératif que les femmes D négatif reçoivent des CGR D négatif pour éviter la production d'anticorps anti-D.",
+            "justification": "L'antigène D est le plus immunogène du système Rh, et la transfusion de CGR D négatif est essentielle pour éviter la sensibilisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est suffisant que les femmes D négatif reçoivent des transfusions sans tenir compte de la compatibilité Rh.",
+            "justification": "La compatibilité Rh est cruciale, surtout pour les femmes en âge de procréer, afin de prévenir la production d'anticorps anti-D."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est pas nécessaire de prendre des mesures particulières pour les antigènes Rh autres que l'antigène D.",
+            "justification": "D'autres antigènes Rh comme C, E, c, et e nécessitent également une attention particulière, surtout chez les femmes en âge de procréer."
+          },
+          {
+            "correct": false,
+            "proposition": "Les antigènes Rh ne sont pas un facteur de compatibilité pour les transfusions de CGR.",
+            "justification": "Les antigènes Rh sont essentiels pour déterminer la compatibilité dans les transfusions de CGR."
+          },
+          {
+            "correct": false,
+            "proposition": "Les antigènes Rh ne sont testés qu'après une transfusion de CGR.",
+            "justification": "Les antigènes Rh doivent être testés avant la transfusion pour prévenir tout risque d'allo-immunisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265114319_05",
+      "current_version_epoch_ms": 1756265114319,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Pourquoi le contrôle ultime (CULM) est-il effectué lors d'une transfusion de CGR ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il permet de vérifier la concordance ABO entre le donneur et le receveur avant l'administration des CGR.",
+            "justification": "Le CULM permet de confirmer la compatibilité ABO avant la transfusion, réduisant ainsi les risques de réaction immunologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il sert à confirmer que les CGR sont bien phénotypés selon les antigènes du groupe Rh.",
+            "justification": "Le CULM vérifie la concordance ABO, pas nécessairement le phénotypage Rh qui est réalisé avant la transfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est effectué uniquement en cas de doute sur la compatibilité du groupe ABO.",
+            "justification": "Le CULM est une étape systématique pour tous les transfusés afin de garantir la sécurité des transfusions."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est effectué après la transfusion pour détecter d'éventuelles complications.",
+            "justification": "Le CULM est effectué avant la transfusion pour éviter tout conflit immunologique immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet uniquement de confirmer que les CGR ont été stockés correctement.",
+            "justification": "Le CULM sert principalement à confirmer la compatibilité ABO, pas la conservation des CGR."
+          }
+        ]
+      }
+    }
+  ]
+}
