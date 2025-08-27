@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ACR",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756272008051_01",
+      "current_version_epoch_ms": 1756272008051,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Dans quelle situation est-il recommandé d'arrêter la réanimation en cas d'asystolie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après 30 minutes de réanimation bien conduite en l'absence de neuroprotection ou de cause curable.",
+            "justification": "L'asystolie persistante après 30 minutes de réanimation bien conduite sans intervention neuroprotectrice ni cause réversible est un critère d'arrêt de la réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 10 minutes d'asystolie, indépendamment de l'état neurologique du patient.",
+            "justification": "L'arrêt de la réanimation n'est pas recommandé après 10 minutes sans considérer la possibilité de neuroprotection ou d'autres causes curables."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la cause de l'arrêt cardiaque est inconnue.",
+            "justification": "L'arrêt de la réanimation ne dépend pas de l'absence de connaissance de la cause, mais plutôt de la persistance de l'asystolie et des conditions spécifiques de réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Dès que l'asystolie est confirmée, sans délai.",
+            "justification": "Un délai de réanimation est nécessaire avant de considérer l'arrêt, généralement après 30 minutes, à condition que d'autres interventions comme la neuroprotection ne soient pas possibles."
+          },
+          {
+            "correct": true,
+            "proposition": "En présence de neuroprotection (hypothermie ou intoxication) ou d'une cause curable persistante.",
+            "justification": "La réanimation peut être poursuivie si une cause réversible ou la neuroprotection est en place, permettant de prolonger la tentative de réanimation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756272008051_02",
+      "current_version_epoch_ms": 1756272008051,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quelle est l'exception à l'arrêt de la réanimation en cas d'asystolie persistante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La mise en place d'une assistance mécanique circulatoire (circulation extracorporelle veinoartérielle).",
+            "justification": "L'assistance mécanique circulatoire, dans certains centres spécialisés, permet de poursuivre la réanimation dans des situations exceptionnelles si le pronostic neurologique est encore préservé."
+          },
+          {
+            "correct": false,
+            "proposition": "L'utilisation d'une autre technique de réanimation cardiaque traditionnelle.",
+            "justification": "Les techniques traditionnelles de réanimation ne sont pas considérées comme une exception pour poursuivre la réanimation dans les cas d'asystolie persistante."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence d'intoxication ou de neuroprotection.",
+            "justification": "L'absence de neuroprotection n'est pas une raison suffisante pour poursuivre la réanimation si l'asystolie persiste après 30 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "La possibilité de transport vers un autre centre de soins.",
+            "justification": "Le transport vers un autre centre de soins n'est pas en soi une exception si l'état du patient ne permet pas de bénéficier d'une réanimation adéquate."
+          },
+          {
+            "correct": true,
+            "proposition": "La persistance d'une cause curable qui justifie de poursuivre la réanimation.",
+            "justification": "Si une cause curable persiste et peut être traitée, la réanimation peut être poursuivie au-delà des 30 minutes d'asystolie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756272008051_03",
+      "current_version_epoch_ms": 1756272008051,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quel est le rôle du pronostic neurologique dans la décision d'arrêter la réanimation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est essentiel dans la décision de poursuivre la réanimation, surtout en cas de transport pour mise en place d'une assistance mécanique circulatoire.",
+            "justification": "Le pronostic neurologique est un facteur déterminant dans la décision de poursuivre ou non la réanimation, notamment lors de la mise en place d'assistance circulatoire dans des centres spécialisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est secondaire par rapport à la cause immédiate de l'arrêt cardiaque.",
+            "justification": "Le pronostic neurologique est primordial et ne doit pas être négligé, surtout dans des situations où une assistance mécanique circulatoire est envisagée."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'a aucune influence sur la décision d'arrêter la réanimation.",
+            "justification": "Le pronostic neurologique joue un rôle important dans la décision clinique et ne peut être ignoré, en particulier dans les situations complexes de réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il ne doit être pris en compte qu'après 60 minutes d'asystolie.",
+            "justification": "Le pronostic neurologique est un critère à considérer bien avant 60 minutes, en particulier si une assistance circulatoire est mise en place."
+          },
+          {
+            "correct": true,
+            "proposition": "Il permet de définir la possibilité de recours à des stratégies comme la neuroprotection ou l'assistance mécanique.",
+            "justification": "Le pronostic neurologique détermine si la réanimation doit être poursuivie, en particulier en cas d'hypothermie, d'intoxication ou d'utilisation d'une assistance mécanique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756272008051_04",
+      "current_version_epoch_ms": 1756272008051,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Dans quelles circonstances un patient peut-il bénéficier d'une réanimation prolongée après 30 minutes d'asystolie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si une cause réversible est identifiée et peut être traitée.",
+            "justification": "Lorsque la cause de l'asystolie est réversible et peut être traitée, il est justifié de poursuivre la réanimation au-delà des 30 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le patient présente des signes de vie après 20 minutes.",
+            "justification": "Les signes de vie doivent être confirmés avant d'ajuster la décision de poursuivre la réanimation, mais une durée de 20 minutes n'est pas un critère absolu."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la réanimation est menée dans un centre spécialisé.",
+            "justification": "Le fait que la réanimation soit menée dans un centre spécialisé ne justifie pas la poursuite après 30 minutes si aucune cause curable n'est identifiée."
+          },
+          {
+            "correct": true,
+            "proposition": "Si le pronostic neurologique est encore favorable et une neuroprotection est mise en place.",
+            "justification": "La neuroprotection (hypothermie, traitement de l'intoxication) permet de prolonger la réanimation si le pronostic neurologique reste favorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Si des tests complémentaires sont réalisés après 30 minutes.",
+            "justification": "Les tests complémentaires ne justifient pas à eux seuls la prolongation de la réanimation après 30 minutes, sauf si une cause curable ou un pronostic favorable est confirmé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756272008051_05",
+      "current_version_epoch_ms": 1756272008051,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions nécessaires pour le transport d'un patient en arrêt cardiaque réfractaire vers un centre spécialisé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le pronostic neurologique doit être encore préservé.",
+            "justification": "Le transport d'un patient en arrêt cardiaque réfractaire vers un centre spécialisé ne doit être envisagé que si le pronostic neurologique est suffisamment favorable pour justifier l'utilisation d'une assistance mécanique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le patient doit avoir plus de 60 ans.",
+            "justification": "L'âge n'est pas un critère déterminant pour la décision de transporter un patient en arrêt cardiaque réfractaire vers un centre spécialisé."
+          },
+          {
+            "correct": false,
+            "proposition": "Il doit être possible de réaliser une réanimation dans tous les centres de soins.",
+            "justification": "Tous les centres ne disposent pas des moyens techniques nécessaires pour traiter un arrêt cardiaque réfractaire avec assistance mécanique circulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le transport doit se faire avec un médecin spécialisé uniquement.",
+            "justification": "Bien que le transport nécessite un suivi médical approprié, ce n'est pas une condition absolue que le transport soit effectué exclusivement par un médecin spécialisé."
+          },
+          {
+            "correct": true,
+            "proposition": "Une assistance mécanique circulatoire doit être disponible dans le centre de destination.",
+            "justification": "Le transport vers un centre spécialisé est justifié uniquement si ce centre dispose des moyens pour mettre en place une assistance mécanique circulatoire (circulation extracorporelle veinoartérielle)."
+          }
+        ]
+      }
+    }
+  ]
+}
