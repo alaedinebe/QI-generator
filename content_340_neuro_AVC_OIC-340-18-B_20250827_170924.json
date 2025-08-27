@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "AVC",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756307511552_01",
+      "current_version_epoch_ms": 1756307511552,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "AVC"
+      },
+      "data": {
+        "statement": "Quel est le pronostic fonctionnel à 1 an chez les patients ayant survécu à un AVC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "20% des patients décèdent dans l'année suivant l'AVC.",
+            "justification": "La mortalité à 1 an après un AVC est de 40%, ce qui implique que 60% des survivants sont encore en vie après un an."
+          },
+          {
+            "correct": true,
+            "proposition": "Un tiers des survivants retrouvent leur état antérieur.",
+            "justification": "Un tiers des survivants peuvent récupérer et retrouver leur état antérieur."
+          },
+          {
+            "correct": false,
+            "proposition": "La moitié des survivants sont dépendants après un an.",
+            "justification": "Un tiers des survivants sont dépendants, mais la moitié n'est pas une estimation correcte."
+          },
+          {
+            "correct": false,
+            "proposition": "40% des patients survivent sans séquelles après 1 an.",
+            "justification": "Seulement un tiers des survivants retrouvent leur état antérieur, et la proportion de ceux sans séquelles est inférieure à 40%."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les survivants de l'AVC sont indépendants après 1 an.",
+            "justification": "Un tiers des survivants gardent des séquelles tout en étant indépendants, et un autre tiers reste dépendant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756307511552_02",
+      "current_version_epoch_ms": 1756307511552,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "AVC"
+      },
+      "data": {
+        "statement": "Parmi les complications possibles post-AVC, laquelle est la plus fréquente à 5 ans ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La récidive d'AVC est présente chez 30% des patients à 5 ans.",
+            "justification": "La récidive d'AVC touche environ 30% des patients après 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "L'épilepsie vasculaire est la complication la plus fréquente à 5 ans.",
+            "justification": "L'épilepsie vasculaire est une complication moins fréquente que la récidive d'AVC."
+          },
+          {
+            "correct": false,
+            "proposition": "Les troubles cognitifs sont présents dans 50% des cas à 5 ans.",
+            "justification": "Les troubles cognitifs sont fréquents mais ne touchent pas 50% des patients à 5 ans."
+          },
+          {
+            "correct": false,
+            "proposition": "Les douleurs neuropathiques sont plus fréquentes que la récidive d'AVC.",
+            "justification": "Les douleurs neuropathiques sont une complication moins fréquente que la récidive d'AVC."
+          },
+          {
+            "correct": false,
+            "proposition": "La spasticité est plus fréquente que la récidive d'AVC.",
+            "justification": "La récidive d'AVC reste la complication la plus fréquente à 5 ans."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756307511552_03",
+      "current_version_epoch_ms": 1756307511552,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "AVC"
+      },
+      "data": {
+        "statement": "Quel objectif est prioritaire lors du suivi post-AVC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer les séquelles et les complications neurologiques.",
+            "justification": "L'évaluation des séquelles et complications neurologiques est essentielle dans le suivi post-AVC pour adapter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer uniquement les facteurs de risque vasculaire.",
+            "justification": "Évaluer les facteurs de risque vasculaire fait partie du suivi, mais ce n'est pas l'objectif principal."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer une rééducation sans évaluation des séquelles neurologiques.",
+            "justification": "La rééducation est une partie importante, mais l'évaluation des séquelles neurologiques doit venir en priorité."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescrire des médicaments pour la prévention primaire.",
+            "justification": "Le suivi post-AVC doit se concentrer sur la prévention secondaire, pas primaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Suivre exclusivement les troubles de l'humeur post-AVC.",
+            "justification": "Les troubles de l'humeur sont importants, mais l'évaluation des séquelles neurologiques est prioritaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756307511552_04",
+      "current_version_epoch_ms": 1756307511552,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "AVC"
+      },
+      "data": {
+        "statement": "Le pronostic fonctionnel des survivants d'AVC dépend principalement de :",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'étendue des lésions cérébrales et des complications post-AVC.",
+            "justification": "L'étendue des lésions cérébrales et des complications neurologiques influence fortement le pronostic fonctionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge du patient uniquement.",
+            "justification": "L'âge est un facteur important, mais d'autres facteurs, comme l'étendue des lésions cérébrales, sont plus décisifs."
+          },
+          {
+            "correct": false,
+            "proposition": "La seule prise en charge médicamenteuse post-AVC.",
+            "justification": "Bien que la prise en charge médicamenteuse soit importante, d'autres facteurs comme l'étendue des lésions sont également déterminants."
+          },
+          {
+            "correct": false,
+            "proposition": "Le suivi strict des facteurs de risque vasculaire seul.",
+            "justification": "Le suivi des facteurs de risque vasculaire est crucial, mais ne garantit pas à lui seul un pronostic favorable."
+          },
+          {
+            "correct": false,
+            "proposition": "Le type d'AVC (ischémique ou hémorragique).",
+            "justification": "Le type d'AVC a un impact, mais l'étendue des lésions cérébrales et des complications reste le facteur déterminant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756307511552_05",
+      "current_version_epoch_ms": 1756307511552,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "AVC"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la prescription de rééducation post-AVC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Récupérer les fonctions neurologiques perdues et améliorer la qualité de vie.",
+            "justification": "La rééducation vise principalement à restaurer les fonctions neurologiques et à améliorer la qualité de vie du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévenir la récidive d'AVC par un travail musculaire.",
+            "justification": "La rééducation se concentre sur la récupération fonctionnelle, mais elle n'est pas spécifiquement ciblée sur la prévention des récidives d'AVC."
+          },
+          {
+            "correct": false,
+            "proposition": "Rendre le patient totalement autonome sans traitement médical complémentaire.",
+            "justification": "La rééducation complète la prise en charge médicale, mais l'autonomie totale n'est pas toujours atteinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire uniquement les douleurs neuropathiques liées à l'AVC.",
+            "justification": "La rééducation vise à améliorer les fonctions, mais elle ne se limite pas à la gestion des douleurs neuropathiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter les complications post-AVC sans prendre en compte les séquelles neurologiques.",
+            "justification": "La rééducation vise à gérer les séquelles neurologiques, pas uniquement à prévenir les complications."
+          }
+        ]
+      }
+    }
+  ]
+}
