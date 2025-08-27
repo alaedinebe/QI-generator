@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SCA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756303900079_01",
+      "current_version_epoch_ms": 1756303900079,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de l'électrocardiogramme (ECG) dans le cadre d'une douleur thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ECG permet d'étudier les dérivations explorant le ventricule droit (V3r et V4r) et les dérivations postérieures (V7, V8 et V9).",
+            "justification": "L'ECG doit explorer toutes les zones cardiaques, y compris le VD droit et les zones postérieures, pour une évaluation complète lors de douleurs thoraciques."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG est uniquement nécessaire pour les douleurs thoraciques aiguës sans exploration des zones spécifiques.",
+            "justification": "L'ECG doit systématiquement inclure des dérivations explorant toutes les zones pertinentes, y compris le VD et les zones postérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG n'est nécessaire que si la douleur thoracique persiste au-delà de 30 minutes.",
+            "justification": "L'ECG est obligatoire dès toute douleur thoracique, indépendamment de sa durée."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG n'est pas utile si la douleur est d'origine non cardiaque.",
+            "justification": "L'ECG est toujours essentiel pour éliminer une cause cardiaque, même si la douleur est supposée être non cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG est utilisé principalement pour diagnostiquer les maladies pulmonaires liées à la douleur thoracique.",
+            "justification": "L'ECG sert à évaluer les anomalies cardiaques, pas directement les maladies pulmonaires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303900079_02",
+      "current_version_epoch_ms": 1756303900079,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Que faire si un ECG montre une suspicion de SCA ST- ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est recommandé de doser la troponine à H0.",
+            "justification": "Le dosage de la troponine à H0 est essentiel pour évaluer la suspicion de SCA ST- et orienter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Un dosage immédiat de troponine à H1 est requis.",
+            "justification": "Le dosage à H1 ne se fait que si la troponine à H0 est négative, donc ce n'est pas la première étape."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG seul suffit pour confirmer un SCA ST- sans analyse de la troponine.",
+            "justification": "L'ECG est un outil diagnostique initial, mais l'analyse de la troponine est nécessaire pour confirmer un SCA ST-."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est pas nécessaire de doser la troponine si l'ECG est normal.",
+            "justification": "Même avec un ECG normal, la suspicion de SCA ST- nécessite une analyse de la troponine."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG normal permet de confirmer l'absence de SCA sans autre test.",
+            "justification": "Un ECG normal n'élimine pas totalement la possibilité de SCA, un dosage de la troponine reste indispensable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303900079_03",
+      "current_version_epoch_ms": 1756303900079,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Comment interpréter un dosage de troponine classique dans un SCA ST- ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si la troponine est négative à H0, il faut répéter le dosage à H1 ou H3.",
+            "justification": "La négativité à H0 ne permet pas d'exclure un SCA, une nouvelle analyse de la troponine à H1 ou H3 est nécessaire pour confirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "Un dosage positif à H0 permet de confirmer le diagnostic sans besoin d'autres tests.",
+            "justification": "Le dosage positif à H0, bien que confirmant un SCA, nécessite souvent une confirmation supplémentaire, comme un ECG ou un autre test clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La troponine classique doit être dosée uniquement si l'ECG est anormal.",
+            "justification": "Le dosage de la troponine classique est aussi essentiel en cas de suspicion de SCA, indépendamment de l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Un dosage de troponine classique à H0 est inutile dans un SCA ST-.",
+            "justification": "Le dosage de la troponine est essentiel pour diagnostiquer un SCA ST-, même si l'ECG est négatif."
+          },
+          {
+            "correct": false,
+            "proposition": "La troponine classique est plus utile que l'ECG pour diagnostiquer un SCA.",
+            "justification": "L'ECG est un outil initial pour détecter un SCA, et la troponine est un complément pour affiner le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303900079_04",
+      "current_version_epoch_ms": 1756303900079,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est l'impact d'une troponine ultrasensible basse à H3 chez un patient avec douleur thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un seuil très bas de troponine ultrasensible à H3 permet d'éliminer un SCA sans qu'un cycle complet soit nécessaire.",
+            "justification": "La troponine ultrasensible à un niveau très bas à H3 permet de conclure immédiatement à l'absence de SCA, évitant ainsi de prolonger inutilement les tests."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seuil bas de troponine ultrasensible à H3 indique la nécessité d'un cycle H0-H1 pour confirmer l'absence de SCA.",
+            "justification": "Un seuil bas de troponine ultrasensible à H3 est suffisant pour éliminer un SCA sans avoir besoin de prolonger le cycle."
+          },
+          {
+            "correct": false,
+            "proposition": "Une troponine ultrasensible basse indique toujours un SCA non diagnostiqué.",
+            "justification": "Une troponine ultrasensible basse permet au contraire d'éliminer un SCA avec certitude."
+          },
+          {
+            "correct": false,
+            "proposition": "Un seuil de troponine ultrasensible bas à H3 signifie que le patient peut être transféré sans autres tests.",
+            "justification": "Bien que la troponine ultrasensible basse élimine un SCA, il reste des décisions cliniques à prendre selon l'état du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "La troponine ultrasensible basse à H3 signifie que le patient n'a pas besoin de surveillance postérieure.",
+            "justification": "Même avec une troponine ultrasensible basse, la surveillance clinique peut être nécessaire selon la symptomatologie du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303900079_05",
+      "current_version_epoch_ms": 1756303900079,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelle est l'indication de la répétition de l'ECG en cas de douleur thoracique persistante ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ECG doit être répété si la douleur thoracique persiste pour évaluer toute évolution de la situation.",
+            "justification": "En cas de douleur persistante, l'ECG doit être répété pour suivre l'évolution de l'état cardiaque du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG n'a pas besoin d'être répété si la douleur cesse après quelques minutes.",
+            "justification": "Même si la douleur s'atténue, un ECG répété est nécessaire pour confirmer l'absence de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG est inutile une fois qu'une première lecture a été réalisée, quelle que soit la persistance de la douleur.",
+            "justification": "L'ECG initial peut ne pas suffire à capturer des évolutions, d'où la nécessité de le répéter en cas de persistance de la douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG répété n'est nécessaire que si le patient présente des signes de défaillance cardiaque.",
+            "justification": "Même sans signes de défaillance cardiaque, l'ECG doit être répété en cas de douleur persistante pour évaluer tout risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Un ECG répété permet uniquement d'éliminer une douleur thoracique non cardiaque.",
+            "justification": "L'ECG doit être répété pour surveiller l'évolution de tout trouble cardiaque, qu'il soit bénin ou grave."
+          }
+        ]
+      }
+    }
+  ]
+}
