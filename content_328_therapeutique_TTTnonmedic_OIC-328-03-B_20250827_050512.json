@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "TTTnonmedic",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756264059107_01",
+      "current_version_epoch_ms": 1756264059107,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTnonmedic"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge du financement d'un dispositif médical à l'hôpital pour un usage individuel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le financement est supporté par le tarif du séjour (GHS), sauf si le dispositif est inscrit en sus sur la liste de la LPPR.",
+            "justification": "Le financement du dispositif médical à usage individuel dans un établissement hospitalier est inclus dans le tarif global du séjour, sauf si le dispositif est spécifiquement inscrit en sus sur la LPPR."
+          },
+          {
+            "correct": false,
+            "proposition": "Le financement est uniquement supporté par la LPPR, sans prise en charge par le GHS.",
+            "justification": "Le financement du dispositif médical en hôpital n'est pas exclusivement assuré par la LPPR, il est pris en charge par le GHS à moins d'être inscrit sur la liste en sus."
+          },
+          {
+            "correct": false,
+            "proposition": "Le financement est toujours pris en charge par l'assurance maladie à 100%.",
+            "justification": "Le financement peut varier selon l'inscription du dispositif médical sur la liste en sus de la LPPR, mais il n'est pas systématiquement pris en charge à 100%."
+          },
+          {
+            "correct": false,
+            "proposition": "Le financement dépend uniquement du type de matériel médical utilisé, sans distinction entre usage individuel ou lié à un acte.",
+            "justification": "Le financement dépend du contexte d'utilisation, notamment du fait qu'il soit lié à un acte ou non, et de son inscription à la LPPR."
+          },
+          {
+            "correct": false,
+            "proposition": "Le financement est pris en charge par le tarif du séjour, mais uniquement pour les dispositifs non inscrits à la LPPR.",
+            "justification": "Les dispositifs inscrits à la LPPR peuvent également être financés par le GHS, selon leur statut et utilisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264059107_02",
+      "current_version_epoch_ms": 1756264059107,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTnonmedic"
+      },
+      "data": {
+        "statement": "Quelle est la procédure nécessaire pour prescrire un fauteuil roulant électrique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La prescription doit être effectuée par un médecin spécialiste, avec un renouvellement possible par un médecin généraliste, et nécessite une entente préalable pour le grand appareillage.",
+            "justification": "Le fauteuil roulant électrique fait partie des dispositifs nécessitant une prescription initiale par un spécialiste, et l'entente préalable est nécessaire pour le grand appareillage."
+          },
+          {
+            "correct": false,
+            "proposition": "Le fauteuil roulant électrique peut être prescrit directement par un médecin généraliste sans entente préalable.",
+            "justification": "Une prescription initiale par un médecin spécialiste est nécessaire, et l'entente préalable est indispensable pour le grand appareillage."
+          },
+          {
+            "correct": false,
+            "proposition": "La prescription peut être réalisée uniquement par un kinésithérapeute, sans recours à un médecin.",
+            "justification": "La prescription d'un fauteuil roulant électrique doit obligatoirement être réalisée par un médecin spécialiste."
+          },
+          {
+            "correct": false,
+            "proposition": "La prescription d'un fauteuil roulant électrique nécessite une prescription uniquement en cas d'ALD (Affection de Longue Durée).",
+            "justification": "La prescription est possible dans d'autres cas que l'ALD, et l'entente préalable est un critère clé pour le grand appareillage."
+          },
+          {
+            "correct": false,
+            "proposition": "Le fauteuil roulant électrique peut être prescrit sans entente préalable, mais uniquement par un médecin généraliste.",
+            "justification": "Une prescription par un médecin spécialiste avec entente préalable est indispensable pour ce type de dispositif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264059107_03",
+      "current_version_epoch_ms": 1756264059107,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTnonmedic"
+      },
+      "data": {
+        "statement": "Quelles conditions permettent le remboursement d'un fauteuil roulant électrique à 100% ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le remboursement à 100% est possible si le patient est en ALD (Affection de Longue Durée).",
+            "justification": "Le remboursement est total pour les patients en ALD, conformément aux dispositions réglementaires des dispositifs médicaux remboursés."
+          },
+          {
+            "correct": false,
+            "proposition": "Le remboursement à 100% est possible uniquement si le fauteuil roulant est prescrit par un kinésithérapeute.",
+            "justification": "Le remboursement à 100% n'est pas conditionné à la prescription par un kinésithérapeute, mais par l'ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "Le remboursement est toujours effectué à 100%, quelle que soit la situation du patient.",
+            "justification": "Le remboursement à 100% dépend de la situation du patient (ALD ou pas)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le remboursement à 100% est accordé uniquement si le dispositif est inscrit sur la liste LPPR.",
+            "justification": "L'inscription à la LPPR permet le remboursement, mais l'ALD est un critère spécifique pour un remboursement complet."
+          },
+          {
+            "correct": false,
+            "proposition": "Le remboursement à 100% est réservé aux dispositifs utilisés dans un cadre hospitalier uniquement.",
+            "justification": "Le remboursement peut aussi être effectué en ville, sous condition d'ALD, sans restriction aux dispositifs hospitaliers."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264059107_04",
+      "current_version_epoch_ms": 1756264059107,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTnonmedic"
+      },
+      "data": {
+        "statement": "Quelles prises en charge sont possibles pour les dispositifs médicaux utilisés en ville ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les dispositifs médicaux en ville sont financés par l'acte, avec un remboursement direct par la LPPR si l'usage est individuel.",
+            "justification": "En ville, le financement des dispositifs médicaux se fait principalement par l'acte et, dans certains cas, par la LPPR si l'usage est individuel."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dispositifs médicaux en ville sont toujours financés par le tarif du séjour hospitalier.",
+            "justification": "Le financement par le tarif du séjour est spécifique aux établissements hospitaliers, et non applicable en ville."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dispositifs en ville sont pris en charge uniquement si utilisés pour la prévention d'escarre.",
+            "justification": "La prise en charge en ville peut concerner divers dispositifs, pas seulement ceux liés à la prévention d'escarre."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les dispositifs médicaux en ville sont financés à 100% sans distinction.",
+            "justification": "Le financement varie en fonction du type de dispositif et de son utilisation (individuelle ou associée à un acte)."
+          },
+          {
+            "correct": false,
+            "proposition": "Le financement en ville est uniquement possible si le dispositif est inscrit à la LPPR pour les dispositifs non liés à un acte.",
+            "justification": "Le financement peut se faire par la LPPR, mais pas exclusivement pour les dispositifs non liés à un acte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264059107_05",
+      "current_version_epoch_ms": 1756264059107,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "TTTnonmedic"
+      },
+      "data": {
+        "statement": "Quel professionnel de santé peut prescrire certaines aides à la prévention d'escarre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les aides à la prévention d'escarre peuvent être prescrites par un kinésithérapeute, avec possibilité de remboursement.",
+            "justification": "Les kinésithérapeutes peuvent prescrire certaines aides à la prévention d'escarre et bénéficier d'un remboursement pour ces dispositifs."
+          },
+          {
+            "correct": false,
+            "proposition": "Seuls les médecins spécialistes peuvent prescrire les aides à la prévention d'escarre.",
+            "justification": "Les kinésithérapeutes peuvent également prescrire ces aides, pas uniquement les médecins spécialistes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les aides à la prévention d'escarre ne peuvent être prescrites que par des infirmiers (IDE) sans possibilité de remboursement.",
+            "justification": "Les infirmiers peuvent prescrire certaines aides, mais des kinésithérapeutes peuvent également intervenir, avec possibilité de remboursement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les aides à la prévention d'escarre ne peuvent être prescrites que pour les patients en ALD.",
+            "justification": "Les aides peuvent être prescrites pour d'autres types de patients, sans condition spécifique d'ALD."
+          },
+          {
+            "correct": false,
+            "proposition": "Seules les infirmières peuvent prescrire ces aides, et seulement pour des situations urgentes.",
+            "justification": "Les kinésithérapeutes sont également habilités à prescrire ces aides, et la prescription n'est pas limitée aux urgences."
+          }
+        ]
+      }
+    }
+  ]
+}
