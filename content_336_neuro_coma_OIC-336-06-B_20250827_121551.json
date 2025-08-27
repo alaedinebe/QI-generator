@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "coma",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756289898447_01",
+      "current_version_epoch_ms": 1756289898447,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le coma de Glasgow nécessaire pour poser le diagnostic de mort encéphalique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Coma profond, Glasgow = 3",
+            "justification": "Un coma profond, avec un score de Glasgow de 3, est essentiel pour diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma modéré, Glasgow = 6",
+            "justification": "Un coma modéré, avec un score supérieur à 3, ne permet pas de diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma léger, Glasgow = 8",
+            "justification": "Le coma léger ne correspond pas aux critères diagnostiques de la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma profond, Glasgow = 4",
+            "justification": "Un coma profond avec un score de Glasgow de 4 n'est pas suffisant pour diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Coma profond, Glasgow = 2",
+            "justification": "Un score de Glasgow de 2 n'est pas cohérent avec le coma profond requis pour le diagnostic."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289898447_02",
+      "current_version_epoch_ms": 1756289898447,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est l'examen clinique essentiel dans le diagnostic de la mort encéphalique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Abolition des réflexes du tronc cérébral",
+            "justification": "L'abolition complète des réflexes du tronc cérébral est indispensable pour confirmer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence des réflexes du tronc cérébral",
+            "justification": "La présence de réflexes du tronc cérébral contrevient aux critères de la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réflexe photomoteur présent",
+            "justification": "Le réflexe photomoteur doit être absent pour diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réflexe de toux présent",
+            "justification": "Le réflexe de toux ne doit pas être présent lors du diagnostic de mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réflexe oculovestibulaire présent",
+            "justification": "Le réflexe oculovestibulaire doit être absent pour diagnostiquer la mort encéphalique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289898447_03",
+      "current_version_epoch_ms": 1756289898447,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est l'examen complémentaire permettant de confirmer la mort encéphalique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "2 Electroencéphalogrammes à 4 heures d'intervalle",
+            "justification": "Deux EEG espacés de 4 heures sont des examens essentiels pour confirmer l'absence d'activité cérébrale et la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie cérébrale avec injection de produit de contraste immédiatement",
+            "justification": "L'imagerie cérébrale avec injection de produit de contraste ne suffit pas seule, elle nécessite une absence de visualisation des artères intra-cérébrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique complet",
+            "justification": "L'examen clinique seul ne suffit pas pour poser le diagnostic de mort encéphalique sans un examen complémentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de ventilation spontanée",
+            "justification": "Bien que l'absence de ventilation spontanée soit un critère, un examen complémentaire est nécessaire pour confirmer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Échographie cérébrale",
+            "justification": "L'échographie cérébrale n'est pas un examen validé pour confirmer la mort encéphalique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289898447_04",
+      "current_version_epoch_ms": 1756289898447,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quelle est la condition nécessaire pour réaliser un EEG dans le diagnostic de mort encéphalique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Température du patient > 35°C et absence de toxiques",
+            "justification": "Les conditions idéales pour réaliser un EEG incluent une température supérieure à 35°C et l'absence de toxiques, comme les barbituriques."
+          },
+          {
+            "correct": false,
+            "proposition": "Température du patient > 37°C et présence de toxiques",
+            "justification": "Une température supérieure à 37°C ou la présence de toxiques empêche un EEG fiable pour le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Température du patient > 36°C et présence de barbituriques",
+            "justification": "La présence de barbituriques rend l'EEG non fiable pour diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Température du patient < 35°C et absence de toxiques",
+            "justification": "Une température inférieure à 35°C est incompatible avec les conditions pour un EEG fiable."
+          },
+          {
+            "correct": false,
+            "proposition": "Température du patient > 38°C et absence de toxiques",
+            "justification": "Une température supérieure à 38°C n'est pas compatible avec les conditions idéales pour un EEG."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289898447_05",
+      "current_version_epoch_ms": 1756289898447,
+      "rang": "B",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel examen d'imagerie est validé pour diagnostiquer la mort encéphalique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Angiographie des 4 axes",
+            "justification": "L'angiographie des 4 axes est un examen valide pour confirmer la mort encéphalique en montrant l'absence d'opacification des artères intra-cérébrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral sans injection",
+            "justification": "Le scanner cérébral sans injection de produit de contraste n'est pas suffisant pour diagnostiquer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale n'est pas utilisée pour diagnostiquer la mort encéphalique dans les critères définis."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen échographique transcrânien",
+            "justification": "L'échographie transcrânienne ne permet pas de confirmer la mort encéphalique."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral avec injection de contraste seulement",
+            "justification": "Un scanner cérébral avec injection de contraste seul ne suffit pas pour poser le diagnostic de mort encéphalique, l'angiographie est nécessaire."
+          }
+        ]
+      }
+    }
+  ]
+}
