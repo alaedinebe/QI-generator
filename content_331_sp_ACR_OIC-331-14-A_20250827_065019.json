@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ACR",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756270366271_01",
+      "current_version_epoch_ms": 1756270366271,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quel est l'élément essentiel de l'algorithme de réanimation cardiopulmonaire de l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Assurer la ventilation avec un masque et une poche d'ambu",
+            "justification": "La ventilation est primordiale pour maintenir l'oxygénation du patient en réanimation cardiopulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'adrénaline en intraveineuse",
+            "justification": "L'adrénaline est administrée après avoir assuré les gestes de base de la réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un massage cardiaque uniquement si l'enfant est en arrêt cardiaque complet",
+            "justification": "Le massage cardiaque doit être effectué dès qu'un arrêt cardiaque est suspecté, même avant la confirmation complète de l'arrêt."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre l'enfant en position latérale de sécurité",
+            "justification": "La position latérale de sécurité est indiquée après réanimation réussie, mais pas dans le cadre immédiat de la réanimation cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Faire un choc électrique dès les premières secondes de l'arrêt cardiaque",
+            "justification": "Un choc électrique est administré après évaluation de la situation, en présence d'un rythme défibrillable, non au début de la réanimation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756270366271_02",
+      "current_version_epoch_ms": 1756270366271,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Dans l'algorithme de réanimation cardiopulmonaire de l'enfant, quel est le premier geste à effectuer en cas d'arrêt cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vérifier la réponse respiratoire et le pouls",
+            "justification": "La première étape consiste à évaluer la respiration et la circulation avant d'agir pour orienter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un massage cardiaque direct",
+            "justification": "Le massage cardiaque n'est initié qu'après avoir vérifié l'absence de respiration et de pouls."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'adrénaline",
+            "justification": "L'adrénaline est administrée après les gestes de base de réanimation, pas comme premier geste."
+          },
+          {
+            "correct": false,
+            "proposition": "Poser un cathéter central pour l'administration des médicaments",
+            "justification": "Un cathéter central n'est posé que dans un cadre avancé de réanimation, pas immédiatement après l'arrêt cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Mettre l'enfant en position assise pour faciliter la ventilation",
+            "justification": "L'enfant doit être maintenu en position allongée pour optimiser la réanimation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756270366271_03",
+      "current_version_epoch_ms": 1756270366271,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Que doit-on faire si l'enfant est en arrêt cardiaque et présente un rythme défibrillable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Administrer un choc électrique",
+            "justification": "Un choc est administré si le rythme est défibrillable, afin de tenter de rétablir un rythme cardiaque efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Commencer un massage cardiaque avant tout",
+            "justification": "Le massage cardiaque doit être effectué, mais le choc est administré en priorité si le rythme est défibrillable."
+          },
+          {
+            "correct": false,
+            "proposition": "Poser un cathéter pour perfusion",
+            "justification": "Le cathéter n'est pas une priorité lors de la gestion immédiate d'un arrêt cardiaque avec rythme défibrillable."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer le rythme pendant plus de 10 secondes avant d'agir",
+            "justification": "L'évaluation du rythme ne doit pas dépasser 10 secondes afin de ne pas retarder l'action."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une réanimation à température contrôlée",
+            "justification": "La réanimation à température contrôlée n'est pas une priorité immédiate pendant un arrêt cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756270366271_04",
+      "current_version_epoch_ms": 1756270366271,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'adrénaline dans la réanimation cardiopulmonaire de l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Améliorer la perfusion sanguine pendant l'arrêt cardiaque",
+            "justification": "L'adrénaline augmente la perfusion cardiaque, permettant ainsi de maintenir la circulation sanguine pendant la réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Réactiver directement le cœur en cas de fibrillation",
+            "justification": "L'adrénaline ne réactive pas directement le cœur, elle aide à maintenir la circulation, mais c'est la défibrillation qui est nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la fréquence cardiaque",
+            "justification": "L'adrénaline agit en augmentant la fréquence cardiaque, pas en la réduisant."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévenir l'apparition d'un œdème cérébral",
+            "justification": "L'adrénaline n'a pas d'effet direct sur la prévention de l'œdème cérébral pendant la réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Faciliter l'extubation après la réanimation",
+            "justification": "L'adrénaline n'est pas utilisée pour l'extubation, elle a un rôle dans la gestion de l'arrêt cardiaque."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756270366271_05",
+      "current_version_epoch_ms": 1756270366271,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "ACR"
+      },
+      "data": {
+        "statement": "Quelles sont les étapes suivantes après 2 minutes de réanimation chez un enfant en arrêt cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réévaluer la situation et administrer un choc si nécessaire",
+            "justification": "Après 2 minutes, il est essentiel de réévaluer la situation et de procéder à un choc si le rythme est défibrillable."
+          },
+          {
+            "correct": false,
+            "proposition": "Continuer la réanimation sans évaluation",
+            "justification": "L'évaluation doit être effectuée régulièrement pour adapter la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un médicament avant toute réévaluation",
+            "justification": "L'administration de médicaments n'est pas prioritaire avant la réévaluation après 2 minutes de réanimation."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier uniquement la fréquence respiratoire",
+            "justification": "L'évaluation de l'état cardiaque et respiratoire est indispensable après 2 minutes, pas uniquement la fréquence respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Poser un drain thoracique si le patient est intubé",
+            "justification": "Le drain thoracique n'est pas une intervention initiale dans la réanimation cardiaque."
+          }
+        ]
+      }
+    }
+  ]
+}
