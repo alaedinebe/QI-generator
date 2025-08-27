@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SCA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756303296097_01",
+      "current_version_epoch_ms": 1756303296097,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est le critère essentiel de définition d'un syndrome coronarien aigu (SCA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur thoracique angineuse de repos ou d'effort d'aggravation ou d'apparition récente (< 3 semaines)",
+            "justification": "Le critère clinique de définition d'un SCA repose sur l'apparition de douleurs thoraciques angineuses récentes, qu'elles soient d'aggravation ou d'apparition nouvelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique de longue date et persistante",
+            "justification": "La durée des douleurs n'est pas un critère principal du SCA, la spécificité réside dans leur apparition récente ou leur aggravation."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique seulement lors des efforts physiques importants",
+            "justification": "Le SCA peut se manifester à la fois au repos et à l'effort, le critère ne se limite pas uniquement aux douleurs induites par des efforts."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique irradiant dans les bras uniquement",
+            "justification": "L'irradiation de la douleur thoracique peut être présente, mais elle n'est pas un critère essentiel pour définir un SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique sans lien avec l'effort",
+            "justification": "La douleur thoracique dans un SCA peut être liée à l'effort, mais ce n'est pas un critère exclusif de la pathologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303296097_02",
+      "current_version_epoch_ms": 1756303296097,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Comment l'ECG permet-il de qualifier un syndrome coronarien aigu (SCA) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ECG permet de qualifier le SCA de ST+ en présence d'un sus décalage permanent du segment ST",
+            "justification": "Le sus décalage permanent du segment ST est caractéristique du SCA ST+ selon l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG montre une inversion permanente de l'onde T pour qualifier un SCA ST+",
+            "justification": "L'inversion de l'onde T n'est pas utilisée pour qualifier un SCA ST+, qui est défini par le sus décalage du segment ST."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG ne permet pas de qualifier un SCA, seul le test d'effort est utile",
+            "justification": "L'ECG reste un outil diagnostique central pour la qualification du SCA, notamment pour la distinction ST+ et ST-."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ECG montre un QRS élargi dans tous les cas de SCA",
+            "justification": "Le QRS élargi n'est pas un critère spécifique pour tous les cas de SCA. Le sus décalage du segment ST est un marqueur clé pour les SCA ST+."
+          },
+          {
+            "correct": true,
+            "proposition": "L'ECG qualifie le SCA de ST- dans tous les autres cas, y compris quand l'ECG est normal",
+            "justification": "Tous les SCA sans sus décalage du segment ST sont qualifiés de ST-, y compris lorsque l'ECG est normal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303296097_03",
+      "current_version_epoch_ms": 1756303296097,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quels sont les critères cliniques du syndrome coronarien aigu (SCA) en termes de douleur thoracique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur thoracique d'apparition récente ou d'aggravation dans les 3 dernières semaines",
+            "justification": "L'apparition ou l'aggravation récente de la douleur thoracique (< 3 semaines) est un critère déterminant pour définir un SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique persistante sans variation",
+            "justification": "La douleur thoracique dans le SCA doit être d'apparition récente ou d'aggravation, pas simplement persistante."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique uniquement de repos sans aucun facteur aggravant",
+            "justification": "Bien que la douleur de repos soit un facteur important, l'aggravation ou l'apparition récente de la douleur est également nécessaire pour la définition d'un SCA."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique à type de brûlure sans lien avec l'effort",
+            "justification": "Le type de douleur thoracique n'est pas un critère discriminant pour le SCA, la temporalité et l'aggravation sont plus pertinentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique irradiant dans le cou et les épaules",
+            "justification": "Bien que l'irradiation soit fréquente dans un SCA, elle n'est pas un critère déterminant pour la définition du syndrome."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303296097_04",
+      "current_version_epoch_ms": 1756303296097,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre un SCA ST+ et un SCA ST- sur un ECG ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le SCA ST+ est caractérisé par un sus décalage permanent du segment ST sur l'ECG",
+            "justification": "Le sus décalage permanent du segment ST est spécifique au SCA ST+."
+          },
+          {
+            "correct": false,
+            "proposition": "Le SCA ST+ montre un bloc de branche sur l'ECG",
+            "justification": "Le bloc de branche n'est pas un critère spécifique du SCA ST+, qui est défini par le sus décalage du segment ST."
+          },
+          {
+            "correct": false,
+            "proposition": "Le SCA ST- montre un sus décalage du segment ST permanent",
+            "justification": "Le SCA ST- est défini par l'absence de sus décalage du segment ST, même si l'ECG peut être normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Le SCA ST+ présente des ondes P plus hautes que la normale",
+            "justification": "Les ondes P ne sont pas un critère discriminant entre SCA ST+ et ST-, ce qui compte est le sus décalage du segment ST."
+          },
+          {
+            "correct": true,
+            "proposition": "Le SCA ST- est défini par l'absence de sus décalage du segment ST, même si l'ECG est normal",
+            "justification": "Tous les SCA sans sus décalage ST sont classifiés comme ST-, même lorsque l'ECG peut être normal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756303296097_05",
+      "current_version_epoch_ms": 1756303296097,
+      "rang": "A",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Dans quel cas peut-on qualifier un syndrome coronarien aigu de ST- ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il n'y a pas de sus décalage permanent du segment ST sur l'ECG",
+            "justification": "L'absence de sus décalage ST est déterminante pour qualifier un SCA de ST-, même lorsque l'ECG est normal."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'ECG montre un sus décalage du segment ST",
+            "justification": "Le sus décalage du segment ST est spécifique au SCA ST+, et non au SCA ST-."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'ECG présente des ondes T inversées",
+            "justification": "Les ondes T inversées ne suffisent pas à qualifier un SCA de ST-, seul l'absence de sus décalage ST est déterminante."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque la douleur thoracique est liée à un effort physique",
+            "justification": "Le lien avec l'effort n'est pas un critère exclusif pour qualifier un SCA de ST-."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque l'ECG est normal, sans aucune anomalie significative",
+            "justification": "Un ECG normal dans un contexte clinique de SCA qualifie celui-ci de ST-, même en l'absence de sus décalage."
+          }
+        ]
+      }
+    }
+  ]
+}
