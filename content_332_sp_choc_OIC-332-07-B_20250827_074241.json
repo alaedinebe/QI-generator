@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "choc",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756273508379_01",
+      "current_version_epoch_ms": 1756273508379,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Quels examens biologiques sont réalisés pour confirmer l'hémorragie, quantifier la perte sanguine et en apprécier la gravité dans le cadre d'un choc hémorragique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS-plaquettes",
+            "justification": "La NFS (Numération Formule Sanguine) permet d'évaluer l'anémie et la thrombopénie, éléments essentiels pour évaluer l'hémorragie."
+          },
+          {
+            "correct": true,
+            "proposition": "GDS artériel avec lactatémie",
+            "justification": "Les gaz du sang artériel (GDS) permettent d'évaluer l'acidose et la lactatémie, indicateurs de la gravité du choc."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est utile pour évaluer l'activité cardiaque mais ne permet pas de confirmer ni quantifier une hémorragie."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémostase : TP, TCA, fibrinogène, calcium ionisé",
+            "justification": "Les examens d'hémostase permettent d'évaluer les troubles de la coagulation, essentiels dans la gestion d'une hémorragie."
+          },
+          {
+            "correct": true,
+            "proposition": "Groupe ABO-Rh",
+            "justification": "Le groupe ABO-Rh est indispensable pour la préparation à une transfusion sanguine en cas d'hémorragie massive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273508379_02",
+      "current_version_epoch_ms": 1756273508379,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une hémorragie extériorisée, quel examen est indiqué pour explorer une hémorragie gynéco-obstétricale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Examen sous valve, révision utérine",
+            "justification": "L'examen sous valve et la révision utérine permettent de diagnostiquer et traiter une hémorragie gynéco-obstétricale en identifiant une cause utérine."
+          },
+          {
+            "correct": false,
+            "proposition": "FOGD",
+            "justification": "La FOGD est utilisée pour explorer des hémorragies digestives et non gynéco-obstétricales."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo abdominale",
+            "justification": "L'échographie abdominale n'est pas la méthode de choix pour explorer une hémorragie gynéco-obstétricale."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie thoraco-abdomino-pelvienne",
+            "justification": "La TDM est utile pour explorer une hémorragie non extériorisée mais pas pour une exploration gynéco-obstétricale."
+          },
+          {
+            "correct": false,
+            "proposition": "Fibroscopie digestive",
+            "justification": "La fibroscopie digestive (FOGD) est utilisée pour explorer une hémorragie digestive et non gynéco-obstétricale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273508379_03",
+      "current_version_epoch_ms": 1756273508379,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Dans un contexte traumatique, quels examens sont recommandés pour explorer une hémorragie non extériorisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "FAST-écho",
+            "justification": "L'échographie abdominale rapide (FAST) permet d'évaluer les hémorragies intra-abdominales après un traumatisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Radio thoracique simple",
+            "justification": "La radiographie thoracique peut évaluer les fractures mais ne permet pas de diagnostiquer directement une hémorragie non extériorisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo cardiaque",
+            "justification": "L'échographie cardiaque évalue la fonction cardiaque mais ne permet pas de détecter directement des hémorragies non extériorisées."
+          },
+          {
+            "correct": true,
+            "proposition": "Scanner thoraco-abdomino-pelvien injecté",
+            "justification": "Le scanner injecté permet de détecter des hémorragies internes non visibles par d'autres examens."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen clinique isolé",
+            "justification": "L'examen clinique seul est insuffisant pour détecter des hémorragies non extériorisées graves."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273508379_04",
+      "current_version_epoch_ms": 1756273508379,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Quel examen est indiqué pour explorer une hémorragie extériorisée par hématémèse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "FOGD",
+            "justification": "La fibroscopie oeso-gastro-duodénale (FOGD) permet de visualiser l'origine de l'hémorragie digestive haute, comme une ulcération ou une varice œsophagienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal est plus adapté pour les hémorragies internes et non extériorisées, mais pas pour l'hématémèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo abdominale",
+            "justification": "L'échographie abdominale n'est pas utile pour explorer l'hémorragie digestive haute liée à l'hématémèse."
+          },
+          {
+            "correct": false,
+            "proposition": "Examen sous valve",
+            "justification": "L'examen sous valve est utile pour les hémorragies gynéco-obstétricales et non pour l'hématémèse."
+          },
+          {
+            "correct": false,
+            "proposition": "TDM cérébrale",
+            "justification": "La TDM cérébrale est indiquée pour évaluer des AVC ou des traumatismes crâniens, et non une hémorragie digestive."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273508379_05",
+      "current_version_epoch_ms": 1756273508379,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Quel est l'examen de choix pour explorer une hémorragie non extériorisée dans un contexte non traumatique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner thoraco-abdomino-pelvien injecté",
+            "justification": "Le scanner thoraco-abdomino-pelvien injecté est l'examen de choix pour explorer une hémorragie interne dans un contexte non traumatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Echo abdominale simple",
+            "justification": "L'échographie simple n'est pas toujours suffisante pour détecter des hémorragies graves non extériorisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Tomodensitométrie cérébrale",
+            "justification": "La TDM cérébrale est utilisée pour explorer des AVC ou des traumatismes crâniens, et non des hémorragies internes."
+          },
+          {
+            "correct": false,
+            "proposition": "FOGD",
+            "justification": "La FOGD est utilisée pour les hémorragies digestives externes, mais pas pour les hémorragies internes non extériorisées."
+          },
+          {
+            "correct": false,
+            "proposition": "Radio thoracique",
+            "justification": "La radiographie thoracique permet d'évaluer les poumons et les côtes, mais ne détecte pas les hémorragies internes non visibles."
+          }
+        ]
+      }
+    }
+  ]
+}
