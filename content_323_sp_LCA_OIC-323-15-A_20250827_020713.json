@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LCA",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756253379935_01",
+      "current_version_epoch_ms": 1756253379935,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Qu'est-ce qu'un essai clinique en double aveugle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ni le patient, ni le médecin ou l'équipe prenant en charge le patient et recueillant les critères d'évaluation ne connaissent le traitement reçu par le patient.",
+            "justification": "La définition du double aveugle implique que ni le patient ni l'équipe médicale ne connaissent le traitement administré, afin de limiter les biais dans le suivi et l'évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Seul le patient ne sait pas quel traitement il reçoit.",
+            "justification": "Il s'agit d'un essai en simple aveugle, où seulement le patient ignore le traitement, mais l'équipe médicale en a connaissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médecin connaît le traitement, mais l'évaluateur reste aveugle.",
+            "justification": "Cela ne correspond pas à la définition classique du double aveugle, où aucune des parties prenantes n'est au courant du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'essai est ouvert, sans aucune mesure d'aveugle.",
+            "justification": "Un essai ouvert n'implique aucune mesure d'aveugle, contrairement à l'essai en double aveugle."
+          },
+          {
+            "correct": false,
+            "proposition": "Le traitement est administré par voie intraveineuse dans tous les cas.",
+            "justification": "La voie d'administration n'est pas une caractéristique du double aveugle, c'est la connaissance du traitement par les participants qui en est le critère."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756253379935_02",
+      "current_version_epoch_ms": 1756253379935,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est la particularité d'un essai avec double placebo ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un placebo est utilisé pour chaque groupe afin de masquer les traitements et éviter les biais de performance et d'évaluation.",
+            "justification": "Le double placebo est utilisé pour garantir que ni les patients ni les évaluateurs ne peuvent discerner le traitement réel, même avec des médicaments ayant des aspects différents."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'y a pas d'utilisation de placebo dans un essai comparatif.",
+            "justification": "Les essais en double placebo nécessitent précisément l'usage de placebos pour chaque groupe de traitement afin de minimiser les biais."
+          },
+          {
+            "correct": false,
+            "proposition": "Le placebo est administré uniquement aux patients du groupe contrôle.",
+            "justification": "Dans un double placebo, chaque groupe reçoit un placebo correspondant au médicament qu'il est censé recevoir, donc les deux groupes sont soumis à un placebo."
+          },
+          {
+            "correct": false,
+            "proposition": "Le placebo est utilisé uniquement pour les médicaments oraux.",
+            "justification": "Le double placebo peut être utilisé indépendamment de la voie d'administration des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé seulement dans les essais où les médicaments sont similaires en apparence.",
+            "justification": "Le double placebo est utilisé pour comparer des traitements de manière aveugle, indépendamment de leur apparence ou voie d'administration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756253379935_03",
+      "current_version_epoch_ms": 1756253379935,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Dans quel cas un essai clinique peut-il être ouvert sans aveugle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque la comparaison porte sur une chirurgie et une radiothérapie.",
+            "justification": "Dans certains cas, comme la comparaison entre chirurgie et radiothérapie, il n'est pas possible de réaliser un essai en aveugle."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque tous les traitements administrés sont des médicaments.",
+            "justification": "Même pour des essais médicamenteux, il est souvent possible d'avoir un essai en aveugle pour éviter les biais."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'essai ne comporte que des tests de laboratoire.",
+            "justification": "Les tests de laboratoire peuvent tout à fait être menés en aveugle pour éviter les biais d'évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque les résultats sont obtenus uniquement par questionnaires.",
+            "justification": "Les questionnaires peuvent être utilisés dans un essai en aveugle si l'évaluateur reste ignorant du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une tierce personne est impliquée pour administrer le traitement.",
+            "justification": "Cela ne justifie pas la nécessité d'un essai ouvert, l'aveugle peut encore être appliqué dans ce cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756253379935_04",
+      "current_version_epoch_ms": 1756253379935,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt principal de l'aveugle dans un essai clinique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il limite les biais de suivi et d'évaluation en empêchant l'influence du traitement connu sur le comportement du patient ou de l'évaluateur.",
+            "justification": "L'aveugle permet de maintenir une objectivité dans l'évaluation des résultats, en minimisant l'impact des croyances ou attentes des participants et évaluateurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Il rend l'essai plus rapide à réaliser.",
+            "justification": "L'aveugle ne réduit pas la durée de l'essai, il vise principalement à réduire les biais de mesure et d'observance."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet de tester de nouveaux traitements sans informer les patients.",
+            "justification": "L'aveugle n'a pas pour but d'éviter d'informer les patients, mais de garantir l'objectivité du traitement et de l'évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Il réduit les coûts de l'étude.",
+            "justification": "En général, les essais en aveugle sont plus complexes et coûteux à organiser en raison de la mise en place de mesures supplémentaires pour garantir l'aveugle."
+          },
+          {
+            "correct": false,
+            "proposition": "Il permet d'éviter les erreurs administratives liées à la distribution des traitements.",
+            "justification": "L'aveugle vise à éviter les biais d'évaluation, mais ne concerne pas directement les erreurs administratives dans la distribution des traitements."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756253379935_05",
+      "current_version_epoch_ms": 1756253379935,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Qu'est-ce qu'un essai clinique de type PROBE ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un essai ouvert où les critères d'évaluation sont recueillis en aveugle par une tierce personne ou un comité d'adjudication.",
+            "justification": "Un essai PROBE est un essai en ouvert où l'évaluation des critères se fait en aveugle, ce qui permet de réduire les biais d'évaluation."
+          },
+          {
+            "correct": false,
+            "proposition": "Un essai où toutes les parties prenantes connaissent le traitement reçu par les patients.",
+            "justification": "Cela correspond à un essai ouvert sans aucune mesure d'aveugle, contrairement à un essai PROBE."
+          },
+          {
+            "correct": false,
+            "proposition": "Un essai en double aveugle avec une évaluation des critères en aveugle par un comité indépendant.",
+            "justification": "Le terme PROBE désigne spécifiquement un essai ouvert avec un recueil des critères en aveugle, pas un essai en double aveugle."
+          },
+          {
+            "correct": false,
+            "proposition": "Un essai randomisé contrôlé par placebo où les participants savent quel traitement ils reçoivent.",
+            "justification": "Un essai PROBE implique un essai ouvert, contrairement à un essai contrôlé par placebo, qui implique des groupes aveugles."
+          },
+          {
+            "correct": false,
+            "proposition": "Un essai où seul le médecin connaît le traitement et les critères sont évalués par le patient.",
+            "justification": "Cela ne correspond pas à la définition de PROBE, car la collecte des critères se fait en aveugle par une tierce personne ou comité."
+          }
+        ]
+      }
+    }
+  ]
+}
