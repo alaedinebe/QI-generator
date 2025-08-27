@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "agitation",
+    "subject": "psy"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756327631197_01",
+      "current_version_epoch_ms": 1756327631197,
+      "rang": "A",
+      "topic": {
+        "subject": "psy",
+        "item": "agitation"
+      },
+      "data": {
+        "statement": "Quel examen est systématiquement recommandé dans le cadre du bilan biologique minimal d'un patient en situation d'agitation ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie",
+            "justification": "La glycémie fait partie du bilan biologique minimal afin d'exclure une hypoglycémie ou une hyperglycémie, potentiellement responsables d'une agitation."
+          },
+          {
+            "correct": true,
+            "proposition": "NFS",
+            "justification": "La numération formule sanguine (NFS) permet de détecter des signes d'infection ou d'anémie, qui peuvent contribuer à une agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Bien que le bilan hépatique soit utile en fonction de l'anamnèse, il ne fait pas partie du bilan systématique minimal dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire n'est pas systématique et est indiquée uniquement en cas de suspicion d'infection du système nerveux central."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU",
+            "justification": "L'ECBU est réservé en cas de suspicion de pathologie urinaire et n'est pas systématiquement inclus dans le bilan minimal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756327631197_02",
+      "current_version_epoch_ms": 1756327631197,
+      "rang": "A",
+      "topic": {
+        "subject": "psy",
+        "item": "agitation"
+      },
+      "data": {
+        "statement": "Dans quel cas un ECG est-il indiqué dans le bilan d'un patient agité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour rechercher un QT long en cas d'initiation d'un traitement antipsychotique",
+            "justification": "Le QT long est une contre-indication relative à certains antipsychotiques, et l'ECG est nécessaire pour évaluer ce risque avant traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher une hyperkaliémie",
+            "justification": "L'ECG ne permet pas de rechercher une hyperkaliémie, bien que celle-ci puisse être un facteur contributif à une agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour rechercher une insuffisance cardiaque",
+            "justification": "Bien que l'insuffisance cardiaque puisse être associée à une agitation, elle n'est pas une raison systématique pour faire un ECG dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour mesurer la fonction ventriculaire",
+            "justification": "L'ECG permet d'évaluer le rythme cardiaque et la conduction, mais ne mesure pas directement la fonction ventriculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour diagnostiquer un infarctus du myocarde",
+            "justification": "L'ECG peut être utile en cas de douleur thoracique, mais il n'est pas systématiquement indiqué pour un patient agité sans suspicion d'infarctus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756327631197_03",
+      "current_version_epoch_ms": 1756327631197,
+      "rang": "A",
+      "topic": {
+        "subject": "psy",
+        "item": "agitation"
+      },
+      "data": {
+        "statement": "Quel examen complémentaire est justifié en fonction d'une anamnèse évoquant un abus d'alcool chez un patient agité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Alcoolémie",
+            "justification": "L'alcoolémie est un examen clé pour confirmer ou exclure un état d'intoxication alcoolique, souvent associé à l'agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "Toxicologie urinaire",
+            "justification": "La toxicologie urinaire est utilisée pour rechercher d'autres substances, mais l'alcoolémie est prioritaire pour une suspicion d'alcoolisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire n'est pas indiquée en cas de suspicion d'intoxication alcoolique."
+          },
+          {
+            "correct": false,
+            "proposition": "EEG",
+            "justification": "L'EEG est utile en cas de convulsions, mais pas dans le cadre d'un abus d'alcool seul."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie pulmonaire",
+            "justification": "La radiographie pulmonaire ne fait pas partie de l'examen systématique pour un patient agité en lien avec l'alcool."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756327631197_04",
+      "current_version_epoch_ms": 1756327631197,
+      "rang": "A",
+      "topic": {
+        "subject": "psy",
+        "item": "agitation"
+      },
+      "data": {
+        "statement": "Dans quel cas un bilan hépatique est-il indiqué pour un patient agité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de suspicion d'hépatopathie chronique",
+            "justification": "Un bilan hépatique permet de détecter des anomalies du foie, pouvant être responsables de symptômes neuropsychiatriques, y compris l'agitation."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'agitation isolée sans antécédents",
+            "justification": "Le bilan hépatique n'est pas systématique en absence de signes ou d'antécédents cliniques évoquant une hépatopathie."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'infection urinaire suspectée",
+            "justification": "Un bilan hépatique n'est pas utile dans le cadre d'une suspicion d'infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de dysfonction rénale",
+            "justification": "Bien que le bilan rénal soit essentiel dans certains cas, il n'est pas directement lié à un bilan hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'intoxication aiguë aux médicaments",
+            "justification": "Un bilan hépatique est utile en cas d'intoxication aiguë aux médicaments seulement si la substance ingérée affecte le foie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756327631197_05",
+      "current_version_epoch_ms": 1756327631197,
+      "rang": "A",
+      "topic": {
+        "subject": "psy",
+        "item": "agitation"
+      },
+      "data": {
+        "statement": "Quel est l'examen complémentaire recommandé pour un patient en agitation suspecté d'une méningite ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire est l'examen clé pour diagnostiquer une méningite, en permettant d'analyser le liquide céphalo-rachidien."
+          },
+          {
+            "correct": false,
+            "proposition": "EEG",
+            "justification": "L'EEG est utilisé pour évaluer l'activité cérébrale, mais il ne permet pas de poser un diagnostic de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie cérébrale",
+            "justification": "Bien que l'imagerie cérébrale soit utile pour d'autres pathologies, elle ne permet pas de diagnostiquer une méningite de manière aussi précise que la ponction lombaire."
+          },
+          {
+            "correct": false,
+            "proposition": "ECG",
+            "justification": "L'ECG est inutile dans le cadre d'une suspicion de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique",
+            "justification": "Le bilan hépatique n'est pas nécessaire pour le diagnostic de méningite."
+          }
+        ]
+      }
+    }
+  ]
+}
