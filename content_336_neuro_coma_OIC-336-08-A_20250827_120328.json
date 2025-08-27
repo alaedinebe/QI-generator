@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "coma",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756289155332_01",
+      "current_version_epoch_ms": 1756289155332,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quelle est la première étape dans l'évaluation d'un coma chez un patient adulte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Vérifier la présence de mouvements respiratoires hors gasp et d'un pouls central",
+            "justification": "La vérification de la présence de mouvements respiratoires et d'un pouls central est essentielle pour évaluer la vitalité du patient en coma."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un scanner cérébral immédiat",
+            "justification": "Bien qu'un scanner cérébral soit utile, la priorité est de vérifier les fonctions vitales immédiates avant toute imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Donner des analgésiques pour soulager la douleur",
+            "justification": "Les analgésiques ne sont pas une priorité dans la prise en charge initiale d'un coma, il faut d'abord évaluer les fonctions vitales."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer une perfusion intraveineuse de glucose",
+            "justification": "L'administration de glucose ne doit être effectuée qu'après la confirmation d'une hypoglycémie, il ne s'agit pas de la première étape."
+          },
+          {
+            "correct": false,
+            "proposition": "Prendre la température corporelle du patient",
+            "justification": "Bien que la température soit importante, elle n'est pas la priorité immédiate dans l'évaluation d'un coma."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289155332_02",
+      "current_version_epoch_ms": 1756289155332,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le signe clinique majeur d'engagement central chez un patient comateux ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mydriase unilatérale avec réponse motrice en décérébration",
+            "justification": "La mydriase unilatérale associée à une réponse motrice en décérébration indique un engagement central, un signe d'instabilité neurologique grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées intenses avec vomissements en jet",
+            "justification": "Les céphalées et vomissements en jet sont des signes d'hypertension intracrânienne, mais ne spécifient pas l'engagement central."
+          },
+          {
+            "correct": false,
+            "proposition": "Pouls lent et irrégulier",
+            "justification": "Un pouls irrégulier n'est pas spécifique de l'engagement central, bien qu'il puisse être observé dans diverses pathologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Réflexes pupillaires normaux",
+            "justification": "Les réflexes pupillaires normaux sont incompatibles avec l'engagement central, qui entraîne généralement une mydriase."
+          },
+          {
+            "correct": false,
+            "proposition": "Réponse motrice symétrique",
+            "justification": "Une réponse motrice symétrique indique plutôt une lésion bilatérale, ce qui est contraire à l'engagement central."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289155332_03",
+      "current_version_epoch_ms": 1756289155332,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le score de Glasgow indiquant une perte de la protection des voies aériennes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Score de Glasgow < 8",
+            "justification": "Un score de Glasgow inférieur à 8 est le seuil au-dessous duquel la protection des voies aériennes est compromise."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Glasgow < 12",
+            "justification": "Un score de Glasgow inférieur à 12 ne reflète pas nécessairement une perte de la protection des voies aériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Glasgow < 10",
+            "justification": "Un score de Glasgow inférieur à 10 peut indiquer une altération de la conscience, mais la perte de la protection des voies aériennes survient plus précisément en dessous de 8."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Glasgow = 15",
+            "justification": "Un score de 15 indique une conscience normale et une protection intacte des voies aériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Score de Glasgow = 13",
+            "justification": "Un score de 13 suggère une altération légère de la conscience, mais la protection des voies aériennes reste en général intacte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289155332_04",
+      "current_version_epoch_ms": 1756289155332,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le signe clinique précoce d'une hypertension intracrânienne (HTIC) avant le coma ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Céphalées intenses avec vomissements en jet",
+            "justification": "Les céphalées intenses accompagnées de vomissements en jet sont des signes précoces d'hypertension intracrânienne avant l'instauration du coma."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de la conscience",
+            "justification": "La perte de conscience survient généralement plus tard dans le processus d'HTIC, après l'apparition des symptômes précoces."
+          },
+          {
+            "correct": false,
+            "proposition": "Mydriase bilatérale",
+            "justification": "La mydriase bilatérale peut être un signe d'HTIC, mais elle se manifeste après des signes plus précoces comme les céphalées et vomissements."
+          },
+          {
+            "correct": false,
+            "proposition": "État de confusion passager",
+            "justification": "L'état de confusion peut être un signe non spécifique, mais ce n'est pas un signe précoce d'hypertension intracrânienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Engagement temporal",
+            "justification": "L'engagement temporal est un signe plus grave et plus tardif d'HTIC avancée, souvent accompagné de décérébration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289155332_05",
+      "current_version_epoch_ms": 1756289155332,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le critère de gravité d'une crise généralisée tonicoclonique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Crises durant plus de 5 minutes ou se succédant sans reprise de conscience",
+            "justification": "Une crise généralisée tonicoclonique durant plus de 5 minutes ou des crises subintrantes nécessitent une prise en charge urgente pour prévenir des complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Crises de moins de 30 secondes",
+            "justification": "Les crises de moins de 30 secondes ne sont généralement pas considérées comme des urgences médicales graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Crises associées à une légère altération de la conscience",
+            "justification": "Une légère altération de la conscience n'est pas un critère suffisant pour définir une urgence médicale liée aux crises."
+          },
+          {
+            "correct": false,
+            "proposition": "Crises sans signes cliniques associés",
+            "justification": "Les crises sans signes cliniques associés ne sont généralement pas considérées comme nécessitant une intervention urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Crises intermittentes mais courtes",
+            "justification": "Des crises intermittentes mais courtes n'indiquent pas nécessairement une situation d'urgence grave."
+          }
+        ]
+      }
+    }
+  ]
+}
