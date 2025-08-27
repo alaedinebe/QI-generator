@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "polytrauma",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756283132465_01",
+      "current_version_epoch_ms": 1756283132465,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quelles sont les caractéristiques d'un traumatisé crânien léger selon le score de Glasgow ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glasgow ≥ 13",
+            "justification": "Un traumatisé crânien léger est défini par un score de Glasgow supérieur ou égal à 13, ce qui indique une conscience préservée et une bonne évaluation neurologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow entre 9 et 12",
+            "justification": "Cette valeur correspond à un traumatisé crânien modéré, pas léger."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow ≤ 8",
+            "justification": "Cette valeur correspond à un traumatisé crânien grave, pas léger."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de signes de localisation",
+            "justification": "La présence de signes de localisation est un critère de gravité, ce qui exclut le traumatisme crânien léger."
+          },
+          {
+            "correct": false,
+            "proposition": "Mydriase bilatérale",
+            "justification": "La mydriase bilatérale est un signe de gravité, indiquant une urgence neurochirurgicale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756283132465_02",
+      "current_version_epoch_ms": 1756283132465,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Comment définir un traumatisé crânien modéré selon le score de Glasgow ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glasgow entre 9 et 12",
+            "justification": "Un traumatisé crânien modéré est caractérisé par un score de Glasgow compris entre 9 et 12, indiquant une altération de la conscience mais sans coma profond."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow ≥ 13",
+            "justification": "Ce score correspond à un traumatisé crânien léger, pas modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow ≤ 8",
+            "justification": "Un score de Glasgow inférieur ou égal à 8 correspond à un traumatisé crânien grave, pas modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de coma profond",
+            "justification": "Le coma profond est associé à un traumatisé crânien grave et non modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune altération de la conscience",
+            "justification": "L'absence d'altération de la conscience caractérise un traumatisé crânien léger, pas modéré."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756283132465_03",
+      "current_version_epoch_ms": 1756283132465,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est le seuil de Glasgow pour classer un traumatisé crânien comme grave ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glasgow ≤ 8",
+            "justification": "Un traumatisé crânien grave est défini par un score de Glasgow inférieur ou égal à 8, ce qui indique une altération sévère de la conscience."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow entre 9 et 12",
+            "justification": "Un score de Glasgow compris entre 9 et 12 définit un traumatisé crânien modéré, pas grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow ≥ 13",
+            "justification": "Ce score correspond à un traumatisé crânien léger, pas grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de signes de localisation",
+            "justification": "L'absence de signes de localisation ne définit pas un traumatisé crânien grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Mydriase unilatérale",
+            "justification": "La mydriase unilatérale est un signe de gravité mais n'est pas suffisante pour classer le traumatisé crânien comme grave."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756283132465_04",
+      "current_version_epoch_ms": 1756283132465,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel critère indique une urgence neurochirurgicale en cas de traumatisme crânien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mydriase uni ou bilatérale",
+            "justification": "La présence de mydriase, qu'elle soit unilatérale ou bilatérale, est un signe de gravité nécessitant une évaluation neurochirurgicale urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow ≥ 13",
+            "justification": "Un score de Glasgow supérieur ou égal à 13 indique un traumatisme crânien léger et ne justifie pas une urgence neurochirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Absence de trouble de la conscience",
+            "justification": "L'absence de trouble de la conscience n'est pas un critère de gravité en soi, contrairement aux signes de localisation."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de coma léger",
+            "justification": "Un coma léger ne constitue pas nécessairement une urgence neurochirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "Glasgow entre 9 et 12",
+            "justification": "Un score de Glasgow entre 9 et 12 correspond à un traumatisme modéré et ne justifie pas systématiquement une urgence neurochirurgicale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756283132465_05",
+      "current_version_epoch_ms": 1756283132465,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Pourquoi chaque composante du score de Glasgow doit-elle être rapportée séparément ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Car elles n'ont pas la même valeur pronostique",
+            "justification": "Chaque composante (oculaire, verbale et motrice) du score de Glasgow a une valeur pronostique différente, influençant le pronostic du traumatisé crânien."
+          },
+          {
+            "correct": false,
+            "proposition": "Car elles sont indépendantes les unes des autres",
+            "justification": "Les composantes ne sont pas indépendantes, mais leur évaluation séparée est nécessaire pour un pronostic précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Car elles sont d'égale importance",
+            "justification": "Les composantes du score de Glasgow n'ont pas toutes la même importance clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Car cela permet de classer le traumatisé crânien en trois catégories",
+            "justification": "Le classement en catégories de gravité est basé sur le score total, mais l'évaluation séparée des composantes est essentielle pour un pronostic détaillé."
+          },
+          {
+            "correct": false,
+            "proposition": "Car elles sont difficiles à mesurer ensemble",
+            "justification": "Les composantes sont mesurées simultanément, mais leur séparation permet une meilleure évaluation du pronostic."
+          }
+        ]
+      }
+    }
+  ]
+}
