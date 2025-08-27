@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LCA",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756254286551_01",
+      "current_version_epoch_ms": 1756254286551,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est la principale raison pour laquelle il n'est pas recommandé de tester statistiquement la différence de distribution des caractéristiques initiales entre les groupes dans un essai clinique thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il existe une probabilité de 5% d'observer une différence significative par erreur, même si les groupes sont issus d'une même population.",
+            "justification": "La probabilité d'erreur de type I (alpha) de 5% est définie pour détecter une différence, ce qui peut entraîner des conclusions incorrectes si la différence est en réalité non significative."
+          },
+          {
+            "correct": false,
+            "proposition": "Les tests statistiques sont toujours nécessaires pour valider la randomisation.",
+            "justification": "Les tests statistiques ne sont pas nécessaires dans ce cas spécifique en raison du risque d'erreur de type I."
+          },
+          {
+            "correct": false,
+            "proposition": "La randomisation doit être testée à chaque étape pour garantir son efficacité.",
+            "justification": "La randomisation ne nécessite pas de tests répétés une fois que la comparabilité des groupes est vérifiée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les tests de distribution des caractéristiques initiales permettent de valider le plan d'analyse de l'essai.",
+            "justification": "Les tests de comparaison ne sont pas utiles pour la validation initiale des groupes, car cela pourrait introduire un biais statistique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les tests statistiques sont nécessaires uniquement pour les grandes cohortes.",
+            "justification": "Les tests statistiques ne sont pas recommandés pour comparer les caractéristiques initiales entre les groupes, peu importe la taille de l'échantillon."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254286551_02",
+      "current_version_epoch_ms": 1756254286551,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Pourquoi est-il important de vérifier la comparabilité initiale des groupes dans un essai clinique thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour limiter le biais de sélection et le biais de confusion lors de l'analyse des résultats.",
+            "justification": "La comparabilité initiale est essentielle pour s'assurer que les différences observées entre les groupes sont dues au traitement et non à des biais initiaux."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour s'assurer que les groupes sont également affectés par la maladie en question.",
+            "justification": "La comparabilité initiale concerne les caractéristiques des groupes, mais pas spécifiquement l'affection elle-même."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour garantir que les groupes sont homogènes à tous les niveaux après l'essai.",
+            "justification": "L'objectif est de vérifier la comparabilité avant l'essai, et non pas après."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour démontrer que l'échantillon de l'essai est représentatif de la population générale.",
+            "justification": "La représentativité de la population générale n'est pas l'objectif principal de la comparabilité initiale dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour augmenter la taille de l'échantillon et réduire les erreurs d'échantillonnage.",
+            "justification": "La taille de l'échantillon est déterminée avant la randomisation et n'est pas liée à la comparabilité initiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254286551_03",
+      "current_version_epoch_ms": 1756254286551,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle méthode peut être utilisée pour ajuster un déséquilibre dans les caractéristiques initiales entre les groupes dans un essai clinique thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ajustement statistique des variables déséquilibrées dans l'analyse des résultats.",
+            "justification": "L'ajustement statistique permet de corriger l'impact des déséquilibres dans les caractéristiques initiales sur les résultats de l'essai."
+          },
+          {
+            "correct": false,
+            "proposition": "Refaire une randomisation pour rééquilibrer les groupes.",
+            "justification": "La randomisation ne doit pas être répétée une fois l'essai en cours, car cela introduirait de nouveaux biais."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclure les participants des groupes où des déséquilibres importants sont trouvés.",
+            "justification": "Exclure des participants pourrait introduire un biais et affecter l'intégrité de l'essai."
+          },
+          {
+            "correct": false,
+            "proposition": "Utiliser des tests statistiques pour démontrer que les groupes sont équilibrés.",
+            "justification": "Les tests statistiques ne sont pas appropriés pour cette vérification car ils peuvent générer des erreurs de type I."
+          },
+          {
+            "correct": false,
+            "proposition": "Modifier les caractéristiques initiales avant l'inclusion dans l'essai.",
+            "justification": "Cela compromettrait la validité de l'essai, car les groupes doivent être traités de manière égale dès le début."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254286551_04",
+      "current_version_epoch_ms": 1756254286551,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la randomisation dans un essai clinique thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Faire en sorte que les groupes soient comparables sur toutes les caractéristiques mesurées et non mesurées.",
+            "justification": "La randomisation vise à garantir que les différences observées entre les groupes sont dues au traitement et non à des biais de sélection."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer que les groupes ont des caractéristiques similaires en termes de taille et de répartition géographique.",
+            "justification": "La randomisation ne concerne pas la taille ou la répartition géographique mais les caractéristiques médicales des participants."
+          },
+          {
+            "correct": false,
+            "proposition": "Éviter que les patients ne choisissent leur groupe de traitement.",
+            "justification": "Bien que la randomisation évite la sélection des patients, son objectif principal est d'assurer la comparabilité des groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "Optimiser le recrutement en minimisant le nombre de participants nécessaires.",
+            "justification": "La randomisation n'a pas pour but de réduire le nombre de participants, mais de garantir l'intégrité de l'essai."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre une analyse plus rapide des résultats de l'essai.",
+            "justification": "La randomisation ne vise pas à accélérer l'analyse des résultats, mais à garantir leur validité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254286551_05",
+      "current_version_epoch_ms": 1756254286551,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Que signifie un déséquilibre observé dans la distribution des caractéristiques initiales entre les groupes d'un essai clinique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il peut être nécessaire de contrôler ce déséquilibre dans l'analyse statistique, notamment par ajustement.",
+            "justification": "Lorsque des déséquilibres sont observés, il est essentiel d'utiliser des méthodes statistiques pour en tenir compte dans l'analyse des résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela indique que la randomisation n'a pas été correctement réalisée.",
+            "justification": "Même avec une randomisation correcte, des déséquilibres peuvent survenir en raison des fluctuations de l'échantillonnage."
+          },
+          {
+            "correct": false,
+            "proposition": "Cela signifie que l'échantillon est biaisé et que les résultats de l'essai sont invalides.",
+            "justification": "Un déséquilibre initial ne rend pas les résultats invalides, à condition qu'il soit pris en compte dans l'analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Il faut alors ajuster immédiatement la randomisation pour éviter toute erreur.",
+            "justification": "Une fois l'essai lancé, la randomisation ne doit pas être modifiée. Le contrôle des déséquilibres doit se faire dans l'analyse des résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Les déséquilibres doivent toujours être corrigés par une nouvelle randomisation pour garantir l'équilibre des groupes.",
+            "justification": "Réajuster les groupes après la randomisation entraînerait des biais supplémentaires et nuirait à la validité de l'essai."
+          }
+        ]
+      }
+    }
+  ]
+}
