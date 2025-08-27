@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "recomedic",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756261799096_01",
+      "current_version_epoch_ms": 1756261799096,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Qui parmi les professionnels de santé peut prescrire des médicaments réservés à l'usage hospitalier ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Médecins hospitaliers",
+            "justification": "Les médecins hospitaliers ont le droit de prescrire des médicaments réservés à l'usage hospitalier selon les cadres juridiques prévus."
+          },
+          {
+            "correct": false,
+            "proposition": "Sages-femmes",
+            "justification": "Les sages-femmes ne sont habilitées à prescrire que des médicaments dans des limites spécifiques, et non des médicaments réservés à l'usage hospitalier."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgiens-dentistes",
+            "justification": "Les chirurgiens-dentistes peuvent prescrire des actes et des produits liés à l'art dentaire, mais pas des médicaments réservés à l'usage hospitalier."
+          },
+          {
+            "correct": false,
+            "proposition": "Pharmaciens d'officine",
+            "justification": "Les pharmaciens d'officine ne prescrivent pas de médicaments réservés à l'usage hospitalier, leur rôle est de délivrer des médicaments sur prescription."
+          },
+          {
+            "correct": false,
+            "proposition": "Internes en médecine",
+            "justification": "Les internes en médecine peuvent prescrire uniquement sous délégation d'un médecin habilité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261799096_02",
+      "current_version_epoch_ms": 1756261799096,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est le rôle du pharmacien dans la dispensation d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Garantir le bon usage du médicament pour le patient",
+            "justification": "Le pharmacien doit s'assurer que le médicament est délivré dans le respect des bonnes pratiques et que son usage est adapté au patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser une prescription médicale",
+            "justification": "Le pharmacien ne prescrit pas de médicaments, il délivre ceux qui sont prescrits par les professionnels habilités."
+          },
+          {
+            "correct": false,
+            "proposition": "Effectuer un suivi post-thérapeutique des patients",
+            "justification": "Le pharmacien peut conseiller sur les effets secondaires mais n'est pas responsable du suivi thérapeutique complet des patients."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaliser un diagnostic médical",
+            "justification": "Le pharmacien n'effectue pas de diagnostic médical ; cela relève des médecins."
+          },
+          {
+            "correct": false,
+            "proposition": "Régler les problèmes liés à la prescription",
+            "justification": "Les problèmes liés à la prescription doivent être résolus par le prescripteur, et non par le pharmacien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261799096_03",
+      "current_version_epoch_ms": 1756261799096,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est le cadre juridique de prescription des médicaments à prescription restreinte ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réservé à certains spécialistes ou praticiens hospitaliers",
+            "justification": "Les médicaments à prescription restreinte sont réservés aux prescripteurs spécialisés ou hospitaliers pour des indications particulières."
+          },
+          {
+            "correct": false,
+            "proposition": "Accessible à tous les médecins généralistes",
+            "justification": "Les médicaments à prescription restreinte ne peuvent être prescrits que par des spécialistes ou des praticiens hospitaliers, et non par tous les médecins généralistes."
+          },
+          {
+            "correct": false,
+            "proposition": "Disponible sans prescription pour les patients",
+            "justification": "Les médicaments à prescription restreinte ne sont pas disponibles sans prescription, ils nécessitent l'avis d'un spécialiste."
+          },
+          {
+            "correct": false,
+            "proposition": "Peuvent être prescrits par des sages-femmes",
+            "justification": "Les sages-femmes ne peuvent prescrire que des médicaments dans des limites spécifiques et non des médicaments à prescription restreinte."
+          },
+          {
+            "correct": false,
+            "proposition": "Disponible en automédication dans certaines pharmacies",
+            "justification": "Les médicaments à prescription restreinte ne sont pas destinés à être délivrés en automédication, ils nécessitent une prescription spécifique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261799096_04",
+      "current_version_epoch_ms": 1756261799096,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est le délai maximum pour qu'un patient se rende en pharmacie après la prescription d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "3 mois",
+            "justification": "La prescription est valable pour une période de 3 mois maximum, après laquelle elle n'est plus valide."
+          },
+          {
+            "correct": false,
+            "proposition": "6 mois",
+            "justification": "Le délai de validité d'une prescription est de 3 mois maximum, pas de 6 mois."
+          },
+          {
+            "correct": false,
+            "proposition": "12 mois",
+            "justification": "Le délai de 12 mois n'est valable que pour la prescription elle-même, mais la délivrance doit être effectuée dans les 3 mois suivant la prescription."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mois",
+            "justification": "Le délai d'une seule mois est trop court, la validité de la prescription est de 3 mois maximum."
+          },
+          {
+            "correct": false,
+            "proposition": "Indéfini, tant que le médicament est disponible",
+            "justification": "Le délai de validité d'une prescription n'est pas indéfini, il est limité à 3 mois maximum."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756261799096_05",
+      "current_version_epoch_ms": 1756261799096,
+      "rang": "A",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quels éléments doivent être présents sur une ordonnance pour qu'elle soit valide ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Date de l'ordonnance, posologie et qualification du prescripteur",
+            "justification": "Pour être valide, l'ordonnance doit comporter la date, la posologie du médicament, ainsi que la qualification du prescripteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement la date de prescription",
+            "justification": "Une ordonnance ne peut être valide avec seulement la date. Il manque les autres éléments nécessaires comme la posologie et la qualification du prescripteur."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nom du patient et l'adresse du pharmacien",
+            "justification": "Bien que le nom du patient soit nécessaire, l'adresse du pharmacien n'est pas un élément obligatoire pour la validité de l'ordonnance."
+          },
+          {
+            "correct": false,
+            "proposition": "La signature du pharmacien",
+            "justification": "La signature du pharmacien n'est pas exigée sur l'ordonnance, mais celle du prescripteur l'est."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament prescrit doit être en accès direct dans la pharmacie",
+            "justification": "L'ordonnance doit contenir les éléments requis, mais la disponibilité du médicament en accès direct n'est pas une condition pour sa validité."
+          }
+        ]
+      }
+    }
+  ]
+}
