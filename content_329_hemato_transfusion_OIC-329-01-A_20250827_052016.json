@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756264963669_01",
+      "current_version_epoch_ms": 1756264963669,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le groupe sanguin correspondant à un individu porteur des allèles A et O du gène ABO ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "A",
+            "justification": "L'individu portant l'allèle A exprimera l'antigène A sur ses hématies, ce qui correspond au groupe sanguin A."
+          },
+          {
+            "correct": false,
+            "proposition": "B",
+            "justification": "Le groupe sanguin B est associé à l'expression de l'antigène B, codé par l'allèle B, ce qui n'est pas le cas ici."
+          },
+          {
+            "correct": false,
+            "proposition": "AB",
+            "justification": "Le groupe sanguin AB correspond à l'expression simultanée des antigènes A et B, ce qui nécessite la présence des allèles A et B."
+          },
+          {
+            "correct": false,
+            "proposition": "O",
+            "justification": "Le groupe sanguin O correspond à l'absence d'antigènes A et B, ce qui est incompatible avec la présence de l'allèle A."
+          },
+          {
+            "correct": false,
+            "proposition": "RH-",
+            "justification": "Le statut RH négatif se réfère à l'absence de l'antigène D, ce qui est indépendant de la présence des antigènes ABO."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264963669_02",
+      "current_version_epoch_ms": 1756264963669,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est l'antigène du groupe sanguin qui est codé par l'allèle B ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "B",
+            "justification": "L'antigène B est codé par l'allèle B du gène ABO."
+          },
+          {
+            "correct": false,
+            "proposition": "A",
+            "justification": "L'antigène A est codé par l'allèle A du gène ABO, pas par l'allèle B."
+          },
+          {
+            "correct": false,
+            "proposition": "O",
+            "justification": "L'allèle O est non fonctionnel et ne code pour aucun antigène."
+          },
+          {
+            "correct": false,
+            "proposition": "AB",
+            "justification": "Le groupe AB possède à la fois les antigènes A et B, mais ces antigènes sont codés par les allèles A et B respectivement."
+          },
+          {
+            "correct": false,
+            "proposition": "RH+",
+            "justification": "Le groupe RH+ fait référence à la présence de l'antigène D, ce qui est distinct du système ABO."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264963669_03",
+      "current_version_epoch_ms": 1756264963669,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel groupe sanguin peut recevoir une transfusion de sang du groupe O sans risque de rejet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tous les groupes sanguins",
+            "justification": "Le groupe O est universellement compatible en raison de l'absence d'antigènes A et B, ce qui réduit le risque de rejet."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement le groupe O",
+            "justification": "Bien que le groupe O soit le donneur universel, il ne peut recevoir que du sang O."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement le groupe A",
+            "justification": "Le groupe A peut recevoir du groupe A et O, mais pas uniquement du groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement le groupe B",
+            "justification": "Le groupe B peut recevoir du groupe B et O, mais pas uniquement du groupe B."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement le groupe AB",
+            "justification": "Le groupe AB peut recevoir du groupe A, B, AB, et O, mais ce n'est pas la réponse correcte ici."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264963669_04",
+      "current_version_epoch_ms": 1756264963669,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le risque principal en cas de transfusion entre un patient de groupe sanguin A et un donneur de groupe sanguin B ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réaction transfusionnelle due à la présence d'anticorps anti-B dans le plasma du patient A",
+            "justification": "Le patient de groupe A possède des anticorps anti-B qui vont réagir contre les globules rouges du donneur B, entraînant une réaction transfusionnelle."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction transfusionnelle due à la présence d'anticorps anti-A dans le plasma du donneur B",
+            "justification": "Le donneur de groupe B n'a pas d'anticorps anti-A dans son plasma, ce n'est donc pas une cause de rejet."
+          },
+          {
+            "correct": false,
+            "proposition": "Réaction transfusionnelle due à l'absence d'anticorps dans le plasma du patient A",
+            "justification": "L'absence d'anticorps n'empêche pas la réaction transfusionnelle dans ce cas précis."
+          },
+          {
+            "correct": false,
+            "proposition": "Le groupe B est compatible avec tous les autres groupes sanguins",
+            "justification": "Le groupe B n'est pas compatible avec tous les groupes, notamment avec le groupe A."
+          },
+          {
+            "correct": false,
+            "proposition": "La réaction transfusionnelle est due à un défaut de la membrane des globules rouges du donneur",
+            "justification": "La réaction transfusionnelle n'est pas due à un défaut des globules rouges du donneur mais à la reconnaissance d'antigènes étrangers."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756264963669_05",
+      "current_version_epoch_ms": 1756264963669,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le groupe sanguin qui peut être transfusé à un patient de groupe AB dans toutes les situations ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "AB",
+            "justification": "Le groupe AB peut recevoir des transfusions de n'importe quel groupe ABO, car il possède à la fois les antigènes A et B."
+          },
+          {
+            "correct": false,
+            "proposition": "O",
+            "justification": "Le groupe O ne peut être transfusé qu'à des patients de groupe O, et non à un patient AB dans toutes les situations."
+          },
+          {
+            "correct": false,
+            "proposition": "A",
+            "justification": "Bien que le groupe A puisse donner à AB, il ne peut pas être transfusé systématiquement à tous les groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "B",
+            "justification": "Le groupe B peut être donné à AB, mais il n'est pas universellement compatible comme le groupe AB."
+          },
+          {
+            "correct": false,
+            "proposition": "RH-",
+            "justification": "Le statut RH ne concerne pas la compatibilité ABO, mais seulement la présence de l'antigène D."
+          }
+        ]
+      }
+    }
+  ]
+}
