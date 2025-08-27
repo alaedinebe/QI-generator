@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "anaphylaxie",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756302689834_01",
+      "current_version_epoch_ms": 1756302689834,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quelle est la dilution correcte de l'adrénaline en cas de risque d'arrêt cardiaque imminent ou d'instabilité hémodynamique sévère chez un patient déjà perfusé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Diluer 1 mg d'adrénaline dans 10 ml.",
+            "justification": "Cette dilution est celle recommandée pour les situations urgentes afin de préparer une solution à administrer en bolus IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Diluer 0.5 mg d'adrénaline dans 10 ml.",
+            "justification": "Cette dilution est incorrecte car elle ne correspond pas à la concentration nécessaire pour une administration efficace."
+          },
+          {
+            "correct": false,
+            "proposition": "Diluer 2 mg d'adrénaline dans 10 ml.",
+            "justification": "Une telle dilution entraînerait une concentration trop élevée pour un usage sûr en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Diluer 1 mg d'adrénaline dans 5 ml.",
+            "justification": "Cette dilution est trop concentrée pour être administrée en toute sécurité par voie intraveineuse dans cette situation."
+          },
+          {
+            "correct": false,
+            "proposition": "Diluer 1 mg d'adrénaline dans 20 ml.",
+            "justification": "Cette dilution est trop faible et ne permet pas d'obtenir la concentration nécessaire pour un traitement efficace."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756302689834_02",
+      "current_version_epoch_ms": 1756302689834,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quel est le bolus intraveineux recommandé en cas d'adrénaline administrée pour un risque d'arrêt cardiaque imminent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "50 µg (0.01 µg/kg) sur 1 à 2 minutes.",
+            "justification": "Cette dose et ce temps de perfusion sont conformes aux recommandations pour un bolus IV efficace en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "100 µg (0.02 µg/kg) sur 1 à 2 minutes.",
+            "justification": "La dose de 100 µg est trop élevée par rapport à la recommandation standard de 50 µg pour cette situation."
+          },
+          {
+            "correct": false,
+            "proposition": "25 µg (0.005 µg/kg) sur 1 à 2 minutes.",
+            "justification": "Cette dose est trop faible pour être efficace dans les situations de risque d'arrêt cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "50 µg (0.01 µg/kg) sur 5 minutes.",
+            "justification": "Le temps de perfusion de 5 minutes est trop long pour un bolus IV dans ce contexte d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "75 µg (0.015 µg/kg) sur 1 à 2 minutes.",
+            "justification": "La dose de 75 µg est incorrecte car elle dépasse la dose recommandée de 50 µg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756302689834_03",
+      "current_version_epoch_ms": 1756302689834,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quel est le relais possible après l'administration du bolus IV d'adrénaline en cas de traitement de l'arrêt cardiaque imminent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perfusion continue intraveineuse à la seringue électrique (0.1 µg/kg/min).",
+            "justification": "La perfusion continue intraveineuse permet de maintenir un niveau constant d'adrénaline pour soutenir l'efficacité du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion continue intraveineuse à la seringue électrique (0.05 µg/kg/min).",
+            "justification": "La dose de 0.05 µg/kg/min est insuffisante pour maintenir l'efficacité thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion continue intraveineuse à la seringue manuelle (0.1 µg/kg/min).",
+            "justification": "La perfusion manuelle n'est pas recommandée car elle est moins précise que l'utilisation d'une seringue électrique."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion continue intraveineuse à 0.1 mg/kg/min.",
+            "justification": "La dose de 0.1 mg/kg/min est trop élevée par rapport à la recommandation de 0.1 µg/kg/min."
+          },
+          {
+            "correct": false,
+            "proposition": "Perfusion continue intraveineuse à la seringue électrique (0.2 µg/kg/min).",
+            "justification": "Cette dose est trop élevée par rapport à la recommandation de 0.1 µg/kg/min pour un relais post-bolus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756302689834_04",
+      "current_version_epoch_ms": 1756302689834,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Dans quel cas l'administration intraveineuse d'adrénaline est indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de risque d'arrêt cardiaque imminent ou de forme réfractaire.",
+            "justification": "L'adrénaline est administrée dans ces situations critiques pour tenter de rétablir la fonction cardiaque et la stabilité hémodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un simple malaise sans trouble cardiaque sévère.",
+            "justification": "L'adrénaline est réservée aux situations d'urgence graves, telles que l'arrêt cardiaque ou l'instabilité hémodynamique sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une bradycardie isolée sans autre condition grave.",
+            "justification": "La bradycardie isolée n'est pas une indication pour l'administration d'adrénaline intraveineuse en l'absence d'autres facteurs de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour un choc anaphylactique léger.",
+            "justification": "Un choc anaphylactique léger peut être traité différemment, par exemple avec des antihistaminiques ou des corticostéroïdes, sans nécessiter d'adrénaline intraveineuse dans les premiers stades."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de douleur thoracique sans signe d'ischémie aiguë.",
+            "justification": "La douleur thoracique sans signe d'ischémie aiguë ne nécessite pas l'administration d'adrénaline intraveineuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756302689834_05",
+      "current_version_epoch_ms": 1756302689834,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quel est le but de l'administration d'adrénaline intraveineuse dans les situations d'arrêt cardiaque imminent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Restaurer la fonction cardiaque et l'hémodynamique.",
+            "justification": "L'adrénaline est administrée pour stimuler le cœur et améliorer la circulation sanguine, particulièrement en cas d'arrêt cardiaque réfractaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Diminuer la pression intracrânienne.",
+            "justification": "L'adrénaline n'est pas utilisée pour traiter la pression intracrânienne dans ce contexte clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la douleur thoracique.",
+            "justification": "L'adrénaline n'a pas d'effet direct sur la réduction de la douleur thoracique dans les situations d'arrêt cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Améliorer la circulation pulmonaire uniquement.",
+            "justification": "L'adrénaline agit de manière globale pour soutenir la circulation sanguine et rétablir la fonction cardiaque, pas uniquement la circulation pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter le rythme respiratoire.",
+            "justification": "L'adrénaline ne cible pas directement le rythme respiratoire dans cette situation, mais plutôt le soutien cardiovasculaire."
+          }
+        ]
+      }
+    }
+  ]
+}
