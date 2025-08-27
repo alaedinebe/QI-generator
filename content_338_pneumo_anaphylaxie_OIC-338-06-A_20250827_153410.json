@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "anaphylaxie",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756301797018_01",
+      "current_version_epoch_ms": 1756301797018,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quelle est la dose d'adrénaline administrée par voie intramusculaire chez un adulte en cas de manifestation anaphylactique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0.5 mg IM, à mi-hauteur sur la face latéro-externe de la cuisse.",
+            "justification": "C'est la dose standard pour un adulte en cas de manifestation anaphylactique selon les recommandations."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mg IM, à mi-hauteur sur la face latéro-externe de la cuisse.",
+            "justification": "La dose standard pour un adulte est de 0.5 mg IM, pas 1 mg."
+          },
+          {
+            "correct": false,
+            "proposition": "0.25 mg IM, à mi-hauteur sur la face latéro-externe de la cuisse.",
+            "justification": "La dose standard pour un adulte est de 0.5 mg IM, pas 0.25 mg."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mg IV, à mi-hauteur sur la face latéro-externe de la cuisse.",
+            "justification": "L'adrénaline est administrée par voie intramusculaire et non intraveineuse en cas de manifestation anaphylactique."
+          },
+          {
+            "correct": false,
+            "proposition": "0.5 mg IV, à mi-hauteur sur la face latéro-externe de la cuisse.",
+            "justification": "L'adrénaline est administrée par voie intramusculaire, pas intraveineuse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756301797018_02",
+      "current_version_epoch_ms": 1756301797018,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quel est le dosage d'adrénaline en cas d'anaphylaxie chez un sujet de moins de 50 kg ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "0.01 mg/kg IM.",
+            "justification": "Chez un sujet de moins de 50 kg, la dose d'adrénaline est ajustée à 0.01 mg/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "0.5 mg IM.",
+            "justification": "La dose de 0.5 mg est standard pour les adultes, mais chez un sujet de moins de 50 kg, la dose doit être calculée en fonction du poids."
+          },
+          {
+            "correct": false,
+            "proposition": "0.1 mg/kg IM.",
+            "justification": "La dose recommandée pour les sujets de moins de 50 kg est 0.01 mg/kg, pas 0.1 mg/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "0.5 mg IV.",
+            "justification": "L'adrénaline est administrée par voie intramusculaire, pas intraveineuse, dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "1 mg IM.",
+            "justification": "Chez un sujet de moins de 50 kg, la dose d'adrénaline est calculée en fonction du poids, soit 0.01 mg/kg."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756301797018_03",
+      "current_version_epoch_ms": 1756301797018,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Que faire si, après 5 minutes, des signes cliniques mettant en jeu le pronostic vital persistent chez un patient anaphylactique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Répéter l'injection d'adrénaline à 0.5 mg IM (ou 0.01 mg/kg pour un sujet de moins de 50 kg).",
+            "justification": "Si les signes cliniques persistent, une nouvelle injection est recommandée après 5 minutes."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un corticoïde intraveineux.",
+            "justification": "La priorité reste l'adrénaline en cas de persistance de signes cliniques anaphylactiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un antihistaminique intraveineux.",
+            "justification": "L'adrénaline est le traitement principal en cas de persistance des symptômes. Les antihistaminiques ne sont pas un traitement de première intention."
+          },
+          {
+            "correct": false,
+            "proposition": "Transférer immédiatement le patient en soins intensifs.",
+            "justification": "Bien que le transfert puisse être nécessaire, la priorité est l'administration d'adrénaline pour stabiliser l'état du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Administer 0.5 mg IM toutes les 10 minutes.",
+            "justification": "L'intervalle recommandé est de 5 minutes, pas 10 minutes, pour répéter l'injection d'adrénaline."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756301797018_04",
+      "current_version_epoch_ms": 1756301797018,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Pourquoi la voie intramusculaire est-elle préférée à la voie intraveineuse pour l'administration d'adrénaline en cas de réaction anaphylactique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La voie IM permet une administration plus rapide que la voie IV.",
+            "justification": "La voie intramusculaire permet une absorption plus rapide de l'adrénaline comparée à la voie intraveineuse, qui nécessite une perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie IV est plus rapide et efficace.",
+            "justification": "La voie IV est généralement plus lente en termes d'absorption en cas d'urgence anaphylactique."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie IM est moins risquée.",
+            "justification": "Les deux voies sont sûres, mais la voie IM est choisie principalement pour sa rapidité."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie IV est plus facile à administrer.",
+            "justification": "L'injection intraveineuse est plus complexe et nécessite un matériel spécifique, ce qui la rend moins adaptée en situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "La voie IV permet une meilleure biodisponibilité.",
+            "justification": "En cas d'urgence, la biodisponibilité n'est pas la principale priorité. La vitesse d'administration est le critère déterminant."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756301797018_05",
+      "current_version_epoch_ms": 1756301797018,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "anaphylaxie"
+      },
+      "data": {
+        "statement": "Quels signes cliniques nécessitent une nouvelle injection d'adrénaline après 5 minutes chez un patient anaphylactique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypotension artérielle, dyspnée.",
+            "justification": "Ces signes cliniques mettent en jeu le pronostic vital et justifient une nouvelle injection d'adrénaline."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre, éruption cutanée.",
+            "justification": "Ces signes ne mettent pas en jeu le pronostic vital et ne justifient pas une nouvelle injection d'adrénaline."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleurs abdominales, nausées.",
+            "justification": "Ces symptômes ne sont pas des signes de gravité mettant en jeu le pronostic vital."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoglycémie, hyperthermie.",
+            "justification": "Ces symptômes ne sont pas directement liés à l'anaphylaxie et ne justifient pas une nouvelle injection d'adrénaline."
+          },
+          {
+            "correct": false,
+            "proposition": "Perte de conscience, urticaire.",
+            "justification": "Bien que la perte de conscience soit un signe grave, l'urticaire seul ne justifie pas une nouvelle injection."
+          }
+        ]
+      }
+    }
+  ]
+}
