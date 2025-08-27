@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "recomedic",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756262251094_01",
+      "current_version_epoch_ms": 1756262251094,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal du Service Médical Rendu (SMR) dans l'évaluation des médicaments ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer l'intérêt clinique du médicament pour sa prise en charge par la solidarité nationale.",
+            "justification": "Le SMR sert à déterminer si un médicament a un intérêt clinique suffisant pour être pris en charge par la solidarité nationale."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer l'efficacité d'un médicament en comparaison avec d'autres médicaments.",
+            "justification": "Le SMR évalue l'intérêt clinique global, pas seulement l'efficacité par comparaison."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer le coût économique des médicaments.",
+            "justification": "Le SMR se concentre sur l'intérêt clinique et non sur le coût économique des médicaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer le prix d'un médicament.",
+            "justification": "Le prix d'un médicament est influencé par l'ASMR, pas par le SMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Estimer la durée d'effet d'un médicament.",
+            "justification": "Le SMR n'est pas destiné à mesurer la durée d'effet, mais l'intérêt clinique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756262251094_02",
+      "current_version_epoch_ms": 1756262251094,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est l'impact d'un SMR 'important' sur le remboursement d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le médicament bénéficie d'un taux de remboursement de 65%.",
+            "justification": "Un SMR 'important' correspond à un remboursement de 65%, ce qui reflète l'intérêt clinique majeur du médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament est remboursé à hauteur de 100%.",
+            "justification": "Un remboursement complet (100%) n'est accordé que pour un SMR de niveau maximal."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament n'est pas remboursé.",
+            "justification": "Un SMR 'important' permet un remboursement partiel, pas une absence de remboursement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de remboursement est de 30%.",
+            "justification": "Un taux de 30% correspond à un SMR 'modéré', pas à un SMR 'important'."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament est pris en charge par l'Assurance Maladie uniquement en cas d'ASMR élevé.",
+            "justification": "Le SMR détermine la prise en charge, indépendamment de l'ASMR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756262251094_03",
+      "current_version_epoch_ms": 1756262251094,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quels critères sont pris en compte dans l'évaluation du Service Médical Rendu (SMR) d'un médicament ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'efficacité, les effets indésirables, et l'impact sur la santé publique.",
+            "justification": "L'évaluation du SMR inclut ces critères clés pour déterminer l'intérêt clinique d'un médicament."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement l'efficacité par rapport à d'autres traitements.",
+            "justification": "L'évaluation du SMR ne se limite pas à l'efficacité, mais prend en compte plusieurs autres critères."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets indésirables uniquement.",
+            "justification": "Les effets indésirables sont un critère, mais non le seul pris en compte pour déterminer le SMR."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coût économique du médicament.",
+            "justification": "Le coût économique n'est pas un critère direct dans l'évaluation du SMR, qui se concentre sur l'intérêt clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée d'hospitalisation réduite.",
+            "justification": "La durée d'hospitalisation peut être un élément indirect, mais n'est pas un critère explicite du SMR."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756262251094_04",
+      "current_version_epoch_ms": 1756262251094,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Quel est l'impact d'un ASMR 'absent' sur l'inscription d'un médicament au remboursement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le médicament ne peut être inscrit au remboursement que s'il apporte une économie dans les coûts de traitement.",
+            "justification": "Un ASMR absent signifie qu'il n'y a pas de progrès thérapeutique, mais l'inscription peut être possible si le médicament génère une économie sur les coûts."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament est systématiquement inscrit au remboursement.",
+            "justification": "Un ASMR absent ne justifie pas une inscription automatique au remboursement, sauf si des économies sont apportées."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament peut être inscrit au remboursement sans condition.",
+            "justification": "Sans ASMR, la possibilité de remboursement dépend de la démonstration d'une économie dans les coûts de traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament bénéficie d'une inscription au remboursement avec un prix plus élevé.",
+            "justification": "Un ASMR absent n'entraîne pas de prix plus élevé ; il limite les possibilités de remboursement."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament est inscrit au remboursement à un tarif réduit.",
+            "justification": "L'ASMR absent ne permet pas un tarif réduit automatiquement, il dépend de l'impact économique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756262251094_05",
+      "current_version_epoch_ms": 1756262251094,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "recomedic"
+      },
+      "data": {
+        "statement": "Que représente l'ASMR dans l'évaluation des médicaments ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ASMR représente le progrès thérapeutique apporté par un médicament par rapport aux autres traitements disponibles.",
+            "justification": "L'ASMR évalue le progrès thérapeutique du médicament en fonction des traitements existants."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ASMR évalue uniquement l'efficacité d'un médicament.",
+            "justification": "L'ASMR évalue le progrès thérapeutique, pas seulement l'efficacité brute."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ASMR concerne uniquement les médicaments à action préventive.",
+            "justification": "L'ASMR s'applique à tous les types de médicaments, pas seulement ceux à action préventive."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ASMR est évalué par les caisses d'assurance maladie.",
+            "justification": "L'ASMR est évalué par la Commission de la Transparence de la HAS, pas directement par les caisses d'assurance maladie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ASMR détermine la prise en charge d'un médicament par la sécurité sociale.",
+            "justification": "L'ASMR n'est pas directement lié à la prise en charge par la sécurité sociale, mais à l'impact sur le prix."
+          }
+        ]
+      }
+    }
+  ]
+}
