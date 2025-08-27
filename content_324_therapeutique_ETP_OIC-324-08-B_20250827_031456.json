@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ETP",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756257443575_01",
+      "current_version_epoch_ms": 1756257443575,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quels sont les moyens les plus courants pour détecter la malobservance d'un traitement chez un patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Interroger directement le patient sur son adhésion au traitement sans connotation négative.",
+            "justification": "L'interrogatoire est une méthode de première ligne permettant d'obtenir des informations directes, sans stigmatiser le patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Vérifier le nombre de boîtes retirées en pharmacie.",
+            "justification": "Bien que cela n'indique pas nécessairement la prise réelle, le nombre de boîtes délivrées est un bon indicateur indirect de l'adhésion au traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser uniquement les symptômes cliniques du patient.",
+            "justification": "Les symptômes seuls ne permettent pas de conclure à une malobservance, car ils peuvent résulter de multiples facteurs autres que l'adhésion thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander au patient de rapporter les doses prises dans un carnet de suivi.",
+            "justification": "Cette méthode peut être biaisée car le patient peut omettre des informations ou mal enregistrer les doses."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter systématiquement la dose du traitement en cas d'échec.",
+            "justification": "Il est important de vérifier d'abord l'adhésion au traitement avant d'envisager une augmentation de la posologie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257443575_02",
+      "current_version_epoch_ms": 1756257443575,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quels marqueurs biologiques peuvent être utilisés pour évaluer l'observance d'un traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le dosage de l'INR sous anti-vitamine K.",
+            "justification": "L'INR est un indicateur fiable de l'adhésion aux traitements anticoagulants, notamment avec les anti-vitamine K."
+          },
+          {
+            "correct": true,
+            "proposition": "Le dosage de la HbA1c chez les patients diabétiques.",
+            "justification": "La HbA1c reflète l'adhésion au traitement antidiabétique, en particulier pour la gestion du diabète de type 2."
+          },
+          {
+            "correct": false,
+            "proposition": "Les dosages de la créatinine sérique.",
+            "justification": "Bien que la créatinine soit un marqueur important de la fonction rénale, elle n'est pas spécifique à l'adhésion au traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "Les dosages urinaires ou sanguins de certains médicaments comme le valproate de sodium.",
+            "justification": "Le suivi des médicaments à marge thérapeutique étroite, comme le valproate, permet d'évaluer l'adhésion au traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les tests de fonction hépatique.",
+            "justification": "Bien qu'importants pour surveiller l'état général du patient, les tests de fonction hépatique ne sont pas des marqueurs directs de l'adhésion thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257443575_03",
+      "current_version_epoch_ms": 1756257443575,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Comment identifier un échec thérapeutique potentiel dû à la malobservance ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En observant une absence de réponse clinique après un traitement bien administré.",
+            "justification": "Un échec thérapeutique manifeste malgré une bonne prescription peut être le signe d'une non-adhésion au traitement."
+          },
+          {
+            "correct": true,
+            "proposition": "En analysant l'efficacité du traitement et en cherchant des indices de malobservance.",
+            "justification": "L'efficacité du traitement est un critère primordial ; si elle est absente, il faut suspecter une non-adhésion, avant d'envisager un changement thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "En changeant systématiquement de médicament.",
+            "justification": "Il est préférable d'abord d'évaluer l'adhésion au traitement avant de changer de médicament, car un échec peut être dû à une mauvaise prise du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "En augmentant systématiquement la posologie du médicament.",
+            "justification": "Une augmentation de la posologie sans vérification de l'adhésion peut mener à une escalade thérapeutique inutile."
+          },
+          {
+            "correct": false,
+            "proposition": "En ignorant les effets secondaires signalés.",
+            "justification": "Les effets secondaires doivent être pris en compte dans l'évaluation globale, mais ne permettent pas en eux-mêmes de conclure à un échec thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257443575_04",
+      "current_version_epoch_ms": 1756257443575,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quels effets secondaires peuvent être liés à la malobservance d'un traitement ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'éosinopénie avec l'utilisation des corticoïdes.",
+            "justification": "L'éosinopénie est un effet secondaire fréquent des corticoïdes, ce qui peut aider à identifier un échec thérapeutique dû à la malobservance."
+          },
+          {
+            "correct": true,
+            "proposition": "L'hyperuricémie avec la prise de pyrazinamide.",
+            "justification": "L'hyperuricémie est un effet secondaire connu du pyrazinamide, pouvant suggérer une prise irrégulière du traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "L'hypoglycémie avec les bêta-bloquants.",
+            "justification": "Bien que les bêta-bloquants puissent interférer avec le métabolisme du glucose, l'hypoglycémie n'est pas un effet secondaire direct ni un marqueur de malobservance."
+          },
+          {
+            "correct": true,
+            "proposition": "La coloration orange des sécrétions avec la rifampicine.",
+            "justification": "La rifampicine est bien connue pour colorer en orange les sécrétions corporelles, un effet secondaire qui peut être observé chez un patient ayant un traitement bien suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "L'élévation des enzymes hépatiques avec l'amoxicilline.",
+            "justification": "L'amoxicilline peut entraîner des effets secondaires mais l'élévation des enzymes hépatiques ne constitue pas un marqueur d'observance."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756257443575_05",
+      "current_version_epoch_ms": 1756257443575,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Pourquoi faut-il absolument vérifier l'adhésion au traitement en cas d'échec thérapeutique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Parce que l'échec thérapeutique peut être dû à une mauvaise observance, évitant ainsi une escalade inutile du traitement.",
+            "justification": "Vérifier l'adhésion avant d'envisager une escalade thérapeutique est essentiel pour éviter des traitements excessifs ou potentiellement dangereux."
+          },
+          {
+            "correct": true,
+            "proposition": "Parce que l'adhésion au traitement peut être améliorée, évitant ainsi des modifications inutiles du schéma thérapeutique.",
+            "justification": "Il est toujours préférable d'optimiser l'adhésion au traitement avant de modifier le protocole thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que l'échec thérapeutique est toujours dû à un manque de réponse du médicament.",
+            "justification": "L'échec thérapeutique peut résulter de diverses causes, et ne doit pas être systématiquement attribué à l'inefficacité du médicament sans exploration de l'adhésion."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que la malobservance est rare et n'a pas d'impact clinique important.",
+            "justification": "La malobservance est fréquente et peut avoir un impact clinique majeur, justifiant sa prise en compte dans l'évaluation de l'échec thérapeutique."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce que les effets secondaires ne doivent jamais influencer le choix thérapeutique.",
+            "justification": "Les effets secondaires peuvent influencer la prise en charge et doivent être intégrés dans le raisonnement clinique pour ajuster le traitement si nécessaire."
+          }
+        ]
+      }
+    }
+  ]
+}
