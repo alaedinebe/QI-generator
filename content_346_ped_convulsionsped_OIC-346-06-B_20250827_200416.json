@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "convulsionsped",
+    "subject": "ped"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756318003207_01",
+      "current_version_epoch_ms": 1756318003207,
+      "rang": "B",
+      "topic": {
+        "subject": "ped",
+        "item": "convulsionsped"
+      },
+      "data": {
+        "statement": "En cas de crise convulsive fébrile simple, quel examen complémentaire est recommandé ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire n'est pas indiquée en cas de crise fébrile simple, sauf en présence de signes cliniques de méningite."
+          },
+          {
+            "correct": true,
+            "proposition": "Aucun examen complémentaire, sauf pour chercher la cause de la fièvre",
+            "justification": "En l'absence de signe clinique de méningite, aucun examen complémentaire n'est nécessaire, sauf pour identifier la cause de la fièvre."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral",
+            "justification": "Le scanner cérébral n'est pas systématique dans ce cas, sauf si des signes neurologiques sont présents."
+          },
+          {
+            "correct": false,
+            "proposition": "EEG",
+            "justification": "L'EEG n'est pas nécessaire dans le cadre d'une crise fébrile simple."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan biologique systématique",
+            "justification": "Un bilan biologique n'est pas systématique en cas de crise fébrile simple, sauf si des signes cliniques spécifiques l'indiquent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756318003207_02",
+      "current_version_epoch_ms": 1756318003207,
+      "rang": "B",
+      "topic": {
+        "subject": "ped",
+        "item": "convulsionsped"
+      },
+      "data": {
+        "statement": "Dans le cas d'une crise fébrile complexe, quand la ponction lombaire est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si la crise est focale, prolongée, répétée, ou associée à un déficit post-critique",
+            "justification": "La ponction lombaire est indiquée dans ces situations spécifiques, car elles peuvent évoquer une méningite ou d'autres complications nécessitant un diagnostic différentiel."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'enfant a plus de 12 mois",
+            "justification": "La ponction lombaire n'est pas systématique chez les enfants de plus de 12 mois en l'absence de signe clinique de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la crise dure moins de 5 minutes",
+            "justification": "La durée de la crise n'est pas un critère suffisant pour décider d'une ponction lombaire, celle-ci étant réservée aux crises complexes avec des signes cliniques particuliers."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la crise est simple mais répétée",
+            "justification": "Les crises répétées nécessitent une surveillance, mais la ponction lombaire n'est pas systématique en l'absence de signes cliniques de méningite."
+          },
+          {
+            "correct": true,
+            "proposition": "Si l'enfant a moins de 6 mois",
+            "justification": "La ponction lombaire est systématiquement indiquée si l'enfant a moins de 6 mois, même en l'absence de signes cliniques de méningite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756318003207_03",
+      "current_version_epoch_ms": 1756318003207,
+      "rang": "B",
+      "topic": {
+        "subject": "ped",
+        "item": "convulsionsped"
+      },
+      "data": {
+        "statement": "Quelle est l'indication de ponction lombaire lors d'une crise convulsive sans fièvre chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de signes de localisation à l'examen neurologique",
+            "justification": "La ponction lombaire n'est pas systématique en cas de signes de localisation, un scanner cérébral est plutôt recommandé."
+          },
+          {
+            "correct": true,
+            "proposition": "Si les troubles de conscience persistent plus de 30 minutes après la crise",
+            "justification": "La persistance des troubles de conscience après une crise indique la nécessité d'un examen complémentaire, dont une ponction lombaire si suspectée de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Uniquement si l'enfant présente des antécédents d'épilepsie",
+            "justification": "La ponction lombaire n'est pas liée aux antécédents d'épilepsie, mais aux critères cliniques après une crise."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de déficience neurologique persistante post-critique",
+            "justification": "Une déficience neurologique post-critique ne justifie pas une ponction lombaire, mais peut nécessiter une surveillance et un diagnostic plus approfondi."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la crise dure plus de 10 minutes",
+            "justification": "La durée de la crise ne suffit pas à justifier une ponction lombaire, c'est la persistance des troubles qui doit guider l'examen complémentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756318003207_04",
+      "current_version_epoch_ms": 1756318003207,
+      "rang": "B",
+      "topic": {
+        "subject": "ped",
+        "item": "convulsionsped"
+      },
+      "data": {
+        "statement": "Quel examen est indiqué en cas de crise non fébrile ou inhabituelle chez un enfant ayant des antécédents d'épilepsie ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral systématique",
+            "justification": "Le scanner n'est pas systématique, un EEG est plus adapté pour ce type de crise."
+          },
+          {
+            "correct": true,
+            "proposition": "EEG",
+            "justification": "L'EEG est recommandé en cas de crise non fébrile ou inhabituelle chez un enfant épileptique pour évaluer le risque de récidive ou de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction lombaire",
+            "justification": "La ponction lombaire n'est pas systématique dans ces situations, sauf en cas de suspicion de méningite."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan biologique complet",
+            "justification": "Un bilan biologique n'est pas nécessairement indiqué dans ce cas spécifique, sauf en présence d'autres facteurs de risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner cérébral si signes neurologiques",
+            "justification": "Le scanner est utilisé en cas de signes neurologiques aigus, mais dans ce cas, l'EEG est plus pertinent."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756318003207_05",
+      "current_version_epoch_ms": 1756318003207,
+      "rang": "B",
+      "topic": {
+        "subject": "ped",
+        "item": "convulsionsped"
+      },
+      "data": {
+        "statement": "Quand faut-il réaliser un bilan biologique (ionogramme, calcémie, glycémie) chez un nourrisson ayant présenté une crise convulsive ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Uniquement si la crise est fébrile",
+            "justification": "Le bilan biologique est aussi utile en l'absence de fièvre, notamment en cas de déshydratation ou de diabète."
+          },
+          {
+            "correct": true,
+            "proposition": "Avant l'âge de 6 mois, selon le contexte clinique",
+            "justification": "Le bilan biologique est recommandé avant 6 mois, en particulier en cas de signes évocateurs de troubles métaboliques comme la déshydratation ou des troubles du métabolisme."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de toutes les crises convulsives, quel que soit l'âge",
+            "justification": "Le bilan biologique n'est pas systématique chez les enfants plus âgés sauf en cas de contexte particulier (déshydratation, diabète...)."
+          },
+          {
+            "correct": false,
+            "proposition": "Systématiquement lors de chaque crise convulsive avec ou sans fièvre",
+            "justification": "Le bilan biologique n'est pas systématique, il est réservé à des situations cliniques spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement en cas de crise prolongée ou répétée",
+            "justification": "Le bilan biologique peut être nécessaire indépendamment de la durée ou de la fréquence des crises si des facteurs de risque sont présents."
+          }
+        ]
+      }
+    }
+  ]
+}
