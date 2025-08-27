@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "coma",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756289003867_01",
+      "current_version_epoch_ms": 1756289003867,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quelle est la glycémie capillaire indicative d'une hypoglycémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Moins de 3 mmol/L",
+            "justification": "La glycémie capillaire doit être inférieure à 3 mmol/L pour confirmer une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 5 mmol/L",
+            "justification": "Une glycémie capillaire inférieure à 5 mmol/L n'est pas suffisante pour diagnostiquer une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 7 mmol/L",
+            "justification": "Une glycémie capillaire inférieure à 7 mmol/L ne correspond pas à une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 10 mmol/L",
+            "justification": "Une glycémie capillaire inférieure à 10 mmol/L est encore dans les limites normales, donc ne permet pas de diagnostiquer une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Moins de 15 mmol/L",
+            "justification": "Une glycémie capillaire de moins de 15 mmol/L est trop élevée pour être considérée comme une hypoglycémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289003867_02",
+      "current_version_epoch_ms": 1756289003867,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quelle est la première mesure à prendre en cas de coma hypoglycémique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Resucrage en urgence par sérum glucosé IV (G30%)",
+            "justification": "En cas de coma hypoglycémique, la première mesure est de resucrer rapidement par sérum glucosé IV pour corriger la baisse de la glycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'insuline",
+            "justification": "L'administration d'insuline est contre-indiquée dans un coma hypoglycémique, où la priorité est de resucrer."
+          },
+          {
+            "correct": false,
+            "proposition": "Donner du sucre en morceau",
+            "justification": "Le sucre en morceau est indiqué uniquement si le patient est conscient, mais pas en cas de coma."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre la réévaluation sans intervention immédiate",
+            "justification": "L'attente sans intervention peut aggraver l'hypoglycémie et les troubles neurologiques associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer de l'eau sucrée par voie orale",
+            "justification": "La voie orale n'est pas possible en cas de coma, d'où la nécessité de l'administration par voie IV."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289003867_03",
+      "current_version_epoch_ms": 1756289003867,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le traitement adapté si la conscience du patient est préservée lors d'une hypoglycémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Sucre en morceau ou jus d'orange",
+            "justification": "Si le patient est conscient, le traitement consiste en un sucre en morceau ou du jus d'orange par voie orale pour corriger l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Sérum glucosé IV",
+            "justification": "Le sérum glucosé IV est réservé aux situations où le patient est dans un coma ou avec des troubles neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuline injectable",
+            "justification": "L'insuline est contre-indiquée en cas d'hypoglycémie, où il faut administrer du glucose."
+          },
+          {
+            "correct": false,
+            "proposition": "Attendre sans traitement",
+            "justification": "Attendre sans traitement est dangereux en cas d'hypoglycémie, car l'état clinique risque de se détériorer."
+          },
+          {
+            "correct": false,
+            "proposition": "Bicarbonates de sodium par voie IV",
+            "justification": "Les bicarbonates de sodium ne sont pas indiqués pour le traitement de l'hypoglycémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289003867_04",
+      "current_version_epoch_ms": 1756289003867,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Comment confirmer le diagnostic d'hypoglycémie après un premier test de glycémie capillaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie sanguine",
+            "justification": "La glycémie capillaire doit être confirmée par une glycémie sanguine pour diagnostiquer une hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Électrocardiogramme",
+            "justification": "Un électrocardiogramme ne permet pas de diagnostiquer l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de la fonction hépatique",
+            "justification": "Les tests de la fonction hépatique ne sont pas nécessaires pour diagnostiquer l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie thoracique n'est pas utilisée pour diagnostiquer l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de glycémie urinaire",
+            "justification": "Le test de glycémie urinaire n'est pas adapté pour diagnostiquer l'hypoglycémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756289003867_05",
+      "current_version_epoch_ms": 1756289003867,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "coma"
+      },
+      "data": {
+        "statement": "Quel est le principe du resucrage en urgence dans le cadre de l'hypoglycémie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Correction rapide de la glycémie par un sucre ou un sérum glucosé",
+            "justification": "Le resucrage en urgence vise à corriger rapidement la glycémie en administrant un sucre (oral ou IV), essentiel pour traiter l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Injection de corticoïdes",
+            "justification": "Les corticoïdes ne sont pas un traitement de l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration d'une perfusion de sels minéraux",
+            "justification": "Les sels minéraux ne sont pas indiqués pour le traitement de l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Inhalation d'oxygène",
+            "justification": "L'oxygène n'est pas utilisé dans le traitement de l'hypoglycémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hydratation par perfusion saline",
+            "justification": "L'hydratation seule n'est pas un traitement approprié pour l'hypoglycémie."
+          }
+        ]
+      }
+    }
+  ]
+}
