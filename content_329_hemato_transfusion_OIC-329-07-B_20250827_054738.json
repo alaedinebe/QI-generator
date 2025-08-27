@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756266605482_01",
+      "current_version_epoch_ms": 1756266605482,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles sont les indications de la transfusion de plasma frais congelé (PFC) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas d'hémorragie aiguë ou d'un geste à risque hémorragique associé à une anomalie profonde de l'hémostase (fibrinogène < 1g/L, TP < 40%, TCA > 1,5 à 1,8 X le témoin)",
+            "justification": "Cette indication est fondée sur l'association de l'hémorragie aiguë avec des anomalies profondes de l'hémostase, justifiant la transfusion de plasma frais congelé."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'anémie sévère non corrigée par les concentrés de globules rouges",
+            "justification": "L'indication de plasma frais congelé n'est pas liée à l'anémie sévère, mais plutôt à des troubles de l'hémostase ou pour l'épuration de substances toxiques."
+          },
+          {
+            "correct": true,
+            "proposition": "Pour l'épuration de substances ou anticorps toxiques par échanges plasmatiques (ex : micro angiopathies thrombotiques)",
+            "justification": "L'échange plasmatique est indiqué pour le traitement de certaines pathologies comme les microangiopathies thrombotiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de greffes de cellules souches hématopoïétiques sans précautions particulières",
+            "justification": "La transfusion de plasma est spécifiquement indiquée pour les greffes d'organes ou les greffes allogéniques de cellules souches hématopoïétiques, mais avec des tests particuliers pour la sécurité."
+          },
+          {
+            "correct": true,
+            "proposition": "Au cours des CIVD avec effondrement du TP (< 35-40%) associé à une hémorragie active ou potentielle",
+            "justification": "L'indication est basée sur la nécessité de corriger l'effondrement du TP dans les situations de CIVD avec hémorragie active."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266605482_02",
+      "current_version_epoch_ms": 1756266605482,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelle est la posologie recommandée pour la transfusion de plasma frais congelé en cas d'hémorragie aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "10 à 15 ml/kg",
+            "justification": "La posologie recommandée pour l'hémorragie aiguë associée à une anomalie profonde de l'hémostase est de 10 à 15 ml/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "5 à 10 ml/kg",
+            "justification": "La posologie pour l'hémorragie aiguë est plus élevée, soit de 10 à 15 ml/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "20 à 30 ml/kg",
+            "justification": "La posologie de 20 à 30 ml/kg est trop élevée pour une transfusion en cas d'hémorragie aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "25 à 40 ml/kg",
+            "justification": "Cette posologie est plus adaptée à l'épuration de substances ou anticorps toxiques, pas à l'hémorragie aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "15 à 20 ml/kg",
+            "justification": "La posologie de 15 à 20 ml/kg est trop élevée et ne correspond pas aux recommandations pour l'hémorragie aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266605482_03",
+      "current_version_epoch_ms": 1756266605482,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles sont les règles de compatibilité pour la transfusion de plasma frais congelé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les règles de compatibilité prennent en compte les anticorps naturels anti-A et anti-B du donneur, inverses de celles pour les concentrés de globules rouges.",
+            "justification": "Les anticorps naturels présents dans le plasma peuvent entrer en conflit avec les antigènes ABO des globules rouges du receveur, ce qui inverse les règles de compatibilité classiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Le plasma est compatible avec tous les groupes sanguins sans restrictions.",
+            "justification": "Il existe des règles spécifiques de compatibilité liées aux anticorps anti-A et anti-B du plasma, et ces règles diffèrent de celles des concentrés de globules rouges."
+          },
+          {
+            "correct": true,
+            "proposition": "Les donneurs de plasma AB sont des donneurs universels pour le système ABO.",
+            "justification": "Les donneurs de plasma AB sont des donneurs universels, ce qui signifie que leur plasma peut être utilisé par tous les receveurs indépendamment de leur groupe sanguin ABO."
+          },
+          {
+            "correct": false,
+            "proposition": "Le plasma peut être transfusé sans test de compatibilité en cas d'urgence.",
+            "justification": "Les tests de compatibilité sont essentiels, même en cas d'urgence, pour éviter les réactions immunologiques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Les règles de compatibilité pour plasma sont identiques à celles des concentrés de globules rouges.",
+            "justification": "Les règles de compatibilité pour plasma sont inversées par rapport à celles des concentrés de globules rouges, en raison de la présence d'anticorps naturels."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266605482_04",
+      "current_version_epoch_ms": 1756266605482,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le rôle du plasma testé négatif pour le VHE dans les greffes d'organes ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est utilisé lors des greffes d'organes et des greffes allogéniques de cellules souches hématopoïétiques, notamment pour prévenir le risque de contamination par le virus de l'hépatite E.",
+            "justification": "Le plasma testé négatif pour le VHE est nécessaire pour les greffes d'organes ou de cellules souches, afin de prévenir les infections liées au virus de l'hépatite E."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé uniquement pour les transfusions de plasma pour les patients atteints de cirrhose hépatique.",
+            "justification": "Bien que le plasma testé pour le VHE soit nécessaire pour certaines greffes d'organes, son usage n'est pas limité aux patients atteints de cirrhose hépatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé pour le traitement de pathologies auto-immunes.",
+            "justification": "Le plasma testé négatif pour le VHE est spécifique aux greffes d'organes et ne s'applique pas aux pathologies auto-immunes."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé uniquement pour les patients immunodéprimés présentant des infections chroniques.",
+            "justification": "Cette utilisation est incorrecte, le plasma testé pour le VHE est destiné aux greffes d'organes et de cellules souches, pas aux infections chroniques."
+          },
+          {
+            "correct": true,
+            "proposition": "Il est essentiel pour les greffes d'organes chez des patients immunodéprimés ou ayant des déficits immunitaires congénitaux.",
+            "justification": "Les patients immunodéprimés ou ayant des déficits immunitaires congénitaux doivent recevoir du plasma testé négatif pour le VHE pour éviter toute contamination."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756266605482_05",
+      "current_version_epoch_ms": 1756266605482,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles conditions doivent être remplies pour utiliser le plasma frais congelé en cas d'hémorragie aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La transfusion de plasma frais congelé est indiquée si le fibrinogène est inférieur à 1g/L, le TP est inférieur à 40% et le TCA est supérieur à 1,5 à 1,8 fois le témoin.",
+            "justification": "Ces valeurs sont des critères diagnostiques clés pour déterminer l'anomalie de l'hémostase nécessitant une transfusion de plasma frais congelé."
+          },
+          {
+            "correct": false,
+            "proposition": "Le plasma frais congelé peut être utilisé uniquement si le fibrinogène est inférieur à 0,5g/L.",
+            "justification": "Le seuil de fibrinogène nécessaire pour la transfusion est de moins de 1g/L, et non de 0,5g/L."
+          },
+          {
+            "correct": false,
+            "proposition": "Le plasma frais congelé peut être utilisé uniquement si le TCA est supérieur à 2,5 fois le témoin.",
+            "justification": "Le seuil pour le TCA est entre 1,5 et 1,8 fois le témoin, pas 2,5."
+          },
+          {
+            "correct": false,
+            "proposition": "La transfusion de plasma frais congelé est possible uniquement en cas de TP inférieur à 50%.",
+            "justification": "Le seuil critique pour le TP est de 40%, non 50%."
+          },
+          {
+            "correct": true,
+            "proposition": "La transfusion de plasma frais congelé est indiquée pour les hémorragies aiguës si les critères hémostatiques sont atteints (fibrinogène < 1g/L, TP < 40%, TCA > 1,5 à 1,8 fois le témoin).",
+            "justification": "Ces critères sont nécessaires pour indiquer la transfusion de plasma frais congelé dans le cadre d'une hémorragie aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}
