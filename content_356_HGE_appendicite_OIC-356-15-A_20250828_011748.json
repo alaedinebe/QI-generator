@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "appendicite",
+    "subject": "HGE"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756336814754_01",
+      "current_version_epoch_ms": 1756336814754,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "appendicite"
+      },
+      "data": {
+        "statement": "Quels sont les examens biologiques à demander dans le cadre d'une suspicion d'appendicite aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "NFS, CRP, BU, B-HCG",
+            "justification": "Ces examens permettent de rechercher des signes d'inflammation (NFS, CRP) et d'éliminer d'autres pathologies (BU pour l'infection urinaire, B-HCG pour exclure une grossesse intra-utérine)."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS, CRP, Glycémie, B-HCG",
+            "justification": "La glycémie n'est pas pertinente dans le diagnostic d'appendicite aiguë, sauf si l'on suspecte un diabète."
+          },
+          {
+            "correct": false,
+            "proposition": "CRP, BU, B-HCG, Test de grossesse urinaire",
+            "justification": "Un test de grossesse urinaire n'est pas nécessaire en plus de la B-HCG qui est plus fiable pour exclure une grossesse intra-utérine."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS, CRP, Électrolytes, B-HCG",
+            "justification": "Les électrolytes ne sont pas nécessaires pour le diagnostic d'appendicite aiguë, à moins de suspecter des déséquilibres graves."
+          },
+          {
+            "correct": false,
+            "proposition": "NFS, CRP, BU, EFR",
+            "justification": "Les explorations fonctionnelles respiratoires (EFR) ne sont pas pertinentes dans le cadre d'une appendicite aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756336814754_02",
+      "current_version_epoch_ms": 1756336814754,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "appendicite"
+      },
+      "data": {
+        "statement": "Quelles sont les limites des examens biologiques dans le diagnostic d'appendicite aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une biologie normale n'exclut pas le diagnostic d'appendicite aiguë",
+            "justification": "Bien qu'une NFS perturbée soit présente dans 80% des cas et une CRP normale dans 50%, des résultats biologiques normaux ne permettent pas d'exclure le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "La NFS est toujours perturbée en cas d'appendicite aiguë",
+            "justification": "La NFS peut ne pas être perturbée dans 20% des cas, et une biologie normale n'exclut donc pas toujours l'appendicite."
+          },
+          {
+            "correct": false,
+            "proposition": "La CRP est systématiquement élevée en cas d'appendicite aiguë",
+            "justification": "La CRP peut être normale dans 50% des cas d'appendicite aiguë, ce qui limite son utilité dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Les examens biologiques permettent toujours de poser un diagnostic définitif d'appendicite aiguë",
+            "justification": "Les examens biologiques ne permettent pas toujours un diagnostic définitif, car ils ne sont pas spécifiques de l'appendicite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "La BU est inutile pour le diagnostic d'appendicite aiguë",
+            "justification": "La BU est utile pour éliminer d'autres pathologies comme une infection urinaire, mais elle n'est pas spécifique de l'appendicite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756336814754_03",
+      "current_version_epoch_ms": 1756336814754,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "appendicite"
+      },
+      "data": {
+        "statement": "Dans quel cas la CRP peut-elle être normale en présence d'une appendicite aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans 50% des cas d'appendicite aiguë",
+            "justification": "La CRP peut rester normale dans la moitié des cas d'appendicite aiguë, ce qui en fait un marqueur peu fiable pour poser un diagnostic définitif."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans 80% des cas d'appendicite aiguë",
+            "justification": "La CRP reste normale dans seulement 50% des cas, ce qui limite son utilité dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les formes les plus graves d'appendicite aiguë",
+            "justification": "La CRP est généralement élevée dans les formes graves d'appendicite aiguë en raison de la réponse inflammatoire intense."
+          },
+          {
+            "correct": false,
+            "proposition": "Seulement dans les appendicites aiguës perforées",
+            "justification": "La CRP peut être normale même en cas de perforation d'appendicite aiguë, car la réponse inflammatoire varie d'un patient à l'autre."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les appendicites aiguës simples sans complications",
+            "justification": "La CRP peut aussi être élevée dans les formes simples d'appendicite aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756336814754_04",
+      "current_version_epoch_ms": 1756336814754,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "appendicite"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions à rechercher à l'aide d'examens biologiques lors d'une suspicion d'appendicite aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une infection urinaire ou une grossesse intra-utérine",
+            "justification": "La BU et le B-HCG permettent d'éliminer d'autres causes de douleurs abdominales telles qu'une infection urinaire ou une grossesse."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pancréatite aiguë ou une cholécystite",
+            "justification": "Bien que ces pathologies puissent présenter des symptômes similaires, elles nécessitent des examens spécifiques autres que les examens biologiques recommandés dans le cadre de l'appendicite."
+          },
+          {
+            "correct": false,
+            "proposition": "Une pneumonie aiguë ou une pleurésie",
+            "justification": "Les pathologies pulmonaires comme la pneumonie aiguë ne sont pas détectées par les examens biologiques demandés dans le cadre d'une suspicion d'appendicite."
+          },
+          {
+            "correct": false,
+            "proposition": "Une péritonite aiguë générale",
+            "justification": "Bien que la péritonite aiguë puisse résulter d'une appendicite, elle nécessite un examen clinique et des imageries complémentaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Un infarctus du myocarde ou une angine de poitrine",
+            "justification": "Ces pathologies cardiaques ne sont pas diagnostiquées à partir des examens biologiques classiques dans le cadre d'une appendicite."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756336814754_05",
+      "current_version_epoch_ms": 1756336814754,
+      "rang": "A",
+      "topic": {
+        "subject": "HGE",
+        "item": "appendicite"
+      },
+      "data": {
+        "statement": "Pourquoi la NFS peut-elle être perturbée dans 80% des cas d'appendicite aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En raison de l'inflammation et de l'activation du système immunitaire",
+            "justification": "L'augmentation du nombre de globules blancs dans la NFS reflète l'inflammation liée à l'appendicite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'une hémorragie digestive est fréquente dans l'appendicite aiguë",
+            "justification": "Les hémorragies digestives ne sont pas courantes dans l'appendicite aiguë et ne provoquent généralement pas de perturbation de la NFS."
+          },
+          {
+            "correct": false,
+            "proposition": "En raison d'une déshydratation sévère liée à l'appendicite",
+            "justification": "Bien que la déshydratation puisse survenir, elle n'est pas la cause principale de la perturbation de la NFS dans l'appendicite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "À cause de la présence de bactéries dans le sang",
+            "justification": "Les bactéries dans le sang sont rares dans l'appendicite aiguë, sauf en cas de septicémie, mais cela ne justifie pas la perturbation de la NFS dans la majorité des cas."
+          },
+          {
+            "correct": false,
+            "proposition": "En raison d'une réaction allergique importante",
+            "justification": "Les réactions allergiques ne sont pas courantes dans l'appendicite aiguë et ne sont pas responsables de la perturbation de la NFS."
+          }
+        ]
+      }
+    }
+  ]
+}
