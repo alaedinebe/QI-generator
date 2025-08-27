@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "ETP",
+    "subject": "therapeutique"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756258198005_01",
+      "current_version_epoch_ms": 1756258198005,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quel critère est nécessaire pour qu'un médicament soit éligible à l'automédication selon l'ANSM ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le rapport bénéfice/risque doit être favorable",
+            "justification": "L'ANSM impose un rapport bénéfice/risque favorable pour que le médicament soit éligible à l'automédication."
+          },
+          {
+            "correct": false,
+            "proposition": "La pathologie ciblée doit être rare et grave",
+            "justification": "La pathologie ciblée doit être courante et bénigne, et non pas rare ou grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament doit être prescrit par un médecin",
+            "justification": "Les médicaments d'automédication ne nécessitent pas de prescription médicale, mais doivent répondre à certaines conditions de sécurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament doit être utilisé sur une longue durée",
+            "justification": "Les médicaments d'automédication sont destinés à un usage de courte durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le médicament doit être réservé aux enfants uniquement",
+            "justification": "Les médicaments destinés à la population pédiatrique ne sont pas toujours éligibles en automédication, surtout s'ils présentent des risques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756258198005_02",
+      "current_version_epoch_ms": 1756258198005,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Pourquoi certains médicaments ne sont-ils pas éligibles à l'automédication ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En raison de contre-indications majeures ou de risques d'interactions médicamenteuses",
+            "justification": "Les médicaments avec des contre-indications majeures ou des risques importants d'interactions sont exclus de l'automédication pour des raisons de sécurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'ils sont trop coûteux",
+            "justification": "Le coût des médicaments n'est pas un critère d'exclusion pour l'automédication."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'ils sont réservés à une utilisation hospitalière",
+            "justification": "Certains médicaments sont exclus de l'automédication, mais cela est lié à des risques de sécurité, et non à leur usage hospitalier."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'ils sont uniquement prescrits pour des maladies rares",
+            "justification": "La rareté de la maladie n'est pas un critère d'exclusion, l'important est que la pathologie soit courante et bénigne."
+          },
+          {
+            "correct": false,
+            "proposition": "Parce qu'ils sont réservés aux adultes uniquement",
+            "justification": "Les médicaments destinés aux adultes ou aux enfants peuvent être exclus de l'automédication, mais cela dépend des risques de sécurité et non de la tranche d'âge."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756258198005_03",
+      "current_version_epoch_ms": 1756258198005,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quelle condition doit respecter la posologie des médicaments en automédication ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle doit être adaptée à un usage de courte durée",
+            "justification": "Les médicaments en automédication sont conçus pour une utilisation de courte durée, et la posologie doit être adaptée à cette durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être variable selon la gravité de la pathologie",
+            "justification": "La posologie des médicaments en automédication ne doit pas être adaptée à la gravité de la pathologie mais à une utilisation de courte durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit permettre une utilisation à long terme",
+            "justification": "Les médicaments d'automédication sont destinés à une utilisation de courte durée, et non à long terme."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être réduite pour les populations fragiles",
+            "justification": "Bien que des précautions soient à prendre avec certaines populations, la posologie n'est pas nécessairement réduite de manière générale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle doit être identique pour tous les patients",
+            "justification": "La posologie peut être ajustée selon les besoins spécifiques du patient, mais elle reste dans le cadre de l'usage court terme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756258198005_04",
+      "current_version_epoch_ms": 1756258198005,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Quel élément doit être clairement précisé sur l'étiquetage des médicaments d'automédication ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La nécessité de consulter un médecin si les symptômes persistent",
+            "justification": "L'étiquetage des médicaments d'automédication doit inclure une mention avertissant de la nécessité de consulter un médecin si les symptômes persistent."
+          },
+          {
+            "correct": false,
+            "proposition": "Le prix du médicament",
+            "justification": "Bien que le prix soit une information importante pour le consommateur, il n'est pas un élément essentiel de l'étiquetage pour l'automédication."
+          },
+          {
+            "correct": false,
+            "proposition": "La durée de traitement optimale",
+            "justification": "Les médicaments d'automédication sont destinés à un usage de courte durée, mais la durée spécifique ne doit pas être mentionnée de manière optimale sur l'étiquetage."
+          },
+          {
+            "correct": false,
+            "proposition": "Le nombre de consultations nécessaires",
+            "justification": "L'étiquetage ne précise pas le nombre de consultations nécessaires, mais il met l'accent sur la consultation en cas de symptômes persistants."
+          },
+          {
+            "correct": false,
+            "proposition": "Les effets secondaires potentiels",
+            "justification": "Bien que les effets secondaires doivent être mentionnés, la priorité sur l'étiquetage concerne la consultation médicale en cas de symptômes persistants."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756258198005_05",
+      "current_version_epoch_ms": 1756258198005,
+      "rang": "B",
+      "topic": {
+        "subject": "therapeutique",
+        "item": "ETP"
+      },
+      "data": {
+        "statement": "Que doit contenir la notice des médicaments en automédication ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les mentions relatives à un usage court terme",
+            "justification": "La notice des médicaments en automédication doit indiquer que le médicament est destiné à un usage de courte durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les instructions pour une utilisation à long terme",
+            "justification": "Les médicaments d'automédication ne sont pas destinés à une utilisation à long terme, et la notice doit refléter cet usage de courte durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les contre-indications à toutes les pathologies possibles",
+            "justification": "La notice doit spécifier les contre-indications majeures spécifiques au médicament, mais pas toutes les pathologies possibles."
+          },
+          {
+            "correct": false,
+            "proposition": "Les doses maximales à ne pas dépasser pour une prise prolongée",
+            "justification": "Le médicament d'automédication n'est pas destiné à un usage prolongé, et la notice doit indiquer les doses à respecter pour une courte durée."
+          },
+          {
+            "correct": false,
+            "proposition": "Les risques d'interactions avec des médicaments spécifiques",
+            "justification": "Bien que les interactions médicamenteuses soient un aspect important, la notice met surtout l'accent sur la durée d'utilisation et la nécessité de consulter si nécessaire."
+          }
+        ]
+      }
+    }
+  ]
+}
