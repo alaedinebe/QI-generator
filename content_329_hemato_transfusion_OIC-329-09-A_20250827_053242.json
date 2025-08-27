@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756265709117_01",
+      "current_version_epoch_ms": 1756265709117,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quels sont les éléments cliniques nécessaires avant de prescrire des produits sanguins labiles (PSL) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les antécédents transfusionnels du patient.",
+            "justification": "Les antécédents transfusionnels sont nécessaires pour évaluer les risques liés à la transfusion."
+          },
+          {
+            "correct": true,
+            "proposition": "Les résultats du bilan pré-transfusionnel.",
+            "justification": "Le bilan pré-transfusionnel est obligatoire pour assurer la compatibilité des produits transfusionnels."
+          },
+          {
+            "correct": false,
+            "proposition": "La prescription d'antibiotiques.",
+            "justification": "Les antibiotiques ne sont pas nécessaires dans le cadre de la prescription des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen clinique de la fonction cardiaque.",
+            "justification": "L'examen clinique de la fonction cardiaque n'est pas requis spécifiquement avant la prescription des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "La réalisation d'un électrocardiogramme.",
+            "justification": "L'électrocardiogramme n'est pas une étape obligatoire dans la procédure pré-transfusionnelle."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265709117_02",
+      "current_version_epoch_ms": 1756265709117,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel document doit accompagner la prescription des produits sanguins labiles (PSL) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'ordonnance accompagnée des résultats du bilan pré-transfusionnel.",
+            "justification": "L'ordonnance doit être accompagnée des résultats valides du bilan pré-transfusionnel pour garantir la compatibilité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le consentement signé du patient.",
+            "justification": "Bien que le patient doit être informé, ce n'est pas spécifié comme un document à joindre à l'ordonnance."
+          },
+          {
+            "correct": false,
+            "proposition": "Un formulaire de demande de transfert des PSL.",
+            "justification": "Aucun formulaire de demande de transfert n'est requis dans ce cadre, c'est l'EFS qui délivre les PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "La carte vitale du patient.",
+            "justification": "La carte vitale n'est pas requise pour la prescription des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "Une lettre de recommandation du médecin traitant.",
+            "justification": "Une lettre de recommandation n'est pas nécessaire pour la prescription des PSL."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265709117_03",
+      "current_version_epoch_ms": 1756265709117,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel rôle joue l'Etablissement Français du Sang (EFS) dans le processus de prescription des produits sanguins labiles (PSL) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'EFS délivre les PSL.",
+            "justification": "L'EFS est responsable de la délivrance des produits sanguins labiles après prescription."
+          },
+          {
+            "correct": false,
+            "proposition": "L'EFS prescrit les PSL.",
+            "justification": "L'EFS n'est pas responsable de la prescription des PSL, mais seulement de leur délivrance."
+          },
+          {
+            "correct": false,
+            "proposition": "L'EFS effectue le bilan pré-transfusionnel.",
+            "justification": "Le bilan pré-transfusionnel doit être réalisé avant la prescription, et non par l'EFS."
+          },
+          {
+            "correct": false,
+            "proposition": "L'EFS informe le patient sur les risques transfusionnels.",
+            "justification": "L'information au patient sur les risques transfusionnels est assurée par le médecin prescripteur."
+          },
+          {
+            "correct": false,
+            "proposition": "L'EFS organise les consultations de suivi post-transfusionnel.",
+            "justification": "Le suivi post-transfusionnel ne relève pas des responsabilités de l'EFS."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265709117_04",
+      "current_version_epoch_ms": 1756265709117,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles informations doivent être tracées dans le dossier transfusionnel du patient ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'information sur la possibilité d'une transfusion.",
+            "justification": "L'information sur la possibilité d'une transfusion doit être tracée dans le dossier transfusionnel du patient."
+          },
+          {
+            "correct": true,
+            "proposition": "Les antécédents transfusionnels du patient.",
+            "justification": "Les antécédents transfusionnels sont essentiels et doivent être intégrés dans le dossier transfusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Le consentement écrit du patient.",
+            "justification": "Bien que le patient doit être informé, un consentement écrit n'est pas requis dans ce cadre spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Le rapport d'examen clinique complet.",
+            "justification": "L'examen clinique complet n'est pas spécifiquement tracé dans le dossier transfusionnel pour la prescription des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "La copie de la carte de groupe sanguin du patient.",
+            "justification": "La carte de groupe sanguin n'est pas une information à tracer dans le dossier transfusionnel, bien que cela soit essentiel pour le bilan pré-transfusionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756265709117_05",
+      "current_version_epoch_ms": 1756265709117,
+      "rang": "A",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Que faire si le bilan pré-transfusionnel n'a pas été réalisé avant la prescription des produits sanguins labiles (PSL) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Prescrire les analyses nécessaires avant la délivrance des PSL.",
+            "justification": "Si les analyses pré-transfusionnelles n'ont pas été réalisées, elles doivent être prescrites avant la délivrance des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "Délivrer immédiatement les PSL sans analyse.",
+            "justification": "Il est impératif que les analyses pré-transfusionnelles soient réalisées avant la délivrance des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "Reporter la prescription à une date ultérieure.",
+            "justification": "Le report de la prescription n'est pas une solution. Les analyses doivent être faites avant la délivrance des PSL."
+          },
+          {
+            "correct": false,
+            "proposition": "Demander une transfusion d'urgence sans analyse.",
+            "justification": "Une transfusion sans analyse pré-transfusionnelle est contre-indiquée pour éviter les risques de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Obtenir un consentement verbal du patient.",
+            "justification": "Un consentement verbal ne remplace pas la nécessité des analyses pré-transfusionnelles avant la prescription des PSL."
+          }
+        ]
+      }
+    }
+  ]
+}
