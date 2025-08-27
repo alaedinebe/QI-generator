@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "polytrauma",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756279813908_01",
+      "current_version_epoch_ms": 1756279813908,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Lors de la prise en charge d'un traumatisme crânien aigu, quel examen d'imagerie est le plus pertinent dans un premier temps ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner cérébral sans injection",
+            "justification": "Le scanner cérébral sans injection est l'examen de première intention pour évaluer les lésions traumatiques intracrâniennes, permettant de visualiser les fractures, hématomes et autres lésions évidentes."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM n'est pas indiqué en première intention pour l'évaluation initiale d'un traumatisme crânien aigu en raison de sa durée et de sa moindre sensibilité pour les lésions osseuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner abdominal",
+            "justification": "Le scanner abdominal n'est pas pertinent en phase aiguë de traumatisme crânien, sauf en cas de suspicion de traumatisme abdominal associé."
+          },
+          {
+            "correct": false,
+            "proposition": "Doppler trans-crânien",
+            "justification": "Le Doppler trans-crânien est utilisé pour rechercher des signes d'hypertension intra-crânienne, mais il n'est pas utilisé en premier lieu."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie du crâne",
+            "justification": "La radiographie du crâne n'est plus un examen de choix dans la prise en charge des traumatismes crâniens, car moins sensible que le scanner."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756279813908_02",
+      "current_version_epoch_ms": 1756279813908,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Dans quel cas un scanner cérébral doit-il être renouvelé après la prise en charge initiale d'un traumatisme crânien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si aggravation clinique ou para-clinique",
+            "justification": "Le scanner cérébral doit être renouvelé si l'état clinique du patient se dégrade, ou si les examens complémentaires comme le Doppler trans-crânien montrent des signes d'aggravation."
+          },
+          {
+            "correct": true,
+            "proposition": "Si traitement habituel par anticoagulants",
+            "justification": "L'anticoagulation modifie la gestion des traumatismes crâniens, et un scanner de contrôle est requis pour évaluer l'impact de ce traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Tous les patients doivent avoir un scanner de contrôle",
+            "justification": "Le renouvellement du scanner n'est pas systématique, mais réservé aux situations où il y a une aggravation clinique ou la nécessité de suivre un traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Si le scanner initial était très précoce",
+            "justification": "Un scanner initial très précoce peut être suivi d'un renouvellement si l'état du patient évolue, mais ce n'est pas automatique."
+          },
+          {
+            "correct": false,
+            "proposition": "Si aucune fracture n'est visible sur le premier scanner",
+            "justification": "La décision de renouveler le scanner dépend de l'évolution clinique, pas uniquement de l'absence de fractures initiales."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756279813908_03",
+      "current_version_epoch_ms": 1756279813908,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du Doppler trans-crânien dans la prise en charge initiale d'un traumatisme crânien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher des signes d'hypertension intra-crânienne",
+            "justification": "Le Doppler trans-crânien permet de détecter l'augmentation de la pression intracrânienne, un facteur clé dans la gestion des traumatismes crâniens graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter les fractures du crâne",
+            "justification": "Le Doppler trans-crânien ne permet pas de visualiser les fractures osseuses, ce qui nécessite un scanner cérébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la perméabilité des vaisseaux cérébraux",
+            "justification": "Bien que le Doppler puisse évaluer certains aspects de la circulation, son principal rôle en traumatisme crânien est de détecter l'hypertension intracrânienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Visualiser les lésions parenchymateuses cérébrales",
+            "justification": "Le Doppler trans-crânien ne permet pas d'évaluer directement les lésions cérébrales, un scanner étant nécessaire pour cela."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer le volume de sang intracrânien",
+            "justification": "Le volume sanguin intracrânien est évalué via des examens comme le scanner, mais pas directement par Doppler trans-crânien."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756279813908_04",
+      "current_version_epoch_ms": 1756279813908,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel examen d'imagerie est systématiquement associé au scanner cérébral lors de la prise en charge d'un traumatisme crânien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Scanner du rachis cervical",
+            "justification": "Le scanner du rachis cervical est toujours réalisé en même temps que le scanner cérébral pour évaluer les possibles lésions de la colonne vertébrale, fréquentes en cas de traumatisme crânien."
+          },
+          {
+            "correct": false,
+            "proposition": "Scanner thoracique",
+            "justification": "Le scanner thoracique n'est pas systématique dans la prise en charge d'un traumatisme crânien, sauf si d'autres blessures thoraciques sont suspectées."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie du rachis cervical",
+            "justification": "La radiographie du rachis cervical est moins précise que le scanner pour détecter des fractures ou lésions graves de la colonne vertébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cervicale",
+            "justification": "L'IRM cervicale n'est pas utilisée systématiquement en phase aiguë de traumatisme crânien, car elle n'est pas aussi rapide que le scanner."
+          },
+          {
+            "correct": false,
+            "proposition": "Doppler des troncs supra-aortiques",
+            "justification": "Bien que le Doppler des troncs supra-aortiques puisse être utile, il n'est pas réalisé systématiquement avec un scanner cérébral dans les premières heures après un traumatisme."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756279813908_05",
+      "current_version_epoch_ms": 1756279813908,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est l'intérêt principal de réaliser un scanner avec injection dans la prise en charge d'un traumatisme crânien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Visualiser le polygone de Willis et les troncs supra-aortiques",
+            "justification": "L'injection permet d'améliorer la visibilité des vaisseaux intracrâniens, facilitant la détection de lésions vasculaires comme les dissections carotidiennes ou vertébrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les fractures du crâne",
+            "justification": "Les fractures du crâne sont visibles au scanner sans injection, l'injection étant plus utile pour l'évaluation vasculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Détecter les hématomes sous-duraux",
+            "justification": "Les hématomes sous-duraux sont mieux visualisés au scanner sans injection, bien que l'injection puisse être utile dans certains cas pour des lésions vasculaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer l'ICP (pression intracrânienne)",
+            "justification": "Le scanner avec injection ne mesure pas directement la pression intracrânienne, bien que des signes indirects d'hypertension puissent être détectés."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les lésions cérébrales parenchymateuses",
+            "justification": "Les lésions cérébrales parenchymateuses peuvent être visibles avec ou sans injection, bien que l'injection aide à préciser l'évaluation des vaisseaux cérébraux."
+          }
+        ]
+      }
+    }
+  ]
+}
