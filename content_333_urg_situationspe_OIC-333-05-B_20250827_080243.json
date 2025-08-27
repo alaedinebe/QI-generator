@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "situationspe",
+    "subject": "urg"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756274709861_01",
+      "current_version_epoch_ms": 1756274709861,
+      "rang": "B",
+      "topic": {
+        "subject": "urg",
+        "item": "situationspe"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de l'algorithme de tri START-ABC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier les urgences absolues et les urgences relatives.",
+            "justification": "L'algorithme START-ABC permet de prioriser les victimes en fonction de la gravité de leur état, afin d'assurer une prise en charge efficace et rapide."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les ressources médicales disponibles.",
+            "justification": "Bien que la gestion des ressources soit importante, ce n'est pas l'objectif principal de l'algorithme START-ABC."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer les pathologies graves des victimes.",
+            "justification": "Le diagnostic n'est pas l'objectif de START-ABC, qui se concentre sur la priorisation des soins."
+          },
+          {
+            "correct": false,
+            "proposition": "Déterminer la cause exacte du traumatisme.",
+            "justification": "La cause du traumatisme n'est pas le critère principal de l'algorithme, mais la gravité de l'état clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Assurer une prise en charge médicamenteuse immédiate.",
+            "justification": "START-ABC ne se concentre pas sur l'administration médicamenteuse mais sur la priorisation des victimes selon leur état."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756274709861_02",
+      "current_version_epoch_ms": 1756274709861,
+      "rang": "B",
+      "topic": {
+        "subject": "urg",
+        "item": "situationspe"
+      },
+      "data": {
+        "statement": "Que signifie l'acronyme 'UA' dans l'algorithme START-ABC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Urgence absolue.",
+            "justification": "'UA' désigne les victimes qui nécessitent une prise en charge immédiate et prioritaire en raison de la gravité de leur état."
+          },
+          {
+            "correct": false,
+            "proposition": "Urgence anormale.",
+            "justification": "L'acronyme correct est 'UA' pour Urgence absolue, et non 'urgence anormale'."
+          },
+          {
+            "correct": false,
+            "proposition": "Urgence artificielle.",
+            "justification": "Le terme 'urgence artificielle' ne fait pas partie des classifications de l'algorithme START-ABC."
+          },
+          {
+            "correct": false,
+            "proposition": "Urgence adaptable.",
+            "justification": "Ce terme n'est pas utilisé dans l'algorithme START-ABC pour qualifier la gravité des urgences."
+          },
+          {
+            "correct": false,
+            "proposition": "Unité ambulatoire.",
+            "justification": "Une unité ambulatoire est un type de service, mais ne fait pas référence à la classification des urgences dans START-ABC."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756274709861_03",
+      "current_version_epoch_ms": 1756274709861,
+      "rang": "B",
+      "topic": {
+        "subject": "urg",
+        "item": "situationspe"
+      },
+      "data": {
+        "statement": "Dans l'algorithme START-ABC, quelle est la principale différence entre les urgences absolues (UA) et les urgences relatives (UR) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les urgences absolues nécessitent une prise en charge immédiate tandis que les urgences relatives peuvent attendre.",
+            "justification": "Les urgences absolues sont les plus graves et requièrent une intervention immédiate, tandis que les urgences relatives peuvent attendre un peu plus longtemps."
+          },
+          {
+            "correct": false,
+            "proposition": "Les urgences absolues concernent les victimes conscientes, tandis que les urgences relatives concernent les victimes inconscientes.",
+            "justification": "La distinction entre UA et UR ne dépend pas de l'état de conscience de la victime, mais de la gravité de son état."
+          },
+          {
+            "correct": false,
+            "proposition": "Les urgences absolues sont définies par des critères médicaux spécifiques, tandis que les urgences relatives ne le sont pas.",
+            "justification": "Les deux catégories sont basées sur la gravité de l'état de la victime, mais les urgences relatives peuvent être moins critiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Les urgences absolues sont liées à des traumatismes physiques, les urgences relatives concernent les maladies infectieuses.",
+            "justification": "Cette distinction n'est pas pertinente dans le cadre de l'algorithme START-ABC, qui évalue la gravité de l'état clinique globalement."
+          },
+          {
+            "correct": false,
+            "proposition": "Les urgences absolues sont prises en charge par les médecins, tandis que les urgences relatives sont gérées par les infirmiers.",
+            "justification": "L'algorithme START-ABC ne fait pas de distinction entre les catégories de soignants pour la gestion des urgences."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756274709861_04",
+      "current_version_epoch_ms": 1756274709861,
+      "rang": "B",
+      "topic": {
+        "subject": "urg",
+        "item": "situationspe"
+      },
+      "data": {
+        "statement": "Quel critère est principalement utilisé pour différencier les urgences absolues des urgences relatives dans l'algorithme START-ABC ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La gravité de l'état clinique de la victime.",
+            "justification": "La gravité clinique est le critère principal qui permet de déterminer si une victime relève d'une urgence absolue ou relative."
+          },
+          {
+            "correct": false,
+            "proposition": "Le temps écoulé depuis l'incident.",
+            "justification": "Bien que le délai de prise en charge soit important, la gravité de l'état clinique est le critère décisif dans START-ABC."
+          },
+          {
+            "correct": false,
+            "proposition": "L'âge de la victime.",
+            "justification": "L'âge n'est pas un facteur décisif dans l'algorithme de tri START-ABC."
+          },
+          {
+            "correct": false,
+            "proposition": "Les signes vitaux de la victime.",
+            "justification": "Les signes vitaux peuvent influencer la prise en charge, mais la gravité clinique globale prime pour le tri."
+          },
+          {
+            "correct": false,
+            "proposition": "La possibilité d'un traitement rapide.",
+            "justification": "Le traitement rapide n'est pas un critère primaire dans la classification des urgences absolues ou relatives."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756274709861_05",
+      "current_version_epoch_ms": 1756274709861,
+      "rang": "B",
+      "topic": {
+        "subject": "urg",
+        "item": "situationspe"
+      },
+      "data": {
+        "statement": "Quelle est l'impact du tri des victimes sur le délai de prise en charge dans une situation sanitaire exceptionnelle ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Le tri permet de prioriser les victimes en fonction de la gravité de leur état, optimisant ainsi les délais de prise en charge.",
+            "justification": "Le tri des victimes permet d'assurer une prise en charge rapide et appropriée pour les cas les plus graves, réduisant ainsi le risque de décès."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tri ne modifie pas le délai de prise en charge, il affecte uniquement la distribution des ressources.",
+            "justification": "Le tri a un impact direct sur la rapidité de la prise en charge, surtout pour les cas urgents."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tri ralentit le processus de prise en charge en ajoutant des étapes de vérification supplémentaires.",
+            "justification": "Le tri est conçu pour accélérer la prise en charge en hiérarchisant les urgences selon leur gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tri n'est utile que dans les situations d'urgence non critique.",
+            "justification": "Le tri est crucial dans toutes les situations d'urgence, en particulier dans les situations critiques où la rapidité de l'intervention est essentielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Le tri augmente le délai de prise en charge en réduisant le nombre de victimes prises en charge.",
+            "justification": "Le but du tri est de maximiser l'efficacité des soins en concentrant les ressources sur les victimes les plus graves."
+          }
+        ]
+      }
+    }
+  ]
+}
