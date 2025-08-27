@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "malaise",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756310946427_01",
+      "current_version_epoch_ms": 1756310946427,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quelles sont les anomalies électrocardiographiques fréquemment observées en cas de syncope liée à un trouble de conduction ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bloc auriculo-ventriculaire de haut grade",
+            "justification": "Le bloc auriculo-ventriculaire de haut grade est une cause fréquente de syncope, car il empêche la conduction efficace des impulsions cardiaques, provoquant des arrêts cardiaques temporaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachycardie ventriculaire",
+            "justification": "La tachycardie ventriculaire peut être une cause de syncope, mais elle ne se manifeste pas fréquemment par un trouble de conduction directement observé à l'ECG."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie sinusale",
+            "justification": "Bien que la bradycardie sinusale puisse provoquer une syncope, elle n'est pas nécessairement liée à un trouble de conduction complexe."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrillation auriculaire avec un rythme ventriculaire lent",
+            "justification": "La fibrillation auriculaire peut entraîner une syncope, surtout en cas de conduction lente des impulsions ventriculaires, rendant l'ECG décisif."
+          },
+          {
+            "correct": false,
+            "proposition": "Prolongation du QTc",
+            "justification": "La prolongation du QTc peut entraîner des arythmies graves, mais elle n'est pas fréquemment associée à des syncopes liées aux troubles de conduction."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756310946427_02",
+      "current_version_epoch_ms": 1756310946427,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quels sont les critères d'indication d'un ECG chez un patient ayant présenté une lipothymie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "S'il existe des antécédents de maladie cardiaque",
+            "justification": "Les antécédents cardiaques augmentent le risque d'une syncope d'origine cardiaque, justifiant la réalisation d'un ECG pour évaluer d'éventuelles anomalies cardiaques."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la lipothymie est survenue après un stress émotionnel",
+            "justification": "Bien que le stress émotionnel puisse être un facteur déclencheur, il n'indique pas systématiquement la nécessité d'un ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "S'il existe un souffle cardiaque associé",
+            "justification": "Un souffle cardiaque peut être le signe d'une anomalie cardiaque sous-jacente, ce qui nécessite un ECG pour en évaluer la cause."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la lipothymie est survenue après un repas copieux",
+            "justification": "Une lipothymie postprandiale est généralement bénigne et ne justifie pas un ECG systématique sauf en cas de comorbidités cardiaques."
+          },
+          {
+            "correct": true,
+            "proposition": "Si la lipothymie est accompagnée de palpitations",
+            "justification": "Les palpitations peuvent être liées à des arythmies cardiaques, ce qui justifie la réalisation d'un ECG pour identifier d'éventuelles anomalies."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756310946427_03",
+      "current_version_epoch_ms": 1756310946427,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quelle est l'anomalie la plus probable observée sur un ECG en cas de syncope associée à un trouble du rythme cardiaque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Tachycardie supraventriculaire",
+            "justification": "La tachycardie supraventriculaire est une cause fréquente de syncope par son impact sur la fréquence cardiaque, réduisant l'efficacité du débit sanguin cérébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Bloc de branche",
+            "justification": "Bien qu'un bloc de branche puisse influencer la conduction cardiaque, il n'est pas directement responsable des syncopes liées à des troubles du rythme cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Ischémie myocardique",
+            "justification": "L'ischémie myocardique peut être associée à des douleurs thoraciques mais est rarement responsable d'une syncope isolée observée uniquement par un ECG."
+          },
+          {
+            "correct": true,
+            "proposition": "Fibrillation ventriculaire",
+            "justification": "La fibrillation ventriculaire peut provoquer une syncope par arrêt cardiaque, et son identification sur un ECG est décisive pour la gestion urgente du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie physiologique",
+            "justification": "La bradycardie physiologique ne provoque généralement pas de syncope, sauf en cas de pathologie sous-jacente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756310946427_04",
+      "current_version_epoch_ms": 1756310946427,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quel est le rôle principal de l'ECG dans la gestion de la syncope ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Identifier une cause cardiaque potentielle",
+            "justification": "L'ECG permet de diagnostiquer des anomalies cardiaques qui peuvent être la cause de la syncope, comme des troubles du rythme ou des anomalies de la conduction."
+          },
+          {
+            "correct": false,
+            "proposition": "Exclure une cause neurologique",
+            "justification": "L'ECG ne permet pas d'évaluer directement les causes neurologiques de la syncope, ce qui nécessite d'autres examens."
+          },
+          {
+            "correct": true,
+            "proposition": "Évaluer la fréquence et le rythme cardiaque",
+            "justification": "L'ECG permet de mesurer la fréquence cardiaque et d'évaluer les irrégularités du rythme, éléments cruciaux pour diagnostiquer une syncope d'origine cardiaque."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer une hyperplasie cardiaque",
+            "justification": "L'ECG ne permet pas de diagnostiquer directement une hyperplasie cardiaque, qui nécessite généralement une échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier la présence d'une embolie pulmonaire",
+            "justification": "L'ECG n'est pas l'examen principal pour diagnostiquer une embolie pulmonaire, bien que certaines anomalies cardiaques puissent être suspectées."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756310946427_05",
+      "current_version_epoch_ms": 1756310946427,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Dans le cadre de la syncope, quel critère ECG est particulièrement inquiétant et nécessite une prise en charge urgente ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fibrillation ventriculaire",
+            "justification": "La fibrillation ventriculaire est une urgence médicale qui nécessite une réanimation immédiate en raison du risque de mort subite."
+          },
+          {
+            "correct": false,
+            "proposition": "Bradycardie sinusal",
+            "justification": "Bien que la bradycardie sinusal puisse entraîner des symptômes, elle n'est généralement pas immédiatement menaçante, sauf en cas de pathologies cardiaques sous-jacentes."
+          },
+          {
+            "correct": false,
+            "proposition": "QRS élargi sans autres anomalies",
+            "justification": "Un QRS élargi peut être bénin dans certaines situations et n'est pas toujours un indicateur de syncope grave nécessitant une intervention urgente."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt cardiaque sur ECG",
+            "justification": "Un arrêt cardiaque observé sur ECG est une situation extrêmement critique nécessitant des soins d'urgence immédiats, incluant une réanimation cardiorespiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Syndrome de l'intervalle QT long",
+            "justification": "Bien que le syndrome de l'intervalle QT long puisse entraîner des arythmies, il n'est pas une urgence immédiate en l'absence d'épisodes de torsades de pointes."
+          }
+        ]
+      }
+    }
+  ]
+}
