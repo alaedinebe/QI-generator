@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LCA",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756254889899_01",
+      "current_version_epoch_ms": 1756254889899,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est la première étape de la démarche d'une méta-analyse d'essais cliniques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Revue systématique de la littérature",
+            "justification": "La revue systématique de la littérature est essentielle pour identifier et sélectionner les études éligibles avant d'entreprendre toute méta-analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Calcul de l'effet combiné",
+            "justification": "Le calcul de l'effet combiné intervient après l'agrégation des résultats des études, pas comme étape initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluation de l'hétérogénéité",
+            "justification": "L'évaluation de l'hétérogénéité intervient après l'agrégation des résultats, pour analyser la variabilité des effets entre les études."
+          },
+          {
+            "correct": false,
+            "proposition": "Interprétation des résultats statistiques",
+            "justification": "L'interprétation des résultats se fait après avoir calculé l'effet combiné et évalué l'hétérogénéité entre les études."
+          },
+          {
+            "correct": false,
+            "proposition": "Identification des biais de publication",
+            "justification": "Bien que l'identification des biais soit importante, elle se fait durant la revue systématique, mais n'est pas l'étape initiale."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254889899_02",
+      "current_version_epoch_ms": 1756254889899,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Dans une méta-analyse, quel test est utilisé pour évaluer l'hétérogénéité entre les études ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Test d'hétérogénéité",
+            "justification": "Le test d'hétérogénéité est utilisé pour vérifier si l'effet est similaire entre les études. Si p<0.05, l'hypothèse d'homogénéité est rejetée."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de significativité statistique",
+            "justification": "Le test de significativité est utilisé pour déterminer si les résultats sont statistiquement significatifs, mais il n'évalue pas directement l'hétérogénéité."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de normalité",
+            "justification": "Le test de normalité est utilisé pour vérifier si les données suivent une distribution normale, ce qui n'est pas l'objectif dans l'évaluation de l'hétérogénéité."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de corrélation",
+            "justification": "Le test de corrélation mesure la relation entre deux variables, ce qui n'est pas pertinent pour l'analyse de l'hétérogénéité entre les études."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de régression",
+            "justification": "Le test de régression est utilisé pour examiner les relations entre les variables, pas pour évaluer l'hétérogénéité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254889899_03",
+      "current_version_epoch_ms": 1756254889899,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quel est l'indicateur statistique utilisé pour représenter l'intervalle de confiance de l'effet combiné dans un forest plot ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La ligne horizontale représentant l'intervalle de confiance",
+            "justification": "Dans un forest plot, la ligne horizontale montre l'intervalle de confiance autour de la mesure d'association pour chaque étude."
+          },
+          {
+            "correct": false,
+            "proposition": "Le carré représentant la mesure d'association",
+            "justification": "Le carré dans un forest plot indique la mesure d'association pour chaque étude, mais il ne représente pas l'intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le losange indiquant l'effet combiné",
+            "justification": "Le losange représente l'effet combiné des études, mais il ne représente pas directement l'intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "L'axe des abscisses représentant la mesure d'association",
+            "justification": "L'axe des abscisses indique la mesure d'association, mais il ne représente pas l'intervalle de confiance."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coefficient I²",
+            "justification": "Le coefficient I² mesure l'hétérogénéité entre les études, pas l'intervalle de confiance de l'effet combiné."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254889899_04",
+      "current_version_epoch_ms": 1756254889899,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quel est le principal risque de biais dans une méta-analyse d'essais cliniques ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Biais de publication",
+            "justification": "Le biais de publication peut survenir si seules certaines études, généralement celles avec des résultats positifs, sont incluses dans la méta-analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Biais de randomisation",
+            "justification": "Le biais de randomisation se produit avant l'inclusion des études dans la méta-analyse et n'est pas un biais spécifique aux méta-analyses."
+          },
+          {
+            "correct": false,
+            "proposition": "Biais de sélection des participants",
+            "justification": "Le biais de sélection des participants concerne les études individuelles, mais pas spécifiquement les méta-analyses."
+          },
+          {
+            "correct": false,
+            "proposition": "Biais d'interprétation des résultats",
+            "justification": "Bien que l'interprétation des résultats puisse introduire des biais, ce n'est pas le biais principal lié à la sélection des études pour une méta-analyse."
+          },
+          {
+            "correct": false,
+            "proposition": "Biais de non-réponse",
+            "justification": "Le biais de non-réponse concerne les études cliniques individuelles, pas directement les méta-analyses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254889899_05",
+      "current_version_epoch_ms": 1756254889899,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est la principale mesure d'association utilisée dans une méta-analyse pour un critère binaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Risque relatif (RR)",
+            "justification": "Le risque relatif est la mesure d'association privilégiée dans une méta-analyse pour un critère binaire, comme la survenue d'un événement."
+          },
+          {
+            "correct": false,
+            "proposition": "Différence de moyenne",
+            "justification": "La différence de moyenne est utilisée pour des critères continus, pas pour des critères binaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Odds ratio (OR)",
+            "justification": "Bien que l'odds ratio soit également couramment utilisé, il est généralement secondaire par rapport au risque relatif dans les méta-analyses de critères binaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Coefficient de corrélation",
+            "justification": "Le coefficient de corrélation mesure la relation entre deux variables continues, et non l'association pour un critère binaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Écart-type",
+            "justification": "L'écart-type est utilisé pour des mesures de dispersion dans des critères continus, pas pour des critères binaires."
+          }
+        ]
+      }
+    }
+  ]
+}
