@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "SCA",
+    "subject": "cardio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756304655027_01",
+      "current_version_epoch_ms": 1756304655027,
+      "rang": "B",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal du coroscanner ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Évaluer l'impact fonctionnel de la sténose coronaire.",
+            "justification": "Le coroscanner est un examen diagnostique permettant de visualiser les artères coronaires et de détecter une sténose ou occlusion, mais ne permet pas d'évaluer directement l'impact fonctionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Visualiser les artères coronaires et détecter une sténose ou une occlusion.",
+            "justification": "Le coroscanner permet la visualisation des artères coronaires et l'identification des lésions telles que sténoses ou occlusions."
+          },
+          {
+            "correct": false,
+            "proposition": "Permettre une revascularisation par angioplastie.",
+            "justification": "Ce n'est pas le but du coroscanner. La coronarographie est l'examen thérapeutique permettant une revascularisation par angioplastie."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les risques thromboemboliques associés aux sténoses coronaires.",
+            "justification": "Le coroscanner permet la détection des sténoses coronaires mais ne permet pas d'évaluer les risques thromboemboliques associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Diagnostiquer l'infarctus du myocarde.",
+            "justification": "Le coroscanner est un examen diagnostic pour la détection des sténoses coronaires, mais il ne sert pas à diagnostiquer un infarctus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756304655027_02",
+      "current_version_epoch_ms": 1756304655027,
+      "rang": "B",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il recommandé de réaliser une coronarographie en urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SCA ST+ avec nécessité de revascularisation.",
+            "justification": "Dans le cadre d'un SCA ST+ (infarctus du myocarde avec élévation du segment ST), la coronarographie est indiquée en urgence pour réaliser une revascularisation coronarienne."
+          },
+          {
+            "correct": false,
+            "proposition": "Angor stable avec probabilité faible de maladie coronaire.",
+            "justification": "L'angor stable avec probabilité faible de maladie coronaire peut être exploré par coroscanner ou coronarographie en fonction du contexte, mais ce n'est pas une urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "SCA ST- avec troponine négative.",
+            "justification": "Pour un SCA ST- avec troponine négative, la coronarographie n'est pas systématiquement réalisée en urgence, surtout si le patient n'a pas de comorbidités significatives."
+          },
+          {
+            "correct": false,
+            "proposition": "SCA ST- avec troponine positive, sans comorbidités.",
+            "justification": "La coronarographie peut être réalisée dans les 24-48h après un SCA ST- avec troponine positive, mais elle n'est pas systématiquement réalisée en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique avec symptômes bénins.",
+            "justification": "Les douleurs thoraciques bénignes ne justifient pas de coronarographie en urgence, sauf en cas de suspicion élevée de maladie coronaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756304655027_03",
+      "current_version_epoch_ms": 1756304655027,
+      "rang": "B",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Comment choisir entre coronarographie et coroscanner chez un patient présentant un angor stable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En fonction de l'âge du patient et de la probabilité de maladie coronaire.",
+            "justification": "Le choix entre coronarographie et coroscanner chez un patient présentant un angor stable se fait en fonction de la probabilité de maladie coronaire, qui dépend de l'âge, des antécédents et des caractéristiques de la douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "La coronarographie est systématiquement choisie chez les patients âgés.",
+            "justification": "La coronarographie n'est pas systématique chez les patients âgés, mais elle est préférée si la probabilité de sténose est élevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coroscanner est choisi en priorité chez les patients jeunes avec faible probabilité de maladie coronaire.",
+            "justification": "Le coroscanner est effectivement l'examen de première intention chez les patients jeunes avec faible probabilité de maladie coronaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coroscanner est réservé aux patients présentant une maladie athéromateuse avancée.",
+            "justification": "Le coroscanner peut être utilisé dans des cas où la probabilité de maladie coronaire est faible, et non seulement dans des cas avancés d'athéromatose."
+          },
+          {
+            "correct": false,
+            "proposition": "La coronarographie est utilisée uniquement pour les patients souffrant d'infarctus.",
+            "justification": "La coronarographie est utilisée pour l'angor stable dans certains cas, pas uniquement pour les infarctus."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756304655027_04",
+      "current_version_epoch_ms": 1756304655027,
+      "rang": "B",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Que permet de détecter le coroscanner chez un patient présentant un angor stable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les sténoses ou occlusions coronaires.",
+            "justification": "Le coroscanner permet de visualiser les artères coronaires et de détecter les sténoses ou les occlusions coronaires, ce qui est essentiel dans l'évaluation de l'angor stable."
+          },
+          {
+            "correct": false,
+            "proposition": "L'ischémie myocardique.",
+            "justification": "Le coroscanner permet de détecter les sténoses coronaires, mais il ne mesure pas directement l'ischémie myocardique, qui peut être évaluée par d'autres tests comme l'épreuve d'effort."
+          },
+          {
+            "correct": false,
+            "proposition": "Les anomalies fonctionnelles du myocarde.",
+            "justification": "Le coroscanner ne permet pas d'évaluer directement la fonction myocardique. C'est un examen anatomo-structural."
+          },
+          {
+            "correct": false,
+            "proposition": "Les infarctus myocardiques anciens.",
+            "justification": "Le coroscanner détecte les sténoses coronaires, mais il ne permet pas de diagnostiquer des infarctus anciens."
+          },
+          {
+            "correct": false,
+            "proposition": "Les thromboses coronaires.",
+            "justification": "Le coroscanner peut détecter des occlusions coronaires, mais il ne permet pas de diagnostiquer spécifiquement les thromboses."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756304655027_05",
+      "current_version_epoch_ms": 1756304655027,
+      "rang": "B",
+      "topic": {
+        "subject": "cardio",
+        "item": "SCA"
+      },
+      "data": {
+        "statement": "Quelle est la principale différence entre la coronarographie et le coroscanner ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La coronarographie peut être utilisée pour une revascularisation par angioplastie.",
+            "justification": "La coronarographie est un examen diagnostic et thérapeutique, permettant d'effectuer une revascularisation coronarienne par angioplastie, ce que ne permet pas le coroscanner."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coroscanner est uniquement utilisé dans les situations d'urgence.",
+            "justification": "Le coroscanner est un examen diagnostique qui peut être utilisé dans divers contextes, mais pas exclusivement en situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "La coronarographie est moins invasive que le coroscanner.",
+            "justification": "La coronarographie est une procédure invasive impliquant l'injection de produits de contraste dans les artères coronaires, tandis que le coroscanner est non invasif."
+          },
+          {
+            "correct": false,
+            "proposition": "Le coroscanner permet une revascularisation immédiate des artères coronaires.",
+            "justification": "Le coroscanner est un examen diagnostique, il ne permet pas de revascularisation, contrairement à la coronarographie."
+          },
+          {
+            "correct": false,
+            "proposition": "La coronarographie est utilisée exclusivement pour les patients jeunes.",
+            "justification": "La coronarographie peut être utilisée dans divers contextes cliniques, indépendamment de l'âge du patient."
+          }
+        ]
+      }
+    }
+  ]
+}
