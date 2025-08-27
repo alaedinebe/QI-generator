@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "tbconscience",
+    "subject": "urg"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756313502835_01",
+      "current_version_epoch_ms": 1756313502835,
+      "rang": "A",
+      "topic": {
+        "subject": "urg",
+        "item": "tbconscience"
+      },
+      "data": {
+        "statement": "Quel examen biologique doit être réalisé en première intention devant un syndrome confusionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ionogramme sanguin, urée, protides totaux, créatininémie, clairance de la créatinine, calcémie, glycémie capillaire",
+            "justification": "Ces examens permettent de détecter des déséquilibres électrolytiques, rénaux ou métaboliques pouvant expliquer un syndrome confusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Hémogramme, CRP",
+            "justification": "L'hémogramme permet d'identifier une infection ou une anémie, et la CRP de rechercher une inflammation systémique."
+          },
+          {
+            "correct": true,
+            "proposition": "Bandelette urinaire (leucocytes, nitrites)",
+            "justification": "Cet examen permet de détecter une infection urinaire, qui est une cause fréquente de confusion, notamment chez les personnes âgées."
+          },
+          {
+            "correct": false,
+            "proposition": "Bilan hépatique (bilirubine, transaminases)",
+            "justification": "Bien que des anomalies hépatiques puissent causer des troubles neurologiques, un bilan hépatique n'est pas une priorité en première intention pour un syndrome confusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Echographie abdominale",
+            "justification": "L'échographie abdominale n'est pas un examen de première intention dans la gestion du syndrome confusionnel."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756313502835_02",
+      "current_version_epoch_ms": 1756313502835,
+      "rang": "A",
+      "topic": {
+        "subject": "urg",
+        "item": "tbconscience"
+      },
+      "data": {
+        "statement": "Quels paramètres sont essentiels pour évaluer un syndrome confusionnel lors du bilan biologique initial ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Glycémie capillaire",
+            "justification": "Une hypoglycémie ou une hyperglycémie peuvent être des causes fréquentes de confusion mentale."
+          },
+          {
+            "correct": true,
+            "proposition": "Clairance de la créatinine",
+            "justification": "Un dysfonctionnement rénal peut conduire à une accumulation de toxines dans le corps, provoquant de la confusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Dosage des hormones thyroïdiennes",
+            "justification": "Bien que les anomalies thyroïdiennes puissent causer des troubles cognitifs, ce test n'est pas un examen de première intention dans le cadre d'un syndrome confusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Urée",
+            "justification": "Un taux d'urée élevé peut indiquer une insuffisance rénale et être une cause de confusion chez les patients déshydratés ou avec une fonction rénale altérée."
+          },
+          {
+            "correct": false,
+            "proposition": "IRM cérébrale",
+            "justification": "L'IRM cérébrale n'est pas un examen de première intention dans un contexte de syndrome confusionnel, sauf en cas de suspicion de pathologie cérébrale aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756313502835_03",
+      "current_version_epoch_ms": 1756313502835,
+      "rang": "A",
+      "topic": {
+        "subject": "urg",
+        "item": "tbconscience"
+      },
+      "data": {
+        "statement": "Pourquoi la CRP doit-elle être demandée dans le bilan biologique d'un patient présentant un syndrome confusionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de détecter une inflammation systémique ou une infection.",
+            "justification": "La CRP est un marqueur sensible des infections ou inflammations, qui sont des causes fréquentes de confusion mentale."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de diagnostiquer une cause neurologique du syndrome confusionnel.",
+            "justification": "La CRP n'est pas spécifique aux pathologies neurologiques et ne permet pas de poser ce diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet de mesurer la fonction hépatique.",
+            "justification": "La CRP n'est pas un marqueur de la fonction hépatique, mais plutôt un indicateur de l'inflammation."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle aide à orienter vers une cause infectieuse, comme une infection urinaire.",
+            "justification": "Une infection urinaire, souvent présente chez les patients âgés, est une cause fréquente de confusion, et la CRP peut être élevée dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle permet d'évaluer l'état nutritionnel du patient.",
+            "justification": "La CRP ne permet pas d'évaluer l'état nutritionnel du patient. D'autres examens, comme le dosage des protides, sont plus appropriés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756313502835_04",
+      "current_version_epoch_ms": 1756313502835,
+      "rang": "A",
+      "topic": {
+        "subject": "urg",
+        "item": "tbconscience"
+      },
+      "data": {
+        "statement": "Quel examen est utilisé pour rechercher une infection urinaire dans le cadre d'un syndrome confusionnel ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bandelette urinaire",
+            "justification": "La bandelette urinaire est un examen simple et rapide permettant de détecter des leucocytes et des nitrites, signes fréquents d'une infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "ECBU (examen cytobactériologique des urines)",
+            "justification": "Bien que l'ECBU soit utile pour confirmer une infection urinaire, il n'est pas de première intention pour le diagnostic du syndrome confusionnel."
+          },
+          {
+            "correct": false,
+            "proposition": "Echographie rénale",
+            "justification": "L'échographie rénale n'est pas un examen de première intention pour rechercher une infection urinaire dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Radio thoracique",
+            "justification": "La radio thoracique n'est pas un examen utile pour rechercher une infection urinaire et n'est pas indiquée dans la gestion d'un syndrome confusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Analyse des urines pour rechercher des bactéries",
+            "justification": "Cet examen est plus spécifique et peut être effectué en complément de la bandelette urinaire pour confirmer l'infection urinaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756313502835_05",
+      "current_version_epoch_ms": 1756313502835,
+      "rang": "A",
+      "topic": {
+        "subject": "urg",
+        "item": "tbconscience"
+      },
+      "data": {
+        "statement": "Quel est le rôle du bilan biologique devant un syndrome confusionnel chez un patient âgé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rechercher des causes réversibles de confusion",
+            "justification": "Le bilan biologique permet d'identifier des causes traitables, comme les troubles électrolytiques, l'insuffisance rénale ou l'infection urinaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer la fonction cardiaque du patient",
+            "justification": "Bien que la fonction cardiaque soit importante, ce n'est pas un examen de première intention dans le cadre d'un syndrome confusionnel, sauf en cas de symptômes cardiaques associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer les niveaux de vitamine D",
+            "justification": "La carence en vitamine D peut être une cause de confusion à long terme, mais elle n'est pas une priorité dans l'évaluation initiale du syndrome confusionnel."
+          },
+          {
+            "correct": true,
+            "proposition": "Détecter des troubles métaboliques pouvant aggraver la confusion",
+            "justification": "Les troubles métaboliques, comme les déséquilibres électrolytiques ou la déshydratation, peuvent être à l'origine d'un syndrome confusionnel, particulièrement chez les personnes âgées."
+          },
+          {
+            "correct": false,
+            "proposition": "Vérifier l'état de la peau pour des signes de déshydratation",
+            "justification": "Bien que la déshydratation puisse être une cause de confusion, l'évaluation cutanée n'est pas l'examen prioritaire dans ce contexte."
+          }
+        ]
+      }
+    }
+  ]
+}
