@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "LCA",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756254739248_01",
+      "current_version_epoch_ms": 1756254739248,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique de l'analyse en intention de traiter (ITT) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle analyse tous les patients selon le groupe de randomisation, même en cas de déviation du protocole.",
+            "justification": "L'ITT permet de maintenir la comparabilité initiale des groupes et d'éviter le biais d'attrition, en incluant tous les patients initialement randomisés, quel que soit leur suivi."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle analyse uniquement les patients ayant respecté strictement le protocole.",
+            "justification": "Cette description correspond à l'analyse en Per Protocol (PP), qui exclut les patients ayant dévié du protocole."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne prend en compte que les patients ayant terminé l'étude.",
+            "justification": "Cette description est incorrecte, car l'ITT inclut tous les patients randomisés, même ceux ayant arrêté prématurément l'étude."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ignore les données manquantes en les laissant non imputées.",
+            "justification": "En ITT, les données manquantes sont imputées, par exemple par la dernière observation portée à l'avance (LOCF)."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle vise à démontrer une différence entre les groupes expérimentaux.",
+            "justification": "L'objectif principal de l'ITT est de refléter l'effet réel d'un traitement, indépendamment de l'observance du protocole, pas de démontrer une différence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254739248_02",
+      "current_version_epoch_ms": 1756254739248,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Dans quel cas l'analyse en intention de traiter modifiée (mITT) est-elle recommandée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque certains patients doivent être exclus car ils n'ont pas respecté les critères d'inclusion ou ont dévié du protocole de manière significative.",
+            "justification": "La mITT permet de supprimer certains patients de l'analyse si leur inclusion était incorrecte ou s'ils n'ont pas suivi le traitement ou l'intervention prévue, tout en maintenant une comparabilité raisonnable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'on veut exclure tous les patients ayant eu des problèmes d'observance du traitement.",
+            "justification": "Cette exclusion correspond davantage à l'analyse en Per Protocol (PP), pas à la mITT, qui inclut des patients ayant légèrement dévié."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une analyse stricte sans aucune exclusion est nécessaire.",
+            "justification": "Une analyse stricte sans exclusion correspond à l'analyse en intention de traiter (ITT), pas à la mITT."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a des erreurs dans l'analyse statistique des données.",
+            "justification": "L'analyse en mITT est liée à des critères d'inclusion ou de déviation du protocole, et non à des erreurs statistiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une étude vise à démontrer la non-infériorité entre deux traitements.",
+            "justification": "L'analyse mITT peut être utilisée dans une étude de supériorité, mais elle n'est pas spécifique aux études de non-infériorité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254739248_03",
+      "current_version_epoch_ms": 1756254739248,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelle est l'une des principales limites de l'analyse en Per Protocol (PP) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle risque de détruire la comparabilité des groupes créés par la randomisation.",
+            "justification": "L'exclusion de nombreux patients dans l'analyse PP peut introduire un biais d'attrition et réduire la validité des résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne prend pas en compte les données manquantes.",
+            "justification": "L'analyse PP peut inclure des données manquantes uniquement si elles sont imputées de manière appropriée, comme en ITT."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est plus précise pour détecter des différences entre les groupes.",
+            "justification": "Bien que l'analyse PP facilite la mise en évidence des différences, elle peut introduire un biais si trop de patients sont exclus."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle inclut tous les patients qui ont respecté une partie du protocole.",
+            "justification": "Cette proposition est incorrecte, car l'analyse PP exclut les patients ayant dévié du protocole, même partiellement."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est plus appropriée pour une analyse pragmatique de l'efficacité d'un traitement.",
+            "justification": "L'analyse en intention de traiter (ITT) est plus adaptée pour évaluer l'efficacité d'un traitement dans des conditions réelles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254739248_04",
+      "current_version_epoch_ms": 1756254739248,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Pourquoi l'analyse en intention de traiter (ITT) est-elle recommandée dans les essais de supériorité ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle reflète l'effet réel d'un traitement, indépendamment de l'observance du protocole.",
+            "justification": "L'ITT permet de simuler une situation clinique réelle où les patients peuvent ne pas suivre parfaitement le traitement, ce qui aide à évaluer l'efficacité dans des conditions pratiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle exclut tous les patients ayant arrêté prématurément le traitement.",
+            "justification": "Cette description correspond à l'analyse en Per Protocol (PP), où les patients ayant arrêté sont exclus."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle analyse uniquement les patients ayant respecté à 100 % le protocole.",
+            "justification": "Cela correspond à l'analyse en Per Protocol (PP), qui ne prend en compte que les patients ayant suivi le protocole à la lettre."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ignore les données manquantes, considérant qu'elles n'affectent pas les résultats.",
+            "justification": "En ITT, les données manquantes sont imputées, contrairement à cette affirmation."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle tend à exagérer l'efficacité du traitement.",
+            "justification": "L'ITT a tendance à réduire la taille de la différence observée entre les groupes, non à l'exagérer."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756254739248_05",
+      "current_version_epoch_ms": 1756254739248,
+      "rang": "A",
+      "topic": {
+        "subject": "sp",
+        "item": "LCA"
+      },
+      "data": {
+        "statement": "Quelles données peuvent être imputées dans le cadre d'une analyse en intention de traiter (ITT) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La dernière valeur connue du patient ou la valeur la plus défavorable.",
+            "justification": "En cas de données manquantes, l'ITT impute la dernière observation ou la valeur la plus défavorable (par exemple, décès) pour maintenir la comparabilité des groupes."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données manquantes sont simplement ignorées.",
+            "justification": "Les données manquantes ne sont pas ignorées dans l'ITT, elles sont systématiquement imputées pour ne pas fausser les résultats."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données manquantes sont remplacées par la moyenne des données de l'ensemble de l'étude.",
+            "justification": "La moyenne de groupe est une méthode possible, mais ne reflète pas toujours la réalité clinique, car les valeurs imputées doivent être les plus proches possibles de la réalité du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Seules les données concernant les événements graves sont imputées.",
+            "justification": "L'imputation concerne toutes les données manquantes, pas uniquement celles relatives aux événements graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Les données manquantes sont exclues de l'analyse.",
+            "justification": "En ITT, les données manquantes sont imputées, et non exclues."
+          }
+        ]
+      }
+    }
+  ]
+}
