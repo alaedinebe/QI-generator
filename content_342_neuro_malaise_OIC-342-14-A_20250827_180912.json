@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "malaise",
+    "subject": "neuro"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756311099026_01",
+      "current_version_epoch_ms": 1756311099026,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Parmi les éléments suivants, quel est un indicateur clinique justifiant un avis cardiologique dans les moins de 24 heures ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Perte de connaissance au cours d'un effort physique",
+            "justification": "La perte de connaissance pendant l'effort physique peut être le signe d'une pathologie cardiaque sous-jacente nécessitant un avis cardiologique en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur abdominale persistante",
+            "justification": "La douleur abdominale n'est pas un élément spécifique pour un avis cardiologique dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre persistante",
+            "justification": "La fièvre n'est pas un critère direct pour un avis cardiologique, bien qu'elle puisse être liée à des infections."
+          },
+          {
+            "correct": false,
+            "proposition": "Asthénie prolongée",
+            "justification": "L'asthénie prolongée peut avoir diverses causes mais n'est pas un critère d'urgence pour un avis cardiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique isolée sans dyspnée",
+            "justification": "La douleur thoracique seule ne justifie pas systématiquement un avis cardiologique en urgence sans autres signes associés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756311099026_02",
+      "current_version_epoch_ms": 1756311099026,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quel élément de l'électrocardiogramme (ECG) justifie un avis cardiologique en urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Intervalle QT long (corrigé > 450 ms)",
+            "justification": "Un intervalle QT corrigé prolongé (> 450 ms) peut être un signe de risque cardiaque aigu, justifiant un avis cardiologique."
+          },
+          {
+            "correct": false,
+            "proposition": "Onde T inversée sans autre anomalie",
+            "justification": "L'onde T inversée isolée n'est pas suffisante pour justifier un avis cardiologique en urgence sans autres anomalies."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque rapide mais régulière",
+            "justification": "Une fréquence cardiaque rapide mais régulière, sans anomalies spécifiques à l'ECG, ne justifie pas un avis cardiologique immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence d'une bradycardie physiologique chez un athlète",
+            "justification": "Une bradycardie chez un athlète bien entraîné ne justifie pas un avis cardiologique, sauf en cas de symptômes associés."
+          },
+          {
+            "correct": false,
+            "proposition": "Suspicion d'intervalle QT long sans correction",
+            "justification": "Le diagnostic d'intervalle QT long nécessite une correction, il ne peut être posé sans cette évaluation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756311099026_03",
+      "current_version_epoch_ms": 1756311099026,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quel élément clinique justifie un avis neurologique en urgence dans les 2 semaines suivant une perte de connaissance ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Posture inhabituelle",
+            "justification": "Une posture inhabituelle lors de la perte de connaissance peut être un signe d'origine neurologique, justifiant un avis neurologique en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur cervicale",
+            "justification": "La douleur cervicale n'est pas un critère neurologique justifiant un avis neurologique en urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Maux de tête intermittents",
+            "justification": "Les maux de tête intermittents ne sont pas en eux-mêmes un signe direct d'urgence neurologique, sauf en présence d'autres symptômes."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle",
+            "justification": "L'hypotension n'est pas spécifiquement liée à une urgence neurologique, sauf en présence d'autres signes neurologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypertension artérielle sévère",
+            "justification": "L'hypertension sévère n'est pas un critère immédiat pour un avis neurologique, sauf si elle est accompagnée d'autres symptômes évocateurs."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756311099026_04",
+      "current_version_epoch_ms": 1756311099026,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quel est un signe clinique d'urgence justifiant un avis réanimatoire immédiat ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "État de mal épileptique",
+            "justification": "L'état de mal épileptique est une urgence neurologique grave nécessitant un avis réanimatoire immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Déshydratation sévère",
+            "justification": "La déshydratation sévère nécessite un traitement urgent, mais ce n'est pas une indication d'un avis réanimatoire immédiat."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée non traitée",
+            "justification": "Une fièvre élevée nécessite une prise en charge, mais elle n'indique pas toujours une urgence réanimatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Choc hypovolémique sans perte de conscience",
+            "justification": "Bien que le choc hypovolémique soit grave, il nécessite un avis réanimatoire seulement si des signes vitaux sont perturbés."
+          },
+          {
+            "correct": false,
+            "proposition": "Anxiété sévère",
+            "justification": "L'anxiété sévère ne justifie pas un avis réanimatoire à moins qu'elle soit associée à des symptômes vitaux menaçant la vie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756311099026_05",
+      "current_version_epoch_ms": 1756311099026,
+      "rang": "A",
+      "topic": {
+        "subject": "neuro",
+        "item": "malaise"
+      },
+      "data": {
+        "statement": "Quel prodrome clinique justifie un avis neurologique urgent ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Impression de déjà-vu ou jamais-vu",
+            "justification": "Les prodromes de type impression de déjà-vu ou jamais-vu peuvent indiquer un début focal épileptique, nécessitant un avis neurologique et une imagerie cérébrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Paresthésie des membres sans perte de conscience",
+            "justification": "Bien que les paresthésies puissent être évocatrices de troubles neurologiques, elles ne justifient pas un avis neurologique immédiat sans perte de connaissance."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre avec confusion mentale",
+            "justification": "La fièvre accompagnée de confusion mentale nécessite une évaluation, mais ce n'est pas un critère neurologique en soi."
+          },
+          {
+            "correct": false,
+            "proposition": "Céphalées persistantes",
+            "justification": "Les céphalées persistantes n'indiquent pas nécessairement une urgence neurologique sauf si elles sont accompagnées de symptômes neurologiques focalisés."
+          },
+          {
+            "correct": false,
+            "proposition": "Difficulté respiratoire isolée",
+            "justification": "Les difficultés respiratoires ne justifient pas un avis neurologique, sauf si elles sont liées à un trouble neurologique central."
+          }
+        ]
+      }
+    }
+  ]
+}
