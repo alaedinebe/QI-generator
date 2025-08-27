@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "transfusion",
+    "subject": "hemato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756267057564_01",
+      "current_version_epoch_ms": 1756267057564,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions nécessaires à la prescription d'un CGR chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'accord parental est requis.",
+            "justification": "L'accord parental est une exigence légale et éthique dans la prescription d'un CGR chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "La quantité à transfuser est déterminée uniquement par le poids de l'enfant.",
+            "justification": "La quantité à transfuser est calculée en fonction de la variation de l'hémoglobine (ΔHb) et du poids de l'enfant, et non uniquement par le poids."
+          },
+          {
+            "correct": false,
+            "proposition": "Le groupe sanguin et le Rhésus ne sont pas nécessaires.",
+            "justification": "Il est systématique de transfuser avec un CGR isogroupe et iso-Rhésus pour éviter les réactions immunologiques."
+          },
+          {
+            "correct": true,
+            "proposition": "La quantité maximale à transfuser est de 20 mL/kg.",
+            "justification": "La quantité de CGR à transfuser est limitée à 20 mL/kg pour éviter les risques de surcharge volumique."
+          },
+          {
+            "correct": false,
+            "proposition": "Les transfusions répétées ne nécessitent pas de phénotypage.",
+            "justification": "Les transfusions itératives nécessitent un phénotypage pour prévenir les réactions immunologiques liées à des incompatibilités antigéniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756267057564_02",
+      "current_version_epoch_ms": 1756267057564,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Dans quel cas particulier les produits sanguins doivent-ils être irradiés chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un enfant est en traitement pour un cancer.",
+            "justification": "L'irradiation des produits sanguins est recommandée pour les enfants en traitement anticancéreux pour éviter le risque de greffe contre-hôte."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'enfant a une infection virale aiguë.",
+            "justification": "L'irradiation des produits sanguins n'est pas systématique en cas d'infection virale aiguë, mais elle est requise pour les patients immunodéprimés."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une simple anémie ferriprive.",
+            "justification": "L'irradiation des produits sanguins n'est pas nécessaire pour une anémie ferriprive, qui ne constitue pas une condition d'immunodépression."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'un enfant a un déficit immunitaire.",
+            "justification": "Les enfants immunodéprimés, tels que les greffés, nécessitent des produits sanguins irradiés pour éviter les complications immunologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un enfant présente une anémie hémolytique auto-immune.",
+            "justification": "L'irradiation des produits sanguins n'est pas systématique pour une anémie hémolytique auto-immune."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756267057564_03",
+      "current_version_epoch_ms": 1756267057564,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quelle est la méthode correcte pour calculer la quantité de CGR à transfuser chez l'enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "ΔHb x 3-4 x poids (kg), sans dépasser 20 mL/kg.",
+            "justification": "La formule utilisée pour calculer la quantité de CGR est basée sur la variation de l'hémoglobine, le poids de l'enfant, et est limitée à 20 mL/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "ΔHb x 5 x poids (kg), sans dépasser 30 mL/kg.",
+            "justification": "La formule correcte utilise un facteur de 3-4 et limite la quantité à 20 mL/kg, pas 30 mL/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "La quantité est fixée arbitrairement par le médecin.",
+            "justification": "La quantité de CGR à transfuser est basée sur un calcul précis et ne peut pas être déterminée arbitrairement."
+          },
+          {
+            "correct": false,
+            "proposition": "ΔHb x 2-3 x poids (kg), sans dépasser 15 mL/kg.",
+            "justification": "La formule correcte utilise un facteur de 3-4, et la quantité maximale est de 20 mL/kg, pas 15 mL/kg."
+          },
+          {
+            "correct": false,
+            "proposition": "La quantité est fixée uniquement en fonction de la clinique et non de la formule.",
+            "justification": "La quantité de CGR à transfuser est déterminée par une formule standard et non par des critères cliniques seuls."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756267057564_04",
+      "current_version_epoch_ms": 1756267057564,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quels sont les critères particuliers de compatibilité des produits sanguins pour un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Compatibilisation si RAI positif ou drépanocytose.",
+            "justification": "Les enfants avec un RAI positif ou une drépanocytose nécessitent des produits sanguins compatibilisés pour éviter les réactions immunologiques graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Les produits sanguins doivent être systématiquement de groupe A.",
+            "justification": "Les produits sanguins doivent être isogroupe et iso-Rhésus, mais pas nécessairement de groupe A."
+          },
+          {
+            "correct": true,
+            "proposition": "Les produits sanguins doivent être déleucocytés systématiquement.",
+            "justification": "Tous les produits sanguins doivent être déleucocytés pour réduire le risque de réactions immunologiques."
+          },
+          {
+            "correct": false,
+            "proposition": "La compatibilité Rhésus est inutile si l'enfant est de groupe sanguin O.",
+            "justification": "La compatibilité Rhésus reste nécessaire pour éviter les risques de réactions immunitaires, même si l'enfant est de groupe O."
+          },
+          {
+            "correct": true,
+            "proposition": "Les produits sanguins sont phénotypés si des transfusions itératives sont nécessaires.",
+            "justification": "Les transfusions itératives exigent un phénotypage pour éviter les réactions immunologiques dues à des incompatibilités antigéniques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756267057564_05",
+      "current_version_epoch_ms": 1756267057564,
+      "rang": "B",
+      "topic": {
+        "subject": "hemato",
+        "item": "transfusion"
+      },
+      "data": {
+        "statement": "Quel est le type de produit sanguin à privilégier pour un enfant immunodéprimé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Produit irradié.",
+            "justification": "Les enfants immunodéprimés, comme les greffés ou ceux sous traitement anticancéreux, nécessitent des produits irradiés pour éviter le risque de greffe contre-hôte."
+          },
+          {
+            "correct": false,
+            "proposition": "Produit non filtré.",
+            "justification": "Les produits doivent être filtrés pour éliminer les leucocytes, mais l'irradiation est nécessaire en cas d'immunodépression."
+          },
+          {
+            "correct": false,
+            "proposition": "Produit déleucocyté mais non irradié.",
+            "justification": "Pour les enfants immunodéprimés, la déleucocytation est importante, mais l'irradiation est également nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Produit incompatible avec le Rhésus.",
+            "justification": "Les produits sanguins doivent être compatibles avec le Rhésus de l'enfant pour éviter des réactions immunologiques graves."
+          },
+          {
+            "correct": true,
+            "proposition": "Produit déleucocyté.",
+            "justification": "Tous les produits sanguins doivent être déleucocytés pour réduire le risque de réaction immunologique chez l'enfant."
+          }
+        ]
+      }
+    }
+  ]
+}
