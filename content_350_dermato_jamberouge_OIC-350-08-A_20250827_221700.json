@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "jamberouge",
+    "subject": "dermato"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756325967418_01",
+      "current_version_epoch_ms": 1756325967418,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "jamberouge"
+      },
+      "data": {
+        "statement": "Dans la prise en charge des dermo-hypodermites bactériennes en l'absence de signes de gravité, quelle est la durée du traitement antibiotique recommandé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "7 jours",
+            "justification": "La prise en charge ambulatoire comprend une antibiothérapie anti-streptococcique à base d'amoxicilline pendant 7 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours",
+            "justification": "La durée du traitement antibiotique pour les dermo-hypodermites bactériennes est de 7 jours, et non 5 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "10 jours",
+            "justification": "La durée recommandée pour l'antibiothérapie est de 7 jours, pas 10 jours."
+          },
+          {
+            "correct": false,
+            "proposition": "3 jours",
+            "justification": "Le traitement antibiotique pour ces infections doit être suivi pendant 7 jours pour garantir son efficacité."
+          },
+          {
+            "correct": false,
+            "proposition": "5 jours avec réévaluation à 72h",
+            "justification": "Bien que la réévaluation soit importante à 72 heures, le traitement antibiotique doit durer 7 jours."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756325967418_02",
+      "current_version_epoch_ms": 1756325967418,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "jamberouge"
+      },
+      "data": {
+        "statement": "Quel est le traitement recommandé pour une dermo-hypodermite bactérienne en cas d'absence de facteurs de risque thrombo-embolique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Antibiothérapie par amoxicilline et repos au lit",
+            "justification": "Le traitement comprend une antibiothérapie anti-streptococcique et un repos au lit avec jambe surélevée."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie par amoxicilline et anticoagulants à dose préventive",
+            "justification": "Les anticoagulants sont utilisés uniquement en présence de facteurs de risque de maladie thrombo-embolique."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie par céfazoline et repos au lit",
+            "justification": "L'antibiotique recommandé est l'amoxicilline, et non la céfazoline, dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "AINS et antibiothérapie par amoxicilline",
+            "justification": "L'utilisation des AINS est contre-indiquée dans la prise en charge de cette infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Antibiothérapie par amoxicilline et traitement chirurgical",
+            "justification": "Le traitement est ambulatoire avec antibiotique et repos, sans nécessité d'intervention chirurgicale dans ce cas."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756325967418_03",
+      "current_version_epoch_ms": 1756325967418,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "jamberouge"
+      },
+      "data": {
+        "statement": "Quels signes généraux doivent être présents pour justifier une hospitalisation dans la prise en charge d'une dermo-hypodermite bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre élevée et mal tolérée, hypotension, tachycardie, marbrures",
+            "justification": "Ces signes généraux de mauvaise tolérance nécessitent une hospitalisation pour une surveillance rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre modérée, douleur localisée, gonflement",
+            "justification": "Ces symptômes sont compatibles avec une prise en charge ambulatoire, sauf en cas d'extension ou de mauvaise tolérance."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre faible, toux, dyspnée",
+            "justification": "La présence de fièvre et de symptômes respiratoires ne justifie pas à elle seule une hospitalisation dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur importante sans signes de mauvaise tolérance générale",
+            "justification": "La douleur seule ne justifie pas une hospitalisation, à moins qu'il y ait des signes généraux graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre et douleur localisée contrôlées par antalgique",
+            "justification": "Ces signes permettent généralement une prise en charge ambulatoire et non une hospitalisation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756325967418_04",
+      "current_version_epoch_ms": 1756325967418,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "jamberouge"
+      },
+      "data": {
+        "statement": "Quelle mesure est nécessaire si un patient avec dermo-hypodermite bactérienne présente un terrain à risque ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hospitalisation avec traitement parentéral et surveillance rapprochée",
+            "justification": "Les patients avec un terrain à risque doivent être hospitalisés pour un traitement parentéral et une surveillance rapprochée."
+          },
+          {
+            "correct": false,
+            "proposition": "Reprise du traitement antibiotique uniquement en ambulatoire",
+            "justification": "Le traitement parentéral est nécessaire pour les patients à risque, ils ne doivent pas être pris en charge seulement en ambulatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Traitement antibiotique plus court",
+            "justification": "La durée du traitement antibiotique ne doit pas être raccourcie en fonction du terrain à risque."
+          },
+          {
+            "correct": false,
+            "proposition": "Hospitalisation pour chirurgie d'urgence",
+            "justification": "La chirurgie n'est pas indiquée dans la prise en charge de la dermo-hypodermite bactérienne sauf en cas de complications."
+          },
+          {
+            "correct": false,
+            "proposition": "Prescription d'anticoagulants à dose thérapeutique",
+            "justification": "Les anticoagulants à dose préventive sont administrés uniquement en cas de facteurs de risque thrombo-embolique, non à dose thérapeutique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756325967418_05",
+      "current_version_epoch_ms": 1756325967418,
+      "rang": "A",
+      "topic": {
+        "subject": "dermato",
+        "item": "jamberouge"
+      },
+      "data": {
+        "statement": "Quand faut-il réévaluer la prise en charge d'une dermo-hypodermite bactérienne ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Après 72 heures de traitement",
+            "justification": "La réévaluation du traitement doit avoir lieu après 72 heures, pour adapter la prise en charge en fonction de l'évolution."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 48 heures",
+            "justification": "La réévaluation doit se faire après 72 heures, pas après 48 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 1 semaine",
+            "justification": "La réévaluation doit se faire plus tôt, à 72 heures, pour ajuster rapidement le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Immédiatement après le début du traitement",
+            "justification": "Une réévaluation immédiate n'est pas nécessaire si les signes sont modérés, une période de 72 heures est plus appropriée."
+          },
+          {
+            "correct": false,
+            "proposition": "Après 2 semaines",
+            "justification": "Une réévaluation après 2 semaines serait trop tardive pour ajuster efficacement le traitement."
+          }
+        ]
+      }
+    }
+  ]
+}
