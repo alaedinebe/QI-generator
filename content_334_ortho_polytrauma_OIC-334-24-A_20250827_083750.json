@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "polytrauma",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756276817437_01",
+      "current_version_epoch_ms": 1756276817437,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est le signe radiographique caractéristique d'un pneumothorax sous tension ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rétraction du parenchyme pulmonaire sous forme d'une opacité dense autour du hile",
+            "justification": "Ce signe traduit la compression du parenchyme pulmonaire en raison de l'augmentation de la pression intra-pleurale, un des critères de gravité du pneumothorax sous tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité déclive dense effaçant la coupole diaphragmatique",
+            "justification": "Ce signe est plus évocateur d'un hémothorax, où l'épanchement liquide se trouve en position gravitaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté complète d'un hémichamp pulmonaire",
+            "justification": "Il s'agit d'un signe classique du pneumothorax, mais non spécifiquement d'un pneumothorax sous tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation médiastinale controlatérale au pneumothorax",
+            "justification": "Bien que ce signe soit présent dans les pneumothorax sous tension, il est moins spécifique que la rétraction du parenchyme."
+          },
+          {
+            "correct": false,
+            "proposition": "Aplatissement de la coupole diaphragmatique homolatérale",
+            "justification": "Cet aspect peut apparaître dans un pneumothorax sous tension, mais n'est pas aussi caractéristique que la rétraction du parenchyme pulmonaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756276817437_02",
+      "current_version_epoch_ms": 1756276817437,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel signe est évocateur d'un hémothorax compressif sur une radiographie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Déviation médiastinale controlatérale",
+            "justification": "La déviation médiastinale vers l'opposé de l'épanchement est un signe de gravité du hémothorax compressif."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté partielle périphérique de l'hémichamp pulmonaire",
+            "justification": "Ce signe est caractéristique d'un pneumothorax, et non d'un hémothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Asymétrie de transparence des hémichamps pulmonaires",
+            "justification": "Bien que ce signe puisse être observé dans un hémothorax, il n'est pas spécifique du type compressif."
+          },
+          {
+            "correct": false,
+            "proposition": "Visualisation de la plèvre viscérale sous forme d'une fine opacité linéaire",
+            "justification": "Ce signe est typique du pneumothorax, où la plèvre viscérale peut être visible à cause de l'air."
+          },
+          {
+            "correct": false,
+            "proposition": "Niveau hydroaérique horizontal en cas de pneumothorax associé à un hémothorax",
+            "justification": "Ce signe correspond à un hémopneumothorax et non à un hémothorax isolé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756276817437_03",
+      "current_version_epoch_ms": 1756276817437,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est le signe radiographique spécifique d'un pneumothorax associé à un hémothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Niveau hydroaérique horizontal",
+            "justification": "Ce signe indique un hémopneumothorax, où l'épanchement liquidien se limite par un niveau hydroaérique en raison de la gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Opacité déclive dense effaçant la coupole diaphragmatique",
+            "justification": "Ce signe est plus indicatif d'un hémothorax seul, sans pneumothorax associé."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté partielle à l'apex du thorax",
+            "justification": "Ce signe est spécifique au pneumothorax, mais ne révèle pas la présence d'un épanchement liquidien."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétraction du parenchyme pulmonaire autour du hile",
+            "justification": "Ce signe est typique du pneumothorax sous tension, mais ne concerne pas un hémopneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Déviation médiastinale vers le côté pneumothoraxique",
+            "justification": "La déviation médiastinale est généralement observée dans un pneumothorax sous tension et non spécifiquement dans un hémopneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756276817437_04",
+      "current_version_epoch_ms": 1756276817437,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est le signe radiographique d'un hémothorax en position debout ou assise ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Opacité déclive dense avec bord supérieur concave",
+            "justification": "Ce signe, connu sous le nom de ligne de Damoiseau, est spécifique de l'hémothorax, indiquant l'épanchement liquidien en position basse."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperclarté partielle d'un hémichamp pulmonaire",
+            "justification": "Ce signe est typique d'un pneumothorax et non d'un hémothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Asymétrie de transparence des hémichamps pulmonaires",
+            "justification": "Bien qu'observé dans un hémothorax, ce signe est trop général et non spécifique à l'hémothorax en position debout."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétraction du parenchyme pulmonaire",
+            "justification": "Ce signe est plus associé au pneumothorax sous tension qu'à un hémothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Signe de gravité avec aplatissement de la coupole diaphragmatique homolatérale",
+            "justification": "Ce signe est plus typique d'un pneumothorax sous tension et non d'un hémothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756276817437_05",
+      "current_version_epoch_ms": 1756276817437,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Comment différencier un pneumothorax d'un hémothorax sur une radiographie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un pneumothorax présente une hyperclarté partielle ou complète d'un hémichamp pulmonaire, alors qu'un hémothorax apparaît comme une opacité dense déclive",
+            "justification": "L'hyperclarté dans un pneumothorax est due à l'air dans la cavité pleurale, tandis qu'une opacité dense déclive dans l'hémothorax est liée à l'épanchement liquidien."
+          },
+          {
+            "correct": false,
+            "proposition": "Le pneumothorax montre une ligne de Damoiseau, tandis que l'hémothorax présente une déviation médiastinale",
+            "justification": "La ligne de Damoiseau est spécifique à l'hémothorax, pas au pneumothorax, qui peut aussi entraîner une déviation médiastinale mais pour d'autres raisons."
+          },
+          {
+            "correct": false,
+            "proposition": "Le pneumothorax peut montrer un niveau hydroaérique horizontal, ce qui est rare dans un hémothorax",
+            "justification": "Le niveau hydroaérique horizontal est spécifique de l'hémopneumothorax, pas du pneumothorax seul."
+          },
+          {
+            "correct": false,
+            "proposition": "Le pneumothorax présente une rétraction du parenchyme pulmonaire, tandis que l'hémothorax efface la coupole diaphragmatique",
+            "justification": "La rétraction du parenchyme pulmonaire est un signe de pneumothorax sous tension, tandis que l'hémothorax efface la coupole diaphragmatique à cause du liquide."
+          },
+          {
+            "correct": false,
+            "proposition": "Le pneumothorax est toujours associé à une déviation médiastinale, contrairement à l'hémothorax",
+            "justification": "La déviation médiastinale peut aussi survenir dans un hémothorax compressif, pas seulement dans un pneumothorax."
+          }
+        ]
+      }
+    }
+  ]
+}
