@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "choc",
+    "subject": "sp"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756273960446_01",
+      "current_version_epoch_ms": 1756273960446,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Dans la prise en charge du choc obstructif, quelle est la première étape à réaliser ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mise en condition, surveillance et voies veineuses",
+            "justification": "La mise en condition et la surveillance sont cruciales pour stabiliser le patient avant toute prise en charge spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Injection d'un médicament vasopresseur",
+            "justification": "L'administration de vasopresseurs n'est pas la première étape. Elle intervient seulement si la réanimation initiale ne permet pas d'améliorer la perfusion."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombolyse systématique",
+            "justification": "La thrombolyse est envisagée uniquement en cas d'embolie pulmonaire avec cœur droit aigu, après une évaluation clinique approfondie."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "Bien que utile pour diagnostiquer certaines causes, la radiographie n'est pas la première action à réaliser dans la prise en charge immédiate du choc obstructif."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration d'oxygène à haute concentration",
+            "justification": "L'oxygénothérapie est généralement administrée en fonction de l'état clinique, mais elle n'est pas la première étape de la prise en charge du choc obstructif."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273960446_02",
+      "current_version_epoch_ms": 1756273960446,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Quelle est la prise en charge spécifique du choc obstructif causé par une embolie pulmonaire en l'absence de cœur droit aigu ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pas de thrombolyse, et rechercher un autre diagnostic",
+            "justification": "En l'absence de cœur droit aigu, la thrombolyse est contre-indiquée, et il est essentiel de chercher une autre cause du choc."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombolyse systématique",
+            "justification": "La thrombolyse n'est indiquée que pour les patients avec cœur droit aigu, en raison des risques qu'elle comporte dans d'autres situations."
+          },
+          {
+            "correct": false,
+            "proposition": "Exsufflation immédiate",
+            "justification": "L'exsufflation est indiquée dans le cas de pneumothorax, pas pour l'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de corticostéroïdes",
+            "justification": "Les corticostéroïdes ne sont pas utilisés dans la prise en charge de l'embolie pulmonaire dans le cadre du choc obstructif."
+          },
+          {
+            "correct": false,
+            "proposition": "Chirurgie d'urgence",
+            "justification": "La chirurgie n'est pas la première approche pour traiter un choc obstructif dû à une embolie pulmonaire. La gestion se fait d'abord par anticoagulation et éventuellement thrombolyse."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273960446_03",
+      "current_version_epoch_ms": 1756273960446,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Lorsqu'un pneumothorax est suspecté dans un choc obstructif, quelle est la première action à entreprendre ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Exsufflation",
+            "justification": "L'exsufflation est la première mesure à prendre en cas de pneumothorax avec état de choc, afin de décomprimer la cavité pleurale et améliorer la ventilation."
+          },
+          {
+            "correct": false,
+            "proposition": "Angioscanner",
+            "justification": "L'angioscanner est un examen utile pour l'embolie pulmonaire, mais non pour le diagnostic de pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Drainage pericardique",
+            "justification": "Le drainage péricardique est indiqué dans la tamponnade péricardique, mais pas pour un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Thrombolyse",
+            "justification": "La thrombolyse est utilisée dans le cadre de l'embolie pulmonaire, pas pour le pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Prise en charge par vasopresseurs",
+            "justification": "Les vasopresseurs peuvent être nécessaires après l'exsufflation si la perfusion reste insuffisante, mais l'exsufflation reste la priorité dans le cas de pneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273960446_04",
+      "current_version_epoch_ms": 1756273960446,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Comment diagnostiquer la tamponnade péricardique dans le cadre du choc obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Échographie transthoracique",
+            "justification": "L'échographie transthoracique permet de diagnostiquer la tamponnade péricardique en visualisant l'accumulation de liquide dans le péricarde."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie thoracique",
+            "justification": "La radiographie peut suggérer la présence d'une tamponnade, mais l'échographie est l'examen de choix pour confirmer le diagnostic."
+          },
+          {
+            "correct": false,
+            "proposition": "Angioscanner",
+            "justification": "L'angioscanner est utile pour l'embolie pulmonaire, mais il n'est pas recommandé pour le diagnostic de la tamponnade péricardique."
+          },
+          {
+            "correct": false,
+            "proposition": "Imagerie par résonance magnétique",
+            "justification": "L'IRM n'est pas l'examen de choix pour la tamponnade péricardique dans une situation d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Test de perfusion cardiaque",
+            "justification": "Les tests de perfusion cardiaque sont plus adaptés aux pathologies coronariennes et ne sont pas utilisés dans le diagnostic de la tamponnade péricardique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756273960446_05",
+      "current_version_epoch_ms": 1756273960446,
+      "rang": "B",
+      "topic": {
+        "subject": "sp",
+        "item": "choc"
+      },
+      "data": {
+        "statement": "Quelles sont les indications d'une anticoagulation curative en cas d'embolie pulmonaire dans un choc obstructif ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de thrombolyse",
+            "justification": "Une anticoagulation curative est systématiquement mise en place si une thrombolyse est effectuée, afin de prévenir la formation de nouveaux caillots."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans tous les cas d'embolie pulmonaire",
+            "justification": "L'anticoagulation n'est curative que lorsqu'une thrombolyse a été effectuée, pas dans tous les cas d'embolie pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de tamponnade péricardique",
+            "justification": "La tamponnade péricardique nécessite un drainage péricardique, pas d'anticoagulation."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de pneumothorax",
+            "justification": "Le pneumothorax ne nécessite pas d'anticoagulation, mais une exsufflation en cas d'état de choc."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une suspicion d'infarctus du myocarde",
+            "justification": "L'infarctus du myocarde nécessite une autre stratégie thérapeutique que l'anticoagulation curative utilisée pour l'embolie pulmonaire."
+          }
+        ]
+      }
+    }
+  ]
+}
