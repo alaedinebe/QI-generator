@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "polytrauma",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756278030597_01",
+      "current_version_epoch_ms": 1756278030597,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Dans quel cas est-il indiqué de réaliser une radiographie de thorax chez un polytraumatisé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il y a suspicion de pneumothorax ou d'épanchement pleural.",
+            "justification": "La radiographie de thorax est systématique chez tout polytraumatisé pour rechercher un pneumothorax ou un épanchement pleural, ce qui est essentiel pour évaluer les risques respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a douleur au genou sans autre critère.",
+            "justification": "La radiographie de thorax n'est pas indiquée dans ce cas. Il est nécessaire de respecter les critères d'Ottawa pour les radiographies des membres inférieurs."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une fracture au niveau du pied sans signes respiratoires.",
+            "justification": "La radiographie de thorax n'est pas pertinente dans ce cas. Un examen spécifique du pied est requis."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une fracture d'un os long isolée.",
+            "justification": "La radiographie de thorax ne cible pas spécifiquement les fractures d'os longs, qui nécessitent des radiographies spécifiques des membres."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une entorse de la cheville.",
+            "justification": "La radiographie de thorax n'est pas indiquée pour une entorse de cheville, sauf si un des critères d'Ottawa est rempli."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756278030597_02",
+      "current_version_epoch_ms": 1756278030597,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quand faut-il demander un scanner chez un polytraumatisé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de doute clinique sur une fracture non visualisée par la radiographie.",
+            "justification": "Le scanner est recommandé lorsqu'une fracture n'est pas clairement visible sur la radiographie, afin d'obtenir une évaluation complète."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a simplement une douleur au genou sans suspicion de fracture complexe.",
+            "justification": "Un scanner n'est pas nécessaire en cas de simple douleur au genou sans doute sur une fracture complexe."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque la fracture est articulaire complexe.",
+            "justification": "Un scanner sans injection est indiqué pour visualiser les fractures articulaires complexes et mieux planifier le traitement."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'une radiographie de bassin est déjà effectuée.",
+            "justification": "Si la radiographie de bassin a déjà été réalisée, le scanner n'est pas toujours nécessaire, sauf en cas de doute clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une fracture non déplacée de l'humérus.",
+            "justification": "Le scanner n'est pas systématiquement nécessaire pour une fracture non déplacée, une simple radiographie peut suffire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756278030597_03",
+      "current_version_epoch_ms": 1756278030597,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quels sont les critères d'Ottawa pour la radiographie en cas de suspicion de fracture ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Douleur de la pointe et des 6 cm distaux au-dessus des malléoles.",
+            "justification": "Ce critère fait partie des critères d'Ottawa pour la cheville et justifie une radiographie si présent."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur isolée au niveau du genou sans autre symptomatologie.",
+            "justification": "Ce critère ne fait pas partie des critères d'Ottawa pour la cheville ou le genou. D'autres éléments doivent être présents."
+          },
+          {
+            "correct": true,
+            "proposition": "Impossibilité de prendre appui et de faire 4 pas.",
+            "justification": "L'incapacité de prendre appui et de faire 4 pas est un critère de fracture pour la cheville ou le pied."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur sur la partie postérieure du fémur.",
+            "justification": "Les critères d'Ottawa concernent principalement la cheville et le genou, et non la région fémorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur à la tête du fémur.",
+            "justification": "La douleur à la tête du fémur n'est pas un critère d'Ottawa. Il faut d'autres signes pour justifier une radiographie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756278030597_04",
+      "current_version_epoch_ms": 1756278030597,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'angioscanner dans la prise en charge d'un polytraumatisé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Il est utilisé en cas d'atteinte vasculaire avec abolition des pouls.",
+            "justification": "L'angioscanner est utilisé pour visualiser les atteintes vasculaires en cas d'abolition des pouls, permettant ainsi de prendre des décisions thérapeutiques rapides."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé systématiquement pour toutes les fractures de membres.",
+            "justification": "L'angioscanner n'est pas nécessaire pour les fractures simples. Il est réservé aux cas d'atteinte vasculaire ou de doute sur la fracture."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé uniquement pour les fractures du bassin.",
+            "justification": "Bien qu'il soit utile pour les fractures complexes, l'angioscanner n'est pas réservé uniquement aux fractures du bassin."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est réservé aux fractures de la colonne vertébrale.",
+            "justification": "L'angioscanner est principalement utilisé pour évaluer les atteintes vasculaires et non pour les fractures vertébrales."
+          },
+          {
+            "correct": false,
+            "proposition": "Il est utilisé pour examiner les blessures cutanées.",
+            "justification": "L'angioscanner n'est pas utilisé pour évaluer les blessures cutanées. D'autres examens comme l'échographie ou la radiographie sont plus adaptés."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756278030597_05",
+      "current_version_epoch_ms": 1756278030597,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Dans quel cas un scanner avec injection est-il indiqué chez un polytraumatisé ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il existe une suspicion d'atteinte vasculaire.",
+            "justification": "Un scanner avec injection est essentiel en cas de doute sur une atteinte vasculaire, permettant de visualiser les lésions vasculaires et guider la prise en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une fracture simple de l'humérus.",
+            "justification": "Un scanner avec injection n'est pas nécessaire pour une fracture simple. La radiographie est suffisante dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il existe une douleur abdominale isolée.",
+            "justification": "La douleur abdominale isolée ne justifie pas nécessairement un scanner avec injection. D'autres examens sont à privilégier pour ce type de douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'il y a une fracture du fémur sans signes de dévascularisation.",
+            "justification": "Un scanner sans injection est suffisant dans le cas d'une fracture du fémur sans signes de dévascularisation."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsqu'il y a une fracture articulaire complexe.",
+            "justification": "Le scanner avec injection est utilisé pour évaluer les fractures articulaires complexes, permettant de visualiser les détails anatomiques pour une meilleure gestion chirurgicale."
+          }
+        ]
+      }
+    }
+  ]
+}
