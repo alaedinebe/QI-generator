@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "polytrauma",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756277573265_01",
+      "current_version_epoch_ms": 1756277573265,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Lors d'un traumatisme abdomino-pelvien avec hypotension artérielle, quel est l'indicateur principal justifiant une hémostase chirurgicale en urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Instabilité hémodynamique, échographie-FAST positive et radiographie du bassin sans fracas osseux de l'anneau pelvien",
+            "justification": "L'association de ces trois éléments justifie le recours à une hémostase chirurgicale d'urgence, comme une laparotomie d'hémostase dans le cadre de la chirurgie de damage control."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de fracas osseux de l'anneau pelvien sur la radiographie du bassin",
+            "justification": "Le fracas osseux de l'anneau pelvien n'indique pas directement la nécessité d'une hémostase chirurgicale. L'absence de celui-ci est un critère de prise en charge chirurgicale d'urgence."
+          },
+          {
+            "correct": false,
+            "proposition": "Une échographie-FAST négative",
+            "justification": "Une échographie-FAST négative suggère l'absence de lésions internes majeures, ce qui rend la chirurgie d'hémostase en urgence moins probable."
+          },
+          {
+            "correct": false,
+            "proposition": "Stabilité hémodynamique et absence de signes radiographiques",
+            "justification": "La stabilité hémodynamique et l'absence de signes radiographiques ne justifient pas le recours à une intervention chirurgicale d'urgence, ce qui serait réservé à un état instable."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de lésions abdominales visibles à la radiographie",
+            "justification": "La présence de lésions abdominales visibles à la radiographie ne suffit pas en soi à justifier une intervention chirurgicale d'hémostase. Il faut combiner ces résultats avec l'état hémodynamique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756277573265_02",
+      "current_version_epoch_ms": 1756277573265,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Quelles sont les conditions nécessaires pour procéder à une laparotomie d'hémostase dans le cadre d'un traumatisme abdomino-pelvien ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Instabilité hémodynamique, échographie-FAST positive, absence de fracas osseux pelvien",
+            "justification": "Ces critères sont essentiels pour décider de la nécessité d'une laparotomie d'hémostase en urgence, associant instabilité circulatoire et données échographiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de douleurs abdominales sévères sans hypotension",
+            "justification": "La douleur abdominale seule ne justifie pas une laparotomie d'hémostase. L'état hémodynamique est un critère majeur pour cette intervention."
+          },
+          {
+            "correct": false,
+            "proposition": "Une radiographie thoracique anormale",
+            "justification": "Une radiographie thoracique anormale n'est pas en lien direct avec le besoin de laparotomie d'hémostase pour un traumatisme abdomino-pelvien."
+          },
+          {
+            "correct": false,
+            "proposition": "Un scanner abdominal avec confirmation de l'hémorragie mais sans choc",
+            "justification": "Même avec une hémorragie confirmée par scanner, l'absence de choc et d'instabilité hémodynamique ne justifie pas une laparotomie d'hémostase."
+          },
+          {
+            "correct": false,
+            "proposition": "Un choc hypovolémique stable",
+            "justification": "Un choc hypovolémique stable n'implique pas nécessairement une laparotomie d'hémostase, cette procédure étant réservée aux patients instables."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756277573265_03",
+      "current_version_epoch_ms": 1756277573265,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Dans un traumatisme abdomino-pelvien, quelle est l'importance de l'échographie-FAST dans la gestion de l'hémorragie ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "L'échographie-FAST permet de détecter rapidement les épanchements de sang intra-abdominaux",
+            "justification": "L'échographie-FAST est un outil rapide et non invasif essentiel pour évaluer la présence d'épanchements sanguins, un signe clé pour déterminer le recours à une intervention chirurgicale."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie-FAST permet de confirmer la présence de fractures osseuses",
+            "justification": "L'échographie-FAST est centrée sur l'évaluation des épanchements liquidien et n'est pas conçue pour détecter des fractures osseuses."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie-FAST évalue l'intégrité de l'anneau pelvien",
+            "justification": "L'échographie-FAST n'est pas utilisée pour évaluer l'intégrité de l'anneau pelvien, cette évaluation étant réalisée via la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie-FAST remplace la tomodensitométrie dans tous les cas",
+            "justification": "L'échographie-FAST est un premier outil de dépistage rapide, mais elle ne remplace pas un scanner pour une évaluation complète et détaillée des lésions."
+          },
+          {
+            "correct": false,
+            "proposition": "L'échographie-FAST est utile uniquement après stabilisation du patient",
+            "justification": "L'échographie-FAST est réalisée de manière précoce, en situation d'urgence, pour guider la prise en charge avant même la stabilisation complète."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756277573265_04",
+      "current_version_epoch_ms": 1756277573265,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "En cas de traumatisme abdomino-pelvien avec hypotension, quelle est la priorité dans la prise en charge chirurgicale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Réalisation d'une laparotomie d'hémostase pour contrôler l'hémorragie",
+            "justification": "La priorité est de contrôler rapidement l'hémorragie par une laparotomie d'hémostase, une approche de chirurgie de damage control visant à stabiliser l'état du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Réalisation d'une réparation des fractures osseuses",
+            "justification": "Les fractures osseuses ne sont pas la priorité en cas de traumatisme abdomino-pelvien avec instabilité hémodynamique. L'hémorragie est le principal facteur à gérer."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de grandes quantités de fluides sans contrôle chirurgical",
+            "justification": "Bien que l'hydratation soit nécessaire, une gestion exclusive par fluides ne remplace pas l'intervention chirurgicale pour contrôler l'hémorragie."
+          },
+          {
+            "correct": false,
+            "proposition": "Réévaluation radiologique après stabilisation complète",
+            "justification": "Une intervention chirurgicale est nécessaire avant la réévaluation radiologique, en particulier pour stopper l'hémorragie, plutôt qu'une nouvelle imagerie."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance de la pression artérielle sans intervention immédiate",
+            "justification": "La surveillance seule est insuffisante. L'intervention chirurgicale immédiate est primordiale pour stopper l'hémorragie et stabiliser l'état du patient."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756277573265_05",
+      "current_version_epoch_ms": 1756277573265,
+      "rang": "A",
+      "topic": {
+        "subject": "ortho",
+        "item": "polytrauma"
+      },
+      "data": {
+        "statement": "Dans la gestion de l'hémostase en urgence chez un traumatisé, quel est le rôle de la radiographie du bassin ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "La radiographie du bassin permet d'évaluer la présence de fractures osseuses de l'anneau pelvien, important pour orienter le traitement",
+            "justification": "Elle aide à évaluer les fractures osseuses pelviennes, mais l'absence de fractures favorise l'hémostase chirurgicale sans intervention pour fractures."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie du bassin sert à évaluer l'épanchement sanguin intra-abdominal",
+            "justification": "La radiographie n'est pas utilisée pour l'évaluation des épanchements sanguins, cette tâche étant assurée par l'échographie-FAST."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie du bassin est inutile en cas de choc hypovolémique",
+            "justification": "La radiographie est utile dans tous les cas pour évaluer les lésions osseuses, indépendamment de la présence d'un choc."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie du bassin permet de diagnostiquer les lésions abdominales",
+            "justification": "Les lésions abdominales sont diagnostiquées principalement par échographie-FAST et scanner, pas par radiographie du bassin."
+          },
+          {
+            "correct": false,
+            "proposition": "La radiographie du bassin remplace la tomodensitométrie dans le diagnostic des lésions internes",
+            "justification": "La radiographie du bassin ne permet pas d'évaluer les lésions internes majeures et ne peut pas remplacer le scanner dans ce cadre."
+          }
+        ]
+      }
+    }
+  ]
+}
