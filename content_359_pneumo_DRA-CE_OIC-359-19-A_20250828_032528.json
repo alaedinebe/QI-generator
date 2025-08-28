@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756344475233_01",
+      "current_version_epoch_ms": 1756344475233,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la débit d'oxygène initial recommandé pour un masque à haute concentration selon le protocole OIC-359-19-A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "15 L/min",
+            "justification": "Le protocole recommande d'utiliser un masque à haute concentration à un débit de 15 L/min pour assurer un apport maximal en oxygène."
+          },
+          {
+            "correct": false,
+            "proposition": "10 L/min",
+            "justification": "Un débit de 10 L/min est insuffisant pour atteindre une FiO2 maximale avec un masque à haute concentration."
+          },
+          {
+            "correct": false,
+            "proposition": "5 L/min",
+            "justification": "Un débit de 5 L/min ne permet pas d'obtenir une FiO2 optimale avec un masque à haute concentration."
+          },
+          {
+            "correct": false,
+            "proposition": "20 L/min",
+            "justification": "Un débit de 20 L/min est excessif et n'est pas recommandé selon le protocole."
+          },
+          {
+            "correct": false,
+            "proposition": "10-15 L/min",
+            "justification": "Le débit spécifique recommandé est de 15 L/min et non une plage de 10 à 15 L/min."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344475233_02",
+      "current_version_epoch_ms": 1756344475233,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est l'objectif de l'adaptation du débit d'oxygène chez un patient sous masque à haute concentration selon le protocole OIC-359-19-A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Maintenir une SpO2 > 94%",
+            "justification": "L'objectif est de maintenir une SpO2 supérieure à 94% chez la majorité des patients."
+          },
+          {
+            "correct": false,
+            "proposition": "Maintenir une SpO2 > 90%",
+            "justification": "Le protocole spécifie que l'objectif est de maintenir une SpO2 > 94%, sauf pour les patients BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Améliorer la FiO2 à 100%",
+            "justification": "Même avec un masque à haute concentration, la FiO2 ne pourra pas atteindre 100% en raison des limitations pratiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Limiter l'utilisation d'oxygène au minimum nécessaire",
+            "justification": "Le protocole ne stipule pas une limitation stricte du volume d'oxygène, mais vise un objectif de SpO2 optimal."
+          },
+          {
+            "correct": false,
+            "proposition": "Maintenir une PaCO2 basse",
+            "justification": "Le protocole cible la SpO2, mais il n'aborde pas directement la PaCO2."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344475233_03",
+      "current_version_epoch_ms": 1756344475233,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Dans le cas d'un patient BPCO sous masque à haute concentration, quel est l'objectif de SpO2 recommandé selon le protocole OIC-359-19-A ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "89-92%",
+            "justification": "Chez les patients BPCO, l'objectif est de maintenir une SpO2 entre 89% et 92% afin d'éviter les risques de hyperoxie."
+          },
+          {
+            "correct": false,
+            "proposition": "94-98%",
+            "justification": "L'objectif de SpO2 chez les patients BPCO est plus bas, entre 89% et 92%, pour éviter l'hyperoxie."
+          },
+          {
+            "correct": false,
+            "proposition": "85-90%",
+            "justification": "L'objectif est de maintenir la SpO2 dans la plage de 89-92% et non pas jusqu'à 85%."
+          },
+          {
+            "correct": false,
+            "proposition": "80-85%",
+            "justification": "Maintenir une SpO2 aussi basse n'est pas recommandé et pourrait entraîner des complications."
+          },
+          {
+            "correct": false,
+            "proposition": "92-94%",
+            "justification": "Bien que proche, l'objectif spécifique est de viser une SpO2 entre 89% et 92% pour les patients BPCO."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344475233_04",
+      "current_version_epoch_ms": 1756344475233,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Pourquoi est-il important que le masque à haute concentration dispose des deux ailettes latérales ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour obtenir une FiO2 la plus haute possible",
+            "justification": "Les ailettes latérales permettent une meilleure étanchéité et assurent une concentration plus élevée en oxygène, approchant 100%."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour améliorer le confort du patient",
+            "justification": "Les ailettes latérales n'ont pas pour objectif principal d'améliorer le confort, mais d'augmenter la FiO2."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour éviter la fuite de CO2",
+            "justification": "Le rôle des ailettes est d'assurer une haute FiO2, et non spécifiquement de limiter les fuites de CO2."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour augmenter la durée de l'oxygénothérapie",
+            "justification": "L'oxygénothérapie est limitée par d'autres facteurs, et non par la présence des ailettes latérales."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour garantir l'homogénéité de la concentration d'oxygène",
+            "justification": "Les ailettes permettent effectivement une meilleure FiO2, mais ce n'est pas principalement pour garantir l'homogénéité de la concentration."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344475233_05",
+      "current_version_epoch_ms": 1756344475233,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle action peut être effectuée si le patient sous masque à haute concentration ne parvient pas à atteindre une SpO2 > 94% ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Passer à un masque conventionnel sans réservoir",
+            "justification": "Si la SpO2 ne dépasse pas 94%, il est recommandé de passer à un masque conventionnel sans réservoir, surtout en cas de patient BPCO."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmenter immédiatement le débit d'oxygène à plus de 20 L/min",
+            "justification": "Le débit d'oxygène ne doit pas dépasser 15 L/min pour le masque à haute concentration."
+          },
+          {
+            "correct": false,
+            "proposition": "Changer pour une ventilation mécanique invasive",
+            "justification": "Le changement à une ventilation invasive n'est pas la première ligne de réponse pour un échec de l'oxygénation initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Administrer un bronchodilatateur avant de modifier l'oxygénation",
+            "justification": "L'administration de bronchodilatateur ne fait pas partie des recommandations immédiates pour améliorer l'oxygénation initiale."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduire la FiO2 au lieu de l'augmenter",
+            "justification": "Il n'est pas recommandé de réduire la FiO2 si la SpO2 reste inférieure à 94%, surtout en cas de situation critique."
+          }
+        ]
+      }
+    }
+  ]
+}
