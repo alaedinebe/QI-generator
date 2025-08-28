@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PNO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756346726977_01",
+      "current_version_epoch_ms": 1756346726977,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quels sont les signes respiratoires indicatifs de gravité dans le diagnostic de pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë",
+            "justification": "La détresse respiratoire aiguë est un signe majeur de gravité, indiquant une altération significative de la fonction respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Désaturation",
+            "justification": "La désaturation en oxygène est un indicateur clé d'une insuffisance respiratoire, souvent associée à un pneumothorax de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche",
+            "justification": "Bien que la toux puisse être présente, elle n'est pas un critère spécifique de gravité dans un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique intense",
+            "justification": "La douleur thoracique, bien qu'importante, ne permet pas de juger de la gravité d'un pneumothorax de manière directe."
+          },
+          {
+            "correct": false,
+            "proposition": "Tachypnée légère",
+            "justification": "La tachypnée légère peut être observée, mais elle n'indique pas nécessairement une gravité clinique du pneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346726977_02",
+      "current_version_epoch_ms": 1756346726977,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quels signes hémodynamiques doivent être recherchés lors du diagnostic de gravité d'un pneumothorax avec tamponnade gazeuse ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Défaillance cardiaque droite",
+            "justification": "La défaillance cardiaque droite est un signe classique de tamponnade gazeuse, résultant de l'accumulation de gaz dans le péricarde, compromettant le retour veineux."
+          },
+          {
+            "correct": true,
+            "proposition": "État de choc",
+            "justification": "L'état de choc est un signe majeur de gravité, souvent secondaire à une tamponnade gazeuse, qui perturbe la circulation sanguine."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt cardiaque",
+            "justification": "L'arrêt cardiaque est une complication extrême et critique, pouvant survenir dans un contexte de tamponnade gazeuse liée à un pneumothorax grave."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension légère",
+            "justification": "L'hypotension légère n'est pas un signe suffisant de gravité dans ce contexte, car elle peut être observée dans des pneumothorax moins sévères."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémoptysie",
+            "justification": "Bien que l'hémoptysie puisse être associée à d'autres pathologies respiratoires, elle n'est pas un signe hémodynamique spécifique de la gravité d'un pneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346726977_03",
+      "current_version_epoch_ms": 1756346726977,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Pourquoi un pneumothorax partiel peut-il être mal toléré sur le plan respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En présence d'une insuffisance respiratoire préexistante",
+            "justification": "Chez un patient avec insuffisance respiratoire, même un pneumothorax partiel peut aggraver la situation en réduisant davantage la capacité respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "En raison d'une douleur thoracique intense",
+            "justification": "Bien que la douleur puisse être présente, elle n'est pas le facteur déterminant dans la tolérance respiratoire du pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "À cause d'une hyperventilation compensatoire",
+            "justification": "L'hyperventilation compensatoire peut aider à maintenir l'oxygénation dans certaines situations, mais elle n'empêche pas la gravité d'un pneumothorax chez un patient déjà affaibli."
+          },
+          {
+            "correct": false,
+            "proposition": "En raison d'une obstruction des voies aériennes",
+            "justification": "L'obstruction des voies aériennes n'est pas spécifiquement liée à la gravité d'un pneumothorax partiel."
+          },
+          {
+            "correct": false,
+            "proposition": "En raison de la présence de comorbidités non respiratoires",
+            "justification": "Les comorbidités non respiratoires peuvent aggraver l'état général du patient, mais elles ne sont pas directement responsables de la tolérance au pneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346726977_04",
+      "current_version_epoch_ms": 1756346726977,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelles sont les limites de la corrélation entre les signes cliniques et l'importance d'un pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Un pneumothorax partiel peut être mal toléré malgré des signes cliniques modérés",
+            "justification": "Un pneumothorax partiel peut être plus sévère chez un patient déjà en insuffisance respiratoire, même si les signes cliniques ne sont pas alarmants."
+          },
+          {
+            "correct": false,
+            "proposition": "Les signes cliniques sont toujours proportionnels à la taille du pneumothorax",
+            "justification": "Les signes cliniques ne sont pas toujours proportionnels à la taille du pneumothorax, un petit pneumothorax peut être plus grave chez certains patients."
+          },
+          {
+            "correct": true,
+            "proposition": "La gravité clinique peut être indépendante de la taille du pneumothorax",
+            "justification": "La gravité d'un pneumothorax dépend davantage de la tolérance respiratoire et des conditions sous-jacentes du patient que de sa taille."
+          },
+          {
+            "correct": false,
+            "proposition": "Les signes cliniques graves sont toujours liés à un pneumothorax volumineux",
+            "justification": "Les signes cliniques graves peuvent être présents même en cas de pneumothorax de petite taille, notamment en raison de facteurs de comorbidité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de signes cliniques grave indique toujours un pneumothorax bénin",
+            "justification": "L'absence de signes graves ne signifie pas nécessairement que le pneumothorax est bénin, notamment chez des patients déjà fragiles."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346726977_05",
+      "current_version_epoch_ms": 1756346726977,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quel est l'élément clé du diagnostic de gravité d'un pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les signes cliniques observés à l'examen",
+            "justification": "Les signes cliniques à l'examen, tels que la détresse respiratoire et les signes hémodynamiques, sont essentiels pour évaluer la gravité d'un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "L'imagerie seule",
+            "justification": "L'imagerie peut fournir des informations sur la taille du pneumothorax, mais c'est l'examen clinique qui permet de juger de sa gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "L'absence de douleur thoracique",
+            "justification": "L'absence de douleur thoracique ne permet pas de juger de la gravité d'un pneumothorax, car la douleur peut être absente ou modérée même en cas de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Le taux de saturation en oxygène uniquement",
+            "justification": "Bien que la saturation en oxygène soit un indicateur important, elle ne suffit pas seule à évaluer la gravité d'un pneumothorax."
+          },
+          {
+            "correct": true,
+            "proposition": "L'évaluation des signes respiratoires et hémodynamiques",
+            "justification": "L'évaluation combinée des signes respiratoires et hémodynamiques permet une appréciation complète de la gravité du pneumothorax."
+          }
+        ]
+      }
+    }
+  ]
+}
