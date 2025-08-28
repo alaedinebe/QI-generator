@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756342970121_01",
+      "current_version_epoch_ms": 1756342970121,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Parmi les signes cliniques suivants, lequel est un signe de gravité dans un contexte de détresse respiratoire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Cyanose, diminution de la SpO2",
+            "justification": "La cyanose et la diminution de la SpO2 sont des signes cliniques évidents de gravité en raison de la décompensation respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux persistante",
+            "justification": "La toux persistante, bien que symptomatique, n'est pas un signe de gravité en cas de détresse respiratoire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre modérée",
+            "justification": "La fièvre modérée peut accompagner des affections respiratoires mais n'est pas un signe de gravité dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Expectorations abondantes",
+            "justification": "Les expectorations abondantes peuvent être un symptôme d'infection respiratoire, mais elles ne sont pas spécifiquement un signe de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Baisse de la fréquence respiratoire",
+            "justification": "Bien que la baisse de la fréquence respiratoire puisse être préoccupante, ce n'est pas un signe de gravité direct dans la détresse respiratoire aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756342970121_02",
+      "current_version_epoch_ms": 1756342970121,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la valeur de PaO2 qui définit une hypoxémie dans un contexte gazométrique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2 < 80 mm Hg en AA",
+            "justification": "L'hypoxémie est définie par une PaO2 inférieure à 80 mm Hg en air ambiant (AA)."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 100 mm Hg en AA",
+            "justification": "Une PaO2 inférieure à 100 mm Hg en AA ne correspond pas à une hypoxémie, mais à une oxygénation partiellement altérée."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 60 mm Hg en AA",
+            "justification": "Bien que plus grave, une PaO2 inférieure à 60 mm Hg est un stade plus avancé d'hypoxémie, mais l'hypoxémie est déjà définie à partir de 80 mm Hg."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 70 mm Hg en AA",
+            "justification": "Une PaO2 inférieure à 70 mm Hg peut indiquer une hypoxémie sévère, mais la définition de l'hypoxémie reste à PaO2 < 80 mm Hg."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2 < 50 mm Hg en AA",
+            "justification": "Une PaO2 inférieure à 50 mm Hg indique un stade plus sévère d'hypoxémie, mais ce n'est pas la valeur de référence pour la définition de l'hypoxémie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756342970121_03",
+      "current_version_epoch_ms": 1756342970121,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est le degré d'hypoxémie caractéristique d'une gravité clinique selon le rapport PaO2/FiO2 ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "PaO2/FiO2 < 300",
+            "justification": "Un rapport PaO2/FiO2 inférieur à 300 indique une hypoxémie modérée à sévère, signe de gravité dans les troubles respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2/FiO2 < 100",
+            "justification": "Un rapport inférieur à 100 indique une hypoxémie sévère mais ne correspond pas directement au critère de gravité pour le rapport PaO2/FiO2."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2/FiO2 < 400",
+            "justification": "Un rapport PaO2/FiO2 inférieur à 400 n'est pas considéré comme un signe de gravité clinique mais suggère une hypoxémie modérée."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2/FiO2 < 500",
+            "justification": "Un rapport PaO2/FiO2 inférieur à 500 reste dans la plage d'une hypoxémie modérée mais pas suffisamment grave pour être un critère de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "PaO2/FiO2 < 600",
+            "justification": "Un rapport PaO2/FiO2 inférieur à 600 n'indique pas un degré de gravité suffisant pour justifier une intervention d'urgence."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756342970121_04",
+      "current_version_epoch_ms": 1756342970121,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une détresse respiratoire aiguë, quelle est la conséquence clinique d'une hypercapnie (PaCO2 > 42 mm Hg) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Épuisement respiratoire",
+            "justification": "Une hypercapnie sévère (PaCO2 > 42 mm Hg) peut être le signe d'un épuisement respiratoire, nécessitant une prise en charge urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypotension artérielle",
+            "justification": "Bien que l'hypotension artérielle puisse accompagner des troubles respiratoires graves, elle n'est pas une conséquence directe de l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée",
+            "justification": "La fièvre élevée est plus fréquemment associée à des infections qu'à des troubles respiratoires hypercapniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique",
+            "justification": "La douleur thoracique est plus liée à des causes cardiaques ou pleurales et non directement à l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Anxiété",
+            "justification": "L'anxiété peut être un symptôme associé à la détresse respiratoire mais n'est pas directement causée par l'hypercapnie."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756342970121_05",
+      "current_version_epoch_ms": 1756342970121,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Qu'est-ce qui caractérise un signe gazométrique de gravité dans une situation de décompensation respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hyperlactatémie > 2 mmol/L",
+            "justification": "L'hyperlactatémie au-dessus de 2 mmol/L est un signe important de gravité, signalant une défaillance circulatoire associée à l'hypoxémie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoglycémie < 1,5 mmol/L",
+            "justification": "Bien que l'hypoglycémie puisse être grave, elle n'est pas spécifiquement un signe gazométrique de gravité dans le contexte respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypocapnie < 35 mm Hg",
+            "justification": "L'hypocapnie n'est généralement pas associée à une décompensation respiratoire sévère mais plutôt à une hyperventilation."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie légère (PaO2 > 100 mm Hg)",
+            "justification": "Une hypoxémie légère ne constitue pas un signe de gravité dans les situations de détresse respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Normocapnie",
+            "justification": "La normocapnie n'est pas un signe de gravité mais indique un équilibre normal du dioxyde de carbone dans le sang."
+          }
+        ]
+      }
+    }
+  ]
+}
