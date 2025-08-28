@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756345675497_01",
+      "current_version_epoch_ms": 1756345675497,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est le débit recommandé pour l'oxygénothérapie par lunettes nasales chez un patient en hypoxémie avec une situation stable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "1-6 L/min",
+            "justification": "Le débit de 1 à 6 L/min est utilisé pour les lunettes nasales dans les cas d'hypoxémie et de situation stable."
+          },
+          {
+            "correct": false,
+            "proposition": "8-15 L/min",
+            "justification": "Le débit de 8 à 15 L/min est utilisé pour un masque à haute concentration, non pour des lunettes nasales."
+          },
+          {
+            "correct": false,
+            "proposition": "10-70 L/min",
+            "justification": "Ce débit est applicable à l'oxygénothérapie à haut débit nasal, pas aux lunettes nasales."
+          },
+          {
+            "correct": false,
+            "proposition": "4-8 L/min",
+            "justification": "Ce débit est spécifique au masque simple, pas aux lunettes nasales."
+          },
+          {
+            "correct": false,
+            "proposition": "variable",
+            "justification": "Le débit de 1 à 6 L/min est précis pour les lunettes nasales, pas variable."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345675497_02",
+      "current_version_epoch_ms": 1756345675497,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Dans quel cas la ventilation non invasive est-elle indiquée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Décompensation de BPCO",
+            "justification": "La ventilation non invasive est indiquée pour la décompensation de la BPCO (bronchopneumopathie chronique obstructive)."
+          },
+          {
+            "correct": true,
+            "proposition": "OAP",
+            "justification": "L'OAP (œdème aigu du poumon) est une des indications pour la ventilation non invasive."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie sévère",
+            "justification": "La ventilation non invasive est utile pour des états comme l'OAP ou la BPCO, mais pas directement pour une hypoxémie sévère."
+          },
+          {
+            "correct": false,
+            "proposition": "Bronchiolite chez l'adulte",
+            "justification": "La bronchiolite concerne principalement les enfants, et la ventilation non invasive est principalement utilisée dans ce contexte chez l'enfant."
+          },
+          {
+            "correct": false,
+            "proposition": "État de choc",
+            "justification": "La ventilation non invasive n'est pas indiquée en cas d'état de choc, où une ventilation invasive est plutôt nécessaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345675497_03",
+      "current_version_epoch_ms": 1756345675497,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est l'indication principale de l'oxygénothérapie à haut débit nasal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoxémie sévère, pré-oxygénation",
+            "justification": "L'oxygénothérapie à haut débit nasal est utilisée pour traiter l'hypoxémie sévère et en pré-oxygénation avant des interventions."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie modérée",
+            "justification": "L'oxygénothérapie à haut débit nasal est surtout indiquée pour des hypoxémies sévères et non modérées."
+          },
+          {
+            "correct": false,
+            "proposition": "Insuffisance respiratoire aiguë hypoxémique",
+            "justification": "L'insuffisance respiratoire aiguë hypoxémique est principalement traitée avec un masque à haute concentration, pas avec l'oxygénothérapie à haut débit nasal."
+          },
+          {
+            "correct": false,
+            "proposition": "Décompensation de BPCO",
+            "justification": "La décompensation de BPCO nécessite plutôt la ventilation non invasive, pas l'oxygénothérapie à haut débit nasal."
+          },
+          {
+            "correct": false,
+            "proposition": "Ventilation invasive",
+            "justification": "La ventilation invasive est indiquée dans les détresses respiratoires sévères, mais non dans les cas d'hypoxémie traités par oxygénothérapie à haut débit nasal."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345675497_04",
+      "current_version_epoch_ms": 1756345675497,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de la ventilation invasive ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë persistante ou épuisement respiratoire",
+            "justification": "La ventilation invasive est indiquée dans les détresses respiratoires aiguës persistantes ou l'épuisement respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Arrêt cardio-respiratoire",
+            "justification": "L'arrêt cardio-respiratoire nécessite une ventilation invasive pour assurer la prise en charge respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie modérée",
+            "justification": "L'hypoxémie modérée est généralement traitée par des méthodes moins invasives comme les lunettes nasales ou les masques simples."
+          },
+          {
+            "correct": false,
+            "proposition": "Pré-oxygénation avant intervention",
+            "justification": "La pré-oxygénation est généralement réalisée par oxygénothérapie à haut débit nasal ou ventilation non invasive, pas par ventilation invasive."
+          },
+          {
+            "correct": false,
+            "proposition": "Bronchiolite chez l'adulte",
+            "justification": "La bronchiolite est une pathologie principalement pédiatrique, et la ventilation invasive n'est pas généralement utilisée pour cette condition."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345675497_05",
+      "current_version_epoch_ms": 1756345675497,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle surveillance continue est essentielle lors de la prise en charge d'un patient en insuffisance respiratoire aiguë ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "SpO2 et fréquence cardiaque",
+            "justification": "La surveillance de la SpO2 et de la fréquence cardiaque est essentielle pour évaluer l'efficacité de la prise en charge respiratoire."
+          },
+          {
+            "correct": true,
+            "proposition": "Pression artérielle et fréquence respiratoire",
+            "justification": "La pression artérielle et la fréquence respiratoire doivent également être surveillées pour évaluer l'état hémodynamique et respiratoire du patient."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence respiratoire seule",
+            "justification": "Bien que la fréquence respiratoire soit importante, elle doit être surveillée en combinaison avec d'autres paramètres comme SpO2 et la pression artérielle."
+          },
+          {
+            "correct": false,
+            "proposition": "Fréquence cardiaque seule",
+            "justification": "La fréquence cardiaque doit être surveillée en complément d'autres paramètres comme la SpO2 pour une évaluation complète."
+          },
+          {
+            "correct": false,
+            "proposition": "Température corporelle",
+            "justification": "Bien que la température corporelle soit importante, elle n'est pas un paramètre clé dans la surveillance continue d'un patient en insuffisance respiratoire aiguë."
+          }
+        ]
+      }
+    }
+  ]
+}
