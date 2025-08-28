@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PNO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756347179360_01",
+      "current_version_epoch_ms": 1756347179360,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Dans quel cas faut-il envisager un drainage pleural ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lorsque le pneumothorax est primitif avec échec d'exsufflation.",
+            "justification": "Le drainage pleural est indiqué lorsque le pneumothorax est primitif et que l'exsufflation n'a pas permis une résolution complète."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque le pneumothorax est secondaire et que la brèche pleurale met du temps à se fermer.",
+            "justification": "Le drainage est nécessaire lorsque la brèche pleurale est suspectée de mettre un certain temps à se fermer, comme dans le cas des pneumothorax secondaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le pneumothorax est superficiel et ne présente aucun risque de récidive.",
+            "justification": "Le drainage n'est généralement pas nécessaire pour les pneumothorax superficiels et peu symptomatiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un épanchement pleural simple sans pneumothorax.",
+            "justification": "Le drainage pleural est spécifique aux pneumothorax et non aux simples épanchements pleuraux."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le patient est en état de choc hypovolémique.",
+            "justification": "Le drainage pleural n'est pas une priorité en cas de choc hypovolémique sévère, où d'autres interventions de réanimation sont urgentes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756347179360_02",
+      "current_version_epoch_ms": 1756347179360,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelle est la technique utilisée pour le drainage pleural percutané ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Mise en place d'un drain en queue de cochon selon la méthode de Seldinger.",
+            "justification": "La technique percutanée consiste à insérer un drain en queue de cochon avec la méthode de Seldinger, en utilisant la ligne médioclaviculaire du 2ème espace intercostal."
+          },
+          {
+            "correct": false,
+            "proposition": "Insertion d'un drain par une incision chirurgicale large.",
+            "justification": "L'insertion par incision chirurgicale est une technique utilisée dans les cas où la méthode percutanée échoue, mais elle n'est pas de première intention."
+          },
+          {
+            "correct": true,
+            "proposition": "Le drain est connecté à un système d'aspiration réglé entre -5 et -20 cm H2O.",
+            "justification": "Le drainage percutané utilise un système d'aspiration réglé entre -5 et -20 cm H2O pour favoriser l'évacuation de l'air."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'un drain métallique inséré par voie thoracique.",
+            "justification": "Les drains métalliques ne sont pas utilisés dans cette procédure ; la méthode percutanée utilise un drain en plastique."
+          },
+          {
+            "correct": false,
+            "proposition": "Drainage réalisé par un cathéter introduit par la voie sous-clavière.",
+            "justification": "Le drainage pleural percutané se fait par la voie intercostale et non sous-clavière."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756347179360_03",
+      "current_version_epoch_ms": 1756347179360,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Dans quel cas est-ce que le drainage chirurgical est indiqué ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de pneumothorax difficile à drainer.",
+            "justification": "Le drainage chirurgical est utilisé lorsque le pneumothorax est difficile à drainer par la technique percutanée."
+          },
+          {
+            "correct": true,
+            "proposition": "Lors d'un épanchement liquidien associé, comme dans le cas d'un abcès pulmonaire fistulisé.",
+            "justification": "Le drainage chirurgical est indiqué en présence d'un épanchement liquidien associé, par exemple dans le cas d'un abcès pulmonaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un pneumothorax spontané simple sans complications.",
+            "justification": "Un pneumothorax spontané simple est généralement traité par drainage percutané, pas chirurgical."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque l'aspiration percutanée n'est pas disponible.",
+            "justification": "La disponibilité de l'aspiration percutanée ne détermine pas le recours à un drainage chirurgical ; ce dernier est utilisé pour des situations plus complexes."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de pneumothorax avec absence de symptômes.",
+            "justification": "Le drainage chirurgical n'est pas nécessaire en l'absence de symptômes graves ou de complications."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756347179360_04",
+      "current_version_epoch_ms": 1756347179360,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelles sont les recommandations pour la mise en place d'un drain pleural ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Respect des règles d'asepsie chirurgicale.",
+            "justification": "L'asepsie chirurgicale est primordiale pour éviter toute infection lors de la mise en place du drain pleural."
+          },
+          {
+            "correct": true,
+            "proposition": "Information préalable du patient et obtention du consentement.",
+            "justification": "Il est essentiel d'informer le patient des risques et de recueillir son consentement avant la procédure."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune anesthésie n'est nécessaire si le patient est vigilant.",
+            "justification": "L'anxiolyse et l'analgésie sont nécessaires, même pour les patients vigilants, afin d'assurer leur confort et leur sécurité."
+          },
+          {
+            "correct": false,
+            "proposition": "Il n'est pas nécessaire d'assurer une oxygénothérapie.",
+            "justification": "L'oxygénothérapie peut être nécessaire pour certains patients, notamment en cas de détresse respiratoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune surveillance post-procédure n'est requise si le drainage est réussi.",
+            "justification": "Une surveillance post-procédure est nécessaire, même en cas de succès, pour s'assurer du bon fonctionnement du drainage."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756347179360_05",
+      "current_version_epoch_ms": 1756347179360,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quel est le rôle de l'imagerie dans le drainage pleural ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Elle permet de guider l'abord et le placement du drain, notamment en cas de pneumothorax partiel.",
+            "justification": "L'imagerie est utile pour guider le geste, surtout dans les cas complexes de pneumothorax partiels, où des repères non conventionnels peuvent être nécessaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée uniquement pour surveiller la position du drain après insertion.",
+            "justification": "L'imagerie a également un rôle dans la guidance initiale du drainage, pas seulement dans la surveillance post-insertion."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle sert uniquement à diagnostiquer le pneumothorax initial.",
+            "justification": "L'imagerie est cruciale à la fois pour le diagnostic initial et pour guider le drainage si nécessaire."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle est utilisée pour surveiller la ré-accolement du poumon à la paroi après drainage.",
+            "justification": "L'imagerie permet de vérifier le bon ré-accolement du poumon à la paroi, ce qui est essentiel pour évaluer le succès du drainage."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est utilisée uniquement dans les techniques chirurgicales.",
+            "justification": "L'imagerie est utilisée dans les techniques percutanées et chirurgicales, notamment pour les pneumothorax complexes."
+          }
+        ]
+      }
+    }
+  ]
+}
