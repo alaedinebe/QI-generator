@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "AES",
+    "subject": "infectio"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756358603711_01",
+      "current_version_epoch_ms": 1756358603711,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "AES"
+      },
+      "data": {
+        "statement": "Quel est le délai maximal recommandé pour commencer une prophylaxie post-exposition (PPE) après une exposition au VIH ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Dans les 4 heures suivant l'exposition.",
+            "justification": "La prophylaxie post-exposition est recommandée de préférence dans les 4 heures suivant l'exposition."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 6 heures suivant l'exposition.",
+            "justification": "Le délai recommandé pour la PPE est de préférence dans les 4 heures, et ne dépasse pas 48 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 12 heures suivant l'exposition.",
+            "justification": "Bien que la PPE puisse être envisagée jusqu'à 48 heures, elle est optimale dans les 4 premières heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 24 heures suivant l'exposition.",
+            "justification": "La prophylaxie peut être envisagée jusqu'à 48 heures, mais elle est la plus efficace si elle est administrée avant 4 heures."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans les 48 heures suivant l'exposition.",
+            "justification": "La prophylaxie post-exposition peut être administrée jusqu'à 48 heures, mais il est préférable de l'administrer dans les 4 premières heures."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756358603711_02",
+      "current_version_epoch_ms": 1756358603711,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "AES"
+      },
+      "data": {
+        "statement": "Dans quel cas la prophylaxie post-exposition (PPE) est-elle recommandée après une exposition professionnelle à une personne vivant avec le VIH, sérologie VIH positive et charge virale détectable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pour une piqûre profonde avec une aiguille creuse et intravasculaire.",
+            "justification": "Une exposition avec piqûre profonde, aiguille creuse et intravasculaire représente un risque élevé de transmission du VIH, et une PPE est indiquée."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une piqûre avec une aiguille IM ou SC.",
+            "justification": "Bien que l'exposition soit intermédiaire, la PPE n'est pas systématiquement indiquée dans ce cas, sauf si la source présente une charge virale détectable."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une piqûre avec une seringue abandonnée.",
+            "justification": "Les piqûres avec des seringues abandonnées, bien que présentant un risque, ne nécessitent pas systématiquement de PPE dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une morsure.",
+            "justification": "Les morsures n'ont pas une probabilité suffisamment élevée de transmission du VIH pour justifier une PPE dans tous les cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une exposition muqueuse avec un contact de moins de 15 minutes.",
+            "justification": "Une exposition muqueuse sans contact prolongé (moins de 15 minutes) ne justifie pas de PPE dans ce contexte."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756358603711_03",
+      "current_version_epoch_ms": 1756358603711,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "AES"
+      },
+      "data": {
+        "statement": "Dans quel type d'exposition sexuelle est-il recommandé de commencer une prophylaxie post-exposition (PPE) si la personne source a une charge virale VIH détectable ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Lors d'un rapport anal réceptif.",
+            "justification": "Un rapport anal réceptif est un risque élevé de transmission du VIH, nécessitant la PPE si la charge virale de la source est détectable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un rapport vaginal insertif.",
+            "justification": "Un rapport vaginal insertif est un risque modéré mais n'entraîne pas systématiquement la PPE, sauf si d'autres facteurs de risque sont présents."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'une fellation réceptive sans éjaculation.",
+            "justification": "La fellation réceptive sans éjaculation ne présente pas un risque suffisant pour justifier la PPE."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un rapport vaginal réceptif avec une charge virale indétectable.",
+            "justification": "La PPE n'est pas nécessaire si la source a une charge virale VIH indétectable."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors d'un rapport anal insertif.",
+            "justification": "Bien que la PPE soit recommandée dans certains cas de rapport anal insertif, la charge virale indétectable de la source rend la PPE inutile."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756358603711_04",
+      "current_version_epoch_ms": 1756358603711,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "AES"
+      },
+      "data": {
+        "statement": "Lors d'une exposition professionnelle avec une piqûre profonde, quelle est la principale indication de la prophylaxie post-exposition (PPE) ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Si la source a une charge virale VIH détectable.",
+            "justification": "Si la source présente une charge virale détectable, la PPE est fortement indiquée, particulièrement en cas de piqûre profonde avec une aiguille creuse."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la source est séropositive mais a une charge virale indétectable.",
+            "justification": "La charge virale indétectable réduit le risque de transmission du VIH, ce qui rend la PPE moins nécessaire dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la source est d'un groupe à prévalence élevée du VIH.",
+            "justification": "Le groupe à prévalence élevée du VIH augmente le risque d'exposition, mais la PPE dépend également de la charge virale de la source."
+          },
+          {
+            "correct": false,
+            "proposition": "Si la victime est un patient à risque élevé.",
+            "justification": "Bien que la victime puisse être à risque élevé, la PPE dépend avant tout du statut de la source, en particulier de la charge virale."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'exposition a été plus de 12 heures avant l'administration de la PPE.",
+            "justification": "Bien que la PPE puisse être administrée jusqu'à 48 heures après l'exposition, un délai de plus de 12 heures limite son efficacité."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756358603711_05",
+      "current_version_epoch_ms": 1756358603711,
+      "rang": "B",
+      "topic": {
+        "subject": "infectio",
+        "item": "AES"
+      },
+      "data": {
+        "statement": "Lors d'une exposition sexuelle à faible risque avec une charge virale VIH indétectable, la prophylaxie post-exposition (PPE) est-elle recommandée ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Oui, systématiquement, même avec une charge virale indétectable.",
+            "justification": "La charge virale indétectable de la source diminue considérablement le risque de transmission du VIH, rendant la PPE inutile dans ce contexte."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, uniquement pour les rapports vaginaux réceptifs.",
+            "justification": "La PPE n'est pas recommandée pour un rapport vaginal réceptif avec une charge virale indétectable, car le risque de transmission est minime."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, mais uniquement pour les rapports anaux.",
+            "justification": "La PPE n'est pas nécessaire dans ce cas car la charge virale indétectable réduit de manière significative le risque de transmission."
+          },
+          {
+            "correct": true,
+            "proposition": "Non, la PPE n'est pas nécessaire avec une charge virale indétectable.",
+            "justification": "La charge virale indétectable de la source rend la transmission du VIH très improbable, ce qui rend la PPE non nécessaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Oui, uniquement pour les rapports oraux avec éjaculation.",
+            "justification": "Les rapports oraux avec éjaculation ne nécessitent pas de PPE si la charge virale de la source est indétectable."
+          }
+        ]
+      }
+    }
+  ]
+}
