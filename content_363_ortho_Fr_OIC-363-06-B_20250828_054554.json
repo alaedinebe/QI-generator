@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "Fr",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756352901494_01",
+      "current_version_epoch_ms": 1756352901494,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "Fr"
+      },
+      "data": {
+        "statement": "Quelle est la caractéristique d'une fracture de type I selon la classification de Garden ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fracture incomplète, non déplacée, avec impaction des travées céphaliques en valgus.",
+            "justification": "La fracture de type I est une fracture incomplète, non déplacée, avec préservation de la corticale médiale et impaction des travées céphaliques en valgus."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture complète, non déplacée.",
+            "justification": "Cette description correspond à une fracture de type II, qui est complète mais non déplacée."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture complète, déplacée avec varisation des travées céphaliques.",
+            "justification": "Cette description correspond à une fracture de type III, qui est complète et déplacée, mais avec varisation des travées céphaliques."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture complète avec déplacement complet, les travées sont parallèles.",
+            "justification": "Cette description correspond à une fracture de type IV, qui est complète et déplacée avec des travées parallèles."
+          },
+          {
+            "correct": false,
+            "proposition": "Fracture incomplète, déplacée.",
+            "justification": "Une fracture incomplète, déplacée, correspondrait à une description plus proche de la classification de type III."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756352901494_02",
+      "current_version_epoch_ms": 1756352901494,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "Fr"
+      },
+      "data": {
+        "statement": "Quel est le taux de consolidation des fractures de type IV selon la classification de Garden ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Élevé.",
+            "justification": "Le taux de consolidation est plus faible pour les fractures de type IV en comparaison des fractures de type I et II."
+          },
+          {
+            "correct": true,
+            "proposition": "Faible.",
+            "justification": "Le taux de consolidation des fractures de type IV est faible, en raison du déplacement complet et de l'orientation des travées osseuses."
+          },
+          {
+            "correct": false,
+            "proposition": "Modéré.",
+            "justification": "Le taux de consolidation est moins bon pour les fractures de type IV par rapport aux fractures de type I et II, mais il est plus faible que modéré."
+          },
+          {
+            "correct": false,
+            "proposition": "Nul.",
+            "justification": "Le taux de consolidation n'est pas nul, bien qu'il soit diminué par rapport aux types I et II."
+          },
+          {
+            "correct": false,
+            "proposition": "Très élevé.",
+            "justification": "Le taux de consolidation très élevé est observé dans les fractures moins graves, comme celles de type I et II."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756352901494_03",
+      "current_version_epoch_ms": 1756352901494,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "Fr"
+      },
+      "data": {
+        "statement": "Quel type de fracture de la classification de Garden est le plus susceptible de provoquer une ostéonécrose de la tête fémorale ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Type I.",
+            "justification": "Les fractures de type I sont moins susceptibles de provoquer une ostéonécrose, en raison de l'absence de déplacement."
+          },
+          {
+            "correct": false,
+            "proposition": "Type II.",
+            "justification": "Les fractures de type II sont complètes mais non déplacées, elles présentent un risque plus faible d'ostéonécrose par rapport aux types III et IV."
+          },
+          {
+            "correct": true,
+            "proposition": "Type III.",
+            "justification": "Les fractures de type III sont les plus susceptibles de provoquer une ostéonécrose en raison du déplacement partiel avec varisation des travées céphaliques."
+          },
+          {
+            "correct": true,
+            "proposition": "Type IV.",
+            "justification": "Les fractures de type IV, avec un déplacement complet et des travées parallèles, ont également un risque élevé d'ostéonécrose de la tête fémorale."
+          },
+          {
+            "correct": false,
+            "proposition": "Aucune des fractures.",
+            "justification": "Toutes les fractures de type III et IV présentent un risque plus élevé d'ostéonécrose par rapport aux types I et II."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756352901494_04",
+      "current_version_epoch_ms": 1756352901494,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "Fr"
+      },
+      "data": {
+        "statement": "Quel est l'inconvénient majeur de la classification de Garden ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Elle ne prend pas en compte le déplacement de la fracture.",
+            "justification": "La classification de Garden analyse bien le déplacement de la fracture, notamment avec les types III et IV."
+          },
+          {
+            "correct": true,
+            "proposition": "La reproductibilité interobservateur est médiocre.",
+            "justification": "La classification de Garden souffre d'une faible reproductibilité interobservateur et peut ignorer certains déplacements visibles sur le cliché de profil."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne classe pas les fractures du col fémoral.",
+            "justification": "La classification de Garden est spécifiquement destinée aux fractures intracapsulaires du col fémoral."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne distingue pas les fractures en valgus et en varus.",
+            "justification": "La classification de Garden distingue bien les fractures en valgus (type I) et en varus (type III)."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle ne prend pas en compte les fractures ouvertes.",
+            "justification": "La classification de Garden est spécifique aux fractures intracapsulaires fermées du col fémoral."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756352901494_05",
+      "current_version_epoch_ms": 1756352901494,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "Fr"
+      },
+      "data": {
+        "statement": "Quelle est la différence principale entre une fracture de type III et une fracture de type IV selon la classification de Garden ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "La fracture de type IV est non déplacée.",
+            "justification": "La fracture de type IV est déplacée complètement, contrairement à une fracture non déplacée comme celle de type II."
+          },
+          {
+            "correct": true,
+            "proposition": "Les travées osseuses sont parallèles dans la fracture de type IV, mais pas dans la fracture de type III.",
+            "justification": "La fracture de type IV se caractérise par des travées osseuses cervicales et céphaliques parallèles, alors que la fracture de type III présente une varisation des travées céphaliques par rapport aux travées cervicales."
+          },
+          {
+            "correct": false,
+            "proposition": "La fracture de type III est complète, mais la fracture de type IV est incomplète.",
+            "justification": "Les fractures de type III et IV sont toutes deux complètes, mais diffèrent par le déplacement des travées osseuses."
+          },
+          {
+            "correct": false,
+            "proposition": "La fracture de type III a un déplacement plus important que celle de type IV.",
+            "justification": "La fracture de type IV a un déplacement plus important que celle de type III, car les travées osseuses sont parallèles dans le type IV."
+          },
+          {
+            "correct": false,
+            "proposition": "Les fractures de type IV ont un meilleur pronostic de consolidation.",
+            "justification": "Les fractures de type IV ont un pronostic moins favorable que les fractures de type III, en raison de leur déplacement plus complet."
+          }
+        ]
+      }
+    }
+  ]
+}
