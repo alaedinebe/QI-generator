@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PNO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756346127996_01",
+      "current_version_epoch_ms": 1756346127996,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Lorsqu'un pneumothorax est de faible abondance, où est-il principalement visible sur une radio de thorax standard ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "À l'apex",
+            "justification": "Le pneumothorax de faible abondance est généralement visible uniquement à l'apex sur une radio de thorax standard."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans la base pulmonaire",
+            "justification": "Le pneumothorax de faible abondance n'est pas visible à la base pulmonaire mais plutôt à l'apex."
+          },
+          {
+            "correct": false,
+            "proposition": "Sur la silhouette cardiaque",
+            "justification": "Le pneumothorax ne se manifeste pas sur la silhouette cardiaque à moins d'une complication spécifique."
+          },
+          {
+            "correct": false,
+            "proposition": "Sur la coupole diaphragmatique",
+            "justification": "Le pneumothorax n'est pas visible sur la coupole diaphragmatique, à moins d'une complication ou d'un piège d'une forme incomplète."
+          },
+          {
+            "correct": false,
+            "proposition": "Sur la paroi thoracique",
+            "justification": "Le pneumothorax de faible abondance est séparé de la paroi thoracique par une hyperclarté et n'est donc pas visible sur celle-ci."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346127996_02",
+      "current_version_epoch_ms": 1756346127996,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quel signe radiologique est caractéristique du pneumothorax sous tension ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Rétractation du parenchyme pulmonaire sur son hile",
+            "justification": "La rétractation du parenchyme pulmonaire sur son hile est un signe radiologique classique du pneumothorax sous tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Épaississement des parois pleurales",
+            "justification": "L'épaississement des parois pleurales n'est pas un signe spécifique du pneumothorax sous tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Présence de zones hyperclaires à la base pulmonaire",
+            "justification": "Les zones hyperclaires à la base pulmonaire peuvent être observées dans d'autres pathologies pulmonaires, mais ne sont pas spécifiques du pneumothorax sous tension."
+          },
+          {
+            "correct": true,
+            "proposition": "Aplatissement de la coupole diaphragmatique homolatérale",
+            "justification": "L'aplatissement de la coupole diaphragmatique homolatérale est également un signe clinique et radiologique du pneumothorax sous tension."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction du volume cardiaque sur la radio",
+            "justification": "La réduction du volume cardiaque n'est pas un signe spécifique du pneumothorax sous tension."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346127996_03",
+      "current_version_epoch_ms": 1756346127996,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quel signe indirect peut être observé dans un pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Emphysème sous-cutané",
+            "justification": "L'emphysème sous-cutané est un signe indirect pouvant accompagner un pneumothorax, en raison de l'air sous la peau."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation de la densité pulmonaire",
+            "justification": "L'augmentation de la densité pulmonaire est contraire à la présence d'air dans le thorax et ne correspond pas à un signe indirect du pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Consolidation pulmonaire",
+            "justification": "La consolidation pulmonaire est un signe radiologique qui ne correspond pas à un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Hémorragie thoracique visible",
+            "justification": "L'hémorragie thoracique peut être présente dans d'autres pathologies mais ne correspond pas spécifiquement à un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Disparition de la trame vasculaire pulmonaire",
+            "justification": "La disparition de la trame vasculaire est un signe spécifique du pneumothorax et non un signe indirect."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346127996_04",
+      "current_version_epoch_ms": 1756346127996,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Dans un hydropneumothorax, quel est l'aspect radiologique typique observé en position debout ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Niveau hydro-aérique horizontal",
+            "justification": "L'aspect typique d'un hydropneumothorax en position debout est un niveau hydro-aérique horizontal visible sur la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Emphysème sous-cutané avec hyperclarté",
+            "justification": "L'emphysème sous-cutané est un signe indirect et n'est pas visible comme un niveau hydro-aérique dans l'hydropneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Croissant clair périphérique",
+            "justification": "Le croissant clair périphérique est un signe radiologique du pneumothorax mais non spécifique de l'hydropneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Rétraction du parenchyme pulmonaire",
+            "justification": "La rétraction du parenchyme pulmonaire est un signe du pneumothorax sous tension, pas de l'hydropneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Expansion de la trame vasculaire",
+            "justification": "L'expansion de la trame vasculaire n'est pas un signe radiologique associé à l'hydropneumothorax."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346127996_05",
+      "current_version_epoch_ms": 1756346127996,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Dans quel cas un scanner est-il particulièrement indiqué pour confirmer un pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "En cas de doute diagnostique",
+            "justification": "Le scanner est utilisé lorsque le diagnostic de pneumothorax est incertain sur la radiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de la première consultation en urgence",
+            "justification": "Le scanner n'est pas systématique lors de la première consultation en urgence mais plutôt en cas de doute ou pour une topographie précise."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de l'évaluation d'une emphysème sous-cutané",
+            "justification": "L'emphysème sous-cutané n'indique pas nécessairement un scanner pour diagnostiquer un pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas d'épanchement liquidien seul",
+            "justification": "L'épanchement liquidien seul n'indique pas un scanner pour confirmer un pneumothorax, car ce dernier est visible radiologiquement."
+          },
+          {
+            "correct": true,
+            "proposition": "Lors de pneumothorax récidivant à la recherche d'anomalie pulmonaire",
+            "justification": "Le scanner est indiqué pour rechercher des anomalies pulmonaires sous-jacentes en cas de récidive du pneumothorax."
+          }
+        ]
+      }
+    }
+  ]
+}
