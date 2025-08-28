@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "lesionart",
+    "subject": "ortho"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756349891736_01",
+      "current_version_epoch_ms": 1756349891736,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "lesionart"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une entorse grave de cheville aigüe, quelle est la principale raison pour laquelle une radiographie en urgence ne doit pas être réalisée ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Les critères d'Ottawa indiquent qu'une radiographie n'est pas nécessaire en cas d'entorse grave aiguë.",
+            "justification": "Les critères d'Ottawa recommandent de ne pas réaliser de radiographie en cas d'entorse aiguë, sauf en présence de critères cliniques spécifiques tels que fracture ou déformation visible."
+          },
+          {
+            "correct": false,
+            "proposition": "Une radiographie est systématiquement indiquée pour toute entorse grave aiguë.",
+            "justification": "Ce n'est pas le cas, car la radiographie n'est nécessaire que si des signes cliniques de fracture sont présents, selon les critères d'Ottawa."
+          },
+          {
+            "correct": false,
+            "proposition": "Une radiographie permet de confirmer systématiquement l'absence de lésion ligamentaire.",
+            "justification": "La radiographie ne permet pas de visualiser directement les lésions ligamentaires, qui sont mieux évaluées par d'autres méthodes comme l'IRM."
+          },
+          {
+            "correct": false,
+            "proposition": "L'examen clinique suffit pour poser le diagnostic sans recours à la radiographie.",
+            "justification": "L'examen clinique est crucial mais les radiographies peuvent être nécessaires pour exclure des fractures ou d'autres pathologies."
+          },
+          {
+            "correct": false,
+            "proposition": "Une radiographie en urgence est utile pour déterminer l'étendue de la rupture ligamentaire.",
+            "justification": "La radiographie n'évalue pas les ruptures ligamentaires, seule l'IRM ou l'échographie peut apporter ce type d'information."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756349891736_02",
+      "current_version_epoch_ms": 1756349891736,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "lesionart"
+      },
+      "data": {
+        "statement": "Que permet de mettre en évidence une radiographie de face en charge dans le cadre d'une entorse grave de cheville chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une évolution arthrosique de l'articulation tibio-talienne.",
+            "justification": "Les radiographies en charge permettent de détecter des signes d'usure et d'arthrose de l'articulation tibio-talienne, typiques des entorses chroniques."
+          },
+          {
+            "correct": false,
+            "proposition": "Une rupture complète des ligaments latéraux.",
+            "justification": "La rupture ligamentaire est mieux visualisée par des radiographies en varus forcé, pas par des radiographies classiques en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fracture osseuse récente.",
+            "justification": "La fracture serait généralement détectée en urgence par une radiographie initiale, pas spécifiquement par une radiographie en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Une dislocation de l'articulation de la cheville.",
+            "justification": "Les radiographies en charge ne sont pas principalement utilisées pour visualiser les luxations, qui sont mieux détectées lors de radiographies classiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Une instabilité aiguë de l'articulation.",
+            "justification": "L'instabilité aiguë serait mieux diagnostiquée par d'autres moyens cliniques et radiologiques spécifiques, comme la radiographie en varus forcé."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756349891736_03",
+      "current_version_epoch_ms": 1756349891736,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "lesionart"
+      },
+      "data": {
+        "statement": "Que permet de mettre en évidence une radiographie en varus forcé dans le cadre d'une entorse grave de cheville chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une ouverture de l'interligne articulaire, traduisant une instabilité latérale.",
+            "justification": "La radiographie en varus forcé permet de visualiser l'ouverture de l'interligne articulaire, ce qui suggère une instabilité latérale due à la rupture des ligaments."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fracture osseuse du talus.",
+            "justification": "La radiographie en varus forcé n'est pas utilisée pour visualiser des fractures, elle sert plutôt à évaluer l'instabilité articulaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Un pincement articulaire de l'articulation tibio-talienne.",
+            "justification": "Ce signe est plus souvent visible lors d'une radiographie de face en charge, qui permet d'évaluer les signes d'arthrose."
+          },
+          {
+            "correct": false,
+            "proposition": "La présence d'une rupture ligamentaire aiguë.",
+            "justification": "Une radiographie en varus forcé évalue l'instabilité chronique, mais ne permet pas de détecter une rupture ligamentaire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Une luxation de la cheville.",
+            "justification": "La radiographie en varus forcé est plus centrée sur l'instabilité chronique des ligaments, pas sur les luxations."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756349891736_04",
+      "current_version_epoch_ms": 1756349891736,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "lesionart"
+      },
+      "data": {
+        "statement": "Qu'est-ce que la laxité latérale de la cheville en varus forcé suggère dans le cadre d'une entorse grave de cheville chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Une rupture chronique des ligaments latéraux.",
+            "justification": "La laxité latérale en varus forcé est un signe caractéristique d'une rupture chronique des ligaments latéraux, souvent observée après des entorses graves non prises en charge."
+          },
+          {
+            "correct": false,
+            "proposition": "Une fracture osseuse récente.",
+            "justification": "La laxité latérale est liée à des lésions ligamentaires chroniques, et non à des fractures récentes."
+          },
+          {
+            "correct": false,
+            "proposition": "Un problème de laxité articulaire généralisée.",
+            "justification": "La laxité latérale spécifique de la cheville est plus indicative de la rupture des ligaments latéraux que d'une laxité articulaire généralisée."
+          },
+          {
+            "correct": false,
+            "proposition": "Une instabilité articulaire aiguë.",
+            "justification": "L'instabilité aiguë est généralement associée à un traumatisme récent, pas à une laxité chronique comme dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Une arthrose sévère de la cheville.",
+            "justification": "L'arthrose se manifeste par des signes radiologiques différents, tels qu'un pincement de l'interligne articulaire, et non par une laxité ligamentaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756349891736_05",
+      "current_version_epoch_ms": 1756349891736,
+      "rang": "B",
+      "topic": {
+        "subject": "ortho",
+        "item": "lesionart"
+      },
+      "data": {
+        "statement": "Dans le cadre d'une entorse grave de cheville, quelles radiographies sont recommandées pour évaluer une possible instabilité chronique ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Radiographies en varus forcé et en charge.",
+            "justification": "Les radiographies en varus forcé et en charge permettent d'évaluer l'instabilité chronique, la laxité ligamentaire et l'évolution arthrosique."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie en urgence dans toutes les entorses graves.",
+            "justification": "La radiographie en urgence n'est pas systématiquement indiquée pour les entorses graves aiguës, sauf en présence de critères spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographie de face classique, sans variation de position.",
+            "justification": "Une radiographie de face standard n'est pas suffisante pour évaluer l'instabilité ou les signes chroniques de l'entorse."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographies à la recherche d'une fracture uniquement.",
+            "justification": "Les radiographies ciblant uniquement les fractures ne permettent pas d'évaluer les signes chroniques d'instabilité ligamentaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Radiographies en abduction forcée.",
+            "justification": "L'abduction forcée n'est pas couramment utilisée pour évaluer l'instabilité latérale de la cheville."
+          }
+        ]
+      }
+    }
+  ]
+}
