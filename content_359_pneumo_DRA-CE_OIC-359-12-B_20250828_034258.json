@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756345524731_01",
+      "current_version_epoch_ms": 1756345524731,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est l'indication principale de la radiographie thoracique chez un nourrisson en détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Symptomatologie respiratoire grave ou doute diagnostique",
+            "justification": "La radiographie thoracique est recommandée en cas de symptomatologie respiratoire grave ou en cas de doute diagnostique, permettant ainsi d'évaluer les anomalies pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Symptômes respiratoires bénins",
+            "justification": "La radiographie thoracique n'est pas indiquée pour des symptômes bénins, qui ne justifient pas une investigation aussi invasive."
+          },
+          {
+            "correct": false,
+            "proposition": "Dans tous les cas de détresse respiratoire",
+            "justification": "Bien que la radiographie soit utile, elle n'est pas systématique dans tous les cas de détresse respiratoire mais réservée à des situations plus graves."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de faible suspicion d'infection respiratoire",
+            "justification": "En cas de faible suspicion d'infection, la radiographie n'est pas prioritaire, un suivi clinique et un traitement symptomatique peuvent suffire."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour évaluer la fonction cardiaque",
+            "justification": "La radiographie thoracique n'est pas indiquée pour l'évaluation de la fonction cardiaque, qui nécessite d'autres examens spécifiques."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345524731_02",
+      "current_version_epoch_ms": 1756345524731,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la place de la TDM thoracique dans l'exploration de la détresse respiratoire du nourrisson ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "Elle est systématiquement réalisée en cas de détresse respiratoire",
+            "justification": "La TDM thoracique n'est pas systématique dans l'exploration de la détresse respiratoire et est utilisée de manière plus sélective."
+          },
+          {
+            "correct": true,
+            "proposition": "Elle a une place limitée dans l'exploration de la détresse respiratoire",
+            "justification": "La TDM thoracique est réservée aux cas où la radiographie thoracique ne permet pas de poser un diagnostic précis ou en cas de complications graves."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est préférée à la radiographie thoracique",
+            "justification": "La TDM thoracique est plus coûteuse et nécessite une exposition plus importante aux rayonnements, d'où son usage limité par rapport à la radiographie thoracique."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est réalisée en urgence dans tous les cas de doute diagnostique",
+            "justification": "La TDM n'est pas un examen de première intention et n'est pas réalisée en urgence sauf en cas de suspicion de pathologies spécifiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Elle est principalement utilisée pour évaluer les infections respiratoires",
+            "justification": "La TDM thoracique n'est pas l'examen de choix pour évaluer les infections respiratoires courantes ; elle est plus adaptée aux pathologies complexes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345524731_03",
+      "current_version_epoch_ms": 1756345524731,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Dans quel cas une radiographie thoracique n'est-elle pas recommandée dans la gestion de la détresse respiratoire chez un nourrisson ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de symptômes respiratoires graves",
+            "justification": "La radiographie est indiquée en cas de symptômes respiratoires graves, afin d'évaluer rapidement la situation clinique."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque la symptomatologie est bénigne et non menaçante",
+            "justification": "Dans les cas de symptomatologie bénigne, la radiographie thoracique n'est pas nécessaire et l'observation clinique suffit."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsque le diagnostic est évident à partir de l'examen clinique",
+            "justification": "Si le diagnostic est évident, la radiographie n'est pas nécessaire, mais elle reste utile lorsque des doutes persistent."
+          },
+          {
+            "correct": false,
+            "proposition": "Lorsqu'un traitement est déjà administré avec amélioration clinique",
+            "justification": "Même après un traitement, si la détresse respiratoire persiste, une radiographie peut encore être nécessaire pour évaluer d'autres causes."
+          },
+          {
+            "correct": false,
+            "proposition": "Si l'enfant est âgé de plus de 2 ans",
+            "justification": "L'indication de la radiographie n'est pas limitée à l'âge et dépend de la gravité des symptômes respiratoires."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345524731_04",
+      "current_version_epoch_ms": 1756345524731,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est l'objectif principal de la radiographie thoracique chez un nourrisson en détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Évaluer les anomalies pulmonaires et thoraciques",
+            "justification": "La radiographie thoracique permet d'évaluer les anomalies respiratoires, telles que les infections pulmonaires, les pneumothorax ou les anomalies anatomiques."
+          },
+          {
+            "correct": false,
+            "proposition": "Évaluer les fonctions cardiaques",
+            "justification": "La radiographie thoracique n'est pas utilisée pour évaluer la fonction cardiaque, un échocardiogramme étant plus approprié."
+          },
+          {
+            "correct": false,
+            "proposition": "Mesurer la taille du cœur",
+            "justification": "La radiographie thoracique ne permet pas une mesure précise de la taille du cœur, ce qui nécessite d'autres explorations comme l'échocardiographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Analyser les muscles respiratoires",
+            "justification": "Les muscles respiratoires ne sont pas évalués directement par radiographie thoracique. Cette dernière sert principalement à identifier des pathologies pulmonaires."
+          },
+          {
+            "correct": false,
+            "proposition": "Prévoir l'évolution clinique de la maladie respiratoire",
+            "justification": "La radiographie thoracique permet de poser un diagnostic mais ne permet pas à elle seule de prévoir l'évolution de la maladie respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756345524731_05",
+      "current_version_epoch_ms": 1756345524731,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Dans quel contexte la TDM thoracique peut-elle être justifiée chez un nourrisson en détresse respiratoire ?",
+        "propositions": [
+          {
+            "correct": false,
+            "proposition": "En cas de doute sur une infection pulmonaire simple",
+            "justification": "La TDM n'est pas indiquée dans le cas d'une infection pulmonaire simple, où la radiographie est suffisante."
+          },
+          {
+            "correct": true,
+            "proposition": "Lorsque la radiographie thoracique ne permet pas de poser un diagnostic clair",
+            "justification": "La TDM peut être utilisée si la radiographie thoracique est insuffisante pour un diagnostic précis, notamment pour des pathologies complexes."
+          },
+          {
+            "correct": false,
+            "proposition": "En cas de symptômes respiratoires bénins",
+            "justification": "La TDM thoracique n'est pas indiquée pour des symptômes bénins, la radiographie est plus appropriée pour ces cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Lors de l'amélioration clinique de l'état du nourrisson",
+            "justification": "La TDM n'est pas utilisée lorsque l'état clinique s'améliore, sauf si de nouvelles complications surviennent nécessitant une exploration approfondie."
+          },
+          {
+            "correct": false,
+            "proposition": "Pour une surveillance de routine des nourrissons",
+            "justification": "La TDM thoracique n'est pas utilisée de manière systématique pour la surveillance des nourrissons en bonne santé ou stable."
+          }
+        ]
+      }
+    }
+  ]
+}
