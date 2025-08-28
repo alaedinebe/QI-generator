@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756344924632_01",
+      "current_version_epoch_ms": 1756344924632,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est l'origine de l'atteinte de la fonction pompe ventilatoire dans le cas d'une atteinte primaire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Atteinte de la commande respiratoire centrale (ex : accident vasculaire du tronc cérébral)",
+            "justification": "L'atteinte primaire de la fonction pompe résulte souvent d'une atteinte de la commande respiratoire centrale, comme un accident vasculaire du tronc cérébral."
+          },
+          {
+            "correct": false,
+            "proposition": "Fatigue des muscles respiratoires",
+            "justification": "La fatigue des muscles respiratoires est une cause secondaire de l'atteinte de la fonction pompe, en lien avec une détresse respiratoire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction des voies aériennes supérieures",
+            "justification": "L'obstruction des voies aériennes supérieures ne constitue pas une atteinte primaire de la fonction pompe ventilatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Myopathie",
+            "justification": "La myopathie est une atteinte neuromusculaire et constitue une cause d'atteinte de la fonction pompe secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Sclérose latérale amyotrophique",
+            "justification": "La sclérose latérale amyotrophique est une atteinte neuromusculaire, souvent responsable d'une défaillance de la pompe ventilatoire, mais elle est de nature secondaire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344924632_02",
+      "current_version_epoch_ms": 1756344924632,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la conséquence de l'atteinte de la fonction pompe ventilatoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoventilation alvéolaire avec hypoxie/hypercapnie",
+            "justification": "L'atteinte de la fonction pompe entraîne une hypoventilation alvéolaire, ce qui conduit à une hypoxie (diminution de l'oxygène) et une hypercapnie (augmentation du CO2)."
+          },
+          {
+            "correct": false,
+            "proposition": "Hyperventilation alvéolaire avec hypoxie",
+            "justification": "L'hyperventilation alvéolaire n'est pas une conséquence d'une défaillance de la pompe ventilatoire, mais plutôt de troubles respiratoires compensés."
+          },
+          {
+            "correct": false,
+            "proposition": "Acidose métabolique",
+            "justification": "L'acidose métabolique n'est pas directement liée à l'atteinte de la fonction pompe, qui génère plutôt une acidose respiratoire due à l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Hypoxémie sans hypercapnie",
+            "justification": "L'atteinte de la fonction pompe entraîne généralement une hypercapnie, en plus de l'hypoxie, en raison de l'incapacité de l'organisme à éliminer efficacement le CO2."
+          },
+          {
+            "correct": false,
+            "proposition": "L'acidose respiratoire avec diminution de la ventilation",
+            "justification": "L'acidose respiratoire est un effet possible de l'hypoventilation, mais la ventilation diminue dans le cadre de la défaillance de la pompe."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344924632_03",
+      "current_version_epoch_ms": 1756344924632,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelles sont les causes secondaires de l'atteinte de la fonction pompe ventilatoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fatigue des muscles respiratoires liée à une détresse respiratoire aiguë",
+            "justification": "L'atteinte secondaire de la fonction pompe est souvent due à la fatigue des muscles respiratoires, souvent liée à une détresse respiratoire aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Accident vasculaire du tronc cérébral",
+            "justification": "Un accident vasculaire du tronc cérébral est une cause primaire d'atteinte de la fonction pompe, affectant la commande respiratoire centrale."
+          },
+          {
+            "correct": false,
+            "proposition": "Myopathie",
+            "justification": "La myopathie, bien qu'elle touche les muscles respiratoires, constitue une cause secondaire d'atteinte de la fonction pompe."
+          },
+          {
+            "correct": false,
+            "proposition": "Atteinte des voies respiratoires supérieures",
+            "justification": "Les troubles des voies respiratoires supérieures peuvent causer une obstruction, mais ne sont pas directement liés à l'atteinte de la fonction pompe ventilatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Sclérose latérale amyotrophique",
+            "justification": "La sclérose latérale amyotrophique est une affection neuromusculaire qui conduit à une atteinte secondaire de la pompe ventilatoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344924632_04",
+      "current_version_epoch_ms": 1756344924632,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la principale cause d'hypoxie et d'hypercapnie dans le cadre d'une défaillance de la pompe ventilatoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Hypoventilation alvéolaire due à une mauvaise performance de la pompe respiratoire",
+            "justification": "L'hypoventilation alvéolaire, causée par une défaillance de la pompe ventilatoire, empêche une ventilation adéquate et entraîne à la fois hypoxie et hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction des voies aériennes inférieures",
+            "justification": "L'obstruction des voies respiratoires peut causer de l'hypoxie, mais elle n'est pas directement responsable d'hypercapnie dans le cadre d'une défaillance de la pompe."
+          },
+          {
+            "correct": false,
+            "proposition": "Augmentation du travail respiratoire dans une détresse respiratoire aiguë",
+            "justification": "Une augmentation du travail respiratoire dans une détresse respiratoire aiguë peut mener à de la fatigue musculaire, mais elle ne cause pas directement l'hypercapnie."
+          },
+          {
+            "correct": false,
+            "proposition": "Inflammation des tissus pulmonaires",
+            "justification": "Bien que l'inflammation pulmonaire puisse affecter la ventilation, elle ne provoque pas directement d'hypercapnie en l'absence d'un dysfonctionnement de la pompe ventilatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Obstruction centrale de la commande respiratoire",
+            "justification": "L'obstruction centrale de la commande respiratoire n'est pas une cause primaire d'hypoxie/hypercapnie, mais plutôt une cause d'échec de la commande respiratoire."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756344924632_05",
+      "current_version_epoch_ms": 1756344924632,
+      "rang": "B",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelles pathologies sont responsables d'une atteinte secondaire de la pompe ventilatoire ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Détresse respiratoire aiguë avec fatigue musculaire respiratoire",
+            "justification": "La détresse respiratoire aiguë provoque une augmentation du travail respiratoire, ce qui entraîne une fatigue musculaire et donc une défaillance secondaire de la pompe ventilatoire."
+          },
+          {
+            "correct": false,
+            "proposition": "Accident vasculaire cérébral",
+            "justification": "Un accident vasculaire cérébral affecte la commande respiratoire centrale et constitue une cause primaire de défaillance de la pompe."
+          },
+          {
+            "correct": false,
+            "proposition": "Myasthénie",
+            "justification": "La myasthénie est une pathologie neuromusculaire qui affecte la fonction respiratoire de manière secondaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Sclérose latérale amyotrophique",
+            "justification": "La sclérose latérale amyotrophique est une cause secondaire d'atteinte de la pompe ventilatoire en raison de l'atteinte neuromusculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Myopathie",
+            "justification": "Les myopathies sont responsables d'une défaillance secondaire de la pompe ventilatoire par leur effet sur les muscles respiratoires."
+          }
+        ]
+      }
+    }
+  ]
+}
