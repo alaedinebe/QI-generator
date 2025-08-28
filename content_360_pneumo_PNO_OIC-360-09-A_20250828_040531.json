@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "PNO",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756346877760_01",
+      "current_version_epoch_ms": 1756346877760,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Dans quelle situation l'exsufflation pleurale est-elle indiquée en urgence ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumothorax sous pression avec signes de gravité",
+            "justification": "L'exsufflation est indiquée en cas de pneumothorax sous pression avec signes de gravité, nécessitant un geste d'urgence pour évacuer l'air et améliorer la tolérance respiratoire et hémodynamique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax complet sans signes de gravité",
+            "justification": "L'exsufflation n'est pas indiquée dans les cas de pneumothorax complet sans signes de gravité, car l'urgence est moins critique."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax spontané de faible abondance chez un sujet jeune",
+            "justification": "L'exsufflation est rarement indiquée dans un pneumothorax spontané de faible abondance, surtout si l'urgence est moindre."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax avec décollement inférieur à 2 cm",
+            "justification": "L'exsufflation n'est pas nécessaire si le décollement est inférieur à 2 cm, car cette condition est moins urgente."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax associé à une fracture costale sans signes de gravité",
+            "justification": "L'exsufflation n'est pas indiquée en l'absence de signes de gravité, même si une fracture costale est présente."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346877760_02",
+      "current_version_epoch_ms": 1756346877760,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelle est la procédure à suivre lors de l'exsufflation pleurale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Ponction à l'aide d'un cathéter de gros calibre au 2ème espace intercostal, ligne médioclaviculaire",
+            "justification": "La procédure implique une ponction au 2ème espace intercostal, sur la ligne médioclaviculaire, avec un cathéter de gros calibre pour évacuer l'air sous pression."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction au 4ème espace intercostal, ligne axillaire",
+            "justification": "La ponction doit être réalisée au 2ème espace intercostal, pas au 4ème, et sur la ligne médioclaviculaire."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction à l'aide d'un cathéter fin sous contrôle échographique",
+            "justification": "Un cathéter de gros calibre doit être utilisé pour l'exsufflation, et la procédure n'est pas réalisée sous échographie."
+          },
+          {
+            "correct": false,
+            "proposition": "Ponction au 1er espace intercostal, ligne parasternal",
+            "justification": "La ponction doit se faire au 2ème espace intercostal, ligne médioclaviculaire, et non au 1er espace intercostal."
+          },
+          {
+            "correct": false,
+            "proposition": "Utilisation d'un drain plutôt qu'un cathéter pour l'exsufflation",
+            "justification": "Le drain est plutôt utilisé pour un drainage pleural post-exsufflation, et non pour l'exsufflation elle-même."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346877760_03",
+      "current_version_epoch_ms": 1756346877760,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelle est l'indication clinique principale de l'exsufflation pour un pneumothorax complet ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Pneumothorax complet avec décollement supérieur à 2 cm",
+            "justification": "L'exsufflation est indiquée dans les pneumothorax complets de grande abondance, notamment lorsque le décollement dépasse 2 cm."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax spontané de faible abondance",
+            "justification": "L'exsufflation n'est pas nécessaire pour un pneumothorax spontané de faible abondance, surtout en absence de signes de gravité."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax associé à une fracture costale non compliquée",
+            "justification": "La fracture costale sans complications ne justifie pas l'exsufflation du pneumothorax."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax sous pression sans signes de gravité",
+            "justification": "L'exsufflation n'est pas indiquée en cas de pneumothorax sous pression sans signes de gravité. L'urgence est absente dans ce cas."
+          },
+          {
+            "correct": false,
+            "proposition": "Pneumothorax avec signes de mauvaise tolérance respiratoire légère",
+            "justification": "L'exsufflation est réservée aux situations de gravité, avec signes cliniques de mauvaise tolérance respiratoire marquée."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346877760_04",
+      "current_version_epoch_ms": 1756346877760,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quelles sont les actions complémentaires à réaliser après l'exsufflation d'un pneumothorax ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Oxygénothérapie, expansion volémique et antalgie",
+            "justification": "En parallèle de l'exsufflation, il est crucial de mettre en place une oxygénothérapie, d'assurer une expansion volémique et de traiter la douleur."
+          },
+          {
+            "correct": false,
+            "proposition": "Administration de corticostéroïdes pour réduire l'inflammation",
+            "justification": "Les corticostéroïdes ne sont pas une mesure standard après une exsufflation pleurale, surtout dans ce cadre clinique."
+          },
+          {
+            "correct": false,
+            "proposition": "Injection d'antibiotiques de large spectre",
+            "justification": "L'exsufflation ne nécessite pas systématiquement l'administration d'antibiotiques, sauf en cas de suspicion d'infection."
+          },
+          {
+            "correct": false,
+            "proposition": "Mise en place d'un drain à la place de l'exsufflation",
+            "justification": "Un drain peut être utilisé après l'exsufflation en cas de besoin pour un drainage, mais il ne remplace pas l'exsufflation."
+          },
+          {
+            "correct": false,
+            "proposition": "Surveillance uniquement en service de réanimation",
+            "justification": "La surveillance est importante, mais elle peut se faire en soins intensifs, pas nécessairement en réanimation."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756346877760_05",
+      "current_version_epoch_ms": 1756346877760,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "PNO"
+      },
+      "data": {
+        "statement": "Quel est le critère d'évaluation du succès de l'exsufflation pleurale ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Evacuation de l'air sous pression et amélioration clinique immédiate",
+            "justification": "Le succès de l'exsufflation est confirmé par l'évacuation de l'air sous pression (indiqué par le 'pchit') et par une amélioration clinique immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction du volume pleural visible à l'imagerie",
+            "justification": "Bien que l'imagerie puisse montrer des améliorations, le critère principal est clinique, avec l'évacuation de l'air et l'amélioration immédiate."
+          },
+          {
+            "correct": false,
+            "proposition": "Disparition des douleurs thoraciques",
+            "justification": "La disparition des douleurs thoraciques peut être une conséquence, mais ce n'est pas le critère principal du succès de l'exsufflation."
+          },
+          {
+            "correct": false,
+            "proposition": "Normalisation des paramètres hémodynamiques",
+            "justification": "Bien que la normalisation des paramètres hémodynamiques puisse se produire, le critère de succès de l'exsufflation repose sur l'amélioration clinique immédiate après évacuation de l'air."
+          },
+          {
+            "correct": false,
+            "proposition": "Réduction de la taille du pneumothorax à la radiographie",
+            "justification": "La radiographie peut être utile, mais l'indicateur de succès est l'amélioration clinique immédiate, pas nécessairement la réduction de la taille à l'imagerie."
+          }
+        ]
+      }
+    }
+  ]
+}
