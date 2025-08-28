@@ -1,0 +1,211 @@
+{
+  "topic": {
+    "item": "DRA-CE",
+    "subject": "pneumo"
+  },
+  "metadata": {
+    "batch": "IA_aout"
+  },
+  "question": [
+    {
+      "published": false,
+      "id": "AIgenerated_1756343120919_01",
+      "current_version_epoch_ms": 1756343120919,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est le bruit évocateur d'un obstacle glottique ou supra-glottique chez un patient ayant inhalé un corps étranger ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Stridor",
+            "justification": "Le stridor est un bruit inspiratoire évocateur d'un obstacle au niveau glottique ou supra-glottique."
+          },
+          {
+            "correct": false,
+            "proposition": "Wheezing",
+            "justification": "Le wheezing est un bruit expiratoire lié à un obstacle sous-trachéal, et non glottique ou supra-glottique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cornage",
+            "justification": "Le cornage est également un bruit inspiratoire qui peut être associé à un obstacle glottique ou supra-glottique."
+          },
+          {
+            "correct": false,
+            "proposition": "Râle crépitant",
+            "justification": "Les râles crépitants sont généralement associés à des affections pulmonaires parenchymateuses et non à un obstacle des voies aériennes supérieures."
+          },
+          {
+            "correct": false,
+            "proposition": "Murmure vésiculaire diminué",
+            "justification": "Un murmure vésiculaire diminué est un signe d'obstruction périphérique, pas d'obstruction glottique ou supra-glottique."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756343120919_02",
+      "current_version_epoch_ms": 1756343120919,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quels sont les signes évocateurs d'une épiglottite aiguë chez un enfant ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Fièvre",
+            "justification": "La fièvre est un signe classique d'épiglottite aiguë, indiquant une infection aiguë de l'épiglotte."
+          },
+          {
+            "correct": true,
+            "proposition": "Hypersialorrhée",
+            "justification": "L'hypersialorrhée, ou salivation excessive, est fréquente dans l'épiglottite aiguë en raison de la douleur et de la difficulté à déglutir."
+          },
+          {
+            "correct": false,
+            "proposition": "Stridor inspiratoire",
+            "justification": "Le stridor inspiratoire est plus spécifique de l'inhalation d'un corps étranger, pas de l'épiglottite aiguë."
+          },
+          {
+            "correct": true,
+            "proposition": "Altération de l'état général marquée",
+            "justification": "Une altération marquée de l'état général, souvent accompagnée de signes de détresse respiratoire, est un signe caractéristique de l'épiglottite aiguë."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux productive",
+            "justification": "La toux productive est plus fréquente dans les infections pulmonaires, mais n'est pas un signe prédominant de l'épiglottite aiguë."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756343120919_03",
+      "current_version_epoch_ms": 1756343120919,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel bruit est typiquement associé à un obstacle trachéal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bruit aux deux temps",
+            "justification": "Les bruits respiratoires associés à un obstacle trachéal sont généralement audibles à la fois lors de l'inspiration et de l'expiration."
+          },
+          {
+            "correct": false,
+            "proposition": "Stridor",
+            "justification": "Le stridor est principalement inspiratoire et suggère un obstacle glottique ou supra-glottique, et non trachéal."
+          },
+          {
+            "correct": false,
+            "proposition": "Wheezing",
+            "justification": "Le wheezing est un bruit expiratoire souvent lié à des obstructions sous-trachéales, et non trachéales."
+          },
+          {
+            "correct": false,
+            "proposition": "Râle crépitant",
+            "justification": "Les râles crépitants sont associés à des pathologies pulmonaires parenchymateuses, et non à un obstacle trachéal."
+          },
+          {
+            "correct": false,
+            "proposition": "Cornage",
+            "justification": "Le cornage est un bruit inspiratoire qui, comme le stridor, évoque un obstacle au niveau supérieur des voies aériennes."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756343120919_04",
+      "current_version_epoch_ms": 1756343120919,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quelle est la principale caractéristique de la détresse respiratoire associée à l'inhalation de corps étranger ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Bruits respiratoires anormaux",
+            "justification": "L'inhalation de corps étranger provoque des bruits respiratoires anormaux comme le stridor, le cornage, ou le wheezing selon le niveau d'obstruction."
+          },
+          {
+            "correct": false,
+            "proposition": "Douleur thoracique aiguë",
+            "justification": "La douleur thoracique aiguë n'est pas un signe caractéristique de l'inhalation de corps étranger, sauf si la trachée est perforée."
+          },
+          {
+            "correct": false,
+            "proposition": "Cyanose persistante",
+            "justification": "La cyanose peut être un signe de détresse respiratoire sévère, mais elle n'est pas toujours présente dans tous les cas d'inhalation de corps étranger."
+          },
+          {
+            "correct": false,
+            "proposition": "Toux sèche persistante",
+            "justification": "Une toux sèche persistante n'est pas spécifique de l'inhalation de corps étranger et peut aussi être observée dans diverses infections respiratoires."
+          },
+          {
+            "correct": false,
+            "proposition": "Fièvre élevée",
+            "justification": "La fièvre élevée est plus caractéristique d'une infection comme l'épiglottite, et non de l'inhalation de corps étranger."
+          }
+        ]
+      }
+    },
+    {
+      "published": false,
+      "id": "AIgenerated_1756343120919_05",
+      "current_version_epoch_ms": 1756343120919,
+      "rang": "A",
+      "topic": {
+        "subject": "pneumo",
+        "item": "DRA-CE"
+      },
+      "data": {
+        "statement": "Quel est le bruit respiratoire associé à un obstacle sous-trachéal ?",
+        "propositions": [
+          {
+            "correct": true,
+            "proposition": "Wheezing",
+            "justification": "Le wheezing est un bruit expiratoire typique d'un obstacle sous-trachéal, souvent observé dans l'asthme ou lors de l'inhalation de corps étrangers."
+          },
+          {
+            "correct": false,
+            "proposition": "Stridor",
+            "justification": "Le stridor est un bruit inspiratoire et est plus souvent associé à un obstacle glottique ou supra-glottique."
+          },
+          {
+            "correct": false,
+            "proposition": "Cornage",
+            "justification": "Le cornage est également un bruit inspiratoire, lié à un obstacle supérieur des voies aériennes."
+          },
+          {
+            "correct": false,
+            "proposition": "Râle crépitant",
+            "justification": "Les râles crépitants sont associés à des pathologies pulmonaires parenchymateuses et ne sont pas liés à un obstacle sous-trachéal."
+          },
+          {
+            "correct": false,
+            "proposition": "Murmure vésiculaire diminué",
+            "justification": "Un murmure vésiculaire diminué est un signe de compression pulmonaire, mais pas d'un obstacle sous-trachéal."
+          }
+        ]
+      }
+    }
+  ]
+}
